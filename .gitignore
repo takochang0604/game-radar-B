@@ -12,6 +12,3 @@ data/
 
 # 本機啟動腳本
 start-server.bat
-
-# 自動產生的資料檔
-data.js
