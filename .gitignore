@@ -1,0 +1,17 @@
+# 依賴
+node_modules/
+
+# 機密金鑰（絕對不可上傳）
+google-credentials.json
+
+# 本地資料快照（已遷移至 Firebase）
+data/
+
+# Gemini AI 設定
+.agents/
+
+# 本機啟動腳本
+start-server.bat
+
+# 自動產生的資料檔
+data.js

@@ -1,0 +1,22 @@
+{
+  "name": "game-competitive-analysis",
+  "version": "1.0.0",
+  "description": "非博弈類手機遊戲產品競爭力分析工具",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-rankings.js",
+    "analyze": "node scripts/detect-darkhorse.js",
+    "deep-analyze": "node scripts/deep-analysis.js",
+    "build": "node scripts/build-data.js",
+    "upload": "node scripts/upload-to-firebase.js",
+    "gen-history": "node scripts/generate-history.js",
+    "init-demo": "node scripts/generate-history.js && node scripts/detect-darkhorse.js && node scripts/build-data.js",
+    "daily": "node scripts/fetch-rankings.js && node scripts/detect-darkhorse.js && node scripts/upload-to-firebase.js",
+    "dev": "npx -y live-server --port=8080 --no-browser"
+  },
+  "dependencies": {
+    "@perttu/app-store-scraper": "^2.0.0",
+    "firebase-admin": "^13.8.0",
+    "google-play-scraper": "^9.1.1"
+  }
+}

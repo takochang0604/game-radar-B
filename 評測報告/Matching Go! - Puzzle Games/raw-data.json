@@ -1,0 +1,409 @@
+{
+  "appId": "com.matchinggo.puzzlegames",
+  "title": "Matching Go! - Puzzle Games",
+  "developer": "Lynn Mobile Puzzle Games",
+  "developerId": "4776101697609439374",
+  "genre": "Casual",
+  "genreId": "GAME_CASUAL",
+  "score": 4.6034484,
+  "ratings": 3112,
+  "reviews": 271,
+  "installs": "500,000+",
+  "maxInstalls": 723236,
+  "free": true,
+  "price": 0,
+  "released": "Mar 24, 2025",
+  "updated": 1776249134000,
+  "version": "2.1.13",
+  "contentRating": "Everyone",
+  "icon": "https://play-lh.googleusercontent.com/hwzeP07vjj5lm9OKKTQkFNHFoOi5Ep8o5JTLfKsX3zcT-loZT_vf6_Pcfm_hx_XI8o8i",
+  "headerImage": "https://play-lh.googleusercontent.com/uq_NUUzU6ZflHp9yWPkWBFkcWBxHF_dwmhdJQPdz4HcHi-r_Ey5cSuCrmdE3wBXFx3M",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/42Fn_39LIXcJk1n7MKtaiTFm3Gw9cIIxIyhNDdO18zmttZsaFYJqSAV-BlAUdcPlk0Ch",
+    "https://play-lh.googleusercontent.com/v4cld27olfzAh60lNZiiM7NCRcCcoxLSO11N5y2DxLoA2uGqEcBDrpCwY8CmYh6ChCjl",
+    "https://play-lh.googleusercontent.com/rTVtJ6y9q_SxPINnfZwpqe-esQT3uF_kuKKEASgX8faqOCoSHp17hjTDiUMWSn7f6A",
+    "https://play-lh.googleusercontent.com/TewqWWY8G1cUtNdu6I_7FGcLcLCxQong5Z0CqJ6bxRX1SXHKNshixrhMh8dl8-V2E7c",
+    "https://play-lh.googleusercontent.com/InhgxYxkBFt3zEQ9TmyxIdfkIJAP8IDpR5angandGzcT_Cj8Rhhso3w-MHH46UQzUvQa",
+    "https://play-lh.googleusercontent.com/-tZiK-01UHKWE4sOLuSiz8i_lYAn2uaMrtiWDSP5c0Xp-_VRacySemqyekGLSh3lHw",
+    "https://play-lh.googleusercontent.com/KSu--8j1_nIG8MAQWw_9GeXQREREnFcue32zIBTFax-wN2Cc4prrh18teWxDosguuQ",
+    "https://play-lh.googleusercontent.com/gUztHz42r0Ieu2-JQ4UeunRmCtf7z9n_VazJZ36tyGYo8NvuTua8BWQx0wZoRhPk_2Q",
+    "https://play-lh.googleusercontent.com/rbtkENtDilKDwJxHBt0e6REYCyZmQOUoe7D8bq0SDh5n2TapeS9tx5L0xIi7ozOMH1RM",
+    "https://play-lh.googleusercontent.com/h8e0NW4tQEC0APIhZPetEyWCtesi4R-xjOsOClF2ZSV6Ja6C4kj55PPTESYNN4U0Cuk",
+    "https://play-lh.googleusercontent.com/iF9fermbk8aWSyYCfmO0Pl9KCRWH82K-_1B7n7V2vYIsFjzN2gGIaI3S-NCFlCMpnN0",
+    "https://play-lh.googleusercontent.com/YATHEhMoU8L0_Xrqq8230nYAdHlgMjw2eqzEu1FVHUlkw6Oatozd43ttQfxjaKrOQsI",
+    "https://play-lh.googleusercontent.com/owk8cflXEmD8-to6XbMjadJutxJhWaksnjJREOJREQBbJnqP7u7H893IA7QO0w7FRVs",
+    "https://play-lh.googleusercontent.com/XhLaZtuSSdinNzM5WVGZfZh0tY323QrJl2F1YR8_J2dCpDxJQ9nOpPLIidPEjcQhaGM",
+    "https://play-lh.googleusercontent.com/uwhSu7gg4wAAi3Eos8e_yOf5VAygIpPhuYv5KwRgEIzvGiPXoF2nunUG700XrUKiSmdD",
+    "https://play-lh.googleusercontent.com/fLT34tfySaJe7pT3nDYfXvaZolhGcaN9XdJWf-G2BZbRbRTRm3S05UaMnzYhbnaote8",
+    "https://play-lh.googleusercontent.com/yfZUrd4vHK5W7y4rZyCwDLc4aZBu_4hAE2RnkC9xXffA5zIEyutlxdBartDw1r_WwdUg",
+    "https://play-lh.googleusercontent.com/mli_PksyRnkvBu6ewbQ6IT5xaOWMuw92YYmK5wjjrcOGiX6jbjf3XFZwW1ENdcOo3PS2",
+    "https://play-lh.googleusercontent.com/roODru9L1ereVYF1jqmTMiG-WK1R0qrgVZZCrWF3aSgDMMcix2sveaJg01NJRTM4Ww",
+    "https://play-lh.googleusercontent.com/v-RSPoFultWBkJzB4syXzD25AIcUi9MvWRQMq7fckxaks2N8btPLZXqSzzZfLQFo7g",
+    "https://play-lh.googleusercontent.com/M219nBP-fOOSQyrNWWulvxWeHOKPjA8CiG5xkCNae85Ox_Lbeg9XmYJVenHUWe7UMQ",
+    "https://play-lh.googleusercontent.com/beLv4rvYvkaV2rzlzbvi5j6wj6yMQCnVI4y8zYdnvbYDCWroAOb1AdB3PYDQd8El4Q",
+    "https://play-lh.googleusercontent.com/kjrpOxdGVd_ffPxkvkOlpCZcWwz0mnFMdEGrTdbhqSL-iZEUcf3HpO0y2hqQuOo5XDI",
+    "https://play-lh.googleusercontent.com/2K8zd5VvsjMtyIu3ifm5sbgdOGypGqVvaFnz1fQx12lGkrD99SCYS1dbC9Vt0KfvAQ",
+    "https://play-lh.googleusercontent.com/2R0t6gbr_fj47wmRKIVMHwrLbLnJzz8ASzSXhH8p6mkJQ9qU2HG71vBIlowvpZ5f6w",
+    "https://play-lh.googleusercontent.com/MFEQdoeqY3uMGeD7oQtSVCr2nMUtvxToKqBwd7Q4oxcUGD1yEXEZBK4JJcN4640u7-c",
+    "https://play-lh.googleusercontent.com/gxR9YeaJGmY1onda1uzYFv9gsPcc1UVo-XL_UFhOUpt_7ZUrkXWR2TVt2Jyhm_bLkA",
+    "https://play-lh.googleusercontent.com/7kg3alfYTOSZ9S3dq_bJp9M-81N7jEJTlIMIAWb8oc0tiVoeIoFAkkuwGN9IUl80Qpo",
+    "https://play-lh.googleusercontent.com/tcipYpZ4Yy6SP9jChF9G4NyemMYSeW97Wqb9D9u6uEvfJofpX6cl6WOPYCEsO6un6uQ",
+    "https://play-lh.googleusercontent.com/bdMFsHbeElgnantuysENtlBrDSOjtqegyH-sEG86zM9wrJayRqGys5KzosQOjHqM6cc",
+    "https://play-lh.googleusercontent.com/KpBPjnvJxdc77I2w6KHHoJZDIU5Syb4gO6joT-XTg470Z5sPRA2NMFT4lyYzYz5eQE60",
+    "https://play-lh.googleusercontent.com/PyhUP0-oTGGz0PppITyANZcQ1I04Y2s6MQ6NZk-X4CWwL2lkny5GeNPXhVVtHTPZ7a4l"
+  ],
+  "video": "https://www.youtube.com/embed/Wmba3ZkJydM?vq=large&rel=0&autohide=1&showinfo=0",
+  "videoImage": "https://play-lh.googleusercontent.com/uq_NUUzU6ZflHp9yWPkWBFkcWBxHF_dwmhdJQPdz4HcHi-r_Ey5cSuCrmdE3wBXFx3M",
+  "summary": "Match, build, and explore! Travel the world and solve puzzles along the way!",
+  "description": "Welcome to Matching Go, a thrilling match-3 puzzle game where you explore the world alongside Chloe and her adorable corgi Ollie! Whether you’re a casual player or a puzzle expert, Matching Go offers endless fun and a delightful journey. Get ready to match, collect, and build as you travel to breathtaking destinations!\n\nJoin Chloe and Ollie on their adventure across the globe! Start your match-3 journey now and see where the next puzzle takes you!\n\nFEATURES OF MATCHING GO:\n\n🎮 Engaging Puzzle Gameplay\n‒ Match 3 or more colorful objects to unleash exciting combos and power-ups!\n‒ Levels designed for players of all skill levels, from easy to challenging!\n\n🌍 Travel the World \n‒ Discover iconic cities like New York, London, and Paris, alongside imaginative realms like Christmas Village, Fairyland and so on!\n‒ Build exquisite landmarks as you pass new levels and gather mallets!\n\n✨ Stunning Visuals\n‒ Every map comes to life with vibrant colors and fabulous designs!\n‒ Enjoy the thrill of matching as explosive animations and unique effects make every game more satisfying!\n\n🎁 Special Rewards \n‒ Earn daily bonuses and participate in exciting events to win prizes!\n‒ Speed up with various winning streak boosters!\n\n⚔️ Compete with Others\n‒ Challenge other players on the leaderboard!\n‒ Climb the ranks and prove your puzzle-solving skills to become the top player!\n\nAre you ready to embark on a world of fun and puzzles?  Download Matching Go now and start your trip!🚀\n\nGot questions or feedback? Reach us at blockpuzzleonlinestudio@gmail.com. We're always here to help!",
+  "recentChanges": "Set off on a thrilling journey in Matching Go! New content is here—join us on an exciting world journey!<br>‒ Improved overall performance and fixed known bugs.<br>Get ready for new adventures! Every 1-2 weeks, we&#39;re adding 100 exciting new levels and fresh destinations to explore!",
+  "developerWebsite": "https://www.dingshanmobile.com/",
+  "developerEmail": "blockpuzzleonlinestudio@gmail.com",
+  "privacyPolicy": "https://docs.google.com/document/d/1uPE4uKNVtUZH79ClndOqrrAg7zTBQ4UK5mDYD7-LGUc/edit?usp=sharing",
+  "userReviews": [
+    {
+      "userName": "Pamelasplaytime",
+      "score": 5,
+      "text": "I usually don't care for match games but this one has so many features. Tournaments, card packs, city building, \"help the unfortunate mother and child\". Lots to do and levels are fast.",
+      "date": "2026-05-04T08:36:12.438Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Leo Diaz",
+      "score": 5,
+      "text": "very fun game",
+      "date": "2026-05-04T06:49:24.411Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Joseph Candiloro",
+      "score": 5,
+      "text": "I try to lose so I can go to sleep and I just keep winning.",
+      "date": "2026-05-04T04:54:51.383Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Anthony Bocchino",
+      "score": 1,
+      "text": "Had to uninstall and reinstall the game because of too many freeze ups. I was on level 703. When I reinstalled the game, I lost all my stats. Now I'm on level 2. How do I get back to where I left off??? UPDATE: till no recognition regarding my status. Even Scrambly knows I passed level 700. Your game kept freezing on helicopters, and I was told to uninstall and reinstall, but I lost everything I accomplished and all the real money I spent on in app purchases!!!",
+      "date": "2026-05-04T04:04:58.381Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Justin Johnson",
+      "score": 1,
+      "text": "keep freezing terrible game. don't download.",
+      "date": "2026-05-03T23:00:51.939Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jolene Smith",
+      "score": 1,
+      "text": "I wanted to love this game! it keeps dying / pausing.. you can't do anything, i have tried 4 times. I didn't get very far.",
+      "date": "2026-05-03T23:00:01.309Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "D and D Nelson",
+      "score": 3,
+      "text": "I started out loving this game but then as I got to higher levels it got to the point that the only way to get past a level is by buying boosters or just keep \"retrying\". I get that the game wants to challenge you but when you go thru all the coins, all the boosters and still cant get past the level is frustrating. Getting to the point of deleting the game.",
+      "date": "2026-05-03T22:53:53.114Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "naomi strother",
+      "score": 5,
+      "text": "I just started playing games. Sofar the game is fun to play. l will keep you updated on the games.",
+      "date": "2026-05-03T22:53:40.618Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Donna Groh",
+      "score": 1,
+      "text": "game doesn't open",
+      "date": "2026-05-03T17:43:40.254Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jennifer Norris",
+      "score": 2,
+      "text": "Love the game! Hate that it glitches on levels with mailboxes/letters forcing me to restart and loose ranking. Also, the game will freeze on the background image and not allow me to play anything. Restart does not fix. Had to uninstall, loosing all progress, and reinstall to play again. This is the second time I have had to delete and re-download. Very frustrating!",
+      "date": "2026-05-03T04:31:40.791Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jana Lackey",
+      "score": 5,
+      "text": "I love this game thank you so much for making it",
+      "date": "2026-05-03T03:59:18.604Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Andrew Morales",
+      "score": 5,
+      "text": "excellent game",
+      "date": "2026-05-03T02:48:36.588Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Ernesto Gonzalez",
+      "score": 5,
+      "text": "excellent game",
+      "date": "2026-05-03T01:55:24.492Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Rachel Smock",
+      "score": 1,
+      "text": "Need to fix the glitch with the mailboxes. You lose a life every time when it is the fault of the app.",
+      "date": "2026-05-02T22:26:36.890Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Cindybear",
+      "score": 1,
+      "text": "It keeps freezing up and can't complete the level I played the same level 6 times",
+      "date": "2026-05-02T17:29:23.870Z",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Sharon Pellan",
+      "score": 5,
+      "text": "fun",
+      "date": "2026-05-02T17:10:15.239Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Sharon Smith",
+      "score": 5,
+      "text": "I love the 4 second ads you do not have to wait 15 to 50 seconds like other games",
+      "date": "2026-05-02T11:57:05.959Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Catherine Sarah Tremain",
+      "score": 1,
+      "text": "nail keeps glitching on screen causing game to freeze and become unplayable",
+      "date": "2026-05-02T11:47:10.732Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "sharon blenman",
+      "score": 5,
+      "text": "love this game 🎮",
+      "date": "2026-05-02T05:51:12.457Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Lorrie Golding",
+      "score": 5,
+      "text": "simply fun, no pressure...enjoying games in spare time. 😄",
+      "date": "2026-05-02T02:05:22.980Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Penny Kennedy",
+      "score": 5,
+      "text": "I enjoy the whole idea of rescuing these families. The magic wands add to it yet there are lots of options to how I can clear a board to gain wands.",
+      "date": "2026-05-02T01:03:54.544Z",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Carmen Chaney",
+      "score": 5,
+      "text": "fun",
+      "date": "2026-05-01T21:37:50.631Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Katherine Royer",
+      "score": 5,
+      "text": "Fun 4 now.",
+      "date": "2026-05-01T21:03:14.356Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Dan Estrella",
+      "score": 1,
+      "text": "Glitchiest Android App I've Ever Seen. The \"dev\" probably should have sprung for a higher tier of Claude Code because they sure don't know how to make a game and their ai assistant doesn't either. In my 15 years of using Android I have never used an app so poorly made.",
+      "date": "2026-05-01T19:48:57.917Z",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Sheryl Gratton",
+      "score": 5,
+      "text": "cool game!",
+      "date": "2026-05-01T18:54:28.747Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Krisa Vrauda",
+      "score": 4,
+      "text": "love the way the inevitable ads come up, because it is always clear and reliable on how to close them! only issue is an occasional graphical error that auto-fails every level it shows up on.",
+      "date": "2026-05-01T17:30:04.576Z",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "Cathryn Pearson",
+      "score": 4,
+      "text": "It's an amazing game! One thing I don't like is the adds after each game!",
+      "date": "2026-05-01T10:29:49.510Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Alejandro Bernal",
+      "score": 1,
+      "text": "disappointing",
+      "date": "2026-05-01T08:26:16.296Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "luzcelenia sanchez",
+      "score": 5,
+      "text": "love this game",
+      "date": "2026-05-01T07:30:38.236Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jessica Black",
+      "score": 5,
+      "text": "Fun and engaging! I enjoy the various \"races\" and challenges.",
+      "date": "2026-05-01T01:59:27.150Z",
+      "thumbsUp": 0
+    }
+  ],
+  "similarApps": [
+    {
+      "appId": "com.matchinggo.puzzlegames",
+      "title": "Matching Go! - Puzzle Games",
+      "developer": "Lynn Mobile Puzzle Games",
+      "score": 4.6034484,
+      "icon": "https://play-lh.googleusercontent.com/hwzeP07vjj5lm9OKKTQkFNHFoOi5Ep8o5JTLfKsX3zcT-loZT_vf6_Pcfm_hx_XI8o8i"
+    },
+    {
+      "appId": "com.bubbleshooter.pop.dream.classic.panda.puzzle",
+      "title": "Bubble Shooter Magic Adventure",
+      "developer": "Lynn Mobile Puzzle Games",
+      "score": 4.8317757,
+      "icon": "https://play-lh.googleusercontent.com/yLJUq6pXApiFV4zDVLeFSIJcd34thURSFs8fLVzlHa6aWSP2FDVf4Wk_0szHz2BENpY"
+    },
+    {
+      "appId": "com.puzzlegame.match.jewels.adventure",
+      "title": "Jewels Adventure Match Blast",
+      "developer": "Lynn Mobile Puzzle Games",
+      "score": 4.5519876,
+      "icon": "https://play-lh.googleusercontent.com/GOuL5CDCjtBy3C5q-g3TmEw_WC61UdgubZbmLggY1i7pUWAWAbYDGGjI7smtEzPZlDwf"
+    },
+    {
+      "appId": "com.wood.screwpuzzle.bolts.and.nuts.sort.jam",
+      "title": "Wood Screw Puzzle - Bolts Sort",
+      "developer": "Lynn Mobile Puzzle Games",
+      "score": 4.6372547,
+      "icon": "https://play-lh.googleusercontent.com/11rXMhEnGQzqCHbRymEy1pIYvTdnpg7hiHfss8NZ9qK_UAmJMtEIvoPtZAPz_gYY_SvS"
+    },
+    {
+      "appId": "mahjong.game.match.spirit.casual",
+      "title": "Mahjong Spirit: Match Game",
+      "developer": "Lynn Mobile Puzzle Games",
+      "score": 4.775701,
+      "icon": "https://play-lh.googleusercontent.com/4LePhbtVKEoN0CD5VZ3gn2yYqm7Iy-J8oZJwymKgC7UV28jWCqKmNFo_oJgEdy_en5GLzv4MIBi-mcZV527K"
+    },
+    {
+      "appId": "com.matchingtiles.puzzle.triple.game",
+      "title": "Matching Tiles: City Scape",
+      "developer": "Lynn Mobile Puzzle Games",
+      "score": 4.9313726,
+      "icon": "https://play-lh.googleusercontent.com/Zi0yCmQQ-XPSydnP61X7wuKIVMQtXD_MTWsR1sHhs5rh3Kg80hu8FoknsheECw9pkA"
+    },
+    {
+      "appId": "com.pop.bubbleshooter.gem.classic.games",
+      "title": "Bubble Shooter Gem Puzzle Pop",
+      "developer": "Lynn Mobile Puzzle Games",
+      "score": 4.5823293,
+      "icon": "https://play-lh.googleusercontent.com/JcwuufgbS6Shy-sfNWbM5f_0y64DhV_QD45F-PbTy6fi2Le8jx25G4LQ_iL-Pn3aB33kCm0SWiU73NFvTKbqDPI"
+    },
+    {
+      "appId": "com.blockpuzzle.jewel.diamond",
+      "title": "Block Puzzle Gem: Jewel Blast",
+      "developer": "Lynn Mobile Puzzle Games",
+      "score": 4.384513,
+      "icon": "https://play-lh.googleusercontent.com/ErgWtYxQnrvXY-UG0G1hlM9eenOrs5uZ2ifF2Q3BMWfYUTPjJUcNrL9pGBae2YM5-Oz0g_fu-sqsgjJNOfuLCg"
+    },
+    {
+      "appId": "solitaire.game.classic.klondike",
+      "title": "Solitaire Classic",
+      "developer": "Lynn Mobile Puzzle Games",
+      "score": 4.99,
+      "icon": "https://play-lh.googleusercontent.com/CdPKbZgin1z786PT2yjzbxsCSeTY0tYzZZyvaPVmOVlQ5k8UaCdVg8ui0_e8Ih4_BVguJtf-pF4bd5R6Nspx4Q"
+    },
+    {
+      "appId": "com.tile.trip.triple.match.connect.puzzle",
+      "title": "Tile Match Triple Match Puzzle",
+      "developer": "Lynn Mobile Puzzle Games",
+      "score": 4.7727275,
+      "icon": "https://play-lh.googleusercontent.com/oF2vml54cPImmV4c8dmkBIpaLvDk7S4bOGzsVJh30aN3mfW6fuW61n4mzLvUtnVuGw"
+    }
+  ],
+  "developerApps": [
+    {
+      "appId": "com.matchinggo.puzzlegames",
+      "title": "Matching Go! - Puzzle Games",
+      "score": 4.6034484,
+      "icon": "https://play-lh.googleusercontent.com/hwzeP07vjj5lm9OKKTQkFNHFoOi5Ep8o5JTLfKsX3zcT-loZT_vf6_Pcfm_hx_XI8o8i"
+    },
+    {
+      "appId": "com.bubbleshooter.pop.dream.classic.panda.puzzle",
+      "title": "Bubble Shooter Magic Adventure",
+      "score": 4.8317757,
+      "icon": "https://play-lh.googleusercontent.com/yLJUq6pXApiFV4zDVLeFSIJcd34thURSFs8fLVzlHa6aWSP2FDVf4Wk_0szHz2BENpY"
+    },
+    {
+      "appId": "com.puzzlegame.match.jewels.adventure",
+      "title": "Jewels Adventure Match Blast",
+      "score": 4.5519876,
+      "icon": "https://play-lh.googleusercontent.com/GOuL5CDCjtBy3C5q-g3TmEw_WC61UdgubZbmLggY1i7pUWAWAbYDGGjI7smtEzPZlDwf"
+    },
+    {
+      "appId": "com.wood.screwpuzzle.bolts.and.nuts.sort.jam",
+      "title": "Wood Screw Puzzle - Bolts Sort",
+      "score": 4.6372547,
+      "icon": "https://play-lh.googleusercontent.com/11rXMhEnGQzqCHbRymEy1pIYvTdnpg7hiHfss8NZ9qK_UAmJMtEIvoPtZAPz_gYY_SvS"
+    },
+    {
+      "appId": "mahjong.game.match.spirit.casual",
+      "title": "Mahjong Spirit: Match Game",
+      "score": 4.775701,
+      "icon": "https://play-lh.googleusercontent.com/4LePhbtVKEoN0CD5VZ3gn2yYqm7Iy-J8oZJwymKgC7UV28jWCqKmNFo_oJgEdy_en5GLzv4MIBi-mcZV527K"
+    },
+    {
+      "appId": "com.matchingtiles.puzzle.triple.game",
+      "title": "Matching Tiles: City Scape",
+      "score": 4.9313726,
+      "icon": "https://play-lh.googleusercontent.com/Zi0yCmQQ-XPSydnP61X7wuKIVMQtXD_MTWsR1sHhs5rh3Kg80hu8FoknsheECw9pkA"
+    },
+    {
+      "appId": "com.pop.bubbleshooter.gem.classic.games",
+      "title": "Bubble Shooter Gem Puzzle Pop",
+      "score": 4.5823293,
+      "icon": "https://play-lh.googleusercontent.com/JcwuufgbS6Shy-sfNWbM5f_0y64DhV_QD45F-PbTy6fi2Le8jx25G4LQ_iL-Pn3aB33kCm0SWiU73NFvTKbqDPI"
+    },
+    {
+      "appId": "com.blockpuzzle.jewel.diamond",
+      "title": "Block Puzzle Gem: Jewel Blast",
+      "score": 4.384513,
+      "icon": "https://play-lh.googleusercontent.com/ErgWtYxQnrvXY-UG0G1hlM9eenOrs5uZ2ifF2Q3BMWfYUTPjJUcNrL9pGBae2YM5-Oz0g_fu-sqsgjJNOfuLCg"
+    },
+    {
+      "appId": "solitaire.game.classic.klondike",
+      "title": "Solitaire Classic",
+      "score": 4.99,
+      "icon": "https://play-lh.googleusercontent.com/CdPKbZgin1z786PT2yjzbxsCSeTY0tYzZZyvaPVmOVlQ5k8UaCdVg8ui0_e8Ih4_BVguJtf-pF4bd5R6Nspx4Q"
+    },
+    {
+      "appId": "com.tile.trip.triple.match.connect.puzzle",
+      "title": "Tile Match Triple Match Puzzle",
+      "score": 4.7727275,
+      "icon": "https://play-lh.googleusercontent.com/oF2vml54cPImmV4c8dmkBIpaLvDk7S4bOGzsVJh30aN3mfW6fuW61n4mzLvUtnVuGw"
+    }
+  ]
+}
