@@ -827,16 +827,22 @@ body::before {
   font-size: 12px; font-weight: 700; color: var(--text-muted);
   background: rgba(0,0,0,0.2);
   border-bottom: 1px solid var(--border-glass);
-  white-space: nowrap;  /* 防止標题圖列在手機進行文字换行 */
 }
 .report-content td {
   padding: 8px 12px;
   border-bottom: 1px solid rgba(255,255,255,0.04);
-  white-space: nowrap;  /* 防止內容圖列截斷，處理横向捲動 */
 }
-/* 內容較多的圖列（如說明、摘要）允許換行 */
-.report-content td:last-child:not([style*="text-align:center"]) {
-  white-space: normal;
+/* 4 欄以上的寬表格由 JS 加 .wide-table class */
+.report-content table.wide-table {
+  min-width: max-content;
+}
+.report-content table.wide-table th,
+.report-content table.wide-table td {
+  white-space: nowrap;
+}
+/* 狀態 icon 欄位（由 JS inline style 處理）允許置中 */
+.report-content td[style*="text-align:center"] {
+  white-space: nowrap;
 }
 .report-content a {
   color: var(--accent-blue); text-decoration: none;
@@ -879,8 +885,5 @@ body::before {
     height: 64px;
     border-radius: 14px;
   }
-  /* 表格寬度依內容撐開，確保橫捲而非文字擠壓 */
-  .report-content table {
-    min-width: max-content;
-  }
+  /* 简單表格正常换行，寬表格由 JS 處理横捲 */
 }

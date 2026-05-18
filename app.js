@@ -1657,6 +1657,15 @@ function showReport(gameName) {
     html = html.replace(/<td align="center"/g, '<td style="text-align:center"');
     html = html.replace(/<th align="center"/g, '<th style="text-align:center"');
     body.innerHTML = `<div class="report-content">${html}</div>`;
+    // 4 欄以上的寬表格：加 wide-table class 啟用橫捲；窄表格正常換行
+    body.querySelectorAll('.report-content table').forEach(table => {
+      const firstRow = table.querySelector('tr');
+      if (!firstRow) return;
+      const cols = firstRow.querySelectorAll('th, td').length;
+      if (cols >= 4) {
+        table.classList.add('wide-table');
+      }
+    });
   } else {
     // fallback：以 <pre> 顯示原始 markdown
     body.innerHTML = `<div class="report-content"><pre style="white-space:pre-wrap;font-size:13px;line-height:1.8;color:var(--text-secondary)">${md.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre></div>`;
