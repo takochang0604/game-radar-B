@@ -441,12 +441,21 @@ function renderAll() {
 }
 
 function renderStats() {
-  document.getElementById('statSnapshots').textContent = state.availableDates.length;
-  // #1 今日新黑馬：統計 new_entry 策略的黑馬數量
+  // 資料區間：顯示「05-05 ～ 05-18」格式
+  const dates = [...state.availableDates].sort();
+  const snapEl = document.getElementById('statSnapshots');
+  const snapSubEl = document.getElementById('statSnapshotsSub');
+  if (dates.length > 0) {
+    const first = dates[0].substring(5);  // MM-DD
+    const last = dates[dates.length - 1].substring(5);
+    if (snapEl) snapEl.textContent = `${first}～${last}`;
+    if (snapSubEl) snapSubEl.textContent = `共 ${dates.length} 天快照`;
+  }
+  // 今日新黑馬
   const newEntryCount = state.darkhorses.filter(dh => dh.triggers?.some(t => t.strategy === 'new_entry')).length;
   const statNewDhEl = document.getElementById('statNewDh');
   if (statNewDhEl) statNewDhEl.textContent = newEntryCount;
-  // 今日更新：從已載入快照統計遊戲數
+  // 今日更新
   const current = state.selectedDate;
   let appCount = 0;
   if (current && state.snapshots[current]) {
@@ -617,7 +626,7 @@ function renderDarkhorses() {
     const triggerTypes = dh.triggers.map(t => t.strategy);
     const isRetained = !!dh._retained;
     const classBadge = isRetained
-      ? '<span class="dh-tag dh-class-watch" title="過去偵測為黑馬，仍在榜上觀察">👀 觀察中</span>'
+      ? `<span class="dh-tag dh-class-watch" title="首偵日：${dh._retainedFrom || '未知'}，仍在榜上持續觀察">👀 觀察中</span>`
       : triggerTypes.includes('new_entry')
         ? '<span class="dh-tag dh-class-new" title="首次進入排行榜">🆕 新進</span>'
         : triggerTypes.includes('growth_multiplier')
@@ -723,7 +732,10 @@ function renderDarkhorses() {
         canvas.parentElement.style.display = 'none';
         return;
       }
-      renderMiniChart(canvas, miniHistory);
+      // Mini Chart 固定顯示最近 7 天，與 Modal 預設一致
+      const sortedMini = [...miniHistory].sort((a, b) => a.date.localeCompare(b.date));
+      const slicedMini = sortedMini.slice(-7);
+      renderMiniChart(canvas, slicedMini);
     });
   }, 100);
 }
@@ -1276,6 +1288,14 @@ function showAnalysis(appId, platform) {
     ? `${ICON_IOS} ${ICON_ANDROID} iOS+Android`
     : `${platformArr[0] === 'android' ? ICON_ANDROID : ICON_IOS} ${platformArr[0] === 'android' ? 'Android' : 'iOS'}`;
 
+  // 首次偵測日期格式化
+  const detectedAtStr = (() => {
+    const raw = dh.detectedAt || dh._retainedFrom || '';
+    if (!raw) return null;
+    try { return new Date(raw).toISOString().split('T')[0]; } catch { return raw.split('T')[0]; }
+  })();
+  const isRetainedModal = !!dh._retained;
+
   const body = document.getElementById('modalBody');
   body.innerHTML = `
     <div class="modal-app-header">
@@ -1283,8 +1303,10 @@ function showAnalysis(appId, platform) {
       <div>
         <div class="modal-app-title">${dh.name}</div>
         <div class="modal-app-dev">${dh.developer || ''} · ${dh.marketFlag} ${dh.marketName} · ${platformDisplay}</div>
+        ${detectedAtStr ? `<div style="font-size:11px;color:var(--text-muted);margin-top:4px">${isRetainedModal ? '👀 首次偵測' : '🆕 偵測日期'}：${detectedAtStr}${isRetainedModal ? ' · 持續觀察中' : ''}</div>` : ''}
       </div>
     </div>
+    ${findReport(dh.name) ? `<button class="report-btn" style="margin-bottom:16px" onclick="event.stopPropagation();showReport('${dh.name.replace(/'/g, "\\'")}')">📄 查看完整評測報告</button>` : ''}
     ${(() => {
       // 從 analysis.detail 取基本資訊，或從排行榜快照 fallback
       let detail = analysis?.detail || {};
@@ -1333,7 +1355,10 @@ function showAnalysis(appId, platform) {
     })()}
     ${mergedTriggers.length > 0 ? `
     <div class="analysis-section">
-      <h4>🐴 黑馬觸發條件</h4>
+      <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:8px">
+        <h4 style="margin:0">🐴 黑馬觸發條件</h4>
+        ${detectedAtStr ? `<span style="font-size:11px;color:var(--text-muted)">偵測快照：${detectedAtStr}</span>` : ''}
+      </div>
       ${mergedTriggers.map(t => {
       const srcCls = t._src?.includes('營收') ? 'src-grossing' : t._src === '雙榜' ? 'src-dual' : t._src === '雙平台' ? 'src-cross' : 'src-free';
       const rcCls = srcCls.replace('src-', 'rc-');
@@ -1342,7 +1367,19 @@ function showAnalysis(appId, platform) {
     }).join('')}
     </div>` : ''}
     <div class="analysis-section">
-      <h4>📈 排名歷史</h4>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+        <h4 style="margin:0">📈 排名歷史</h4>
+        <div id="chartRangePresets" style="display:flex;gap:4px">
+          ${[7,14,30].map(d => `<button
+            onclick="renderModalChart(window._currentDh, ${d}, this)"
+            data-days="${d}"
+            style="padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.2s;
+              background:${d===7?'rgba(59,130,246,0.2)':'var(--bg-glass)'};
+              border:1px solid ${d===7?'var(--accent-blue)':'var(--border-glass)'};
+              color:${d===7?'var(--accent-blue)':'var(--text-muted)'};"
+          >${d}天</button>`).join('')}
+        </div>
+      </div>
       <div class="chart-container"><canvas id="modalChart"></canvas></div>
     </div>
     ${analysis ? `
@@ -1401,101 +1438,151 @@ function showAnalysis(appId, platform) {
         ${analysis.suggestions.map(s => `<div style="display:flex;gap:8px;margin-bottom:6px;font-size:13px;color:var(--text-secondary)"><span style="color:var(--accent-cyan)">▸</span>${s}</div>`).join('')}
       </div>` : ''}
     ` : '<div class="analysis-section"><h4>🔍 深度分析</h4><p style="color:var(--text-muted)">尚未分析此遊戲。請在對話中輸入「分析 [遊戲名稱] 黑馬」。</p></div>'}
-    ${findReport(dh.name) ? `
-    <div class="analysis-section" style="margin-top:16px">
-      <button class="report-btn" onclick="event.stopPropagation();showReport('${dh.name.replace(/'/g, "\\'")}')">📄 查看完整評測報告</button>
-    </div>` : ''}
     ${buildSearchLinksHTML(dh.name, dh.url, dh.appId, dh.platform)}`;
 
   document.getElementById('analysisModal').classList.add('active');
 
   setTimeout(() => {
-    // 銷毀前一個 modal chart（避免 Chart.js Canvas 重用錯誤）
-    if (modalChart) { modalChart.destroy(); modalChart = null; }
-
-    const canvas = document.getElementById('modalChart');
-    if (!canvas) return;
-
-    // 線條顏色配置
-    const LINE_STYLES = {
-      'ios_topfree': { color: '#3b82f6', label: '🍎 iOS 免費' },
-      'ios_grossing': { color: '#8b5cf6', label: '🍎 iOS 營收' },
-      'android_topfree': { color: '#10b981', label: '🤖 Android 免費' },
-      'android_grossing': { color: '#f59e0b', label: '🤖 Android 營收' },
-    };
-
-    // 優先使用 _rankHistoryByLine（多線），fallback 到 rankHistory（舊格式單線）
-    const historyByLine = dh._rankHistoryByLine;
-    const lines = [];
-
-    if (historyByLine && Object.keys(historyByLine).length > 0) {
-      Object.entries(historyByLine).forEach(([key, lineData]) => {
-        const style = LINE_STYLES[key] || { color: '#64748b', label: key };
-        const sortedData = [...(lineData.data || [])].sort((a, b) => a.date.localeCompare(b.date));
-        lines.push({ key, label: style.label, color: style.color, data: sortedData });
-      });
-    } else if (dh.rankHistory && dh.rankHistory.length > 0) {
-      // 舊格式 fallback：嘗試從 rankHistory 內的 platform/chartType 分組
-      const grouped = {};
-      dh.rankHistory.forEach(h => {
-        const k = `${h.platform || dh.platform}_${h.chartType || dh.chartType}`;
-        if (!grouped[k]) grouped[k] = [];
-        grouped[k].push(h);
-      });
-      Object.entries(grouped).forEach(([key, data]) => {
-        const style = LINE_STYLES[key] || { color: '#3b82f6', label: '排名' };
-        const sortedData = [...data].sort((a, b) => a.date.localeCompare(b.date));
-        lines.push({ key, label: style.label, color: style.color, data: sortedData });
-      });
-    }
-
-    // 無資料時隱藏整個圖表區塊
-    const chartSection = canvas.closest('.analysis-section');
-    if (lines.length === 0) {
-      if (chartSection) chartSection.style.display = 'none';
-      return;
-    }
-
-    // 統一 X 軸日期
-    const allDates = [...new Set(lines.flatMap(l => l.data.map(h => h.date)))].sort();
-    const labels = allDates.map(d => d.substring(5));
-
-    const datasets = lines.map(line => {
-      const dataMap = new Map(line.data.map(h => [h.date, h.rank]));
-      return {
-        label: line.label,
-        data: allDates.map(d => dataMap.get(d) ?? null),
-        borderColor: line.color,
-        backgroundColor: line.color + '18',
-        borderWidth: 2,
-        fill: false,
-        tension: 0.3,
-        pointBackgroundColor: line.color,
-        pointRadius: 4,
-        spanGaps: true,
-      };
-    });
-
-    modalChart = new Chart(canvas, {
-      type: 'line',
-      data: { labels, datasets },
-      options: {
-        responsive: true, maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            display: datasets.length > 1,
-            position: 'top',
-            labels: { color: '#94a3b8', usePointStyle: true, pointStyle: 'circle', padding: 16, font: { size: 11 } },
-          },
-        },
-        scales: {
-          x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b' } },
-          y: { reverse: true, min: -3, max: 100, grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b' }, afterBuildTicks(axis) { axis.ticks = [1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100].map(v => ({ value: v })); } },
-        },
-      },
-    });
+    // 儲存當前 dh 供 preset 按鈕使用
+    window._currentDh = dh;
+    // 預設顯示 7 天，並 highlight 對應按鈕
+    renderModalChart(dh, 7);
+    // 初始化後補上按鈕 highlight
+    setTimeout(() => {
+      const btn7 = document.querySelector('#chartRangePresets button[data-days="7"]');
+      if (btn7) renderModalChart(dh, 7, btn7);
+    }, 50);
   }, 200);
 }
+
+// ============ Modal 圖表渲染（支援日期區間篩選）============
+function renderModalChart(dh, days, activeBtn) {
+  if (modalChart) { modalChart.destroy(); modalChart = null; }
+  const canvas = document.getElementById('modalChart');
+  if (!canvas) return;
+
+  // 更新 preset 按鈕樣式
+  if (activeBtn) {
+    document.querySelectorAll('#chartRangePresets button').forEach(btn => {
+      const selected = btn === activeBtn;
+      btn.style.background = selected ? 'rgba(59,130,246,0.2)' : 'var(--bg-glass)';
+      btn.style.borderColor = selected ? 'var(--accent-blue)' : 'var(--border-glass)';
+      btn.style.color = selected ? 'var(--accent-blue)' : 'var(--text-muted)';
+    });
+  }
+
+  const LINE_STYLES = {
+    'ios_topfree':     { color: '#3b82f6', label: '🍎 iOS 免費' },
+    'ios_grossing':    { color: '#8b5cf6', label: '🍎 iOS 營收' },
+    'android_topfree': { color: '#10b981', label: '🤖 Android 免費' },
+    'android_grossing':{ color: '#f59e0b', label: '🤖 Android 營收' },
+  };
+
+  const historyByLine = dh._rankHistoryByLine;
+  const lines = [];
+
+  if (historyByLine && Object.keys(historyByLine).length > 0) {
+    Object.entries(historyByLine).forEach(([key, lineData]) => {
+      const style = LINE_STYLES[key] || { color: '#64748b', label: key };
+      const sortedData = [...(lineData.data || [])].sort((a, b) => a.date.localeCompare(b.date));
+      lines.push({ key, label: style.label, color: style.color, data: sortedData });
+    });
+  } else if (dh.rankHistory && dh.rankHistory.length > 0) {
+    const grouped = {};
+    dh.rankHistory.forEach(h => {
+      const k = `${h.platform || dh.platform}_${h.chartType || dh.chartType}`;
+      if (!grouped[k]) grouped[k] = [];
+      grouped[k].push(h);
+    });
+    Object.entries(grouped).forEach(([key, data]) => {
+      const style = LINE_STYLES[key] || { color: '#3b82f6', label: '排名' };
+      const sortedData = [...data].sort((a, b) => a.date.localeCompare(b.date));
+      lines.push({ key, label: style.label, color: style.color, data: sortedData });
+    });
+  }
+
+  const chartSection = canvas.closest('.analysis-section');
+  if (lines.length === 0) {
+    if (chartSection) chartSection.style.display = 'none';
+    return;
+  }
+
+  // 統一 X 軸日期，並按 days 篩選最後 N 天
+  let allDates = [...new Set(lines.flatMap(l => l.data.map(h => h.date)))].sort();
+  const totalDays = allDates.length;
+
+  // 更新 preset 按鈕的 disabled 狀態
+  document.querySelectorAll('#chartRangePresets button').forEach(btn => {
+    const d = parseInt(btn.dataset.days);
+    if (d > totalDays) {
+      btn.disabled = true;
+      btn.style.opacity = '0.3';
+      btn.style.cursor = 'not-allowed';
+    } else {
+      btn.disabled = false;
+      btn.style.opacity = '1';
+      btn.style.cursor = 'pointer';
+    }
+  });
+
+  // 切片最後 N 天
+  if (days && allDates.length > days) {
+    allDates = allDates.slice(-days);
+  }
+
+  const labels = allDates.map(d => d.substring(5));
+  const datasets = lines.map(line => {
+    const dataMap = new Map(line.data.map(h => [h.date, h.rank]));
+    return {
+      label: line.label,
+      data: allDates.map(d => dataMap.get(d) ?? null),
+      borderColor: line.color,
+      backgroundColor: line.color + '18',
+      borderWidth: 2,
+      fill: false,
+      tension: 0.3,
+      pointBackgroundColor: line.color,
+      pointRadius: 4,
+      spanGaps: true,
+    };
+  });
+
+  modalChart = new Chart(canvas, {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: datasets.length > 1,
+          position: 'top',
+          labels: { color: '#94a3b8', usePointStyle: true, pointStyle: 'circle', padding: 16, font: { size: 11 } },
+        },
+        tooltip: {
+          callbacks: {
+            title: (items) => `📅 ${allDates[items[0].dataIndex] || items[0].label}`,
+            label: (item) => {
+              const rank = item.raw;
+              if (rank === null || rank === undefined) return `${item.dataset.label}: 未上榜`;
+              return `${item.dataset.label}: 第 #${rank} 名`;
+            },
+          },
+          backgroundColor: 'rgba(15,23,42,0.92)',
+          borderColor: 'rgba(255,255,255,0.1)',
+          borderWidth: 1,
+          titleColor: '#94a3b8',
+          bodyColor: '#e2e8f0',
+          padding: 10,
+        },
+      },
+      scales: {
+        x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b' } },
+        y: { reverse: true, min: -3, max: 100, grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b' }, afterBuildTicks(axis) { axis.ticks = [1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100].map(v => ({ value: v })); } },
+      },
+    },
+  });
+}
+window.renderModalChart = renderModalChart;
 
 // ============ AppMagic Links ============
 function renderAppMagicLinks() {
@@ -1562,7 +1649,14 @@ function showReport(gameName) {
       const titleAttr = title ? ` title="${title}"` : '';
       return `<a href="${href}"${titleAttr} target="_blank" rel="noopener noreferrer">${text}</a>`;
     };
-    body.innerHTML = `<div class="report-content">${marked.parse(md, { renderer })}</div>`;
+    let html = marked.parse(md, { renderer });
+    // 修正狀態 icon 歪掉：td 只含狀態符號時強制置中
+    html = html.replace(/<td[^>]*>\s*(✅|⚠️|❌|❓)\s*<\/td>/g,
+      '<td style="text-align:center;font-size:16px;vertical-align:middle">$1</td>');
+    // 支援 marked.js align 屬性（確保置中對齊生效）
+    html = html.replace(/<td align="center"/g, '<td style="text-align:center"');
+    html = html.replace(/<th align="center"/g, '<th style="text-align:center"');
+    body.innerHTML = `<div class="report-content">${html}</div>`;
   } else {
     // fallback：以 <pre> 顯示原始 markdown
     body.innerHTML = `<div class="report-content"><pre style="white-space:pre-wrap;font-size:13px;line-height:1.8;color:var(--text-secondary)">${md.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre></div>`;

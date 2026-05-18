@@ -827,10 +827,16 @@ body::before {
   font-size: 12px; font-weight: 700; color: var(--text-muted);
   background: rgba(0,0,0,0.2);
   border-bottom: 1px solid var(--border-glass);
+  white-space: nowrap;  /* 防止標题圖列在手機進行文字换行 */
 }
 .report-content td {
   padding: 8px 12px;
   border-bottom: 1px solid rgba(255,255,255,0.04);
+  white-space: nowrap;  /* 防止內容圖列截斷，處理横向捲動 */
+}
+/* 內容較多的圖列（如說明、摘要）允許換行 */
+.report-content td:last-child:not([style*="text-align:center"]) {
+  white-space: normal;
 }
 .report-content a {
   color: var(--accent-blue); text-decoration: none;
@@ -859,4 +865,22 @@ body::before {
   box-shadow: 0 4px 16px rgba(0,0,0,0.3);
   margin: 12px 0;
   display: block;
+}
+
+/* ============ Report RWD 補充 ============ */
+@media (max-width: 768px) {
+  /* 報告標頭浮動圖片在手機清除浮動，避免與表格重疊 */
+  .report-content img[align="left"],
+  .report-content img[align="right"] {
+    float: none;
+    display: block;
+    margin: 0 auto 16px;
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+  }
+  /* 表格寬度依內容撐開，確保橫捲而非文字擠壓 */
+  .report-content table {
+    min-width: max-content;
+  }
 }

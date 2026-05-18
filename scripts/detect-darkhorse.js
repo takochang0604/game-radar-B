@@ -394,10 +394,39 @@ async function main() {
         // 時間衰減
         const decayedScore = pastDh.confidenceScore * Math.pow(decayRate, daysAgo);
         if (decayedScore < retentionMinScore) continue;
+        // 補齊 rankHistory：從上次已知日期到今天
+        const existingHistory = pastDh.rankHistory || [];
+        const lastKnownDate = existingHistory.length > 0
+          ? existingHistory[existingHistory.length - 1].date
+          : pastDate;
+        const extendedHistory = [...existingHistory];
+        // 從最後一天的隔天開始，逐日補資料
+        const lastDate = new Date(lastKnownDate);
+        const todayDate = new Date(today);
+        let cursor = new Date(lastDate);
+        cursor.setDate(cursor.getDate() + 1);
+        while (cursor <= todayDate) {
+          const dateStr = cursor.toISOString().split('T')[0];
+          const snap = loadSnapshot(dateStr, pastDh.market, pastDh.platform, pastDh.chartType);
+          if (snap && snap.data) {
+            const found = snap.data.find(a => a.appId === pastDh.appId);
+            extendedHistory.push({
+              date: dateStr,
+              rank: found ? found.rank : null,
+              hasSnapshot: true,
+              platform: pastDh.platform,
+              chartType: pastDh.chartType,
+            });
+          } else {
+            extendedHistory.push({ date: dateStr, rank: null, hasSnapshot: false, platform: pastDh.platform, chartType: pastDh.chartType });
+          }
+          cursor.setDate(cursor.getDate() + 1);
+        }
         const retained = {
           ...pastDh,
           currentRank: todayApp.rank,
           confidenceScore: Math.round(decayedScore * 100) / 100,
+          rankHistory: extendedHistory,
           _retained: true,
           _retainedFrom: pastDate,
         };

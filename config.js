@@ -65,7 +65,7 @@ export const FETCH_CONFIG = {
 
 // ============ 黑馬偵測門檻 ============
 export const DARKHORSE_CONFIG = {
-  lookbackDays: 7,           // 回溯天數
+  lookbackDays: 14,          // 回溯天數
   rankJumpThreshold: 30,     // 排名急升門檻（上升 N 名以上）
   consecutiveRiseDays: 5,    // 持續攀升天數
   newEntryDays: 7,           // 新進榜判定天數

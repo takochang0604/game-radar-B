@@ -104,6 +104,12 @@ export function showGameModal(app, platform, market) {
       </div>
     </div>`;
 
+  // ============ 1.5 評測報告按鈕（有報告時，放在最顯眼位置）============
+  if (findReport(app.name)) {
+    html += `
+    <button class="report-btn" style="margin-bottom:16px" onclick="event.stopPropagation();showReport('${safeName}')">📄 查看完整評測報告</button>`;
+  }
+
   // ============ 2. 基本資訊卡片 ============
   html += `
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin:20px 0">
@@ -241,13 +247,7 @@ export function showGameModal(app, platform, market) {
     </div>`;
   }
 
-  // ============ 12. 報告按鈕 ============
-  if (findReport(app.name)) {
-    html += `
-    <div class="analysis-section" style="margin-top:16px">
-      <button class="report-btn" onclick="event.stopPropagation();showReport('${safeName}')">📄 查看完整評測報告</button>
-    </div>`;
-  }
+  // ============ 12. 報告按鈕（已移至頂部，此處不重複） ============
 
   // ============ 13. 操作按鈕列 ============
   html += `
