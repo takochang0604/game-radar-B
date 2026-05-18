@@ -125,6 +125,75 @@ body::before {
   background: var(--bg-secondary); color: var(--text-primary);
 }
 
+/* ============ Tab 內篩選器 ============ */
+.tab-filters {
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-md);
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+}
+.filter-row {
+  display: flex; align-items: center; gap: 6px;
+}
+.filter-row label {
+  font-size: 11px; font-weight: 600; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+/* ============ 黑馬排名區塊 ============ */
+.dh-rank-block {
+  margin-left: auto;
+  display: flex; flex-direction: column; gap: 2px;
+  text-align: right; flex-shrink: 0;
+}
+.dh-rank-row {
+  display: flex; align-items: center; gap: 4px;
+  font-size: 12px; white-space: nowrap;
+}
+.dh-rank-type {
+  font-size: 10px; font-weight: 600;
+  padding: 1px 6px; border-radius: 4px;
+}
+.dh-rank-type.rt-free {
+  color: var(--accent-green);
+  background: rgba(16,185,129,0.12);
+}
+.dh-rank-type.rt-grossing {
+  color: var(--accent-orange);
+  background: rgba(249,115,22,0.12);
+}
+.dh-rank-num {
+  font-weight: 800; font-size: 16px;
+  background: var(--gradient-hero);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+
+/* ============ Trigger 來源標記 ============ */
+.trigger-src {
+  display: inline-flex; align-items: center; gap: 3px;
+  font-size: 10px; font-weight: 600;
+  padding: 1px 6px; border-radius: 4px;
+  margin-right: 6px; white-space: nowrap;
+}
+.trigger-src.src-free {
+  color: var(--accent-green);
+  background: rgba(16,185,129,0.12);
+}
+.trigger-src.src-grossing {
+  color: var(--accent-orange);
+  background: rgba(249,115,22,0.12);
+}
+.trigger-src.src-dual {
+  color: var(--accent-purple);
+  background: rgba(139,92,246,0.12);
+}
+.trigger-src.src-cross {
+  color: var(--accent-blue);
+  background: rgba(59,130,246,0.12);
+}
 /* ============ Main Layout ============ */
 .main-container {
   max-width: 1400px; margin: 0 auto; padding: 0 24px 40px;
@@ -185,6 +254,7 @@ body::before {
   gap: 16px;
 }
 .dh-card {
+  display: flex; flex-direction: column;
   background: var(--gradient-card);
   border: 1px solid var(--border-glass);
   border-radius: var(--radius-lg); padding: 20px;
@@ -196,7 +266,7 @@ body::before {
   content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
   background: var(--gradient-hero); opacity: 0; transition: var(--transition);
 }
-.dh-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-card); border-color: rgba(59,130,246,0.3); }
+.dh-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-card); border-color: rgba(59,130,246,0.3); }
 .dh-card:hover::before { opacity: 1; }
 
 .dh-header { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
@@ -238,7 +308,7 @@ body::before {
 .dh-card.has-analysis { border-color: rgba(16,185,129,0.25); }
 .dh-card.has-analysis::before { background: linear-gradient(90deg, var(--accent-green), var(--accent-cyan)); }
 
-.dh-chart-mini { height: 48px; margin-bottom: 10px; }
+.dh-chart-mini { height: 48px; margin-bottom: 10px; pointer-events: none; }
 .dh-triggers { display: flex; flex-direction: column; gap: 4px; }
 .dh-trigger-item { font-size: 12px; color: var(--text-secondary); }
 
@@ -263,10 +333,25 @@ body::before {
 }
 .rankings-table tr:hover td { background: rgba(255,255,255,0.03); }
 .rank-cell { font-weight: 800; font-size: 15px; width: 50px; }
-.rank-change { font-size: 12px; font-weight: 600; width: 60px; }
-.rank-up { color: var(--accent-green); }
-.rank-down { color: var(--accent-red); }
-.rank-same { color: var(--text-muted); }
+.rank-change {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 11px; font-weight: 700;
+  padding: 2px 8px; border-radius: 10px;
+  white-space: nowrap; vertical-align: middle;
+  line-height: 1.2;
+}
+.rank-change--up {
+  color: var(--accent-green);
+  background: rgba(16,185,129,0.15);
+}
+.rank-change--down {
+  color: var(--accent-red);
+  background: rgba(239,68,68,0.12);
+}
+.rank-change--same {
+  color: var(--text-muted);
+  background: rgba(255,255,255,0.05);
+}
 .app-cell { display: flex; align-items: center; gap: 12px; }
 .app-cell img { width: 36px; height: 36px; border-radius: 8px; }
 .app-cell-info { min-width: 0; }
@@ -329,6 +414,10 @@ body::before {
   background: rgba(255,255,255,0.04); border-left: 3px solid var(--accent-blue);
   margin-bottom: 8px;
 }
+.reason-card.rc-free { border-left-color: var(--accent-green); }
+.reason-card.rc-grossing { border-left-color: var(--accent-orange); }
+.reason-card.rc-dual { border-left-color: var(--accent-purple); }
+.reason-card.rc-cross { border-left-color: var(--accent-blue); }
 .reason-card .reason-label { font-weight: 700; font-size: 14px; }
 .reason-card .reason-detail { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
 
@@ -409,13 +498,211 @@ body::before {
 .tab-content { display: none; }
 .tab-content.active { display: block; }
 
-/* ============ Responsive ============ */
+/* ============ Tab Badge ============ */
+.tab-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 18px; height: 18px; padding: 0 5px;
+  border-radius: 9px; font-size: 10px; font-weight: 700;
+  background: var(--accent-red); color: #fff;
+  margin-left: 6px; line-height: 1;
+}
+.tab-badge:empty { display: none; }
+
+/* ============ Darkhorse Pin Button ============ */
+.dh-pin-btn {
+  position: absolute; top: 6px; right: 6px; z-index: 5;
+  background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 50%; width: 24px; height: 24px;
+  font-size: 11px; cursor: pointer; transition: var(--transition);
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0.3; filter: grayscale(1);
+}
+.dh-card:hover .dh-pin-btn { opacity: 0.8; }
+.dh-pin-btn:hover { opacity: 1 !important; background: rgba(255,255,255,0.12); transform: scale(1.15); }
+.dh-pin-btn.pinned {
+  opacity: 1; filter: none;
+  background: rgba(234,179,8,0.2); border-color: rgba(234,179,8,0.4);
+}
+
+/* ============ Tracked Card Extras ============ */
+/* Tracked rank change overrides — inherits from .rank-change */
+/* Tracked status badges */
+.tracked-status {
+  font-size: 11px; font-weight: 600;
+  padding: 3px 10px; border-radius: 12px;
+  white-space: nowrap;
+}
+.tracked-status--darkhorse { background: rgba(16,185,129,0.15); color: var(--accent-green); }
+.tracked-status--stable { background: rgba(59,130,246,0.15); color: var(--accent-blue); }
+.tracked-status--onChart { background: rgba(234,179,8,0.15); color: var(--accent-yellow); }
+.tracked-status--dropped { background: rgba(239,68,68,0.15); color: var(--accent-red); }
+.tracked-status--buyChart { background: rgba(249,115,22,0.15); color: var(--accent-orange); }
+/* Darkhorse classification badges */
+.dh-class-new { background: rgba(16,185,129,0.15); color: var(--accent-green); font-weight: 600; }
+.dh-class-rising { background: rgba(59,130,246,0.15); color: var(--accent-blue); font-weight: 600; }
+.dh-class-accel { background: rgba(249,115,22,0.15); color: var(--accent-orange); font-weight: 600; }
+.dh-class-watch { background: rgba(255,255,255,0.06); color: var(--text-muted); font-weight: 600; }
+
+/* ============ Responsive — Mobile ============ */
 @media (max-width: 768px) {
-  .header-inner { padding: 0 12px; }
-  .controls-bar { padding: 12px; }
-  .main-container { padding: 0 12px 24px; }
+
+  /* --- Header --- */
+  .header-inner {
+    padding: 0 12px;
+    height: 52px;
+  }
+  .header-brand {
+    font-size: 14px;
+    gap: 8px;
+  }
+  .header-brand .logo { font-size: 20px; }
+  .header-status { font-size: 11px; gap: 6px; }
+  #statusText {
+    max-width: 120px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+
+  /* --- Main Container --- */
+  .main-container { padding: 0 10px 24px; }
+
+  /* --- Stats Grid --- */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .stat-card { padding: 14px; }
+  .stat-value { font-size: 22px; }
+  .stat-label { font-size: 10px; }
+
+  /* --- Tabs --- */
+  .tabs {
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 12px;
+  }
+  .tab {
+    padding: 8px 12px;
+    font-size: 12px;
+    flex: 1;
+    text-align: center;
+    border-radius: var(--radius-sm);
+    white-space: nowrap;
+  }
+
+  /* --- Tab Filters --- */
+  .tab-filters {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 12px;
+  }
+  .filter-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    width: 100%;
+  }
+  .filter-row label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .pill-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .pill { padding: 5px 10px; font-size: 12px; }
+
+  /* --- Section Header --- */
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .section-actions { width: 100%; }
+  .dh-search {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .section-title { font-size: 15px; }
+
+  /* --- Darkhorse Grid --- */
   .darkhorse-grid { grid-template-columns: 1fr; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* --- DH Card --- */
+  .dh-card { padding: 14px; }
+  .dh-header { gap: 10px; margin-bottom: 10px; }
+  .dh-icon { width: 48px; height: 48px; border-radius: 12px; }
+  .dh-name { font-size: 14px; }
+  .dh-rank-num { font-size: 18px; }
+
+  /* --- Rankings Table --- */
+  .rankings-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .rankings-table { min-width: 520px; }
+  .rankings-table th,
+  .rankings-table td { padding: 8px 10px; font-size: 12px; }
+  .app-cell-name { max-width: 140px; }
+  .rank-cell { font-size: 13px; }
+
+  /* --- Date Selector --- */
+  .date-selector { flex-wrap: nowrap; }
+  .date-select { min-width: 110px; font-size: 12px; }
+
+  /* --- Analysis Modal --- */
+  .modal-overlay {
+    align-items: flex-end;
+  }
+  .modal-content {
+    width: 100%;
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    padding: 20px 16px 32px;
+  }
+  .modal-app-header { gap: 12px; margin-bottom: 16px; }
+  .modal-app-header img { width: 56px; height: 56px; border-radius: 12px; }
+  .modal-app-title { font-size: 17px; }
+  .modal-close { font-size: 20px; }
+
+  /* --- Report Content (in modal) --- */
+  .report-content { font-size: 13px; }
+  .report-content h1 { font-size: 18px; }
+  .report-content h2 { font-size: 15px; }
+  .report-content table { font-size: 12px; }
+  .report-content th,
+  .report-content td { padding: 6px 8px; }
+  /* 長表格橫向捲動 */
+  .report-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* --- Chart Container --- */
+  .chart-container { height: 180px; }
+
+  /* --- Trend Legend --- */
+  .trend-legend { grid-template-columns: 1fr; }
+  .trend-legend-item { grid-template-columns: 10px 20px 1fr auto auto auto; font-size: 12px; }
+
+  /* --- Score Info Popup --- */
+  .score-info-popup { padding: 20px 18px; }
+  .score-info-popup table { font-size: 12px; }
+}
+
+/* 極小螢幕（< 375px）補強 */
+@media (max-width: 375px) {
+  .header-brand span:not(.logo) { display: none; }
+  .tab { padding: 7px 8px; font-size: 11px; }
+  .stat-value { font-size: 20px; }
 }
 
 /* ============ Scrollbar ============ */
@@ -432,11 +719,27 @@ body::before {
   display: none;
 }
 .dh-card-footer {
-  display: flex; align-items: flex-end; justify-content: space-between; margin-top: auto;
+  display: flex; align-items: center; justify-content: space-between; margin-top: auto;
+  gap: 8px;
+}
+.dh-signals {
+  display: flex; flex-wrap: wrap; gap: 4px; flex: 1; min-width: 0;
+}
+.dh-signal-pill {
+  display: inline-flex; align-items: center; gap: 2px;
+  font-size: 11px; font-weight: 600; white-space: nowrap;
+  padding: 2px 8px; border-radius: 10px;
+  background: rgba(255,255,255,0.05); color: var(--text-secondary);
+  border: 1px solid rgba(255,255,255,0.06);
+  cursor: default; transition: var(--transition);
+}
+.dh-signal-pill:hover {
+  background: rgba(59,130,246,0.12); border-color: rgba(59,130,246,0.25);
+  color: var(--text-primary);
 }
 .dh-released {
   font-size: 11px; color: var(--text-muted); white-space: nowrap; text-align: right;
-  padding-top: 4px;
+  flex-shrink: 0;
 }
 .dh-card.has-report { border-color: rgba(59,130,246,0.25); }
 

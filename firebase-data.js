@@ -1,11 +1,18 @@
 /**
- * Firebase 前端初始化 + 資料讀取模組
+ * Firebase 前端初始化 + 資料讀取模組 v2
  * 按需從 Firestore 載入資料，內建快取避免重複查詢
+ * 
+ * v2 新增：
+ *  - #8  loadDarkhorseHistory() — 黑馬歷史查詢
+ *  - #11 loadPipelineStatus() — pipeline 執行狀態
+ *  - #12 子集合載入（向後相容）
+ *  - #15 loadTrackedGames() — 追蹤遊戲
  */
 
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
 import {
-  getFirestore, collection, doc, getDoc, getDocs,
+  getFirestore, collection, doc, getDoc, getDocs, setDoc, deleteField,
+  query, orderBy, limit,
 } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
 
 // ============ Firebase 初始化 ============
@@ -30,6 +37,9 @@ const cache = {
   darkhorses: null,
   analysis: null,
   reports: null,
+  pipelineStatus: null,
+  tracked: null,
+  darkhorseHistory: {},  // key: date
   snapshots: {}, // key: "date_market_platform_chartType"
 };
 
@@ -62,6 +72,33 @@ export async function loadDarkhorses() {
 }
 
 /**
+ * #8 載入黑馬歷史（指定日期）
+ */
+export async function loadDarkhorseHistory(date) {
+  if (cache.darkhorseHistory[date]) return cache.darkhorseHistory[date];
+  const snap = await getDoc(
+    doc(db, COLLECTION, 'darkhorseHistory', 'items', date)
+  );
+  if (snap.exists()) {
+    cache.darkhorseHistory[date] = snap.data();
+    return cache.darkhorseHistory[date];
+  }
+  return null;
+}
+
+/**
+ * #8 載入所有可用的黑馬歷史日期清單（最近 14 天）
+ */
+export async function loadDarkhorseHistoryDates() {
+  const historyRef = collection(db, COLLECTION, 'darkhorseHistory', 'items');
+  const snap = await getDocs(historyRef);
+  const dates = [];
+  snap.forEach(doc => dates.push(doc.id));
+  dates.sort();
+  return dates;
+}
+
+/**
  * 載入分析資料
  */
 export async function loadAnalysis() {
@@ -85,6 +122,50 @@ export async function loadReports() {
     return cache.reports;
   }
   return {};
+}
+
+/**
+ * #11 載入 Pipeline 執行狀態
+ */
+export async function loadPipelineStatus() {
+  if (cache.pipelineStatus) return cache.pipelineStatus;
+  const snap = await getDoc(doc(db, COLLECTION, 'pipelineStatus'));
+  if (snap.exists()) {
+    cache.pipelineStatus = snap.data();
+    return cache.pipelineStatus;
+  }
+  return null;
+}
+
+/**
+ * #15 載入追蹤遊戲資料（從 gameTracking 集合同步）
+ */
+const TRACKING_COLLECTION = 'gameTracking';
+const TRACKING_DOC = 'trackedList';
+
+export async function loadTrackedGames(forceRefresh = false) {
+  if (!forceRefresh && cache.tracked) return cache.tracked;
+  cache.tracked = null; // 清除快取
+  const snap = await getDoc(doc(db, TRACKING_COLLECTION, TRACKING_DOC));
+  if (snap.exists()) {
+    const data = snap.data();
+    // 將 {appId: gameData, ...} 轉為陣列
+    const games = Object.values(data).filter(v => typeof v === 'object' && v.appId);
+    cache.tracked = games;
+    return games;
+  }
+  cache.tracked = [];
+  return [];
+}
+
+/**
+ * 儲存整份追蹤清單到 Firestore（覆寫）
+ */
+export async function saveTrackedGames(list) {
+  const payload = {};
+  list.forEach(g => { payload[g.appId] = g; });
+  await setDoc(doc(db, TRACKING_COLLECTION, TRACKING_DOC), payload);
+  cache.tracked = list;
 }
 
 /**
@@ -136,11 +217,13 @@ export async function loadMarketSnapshots(date, market, platforms, chartTypes) {
  * 平行載入所有必要資料
  */
 export async function loadInitialData() {
-  const [meta, dhData, analysis, reports] = await Promise.all([
+  const [meta, dhData, analysis, reports, pipelineStatus, tracked] = await Promise.all([
     loadMeta(),
     loadDarkhorses(),
     loadAnalysis(),
     loadReports(),
+    loadPipelineStatus(),
+    loadTrackedGames(),
   ]);
 
   return {
@@ -148,5 +231,7 @@ export async function loadInitialData() {
     darkhorses: dhData.darkhorses || [],
     analysis,
     reports,
+    pipelineStatus,
+    tracked,
   };
 }

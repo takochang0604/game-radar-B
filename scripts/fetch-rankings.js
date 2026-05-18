@@ -12,11 +12,12 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import {
   MARKETS,
-  GP_GAME_CATEGORIES,
+  GP_PRIORITY_CATEGORIES,
   IOS_GAME_CATEGORY,
   CHART_TYPES,
   FETCH_CONFIG,
   SNAPSHOTS_DIR,
+  DATA_DIR,
 } from '../config.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -83,7 +84,7 @@ async function fetchGooglePlayRankings(country, chartType) {
   const mainAppIds = new Set(mainRanking.map(a => a.appId));
   const supplementary = [];
 
-  for (const category of GP_GAME_CATEGORIES) {
+  for (const category of GP_PRIORITY_CATEGORIES) {
     try {
       log(`  📱 GP | ${country.toUpperCase()} | ${category} | ${chartType.id} (補充)`);
 
@@ -179,7 +180,7 @@ async function fetchIOSRankings(country, chartType) {
 }
 
 // ============ 補充 Top N 詳細資料 ============
-const ENRICH_TOP_N = 20;
+const ENRICH_TOP_N = 50;
 
 /**
  * 將各種日期格式統一轉成 YYYY-MM-DD
@@ -188,6 +189,13 @@ const ENRICH_TOP_N = 20;
 function parseToYMD(raw) {
   if (!raw) return '';
   try {
+    // 數字型 timestamp（毫秒或秒）
+    if (typeof raw === 'number' || /^\d{10,13}$/.test(String(raw).trim())) {
+      const num = Number(raw);
+      const ms = num > 9999999999 ? num : num * 1000; // 判斷是秒還是毫秒
+      const d = new Date(ms);
+      if (!isNaN(d.getTime())) return d.toISOString().split('T')[0];
+    }
     // 中文格式: "2021年10月27日"
     const cnMatch = String(raw).match(/(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日/);
     if (cnMatch) {
@@ -207,29 +215,46 @@ function parseToYMD(raw) {
 async function enrichTopApps(apps, platform) {
   const top = apps.slice(0, ENRICH_TOP_N);
   log(`  🔍 補充 Top ${top.length} 詳細資料 (${platform})`);
+  let successCount = 0;
+  let failCount = 0;
 
   for (const app of top) {
-    try {
-      if (platform === 'android') {
-        const detail = await gplay.app({ appId: app.appId, lang: 'zh-TW' });
-        app.summary = (detail.summary || '').substring(0, 200);
-        app.updated = parseToYMD(detail.updated);
-        app.released = parseToYMD(detail.released);
-        app.contentRating = detail.contentRating || '';
-      } else {
-        const detail = await appStore.app({ id: Number(app.appId), lang: 'zh-tw' });
-        app.summary = (detail.description || '').substring(0, 200);
-        app.updated = detail.currentVersionReleaseDate
-          ? parseToYMD(detail.currentVersionReleaseDate)
-          : parseToYMD(detail.updated);
-        app.released = parseToYMD(detail.released);
-        app.contentRating = detail.contentRating || '';
+    let retries = 2;
+    let success = false;
+
+    while (retries >= 0 && !success) {
+      try {
+        if (platform === 'android') {
+          const detail = await gplay.app({ appId: app.appId, lang: 'zh-TW' });
+          app.summary = (detail.summary || detail.description || '').substring(0, 200);
+          app.updated = parseToYMD(detail.updated);
+          app.released = parseToYMD(detail.released);
+          app.contentRating = detail.contentRating || '';
+        } else {
+          const detail = await appStore.app({ id: Number(app.appId), lang: 'zh-tw' });
+          app.summary = (detail.description || '').substring(0, 200);
+          app.updated = detail.currentVersionReleaseDate
+            ? parseToYMD(detail.currentVersionReleaseDate)
+            : parseToYMD(detail.updated);
+          app.released = parseToYMD(detail.released);
+          app.contentRating = detail.contentRating || '';
+        }
+        success = true;
+        successCount++;
+        await sleep(500);
+      } catch (err) {
+        retries--;
+        if (retries >= 0) {
+          await sleep(1000); // 重試前多等一下
+        } else {
+          // 全部重試失敗，記錄但不中斷
+          console.warn(`    ⚠️ 補充失敗 #${app.rank} ${app.name}: ${err.message}`);
+          failCount++;
+        }
       }
-      await sleep(500);
-    } catch (err) {
-      // 抓不到就跳過，不影響排名資料
     }
   }
+  log(`  📋 補充完成: 成功 ${successCount}/${top.length}${failCount > 0 ? ` (失敗 ${failCount})` : ''}`);
 }
 
 // ============ 主程式 ============
@@ -243,9 +268,13 @@ async function main() {
   console.log('╚══════════════════════════════════════════════╝');
   console.log(`📅 日期: ${today}`);
   console.log(`📁 儲存: ${dayDir}`);
+  console.log(`📋 GP 子分類: ${GP_PRIORITY_CATEGORIES.length} 個（精簡模式）`);
   console.log('');
 
   let totalSaved = 0;
+  // #11 失敗追蹤
+  const failures = [];
+  let totalExpected = 0;
 
   for (const market of MARKETS) {
     console.log(`\n🌍 ${market.flag} ${market.name} (${market.code.toUpperCase()})`);
@@ -254,6 +283,7 @@ async function main() {
     for (const chartType of CHART_TYPES) {
       // Google Play（中國除外）
       if (market.hasGooglePlay) {
+        totalExpected++;
         try {
           const gpData = await fetchGooglePlayRankings(market.code, chartType);
           await enrichTopApps(gpData, 'android');
@@ -272,10 +302,12 @@ async function main() {
           totalSaved++;
         } catch (err) {
           console.error(`  ❌ GP 失敗: ${err.message}`);
+          failures.push({ market: market.code, platform: 'android', chartType: chartType.id, error: err.message });
         }
       }
 
       // iOS App Store
+      totalExpected++;
       try {
         const iosData = await fetchIOSRankings(market.code, chartType);
         await enrichTopApps(iosData, 'ios');
@@ -295,6 +327,7 @@ async function main() {
         await sleep(FETCH_CONFIG.delayBetweenRequests);
       } catch (err) {
         console.error(`  ❌ iOS 失敗: ${err.message}`);
+        failures.push({ market: market.code, platform: 'ios', chartType: chartType.id, error: err.message });
       }
     }
   }
@@ -302,7 +335,28 @@ async function main() {
   console.log('\n' + '═'.repeat(40));
   console.log(`🏁 完成！共儲存 ${totalSaved} 個排行檔案`);
   console.log(`📁 位置: ${dayDir}`);
+  if (failures.length > 0) {
+    console.log(`⚠️  失敗 ${failures.length}/${totalExpected} 項: ${failures.map(f => `${f.market}_${f.platform}_${f.chartType}`).join(', ')}`);
+  }
   console.log('═'.repeat(40));
+
+  // #11 寫入執行狀態
+  const statusFile = path.resolve(ROOT, DATA_DIR, 'last-run-status.json');
+  fs.writeFileSync(statusFile, JSON.stringify({
+    date: today,
+    step: 'fetch',
+    success: failures.length === 0,
+    totalSaved,
+    totalExpected,
+    failures,
+    completedAt: new Date().toISOString(),
+  }, null, 2), 'utf-8');
+
+  // 如果超過 50% 市場失敗，回傳非零 exit code
+  if (failures.length > totalExpected * 0.5) {
+    console.error(`\n❌ 超過半數抓取失敗 (${failures.length}/${totalExpected})，中斷流程`);
+    process.exit(1);
+  }
 }
 
 main().catch(err => {

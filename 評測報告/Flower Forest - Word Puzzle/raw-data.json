@@ -1,0 +1,330 @@
+{
+  "appId": "com.flower.forest.word.puzzle",
+  "title": "Flower Forest - Word Puzzle",
+  "developer": "SkySoft Studio",
+  "developerId": "SkySoft+Studio",
+  "genre": "Puzzle",
+  "genreId": "GAME_PUZZLE",
+  "score": 4.076336,
+  "ratings": 6124,
+  "reviews": 73,
+  "installs": "500,000+",
+  "maxInstalls": 631912,
+  "free": true,
+  "price": 0,
+  "released": "May 3, 2026",
+  "updated": 1778150489000,
+  "version": "0.5.4",
+  "contentRating": "Everyone",
+  "icon": "https://play-lh.googleusercontent.com/85UQPJ5ABPQ5zUEWlEU3Xv1dfqmVX5tqsD7YPKmOJWsXonblfTSM7rqtoWxns-VCQ-jhUDQfb8geUFOrZJDc",
+  "headerImage": "https://play-lh.googleusercontent.com/m3tjASyjSaao8-rHURkWTSM_o5pQkBYIfnDPx65CkJQ9acdYjaI0RkY_ugsNG8Wzr_uaMSPTI7AE9Hq839twcA",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/_D4BcyRAhYKgOKBxv9R_Ru4ptdADc-PpVAohkbhHlNVV0A1Ny9ZqZ_Mq_YChFVeLAm64ZvRYI0iehhHAaXbY",
+    "https://play-lh.googleusercontent.com/pCtNo-4OcHGKqVis_mYL7zaCxJa8_wDnzuWRsxaiIWZkmD9jdp8B4kvuhq6LqxRryDQDG4bvl8Y9zi3ibxet",
+    "https://play-lh.googleusercontent.com/lpYWdtgBoIRUguFAJc_oj1xJKefaD0AspacvGT3nQhYcimdeQlCORmyTw-P72U3elswgrHj5f1CtWBJWeyaFdrk",
+    "https://play-lh.googleusercontent.com/70P3aRKX47wC-R9Rw0bO2nGe1XJan1LvuRh8iEwZC1Fb5R3VpgjUznXRPMf-xI_WVe0qXw5bh1KJCWJVW33H",
+    "https://play-lh.googleusercontent.com/rBAnLMB6gwNmGkUKKz9iBp3jsmVAMbtrpONVz-ipDRCbU_cFMgqna_bo0UOCFclpMLVny9A3LshvFQbpaCJQrto",
+    "https://play-lh.googleusercontent.com/k2a0F79hg3K4rMR_FjgIDHhce6ftzLieqgNxfZEQB7MSTrdN5HclIAL2E7pW0nU37RAi0qD7ZbUzFnSFYSF8Fg",
+    "https://play-lh.googleusercontent.com/_D4BcyRAhYKgOKBxv9R_Ru4ptdADc-PpVAohkbhHlNVV0A1Ny9ZqZ_Mq_YChFVeLAm64ZvRYI0iehhHAaXbY",
+    "https://play-lh.googleusercontent.com/pCtNo-4OcHGKqVis_mYL7zaCxJa8_wDnzuWRsxaiIWZkmD9jdp8B4kvuhq6LqxRryDQDG4bvl8Y9zi3ibxet",
+    "https://play-lh.googleusercontent.com/lpYWdtgBoIRUguFAJc_oj1xJKefaD0AspacvGT3nQhYcimdeQlCORmyTw-P72U3elswgrHj5f1CtWBJWeyaFdrk",
+    "https://play-lh.googleusercontent.com/70P3aRKX47wC-R9Rw0bO2nGe1XJan1LvuRh8iEwZC1Fb5R3VpgjUznXRPMf-xI_WVe0qXw5bh1KJCWJVW33H",
+    "https://play-lh.googleusercontent.com/rBAnLMB6gwNmGkUKKz9iBp3jsmVAMbtrpONVz-ipDRCbU_cFMgqna_bo0UOCFclpMLVny9A3LshvFQbpaCJQrto",
+    "https://play-lh.googleusercontent.com/k2a0F79hg3K4rMR_FjgIDHhce6ftzLieqgNxfZEQB7MSTrdN5HclIAL2E7pW0nU37RAi0qD7ZbUzFnSFYSF8Fg",
+    "https://play-lh.googleusercontent.com/_D4BcyRAhYKgOKBxv9R_Ru4ptdADc-PpVAohkbhHlNVV0A1Ny9ZqZ_Mq_YChFVeLAm64ZvRYI0iehhHAaXbY",
+    "https://play-lh.googleusercontent.com/pCtNo-4OcHGKqVis_mYL7zaCxJa8_wDnzuWRsxaiIWZkmD9jdp8B4kvuhq6LqxRryDQDG4bvl8Y9zi3ibxet",
+    "https://play-lh.googleusercontent.com/lpYWdtgBoIRUguFAJc_oj1xJKefaD0AspacvGT3nQhYcimdeQlCORmyTw-P72U3elswgrHj5f1CtWBJWeyaFdrk",
+    "https://play-lh.googleusercontent.com/70P3aRKX47wC-R9Rw0bO2nGe1XJan1LvuRh8iEwZC1Fb5R3VpgjUznXRPMf-xI_WVe0qXw5bh1KJCWJVW33H",
+    "https://play-lh.googleusercontent.com/rBAnLMB6gwNmGkUKKz9iBp3jsmVAMbtrpONVz-ipDRCbU_cFMgqna_bo0UOCFclpMLVny9A3LshvFQbpaCJQrto",
+    "https://play-lh.googleusercontent.com/k2a0F79hg3K4rMR_FjgIDHhce6ftzLieqgNxfZEQB7MSTrdN5HclIAL2E7pW0nU37RAi0qD7ZbUzFnSFYSF8Fg"
+  ],
+  "video": "https://www.youtube.com/embed/KZC5IDn_I50?vq=large&rel=0&autohide=1&showinfo=0",
+  "videoImage": "https://play-lh.googleusercontent.com/m3tjASyjSaao8-rHURkWTSM_o5pQkBYIfnDPx65CkJQ9acdYjaI0RkY_ugsNG8Wzr_uaMSPTI7AE9Hq839twcA",
+  "summary": "Dreamlike puzzle game where you combine objects to solve surreal mysteries.",
+  "description": "🌙 Step into a strange dream world… where every object hides a secret.\n\nFlower Forest - Word Puzzle is a relaxing puzzle game and point-and-click puzzle adventure where you explore mysterious spaces, interact with hidden objects, and combine them to uncover clever solutions.\n\nNo words. No voice. Just pure intuition.\n\nEach level is designed as a brain teaser that can be solved through logic and observation — no complex calculations, no note-taking. Discover hidden clues, connect objects, and unlock new areas in this calming mystery puzzle game.\n\n🧩 Game Features:\nIntuitive Puzzle Design\nA satisfying mix of logic puzzles, hidden object games, and object-combining mechanics.\n\nSurreal Dream Atmosphere\nExplore a relaxing, monochrome world inspired by abstract dreams and mystery escape games.\n\nHints Available\nGet helpful hints to guide you through challenging brain puzzles.\n\nShort & Relaxing\nEnjoy 1–2 hours of puzzle-solving experience.\n\n🌍 Accessible for Everyone:\n🔇 Non-verbal gameplay – enjoy without language barriers\n⚫ No color-based puzzles – clean monochrome design\n🔕 No voice required – play anytime, anywhere\n\n✨ Can you solve every puzzle and uncover the hidden secrets?\nDownload now and enjoy a relaxing puzzle adventure filled with mystery, logic, and discovery.",
+  "recentChanges": "Ver 0.5.4<br>- Optimize and fix bugs",
+  "developerWebsite": "https://cellsoft.vn/",
+  "developerEmail": "skysoftone2018@gmail.com",
+  "privacyPolicy": "https://cellsoft.vn/skysoft_privacypolicy.html",
+  "userReviews": [
+    {
+      "userName": "Mikko Asunta",
+      "score": 3,
+      "text": "good game, but too many ads",
+      "date": "2026-05-11T14:49:24.733Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "BobbinString",
+      "score": 2,
+      "text": "Beautiful art style, and fun puzzles! It showed an unskippable ad before the game even loaded for the first time, and the rest of the game experience is full of banner ads and video ads.",
+      "date": "2026-05-11T14:40:52.348Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Dipak Vala",
+      "score": 1,
+      "text": "ads, and lacking is problem in this game",
+      "date": "2026-05-11T13:56:31.476Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Elizka du toit",
+      "score": 5,
+      "text": "creepy cute just what I like haven't found adds yet will update after an ad not a bot :)",
+      "date": "2026-05-11T13:47:54.773Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Lovi Shane Arillo",
+      "score": 5,
+      "text": "So fun and makes me smarter and its so addicting!",
+      "date": "2026-05-11T13:21:14.161Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "WasteFactory",
+      "score": 1,
+      "text": "Recently download, just played only for a few seconds and it already asked me for ratings, it also bombarded me with ads. Again, it's only LITERALLY been a few seconds, maybe a minute",
+      "date": "2026-05-11T13:14:20.658Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Lucas Austin",
+      "score": 2,
+      "text": "The game dynamics itself? Very good. The app? Terrible. It asks you to consent to personalised ads, meaning you have to untick any you don't consent to, literally every time an ad shows. Which is EVERY time you finish a level. And since as the levels are about 1 minute to complete, the ads are overpowering the game. I put up with about 20 mins of game play, but now I am deleting it because I can't be dealing with the ads and consent messages.",
+      "date": "2026-05-11T13:13:51.514Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Mani kanta S v",
+      "score": 1,
+      "text": "I can't even move the objects, laaaaaaaaaaaag",
+      "date": "2026-05-11T13:06:24.565Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Sunil Nain",
+      "score": 1,
+      "text": "faddu game",
+      "date": "2026-05-11T12:56:11.437Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Pooter Pan",
+      "score": 1,
+      "text": "AI trash with ads.",
+      "date": "2026-05-11T12:55:19.468Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Alexander Sergienko",
+      "score": 2,
+      "text": "literally a pirated version of Her Trees, except instead of paying, here you just get bombarded with ads. just get the actual game from steam for like $5. this isn't worth it as long as the ads persist",
+      "date": "2026-05-11T12:47:17.218Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Madoodad",
+      "score": 1,
+      "text": "start up ad. permanent banner on the bottom. ad every other level.",
+      "date": "2026-05-11T12:27:40.693Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Saheli Dey",
+      "score": 2,
+      "text": "The game is super glitched but the aesthetic is really cute but lots of ads!",
+      "date": "2026-05-11T11:31:13.581Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Haj Hassen",
+      "score": 5,
+      "text": "Smart game🤓 good🫡",
+      "date": "2026-05-11T11:24:20.274Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Dhiraj Kothawade",
+      "score": 1,
+      "text": "can't even start playing... the game is stuck at a screen",
+      "date": "2026-05-11T11:02:51.199Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "nathan purver",
+      "score": 3,
+      "text": "I actually really enjoy this game. To start with it felt like there was no clear direction to go with each level but thats surprisingly what makes it so fun. I do believe there is a bug in level 52. I've been stuck on it for a while now and when I watch an ad to give me the answer its isnt correct and changes the answer each time i rewatch. Thats the reason for three stars at this stage.",
+      "date": "2026-05-11T10:03:40.696Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Daniel D'Rosario",
+      "score": 1,
+      "text": "Extremely heavy on the ads. I only got to the 5th puzzle and I'd spent more time watching forced ads than solving the puzzles.",
+      "date": "2026-05-11T09:44:29.120Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "aeon",
+      "score": 2,
+      "text": "Too many ads, the art is art, need I say more?",
+      "date": "2026-05-11T09:33:34.829Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Terri Harrison",
+      "score": 5,
+      "text": "really good game, gets your brain working",
+      "date": "2026-05-11T09:22:25.355Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "DF x Gaming",
+      "score": 3,
+      "text": "I would like to give this game 4 or maybe even 5 stars, but that's unrealistic. the puzzles themselves are really fun and engaging. they make you think outside of the box and not just in 2 dimensions. however the flaws i have with this app is the ads. yes you can purchase the ad removal for about$3-$4 USD, not too pricey. the other is the layout of some puzzles being slightly cut off at the bottom because of the layout of the puzzle your solving for and the answer sheet being in a fixed area.",
+      "date": "2026-05-11T07:26:29.140Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Tika Bastola",
+      "score": 4,
+      "text": "it's really good ig...nice animations quality and pretty good for mystery lovers",
+      "date": "2026-05-11T07:05:47.661Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Nikolaj Chabarov",
+      "score": 1,
+      "text": "Got hit with an add before the end of the very first loading screen. Turned internet off game is not working.",
+      "date": "2026-05-11T07:00:34.894Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Kim Hoàng",
+      "score": 5,
+      "text": "it's amazing! I love it!!",
+      "date": "2026-05-11T06:54:06.514Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "_ishita _8",
+      "score": 1,
+      "text": "it very slow and freezes constantly",
+      "date": "2026-05-11T06:41:13.329Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Rachel Orme",
+      "score": 1,
+      "text": "too many ads. can't even complete one puzzle without 3 ads",
+      "date": "2026-05-11T05:05:58.977Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Jordyn Jackson",
+      "score": 1,
+      "text": "This \"game\" genuinely seems like it was put together purely as a way to farm ad revenue for the developer. It has no substance or storyline whatsoever. The puzzles aren't even really puzzles half the time, and they don't contribute to any sort of mystery solving as advertised regardless. Furthermore, there are ads constantly running (one of which popped up before the title screen even finished loading), and the art is completely AI generated. I'm not even sure why this is even allowed.",
+      "date": "2026-05-11T04:54:56.923Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "gamer kin",
+      "score": 1,
+      "text": "i tried playing it, but it freezes up and refuses to proceed",
+      "date": "2026-05-11T04:12:06.134Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Amaliya Hisana",
+      "score": 1,
+      "text": "AI Slop",
+      "date": "2026-05-11T04:06:52.451Z",
+      "thumbsUp": 1
+    },
+    {
+      "userName": "SUKH VALVI",
+      "score": 1,
+      "text": "bad performance 🤮🤮🤮🤮",
+      "date": "2026-05-11T03:30:15.379Z",
+      "thumbsUp": 0
+    },
+    {
+      "userName": "Saša Peter",
+      "score": 1,
+      "text": "Loading screen has an ad? Really? Enjoy the 0.001 cent from it or whatever, because I won't be watching more.",
+      "date": "2026-05-11T02:57:28.756Z",
+      "thumbsUp": 0
+    }
+  ],
+  "similarApps": [
+    {
+      "appId": "com.crimescene.asmr.cleaninggame",
+      "title": "Crime Scene ASMR Cleaning",
+      "developer": "SkySoft Studio",
+      "icon": "https://play-lh.googleusercontent.com/g2dAyi3qeIyJ2vczCll09Vv6lWiB9HERvzQRX0IjBDFtboOUEhaVmDmT4AAMBy7eEzvX78huxQIief8gw6Z_"
+    },
+    {
+      "appId": "com.avatarlife.avatarstory.mystory.myworld.mywonder",
+      "title": "Avatar Life World: My Story",
+      "developer": "SkySoft Studio",
+      "score": 4.4696736,
+      "icon": "https://play-lh.googleusercontent.com/wfLeSE-ZwR5qUZ0mXnzqMZPOzgmygci6NJ6ymYHDJkRgbmQr2G2kahlMBP3gbM0HE8Y"
+    },
+    {
+      "appId": "com.stickman.warriors.stickwarriors.dragon.shadow.fight",
+      "title": "Stickman Warriors",
+      "developer": "SkySoft Studio",
+      "score": 4.6990647,
+      "icon": "https://play-lh.googleusercontent.com/a2DozS4mRCoidrx6P_05X7uJlL0h192PzpYbeUNRA_4azyMyRUTemgDMKTFfita0Og"
+    },
+    {
+      "appId": "com.cooking.jam.satisdom",
+      "title": "Cooking Jam - Satisdom",
+      "developer": "SkySoft Studio",
+      "score": 4.72,
+      "icon": "https://play-lh.googleusercontent.com/voEB_FXqbR6AiDmHEbaw-V5puYqe-JX9A741SiE8JtcBcQ422uiV_XLJFVytKo_wX_E"
+    },
+    {
+      "appId": "com.phoenix.mahjongtile.puzzlejam",
+      "title": "Mahjong Tile - Puzzle Jam",
+      "developer": "SkySoft Studio",
+      "icon": "https://play-lh.googleusercontent.com/OU52CmPUaT2E1S48OmpJRwrFJPMOfUnC5z_4UwrWaFH3afEb8taWJ7VhpIbMdV-m-M8T9NWWq0ydBKidFUdQ"
+    },
+    {
+      "appId": "com.slimewarrior.ageofwar.army.battle.fight",
+      "title": "Slime Warrior: Age of War",
+      "developer": "SkySoft Studio",
+      "score": 4.42,
+      "icon": "https://play-lh.googleusercontent.com/X63_IitdjwiaOiBQS1SoFzBer2PihV63Gpawuaqeqzy3JCZbICrwQJlDnfzx3SAsOaZ4"
+    },
+    {
+      "appId": "com.trickytwist.braingame.trickypuzzle",
+      "title": "Tricky Twist: Brain Puzzle",
+      "developer": "SkySoft Studio",
+      "score": 3.875,
+      "icon": "https://play-lh.googleusercontent.com/UcUBLA0Jix7TfITd5TocZhnW7r7mkzxPEBpLAp-3Xm3IBNyOy0x3KG_1uzbJgz5-ruqc"
+    },
+    {
+      "appId": "com.Phoenix.GeckoAway",
+      "title": "Gecko Away",
+      "developer": "SkySoft Studio",
+      "score": 4.7522125,
+      "icon": "https://play-lh.googleusercontent.com/3mjXb8c4quc26BoAyifzndr5KACyP3QtbU3FQEybBIZuGS-GPMSAiT3_orKTw1_xXp6dJD2Jdy6qc4gc3MLyIzc"
+    },
+    {
+      "appId": "com.star.dotspuzzle.relaxing.dotconnect",
+      "title": "Star Dots Puzzle: Relaxing",
+      "developer": "SkySoft Studio",
+      "icon": "https://play-lh.googleusercontent.com/AdLws_Fvm18E9bIa5yCvE4ziRquZfMVK2MzOApU20qlV-FNxIYaqQntyRTPHlnFQrHQwWt-UcDpEh4Ed9r2o1A"
+    },
+    {
+      "appId": "com.phoenix.loopblock.blastshooter",
+      "title": "Loop Block - Blast Shooter",
+      "developer": "SkySoft Studio",
+      "icon": "https://play-lh.googleusercontent.com/cRy-tk2cQcMNsjooRg-ouLFyS9Xlf25ni19nyrB5HB6TLD0lNx07hteeo3aQ0FZ3xAorn10O4YVJEaxWKNhk"
+    }
+  ],
+  "developerApps": []
+}

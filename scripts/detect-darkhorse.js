@@ -165,14 +165,52 @@ function detectConsecutiveRise(app, history) {
 }
 
 /**
+ * 偵測策略 4: Growth Multiplier（成長倍率）
+ * 近 3 天平均排名 vs 近 7 天平均排名的比值
+ * 比值越高代表近期加速越快
+ * 參考：StoreSignal 的 Growth Multiplier 方法論
+ */
+function detectGrowthMultiplier(app, history) {
+  const validHistory = history.filter(h => h.rank !== null);
+  if (validHistory.length < 4) return null; // 至少要有 4 天資料
+
+  const shortWindow = Math.min(DARKHORSE_CONFIG.growthShortWindow || 3, validHistory.length);
+  const longWindow = Math.min(DARKHORSE_CONFIG.growthLongWindow || 7, validHistory.length);
+  if (shortWindow >= longWindow) return null;
+
+  // 取近 N 天的平均排名（排名越小越好，所以用倒數來算成長倍率）
+  const recentRanks = validHistory.slice(-shortWindow).map(h => h.rank);
+  const allRanks = validHistory.slice(-longWindow).map(h => h.rank);
+  const recentAvg = recentRanks.reduce((a, b) => a + b, 0) / recentRanks.length;
+  const longAvg = allRanks.reduce((a, b) => a + b, 0) / allRanks.length;
+
+  // 成長倍率 = 長期平均排名 / 近期平均排名（排名下降=好事）
+  if (recentAvg <= 0 || longAvg <= 0) return null;
+  const multiplier = longAvg / recentAvg;
+
+  const threshold = DARKHORSE_CONFIG.growthMultiplierThreshold || 2.5;
+  if (multiplier >= threshold) {
+    return {
+      strategy: 'growth_multiplier',
+      label: '📊 成長加速',
+      detail: `成長倍率 ${multiplier.toFixed(1)}×（近 ${shortWindow} 天平均 #${Math.round(recentAvg)} vs 近 ${longWindow} 天平均 #${Math.round(longAvg)}）`,
+      score: Math.min(multiplier / threshold, 2.5),
+    };
+  }
+  return null;
+}
+
+/**
  * 排名權重：排名越高（數字越小）越重要
+ * 擴展到 Top 100 支援
  */
 function getRankWeight(rank) {
   if (rank <= 5)  return 2.0;
   if (rank <= 10) return 1.5;
   if (rank <= 20) return 1.2;
   if (rank <= 50) return 1.0;
-  return 0.7;
+  if (rank <= 100) return 0.7;
+  return 0.5;
 }
 
 /**
@@ -240,11 +278,18 @@ async function main() {
           const jumpResult = detectRankJump(app, history);
           if (jumpResult) triggers.push(jumpResult);
 
-          const newEntryResult = detectNewEntry(app, history);
-          if (newEntryResult) triggers.push(newEntryResult);
+          // 排名急升已觸發時跳過新進榜（避免矛盾：有歷史排名卻說首次進入）
+          if (!jumpResult) {
+            const newEntryResult = detectNewEntry(app, history);
+            if (newEntryResult) triggers.push(newEntryResult);
+          }
 
           const riseResult = detectConsecutiveRise(app, history);
           if (riseResult) triggers.push(riseResult);
+
+          // 策略 4: Growth Multiplier（成長倍率）
+          const growthResult = detectGrowthMultiplier(app, history);
+          if (growthResult) triggers.push(growthResult);
 
           if (triggers.length > 0) {
             // 品質過濾
@@ -271,7 +316,7 @@ async function main() {
               url: app.url,
               triggers,
               confidenceScore: Math.round(finalScore * 100) / 100,
-              rankHistory: history,
+              rankHistory: history.map(h => ({ ...h, platform, chartType: chartType.id })),
               detectedAt: new Date().toISOString(),
             });
           }
@@ -292,16 +337,10 @@ async function main() {
   }
 
   // ============ 跨市場合併 ============
-  // 同一款遊戲（同名+同平台）在多個市場出現時，合併為一張卡片
-  function normalizeGameName(name) {
-    return name.toLowerCase()
-      .replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '')
-      .substring(0, 30);
-  }
-
+  // 同一款遊戲（同 appId + 同平台）在多個市場出現時，合併為一張卡片
   const mergedMap = new Map();
   for (const dh of filtered) {
-    const key = normalizeGameName(dh.name) + '|' + dh.platform + '|' + dh.chartType;
+    const key = dh.appId + '|' + dh.platform + '|' + dh.chartType;
     if (!mergedMap.has(key)) {
       // 第一次出現：建立合併結構
       mergedMap.set(key, {
@@ -328,12 +367,59 @@ async function main() {
     console.log(`🔀 跨市場合併: ${filtered.length} → ${mergedDarkhorses.length}（合併 ${mergedCount} 筆重複）`);
   }
 
+  // ============ 黑馬保留機制 ============
+  // 過去 N 天曾被偵測為黑馬的遊戲，如果今天仍在榜上且排名夠高，就繼續保留
+  // 衰減公式：信心分數 * 0.85^(天數)，越久衰減越多
+  const retentionDays = DARKHORSE_CONFIG.retentionDays || 30;
+  const retentionMinRank = 20;     // 只保留仍在 Top 20 的
+  const retentionMinScore = 3.0;   // 衰減後信心分數需 >= 3.0
+  const decayRate = 0.85;          // 每天衰減 15%
+  const existingIds = new Set(mergedDarkhorses.map(d => d.appId));
+  let retainedCount = 0;
+
+  for (let daysAgo = 1; daysAgo <= retentionDays; daysAgo++) {
+    const pastDate = getDateStr(daysAgo);
+    const pastFile = path.join(darkhorseDir, `${pastDate}.json`);
+    if (!fs.existsSync(pastFile)) continue;
+    try {
+      const pastData = JSON.parse(fs.readFileSync(pastFile, 'utf-8'));
+      for (const pastDh of (pastData.darkhorses || [])) {
+        if (existingIds.has(pastDh.appId)) continue;
+        if (pastDh._retained) continue; // 不重複保留已保留的
+        // 檢查該遊戲今天是否仍在榜上且排名夠高
+        const todaySnap = loadSnapshot(today, pastDh.market, pastDh.platform, pastDh.chartType);
+        if (!todaySnap || !todaySnap.data) continue;
+        const todayApp = todaySnap.data.find(a => a.appId === pastDh.appId);
+        if (!todayApp || todayApp.rank > retentionMinRank) continue;
+        // 時間衰減
+        const decayedScore = pastDh.confidenceScore * Math.pow(decayRate, daysAgo);
+        if (decayedScore < retentionMinScore) continue;
+        const retained = {
+          ...pastDh,
+          currentRank: todayApp.rank,
+          confidenceScore: Math.round(decayedScore * 100) / 100,
+          _retained: true,
+          _retainedFrom: pastDate,
+        };
+        mergedDarkhorses.push(retained);
+        existingIds.add(pastDh.appId);
+        retainedCount++;
+      }
+    } catch (e) { /* skip corrupt files */ }
+  }
+
+  if (retainedCount > 0) {
+    console.log(`\n🔄 黑馬保留: 從過去 ${retentionDays} 天保留 ${retainedCount} 匹仍在 Top ${retentionMinRank} 的黑馬`);
+    mergedDarkhorses.sort((a, b) => b.confidenceScore - a.confidenceScore);
+  }
+
   // 儲存結果
   const outputFile = path.join(darkhorseDir, `${today}.json`);
   fs.writeFileSync(outputFile, JSON.stringify({
     date: today,
     totalBeforeMerge: allDarkhorses.length,
     count: mergedDarkhorses.length,
+    retainedCount,
     config: DARKHORSE_CONFIG,
     darkhorses: mergedDarkhorses,
   }, null, 2), 'utf-8');

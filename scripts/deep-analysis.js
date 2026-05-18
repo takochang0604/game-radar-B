@@ -91,7 +91,7 @@ function inferReasons(appDetail, reviewAnalysis, triggers) {
       reasons.push({
         type: 'new_release',
         label: '🆕 新遊戲上線熱度',
-        detail: `上架 ${daysSinceRelease} 天，評分 ${appDetail.score}`,
+        detail: `上架 ${daysSinceRelease} 天，評分 ${parseFloat(appDetail.score).toFixed(1)}`,
         confidence: 'high',
       });
     }
@@ -177,7 +177,7 @@ async function analyzeAndroidApp(darkhorse) {
         appId: darkhorse.appId,
         country: darkhorse.market,
         sort: gplay.sort.NEWEST,
-        num: 100,
+        num: 200,
       });
       reviews = reviews.data || reviews;
     } catch { /* 評論可能抓不到 */ }
@@ -198,7 +198,7 @@ async function analyzeAndroidApp(darkhorse) {
         updated: detail.updated,
         version: detail.version,
         installs: detail.installs,
-        score: detail.score,
+        score: detail.score ? parseFloat(detail.score.toFixed(1)) : null,
         ratings: detail.ratings,
         reviews: detail.reviews,
         developer: detail.developer,
@@ -226,7 +226,7 @@ async function analyzeIOSApp(darkhorse) {
 
     let reviews = [];
     try {
-      reviews = await appStore.reviews({ id: parseInt(darkhorse.appId), country: darkhorse.market, page: 1 });
+      reviews = await appStore.reviews({ id: parseInt(darkhorse.appId), country: darkhorse.market, page: 1, sort: 1 });
     } catch { /* 評論可能抓不到 */ }
     await sleep(1000);
 
@@ -244,7 +244,7 @@ async function analyzeIOSApp(darkhorse) {
         released: detail.released,
         updated: detail.updated,
         version: detail.version,
-        score: detail.score,
+        score: detail.score ? parseFloat(detail.score.toFixed(1)) : null,
         ratings: detail.ratings,
         reviews: detail.reviews,
         developer: detail.developer,

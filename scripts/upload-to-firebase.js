@@ -1,6 +1,12 @@
 /**
- * Firebase 上傳腳本
+ * Firebase 上傳腳本 v2
  * 將本地 JSON 資料上傳到 Firestore，供前端按需讀取
+ * 
+ * v2 改進：
+ *  - #8 黑馬歷史保留（darkhorseHistory 子集合）
+ *  - #11 Pipeline 狀態寫入（pipelineStatus doc）
+ *  - #12 reports/analysis 改為子集合
+ *  - #15 追蹤遊戲排名上傳
  * 
  * 用法: node scripts/upload-to-firebase.js
  */
@@ -11,6 +17,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import {
   MARKETS,
+  TRACKED_GAMES,
   SNAPSHOTS_DIR,
   DARKHORSE_DIR,
   ANALYSIS_DIR,
@@ -83,6 +90,7 @@ async function uploadSnapshots(dates) {
 
 /**
  * 上傳黑馬資料（最新一天）
+ * #8 同時保留歷史記錄到 darkhorseHistory 子集合
  */
 async function uploadDarkhorses() {
   const darkhorseRoot = resolveDir(DARKHORSE_DIR);
@@ -97,7 +105,7 @@ async function uploadDarkhorses() {
   const dhData = JSON.parse(fs.readFileSync(path.join(darkhorseRoot, latestDH), 'utf-8'));
   const darkhorses = dhData.darkhorses || [];
 
-  // 黑馬資料存為單一文件
+  // 黑馬資料存為單一文件（最新）
   const date = latestDH.replace('.json', '');
   await db.collection(COLLECTION).doc('darkhorses').set({
     date,
@@ -106,11 +114,32 @@ async function uploadDarkhorses() {
     darkhorses,
   });
   console.log(`  ✅ 黑馬（${darkhorses.length} 匹，${latestDH}）`);
+
+  // #8 黑馬歷史：額外保留每天的黑馬到子集合（最多保留 14 天）
+  await db.collection(COLLECTION).doc('darkhorseHistory').collection('items').doc(date).set({
+    date,
+    count: darkhorses.length,
+    // 只保留精簡資訊（不含 rankHistory，減少儲存量）
+    darkhorses: darkhorses.map(dh => ({
+      appId: dh.appId,
+      name: dh.name,
+      platform: dh.platform,
+      chartType: dh.chartType,
+      currentRank: dh.currentRank,
+      confidenceScore: dh.confidenceScore,
+      triggers: dh.triggers.map(t => ({ label: t.label, detail: t.detail })),
+      markets: dh.markets || [{ code: dh.market, flag: dh.marketFlag }],
+      icon: dh.icon,
+    })),
+  });
+  console.log(`  ✅ 黑馬歷史（${date}）`);
+
   return { darkhorses, date };
 }
 
 /**
- * 上傳分析資料（只保留當前黑馬的）
+ * #12 上傳分析資料 — 改為子集合 analysis/items/{appId}
+ * 同時保留舊的單一文件格式用於向後相容
  */
 async function uploadAnalysis(currentDhAppIds) {
   const analysisRoot = resolveDir(ANALYSIS_DIR);
@@ -147,13 +176,25 @@ async function uploadAnalysis(currentDhAppIds) {
     } catch {}
   }
 
-  // 所有分析存為單一文件
+  // #12 寫入子集合
+  let subCount = 0;
+  for (const [appId, data] of Object.entries(analysis)) {
+    // 安全的 doc ID（appId 可能含有 . 或 /）
+    const safeId = appId.replace(/\//g, '_').replace(/\./g, '_');
+    await db.collection(COLLECTION).doc('analysis').collection('items').doc(safeId).set({
+      ...data,
+      _originalAppId: appId,
+    });
+    subCount++;
+  }
+
+  // 同時保留舊格式（向後相容，初始載入用）
   await db.collection(COLLECTION).doc('analysis').set(analysis);
-  console.log(`  ✅ 分析（${Object.keys(analysis).length} 筆）`);
+  console.log(`  ✅ 分析（${Object.keys(analysis).length} 筆，含子集合 ${subCount} 筆）`);
 }
 
 /**
- * 上傳評測報告
+ * #12 上傳評測報告 — 改為子集合 reports/items/{gameName}
  */
 async function uploadReports() {
   const reportsRoot = resolveDir(REPORTS_DIR);
@@ -174,8 +215,88 @@ async function uploadReports() {
     }
   }
 
+  // #12 寫入子集合
+  let subCount = 0;
+  for (const [gameName, content] of Object.entries(reports)) {
+    const safeId = gameName.replace(/[/\\#$[\]]/g, '_');
+    await db.collection(COLLECTION).doc('reports').collection('items').doc(safeId).set({
+      gameName,
+      content,
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    });
+    subCount++;
+  }
+
+  // 同時保留舊格式（向後相容）
   await db.collection(COLLECTION).doc('reports').set(reports);
-  console.log(`  ✅ 報告（${Object.keys(reports).length} 份）`);
+  console.log(`  ✅ 報告（${Object.keys(reports).length} 份，含子集合 ${subCount} 筆）`);
+}
+
+/**
+ * #15 上傳追蹤遊戲排名
+ * 從每日 snapshot 中提取追蹤遊戲的排名寫入 tracked doc
+ */
+async function uploadTrackedGames(dates) {
+  if (!TRACKED_GAMES || TRACKED_GAMES.length === 0) {
+    console.log('  ⏭️ 無追蹤遊戲，跳過');
+    return;
+  }
+
+  const snapshotsRoot = resolveDir(SNAPSHOTS_DIR);
+  const tracked = {};
+
+  for (const game of TRACKED_GAMES) {
+    tracked[game.name] = {
+      name: game.name,
+      androidId: game.android || null,
+      iosId: game.ios || null,
+      rankings: {}, // key: "market_platform_chartType", value: [{date, rank}]
+    };
+  }
+
+  // 掃描所有日期的 snapshot，提取追蹤遊戲的排名
+  for (const date of dates) {
+    const dayDir = path.join(snapshotsRoot, date);
+    if (!fs.existsSync(dayDir)) continue;
+    const files = fs.readdirSync(dayDir).filter(f => f.endsWith('.json'));
+
+    for (const file of files) {
+      try {
+        const content = JSON.parse(fs.readFileSync(path.join(dayDir, file), 'utf-8'));
+        if (!content.data) continue;
+
+        for (const game of TRACKED_GAMES) {
+          const targetId = content.platform === 'android' ? game.android : game.ios;
+          if (!targetId) continue;
+
+          const found = content.data.find(app => app.appId === targetId);
+          const key = `${content.market}_${content.platform}_${content.chartType}`;
+          if (!tracked[game.name].rankings[key]) tracked[game.name].rankings[key] = [];
+          tracked[game.name].rankings[key].push({
+            date,
+            rank: found ? found.rank : null,
+          });
+        }
+      } catch {}
+    }
+  }
+
+  await db.collection(COLLECTION).doc('tracked').set({
+    games: Object.values(tracked),
+    updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+  });
+  console.log(`  ✅ 追蹤遊戲（${TRACKED_GAMES.length} 款）`);
+}
+
+/**
+ * #11 上傳 Pipeline 狀態
+ */
+async function uploadPipelineStatus(success, details = {}) {
+  await db.collection(COLLECTION).doc('pipelineStatus').set({
+    success,
+    ...details,
+    updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+  });
 }
 
 // ============ 主流程 ============
@@ -183,7 +304,7 @@ async function uploadReports() {
 async function main() {
   console.log('');
   console.log('╔══════════════════════════════════════════════╗');
-  console.log('║  🔥 上傳資料至 Firebase Firestore             ║');
+  console.log('║  🔥 上傳資料至 Firebase Firestore v2          ║');
   console.log('╚══════════════════════════════════════════════╝');
 
   // 掃描可用日期（最多保留 14 天）
@@ -198,20 +319,40 @@ async function main() {
   const dates = allDates.slice(-MAX_DAYS);
   console.log(`📅 日期: ${dates.join(', ')}`);
 
-  // 上傳各類資料
-  console.log('\n📤 上傳中...');
-  await uploadMeta(dates);
-  await uploadSnapshots(dates);
-  const dhResult = await uploadDarkhorses();
-  
-  if (dhResult) {
-    const currentDhAppIds = new Set(dhResult.darkhorses.map(d => d.appId));
-    await uploadAnalysis(currentDhAppIds);
-  }
-  
-  await uploadReports();
+  try {
+    // 上傳各類資料
+    console.log('\n📤 上傳中...');
+    await uploadMeta(dates);
+    await uploadSnapshots(dates);
+    const dhResult = await uploadDarkhorses();
+    
+    if (dhResult) {
+      const currentDhAppIds = new Set(dhResult.darkhorses.map(d => d.appId));
+      await uploadAnalysis(currentDhAppIds);
+    }
+    
+    await uploadReports();
+    await uploadTrackedGames(dates);
 
-  console.log('\n✅ 全部上傳完成！');
+    // #11 寫入成功狀態
+    await uploadPipelineStatus(true, {
+      date: dates[dates.length - 1] || '',
+      totalDates: dates.length,
+      darkhorseCount: dhResult?.darkhorses?.length || 0,
+    });
+
+    console.log('\n✅ 全部上傳完成！');
+  } catch (err) {
+    // #11 寫入失敗狀態
+    console.error(`\n❌ 上傳失敗: ${err.message}`);
+    try {
+      await uploadPipelineStatus(false, {
+        error: err.message,
+        date: dates[dates.length - 1] || '',
+      });
+    } catch {}
+    throw err;
+  }
 
   // 同時產生精簡版 data.js（只含 meta 資訊，作為 fallback）
   const fallback = `/** Fallback - 資料已遷移至 Firebase */

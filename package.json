@@ -12,6 +12,7 @@
     "gen-history": "node scripts/generate-history.js",
     "init-demo": "node scripts/generate-history.js && node scripts/detect-darkhorse.js && node scripts/build-data.js",
     "daily": "node scripts/fetch-rankings.js && node scripts/detect-darkhorse.js && node scripts/upload-to-firebase.js",
+    "lookup": "node scripts/lookup-darkhorse.js",
     "dev": "npx -y live-server --port=8080 --no-browser"
   },
   "dependencies": {
