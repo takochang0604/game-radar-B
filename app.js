@@ -617,7 +617,9 @@ function renderDarkhorses() {
         markets: initialMarkets,
         triggers: taggedTriggers,
         _platforms: [dh.platform],
-        _chartRanks: initialMarkets.map(m => ({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: m.flag || '' })),
+        _chartRanks: initialMarkets.length > 0
+          ? initialMarkets.map(m => ({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: m.flag || '' }))
+          : [{ chartLabel, platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }],
         _rankHistoryByLine: dh.rankHistory ? {
           [`${dh.platform}_${dh.chartType}`]: { platform: dh.platform, chartType: dh.chartType, data: dh.rankHistory }
         } : {}
