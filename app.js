@@ -582,6 +582,7 @@ function renderStats() {
         } : {}
       });
     }
+  }
 
   filtered = Array.from(mergedMap.values());
   filtered.sort((a, b) => (b.confidenceScore || 0) - (a.confidenceScore || 0));
