@@ -476,7 +476,45 @@ function renderStats() {
   // 已評測黑馬
   const reportedList = state.darkhorses.filter(dh => !!findReport(dh.name));
   const statAppsEl = document.getElementById('statApps');
-  if (statAppsEl) st  // ============ 跨平台/跨排行/跨市場合併 ============
+  if (statAppsEl) statAppsEl.textContent = getUniqueCount(reportedList);
+  const statAppsSub = document.getElementById('statAppsSub');
+  
+  const totalUnique = getUniqueCount(state.darkhorses);
+  if (statAppsSub) statAppsSub.textContent = `/ ${totalUnique} 匹`;
+
+  // 偵測黑馬
+  const statDhEl = document.getElementById('statDarkhorses');
+  if (statDhEl) statDhEl.textContent = totalUnique;
+
+  // dhCount 會在 renderDarkhorses 時被覆寫，這裡可以先給個預設值
+  const dhCountEl = document.getElementById('dhCount');
+  if (dhCountEl) dhCountEl.textContent = totalUnique;
+}
+
+function renderDarkhorses() {
+  const grid = document.getElementById('darkhorseGrid');
+  const searchTerm = (document.getElementById('dhSearch')?.value || '').toLowerCase().trim();
+
+  let filtered = state.darkhorses.filter(dh => {
+    // 搜尋篩選
+    if (searchTerm) {
+      const nameMatch = dh.name.toLowerCase().includes(searchTerm);
+      const devMatch = (dh.developer || '').toLowerCase().includes(searchTerm);
+      if (!nameMatch && !devMatch) return false;
+    }
+    // 市場篩選：支援新的 markets 陣列
+    if (state.dhMarket !== 'all') {
+      const dhMarkets = dh.markets ? dh.markets.map(m => m.code) : [dh.market];
+      if (!dhMarkets.includes(state.dhMarket)) return false;
+    }
+    // 已評測篩選（只過濾黑馬中有報告的）
+    if (state.dhReportFilter === 'reported' && !findReport(dh.name)) return false;
+    if (state.dhReportFilter === 'unreported' && findReport(dh.name)) return false;
+    if (state.dhReportFilter === 'new_entry' && !dh.triggers?.some(t => t.strategy === 'new_entry')) return false;
+    return true;
+  });
+
+  // ============ 跨平台/跨排行/跨市場合併 ============
   const mergedMap = new Map();
 
   function getMergeKey(dh) {
