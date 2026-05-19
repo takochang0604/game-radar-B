@@ -514,7 +514,7 @@ body::before {
   border-radius: 50%; width: 24px; height: 24px;
   font-size: 11px; cursor: pointer; transition: var(--transition);
   display: inline-flex; align-items: center; justify-content: center;
-  opacity: 0.3; filter: grayscale(1);
+  opacity: 0.3; filter: grayscale(1); flex-shrink: 0;
 }
 .pin-btn:hover { opacity: 1 !important; background: rgba(255,255,255,0.12); transform: scale(1.15); }
 .pin-btn.pinned {
@@ -524,7 +524,7 @@ body::before {
 
 /* Darkhorse Pin */
 .dh-pin-btn {
-  position: absolute; top: 6px; right: 6px; z-index: 5;
+  /* position: absolute; removed */
 }
 .dh-card:hover .pin-btn.dh-pin-btn { opacity: 0.8; }
 

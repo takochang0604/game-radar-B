@@ -679,16 +679,18 @@ function renderDarkhorses() {
 
     return `
     <div class="dh-card ${hasAnalysis ? 'has-analysis' : ''} ${hasReport ? 'has-report' : ''}" onclick="showAnalysis('${dh.appId}', '${dh.platform}')">
-      <button class="pin-btn dh-pin-btn ${isTracked(dh.appId) ? 'pinned' : ''}" onclick="event.stopPropagation();toggleTrack(this, ${JSON.stringify({
+      <div class="dh-header">
+        <img class="dh-icon" src="${dh.icon || ''}" alt="" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22 rx=%2220%22/><text x=%2250%22 y=%2258%22 text-anchor=%22middle%22 fill=%22%23888%22 font-size=%2240%22>🎮</text></svg>'">
+        <div class="dh-info">
+          <div class="dh-name" style="display:flex;align-items:center;gap:6px">
+            <button class="pin-btn dh-pin-btn ${isTracked(dh.appId) ? 'pinned' : ''}" style="position:static;flex-shrink:0" onclick="event.stopPropagation();toggleTrack(this, ${JSON.stringify({
       appId: dh.appId, name: dh.name, icon: dh.icon || '', developer: dh.developer || '',
       platform: dh.platform, market: dh.market, marketFlag: dh.marketFlag, marketName: dh.marketName,
       chartType: dh.chartType, confidenceScore: dh.confidenceScore,
       currentRank: dh.currentRank, _chartRanks: dh._chartRanks, _platforms: dh._platforms || [dh.platform],
     }).replace(/"/g, '&quot;')})" title="${isTracked(dh.appId) ? '取消追蹤' : '追蹤此黑馬'}">📌</button>
-      <div class="dh-header">
-        <img class="dh-icon" src="${dh.icon || ''}" alt="" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22 rx=%2220%22/><text x=%2250%22 y=%2258%22 text-anchor=%22middle%22 fill=%22%23888%22 font-size=%2240%22>🎮</text></svg>'">
-        <div class="dh-info">
-          <div class="dh-name">${dh.name}</div>
+            <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${dh.name}</span>
+          </div>
           <div class="dh-developer">${dh.developer || ''}</div>
         </div>
         <div class="dh-rank-block">${rankHtml}</div>
@@ -2128,11 +2130,13 @@ async function renderTracked() {
 
     return `
     <div class="dh-card tracked-card" onclick="showAnalysis('${t.appId}', '${t.platform}')">
-      <button class="dh-pin-btn pinned" onclick="event.stopPropagation();untrack('${t.appId}')" title="取消追蹤">📌</button>
       <div class="dh-header">
         <img class="dh-icon" src="${t.icon || ''}" alt="" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22 rx=%2220%22/><text x=%2250%22 y=%2258%22 text-anchor=%22middle%22 fill=%22%23888%22 font-size=%2240%22>🎮</text></svg>'">
         <div class="dh-info">
-          <div class="dh-name">${t.name}</div>
+          <div class="dh-name" style="display:flex;align-items:center;gap:6px">
+            <button class="pin-btn dh-pin-btn pinned" style="position:static;flex-shrink:0" onclick="event.stopPropagation();untrack('${t.appId}')" title="取消追蹤">📌</button>
+            <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${t.name}</span>
+          </div>
           <div class="dh-developer">${t.developer || ''}</div>
         </div>
         <div class="dh-rank-block">${rankHtml}</div>
