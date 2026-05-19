@@ -683,14 +683,29 @@ function renderDarkhorses() {
       ? `${ICON_IOS} ${ICON_ANDROID}`
       : `${platforms[0] === 'android' ? ICON_ANDROID : ICON_IOS}`;
     // 排名顯示（合併後可能多排行）
-    const chartRanks = dh._chartRanks || [{ chartLabel: dh.chartType === 'grossing' ? '營收' : '免費', platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }];
+    let chartRanks = dh._chartRanks || [{ chartLabel: dh.chartType === 'grossing' ? '營收' : '免費', platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }];
+    
+    // 排序：營收優先 > 排名數字越小越前面
+    chartRanks.sort((a, b) => {
+      if (a.chartLabel !== b.chartLabel) return a.chartLabel === '營收' ? -1 : 1;
+      return a.rank - b.rank;
+    });
+
     const hasMultiMarkets = dh.markets && dh.markets.length > 1;
-    const rankHtml = chartRanks.map(cr => {
+    const displayRanks = chartRanks.slice(0, 2);
+    const hiddenRanks = chartRanks.slice(2);
+
+    let rankHtml = displayRanks.map(cr => {
       const pIcon = cr.platform === 'android' ? ICON_ANDROID : ICON_IOS;
       const rtCls = cr.chartLabel === '營收' ? 'rt-grossing' : 'rt-free';
       const mFlag = hasMultiMarkets && cr.marketFlag ? `<span style="font-size:11px;margin-right:2px">${cr.marketFlag}</span>` : '';
       return `<div class="dh-rank-row">${mFlag}<span class="dh-rank-type ${rtCls}">${cr.chartLabel}</span>${pIcon}<span class="dh-rank-num">#${cr.rank}</span></div>`;
     }).join('');
+
+    if (hiddenRanks.length > 0) {
+      const tooltipText = hiddenRanks.map(cr => `${cr.marketFlag || ''} ${cr.platform === 'android' ? 'Android' : 'iOS'} ${cr.chartLabel} #${cr.rank}`).join('&#10;');
+      rankHtml += `<div class="dh-rank-row" style="justify-content:flex-end;opacity:0.6;font-size:10px;cursor:help;margin-top:2px" title="${tooltipText}">+${hiddenRanks.length} 個排行</div>`;
+    }
 
     return `
     <div class="dh-card ${hasAnalysis ? 'has-analysis' : ''} ${hasReport ? 'has-report' : ''}" onclick="showAnalysis('${dh.appId}', '${dh.platform}')">
