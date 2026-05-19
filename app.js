@@ -690,10 +690,17 @@ function renderDarkhorses() {
     // 排名顯示（合併後可能多排行）
     let chartRanks = dh._chartRanks || [{ chartLabel: dh.chartType === 'grossing' ? '營收' : '免費', platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }];
     
-    // 排序：營收優先 > 排名數字越小越前面
+    // 市場權重（同名次時優先顯示商業價值高的市場）
+    const RANK_MARKET_WEIGHTS = {
+      '🇯🇵': 1.6, '🇺🇸': 1.5, '🇰🇷': 1.4, '🇨🇳': 1.3,
+      '🇹🇼': 1.0, '🇹🇭': 1.0, '🇻🇳': 1.0, '🇵🇭': 0.9,
+    };
+
+    // 排序：營收優先 > 排名小優先 > 同名次時市場權重高的優先
     chartRanks.sort((a, b) => {
       if (a.chartLabel !== b.chartLabel) return a.chartLabel === '營收' ? -1 : 1;
-      return a.rank - b.rank;
+      if (a.rank !== b.rank) return a.rank - b.rank;
+      return (RANK_MARKET_WEIGHTS[b.marketFlag] || 0.5) - (RANK_MARKET_WEIGHTS[a.marketFlag] || 0.5);
     });
 
     const hasMultiMarkets = dh.markets && dh.markets.length > 1;
