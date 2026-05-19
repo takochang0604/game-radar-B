@@ -1879,23 +1879,10 @@ function showReport(gameName) {
     // 支援 marked.js align 屬性（確保置中對齊生效）
     html = html.replace(/<td align="center"/g, '<td style="text-align:center"');
     html = html.replace(/<th align="center"/g, '<th style="text-align:center"');
-    // ★ 下載/分享按鈕（放在報告內容上方，左側對齊，與關閉按鈕保持距離）
+    // ★ 下載按鈕（放在報告內容上方，左側對齊，與關閉按鈕保持距離）
     const safeGameName = gameName.replace(/'/g, "\\'");
-    const btnStyles = "display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600;transition:all 0.2s;";
-    const downloadBtn = `<div style="margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.06);display:flex;gap:10px;flex-wrap:wrap;">
-      <button onclick="event.stopPropagation();downloadReportHTML('${safeGameName}')" style="${btnStyles}border:1px solid rgba(59,130,246,0.3);background:rgba(59,130,246,0.1);color:#60a5fa;" onmouseover="this.style.background='rgba(59,130,246,0.25)'" onmouseout="this.style.background='rgba(59,130,246,0.1)'">⬇ 下載 (HTML)</button>
-      <button onclick="event.stopPropagation();copyReportText('${safeGameName}', this)" style="${btnStyles}border:1px solid rgba(16,185,129,0.3);background:rgba(16,185,129,0.1);color:#34d399;" onmouseover="this.style.background='rgba(16,185,129,0.25)'" onmouseout="this.style.background='rgba(16,185,129,0.1)'">📋 複製內文</button>
-      <button onclick="event.stopPropagation();shareReport('${safeGameName}')" class="mobile-only-btn" style="${btnStyles}border:1px solid rgba(168,85,247,0.3);background:rgba(168,85,247,0.1);color:#c084fc;display:none;" onmouseover="this.style.background='rgba(168,85,247,0.25)'" onmouseout="this.style.background='rgba(168,85,247,0.1)'">🔗 分享</button>
-    </div>`;
+    const downloadBtn = `<div style="margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.06)"><button onclick="event.stopPropagation();downloadReportHTML('${safeGameName}')" style="display:inline-flex;align-items:center;gap:8px;padding:8px 18px;border-radius:8px;border:1px solid rgba(59,130,246,0.3);background:rgba(59,130,246,0.1);color:#60a5fa;cursor:pointer;font-size:13px;font-weight:600;transition:all 0.2s" onmouseover="this.style.background='rgba(59,130,246,0.25)'" onmouseout="this.style.background='rgba(59,130,246,0.1)'">⬇ 下載評測報告（HTML）</button></div>`;
     body.innerHTML = `${downloadBtn}<div class="report-content">${html}</div>`;
-    
-    // 在手機版顯示分享按鈕
-    setTimeout(() => {
-      if (window.innerWidth <= 768 && navigator.canShare) {
-        const shareBtns = body.querySelectorAll('.mobile-only-btn');
-        shareBtns.forEach(b => b.style.display = 'inline-flex');
-      }
-    }, 0);
     // 4 欄以上的寬表格：加 wide-table class 啟用橫捲；窄表格正常換行
     body.querySelectorAll('.report-content table').forEach(table => {
       const firstRow = table.querySelector('tr');
@@ -2004,40 +1991,6 @@ function fallbackDownload(blob, fileName) {
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
 }
-
-window.copyReportText = function(gameName, btn) {
-  const md = findReport(gameName);
-  if (!md) return;
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(md).then(() => {
-      const origText = btn.innerHTML;
-      btn.innerHTML = '✅ 已複製';
-      setTimeout(() => btn.innerHTML = origText, 2000);
-    });
-  } else {
-    // Fallback
-    const textArea = document.createElement("textarea");
-    textArea.value = md;
-    document.body.appendChild(textArea);
-    textArea.select();
-    document.execCommand("Copy");
-    textArea.remove();
-    const origText = btn.innerHTML;
-    btn.innerHTML = '✅ 已複製';
-    setTimeout(() => btn.innerHTML = origText, 2000);
-  }
-};
-
-window.shareReport = function(gameName) {
-  const md = findReport(gameName);
-  if (!md) return;
-  if (navigator.share) {
-    navigator.share({
-      title: `${gameName} 評測報告`,
-      text: md
-    }).catch(e => console.log('Share failed', e));
-  }
-};
 
 window.showReport = showReport;
 window.findReport = findReport;
