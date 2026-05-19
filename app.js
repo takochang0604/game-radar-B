@@ -954,13 +954,14 @@ function renderRankings() {
       <td><div class="app-cell">
         <img src="${app.icon || ''}" alt="" onerror="this.style.display='none'">
         <div class="app-cell-info">
-          <div class="app-cell-name">
+          <div style="display:flex; align-items:center;">
             <button class="pin-btn rank-pin-btn ${isTracked(app.appId) ? 'pinned' : ''}" onclick="event.stopPropagation();toggleTrack(this, ${JSON.stringify({
               appId: app.appId, name: app.name, icon: app.icon || '', developer: app.developer || '',
               platform: app._platform, market: state.rankMarket, marketFlag: MARKETS.find(m => m.code === state.rankMarket)?.flag || '', marketName: MARKETS.find(m => m.code === state.rankMarket)?.name || state.rankMarket,
               chartType: state.chartType, currentRank: app.rank, _platforms: [app._platform]
             }).replace(/"/g, '&quot;')})" title="${isTracked(app.appId) ? '取消追蹤' : '追蹤此遊戲'}">📌</button>
-            ${app.name}${rankDhBadge}${rankReportBadge}
+            <div class="app-cell-name" title="${safeName}">${app.name}</div>
+            <div style="display:flex; flex-shrink:0;">${rankDhBadge}${rankReportBadge}</div>
           </div>
           <div class="app-cell-dev">${app.developer || ''}</div>
         </div>
