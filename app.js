@@ -559,11 +559,14 @@ function renderDarkhorses() {
         else if (!existing.markets.find(em => em.code === dh.market)) existing.markets.push({ code: dh.market, flag: dh.marketFlag, name: dh.marketName, rank: dh.currentRank });
       }
 
-      // 合併排行資訊
+      // 合併排行資訊 (將 dh.markets 的所有排名都加入 _chartRanks)
       const chartLabel = dh.chartType === 'grossing' ? '營收' : '免費';
-      if (!existing._chartRanks.find(cr => cr.chartLabel === chartLabel && cr.platform === dh.platform && cr.marketFlag === (dh.marketFlag || ''))) {
-        existing._chartRanks.push({ chartLabel, platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' });
-      }
+      const sourceMarkets = dh.markets || [{ flag: dh.marketFlag, rank: dh.currentRank }];
+      sourceMarkets.forEach(m => {
+        if (!existing._chartRanks.find(cr => cr.chartLabel === chartLabel && cr.platform === dh.platform && cr.marketFlag === (m.flag || ''))) {
+          existing._chartRanks.push({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: m.flag || '' });
+        }
+      });
       // 取較高信心分數
       if ((dh.confidenceScore || 0) > (existing.confidenceScore || 0)) {
         existing.confidenceScore = dh.confidenceScore;
@@ -614,7 +617,7 @@ function renderDarkhorses() {
         markets: initialMarkets,
         triggers: taggedTriggers,
         _platforms: [dh.platform],
-        _chartRanks: [{ chartLabel, platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }],
+        _chartRanks: initialMarkets.map(m => ({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: m.flag || '' })),
         _rankHistoryByLine: dh.rankHistory ? {
           [`${dh.platform}_${dh.chartType}`]: { platform: dh.platform, chartType: dh.chartType, data: dh.rankHistory }
         } : {}
