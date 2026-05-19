@@ -1,0 +1,1970 @@
+{
+  "collectedAt": "2026-05-18T14:57:20.876Z",
+  "android": {
+    "appId": "com.brain.twist.tricky.story",
+    "title": "Tricky Story 2: Brain Twist",
+    "developer": "XGame HK",
+    "developerId": "XGame+HK",
+    "genre": "Puzzle",
+    "score": 4.5346537,
+    "ratings": 15489,
+    "installs": "1,000,000+",
+    "maxInstalls": 1501796,
+    "free": true,
+    "released": "Jan 16, 2026",
+    "updated": 1778071346000,
+    "version": "1.0.11",
+    "contentRating": "Everyone",
+    "icon": "https://play-lh.googleusercontent.com/UnCNRTNQz1oECMV3WTnD7fLqb0E654AO0GMH5SILUsxUCjK3sGBGUucpsDbAz82KkB0B0OxJN4qHdd1-kmiZ0A",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/GC6-j0qMaA3Slr8ttKTTPnoIiN-ZN4wr72RMaRLcR7atLTPs5ZdCBkTUR5HfCgPusEGjghsu1bUXSZ36RuVz",
+      "https://play-lh.googleusercontent.com/8V_cqtrwDTdXbF9onappODa3YR9nxIxhdy6-MvqLBgMEoCD5Em8kJI8-xShqT3Q9774Rfr5emG6n9_xD7xVl",
+      "https://play-lh.googleusercontent.com/qphuZguJ27emSJ07ENB6h7O1QGZwvv_B6i6ho_HovS2Dl2F0CfQ8NnuWMRyogs9eKth1m98uYFSMnp1TzvdW",
+      "https://play-lh.googleusercontent.com/tuLaGOscOA0m14ah_cyLH1FtquCFY9Po_yq7m_2EhgrcMySQBInVZhCbmNoCngEGt1rl4YCKPfLvtH4eehtXsA",
+      "https://play-lh.googleusercontent.com/5bwkaswM8PxYnZ_nXVwhN-jbwYWR21SW-OkXENJztO8zYw2kF0W0HVNHJ5ClyRYh6HKwgVPoIoE7jjgEobl9XQ",
+      "https://play-lh.googleusercontent.com/TENEUozWAzr5swr47H7thwduRaJUXfyyU5eAqw1M6WphTaQWuh3aBtdbvXXAODD2fQ0kv8KvLbRihVFVhMbzrHs",
+      "https://play-lh.googleusercontent.com/l6mD4wl1xsi1QokKdLNvZFPI3O2M-UVr2qEtLPoUDMfBHXWMn9pJzYOhjFihgLCZ9eu_fU6JA4ee30I5tquVww",
+      "https://play-lh.googleusercontent.com/AHdxFEMkV4tw4xP29UjxTZWh98uAff7H6OqMZF6fMetWHCKaPt4KnTjOrqkjC3M3lJmoTQ-il7McHi109_7kPJ0",
+      "https://play-lh.googleusercontent.com/GC6-j0qMaA3Slr8ttKTTPnoIiN-ZN4wr72RMaRLcR7atLTPs5ZdCBkTUR5HfCgPusEGjghsu1bUXSZ36RuVz",
+      "https://play-lh.googleusercontent.com/Wt7_PAAwkiZFlT0buniPSJO-xTwvi8JmE4EzgSoN-ITsFpANKXZJ39VpJFURxun3JOinZegNgfGZGhLVrm3UKQ",
+      "https://play-lh.googleusercontent.com/qphuZguJ27emSJ07ENB6h7O1QGZwvv_B6i6ho_HovS2Dl2F0CfQ8NnuWMRyogs9eKth1m98uYFSMnp1TzvdW",
+      "https://play-lh.googleusercontent.com/tuLaGOscOA0m14ah_cyLH1FtquCFY9Po_yq7m_2EhgrcMySQBInVZhCbmNoCngEGt1rl4YCKPfLvtH4eehtXsA",
+      "https://play-lh.googleusercontent.com/5bwkaswM8PxYnZ_nXVwhN-jbwYWR21SW-OkXENJztO8zYw2kF0W0HVNHJ5ClyRYh6HKwgVPoIoE7jjgEobl9XQ",
+      "https://play-lh.googleusercontent.com/TENEUozWAzr5swr47H7thwduRaJUXfyyU5eAqw1M6WphTaQWuh3aBtdbvXXAODD2fQ0kv8KvLbRihVFVhMbzrHs",
+      "https://play-lh.googleusercontent.com/l6mD4wl1xsi1QokKdLNvZFPI3O2M-UVr2qEtLPoUDMfBHXWMn9pJzYOhjFihgLCZ9eu_fU6JA4ee30I5tquVww",
+      "https://play-lh.googleusercontent.com/AHdxFEMkV4tw4xP29UjxTZWh98uAff7H6OqMZF6fMetWHCKaPt4KnTjOrqkjC3M3lJmoTQ-il7McHi109_7kPJ0",
+      "https://play-lh.googleusercontent.com/GC6-j0qMaA3Slr8ttKTTPnoIiN-ZN4wr72RMaRLcR7atLTPs5ZdCBkTUR5HfCgPusEGjghsu1bUXSZ36RuVz",
+      "https://play-lh.googleusercontent.com/Wt7_PAAwkiZFlT0buniPSJO-xTwvi8JmE4EzgSoN-ITsFpANKXZJ39VpJFURxun3JOinZegNgfGZGhLVrm3UKQ",
+      "https://play-lh.googleusercontent.com/i2ANipCtnEYEVSND-0V-wPI4rNH3twud0uQjxy7Z_WO7o-ZCnzkTnuKMSxcWCcSjSTGAP1KXQmH6ThpKtUein7E",
+      "https://play-lh.googleusercontent.com/tuLaGOscOA0m14ah_cyLH1FtquCFY9Po_yq7m_2EhgrcMySQBInVZhCbmNoCngEGt1rl4YCKPfLvtH4eehtXsA",
+      "https://play-lh.googleusercontent.com/5bwkaswM8PxYnZ_nXVwhN-jbwYWR21SW-OkXENJztO8zYw2kF0W0HVNHJ5ClyRYh6HKwgVPoIoE7jjgEobl9XQ",
+      "https://play-lh.googleusercontent.com/TENEUozWAzr5swr47H7thwduRaJUXfyyU5eAqw1M6WphTaQWuh3aBtdbvXXAODD2fQ0kv8KvLbRihVFVhMbzrHs",
+      "https://play-lh.googleusercontent.com/l6mD4wl1xsi1QokKdLNvZFPI3O2M-UVr2qEtLPoUDMfBHXWMn9pJzYOhjFihgLCZ9eu_fU6JA4ee30I5tquVww",
+      "https://play-lh.googleusercontent.com/AHdxFEMkV4tw4xP29UjxTZWh98uAff7H6OqMZF6fMetWHCKaPt4KnTjOrqkjC3M3lJmoTQ-il7McHi109_7kPJ0"
+    ],
+    "video": null,
+    "summary": "Solve mind logic riddles and puzzle games! Challenge your IQ in this smart quest",
+    "description": "Welcome to Tricky Story 2: Brain Twist – the ultimate destination for fans of mind logic riddle puzzle games. Are you ready to test your IQ and outsmart every challenge?\nIn this sequel, we bring you a collection of smart and unexpected logic puzzles that require you to think outside the box. This isn't just an ordinary IQ test; it’s a mystery where every choice matters. Can you solve the most complex riddle levels?\nWhy you should play Tricky Story 2:\nLogic Riddles: Hundreds of levels designed to challenge your mind and improve your skill.\nSmart Choices: Make the right decision to find the hidden truth behind every story.\nMind-Bending Puzzles: A perfect mix of find, draw, and erase mechanics similar to your favorite braindom and dop challenges.\nBrain Twist Levels: Each stage is a new test for your genius.\nMystery & Discovery: Uncover secrets in a world where nothing is as it seems.\nWhether you are a master of easy games or looking for a tough brain test, our riddle puzzle game will keep you engaged for hours. Use your logic to find the solution, draw the missing part, or erase the obstacles to win.\nDo you have the genius to finish all levels? Enjoy Tricky Story 2: Brain Twist now and join the community of riddle solvers today!",
+    "recentChanges": "We have updated new levels and fixed performance-related issues",
+    "developerWebsite": "https://xgamestudio.com"
+  },
+  "ios": {
+    "id": 6757844491,
+    "appId": "com.tricky.story.brain.puzzle",
+    "title": "Tricky Story 2: Brain Twist",
+    "developer": "Tang Thi Thuy",
+    "score": 4.66944,
+    "reviews": 4214,
+    "free": true,
+    "released": "2026-01-22T08:00:00Z",
+    "updated": "2026-05-09T00:58:08Z",
+    "version": "1.0.8",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/b1/c1/9db1c1d2-c3e9-7471-9222-920b2fc665dd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Casual",
+      "Entertainment"
+    ],
+    "description": "Welcome back to Tricky Story 2 – the sequel where the puzzles are trickier and the stories are even crazier!\n\nEverything you loved about the first game is back, but with a whole new level of \"Wait, what?!\" moments. Challenge your logic, sharpen your wit, and get ready for the ultimate brain workout that doesn't take itself too seriously.\n\nWhat’s New in Part 2:\n\nBrand-New Levels: Fresh brain-teasers that will keep you guessing.\nEpic Plot Twists: Each level tells a hilarious story where nothing is as it seems.\nSmarter Logic Puzzles: Think even further outside the box to outsmart our tricky scenarios.\nVibrant Visuals: Improved graphics and charming animations for a better experience.\nEasy to Play, Hard to Solve: Simple tap-and-swipe controls, but the logic will melt your brain!\n\nDo you have a high IQ? Don't be fooled by the obvious! Enjoy Tricky Story 2 now, solve the mysteries, and see if you can handle the funny truth behind every level!"
+  },
+  "reviews": {
+    "total": 226,
+    "googlePlay": 163,
+    "appStore": 63,
+    "distribution": {
+      "1": 50,
+      "2": 31,
+      "3": 21,
+      "4": 29,
+      "5": 95
+    },
+    "positive": [
+      {
+        "source": "google_play",
+        "userName": "Ayaan Mir shakeb",
+        "score": 5,
+        "text": "good game",
+        "date": "2026-05-17T13:45:02.240Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "salsabeel halawa",
+        "score": 5,
+        "text": "You need to continue the story ASAP I can't waaaaiiiit don't do this pleeeaaase😭😭😭😭😭",
+        "date": "2026-05-17T09:35:04.104Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ejelyn Espraguera",
+        "score": 5,
+        "text": "ang galing nito",
+        "date": "2026-05-17T09:30:39.620Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Knight O'Moon",
+        "score": 4,
+        "text": "I like the story line for the Secret Heiress, but I can't get to level 55. The game has this weird issue where it won't download the next level. when you try to it goes stuck in a loading screen that freezes the game for several minutes. It takes a few days of me attempting to play the level for it to finally download. It's really frustrating.",
+        "date": "2026-05-17T06:38:39.846Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Coop",
+        "score": 5,
+        "text": "I like how I gives little stories and voices and info about riley",
+        "date": "2026-05-17T01:44:54.274Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lenadia Booysen",
+        "score": 5,
+        "text": "l LOVE it",
+        "date": "2026-05-16T20:39:29.919Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "NURUL AIN",
+        "score": 5,
+        "text": "Lurvee",
+        "date": "2026-05-16T13:37:04.614Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mikayla",
+        "score": 5,
+        "text": "it's creative yet safe",
+        "date": "2026-05-16T12:30:36.578Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Margaret Arissa",
+        "score": 5,
+        "text": "amazing and interesting game",
+        "date": "2026-05-16T12:13:33.960Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jitu Tomar",
+        "score": 5,
+        "text": "This game is interesting 👌👍",
+        "date": "2026-05-16T11:42:32.625Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Hollie B",
+        "score": 5,
+        "text": "so fun to play!",
+        "date": "2026-05-16T10:54:11.865Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Umoh Victory",
+        "score": 5,
+        "text": "really amazing stories but to many ads 😩",
+        "date": "2026-05-16T07:47:58.524Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Anil Sanker",
+        "score": 5,
+        "text": "Love this game it is so so good you can trust me it is so good the 3rd version is more beautiful mysterious, I can't explain it you should play the 3rd version it's just 🤌 just love it ❤️ 2nd is also so good love it ❤️💜",
+        "date": "2026-05-16T07:21:48.940Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sarah Spisak",
+        "score": 5,
+        "text": "I loved that can take revenge and that we actually get better storyline",
+        "date": "2026-05-16T00:52:25.222Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Anthony McNeal",
+        "score": 5,
+        "text": "it has a pretty interesting story and the levels are fun too",
+        "date": "2026-05-15T20:00:18.893Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "ULO Bera",
+        "score": 5,
+        "text": "When \"the villian's awekening\"full story will come?",
+        "date": "2026-05-15T15:21:29.871Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ibenye Benedicta",
+        "score": 4,
+        "text": "the game is good but there are some levels that according to the hint,the equipment to use are no where to be found,like the Riley Ashford story where she needed to make a dress and I needed scissors to cut the curtains but it's no where to be found",
+        "date": "2026-05-15T14:26:42.423Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tarannum Naz",
+        "score": 5,
+        "text": "This game is so much interesting i love it ✨🌷",
+        "date": "2026-05-15T14:24:54.951Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kelly Sadon",
+        "score": 4,
+        "text": "very fun",
+        "date": "2026-05-15T13:59:45.638Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Adonai Joshua",
+        "score": 5,
+        "text": "i love this game but why always use data",
+        "date": "2026-05-15T12:18:39.373Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Devendra Kumar Dewangan",
+        "score": 5,
+        "text": "very good game this game also givee idea of making my own manga",
+        "date": "2026-05-15T05:59:53.445Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "P.s. Parmar",
+        "score": 5,
+        "text": "when will new level of the awaking of villain come or trick stories 3 will come",
+        "date": "2026-05-15T02:03:10.763Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jazlynn Monk",
+        "score": 5,
+        "text": "I love it",
+        "date": "2026-05-14T20:47:00.969Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ravish Rizvi",
+        "score": 4,
+        "text": "i like this one",
+        "date": "2026-05-14T18:36:53.637Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nomatter",
+        "score": 5,
+        "text": "I love your game it's one of the best games I've ever played in my life",
+        "date": "2026-05-14T18:35:20.400Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dr Fatima Pirzada",
+        "score": 5,
+        "text": "good 😊",
+        "date": "2026-05-14T18:30:28.150Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "pooja kumari",
+        "score": 4,
+        "text": "nice game there are tricky puzzles that are so 😜fun",
+        "date": "2026-05-14T16:17:40.321Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Waniya Fatima",
+        "score": 5,
+        "text": "I LOVEEE IT!!",
+        "date": "2026-05-14T15:57:46.860Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Amy A.",
+        "score": 5,
+        "text": "So far, so good!",
+        "date": "2026-05-14T15:00:55.268Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Sanazbeautysalon",
+        "score": 4,
+        "text": "good gamee 💗",
+        "date": "2026-05-14T09:47:22.916Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Eyka Enal",
+        "score": 4,
+        "text": "Good games but has ads. You can't skip the ads unless you pay for it.",
+        "date": "2026-05-14T08:34:48.210Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Rahama",
+        "score": 4,
+        "text": "why is the update so slow .am still waiting for the update of new chapters in the second story about Cecilia and still no update yet .and the real that's the best story in the app",
+        "date": "2026-05-14T08:02:05.390Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Casey Dreamuslps",
+        "score": 4,
+        "text": "I like the game it is fun but it did sometimes the ads glitch out. it might be worth the ads but not when the ads glitch out. like having two ads happening at the same time.",
+        "date": "2026-05-14T04:48:27.330Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Rohini .p",
+        "score": 4,
+        "text": "this game is really good but lifetime is the problem but comparing others this was good",
+        "date": "2026-05-13T16:32:10.794Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Chinky",
+        "score": 5,
+        "text": "aylab it",
+        "date": "2026-05-13T15:02:29.600Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nithyashree Velavan",
+        "score": 4,
+        "text": "Great game! the stories are interesting as well! one thing that annoyed me was that it doesn't save your progress... when I re-download it it takes me back to the beginning which is annoying 😑",
+        "date": "2026-05-13T14:17:07.653Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nanna NIKITHA",
+        "score": 5,
+        "text": "I really loved this game the stories was awesome. it's a great game",
+        "date": "2026-05-13T13:33:43.625Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Qayyum Ghani",
+        "score": 5,
+        "text": "Nice story line and fun game",
+        "date": "2026-05-13T11:38:39.822Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Rahaf Samer",
+        "score": 5,
+        "text": "It's beautiful and fun, but I want you to complete the stories because I've been waiting for a while.",
+        "date": "2026-05-13T09:52:21.820Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Stonard Nthala (Sailess)",
+        "score": 5,
+        "text": "good, relaxing",
+        "date": "2026-05-13T09:35:28.690Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Shakuntala Hembrom",
+        "score": 5,
+        "text": "nice game",
+        "date": "2026-05-13T05:29:05.231Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jolly Zachariah",
+        "score": 4,
+        "text": "very nice",
+        "date": "2026-05-13T04:34:24.733Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "E H",
+        "score": 5,
+        "text": "out of all the tricky story games that I've played, this is my favorite! I like how every story has multiple levels and it actually has a beginning, middle and end.",
+        "date": "2026-05-13T04:25:33.407Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Arifa Akter",
+        "score": 5,
+        "text": "best game",
+        "date": "2026-05-12T17:06:03.916Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Fara DarkV",
+        "score": 4,
+        "text": "too many ads",
+        "date": "2026-05-12T12:43:23.296Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "ravi kr",
+        "score": 4,
+        "text": "Such a nice game I have ever played",
+        "date": "2026-05-12T10:09:11.552Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Zeeshan Ali",
+        "score": 5,
+        "text": "so interesting and good game for kids",
+        "date": "2026-05-12T09:19:58.768Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Md Riduan",
+        "score": 5,
+        "text": "richy iss very. cute and soft girl and i love the game very much 💋🫶🏻",
+        "date": "2026-05-12T08:27:58.516Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Radha Bhat Mummy",
+        "score": 5,
+        "text": "i love this app",
+        "date": "2026-05-12T07:00:50.719Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Shandhya",
+        "score": 5,
+        "text": "if you want to improve your brain and your mind style so you can play tricky story to point point brain twist review our public and included your account and device info my name is Sanjay Parihar and today I am going to say about a little speech on this game this game is used for a little information about your brain and other things like aaaaa to improve yourself means to identify identify other things and also remember to play this game you also having a nice brain not like your brother or sis",
+        "date": "2026-05-12T06:15:44.460Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Maryam Iftikhar",
+        "score": 5,
+        "text": "good but so many ads 😔 but good but the 2 story is only few episodes I want more",
+        "date": "2026-05-11T20:09:44.576Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Saashashakti Das",
+        "score": 5,
+        "text": "i love it,it is soo fun to play with",
+        "date": "2026-05-11T15:42:43.720Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jasmine Malone",
+        "score": 4,
+        "text": "thw game is fun and I was enjoying myself and I paid for Ad Free but deleted the app and now I can't restore my purchase or my progress! can someone help me resolve this issue?",
+        "date": "2026-05-11T14:26:08.793Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Saleha Praveen",
+        "score": 5,
+        "text": "very nice 👍🏻",
+        "date": "2026-05-11T14:23:16.959Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Erin Linders",
+        "score": 5,
+        "text": "it is keeping me on my toes very nice to play",
+        "date": "2026-05-11T12:05:49.357Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Aksana Pretty",
+        "score": 5,
+        "text": "Good 👍!!!!!!",
+        "date": "2026-05-11T09:31:00.368Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "chitra D",
+        "score": 5,
+        "text": "super 😊",
+        "date": "2026-05-11T09:24:56.800Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jia Qi Shi",
+        "score": 5,
+        "text": "I've played the game for about a few days now and I personally enjoy it a lot. I'm over half way done with the first story and just started the second one about an hour ago. I've really enjoyed the game despite having to deal with ads. I would like to say that the second story is quite similar to a manhwa I've read though. I'm not sure if it's just because the trope is popular but there are big similarities in the storyline.",
+        "date": "2026-05-11T06:49:21.384Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Jay",
+        "score": 5,
+        "text": "so far it's good",
+        "date": "2026-05-11T00:53:31.791Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Virginia Masango",
+        "score": 5,
+        "text": "Good game",
+        "date": "2026-05-10T18:03:12.387Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Rekha Rani",
+        "score": 4,
+        "text": "ok ok",
+        "date": "2026-05-10T17:43:25.740Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "shadowunikat849",
+        "score": 5,
+        "text": "it's honestly kind of worth the amount of ads 😭 I love this game so much, I love the silly stories and I love the amount of puzzles you get out of it, plus it's a couple stories but they are continuous, so you actually get a full story rather than one level stories like in other apps. the only ad that bothers me is the one you get if you get off and then back on the app during a puzzle, but I can deal with that. honestly one of the best \"tricky puzzle\" games I've played (and I've played A LOT)",
+        "date": "2026-04-14T20:30:47.640Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "userName": "Elyssa Jerkins Acha",
+        "score": 5,
+        "text": "Among the games I've downloaded here on the Google Playstore, Tricky Story is one of my favorites. The story is beautiful, especially Story 1: The Secret Heiress. There were just a few parts where it was really hard to find the right answer, but I really liked it a lot. It's really fun to play. I hope Story 3 gets updated soon. I recommend this to my friends. Thank you.",
+        "date": "2026-04-20T02:04:18.431Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "userName": "Riley",
+        "score": 5,
+        "text": "I like this game a lot, some of the solutions feel like a reach but clues are accessible enough that I don't have many issues with it. There's an ad after every level but otherwise you choose to watch them for rewards, which feels pretty balanced to me. There's a few broken assets here and there, so the visuals don't work perfectly. After the most recent update the next level won't load, but I'm not sure if it's an issue with level 46 or an issue with the new update.",
+        "date": "2026-05-06T19:59:54.609Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Nasia Dulay",
+        "score": 5,
+        "text": "Overall it's great except for the fact that level 54 glitches, when I try to give claire the stack of money, nothing happens, but then I try it on riley, her appearance changes.",
+        "date": "2026-05-01T08:49:40.311Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Just Saying",
+        "score": 5,
+        "text": "Edit: Quick fix... thank you! There is a bug on level 42. The scene starts in the classroom, not the hallway and when you hide Claire under the window nothing progresses. the security guard animation does not run and the game does not progress to the other parts of the school.",
+        "date": "2026-04-03T22:38:55.720Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "userName": "Owens Marceline",
+        "score": 5,
+        "text": "this game is actually so much fun and the ads really aren't that bad. it's nice to see a puzzle game not loaded with ads, decently voice acted, and the storylines are very entertaining and fun",
+        "date": "2026-05-06T02:10:37.450Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Whinypersonwhowontshutup",
+        "score": 5,
+        "text": "I love the art and stories. It improved significantly compared to Tricky Story 1. However, when will the next episode for the story 2 be released? I'm low-key obsessed with the 2nd story. 😅🤣",
+        "date": "2026-05-09T03:42:10.774Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jessy Mills",
+        "score": 5,
+        "text": "This game is exceptionally fun! I am looking forward to more levels and the continuation of the stories!! Great job, developer team! 💪",
+        "date": "2026-05-09T15:17:00.460Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "N. K",
+        "score": 5,
+        "text": "it's just so amazing I can't even explain like the stories are real and seems real too i like this game so much I wish that this was developed much sooner like this is my favourite game ever i have played I hope that everyone else loves this game too",
+        "date": "2026-05-07T09:07:21.369Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lela Aminullah",
+        "score": 5,
+        "text": "bravo unity! there are alot of games similar with this but they either ridiculous, doesnt make sense, too buggy, too weird or too much adsss but this one actually proper? letsgoooo",
+        "date": "2026-05-06T17:27:15.825Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Amanda Lo",
+        "score": 5,
+        "text": "Some of the stories are general web comic tropes, but really fun and addictive. I didn't mind paying for no ads, which is super rare for me.",
+        "date": "2026-04-29T09:37:35.430Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Aakanksha Rawal",
+        "score": 5,
+        "text": "the game is really good and so satisfying it does not look fake and story is really good but there are too many ads after every level this is so frustrating",
+        "date": "2026-05-05T02:35:20.794Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tarneem Seleem",
+        "score": 5,
+        "text": "I really enjoyed the puzzles that were part of a story, because the story plot lines are fun. The puzzles that were stand alone were okay, but I hope the developers add more stories.",
+        "date": "2026-04-13T09:08:12.394Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Matt Gasan",
+        "score": 5,
+        "text": "I wish I could give this game 1 million stars as it is sooooooooooooooooooo awesome. Even though I sometimes get mad with it I still enjoy it the part I get mad at is when I don't have enough coins to get a hint and can't watch a video to get one. This was written by Matt's daughters phoebe and Emma",
+        "date": "2026-04-12T19:22:16.355Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "BGS SEKHAR",
+        "score": 5,
+        "text": "I like this game very much a nice game with those levels I like it but I had stucked at 49 level how to switch to maddis view I was stucked there only I didn't understand how to switch to maddis view can you please explain me 🥺 but I had one doubt 😂 why in riley's story anna and Ethan came in this story 😂😂 at 39 level there were talking behind them but I loved this game a lot💖🥰.but I want how to play that 49 level please 🥺🥺🥺",
+        "date": "2026-04-12T07:00:06.860Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Divya Roy",
+        "score": 5,
+        "text": "okay so usually i don't give any reviews to such games but this time I'm doing it because it was sooo good i actually had a good time while playing this and the story was quite cute so overall it's a must try for once.",
+        "date": "2026-04-16T17:36:24.620Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Sena Aaliyah Salvatierra",
+        "score": 5,
+        "text": "this game is worth it! every ads, is worth the story. I love the part of the game of Riley and Claire's story, getting revenge and solving",
+        "date": "2026-04-30T09:40:09.120Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Anaya Naseem",
+        "score": 5,
+        "text": "perfect game I love this everyone else should try there are many different rules and stories and never forget to play this game and never forget to give 5 stars",
+        "date": "2026-04-20T08:04:19.378Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Narayanappa. D",
+        "score": 5,
+        "text": "honestly this is so damn Good I luv the story of hidden heiress but sadly it has only 65 lvls I wish there r More lvls in this story 1 and a proper ending with the main character Riley and Liam with other side characters pls pls add more lvls and reduce the adds pls i will luv it pls update it we want more lvls",
+        "date": "2026-04-29T10:53:14.805Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Ayatul Reshma",
+        "score": 5,
+        "text": "The game is very good, but it takes a long time to update. Please fix this issue.",
+        "date": "2026-04-26T07:22:15.145Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bunni Lala",
+        "score": 5,
+        "text": "I absolutely love these Tricky Stories! They actually have a complete storyline with them and are so entertaining! I could play all day!",
+        "date": "2026-04-11T21:36:39.283Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Erica Butler",
+        "score": 5,
+        "text": "Love the game, but level 46 won't load properly, even after being updated.",
+        "date": "2026-04-17T12:48:36.134Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Shaira Mae Flores",
+        "score": 5,
+        "text": "It's a nice game and a nice story,but this game is for a low temper person because of so much adds.",
+        "date": "2026-04-11T13:44:20.333Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Palak Chaudhary",
+        "score": 5,
+        "text": "I like this game because it's villainess story is like i favourite manhwa death is the only ending for the villainess.... 💖💖💖💖",
+        "date": "2026-05-09T15:04:21.121Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nikhil Tiwari",
+        "score": 5,
+        "text": "it's a very cool game you can try it yourself and look at this game I love this game i also you know that it don't need any network also I like this game very much",
+        "date": "2026-05-10T10:44:35.504Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mem Zayin Fin",
+        "score": 5,
+        "text": "need more updates, it needs connection before you can play it. waiting for the newest update soon.",
+        "date": "2026-05-05T14:58:14.400Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alexa Rafer",
+        "score": 5,
+        "text": "a very nice game. i like that the game has story and updates everytime but, my only problem is the constant ads after every level. overall is good, hoping for more story and updates.",
+        "date": "2026-03-06T07:02:24.670Z",
+        "thumbsUp": 20
+      },
+      {
+        "source": "google_play",
+        "userName": "Ziya Fathima",
+        "score": 5,
+        "text": "a very nice game and interesting but a little ads are coming but still it's the best game i have played",
+        "date": "2026-04-26T16:23:18.113Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kimberly Mattocks",
+        "score": 5,
+        "text": "I'm a huge fan of the first Tricky Story and this one too is amazing. But it leaves me with a question. Will the original continue to be updated too?",
+        "date": "2026-04-21T12:24:58.164Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dede Ibrahim",
+        "score": 5,
+        "text": "I really enjoy the game but I have been waiting too long for the new stories and updates",
+        "date": "2026-04-30T09:56:46.961Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kirstine Richardson",
+        "score": 5,
+        "text": "It is very cute story and the puzzles are unique.",
+        "date": "2026-04-18T21:10:07.100Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Mary Ann Grace Ferguson",
+        "score": 5,
+        "text": "perfect 🥰 It's enjoyable to play, entertaining, and helps relieve stress... As long as I have fun playing.",
+        "date": "2026-04-09T00:58:01.182Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sara Martel",
+        "score": 5,
+        "text": "the art style and voice acting is really beautiful.",
+        "date": "2026-04-01T21:29:25.972Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "stefanie aculan",
+        "score": 5,
+        "text": "Why does the game always crashed on its own? Whenever I open the app to play, it will load very slowly and when I click a level it will suddenly stop and close. This happens so many times. Is there a bug on the app. I always see to it that it's updated and cache is cleared. But the problem persists. Can you fix this please? Edited: Finally they have already fixed the latency of the app. I can play smoothly now without interruptions. So I'm changing the review",
+        "date": "2026-05-09T14:07:17.460Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Snoozy Snooz",
+        "score": 5,
+        "text": "great and beautiful game it actually relates to reality problems that teens go through",
+        "date": "2026-04-08T08:42:13.866Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Koko Roberts",
+        "score": 5,
+        "text": "it's really fun and free no adds",
+        "date": "2026-05-10T04:19:35.535Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Gulnaz Sohaib",
+        "score": 5,
+        "text": "I play already all the level and again I will play thanks for the Ramadan special levels",
+        "date": "2026-04-02T15:39:26.400Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Catering Services",
+        "score": 5,
+        "text": "this so good to play because this is learning you a lot about how others can be with you ❤️ love this game 🎯",
+        "date": "2026-05-04T17:58:05.100Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mohammad Adnan",
+        "score": 5,
+        "text": "sweet and lovely game. As I always wanted",
+        "date": "2026-05-07T09:22:35.946Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Farzana Yesmin",
+        "score": 5,
+        "text": "amazing game but fast upgrade the game levels",
+        "date": "2026-04-17T08:39:18.239Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Deepika Bisht",
+        "score": 4,
+        "text": "i really like this game and the story is really nice but now i don't know why but i can't update it.... it's showing some issues....last time also it happened like that so i uninstalled it and again downloaded it and had to play all the past levels again and now again it's showing the same problem.... please tell me how to fix it or fix it as soon as possible!!",
+        "date": "2026-05-01T12:38:00.710Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Anna Khachatryan",
+        "score": 4,
+        "text": "The game is really interesting, I liked that the solutions were really logical. The only problem is that the game stops at 57th level. You solve it normaly but the last move independent from the option doesn't do anything just freezes. I tried reloading etc. it doesn't help. So please fix that bug",
+        "date": "2026-05-03T11:11:59.847Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Rachel Durst",
+        "score": 4,
+        "text": "Fun story about a mean girl, with apparent self image issues. I like that there isn't some wacko trying to bust down any doors with her butt; a creepy parent or husband with a stretch arm strong neck looking over a room or some crazy stalker girl trying to land a man obviously out of her league. The only thing I don't really like is the repetitious ads and the stupid 'take a break' thing. If I want to stop playing, I'll be the judge of when I do!",
+        "date": "2026-05-09T16:48:59.525Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "app_store",
+        "userName": "Akakaka2019",
+        "score": 5,
+        "text": "It so good love it the best 10/10💅🏻💅🏻",
+        "date": "2026-05-14T19:24:38-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "Cakefragile",
+        "score": 4,
+        "text": "I suggested that we are allow to pick our love interests since there is so many men to choose from. Because I am playing as a villain, I really do expect our ending to be something wicked and that we are really cunning with our victory. In short, I want the ending to be that I am the evil genius",
+        "date": "2026-05-12T12:27:37-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jayde Alyse Taylor",
+        "score": 5,
+        "text": "This game is so much fun!!! Please add more levels",
+        "date": "2026-05-10T17:27:43-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "Kreamyclit",
+        "score": 5,
+        "text": "This game is fire",
+        "date": "2026-05-08T12:20:26-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "Kyrja777",
+        "score": 4,
+        "text": "Please let us choose our love interest for the villainess story! There’s already dialogue options, please let us have romance options! I don’t want to keep on being locked in to just a bad or a good guy! Maybe have a bad guy and multiple good ones? I don’t just want the Prince! I know you’re using TVIDTD as \na base story but don’t just have the same ending! I don’t like the Prince at all!",
+        "date": "2026-05-04T14:01:53-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "lildawg4ever",
+        "score": 5,
+        "text": "The game is so fun love it I just want more levels on the villains awakening please like a whole bunch of new levels please 🙌",
+        "date": "2026-05-03T15:45:25-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "UFOtaBLE😲",
+        "score": 5,
+        "text": "If you come out with a Tricky Story 3 can you make the story about the villain winning, or at the least the game siding with the villain, I think it’d be interesting and it’d give rest to the cliche that the good guy wins all the time while the villain just loses.",
+        "date": "2026-04-26T23:21:49-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "Emma Lynn, May",
+        "score": 5,
+        "text": "SUCH AMAZING GAME!!!",
+        "date": "2026-04-19T20:29:26-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "GeezusMoMo",
+        "score": 4,
+        "text": "The storyline is kind of annoying, why are we helping Claire?? Makes the game longer but still..she’s a witch 🤣 still, I love playing the game. It’s simple and fun but omg the ads are excessive. I get why they’re there but man..ease up a bit",
+        "date": "2026-04-16T14:01:09-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "joyous day love",
+        "score": 5,
+        "text": "It’s fun til that certain level you hit",
+        "date": "2026-04-13T04:43:06-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Nice game to play and relax",
+        "score": 5,
+        "text": "I love this game and Riley is so cute and has a great personality and I wonder if there will be a part 3 !!!!!",
+        "date": "2026-04-05T16:23:34-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "limmer2698",
+        "score": 5,
+        "text": "Lots of fun!!!",
+        "date": "2026-03-28T19:03:20-07:00",
+        "version": "1.0.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "2639;9362)",
+        "score": 5,
+        "text": "방법 좀 제발 알려주세요",
+        "date": "2026-05-15T20:11:22-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "콩다님",
+        "score": 4,
+        "text": "재밌었는데",
+        "date": "2026-05-11T16:10:04-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "네이비카스테라",
+        "score": 4,
+        "text": "마지막 한개가 안돼요 다 병합후에 1개만하면 되는데 다른방식으로 해도 안되요",
+        "date": "2026-05-01T18:59:43-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "아버지잔소리딱하나빼고",
+        "score": 4,
+        "text": "깰려는 직전 터치가 아예 안먹는데요….",
+        "date": "2026-04-30T10:53:30-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "덩이2",
+        "score": 4,
+        "text": "스토리2 레벨46에 깃털이랑 결합했을때 터치가 안됩니다 Story1에서도 똑같이 그랬습니다. 해결바랍니다",
+        "date": "2026-04-22T18:13:14-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "오아오 __",
+        "score": 4,
+        "text": "레벨 45에서 깃털과 막대 체결후 움직이질않아서 레벨을 깰수가없네요",
+        "date": "2026-04-21T03:32:44-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "트릭히",
+        "score": 4,
+        "text": "광고 닫기 버튼을 누르는데 계속 광고 관련 사이트로 이어집니다 이 부분 해결부탁드립니다",
+        "date": "2026-04-19T03:11:23-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "vitasseung",
+        "score": 4,
+        "text": "스토리 2의 레벨9 의 영수증 이미지의 선택이 되지 않는 오류 해결해주세요",
+        "date": "2026-04-16T16:51:52-07:00",
+        "version": "1.0.6"
+      }
+    ],
+    "negative": [
+      {
+        "source": "google_play",
+        "userName": "Gulam Frid",
+        "score": 2,
+        "text": "it has too many ads after every round it's an ad",
+        "date": "2026-05-17T07:53:36.108Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "SISON, SHAIRA MAE B.",
+        "score": 1,
+        "text": "puro ads kada matatapos quest jusko",
+        "date": "2026-05-17T05:58:31.439Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "J Kavya",
+        "score": 1,
+        "text": "I get toooo many ads, and the story line is just too poor, copying the typical chinese short dramas. For each and every mistake or every win I get ads not one not two I get more than 2 ads for every loss and win, time for refreshing or something like that appears before I get an ad, did I ask you for it? The game is just irritating to focus on and has a lot of bug issues. For overall feedback the game doesn't make any sense .",
+        "date": "2026-05-17T05:52:40.341Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "hasmah sot",
+        "score": 2,
+        "text": "Too much ads",
+        "date": "2026-05-17T04:49:49.661Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Fatema J.A",
+        "score": 1,
+        "text": "Advertisements, ads and more ads",
+        "date": "2026-05-17T00:28:22.103Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "genevieve biggs",
+        "score": 1,
+        "text": "the levels aren't loading, I uninstalled and reinstalled twice and I'm experiencing the same problems",
+        "date": "2026-05-16T21:00:16.676Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kiomae Louch",
+        "score": 1,
+        "text": "Got stuck on the dodgeball level because the ball wont move in the direction of the opponent so I caved and used my un game currency to buy a hint. \"hit all the opponents with a ball\" was essentially the hint.",
+        "date": "2026-05-16T10:59:01.489Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "alia cluff",
+        "score": 2,
+        "text": "it truly is an impeccable game. the story is interesting the levels are fun and make sense, and the graphics are great. i was loving this game. in fact, i finished 45 levels. when i got to level 46 it js stopped working. said it was \"downloading\" at first i thought it was js my phone. so i downloaded it on my friends phone. i went through all 45 levels again, and the same thing happened. it js ends at level 45 apparently. (even tho it shows 65 levels) very annoyed bc i loved this gamePLEASE FIX",
+        "date": "2026-05-16T00:58:51.241Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sarah Ayers",
+        "score": 1,
+        "text": "I'm still stuck at level 46 with it loading I sent an email to the email address you sent in your response and still have not heard back this was over a week ago.",
+        "date": "2026-05-15T20:54:39.355Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "August Cleo",
+        "score": 2,
+        "text": "its a good game but the amount of ads makes it really bad especially how it would play an add even after you already watched several before and it just gets really annoying. especially when you open the app and you start off with an ad before even getting to the game if they can lessen the ads it will be a lot better",
+        "date": "2026-05-15T17:18:10.339Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Caíleigh Orteza",
+        "score": 1,
+        "text": "Has a lot of ads every level",
+        "date": "2026-05-15T02:34:27.429Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Zoey Bertrand",
+        "score": 2,
+        "text": "I really enjoy the game but at level 46 it just wouldn't load. I uninstalled and reinstalled and it deleted all my progress. Now I have to redo all of it.",
+        "date": "2026-05-14T11:20:26.286Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lillian Ducharme",
+        "score": 1,
+        "text": "lots of ads, after every level",
+        "date": "2026-05-14T02:19:14.710Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dominique Bisesar-Skeeter",
+        "score": 1,
+        "text": "levels do not download. after level 50, the game will not load. I've uninstalled it 3 times.",
+        "date": "2026-05-14T00:35:48.841Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Marilyn Bandillo",
+        "score": 2,
+        "text": "I play this game to relax so why are you putting an ad every single second telling me to \"take a break and RELAX\" ?? It would've been fine if it was done every 5 levels or so but every single level???? Also, I've already read a manwha about the second story. Why is it here?",
+        "date": "2026-05-13T07:16:19.896Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Choyrunnisa Anis",
+        "score": 1,
+        "text": "terlalu banyak iklan",
+        "date": "2026-05-12T23:34:52.935Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kaitlyn Sarah",
+        "score": 1,
+        "text": "So, so much generative AI use! Please be responsible with it, atleast! Would have enjoyed much more if actual artists and voice actors were employed.",
+        "date": "2026-05-12T21:52:13.421Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Brianna Lewis",
+        "score": 2,
+        "text": "I like the game but the ads are longer then the levels. Not worth it",
+        "date": "2026-05-12T04:43:36.679Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tanaya",
+        "score": 2,
+        "text": "the heart makes it hard to play it in longtime",
+        "date": "2026-05-11T10:04:34.879Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Prabhroop Kaur",
+        "score": 1,
+        "text": "You have to watch an ad before you can enter the app. They also changed the app so you can't play it offline. You will spend more time watching ads than you will actually playing.",
+        "date": "2026-05-10T22:20:07.597Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Slyvia A.",
+        "score": 1,
+        "text": "too much ads everytime after each level. makes the game turns boring. uninstall.",
+        "date": "2026-05-10T17:57:48.170Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Karrie Foreman",
+        "score": 2,
+        "text": "EDIT: Lowering the score due to the game getting stuck on lv 46, which will not load. Tricky Story 1 did the same thing on lv 41. Uninstalling both games. I tried clearing cache, reinstalling, & even cleared data to start over. I'm so disappointed. — ORIGINAL REVIEW: I love these puzzle games; they're addictive! The Tricky Story series is fun because they have the added interest of a story to follow/play through. A great distinction from the other games in this genre.",
+        "date": "2026-04-21T18:31:50.603Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Kristi Sitzman",
+        "score": 2,
+        "text": "The game play and storyline are fun...but the sheer number of ads makes it almost unbearable. You get 2 ads right after each level completes, then, if you want yo double the rewards, you guessed it! MORE ADS. 3-4 minutes of ads for about a minute of gameplay....I don't have that kind of time to waste. I'm uninstalling.",
+        "date": "2026-04-19T18:15:32.943Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Diana",
+        "score": 2,
+        "text": "haven't played the first one yet, so can't say how it compares but the first story, if it's actually an original, was great. The ads... not so much. I get having ads, but the amount is excessive and makes playing the story tedious. oh yeah and then I get to the second story and it's literally villains are destined to die - plot for plot. don't know how they're getting away with the plagiarism, but devs, ads should be turned off for that. you know, so you don't profit off of the author's work",
+        "date": "2026-04-26T23:59:33.952Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Santhiya Sivasubramanian",
+        "score": 2,
+        "text": "The game is fabulous. However, the app is getting stuck frequently and lagging on my mobile. Also, the app gets turned off automatically. Otherwise, it's a 5/5 app. There are no options for login or raising issues. It would be better if the application's performance is improved on mobile and login/ issue request options are available.",
+        "date": "2026-04-25T16:33:23.301Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Irene Ikejimba",
+        "score": 2,
+        "text": "The game is amazing really, but when it comes to the advertisement it's another story. Like if I finish a level it will tell me to relax them pop up an ad then block the icon to cancel out the ad. Secondly, they magnify the info they project so that you can't cancel it even though you don't want it",
+        "date": "2026-05-02T21:00:56.207Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Sneha Akter",
+        "score": 2,
+        "text": "This is an online game. Totally exact copy paste of its previous prequel game. There are no new \"Normal\" levels here as it saw in some random pop out ads from other games. literally all of the levels are the same just \"Story number 3\" levels are releasing here. It's a whole copy pasted game of the previous one. So what was the point of it? Even more of a bad playing experience because in this one playing option is limited by 5 \"Lives\".",
+        "date": "2026-05-02T21:08:19.865Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Nogasu Defeqous",
+        "score": 1,
+        "text": "The story is kinda ok. I wasn't familiar with it so I thought \"FINALLY, something original\". But the fact that the Marry My Husband from tricky story is also in this game shows that you really don't read the reviews properly. Ads are crazy and it kept popping up each time you finish/lose a level. Not worth the time to even play this game. And again, CAN. YOU. BE. ORIGINAL. WITH. THE. STORY?! I already like the idea of minigames + story but cmon??",
+        "date": "2026-04-03T16:54:54.254Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "userName": "Destinee G",
+        "score": 2,
+        "text": "meh. There are just soooo many ads. Every level it wants me to \"relax\" with like never ending ads. Pretty annoying considering you can do the levels in like 3 secs to a minute and the ads are longer than the level itself between always being taken to the game store and the seconed little ad after you make it back. Let me do at least 2 or 3 levels",
+        "date": "2026-04-30T04:07:30.184Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Hope",
+        "score": 2,
+        "text": "it has a good story but literally every time you win, lose, or even start a level you get two or sometimes 3 ads and some of the puzzles are like impossible to know that you're supposed to do a certain thing to complete it without a hint which means watching more ads it also uses the standard ai tiktok voice over for the level instructions and the voice overs for the characters also sound ai",
+        "date": "2026-05-04T05:48:33.831Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Aiden",
+        "score": 1,
+        "text": "Game is fun and I'm lowkey invested in the story but I got to level 46 and it just... stopped working 😭 it pops up with some error and then just loads perpetually :/ clearly several other reviewers have had this same problem, and I know I am updated to the current update. That is not the problem unfortunately",
+        "date": "2026-05-10T04:06:47.487Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Cortney H",
+        "score": 2,
+        "text": "game stopped loading at lvl 52. I had just spent money on the game and it stopped loading. I made sure it was up to date, but no luck. I tried to uninstall the game and reinstall it, but I lost everything I just purchased and it made me start at lvl 1 again. I reached out to the developer for my money back.",
+        "date": "2026-05-07T10:23:13.820Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Amber Harrison",
+        "score": 1,
+        "text": "I was instantly addicted to this game! I love it! I binge played all the way up to level 55 of the first story! the games are entertaining and the story is so cute! but once I reached level 55 it stopped loading the games for me. it gets stuck and gives me an error message that the network couldn't be reached and the game failed to download. I uninstalled it and reinstalled it and started back at level 1 but soon as I reached level 55 (same place I'd left off) it it gave me the exact same issues",
+        "date": "2026-04-26T11:14:00.350Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Imran Qureshi",
+        "score": 1,
+        "text": "This is very irritating game because it needs internet it's ok but in each level there is so many ads that irritated sooo much I hate this game it's level are good but when we start the level there is ad when we lose the game it give ad I even don't want to give single star and it only give few stars to play the game and if you lose it take time to fill it 😡",
+        "date": "2026-05-06T12:39:25.989Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Rochelle Zabala",
+        "score": 2,
+        "text": "Game is good w/ interesting story since it was from a familiar skit and series. I also undestand you nees the ads to keep the game free, however it's too much that it's annoying and irritating and making the player not enjoy the game. Also the timw limit for 3 stars is too short. Also can you please pause the time for dialogue as it also consumes seconds for us not to get 3 stars.",
+        "date": "2026-04-06T09:24:46.363Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "Katie",
+        "score": 1,
+        "text": "I enjoy the puzzles and the story line but the amount of ads make it nearly unplayable. I get an ad while loading the game, after every level, and sometimes in the middle of a level unprompted. swear I spend more time watching ads than playing the game",
+        "date": "2026-04-14T21:37:38.836Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Melissa Rodriguez",
+        "score": 2,
+        "text": "I love the game, but the amount of ads is overwhelming. Also, Level 46 is currently broken and won't load for me. Please fix this bug so I can keep playing! It’s a great game otherwise.",
+        "date": "2026-05-07T20:35:48.430Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "A.J.S. Entertainment",
+        "score": 2,
+        "text": "I was going to say it is a great game. ha, no. you don't earn enough money to buy hints and you only get so many free ads to watch to help you get through levels. I have been stuck on one level way too long and now I'm officially done with this game. very disappointed. On top of that you can't even play the side game.",
+        "date": "2026-03-30T14:46:53.885Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "SL K",
+        "score": 1,
+        "text": "Response to canned reply: You paid absolutely zero attention to my review, instead laser focusing on the word \"ad\". If I could rate you lower, I would. ***************************************************** Was fun until level 18. Was doing everything correctly (confirmed on YouTube) and it cuts you off with the rest suggestion to watch another ad, then you lose a life over and over. Uninstalled.",
+        "date": "2026-03-30T13:26:21.886Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Fathima Bathool",
+        "score": 1,
+        "text": "it has both time limit and lives and i find its so annoying.we cant even play properly.i tried to play for the story but the time limit and lives pissing me off.i played like 8 levels and my interest in this game decresed. i dont even wanna play anymore.you should have set atleast one obstacles",
+        "date": "2026-04-22T14:12:19.831Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Sierra Dalton",
+        "score": 2,
+        "text": "Two stars for the ungodly amount of ads, it almost makes the game not that fun to play. Ad before, during and after each episode is crazy. But the game itself is fun, just can't stand how many ads take over.",
+        "date": "2026-03-30T04:20:30.455Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Zoe James",
+        "score": 1,
+        "text": "Good game but ive got so far and now the game isnt working as it should be. The hints say to drag the posters onto the walls in the hallway and onto the lockers then go into the class room im already in the classroom at the start of the game and you cannot go back out of the room. I thought I was stuck so I paid £3.49 to use a tip to realise i wasnt doing anything wrong",
+        "date": "2026-04-02T11:20:51.720Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Muneer (.)",
+        "score": 1,
+        "text": "What the heck??? This part is exactly like part 1!! I already played these stories so why should I play it again??? I don't care about other reviews and stuffs. I already played the part 1 and finished it and yeah it was fun and I waited for part 2 only to realize it has the same stories as part 1?!! Only the story 3 in part 2 is new and it's only a bit l, and the rest of the stories are old.. I'm really disappointed. Booo👎",
+        "date": "2026-04-16T06:32:26.177Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "app_store",
+        "userName": "~cotton candy~",
+        "score": 2,
+        "text": "The adds are too much stop adding more adds it's so annoy like it's money. Also improve level 12",
+        "date": "2026-05-15T16:48:55-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "Rodi :)",
+        "score": 1,
+        "text": "After I updated the game it stopped working, it says (level data is downloading, please wait !)",
+        "date": "2026-05-12T10:53:30-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "133567942737373737",
+        "score": 2,
+        "text": "I love these stupid puzzles in most apps but it’s gross to see a game with so many reviews and ratings that clearly can afford to pay artists use AI to draw everything. No one is asking for amazing art on stuff like this but it feels so lazy that the creators couldn’t even do that or use free images and cut them out. AI is bad for the environment, artists jobs and mental health, and generally does a lot of bad.",
+        "date": "2026-05-10T19:48:58-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "Cutupx2",
+        "score": 2,
+        "text": "I have played this game for a day paid for hints etc. but to find that there are a few glitches in the game. Especially in the Birthday party level. In Story 2 level 18 after getting the hint about tapping on the screen of Claire it will not allow you retrieve objects to move the game along.",
+        "date": "2026-05-10T14:11:17-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "Niina2badd",
+        "score": 2,
+        "text": "I would give the game 4-5 stars but I'm stuck on level 46 because it will not load. The ad comes up and I watch it as always til the end exit out and the game still on the loading icon. Please fix I'm trying to finish the story. It ate up my 1 of 2 hours of the free play I paid for. This is ridiculous.",
+        "date": "2026-05-10T00:46:10-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "Keekee57",
+        "score": 1,
+        "text": "None of the levels are loading. Even after updating, I cannot play pass level 46. I hope this will be fixed soon.",
+        "date": "2026-05-10T00:38:37-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "flightless-",
+        "score": 1,
+        "text": "hasnt let me play any levels in a week",
+        "date": "2026-05-09T21:29:49-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "heartintraffic",
+        "score": 1,
+        "text": "Today I was trying to play the game as normal and i finish a level and go to the next one. I get stuck on an ad so i leave and come back, I try to move onto the next level and it gives me a pop up saying to download new levels so I do so. It loads. And loads. And loads. The bar is full but nothing happens. I let it sit for a bit and go do other things. I come back and its still loading. I’ve just decided to delete the game and redownload it. I’ll see if I can do an update later to see if it works now or not. But the new update broke my game 🫩 and now i have to potentially restart the whole thing all over again.",
+        "date": "2026-05-09T12:00:39-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "GageTheEnbyMage",
+        "score": 2,
+        "text": "Story is meh the gameplay is interesting but I’ve just now come across a level where the hint gives the incorrect solution so there’s no way for me to complete it now without trial and error while getting and ad every time I reset when I’d rather speed through to where I was in the level.",
+        "date": "2026-05-08T14:35:55-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "Itsme.Shy",
+        "score": 1,
+        "text": "could be fun, but some of the levels are so unfair. you literally only get 5 hearts and some of the levels have stuff that’s like genuinely how were you even supposed to figure that out unless you looked it up or just wasted a bunch of hearts trying. Some levels have things where if you do the wrong thing(with literally no clue, knowledge, or any sorta help) you just lose a heart. not to mention it’s 600 coins to keep going if you don’t wanna watch an ad and you only get 40 per round.. you do the math. there also some dumb glitch that keeps saying download failed whenever it feels like it and just crashes you out the game and makes you restart the whole thing. Maddie is literally so annoying and I was gonna hate the game a little less when I saw we weren’t gonna forgive her, but then all she did was insert herself and now we’re best friends again after all the stuff she did to us, right… apparently kids games only emphasize forgiveness over knowing when to remove yourself from a toxic friendship because Maddie didn’t deserve Riley at all. then Riley itself is just dumb. literally everything could’ve been avoided but I just think she likes drama. I like her enough to overlook it tho. then when you think the game couldn’t get any worse, there’s a whole section dedicated to maddie and helping her figure out her love life… yea, next. deleted.",
+        "date": "2026-05-07T20:59:04-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "Eveningswithsastiel",
+        "score": 1,
+        "text": "Ick. These games remain consistent with their promotion of bullying. In a couple levels, right at the beginning, they promote bullying others or pranking them cruelly to get revenge. This is not okay.",
+        "date": "2026-05-07T19:32:34-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "Cowgirlangel",
+        "score": 1,
+        "text": "Would love to give this game 5 stars but can’t download new levels so I’ve paid for no ads for absolutely no reason. Fix the game and I’d be happy to change my rating.",
+        "date": "2026-05-05T18:15:41-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "Storisoraw",
+        "score": 1,
+        "text": "I really do not like this game because you have to watch ads every single time and you can’t even use hints that many times unless you pay or wait almost a hour like this is ridiculous 0.5/10 that app sucks!!!",
+        "date": "2026-04-29T09:26:05-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "Maddie  16",
+        "score": 1,
+        "text": "First  it talk  too much about  people and  make  kids  mean  and the ads  the  ads and  the  game is like mean girls  but 5$ budget and  so badly  made  the  rating  is to good  but  the  game is bad do  not  get  it pls  you  will  hate it the  rating  4. 7 but it will  be  0 to me it's is  brainrot  I hate it so much  I want to  break  my  iPhone  and  I will bleach my  eyes now bye.",
+        "date": "2026-04-28T17:29:06-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "Alashayprincess",
+        "score": 1,
+        "text": "The game is not loading level 46, I made sure my internet connection was working and even restarted and updated the game.",
+        "date": "2026-04-27T18:23:25-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "Rebeccaig",
+        "score": 1,
+        "text": "It won’t let me move on to the next level, keeps saying “downloading level data” and stays at “0”",
+        "date": "2026-04-27T14:05:47-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "Sendittomerachel",
+        "score": 2,
+        "text": "The story is good but why are we helping Claire. I do not appreciate the use of generative\nAi. Would be a 5 if the art was made by a real human",
+        "date": "2026-04-23T19:24:00-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "eager to get my account back",
+        "score": 1,
+        "text": "The most horrible game ever no joke, the whole time its adds and you get hearts deducted for stupid reasons. Like leaving the level or restarting the level. And then you have to help the people tarnish riley’s image when you literally start off the game as riley and that makes no sense since your literally the main character and is helping the bad guys make her look like a bad person. This game is the worst and i hate it and im glad everybody also thinks the same NEVER MAKE A GAME AGAIN!",
+        "date": "2026-04-22T17:55:08-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "Aliviathe1st0",
+        "score": 1,
+        "text": "Are your serious this game could be great if there wasn’t ad after every level I want to play but not if there gonna be ad every min",
+        "date": "2026-04-21T15:12:57-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "daant3",
+        "score": 1,
+        "text": "the game was a little fun at first but getting an ad literally immediately after you open the game and it loads in is actually ridiculous",
+        "date": "2026-04-17T02:05:52-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "shashliyash",
+        "score": 1,
+        "text": "The same problem as with the first part. Levels don't load, get stuck at 95% load and that's it. The game is interesting, but I don't understand what to do. Help me solve the problem, thank you.",
+        "date": "2026-04-16T03:38:22-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Xxdiamond13x",
+        "score": 2,
+        "text": "This seems so fun and at first it is, but soon there is an ads after every level! And again after that ad. Deleted it. I get ads are thing with games, but if I’m spending most of my time watching ads and not playing what’s the point?",
+        "date": "2026-04-15T16:13:12-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Envelorian",
+        "score": 1,
+        "text": "For every 30secs of gameplay there’s 2 minutes of ads.",
+        "date": "2026-04-15T14:13:05-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Upset player82",
+        "score": 2,
+        "text": "To many ads and level 18 they don’t allow the clock to fully count down I continually have 70-75 seconds left in time and they continuously stop my game and say I lose I’m out of time this needs fixed",
+        "date": "2026-04-13T20:12:24-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "tsuknoma",
+        "score": 1,
+        "text": "i understand that games usually have ads when theyre free so they can earn money, but this is just ridiculous. ad everytime you open the app and ads in between EVERY SINGLE LEVEL. i had to delete it because it kept giving me this ad which i could not close. no matter how much times i closed the app, it would keep popping up the same one. honestly an insufferable game. if you enjoy spending more time on ads than the actual game, go for it",
+        "date": "2026-04-10T20:35:31-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "MemeisFive",
+        "score": 2,
+        "text": "Okay the game is interesting but looking at ads back to back is too much, you barely even get to enjoy the game. Only deleting because I can’t enjoy the game enough",
+        "date": "2026-04-09T20:56:38-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "kxxtsurroo",
+        "score": 1,
+        "text": "is this even legal? this is clearly copied basically one to one from the plot of 'the true heiress.' the game overall is really frustrating, ads in between every level. not to mention how the entire game is slop ai. all of the 'drawings' in this game were made from ai. it's entirely slop.",
+        "date": "2026-04-09T17:46:10-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Dudeletmehaveanickname?",
+        "score": 1,
+        "text": "Overall irritating, it was fine as first but as it went on there was almost nothing helping you get through the game, and you couldn’t, the game doesn’t give you enough coins, lifes, and there are many ads after every single mistake, and game.",
+        "date": "2026-04-08T14:05:50-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "I know and I'm a girl",
+        "score": 1,
+        "text": "I don’t know if this is just me but every time I get to level 46 it won’t download the data and won’t let me play the game, I’ve already tried powering off my phone, deleting the game then reinstalling it, and turning the WiFi off and on again, please fix this if you can, otherwise great game.",
+        "date": "2026-04-07T17:15:16-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Glory👩🏾‍🦲",
+        "score": 1,
+        "text": "This is literally the same at the first game, really disappointed that the devs made a new cash grab game but it’s cool, don’t waste your time downloading this game and playing it stick to the old one!",
+        "date": "2026-04-05T13:54:56-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "DrBatlock",
+        "score": 1,
+        "text": "The first game was interesting enough to keep me coming back despite the ads but when i saw there was a second one i got excited until i saw its the exact same stories but opposite order and more restrictive with the “hearts” system now. Dont ruin an interesting game by doing this kind of thing. The real brain twist is how this is allowed",
+        "date": "2026-04-04T07:34:22-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "ZaHonnah",
+        "score": 1,
+        "text": "This is the exact same story about Riley & Claire that’s in Tricky Story 1😡😡",
+        "date": "2026-03-27T08:08:52-07:00",
+        "version": "1.0.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Daneiii",
+        "score": 1,
+        "text": "It's literally like the first tricky story the levels are exactly the same i was hoping for new stories.",
+        "date": "2026-03-23T04:39:01-07:00",
+        "version": "1.0.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Lexiiii814",
+        "score": 1,
+        "text": "Just like the “first “tricky story another waste of time and money. Finally got to do a different storyline in the second one just for it to be incomplete. At this point I want ALL my money back for this scam if a game",
+        "date": "2026-03-07T08:53:23-07:00",
+        "version": "1.0.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "대나무알러지 판다",
+        "score": 1,
+        "text": "이 스토리 악역의 엔딩은 죽음뿐 소설을 그냥 인물만 바꾼거 아닌가요?",
+        "date": "2026-05-07T10:28:12-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "🙈몽키신년",
+        "score": 1,
+        "text": "마지막 단계에서 아무것도 안돼요 순서를 바꿔서 해도 마지막으로 풀려고 터치해도  암것도 안눌러져요",
+        "date": "2026-05-05T07:24:42-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "ㅇㅇㅇㅇㅇ넌펴ㅓ",
+        "score": 2,
+        "text": "게임할때 쓰는 하트 무한으로 바꿔주시면 안될까요? 답답해요..;; 그리고 어느새 그 힌트 광고로 무료보기도 게임 하다보니 어느새 없어지고 무료로 코인 얻는것도 거의 1시간 이고 진짜 개불편해요..;; 그리고 스토리도 너무 답답해요",
+        "date": "2026-05-04T00:58:05-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "겨ㅜㅎㄴㅇㄴㅂ",
+        "score": 1,
+        "text": "진짜 제작자 찾아가서 처 죽이기전에 광고 줄여라씨발",
+        "date": "2026-05-02T06:22:57-07:00",
+        "version": "1.0.7"
+      }
+    ],
+    "neutral": [
+      {
+        "source": "google_play",
+        "userName": "Mikayla Thorn",
+        "score": 3,
+        "text": "great but broken. Game is addicting, has a lot of ads but its worth it for the story and puzzles. however, it never loaded level 46 no matter what I did, and I see many others in the reviews having the same issue. disappointing",
+        "date": "2026-05-17T00:18:09.901Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Omayra Reyes",
+        "score": 3,
+        "text": "I do love this game but it doesn't load level 46, so if you can fix that, I would greatly appreciate it!",
+        "date": "2026-05-16T01:35:53.823Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "shashikala ravi",
+        "score": 3,
+        "text": "good game but their are so many ads and I feel like it's too easy.",
+        "date": "2026-05-14T17:02:49.926Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Refiloe Florence",
+        "score": 3,
+        "text": "this is so good but not good the way I wanted to be good but anyways it's so fun great lovely like it's giving",
+        "date": "2026-05-13T13:35:29.513Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Suraj",
+        "score": 3,
+        "text": "nice game but there is a problem that too many ads in this game pls do something 😔",
+        "date": "2026-05-13T10:42:20.907Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "MJTMA",
+        "score": 3,
+        "text": "sometimes even if we are right...it doesn't work",
+        "date": "2026-05-12T19:21:43.901Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dipika Goswami",
+        "score": 3,
+        "text": "because it is so cheaper game",
+        "date": "2026-05-12T14:51:09.520Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ashok Lagah",
+        "score": 3,
+        "text": "good work",
+        "date": "2026-05-12T12:52:58.180Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Misha",
+        "score": 3,
+        "text": "this was a fun game but I'm very upset as after a certain episode it will no longer work for me, And I did try to delete it and redownload it but it just stopped on the same level. if this gets fixed it would be 4/5 because there are many ads.",
+        "date": "2026-05-11T19:37:48.264Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "J P",
+        "score": 3,
+        "text": "This game is honestly quite frustrating. The time limit is too strict, and having only five lives makes it even worse. In the middle of gameplay, a “take a moment to rest” pop-up appears, which just wastes time and breaks the flow—really annoying. Playing offline solves this issue but not the above two limitations- they are extremely annoying. The storyline does seem interesting, but these limitations completely ruin the experience.",
+        "date": "2026-04-27T18:22:27.338Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "userName": "Trinity Caldwell",
+        "score": 3,
+        "text": "I wanna give it 5, but for some reason it won't let me get past level 46 on the first story. If I try to click onto it, it'll get stuck on the loading screen. It's made me upset cause I was really enjoying this game, but now it's literally impossible to progress any further : (",
+        "date": "2026-04-26T15:17:36.910Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Xin Wei Lam",
+        "score": 3,
+        "text": "I'm on ep 4 of story 3 so far and it's a blatant copy of the Korean novel/manhwa Villains Are Destined To Die. I'm still playing in hopes that the story will diverge, but so far everything is the same except for the names. The gameplay is interesting so far though.",
+        "date": "2026-05-07T13:16:41.316Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Jessica Glover",
+        "score": 3,
+        "text": "This game has too many connection issues. I've made it all the way to the end, and the game froze. I then had to reinstall to have to start all the way over, and now I'm still seeing those same connection issues, and I haven't even made it halfway through this time. I might keep it uninstalled!",
+        "date": "2026-04-11T14:48:30.504Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Steven Jackson",
+        "score": 3,
+        "text": "Whoever made this game I'd like to make you aware of a problem if you drag the money to any of the items other than the one highlighted it locks you out of been able to drag more money. I'd recommend getting rid of the highlighted thing or making it so when you do drag it to any of the other items it doesn't work. But I didn't make the game I just thought I'd make you aware of the problem. Other than that the game is good.",
+        "date": "2026-04-19T02:48:31.576Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "WOAA WAOA",
+        "score": 3,
+        "text": "it's a good game but i'm stuck on level 61 because the other levels haven't finished downloading, no matter how long i wait it's just stuck at 0%. it says \"update content: downloading\" and stops there. plus, there's no email for me to contact",
+        "date": "2026-04-19T17:36:23.586Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Vuong Tram",
+        "score": 3,
+        "text": "it's kinda mid cuz normal puzzle games have no lives just to play the game but meanwhile tricky story 2 add lives just to be unplayable for people with bad brains. This game really making me think that they are greedy",
+        "date": "2026-05-07T11:38:55.490Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "app_store",
+        "userName": "Lala165",
+        "score": 3,
+        "text": "I like the game and the storyline is pretty good. But I keep having these issues where the Internet connection (level data is downloading) says it’s not loading or it’s taking too long to download and then it shuts off the level I’m on or something like that and I can’t get it to load sometimes for a very long time. When my internet connection is perfectly fine.",
+        "date": "2026-05-15T11:15:07-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "кетрин 2906",
+        "score": 3,
+        "text": "Не загружается 46 уровень, следовательно играть дальше нет возможности. Очень хочется продолжить играть.",
+        "date": "2026-05-10T13:01:48-07:00",
+        "version": "1.0.8"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jocelyn 3456",
+        "score": 3,
+        "text": "Love it’s",
+        "date": "2026-04-20T16:20:39-07:00",
+        "version": "1.0.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "공쥬🎀",
+        "score": 3,
+        "text": "사칭하는 애가 사이다를 당하는 내용이었으면 해요 계속 착한애만 갈구니까 답답해서 못하겠네요",
+        "date": "2026-04-25T18:28:39-07:00",
+        "version": "1.0.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "AHJIRAEYO",
+        "score": 3,
+        "text": "귀신 확대샷 갑자기 빡 나오니까 심장아파요 갑툭튀 좀 자제해주세요",
+        "date": "2026-04-18T12:33:14-07:00",
+        "version": "1.0.6"
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "com.tricky.story.brain.quest",
+      "title": "Tricky Story",
+      "developer": "XGame HK",
+      "score": 4.5527487,
+      "icon": "https://play-lh.googleusercontent.com/MF-tJkiJLbTtQvrYFyX0iMfFX_D-X7VYxq6p3Ojawbp9VePdd8XI9lYIEdT7pjR2yc1g"
+    },
+    {
+      "appId": "com.wool.puzzle.game3d",
+      "title": "Wool Puzzle 3D",
+      "developer": "XGame HK",
+      "score": 4.675747,
+      "icon": "https://play-lh.googleusercontent.com/Lvg2tgpn4mykoYD7keOyhxov0cphPR0ctWajesD7j551SSG_KiO0IfFP1zzJ0Ki3vYA"
+    },
+    {
+      "appId": "com.game.block.shooter",
+      "title": "Color Blast: Block Shooter",
+      "developer": "XGame HK",
+      "score": 4.5092025,
+      "icon": "https://play-lh.googleusercontent.com/SkQ4iTmLqNw1Mh_KOSo8r8Z0lHt9vD1zotduMPRbI46CbopBKbKssfSTnagx7gxhGgI"
+    },
+    {
+      "appId": "com.rope.untie.tangle.master",
+      "title": "Rope Untie: Tangle Master",
+      "developer": "XGame HK",
+      "score": 4.3045588,
+      "icon": "https://play-lh.googleusercontent.com/GZMpAYv8Un6g-HnUmZS4OVzJzifW8JXkLlxyeWWFVkbPNW5-6F4KRY0w-fKzCh50pmE"
+    },
+    {
+      "appId": "com.drop.cat.color.hole.puzzle",
+      "title": "Catdom: Color Hole",
+      "developer": "XGame HK",
+      "score": 4.5454545,
+      "icon": "https://play-lh.googleusercontent.com/13-ukBfLpImbgIyC-K3K2gXgykjScChhxdaup8sfNbsRtD1y2wLFlg4EEv6_slzW2NXUHoPcNPXVhKIwaHvb"
+    },
+    {
+      "appId": "com.fantasy.room.unpacking",
+      "title": "Fantasy Room",
+      "developer": "XGame HK",
+      "score": 4.5587187,
+      "icon": "https://play-lh.googleusercontent.com/_G0hrtIb3FKnpP6ScZydEYXUSNTqqx-yfq5dRDuhojYmY5NRTZvgQd52xURV3l6R8Xiv"
+    },
+    {
+      "appId": "com.twisted.rope.tangle",
+      "title": "Twisted Rope 3D",
+      "developer": "XGame HK",
+      "score": 4.2449436,
+      "icon": "https://play-lh.googleusercontent.com/0o1xz-Hg-2ecTsoK6uygLoGSrr6Rjg4sqpzKkurDdmPYUatoobh4bXCge1XOeeYH3LvQDJTnqZsCRosYOZ7VoiA"
+    },
+    {
+      "appId": "screw.puzzle.story3d",
+      "title": "Screw It Out: Bolt Puzzle",
+      "developer": "XGame HK",
+      "score": 4.72,
+      "icon": "https://play-lh.googleusercontent.com/rJ1BnuWc9j2g66VqmnFk4-HH5y_6VPOzUBq9KkNxlhIuyQ_5NMTkLYrdalFXyEO9_vo"
+    },
+    {
+      "appId": "com.color.flow.puzzle",
+      "title": "Color Jam: Art Puzzle",
+      "developer": "XGame HK",
+      "score": 4.31,
+      "icon": "https://play-lh.googleusercontent.com/Gg3OeABFfEyxOqhFZTrnw2yXoLSD3gQIyM5ol-_9Jtws9DVWqpaK5bGNh6DtXjNoDWQ"
+    },
+    {
+      "appId": "com.loop.art.color.yarn",
+      "title": "Loop Art: Yarn Puzzle",
+      "developer": "XGame HK",
+      "score": 4.3333335,
+      "icon": "https://play-lh.googleusercontent.com/T2LLtk9CbwV67MCFFKfOv3C4ctuzcy_6EscV6CmmWfDK7dmaofy3KhiFI_dgdt7N0R3PtNhtaXimdTahHbua"
+    }
+  ],
+  "developerApps": []
+}

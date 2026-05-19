@@ -508,21 +508,32 @@ body::before {
 }
 .tab-badge:empty { display: none; }
 
-/* ============ Darkhorse Pin Button ============ */
-.dh-pin-btn {
-  position: absolute; top: 6px; right: 6px; z-index: 5;
+/* ============ Pin Buttons ============ */
+.pin-btn {
   background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
   border-radius: 50%; width: 24px; height: 24px;
   font-size: 11px; cursor: pointer; transition: var(--transition);
-  display: flex; align-items: center; justify-content: center;
+  display: inline-flex; align-items: center; justify-content: center;
   opacity: 0.3; filter: grayscale(1);
 }
-.dh-card:hover .dh-pin-btn { opacity: 0.8; }
-.dh-pin-btn:hover { opacity: 1 !important; background: rgba(255,255,255,0.12); transform: scale(1.15); }
-.dh-pin-btn.pinned {
+.pin-btn:hover { opacity: 1 !important; background: rgba(255,255,255,0.12); transform: scale(1.15); }
+.pin-btn.pinned {
   opacity: 1; filter: none;
   background: rgba(234,179,8,0.2); border-color: rgba(234,179,8,0.4);
 }
+
+/* Darkhorse Pin */
+.dh-pin-btn {
+  position: absolute; top: 6px; right: 6px; z-index: 5;
+}
+.dh-card:hover .pin-btn.dh-pin-btn { opacity: 0.8; }
+
+/* Rankings Pin */
+.rank-pin-btn {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.rankings-table tr:hover .pin-btn.rank-pin-btn { opacity: 0.8; }
 
 /* ============ Tracked Card Extras ============ */
 /* Tracked rank change overrides — inherits from .rank-change */
@@ -577,14 +588,16 @@ body::before {
 
   /* --- Tabs --- */
   .tabs {
-    flex-wrap: wrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
     gap: 4px;
     margin-bottom: 12px;
   }
   .tab {
-    padding: 8px 12px;
-    font-size: 12px;
-    flex: 1;
+    padding: 8px 10px;
+    font-size: 11px;
+    flex: 0 0 auto;
     text-align: center;
     border-radius: var(--radius-sm);
     white-space: nowrap;
@@ -886,4 +899,46 @@ body::before {
     border-radius: 14px;
   }
   /* 简單表格正常换行，寬表格由 JS 處理横捲 */
+}
+
+/* ============ Rankings Report Badge ============ */
+.rank-report-badge {
+  display: inline-flex; align-items: center; gap: 3px;
+  margin-left: 8px; font-size: 10px; font-weight: 700;
+  padding: 2px 8px; border-radius: 10px;
+  background: rgba(59,130,246,0.15);
+  color: var(--accent-blue);
+  border: 1px solid rgba(59,130,246,0.25);
+  vertical-align: middle; cursor: help;
+  white-space: nowrap;
+}
+.rankings-table tr:hover .rank-report-badge {
+  background: rgba(59,130,246,0.25);
+  border-color: rgba(59,130,246,0.4);
+}
+
+/* ============ Rankings Darkhorse Badge ============ */
+.rank-dh-badge {
+  display: inline-flex; align-items: center; gap: 3px;
+  margin-left: 6px; font-size: 10px; font-weight: 700;
+  padding: 2px 8px; border-radius: 10px;
+  background: rgba(234,179,8,0.12);
+  color: var(--accent-yellow);
+  border: 1px solid rgba(234,179,8,0.2);
+  vertical-align: middle; cursor: help;
+  white-space: nowrap;
+}
+.rankings-table tr:hover .rank-dh-badge {
+  background: rgba(234,179,8,0.22);
+  border-color: rgba(234,179,8,0.35);
+}
+
+/* ============ Report-Only DH Card ============ */
+.dh-card.report-only {
+  border-color: rgba(59,130,246,0.2);
+  background: linear-gradient(135deg, rgba(59,130,246,0.04), rgba(139,92,246,0.03));
+}
+.dh-card.report-only::before {
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  opacity: 0.6;
 }

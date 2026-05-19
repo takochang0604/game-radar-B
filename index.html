@@ -30,15 +30,16 @@
     <div class="stats-grid" id="statsGrid">
       <div class="stat-card"><div class="stat-label">今日新黑馬</div><div class="stat-value" id="statNewDh">0</div><div class="stat-sub">匹（新進榜）</div></div>
       <div class="stat-card"><div class="stat-label">資料區間</div><div class="stat-value" id="statSnapshots" style="font-size:16px;letter-spacing:-0.5px">—</div><div class="stat-sub" id="statSnapshotsSub">載入中</div></div>
-      <div class="stat-card"><div class="stat-label">今日更新</div><div class="stat-value" id="statApps">0</div><div class="stat-sub">款遊戲</div></div>
+      <div class="stat-card"><div class="stat-label">已評測黑馬</div><div class="stat-value" id="statApps">0</div><div class="stat-sub" id="statAppsSub">/ 0 匹</div></div>
       <div class="stat-card"><div class="stat-label">偵測黑馬</div><div class="stat-value" id="statDarkhorses">0</div><div class="stat-sub">匹</div></div>
     </div>
 
   <!-- Tabs -->
     <div class="tabs">
       <div class="tab active" data-tab="darkhorse">🐴 黑馬偵測</div>
-      <div class="tab" data-tab="tracked">📌 追蹤中<span class="tab-badge" id="trackedBadge"></span></div>
       <div class="tab" data-tab="rankings">📊 排行榜</div>
+      <div class="tab" data-tab="tracked">📌 追蹤中<span class="tab-badge" id="trackedBadge"></span></div>
+      <div class="tab" data-tab="reports">📄 評測報告<span class="tab-badge" id="reportsBadge"></span></div>
     </div>
 
     <!-- Tab: 黑馬偵測 -->
@@ -55,6 +56,7 @@
             <button class="pill active" data-dh-report="all" onclick="setDhReportFilter('all')">全部</button>
             <button class="pill" data-dh-report="reported" onclick="setDhReportFilter('reported')">📄 已評測</button>
             <button class="pill" data-dh-report="unreported" onclick="setDhReportFilter('unreported')">🔍 未評測</button>
+            <button class="pill" data-dh-report="new_entry" onclick="setDhReportFilter('new_entry')">🆕 新進榜</button>
           </div>
         </div>
       </div>
@@ -113,11 +115,11 @@
           <table class="rankings-table" id="rankingsTable">
             <thead>
               <tr>
-                <th>排名</th><th>變化</th><th>遊戲</th><th>分類</th><th>評分</th><th>上架日期</th><th>平台</th>
+                <th>排名</th><th>變化</th><th>遊戲</th><th>評分</th><th>上架日期</th><th>平台</th>
               </tr>
             </thead>
             <tbody id="rankingsBody">
-              <tr><td colspan="7"><div class="empty-state"><div class="icon">📊</div><p>尚無排行資料</p></div></td></tr>
+              <tr><td colspan="6"><div class="empty-state"><div class="icon">📊</div><p>尚無排行資料</p></div></td></tr>
             </tbody>
           </table>
         </div>
@@ -144,7 +146,7 @@
       </div>
       <div class="section">
         <div class="section-header">
-          <div class="section-title"><span class="icon">📌</span> 追蹤中的黑馬<span class="section-badge" id="trackedCount">0</span></div>
+          <div class="section-title"><span class="icon">📌</span> 追蹤中的遊戲<span class="section-badge" id="trackedCount">0</span></div>
           <div class="section-actions">
             <input type="search" id="trackedSearch" class="dh-search" placeholder="🔍 搜尋遊戲名稱..." oninput="renderTracked()">
           </div>
@@ -153,6 +155,32 @@
           <div class="empty-state">
             <div class="icon">📌</div>
             <p>尚未追蹤任何黑馬。<br>在黑馬卡片上點擊 📌 即可追蹤。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab: 評測報告 -->
+    <div class="tab-content" id="tab-reports">
+      <div class="section">
+        <div class="section-header">
+          <div class="section-title"><span class="icon">📄</span> 評測報告庫<span class="section-badge" id="reportsCount">0</span></div>
+          <div class="section-actions">
+            <input type="search" id="reportsSearch" class="dh-search" placeholder="🔍 搜尋報告..." oninput="renderReportsTab()">
+          </div>
+        </div>
+        <div class="tab-filters" style="margin-bottom:24px;border-bottom:none;padding-bottom:0">
+          <div class="filter-row" style="align-items:flex-start">
+            <label style="margin-top:6px">標籤</label>
+            <div class="pill-group" id="reportTagsPills" style="flex-wrap:wrap">
+              <!-- 動態產生 -->
+            </div>
+          </div>
+        </div>
+        <div id="reportsGrid" class="darkhorse-grid">
+          <div class="empty-state">
+            <div class="icon">📄</div>
+            <p>尚無評測報告。<br>在排行榜中選擇遊戲，委託 AI 評測後報告將出現在此。</p>
           </div>
         </div>
       </div>
