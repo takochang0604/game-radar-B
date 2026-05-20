@@ -61,6 +61,40 @@ function saveTrackedListLocal(list) {
 function isTracked(appId) { return getTrackedList().some(t => t.appId === appId); }
 
 /**
+ * 統一處理新版與舊版 Schema 的相容性轉換
+ */
+function sanitizeGameItem(g) {
+  if (!g) return;
+  if (!g.name && g.gameName) g.name = g.gameName;
+  if (!g.appId && g.gameId) g.appId = g.gameId;
+  if (!g.market && g.country) g.market = g.country;
+  if (!g.marketFlag && g.countryFlag) g.marketFlag = g.countryFlag;
+  if (!g.marketName && g.countryName) g.marketName = g.countryName;
+  if (!g.detectedAt && g.detectedDate) g.detectedAt = g.detectedDate;
+  if (!g.rankHistory && g.trendData) g.rankHistory = g.trendData;
+  if (g.confidenceScore === undefined && g.score !== undefined) {
+    g.confidenceScore = g.score;
+  }
+  if (g.triggers) {
+    g.triggers.forEach(t => {
+      if (!t.market && t.country) t.market = t.country;
+      if (!t.marketFlag && t.countryFlag) t.marketFlag = t.countryFlag;
+      if (!t.marketName && t.countryName) t.marketName = t.countryName;
+    });
+  }
+}
+
+/**
+ * 取得同款遊戲合併與去重比對的模糊 Key
+ */
+function getMergeKey(dh) {
+  if (!dh || !dh.name) return '';
+  // 取冒號/破折號前的主標題，避免雙平台副標題不同導致無法合併
+  const coreName = dh.name.split(/\s*[:\uff1a\-\u2014\u2013\|]\s*/)[0];
+  return coreName.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 30);
+}
+
+/**
  * 起始同步：從 Firestore 拉取追蹤清單，與本機 localStorage 合併
  */
 async function initTrackedSync() {
@@ -69,6 +103,10 @@ async function initTrackedSync() {
     const { loadTrackedGames } = await import('./firebase-data.js');
     const remoteList = await loadTrackedGames(true); // forceRefresh
     const localList = getTrackedList();
+
+    // 兼容處理：新版名稱與欄位轉換
+    remoteList.forEach(sanitizeGameItem);
+    localList.forEach(sanitizeGameItem);
 
     // 合併：以 appId 去重，遠端優先
     const merged = new Map();
@@ -377,6 +415,9 @@ function populateDateSelector() {
 function sanitizeDarkhorses() {
   if (!state.darkhorses) return;
   state.darkhorses.forEach(dh => {
+    // 兼容處理：統一使用 sanitizeGameItem 處理新舊 Schema 差異
+    sanitizeGameItem(dh);
+
     // 修正：若 dh.markets 中的主市場排名與 dh.currentRank 不一致，將其修正為最新排名，防止保留歷史黑馬時使用過期排名
     if (dh.markets) {
       dh.markets = dh.markets.map(m => {
@@ -521,10 +562,7 @@ function renderStats() {
   const getUniqueCount = (dhList) => {
     const seen = new Set();
     dhList.forEach(dh => {
-      // 與 renderDarkhorses 的 getMergeKey 保持一致的去重邏輯
-      const coreName = (dh.name || '').split(/\s*[:\uff1a\-\u2014\u2013\|]\s*/)[0];
-      const key = coreName.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 30);
-      seen.add(key);
+      seen.add(getMergeKey(dh));
     });
     return seen.size;
   };
@@ -579,13 +617,8 @@ function renderDarkhorses() {
   // ============ 跨平台/跨排行/跨市場合併 ============
   const mergedMap = new Map();
 
-  function getMergeKey(dh) {
-    // 取冒號/破折號前的主標題，避免雙平台副標題不同導致無法合併
-    const coreName = dh.name.split(/\s*[:\uff1a\-\u2014\u2013\|]\s*/)[0];
-    return coreName.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 30);
-  }
-
   for (const dh of filtered) {
+    if (!dh || !dh.name) continue; // 健壯性防護：避免髒資料導致整個渲染掛掉
     // 修正：若 dh.markets 中的主市場排名與 dh.currentRank 不一致，將其修正為最新排名，防止保留歷史黑馬時使用過期排名
     if (dh.markets) {
       dh.markets = dh.markets.map(m => {
@@ -704,7 +737,10 @@ function renderDarkhorses() {
           const fm = dh.markets.find(m => m.code === t.market);
           if (fm) tFlag = fm.flag || '';
         }
-        // 不強制套用主市場國旗給無 market 屬性的歷史 trigger
+        // 如果還是沒有，且 dh.market 存在，使用 dh.marketFlag 作為歷史 trigger 的備用國旗
+        if (!tFlag && dh.market) {
+          tFlag = dh.marketFlag || '';
+        }
         const prefix = tFlag ? `${tFlag} ` : '';
 
         let src = `${prefix}${platformName} ${chartLabel}`;
@@ -1205,12 +1241,22 @@ window.showGameInfo = showGameInfo;
 
 // ============ 深度分析 Modal ============
 function showAnalysis(appId, platform) {
-  // 找出同遊戲的所有 darkhorse（可能有多個：不同平台、不同排行）
-  const allDh = state.darkhorses.filter(d => d.appId === appId || (d.name && state.darkhorses.find(x => x.appId === appId)?.name === d.name));
+  // 找出同遊戲的所有 darkhorse（可能有多個：不同平台、不同排行、不同包名）
+  const targetDh = state.darkhorses.find(x => x.appId === appId) || getTrackedList().find(x => x.appId === appId);
+  const targetMergeKey = targetDh ? getMergeKey(targetDh) : '';
+  const allDh = state.darkhorses.filter(d => {
+    if (d.appId === appId) return true;
+    if (targetMergeKey && getMergeKey(d) === targetMergeKey) return true;
+    return false;
+  });
   
   // 補上追蹤名單中可能留存的「歷史黑馬」資訊（如果現在已經跌出榜，但當初追蹤時有存 triggers）
   const trackedList = getTrackedList();
-  const trackedMatches = trackedList.filter(t => t.appId === appId || (t.name && allDh[0] && t.name === allDh[0].name));
+  const trackedMatches = trackedList.filter(t => {
+    if (t.appId === appId) return true;
+    if (targetMergeKey && getMergeKey(t) === targetMergeKey) return true;
+    return false;
+  });
   trackedMatches.forEach(t => {
     if (t.triggers && t.triggers.length > 0 && !allDh.find(d => d.appId === t.appId && d.platform === t.platform)) {
       allDh.push(t);
@@ -1252,8 +1298,16 @@ function showAnalysis(appId, platform) {
     }
   });
 
-  let dh = allDh.find(d => d.appId === appId && d.platform === platform) || allDh[0];
-  const analysis = state.analysis[appId];
+  const allAppIds = Array.from(new Set(allDh.map(d => d.appId).concat([appId])));
+  let dh = allDh.find(d => d.appId === appId && d.platform === platform) || allDh.find(d => allAppIds.includes(d.appId)) || allDh[0];
+  
+  let analysis = null;
+  for (const aid of allAppIds) {
+    if (state.analysis[aid]) {
+      analysis = state.analysis[aid];
+      break;
+    }
+  }
 
   // 如果沒有 darkhorse 資料，從排行榜快照取基本資訊
   if (!dh) {
@@ -1262,7 +1316,7 @@ function showAnalysis(appId, platform) {
     if (date && state.snapshots[date] && state.snapshots[date][state.rankMarket]) {
       const md = state.snapshots[date][state.rankMarket];
       if (md[platform] && md[platform][state.chartType]) {
-        app = md[platform][state.chartType].data.find(a => a.appId === appId);
+        app = md[platform][state.chartType].data.find(a => allAppIds.includes(a.appId));
       }
     }
     if (!app) return;
@@ -1279,46 +1333,52 @@ function showAnalysis(appId, platform) {
     }
   }
 
-  // 動態擴充與更新 dh._rankHistoryByLine，確保即使是跌出黑馬榜的追蹤遊戲，排名圖表也會更新
-  if (dh) {
-    if (!dh._rankHistoryByLine) {
-      dh._rankHistoryByLine = {};
-      // 從 allDh (包含雙平台原始資料) 中提取原本已經存好的完整 14 天 rankHistory
-      allDh.forEach(d => {
-        if (d.rankHistory) {
-          const lineKey = `${d.platform}_${d.chartType}`;
-          if (!dh._rankHistoryByLine[lineKey]) {
-            dh._rankHistoryByLine[lineKey] = { platform: d.platform, chartType: d.chartType, data: [...d.rankHistory] };
-          }
+  // 找出該遊戲所有上榜的市場
+  const uniqueMarketsMap = new Map();
+
+  allDh.forEach(d => {
+    if (d.markets && d.markets.length > 0) {
+      d.markets.forEach(m => {
+        if (m && m.code) {
+          uniqueMarketsMap.set(m.code, {
+            code: m.code,
+            flag: m.flag || MARKETS.find(x => x.code === m.code)?.flag || '',
+            name: m.name || MARKETS.find(x => x.code === m.code)?.name || m.code
+          });
         }
       });
     }
-    
-    const targetMarket = dh.market || dh.marketCode || state.rankMarket;
-    // 將該遊戲所有已知的平台都掃一遍（如果它橫跨雙平台）
-    const platformsToScan = Array.from(new Set(allDh.map(d => d.platform).concat([dh.platform])));
-    
-    state.availableDates.forEach(date => {
-      const snap = state.snapshots[date];
-      if (!snap || !snap[targetMarket]) return;
-      
-      platformsToScan.forEach(plat => {
-        ['topfree', 'grossing'].forEach(chartType => {
-          const chartData = snap[targetMarket][plat]?.[chartType]?.data || [];
-          const found = chartData.find(a => a.appId === appId);
-          if (found) {
-            const lineKey = `${plat}_${chartType}`;
-            if (!dh._rankHistoryByLine[lineKey]) {
-              dh._rankHistoryByLine[lineKey] = { platform: plat, chartType, data: [] };
-            }
-            const line = dh._rankHistoryByLine[lineKey];
-            if (!line.data.find(d => d.date === date)) {
-              line.data.push({ date, rank: found.rank });
-            }
-          }
-        });
+    const mCode = d.market || d.marketCode;
+    if (mCode && !uniqueMarketsMap.has(mCode)) {
+      const marketObj = MARKETS.find(x => x.code === mCode);
+      uniqueMarketsMap.set(mCode, {
+        code: mCode,
+        flag: d.marketFlag || marketObj?.flag || '',
+        name: d.marketName || marketObj?.name || mCode
       });
+    }
+  });
+
+  const modalMarkets = Array.from(uniqueMarketsMap.values());
+  if (modalMarkets.length === 0) {
+    const marketObj = MARKETS.find(x => x.code === state.rankMarket) || { flag: '', name: state.rankMarket };
+    modalMarkets.push({
+      code: state.rankMarket,
+      flag: marketObj.flag,
+      name: marketObj.name
     });
+  }
+
+  // 決定初始市場
+  let initialMarketCode = dh.market || dh.marketCode || state.rankMarket;
+  if (!uniqueMarketsMap.has(initialMarketCode) && modalMarkets.length > 0) {
+    initialMarketCode = modalMarkets[0].code;
+  }
+  state.modalActiveMarket = initialMarketCode;
+
+  // 動態擴充與更新 dh._rankHistoryByLine，確保即使是跌出黑馬榜的追蹤遊戲，排名圖表也會更新
+  if (dh) {
+    rebuildModalRankHistory(dh, allDh, state.modalActiveMarket);
   }
 
   // 合併所有 trigger 並標記來源（以 strategy+label 去重，避免重複顯示）
@@ -1351,8 +1411,11 @@ function showAnalysis(appId, platform) {
         }
       }
       
-      // 如果 trigger 本身沒有 market 屬性（歷史遺留資料），不強制貼上主市場標籤
-      // 以免不同市場的排名數據被錯誤歸類到主市場
+      // 如果還是沒有，且 d.market 存在，使用 d.marketFlag 與 d.marketName 作為歷史 trigger 的備用市場資訊
+      if (!tFlag && d.market) {
+        tFlag = d.marketFlag || '';
+        tName = d.marketName || '';
+      }
 
       const marketSuffix = (tFlag && tName) ? ` ‧ ${tFlag} ${tName}` : '';
       let triggerSrc = t._src;
@@ -1532,7 +1595,7 @@ function showAnalysis(appId, platform) {
       for (const p of ['ios', 'android']) {
         for (const ct of ['topfree', 'grossing']) {
           if (md[p] && md[p][ct]) {
-            const found = md[p][ct].data.find(a => a.appId === appId);
+            const found = md[p][ct].data.find(a => allAppIds.includes(a.appId));
             if (found) { detail = { ...detail, released: found.released, updated: found.updated, contentRating: found.contentRating, free: found.free, price: found.price, summary: found.summary || detail.summary }; break; }
           }
         }
@@ -1561,7 +1624,7 @@ function showAnalysis(appId, platform) {
       const md = state.snapshots[date][state.rankMarket];
       for (const p of ['ios', 'android']) {
         for (const ct of ['topfree', 'grossing']) {
-          if (md[p] && md[p][ct]) { const f = md[p][ct].data.find(a => a.appId === appId); if (f && f.summary) return f.summary; }
+          if (md[p] && md[p][ct]) { const f = md[p][ct].data.find(a => allAppIds.includes(a.appId)); if (f && f.summary) return f.summary; }
         }
       }
     }
@@ -1636,7 +1699,7 @@ function showAnalysis(appId, platform) {
     <!-- 歷史排行走勢圖 -->
     <div class="analysis-section">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
-        <h4 style="margin:0">📈 排名歷史</h4>
+        <h4 style="margin:0">📈 排名歷史 <span id="modalChartMarketLabel" style="font-weight:500; font-size:13px; color:var(--accent-cyan); margin-left:6px;">(${MARKETS.find(m => m.code === state.modalActiveMarket)?.flag || ''} ${MARKETS.find(m => m.code === state.modalActiveMarket)?.name || state.modalActiveMarket}市場)</span></h4>
         <div id="chartRangePresets" style="display:flex;gap:4px">
           ${[7,14,30].map(d => `<button
             onclick="renderModalChart(window._currentDh, ${d}, this)"
@@ -1648,6 +1711,29 @@ function showAnalysis(appId, platform) {
           >${d}天</button>`).join('')}
         </div>
       </div>
+
+      <!-- 多國上榜時的市場切換器 -->
+      ${modalMarkets.length > 1 ? `
+        <div id="modalMarketSelector" style="display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap;">
+          ${modalMarkets.map(m => {
+            const isActive = m.code === state.modalActiveMarket;
+            return `
+              <button class="market-tab-btn" 
+                onclick="switchModalMarket('${m.code}')" 
+                data-market="${m.code}"
+                style="padding: 5px 12px; border-radius: 12px; font-size: 12px; cursor: pointer; transition: all 0.2s;
+                  background: ${isActive ? 'rgba(59, 130, 246, 0.2)' : 'var(--bg-glass)'};
+                  border: 1px solid ${isActive ? 'var(--accent-blue)' : 'var(--border-glass)'};
+                  color: ${isActive ? 'var(--accent-blue)' : 'var(--text-secondary)'};
+                  font-weight: ${isActive ? '600' : 'normal'};"
+              >
+                ${m.flag} ${m.name}
+              </button>
+            `;
+          }).join('')}
+        </div>
+      ` : ''}
+
       <div class="chart-container"><canvas id="modalChart"></canvas></div>
     </div>
 
@@ -1679,44 +1765,24 @@ function showAnalysis(appId, platform) {
     }, 50);
 
     // 觸發非同步拉取 14 天快照並重繪圖表
-    // 無論是否為黑馬，都需要拉取快照，因為黑馬的備份可能只含有觸發條件的那個榜單（如免費榜）的歷史，
-    // 要看到另一個榜單（如營收榜）的完整歷史走勢，必須靠快照補齊。
     if (state.firebaseMode) {
       setTimeout(async () => {
         let loadedNew = false;
-        const targetMarket = dh.market || dh.marketCode || state.rankMarket;
+        const currentActiveMarket = state.modalActiveMarket;
         const datesToLoad = [...state.availableDates].slice(-14);
         
         for (const date of datesToLoad) {
-          if (!state.snapshots[date] || !state.snapshots[date][targetMarket]) {
+          if (!state.snapshots[date] || !state.snapshots[date][currentActiveMarket]) {
             try {
-              await ensureSnapshotLoaded(date, targetMarket);
+              await ensureSnapshotLoaded(date, currentActiveMarket);
               loadedNew = true;
             } catch (e) { /* ignore */ }
           }
         }
 
         // 重新掃描快照補齊資料並重繪
-        if (loadedNew && window._currentDh && window._currentDh.appId === appId) {
-          const platformsToScan = Array.from(new Set((allDh || []).map(d => d.platform).concat([dh.platform])));
-          datesToLoad.forEach(date => {
-            const snap = state.snapshots[date];
-            if (!snap || !snap[targetMarket]) return;
-            platformsToScan.forEach(plat => {
-              ['topfree', 'grossing'].forEach(chartType => {
-                const chartData = snap[targetMarket][plat]?.[chartType]?.data || [];
-                const found = chartData.find(a => a.appId === appId);
-                if (found) {
-                  const lineKey = `${plat}_${chartType}`;
-                  if (!dh._rankHistoryByLine[lineKey]) dh._rankHistoryByLine[lineKey] = { platform: plat, chartType, data: [] };
-                  const line = dh._rankHistoryByLine[lineKey];
-                  if (!line.data.find(d => d.date === date)) {
-                    line.data.push({ date, rank: found.rank });
-                  }
-                }
-              });
-            });
-          });
+        if (loadedNew && window._currentDh && window._currentDh.appId === appId && state.modalActiveMarket === currentActiveMarket) {
+          rebuildModalRankHistory(dh, allDh, currentActiveMarket);
           
           const activeBtn = document.querySelector('#chartRangePresets button[style*="rgba(59, 130, 246, 0.2)"]');
           const days = activeBtn ? parseInt(activeBtn.getAttribute('data-days')) : 7;
@@ -1726,6 +1792,129 @@ function showAnalysis(appId, platform) {
     }
   }, 200);
 }
+
+// ============ 排名歷史重建與市場切換 ============
+function rebuildModalRankHistory(dh, allDh, marketCode) {
+  dh._rankHistoryByLine = {};
+
+  // 1. From allDh, find any existing rank history for this market
+  allDh.forEach(d => {
+    const dMarket = d.market || d.marketCode;
+    if (dMarket === marketCode && d.rankHistory) {
+      const lineKey = `${d.platform}_${d.chartType}`;
+      if (!dh._rankHistoryByLine[lineKey]) {
+        dh._rankHistoryByLine[lineKey] = { platform: d.platform, chartType: d.chartType, data: [...d.rankHistory] };
+      }
+    }
+  });
+
+  // 2. Scan state.snapshots for the specified marketCode
+  const platformsToScan = Array.from(new Set(allDh.map(d => d.platform).concat([dh.platform])));
+  const allAppIds = Array.from(new Set(allDh.map(d => d.appId).concat([dh.appId])));
+  
+  state.availableDates.forEach(date => {
+    const snap = state.snapshots[date];
+    if (!snap || !snap[marketCode]) return;
+    
+    platformsToScan.forEach(plat => {
+      ['topfree', 'grossing'].forEach(chartType => {
+        const chartData = snap[marketCode][plat]?.[chartType]?.data || [];
+        const found = chartData.find(a => allAppIds.includes(a.appId));
+        if (found) {
+          const lineKey = `${plat}_${chartType}`;
+          if (!dh._rankHistoryByLine[lineKey]) {
+            dh._rankHistoryByLine[lineKey] = { platform: plat, chartType, data: [] };
+          }
+          const line = dh._rankHistoryByLine[lineKey];
+          if (!line.data.find(d => d.date === date)) {
+            line.data.push({ date, rank: found.rank });
+          }
+        }
+      });
+    });
+  });
+}
+
+function switchModalMarket(marketCode) {
+  const dh = window._currentDh;
+  if (!dh) return;
+
+  state.modalActiveMarket = marketCode;
+
+  // 1. Update the title / label with active flag & name
+  const activeMarket = MARKETS.find(m => m.code === marketCode) || { flag: '', name: marketCode };
+  const labelEl = document.getElementById('modalChartMarketLabel');
+  if (labelEl) {
+    labelEl.innerHTML = `(${activeMarket.flag} ${activeMarket.name}市場)`;
+  }
+
+  // 2. Update active tab style
+  document.querySelectorAll('.market-tab-btn').forEach(btn => {
+    const isActive = btn.getAttribute('data-market') === marketCode;
+    if (isActive) {
+      btn.style.background = 'rgba(59, 130, 246, 0.2)';
+      btn.style.borderColor = 'var(--accent-blue)';
+      btn.style.color = 'var(--accent-blue)';
+      btn.style.fontWeight = '600';
+    } else {
+      btn.style.background = 'var(--bg-glass)';
+      btn.style.borderColor = 'var(--border-glass)';
+      btn.style.color = 'var(--text-secondary)';
+      btn.style.fontWeight = 'normal';
+    }
+  });
+
+  // 3. Rebuild rank history for this market
+  const targetMergeKey = getMergeKey(dh);
+  const allDh = state.darkhorses.filter(d => {
+    if (d.appId === dh.appId) return true;
+    if (targetMergeKey && getMergeKey(d) === targetMergeKey) return true;
+    return false;
+  });
+  
+  const trackedList = getTrackedList();
+  const trackedMatches = trackedList.filter(t => {
+    if (t.appId === dh.appId) return true;
+    if (targetMergeKey && getMergeKey(t) === targetMergeKey) return true;
+    return false;
+  });
+  trackedMatches.forEach(t => {
+    if (t.triggers && t.triggers.length > 0 && !allDh.find(d => d.appId === t.appId && d.platform === t.platform)) {
+      allDh.push(t);
+    }
+  });
+
+  rebuildModalRankHistory(dh, allDh, marketCode);
+
+  // 4. Render chart (using active preset days)
+  const activePresetBtn = document.querySelector('#chartRangePresets button[style*="rgba(59, 130, 246, 0.2)"]') || document.querySelector('#chartRangePresets button');
+  const days = activePresetBtn ? parseInt(activePresetBtn.getAttribute('data-days')) : 7;
+  renderModalChart(dh, days, activePresetBtn);
+
+  // 5. Asynchronously lazyload snapshots for the selected market
+  if (state.firebaseMode) {
+    const datesToLoad = [...state.availableDates].slice(-14);
+    (async () => {
+      let loadedNew = false;
+      for (const date of datesToLoad) {
+        if (!state.snapshots[date] || !state.snapshots[date][marketCode]) {
+          try {
+            await ensureSnapshotLoaded(date, marketCode);
+            loadedNew = true;
+          } catch (e) { /* ignore */ }
+        }
+      }
+      
+      if (loadedNew && window._currentDh && window._currentDh.appId === dh.appId && state.modalActiveMarket === marketCode) {
+        rebuildModalRankHistory(dh, allDh, marketCode);
+        const currentActivePresetBtn = document.querySelector('#chartRangePresets button[style*="rgba(59, 130, 246, 0.2)"]') || document.querySelector('#chartRangePresets button');
+        const currentDays = currentActivePresetBtn ? parseInt(currentActivePresetBtn.getAttribute('data-days')) : 7;
+        renderModalChart(dh, currentDays, currentActivePresetBtn);
+      }
+    })();
+  }
+}
+window.switchModalMarket = switchModalMarket;
 
 // ============ Modal 圖表渲染（支援日期區間篩選）============
 function renderModalChart(dh, days, activeBtn) {
@@ -1779,8 +1968,10 @@ function renderModalChart(dh, days, activeBtn) {
     return;
   }
 
-  // 統一 X 軸日期，並按 days 篩選最後 N 天
-  let allDates = [...new Set(lines.flatMap(l => l.data.map(h => h.date)))].sort();
+  // 統一 X 軸日期 (基於系統可用日期序列以確保各市場的時間線起點與長度一致)，並按 days 篩選最後 N 天
+  let endIdx = state.availableDates.indexOf(state.selectedDate);
+  if (endIdx === -1) endIdx = state.availableDates.length - 1;
+  let allDates = state.availableDates.slice(0, endIdx + 1);
   const totalDays = allDates.length;
 
   // 更新 preset 按鈕的 disabled 狀態
