@@ -1912,24 +1912,43 @@ function showReport(gameName, appId, platform) {
     // 支援 marked.js align 屬性（確保置中對齊生效）
     html = html.replace(/<td align="center"/g, '<td style="text-align:center"');
     html = html.replace(/<th align="center"/g, '<th style="text-align:center"');
-    // ★ 報告工具列：返回（左）+ 下載（右）
+    // ★ 報告工具列與下載按手配置 (方案 A：下載按鈕移至報告標題旁，頂部僅留純淨導覽)
     const safeGameName = gameName.replace(/'/g, "\\'");
-    const backBtn = appId
-      ? `<a class="report-back-btn" onclick="event.stopPropagation();showAnalysis('${appId}','${platform}')">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="19" y1="12" x2="5" y2="12"></line>
-            <polyline points="12 19 5 12 12 5"></polyline>
-          </svg>返回
-         </a>`
+    const toolbarHtml = appId
+      ? `<div class="report-toolbar">
+          <div class="report-toolbar-left">
+            <a class="report-back-btn" onclick="event.stopPropagation();showAnalysis('${appId}','${platform}')">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+              </svg>返回
+            </a>
+          </div>
+         </div>`
       : '';
-    const downloadBtn = `<button class="report-download-btn" onclick="event.stopPropagation();downloadReportHTML('${safeGameName}')">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-        <polyline points="7 10 12 15 17 10"></polyline>
-        <line x1="12" y1="15" x2="12" y2="3"></line>
-      </svg>下載報告
-    </button>`;
-    body.innerHTML = `<div class="report-toolbar"><div class="report-toolbar-left">${backBtn}</div><div class="report-toolbar-right">${downloadBtn}</div></div><div class="report-content">${html}</div>`;
+      
+    // 渲染基礎內容
+    body.innerHTML = `${toolbarHtml}<div class="report-content">${html}</div>`;
+    
+    // 動態將 Markdown 的第一個 <h1> 改造為包含「下載報告」的雙欄 Hero Header
+    const h1 = body.querySelector('.report-content h1');
+    if (h1) {
+      const headerHero = document.createElement('div');
+      headerHero.className = 'report-header-hero';
+      
+      const titleText = h1.innerHTML;
+      headerHero.innerHTML = `
+        <h1 class="report-hero-title">${titleText}</h1>
+        <button class="report-download-btn" onclick="event.stopPropagation();downloadReportHTML('${safeGameName}')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>下載報告
+        </button>
+      `;
+      h1.parentNode.replaceChild(headerHero, h1);
+    }
     // 4 欄以上的寬表格：加 wide-table class 啟用橫捲；窄表格正常換行
     body.querySelectorAll('.report-content table').forEach(table => {
       const firstRow = table.querySelector('tr');
