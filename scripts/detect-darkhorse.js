@@ -303,6 +303,9 @@ async function main() {
           const jumpResult = detectRankJump(app, history);
           if (jumpResult) {
             jumpResult._detectedAt = today;
+            jumpResult.market = market.code;
+            jumpResult.marketName = market.name;
+            jumpResult.marketFlag = market.flag;
             triggers.push(jumpResult);
           }
 
@@ -311,6 +314,9 @@ async function main() {
             const newEntryResult = detectNewEntry(app, history);
             if (newEntryResult) {
               newEntryResult._detectedAt = today;
+              newEntryResult.market = market.code;
+              newEntryResult.marketName = market.name;
+              newEntryResult.marketFlag = market.flag;
               triggers.push(newEntryResult);
             }
           }
@@ -318,6 +324,9 @@ async function main() {
           const riseResult = detectConsecutiveRise(app, history);
           if (riseResult) {
             riseResult._detectedAt = today;
+            riseResult.market = market.code;
+            riseResult.marketName = market.name;
+            riseResult.marketFlag = market.flag;
             triggers.push(riseResult);
           }
 
@@ -325,6 +334,9 @@ async function main() {
           const growthResult = detectGrowthMultiplier(app, history);
           if (growthResult) {
             growthResult._detectedAt = today;
+            growthResult.market = market.code;
+            growthResult.marketName = market.name;
+            growthResult.marketFlag = market.flag;
             triggers.push(growthResult);
           }
 
@@ -355,7 +367,10 @@ async function main() {
 
               // 整合今日觸發器
               for (const todayT of triggers) {
-                const existingIdx = mergedTriggers.findIndex(yT => yT.strategy === todayT.strategy);
+                const existingIdx = mergedTriggers.findIndex(yT => 
+                  yT.strategy === todayT.strategy && 
+                  (yT.market === todayT.market || (!yT.market && yesterdayDh.market === todayT.market))
+                );
                 if (existingIdx === -1) {
                   // 全新策略：加入，日期為今天
                   mergedTriggers.push(todayT);
@@ -422,16 +437,22 @@ async function main() {
       // 已存在：追加市場資訊，保留最高分的版本為主體
       const existing = mergedMap.get(key);
       existing.markets.push({ code: dh.market, name: dh.marketName, flag: dh.marketFlag, rank: dh.currentRank, score: dh.confidenceScore });
+      
+      // 合併所有 triggers（不論分數高低，只要 strategy + market 不同都應該合併）
+      const mergedTriggers = [...existing.triggers];
+      for (const t of (dh.triggers || [])) {
+        if (!mergedTriggers.find(et => et.strategy === t.strategy && et.market === t.market)) {
+          mergedTriggers.push(t);
+        }
+      }
+
       if (dh.confidenceScore > existing.confidenceScore) {
         // 用更高分的版本替換主體，但保留累積的 markets 和合併觸發器
         const markets = existing.markets;
-        const mergedTriggers = [...existing.triggers];
-        for (const t of (dh.triggers || [])) {
-          if (!mergedTriggers.find(et => et.strategy === t.strategy)) {
-            mergedTriggers.push(t);
-          }
-        }
         Object.assign(existing, dh, { markets, triggers: mergedTriggers });
+      } else {
+        // 保留原主體，但更新合併後的 triggers
+        existing.triggers = mergedTriggers;
       }
     }
   }

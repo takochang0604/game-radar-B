@@ -698,11 +698,18 @@ function renderDarkhorses() {
       const key = dh.appId + '_' + dh.platform + '_' + dh.market;
       const chartLabel = dh.chartType === 'grossing' ? '營收' : '免費';
       const platformName = dh.platform === 'android' ? 'Android' : 'iOS';
-      const marketPrefix = dh.markets && dh.markets.length > 1 ? `${dh.marketFlag} ` : '';
       const taggedTriggers = dh.triggers.map(t => {
-        let src = `${marketPrefix}${platformName} ${chartLabel}`;
-        if (t.label && (t.label.includes('雙榜') || t.detail?.includes('雙榜'))) src = `${marketPrefix}雙榜`;
-        if (t.label && (t.label.includes('雙平台') || t.detail?.includes('雙平台'))) src = `${marketPrefix}雙平台`;
+        let tFlag = t.marketFlag || '';
+        if (!tFlag && t.market && dh.markets) {
+          const fm = dh.markets.find(m => m.code === t.market);
+          if (fm) tFlag = fm.flag || '';
+        }
+        if (!tFlag) tFlag = dh.marketFlag || '';
+        const prefix = tFlag ? `${tFlag} ` : '';
+
+        let src = `${prefix}${platformName} ${chartLabel}`;
+        if (t.label && (t.label.includes('雙榜') || t.detail?.includes('雙榜'))) src = `${prefix}雙榜`;
+        if (t.label && (t.label.includes('雙平台') || t.detail?.includes('雙平台'))) src = `${prefix}雙平台`;
         return { ...t, _src: src, _srcPlatform: dh.platform };
       });
       
@@ -1331,11 +1338,41 @@ function showAnalysis(appId, platform) {
     })();
 
     d.triggers.forEach(t => {
-      let triggerSrc = t._src || `${platformName} ${baseChartLabel}`;
-      if (!t._src) {
-        if (t.label && (t.label.includes('雙榜') || t.detail?.includes('雙榜'))) triggerSrc = '雙榜';
-        if (t.label && (t.label.includes('雙平台') || t.detail?.includes('雙平台'))) triggerSrc = '雙平台';
+      // 尋找此 trigger 所屬的市場資訊
+      let tFlag = t.marketFlag || '';
+      let tName = t.marketName || '';
+      
+      // 如果 trigger 物件本身沒有，且含有 t.market，從 d.markets 中找
+      if (!tFlag && t.market && d.markets) {
+        const fm = d.markets.find(m => m.code === t.market);
+        if (fm) {
+          tFlag = fm.flag || '';
+          tName = fm.name || '';
+        }
       }
+      
+      // 如果還是沒有，且 d.market 存在，使用 d.marketFlag 與 d.marketName
+      if (!tFlag && d.market) {
+        tFlag = d.marketFlag || '';
+        tName = d.marketName || '';
+      }
+
+      const marketSuffix = (tFlag && tName) ? ` ‧ ${tFlag} ${tName}` : '';
+      let triggerSrc = t._src;
+      
+      if (!triggerSrc) {
+        let baseSrc = `${platformName} ${baseChartLabel}`;
+        if (t.label && (t.label.includes('雙榜') || t.detail?.includes('雙榜'))) baseSrc = '雙榜';
+        if (t.label && (t.label.includes('雙平台') || t.detail?.includes('雙平台'))) baseSrc = '雙平台';
+        
+        triggerSrc = `${baseSrc}${marketSuffix}`;
+      } else {
+        // 如果 t._src 已經有了，但沒有包含 ‧ 且我們找得到市場資訊，也可以補上
+        if (!triggerSrc.includes(' ‧ ') && (tFlag && tName)) {
+          triggerSrc = `${triggerSrc}${marketSuffix}`;
+        }
+      }
+
       // 用 strategy+src 去重：同一個來源的同一種策略只顯示一次
       const dedupeKey = `${t.strategy || t.label}|${triggerSrc}`;
       if (!seenTriggerKeys.has(dedupeKey)) {
