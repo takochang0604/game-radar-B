@@ -367,12 +367,13 @@ async function main() {
 
               // 整合今日觸發器
               for (const todayT of triggers) {
+                // 比對規則：strategy 相同 且 market 相同（或兩者都沒有 market）才視為重複
                 const existingIdx = mergedTriggers.findIndex(yT => 
                   yT.strategy === todayT.strategy && 
-                  (yT.market === todayT.market || (!yT.market && yesterdayDh.market === todayT.market))
+                  yT.market === todayT.market
                 );
                 if (existingIdx === -1) {
-                  // 全新策略：加入，日期為今天
+                  // 全新策略或新市場：加入，日期為今天
                   mergedTriggers.push(todayT);
                 }
                 // 同策略已存在：完全保留原始觸發資料（日期、描述、排名全部鎖定在首次觸發時的狀態）

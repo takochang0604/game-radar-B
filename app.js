@@ -704,7 +704,7 @@ function renderDarkhorses() {
           const fm = dh.markets.find(m => m.code === t.market);
           if (fm) tFlag = fm.flag || '';
         }
-        if (!tFlag) tFlag = dh.marketFlag || '';
+        // 不強制套用主市場國旗給無 market 屬性的歷史 trigger
         const prefix = tFlag ? `${tFlag} ` : '';
 
         let src = `${prefix}${platformName} ${chartLabel}`;
@@ -1351,11 +1351,8 @@ function showAnalysis(appId, platform) {
         }
       }
       
-      // 如果還是沒有，且 d.market 存在，使用 d.marketFlag 與 d.marketName
-      if (!tFlag && d.market) {
-        tFlag = d.marketFlag || '';
-        tName = d.marketName || '';
-      }
+      // 如果 trigger 本身沒有 market 屬性（歷史遺留資料），不強制貼上主市場標籤
+      // 以免不同市場的排名數據被錯誤歸類到主市場
 
       const marketSuffix = (tFlag && tName) ? ` ‧ ${tFlag} ${tName}` : '';
       let triggerSrc = t._src;
