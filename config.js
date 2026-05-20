@@ -72,7 +72,7 @@ export const DARKHORSE_CONFIG = {
   newEntryMaxRank: 30,       // 新進榜最高排名限制（只有 Top N 才算黑馬）
   newEntryMinNulls: 4,       // 新進榜前面至少要有 N 天不在榜上
   minHistoryDays: 4,         // 該市場至少要有 N 天快照才進行偵測
-  minScore: 3.5,             // 最低評分門檻（低於此分的遊戲直接排除）
+  minScore: 3.0,             // 最低評分門檻（低於此分的遊戲直接排除）
   minConfidence: 1.5,        // 最低信心分數（低於此分的不列為黑馬）
   maxCurrentRank: 100,       // 擴大監測到 Top 100（Mid-Chart 偵測）
 

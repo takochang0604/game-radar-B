@@ -39,6 +39,7 @@ admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
 const db = admin.firestore();
+db.settings({ ignoreUndefinedProperties: true });
 
 // 頂層集合
 const COLLECTION = 'gameAnalysis';
@@ -125,11 +126,23 @@ async function uploadDarkhorses() {
       name: dh.name,
       platform: dh.platform,
       chartType: dh.chartType,
+      chartName: dh.chartName,
       currentRank: dh.currentRank,
       confidenceScore: dh.confidenceScore,
-      triggers: dh.triggers.map(t => ({ label: t.label, detail: t.detail })),
+      triggers: dh.triggers.map(t => ({
+        strategy: t.strategy,
+        label: t.label,
+        detail: t.detail,
+        score: t.score,
+        _detectedAt: t._detectedAt,
+        chartLine: t.chartLine,
+        src: t.src,
+      })),
       markets: dh.markets || [{ code: dh.market, flag: dh.marketFlag }],
       icon: dh.icon,
+      detectedAt: dh.detectedAt,
+      developer: dh.developer,
+      category: dh.category,
     })),
   });
   console.log(`  ✅ 黑馬歷史（${date}）`);

@@ -12,6 +12,7 @@ import {
   MARKETS,
   CHART_TYPES,
   DARKHORSE_CONFIG,
+  MARKET_WEIGHTS,
   SNAPSHOTS_DIR,
   DARKHORSE_DIR,
 } from '../config.js';
@@ -37,15 +38,25 @@ function ensureDir(dirPath) {
   return resolved;
 }
 
+const snapshotCache = new Map();
 /**
  * 載入某天某市場某平台某排行類型的快照
  */
 function loadSnapshot(date, marketCode, platform, chartTypeId) {
+  const key = `${date}|${marketCode}|${platform}|${chartTypeId}`;
+  if (snapshotCache.has(key)) return snapshotCache.get(key);
+
   const filePath = path.resolve(ROOT, SNAPSHOTS_DIR, date, `${marketCode}_${platform}_${chartTypeId}.json`);
-  if (!fs.existsSync(filePath)) return null;
+  if (!fs.existsSync(filePath)) {
+    snapshotCache.set(key, null);
+    return null;
+  }
   try {
-    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    snapshotCache.set(key, data);
+    return data;
   } catch {
+    snapshotCache.set(key, null);
     return null;
   }
 }
@@ -213,19 +224,7 @@ function getRankWeight(rank) {
   return 0.5;
 }
 
-/**
- * 市場權重：大市場的黑馬更值得關注
- */
-const MARKET_WEIGHTS = {
-  us: 1.5,  // 全球最大手遊市場
-  jp: 1.4,  // 亞洲最大付費市場
-  cn: 1.3,  // 規模大但封閉
-  kr: 1.2,  // 重度手遊市場
-  tw: 1.0,  // 基準
-  th: 1.0,
-  vn: 1.0,
-  ph: 1.0,
-};
+// 市場權重已從 config.js 匯入（按榜類型區分：topfree / grossing）
 
 /**
  * 主偵測邏輯
@@ -245,6 +244,32 @@ async function main() {
 
   const allDarkhorses = [];
 
+  // 載入最近一期的黑馬資料以進行累積與鎖定日期
+  let yesterdayData = null;
+  let yesterdayDateStr = null;
+  for (let i = 1; i <= 7; i++) {
+    const dateStr = getDateStr(i);
+    const filePath = path.join(darkhorseDir, `${dateStr}.json`);
+    if (fs.existsSync(filePath)) {
+      try {
+        yesterdayData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+        yesterdayDateStr = dateStr;
+        break;
+      } catch (e) {
+        // 忽略損壞的檔案
+      }
+    }
+  }
+
+  const yesterdayDhMap = new Map();
+  if (yesterdayData && yesterdayData.darkhorses) {
+    for (const dh of yesterdayData.darkhorses) {
+      const key = dh.appId + '|' + dh.platform + '|' + dh.chartType;
+      yesterdayDhMap.set(key, dh);
+    }
+  }
+
+
   for (const market of MARKETS) {
     // 檢查該市場是否有足夠的歷史快照
     let marketSnapshotDays = 0;
@@ -258,7 +283,7 @@ async function main() {
       continue;
     }
 
-    const marketWeight = MARKET_WEIGHTS[market.code] || 1.0;
+    // 按榜類型查詢市場權重（config.js 中定義了 topfree / grossing 各自的權重表）
 
     for (const chartType of CHART_TYPES) {
       const marketPlatforms = market.hasGooglePlay ? platforms : ['ios'];
@@ -276,28 +301,74 @@ async function main() {
           const triggers = [];
 
           const jumpResult = detectRankJump(app, history);
-          if (jumpResult) triggers.push(jumpResult);
+          if (jumpResult) {
+            jumpResult._detectedAt = today;
+            triggers.push(jumpResult);
+          }
 
           // 排名急升已觸發時跳過新進榜（避免矛盾：有歷史排名卻說首次進入）
           if (!jumpResult) {
             const newEntryResult = detectNewEntry(app, history);
-            if (newEntryResult) triggers.push(newEntryResult);
+            if (newEntryResult) {
+              newEntryResult._detectedAt = today;
+              triggers.push(newEntryResult);
+            }
           }
 
           const riseResult = detectConsecutiveRise(app, history);
-          if (riseResult) triggers.push(riseResult);
+          if (riseResult) {
+            riseResult._detectedAt = today;
+            triggers.push(riseResult);
+          }
 
           // 策略 4: Growth Multiplier（成長倍率）
           const growthResult = detectGrowthMultiplier(app, history);
-          if (growthResult) triggers.push(growthResult);
+          if (growthResult) {
+            growthResult._detectedAt = today;
+            triggers.push(growthResult);
+          }
 
           if (triggers.length > 0) {
             // 品質過濾
             if (app.score && app.score < DARKHORSE_CONFIG.minScore) continue;
             if (app.rank > DARKHORSE_CONFIG.maxCurrentRank) continue;
 
+            // 整合歷史偵測觸發器與首次偵測日期鎖定
+            const yesterdayKey = app.appId + '|' + platform + '|' + chartType.id;
+            const yesterdayDh = yesterdayDhMap.get(yesterdayKey);
+
+            let mergedTriggers = [];
+            let originalDetectedAt = new Date().toISOString();
+
+            if (yesterdayDh) {
+              originalDetectedAt = yesterdayDh.detectedAt || yesterdayDh._retainedFrom || yesterdayDateStr || originalDetectedAt;
+              
+              // 載入歷史觸發器
+              mergedTriggers = [...(yesterdayDh.triggers || [])];
+              
+              // 補齊歷史觸發器的偵測日期
+              mergedTriggers.forEach(t => {
+                if (!t._detectedAt) {
+                  t._detectedAt = yesterdayDh.detectedAt || yesterdayDh._retainedFrom || yesterdayDateStr;
+                }
+              });
+
+              // 整合今日觸發器
+              for (const todayT of triggers) {
+                const existingIdx = mergedTriggers.findIndex(yT => yT.strategy === todayT.strategy);
+                if (existingIdx === -1) {
+                  // 全新策略：加入，日期為今天
+                  mergedTriggers.push(todayT);
+                }
+                // 同策略已存在：完全保留原始觸發資料（日期、描述、排名全部鎖定在首次觸發時的狀態）
+              }
+            } else {
+              mergedTriggers = triggers;
+            }
+
             const baseScore = triggers.reduce((sum, t) => sum + t.score, 0);
             const rankWeight = getRankWeight(app.rank);
+            const marketWeight = (MARKET_WEIGHTS[chartType.id] || {})[market.code] || 1.0;
             const finalScore = baseScore * rankWeight * marketWeight;
             allDarkhorses.push({
               market: market.code,
@@ -314,10 +385,10 @@ async function main() {
               score: app.score,
               category: app.category,
               url: app.url,
-              triggers,
+              triggers: mergedTriggers,
               confidenceScore: Math.round(finalScore * 100) / 100,
               rankHistory: history.map(h => ({ ...h, platform, chartType: chartType.id })),
-              detectedAt: new Date().toISOString(),
+              detectedAt: originalDetectedAt,
             });
           }
         }
@@ -352,9 +423,15 @@ async function main() {
       const existing = mergedMap.get(key);
       existing.markets.push({ code: dh.market, name: dh.marketName, flag: dh.marketFlag, rank: dh.currentRank, score: dh.confidenceScore });
       if (dh.confidenceScore > existing.confidenceScore) {
-        // 用更高分的版本替換主體，但保留累積的 markets
+        // 用更高分的版本替換主體，但保留累積的 markets 和合併觸發器
         const markets = existing.markets;
-        Object.assign(existing, dh, { markets });
+        const mergedTriggers = [...existing.triggers];
+        for (const t of (dh.triggers || [])) {
+          if (!mergedTriggers.find(et => et.strategy === t.strategy)) {
+            mergedTriggers.push(t);
+          }
+        }
+        Object.assign(existing, dh, { markets, triggers: mergedTriggers });
       }
     }
   }
@@ -422,6 +499,14 @@ async function main() {
           }
           cursor.setDate(cursor.getDate() + 1);
         }
+        // 修正：當黑馬被保留時，除了更新主體的 currentRank，也必須同步更新 markets 陣列中對應主市場的排名
+        const updatedMarkets = (pastDh.markets || []).map(m => {
+          if (m.code === pastDh.market) {
+            return { ...m, rank: todayApp.rank };
+          }
+          return m;
+        });
+
         const retained = {
           ...pastDh,
           currentRank: todayApp.rank,
@@ -429,6 +514,7 @@ async function main() {
           rankHistory: extendedHistory,
           _retained: true,
           _retainedFrom: pastDate,
+          markets: updatedMarkets,
         };
         mergedDarkhorses.push(retained);
         existingIds.add(pastDh.appId);

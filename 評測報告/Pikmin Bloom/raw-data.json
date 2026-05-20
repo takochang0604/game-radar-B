@@ -1,15 +1,15 @@
 {
-  "collectedAt": "2026-05-19T07:04:57.767Z",
+  "collectedAt": "2026-05-20T07:26:39.287Z",
   "android": {
     "appId": "com.nianticlabs.pikmin",
     "title": "Pikmin Bloom",
     "developer": "Niantic, Inc.",
     "developerId": "Niantic,+Inc.",
     "genre": "Adventure",
-    "score": 4.729737,
-    "ratings": 216836,
+    "score": 4.727714,
+    "ratings": 217302,
     "installs": "5,000,000+",
-    "maxInstalls": 8493763,
+    "maxInstalls": 8502805,
     "free": true,
     "released": "Oct 27, 2021",
     "updated": 1777263089000,
@@ -32,19 +32,142 @@
     "recentChanges": "Thanks for playing Pikmin Bloom! New in this version:<br>- Minor improvements and bug fixes.<br><br>*Please download the latest version of the app from the store for the changes above to be reflected.",
     "developerWebsite": "https://pikminbloom.com/"
   },
-  "ios": null,
+  "ios": {
+    "id": 1556357398,
+    "appId": "com.nianticlabs.pikmin",
+    "title": "Pikmin Bloom",
+    "developer": "Niantic, Inc.",
+    "score": 4.80145,
+    "reviews": 62658,
+    "free": true,
+    "released": "2021-10-28T07:00:00Z",
+    "updated": "2026-05-11T23:26:42Z",
+    "version": "143.2",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/dd/8d/6edd8dd7-365a-f4f0-bcf1-9ccca8d1217a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Health & Fitness",
+      "Adventure",
+      "Casual"
+    ],
+    "description": "Pikmin Bloom offers a fun way to earn rewards for going outside and exploring with friends! With the brand-new Weekly Challenges feature, you can team up with others, no matter how far away they might be, and work towards a shared steps goal!\n\n__\nCOLLECT over 150 types of unique Decor Pikmin! Some wear fishing lures, some don hamburger buns, and others flaunt paper airplanes, just to name a few.\n\nEXPLORE your neighborhood to add more Pikmin to your squad! The more you walk, the more seedlings and fruit you’ll find.\n\nTEAM UP with friends to take down mushrooms and earn rewards! Select a dream team of Pikmin to increase your score and nab rarer fruit types!\n\nDECORATE the world with beautiful flowers everywhere you go! Watch the map fill up with colorful blossoms, planted by you and by other players nearby!\n\nHead outside, explore your neighborhood, and make the world bloom!\n_______________\n\nWith the player’s permission, Pikmin Bloom uses the Apple HealthKit to enable the player to earn walking distance when the app is closed. \n Notes: \n- This app is free-to-play and offers in-game purchases. It is optimized for smartphones, not tablets. \n- Compatible with iPhone® 6s or higher devices with iOS Version 15 or later installed.  (iPad not supported)\n- It is recommended to play while connected to a network (Wi-Fi, 3G, 4G, 5G, or LTE) in order to obtain accurate location information. \n- Compatibility is not guaranteed for devices without GPS capabilities or devices that are connected only to Wi-Fi networks. \n- Enabling Apple HealthKit permissions is necessary in order for Pikmin Bloom to accurately track your steps. \n- Compatibility information may be changed at any time. \n- Information current as of August, 2022. \n- Not compatible with jailbroken devices. \n- Compatibility is not guaranteed for all devices. \n- Continued use of GPS running in the background can dramatically reduce battery life. \n- Some functions require support for the following services:  \nARKit - For optimal performance, it is recommended that you use a device with at least 2 GB of RAM. If you are experiencing frequent problems such as device crashes or delays while using the Pikmin Bloom app, please try the following troubleshooting steps. \nClose all apps except the Pikmin Bloom app while you are playing. \nUse the most recent operating system available for your device. \nIf the problem persists, please check the iOS troubleshooting guide. If you continue to need assistance, please contact us with details. \nNote: Many devices that do not have a built-in data-network connection do not include a GPS sensor. In the event of mobile-data network congestion, such devices may not be able to maintain a sufficient GPS signal to play."
+  },
   "reviews": {
-    "total": 181,
-    "googlePlay": 181,
+    "total": 182,
+    "googlePlay": 182,
     "appStore": 0,
     "distribution": {
-      "1": 7,
+      "1": 3,
       "2": 7,
-      "3": 18,
-      "4": 30,
-      "5": 119
+      "3": 20,
+      "4": 27,
+      "5": 125
     },
     "positive": [
+      {
+        "source": "google_play",
+        "userName": "Kristjana Holloway",
+        "score": 5,
+        "text": "YAY YAY YIPPEE",
+        "date": "2026-05-19T03:54:42.488Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Zack Klesel",
+        "score": 5,
+        "text": "I love it it's been getting me to walk more",
+        "date": "2026-05-19T02:30:34.760Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kylie Lee",
+        "score": 5,
+        "text": "I really enjoy this game",
+        "date": "2026-05-19T02:03:02.263Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "liver",
+        "score": 5,
+        "text": "I love taking care of my pikmin !!!",
+        "date": "2026-05-19T01:24:27.838Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Pelon 125",
+        "score": 5,
+        "text": "it's a chill game and you just walk and cool buddy's to walk with you.",
+        "date": "2026-05-19T01:07:03.830Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Iker Ceron",
+        "score": 5,
+        "text": "It's a good game and also , I'd like to topic of it",
+        "date": "2026-05-18T22:44:45.902Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "aria bima arkananta",
+        "score": 5,
+        "text": "i like pikmin",
+        "date": "2026-05-18T22:44:16.672Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Anson Mui",
+        "score": 5,
+        "text": "fun little game",
+        "date": "2026-05-18T20:44:44.372Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "rachel tucker",
+        "score": 5,
+        "text": "great incentive for me to walk more",
+        "date": "2026-05-18T20:05:09.314Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "charlotte lam",
+        "score": 5,
+        "text": "very good game",
+        "date": "2026-05-18T14:25:06.910Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Frank Radichel",
+        "score": 5,
+        "text": "much fun",
+        "date": "2026-05-18T11:20:44.207Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Phos Phean",
+        "score": 4,
+        "text": "good enough i am pleased",
+        "date": "2026-05-18T10:27:21.268Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Samuel Longman",
+        "score": 5,
+        "text": "Pikmin",
+        "date": "2026-05-18T07:06:05.577Z",
+        "thumbsUp": 0
+      },
       {
         "source": "google_play",
         "userName": "Laurice Pauline Camacam",
@@ -175,7 +298,7 @@
       },
       {
         "source": "google_play",
-        "userName": "Brain Z",
+        "userName": "Petra",
         "score": 5,
         "text": "Great game that encourages physical activity. Makes walking a lot of fun. Pikmin is my favourite game, it has never disappointed me so far. It never fails to make life fun. It is simply Pikmin! Collecting pikmin and feeding them and walking with them, what is there not to like. They are really cute and it can be enjoyed with neighbours and friends. I keep returning and keep enjoying it.🌱🪻🌸🏵️🌼💖💖",
         "date": "2026-05-15T20:44:26.102Z",
@@ -639,107 +762,11 @@
       },
       {
         "source": "google_play",
-        "userName": "hannah",
-        "score": 4,
-        "text": "ive been satisfied with the app so far until i found that it doesn't track your steps if you don't start the app within the day. usually id check in everyday but i forgot once and it didn't register my steps even though i did my usual rounds that day.",
-        "date": "2026-05-10T11:05:39.896Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "Piggy Bananas",
-        "score": 5,
-        "text": "cute. motivates me to get my steps in!",
-        "date": "2026-05-10T02:22:34.380Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "Kathy Harvey",
-        "score": 5,
-        "text": "Pikman Bloom is an amazing game. fun, cute and actually gives you something for just walking and you can be friends with people all over the world. Very cool",
-        "date": "2026-05-10T01:30:55.552Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "Zakia Erin Noble",
-        "score": 5,
-        "text": "This app genuinely made me leave my room and walk 10,000 steps. Now making me leaving my bed was an accomplishment but walking 10k steps? Now THATS a sign of the app being motivational. 1000/10, GET IT.",
-        "date": "2026-05-10T01:22:36.443Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "Morgan Ryan",
-        "score": 4,
-        "text": "this app is a blast - some bugs but they seem to be on top of fixing things as they can",
-        "date": "2026-05-10T01:11:02.414Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "Luis Durand",
-        "score": 5,
-        "text": "cool game to pass time and collect memories from places I traveled",
-        "date": "2026-05-10T00:19:08.650Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "Jennifer Huang",
-        "score": 5,
-        "text": "This game motivates me to walk lots everyday!",
-        "date": "2026-05-09T23:24:46.991Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "Richard Drozda",
-        "score": 5,
-        "text": "It's a charming game. A true casual player when out and about 💕🌷🌸🌹",
-        "date": "2026-05-09T20:45:54.934Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "Arianna Garaycochea",
-        "score": 5,
-        "text": "I love this game it is not laggy and me and my dad play it and we both walk a lot more. Will people who are underweight like me the more I walk the more hungry I get and I end up eating more. I love Pikmin 4 and Pikmin bloom and this app is an easy way to have fun without your switch if you have one and see Pikmin all day long.",
-        "date": "2026-05-09T20:04:25.261Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "CIsMe D",
-        "score": 4,
-        "text": "Directions how to use could be better",
-        "date": "2026-05-09T16:01:11.162Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "Trevor Leon",
-        "score": 5,
-        "text": "I love this game, I can bounce in and out whenever I feel, and the step tracking is surprisingly accurate.",
-        "date": "2026-05-09T11:52:07.264Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "Sileas Matthews",
-        "score": 4,
-        "text": "it breaks sometimes but it's pretty funny",
-        "date": "2026-05-09T04:29:15.790Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
         "userName": "Skye Smith",
         "score": 5,
         "text": "originally got this to act like a cute, if not always accurate, pedometer while I work. I became absolutely obsessed with collecting all the little Pikmin. The fact they reissue past event Pikmin as rewards for planting flowers via the event items is a bonus. I just wish the cost of getting color specific seedlings was lower as I've grown dozens before and not completed sets, last event I was still one short despite growing 4-5 of every other color. Still 10/10 as no ads, no internet and cute",
         "date": "2026-02-24T02:33:00.494Z",
-        "thumbsUp": 36
+        "thumbsUp": 37
       },
       {
         "source": "google_play",
@@ -747,7 +774,7 @@
         "score": 5,
         "text": "It's cute and relaxing, the challenges are not too difficult if you already walk quite a bit, and the seasonal events keep it refreshing. Tip: if you play Pokémon Go, keep Pikmin Bloom running in the background, it requires less attention so you can tackle both games at the same time! Just don't forget about it :)",
         "date": "2026-01-09T12:53:20.747Z",
-        "thumbsUp": 77
+        "thumbsUp": 78
       },
       {
         "source": "google_play",
@@ -763,7 +790,7 @@
         "score": 5,
         "text": "Love it! Started playing in like 2021 or something because my son talked all of us into it. Now, I'm the only one I know who plays so I started picking random on parts of the game & have my regular handful of others I play with, it's pretty cool. It's a good game to play to de-stress. Wish there was a \"duplicates\" button for postcards. When trying to delete or send postcards we currently have go though 400 cards only to not find the duplicates we have. It's frustrating & time consuming.",
         "date": "2026-04-28T18:09:08.970Z",
-        "thumbsUp": 116
+        "thumbsUp": 117
       },
       {
         "source": "google_play",
@@ -895,11 +922,11 @@
       },
       {
         "source": "google_play",
-        "userName": "Pikmin442",
+        "userName": "Arianna Garaycochea",
         "score": 5,
-        "text": "So far I've been enjoying the game and walking with my Pikmin. However the only issue is that I can't link my Nintendo account to use my Mii and transfer my decor Pikmin from Pikmin 4 to Bloom. I do hope that the issue will get fixed soon. Edit: I have successfully linked my Japanese Nintendo account. I guess it didn't like me using the same email? Either way ever since then it's become more enjoyable to play!",
-        "date": "2026-04-18T23:41:34.836Z",
-        "thumbsUp": 1
+        "text": "I love this game it is not laggy and me and my dad play it and we both walk a lot more. Will people who are underweight like me the more I walk the more hungry I get and I end up eating more. I love Pikmin 4 and Pikmin bloom and this app is an easy way to have fun without your switch if you have one and see Pikmin all day long.",
+        "date": "2026-05-09T20:04:25.261Z",
+        "thumbsUp": 0
       },
       {
         "source": "google_play",
@@ -923,6 +950,14 @@
         "score": 5,
         "text": "Wow, this is such a cute little game with a lot to do! It's addictive in a simple way that encourages checking in daily while providing motivation to exercise. Plus, Pikmin are adorable. I so wish it would localise seasons but it seems to be northern hemisphere only.",
         "date": "2026-03-24T07:46:20.340Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Pikmin442",
+        "score": 5,
+        "text": "So far I've been enjoying the game and walking with my Pikmin. However the only issue is that I can't link my Nintendo account to use my Mii and transfer my decor Pikmin from Pikmin 4 to Bloom. I do hope that the issue will get fixed soon. Edit: I have successfully linked my Japanese Nintendo account. I guess it didn't like me using the same email? Either way ever since then it's become more enjoyable to play!",
+        "date": "2026-04-18T23:41:34.836Z",
         "thumbsUp": 1
       },
       {
@@ -1071,6 +1106,14 @@
       },
       {
         "source": "google_play",
+        "userName": "Kathy Harvey",
+        "score": 5,
+        "text": "Pikman Bloom is an amazing game. fun, cute and actually gives you something for just walking and you can be friends with people all over the world. Very cool",
+        "date": "2026-05-10T01:30:55.552Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
         "userName": "Alyssa Kwong-Taylor",
         "score": 5,
         "text": "Great for motivating you to walk! Player for ~4yrs; been enjoying the chill gameplay and the adorable Pikmin you can collect. Controls easy to grasp, and I personally know a few seniors that play daily. If you strategize, you can consistently do well in events. (Making use of monthly Community Days with walking buddies/grps irl goes a long way.) Main con is that setting up the app to count steps from a different fitness tracker is still a pain. (I use a Garmin + HealthConnect.)",
@@ -1083,7 +1126,7 @@
         "score": 4,
         "text": "I love playing this game! The pikmin are so cute and thier costumes are just the best. Only issues I have with the game is that it can run super slow at times, and the coin system and inventory limiting can get annoying at times. However, it's a nice way for me to track my steps (even if it isn't always 100% accurate) and it encourages me to go outside much more than before. Eould recommend giving it a try :D",
         "date": "2025-10-08T16:05:43.453Z",
-        "thumbsUp": 95
+        "thumbsUp": 96
       },
       {
         "source": "google_play",
@@ -1273,38 +1316,6 @@
       },
       {
         "source": "google_play",
-        "userName": "M H",
-        "score": 1,
-        "text": "Let's ask for all your information at once and then some",
-        "date": "2026-05-10T02:30:47.941Z",
-        "thumbsUp": 1
-      },
-      {
-        "source": "google_play",
-        "userName": "Stephen CF",
-        "score": 1,
-        "text": "There's an unpleasant increase in spoofing activity, rendering activities in-game such as planting flowers and battling Giant Mushrooms impossible. Non-locals in my area take over Giant Mushroom, and I've been seeing flowers planted in impossibly perfect straight lines. It's unfair to those who actually walk and use the game as a motivator to keep walking and collecting Pikmin 👎 The lag & keyboard bugs never went away too. Lifelog isn't working either.",
-        "date": "2026-05-09T11:20:42.315Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "Nothing",
-        "score": 1,
-        "text": "You are too young to log in with this account",
-        "date": "2026-05-09T05:45:56.433Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
-        "userName": "BodyBlocked",
-        "score": 1,
-        "text": "please improve performance!",
-        "date": "2026-05-08T18:37:44.180Z",
-        "thumbsUp": 0
-      },
-      {
-        "source": "google_play",
         "userName": "SoaringWinds633",
         "score": 1,
         "text": "Fun game, good for motivating you to get moving. However it lags a lot. and the zooming in feature is extremely aggravating. I would love to be able to turn this feature off as it only hinders my experience and honestly makes me not want to play frequently. edit: it now can barely run and crashes daily. I'm ready to delete. it's not relaxing or fun when I'm fighting to even use it. all other apps on my phone run fine.",
@@ -1353,6 +1364,22 @@
       }
     ],
     "neutral": [
+      {
+        "source": "google_play",
+        "userName": "Nonya Bznes",
+        "score": 3,
+        "text": "it is a fun app, I just wish i could grow more the 2cpikmen at a time at the begining maybe 4",
+        "date": "2026-05-19T02:28:37.789Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lauren Smith",
+        "score": 3,
+        "text": "I love collecting the various decor pikmin, I really love completing sets. however the flower planting system is annoying. I can't plant flowers if there are still flowers up in an area, so I have to wait a week for them to fade away making me waste time during event missions and it drains my petals much faster than the time it says even without a speed up boost, 140 petals should give me 2100 flowers, but it burned all my petals and only planted 300 in less than 20 minutes. Wasteful system.",
+        "date": "2026-05-18T17:30:55.857Z",
+        "thumbsUp": 0
+      },
       {
         "source": "google_play",
         "userName": "Stephanie Allen",
@@ -1504,21 +1531,21 @@
       "appId": "com.nianticlabs.pokemongo",
       "title": "Pokémon GO",
       "developer": "Niantic, Inc.",
-      "score": 3.9112751,
+      "score": 3.9076111,
       "icon": "https://play-lh.googleusercontent.com/Qf2SJGpLxd9eu4CLWRrh2tfmmkncg7TQ2RNr44tWO07EBfhfMs4CHlizioym11Vb6RmfIWCNz6FNsOgHj_5dMA"
     },
     {
       "appId": "com.nianticlabs.campfire",
       "title": "Niantic Campfire",
       "developer": "Niantic, Inc.",
-      "score": 3.268617,
+      "score": 3.259947,
       "icon": "https://play-lh.googleusercontent.com/KhqdW3avC1V1m1D-X66lcCusrjE5yDn4oDg1OihXFvwLrBoeXFb9juRLnewft_lcXw"
     },
     {
       "appId": "com.nianticlabs.monsterhunter",
       "title": "Monster Hunter Now",
       "developer": "Niantic, Inc.",
-      "score": 4.4898562,
+      "score": 4.4902163,
       "icon": "https://play-lh.googleusercontent.com/K2RWvW5xywjfBLxg7hTWy5TvzoKXuyvUQFM-MlTVRGo_2asbuIep-7DRhqJDI8ejL1Ws--8gIei0iKLxyhfIKQ"
     }
   ],

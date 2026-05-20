@@ -1,264 +1,1557 @@
 {
-  "appId": "com.flower.forest.word.puzzle",
-  "title": "Flower Forest - Word Puzzle",
-  "developer": "SkySoft Studio",
-  "developerId": "SkySoft+Studio",
-  "genre": "Puzzle",
-  "genreId": "GAME_PUZZLE",
-  "score": 4.076336,
-  "ratings": 6124,
-  "reviews": 73,
-  "installs": "500,000+",
-  "maxInstalls": 631912,
-  "free": true,
-  "price": 0,
-  "released": "May 3, 2026",
-  "updated": 1778150489000,
-  "version": "0.5.4",
-  "contentRating": "Everyone",
-  "icon": "https://play-lh.googleusercontent.com/85UQPJ5ABPQ5zUEWlEU3Xv1dfqmVX5tqsD7YPKmOJWsXonblfTSM7rqtoWxns-VCQ-jhUDQfb8geUFOrZJDc",
-  "headerImage": "https://play-lh.googleusercontent.com/m3tjASyjSaao8-rHURkWTSM_o5pQkBYIfnDPx65CkJQ9acdYjaI0RkY_ugsNG8Wzr_uaMSPTI7AE9Hq839twcA",
-  "screenshots": [
-    "https://play-lh.googleusercontent.com/_D4BcyRAhYKgOKBxv9R_Ru4ptdADc-PpVAohkbhHlNVV0A1Ny9ZqZ_Mq_YChFVeLAm64ZvRYI0iehhHAaXbY",
-    "https://play-lh.googleusercontent.com/pCtNo-4OcHGKqVis_mYL7zaCxJa8_wDnzuWRsxaiIWZkmD9jdp8B4kvuhq6LqxRryDQDG4bvl8Y9zi3ibxet",
-    "https://play-lh.googleusercontent.com/lpYWdtgBoIRUguFAJc_oj1xJKefaD0AspacvGT3nQhYcimdeQlCORmyTw-P72U3elswgrHj5f1CtWBJWeyaFdrk",
-    "https://play-lh.googleusercontent.com/70P3aRKX47wC-R9Rw0bO2nGe1XJan1LvuRh8iEwZC1Fb5R3VpgjUznXRPMf-xI_WVe0qXw5bh1KJCWJVW33H",
-    "https://play-lh.googleusercontent.com/rBAnLMB6gwNmGkUKKz9iBp3jsmVAMbtrpONVz-ipDRCbU_cFMgqna_bo0UOCFclpMLVny9A3LshvFQbpaCJQrto",
-    "https://play-lh.googleusercontent.com/k2a0F79hg3K4rMR_FjgIDHhce6ftzLieqgNxfZEQB7MSTrdN5HclIAL2E7pW0nU37RAi0qD7ZbUzFnSFYSF8Fg",
-    "https://play-lh.googleusercontent.com/_D4BcyRAhYKgOKBxv9R_Ru4ptdADc-PpVAohkbhHlNVV0A1Ny9ZqZ_Mq_YChFVeLAm64ZvRYI0iehhHAaXbY",
-    "https://play-lh.googleusercontent.com/pCtNo-4OcHGKqVis_mYL7zaCxJa8_wDnzuWRsxaiIWZkmD9jdp8B4kvuhq6LqxRryDQDG4bvl8Y9zi3ibxet",
-    "https://play-lh.googleusercontent.com/lpYWdtgBoIRUguFAJc_oj1xJKefaD0AspacvGT3nQhYcimdeQlCORmyTw-P72U3elswgrHj5f1CtWBJWeyaFdrk",
-    "https://play-lh.googleusercontent.com/70P3aRKX47wC-R9Rw0bO2nGe1XJan1LvuRh8iEwZC1Fb5R3VpgjUznXRPMf-xI_WVe0qXw5bh1KJCWJVW33H",
-    "https://play-lh.googleusercontent.com/rBAnLMB6gwNmGkUKKz9iBp3jsmVAMbtrpONVz-ipDRCbU_cFMgqna_bo0UOCFclpMLVny9A3LshvFQbpaCJQrto",
-    "https://play-lh.googleusercontent.com/k2a0F79hg3K4rMR_FjgIDHhce6ftzLieqgNxfZEQB7MSTrdN5HclIAL2E7pW0nU37RAi0qD7ZbUzFnSFYSF8Fg",
-    "https://play-lh.googleusercontent.com/_D4BcyRAhYKgOKBxv9R_Ru4ptdADc-PpVAohkbhHlNVV0A1Ny9ZqZ_Mq_YChFVeLAm64ZvRYI0iehhHAaXbY",
-    "https://play-lh.googleusercontent.com/pCtNo-4OcHGKqVis_mYL7zaCxJa8_wDnzuWRsxaiIWZkmD9jdp8B4kvuhq6LqxRryDQDG4bvl8Y9zi3ibxet",
-    "https://play-lh.googleusercontent.com/lpYWdtgBoIRUguFAJc_oj1xJKefaD0AspacvGT3nQhYcimdeQlCORmyTw-P72U3elswgrHj5f1CtWBJWeyaFdrk",
-    "https://play-lh.googleusercontent.com/70P3aRKX47wC-R9Rw0bO2nGe1XJan1LvuRh8iEwZC1Fb5R3VpgjUznXRPMf-xI_WVe0qXw5bh1KJCWJVW33H",
-    "https://play-lh.googleusercontent.com/rBAnLMB6gwNmGkUKKz9iBp3jsmVAMbtrpONVz-ipDRCbU_cFMgqna_bo0UOCFclpMLVny9A3LshvFQbpaCJQrto",
-    "https://play-lh.googleusercontent.com/k2a0F79hg3K4rMR_FjgIDHhce6ftzLieqgNxfZEQB7MSTrdN5HclIAL2E7pW0nU37RAi0qD7ZbUzFnSFYSF8Fg"
-  ],
-  "video": "https://www.youtube.com/embed/KZC5IDn_I50?vq=large&rel=0&autohide=1&showinfo=0",
-  "videoImage": "https://play-lh.googleusercontent.com/m3tjASyjSaao8-rHURkWTSM_o5pQkBYIfnDPx65CkJQ9acdYjaI0RkY_ugsNG8Wzr_uaMSPTI7AE9Hq839twcA",
-  "summary": "Dreamlike puzzle game where you combine objects to solve surreal mysteries.",
-  "description": "🌙 Step into a strange dream world… where every object hides a secret.\n\nFlower Forest - Word Puzzle is a relaxing puzzle game and point-and-click puzzle adventure where you explore mysterious spaces, interact with hidden objects, and combine them to uncover clever solutions.\n\nNo words. No voice. Just pure intuition.\n\nEach level is designed as a brain teaser that can be solved through logic and observation — no complex calculations, no note-taking. Discover hidden clues, connect objects, and unlock new areas in this calming mystery puzzle game.\n\n🧩 Game Features:\nIntuitive Puzzle Design\nA satisfying mix of logic puzzles, hidden object games, and object-combining mechanics.\n\nSurreal Dream Atmosphere\nExplore a relaxing, monochrome world inspired by abstract dreams and mystery escape games.\n\nHints Available\nGet helpful hints to guide you through challenging brain puzzles.\n\nShort & Relaxing\nEnjoy 1–2 hours of puzzle-solving experience.\n\n🌍 Accessible for Everyone:\n🔇 Non-verbal gameplay – enjoy without language barriers\n⚫ No color-based puzzles – clean monochrome design\n🔕 No voice required – play anytime, anywhere\n\n✨ Can you solve every puzzle and uncover the hidden secrets?\nDownload now and enjoy a relaxing puzzle adventure filled with mystery, logic, and discovery.",
-  "recentChanges": "Ver 0.5.4<br>- Optimize and fix bugs",
-  "developerWebsite": "https://cellsoft.vn/",
-  "developerEmail": "skysoftone2018@gmail.com",
-  "privacyPolicy": "https://cellsoft.vn/skysoft_privacypolicy.html",
-  "userReviews": [
-    {
-      "userName": "Mikko Asunta",
-      "score": 3,
-      "text": "good game, but too many ads",
-      "date": "2026-05-11T14:49:24.733Z",
-      "thumbsUp": 0
+  "collectedAt": "2026-05-20T07:30:42.328Z",
+  "android": {
+    "appId": "com.flower.forest.word.puzzle",
+    "title": "Flower Forest - Word Puzzle",
+    "developer": "SkySoft Studio",
+    "developerId": "SkySoft+Studio",
+    "genre": "Puzzle",
+    "score": 4.575472,
+    "ratings": 16736,
+    "installs": "1,000,000+",
+    "maxInstalls": 1434996,
+    "free": true,
+    "released": "May 3, 2026",
+    "updated": 1778844880000,
+    "version": "0.6.0",
+    "contentRating": "Everyone",
+    "icon": "https://play-lh.googleusercontent.com/85UQPJ5ABPQ5zUEWlEU3Xv1dfqmVX5tqsD7YPKmOJWsXonblfTSM7rqtoWxns-VCQ-jhUDQfb8geUFOrZJDc",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/_D4BcyRAhYKgOKBxv9R_Ru4ptdADc-PpVAohkbhHlNVV0A1Ny9ZqZ_Mq_YChFVeLAm64ZvRYI0iehhHAaXbY",
+      "https://play-lh.googleusercontent.com/pCtNo-4OcHGKqVis_mYL7zaCxJa8_wDnzuWRsxaiIWZkmD9jdp8B4kvuhq6LqxRryDQDG4bvl8Y9zi3ibxet",
+      "https://play-lh.googleusercontent.com/lpYWdtgBoIRUguFAJc_oj1xJKefaD0AspacvGT3nQhYcimdeQlCORmyTw-P72U3elswgrHj5f1CtWBJWeyaFdrk",
+      "https://play-lh.googleusercontent.com/70P3aRKX47wC-R9Rw0bO2nGe1XJan1LvuRh8iEwZC1Fb5R3VpgjUznXRPMf-xI_WVe0qXw5bh1KJCWJVW33H",
+      "https://play-lh.googleusercontent.com/rBAnLMB6gwNmGkUKKz9iBp3jsmVAMbtrpONVz-ipDRCbU_cFMgqna_bo0UOCFclpMLVny9A3LshvFQbpaCJQrto",
+      "https://play-lh.googleusercontent.com/k2a0F79hg3K4rMR_FjgIDHhce6ftzLieqgNxfZEQB7MSTrdN5HclIAL2E7pW0nU37RAi0qD7ZbUzFnSFYSF8Fg",
+      "https://play-lh.googleusercontent.com/_D4BcyRAhYKgOKBxv9R_Ru4ptdADc-PpVAohkbhHlNVV0A1Ny9ZqZ_Mq_YChFVeLAm64ZvRYI0iehhHAaXbY",
+      "https://play-lh.googleusercontent.com/pCtNo-4OcHGKqVis_mYL7zaCxJa8_wDnzuWRsxaiIWZkmD9jdp8B4kvuhq6LqxRryDQDG4bvl8Y9zi3ibxet",
+      "https://play-lh.googleusercontent.com/lpYWdtgBoIRUguFAJc_oj1xJKefaD0AspacvGT3nQhYcimdeQlCORmyTw-P72U3elswgrHj5f1CtWBJWeyaFdrk",
+      "https://play-lh.googleusercontent.com/70P3aRKX47wC-R9Rw0bO2nGe1XJan1LvuRh8iEwZC1Fb5R3VpgjUznXRPMf-xI_WVe0qXw5bh1KJCWJVW33H",
+      "https://play-lh.googleusercontent.com/rBAnLMB6gwNmGkUKKz9iBp3jsmVAMbtrpONVz-ipDRCbU_cFMgqna_bo0UOCFclpMLVny9A3LshvFQbpaCJQrto",
+      "https://play-lh.googleusercontent.com/k2a0F79hg3K4rMR_FjgIDHhce6ftzLieqgNxfZEQB7MSTrdN5HclIAL2E7pW0nU37RAi0qD7ZbUzFnSFYSF8Fg",
+      "https://play-lh.googleusercontent.com/_D4BcyRAhYKgOKBxv9R_Ru4ptdADc-PpVAohkbhHlNVV0A1Ny9ZqZ_Mq_YChFVeLAm64ZvRYI0iehhHAaXbY",
+      "https://play-lh.googleusercontent.com/pCtNo-4OcHGKqVis_mYL7zaCxJa8_wDnzuWRsxaiIWZkmD9jdp8B4kvuhq6LqxRryDQDG4bvl8Y9zi3ibxet",
+      "https://play-lh.googleusercontent.com/lpYWdtgBoIRUguFAJc_oj1xJKefaD0AspacvGT3nQhYcimdeQlCORmyTw-P72U3elswgrHj5f1CtWBJWeyaFdrk",
+      "https://play-lh.googleusercontent.com/70P3aRKX47wC-R9Rw0bO2nGe1XJan1LvuRh8iEwZC1Fb5R3VpgjUznXRPMf-xI_WVe0qXw5bh1KJCWJVW33H",
+      "https://play-lh.googleusercontent.com/rBAnLMB6gwNmGkUKKz9iBp3jsmVAMbtrpONVz-ipDRCbU_cFMgqna_bo0UOCFclpMLVny9A3LshvFQbpaCJQrto",
+      "https://play-lh.googleusercontent.com/k2a0F79hg3K4rMR_FjgIDHhce6ftzLieqgNxfZEQB7MSTrdN5HclIAL2E7pW0nU37RAi0qD7ZbUzFnSFYSF8Fg"
+    ],
+    "video": "https://www.youtube.com/embed/KZC5IDn_I50?vq=large&rel=0&autohide=1&showinfo=0",
+    "summary": "Dreamlike puzzle game where you combine objects to solve surreal mysteries.",
+    "description": "🌙 Step into a strange dream world… where every object hides a secret.\n\nFlower Forest - Word Puzzle is a relaxing puzzle game and point-and-click puzzle adventure where you explore mysterious spaces, interact with hidden objects, and combine them to uncover clever solutions.\n\nNo words. No voice. Just pure intuition.\n\nEach level is designed as a brain teaser that can be solved through logic and observation — no complex calculations, no note-taking. Discover hidden clues, connect objects, and unlock new areas in this calming mystery puzzle game.\n\n🧩 Game Features:\nIntuitive Puzzle Design\nA satisfying mix of logic puzzles, hidden object games, and object-combining mechanics.\n\nSurreal Dream Atmosphere\nExplore a relaxing, monochrome world inspired by abstract dreams and mystery escape games.\n\nHints Available\nGet helpful hints to guide you through challenging brain puzzles.\n\nShort & Relaxing\nEnjoy 1–2 hours of puzzle-solving experience.\n\n🌍 Accessible for Everyone:\n🔇 Non-verbal gameplay – enjoy without language barriers\n⚫ No color-based puzzles – clean monochrome design\n🔕 No voice required – play anytime, anywhere\n\n✨ Can you solve every puzzle and uncover the hidden secrets?\nDownload now and enjoy a relaxing puzzle adventure filled with mystery, logic, and discovery.",
+    "recentChanges": "Ver 0.6.0<br>- Update new levels<br>- Fix Bugs",
+    "developerWebsite": "https://cellsoft.vn/"
+  },
+  "ios": {
+    "id": 6761523148,
+    "appId": "com.flower.forest.word.puzzle",
+    "title": "Flower Forest - Word Puzzle",
+    "developer": "Phoenix Games Lab",
+    "score": 0,
+    "reviews": 0,
+    "free": true,
+    "released": "2026-05-13T07:00:00Z",
+    "updated": "2026-05-19T19:30:23Z",
+    "version": "0.5.8",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/de/84/8fde849b-3a37-516e-cbfd-9772e91a4932/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Casual",
+      "Entertainment"
+    ],
+    "description": "Step into a strange dream world… where every object hides a secret.\n\nFlower Forest - Word Puzzle is a relaxing puzzle game and point-and-click puzzle adventure where you explore mysterious spaces, interact with hidden objects, and combine them to uncover clever solutions. \n\nNo words. No voice. Just pure intuition.\n\nEach level is designed as a brain teaser that can be solved through logic and observation — no complex calculations, no note-taking. Discover hidden clues, connect objects, and unlock new areas in this calming mystery puzzle game.\n\n Game Features:\nIntuitive Puzzle Design\nA satisfying mix of logic puzzles, hidden object games, and object-combining mechanics.\n\nSurreal Dream Atmosphere\nExplore a relaxing, monochrome world inspired by abstract dreams and mystery escape games.\n\nHints Available\nGet helpful hints to guide you through challenging brain puzzles.\n\nShort & Relaxing\nEnjoy 1–2 hours of puzzle-solving experience. \n\n Accessible for Everyone:\n Non-verbal gameplay – enjoy without language barriers\n No color-based puzzles – clean monochrome design\n No voice required – play anytime, anywhere\n\n Can you solve every puzzle and uncover the hidden secrets? \nDownload now and enjoy a relaxing puzzle adventure filled with mystery, logic, and discovery."
+  },
+  "reviews": {
+    "total": 183,
+    "googlePlay": 183,
+    "appStore": 0,
+    "distribution": {
+      "1": 72,
+      "2": 22,
+      "3": 15,
+      "4": 9,
+      "5": 65
     },
-    {
-      "userName": "BobbinString",
-      "score": 2,
-      "text": "Beautiful art style, and fun puzzles! It showed an unskippable ad before the game even loaded for the first time, and the rest of the game experience is full of banner ads and video ads.",
-      "date": "2026-05-11T14:40:52.348Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Dipak Vala",
-      "score": 1,
-      "text": "ads, and lacking is problem in this game",
-      "date": "2026-05-11T13:56:31.476Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Elizka du toit",
-      "score": 5,
-      "text": "creepy cute just what I like haven't found adds yet will update after an ad not a bot :)",
-      "date": "2026-05-11T13:47:54.773Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Lovi Shane Arillo",
-      "score": 5,
-      "text": "So fun and makes me smarter and its so addicting!",
-      "date": "2026-05-11T13:21:14.161Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "WasteFactory",
-      "score": 1,
-      "text": "Recently download, just played only for a few seconds and it already asked me for ratings, it also bombarded me with ads. Again, it's only LITERALLY been a few seconds, maybe a minute",
-      "date": "2026-05-11T13:14:20.658Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Lucas Austin",
-      "score": 2,
-      "text": "The game dynamics itself? Very good. The app? Terrible. It asks you to consent to personalised ads, meaning you have to untick any you don't consent to, literally every time an ad shows. Which is EVERY time you finish a level. And since as the levels are about 1 minute to complete, the ads are overpowering the game. I put up with about 20 mins of game play, but now I am deleting it because I can't be dealing with the ads and consent messages.",
-      "date": "2026-05-11T13:13:51.514Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Mani kanta S v",
-      "score": 1,
-      "text": "I can't even move the objects, laaaaaaaaaaaag",
-      "date": "2026-05-11T13:06:24.565Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Sunil Nain",
-      "score": 1,
-      "text": "faddu game",
-      "date": "2026-05-11T12:56:11.437Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Pooter Pan",
-      "score": 1,
-      "text": "AI trash with ads.",
-      "date": "2026-05-11T12:55:19.468Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Alexander Sergienko",
-      "score": 2,
-      "text": "literally a pirated version of Her Trees, except instead of paying, here you just get bombarded with ads. just get the actual game from steam for like $5. this isn't worth it as long as the ads persist",
-      "date": "2026-05-11T12:47:17.218Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Madoodad",
-      "score": 1,
-      "text": "start up ad. permanent banner on the bottom. ad every other level.",
-      "date": "2026-05-11T12:27:40.693Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Saheli Dey",
-      "score": 2,
-      "text": "The game is super glitched but the aesthetic is really cute but lots of ads!",
-      "date": "2026-05-11T11:31:13.581Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Haj Hassen",
-      "score": 5,
-      "text": "Smart game🤓 good🫡",
-      "date": "2026-05-11T11:24:20.274Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Dhiraj Kothawade",
-      "score": 1,
-      "text": "can't even start playing... the game is stuck at a screen",
-      "date": "2026-05-11T11:02:51.199Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "nathan purver",
-      "score": 3,
-      "text": "I actually really enjoy this game. To start with it felt like there was no clear direction to go with each level but thats surprisingly what makes it so fun. I do believe there is a bug in level 52. I've been stuck on it for a while now and when I watch an ad to give me the answer its isnt correct and changes the answer each time i rewatch. Thats the reason for three stars at this stage.",
-      "date": "2026-05-11T10:03:40.696Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Daniel D'Rosario",
-      "score": 1,
-      "text": "Extremely heavy on the ads. I only got to the 5th puzzle and I'd spent more time watching forced ads than solving the puzzles.",
-      "date": "2026-05-11T09:44:29.120Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "aeon",
-      "score": 2,
-      "text": "Too many ads, the art is art, need I say more?",
-      "date": "2026-05-11T09:33:34.829Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Terri Harrison",
-      "score": 5,
-      "text": "really good game, gets your brain working",
-      "date": "2026-05-11T09:22:25.355Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "DF x Gaming",
-      "score": 3,
-      "text": "I would like to give this game 4 or maybe even 5 stars, but that's unrealistic. the puzzles themselves are really fun and engaging. they make you think outside of the box and not just in 2 dimensions. however the flaws i have with this app is the ads. yes you can purchase the ad removal for about$3-$4 USD, not too pricey. the other is the layout of some puzzles being slightly cut off at the bottom because of the layout of the puzzle your solving for and the answer sheet being in a fixed area.",
-      "date": "2026-05-11T07:26:29.140Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Tika Bastola",
-      "score": 4,
-      "text": "it's really good ig...nice animations quality and pretty good for mystery lovers",
-      "date": "2026-05-11T07:05:47.661Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Nikolaj Chabarov",
-      "score": 1,
-      "text": "Got hit with an add before the end of the very first loading screen. Turned internet off game is not working.",
-      "date": "2026-05-11T07:00:34.894Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Kim Hoàng",
-      "score": 5,
-      "text": "it's amazing! I love it!!",
-      "date": "2026-05-11T06:54:06.514Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "_ishita _8",
-      "score": 1,
-      "text": "it very slow and freezes constantly",
-      "date": "2026-05-11T06:41:13.329Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Rachel Orme",
-      "score": 1,
-      "text": "too many ads. can't even complete one puzzle without 3 ads",
-      "date": "2026-05-11T05:05:58.977Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Jordyn Jackson",
-      "score": 1,
-      "text": "This \"game\" genuinely seems like it was put together purely as a way to farm ad revenue for the developer. It has no substance or storyline whatsoever. The puzzles aren't even really puzzles half the time, and they don't contribute to any sort of mystery solving as advertised regardless. Furthermore, there are ads constantly running (one of which popped up before the title screen even finished loading), and the art is completely AI generated. I'm not even sure why this is even allowed.",
-      "date": "2026-05-11T04:54:56.923Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "gamer kin",
-      "score": 1,
-      "text": "i tried playing it, but it freezes up and refuses to proceed",
-      "date": "2026-05-11T04:12:06.134Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Amaliya Hisana",
-      "score": 1,
-      "text": "AI Slop",
-      "date": "2026-05-11T04:06:52.451Z",
-      "thumbsUp": 1
-    },
-    {
-      "userName": "SUKH VALVI",
-      "score": 1,
-      "text": "bad performance 🤮🤮🤮🤮",
-      "date": "2026-05-11T03:30:15.379Z",
-      "thumbsUp": 0
-    },
-    {
-      "userName": "Saša Peter",
-      "score": 1,
-      "text": "Loading screen has an ad? Really? Enjoy the 0.001 cent from it or whatever, because I won't be watching more.",
-      "date": "2026-05-11T02:57:28.756Z",
-      "thumbsUp": 0
-    }
-  ],
+    "positive": [
+      {
+        "source": "google_play",
+        "userName": "Fridae Hagler",
+        "score": 5,
+        "text": "cool and fire",
+        "date": "2026-05-19T07:10:17.770Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Javed Alam",
+        "score": 5,
+        "text": "Good 👍",
+        "date": "2026-05-18T20:18:34.139Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tan Kent",
+        "score": 4,
+        "text": "Your game has potential, just that those ads are extremely annoying, the rate of them popping up is a little too much.....",
+        "date": "2026-05-18T12:45:35.254Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Wakran Sayuni",
+        "score": 5,
+        "text": "Is soo cool",
+        "date": "2026-05-18T11:36:10.529Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kamalia M.A",
+        "score": 5,
+        "text": "love this",
+        "date": "2026-05-18T07:21:46.570Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Gleiza sophia",
+        "score": 4,
+        "text": "Beautiful",
+        "date": "2026-05-18T07:10:56.241Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Adam Fajardo",
+        "score": 5,
+        "text": "Awesome",
+        "date": "2026-05-18T03:29:30.878Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Randy Salvado",
+        "score": 5,
+        "text": "it so fun",
+        "date": "2026-05-18T03:00:46.278Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sun Shine",
+        "score": 5,
+        "text": "love this game",
+        "date": "2026-05-17T21:08:42.841Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Hassan",
+        "score": 5,
+        "text": "great game. please add list of levels, to play previous ones. please add restart button to reset the current level. thank you",
+        "date": "2026-05-17T17:20:51.180Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Marley Rice",
+        "score": 5,
+        "text": "I love this game so much and it's really calming",
+        "date": "2026-05-17T16:50:44.319Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tiar Guntur",
+        "score": 5,
+        "text": "one of the greatest mobile puzzle game so far",
+        "date": "2026-05-17T16:34:29.270Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Afiq Qazem Abu Samah",
+        "score": 5,
+        "text": "make more games like this",
+        "date": "2026-05-17T15:24:13.683Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "zama mtungwa",
+        "score": 4,
+        "text": "its a nice and peaceful game. a perfect for a calming game to play at night 🌙 😌",
+        "date": "2026-05-17T12:28:41.270Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "gieson jr.",
+        "score": 5,
+        "text": "The game is very relaxing and relieved my stress",
+        "date": "2026-05-17T11:28:00.132Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Weno owen",
+        "score": 5,
+        "text": "not bad",
+        "date": "2026-05-17T08:22:48.510Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "JinGwen Ling",
+        "score": 5,
+        "text": "It's really fun!",
+        "date": "2026-05-17T07:45:13.237Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "suvankar Jana",
+        "score": 5,
+        "text": "this is mistri puzzle",
+        "date": "2026-05-17T06:30:02.107Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ambrose Wan",
+        "score": 5,
+        "text": "such clever little puzzles, great game!",
+        "date": "2026-05-17T05:44:15.108Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lisa",
+        "score": 5,
+        "text": "Great game!! Love this one big time. ❤️",
+        "date": "2026-05-17T03:53:12.839Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Chris Low",
+        "score": 5,
+        "text": "very cool graphics, puzzles and mechanics is very cool",
+        "date": "2026-05-17T03:28:05.108Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bregardean Swartz",
+        "score": 5,
+        "text": "I just love puzzles and it is really interesting",
+        "date": "2026-05-17T03:26:14.338Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Edlyn Lopez",
+        "score": 5,
+        "text": "i love this game, yes there may be ads, but it's just the same as the ad soo well suggested!",
+        "date": "2026-05-17T02:22:40.650Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ashton W",
+        "score": 4,
+        "text": "would be better with less ads",
+        "date": "2026-05-17T01:05:29.157Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Dinero Bucks",
+        "score": 5,
+        "text": "I love a challenge and a tricky 🤔game and this gives all of that, absolutely FUN game! 🎮😀👏🏽👍🏽🙌🏽🤗🥀🌱",
+        "date": "2026-05-16T18:51:50.998Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Israe Elb",
+        "score": 5,
+        "text": "soo cozy and fun, I love this game",
+        "date": "2026-05-16T16:22:45.510Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "yanyan yanyan",
+        "score": 5,
+        "text": "this game very nice and play able but my opinion its batter offline mode for example, there a two mood online and offline one! online for story with puzzle and offline just puzzle without story",
+        "date": "2026-05-16T16:06:08.917Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Joanne Larner",
+        "score": 5,
+        "text": "Interesting little puzzles",
+        "date": "2026-05-16T14:19:37.614Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Adam Taha",
+        "score": 5,
+        "text": "It's Very good",
+        "date": "2026-05-16T13:14:26.997Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Amy Bliss",
+        "score": 4,
+        "text": "Clever puzzles! Everything unique until level 61, then started repeating older ones. Great as a D&D aid!",
+        "date": "2026-05-16T11:56:37.594Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "sama mujeeb",
+        "score": 5,
+        "text": "the game is relaxed",
+        "date": "2026-05-16T08:58:38.186Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Jonathan Vargas",
+        "score": 5,
+        "text": "this game I love to play because a like descover some hiding clue and this is the game that needed thinking skills",
+        "date": "2026-05-16T08:50:54.220Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Andrea Petersen",
+        "score": 5,
+        "text": "Really makes you think!",
+        "date": "2026-05-16T07:47:14.930Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "brandon madurai",
+        "score": 5,
+        "text": "Definitely a game to Download",
+        "date": "2026-05-16T07:21:48.722Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "El Fara",
+        "score": 5,
+        "text": "I love this gameeeee",
+        "date": "2026-05-16T07:06:44.711Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Spiderdude",
+        "score": 5,
+        "text": "New kinds of challenges for your mind. It's stimulating, gorgeous and even a bit inspirational. Glad I downloaded. it's becoming annoying that the ads boot you out constantly. makes it hard to play.",
+        "date": "2026-05-12T18:01:27.989Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "TK Jedi",
+        "score": 5,
+        "text": "it's a really good game, but it can get annoying with it asking for data approval most of the time. There's a lot of ads too, but otherwise I like the concept and quality of the game..👍",
+        "date": "2026-05-12T07:44:38.580Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Val 63",
+        "score": 5,
+        "text": "love the puzzles, some are really hard others quite easy, but have to really think outside the box on most of them.",
+        "date": "2026-05-06T14:46:15.639Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Toi O'Kelly",
+        "score": 5,
+        "text": "I like the the game's art style, music, and puzzles. It's a great game to challenge your brain while relaxing at home.",
+        "date": "2026-05-09T17:31:31.266Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "EyeCyanide Scientist",
+        "score": 5,
+        "text": "puzzles are fun and not overlysimple. and it actually a puzzle solving game, not a fake add so, yeah, kudos !",
+        "date": "2026-05-08T13:22:01.424Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Ana Rodríguez",
+        "score": 5,
+        "text": "Sincerely I am loving it but it doesnt have a tutorial and is hard just to magically know about it, maybe will be interesting to add a background story or to discover a mistery...",
+        "date": "2026-05-08T01:17:57.436Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Joseph Burgess",
+        "score": 5,
+        "text": "only leaving five stars so this review gets shown more, but THIS GAME IS AN UNINSPIRED RIPOFF OF \"Her Trees\"! if you want a vastly better game, go play that one instead!",
+        "date": "2026-05-15T16:51:42.762Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Shayana Pillay",
+        "score": 5,
+        "text": "Excellent puzzles. Horribly intrusive ads. love the game, hate the ads.",
+        "date": "2026-05-14T09:32:01.437Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "tasoganedude",
+        "score": 5,
+        "text": "Pretty good puzzle game. So far, I have not use any hints to solve them.",
+        "date": "2026-05-15T11:49:03.580Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lee Xin",
+        "score": 5,
+        "text": "Very fun a tricky game, no horror stuff, just creepy vibes and very interesting puzzles",
+        "date": "2026-05-12T15:03:51.544Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Eddie Chew",
+        "score": 5,
+        "text": "Complex combination of puzzles yet I can understand what's going on very well",
+        "date": "2026-05-12T11:17:23.350Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Si Seruling",
+        "score": 5,
+        "text": "Didn't realize I had been playing for hours 😅 . It was so much fun to solve the puzzles . well done ✌🏻",
+        "date": "2026-05-15T15:29:25.935Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Banjo Korde",
+        "score": 5,
+        "text": "ads are annoying, but the puzzles are fun 😊",
+        "date": "2026-05-12T05:53:27.753Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Elizka du toit",
+        "score": 5,
+        "text": "creepy cute just what I like haven't found adds yet will update after an ad not a bot :)",
+        "date": "2026-05-11T13:47:54.773Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Cyrstal Fox",
+        "score": 5,
+        "text": "relaxing 😌..cute graphics, I really appreciate it",
+        "date": "2026-05-14T16:03:31.923Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Aya Salem Al Dor",
+        "score": 5,
+        "text": "amazing relaxing and brain twisting it really pops and I fireeee",
+        "date": "2026-05-10T12:34:34.277Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Amanda Miller",
+        "score": 5,
+        "text": "love this game. challenging but so much fun",
+        "date": "2026-05-06T14:30:44.904Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Lovi Shane Arillo",
+        "score": 5,
+        "text": "So fun and makes me smarter and its so addicting!",
+        "date": "2026-05-11T13:21:14.161Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lizzanne Bean",
+        "score": 5,
+        "text": "it is very hard but that is what I love most about this game.",
+        "date": "2026-05-10T00:00:52.550Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Yvette6 (Journey Soul)",
+        "score": 5,
+        "text": "Challenging, fun and cute game",
+        "date": "2026-05-07T13:55:55.608Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "bismarck",
+        "score": 5,
+        "text": "best puzzle game in the world .loved this masterpiece",
+        "date": "2026-05-13T11:43:43.160Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Terri Harrison",
+        "score": 5,
+        "text": "really good game, gets your brain working",
+        "date": "2026-05-11T09:22:25.355Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kim Hoàng",
+        "score": 5,
+        "text": "it's amazing! I love it!!",
+        "date": "2026-05-11T06:54:06.514Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tamarah",
+        "score": 5,
+        "text": "loved it. but once I got to about level 60 it started repeating levels from before.",
+        "date": "2026-05-09T03:58:59.863Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Najat Nabiha",
+        "score": 5,
+        "text": "very much good game,,,, I like it 🎀🎀,🫶🏻🫶🏻",
+        "date": "2026-05-13T08:21:33.850Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Melissa Jones",
+        "score": 5,
+        "text": "great game! I love it",
+        "date": "2026-05-09T20:00:24.830Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Villy Jay Beronilla",
+        "score": 5,
+        "text": "I like this kind of game",
+        "date": "2026-05-09T04:52:40.110Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kasun Sandipa",
+        "score": 5,
+        "text": "super but,it's lag",
+        "date": "2026-05-15T07:17:59.415Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Samir Lazar",
+        "score": 5,
+        "text": "i am in the beginning but it seems good",
+        "date": "2026-05-07T21:55:24.357Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "po pu",
+        "score": 5,
+        "text": "good game to test IQ",
+        "date": "2026-05-12T15:20:59.141Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Haj Hassen",
+        "score": 5,
+        "text": "Smart game🤓 good🫡",
+        "date": "2026-05-11T11:24:20.274Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Maryjane Householder",
+        "score": 5,
+        "text": "Love the vide",
+        "date": "2026-05-11T20:44:53.350Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Adnan Zoeb",
+        "score": 5,
+        "text": "make you think it's difficult",
+        "date": "2026-05-15T11:00:17.649Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Anis Rihani",
+        "score": 5,
+        "text": "flower forest word puzzle 🧩",
+        "date": "2026-05-12T23:52:02.926Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "NILAMSARI MOHAD SUKOR",
+        "score": 5,
+        "text": "I enjoyed the the game. it is interesting",
+        "date": "2026-05-12T20:28:46.170Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Candace Granstaff",
+        "score": 4,
+        "text": "Were it not for the fact that I could not play the game without paying for ad free, It would be a 5 star game. At first I couldn't even start the game for the ads. Extremely annoying as I like to listen to other things while playing the game (music, books, podcasts, etc.) Every time I'd come back into the game after playing or pausing my secondary app, an ad would play. Love the puzzles, though!",
+        "date": "2026-05-09T15:14:25.747Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Joke",
+        "score": 4,
+        "text": "I have ad blocker, so I don't have any big issues with ads. I was expecting it to have some sort of plot line but it's really just finding a few random letters each puzzle, with the goal of making a cluster of flowers bloom. Unfortunately, the levels start to repeat at about level 60 or so, and it gets sort of pointless after that. Still, the puzzles themselves are creative and at times challenging which makes for a good time passing game.",
+        "date": "2026-05-13T22:59:59.919Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Jamie Masser",
+        "score": 4,
+        "text": "I love the aesthetic and seeing a flower bloom whenever I (finally) solve a puzzle. I agree with other reviwers that the ad frequency is annoying. But also where's the story? You solve the very first puzzle to get into the house and that's it. Then the puzzles only make flowers bloom. (Not bad but that gets boring, you know?)",
+        "date": "2026-05-05T19:38:35.535Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Luna Wolf",
+        "score": 4,
+        "text": "I loved the game design and the music. It had a nice feel of problem solving. The only reason it's not a full 5 stars, is that the puzzles begin to circulate rather than continuous new puzzles.",
+        "date": "2026-05-15T18:21:35.700Z",
+        "thumbsUp": 0
+      }
+    ],
+    "negative": [
+      {
+        "source": "google_play",
+        "userName": "Skibidi Toilet",
+        "score": 2,
+        "text": "this is just Her Trees, but ads keep bombarding you every time you solve a puzzle.",
+        "date": "2026-05-19T06:45:44.796Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "DR Gamers",
+        "score": 1,
+        "text": "It's not Good or original game, they just copied from popular puzzle game and filled with ads.",
+        "date": "2026-05-19T03:29:32.374Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Darren McKeigan",
+        "score": 1,
+        "text": "Absolutely riddled with too many ads. Uninstalled immediately.",
+        "date": "2026-05-19T02:33:39.249Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Adam",
+        "score": 1,
+        "text": "This game is a plagiarism of Her Trees, available on Steam and itch.io Just go and play the original and support the correct developer.",
+        "date": "2026-05-18T18:18:49.355Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lrta Lalrintluanga Ralte",
+        "score": 1,
+        "text": "👎👎👎👎",
+        "date": "2026-05-18T17:22:24.331Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Broken seranade",
+        "score": 2,
+        "text": "Lovely game but there was alot of ads so paid for the no ads and there are still adds and I would like a refund on this",
+        "date": "2026-05-18T16:34:07.192Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Holly Lock",
+        "score": 1,
+        "text": "ads before the game has even finished loading, I dont mind ads but the amount on this app is so ridiculous its almost unplayable",
+        "date": "2026-05-18T15:18:01.249Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sonny San",
+        "score": 2,
+        "text": "Sad. Too many advertisements.",
+        "date": "2026-05-18T14:32:34.242Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Remix it",
+        "score": 1,
+        "text": "ads everywhere 🤬🤬",
+        "date": "2026-05-18T14:14:57.810Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Leslie Jackson",
+        "score": 1,
+        "text": "Horrible game! The puzzles are ridiculous, little to no logic behind it, and this come from a person who love puzzle games. The hints are the worst because you have to watch the longest ads ever and get hints that just do not make sense! This game seems to be made by 9-year-olds who spams ads in every way possible. The ads are long, inescapeable, and also take too many taps to close them. Not to mention they forces me out of the game to close the ads.",
+        "date": "2026-05-18T14:08:23.264Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Christopher Joshua Martinez",
+        "score": 2,
+        "text": "Too much ads",
+        "date": "2026-05-18T12:26:09.988Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dhanya Jagadish",
+        "score": 1,
+        "text": "I really wanted to enjoy this game because the concept seemed interesting, but the experience was disappointing. From the moment I opened the game, it started lagging badly. The buttons were barely responding, and sometimes I couldn’t even click anything properly. I tried closing and reopening the game, and even refreshed it, but the lag was still there. The game keeps freezing, which makes it impossible to play smoothly. The developers really need to work on optimization and",
+        "date": "2026-05-18T10:33:21.180Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kitty",
+        "score": 1,
+        "text": "Don't bother, there's a ridiculous amount of ads and the game isn't even good. Not only is the game boring, there's SO many ads! I think it probably got about 10 ads in the.. I don't know, less than 5 minutes i played? also I think it actually notices when you're not touching the screen and then plays an ad. The actual game is not good either, you move one or two things around the screen until you find the secret letters, which can literally be under one of the things, or very hard to find.",
+        "date": "2026-05-18T09:32:42.974Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "MD sarim Iqbal",
+        "score": 1,
+        "text": "game keep stucking at first level its Suck I can't even play if anyone say I have bad phone bro I have Samsung s20 fe 5g in first class I play pubg mora legend lag free",
+        "date": "2026-05-18T09:13:21.422Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "K",
+        "score": 2,
+        "text": "Some of the puzzles were good, but there were also some lame ones. However, the worst thing about this game is that there are too many ads! Literally 2-3 ads for every level. Btw, the puzzles seem to be recycled after Level 70. At this point, the devs aren't hiding the fact that they just want you to stick around and watch ads",
+        "date": "2026-05-18T08:24:58.692Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "The Sus Guy",
+        "score": 1,
+        "text": "The game has so many ads that it freezes while showing so you have to reload it and watch double the ads on the loading screen. Also the game makes your force wifi on even though its not required for the actual game just to show ads. Not worth it for the puzzle, try other games.",
+        "date": "2026-05-18T06:59:49.239Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Vicki Contreras",
+        "score": 2,
+        "text": "ad before game even started and puzzle can't play in Landscape mode on tablet uninstalled",
+        "date": "2026-05-18T01:09:18.437Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nicholas Wolff",
+        "score": 1,
+        "text": "its fun until level 70 where the levels repeat themselves and the ads become unbearable",
+        "date": "2026-05-17T21:23:42.766Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Shiven Grover",
+        "score": 1,
+        "text": "the game is so bugged i can't even move past the first puzzle",
+        "date": "2026-05-17T20:08:27.646Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "ikoy",
+        "score": 2,
+        "text": "dami ads hayop",
+        "date": "2026-05-17T18:48:06.101Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Hristina Hristinovic",
+        "score": 1,
+        "text": "On the ads i like see how in tje game thex beat levels 1 to 10 but they dont show the 6th level and when i play it the 6th level can even bepossible i dont understand what helps us when we put a flower on the right spot and when i click so it can show me i do it hwo it shows but i doesn't work and they give us like some hints by colouring some letters greeen i recommend not play this game its horrible",
+        "date": "2026-05-17T18:36:16.532Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Gilberto Saldana",
+        "score": 2,
+        "text": "This is a fun puzzle game, but the only reason I give it 2 stars is because it heats up my phone real bad. If you can fix this problem, I will give it a better rating.",
+        "date": "2026-05-17T17:51:54.979Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ahmad Hammad",
+        "score": 1,
+        "text": "too many ads, makes the game annoying instead of relaxing",
+        "date": "2026-05-17T17:22:07.814Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bwin Buji",
+        "score": 1,
+        "text": "over hang issue i cant play from level 1",
+        "date": "2026-05-17T17:18:19.394Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Brian Means (a random white guy)",
+        "score": 1,
+        "text": "got an ad the moment i opened the game and it asked for a review a minute in. so here is my review. pathetic. constant banner ad on the bottom and got two ads in about 2 or 3 minutes. don't really know since i was only 4 puzzles in.",
+        "date": "2026-05-17T16:37:36.827Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "anush anurag",
+        "score": 1,
+        "text": "on the first level it's freezing. The game is not working properly. when I click on the letter B of the first level the game freezes I tried 4 to 5 times and still the same problem, try to fix it.",
+        "date": "2026-05-17T16:36:47.842Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Solanki Shakti",
+        "score": 1,
+        "text": "discard, even this take much time to just login , I'm need to restart many time, small game in big bugs",
+        "date": "2026-05-17T16:15:25.379Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Satish Kurrey",
+        "score": 1,
+        "text": "touch not working 🤬👎",
+        "date": "2026-05-17T16:10:36.252Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Hernando Jr. Tadeo",
+        "score": 1,
+        "text": "too many ads",
+        "date": "2026-05-17T16:01:22.948Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Abouloifa walid",
+        "score": 1,
+        "text": "a lot of ads it actually opens an ad before even starting the game",
+        "date": "2026-05-17T14:54:52.510Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Suman Kaur",
+        "score": 1,
+        "text": "stop responding. after just few seconds when it's started. I tried this game on 2-3 devices but result is same",
+        "date": "2026-05-17T13:51:39.496Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Hardik Chandna",
+        "score": 1,
+        "text": "bad experience, the game didn't even stabilize and it crashed every time",
+        "date": "2026-05-17T11:01:33.593Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Almas belal Almas belal",
+        "score": 1,
+        "text": "very bad I suggest you not to download this game it does'nt work well and stuck all the time jst after download this some glitch appears dont know why but in my opinion I am never gonna play this worst game again",
+        "date": "2026-05-17T10:56:01.181Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Akshaya Anandharaj",
+        "score": 1,
+        "text": "worst game i have ever played",
+        "date": "2026-05-17T10:09:50.518Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "israa chakraoui",
+        "score": 1,
+        "text": "another stupid disappointing game",
+        "date": "2026-05-17T08:53:51.918Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Aria Brown",
+        "score": 1,
+        "text": "I havent even been able to play the game...Its been loading for 1 hour now. I am Uninstalling the once I've finished this rating. I'd give it a 0 if I could",
+        "date": "2026-05-17T08:41:40.333Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "kai",
+        "score": 1,
+        "text": "with the way the game initially presents itself, i expected more than ai-generated assets and levels that don't fit the initial aesthetic. the game looks mysterious, but there's no story behind any of these levels. a girl goes to a cottage, and then what? plus, for a word game, the only actual word i've seen so far is \"fae\"; the rest is gibberish, letter-mashing. and don't get me started on the ads. they give you one every few levels (and sometimes after every level).",
+        "date": "2026-05-17T08:33:12.857Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Pankhuri Bhatnagar",
+        "score": 1,
+        "text": "the touch screen feature is unresponsive. on the first game itself Im not able to select the answer",
+        "date": "2026-05-17T07:32:53.716Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "KL 10 PUBG GAMING 369",
+        "score": 1,
+        "text": "you are most waste game in the world",
+        "date": "2026-05-17T07:10:04.430Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Menuka Hansda",
+        "score": 1,
+        "text": "The app lags a lot to the point that I can't even play the first game. It was so disappointing.",
+        "date": "2026-05-17T05:06:52.204Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dan Rel (Pika Pichu)",
+        "score": 1,
+        "text": "no direction, hints are worthless, and even when you look walk through up you don't understand why they got the answer they did.",
+        "date": "2026-05-17T04:44:06.854Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bickelle Peter",
+        "score": 1,
+        "text": "play online game with faking stupid ads? and lag for ads.. ads sial. zero star",
+        "date": "2026-05-17T04:35:46.433Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Danny Tan",
+        "score": 2,
+        "text": "I really wanted to like this game. the puzzles so far have been creative and intelligent. the atmosphere has been fantastic. but the advertising is as aggressive as a YouTube video. I think I'll wait for a sale on steam.",
+        "date": "2026-05-17T03:28:57.132Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Andrew Meyer",
+        "score": 1,
+        "text": "two 30 second ads before the game even started. get real, absolutely not. uninstalling.",
+        "date": "2026-05-17T03:21:53.380Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kenedy jaiche Pagal pan",
+        "score": 1,
+        "text": "this app don't work or run appropriately it stuck at the first stage of the level",
+        "date": "2026-05-17T01:56:10.162Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ashley H.",
+        "score": 1,
+        "text": "Too many ads",
+        "date": "2026-05-16T23:13:46.460Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Aditha Anthony",
+        "score": 1,
+        "text": "for the very first level... it got glitch... so haded to un-install the app",
+        "date": "2026-05-16T21:34:26.827Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Isra Nafeesa",
+        "score": 1,
+        "text": "it's another A.I slop game, there is frankly no story, and no mystery, making the puzzles feel pointless. The entire gameplay is ads. The art is souless, and there's nothing redeeming about this.",
+        "date": "2026-05-16T18:20:54.884Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "tom Shendler",
+        "score": 2,
+        "text": "I give 2 stars because the game is good but damn there's so many ads and we can't skip it. I uninstalled it, I'm tired",
+        "date": "2026-05-16T17:30:41.337Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "sean light",
+        "score": 1,
+        "text": "AI slop 🤮",
+        "date": "2026-05-16T16:45:07.115Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Serena Saur (KitsuneMiko)",
+        "score": 1,
+        "text": "1) ADS. Ads before you even start the game! Ads at the bottom of the page! Ads between every level! 2) no instructions, you're just groping around looking for letter codes that, if you get them right, make a blue lily of the valley bloom. no idea why you're doing it, no clue how you got here, just do it type gameplay.",
+        "date": "2026-05-16T14:22:17.405Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "EnchantingNaomi",
+        "score": 2,
+        "text": "it's okay, it's a rip off of her trees and the puzzles after a while just repeats after that it's not fun anymore.",
+        "date": "2026-05-16T14:21:07.514Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "x7DSins Sloth",
+        "score": 2,
+        "text": "I paid for ad free, meant to get rid of all ads banner ads and all, money came out, played one round then hit with 3 back to back ads, thought maybe a bug, close app and restart it, hit with another ad before the game even finishes launching, going to be asking for a refund for sure",
+        "date": "2026-05-16T13:50:07.420Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Michael G",
+        "score": 1,
+        "text": "Bought the no ads but I still get ads... I would like a refund or a game that actually functions as it's supposed to do.",
+        "date": "2026-05-16T13:44:35.162Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Raj Hurkat",
+        "score": 1,
+        "text": "not working",
+        "date": "2026-05-16T12:07:23.736Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ronin McKay",
+        "score": 1,
+        "text": "doesn't give you the hints no matter how many times you watch an ad to get it",
+        "date": "2026-05-16T10:59:39.440Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Johan Boström",
+        "score": 2,
+        "text": "Decent game play, but keeps asking for data consent to force you to give your full consent. feels like dark pattern. As well as way to long/many ads.",
+        "date": "2026-05-16T07:58:59.619Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Destiny Ferguson",
+        "score": 1,
+        "text": "Ads everywhere! As soon as you open the game, there's an ad in your face, once that's over, there's a banner ad along the bottom, an ad on-screen in the settings menu, an ad after every single level, which can be quite short, and you have to watch 2-3 MORE ads just to get a hint! You can't even see the gameplay through all of the capitalistic garbage. -19/10, not worth your time!",
+        "date": "2026-05-12T21:28:17.201Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Robin Schmidt",
+        "score": 1,
+        "text": "I don't leave reviews often but this game is horrible! DONT WASTE YOUR TIME! It's a simple and fun looking concept until you get into it n discover there's no storyline, the levels are nearly impossible to solve and even the hints you pay for make no sense. And the ads take forever plus 6-9 clicks to get out of. I really wanted to like this game. I couldn't be more disappointed. Come on Devs, you really dropped the ball on this one. 🤬🤢",
+        "date": "2026-05-10T02:28:07.818Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Lily Elrick",
+        "score": 2,
+        "text": "You can't even get through the initial load screen without an ad popup. It forces you to touch a button at the top to skip the ad and move on to the game. Then it doesn't give you the option to access the settings to even find out if there's a way to pay to get rid of ads, and you're stuck playing the first part with an ugly banner at the bottom ruining what looks like an otherwise lovely game. I uninstalled it after the first few minutes.",
+        "date": "2026-05-08T19:26:07.856Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Anna Crownover",
+        "score": 1,
+        "text": "Ad central. Could not complete a puzzle without watching several ads, which were inappropriate and irritating. The puzzles were not difficult in what I could play, which made the entire app not worth it in my opinion. Usual methods for getting this problem under control other than paying to remove ads just did not work. Just seemed absurd to continue playing an unplayable, unchallenging game",
+        "date": "2026-05-15T03:48:52.951Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Erika Carriveau",
+        "score": 1,
+        "text": "Great if you don't mind a game with your ads, not ads in your game. An ad plays when you open the app. An ad plays of you swipe down on the notification bar. Ad ad plays when you click on you pop out video player because you clicked outside the app. An ad plays after each level. And the ads often take longer than the actual playtime of the levels themselves. The amount of ads this game has should be criminal, and they're not short—there's like 2-3 each time.",
+        "date": "2026-05-13T16:56:45.332Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Elias Hiselman",
+        "score": 2,
+        "text": "This game is cute and the puzzles are really good. The only bad thing is how many ads there are, like way too many. There are long ads and there are even some that are back to back ehich is personally annoying. Love the art style and game-play. But the amount of ads ruined it for me.",
+        "date": "2026-05-13T02:53:43.741Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Jordyn Jackson",
+        "score": 1,
+        "text": "This \"game\" genuinely seems like it was put together purely as a way to farm ad revenue for the developer. It has no substance or storyline whatsoever. The puzzles aren't even really puzzles half the time, and they don't contribute to any sort of mystery solving as advertised regardless. Furthermore, there are ads constantly running (one of which popped up before the title screen even finished loading), and the art is completely AI generated. I'm not even sure why this is even allowed.",
+        "date": "2026-05-11T04:54:56.923Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Jonathan Ruiz",
+        "score": 1,
+        "text": "I understand ads, but after the first two puzzles I was getting so many of them, at one point I moved a piece for a clue after an ad break and I got two more ads! Not to mention that there's an ad banner at the bottom. Seems like an okay premise but devs, you gotta make the ads less intrusive and the game slightly more playable. I uninstalled it almost immediately after trying to play for half an hour.",
+        "date": "2026-05-12T01:43:43.150Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Wanda Lkm",
+        "score": 1,
+        "text": "The number of ads makes this game unplayable. I like to listen to podcasts or music while I play games. At the end of a level, an ad plays, which is fine, but the ad stops what I'm listening to, and it doesn't start again once the ad ends. When I go to restart it, another ad plays. This cycle repeats, meaning I can't listen to what I want or get to the next level without closing the app and opening it again. Not worth the aggravation. I've uninstalled the game.",
+        "date": "2026-05-09T22:18:38.261Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Phương An Võ",
+        "score": 1,
+        "text": "From the ads I've seen, I was interested at first and enjoy puzzle style media. But when it comes to the game itself, just pure slop. you can't play it offline since the app forces you to have internet so it can bombard you with ads. The game is filled with AI generated images, plus it copies from a game on Steam made with actual passion called \"Her Trees: Puzzle Dream.\" If the developers decided to put some effort into this, the game may have been a genuinely good choice for puzzle lovers.",
+        "date": "2026-05-15T10:38:27.453Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Catra Applesauce Meowmeow",
+        "score": 1,
+        "text": "I really wanted to like this game, but unfortunately it's just fancy dressing over a blatant ad delivery service. An ad loads before the game even starts!! Next, I couldn't get even five (5!!) minutes of uninterrupted gameplay before THREE (3!) interstitial ads popped up back to back - and each one FORCES you to click to the next ad using the button in the top right corner to ensure that you HAVE to pay attention to each ad. You can also forget about offline play - the game simply won't load.",
+        "date": "2026-05-08T16:43:02.537Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Ika Putri",
+        "score": 1,
+        "text": "First, the core gameplay is a copy of Her Trees, some puzzles are even DIRECT copies of the game. If you're inspired by it, at least mention the original game! Second, uses A TON of AI generated images, which is ironic for a game about growing flowers. Third, am I playing a game or watching ads? Every few minutes, or every three puzzles, whichever one is faster, ads come up, which is punishing and felt like you're racing against the ads to come up. Overall, do better.",
+        "date": "2026-05-11T16:02:44.800Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Asia Fortuna",
+        "score": 1,
+        "text": "The game is at least 50% ads. It will play the first ad before it's even done loading... After one level, I got hit by 3 different types of full-screen ads in succession. And every time it wants to play another batch, it resets your ad preferences, so you have to go through the song and dance of unchecking all the default data vendors... Absolute joke.",
+        "date": "2026-05-06T15:56:03.455Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "finley",
+        "score": 1,
+        "text": "uses ai art. so many ads. ads upon opening the game, banner ads, pop-up ads every 2-3 levels. the game requires internet so you can't escape the ads, then shows you an ad upon reconnection to wifi. the game has a simple premise but is executed sloppily. so much \"effort\" (ai slop) is used to make the promotional ads for the game to make it seem mysterious, but it has no story or dialogue, just bad puzzles with no instruction or logic or reason for completing them.",
+        "date": "2026-05-12T14:58:51.706Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "E T",
+        "score": 1,
+        "text": "I like the puzzles, quite original. I like the graphics and the controls are nimble enough. But how many times do you need to ask for my consent to cookies? I played twice and I was asked 4 times: if you think that I am going to click 'accept all' to avoid deselecting all the toggles, you are wrong. Uninstalling.",
+        "date": "2026-05-11T20:09:56.731Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Lucas Austin",
+        "score": 2,
+        "text": "The game dynamics itself? Very good. The app? Terrible. It asks you to consent to personalised ads, meaning you have to untick any you don't consent to, literally every time an ad shows. Which is EVERY time you finish a level. And since as the levels are about 1 minute to complete, the ads are overpowering the game. I put up with about 20 mins of game play, but now I am deleting it because I can't be dealing with the ads and consent messages.",
+        "date": "2026-05-11T13:13:51.514Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "A M",
+        "score": 1,
+        "text": "Downloaded this because I love Her Trees and wanted a similar game but its almost a replica. Atleast the first few puzzles are, because I could only bear so much lag. I perform 1 action at the most, after which it freezes entirely and I have to shut the app. I know someone has to pay to make free games possible, but all Ive done here is watch ads. Its frozen the rest of the time. Ads on the loading page, ads at the bottom of the screen, ad breaks every few mins. Its too much.",
+        "date": "2026-05-08T12:13:59.691Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Sophia Rosel",
+        "score": 1,
+        "text": "The WORST game I have ever played. I thought it would be a nice puzzle game, but I was WRONG, the art is AI, the puzzles aren't even puzzles, and way too many ads. If you plan on downloading it, don't. It'll be the worst experience you'll have with a puzzle game.",
+        "date": "2026-05-05T15:32:25.427Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Madison Essigmann",
+        "score": 2,
+        "text": "Beautiful game. Artwork and music are great. the puzzles are fun and make you think a little bit. The ads nearly ruin it. Any time an ad pops up, it immediately breaks immersion. Not sure if I will continue playing it and it's solely because of the ads.",
+        "date": "2026-05-13T17:06:07.369Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Gunnar Óskarsson",
+        "score": 2,
+        "text": "The idea is great, art is good... but i watched so many ads every other level. I don't mind ads, but those are loooong and often. And it's poorly optimised since my battery went down fast and started heating up. Just abyssal experience in front of what seems to be a nice puzzle game. Uninstalled, unfortunately.",
+        "date": "2026-05-12T00:40:23.909Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Layton Henry",
+        "score": 2,
+        "text": "As much as I think the game idea and vibes are amazing, the atmosphere and graphics are ruined by the AI look. There is no story so despite the eerie feeling and vibe, nothing happens leaving the game feeling bare. I completed all 60 levels in one day and now there is nothing to do. Ads after each level and when loading in, ads take you to the app store making you have to load the game again meaning even more ads. Like the overall idea but has so many flaws.",
+        "date": "2026-05-10T01:41:01.408Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Daniel Fenton",
+        "score": 2,
+        "text": "great puzzles but the amount of ads are obscene. I went through 5 ads with only 1 minute of game play. I mean seriously. it takes 2 or 3 ads just to start the next level and when you are in game if you take more than 10 seconds to answer you get even more ads. I wish I was joking.",
+        "date": "2026-05-13T06:28:02.289Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Ace Lagö",
+        "score": 1,
+        "text": "The game itself is cute, or it would be if you could play it for more than 30 seconds at a time. The ads are constant and unbearable. They're long, unskippable, force you to go to the app store. The first thing that happens when you open the game is an ad. You don't even get to play first.",
+        "date": "2026-05-11T23:49:10.901Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Imrongmenba Kichu",
+        "score": 1,
+        "text": "Had quite high expectations and genuinely hope it won't be like those app which consists of ads. But incredibly laggy, plus the amount of ads they show rather than the gameplay itself shows it's made strictly for greed not for the passion of games. You can do better. Hoping for the best fixes 👍",
+        "date": "2026-05-12T09:04:50.833Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Bhavya Anand",
+        "score": 1,
+        "text": "It is not working,even the first puzzle didn't work. I pressed the button and it lagged . This game is really the worst, I opened and closed it several times and even did clear data many times and also uninstalled and then installed it but then also it didn't work 😡😡",
+        "date": "2026-05-12T18:13:31.240Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Nae Viv",
+        "score": 1,
+        "text": "Don't even waste your time downloading this game. After I downloaded the game and refused all of my personal data being used by unknown companies, one of which wanted to hold my personal data for over 1000 days. There was an AD, I hadn't even had any game play yet. After one challenge, I was asked to reconfirm the use of my personal data, then again another AD. Total waste of my time. You also cannot play this game if you are offline.",
+        "date": "2026-05-13T22:20:10.782Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Monica Worley",
+        "score": 2,
+        "text": "So many ads. 1 ad before the game even from finishes loading, I played ONE little mini puzzle, THEN THREE MORE ADS. Sad thing is, it's actually a cute game, I could see myself playing it quite a bit if you weren't watching more ads than playing the game.",
+        "date": "2026-05-11T02:22:11.326Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Samantha Holcomb",
+        "score": 1,
+        "text": "its fun in concept but by level 5 it was stupidly hard and the clue wasnt possible to follow becuase you couldn't get the pieces to over lap the way they show. Level 9 is literally impossible. I've used both the clue and the solve hints and when I put in the answer the solve gives me it just resets, and when I watch ANOTHER ad to get ANOTHER solve it shows a different answer. If someone told me that this was ai slop with ai slop for programming I wouldn't be surprised, disappointed maybe.",
+        "date": "2026-05-14T00:31:34.729Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mitch",
+        "score": 1,
+        "text": "As soon as I installed, got notice that my Android had 76 viruses. Beware. Update: Apparently that was just one of the scam ads they allow. Ads when the game loads, banner ads during gameplay, and TWO or THREE ads after each level.",
+        "date": "2026-05-11T02:08:18.486Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "Amanda Stidd",
+        "score": 1,
+        "text": "lots of freezing. or very laggy. never made it past intro to game in 15 minutes. I gave up. please get rid of the majority of the glitches before you launch a game. this game is unplayable.",
+        "date": "2026-05-06T05:39:51.814Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Jonas Aleksander Karlsbakk",
+        "score": 1,
+        "text": "This is a game you should not trust. while the game play and puzzles are OK, the game will ask you for Data Preferences every 3d lvl, if you do not accept all. If a game is that desperate for your data, the're up to no good.",
+        "date": "2026-05-08T10:19:15.239Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Abby Abby",
+        "score": 1,
+        "text": "there's an ad every like 4 puzzles, and the puzzles are fast. also the first thing I got hit with before the game even started for the first time was an ad. cute game but it's just a money grab game",
+        "date": "2026-05-05T12:05:04.562Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Rain",
+        "score": 1,
+        "text": "wayy too much ads, finished the puzzle? ads. going to settings? ads. unlocking your phone and wanting to play? ads. even if you turn off your wifi, it wont work as the game requires wifi. I can't really play it and give it a good rating due to being bombarded with ads",
+        "date": "2026-05-10T04:55:22.460Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Michael Dolan",
+        "score": 1,
+        "text": "pop up ad while the game was loading, hadn't even played yet. more forced ads after the 3rd level. not even a word game, just picking letters that are found in the level. uninstalled.",
+        "date": "2026-05-08T15:48:05.973Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Cassandra Little",
+        "score": 1,
+        "text": "A cute game but genuinely unplayable because of how many ads there are. I get an ad popup every 30 seconds, and there are ads constantly at the bottom of the screen. Completely ruins the experience :(",
+        "date": "2026-05-05T06:02:54.888Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "paorabailey",
+        "score": 1,
+        "text": "This is not a game. This is an ad farming game and right within the first two minutes I can tell that it only takes the intelligence of a three year old to solve these word puzzles.",
+        "date": "2026-05-09T00:01:56.531Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Marli R",
+        "score": 2,
+        "text": "the game itself is ok. they do need to give some sort of instructions at the beginning. the level starts and you pretty much have to guess what youre supposed to do. The real problem though, are the ads. They are obnoxious as ever. they are constant and repetitive",
+        "date": "2026-05-14T18:46:18.111Z",
+        "thumbsUp": 0
+      }
+    ],
+    "neutral": [
+      {
+        "source": "google_play",
+        "userName": "asma idrissi",
+        "score": 3,
+        "text": "a new beautiful game but so much annoying ads",
+        "date": "2026-05-18T14:41:56.536Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "bhavya sharma",
+        "score": 3,
+        "text": "It's a nice game but it's lagging in every 2 seconds , please work on that other wise it's a cute game",
+        "date": "2026-05-18T04:35:30.223Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Atlas",
+        "score": 3,
+        "text": "The puzzles are fine, some are too abstract but oh well, but the ads ramp up after the first few flowers. Now it's nearly every puzzle.",
+        "date": "2026-05-17T19:47:07.550Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "K.E. G",
+        "score": 3,
+        "text": "love the game but the ads make it unbearable,,, can't even play offline",
+        "date": "2026-05-17T14:35:14.274Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Stephanie Belcher",
+        "score": 3,
+        "text": "I did enjoy the game, but got stuck on level 35. I used all hints multiple times..I got multiple answers.. Will be uninstalling, bummer.",
+        "date": "2026-05-16T20:33:48.890Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Radang 'S",
+        "score": 3,
+        "text": "It's a really cool game but I noticed that this game keeps repeating the same game at different levels. I keep on seeing the same thing.",
+        "date": "2026-05-16T18:24:51.347Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "DF x Gaming",
+        "score": 3,
+        "text": "I would like to give this game 4 or maybe even 5 stars, but that's unrealistic. the puzzles themselves are really fun and engaging. they make you think outside of the box and not just in 2 dimensions. however the flaws i have with this app is the ads. yes you can purchase the ad removal for about$3-$4 USD, not too pricey. the other is the layout of some puzzles being slightly cut off at the bottom because of the layout of the puzzle your solving for and the answer sheet being in a fixed area.",
+        "date": "2026-05-11T07:26:29.140Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Heather D",
+        "score": 3,
+        "text": "I know it costs money to create these games and run them, but not only do they have constant ads at the bottom of the screen at all times, they have insanely annoying ones after every level. These ads are so long, unskipable, and force you to click on them in order to close them instead of just offering an \"x\". the ads can vary anywhere from 20 seconds (where you get two unskipable ones) to 50 seconds long. that's nearly a minute of unskipable ads after every. single. 30 second level. insane.",
+        "date": "2026-05-12T03:56:32.775Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "nathan purver",
+        "score": 3,
+        "text": "I actually really enjoy this game. To start with it felt like there was no clear direction to go with each level but thats surprisingly what makes it so fun. I do believe there is a bug in level 52. I've been stuck on it for a while now and when I watch an ad to give me the answer its isnt correct and changes the answer each time i rewatch. Thats the reason for three stars at this stage.",
+        "date": "2026-05-11T10:03:40.696Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Khaliuka Amartuvshin",
+        "score": 3,
+        "text": "Really good game with puzzles challenging enough to be immersive but not that hard enough to quit. But the ads are absolutely so annoying. There's an ad after every level and you cannot load the game without wifi but if you do you can't escape the ads... Promising potential ruined by ads. I know it's kinda new and needs support but we could use less ads. Thank you. Please update soon!❤️‍🩹💜",
+        "date": "2026-05-13T14:24:57.462Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Dalila Ismail",
+        "score": 3,
+        "text": "too many annoying ads (at the bottom, after completing each level & after unlocking the phone when idle... I can't turn off data either (this game uses data to play)😞 I love puzzle-mystery games & I've played a lot of them but i can't seem to enjoyed it. I'm stopped at level 7 it's hard to focus bcs the ads are causing my phone to be hot & drained my battery. I hope developers can reduce the ads for free users. I'm aware of the ads free button tho but I'm not that loaded to spend money on games",
+        "date": "2026-05-06T14:35:52.378Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Dawn Beckett",
+        "score": 3,
+        "text": "Pretty good puzzles, but it loops after 60 levels and the ads make it a little frustrating. If you turn off the wifi, it doesn't let you play the game, but if you turn on the wifi briefly then turn it off after the level starts, it bypasses it, so take that as you will.",
+        "date": "2026-05-14T20:52:16.537Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Chy Katie",
+        "score": 3,
+        "text": "this is not the kinda game I thought it was plus the game is like 80% adds! I literally clicked an X to close a tab and sent me on 3 ads. not worth the gaming. plus there is no explanation for some of the puzzles so it forces you to watch MORE ads to use a clue..",
+        "date": "2026-05-13T01:02:58.931Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Husayn Tambuwala",
+        "score": 3,
+        "text": "Great game, works really well and has genuinely fun puzzles. But far too many ads. Requires you to keep your internet on to play but then you're bombarded with ads every 2-3 levels. Great game besides that.",
+        "date": "2026-05-15T12:27:12.602Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kevin D.",
+        "score": 3,
+        "text": "Too basic but at the same time too complicated. absolutely no story. no explanations of how anything works. no clues unless you spend money or watch ads. wonky fonts that get very difficult to decipher. one single song track that repeats every 30ish seconds.",
+        "date": "2026-05-08T04:15:33.320Z",
+        "thumbsUp": 0
+      }
+    ]
+  },
   "similarApps": [
+    {
+      "appId": "com.avatarlife.avatarstory.mystory.myworld.mywonder",
+      "title": "Avatar Life World: My Story",
+      "developer": "SkySoft Studio",
+      "score": 4.475969,
+      "icon": "https://play-lh.googleusercontent.com/wfLeSE-ZwR5qUZ0mXnzqMZPOzgmygci6NJ6ymYHDJkRgbmQr2G2kahlMBP3gbM0HE8Y"
+    },
     {
       "appId": "com.crimescene.asmr.cleaninggame",
       "title": "Crime Scene ASMR Cleaning",
@@ -266,24 +1559,17 @@
       "icon": "https://play-lh.googleusercontent.com/g2dAyi3qeIyJ2vczCll09Vv6lWiB9HERvzQRX0IjBDFtboOUEhaVmDmT4AAMBy7eEzvX78huxQIief8gw6Z_"
     },
     {
-      "appId": "com.avatarlife.avatarstory.mystory.myworld.mywonder",
-      "title": "Avatar Life World: My Story",
-      "developer": "SkySoft Studio",
-      "score": 4.4696736,
-      "icon": "https://play-lh.googleusercontent.com/wfLeSE-ZwR5qUZ0mXnzqMZPOzgmygci6NJ6ymYHDJkRgbmQr2G2kahlMBP3gbM0HE8Y"
-    },
-    {
       "appId": "com.stickman.warriors.stickwarriors.dragon.shadow.fight",
       "title": "Stickman Warriors",
       "developer": "SkySoft Studio",
-      "score": 4.6990647,
+      "score": 4.6973,
       "icon": "https://play-lh.googleusercontent.com/a2DozS4mRCoidrx6P_05X7uJlL0h192PzpYbeUNRA_4azyMyRUTemgDMKTFfita0Og"
     },
     {
       "appId": "com.cooking.jam.satisdom",
       "title": "Cooking Jam - Satisdom",
       "developer": "SkySoft Studio",
-      "score": 4.72,
+      "score": 4.7596154,
       "icon": "https://play-lh.googleusercontent.com/voEB_FXqbR6AiDmHEbaw-V5puYqe-JX9A741SiE8JtcBcQ422uiV_XLJFVytKo_wX_E"
     },
     {
@@ -307,11 +1593,10 @@
       "icon": "https://play-lh.googleusercontent.com/UcUBLA0Jix7TfITd5TocZhnW7r7mkzxPEBpLAp-3Xm3IBNyOy0x3KG_1uzbJgz5-ruqc"
     },
     {
-      "appId": "com.Phoenix.GeckoAway",
-      "title": "Gecko Away",
+      "appId": "com.phoenix.loopblock.blastshooter",
+      "title": "Loop Block - Blast Shooter",
       "developer": "SkySoft Studio",
-      "score": 4.7522125,
-      "icon": "https://play-lh.googleusercontent.com/3mjXb8c4quc26BoAyifzndr5KACyP3QtbU3FQEybBIZuGS-GPMSAiT3_orKTw1_xXp6dJD2Jdy6qc4gc3MLyIzc"
+      "icon": "https://play-lh.googleusercontent.com/cRy-tk2cQcMNsjooRg-ouLFyS9Xlf25ni19nyrB5HB6TLD0lNx07hteeo3aQ0FZ3xAorn10O4YVJEaxWKNhk"
     },
     {
       "appId": "com.star.dotspuzzle.relaxing.dotconnect",
@@ -320,10 +1605,11 @@
       "icon": "https://play-lh.googleusercontent.com/AdLws_Fvm18E9bIa5yCvE4ziRquZfMVK2MzOApU20qlV-FNxIYaqQntyRTPHlnFQrHQwWt-UcDpEh4Ed9r2o1A"
     },
     {
-      "appId": "com.phoenix.loopblock.blastshooter",
-      "title": "Loop Block - Blast Shooter",
+      "appId": "com.liquidjam.blockpuzzle",
+      "title": "Liquid Jam - Block Puzzle",
       "developer": "SkySoft Studio",
-      "icon": "https://play-lh.googleusercontent.com/cRy-tk2cQcMNsjooRg-ouLFyS9Xlf25ni19nyrB5HB6TLD0lNx07hteeo3aQ0FZ3xAorn10O4YVJEaxWKNhk"
+      "score": 4.529412,
+      "icon": "https://play-lh.googleusercontent.com/L_QACDH0NHD3wJAoZ5ygVaTylO4uHdsAPZ0Bv1jBH4FFsD4NgtbRbXUz1DWLlM3PZKijNIYpaco1IG6UndNAetY"
     }
   ],
   "developerApps": []

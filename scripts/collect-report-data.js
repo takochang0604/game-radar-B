@@ -69,11 +69,60 @@ async function iosReviews(id, page = 1, country = 'us') {
 // ─── 主流程 ──────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log(`\n🔍 正在蒐集資料...\n   Android: ${androidAppId}\n   iOS:     ${iosAppId ?? '（未提供，略過）'}\n`);
+  console.log(`\n🔍 正在蒐集資料...\n   Android: ${androidAppId}\n   iOS:     ${iosAppId ?? '（未提供，將自動在 App Store 搜尋匹配）'}\n`);
 
   // 1. Google Play 基本資料
   console.log('📱 [1/6] Google Play 基本資料...');
   const app = await gplay.app({ appId: androidAppId, lang: 'en' });
+
+  // ── 自動搜尋/修復 iOS App ID 邏輯 ──
+  let targetIosAppId = iosAppId;
+  let iosApp = null;
+
+  async function autoDiscoverIosId(gameTitle) {
+    console.log(`   🔍 正在 App Store 上搜尋與「${gameTitle}」最匹配的項目...`);
+    try {
+      const searchResults = await store.search({ term: gameTitle, num: 5, country: 'us' });
+      if (searchResults && searchResults.length > 0) {
+        const cleanTitle = gameTitle.toLowerCase().replace(/[^a-z0-9]/g, '');
+        // 優先尋找名稱高度匹配或包含的
+        const bestMatch = searchResults.find(r => {
+          const matchTitle = r.title.toLowerCase().replace(/[^a-z0-9]/g, '');
+          return matchTitle.includes(cleanTitle) || cleanTitle.includes(matchTitle);
+        }) || searchResults[0];
+
+        console.log(`   🎯 自動匹配成功！`);
+        console.log(`      - iOS 項目: ${bestMatch.title}`);
+        console.log(`      - 開發商:   ${bestMatch.developer}`);
+        console.log(`      - App ID:   ${bestMatch.id}`);
+        return bestMatch.id;
+      }
+    } catch (e) {
+      console.warn(`   ⚠️  自動搜尋 iOS 項目失敗（${e.message}）`);
+    }
+    return null;
+  }
+
+  // 4. App Store 基本資料 (提前載入以核對/修復 ID)
+  console.log('📊 [4/6] 獲取 App Store 基本資料...');
+  if (targetIosAppId) {
+    const numericId = parseInt(String(targetIosAppId).replace(/\D/g, ''), 10);
+    iosApp = await safe(() => store.app({ id: numericId, country: 'us' }));
+    if (!iosApp) {
+      console.log(`   ⚠️ 手動提供的 iOS ID (${targetIosAppId}) 無效，啟動自動修復機制...`);
+      const discoveredId = await autoDiscoverIosId(app.title);
+      if (discoveredId) {
+        targetIosAppId = discoveredId;
+        iosApp = await safe(() => store.app({ id: discoveredId, country: 'us' }));
+      }
+    }
+  } else {
+    const discoveredId = await autoDiscoverIosId(app.title);
+    if (discoveredId) {
+      targetIosAppId = discoveredId;
+      iosApp = await safe(() => store.app({ id: discoveredId, country: 'us' }));
+    }
+  }
 
   // 2. Google Play 評論：最新 100 則 + 最高評分 50 則 + 最低評分 50 則
   console.log('💬 [2/6] Google Play 評論（200 則）...');
@@ -83,29 +132,21 @@ async function main() {
     safe(() => gplayReviews(androidAppId, gplay.sort.HELPFULNESS, 50), []),
   ]);
 
-  // 3. App Store 評論（若有 iosAppId）
+  // 3. App Store 評論（若有 targetIosAppId）
   console.log('🍎 [3/6] App Store 評論（最多 200 則）...');
   let iosReviewList = [];
-  if (iosAppId) {
+  if (targetIosAppId) {
     // App Store 每頁約 50 則，抓 4 頁
     const pages = await Promise.all([1, 2, 3, 4].map(p =>
-      safe(() => iosReviews(iosAppId, p, 'us'), [])
+      safe(() => iosReviews(targetIosAppId, p, 'us'), [])
     ));
     iosReviewList = pages.flat();
 
     // 補抓韓國（黑馬市場）
     const krPages = await Promise.all([1, 2].map(p =>
-      safe(() => iosReviews(iosAppId, p, 'kr'), [])
+      safe(() => iosReviews(targetIosAppId, p, 'kr'), [])
     ));
     iosReviewList = [...iosReviewList, ...krPages.flat()];
-  }
-
-  // 4. App Store 基本資料
-  console.log('📊 [4/6] App Store 基本資料...');
-  let iosApp = null;
-  if (iosAppId) {
-    const numericId = parseInt(String(iosAppId).replace(/\D/g, ''), 10);
-    iosApp = await safe(() => store.app({ id: numericId, country: 'us' }));
   }
 
   // 5. 同類遊戲 & 開發者產品線

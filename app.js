@@ -42,7 +42,6 @@ let state = {
   rankPageSize: 50,
 };
 
-let trendChart = null;
 let modalChart = null;
 
 // ============ 黑馬追蹤（Firestore 同步 + localStorage 快取）============
@@ -228,41 +227,51 @@ function initScoreInfo() {
       <h3 style="font-size:17px;margin-bottom:16px;display:flex;align-items:center;gap:8px">🐴 什麼是黑馬遊戲？</h3>
 
       <p style="font-size:13px;line-height:1.7;color:var(--text-secondary);margin-bottom:20px">
-        系統每天自動追蹤 <strong style="color:var(--text-primary)">8 個市場</strong>（美、日、韓、中、台、泰、越、菲）的 iOS 與 Android 遊戲排行榜（免費下載＋營收），從各市場 Top 100 中，找出近 7 天內<strong style="color:var(--text-primary)">排名異常竄升</strong>的遊戲。
+        系統每天自動追蹤 <strong style="color:var(--text-primary)">8 個市場</strong>（美、日、韓、中、台、泰、越、菲）的 iOS 與 Android 遊戲排行榜（免費下載＋營收），從各市場 Top 100 中，找出近 14 天內<strong style="color:var(--text-primary)">排名異常竄升</strong>的遊戲。
       </p>
 
       <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border-glass);border-radius:var(--radius-md);padding:16px;margin-bottom:16px">
-        <h4 style="font-size:14px;font-weight:700;color:var(--accent-cyan);margin-bottom:10px">怎樣算黑馬？</h4>
-        <p style="font-size:12px;color:var(--text-muted);margin-bottom:10px">符合以下<strong>任一條件</strong>就會被標記：</p>
-        <div style="display:flex;flex-direction:column;gap:8px">
+        <h4 style="font-size:14px;font-weight:700;color:var(--accent-cyan);margin-bottom:10px">怎樣算黑馬？（觸發條件）</h4>
+        <p style="font-size:12px;color:var(--text-muted);margin-bottom:10px">符合以下<strong>任一核心條件</strong>即判定為黑馬：</p>
+        <div style="display:flex;flex-direction:column;gap:10px">
           <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
             <span style="font-size:15px;flex-shrink:0">🚀</span>
-            <div><strong style="color:var(--text-primary)">排名急升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 7 天內排名上升 30 名以上</div>
+            <div><strong style="color:var(--text-primary)">排名急升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 7 天內排名急速上升 30 名以上。</div>
           </div>
           <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
             <span style="font-size:15px;flex-shrink:0">🆕</span>
-            <div><strong style="color:var(--text-primary)">新進榜</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 之前不在榜上，突然衝進 Top 30</div>
+            <div><strong style="color:var(--text-primary)">新進強襲</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 之前不在榜上，首偵以強大爆發力**直接空降衝進 Top 30**。</div>
           </div>
           <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
             <span style="font-size:15px;flex-shrink:0">📈</span>
-            <div><strong style="color:var(--text-primary)">持續攀升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 連續 5 天以上排名一直往上爬</div>
+            <div><strong style="color:var(--text-primary)">持續攀升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 連續 5 天以上排名維持上升，無下跌現象。</div>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
+            <span style="font-size:15px;flex-shrink:0">📊</span>
+            <div><strong style="color:var(--text-primary)">成長加速</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 近 3 天平均名次相比近 7 天平均排名，**成長高達 2.5 倍**以上。</div>
           </div>
         </div>
-        <p style="color:var(--text-muted);font-size:11px;margin-top:10px;padding-top:8px;border-top:1px solid var(--border-glass)">
-          評分低於 3.5、排名不在 Top 50 以內的遊戲會自動排除。<br>同一款遊戲在多個國家同時出現時，會合併成一張卡片。
-        </p>
+
+        <h4 style="font-size:13px;font-weight:700;color:var(--accent-purple);margin:14px 0 8px">進階與防噪規則</h4>
+        <div style="display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--text-muted);padding-left:4px">
+          <div><strong style="color:var(--text-secondary)">↩️ 回歸型黑馬</strong>：曾跌出 Top 50 之外，但在 7 天內重新強勢衝回 Top 20。</div>
+          <div><strong style="color:var(--text-secondary)">⚠️ 買榜警示 (鋸齒波動)</strong>：短時間內名次暴起暴落（幅度 >= 30 名）達 2 次以上，警示為非自然買量。</div>
+          <div><strong style="color:var(--text-secondary)">🛡️ 博弈排除</strong>：全面過濾排除博弈類遊戲 (GAME_CASINO)，維持競爭力分析純度。</div>
+          <div><strong style="color:var(--text-secondary)">🛡️ 品質篩選</strong>：商店評分低於 3.5 的遊戲將自動被系統剔除。</div>
+        </div>
       </div>
 
       <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border-glass);border-radius:var(--radius-md);padding:16px;margin-bottom:16px">
         <h4 style="font-size:14px;font-weight:700;color:var(--accent-yellow);margin-bottom:10px">信心分數 ⚡ 是什麼？</h4>
         <p style="font-size:13px;color:var(--text-secondary);margin-bottom:10px">
-          每張卡片上的 <strong style="color:var(--accent-yellow)">⚡ 數字</strong> 代表這款遊戲<strong style="color:var(--text-primary)">多值得關注</strong>：
+          每張卡片上的 <strong style="color:var(--accent-yellow)">⚡ 數字</strong> 代表這款黑馬遊戲的**威脅度與關注價值**：
         </p>
-        <div style="display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--text-secondary);padding-left:4px">
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 觸發越多條件、排名升幅越大 → 分數越高</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 排名越前面（例如 Top 5）→ 額外加分</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 在大市場（美、日）出現 → 額外加分</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 同時出現在多個國家 → 更值得注意</div>
+        <div style="display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--text-secondary);padding-left:4px">
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 觸發越多核心條件、名次爬升越劇烈 → 基礎分數越高</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 🏆 **名次頂端加成**：名次越頂尖（特別是空降 Top 5 / Top 3）獲得大幅加分</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 🌍 **大市場權重**：在商業價值高的大市場（如日、美、韓）出現，加權分越高</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 🔗 **跨平台一致性**：同時在 iOS + Android 或 免費榜+營收榜竄升，獲 **1.3 ~ 1.5 倍加成**</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 👀 **黑馬保留期**：一經判定，在 **30 天觀察期** 內只要仍在排行榜上就繼續保留統計</div>
         </div>
       </div>
 
@@ -326,6 +335,35 @@ function initDateSelector() {
   };
 }
 
+// 動態格式化觸發條件，顯示偵測當下的資訊，不對比今日排行，防折行爆版 RWD
+function formatTriggerDetail(detail, latestRank) {
+  if (!detail) return '';
+  
+  // 針對「新進榜」的描述進行強勢修飾優化，提升黑馬的空降震撼力與合理度
+  if (detail.includes('首次進入 Top 100')) {
+    const match = detail.match(/#(\d+)/);
+    if (match) {
+      const rank = parseInt(match[1]);
+      if (rank === 1) {
+        return `🔥 強勢空降冠軍，偵測當下排名 #1`;
+      } else if (rank === 2) {
+        return `🔥 強勢空降亞軍，偵測當下排名 #2`;
+      } else if (rank === 3) {
+        return `🔥 強勢空降季軍，偵測當下排名 #3`;
+      } else if (rank <= 10) {
+        return `⚡ 強勢空降 Top 10，偵測當下排名 #${rank}`;
+      } else if (rank <= 30) {
+        return `✨ 強勢衝進 Top 30，偵測當下排名 #${rank}`;
+      } else {
+        return `首次進入 Top 100，偵測當下排名 #${rank}`;
+      }
+    }
+  }
+
+  // 方案 A：將「目前排名 #X」替換為「偵測當下排名 #X」，只保留觸發時當下的名次資訊
+  return detail.replace(/目前排名\s*#/, '偵測當下排名 #');
+}
+
 function populateDateSelector() {
   const select = document.getElementById('dateSelect');
   select.innerHTML = state.availableDates.map(d => {
@@ -333,6 +371,25 @@ function populateDateSelector() {
     const label = isToday ? `${d} (最新)` : d;
     return `<option value="${d}"${d === state.selectedDate ? ' selected' : ''}>${label}</option>`;
   }).join('');
+}
+
+// ============ 全域淨化黑馬資料（同步最新排行） ============
+function sanitizeDarkhorses() {
+  if (!state.darkhorses) return;
+  state.darkhorses.forEach(dh => {
+    // 修正：若 dh.markets 中的主市場排名與 dh.currentRank 不一致，將其修正為最新排名，防止保留歷史黑馬時使用過期排名
+    if (dh.markets) {
+      dh.markets = dh.markets.map(m => {
+        if (m.code === dh.market && m.rank !== dh.currentRank) {
+          return { ...m, rank: dh.currentRank };
+        }
+        return m;
+      });
+    }
+
+    // 備註：不再於此處就地（in-place）覆寫 triggers[].detail 的排名文字，
+    // 以便保留首偵當下的起點排名，改由 formatTriggerDetail 在渲染時動態對比並呈現軌跡。
+  });
 }
 
 // ============ 載入資料（Firebase 優先，data.js fallback）============
@@ -346,6 +403,7 @@ async function loadData() {
       state.availableDates = data.availableDates || [];
       state.snapshots = {}; // 快照按需載入
       state.darkhorses = data.darkhorses || [];
+      sanitizeDarkhorses(); // 執行全域黑馬數據修正
       state.analysis = data.analysis || {};
       state.reports = data.reports || {};
       state.firebaseMode = true;
@@ -378,6 +436,7 @@ async function loadData() {
   state.availableDates = APP_DATA.availableDates || [];
   state.snapshots = APP_DATA.snapshots || {};
   state.darkhorses = APP_DATA.darkhorses || [];
+  sanitizeDarkhorses(); // 執行全域黑馬數據修正
   state.analysis = APP_DATA.analysis || {};
   state.reports = APP_DATA.reports || {};
   state.firebaseMode = false;
@@ -462,8 +521,10 @@ function renderStats() {
   const getUniqueCount = (dhList) => {
     const seen = new Set();
     dhList.forEach(dh => {
-      const name = (dh.name || '').split(/\s*[:\-\|]/)[0].toLowerCase().trim();
-      seen.add(name);
+      // 與 renderDarkhorses 的 getMergeKey 保持一致的去重邏輯
+      const coreName = (dh.name || '').split(/\s*[:\uff1a\-\u2014\u2013\|]\s*/)[0];
+      const key = coreName.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 30);
+      seen.add(key);
     });
     return seen.size;
   };
@@ -476,15 +537,12 @@ function renderStats() {
   // 已評測黑馬
   const reportedList = state.darkhorses.filter(dh => !!findReport(dh.name));
   const statAppsEl = document.getElementById('statApps');
-  if (statAppsEl) statAppsEl.textContent = getUniqueCount(reportedList);
-  const statAppsSub = document.getElementById('statAppsSub');
-  
   const totalUnique = getUniqueCount(state.darkhorses);
-  if (statAppsSub) statAppsSub.textContent = `/ ${totalUnique} 匹`;
+  if (statAppsEl) statAppsEl.textContent = `${getUniqueCount(reportedList)} / ${totalUnique}`;
+  const statAppsSub = document.getElementById('statAppsSub');
+  if (statAppsSub) statAppsSub.textContent = '匹已完成 AI 評測報告';
 
-  // 偵測黑馬
-  const statDhEl = document.getElementById('statDarkhorses');
-  if (statDhEl) statDhEl.textContent = totalUnique;
+
 
   // dhCount 會在 renderDarkhorses 時被覆寫，這裡可以先給個預設值
   const dhCountEl = document.getElementById('dhCount');
@@ -510,7 +568,11 @@ function renderDarkhorses() {
     // 已評測篩選（只過濾黑馬中有報告的）
     if (state.dhReportFilter === 'reported' && !findReport(dh.name)) return false;
     if (state.dhReportFilter === 'unreported' && findReport(dh.name)) return false;
-    if (state.dhReportFilter === 'new_entry' && !dh.triggers?.some(t => t.strategy === 'new_entry')) return false;
+    if (state.dhReportFilter === 'new_entry') {
+      const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
+      const hasTodayNewEntry = dh.triggers?.some(t => t.strategy === 'new_entry' && (t._detectedAt || '').substring(0, 10) === latestDate);
+      if (!hasTodayNewEntry) return false;
+    }
     return true;
   });
 
@@ -524,18 +586,25 @@ function renderDarkhorses() {
   }
 
   for (const dh of filtered) {
+    // 修正：若 dh.markets 中的主市場排名與 dh.currentRank 不一致，將其修正為最新排名，防止保留歷史黑馬時使用過期排名
+    if (dh.markets) {
+      dh.markets = dh.markets.map(m => {
+        if (m.code === dh.market && m.rank !== dh.currentRank) {
+          return { ...m, rank: dh.currentRank };
+        }
+        return m;
+      });
+    }
+
     let targetKey = null;
     const nameKey = getMergeKey(dh);
-    const dhDev = (dh.developer || '').toLowerCase().replace(/[^a-z0-9]/g, '');
 
     for (const [existingKey, existingDh] of mergedMap) {
       const exNameKey = getMergeKey(existingDh);
-      const exDev = (existingDh.developer || '').toLowerCase().replace(/[^a-z0-9]/g, '');
       const sameName = exNameKey === nameKey;
-      const sameDev = exDev && dhDev && (exDev.includes(dhDev) || dhDev.includes(exDev));
       
-      // 若名稱相同且開發商相似（或有一方缺開發商），則視為同遊戲跨市場/平台
-      if (sameName && (!exDev || !dhDev || sameDev)) {
+      // 若名稱相同，則直接視為同遊戲跨市場/平台進行合併，不受不同開發商註冊名稱差異之限制
+      if (sameName) {
         targetKey = existingKey;
         break;
       }
@@ -545,6 +614,33 @@ function renderDarkhorses() {
       const existing = mergedMap.get(targetKey);
       // 合併平台
       if (!existing._platforms.includes(dh.platform)) existing._platforms.push(dh.platform);
+
+      // 合併開發商名稱，去重並智能融合相似字串
+      if (dh.developer && existing.developer) {
+        const parseDevs = (str) => str.split(/\s*[\/|]\s*/).map(s => s.trim()).filter(Boolean);
+        const exDevs = parseDevs(existing.developer);
+        const dhDevs = parseDevs(dh.developer);
+        
+        const mergedDevs = [...exDevs];
+        dhDevs.forEach(newDev => {
+          const newDevLower = newDev.toLowerCase();
+          const existingMatchIdx = mergedDevs.findIndex(d => {
+            const dLower = d.toLowerCase();
+            return dLower.includes(newDevLower) || newDevLower.includes(dLower);
+          });
+          
+          if (existingMatchIdx >= 0) {
+            if (newDev.length > mergedDevs[existingMatchIdx].length) {
+              mergedDevs[existingMatchIdx] = newDev;
+            }
+          } else {
+            mergedDevs.push(newDev);
+          }
+        });
+        existing.developer = mergedDevs.join(' / ');
+      } else if (dh.developer && !existing.developer) {
+        existing.developer = dh.developer;
+      }
       
       // 合併市場陣列 (markets)
       if (dh.markets) {
@@ -658,22 +754,22 @@ function renderDarkhorses() {
     const hasAnalysis = !!state.analysis[dh.appId];
     const hasReport = !!findReport(dh.name);
     const reportBadge = hasReport
-      ? '<span class="dh-tag report-ready" title="已有評測報告">📄 已評測</span>'
+      ? '<span class="dh-tag report-ready" title="已有評測報告">已評測</span>'
       : '';
     const scoreBadge = dh.confidenceScore
-      ? `<span class="dh-confidence" title="信心分數：越高越可能是真正的黑馬">${dh.confidenceScore.toFixed(1)}⚡</span>`
+      ? `<span class="dh-confidence" title="信心分數：越高越可能是真正的黑馬">${dh.confidenceScore.toFixed(1)} 分</span>`
       : '';
     // 黑馬分類標籤
     const triggerTypes = dh.triggers.map(t => t.strategy);
     const isRetained = !!dh._retained;
     const classBadge = isRetained
-      ? `<span class="dh-tag dh-class-watch" title="首偵日：${dh._retainedFrom || '未知'}，仍在榜上持續觀察">👀 觀察中</span>`
+      ? `<span class="dh-tag dh-class-watch" title="首偵日：${dh._retainedFrom || '未知'}，仍在榜上持續觀察">觀察中</span>`
       : triggerTypes.includes('new_entry')
-        ? '<span class="dh-tag dh-class-new" title="首次進入排行榜">🆕 新進</span>'
+        ? '<span class="dh-tag dh-class-new" title="首次進入排行榜">新進榜</span>'
         : triggerTypes.includes('growth_multiplier')
-          ? '<span class="dh-tag dh-class-accel" title="排名加速上升中">🔥 加速中</span>'
+          ? '<span class="dh-tag dh-class-accel" title="排名加速上升中">加速中</span>'
           : triggerTypes.includes('consecutive_rise') || triggerTypes.includes('rank_jump')
-            ? '<span class="dh-tag dh-class-rising" title="持續上升中">📈 上升中</span>'
+            ? '<span class="dh-tag dh-class-rising" title="持續上升中">上升中</span>'
             : '';
     // 上架日期
     const rawReleased = state.analysis[dh.appId]?.detail?.released || '';
@@ -761,17 +857,18 @@ function renderDarkhorses() {
           let shortLabel = '';
           if (t.strategy === 'rank_jump') {
             const match = t.detail.match(/↑(\d+)/);
-            shortLabel = `🚀 ↑${match ? match[1] : ''}`;
+            shortLabel = `躍升 ↑${match ? match[1] : ''}`;
           } else if (t.strategy === 'consecutive_rise') {
             const match = t.detail.match(/連續 (\d+) 天/);
-            shortLabel = `📈 ${match ? match[1] : ''}天↑`;
+            shortLabel = `連漲 ${match ? match[1] : ''}天`;
           } else if (t.strategy === 'growth_multiplier') {
             const match = t.detail.match(/([\d.]+)×/);
-            shortLabel = `📊 ${match ? match[1] : ''}×`;
+            shortLabel = `倍率 ${match ? match[1] : ''}×`;
           } else {
             shortLabel = t.label || t.detail.substring(0, 10);
           }
-          return `<span class="dh-signal-pill" title="${t.detail}">${shortLabel}</span>`;
+          const formattedDetail = formatTriggerDetail(t.detail, dh.currentRank);
+          return `<span class="dh-signal-pill" title="${formattedDetail}">${shortLabel}</span>`;
         }).join('');
       })()}
         </div>
@@ -800,7 +897,12 @@ function renderDarkhorses() {
               }
             }
             if (miniHistory.length < 3) {
-              canvas.parentElement.style.display = 'none';
+              canvas.style.display = 'none';
+              canvas.parentElement.innerHTML = `
+                <div style="height:50px;display:flex;align-items:center;justify-content:center;border:1px dashed rgba(255,255,255,0.08);border-radius:var(--radius-sm);background:rgba(255,255,255,0.01);color:var(--text-secondary);opacity:0.7;font-size:11px;gap:6px;letter-spacing:0.3px;width:100%">
+                  新進榜首日，正累積歷史軌跡
+                </div>
+              `;
             } else {
               const sortedMini = [...miniHistory].sort((a, b) => a.date.localeCompare(b.date));
               renderMiniChart(canvas, sortedMini.slice(-7));
@@ -867,7 +969,7 @@ function renderMiniChart(canvas, history) {
 async function renderRankingsAsync() {
   const tbody = document.getElementById('rankingsBody');
   if (state.firebaseMode && state.selectedDate) {
-    tbody.innerHTML = '<tr><td colspan="7"><div class="empty-state"><p>⏳ 載入中...</p></div></td></tr>';
+    tbody.innerHTML = '<tr><td colspan="6"><div class="empty-state"><p>⏳ 載入中...</p></div></td></tr>';
     const currentIdx = state.availableDates.indexOf(state.selectedDate);
     const prev = currentIdx > 0 ? state.availableDates[currentIdx - 1] : null;
     await ensureSnapshotLoaded(state.selectedDate, state.rankMarket);
@@ -981,7 +1083,7 @@ function renderRankings() {
 
     // ★ 排行榜標籤（已評測 + 黑馬）
     const rankReportBadge = findReport(app.name)
-      ? '<span class="rank-report-badge" title="已有評測報告">📄 已評測</span>'
+      ? '<span class="rank-report-badge" title="已有評測報告">評測</span>'
       : '';
     const isDarkhorse = state.darkhorses.some(d => {
       const dName = d.name.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 20);
@@ -989,7 +1091,7 @@ function renderRankings() {
       return dName === aName || d.appId === app.appId;
     });
     const rankDhBadge = isDarkhorse
-      ? '<span class="rank-dh-badge" title="黑馬遊戲">🐴 黑馬</span>'
+      ? '<span class="rank-dh-badge" title="黑馬遊戲">黑馬</span>'
       : '';
 
     return `<tr onclick="showGameInfo('${app.appId}','${app._platform}')" style="cursor:pointer" title="點擊查看遊戲資訊">
@@ -1020,7 +1122,7 @@ function renderRankings() {
   const totalPages = Math.ceil(apps.length / state.rankPageSize);
   if (totalPages > 1) {
     const paginationHtml = `
-      <tr class="rank-pagination"><td colspan="7">
+      <tr class="rank-pagination"><td colspan="6">
         <div style="display:flex;align-items:center;justify-content:center;gap:12px;padding:12px 0">
           <button onclick="state.rankPage=Math.max(1,state.rankPage-1);renderRankings()" 
             style="padding:6px 14px;border-radius:8px;border:1px solid var(--border-glass);background:var(--bg-glass);color:var(--text-secondary);cursor:pointer;font-size:12px" 
@@ -1051,281 +1153,6 @@ function filterRankings() {
 }
 window.filterRankings = filterRankings;
 
-// ============ 趨勢圖 ============
-
-// 預設模式切換
-document.querySelectorAll('.trend-presets .pill').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.trend-presets .pill').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    state.trendPreset = btn.dataset.preset;
-    renderTrendChart();
-  });
-});
-
-function addToTrend(appId, name, platform) {
-  // 切換到自選模式
-  state.trendPreset = 'custom';
-  document.querySelectorAll('.trend-presets .pill').forEach(b => b.classList.remove('active'));
-  document.querySelector('[data-preset="custom"]').classList.add('active');
-
-  if (state.trendApps.find(a => a.appId === appId && a.platform === platform)) return;
-  if (state.trendApps.length >= 10) { alert('最多比較 10 款遊戲'); return; }
-  state.trendApps.push({ appId, name, platform });
-  renderTrendChart();
-  // 切換到趨勢 tab
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-  document.querySelector('[data-tab="trends"]').classList.add('active');
-  document.getElementById('tab-trends').classList.add('active');
-}
-
-function removeFromTrend(appId, platform) {
-  state.trendApps = state.trendApps.filter(a => !(a.appId === appId && a.platform === platform));
-  renderTrendChart();
-}
-
-document.getElementById('btnClearTrend')?.addEventListener('click', () => {
-  state.trendApps = [];
-  renderTrendChart();
-});
-
-/**
- * 根據預設模式取得要顯示的遊戲清單
- */
-function getTrendApps() {
-  if (state.trendPreset === 'custom') return state.trendApps;
-  if (state.availableDates.length === 0) return [];
-
-  const current = state.selectedDate;
-  const currentIdx = state.availableDates.indexOf(current);
-  const prev = currentIdx > 0 ? state.availableDates[currentIdx - 1] : null;
-
-  // 取得當前日期的排行
-  let apps = getCurrentApps(current);
-  if (apps.length === 0) return [];
-
-  if (state.trendPreset === 'top10') {
-    return apps.slice(0, 10).map(a => ({ appId: a.appId, name: a.name, platform: a._platform, icon: a.icon }));
-  }
-
-  // 計算排名變化
-  if (!prev) return apps.slice(0, 10).map(a => ({ appId: a.appId, name: a.name, platform: a._platform, icon: a.icon }));
-  const prevApps = getCurrentApps(prev);
-  const prevMap = {};
-  prevApps.forEach(a => { prevMap[a.appId] = a.rank; });
-
-  const withChange = apps.map(a => ({
-    ...a,
-    prevRank: prevMap[a.appId] || null,
-    change: prevMap[a.appId] ? prevMap[a.appId] - a.rank : 0,
-  }));
-
-  if (state.trendPreset === 'risers') {
-    return withChange
-      .filter(a => a.change > 0)
-      .sort((a, b) => b.change - a.change)
-      .slice(0, 10)
-      .map(a => ({ appId: a.appId, name: a.name, platform: a._platform, icon: a.icon }));
-  }
-
-  if (state.trendPreset === 'drops') {
-    return withChange
-      .filter(a => a.change < 0)
-      .sort((a, b) => a.change - b.change)
-      .slice(0, 10)
-      .map(a => ({ appId: a.appId, name: a.name, platform: a._platform, icon: a.icon }));
-  }
-
-  return [];
-}
-
-/** 取得某天的排行清單 */
-function getCurrentApps(date) {
-  if (state.rankMarket === 'all') return [];
-  if (!date || !state.snapshots[date] || !state.snapshots[date][state.rankMarket]) return [];
-  const marketData = state.snapshots[date][state.rankMarket];
-  const platforms = state.platform === 'all' ? Object.keys(marketData) : [state.platform];
-  let apps = [];
-  platforms.forEach(p => {
-    if (marketData[p] && marketData[p][state.chartType]) {
-      (marketData[p][state.chartType].data || []).forEach(app => apps.push({ ...app, _platform: p }));
-    }
-  });
-  if (state.platform === 'all') {
-    // 按排名合併：用名稱去重（跨平台 appId 不同）
-    function dedupeKeyLocal(app) {
-      return app.name.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 30);
-    }
-    const appMap = new Map();
-    apps.forEach(a => {
-      const key = dedupeKeyLocal(a);
-      const existing = appMap.get(key);
-      if (!existing || a.rank < existing.rank) appMap.set(key, a);
-    });
-    apps = Array.from(appMap.values());
-    apps.sort((a, b) => a.rank - b.rank);
-    apps.forEach((a, i) => a.rank = i + 1);
-  }
-  return apps;
-}
-
-function renderTrendChart() {
-  const canvas = document.getElementById('trendChart');
-  if (trendChart) { trendChart.destroy(); trendChart = null; }
-
-  const appsToShow = getTrendApps();
-  if (appsToShow.length === 0 || state.availableDates.length === 0) {
-    renderTrendLegend([]);
-    return;
-  }
-
-  const colors = ['#3b82f6', '#ef4444', '#10b981', '#f97316', '#8b5cf6', '#06b6d4', '#eab308', '#ec4899', '#f43f5e', '#14b8a6'];
-  const datasets = appsToShow.map((app, i) => {
-    const data = state.availableDates.map(date => {
-      const snap = state.snapshots[date];
-      if (!snap || !snap[state.rankMarket]) return null;
-      const pList = [app.platform];
-      for (const p of pList) {
-        if (snap[state.rankMarket][p] && snap[state.rankMarket][p][state.chartType]) {
-          const found = snap[state.rankMarket][p][state.chartType].data?.find(a => a.appId === app.appId);
-          if (found) return found.rank;
-        }
-      }
-      return null;
-    });
-    // 截短名稱用於終點標籤
-    const shortName = app.name.length > 12 ? app.name.substring(0, 12) + '…' : app.name;
-    return {
-      label: app.name, data, _shortName: shortName,
-      borderColor: colors[i % colors.length], backgroundColor: colors[i % colors.length] + '20',
-      borderWidth: 2.5, tension: 0.3, fill: false, pointRadius: 0, pointHoverRadius: 5,
-    };
-  });
-
-  // 終點標籤 plugin
-  const endLabelPlugin = {
-    id: 'endLabels',
-    afterDatasetsDraw(chart) {
-      const { ctx } = chart;
-      chart.data.datasets.forEach((ds, i) => {
-        const meta = chart.getDatasetMeta(i);
-        if (meta.hidden) return;
-        // 找到最後一個有值的點
-        let lastPoint = null;
-        for (let j = meta.data.length - 1; j >= 0; j--) {
-          if (ds.data[j] != null) { lastPoint = meta.data[j]; break; }
-        }
-        if (!lastPoint) return;
-        ctx.save();
-        ctx.font = '11px Inter, sans-serif';
-        ctx.fillStyle = ds.borderColor;
-        ctx.textAlign = 'left';
-        ctx.textBaseline = 'middle';
-        ctx.fillText(ds._shortName, lastPoint.x + 6, lastPoint.y);
-        ctx.restore();
-      });
-    },
-  };
-
-  trendChart = new Chart(canvas, {
-    type: 'line',
-    data: { labels: state.availableDates.map(d => d.substring(5)), datasets },
-    plugins: [endLabelPlugin],
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      layout: { padding: { right: 100 } }, // 給終點標籤留空間
-      interaction: { mode: 'nearest', axis: 'x', intersect: false },
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            title: (items) => items[0]?.label || '',
-            label: (item) => `${item.dataset.label}: #${item.raw}`,
-          },
-        },
-      },
-      scales: {
-        x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b', font: { size: 11 } } },
-        y: {
-          reverse: true, grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b', font: { size: 11 } },
-          title: { display: true, text: '排名 (越低越好)', color: '#64748b' }
-        },
-      },
-    },
-  });
-
-  renderTrendLegend(appsToShow, colors);
-}
-
-function renderTrendLegend(apps, colors = []) {
-  const legend = document.getElementById('trendLegend');
-  if (!apps || apps.length === 0) {
-    legend.innerHTML = '';
-    return;
-  }
-
-  // 計算每個 app 的排名變化
-  const current = state.selectedDate;
-  const currentIdx = state.availableDates.indexOf(current);
-  const prev = currentIdx > 0 ? state.availableDates[currentIdx - 1] : null;
-  const currentApps = getCurrentApps(current);
-  const prevApps = prev ? getCurrentApps(prev) : [];
-  const prevMap = {};
-  prevApps.forEach(a => { prevMap[a.appId] = a.rank; });
-  const curMap = {};
-  currentApps.forEach(a => { curMap[a.appId] = a.rank; });
-
-  legend.innerHTML = apps.map((app, i) => {
-    const color = colors[i % colors.length] || '#888';
-    const curRank = curMap[app.appId];
-    const prevRank = prevMap[app.appId];
-    let changeHtml = '';
-    if (curRank && prevRank) {
-      const diff = prevRank - curRank;
-      if (diff > 0) changeHtml = `<span class="change up">▲${diff}</span>`;
-      else if (diff < 0) changeHtml = `<span class="change down">▼${Math.abs(diff)}</span>`;
-    }
-    const rankStr = curRank ? `#${curRank}` : '';
-    const removeBtn = state.trendPreset === 'custom' ? `<span class="remove" onclick="event.stopPropagation();removeFromTrend('${app.appId}','${app.platform}')">✕</span>` : '';
-    const iconUrl = app.icon || currentApps.find(a => a.appId === app.appId)?.icon || '';
-    return `<div class="trend-legend-item" data-index="${i}">
-      <span class="dot" style="background:${color}"></span>
-      <img class="legend-icon" src="${iconUrl}" alt="" onerror="this.style.display='none'">
-      <span class="name">${app.name}</span>
-      <span class="rank">${rankStr}</span>
-      ${changeHtml || '<span></span>'}
-      ${removeBtn || '<span></span>'}
-    </div>`;
-  }).join('');
-
-  // 綁定 hover 高亮
-  legend.querySelectorAll('.trend-legend-item').forEach(item => {
-    item.addEventListener('mouseenter', () => {
-      if (!trendChart) return;
-      const idx = parseInt(item.dataset.index);
-      trendChart.data.datasets.forEach((ds, i) => {
-        ds.borderWidth = i === idx ? 4 : 1;
-        ds.borderColor = i === idx
-          ? colors[i % colors.length]
-          : colors[i % colors.length] + '30';
-        ds.pointRadius = i === idx ? 4 : 0;
-      });
-      trendChart.update('none');
-    });
-    item.addEventListener('mouseleave', () => {
-      if (!trendChart) return;
-      trendChart.data.datasets.forEach((ds, i) => {
-        ds.borderWidth = 2.5;
-        ds.borderColor = colors[i % colors.length];
-        ds.pointRadius = 0;
-      });
-      trendChart.update('none');
-    });
-  });
-}
-
-window.removeFromTrend = removeFromTrend;
 
 // ============ 搜尋快捷連結 ============
 function buildSearchLinksHTML(gameName, storeUrl, appId, platform) {
@@ -1380,6 +1207,41 @@ function showAnalysis(appId, platform) {
   trackedMatches.forEach(t => {
     if (t.triggers && t.triggers.length > 0 && !allDh.find(d => d.appId === t.appId && d.platform === t.platform)) {
       allDh.push(t);
+    }
+  });
+
+  // 修正：動態同步 allDh 的 currentRank 及其 triggers 的名次為最新排名，解決彈窗黑馬觸發條件名次過期的問題
+  allDh.forEach(dh => {
+    // 優先從當日排行榜快照獲取最新排名，以確保最新最準確
+    let latestRank = null;
+    const targetMarket = dh.market || dh.marketCode || state.rankMarket;
+    const date = state.selectedDate;
+    if (date && state.snapshots[date] && state.snapshots[date][targetMarket]) {
+      const md = state.snapshots[date][targetMarket];
+      const plat = dh.platform;
+      const chartType = dh.chartType || 'topfree';
+      if (md[plat] && md[plat][chartType]) {
+        const found = md[plat][chartType].data.find(a => a.appId === dh.appId);
+        if (found) latestRank = found.rank;
+      }
+    }
+    // 如果快照找不到，退而求其次使用 dh.currentRank
+    if (!latestRank) latestRank = dh.currentRank;
+
+    if (latestRank) {
+      dh.currentRank = latestRank;
+      if (dh.markets) {
+        dh.markets = dh.markets.map(m => {
+          if (m.code === targetMarket) return { ...m, rank: latestRank };
+          return m;
+        });
+      }
+      if (dh.triggers) {
+        dh.triggers.forEach(t => {
+          // 動態儲存最新排名，在渲染時才進行格式化，不破壞底層原始偵測資料
+          t._latestRank = latestRank;
+        });
+      }
     }
   });
 
@@ -1460,6 +1322,14 @@ function showAnalysis(appId, platform) {
     seenPlatforms.add(d.platform);
     const baseChartLabel = d.chartType === 'grossing' ? '營收' : '免費';
     const platformName = d.platform === 'android' ? 'Android' : 'iOS';
+    
+    // 取得該平台黑馬的首次偵測日期
+    const triggerDate = (() => {
+      const raw = d.detectedAt || d._retainedFrom || '';
+      if (!raw) return '';
+      try { return new Date(raw).toISOString().split('T')[0]; } catch { return raw.split('T')[0]; }
+    })();
+
     d.triggers.forEach(t => {
       let triggerSrc = t._src || `${platformName} ${baseChartLabel}`;
       if (!t._src) {
@@ -1470,10 +1340,12 @@ function showAnalysis(appId, platform) {
       const dedupeKey = `${t.strategy || t.label}|${triggerSrc}`;
       if (!seenTriggerKeys.has(dedupeKey)) {
         seenTriggerKeys.add(dedupeKey);
-        mergedTriggers.push({ ...t, _src: triggerSrc, _srcPlatform: d.platform });
+        mergedTriggers.push({ ...t, _src: triggerSrc, _srcPlatform: d.platform, _detectedAt: t._detectedAt || triggerDate });
       }
     });
   });
+
+  dh.mergedTriggers = mergedTriggers;
 
   // 平台顯示
   const platformArr = Array.from(seenPlatforms);
@@ -1489,77 +1361,245 @@ function showAnalysis(appId, platform) {
     try { return new Date(raw).toISOString().split('T')[0]; } catch { return raw.split('T')[0]; }
   })();
   const isRetainedModal = !!dh._retained;
+  const isDarkhorseMode = mergedTriggers.length > 0;
+
+  // 1. AI 深度研判與摘要 (Unified block)
+  let aiSectionHtml = '';
+  const reportMd = findReport(dh.name);
+
+  // Extract Markdown summary if report exists
+  let extractedSummary = '';
+  if (reportMd) {
+    const summaryMatch = reportMd.match(/> \*\*📌 一句話評語\*\*：(.*)/) || reportMd.match(/> \*\*📌 一句話評語\*\*(.*)/);
+    if (summaryMatch) {
+      extractedSummary = summaryMatch[1].trim();
+    } else {
+      const reportLines = reportMd.split('\n');
+      for (const line of reportLines) {
+        if (line.startsWith('> ') && !line.includes('評測依據') && !line.includes('評測方法') && !line.trim().startsWith('> |')) {
+          extractedSummary = line.replace(/^>\s*/, '').replace(/^\*\*📌 一句話評語\*\*：/, '').trim();
+          break;
+        }
+      }
+    }
+  }
+
+  // Determine main summary text
+  let mainSummary = '';
+  if (extractedSummary) {
+    mainSummary = extractedSummary;
+  } else if (analysis && analysis.aiSummary) {
+    mainSummary = analysis.aiSummary;
+  } else if (reportMd) {
+    mainSummary = "此遊戲已完成完整產品評測與市場表現研判。";
+  }
+
+  if (mainSummary) {
+    // Determine inline reasons html
+    let inlineReasonsHtml = '';
+    if (analysis && (analysis.inferredReasons || []).length > 0) {
+      inlineReasonsHtml = `
+        <div class="ai-reasons-inline">
+          <div class="ai-reasons-inline-title">💡 竄升動因推測</div>
+          <div class="ai-reasons-inline-list">
+            ${analysis.inferredReasons.map(r => {
+              const confColor = r.confidence === 'high' ? 'var(--accent-green)' : r.confidence === 'medium' ? 'var(--accent-yellow)' : 'var(--text-muted)';
+              const confBg = r.confidence === 'high' ? 'rgba(16,185,129,0.1)' : r.confidence === 'medium' ? 'rgba(234,179,8,0.1)' : 'rgba(100,116,139,0.1)';
+              const cleanDetail = r.detail.replace(/(\d+\.\d{2})\d+/g, (m, p1) => parseFloat(m).toFixed(1));
+              return `
+                <div class="ai-reason-inline-item" style="border-left: 2px solid ${confColor};">
+                  <span class="ai-reason-inline-label">${r.label}</span>
+                  <span class="ai-reason-inline-confidence" style="background:${confBg};color:${confColor}">${r.confidence === 'high' ? '高信心' : r.confidence === 'medium' ? '中信心' : '低信心'}</span>
+                  <span class="ai-reason-inline-detail">${cleanDetail}</span>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    aiSectionHtml = `
+      <div class="analysis-section">
+        <h4>📋 AI 深度研判與摘要</h4>
+        <div class="ai-conclusion-card">
+          <div class="ai-conclusion-summary">
+            ${mainSummary}
+          </div>
+          ${inlineReasonsHtml}
+        </div>
+      </div>
+    `;
+  } else {
+    aiSectionHtml = `
+      <div class="analysis-section">
+        <h4>📋 AI 深度研判與摘要</h4>
+        <div class="ai-conclusion-card" style="border-left-color: var(--text-muted);">
+          <p style="color:var(--text-muted); margin:0; font-size:13px;">尚未分析此遊戲。請在對話中輸入「分析 [遊戲名稱]」。</p>
+        </div>
+      </div>
+    `;
+  }
+
+  // 2. 黑馬偵測快照與「生命軌跡時間軸」
+  let triggersTimelineHtml = '';
+  if (isDarkhorseMode) {
+    const timelineGroups = {};
+    mergedTriggers.forEach(t => {
+      const raw = t._detectedAt || '歷史偵測';
+      // 將 ISO 時間戳格式化為 YYYY-MM-DD
+      const dKey = raw === '歷史偵測' ? raw : raw.substring(0, 10);
+      if (!timelineGroups[dKey]) timelineGroups[dKey] = [];
+      timelineGroups[dKey].push(t);
+    });
+
+    const sortedDates = Object.keys(timelineGroups).sort((a, b) => {
+      if (a === '歷史偵測') return 1;
+      if (b === '歷史偵測') return -1;
+      return a.localeCompare(b);
+    });
+
+    triggersTimelineHtml = `
+    <div class="analysis-section">
+      <h4>📅 歷史偵測生命軌跡時間軸</h4>
+      <div class="timeline">
+        ${sortedDates.map(date => {
+          const triggersInDate = timelineGroups[date];
+          return `
+            <div class="timeline-item">
+              <div class="timeline-badge"></div>
+              <div class="timeline-date">${date}</div>
+              <div class="timeline-content" style="gap: 4px;">
+                ${triggersInDate.map(t => {
+                  const srcCls = t._src?.includes('營收') ? 'src-grossing' : t._src === '雙榜' ? 'src-dual' : t._src === '雙平台' ? 'src-cross' : 'src-free';
+                  const srcTag = `<span class="trigger-src ${srcCls}">${t._src}</span>`;
+                  const formattedDetail = formatTriggerDetail(t.detail, t._latestRank || dh.currentRank);
+                  return `
+                    <div class="timeline-row">
+                      <div class="timeline-row-title">${srcTag} <strong>${t.label}</strong></div>
+                      <div class="timeline-row-detail">${formattedDetail}</div>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>`;
+  }
+
+  // 3. 基礎 4 項數據縮小為底部橫條
+  let detail = analysis?.detail || {};
+  if (!detail.released) {
+    const date = state.selectedDate;
+    if (date && state.snapshots[date] && state.snapshots[date][state.rankMarket]) {
+      const md = state.snapshots[date][state.rankMarket];
+      for (const p of ['ios', 'android']) {
+        for (const ct of ['topfree', 'grossing']) {
+          if (md[p] && md[p][ct]) {
+            const found = md[p][ct].data.find(a => a.appId === appId);
+            if (found) { detail = { ...detail, released: found.released, updated: found.updated, contentRating: found.contentRating, free: found.free, price: found.price, summary: found.summary || detail.summary }; break; }
+          }
+        }
+        if (detail.released) break;
+      }
+    }
+  }
+  const released = detail.released ? (() => { try { const d = new Date(detail.released); return isNaN(d) ? detail.released : d.toISOString().split('T')[0]; } catch { return detail.released; } })() : '—';
+  const updated = detail.updated ? (() => { try { const d = new Date(detail.updated); return isNaN(d) ? detail.updated : d.toISOString().split('T')[0]; } catch { return detail.updated; } })() : '—';
+  const contentRating = detail.contentRating || '—';
+  const priceStr = detail.free === false ? `$${detail.price || '?'}` : '免費';
+
+  const footerMetadataHtml = `
+    <div class="modal-footer-metadata">
+      <span>📅 上架日期：${released}</span>
+      <span>🔄 最近更新：${updated}</span>
+      <span>🔞 內容分級：${contentRating}</span>
+      <span>💰 價格定位：${priceStr}</span>
+    </div>
+  `;
+
+  // 4. 其它區塊 (遊戲簡介, 相關報導, 評分分布, 觀察方向, AppMagic Links 等)
+  const summary = analysis?.detail?.summary || (() => {
+    const date = state.selectedDate;
+    if (date && state.snapshots[date] && state.snapshots[date][state.rankMarket]) {
+      const md = state.snapshots[date][state.rankMarket];
+      for (const p of ['ios', 'android']) {
+        for (const ct of ['topfree', 'grossing']) {
+          if (md[p] && md[p][ct]) { const f = md[p][ct].data.find(a => a.appId === appId); if (f && f.summary) return f.summary; }
+        }
+      }
+    }
+    return '';
+  })();
+  const introductionHtml = summary ? `<div class="analysis-section"><h4>📝 遊戲簡介</h4><div class="reason-card" style="border-left-color:var(--accent-purple);font-size:13px;line-height:1.7;color:var(--text-secondary)">${summary}</div></div>` : '';
+
+  const newsHtml = (analysis?.newsArticles || []).length > 0 ? `
+    <div class="analysis-section">
+      <h4>📰 相關報導</h4>
+      ${analysis.newsArticles.map(n => `
+        <a href="${n.url}" target="_blank" style="display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:var(--radius-sm);background:rgba(255,255,255,0.03);margin-bottom:6px;text-decoration:none;color:var(--text-secondary);transition:var(--transition)" onmouseover="this.style.background='rgba(255,255,255,0.06)'" onmouseout="this.style.background='rgba(255,255,255,0.03)'">
+          <span style="font-size:11px;color:var(--text-muted);min-width:80px">${n.source}</span>
+          <span style="flex:1;color:var(--text-primary);font-size:13px">${n.title}</span>
+          <span style="font-size:11px;color:var(--text-muted)">${n.date || ''}</span>
+        </a>`).join('')}
+    </div>` : '';
+
+  const ratingsHtml = (analysis?.reviewAnalysis && analysis.reviewAnalysis.total > 0) ? `
+    <div class="analysis-section">
+      <h4>💬 評論星等分布</h4>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px">
+        ${(() => {
+          const sc = analysis.reviewAnalysis?.starCounts || {}; return `
+            <div class="stat-card" style="flex:1;min-width:60px"><div class="stat-label">⭐5</div><div class="stat-value" style="color:var(--accent-green)">${sc[5] || 0}</div></div>
+            <div class="stat-card" style="flex:1;min-width:60px"><div class="stat-label">⭐4</div><div class="stat-value" style="color:#a3e635">${sc[4] || 0}</div></div>
+            <div class="stat-card" style="flex:1;min-width:60px"><div class="stat-label">⭐3</div><div class="stat-value" style="color:var(--accent-yellow)">${sc[3] || 0}</div></div>
+            <div class="stat-card" style="flex:1;min-width:60px"><div class="stat-label">⭐2</div><div class="stat-value" style="color:var(--accent-orange)">${sc[2] || 0}</div></div>
+            <div class="stat-card" style="flex:1;min-width:60px"><div class="stat-label">⭐1</div><div class="stat-value" style="color:var(--accent-red)">${sc[1] || 0}</div></div>
+            `;
+        })()}
+      </div>
+      <div style="font-size:12px;color:var(--text-muted)">最新 ${analysis.reviewAnalysis?.total || 0} 則評論取樣${analysis.reviewAnalysis?.positiveRatio != null ? ` · 好評率 ${analysis.reviewAnalysis.positiveRatio}%` : ''} <span style="opacity:0.6">（僅反映近期趨勢，非整體評價）</span></div>
+    </div>` : '';
+
+  const recentChangesHtml = analysis?.detail?.recentChanges ? `
+    <div class="analysis-section">
+      <h4>📝 最近更新內容</h4>
+      <div style="font-size:13px;color:var(--text-secondary);line-height:1.6;padding:10px 14px;background:rgba(255,255,255,0.03);border-radius:var(--radius-sm)">${analysis.detail.recentChanges}</div>
+    </div>` : '';
+
+  const suggestionsHtml = (analysis?.suggestions || []).length > 0 ? `
+    <div class="analysis-section">
+      <h4>🎯 建議觀察方向</h4>
+      ${analysis.suggestions.map(s => `<div style="display:flex;gap:8px;margin-bottom:6px;font-size:13px;color:var(--text-secondary)"><span style="color:var(--accent-cyan)">▸</span>${s}</div>`).join('')}
+    </div>` : '';
 
   const body = document.getElementById('modalBody');
   body.innerHTML = `
-    <div class="modal-app-header">
+    <div class="modal-app-header" style="display: flex; align-items: center; gap: 16px; margin-bottom: 24px; position: relative;">
       <img src="${dh.icon || ''}" alt="" style="width:72px;height:72px;border-radius:16px" onerror="this.style.display='none'">
-      <div>
-        <div class="modal-app-title">${dh.name}</div>
-        <div class="modal-app-dev">${dh.developer || ''} · ${dh.marketFlag} ${dh.marketName} · ${platformDisplay}</div>
-        ${detectedAtStr ? `<div style="font-size:11px;color:var(--text-muted);margin-top:4px">${isRetainedModal ? '👀 首次偵測' : '🆕 偵測日期'}：${detectedAtStr}${isRetainedModal ? ' · 持續觀察中' : ''}</div>` : ''}
+      <div style="flex: 1; min-width: 0; display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
+        <div style="min-width: 200px; flex: 1;">
+          <div class="modal-app-title" style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">${dh.name}</div>
+          <div class="modal-app-dev">${dh.developer || ''} · ${dh.marketFlag} ${dh.marketName} · ${platformDisplay}</div>
+          ${detectedAtStr ? `<div style="font-size:11px;color:var(--text-muted);margin-top:4px">${isRetainedModal ? '👀 首次偵測' : '🆕 偵測日期'}：${detectedAtStr}${isRetainedModal ? ' · 持續觀察中' : ''}</div>` : ''}
+        </div>
+        ${findReport(dh.name) ? `
+          <button class="report-btn-sleek" style="align-self: flex-start; margin-top: 4px;" onclick="event.stopPropagation();showReport('${dh.name.replace(/'/g, "\\'")}','${dh.appId}','${dh.platform}')">
+            📄 查看完整報告
+          </button>
+        ` : ''}
       </div>
     </div>
-    ${findReport(dh.name) ? `<button class="report-btn" style="margin-bottom:16px" onclick="event.stopPropagation();showReport('${dh.name.replace(/'/g, "\\'")}')">📄 查看完整評測報告</button>` : ''}
-    ${(() => {
-      // 從 analysis.detail 取基本資訊，或從排行榜快照 fallback
-      let detail = analysis?.detail || {};
-      // 排行榜快照 fallback
-      if (!detail.released) {
-        const date = state.selectedDate;
-        if (date && state.snapshots[date] && state.snapshots[date][state.rankMarket]) {
-          const md = state.snapshots[date][state.rankMarket];
-          for (const p of ['ios', 'android']) {
-            for (const ct of ['topfree', 'grossing']) {
-              if (md[p] && md[p][ct]) {
-                const found = md[p][ct].data.find(a => a.appId === appId);
-                if (found) { detail = { ...detail, released: found.released, updated: found.updated, contentRating: found.contentRating, free: found.free, price: found.price, summary: found.summary || detail.summary }; break; }
-              }
-            }
-            if (detail.released) break;
-          }
-        }
-      }
-      const released = detail.released ? (() => { try { const d = new Date(detail.released); return isNaN(d) ? detail.released : d.toISOString().split('T')[0]; } catch { return detail.released; } })() : '—';
-      const updated = detail.updated ? (() => { try { const d = new Date(detail.updated); return isNaN(d) ? detail.updated : d.toISOString().split('T')[0]; } catch { return detail.updated; } })() : '—';
-      const contentRating = detail.contentRating || '—';
-      const priceStr = detail.free === false ? `$${detail.price || '?'}` : '免費';
-      return `
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin:20px 0">
-        <div class="stat-card"><div class="stat-label">上架日期</div><div class="stat-value" style="font-size:15px">${released}</div></div>
-        <div class="stat-card"><div class="stat-label">最近更新</div><div class="stat-value" style="font-size:15px">${updated}</div></div>
-        <div class="stat-card"><div class="stat-label">內容分級</div><div class="stat-value" style="font-size:15px">${contentRating}</div></div>
-        <div class="stat-card"><div class="stat-label">價格</div><div class="stat-value" style="font-size:15px">${priceStr}</div></div>
-      </div>`;
-    })()}
-    ${(() => {
-      const summary = analysis?.detail?.summary || (() => {
-        const date = state.selectedDate;
-        if (date && state.snapshots[date] && state.snapshots[date][state.rankMarket]) {
-          const md = state.snapshots[date][state.rankMarket];
-          for (const p of ['ios', 'android']) {
-            for (const ct of ['topfree', 'grossing']) {
-              if (md[p] && md[p][ct]) { const f = md[p][ct].data.find(a => a.appId === appId); if (f && f.summary) return f.summary; }
-            }
-          }
-        }
-        return '';
-      })();
-      return summary ? `<div class="analysis-section"><h4>📝 遊戲簡介</h4><div class="reason-card" style="border-left-color:var(--accent-purple);font-size:13px;line-height:1.7;color:var(--text-secondary)">${summary}</div></div>` : '';
-    })()}
-    ${mergedTriggers.length > 0 ? `
-    <div class="analysis-section">
-      <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:8px">
-        <h4 style="margin:0">🐴 黑馬觸發條件</h4>
-        ${detectedAtStr ? `<span style="font-size:11px;color:var(--text-muted)">偵測快照：${detectedAtStr}</span>` : ''}
-      </div>
-      ${mergedTriggers.map(t => {
-      const srcCls = t._src?.includes('營收') ? 'src-grossing' : t._src === '雙榜' ? 'src-dual' : t._src === '雙平台' ? 'src-cross' : 'src-free';
-      const rcCls = srcCls.replace('src-', 'rc-');
-      const srcTag = `<span class="trigger-src ${srcCls}">${t._src}</span>`;
-      return `<div class="reason-card ${rcCls}"><div class="reason-label">${srcTag}${t.label}</div><div class="reason-detail">${t.detail}</div></div>`;
-    }).join('')}
-    </div>` : ''}
+    
+    <!-- AI 置頂分析區 -->
+    ${aiSectionHtml}
+    
+    <!-- 黑馬歷史偵測生命軌跡時間軸 -->
+    ${triggersTimelineHtml}
+    
+    <!-- 歷史排行走勢圖 -->
     <div class="analysis-section">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
         <h4 style="margin:0">📈 排名歷史</h4>
@@ -1576,64 +1616,20 @@ function showAnalysis(appId, platform) {
       </div>
       <div class="chart-container"><canvas id="modalChart"></canvas></div>
     </div>
-    ${analysis ? `
-      ${analysis.aiSummary ? `
-      <div class="analysis-section">
-        <h4>📋 AI 分析摘要</h4>
-        <div class="reason-card" style="border-left-color:var(--accent-cyan);font-size:14px;line-height:1.7;color:var(--text-primary)">
-          ${analysis.aiSummary}
-        </div>
-      </div>` : ''}
-      <div class="analysis-section">
-        <h4>🔍 推測竄升原因</h4>
-        ${(analysis.inferredReasons || []).map(r => `
-          <div class="reason-card" style="border-left-color:${r.confidence === 'high' ? 'var(--accent-green)' : r.confidence === 'medium' ? 'var(--accent-yellow)' : 'var(--text-muted)'}">
-            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
-              <div class="reason-label">${r.label}</div>
-              <span style="font-size:10px;padding:2px 8px;border-radius:8px;background:${r.confidence === 'high' ? 'rgba(16,185,129,0.15)' : r.confidence === 'medium' ? 'rgba(234,179,8,0.15)' : 'rgba(100,116,139,0.15)'};color:${r.confidence === 'high' ? 'var(--accent-green)' : r.confidence === 'medium' ? 'var(--accent-yellow)' : 'var(--text-muted)'}">${r.confidence === 'high' ? '高信心' : r.confidence === 'medium' ? '中信心' : '低信心'}</span>
-            </div>
-            <div class="reason-detail">${r.detail.replace(/(\d+\.\d{2})\d+/g, (m, p1) => parseFloat(m).toFixed(1))}</div>
-            ${r.sources ? `<div style="margin-top:4px;font-size:11px">${r.sources.map(s => `<a href="${s}" target="_blank" style="color:var(--accent-blue);margin-right:8px">${new URL(s).hostname}</a>`).join('')}</div>` : ''}
-          </div>`).join('')}
-      </div>
-      ${(analysis.newsArticles || []).length > 0 ? `
-      <div class="analysis-section">
-        <h4>📰 相關報導</h4>
-        ${analysis.newsArticles.map(n => `
-          <a href="${n.url}" target="_blank" style="display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:var(--radius-sm);background:rgba(255,255,255,0.03);margin-bottom:6px;text-decoration:none;color:var(--text-secondary);transition:var(--transition)" onmouseover="this.style.background='rgba(255,255,255,0.06)'" onmouseout="this.style.background='rgba(255,255,255,0.03)'">
-            <span style="font-size:11px;color:var(--text-muted);min-width:80px">${n.source}</span>
-            <span style="flex:1;color:var(--text-primary);font-size:13px">${n.title}</span>
-            <span style="font-size:11px;color:var(--text-muted)">${n.date || ''}</span>
-          </a>`).join('')}
-      </div>` : ''}
-      ${(analysis.reviewAnalysis && analysis.reviewAnalysis.total > 0) ? `
-      <div class="analysis-section">
-        <h4>💬 評論星等分布</h4>
-        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px">
-          ${(() => {
-        const sc = analysis.reviewAnalysis?.starCounts || {}; return `
-          <div class="stat-card" style="flex:1;min-width:60px"><div class="stat-label">⭐5</div><div class="stat-value" style="color:var(--accent-green)">${sc[5] || 0}</div></div>
-          <div class="stat-card" style="flex:1;min-width:60px"><div class="stat-label">⭐4</div><div class="stat-value" style="color:#a3e635">${sc[4] || 0}</div></div>
-          <div class="stat-card" style="flex:1;min-width:60px"><div class="stat-label">⭐3</div><div class="stat-value" style="color:var(--accent-yellow)">${sc[3] || 0}</div></div>
-          <div class="stat-card" style="flex:1;min-width:60px"><div class="stat-label">⭐2</div><div class="stat-value" style="color:var(--accent-orange)">${sc[2] || 0}</div></div>
-          <div class="stat-card" style="flex:1;min-width:60px"><div class="stat-label">⭐1</div><div class="stat-value" style="color:var(--accent-red)">${sc[1] || 0}</div></div>
-          `;
-      })()}
-        </div>
-        <div style="font-size:12px;color:var(--text-muted)">最新 ${analysis.reviewAnalysis?.total || 0} 則評論取樣${analysis.reviewAnalysis?.positiveRatio != null ? ` · 好評率 ${analysis.reviewAnalysis.positiveRatio}%` : ''} <span style="opacity:0.6">（僅反映近期趨勢，非整體評價）</span></div>
-      </div>` : ''}
-      ${analysis.detail?.recentChanges ? `
-      <div class="analysis-section">
-        <h4>📝 最近更新內容</h4>
-        <div style="font-size:13px;color:var(--text-secondary);line-height:1.6;padding:10px 14px;background:rgba(255,255,255,0.03);border-radius:var(--radius-sm)">${analysis.detail.recentChanges}</div>
-      </div>` : ''}
-      ${(analysis.suggestions || []).length > 0 ? `
-      <div class="analysis-section">
-        <h4>🎯 建議觀察方向</h4>
-        ${analysis.suggestions.map(s => `<div style="display:flex;gap:8px;margin-bottom:6px;font-size:13px;color:var(--text-secondary)"><span style="color:var(--accent-cyan)">▸</span>${s}</div>`).join('')}
-      </div>` : ''}
-    ` : '<div class="analysis-section"><h4>🔍 深度分析</h4><p style="color:var(--text-muted)">尚未分析此遊戲。請在對話中輸入「分析 [遊戲名稱] 黑馬」。</p></div>'}
-    ${buildSearchLinksHTML(dh.name, dh.url, dh.appId, dh.platform)}`;
+
+    <!-- 其它分析細節 -->
+    ${introductionHtml}
+    ${newsHtml}
+    ${ratingsHtml}
+    ${recentChangesHtml}
+    ${suggestionsHtml}
+    
+    <!-- 底部收斂橫向 Metadata 文字條 -->
+    ${footerMetadataHtml}
+    
+    <!-- AppMagic 與商店搜尋連結 -->
+    ${buildSearchLinksHTML(dh.name, dh.url, dh.appId, dh.platform)}
+  `;
 
   document.getElementById('analysisModal').classList.add('active');
 
@@ -1784,6 +1780,7 @@ function renderModalChart(dh, days, activeBtn) {
   const labels = allDates.map(d => d.substring(5));
   const datasets = lines.map(line => {
     const dataMap = new Map(line.data.map(h => [h.date, h.rank]));
+
     return {
       label: line.label,
       data: allDates.map(d => {
@@ -1795,8 +1792,11 @@ function renderModalChart(dh, days, activeBtn) {
       borderWidth: 2,
       fill: false,
       tension: 0.3,
-      pointBackgroundColor: line.color,
+      pointStyle: 'circle',
       pointRadius: 4,
+      pointHoverRadius: 6,
+      pointBackgroundColor: line.color,
+      pointBorderColor: line.color,
       spanGaps: true,
     };
   });
@@ -1830,13 +1830,13 @@ function renderModalChart(dh, days, activeBtn) {
         },
       },
       scales: {
-        x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b' } },
+        x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8' } },
         y: { 
           reverse: true, 
           min: -3, 
           max: chartMax, 
           grid: { color: 'rgba(255,255,255,0.05)' }, 
-          ticks: { color: '#64748b' }, 
+          ticks: { color: '#94a3b8' }, 
           afterBuildTicks(axis) { 
             const t = [{value: 1}];
             for (let v = 10; v <= chartMax; v += 10) t.push({value: v});
@@ -1849,19 +1849,8 @@ function renderModalChart(dh, days, activeBtn) {
 }
 window.renderModalChart = renderModalChart;
 
-// ============ AppMagic Links ============
-function renderAppMagicLinks() {
-  const container = document.getElementById('appmagicLinks');
-  container.innerHTML = MARKETS.map(m => `
-    <a href="https://appmagic.rocks/top-charts/apps?country=${m.code}" target="_blank"
-       style="display:flex;align-items:center;gap:8px;padding:12px 16px;border-radius:var(--radius-sm);background:var(--bg-glass);border:1px solid var(--border-glass);color:var(--text-secondary);text-decoration:none;transition:var(--transition);font-size:13px"
-       onmouseover="this.style.background='rgba(255,255,255,0.08)'" onmouseout="this.style.background='var(--bg-glass)'">
-      <span style="font-size:20px">${m.flag}</span><span>${m.name}排行</span><span style="margin-left:auto">→</span>
-    </a>`).join('');
-}
 
 window.showAnalysis = showAnalysis;
-window.addToTrend = addToTrend;
 
 // ============ 評測報告 ============
 
@@ -1901,7 +1890,7 @@ function findReport(gameName) {
 /**
  * 顯示評測報告 Modal
  */
-function showReport(gameName) {
+function showReport(gameName, appId, platform) {
   const md = findReport(gameName);
   if (!md) return;
 
@@ -1915,16 +1904,32 @@ function showReport(gameName) {
       return `<a href="${href}"${titleAttr} target="_blank" rel="noopener noreferrer">${text}</a>`;
     };
     let html = marked.parse(md, { renderer });
+    // 替換平台圖示為網頁專屬 SVG
+    html = html.replace(/🤖/g, ICON_ANDROID).replace(/🍎/g, ICON_IOS);
     // 修正狀態 icon 歪掉：td 只含狀態符號時強制置中
     html = html.replace(/<td[^>]*>\s*(✅|⚠️|❌|❓)\s*<\/td>/g,
       '<td style="text-align:center;font-size:16px;vertical-align:middle">$1</td>');
     // 支援 marked.js align 屬性（確保置中對齊生效）
     html = html.replace(/<td align="center"/g, '<td style="text-align:center"');
     html = html.replace(/<th align="center"/g, '<th style="text-align:center"');
-    // ★ 下載按鈕（放在報告內容上方，左側對齊，與關閉按鈕保持距離）
+    // ★ 報告工具列：返回（左）+ 下載（右）
     const safeGameName = gameName.replace(/'/g, "\\'");
-    const downloadBtn = `<div style="margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.06)"><button onclick="event.stopPropagation();downloadReportHTML('${safeGameName}')" style="display:inline-flex;align-items:center;gap:8px;padding:8px 18px;border-radius:8px;border:1px solid rgba(59,130,246,0.3);background:rgba(59,130,246,0.1);color:#60a5fa;cursor:pointer;font-size:13px;font-weight:600;transition:all 0.2s" onmouseover="this.style.background='rgba(59,130,246,0.25)'" onmouseout="this.style.background='rgba(59,130,246,0.1)'">⬇ 下載評測報告（HTML）</button></div>`;
-    body.innerHTML = `${downloadBtn}<div class="report-content">${html}</div>`;
+    const backBtn = appId
+      ? `<a class="report-back-btn" onclick="event.stopPropagation();showAnalysis('${appId}','${platform}')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>返回
+         </a>`
+      : '';
+    const downloadBtn = `<button class="report-download-btn" onclick="event.stopPropagation();downloadReportHTML('${safeGameName}')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+      </svg>下載報告
+    </button>`;
+    body.innerHTML = `<div class="report-toolbar"><div class="report-toolbar-left">${backBtn}</div><div class="report-toolbar-right">${downloadBtn}</div></div><div class="report-content">${html}</div>`;
     // 4 欄以上的寬表格：加 wide-table class 啟用橫捲；窄表格正常換行
     body.querySelectorAll('.report-content table').forEach(table => {
       const firstRow = table.querySelector('tr');
@@ -1955,6 +1960,8 @@ function downloadReportHTML(gameName) {
     return `<a href="${href}"${titleAttr} target="_blank" rel="noopener noreferrer">${text}</a>`;
   };
   let html = marked.parse(md, { renderer });
+  // 替換平台圖示為網頁專屬 SVG
+  html = html.replace(/🤖/g, ICON_ANDROID).replace(/🍎/g, ICON_IOS);
   html = html.replace(/<td[^>]*>\s*(✅|⚠️|❌|❓)\s*<\/td>/g,
     '<td style="text-align:center;font-size:16px;vertical-align:middle">$1</td>');
 
@@ -2156,13 +2163,19 @@ async function renderTracked() {
           : `<span class="rank-change rank-change--same">— 持平</span>`
       : '';
 
-    const statusBadge = stillDarkhorse
-      ? '<span class="tracked-status tracked-status--darkhorse">🐴 仍是黑馬</span>'
-      : currentRank && currentRank <= (t.currentRank || 999)
-        ? '<span class="tracked-status tracked-status--stable">📊 排名穩定</span>'
-        : currentRank
-          ? '<span class="tracked-status tracked-status--onChart">📉 排名下滑</span>'
-          : '<span class="tracked-status tracked-status--dropped">⚠️ 已跌出榜</span>';
+    // 計算智慧生命週期狀態
+    let statusBadge = '';
+    if (!currentRank) {
+      statusBadge = '<span class="tracked-status tracked-status--dropped">已跌出榜</span>';
+    } else if (rankChange !== null && rankChange < -30) {
+      statusBadge = '<span class="tracked-status tracked-status--fatigue">快速衰退期</span>';
+    } else if (currentRank <= 10) {
+      statusBadge = '<span class="tracked-status tracked-status--stable-top">穩定霸榜期</span>';
+    } else if (rankChange !== null && rankChange > 15) {
+      statusBadge = '<span class="tracked-status tracked-status--secondary-surge">二次爆發</span>';
+    } else {
+      statusBadge = '<span class="tracked-status tracked-status--stable">波動穩定期</span>';
+    }
 
     const platforms = t._platforms || [t.platform];
     const platformLabel = platforms.length >= 2
@@ -2187,7 +2200,7 @@ async function renderTracked() {
     // 報告 badge
     const hasReport = !!findReport(t.name);
     const reportBadge = hasReport
-      ? '<span class="dh-tag report-ready" title="已有評測報告">📄 已評測</span>'
+      ? '<span class="dh-tag report-ready" title="已有評測報告">評測</span>'
       : '';
 
     // 市場標籤
@@ -2323,17 +2336,86 @@ function renderReportsTab() {
     'Battle Royale': '大逃殺'
   };
 
+  const standardizeTag = (tag) => {
+    const t = tag.trim();
+    const tLower = t.toLowerCase();
+    
+    // 1. LBS / 地理定位
+    if (tLower.includes('lbs') || tLower.includes('location-based') || tLower.includes('ar') || t === 'AR' || t.includes('地理定位') || t.includes('定位') || t.includes('散步') || t.includes('步行') || t.includes('地圖') || t.includes('gps')) {
+      return 'LBS / 地理定位';
+    }
+    // 2. 益智問答
+    if (['腦筋急轉彎', '益智問答', '問答', 'trivia', '文字', 'word', 'brain teaser', 'quiz', '數獨', 'sudoku'].some(k => tLower.includes(k))) {
+      return '益智問答';
+    }
+    // 3. 解謎冒險
+    if (['解謎', '點擊解謎', '故事解謎', '點擊冒險', 'point-and-click', '冒險', 'adventure', '隱藏物件', 'hidden object', 'puzzle', '益智'].some(k => tLower.includes(k))) {
+      return '解謎冒險';
+    }
+    // 4. 休閒
+    if (['休閒', 'casual', '超休閒', 'hypercasual', '放置', 'idle', '養成', '街機', 'arcade', '音樂', 'music', '一般遊戲', '一般'].some(k => tLower.includes(k))) {
+      return '休閒';
+    }
+    // 5. 角色扮演 (RPG)
+    if (['角色扮演', 'rpg', 'mmorpg', 'role playing', '冒險rpg', '卡牌rpg', '放置rpg'].some(k => tLower.includes(k))) {
+      return '角色扮演 (RPG)';
+    }
+    // 6. 策略模擬
+    if (['策略', 'strategy', '模擬', 'simulation', '經營', '經營模擬', 'tycoon', '塔防', 'tower defense', 'moba', 'slg'].some(k => tLower.includes(k))) {
+      return '策略模擬';
+    }
+    // 7. 動作射擊
+    if (['動作', 'action', '射擊', 'shooter', 'fps', 'tps', '大逃殺', 'battle royale', '格鬥', 'fighting'].some(k => tLower.includes(k))) {
+      return '動作射擊';
+    }
+    // 8. 卡牌桌遊
+    if (['卡牌', 'card', '桌遊', 'board', '棋牌', '麻將', 'chess'].some(k => tLower.includes(k))) {
+      return '卡牌桌遊';
+    }
+    // 9. 體育競速
+    if (['體育', 'sports', '競速', 'racing', '運動', '賽車'].some(k => tLower.includes(k))) {
+      return '體育競速';
+    }
+    // 10. 博弈
+    if (['博弈', 'casino', 'slots', '老虎機', '拉霸'].some(k => tLower.includes(k))) {
+      return '博弈';
+    }
+    return t;
+  };
+
+  const PREFERRED_ORDER = [
+    'LBS / 地理定位',
+    '益智問答',
+    '解謎冒險',
+    '休閒',
+    '角色扮演 (RPG)',
+    '策略模擬',
+    '動作射擊',
+    '卡牌桌遊',
+    '體育競速',
+    '博弈'
+  ];
+
   for (const [reportName, reportData] of Object.entries(state.reports)) {
     // 萃取 Markdown 中的類型標籤
-    const genreMatch = reportData.match(/\|\s*\*\*類型\*\*\s*\|\s*(.+?)\s*\|/);
+    const genreMatch = reportData.match(/\|\s*\|\s*\*\*(?:遊戲)?類型\*\*\s*\|\s*(.+?)\s*\|/) || reportData.match(/\|\s*\*\*(?:遊戲)?類型\*\*\s*\|\s*(.+?)\s*\|/);
     const rawTags = genreMatch ? genreMatch[1].split(/[,\/、]/).map(t => t.trim()).filter(Boolean) : [];
-    const tags = rawTags.map(t => {
+    
+    const tagsSet = new Set();
+    rawTags.forEach(t => {
+      let mapped = t;
       const lowerT = t.toLowerCase();
       for (const [en, zh] of Object.entries(GENRE_I18N)) {
-        if (en.toLowerCase() === lowerT) return zh;
+        if (en.toLowerCase() === lowerT) {
+          mapped = zh;
+          break;
+        }
       }
-      return t;
+      const std = standardizeTag(mapped);
+      if (std) tagsSet.add(std);
     });
+    
+    const tags = Array.from(tagsSet);
     tags.forEach(t => allTags.add(t));
     // 從快照中找遊戲資料
     let appInfo = null;
@@ -2378,7 +2460,13 @@ function renderReportsTab() {
   const tagsPills = document.getElementById('reportTagsPills');
   if (tagsPills) {
     let pillsHtml = `<button class="pill ${!state.reportFilterTag || state.reportFilterTag === 'all' ? 'active' : ''}" onclick="setReportFilterTag('all')">全部</button>`;
-    Array.from(allTags).sort().forEach(tag => {
+    Array.from(allTags).sort((a, b) => {
+      const idxA = PREFERRED_ORDER.indexOf(a);
+      const idxB = PREFERRED_ORDER.indexOf(b);
+      const orderA = idxA >= 0 ? idxA : 999;
+      const orderB = idxB >= 0 ? idxB : 999;
+      return orderA - orderB || a.localeCompare(b);
+    }).forEach(tag => {
       const isActive = state.reportFilterTag === tag;
       pillsHtml += `<button class="pill ${isActive ? 'active' : ''}" onclick="setReportFilterTag('${tag}')">${tag}</button>`;
     });
@@ -2412,8 +2500,8 @@ function renderReportsTab() {
       ? `<img class="dh-icon" src="${r.icon}" alt="" onerror="this.style.display='none'">`
       : `<div style="width:56px;height:56px;border-radius:14px;background:rgba(59,130,246,0.08);display:flex;align-items:center;justify-content:center;font-size:24px;border:2px solid var(--border-glass)">📄</div>`;
     const sourceTag = r.isDarkhorse
-      ? '<span class="dh-tag trigger">🐴 黑馬</span>'
-      : '<span class="dh-tag platform">🎮 一般遊戲</span>';
+      ? '<span class="dh-tag trigger">黑馬</span>'
+      : '<span class="dh-tag benchmark">市場基準</span>';
 
     return `
     <div class="dh-card has-report" onclick="showReport('${safeName}')" style="cursor:pointer">
@@ -2425,9 +2513,8 @@ function renderReportsTab() {
         </div>
       </div>
       <div class="dh-meta">
-        <span class="dh-tag report-ready">📄 已評測</span>
         ${sourceTag}
-        ${r.tags.map(t => `<span class="dh-tag" style="background:rgba(255,255,255,0.05);color:var(--text-secondary)">🏷️ ${t}</span>`).join('')}
+        ${r.tags.map(t => `<span class="dh-tag" style="background:rgba(255,255,255,0.05);color:var(--text-secondary)">${t}</span>`).join('')}
       </div>
       <div class="dh-card-footer" style="margin-top:auto">
         <div class="dh-signals">
