@@ -1912,23 +1912,21 @@ function showReport(gameName, appId, platform) {
     // 支援 marked.js align 屬性（確保置中對齊生效）
     html = html.replace(/<td align="center"/g, '<td style="text-align:center"');
     html = html.replace(/<th align="center"/g, '<th style="text-align:center"');
-    // ★ 報告工具列與下載按手配置 (方案 A：下載按鈕移至報告標題旁，頂部僅留純淨導覽)
+    // ★ 報告工具列與下載按手配置 (方案 A：下載按鈕移至報告標題旁，頂部僅留對稱導覽)
     const safeGameName = gameName.replace(/'/g, "\\'");
-    const toolbarHtml = appId
-      ? `<div class="report-toolbar">
-          <div class="report-toolbar-left">
-            <a class="report-back-btn" onclick="event.stopPropagation();showAnalysis('${appId}','${platform}')">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="19" y1="12" x2="5" y2="12"></line>
-                <polyline points="12 19 5 12 12 5"></polyline>
-              </svg>返回
-            </a>
-          </div>
-         </div>`
+    
+    // 返回按鈕：無文字，純精美圓形 SVG，與右上角關閉按鈕對稱且樣式一致
+    const backBtnHtml = appId
+      ? `<button class="report-back-btn" onclick="event.stopPropagation();showAnalysis('${appId}','${platform}')" title="返回">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+         </button>`
       : '';
       
     // 渲染基礎內容
-    body.innerHTML = `${toolbarHtml}<div class="report-content">${html}</div>`;
+    body.innerHTML = `${backBtnHtml}<div class="report-content">${html}</div>`;
     
     // 動態將 Markdown 的第一個 <h1> 改造為包含「下載報告」的雙欄 Hero Header
     const h1 = body.querySelector('.report-content h1');

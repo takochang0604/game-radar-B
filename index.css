@@ -638,32 +638,23 @@ body::before {
 ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
 
-/* ============ Report Modal Toolbar ============ */
-.report-toolbar {
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
-  padding-bottom: 12px;
-  padding-right: 36px; /* 避開 Modal 右上角的關閉按鈕 */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.report-toolbar-left {
-  display: flex;
-  align-items: center;
-}
-
+/* ============ Report Modal Toolbar (對稱極簡導覽) ============ */
 .report-back-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  color: var(--text-muted);
-  cursor: pointer;
-  font-size: 13px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  user-select: none;
+  position: absolute !important;
+  top: 12px !important;
+  left: 12px !important;
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: var(--text-muted) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  z-index: 10 !important;
 }
 
 .report-back-btn svg {
@@ -674,11 +665,14 @@ body::before {
 }
 
 .report-back-btn:hover {
-  color: var(--text-primary);
+  background: rgba(59, 130, 246, 0.15) !important;
+  border-color: rgba(59, 130, 246, 0.3) !important;
+  color: #60a5fa !important;
+  transform: scale(1.1) !important;
 }
 
 .report-back-btn:hover svg {
-  transform: translateX(-3px); /* 返回箭頭微向左移的精緻微互動 */
+  transform: translateX(-1px) !important; /* 返回箭頭微向左移的精緻微互動 */
 }
 
 /* ============ Report Header Hero (方案 A) ============ */
@@ -687,9 +681,9 @@ body::before {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  margin-top: 8px;
+  margin-top: 28px; /* 頂部加寬，確保與 absolute 定位按鈕完美避讓 */
   margin-bottom: 24px;
-  padding-bottom: 16px;
+  padding: 0 24px 16px 24px; /* 兩側內縮，提供桌機寬排版呼吸空間 */
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -750,7 +744,8 @@ body::before {
     flex-direction: column;
     align-items: flex-start;
     gap: 14px;
-    padding-bottom: 14px;
+    margin-top: 24px; /* 手機版與 absolute 按鈕的安全高度 */
+    padding: 0 8px 14px 8px; /* 手機左右版型收緊，維持表格寬度 */
   }
   
   .report-hero-title {
