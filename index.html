@@ -11,6 +11,15 @@
 </head>
 <body>
 
+  <!-- Loading Overlay -->
+  <div id="loadingOverlay" class="loading-overlay">
+    <div class="loading-content">
+      <div class="loading-spinner-ring"></div>
+      <div class="loading-text">正在載入資料...</div>
+      <div class="loading-sub">首次載入可能需要數秒</div>
+    </div>
+  </div>
+
   <!-- Header -->
   <header class="app-header">
     <div class="header-inner">
@@ -28,7 +37,7 @@
   <main class="main-container">
     <!-- Stats -->
     <div class="stats-grid" id="statsGrid">
-      <div class="stat-card"><div class="stat-label">資料區間</div><div class="stat-value" id="statSnapshots" style="font-size:16px;letter-spacing:-0.5px">—</div><div class="stat-sub" id="statSnapshotsSub">載入中</div></div>
+      <div class="stat-card"><div class="stat-label">資料區間</div><div class="stat-value" id="statSnapshots">—</div><div class="stat-sub" id="statSnapshotsSub">載入中</div></div>
       <div class="stat-card"><div class="stat-label">今日新黑馬</div><div class="stat-value" id="statNewDh">0</div><div class="stat-sub">匹（新進榜）</div></div>
       <div class="stat-card"><div class="stat-label">已評測黑馬</div><div class="stat-value" id="statApps">0</div><div class="stat-sub" id="statAppsSub">/ 0 匹</div></div>
     </div>

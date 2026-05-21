@@ -453,6 +453,7 @@ async function loadData() {
       populateDateSelector();
       updateStatus();
       renderAll();
+      hideLoadingOverlay();
 
       // 同步追蹤清單（Firestore ↔ localStorage）
       initTrackedSync();
@@ -486,6 +487,7 @@ async function loadData() {
   populateDateSelector();
   updateStatus();
   renderAll();
+  hideLoadingOverlay();
 }
 
 /**
@@ -512,6 +514,13 @@ async function preloadAllMarketSnapshots(date) {
   const promises = MARKETS.map(m => ensureSnapshotLoaded(date, m.code).catch(() => {}));
   await Promise.all(promises);
   renderStats(); // 全部載完後刷新統計數字
+}
+
+function hideLoadingOverlay() {
+  const overlay = document.getElementById('loadingOverlay');
+  if (overlay) overlay.classList.add('hidden');
+  // Remove from DOM after animation completes
+  setTimeout(() => { if (overlay) overlay.remove(); }, 600);
 }
 
 function updateStatus(msg) {
@@ -1699,34 +1708,26 @@ function showAnalysis(appId, platform) {
     
     <!-- 歷史排行走勢圖 -->
     <div class="analysis-section">
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
-        <h4 style="margin:0">📈 排名歷史 <span id="modalChartMarketLabel" style="font-weight:500; font-size:13px; color:var(--accent-cyan); margin-left:6px;">(${MARKETS.find(m => m.code === state.modalActiveMarket)?.flag || ''} ${MARKETS.find(m => m.code === state.modalActiveMarket)?.name || state.modalActiveMarket}市場)</span></h4>
-        <div id="chartRangePresets" style="display:flex;gap:4px">
+      <div class="modal-chart-header">
+        <h4 style="margin:0;white-space:nowrap">📈 排名歷史 <span id="modalChartMarketLabel" style="font-weight:500; font-size:13px; color:var(--accent-cyan); margin-left:6px;">(${MARKETS.find(m => m.code === state.modalActiveMarket)?.flag || ''} ${MARKETS.find(m => m.code === state.modalActiveMarket)?.name || state.modalActiveMarket}市場)</span></h4>
+        <div id="chartRangePresets" class="chart-range-presets">
           ${[7,14,30].map(d => `<button
             onclick="renderModalChart(window._currentDh, ${d}, this)"
             data-days="${d}"
-            style="padding:3px 10px;border-radius:12px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.2s;
-              background:${d===7?'rgba(59,130,246,0.2)':'var(--bg-glass)'};
-              border:1px solid ${d===7?'var(--accent-blue)':'var(--border-glass)'};
-              color:${d===7?'var(--accent-blue)':'var(--text-muted)'};"
+            class="chart-range-btn${d===7?' active':''}"
           >${d}天</button>`).join('')}
         </div>
       </div>
 
       <!-- 多國上榜時的市場切換器 -->
       ${modalMarkets.length > 1 ? `
-        <div id="modalMarketSelector" style="display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap;">
+        <div id="modalMarketSelector" class="modal-market-selector">
           ${modalMarkets.map(m => {
             const isActive = m.code === state.modalActiveMarket;
             return `
-              <button class="market-tab-btn" 
+              <button class="market-tab-btn${isActive ? ' active' : ''}" 
                 onclick="switchModalMarket('${m.code}')" 
                 data-market="${m.code}"
-                style="padding: 5px 12px; border-radius: 12px; font-size: 12px; cursor: pointer; transition: all 0.2s;
-                  background: ${isActive ? 'rgba(59, 130, 246, 0.2)' : 'var(--bg-glass)'};
-                  border: 1px solid ${isActive ? 'var(--accent-blue)' : 'var(--border-glass)'};
-                  color: ${isActive ? 'var(--accent-blue)' : 'var(--text-secondary)'};
-                  font-weight: ${isActive ? '600' : 'normal'};"
               >
                 ${m.flag} ${m.name}
               </button>
@@ -1785,7 +1786,7 @@ function showAnalysis(appId, platform) {
         if (loadedNew && window._currentDh && window._currentDh.appId === appId && state.modalActiveMarket === currentActiveMarket) {
           rebuildModalRankHistory(dh, allDh, currentActiveMarket);
           
-          const activeBtn = document.querySelector('#chartRangePresets button[style*="rgba(59, 130, 246, 0.2)"]');
+          const activeBtn = document.querySelector('#chartRangePresets button.chart-range-btn.active');
           const days = activeBtn ? parseInt(activeBtn.getAttribute('data-days')) : 7;
           renderModalChart(dh, days, activeBtn);
         }
@@ -1852,17 +1853,7 @@ function switchModalMarket(marketCode) {
   // 2. Update active tab style
   document.querySelectorAll('.market-tab-btn').forEach(btn => {
     const isActive = btn.getAttribute('data-market') === marketCode;
-    if (isActive) {
-      btn.style.background = 'rgba(59, 130, 246, 0.2)';
-      btn.style.borderColor = 'var(--accent-blue)';
-      btn.style.color = 'var(--accent-blue)';
-      btn.style.fontWeight = '600';
-    } else {
-      btn.style.background = 'var(--bg-glass)';
-      btn.style.borderColor = 'var(--border-glass)';
-      btn.style.color = 'var(--text-secondary)';
-      btn.style.fontWeight = 'normal';
-    }
+    btn.classList.toggle('active', isActive);
   });
 
   // 3. Rebuild rank history for this market
@@ -1888,7 +1879,7 @@ function switchModalMarket(marketCode) {
   rebuildModalRankHistory(dh, allDh, marketCode);
 
   // 4. Render chart (using active preset days)
-  const activePresetBtn = document.querySelector('#chartRangePresets button[style*="rgba(59, 130, 246, 0.2)"]') || document.querySelector('#chartRangePresets button');
+  const activePresetBtn = document.querySelector('#chartRangePresets button.chart-range-btn.active') || document.querySelector('#chartRangePresets button');
   const days = activePresetBtn ? parseInt(activePresetBtn.getAttribute('data-days')) : 7;
   renderModalChart(dh, days, activePresetBtn);
 
@@ -1908,7 +1899,7 @@ function switchModalMarket(marketCode) {
       
       if (loadedNew && window._currentDh && window._currentDh.appId === dh.appId && state.modalActiveMarket === marketCode) {
         rebuildModalRankHistory(dh, allDh, marketCode);
-        const currentActivePresetBtn = document.querySelector('#chartRangePresets button[style*="rgba(59, 130, 246, 0.2)"]') || document.querySelector('#chartRangePresets button');
+        const currentActivePresetBtn = document.querySelector('#chartRangePresets button.chart-range-btn.active') || document.querySelector('#chartRangePresets button');
         const currentDays = currentActivePresetBtn ? parseInt(currentActivePresetBtn.getAttribute('data-days')) : 7;
         renderModalChart(dh, currentDays, currentActivePresetBtn);
       }
@@ -1926,10 +1917,7 @@ function renderModalChart(dh, days, activeBtn) {
   // 更新 preset 按鈕樣式
   if (activeBtn) {
     document.querySelectorAll('#chartRangePresets button').forEach(btn => {
-      const selected = btn === activeBtn;
-      btn.style.background = selected ? 'rgba(59,130,246,0.2)' : 'var(--bg-glass)';
-      btn.style.borderColor = selected ? 'var(--accent-blue)' : 'var(--border-glass)';
-      btn.style.color = selected ? 'var(--accent-blue)' : 'var(--text-muted)';
+      btn.classList.toggle('active', btn === activeBtn);
     });
   }
 
