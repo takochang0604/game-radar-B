@@ -458,6 +458,35 @@ async function main() {
     }
   }
 
+  // ============ 多市場加分 ============
+  // 同一遊戲在越多市場被偵測為黑馬，信心分數越高
+  // 加分公式：基礎分（單市場最高分）+ 額外市場數 × 加分係數
+  // 加分係數按市場權重加權，大市場（日/美/韓）貢獻更高
+  for (const [, dh] of mergedMap) {
+    if (dh.markets.length <= 1) continue;
+
+    // 所有市場分數按高到低排序
+    const sortedScores = dh.markets.map(m => m.score).sort((a, b) => b - a);
+    const baseScore = sortedScores[0]; // 已經是最高分
+
+    // 額外市場加分：每個額外市場貢獻其分數的 30%
+    let multiMarketBonus = 0;
+    for (let i = 1; i < sortedScores.length; i++) {
+      multiMarketBonus += sortedScores[i] * 0.3;
+    }
+
+    // 多市場一致性加成：出現在 3+ 市場 = 1.15×，5+ 市場 = 1.3×
+    let consistencyMultiplier = 1.0;
+    if (dh.markets.length >= 5) {
+      consistencyMultiplier = 1.3;
+    } else if (dh.markets.length >= 3) {
+      consistencyMultiplier = 1.15;
+    }
+
+    const newScore = (baseScore + multiMarketBonus) * consistencyMultiplier;
+    dh.confidenceScore = Math.round(newScore * 100) / 100;
+  }
+
   const mergedDarkhorses = Array.from(mergedMap.values());
   mergedDarkhorses.sort((a, b) => b.confidenceScore - a.confidenceScore);
 

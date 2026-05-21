@@ -567,8 +567,9 @@ function renderStats() {
     return seen.size;
   };
 
-  // 今日新黑馬
-  const newEntryList = state.darkhorses.filter(dh => dh.triggers?.some(t => t.strategy === 'new_entry'));
+  // 今日新黑馬（只計算最新一天偵測到的 new_entry）
+  const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
+  const newEntryList = state.darkhorses.filter(dh => dh.triggers?.some(t => t.strategy === 'new_entry' && (t._detectedAt || '').substring(0, 10) === latestDate));
   const statNewDhEl = document.getElementById('statNewDh');
   if (statNewDhEl) statNewDhEl.textContent = getUniqueCount(newEntryList);
 

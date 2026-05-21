@@ -65,7 +65,7 @@ export const FETCH_CONFIG = {
 
 // ============ 黑馬偵測門檻 ============
 export const DARKHORSE_CONFIG = {
-  lookbackDays: 14,          // 回溯天數
+  lookbackDays: 60,          // 回溯天數
   rankJumpThreshold: 30,     // 排名急升門檻（上升 N 名以上）
   consecutiveRiseDays: 5,    // 持續攀升天數
   newEntryDays: 7,           // 新進榜判定天數
@@ -91,7 +91,7 @@ export const DARKHORSE_CONFIG = {
   weekendAdjustment: 1.2,    // 週一判定時 rankJumpThreshold 乘以此係數（提高門檻）
 
   // #6 黑馬保留期
-  retentionDays: 30,         // 曾被偵測為黑馬的遊戲，在 N 天內只要仍在榜上就繼續保留
+  retentionDays: 60,         // 曾被偵測為黑馬的遊戲，在 N 天內只要仍在榜上就繼續保留
 
   // #7 Growth Multiplier（成長倍率）
   growthMultiplierThreshold: 2.5,  // 近期排名/長期排名 >= 此值 → 黑馬信號

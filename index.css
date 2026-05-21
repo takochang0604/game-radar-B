@@ -914,7 +914,7 @@ body::before {
 .report-content em {
   color: var(--text-muted); font-style: italic;
 }
-.report-content img {
+.report-content img:not(.flag-icon) {
   max-width: 100%; height: auto;
   border-radius: var(--radius-md);
   border: 1px solid var(--border-glass);
@@ -1251,5 +1251,67 @@ body::before {
   color: var(--text-secondary);
   line-height: 1.5;
   padding-left: 2px;
+}
+
+/* ============ Flag Icon Polyfill (Windows 國旗替代) ============ */
+.flag-icon {
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  vertical-align: middle;
+  border-radius: 2px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.flag-icon.flag-globe {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+/* 市場 pill 按鈕中的國旗 */
+.pill .flag-icon {
+  width: 18px;
+  height: 13px;
+  margin-right: 2px;
+  vertical-align: -1px;
+}
+/* 黑馬卡片 market tag 中的國旗 */
+.dh-tag.market .flag-icon {
+  width: 18px;
+  height: 13px;
+  vertical-align: -1px;
+}
+/* 排名行中的小國旗 */
+.dh-rank-row .flag-icon {
+  width: 14px;
+  height: 10px;
+  vertical-align: -1px;
+}
+/* 評測報告 / Modal 中的國旗 */
+.modal-content .flag-icon,
+.report-content .flag-icon {
+  width: 22px;
+  height: 16px;
+  vertical-align: middle;
+  margin: 0 1px;
+}
+/* 表格中的國旗 */
+td .flag-icon,
+th .flag-icon {
+  vertical-align: middle;
+}
+/* Trigger 詳情中的國旗 */
+.reason-card .flag-icon,
+.dh-trigger-item .flag-icon,
+.dh-signal-pill .flag-icon {
+  width: 16px;
+  height: 12px;
+  vertical-align: -1px;
+}
+/* Timeline 中的國旗 */
+.timeline-row .flag-icon {
+  width: 18px;
+  height: 13px;
+  vertical-align: -1px;
 }
 

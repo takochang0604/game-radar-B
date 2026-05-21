@@ -116,7 +116,7 @@ async function uploadDarkhorses() {
   });
   console.log(`  ✅ 黑馬（${darkhorses.length} 匹，${latestDH}）`);
 
-  // #8 黑馬歷史：額外保留每天的黑馬到子集合（最多保留 14 天）
+  // #8 黑馬歷史：額外保留每天的黑馬到子集合（最多保留 60 天）
   await db.collection(COLLECTION).doc('darkhorseHistory').collection('items').doc(date).set({
     date,
     count: darkhorses.length,
@@ -320,8 +320,8 @@ async function main() {
   console.log('║  🔥 上傳資料至 Firebase Firestore v2          ║');
   console.log('╚══════════════════════════════════════════════╝');
 
-  // 掃描可用日期（最多保留 14 天）
-  const MAX_DAYS = 14;
+  // 掃描可用日期（最多保留 60 天）
+  const MAX_DAYS = 60;
   const snapshotsRoot = resolveDir(SNAPSHOTS_DIR);
   let allDates = [];
   if (fs.existsSync(snapshotsRoot)) {
