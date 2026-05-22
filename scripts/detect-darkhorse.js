@@ -433,12 +433,18 @@ async function main() {
       mergedMap.set(key, {
         ...dh,
         markets: [{ code: dh.market, name: dh.marketName, flag: dh.marketFlag, rank: dh.currentRank, score: dh.confidenceScore }],
+        _rankHistoryByMarket: { [dh.market]: dh.rankHistory || [] },
       });
     } else {
       // 已存在：追加市場資訊，保留最高分的版本為主體
       const existing = mergedMap.get(key);
       existing.markets.push({ code: dh.market, name: dh.marketName, flag: dh.marketFlag, rank: dh.currentRank, score: dh.confidenceScore });
       
+      // 保留該市場的 rankHistory
+      if (dh.rankHistory && dh.rankHistory.length > 0) {
+        existing._rankHistoryByMarket[dh.market] = dh.rankHistory;
+      }
+
       // 合併所有 triggers（不論分數高低，只要 strategy + market 不同都應該合併）
       const mergedTriggers = [...existing.triggers];
       for (const t of (dh.triggers || [])) {
@@ -448,9 +454,10 @@ async function main() {
       }
 
       if (dh.confidenceScore > existing.confidenceScore) {
-        // 用更高分的版本替換主體，但保留累積的 markets 和合併觸發器
+        // 用更高分的版本替換主體，但保留累積的 markets、rankHistoryByMarket 和合併觸發器
         const markets = existing.markets;
-        Object.assign(existing, dh, { markets, triggers: mergedTriggers });
+        const rhByMarket = existing._rankHistoryByMarket;
+        Object.assign(existing, dh, { markets, triggers: mergedTriggers, _rankHistoryByMarket: rhByMarket });
       } else {
         // 保留原主體，但更新合併後的 triggers
         existing.triggers = mergedTriggers;
@@ -485,6 +492,21 @@ async function main() {
 
     const newScore = (baseScore + multiMarketBonus) * consistencyMultiplier;
     dh.confidenceScore = Math.round(newScore * 100) / 100;
+  }
+
+  // 精簡 rankHistory：走勢線只顯示 7 天，保留最近 7 筆即可
+  for (const [, dh] of mergedMap) {
+    if (dh.rankHistory && dh.rankHistory.length > 7) {
+      dh.rankHistory = dh.rankHistory.slice(-7);
+    }
+    if (dh._rankHistoryByMarket) {
+      for (const mkt of Object.keys(dh._rankHistoryByMarket)) {
+        const hist = dh._rankHistoryByMarket[mkt];
+        if (hist && hist.length > 7) {
+          dh._rankHistoryByMarket[mkt] = hist.slice(-7);
+        }
+      }
+    }
   }
 
   const mergedDarkhorses = Array.from(mergedMap.values());

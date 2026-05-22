@@ -19,6 +19,10 @@ const MARKETS = [
   { code: 'ph', name: '菲律賓', flag: '🇵🇭', hasGooglePlay: true },
 ];
 
+// 統一國旗查找：永遠從 MARKETS 常數取 emoji，不依賴資料欄位
+const _flagMap = Object.fromEntries(MARKETS.map(m => [m.code, m.flag]));
+function getFlag(code) { return _flagMap[code] || ''; }
+
 // ============ 狀態 ============
 let state = {
   dhMarket: 'all',       // 黑馬 Tab 專用市場
@@ -87,11 +91,33 @@ function sanitizeGameItem(g) {
 /**
  * 取得同款遊戲合併與去重比對的模糊 Key
  */
+// 跨區域同遊戲名稱對照表（不同地區商店名稱 → 統一 key）
+const GAME_ALIASES = {
+  '原神': 'genshinimpact',
+  'genshinimpact': 'genshinimpact',
+  '原神空月の歌': 'genshinimpact',
+  '崩壊スターレイル': 'honkaistarrail',
+  '崩壞星穹鐵道': 'honkaistarrail',
+  'honkaistarrail': 'honkaistarrail',
+  '崩壊3rd': 'honkaiimpact3rd',
+  '崩壞3rd': 'honkaiimpact3rd',
+  'honkaiimpact3rd': 'honkaiimpact3rd',
+  'nikke': 'nikke',
+  '勝利女神nikke': 'nikke',
+  'goddessofvictorynikke': 'nikke',
+  'メガニケ': 'nikke',
+  'ゼンレスゾーンゼロ': 'zenlesszonezero',
+  '絕區零': 'zenlesszonezero',
+  'zenlesszonezero': 'zenlesszonezero',
+};
+
 function getMergeKey(dh) {
   if (!dh || !dh.name) return '';
   // 取冒號/破折號前的主標題，避免雙平台副標題不同導致無法合併
   const coreName = dh.name.split(/\s*[:\uff1a\-\u2014\u2013\|]\s*/)[0];
-  return coreName.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 30);
+  const normalized = coreName.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 30);
+  // 查對照表：若有匹配，使用統一 key
+  return GAME_ALIASES[normalized] || normalized;
 }
 
 /**
@@ -690,20 +716,21 @@ function renderDarkhorses() {
         if (!existing.markets) existing.markets = [...dh.markets];
         else {
           dh.markets.forEach(m => {
-            if (!existing.markets.find(em => em.code === m.code)) existing.markets.push(m);
+            if (!existing.markets.find(em => em.code === m.code)) existing.markets.push({ ...m, flag: getFlag(m.code) });
           });
         }
       } else if (dh.market) {
-        if (!existing.markets) existing.markets = [{ code: dh.market, flag: dh.marketFlag, name: dh.marketName, rank: dh.currentRank }];
-        else if (!existing.markets.find(em => em.code === dh.market)) existing.markets.push({ code: dh.market, flag: dh.marketFlag, name: dh.marketName, rank: dh.currentRank });
+        if (!existing.markets) existing.markets = [{ code: dh.market, flag: getFlag(dh.market), name: dh.marketName, rank: dh.currentRank }];
+        else if (!existing.markets.find(em => em.code === dh.market)) existing.markets.push({ code: dh.market, flag: getFlag(dh.market), name: dh.marketName, rank: dh.currentRank });
       }
 
       // 合併排行資訊 (將 dh.markets 的所有排名都加入 _chartRanks)
       const chartLabel = dh.chartType === 'grossing' ? '營收' : '免費';
-      const sourceMarkets = dh.markets || [{ flag: dh.marketFlag, rank: dh.currentRank }];
+      const sourceMarkets = dh.markets || [{ code: dh.market, flag: getFlag(dh.market), rank: dh.currentRank }];
       sourceMarkets.forEach(m => {
-        if (!existing._chartRanks.find(cr => cr.chartLabel === chartLabel && cr.platform === dh.platform && cr.marketFlag === (m.flag || ''))) {
-          existing._chartRanks.push({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: m.flag || '' });
+        const mf = getFlag(m.code) || m.flag || '';
+        if (!existing._chartRanks.find(cr => cr.chartLabel === chartLabel && cr.platform === dh.platform && cr.marketFlag === mf)) {
+          existing._chartRanks.push({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: mf });
         }
       });
       // 取較高信心分數
@@ -724,12 +751,13 @@ function renderDarkhorses() {
           existing.triggers.push(tagged);
         }
       });
-      // 合併 rankHistory
+      // 合併 rankHistory（key 含市場代碼，避免多國資料混合）
       if (dh.rankHistory) {
         if (!existing._rankHistoryByLine) existing._rankHistoryByLine = {};
-        const lineKey = `${dh.platform}_${dh.chartType}`;
+        const mktCode = dh.market || dh.marketCode || '';
+        const lineKey = `${mktCode}_${dh.platform}_${dh.chartType}`;
         if (!existing._rankHistoryByLine[lineKey]) {
-          existing._rankHistoryByLine[lineKey] = { platform: dh.platform, chartType: dh.chartType, data: [] };
+          existing._rankHistoryByLine[lineKey] = { market: mktCode, platform: dh.platform, chartType: dh.chartType, data: [] };
         }
         dh.rankHistory.forEach(h => {
           if (!existing._rankHistoryByLine[lineKey].data.find(eh => eh.date === h.date)) {
@@ -759,7 +787,9 @@ function renderDarkhorses() {
         return { ...t, _src: src, _srcPlatform: dh.platform };
       });
       
-      const initialMarkets = dh.markets ? [...dh.markets] : (dh.market ? [{ code: dh.market, flag: dh.marketFlag, name: dh.marketName, rank: dh.currentRank }] : []);
+      const initialMarkets = dh.markets
+        ? dh.markets.map(m => ({ ...m, flag: getFlag(m.code) || m.flag }))
+        : (dh.market ? [{ code: dh.market, flag: getFlag(dh.market), name: dh.marketName, rank: dh.currentRank }] : []);
       
       mergedMap.set(key, {
         ...dh,
@@ -767,11 +797,24 @@ function renderDarkhorses() {
         triggers: taggedTriggers,
         _platforms: [dh.platform],
         _chartRanks: initialMarkets.length > 0
-          ? initialMarkets.map(m => ({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: m.flag || '' }))
-          : [{ chartLabel, platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }],
-        _rankHistoryByLine: dh.rankHistory ? {
-          [`${dh.platform}_${dh.chartType}`]: { platform: dh.platform, chartType: dh.chartType, data: dh.rankHistory }
-        } : {}
+          ? initialMarkets.map(m => ({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: getFlag(m.code) || m.flag || '' }))
+          : [{ chartLabel, platform: dh.platform, rank: dh.currentRank, marketFlag: getFlag(dh.market) || dh.marketFlag || '' }],
+        _rankHistoryByLine: (() => {
+          const lines = {};
+          // 優先用後端提供的 _rankHistoryByMarket（各市場獨立歷史）
+          if (dh._rankHistoryByMarket && typeof dh._rankHistoryByMarket === 'object') {
+            for (const [mkt, hist] of Object.entries(dh._rankHistoryByMarket)) {
+              if (hist && hist.length > 0) {
+                lines[`${mkt}_${dh.platform}_${dh.chartType}`] = { market: mkt, platform: dh.platform, chartType: dh.chartType, data: hist };
+              }
+            }
+          }
+          // fallback：用 dh.rankHistory
+          if (Object.keys(lines).length === 0 && dh.rankHistory) {
+            lines[`${dh.market || ''}_${dh.platform}_${dh.chartType}`] = { market: dh.market || '', platform: dh.platform, chartType: dh.chartType, data: dh.rankHistory };
+          }
+          return lines;
+        })()
       });
     }
   }
@@ -789,6 +832,51 @@ function renderDarkhorses() {
       if (/^[\u{1F1E0}-\u{1F1FF}]/u.test(t._src || '')) return t;
       return { ...t, _src: `${flag} ${t._src || ''}`.trim() };
     });
+  }
+
+  // 後處理：從 rankHistoryByLine 補充歷史市場（國旗只增不減）
+  for (const card of filtered) {
+    if (!card._rankHistoryByLine) continue;
+    if (!card.markets) card.markets = [];
+    for (const line of Object.values(card._rankHistoryByLine)) {
+      if (line.market && !card.markets.find(m => m.code === line.market)) {
+        const mktDef = MARKETS.find(mk => mk.code === line.market);
+        if (mktDef) {
+          card.markets.push({ code: mktDef.code, flag: mktDef.flag, name: mktDef.name, rank: null });
+        }
+      }
+    }
+  }
+
+  // 後處理：用最新 rankHistory 更新 markets 排名（消除偵測時間差造成的矛盾）
+  for (const card of filtered) {
+    if (!card._rankHistoryByLine || !card.markets) continue;
+    for (const line of Object.values(card._rankHistoryByLine)) {
+      if (!line.data || line.data.length === 0) continue;
+      const sorted = [...line.data].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+      const latestRank = sorted[sorted.length - 1]?.rank;
+      if (!latestRank) continue;
+      // 更新 markets
+      const mkt = card.markets.find(m => m.code === line.market);
+      if (mkt) mkt.rank = latestRank;
+      // 更新 _chartRanks
+      if (card._chartRanks) {
+        const mf = getFlag(line.market);
+        const cr = card._chartRanks.find(c => c.marketFlag === mf);
+        if (cr) cr.rank = latestRank;
+      }
+    }
+  }
+
+  // 後處理：國旗排序 — 排名最好的市場排前面（第一個會亮起 active）
+  for (const card of filtered) {
+    if (card.markets && card.markets.length > 1) {
+      card.markets.sort((a, b) => {
+        const ra = a.rank ?? 9999;
+        const rb = b.rank ?? 9999;
+        return ra - rb;
+      });
+    }
   }
 
   if (filtered.length === 0) {
@@ -810,27 +898,120 @@ function renderDarkhorses() {
       ? '<span class="dh-tag report-ready" title="已有評測報告">已評測</span>'
       : '';
     const scoreBadge = dh.confidenceScore
-      ? `<span class="dh-confidence" title="信心分數：越高越可能是真正的黑馬">${dh.confidenceScore.toFixed(1)} 分</span>`
+      ? `<span class="dh-confidence" title="綜合信心分數：依據所有上榜市場的排名、躍升幅度、上榜天數等綜合計算">⭐ ${dh.confidenceScore.toFixed(1)} 分</span>`
       : '';
-    // 黑馬分類標籤
+
+    // === 確定 primaryMarket（首次偵測市場，穩定不跳動）===
+    const isMultiMarket = dh.markets && dh.markets.length > 1;
+    let primaryMarket = null;
+    if (dh.market) {
+      // 優先用首次偵測市場
+      const found = dh.markets?.find(m => m.code === dh.market);
+      primaryMarket = found || { code: dh.market, flag: dh.marketFlag, name: dh.marketName, rank: dh.currentRank };
+    } else if (dh.markets && dh.markets.length > 0) {
+      primaryMarket = dh.markets[0];
+    } else {
+      primaryMarket = { code: '', flag: dh.marketFlag, name: dh.marketName, rank: dh.currentRank };
+    }
+    // 存到 dh 上供迷你走勢線使用
+    dh._primaryMarket = primaryMarket;
+
+    // === 趨勢標籤：取所有市場中最樂觀的趨勢 ===
     const triggerTypes = dh.triggers.map(t => t.strategy);
     const isRetained = !!dh._retained;
-    const classBadge = isRetained
-      ? `<span class="dh-tag dh-class-watch" title="首偵日：${dh._retainedFrom || '未知'}，仍在榜上持續觀察">觀察中</span>`
-      : triggerTypes.includes('new_entry')
-        ? '<span class="dh-tag dh-class-new" title="首次進入排行榜">新進榜</span>'
-        : triggerTypes.includes('growth_multiplier')
-          ? '<span class="dh-tag dh-class-accel" title="排名加速上升中">加速中</span>'
-          : triggerTypes.includes('consecutive_rise') || triggerTypes.includes('rank_jump')
-            ? '<span class="dh-tag dh-class-rising" title="持續上升中">上升中</span>'
+    let classBadge = '';
+    let trendTooltip = '';
+    if (isRetained) {
+      classBadge = `<span class="dh-tag dh-class-watch" title="首偵日：${dh._retainedFrom || '未知'}，仍在榜上持續觀察">觀察中</span>`;
+    } else {
+      // 遍歷所有市場的 rankHistory，計算每個市場的趨勢，取最樂觀
+      const TREND_RANK = { 'accel': 4, 'up': 3, 'stable': 2, 'down': 1 };
+      let bestTrend = null;   // 'accel' | 'up' | 'stable' | 'down'
+      let bestTrendInfo = null; // { flag, name, first, last, count, market }
+      let bestTrendHistory = [];
+
+      const evaluateHistory = (history, marketInfo) => {
+        if (!history || history.length < 2) return;
+        const recentRanks = history.slice(-3).map(r => r.rank || r.currentRank).filter(Boolean);
+        if (recentRanks.length < 2) return;
+        const first = recentRanks[0];
+        const last = recentRanks[recentRanks.length - 1];
+        const diff = first - last; // 正數=排名數字變小=上升
+        let trend;
+        if (diff > 5) {
+          trend = triggerTypes.includes('growth_multiplier') ? 'accel' : 'up';
+        } else if (diff < -5) {
+          // Top 10 保護：排名 ≤10 且下跌 ≤5 名，視為穩定而非回落
+          if (last <= 10 && Math.abs(diff) <= 5) {
+            trend = 'stable';
+          } else {
+            trend = 'down';
+          }
+        } else {
+          trend = 'stable';
+        }
+        // 取最樂觀的趨勢
+        if (!bestTrend || TREND_RANK[trend] > TREND_RANK[bestTrend]) {
+          bestTrend = trend;
+          bestTrendInfo = { ...marketInfo, first, last, count: recentRanks.length };
+          bestTrendHistory = history;
+        }
+      };
+
+      // 逐市場評估
+      if (dh._rankHistoryByLine && Object.keys(dh._rankHistoryByLine).length > 0) {
+        for (const [key, line] of Object.entries(dh._rankHistoryByLine)) {
+          if (!line.data || line.data.length === 0) continue;
+          const mktObj = dh.markets?.find(m => m.code === line.market);
+          const marketInfo = {
+            market: line.market,
+            flag: getFlag(line.market),
+            name: MARKETS.find(m => m.code === line.market)?.name || line.market,
+          };
+          evaluateHistory(line.data, marketInfo);
+        }
+      }
+      // fallback：用原始 rankHistory
+      if (!bestTrend && dh.rankHistory && dh.rankHistory.length >= 2) {
+        evaluateHistory(dh.rankHistory, {
+          market: dh.market, flag: primaryMarket.flag, name: primaryMarket.name
+        });
+      }
+
+      // 存最樂觀市場供走勢線使用
+      dh._trendMarket = bestTrendInfo?.market || primaryMarket.code || dh.market || '';
+      dh._trendHistory = bestTrendHistory;
+
+      if (bestTrendInfo) {
+        trendTooltip = `${bestTrendInfo.flag} ${bestTrendInfo.name}：近 ${bestTrendInfo.count} 天 #${bestTrendInfo.first} → #${bestTrendInfo.last}`;
+      }
+
+      if (bestTrend === 'accel') {
+        classBadge = `<span class="dh-tag dh-class-accel" title="${trendTooltip}">加速中</span>`;
+      } else if (bestTrend === 'up') {
+        classBadge = `<span class="dh-tag dh-class-rising" title="${trendTooltip}">上升中</span>`;
+      } else if (bestTrend === 'down') {
+        classBadge = `<span class="dh-tag dh-class-cooling" title="${trendTooltip}">回落中</span>`;
+      } else if (bestTrend === 'stable') {
+        classBadge = `<span class="dh-tag dh-class-watch" title="${trendTooltip}">穩定</span>`;
+      } else {
+        classBadge = triggerTypes.includes('new_entry')
+          ? '<span class="dh-tag dh-class-new" title="首次進入排行榜">新進榜</span>'
+          : triggerTypes.includes('rank_jump') || triggerTypes.includes('consecutive_rise')
+            ? '<span class="dh-tag dh-class-rising" title="排名急升">上升中</span>'
             : '';
+      }
+    }
     // 上架日期
     const rawReleased = state.analysis[dh.appId]?.detail?.released || '';
     const releasedDate = rawReleased ? (() => { try { const d = new Date(rawReleased); return isNaN(d) ? rawReleased : d.toISOString().split('T')[0]; } catch { return rawReleased; } })() : '';
-    // 多市場標籤
-    const marketTags = dh.markets && dh.markets.length > 1
-      ? dh.markets.map(m => `<span class="dh-tag market" title="${m.name} #${m.rank}">${m.flag}</span>`).join('')
-      : `<span class="dh-tag market">${dh.marketFlag} ${dh.marketName}</span>`;
+    // 多市場標籤（hover 顯示該國排名）
+    const cardId = `${dh.appId.replace(/[^a-zA-Z0-9]/g, '_')}-${dh.platform}`;
+    const marketTags = isMultiMarket
+      ? dh.markets.map((m, i) => {
+          return `<span class="dh-tag market${i === 0 ? ' active' : ''}" title="${m.name || m.code}：#${m.rank || '?'}">${getFlag(m.code) || m.flag || ''}</span>`;
+        }).join('')
+      : `<span class="dh-tag market active">${getFlag(dh.market) || dh.marketFlag || ''} ${dh.marketName || ''}</span>`;
     // 平台顯示（合併後可能多平台）
     const platforms = dh._platforms || [dh.platform];
     const platformLabel = platforms.length >= 2
@@ -868,6 +1049,8 @@ function renderDarkhorses() {
       rankHtml += `<div class="dh-rank-row" style="justify-content:flex-end;opacity:0.6;font-size:10px;cursor:help;margin-top:2px" title="${tooltipText}">+${hiddenRanks.length} 個排行</div>`;
     }
 
+
+
     return `
     <div class="dh-card ${hasAnalysis ? 'has-analysis' : ''} ${hasReport ? 'has-report' : ''}" onclick="showAnalysis('${dh.appId}', '${dh.platform}')">
       <div class="dh-header">
@@ -889,44 +1072,12 @@ function renderDarkhorses() {
       <div class="dh-meta">
         ${marketTags}
         <span class="dh-tag platform">${platformLabel}</span>
-        ${classBadge}
         ${scoreBadge}
         ${reportBadge}
         ${detectBuyChart(dh, state.analysis[dh.appId], dh)}
       </div>
-      <div class="dh-chart-mini"><canvas id="mini-${dh.appId.replace(/[^a-zA-Z0-9]/g, '_')}-${dh.platform}"></canvas></div>
-      <div class="dh-card-footer">
-        <div class="dh-signals">
-          ${(() => {
-        // 去重：同 strategy 只保留分數最高的一筆
-        const byStrategy = new Map();
-        dh.triggers.forEach(t => {
-          const key = t.strategy || t.label;
-          if (!byStrategy.has(key) || (t.score || 0) > (byStrategy.get(key).score || 0)) {
-            byStrategy.set(key, t);
-          }
-        });
-        return Array.from(byStrategy.values()).filter(t => t.strategy !== 'new_entry').map(t => {
-          let shortLabel = '';
-          if (t.strategy === 'rank_jump') {
-            const match = t.detail.match(/↑(\d+)/);
-            shortLabel = `躍升 ↑${match ? match[1] : ''}`;
-          } else if (t.strategy === 'consecutive_rise') {
-            const match = t.detail.match(/連續 (\d+) 天/);
-            shortLabel = `連漲 ${match ? match[1] : ''}天`;
-          } else if (t.strategy === 'growth_multiplier') {
-            const match = t.detail.match(/([\d.]+)×/);
-            shortLabel = `倍率 ${match ? match[1] : ''}×`;
-          } else {
-            shortLabel = t.label || t.detail.substring(0, 10);
-          }
-          const formattedDetail = formatTriggerDetail(t.detail, dh.currentRank);
-          return `<span class="dh-signal-pill" title="${formattedDetail}">${shortLabel}</span>`;
-        }).join('');
-      })()}
-        </div>
-        ${releasedDate ? `<div class="dh-released">上架 ${releasedDate}</div>` : ''}
-      </div>
+      <div class="dh-chart-mini"><canvas id="mini-${cardId}"></canvas></div>
+      ${releasedDate ? `<div class="dh-card-footer"><div class="dh-released">上架 ${releasedDate}</div></div>` : ''}
     </div>
   `;
   }).join('');
@@ -939,12 +1090,18 @@ function renderDarkhorses() {
           const canvas = entry.target;
           const dh = canvasMap.get(canvas);
           if (dh) {
-            let miniHistory = dh.rankHistory || [];
-            if (dh._rankHistoryByLine) {
-              const primaryKey = `${dh.platform}_${dh.chartType}`;
-              if (dh._rankHistoryByLine[primaryKey] && dh._rankHistoryByLine[primaryKey].data.length > 0) {
-                miniHistory = dh._rankHistoryByLine[primaryKey].data;
-              } else {
+            let miniHistory = dh._trendHistory || dh.rankHistory || [];
+            // 若趨勢計算時已選定市場，直接用；否則從 _rankHistoryByLine 查
+            if (miniHistory.length === 0 && dh._rankHistoryByLine) {
+              const tmCode = dh._trendMarket || dh.market || '';
+              for (const line of Object.values(dh._rankHistoryByLine)) {
+                if (line.market === tmCode && line.data && line.data.length > 0) {
+                  miniHistory = line.data;
+                  break;
+                }
+              }
+              // fallback
+              if (miniHistory.length === 0) {
                 const firstLine = Object.values(dh._rankHistoryByLine)[0];
                 if (firstLine && firstLine.data) miniHistory = firstLine.data;
               }
@@ -973,9 +1130,12 @@ function renderDarkhorses() {
         canvasMap.set(canvas, dh);
         observer.observe(canvas);
       }
+
     });
   }, 100);
 }
+
+
 
 function renderMiniChart(canvas, history) {
   const ctx = canvas.getContext('2d');
@@ -1350,11 +1510,16 @@ function showAnalysis(appId, platform) {
     if (d.markets && d.markets.length > 0) {
       d.markets.forEach(m => {
         if (m && m.code) {
-          uniqueMarketsMap.set(m.code, {
-            code: m.code,
-            flag: m.flag || MARKETS.find(x => x.code === m.code)?.flag || '',
-            name: m.name || MARKETS.find(x => x.code === m.code)?.name || m.code
-          });
+          const existing = uniqueMarketsMap.get(m.code);
+          const newRank = m.rank ?? null;
+          if (!existing || (newRank && (!existing.rank || newRank < existing.rank))) {
+            uniqueMarketsMap.set(m.code, {
+              code: m.code,
+              flag: m.flag || MARKETS.find(x => x.code === m.code)?.flag || '',
+              name: m.name || MARKETS.find(x => x.code === m.code)?.name || m.code,
+              rank: newRank || (existing?.rank ?? null)
+            });
+          }
         }
       });
     }
@@ -1364,10 +1529,35 @@ function showAnalysis(appId, platform) {
       uniqueMarketsMap.set(mCode, {
         code: mCode,
         flag: d.marketFlag || marketObj?.flag || '',
-        name: d.marketName || marketObj?.name || mCode
+        name: d.marketName || marketObj?.name || mCode,
+        rank: d.currentRank || null
       });
     }
   });
+
+  // 補充：從快照掃描所有市場，找到遊戲出現過但不在今日黑馬名單的市場
+  const allAppIds2 = Array.from(new Set(allDh.map(d => d.appId).concat([appId])));
+  const latestDate = state.availableDates[state.availableDates.length - 1];
+  if (latestDate && state.snapshots[latestDate]) {
+    for (const [mktCode, mktSnap] of Object.entries(state.snapshots[latestDate])) {
+      if (uniqueMarketsMap.has(mktCode)) continue;
+      for (const plat of ['ios', 'android']) {
+        for (const ct of ['topfree', 'grossing']) {
+          if (mktSnap[plat] && mktSnap[plat][ct] && mktSnap[plat][ct].data) {
+            const found = mktSnap[plat][ct].data.find(a => allAppIds2.includes(a.appId));
+            if (found) {
+              const marketObj = MARKETS.find(x => x.code === mktCode);
+              uniqueMarketsMap.set(mktCode, {
+                code: mktCode,
+                flag: marketObj?.flag || '',
+                name: marketObj?.name || mktCode
+              });
+            }
+          }
+        }
+      }
+    }
+  }
 
   const modalMarkets = Array.from(uniqueMarketsMap.values());
   if (modalMarkets.length === 0) {
@@ -1378,6 +1568,8 @@ function showAnalysis(appId, platform) {
       name: marketObj.name
     });
   }
+  // 按排名排序（排名最好的在前面）
+  modalMarkets.sort((a, b) => (a.rank ?? 9999) - (b.rank ?? 9999));
 
   // 決定初始市場
   let initialMarketCode = dh.market || dh.marketCode || state.rankMarket;
@@ -1502,30 +1694,6 @@ function showAnalysis(appId, platform) {
   }
 
   if (mainSummary) {
-    // Determine inline reasons html
-    let inlineReasonsHtml = '';
-    if (analysis && (analysis.inferredReasons || []).length > 0) {
-      inlineReasonsHtml = `
-        <div class="ai-reasons-inline">
-          <div class="ai-reasons-inline-title">💡 竄升動因推測</div>
-          <div class="ai-reasons-inline-list">
-            ${analysis.inferredReasons.map(r => {
-              const confColor = r.confidence === 'high' ? 'var(--accent-green)' : r.confidence === 'medium' ? 'var(--accent-yellow)' : 'var(--text-muted)';
-              const confBg = r.confidence === 'high' ? 'rgba(16,185,129,0.1)' : r.confidence === 'medium' ? 'rgba(234,179,8,0.1)' : 'rgba(100,116,139,0.1)';
-              const cleanDetail = r.detail.replace(/(\d+\.\d{2})\d+/g, (m, p1) => parseFloat(m).toFixed(1));
-              return `
-                <div class="ai-reason-inline-item" style="border-left: 2px solid ${confColor};">
-                  <span class="ai-reason-inline-label">${r.label}</span>
-                  <span class="ai-reason-inline-confidence" style="background:${confBg};color:${confColor}">${r.confidence === 'high' ? '高信心' : r.confidence === 'medium' ? '中信心' : '低信心'}</span>
-                  <span class="ai-reason-inline-detail">${cleanDetail}</span>
-                </div>
-              `;
-            }).join('')}
-          </div>
-        </div>
-      `;
-    }
-
     aiSectionHtml = `
       <div class="analysis-section">
         <h4>📋 AI 深度研判與摘要</h4>
@@ -1533,7 +1701,6 @@ function showAnalysis(appId, platform) {
           <div class="ai-conclusion-summary">
             ${mainSummary}
           </div>
-          ${inlineReasonsHtml}
         </div>
       </div>
     `;
@@ -1563,19 +1730,25 @@ function showAnalysis(appId, platform) {
     const sortedDates = Object.keys(timelineGroups).sort((a, b) => {
       if (a === '歷史偵測') return 1;
       if (b === '歷史偵測') return -1;
-      return a.localeCompare(b);
+      return b.localeCompare(a);
     });
 
     triggersTimelineHtml = `
     <div class="analysis-section">
       <h4>📅 歷史偵測生命軌跡時間軸</h4>
       <div class="timeline">
-        ${sortedDates.map(date => {
+        ${sortedDates.map((date, dateIdx) => {
           const triggersInDate = timelineGroups[date];
+          const isLatest = dateIdx === 0;
+          const collapsed = !isLatest;
           return `
-            <div class="timeline-item">
+            <div class="timeline-item${collapsed ? ' collapsed' : ''}">
               <div class="timeline-badge"></div>
-              <div class="timeline-date">${date}</div>
+              <div class="timeline-date timeline-toggle" onclick="this.parentElement.classList.toggle('collapsed')" style="cursor:pointer;user-select:none;display:flex;align-items:center;gap:6px">
+                ${date}
+                <span style="font-size:10px;opacity:0.5" class="toggle-arrow">▼</span>
+                <span style="font-size:10px;opacity:0.4;margin-left:auto">${triggersInDate.length} 筆</span>
+              </div>
               <div class="timeline-content" style="gap: 4px;">
                 ${triggersInDate.map(t => {
                   const srcCls = t._src?.includes('營收') ? 'src-grossing' : t._src === '雙榜' ? 'src-dual' : t._src === '雙平台' ? 'src-cross' : 'src-free';
@@ -1689,7 +1862,7 @@ function showAnalysis(appId, platform) {
       <div style="flex: 1; min-width: 0; display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap;">
         <div style="min-width: 200px; flex: 1;">
           <div class="modal-app-title" style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">${dh.name}</div>
-          <div class="modal-app-dev">${dh.developer || ''} · ${dh.marketFlag} ${dh.marketName} · ${platformDisplay}</div>
+          <div class="modal-app-dev">${dh.developer || ''} · ${modalMarkets.map(m => getFlag(m.code)).filter(Boolean).join(' ')} · ${platformDisplay}</div>
           ${detectedAtStr ? `<div style="font-size:11px;color:var(--text-muted);margin-top:4px">${isRetainedModal ? '👀 首次偵測' : '🆕 偵測日期'}：${detectedAtStr}${isRetainedModal ? ' · 持續觀察中' : ''}</div>` : ''}
         </div>
         ${findReport(dh.name) ? `
@@ -2363,9 +2536,17 @@ async function renderTracked() {
     const stillDarkhorse = !!dhMatch;
 
     // 排名來源：1) 今日黑馬資料 2) 快照查詢 3) 存檔排名
-    let currentRank = dhMatch ? dhMatch.currentRank : null;
+    // 優先查追蹤市場的排名
+    let currentRank = null;
 
-    // 快照 fallback
+    // 先從 dhMatch 的 markets 找追蹤市場的排名
+    if (dhMatch && dhMatch.markets) {
+      const marketEntry = dhMatch.markets.find(m => m.code === t.market);
+      if (marketEntry && marketEntry.rank) currentRank = marketEntry.rank;
+    }
+    if (!currentRank && dhMatch) currentRank = dhMatch.currentRank;
+
+    // 快照 fallback：只查追蹤市場
     if (!currentRank) {
       const latestDate = state.availableDates[state.availableDates.length - 1];
       if (latestDate && state.snapshots[latestDate]) {
@@ -2413,16 +2594,11 @@ async function renderTracked() {
       ? `${ICON_IOS} ${ICON_ANDROID}`
       : `${platforms[0] === 'android' ? ICON_ANDROID : ICON_IOS}`;
 
-    // 排行排名明細（跟黑馬卡片一樣的 rank block）
-    const chartRanks = dhMatch?._chartRanks || t._chartRanks || [];
+    // 右上角排名：只顯示追蹤市場的排名
     const chartLabel = t.chartType === 'grossing' ? '營收' : '免費';
-    const rankHtml = chartRanks.length > 0
-      ? chartRanks.map(cr => {
-        const typeClass = cr.chartLabel === '營收' ? 'rt-grossing' : 'rt-free';
-        const pIcon = cr.platform === 'android' ? ICON_ANDROID : ICON_IOS;
-        return `<div class="dh-rank-row"><span class="dh-rank-type ${typeClass}">${pIcon} ${cr.chartLabel}</span><span class="dh-rank-num">#${cr.rank}</span></div>`;
-      }).join('')
-      : `<span class="dh-rank-num" style="font-size:22px">${currentRank ? '#' + currentRank : '—'}</span>`;
+    const rankHtml = currentRank
+      ? `<div class="dh-rank-row"><span class="dh-rank-type ${t.chartType === 'grossing' ? 'rt-grossing' : 'rt-free'}">${platforms[0] === 'android' ? ICON_ANDROID : ICON_IOS} ${chartLabel}</span><span class="dh-rank-num">#${currentRank}</span></div>`
+      : `<span class="dh-rank-num" style="font-size:22px">—</span>`;
 
     // 買榜分析
     const analysisData = state.analysis[t.appId];
