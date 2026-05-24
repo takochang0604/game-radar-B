@@ -1,0 +1,44 @@
+{
+  "appId": "1366526331",
+  "name": "PUBG MOBILE - 世界一のバトルロイヤル！",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "【最新アップデート情報】\n\n▼ギリシャ神話テーマモード「Hero's Crown」\nErangelのマップがギリシャ神話の世界へと様変わり！\n一部エリアが古代ギリシャ風の町にリニューアルされ、新たなテーマギミックが各地に登場します。\n\nマップ各地の聖火台を灯すと試練が開幕。数々の試練をクリアして栄光値を積み上げましょう。\n栄光値が一定量に達すると、空中に浮かぶ秘境の島への道が解放されます！\n\nまた、神話の英雄をモチーフにした特別なアイテムが戦局を一変させます。\n高速移動や防御強化、空中滑空など、それぞれの個性が光る能力で戦いを圧倒しましょう。\n\nさらに秘境の島に待ち受けるケンタウロスを倒すことで味方に引き入れることもでき、\n援護攻撃や回復といった強力なサポートで勝利へと導きます！\n\n「Hero's Crown」でしか味わえない神話の戦いを、ぜひお楽しみください！\n\n\n【ゲーム概要】\nPUBG MOBILEは最大100人のプレイヤーが、輸送機から孤島に降り立ち\nマップ内にある装備や車両を駆使して\"最後の1人\"になるまで\n生き抜くバトルロイヤルゲームです！\n\n▼スマホでサバゲー、ルールはシ",
+    "released": "2018-05-15T20:49:12Z",
+    "updated": "2026-05-12T02:00:30Z",
+    "version": "4.4.0",
+    "score": 4,
+    "reviews": 163694,
+    "developer": "KRAFTON Inc",
+    "developerUrl": "https://apps.apple.com/jp/developer/krafton-inc/id852927650?uo=4",
+    "genres": [
+      "ゲーム",
+      "ストラテジー",
+      "アクション"
+    ],
+    "releaseNotes": "ギリシャ神話モチーフの新テーマモード「Hero's Crown」を実装\nCLASSICモードのアップデート"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:04:46.581Z"
+}

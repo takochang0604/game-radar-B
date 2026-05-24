@@ -1,0 +1,49 @@
+{
+  "appId": "6761166974",
+  "name": "Kiếm Chỉ Giang Hồ: Khai Thiên",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Quyết định phê duyệt nội dung kịch bản trò chơi điện tử G1 trên mạng số: 187/QĐ-PTTH&TTĐT do Bộ Thông tin và Truyền thông cấp ngày 14/04/2026\n\n***TÍNH NĂNG NỔI BẬT***\n\n【Đại Thế Giới Tu Tiên】\nBước vào hành trình tu tiên rộng lớn, khám phá nhiều bản đồ kỳ ảo và bí cảnh huyền bí. Thu thập pháp bảo hiếm, chinh phục thử thách, từng bước lĩnh ngộ đại đạo và viết nên truyền kỳ của riêng bạn!\n\n【Tự Do Khám Phá】\nThế giới tiên hiệp được xây dựng với đồ họa sắc nét, không gian rộng mở cho bạn tự do phiêu lư",
+    "released": "2026-05-20T07:00:00Z",
+    "updated": "2026-05-20T07:00:00Z",
+    "version": "1.0",
+    "score": 4.7,
+    "reviews": 201,
+    "developer": "WEPLAY PUBLISHING",
+    "developerUrl": "https://apps.apple.com/vn/developer/weplay-publishing/id1888099965?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing"
+    ],
+    "releaseNotes": ""
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 3 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:56.483Z"
+}

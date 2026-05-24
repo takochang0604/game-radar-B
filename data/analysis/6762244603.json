@@ -1,0 +1,54 @@
+{
+  "appId": "6762244603",
+  "name": "Mini Pirate Brawl",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "This is a pirate battle game full of adventure and challenges, allowing players to transform into pirate captains and embark on unknown adventures on the vast ocean.",
+    "released": "2026-04-27T07:00:00Z",
+    "updated": "2026-04-27T07:00:00Z",
+    "version": "1.1",
+    "score": 4.7541,
+    "reviews": 61,
+    "developer": "HAICHEN STUDIO",
+    "developerUrl": "https://apps.apple.com/th/developer/haichen-studio/id1893526850?uo=4",
+    "genres": [
+      "Games"
+    ],
+    "releaseNotes": "fix the issue found;"
+  },
+  "reviewAnalysis": {
+    "total": 19,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 1,
+      "4": 3,
+      "5": 14
+    },
+    "positiveRatio": 89,
+    "negativeRatio": 5,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 9 天，評分 4.7541",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 89%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:22:25.175Z"
+}

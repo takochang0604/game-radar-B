@@ -1,0 +1,42 @@
+{
+  "appId": "com.twincorp.bancaonline",
+  "name": "ICÁ",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": " ICÁ ZINGPLAY - REALLY ENJOYABLE ONLINE FISH SHOOTING  \n\niCa Zing Play is the number 1 free online fish shooting game in Vietnam with nearly 20 million downloads. \niCa is a simple, easy-to-play casual game portal, with no rewards and completely free with cute chibi images for all ages. iCa zingplay has all the characteristics of supermarket fish shooting, but is more interesting with a super-large and unique Boss team, a series of unique skills that supermarket fish shooting games do not have. \n",
+    "released": "Mar 27, 2015",
+    "updated": 1775541926000,
+    "version": "v2026.2.0",
+    "installs": "10,000,000+",
+    "score": 3.980687,
+    "ratings": 423110,
+    "reviews": 171789,
+    "developer": "ZINGPLAY VIETNAM",
+    "developerWebsite": "https://zingplay.com",
+    "genre": "Casual",
+    "recentChanges": "Phiên bản 2026.04.07<br>Cảm ơn bạn đã chơi iCa ZingPlay!<br>Trong phiên bản này, chúng tôi đã triển khai các cập nhật để cùng bạn có những trải nghiệm tuyệt vời<br>Hãy tận hưởng một thế giới vui vẻ, hồi hộp và những phần thưởng khổng lồ ngay trong tầm tay bạn. <br>Nhớ mời bạn bè cùng chơi iCa và nhận THƯỞNG MIỄN PHÍ mỗi ngày nữa bạn nhé!"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 20,
+      "2": 0,
+      "3": 2,
+      "4": 8,
+      "5": 70
+    },
+    "positiveRatio": 78,
+    "negativeRatio": 20,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-09T15:04:50.459Z"
+}

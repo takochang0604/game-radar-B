@@ -1,0 +1,44 @@
+{
+  "appId": "6768003529",
+  "name": "Bow wow Battle",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Bow Wow Battle is not your typical tap-and-swipe game. Get ready to warm up your vocal cords and step into an arena where your ultimate weapon is... YOUR VOICE! \n\nTransform into fierce, funny dogs in the ultimate tug-of-war championship. The rules are simple: the louder you shout, bark, or scream into your microphone, the harder you pull! Do you have the lung capacity to overpower your rivals and claim victory?\n\nKEY FEATURES:\n\n* VOICE-CONTROLLED COMBAT: Experience a completely unique, hands-free",
+    "released": "2026-05-11T07:00:00Z",
+    "updated": "2026-05-12T16:53:51Z",
+    "version": "1.0.1",
+    "score": 3.6,
+    "reviews": 14,
+    "developer": "Anh Trinh Tuan",
+    "developerUrl": "https://apps.apple.com/vn/developer/anh-trinh-tuan/id1880365814?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Casual"
+    ],
+    "releaseNotes": "General improvements and minor bug fixes to enhance app stability and performance."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:02:44.669Z"
+}

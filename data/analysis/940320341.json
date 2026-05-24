@@ -1,0 +1,45 @@
+{
+  "appId": "940320341",
+  "name": "プロ野球スピリッツＡ",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "一般社団法人日本野球機構承認 All other copyrights or trademarks are the property of their respective owners and are used under license.\n---------------------------------------------\n\nリアルプロ野球ゲームの決定版がついに登場！\n最高の映像クオリティでプロ野球の臨場感を再現\n鍛え上げた最強のチームで日本一を目指そう！\n\n---------------------------------------------\n◇重要なお知らせ◇\n・本アプリはオンラインゲームです。通信可能な環境でお楽しみ下さい。\n\n・チュートリアル終了時に約650MBのダウンロードが必要です。\n\n・動作環境\n対応OS：iOS 15.0以降、iPadOS 15.0以降\n対応端末：iPhone 6s/6s Plus以降、iPad（第5世代）以降、iPad Air 2以降、iPad mini 4以降、iPod touch（第7世代）以降、iPad Pro シリーズ\n\n※動作環",
+    "released": "2015-10-21T03:42:57Z",
+    "updated": "2026-05-15T04:02:05Z",
+    "version": "22.1.2",
+    "score": 4.6,
+    "reviews": 1315959,
+    "developer": "KONAMI",
+    "developerUrl": "https://apps.apple.com/jp/developer/%E3%82%B3%E3%83%8A%E3%83%9F/id299580230?uo=4",
+    "genres": [
+      "ゲーム",
+      "スポーツ",
+      "アクション",
+      "エンターテインメント"
+    ],
+    "releaseNotes": "【Ver.22.1.2】\n■メインビジュアルとアプリアイコンを変更しました。\n■イベント用のリソースを追加しました。\n※詳細はアプリ内のお知らせをご覧下さい。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-17T15:03:14.410Z"
+}

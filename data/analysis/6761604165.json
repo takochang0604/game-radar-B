@@ -1,0 +1,50 @@
+{
+  "appId": "6761604165",
+  "name": "怡然时光：萌宠小陪伴",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "一只软乎乎的小猫，陪你度过每一个温柔日常。\n无压力签到、丰富互动、拍照记录，纯单机无打扰。\n用毛茸茸的陪伴，温暖你的每一刻，治愈所有坏情绪。",
+    "released": "2026-04-20T07:00:00Z",
+    "updated": "2026-05-06T01:09:06Z",
+    "version": "1.2.0",
+    "score": 4.1,
+    "reviews": 6658,
+    "developer": "永涛 周",
+    "developerUrl": "https://apps.apple.com/cn/developer/%E6%B0%B8%E6%B6%9B-%E5%91%A8/id1885402021?uo=4",
+    "genres": [
+      "游戏",
+      "桌面",
+      "休闲"
+    ],
+    "releaseNotes": "优化陪伴流程，修复已知问题"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 25 天，評分 4.1",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:37:26.419Z"
+}

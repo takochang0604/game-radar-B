@@ -1,0 +1,45 @@
+{
+  "appId": "6752864987",
+  "name": "FIFA Panini Collection",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Get ready for the FIFA World Cup 2026™ with the official FIFA Panini Collection by Coca‑Cola — the ultimate digital sticker album for football fans!\n\nCollect, swap, and complete all 48 national teams in the most exciting Panini experience ever made.\nFeel the nostalgia of opening sticker packs, the thrill of discovering new players, and the fun of completing your album — all from your smartphone.\n\nStart collecting today and complete your album before September 30, 2026!\n\nEnjoy the full FIFA Panin",
+    "released": "2026-04-27T07:00:00Z",
+    "updated": "2026-04-27T08:09:12Z",
+    "version": "1.0.0",
+    "score": 3.5,
+    "reviews": 103,
+    "developer": "Panini S.p.A.",
+    "developerUrl": "https://apps.apple.com/us/developer/panini-s-p-a/id348703808?uo=4",
+    "genres": [
+      "Games",
+      "Sports",
+      "Card",
+      "Sports"
+    ],
+    "releaseNotes": ""
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:33.445Z"
+}

@@ -1,0 +1,66 @@
+{
+  "appId": "com.arrow.madness.games.arrows.escape.puzzle.game",
+  "name": "Arrow Puzzle - Arrow Madness",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Welcome to Arrow Madness - the addictive FREE arrow puzzle game designed to test your logic. Follow the arrows, solve each puzzle, and escape into a soothing neon flow.\n \nThis isn't just a simple tap game - it is a top-tier brain game that combines the addictive mechanics of snake puzzles with classic block escape strategies. If you are looking for puzzle games for adults that truly test your spatial thinking, you have found the perfect match. Tap away arrows, untangle snake-like knots, and clea",
+    "released": "Feb 12, 2026",
+    "updated": 1779176357000,
+    "version": "1.9.0",
+    "installs": "1,000,000+",
+    "score": 4.8,
+    "ratings": 47652,
+    "reviews": 56,
+    "developer": "Ashita Games",
+    "developerWebsite": "https://arrowmadness.ashitagames.co.jp/",
+    "genre": "Puzzle"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 14,
+      "2": 3,
+      "3": 5,
+      "4": 11,
+      "5": 167
+    },
+    "positiveRatio": 89,
+    "negativeRatio": 9,
+    "eventMentions": [
+      {
+        "text": "many ads, wants me to upgrade newer app and pay for removal ads twice 1st time and second time. not ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "new and fun!!",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 89%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:03.660Z"
+}

@@ -1,0 +1,68 @@
+{
+  "appId": "com.miniclip.eightballpool",
+  "name": "8 Ball Pool",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Do you want to play in the world of pool games? 8 Ball Pool is an addictive challenging game based on real 3D pool games, where you will challenge your friends online. Become a master of the pool!\n\nThe balls game is easy to win. You just have to select the table and get ready. Join us and challenge your friends to this ball game in PvP mode. Use your pool strategy with the cue wisely in this online multiplayer ball game as every round will be more difficult after each level. You can play in mult",
+    "released": "Jan 23, 2013",
+    "updated": 1776176772000,
+    "version": "56.22.0",
+    "installs": "1,000,000,000+",
+    "score": 4.797462,
+    "ratings": 31265490,
+    "reviews": 982218,
+    "developer": "Miniclip.com",
+    "developerWebsite": "https://www.miniclip.com/",
+    "genre": "Sports",
+    "recentChanges": "PLAY new Tournaments with Friends<br>UNLOCK new Frames for your Avatar on special events<br>EXPLORE the brand new Events Menu<br><br>Upcoming Events:<br>April 01 - Flashback Mecha Season<br>April 08 - WWE Season<br>April 29 - High Rollers Season<br><br>Update 8 Ball Pool today and join the fun!"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 30,
+      "2": 4,
+      "3": 1,
+      "4": 3,
+      "5": 62
+    },
+    "positiveRatio": 65,
+    "negativeRatio": 34,
+    "eventMentions": [
+      {
+        "text": "this game is too frustrating when the game is opened as too much pop ups get appeared infront inform",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      },
+      {
+        "text": "7 yrs wasted. this game now just punishes veterans who actually earned their skills. big tables are ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i'm slowly getting upset on the game as even after reporting people hacking in this game and there's",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "😭😭meri league ke coin hi ni account ho rahy 300m tak jeet gaya hu par league mei abi bi (0)coin sh",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-12T11:43:33.193Z"
+}

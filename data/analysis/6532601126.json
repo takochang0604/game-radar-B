@@ -1,0 +1,45 @@
+{
+  "appId": "6532601126",
+  "name": "That's My Seat - Logic Puzzle",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Can you seat them all?\nWelcome to That’s My Seat – Logic Puzzle, the hit game where every level is a fun brain teaser! Your challenge: place each character in the correct seat by following clever rules. Easy to start, but only the sharpest minds will master them all.\nWhy over 25 million players love it:\n- Over 1000 puzzles and special levels with tricky challenges, endless pop culture references, and celebrity-inspired cameos.\n- Funny & diverse characters: celebrities, cartoon-style figures, ani",
+    "released": "2024-07-22T07:00:00Z",
+    "updated": "2026-05-18T07:41:41Z",
+    "version": "2.2.3",
+    "score": 4.9,
+    "reviews": 842,
+    "developer": "ROOFTOP GAMES OYUN TEKNOLOJILERI ANONIM SIRKETI",
+    "developerUrl": "https://apps.apple.com/ph/developer/rooftop-games-oyun-teknolojileri-anonim-sirketi/id1776905410?uo=4",
+    "genres": [
+      "Games",
+      "Word",
+      "Entertainment",
+      "Puzzle"
+    ],
+    "releaseNotes": "A huge update just landed in That's My Seat! Here's what's waiting for you:\n\n- New Levels & Story: Fresh levels and a brand-new Story!\n- Monthly Events: Unique mini-games every month with special prizes you won't want to miss.\n- Quality of Life: Smoother gameplay, faster loading, and bug fixes for a better puzzle experience.\n\nPlease keep your game updated for the best experience!\nNeed support? Contact us at \"contact-tms@maglab.com.tr\"."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-19T12:54:42.649Z"
+}

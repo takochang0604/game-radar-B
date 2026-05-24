@@ -1,0 +1,45 @@
+{
+  "appId": "6756482832",
+  "name": "Brain Puzzle 3: Crazy Mind",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Warning: This game may cause intermittent frustration, sudden bursts of laughter, and a strong desire to show off to your friends!\n\nSay goodbye to boredom! The Brain Puzzle series is back with a brand-new sequel, Crazy Mind—and this time, it's for real!  We've prepared countless mind-bending levels designed specifically to cure \"\"boredom\"\" and \"\"slow reflexes.\"\" Don't worry, this isn't an exam—it's a fun-filled mental adventure!\n\n Think you're smart enough? That's because you haven't tried Crazy",
+    "released": "2025-12-20T08:00:00Z",
+    "updated": "2026-05-14T20:47:45Z",
+    "version": "1.0.6",
+    "score": 4.6,
+    "reviews": 303,
+    "developer": "SmallStep Dev Team",
+    "developerUrl": "https://apps.apple.com/ph/developer/smallstep-dev-team/id1473677344?uo=4",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Casual",
+      "Entertainment"
+    ],
+    "releaseNotes": "• Fixed some bugs\n• Improved game stability"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:49:26.243Z"
+}

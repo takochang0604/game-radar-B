@@ -1,0 +1,80 @@
+{
+  "appId": "com.maxgames.stickwarlegacy",
+  "name": "Stick War: Legacy",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "The hit web game now comes to mobile! Play Stick War, the fun, challenging, and addictive stick figure strategy game.\n\nControl your army in formations or play each unit, you have total control of every stickman. Build units, mine gold, learn the way of the Sword, Spear, Archer, Mage, and even Giant. Destroy the enemy statue, and capture all Territories!\n\nNew Features:\n● Missions Mode: New levels released every Friday! - Keeping Order won’t be easy.\n● Saga style map with multiple rewards.\n● Unloc",
+    "released": "Jan 31, 2016",
+    "updated": 1777761167000,
+    "version": "2026.1.787",
+    "installs": "100,000,000+",
+    "score": 4.7,
+    "ratings": 3126733,
+    "reviews": 123080,
+    "developer": "Max Games Studios",
+    "developerWebsite": "http://www.maxgames.com",
+    "genre": "Strategy",
+    "recentChanges": "• New Daily Login Streak: claim a free reward every day you play<br>• Keep your streak alive for bigger rewards<br>"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 9,
+      "2": 0,
+      "3": 7,
+      "4": 5,
+      "5": 179
+    },
+    "positiveRatio": 92,
+    "negativeRatio": 5,
+    "eventMentions": [
+      {
+        "text": "please have new spellss",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "it is cool and the best is the unlimited money",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "add new google play achievements",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "pls add some new levels and other hard levels or missions after facing the nightmare of mission 395 ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "it's the best game ever, it inspired me to start gaming. i finished the whole game now,can you pleas",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 92%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:44.005Z"
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "com.yoozoo.jgame.us",
+  "name": "Echocalypse: Scarlet Covenant",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Echocalypse 2.5 Year Anniversary is going live on May 16! New MR Case Honorblade Chiraha debuts with her Oath Outfit [Gentle Drink]. Past memories, present bonds, and the path ahead—the future awaits you! Log in to select a UR Case, exclusive Vibration Arm, and Neolith for free! Sign up for Iridimorphite and massive rewards! Newbie benefits upgraded: sign-in to obtain an MR Case of your choice! Awakener, are you ready for the gala?\n\nEchocalypse is a post-apocalyptic sci-fi strategy RPG. As an Aw",
+    "released": "Jan 16, 2024",
+    "updated": 1776656920000,
+    "version": "4.2.50",
+    "installs": "1,000,000+",
+    "score": 4.7,
+    "ratings": 52991,
+    "reviews": 470,
+    "developer": "Yoozoo (Singapore) Pte. Ltd",
+    "developerWebsite": "https://www.facebook.com/Echocalypse",
+    "genre": "Role Playing"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 58,
+      "2": 16,
+      "3": 19,
+      "4": 21,
+      "5": 86
+    },
+    "positiveRatio": 54,
+    "negativeRatio": 37,
+    "eventMentions": [
+      {
+        "text": "don't know why but can't log into my account it's linked to google yet won't let me get on keeps sta",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "my google acc stil can't log in bro, why? why? it's happen after the new update",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i love the game, but had to drop it for a couple reasons: 1. i ran into an issue where whenever i st",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i can't play the combat part like in the events and some contests, fix the bug please.",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "mf, i just claimed previous char, that trial of fire event or whatever, now that shi change characte",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:07:22.554Z"
+}

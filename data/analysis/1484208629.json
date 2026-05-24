@@ -1,0 +1,45 @@
+{
+  "appId": "1484208629",
+  "name": "Family Style: Co-op Kitchen",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "Too many cooks in the kitchen? Sounds like a game of FAMILY STYLE! Shout and scramble for space to cook dishes in this new and hectic party game for 2 to 8 friends.\n\nFamily Style is a cross-platform party game that transforms your living room into a virtual kitchen. Race against time as you frantically complete recipes and desperately shout instructions at your teammates. Manage your own stations and work together with your kitchen staff to complete recipes before time runs out!\n\nHow many rounds",
+    "released": "2019-11-05T08:00:00Z",
+    "updated": "2021-08-10T11:46:20Z",
+    "version": "1.8.0",
+    "score": 3.2,
+    "reviews": 529,
+    "developer": "Co-op Kitchen LLC",
+    "developerUrl": "https://apps.apple.com/tw/developer/co-op-kitchen-llc/id1716178612?uo=4",
+    "genres": [
+      "遊戲",
+      "休閒",
+      "家庭",
+      "娛樂"
+    ],
+    "releaseNotes": "- Fixed several crashes on start-up"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:06.146Z"
+}

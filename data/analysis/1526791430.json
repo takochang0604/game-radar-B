@@ -1,0 +1,44 @@
+{
+  "appId": "1526791430",
+  "name": "킹갓캐슬: 빛의 운명",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "킹갓캐슬(King God Castle) — 머지 합성 전략으로 완성하는 디펜스 RPG\n\n최강의 전략과 영웅 조합으로 킹갓캐슬을 방어하세요.\n도트 영웅들이 합쳐져 더 강해집니다!\n\n킹갓캐슬은 오토 디펜스 RPG입니다. 도트 캐릭터를 합성하고 전략적으로 배치해\n성을 디펜스하며 성장하세요! PvP와 PvE 모드에서 전략을 시험하고 최고의 병영을 만드세요!\n\n■ 영웅 합성 & 성장 — 머지 합성게임의 재미\n영웅을 합치면 더 강해집니다! 다양한 도트 영웅으로 최강의 전략 덱을 만들어 성을 지키세요.\n캐릭터를 업그레이드해 강력한 스킬과 패시브로 적을 디펜스하세요!\n방치형 자동전투 시스템으로 편하게 즐기는 수집형 RPG!\n\n■ 전략적 타워디펜스 — 배치가 승패를 결정\n어떤 영웅을 어디에 배치하느냐가 핵심입니다.\n전략게임의 깊이와 디펜스게임의 박진감을 동시에!\n\n■ 몰입형 스토리모드 — 싱글 플레이의 재미\n킹갓캐슬의 세계관을 따라 펼쳐지는 스토리모드!\n몰입감 넘치는 스토리와 전투를 느껴보세요!\n\n",
+    "released": "2020-10-19T07:00:00Z",
+    "updated": "2026-05-13T16:21:12Z",
+    "version": "168.1.04",
+    "score": 3.9,
+    "reviews": 2978,
+    "developer": "AWESOMEPIECE",
+    "developerUrl": "https://apps.apple.com/kr/developer/awesomepiece/id508389836?uo=4",
+    "genres": [
+      "게임",
+      "전략",
+      "시뮬레이션"
+    ],
+    "releaseNotes": "- 버그 수정"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:41:01.451Z"
+}

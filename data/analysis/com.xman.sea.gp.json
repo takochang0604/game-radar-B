@@ -1,0 +1,78 @@
+{
+  "appId": "com.xman.sea.gp",
+  "name": "X-Clash",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "The Evil Void tears the continent asunder, while the Undead Plague devours the last remnants of civilization! In this dual apocalypse, only the worthy shall rebuild the realm!\n\nTo survive this cataclysm, you must master both strategic command and survival instinct! \n\nHere's a tip for champions: True power lies not in brute strength, but in forging unbreakable bonds with your companions. Assemble your fellowship wisely - their lineage holds the key to victory.\n\nHighlighted Features:\n\n- Brand new ",
+    "released": "Oct 10, 2025",
+    "updated": 1778833385000,
+    "version": "1.0.101",
+    "installs": "10,000,000+",
+    "score": 4.5,
+    "ratings": 21731,
+    "reviews": 278,
+    "developer": "Glaciers Game",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 82,
+      "2": 7,
+      "3": 7,
+      "4": 13,
+      "5": 91
+    },
+    "positiveRatio": 52,
+    "negativeRatio": 45,
+    "eventMentions": [
+      {
+        "text": "really fun game to just chill and play after a long day. the heroes are cool, the upgrades are satis",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game keeps crashing and a long loading time eventhough i'm connected to internet. i really like ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "this game started out good. then it dwindles. too many bugs and issues. season 1 was too long and ti",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "the system is bad when the r5 is offline for 3 days its force a union merge with out warning alot of",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "this game is full of bugs, in most updates, the devs bring in catastrophe instead of optimizations. ",
+        "keywords": [
+          "update",
+          "season"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:07:15.373Z"
+}

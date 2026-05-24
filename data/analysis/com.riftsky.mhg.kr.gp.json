@@ -1,0 +1,47 @@
+{
+  "appId": "com.riftsky.mhg.kr.gp",
+  "name": "더 코지 플로리스트",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "The Cozy Florist: The Story of My Own Little Flower Shop and Garden\n\nAre you looking for a healing game filled with warm sentiments that keeps you entertained without a dull moment? Do you want to meet like-minded friends but find awkward social interactions burdensome? This game, filled with flowers and sentiment, will solve all your worries right now!\n\nRunning a flower shop + tending a garden—double the fun, pure healing!\n\nExperience a time of healing by collecting various flowers and tending ",
+    "released": "Apr 27, 2026",
+    "updated": 1779440695000,
+    "version": "1.0.41",
+    "installs": "100,000+",
+    "score": 4.9,
+    "ratings": 13535,
+    "reviews": 827,
+    "developer": "Riftsky Games",
+    "developerWebsite": "https://www.riftskygames.com/index.html",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 26 天，評分 4.9",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:08.802Z"
+}

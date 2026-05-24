@@ -1,0 +1,44 @@
+{
+  "appId": "6473259128",
+  "name": "Legend of Mushroom: Rush - SEA",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Hey there, the last warrior on Shroom Island! The mission of reviving your home has begun. Thanks to the Lamp Goddess, she has blessed you with a magic lamp that dishes out fantastic gear! Pick up your weapon, gather allies, and tackle those challenging Bosses together to protect the island! \n\n [Explore and Progress, Loot Opening]\n Tap into the magic lamp and reveal epic gear! Battle monsters, endlessly unlock loot. Enhance your lamp level to boost the chances of rare weapon drops. A single tap ",
+    "released": "2024-03-07T08:00:00Z",
+    "updated": "2026-03-19T07:37:48Z",
+    "version": "2.0.33",
+    "score": 4.8,
+    "reviews": 29332,
+    "developer": "SPARKGAME COMPANY LIMITED",
+    "developerUrl": "https://apps.apple.com/vn/developer/sparkgame-company-limited/id1703914972?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing",
+      "Casual"
+    ],
+    "releaseNotes": "Function optimization and BUG repair."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-18T11:39:11.065Z"
+}

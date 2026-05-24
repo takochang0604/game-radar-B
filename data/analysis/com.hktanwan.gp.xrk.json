@@ -1,0 +1,47 @@
+{
+  "appId": "com.hktanwan.gp.xrk",
+  "name": "Garden Defense：พืช vs สไลม์",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Cool Plants Unite to Protect the Garden!\nSimple yet incredibly fun strategy in this chill base defense game!\n\nLogin Rewards:\nLog in to receive 1000 Gacha!\nGold*1500, Diamonds*200, Random Plant Essence*50, Legend Plant Solution Pack*10\nLegendary Plant — Durian Man*25\n\n◆ Conquer the Battlefield!\nGather sunlight, arrange plants,\nbuild a powerful plant team, strategize, and resist hordes of enemies!\nProtect the sunflowers and conquer every stage!\n\n◆ Summon a Cool Plant Army!\nThailand Exclusive Event",
+    "released": "May 7, 2026",
+    "updated": 1778754395000,
+    "version": "1.24",
+    "installs": "100,000+",
+    "score": 4.7,
+    "ratings": 3757,
+    "reviews": 410,
+    "developer": "TANWAN GAMES",
+    "developerWebsite": "https://hktanwan.com/",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 3,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 2
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 16 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:02:46.809Z"
+}

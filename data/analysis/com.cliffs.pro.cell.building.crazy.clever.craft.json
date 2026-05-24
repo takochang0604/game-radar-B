@@ -1,0 +1,54 @@
+{
+  "appId": "com.cliffs.pro.cell.building.crazy.clever.craft",
+  "name": "Block Crazy Robo World Craft",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "🧱 Block Crazy Robo World Craft – Unleash your creativity in a futuristic voxel universe!\nStep into an open-world sandbox where robots meet blocks. Craft, build, and explore limitless possibilities in a world full of tech, creativity, and imagination. Design futuristic bases, high-tech cities, and robotic landscapes in a fully customizable 3D environment.\n\n🔑 Key Features:\n\n🛠️ Build & Create Freely\nConstruct anything you dream of! From robot factories and tech towers to epic cities and homes us",
+    "released": "Mar 16, 2025",
+    "updated": 1775407694000,
+    "version": "2024",
+    "installs": "50,000,000+",
+    "score": 4.3069305,
+    "ratings": 205447,
+    "reviews": 101,
+    "developer": "Prokids Studio",
+    "developerWebsite": "https://prokids-studio.blogspot.com/",
+    "genre": "Simulation"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 8,
+      "2": 2,
+      "3": 1,
+      "4": 5,
+      "5": 34
+    },
+    "positiveRatio": 78,
+    "negativeRatio": 20,
+    "eventMentions": [
+      {
+        "text": "is my spear update nahi hai kuch to update and is my login option nahi he",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this game is good but this contains so many ads recommended for low budget i am so disappointed afte",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:06:05.328Z"
+}

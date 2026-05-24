@@ -1,0 +1,74 @@
+{
+  "appId": "com.HoYoverse.NapVn",
+  "name": "Zenless Zone Zero-Gamota",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Don't go into the Hole.\nI know, I know that inside the Hole there are Ether resources, mutated creatures, and even the legacy of the old civilization, all of which are precious treasures.\nBut don't forget that the space inside is chaotic, monsters are rampant, mutations are everywhere, after all, this is a disaster that has engulfed the world, not a place where ordinary people should go.\nSo don't go into the Hole.\nAt least don't go into the Hole \"alone\".\nIf you insist on going into a dangerous p",
+    "released": "Jun 19, 2024",
+    "updated": 1776516074000,
+    "version": "2.8.0",
+    "installs": "500,000+",
+    "score": 4.058747,
+    "ratings": 7608,
+    "reviews": 4148,
+    "developer": "HTD STUDIO",
+    "developerWebsite": "https://zenless.hoyoverse.com/",
+    "genre": "Role Playing",
+    "recentChanges": "Phiên bản mới 2.8 &quot;New: Eridu Lúc Hoàng Hôn&quot; đã ra mắt!<br>Nhân Vật Mới<br>Người Đại Diện Cấp S Promeia (Băng - Dị Thường)<br>Người Đại Diện Cấp S Ánh Sao - Billy (Vật Lý - Mệnh Phá)<br><br>Nhân Vật Trở Lại<br>Người Đại Diện Cấp S Lucia (Ether - Chi Viện)<br>Người Đại Diện Cấp S Orphie &amp; Magus (Hỏa - Tiên Phong)<br><br>Trang Phục Mới<br>Hoshimi Miyabi - Ngân Đình Hoa Tín<br><br>Nội dung khác vui lòng xem thông báo trong game."
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 37,
+      "2": 5,
+      "3": 4,
+      "4": 4,
+      "5": 50
+    },
+    "positiveRatio": 54,
+    "negativeRatio": 42,
+    "eventMentions": [
+      {
+        "text": "zzz on mobile just poorly optimized i'm on 8 elite with active fan on the back and still can't have ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "another auto chess djck sucker event another 1 star ( again )",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "pretty good gameplay, joyful until i realize it has the worst gacha mechanic and character kit gap (",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "mình thử test trên 3 phương diện gồm : pc - mobile - mobile moon cloud . chỉ có geforce now là mình ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i cannot stress how disappointed i am with the recent gatcha rate. 3 50:50 lost in a row and all har",
+        "keywords": [
+          "limited"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-12T11:44:02.538Z"
+}

@@ -1,0 +1,41 @@
+{
+  "appId": "pics.karaage.sokutaiho",
+  "name": "Patrol Time! Instant Arrest!",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "You are a police officer at a small neighborhood police box.\n\nFrom daily patrols to on-site investigations—\nto keep the streets safe, spot criminals hiding among civilians and arrest them!\n\n▼How to Play\n・Patrol the streets.\n・When you meet a resident, question them.\n・Observe carefully during questioning and decide whether to arrest.\n・Arrest a criminal, and they’ll vanish on the spot—off to jail!\n・Sometimes serious cases occur—catch the culprit at the scene!\n・The more criminals you arrest, the fas",
+    "released": "Mar 8, 2026",
+    "updated": 1777541194000,
+    "version": "1.0.6",
+    "installs": "100,000+",
+    "score": 4.3,
+    "ratings": 1748,
+    "reviews": 105,
+    "developer": "KARAAGE GAMES LLC.",
+    "developerWebsite": "https://app.karaage.pics/privacy/",
+    "genre": "Simulation"
+  },
+  "reviewAnalysis": {
+    "total": 6,
+    "starCounts": {
+      "1": 5,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 100,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:18.243Z"
+}

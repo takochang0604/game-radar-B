@@ -1,0 +1,67 @@
+{
+  "appId": "com.mergegames.gossipharbor",
+  "name": "Gossip Harbor: Merge & Story",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Welcome to Gossip Harbor 🌊\nFollow Quinn Castillo as her picture perfect life on Brimwave Island crumbles around her. Divorce, sabotage and secrets. Help answer the question everyone's thinking: Who's trying to ruin her life? \nMerge flavorful dishes, restore and decorate Quinn's restaurant and watch the mystery unfold. \nBut who can you trust in Brimwave? \n\nWhip Up Tasty Dishes🥪\nServe coffee, sandwiches, seafood, and a range of other dishes, to your customers. The more you play, the more dishes ",
+    "released": "Sep 9, 2022",
+    "updated": 1777440067000,
+    "version": "3.89.0",
+    "installs": "50,000,000+",
+    "score": 4.348812,
+    "ratings": 618374,
+    "reviews": 19028,
+    "developer": "Microfun Limited",
+    "developerWebsite": "https://www.microfun.com/game_cookieEN.html",
+    "genre": "Puzzle",
+    "recentChanges": "NEW EPISODE EVERY FRIDAY!<br>- NEW EPISODE: With new chapter updates every Friday; follow Quinn as she exposes secrets and solves puzzles.<br>- NEW EVENT:Saddle up and head on out to Slivertails! Join Colton, Olivia, and Lori as they enjoy the cowboy celebrations. Explore by collecting points and unlock exclusive decorations to complete the event!"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 22,
+      "2": 3,
+      "3": 2,
+      "4": 2,
+      "5": 21
+    },
+    "positiveRatio": 46,
+    "negativeRatio": 50,
+    "eventMentions": [
+      {
+        "text": "so far it's pretty good i'll update if it gets to hard. other than the name its actually a pretty \"g",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "spent almost a 100 bucks and decided to stop, disappointing but eventually not worth it. the game is",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "since november 2025, i've been buying almost every offer they throw at me, thinking i'll finally com",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:05:17.368Z"
+}

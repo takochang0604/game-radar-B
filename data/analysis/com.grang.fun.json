@@ -1,0 +1,40 @@
+{
+  "appId": "com.grang.fun",
+  "name": "Grand Fun Club",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Grand Fun Club: An exciting adventure in a mysterious jungle!\nExplore ancient civilizations and spin the thrilling wheel! Enjoy a game designed for entertainment, easy gameplay, beautiful graphics, and the thrill of winning with every spin.\n\nGrand Fun Club features vibrant graphics, a tropical jungle adventure theme, and spectacular effects.\nYou'll find:\n🌴 A mysterious jungle theme with vibrant colors and high-quality graphics.\n🐒 Beautifully designed game reels with diverse symbols.\n💎 Gems an",
+    "released": "Apr 8, 2026",
+    "updated": 1775659387000,
+    "version": "1.0",
+    "installs": "10,000+",
+    "score": 4.6,
+    "ratings": 128,
+    "reviews": 16,
+    "developer": "Mjettoryte",
+    "genre": "Casino"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:47.776Z"
+}

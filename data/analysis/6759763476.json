@@ -1,0 +1,44 @@
+{
+  "appId": "6759763476",
+  "name": "Bus Rush Fever!",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Do you love solving challenging yet satisfying puzzles?\nStep into the world of Bus Rush Fever!\n\nBus Rush Fever! combines the excitement of parking games, the challenge of color-sorting games, and the satisfying people. Plan your moves to clear the parking lot congestion and make way for smooth traffic.\n\nMove, park, and collect—every decision matters in this parking jam puzzle.\n\nWhether you love car parking games, color-sorting games, or just brain teasers, this addictive puzzle game will keep yo",
+    "released": "2026-03-13T07:00:00Z",
+    "updated": "2026-05-20T04:36:00Z",
+    "version": "1.5.0",
+    "score": 4.8,
+    "reviews": 259,
+    "developer": "GOODROID,Inc.",
+    "developerUrl": "https://apps.apple.com/ph/developer/goodroid-inc/id951688937?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Puzzle"
+    ],
+    "releaseNotes": "Bug Fix"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:07:31.840Z"
+}

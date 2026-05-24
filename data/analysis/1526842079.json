@@ -1,0 +1,45 @@
+{
+  "appId": "1526842079",
+  "name": "Brain Who? Tricky Riddle Tests",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Engage your mind with Brain Who? Tricky Riddle Tests, the ultimate puzzle and thinking game experience! Immerse yourself in a world of mind-bending challenges that will test your intelligence and creativity. \n\n\nEmbark on a journey through puzzledom, where thinking games and riddles will twist your mind, challenging you to unravel each level's mysteries. Dive into Brain Who? Tricky Riddle Tests, the best of thinking games and brain teasers, designed to provide the brightest minds with a satisfyin",
+    "released": "2020-08-14T07:00:00Z",
+    "updated": "2026-04-29T19:58:36Z",
+    "version": "2.4.5",
+    "score": 4.7,
+    "reviews": 5651,
+    "developer": "Teos Oyun",
+    "developerUrl": "https://apps.apple.com/ph/developer/teos-oyun/id1689819007?uo=4",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Word",
+      "Entertainment"
+    ],
+    "releaseNotes": "- Performance improvements\n- Bug fixes"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:18.424Z"
+}

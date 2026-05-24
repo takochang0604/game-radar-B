@@ -1,0 +1,44 @@
+{
+  "appId": "1568415097",
+  "name": "The Ants: Underground Kingdom",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "On a hopeful morning, a queen ant finally found a haven where she would build her anthill. Yet, in this survival-of-the-fittest world, dangers lurk everywhere. Dear Ruler! The queen sends out a distress signal to you! Help her build your own ant kingdom!\n\n[Survival Above All]\nAs the crisis looms, the ant colony faces a survival crisis. We must ensure that we have enough resources to survive in this dangerous world. As the ruler, your primary duty is to build the anthill, protect the queen, and c",
+    "released": "2021-06-23T07:00:00Z",
+    "updated": "2026-05-13T01:00:42Z",
+    "version": "3.92.1",
+    "score": 4.5,
+    "reviews": 1602,
+    "developer": "ChengDu Starunion Interactive Entertainment Technology Co., Ltd.",
+    "developerUrl": "https://apps.apple.com/ph/developer/chengdu-starunion-interactive-entertainment-technology/id1568415099?uo=4",
+    "genres": [
+      "Games",
+      "Simulation",
+      "Strategy"
+    ],
+    "releaseNotes": "[New Content]\n1. Updated the content for \"Active Rewards\" in Daily Tasks:\n1.1 Stage 5 Active Rewards is available. Note: The Active Rewards feature will be enabled after the server has been live for a certain period.\n1.2 After the update is complete, Stage 4 Active Rewards will be closed. All unclaimed Active Rewards will be resent via Mail.\n\nCheck more details of the update in-game!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:39:46.774Z"
+}

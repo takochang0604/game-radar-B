@@ -1,0 +1,75 @@
+{
+  "appId": "com.papegames.lysk.tw",
+  "name": "戀與深空",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "*Love and Deep Space* continues the world view of the *Love and Producer* series, offering a highly immersive 3D romance game set in a near-future fantasy. Through ultra-immersive first-person perspective, rich romantic interactions, and multi-sensory gameplay, it provides a highly realistic romance experience, making love tangible.\n\n【New Homestead Gameplay and Main Story】 The Homestead system is officially launched, and the main storyline has been updated! \"Controlling all things, the galaxy bo",
+    "released": "Jan 8, 2024",
+    "updated": 1766644877000,
+    "version": "5.0.0",
+    "installs": "100,000+",
+    "score": 4.4029365,
+    "ratings": 7163,
+    "reviews": 2435,
+    "developer": "InFold Pte. Ltd.",
+    "genre": "Simulation",
+    "recentChanges": "《戀與深空》5.0年度版本「愛，宇宙，詩王座」現已推出！"
+  },
+  "reviewAnalysis": {
+    "total": 69,
+    "starCounts": {
+      "1": 19,
+      "2": 5,
+      "3": 1,
+      "4": 6,
+      "5": 38
+    },
+    "positiveRatio": 64,
+    "negativeRatio": 35,
+    "eventMentions": [
+      {
+        "text": "很好玩沒錯，但每次久久進去登更新等很久 而且更新很久手機又發燙，所以我刪掉了",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "very pradatory gacha game, not really enjoyable without paying a lot of money. story is updated very",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "用心製作，畫面很美，主題曲動聽，和其他合作方的作品也很有誠意",
+        "keywords": [
+          "合作"
+        ]
+      },
+      {
+        "text": "要拿到5星卡在台灣的好難啊。你們是故意的嗎？我玩新加坡的server不知道已經抽到幾張5星的了。感覺被你們詐騙了！且我花錢呢！",
+        "keywords": [
+          "新"
+        ]
+      },
+      {
+        "text": "建模是做的還不錯，男主的整體外觀也很棒。但活動卡池持續更新，每個卡池都要鑽石，不但沒時間存也沒有緩衝時間，加上原本的打鬥問題也都沒有優化或改善，刪遊了。",
+        "keywords": [
+          "新",
+          "活動",
+          "更新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:40:46.367Z"
+}

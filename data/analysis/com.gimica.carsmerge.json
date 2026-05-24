@@ -1,0 +1,55 @@
+{
+  "appId": "com.gimica.carsmerge",
+  "name": "Cars: Merge and Defend",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Prepare to battle wave upon wave of relentless enemies as you skilfully merge and upgrade the defences of your cars.\n\nBuild out a roster of cars and use them tactically in order to defeat the enemy, collect coins and be victorious!",
+    "released": "Jul 21, 2022",
+    "updated": 1777472647000,
+    "version": "1.2.3",
+    "installs": "1,000,000+",
+    "score": 4.4,
+    "ratings": 21112,
+    "reviews": 824,
+    "developer": "Gimica GmbH",
+    "developerWebsite": "https://www.gimica.com/",
+    "genre": "Arcade",
+    "recentChanges": "- Improvements"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 30,
+      "2": 16,
+      "3": 18,
+      "4": 22,
+      "5": 114
+    },
+    "positiveRatio": 68,
+    "negativeRatio": 23,
+    "eventMentions": [
+      {
+        "text": "i play this on justplay and it is my new go to my only suggestion would be either more color cars or",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i'm giving it 4 ☆ because its fun so far. not sure about the payout. i'll update when i'm sure.",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-19T12:55:12.258Z"
+}

@@ -1,0 +1,49 @@
+{
+  "appId": "com.easybrain.brainy.joygame",
+  "name": "Puzzle Time: Brainy Challenge",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "“Relax, Play, Refresh—Your Daily Brain Break!”. Congratulations on discovering this wonderfully amusing brain game! Puzzle Time: Brainy Challenge is a journey of playful surprises and “aha!” moments. \n\nIn this game, you’ll follow lighthearted scenarios, using various items and a dash of quick wit to reach your goal. These cleverly designed levels might playfully bend the rules—that’s where the fun begins! Unwind, think sideways, and use your creativity and humor to find the most delightful solut",
+    "released": "Jan 20, 2026",
+    "updated": 1779270953000,
+    "version": "1.0.1",
+    "installs": "100,000+",
+    "score": 4.6,
+    "ratings": 873,
+    "reviews": 18,
+    "developer": "JoyGame Studio",
+    "developerWebsite": "http://www.ezekielflores.com",
+    "genre": "Puzzle",
+    "recentChanges": "• Added new levels"
+  },
+  "reviewAnalysis": {
+    "total": 28,
+    "starCounts": {
+      "1": 9,
+      "2": 2,
+      "3": 1,
+      "4": 2,
+      "5": 14
+    },
+    "positiveRatio": 57,
+    "negativeRatio": 39,
+    "eventMentions": [
+      {
+        "text": "sure, i'd recommend. in a market inundated with these games, this one sticks out with some different",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:06:08.641Z"
+}

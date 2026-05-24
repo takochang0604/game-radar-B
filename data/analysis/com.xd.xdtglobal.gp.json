@@ -1,0 +1,74 @@
+{
+  "appId": "com.xd.xdtglobal.gp",
+  "name": "Heartopia",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Welcome to Heartopia, a multiplayer life simulation game crafted for creativity, freedom, and peace. Build your dream home, explore a wide range of hobbies, and forge warm connections with friends in a town full of endless possibilities.  \n\n[Game Features]\n◆ Let's Connect! Create Unique Memories\nChat with the charming residents of Heartopia Town, hang out with old friends, and meet new friends every time you log in!\n\n◆ Let's Explore! Gardening, Fishing, Birding...\nHobbies are yours to enjoy, not",
+    "released": "Dec 23, 2025",
+    "updated": 1773138215000,
+    "version": "0.4.11",
+    "installs": "5,000,000+",
+    "score": 4.1484594,
+    "ratings": 103752,
+    "reviews": 2045,
+    "developer": "XD Entertainment Co., Ltd.",
+    "developerWebsite": "https://heartopia.xd.com/",
+    "genre": "Simulation"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 48,
+      "2": 8,
+      "3": 8,
+      "4": 4,
+      "5": 32
+    },
+    "positiveRatio": 36,
+    "negativeRatio": 56,
+    "eventMentions": [
+      {
+        "text": "was good until it wasnt. now its just update after update of things to buy instead of actual improve",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i would give 5 stars if i wasn't so limited building. we should get the same building material as ch",
+        "keywords": [
+          "limited",
+          "new"
+        ]
+      },
+      {
+        "text": "the new update is ai slop dude and all the images are ai slop as well this game literally sucks 🫩🫩",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i liked this game, but after i returned to it after a few weeks all my data had been lost when i did",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i loved this game until it got filled with children, and paid gatchas. then, there is a building eve",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:37:00.403Z"
+}

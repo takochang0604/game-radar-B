@@ -1,0 +1,42 @@
+{
+  "appId": "com.linecorp.LGSMK19",
+  "name": "LINE：もじけし",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Trace letters to discover words! A casual word puzzle game!\nFind words among the letters and clear stages!\nEarn rewards based on the number of words you find! Play a lot to find words!\n\n[Free Mode]\nClear stages and collect coins!\nClear a certain number of stages to earn rare words and coins!\nIn addition, the words you collect and rare words will be registered in your word list! Earn rewards based on the number of words you register!\n\n[Daily Mode]\nEarn more coins than usual when you complete dail",
+    "released": "Sep 7, 2025",
+    "updated": 1775440809000,
+    "version": "3.7.0",
+    "installs": "100,000+",
+    "score": 4,
+    "ratings": 8611,
+    "reviews": 592,
+    "developer": "LINE (LY Corporation)",
+    "developerWebsite": "https://line.me",
+    "genre": "Puzzle",
+    "recentChanges": "[ver_3.7.0アップデート内容]<br>軽微な不具合を修正しました。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:50:27.277Z"
+}

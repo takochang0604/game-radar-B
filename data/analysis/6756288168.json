@@ -1,0 +1,43 @@
+{
+  "appId": "6756288168",
+  "name": "Cookingo: Perfect Meal",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Welcome to Cookingo, your peaceful little escape from the hustle and bustle of everyday life. In this game, cooking is more than just making food—it’s a foodie haven, where you can savor each calm and happy moment.\n\nYour mission is simple: craft all the fresh ingredients into delightful creations.\n- Chop & Slice: Feel your rhythm as you softly slice fruits and veggies.\n- Whisk & Mix: Watch colors swirl and textures blend while soothing ASMR sounds wrap around you like a cozy blanket.\n- Perfect P",
+    "released": "2025-12-16T08:00:00Z",
+    "updated": "2026-05-22T02:37:14Z",
+    "version": "1.5",
+    "score": 3,
+    "reviews": 625,
+    "developer": "Higame Global Limited",
+    "developerUrl": "https://apps.apple.com/us/developer/higame-global-limited/id1764022277?uo=4",
+    "genres": [
+      "Games",
+      "Casual"
+    ],
+    "releaseNotes": "- Enhanced user's experience.\n- Fixed some bugs\n- Added 4 new levels"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:08:12.318Z"
+}

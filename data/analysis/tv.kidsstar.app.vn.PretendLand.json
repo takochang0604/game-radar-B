@@ -1,0 +1,42 @@
+{
+  "appId": "tv.kidsstar.app.vn.PretendLand",
+  "name": "Kids Games: Gokko World",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "◆Enjoy pretend play, educational games, and real-world experiences, all completely free!\n\n◆Learn and Play for Free! An Educational App for Kids\n→GokkoWorld is a free, interactive app where kids can explore different careers through games and play original educational games.\n\n[Recommended Age] 2 and up\n\n◆GokkoWorld Features\n\n- Designed with simple controls so even 2-year-olds can play.\n- Educational elements like numbers and new vocabulary are woven throughout the gameplay.\n- In addition to job r",
+    "released": "Dec 15, 2025",
+    "updated": 1774489552000,
+    "version": "3.1.1",
+    "installs": "1,000,000+",
+    "score": 3.9126213,
+    "ratings": 3585,
+    "reviews": 58,
+    "developer": "KidsStar Inc.",
+    "developerWebsite": "https://www.facebook.com/gokkoworld",
+    "genre": "Educational",
+    "recentChanges": "Improved several app features"
+  },
+  "reviewAnalysis": {
+    "total": 2,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 50,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:40.090Z"
+}

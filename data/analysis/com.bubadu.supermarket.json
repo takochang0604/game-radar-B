@@ -1,0 +1,48 @@
+{
+  "appId": "com.bubadu.supermarket",
+  "name": "Supermarket Game",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Welcome to the shopping paradise! Explore the supermarket world with many popular mini-games. Help your customers shop and get ready for some fun!\n \nThis supermarket has a lot of sections: a cash register, departments for grocery, cheese and salami, fruits and vegetables, sweets, and toys, a recycling area and other. Do all the necessary tasks and provide superb shopping services to meet your customers’ needs.\n \n• Cash register: Have fun scanning items and issuing invoices. Learn about numbers a",
+    "released": "Jun 23, 2016",
+    "updated": 1777040281000,
+    "version": "1.63",
+    "installs": "100,000,000+",
+    "score": 4.1173334,
+    "ratings": 270565,
+    "reviews": 1494,
+    "developer": "FM by Bubadu",
+    "developerWebsite": "http://www.bubadu.com",
+    "genre": "Casual",
+    "recentChanges": "- maintenance"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 6,
+      "2": 0,
+      "3": 1,
+      "4": 7,
+      "5": 36
+    },
+    "positiveRatio": 86,
+    "negativeRatio": 12,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 86%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:06:36.903Z"
+}

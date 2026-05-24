@@ -1,0 +1,75 @@
+{
+  "appId": "com.tencent.ig",
+  "name": "PUBG MOBILE",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "【Epic battle royale masterpiece】\nLots of events for you to explore.Climb to the top in PUBG MOBILE and fire at will. PUBG MOBILE is the original battle royale game on mobile and one of the best mobile shooting games.\n\n【Extreme battles in 10-minute matches】\nPrepare your firearms, respond to the call for battle in PUBG MOBILE, and fire at will.\n\n【Tons of maps and modes】\nPUBG MOBILE has many maps and gameplay mechanics that give you a thrilling survival experience. Find your friends and play the ne",
+    "released": "Mar 19, 2018",
+    "updated": 1777363707000,
+    "version": "4.4.0",
+    "installs": "1,000,000,000+",
+    "score": 4.4,
+    "ratings": 48270298,
+    "reviews": 192474,
+    "developer": "Level Infinite",
+    "developerWebsite": "https://www.pubgmobile.com/",
+    "genre": "Action",
+    "recentChanges": "The first ancient Greek myth-themed version, Hero&#39;s Crown is here! Conquer the four temple areas, complete five glorious trials, and recruit the centaur ally to fight alongside you!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 48,
+      "2": 7,
+      "3": 7,
+      "4": 9,
+      "5": 129
+    },
+    "positiveRatio": 69,
+    "negativeRatio": 28,
+    "eventMentions": [
+      {
+        "text": "after update the game take a very long to get in the game.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "can you do something to prevent cheating there's too many cheater in this game it's starting to get ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "fix this mini map and white screen this is so bad update bring new uodate",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "my best game in the world 1.rainbow six mobile 2.pubg mobile 3. call of duty mobile pubg 100000/10 a",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this new update is extremely, extremely, extremely, extremely bad. why are you insulting muslims? i ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:03:56.502Z"
+}

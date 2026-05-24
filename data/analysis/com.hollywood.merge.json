@@ -1,0 +1,86 @@
+{
+  "appId": "com.hollywood.merge",
+  "name": "Hollywood Merge",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Merge! Fashion! Drama! \nFrom girl next door to Hollywood sensation, experience the celebrity life now!\n\nLife in LA is tough and running back and forth from your part-time job to acting auditions to be an extra isn't all that glamorous either. However, by some miracle, you find out you're actually the long-lost daughter of Hollywood actor Peter Dake.\n\nWhen you learn about your family history, your whole world is turned upside down. Well, what you thought would be a life of ease, turns out to be a",
+    "released": "May 7, 2026",
+    "updated": 1779458286000,
+    "version": "0.0.618",
+    "installs": "1,000,000+",
+    "score": 4.8,
+    "ratings": 40137,
+    "reviews": 74,
+    "developer": "VoyagerOne IE",
+    "developerWebsite": "http://www.matchrella.com",
+    "genre": "Casual",
+    "recentChanges": "Update Now for Exciting New Features!<br>- Episode 65 Is Here! Face the rumors head-on, then stun the crowd with your designs and charm.<br>- The Desserts Pass is live! Complete tasks to earn points and unlock tons of sweet rewards.<br>- The Rhythm Fiesta kicks off May 25. The stage is waiting for you, so come join the music festival!<br>- The new merge event, Azure Getaway , kicks off June 2! Hit the beach with Nate for a getaway made for two!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 25,
+      "2": 7,
+      "3": 20,
+      "4": 33,
+      "5": 115
+    },
+    "positiveRatio": 74,
+    "negativeRatio": 16,
+    "eventMentions": [
+      {
+        "text": "nice game 👍🏾 but try to make it 3d, i mean the events in the game should be more realistic as in 3",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i get a new phone and trying to transfer the game onto the new phone i cannot it reverts right back ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "🕹 i absolutely ♡ this app! it's fun & challenging! i give it ☆☆☆☆☆'s & 2 👍🏻! i highly🔝 recommend",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "so far, so good! will update if things change.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the game always need an update",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 16 天，評分 4.8",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:07:41.153Z"
+}

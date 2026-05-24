@@ -1,0 +1,75 @@
+{
+  "appId": "com.supercell.hayday",
+  "name": "Hay Day",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Welcome to Hay Day, the fun farm simulator game! Build a farm, go fishing, raise animals, and explore the Valley. Farm with friends and decorate your own slice of country paradise.\n\nFarming has never been easier! Grow crops like wheat and corn in this farm simulator, and even though it never rains, they never die. Harvest and replant seeds to multiply crops, then make goods to sell. Befriend animals like chickens, pigs, and cows as you expand and grow! Feed your animals to produce eggs, bacon, d",
+    "released": "Nov 13, 2013",
+    "updated": 1775571914000,
+    "version": "1.70.96",
+    "installs": "100,000,000+",
+    "score": 4.334674,
+    "ratings": 13143307,
+    "reviews": 417334,
+    "developer": "Supercell",
+    "developerWebsite": "https://help.supercellsupport.com/hay-day/en/",
+    "genre": "Casual",
+    "recentChanges": "- Spring is blooming on the farm with smoother progress and new ways to earn rewards.<br>- Some players may discover extra rewards from Boat and Truck Orders.<br>- Starting your farming journey is now smoother, with better early rewards and an easier path to Sanctuary animals.<br>- Crops, axes, and saws can now be purchased with coins.<br>- Improvements to Derby, Town, Events, Tutorials, UI, rewards, and Golden Key Chests."
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 13,
+      "2": 6,
+      "3": 6,
+      "4": 3,
+      "5": 72
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 19,
+    "eventMentions": [
+      {
+        "text": "after the latest update, the game simply won't launch, freezing halfway through the \"updating\" scree",
+        "keywords": [
+          "event",
+          "update"
+        ]
+      },
+      {
+        "text": "what do i do when the extra help such as send on board, activate on items for 50% off of time do not",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i really like this game! i like that they are adding new games within the game.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i've been playing this game since 2012, it's my absolute favorite! i love the simplicity and yet the",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "hay day is a great game, i've been playing it for quite some time , i'd love to see some new fruits ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:36:44.105Z"
+}

@@ -1,0 +1,53 @@
+{
+  "appId": "com.samkokoath.gp",
+  "name": "Samkok: Blood Oath",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "A new vision of the Three Kingdoms, where heroes rise and forge their destiny through Blood Oaths.\nStunning anime-style character design\nIconic generals and legendary heroines fight side by side\nEach hero awakens unique powers through Blood Oaths\nFight with honor. Rise with your allies. Conquer with your strategy.\nThis is not just history.\nThis is Samkok: Blood Oath.\n\n🎁 START STRONG — NO PAYWALL, JUST POWER\n\nLog in and claim endless FREE DRAWS, legendary heroes, and huge launch rewards.\nInstant",
+    "released": "May 11, 2026",
+    "updated": 1777458926000,
+    "version": "1.0.5",
+    "installs": "50,000+",
+    "score": 3.7,
+    "ratings": 673,
+    "reviews": 117,
+    "developer": "LUMENCODE CO., LIMITED",
+    "genre": "Strategy"
+  },
+  "reviewAnalysis": {
+    "total": 37,
+    "starCounts": {
+      "1": 12,
+      "2": 2,
+      "3": 2,
+      "4": 4,
+      "5": 17
+    },
+    "positiveRatio": 57,
+    "negativeRatio": 38,
+    "eventMentions": [
+      {
+        "text": "bad rate for ur , pity is locked behind the paywall (vip to collect the pity), at least give event f",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "this is my new favorite game and i got hooked on it i love getting some powerful character and becom",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:59.922Z"
+}

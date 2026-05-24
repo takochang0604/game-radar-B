@@ -1,0 +1,51 @@
+{
+  "appId": "6479204992",
+  "name": "드래곤 슬레이어 키우기 방치형 RPG",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "◆ 도트 감성 + 자동 전투, 방치형 RPG의 정석 ◆\n\n차원의 균열로 퍼진 몬스터들로 인해 세계가 혼란에 빠졌습니다.  \n이제, 전설의 슬레이어가 되어 각 지역을 정복하고 평화를 되찾으세요.  \n쉽게 시작하고 오래 즐기는 진짜 방치형 판타지 RPG!\n\n◆ 하루 10분이면 충분! 자동 전투로 쉬운 성장 ◆\n\n게임을 켜두지 않아도 전투는 계속됩니다.  \n출근길, 점심시간, 잠들기 전 10분이면 충분한 성장!  \n방치만으로 끝나지 않습니다. 속성, 장비, 스킬을 조합해 전략적인 전투를 펼쳐보세요.\n\n◆ 던전 탐험부터 드래곤 레이드까지 ◆\n\n저주받은 숲, 용암 지대, 얼음 계곡 등 다양한 지역을 탐험하세요.  \n보스와의 치열한 전투, 드래곤 레이드에서만 얻을 수 있는 희귀 보상까지!  \n진짜 RPG 유저라면 놓칠 수 없는 콘텐츠가 기다립니다.\n\n◆ 장비 강화, 속성 조합, 나만의 빌드 완성 ◆\n\n불, 얼음, 번개… 다양한 속성 스킬을 조합해보세요.  \n장비를 강화하고 전투 스타일에 맞춰 ",
+    "released": "2024-06-25T07:00:00Z",
+    "updated": "2026-05-04T22:14:03Z",
+    "version": "2.1.8",
+    "score": 4.44654,
+    "reviews": 159,
+    "developer": "Act Seven Entertainment Inc.",
+    "developerUrl": "https://apps.apple.com/kr/developer/act-seven-entertainment-inc/id500113660?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉",
+      "시뮬레이션"
+    ],
+    "releaseNotes": "minor bug fixed"
+  },
+  "reviewAnalysis": {
+    "total": 37,
+    "starCounts": {
+      "1": 6,
+      "2": 1,
+      "3": 3,
+      "4": 2,
+      "5": 25
+    },
+    "positiveRatio": 73,
+    "negativeRatio": 19,
+    "eventMentions": [
+      {
+        "text": "무과금으로 방치하기 딱 좋은 게임인듯 \n지금 5개월을 바라보고 있는데 아쉬운점이 있다면 업데이트가 좀 늦습니다",
+        "keywords": [
+          "업데이트"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:37:22.141Z"
+}

@@ -1,0 +1,80 @@
+{
+  "appId": "net.gameduo.sg2",
+  "name": "Three Kingdoms Tempest",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Are you ready to defeat the warlords\nto become the Son of Heaven?\n\n[Unite the World with Heroes of Three Kingdoms!]\n\nRoam the battlefields with heroes of Three Kingdoms and win the battle.\nGrow your heroes and bring the whole world under your rule.\n\n[Collect the Warriors and Build Your Forces!]\n\nStrategically build your own dispositions to get advantages over your enemies.\nDeploy various warriors according to your tactics to make your unit stronger.\n\n[Win the Battle by Collecting Different Types",
+    "released": "Apr 19, 2024",
+    "updated": 1778490578000,
+    "version": "1.56.2",
+    "installs": "100,000+",
+    "score": 4.8,
+    "ratings": 5651,
+    "reviews": 309,
+    "developer": "kikike corp.",
+    "developerWebsite": "http://www.kikike.com",
+    "genre": "Role Playing",
+    "recentChanges": "Ver. 1.56.2<br>- Stages 39 and 40 have been added.<br>- Sky Tower 12th Floor has been added.<br>- Arena and All-out War rewards have been revamped.<br>- Cheongju Server: Hall of Fame is now open.<br>- Quality of Life: A filter has been added to the Necklace list.<br>- Minor bugs fixed."
+  },
+  "reviewAnalysis": {
+    "total": 109,
+    "starCounts": {
+      "1": 23,
+      "2": 7,
+      "3": 13,
+      "4": 8,
+      "5": 58
+    },
+    "positiveRatio": 61,
+    "negativeRatio": 28,
+    "eventMentions": [
+      {
+        "text": "what happened to eu servers? why only asian servers? why is there no updated guides or tier lists fo",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "just downloaded and opened , it's say need to update !!!! why ???",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "still no auto progress option added. you have to sit next to your phone for no reason to keep pressi",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "nice game but already bored no new heroes",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "open new server per week is needed, and combine server at later stage",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:37:04.873Z"
+}

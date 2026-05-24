@@ -1,0 +1,76 @@
+{
+  "appId": "6443467666",
+  "name": "Love and Deepspace",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "As the brand-new installment of the popular Mr. Love series, Love and Deepspace allows you to step into a sci-fi world where love knows no bounds. With immersive cutscenes, 3D storylines and interactions, love is truly within reach!\n\n[New Home Feature and Main Story]\nThe Home Feature is now available and there will be a new Main Story update! \"Before a dominant will, even the cosmos bows.\" Version 5.0 Second Anniversary [Throne of Eros] is now available. Draw closer to him as the story unfolds l",
+    "released": "2024-01-17T08:00:00Z",
+    "updated": "2025-12-30T20:59:50Z",
+    "version": "5.0.0",
+    "score": 4.12783,
+    "reviews": 2738,
+    "developer": "INFOLD PTE. LTD.",
+    "developerUrl": "https://apps.apple.com/ph/developer/infold-pte-ltd/id1646211490?uo=4",
+    "genres": [
+      "Games",
+      "Simulation"
+    ],
+    "releaseNotes": "Version 5.0 of Love and Deepspace [Throne of Eros] Is Now Released!\n\n[New 5-Star Memories]\n-Before a dominant will, even the cosmos bows. The limited Wish Pool [Throne of Eros] is now available with the new Memory series. You can obtain limited-time pulls, Memory-themed Outfits, and selectable event-limited 5-Star Memories.\n-Participate in the [Illusia Locus] event, and use the Kindling Guide to claim five new 4-Star Memories for free!\n\n[New Home Feature]\n-With Linkon Real Estate, you can enjoy a happy life! The Home feature is now available. You can claim a detached garden villa and 1000+ pieces of exquisite furniture for free! With him by your side, home feels warmer than ever. Enjoy rich interactive activities with him. You can grow flowers, take photos together, and customize the decor to create your unique, cozy haven. Don't forget to enjoy the fireworks with him on the special celebration night and treasure these radiant memories.\n\n[Yearly Mega Sale] \n-Anniversary Offer is available for a limited time. Unlocks the Premium Gift to claim up to 1300% Bonus Rewards for 50 consecutive weeks!\n-New Promise launches, romance awaits. Encounter with new Memories! The First Top-Up Gift for all Crystal packages in the Shop will be reset, and the Aurum Pass benefit will also be enhanced!\n\n[Anniversary Celebration Now Live] \n-Main Story [To Our Yesterday] updates, complete the exploration of [Timelock Key] and claim His Universal Outfits, Diamonds and more for free!\n-[Heart Compass] Selectable 5-Star Memories Limited Special Wish Pool is available! Choose your favorite Memories and get the Memories you want quickly!\n-Anniversary Event [Royal Masque] is available for a limited time. Participate in the event to claim a permanent 5-Star Memory Crate, 10 pulls, commemorative items, and more rewards!\n-Intangible Cultural Heritage Papercutting Theme Event [Poetic Figures] is available. Discuss Papercutting with him and claim event-themed Wall decor, ACC., Stickers, and more rewards!\n-[Heart's Archive] commemorative event is available. Check the Heart's Archive, and view Yearly Highlights Journal. His handwritten letters and paintings, exclusive titles, journal items, and more await!\n-[Lemonette's Trove] is permanently available. You can claim previous limited event rewards for free. Surprises last, limited-time activity reruns.\n\n[Rewards]\n-Participate in the Version 5.0 Second Anniversary, and log in to claim a detached garden villa, 1000+ pieces of exquisite furniture and new event-themed 4-Star Memory*5 for free!\nAlso, claim Selectable 5-Star Memory & 4-Star Memory Crate, limited With Him Decor, diamonds, limited-time pulls, and more for free!"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 6,
+      "2": 3,
+      "3": 4,
+      "4": 9,
+      "5": 27
+    },
+    "positiveRatio": 73,
+    "negativeRatio": 18,
+    "eventMentions": [
+      {
+        "text": "i used to play lads but my phone can’t keep up with the storage so i end up uninstalling it a year a",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "1. absolutely ridiculous to put so much content behind the lunar shop and yet completely forget abt ",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      },
+      {
+        "text": "this is just no ordinary otome game i love how this game is so detailed and it got me obsessed. it h",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "customer service takes 2–3 days just to respond, and when they do, the replies are vague and repetit",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "as a new player, i really got hooked into playing. but i came to notice how costly the wish system i",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:24:04.112Z"
+}

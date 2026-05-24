@@ -1,0 +1,44 @@
+{
+  "appId": "1517783697",
+  "name": "Genshin Impact",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Step into Teyvat, a vast world teeming with life and flowing with elemental energy.\n\nYou and your sibling arrived here from another world. Separated by an unknown god, stripped of your powers, and cast into a deep slumber, you now awake to a world very different from when you first arrived.\n\nThus begins your journey across Teyvat to seek answers from The Seven — the gods of each element. Along the way, prepare to explore every inch of this wondrous world, join forces with a diverse range of char",
+    "released": "2020-09-26T07:00:00Z",
+    "updated": "2026-05-19T21:46:34Z",
+    "version": "6.6.0",
+    "score": 4.2,
+    "reviews": 61732,
+    "developer": "COGNOSPHERE PTE. LTD.",
+    "developerUrl": "https://apps.apple.com/th/developer/cognosphere-pte-ltd/id1599719156?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing",
+      "Adventure"
+    ],
+    "releaseNotes": "Version \"Luna VII,\" Song of the Welkin Moon: Andante — Truth Amongst the Pages of Purana, is now available!\nNew Characters: Nicole, Lohen, Prune\nNew Events: Version Main Event \"Phantasmal Pals,\" etc.\nNew Stories: New Archon Quests and Story Quest\nMiliastra Wonderland Update: New Manekin Cosmetics and Lobby\nNew Artifacts: Celestial Gift Set, Disenchantment in Deep Shadow Set\nNew Weapons: Angelos' Heptades, Disaster and Remorse\nTCG Update: New Character Cards and Action Cards"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:17.984Z"
+}

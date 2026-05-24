@@ -1,0 +1,46 @@
+{
+  "appId": "com.cseightworld.google",
+  "name": "打寳傳説：神話篇",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Two decades of legendary gameplay, the myth returns!\n\n\"Legend of Treasure Hunting: Mythical Edition\" perfectly replicates the classic gameplay of the original game, incorporating elements of Eastern mythology to create a fantastical and thrilling world. Here, there are no tedious quests, only the purest PK thrill and the ultimate treasure hunting experience. The winds of change have swept across the continent of Marfa, and the throne in the Heavenly Palace awaits. Warriors, it's time to draw you",
+    "released": "May 11, 2026",
+    "updated": 1778481222000,
+    "version": "1.0.64",
+    "installs": "5,000+",
+    "score": 4.3,
+    "ratings": 608,
+    "reviews": 47,
+    "developer": "Star Entertainment HK",
+    "genre": "Role Playing"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 12 天，評分 4.3",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:44.134Z"
+}

@@ -1,0 +1,48 @@
+{
+  "appId": "com.and.cjys.tw",
+  "name": "鬼雄三國：主公有夠鬼",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "🎁Get Ma Chao this Year of the Horse! Log in to claim this powerful general!\n\nDownload now to receive Ma Chao, a five-star exclusive ghost hero to help you conquer the land.\n\nEven more exclusive benefits await: \"Ten Thousand Draws in a Millennium,\" making dominating the Three Kingdoms a reality!\n\nGuan Yu cleaved a rift in time and space with his sword, bringing forth ghost heroes from the Three Kingdoms. From then on, humans and ghosts coexisted, two heroes reigning side by side.\n\nWhat kind of T",
+    "released": "Apr 30, 2026",
+    "updated": 1779445365000,
+    "version": "1.0.15",
+    "installs": "10,000+",
+    "score": 4.7,
+    "ratings": 6100,
+    "reviews": 308,
+    "developer": "BYTEFUN GAMES PTE. LTD.",
+    "developerWebsite": "https://bytefungames.com",
+    "genre": "Role Playing",
+    "recentChanges": "「更新內容」 1、修複部分已知BUG"
+  },
+  "reviewAnalysis": {
+    "total": 4,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 2
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 25,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 23 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:08:16.955Z"
+}

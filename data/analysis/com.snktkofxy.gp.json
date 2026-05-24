@@ -1,0 +1,47 @@
+{
+  "appId": "com.snktkofxy.gp",
+  "name": "SNK：全明星覺醒",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "You open your eyes and find yourself transported to the SNK fighting game world. Here, powerful fighters abound, destinies intertwine, and you return with memories of your past life. Collect fragments to repair the rift in time and space, rewriting the entire fighting legend!\n\nDestiny returns, begin your new \"fist\" life!\n\nOfficially licensed by SNK, the classic fighting game world is fully recreated. You unexpectedly fall into South Town, encountering all-star fighters like Kyo Kusanagi, Iori Ya",
+    "released": "May 12, 2026",
+    "updated": 1778604637000,
+    "version": "1.0.2",
+    "installs": "1+",
+    "score": 4.7,
+    "ratings": 593,
+    "reviews": 139,
+    "developer": "LIGHTYEAR MATRIX LIMITED",
+    "genre": "Role Playing",
+    "recentChanges": "1. 優化網路<br>2. 修復已知BUG"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 11 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:03:25.849Z"
+}

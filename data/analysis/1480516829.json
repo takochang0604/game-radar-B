@@ -1,0 +1,51 @@
+{
+  "appId": "1480516829",
+  "name": "Free Fire MAX",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "The Undersea Mystery has arrived!\nMysterious ocean energy has surged, and a new undersea adventure begins.\n\n[Undersea Realm]\nBoard a whale‑themed aircraft into the map! Enter the Undersea Realm in Bermuda through whirlpool entrances and fight underwater. The High-tier Loot Zone becomes the Hydro Zone, and giant whales fly across the sky to drop Bubble Airdrops.\n\n[Hydro Blaster & Fishing Ponds]\nTry the new event weapon, the Hydro Blaster, for a fresh combat feel. Fishing ponds containing loot hav",
+    "released": "2021-09-27T07:00:00Z",
+    "updated": "2026-04-08T03:30:13Z",
+    "version": "2.123.1",
+    "score": 4.02714,
+    "reviews": 53576,
+    "developer": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+    "developerUrl": "https://apps.apple.com/us/developer/garena-international-i-private-limited/id1335627134?uo=4",
+    "genres": [
+      "Games",
+      "Adventure",
+      "Action"
+    ],
+    "releaseNotes": "[Undersea Realm] Dive into the seabed in Bermuda and fight underwater! Try out the event weapon Hydro Blaster.\n[New Character - Ray] Link to a target and knock them down when they're low on HP. A takedown resets the skill.  \n[CS Random Events] Bigger starting funds, free Gloo Walls, and other random events shake up CS!\n[Quick Messages] Smarter auto-trigger messages and pings for clearer comms.\n[Pyro] Keep your fiery new companion active to level them up and unlock outfits."
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 18,
+      "2": 2,
+      "3": 2,
+      "4": 3,
+      "5": 24
+    },
+    "positiveRatio": 55,
+    "negativeRatio": 41,
+    "eventMentions": [
+      {
+        "text": "laggy out of no where it’s super laggy! iphone xs max and the other free fire is super laggy! and ju",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:23:49.499Z"
+}

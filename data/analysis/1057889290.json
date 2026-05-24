@@ -1,0 +1,44 @@
+{
+  "appId": "1057889290",
+  "name": "Tomb of the Mask: Fun Games",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Tomb of the Mask is an arcade game with an infinite procedurally generated vertical labyrinth. Seeking for adventure you get into a tomb where you find a strange mask. You put it on and suddenly realize that you can now climb walls - easily and promptly. And that's when all the fun begins. \n\nYou'll face a variety of traps, enemies, game mechanics and power-ups. And as far as time doesn't wait, get a grip and up you go.\n\nWe Love You. Enjoy.\n\n\nSUBSCRIPTION PRICING AND TERMS\n\nSubscription options\n\n",
+    "released": "2016-02-09T21:11:59Z",
+    "updated": "2026-04-28T15:35:50Z",
+    "version": "1.25.0",
+    "score": 4.7,
+    "reviews": 14294,
+    "developer": "Playgendary Limited",
+    "developerUrl": "https://apps.apple.com/ph/developer/playgendary-limited/id1487320337?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Casual"
+    ],
+    "releaseNotes": "A new update arrives in Tomb of the Mask!\n\nDiscover brand-new levels filled with fresh challenges, tricky traps, and fast-paced maze runs that will test your reflexes.\nThis update also introduces two new limited-time events: Fortune Maze and Word of the Day, bringing new ways to play and earn rewards.\nWe’ve also fixed various bugs, improved stability, and added new localizations so even more players can enjoy the adventure.\n\nJump back into the maze and see what new challenges await!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:04:41.730Z"
+}

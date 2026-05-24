@@ -1,0 +1,42 @@
+{
+  "appId": "com.colyinc.breakMyCase",
+  "name": "ブレイクマイケース",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "\"I'll take over for you, that difficult problem\"\n\nA story about unravelling and cutting off tangled threads.\n\n■CREATOR■\n・Original story and main story: Aida Hajime\n・Main character design and key visuals: Yukihiro Utako\n・Theme song \"BREAK MY CASE\": Takeuchi Anna\n・Cast: Furukawa Shin, Horie Shun, Okitsu Kazuyuki, Taniyama Kisho, Kobayashi Chiaki, Kawanishi Kengo, Terashima Junta, Kumagai Kentaro, Komatsu Shohei, Nakazawa Masatomo, Matsuoka Yoshitsugu, Ono Yuki, Kobayashi Chikahiro, Hirose Yuya, Sa",
+    "released": "May 4, 2024",
+    "updated": 1778235377000,
+    "version": "1.5.2",
+    "installs": "100,000+",
+    "score": 4,
+    "ratings": 1469,
+    "reviews": 563,
+    "developer": "coly Inc.",
+    "developerWebsite": "https://breakmycase.com/",
+    "genre": "Adventure",
+    "recentChanges": "version : 1.5.2<br>status : PATCH<br>___________________________<br><br>//いくつかの不具合を修正しました"
+  },
+  "reviewAnalysis": {
+    "total": 2,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:43:45.947Z"
+}

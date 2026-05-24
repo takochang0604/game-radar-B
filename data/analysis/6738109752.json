@@ -1,0 +1,44 @@
+{
+  "appId": "6738109752",
+  "name": "Tiles Survive!",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Enter the world of \"Tiles Survive!\" and guide your team of survivors through a harsh wilderness. As the core of your survivor team, explore the wild, gather key resources, and use them wisely to strengthen your shelter.\nVenture into different tiles and expand your territory. Improve how you manage resources, build and upgrade structures, and connect electricity to speed up production. Create a self-sufficient shelter where every decision shapes your survivors’ future.\n\nGame Features:\n\n● Operatio",
+    "released": "2025-07-16T07:00:00Z",
+    "updated": "2026-04-29T07:03:29Z",
+    "version": "2.5.100",
+    "score": 4.6954,
+    "reviews": 522,
+    "developer": "FunPlus International AG",
+    "developerUrl": "https://apps.apple.com/ph/developer/funplus-international-ag/id1343106322?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing",
+      "Strategy"
+    ],
+    "releaseNotes": "[What's New]\n- Chosen by hundreds of thousands of Chiefs, this year's premier competition has officially been named Rising Legend. The registration is now open. Update to the latest version to check it out!\nBattle Zone groupings will be revealed soon as top contenders prepare for the fight ahead. We look forward to witnessing the road to glory with you!\n\n- Reach a certain Power Plant level to unlock the \"Claim All\" feature for Intel Post, allowing Chiefs to collect completed Intel rewards with a single tap. Less hassle, smoother battles!\n\n[Optimizations & Fixes]\n- Starting at 00:00 UTC on May 6, Chiefs who leave an Alliance must wait at least 48 hours before participating in Oil Clash, Gene Clash, or Copper Clash. Chiefs who leave an Alliance before 00:00 UTC on May 6 will remain under the previous 12-hour rule.\n\n- The VIP Store refresh time has been adjusted from Sunday 00:00 UTC to Monday 00:00 UTC, making it easier to purchase Arena Challenge Tickets and other items after a new Arena season begins.\n\n- Chief Posts Improvements:\n1. Added \"For You\" and \"Trending\" channels so Chiefs can keep up with the latest community highlights.\n2. Chiefs can now upload up to 4 images in a single post to share more memorable moments.\n3. Improved interactions for browsing, liking, commenting, and new message notifications.\n\n- Alliance Siege now features a Defense Lineup setup option, allowing Chiefs to customize their defense preset for the event. Any changes to the lineup will automatically update the displayed defense power in the event interface.\n\n- Improved Behemoth Talent progress display and enhanced animation effects when opening the Talent screen."
+  },
+  "reviewAnalysis": {
+    "total": 21,
+    "starCounts": {
+      "1": 16,
+      "2": 1,
+      "3": 3,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 5,
+    "negativeRatio": 81,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-04T20:35:34.107Z"
+}

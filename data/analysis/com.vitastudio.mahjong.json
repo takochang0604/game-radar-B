@@ -1,0 +1,79 @@
+{
+  "appId": "com.vitastudio.mahjong",
+  "name": "Vita Mahjong",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Vita Mahjong is an Exclusive Puzzle Game of Tile Matching. We are thrilled to present the mahjong  game that combines innovation with classic gameplay. It offers large tiles and a user-friendly interface compatible with pads and phones. Our goal is to provide a relaxing yet mentally engaging gaming experience, particularly focused on older adults.\n\nAt Vita Studio, we have always been dedicated to crafting mobile games designed for seniors that bring back relaxation, fun, and joy. Our repertoire ",
+    "released": "Jan 9, 2024",
+    "updated": 1779362406000,
+    "version": "3.21.1",
+    "installs": "100,000,000+",
+    "score": 4.8,
+    "ratings": 5328081,
+    "reviews": 4320,
+    "developer": "Vita Studio.",
+    "developerWebsite": "https://www.vitastudio.ai",
+    "genre": "Board"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 34,
+      "2": 9,
+      "3": 6,
+      "4": 12,
+      "5": 139
+    },
+    "positiveRatio": 76,
+    "negativeRatio": 22,
+    "eventMentions": [
+      {
+        "text": "why so many updates.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the new format stinks. i spend more time watching ads than playing. it's just no fun anymore",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "it was fun until the most recent updates. they've completed changed how a simple game like mahjong w",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i hate the updates! this is supposed to be relaxing. but it's not! why!? because they have changing ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "another updated & revised review! after giving the game a not so favorable review, and another chanc",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:30.924Z"
+}

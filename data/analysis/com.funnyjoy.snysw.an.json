@@ -1,0 +1,41 @@
+{
+  "appId": "com.funnyjoy.snysw.an",
+  "name": "Brain Puzzle King",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "🔥Welcome to \"Brain Puzzle King\"!🔥\n\nAre you ready for a new challenge in the spot-the-difference game? \"Brain Puzzle King\" will take you to a whole new gaming world. Test your smarts and vision while enjoying a blend of culture and trendy memes!\n\nGame Features:\n🧠 Unique Brain Challenges: Unlike traditional puzzle games, this one takes gameplay to a whole new level by combining stunning visual puzzles with creative brain teasers.\n\n🌐 Brand New Gaming World: Get ready for a world full of puzzles",
+    "released": "Jan 12, 2024",
+    "updated": 1764926775000,
+    "version": "1.1.2.1",
+    "installs": "10,000,000+",
+    "score": 4.4099483,
+    "ratings": 107447,
+    "reviews": 345,
+    "developer": "Mangoing Game Studio",
+    "developerWebsite": "http://catchcash.online/MangoingGameStudio/privacy",
+    "genre": "Puzzle"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 8,
+      "2": 11,
+      "3": 8,
+      "4": 2,
+      "5": 21
+    },
+    "positiveRatio": 46,
+    "negativeRatio": 38,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:06:51.703Z"
+}

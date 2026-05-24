@@ -1,0 +1,48 @@
+{
+  "appId": "com.and.monstergo.vn",
+  "name": "Cơ Giáp Vô Hạn - Gamota",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "This easy-to-learn 3D Roguelike shooter adventure offers a fresh and exciting experience with every match.\n\n[Easy to Learn, Addictive After Just One Game]\nSimple controls, fast-paced gameplay, fight anytime! The exhilarating feeling of clearing the screen with a single shot is endless; the more you play, the more you can't stop.\n\n[Free Assembly, Craft Unique Mechs]\nOver 30 mech configurations, over 180 weapons to choose from - Want to breathe fire? A giant chainsaw? Or launch multiple missiles?\n",
+    "released": "Apr 28, 2026",
+    "updated": 1779274094000,
+    "version": "2.2.3",
+    "installs": "10,000+",
+    "score": 4.7,
+    "ratings": 2511,
+    "reviews": 260,
+    "developer": "4GAMOTA",
+    "developerWebsite": "https://pte.onemt.com/",
+    "genre": "Role Playing",
+    "recentChanges": "1. Cơ giáp thức tỉnh chí tôn+2 mở thêm cơ giáp mới - Nữ Hoàng Kim Cương Pha Lê<br> 2. Thêm sự kiện lễ mừng máy chủ mới<br> 3. Phi công mới và phi hành khí cấp S sắp ra mắt"
+  },
+  "reviewAnalysis": {
+    "total": 2,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 25 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:03:46.777Z"
+}

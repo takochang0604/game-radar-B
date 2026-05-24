@@ -1,0 +1,49 @@
+{
+  "appId": "6764482729",
+  "name": "海岛好时光",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "清风临海，闲栖一隅，邂逅专属海岛慢时光。\n于此悠然海岛，沃土待耕，可播种四时作物、培植鲜蔬佳果，亦能悠养水产风物，尽数收纳藏于仓库。\n承接岛民心意订单，奔赴日常点滴任务，耕耘之间，皆有惊喜礼遇相伴。\n漫步海岛街巷，相逢百态暖心人物，闲话朝夕，温情相伴，镌刻独属于你们的温柔回忆。\n远离纷扰，归心自然，在海岛好时光里，慢享悠然闲适的海岛田园生活。",
+    "released": "2026-04-29T07:00:00Z",
+    "updated": "2026-05-08T01:10:59Z",
+    "version": "1.0.1",
+    "score": 4.4,
+    "reviews": 1149,
+    "developer": "佟 张",
+    "developerUrl": "https://apps.apple.com/cn/developer/%E4%BD%9F-%E5%BC%A0/id1894518530?uo=4",
+    "genres": [
+      "游戏",
+      "模拟"
+    ],
+    "releaseNotes": "丰富游戏内容，解决已知问题。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 14 天，評分 4.4",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:37:16.038Z"
+}

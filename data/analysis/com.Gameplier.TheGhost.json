@@ -1,0 +1,73 @@
+{
+  "appId": "com.Gameplier.TheGhost",
+  "name": "The Ghost - Multiplayer Horror",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "In this scary online horror game you will have to find a way to escape haunted places.\nSolve puzzles, find necessary parts and survive before creepy ghost finds you.\nOne of the scariest multiplayer games to play. This psychological online horror is the best horror ghost game to spend time playing together with friends.\nFind anomalies together with friends in the latest added Cursed Apartment map.\nPlay voice chat games horror together with friends!\n\nNew Wishlie Hospital\nYou were getting your dail",
+    "released": "May 25, 2021",
+    "updated": 1769179905000,
+    "version": "1.85.10",
+    "installs": "10,000,000+",
+    "score": 3.73,
+    "ratings": 149577,
+    "reviews": 169,
+    "developer": "Gameplier",
+    "developerWebsite": "https://theghostgame.com",
+    "genre": "Action",
+    "recentChanges": "- New Year event has ended<br>- Added quests with a chance to receive special perks and items<br>- Bug fixes and improvements"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 12,
+      "2": 5,
+      "3": 8,
+      "4": 14,
+      "5": 61
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 17,
+    "eventMentions": [
+      {
+        "text": "i love this game,i play all the map and has finish all of them,i just want to commend just to sugges",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this game is good.pls developer make more improvement this game and new feature like ghist hunting e",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "game is awesome. but add new map's.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i hope create new map's new ghost.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this game is great! but i hope there many rooms, and scary place, and another ghost! i really enjoy ",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-09T15:03:17.512Z"
+}

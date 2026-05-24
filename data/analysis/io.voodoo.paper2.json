@@ -1,0 +1,81 @@
+{
+  "appId": "io.voodoo.paper2",
+  "name": "Paper.io 2",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Move around the arena, draw a trail to grow your territory, and claim the zone before someone cuts you off. Simple rules, endless fun!\n\nFair warning: this game is seriously hard to put down!\n\nWhat makes Paper.io 2 so fun:\n∙ Smooth, satisfying arcade gameplay that just feels right\n∙ Online multiplayer you can jump into in seconds\n∙ 100+ unique skins to collect\n∙ Free rewards every day\n∙ Quick matches that fit into any break\n∙ A secret surprise if you manage to capture the entire map",
+    "released": "Sep 13, 2018",
+    "updated": 1779290576000,
+    "version": "4.31.1",
+    "installs": "100,000,000+",
+    "score": 3.9,
+    "ratings": 2436468,
+    "reviews": 14863,
+    "developer": "VOODOO",
+    "developerWebsite": "https://www.voodoo.io",
+    "genre": "Arcade",
+    "recentChanges": "MAJOR UPDATE<br>∙ Visuals: a new zone creation visual effect has been added<br>∙ Skins: 8 new hero outfits have been introduced<br>∙ Performance improvements &amp; bug fixes<br>Jump in the arena now!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 39,
+      "2": 1,
+      "3": 12,
+      "4": 19,
+      "5": 129
+    },
+    "positiveRatio": 74,
+    "negativeRatio": 20,
+    "eventMentions": [
+      {
+        "text": "i didn't like the new update as they removed the golden skin which we got for free before for fully ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "this is a fun game! though, it's really frustrating that when you open new skins you get forced to c",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i have loved this game for quite a while. i have loved all the new updates. my only issue is that ab",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "this game has come a long way from when i first started playing. i always enjoyed it but was clunky ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "cheats at events for no reason- was stuck in 3rd place for the whole event. and the \"people\" in 1st ",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:23.367Z"
+}

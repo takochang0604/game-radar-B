@@ -1,0 +1,48 @@
+{
+  "appId": "com.and.cjys.kr",
+  "name": "넋나간 삼국지",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "🎁 Insane Benefits! Download Now and Receive Mind-blowing Rewards!\n\n100% Guaranteed ‘Liu Bei,’ the Founding Emperor of Shu Han!\n\nEven Includes a Korea-Exclusive Limited Profile Frame!\n\n10 Pulls Every Day for Life?! The Miracle of the Thousand Pulls Begins!\n\nA Dimensional Rift Has Opened at the Boundary of Life and Death\n\nDead Heroes of the Three Kingdoms Have Returned as Ghost Generals\n\nHuman Generals × Ghost Generals\n\nYou Are the Lord Who Will Command Both Worlds!\n\n▶ Insane Three Kingdoms, Awak",
+    "released": "Apr 30, 2026",
+    "updated": 1779271158000,
+    "version": "1.0.11",
+    "installs": "100,000+",
+    "score": 4.7,
+    "ratings": 7813,
+    "reviews": 446,
+    "developer": "BYTEFUN GAMES PTE. LTD.",
+    "developerWebsite": "https://bytefungames.com/",
+    "genre": "Role Playing",
+    "recentChanges": "시스템 최적화"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 23 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:15.456Z"
+}

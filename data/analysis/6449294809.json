@@ -1,0 +1,83 @@
+{
+  "appId": "6449294809",
+  "name": "Invincible: Guarding the Globe",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Invincible: Guarding the Globe is an idle squad RPG set in the Invincible universe featuring a new story never seen in the comics or Amazon Prime TV series, with graphic multi battle action, character collection, team management, idle features and, of course, super-powered visuals.\n\nTHE WORLD OF INVINCIBLE\nAccompany the highly rated Amazon Prime Video show with the first Invincible mobile RPG.\nEmbark on a complete campaign with an original story – a new narrative where you join the Global Defens",
+    "released": "2023-10-04T07:00:00Z",
+    "updated": "2026-04-21T07:16:56Z",
+    "version": "3.1.8",
+    "score": 4.54577,
+    "reviews": 284,
+    "developer": "Ubisoft",
+    "developerUrl": "https://apps.apple.com/ph/developer/ubisoft/id317644720?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing",
+      "Action"
+    ],
+    "releaseNotes": "NEW UPDATE\n- We're bringing even MORE characters and events from Season 4 of Prime Video's hit Invincible!\n- The Lizard League is getting reinforcement with their loyal  Soldiers\n- A new GDA Case File is available now: Explore the mystical story of Seance Dog\nMinor tech issues resolved"
+  },
+  "reviewAnalysis": {
+    "total": 31,
+    "starCounts": {
+      "1": 10,
+      "2": 2,
+      "3": 6,
+      "4": 3,
+      "5": 10
+    },
+    "positiveRatio": 42,
+    "negativeRatio": 39,
+    "eventMentions": [
+      {
+        "text": "the latest update automatically logged me out and after downloading the game again, i was surprised ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "stop shipping so many new features without fixing the fundamentals. game crashes half of the time",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "you should really add the grand regent to your game and make it an a event to get him because he was",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i'm an old player and have been playing this game so long enough almost since this game was first re",
+        "keywords": [
+          "event",
+          "limited"
+        ]
+      },
+      {
+        "text": "do you guys have a new update to correct the enormous error notification. can’t log in to the game",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 13 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-04T20:35:29.139Z"
+}

@@ -1,0 +1,49 @@
+{
+  "appId": "com.ecffri.arrows",
+  "name": "Arrows – Puzzle Escape",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Welcome to Arrows – Puzzle Escape, a minimalist puzzle game that challenges your logic, planning, and spatial thinking. Your goal is simple: extract each arrow without causing a collision. \n\n🧠 Features:\n- Challenging logic puzzles that test your planning skills\n- Thousands of handcrafted levels with increasing complexity\n- Clean, minimalist design that lets you focus on the puzzle\n- Relaxing, no-pressure gameplay – no timers, just your brain\n- Hint system to help when you're stuck\n\nWhether you ",
+    "released": "Aug 30, 2025",
+    "updated": 1776256369000,
+    "version": "0.17.0",
+    "installs": "50,000,000+",
+    "score": 4.7,
+    "ratings": 510121,
+    "reviews": 290,
+    "developer": "Lessmore GmbH",
+    "developerWebsite": "https://lessmore.games/",
+    "genre": "Puzzle",
+    "recentChanges": "- Bug fixes<br>Thanks for playing!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 9,
+      "2": 4,
+      "3": 9,
+      "4": 12,
+      "5": 166
+    },
+    "positiveRatio": 89,
+    "negativeRatio": 7,
+    "eventMentions": [
+      {
+        "text": "love this game, but a) lost all progress today with new phone, b) when i tap \"restore purchase\", not",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 89%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-18T11:37:23.445Z"
+}

@@ -1,0 +1,55 @@
+{
+  "appId": "com.matchinggo.puzzlegames",
+  "name": "Matching Go! - Puzzle Games",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Welcome to Matching Go, a thrilling match-3 puzzle game where you explore the world alongside Chloe and her adorable corgi Ollie! Whether you’re a casual player or a puzzle expert, Matching Go offers endless fun and a delightful journey. Get ready to match, collect, and build as you travel to breathtaking destinations!\n\nJoin Chloe and Ollie on their adventure across the globe! Start your match-3 journey now and see where the next puzzle takes you!\n\nFEATURES OF MATCHING GO:\n\n🎮 Engaging Puzzle Ga",
+    "released": "Mar 24, 2025",
+    "updated": 1776249134000,
+    "version": "2.1.13",
+    "installs": "500,000+",
+    "score": 4.6134453,
+    "ratings": 3120,
+    "reviews": 272,
+    "developer": "Lynn Mobile Puzzle Games",
+    "developerWebsite": "https://www.dingshanmobile.com/",
+    "genre": "Casual",
+    "recentChanges": "Set off on a thrilling journey in Matching Go! New content is here—join us on an exciting world journey!<br>‒ Improved overall performance and fixed known bugs.<br>Get ready for new adventures! Every 1-2 weeks, we&#39;re adding 100 exciting new levels and fresh destinations to explore!"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 10,
+      "2": 1,
+      "3": 1,
+      "4": 2,
+      "5": 36
+    },
+    "positiveRatio": 76,
+    "negativeRatio": 22,
+    "eventMentions": [
+      {
+        "text": "had to uninstall and reinstall the game because of too many freeze ups. i was on level 703. when i r",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i just started playing games. sofar the game is fun to play. l will keep you updated on the games.",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:05:29.719Z"
+}

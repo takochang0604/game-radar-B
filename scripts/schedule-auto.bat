@@ -26,7 +26,14 @@ if not exist "node_modules" (
 )
 
 echo.
-echo [1/4] Fetching rankings...
+echo [0/5] Git pull (sync data from other computer)...
+git pull origin main --no-rebase 2>nul
+if errorlevel 1 (
+    echo [WARN] Git pull had issues, continuing with local data...
+)
+
+echo.
+echo [1/5] Fetching rankings...
 call npm run fetch
 if errorlevel 1 (
     echo [ERROR] Fetch failed
@@ -35,26 +42,35 @@ if errorlevel 1 (
 )
 
 echo.
-echo [2/4] Detecting darkhorses...
+echo [2/5] Detecting darkhorses...
 call npm run analyze
 if errorlevel 1 (
     echo [WARN] Darkhorse detection had issues, continuing...
 )
 
 echo.
-echo [3/4] Deep analysis...
+echo [3/5] Deep analysis...
 call npm run deep-analyze
 if errorlevel 1 (
     echo [WARN] Deep analysis had issues, continuing...
 )
 
 echo.
-echo [4/4] Uploading to Firebase...
+echo [4/5] Uploading to Firebase...
 call npm run upload
 if errorlevel 1 (
     echo [ERROR] Upload failed
     echo %date% %time% FAIL - upload >> "%~dp0..\data\schedule.log"
     goto :eof
+)
+
+echo.
+echo [5/5] Git push (sync data to remote)...
+git add data/
+git commit -m "data: auto-update %date%"
+git push origin main --force-with-lease 2>nul
+if errorlevel 1 (
+    echo [WARN] Git push failed, data saved locally only
 )
 
 echo.

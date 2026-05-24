@@ -1,0 +1,64 @@
+{
+  "appId": "1288758206",
+  "name": "The Phenomenon",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "Cross-platform multiplayer is ready!\n\nThe Phenomenon is an episodic survival horror game with great re-playability.  The main character is Barry Nellan, a paranormal researcher whose work is known worldwide. Many cases connected with unexplained activity were investigated. Most gave no real results, but the last one…\n\nIn the EPISODE 1, you will explore map of 3 square kilometers with over 500 spawns of objects, use devices for paranormal research, fight against creatures with smart and tricky AI",
+    "released": "2017-09-28T11:31:37Z",
+    "updated": "2026-03-28T09:18:06Z",
+    "version": "1.9.4",
+    "score": 3.81059,
+    "reviews": 2191,
+    "developer": "Kokots LLC",
+    "developerUrl": "https://apps.apple.com/cn/developer/kokots-llc/id1814814239?uo=4",
+    "genres": [
+      "游戏",
+      "娱乐",
+      "冒险",
+      "策略"
+    ],
+    "releaseNotes": "• Added a new day system.\n• Saves are now available in multiplayer.\n• Improved door logic.\n• The supplies system has been removed.\n• Added FPS and ping display.\n• Fixed bugs and improved game stability."
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 14,
+      "2": 2,
+      "3": 6,
+      "4": 7,
+      "5": 20
+    },
+    "positiveRatio": 55,
+    "negativeRatio": 33,
+    "eventMentions": [
+      {
+        "text": "游戏很新颖很好玩。尽管有时候没有游戏提示但是靠自己的探索也可以找到手感。这是我今年最喜欢的游戏。我支持。",
+        "keywords": [
+          "新"
+        ]
+      },
+      {
+        "text": "进去一直都是黑屏加载不了退出好几次重新进去也是一样还是黑屏",
+        "keywords": [
+          "新"
+        ]
+      },
+      {
+        "text": "最多只能留五天还是几天，不然就一直不能逃脱，要重新开始，时间太紧了，东西找都找不完。而且门禁卡太难找了，我怕靠近她了之后来抓我，不靠近又找不到。而且工具一次只能拿一个，不方便",
+        "keywords": [
+          "新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:37:13.677Z"
+}

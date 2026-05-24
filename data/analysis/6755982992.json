@@ -1,0 +1,49 @@
+{
+  "appId": "6755982992",
+  "name": "Ace Producer",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "《Ace Producer》คือเกมมือถือแนวจำลองการบริหารจัดการที่จะให้คุณสร้างอาณาจักรภาพยนตร์และโทรทัศน์ด้วยมือของคุณเอง เริ่มต้นจากศูนย์เพื่อบริหารบริษัทภาพยนตร์พิเศษ คัดสรรบทละครสุดฮิต เซ็นสัญญาพัฒนาแคสติ้งซูเปอร์สตาร์ ตั้งแต่เริ่มถ่ายทำจนถึงพุ่งชนรายได้หมื่นล้าน สัมผัสทุกช่วงเวลาอันรุ่งโรจน์ของอุตสาหกรรมภาพยนตร์อย่างเต็มรูปแบบ พร้อมสร้างตำนานโปรดิวเซอร์ในแบบของคุณเอง!\n【บทละครนับพัน】ธีมหลากหลาย รายได้บ็อกซ์ออฟฟิศอยู่ในมือคุณ\nบทละครหลากหลายแนว ทั้งสร้างแรงบันดาลใจ แฟนตาซี ไซไฟ โรแมนติก ระทึกขวัญ ตลก และอื่",
+    "released": "2026-05-20T07:00:00Z",
+    "updated": "2026-05-20T07:00:00Z",
+    "version": "0.0.6",
+    "score": 4.4,
+    "reviews": 74,
+    "developer": "IClockwork Limited",
+    "developerUrl": "https://apps.apple.com/th/developer/iclockwork-limited/id1449561902?uo=4",
+    "genres": [
+      "Games",
+      "Simulation"
+    ],
+    "releaseNotes": "1. เปลี่ยนไอคอนเกม\n2. การแก้ไขปัญหาเกม"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 3 天，評分 4.4",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:51.396Z"
+}

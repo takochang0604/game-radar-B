@@ -1,0 +1,45 @@
+{
+  "appId": "6754839783",
+  "name": "Bubble Word Jam",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "This game is a clever and calm word puzzle where every connection matters, designed for fans of brain and mind challenges. Your goal is simple: match the bubble words to their correct categories and clear the board in this smart sorting experience.\n\nTap bubbles, identify themes, and find the perfect flow as you sort words into groups using pure logic and vocabulary. Smooth mechanics and responsive controls make every play feel precise and satisfying.\n\nWith gradually increasing difficulty and tho",
+    "released": "2026-02-04T08:00:00Z",
+    "updated": "2026-05-18T16:25:49Z",
+    "version": "0.12.4",
+    "score": 4.7,
+    "reviews": 9776,
+    "developer": "Lion Studios Plus",
+    "developerUrl": "https://apps.apple.com/us/developer/lion-studios-plus/id1610194568?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Word",
+      "Puzzle"
+    ],
+    "releaseNotes": "New Release\n- New Levels\n- Bug fixes and game improvements\n- UI updates and visual polish\nThanks for playing! More exciting updates are on the way."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:33.170Z"
+}

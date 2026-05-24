@@ -1,0 +1,43 @@
+{
+  "appId": "6761602323",
+  "name": "흑섬의 기대",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "《흑섬의 기대》는 혁신적인 전투 시스템을 갖춘 방치형 카드 게임입니다.\n100여 종의 개성 있는 카드를 자유롭게 조합하고, 각기 다른 진영의 카드들이 만들어내는 예상 밖의 시너지를 체험해 보세요. 적의 약점을 분석하고, 최고의 전술을 세워 지략으로 승리를 쟁취하세요.",
+    "released": "2026-05-07T07:00:00Z",
+    "updated": "2026-05-07T07:00:00Z",
+    "version": "1.0.5",
+    "score": 0,
+    "reviews": 0,
+    "developer": "Guangzhou Senhuo Technology Co., Ltd",
+    "developerUrl": "https://apps.apple.com/kr/developer/guangzhou-senhuo-technology-co-ltd/id1890394510?uo=4",
+    "genres": [
+      "게임",
+      "어드벤처"
+    ],
+    "releaseNotes": ""
+  },
+  "reviewAnalysis": {
+    "total": 5,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 4
+    },
+    "positiveRatio": 80,
+    "negativeRatio": 20,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:35:23.664Z"
+}

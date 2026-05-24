@@ -1,0 +1,63 @@
+{
+  "appId": "1128255542",
+  "name": "리니지M(12)",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "▶ EPISODE. ContiNew 업데이트 ◀\n\n어둠을 가르는 신성의 힘으로 더 강력해진 신성검사 리부트\n본토에서 확장되는 새로운 리부트 월드 ‘켄트 & 오렌’ 오픈!\n더 커진 혜택의 성장 패스와 특수 성장 던전 등 새로운 모험을 응원하기 위한\n다양한 콘텐츠를 신서버 ‘켄트 & 오렌’에서 경험해 보세요!\n마지막으로, 영광을 향한 도전의 기회! TJ’s COUPON까지!\n아덴 대륙에 펼쳐질 찬란한 변화를 지금 바로 확인해 보세요!\n\n▶ 게임 소개\n\n■ MMORPG의 시작과 끝, 리니지M \nPC의 향수와 그 이상의 혁신으로, \n언제 어디서나 위대한 서사의 주인공이 되십시오.\n\n■ 변하지 않는 가치 \n다양한 재미를 선사할 클래스 \n오픈 필드에서 벌어지는 적과의 조우 \n대규모 전장의 치열한 전투 \n이 모든 추억을 함께 할 혈맹까지 \n시간이 지나도 변하지 않는 가치를 경험하세요.\n\n■ 보다 강력해진 대규모 전투의 재미 \n광활한 필드 내 모든 곳이 전투의 접점 \n테베라스부터 에스카로스까지, ",
+    "released": "2017-06-20T02:53:28Z",
+    "updated": "2026-04-30T00:58:30Z",
+    "version": "1.9.94",
+    "score": 2.34252,
+    "reviews": 12046,
+    "developer": "NC Corp.",
+    "developerUrl": "https://apps.apple.com/kr/developer/nc-corp/id293317095?uo=4",
+    "genres": [
+      "게임",
+      "액션",
+      "롤플레잉"
+    ],
+    "releaseNotes": "[4/29 업데이트]\n- 어린이날 선물 상자 이벤트\n- 특수 던전 시간 증가 이벤트"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 30,
+      "2": 3,
+      "3": 1,
+      "4": 1,
+      "5": 14
+    },
+    "positiveRatio": 31,
+    "negativeRatio": 67,
+    "eventMentions": [
+      {
+        "text": "접속이 안되고있는데\n저만 그러나요???\n업데이트는 뭔가요????\n접속이되야 뭐라도 할거 아닌가요",
+        "keywords": [
+          "업데이트"
+        ]
+      },
+      {
+        "text": "우측하단 업데이트 페이지를 찾지못하겠습니다.",
+        "keywords": [
+          "업데이트"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:04:10.579Z"
+}

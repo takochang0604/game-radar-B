@@ -1,0 +1,85 @@
+{
+  "appId": "com.studio27.MelonPlayground",
+  "name": "Melon Sandbox",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Melon Sandbox: Ultimate Sandbox of Chaos!\n\nWelcome to Melon Sandbox, a thrilling sandbox game where you unleash your creativity through brutal experiments with realistic ragdoll physics! No limits, no rules—just pure destructive fun!\n🧨 What can you do?\n🔥 Experiment with physics – Throw, smash, and test unique interactions between objects!\n🔫 Massive arsenal – Use firearms, melee weapons, explosives, and vehicles to tear through ragdolls!\n💣 Create chaos – Stab, crush, burn, or vaporize with cu",
+    "released": "Dec 23, 2022",
+    "updated": 1778248378000,
+    "version": "35.4",
+    "installs": "50,000,000+",
+    "score": 4.533618,
+    "ratings": 1119836,
+    "reviews": 12507,
+    "developer": "playducky.com",
+    "developerWebsite": "https://melonsandbox.com/",
+    "genre": "Simulation",
+    "recentChanges": "Update 35.4 - Floor is lava!<br><br>Added:<br>• New map: Lava Pool<br>• New map: Volcano<br>• Updated tutorial, tutorial assistant added<br><br>Changed:<br>• Now you can shoot off pieces of the melon<br><br>Fixed:<br>• 133 bug fixed<br>• Stability and performance improvements"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 8,
+      "2": 4,
+      "3": 5,
+      "4": 8,
+      "5": 75
+    },
+    "positiveRatio": 83,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "it's a nice game but for the next update can you make the npcs swim 🥺 please",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this is really good game please update more i want to see the update is really really good and the b",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "after the update, there are bugs. like when i move one item, a rope suddenly adjusts itself automati",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the game is fun and good i like the updates to but there's 1 problem so the fist one is when i pick ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "its fun i play it every day and where is update 35.5 everyone else has it",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 83%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:04:02.718Z"
+}

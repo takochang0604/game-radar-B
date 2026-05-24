@@ -1,0 +1,60 @@
+{
+  "appId": "com.sinyee.babybus.colour",
+  "name": "Baby Panda's Art Classroom",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Baby Panda's Art Class is in session! \n\nThis is an art classroom designed specifically for children aged 2-5! Games of music, drawing and kids crafts for children to recognize color, learn to draw, sing and dance to music to inspire their interest in the arts.  \n\nBaby Panda's Art Classroom includes following mini-games:\n\nDRAWING GAMES\n- Fingerprint Drawing: Imprint fingerprint on the screen and watch it turn into a balloon, grape, leaf…Children can create artwork without a pen! \n- Creative Artwo",
+    "released": "May 8, 2019",
+    "updated": 1775125489000,
+    "version": "8.73.00.00",
+    "installs": "10,000,000+",
+    "score": 4.2,
+    "ratings": 15411,
+    "reviews": 241,
+    "developer": "BabyBus",
+    "developerWebsite": "http://www.babybus.com",
+    "genre": "Educational"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 31,
+      "2": 4,
+      "3": 11,
+      "4": 20,
+      "5": 134
+    },
+    "positiveRatio": 77,
+    "negativeRatio": 18,
+    "eventMentions": [
+      {
+        "text": "i'm had been waitng 8 years for the new game.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "join in on a new project",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "when is the new game coming 🤔🤔🤔😊",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:38:10.694Z"
+}

@@ -1,0 +1,79 @@
+{
+  "appId": "com.cedargames.mysterytown",
+  "name": "Mystery Town: Merge Games",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Embark on a mysterious investigation in Mystery Town: Merge Games！\nCan you merge everything into better and more useful items to solve thrilling puzzles? In Mystery Town, every match counts! Uncover hidden secrets and discover that here, the right merge can change everything.\n\nWelcome to Mystery Town, where you can unlock new themed adventures every week—experience cooking delicious food, hunt for clues, catch culprits in new cases, and rebuild parts of the town you'll love.\n\nStep into a world w",
+    "released": "May 22, 2025",
+    "updated": 1778206913000,
+    "version": "1.18.4",
+    "installs": "1,000,000+",
+    "score": 4.7,
+    "ratings": 33484,
+    "reviews": 268,
+    "developer": "Cedar Games Studio",
+    "developerWebsite": "https://cedargamestudio.com/",
+    "genre": "Puzzle",
+    "recentChanges": "More exciting events will be launched one after another, stay tuned! "
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 81,
+      "2": 28,
+      "3": 15,
+      "4": 4,
+      "5": 72
+    },
+    "positiveRatio": 38,
+    "negativeRatio": 55,
+    "eventMentions": [
+      {
+        "text": "i clicked on the advertisement that showed this as a spooky halloween town with unlimted energy. and",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "the ad that i saw for this game said unlimited energy, so i installed it thinking there would be con",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "extremely predatory pay to play and pay to win tactics. constant events running that are so short yo",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "yes you have to top up if you don't wait three hrs for 100 energy. yes there are ads to watch to get",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "instagram ad states energy is unlimited but it isn't. false advertising.",
+        "keywords": [
+          "limited"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:40:22.283Z"
+}

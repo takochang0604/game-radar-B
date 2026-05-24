@@ -1,0 +1,64 @@
+{
+  "appId": "1158967485",
+  "name": "Hero Wars: Alliance RPG",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Hero Wars: Alliance is a free-to-play game. Includes optional purchases and loot boxes with random rewards.\n\nLead legendary Heroes into battle! Crush enemies, defeat bosses, and rule Dominion.\n\n\nThe Archdemon has won. The Guardians have fallen, many now twisted by darkness. But hope remains — Aurora has broken free. Now it’s your turn to rise and bring the others back.\n\nHero Wars: Alliance is more than an RPG — it's a test of your strategy, timing, and leadership. Collect powerful heroes, upgrad",
+    "released": "2017-03-31T08:11:28Z",
+    "updated": "2026-04-22T09:29:41Z",
+    "version": "1.277.200",
+    "score": 4.67017,
+    "reviews": 12570,
+    "developer": "Nexters Global LTD",
+    "developerUrl": "https://apps.apple.com/th/developer/nexters-global-ltd/id660706304?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Adventure",
+      "Role-Playing"
+    ],
+    "releaseNotes": "Ancient magic shifts!\n\nDon’t fear the darkness.\nPhobos gets a new Relic.\n\nSharpen the edge.\nNew Talisman for Drayne is on the way!\n\nDesert power rises.\nMorrigan steps into the ancient sands with a new Skin and Skin+.\n\nTime pays off.\nTempus gains a new Relic — and red gear to match.\n\nChaos heals.\nAidan gets a brand-new Blazing Skin!"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 16,
+      "2": 3,
+      "3": 2,
+      "4": 2,
+      "5": 26
+    },
+    "positiveRatio": 57,
+    "negativeRatio": 39,
+    "eventMentions": [
+      {
+        "text": "few updates back i started to have a lot of crashes. game says i have critical errors and asked to s",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "please release new era because when the hero have lv 120 there is nothing to do.thank you for listen",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 13 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:08:45.912Z"
+}

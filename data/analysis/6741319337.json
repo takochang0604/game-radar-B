@@ -1,0 +1,44 @@
+{
+  "appId": "6741319337",
+  "name": "앵커패닉 : 1주년 600뽑 대축제",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "\"나와 연결하겠어, 커넥터?\"\n\n어느 날, 하늘이 찢어졌다.\n앵커 포인트를 통해 나타난 고차원 우주 종족 「슈겔」.\n그들의 눈앞에서 인류란 그저 미약한 불꽃, 꺼져가는 운명에 불과했다.\n\n「스타 체인」—\n별을 엮어 만든 마지막 요새.\n멸망이 눈앞에 닥친 그 순간—\n행성을 뒤덮는 방어 장벽이 우리를 지켜냈다.\n\n이제, 반격의 시간이다.\n「AIMBS-링크 시스템」은 선택 받은 소녀들을 초능력 전투 요원, 「에이전트」로 재창조했다.\n그녀들은 치열한 전투 끝에 마침내 인류의 승리를 이끌어냈다.\n\n그러나,\n그 누구도 몰랐다.\n그 승리가 거짓 된 것이라는 사실을.\n그 승리는 새장 안의 평화일 뿐이라는 것을.\n\n전쟁이 끝난 후,\n우주 탐사의 길은 완전히 닫혔다.\n연합 조직들은 거짓 된 안식을 제공했다.\n그것은 유토피아, 그러나 실상은 철저한 감옥.\n\n그리고,\n\n거짓 된 세계의 장막이 찢어지던 날—\n절망의 그림자가 다시 한 번 내려앉았다.\n\n이제 선택의 시간.\n멸망을 받아들이고 무너질 것인가,\n아",
+    "released": "2025-04-23T07:00:00Z",
+    "updated": "2026-05-06T01:02:41Z",
+    "version": "1.0.25",
+    "score": 4.6,
+    "reviews": 560,
+    "developer": "Neptune Company",
+    "developerUrl": "https://apps.apple.com/kr/developer/neptune-company/id539389569?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉",
+      "액션"
+    ],
+    "releaseNotes": "- 버그 및 스크립트 수정\n- 게임 최적화"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:43:43.729Z"
+}

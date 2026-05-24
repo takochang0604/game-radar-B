@@ -1,0 +1,49 @@
+{
+  "appId": "com.FidgetTrading3D.game",
+  "name": "Fidget Trading 3D Fidget Toys",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Want to collect ALL The Fidgets In The World? Then, Fidget Trading 3D is just for you!\nTrade unique fidgets, play relaxing games. try out unique pop-its. Master the skill of reading your opponent's psychology, develop your trading techniques, use scam tactics or trade with honor!\nAre you feeling stressed and need a moment to relax or distract yourself? You can access a variety of toys to help you relax and antistress by simply opening the most relaxing app. Fidget Trading 3D offers a collection ",
+    "released": "Jun 29, 2021",
+    "updated": 1778860370000,
+    "version": "2.0.6",
+    "installs": "10,000,000+",
+    "score": 4.4,
+    "ratings": 141017,
+    "reviews": 4593,
+    "developer": "MagicLab",
+    "developerWebsite": "http://www.maglab.com.tr/",
+    "genre": "Casual",
+    "recentChanges": "- New Fidgets added!<br>- Scam your opponents. Try it out!<br>- Finish the collection to get secret pop its!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 58,
+      "2": 21,
+      "3": 34,
+      "4": 28,
+      "5": 59
+    },
+    "positiveRatio": 44,
+    "negativeRatio": 40,
+    "eventMentions": [
+      {
+        "text": "it's really fun and i love getting new pop its and stuff but i don't like when they stop the trading",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-19T12:55:37.183Z"
+}

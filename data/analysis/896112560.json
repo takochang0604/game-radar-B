@@ -1,0 +1,45 @@
+{
+  "appId": "896112560",
+  "name": "Marvel Contest of Champions",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Marvel Contest of Champions is the ultimate arcade fighting RPG game with intense action, powerful combos, epic quests & customization. Collect and battle with over 350 Champions, including your favorite Marvel Super Heroes and Villains like Spider-Man, Iron Man, Hulk, Daredevil, Doctor Doom, Wolverine  & more!\n\nStep into fast-paced 1v1 combat where skill is everything. Master precise dodges, well-timed blocks, and powerful combo chains as you fight your way through an epic Marvel storyline. Unl",
+    "released": "2014-12-10T16:39:54Z",
+    "updated": "2026-05-04T16:01:09Z",
+    "version": "56.1.0",
+    "score": 4.7,
+    "reviews": 697015,
+    "developer": "Kabam Games, Inc.",
+    "developerUrl": "https://apps.apple.com/us/developer/kabam-games-inc/id1453908357?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Action",
+      "Adventure"
+    ],
+    "releaseNotes": "NEW CHAMPIONS\n\nWave\nPearl Pangan is a swift swimmer hailing from Cebu, Philippines. During an opportunity to use her talents in a study of swimmers, a raid on the facility led to discovering her power of hydrokinesis: the ability to manipulate water. With her newfound powers, she took up the mantle of hero as 'Wave', fighting alongside Triumph Division and Agents of Atlas. \n\nGhost Rider (Rework)  \nTricked by the demonic being Mephisto into selling his soul to save a loved one, stunt cyclist Johnny Blaze soon found himself bonded to the Spirit of Vengeance, a being of almost unlimited power from Hell itself. With the power to control Hellfire as well as his mystical Hell Cycle and Hell Chains, Ghost Rider has turned against Mephisto’s purpose and instead uses his newfound abilities to protect the innocent and cast judgment upon the wicked.  \n\n\n\n\nNEW FEATURES\n\n\nCOLLECTIVES\nCheck out Class Collectives! Thronebreaker and higher Summoners can utilize our new feature where you can gain rewards and benefits from ranking up your Champions.\n\n\nADAPTIVE EVENT QUEST V2.0\nDifficulty Selector - Choose a lower difficulty to suit your playstyle!\nClassic Difficulty Skip - Valiant and higher Summoners can skip Classic and go straight to Elder difficulty!\nEQ Boss Buffs Removed - Simplified boss encounters that showcase base Champion kits!\n\n\nNEW QUESTS AND EVENTS\n\n\n\nEvent Quest - In Hot Water\nMephisto is invading Atlantis in search of hidden treasures. Naturally when this fiery foe is about Ghost Riders are on the scene to stop his fiendish plans. However, Namor would prefer aquatic assistance on the team. So Pearl Pangan, aka WAVE, has arrived on The Contest’s shores to help with this devilish dilemma. Will making waves extinguish the flames of evil?\n\nSide-Quest - ROLL CALL-ISEUM\nCALLING ALL SUMMONERS. New to the Battlerealm or already considered an Elder of The Contest? This more casual approach to a Solo Coliseum is calling to you all to check the strength of your roster, the might of your Champions, and the talent of your training as you face endless health bars and mounting challenges.\n\n\nGet rewards from Solo Objectives as well as a Realm Event. See who stands tallest in this challenge as they claim a solitary exclusive title of SPARTACUS.\n\n\nMetamorphosis Event\nGather Crystals and rewards to reinforce your roster, contribute to your Champions, and get 6 newly Ascendable 7-Star Champions! \n\n\nAll this and more! Check out the complete list of exciting updates on playcontestofchampions.com"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:44:21.246Z"
+}

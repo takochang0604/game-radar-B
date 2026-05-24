@@ -1,0 +1,80 @@
+{
+  "appId": "com.nexon.ma",
+  "name": "MapleStory : Idle RPG",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "MapleStory is finally here as an idle RPG!\nKeep leveling up—even when you're idle! Start your Maple adventure now!\n\n▶ Auto Battle & Auto Growth\nYour character never stops getting stronger, no matter where you are—school, work, or bed!\nSit back, relax, and enjoy the game.\n\n▶ Reliable Companion System\nNo more battling alone. \nGather diverse Companions and shape your own battle style.\n\n▶ Various Growth Dungeons\nSimpler, more fun than ever!\nLearn the boss's patterns and clear the dungeon.\n\n▶ PVP Are",
+    "released": "Oct 23, 2025",
+    "updated": 1777551114000,
+    "version": "1.9.2",
+    "installs": "1,000,000+",
+    "score": 4.244879,
+    "ratings": 98588,
+    "reviews": 2541,
+    "developer": "NEXON Company",
+    "developerWebsite": "https://maplestoryidle.nexon.com/",
+    "genre": "Role Playing",
+    "recentChanges": "▶ New Jobs &#39;Buccaneer&#39; and &#39;Corsair&#39; added<br>▶ Half Anniversary Event added<br>▶ New raid &#39;Horntail&#39; added<br>▶ UX improvements"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 45,
+      "2": 6,
+      "3": 10,
+      "4": 3,
+      "5": 36
+    },
+    "positiveRatio": 39,
+    "negativeRatio": 51,
+    "eventMentions": [
+      {
+        "text": "the new companion summon rate up event is a scam....pull more than 5000 tickets and only got 1unique",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      },
+      {
+        "text": "dear nexon, my game keeps crashing during party quests and event quests. is there any advice on how ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "garbage events ruin the game",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i used to enjoy playing this randomly. even dropped some cash on gems and stuff. have been busy with",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "game constantly crashes with latest update. if you spend a little bit of money they manipulate your ",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:39:48.393Z"
+}

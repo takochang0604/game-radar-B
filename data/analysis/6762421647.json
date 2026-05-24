@@ -1,0 +1,51 @@
+{
+  "appId": "6762421647",
+  "name": "脱出ゲーム　湖畔キャンプ場　",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "無料で遊べる3D脱出ゲーム\nあなたはクリアの鍵を見つけて脱出する事ができますか？\n\n【遊び方】\n・タップで調べる。\n・矢印マークをタップすると移動。\n・アイテムを選択中に、アイテムをタップまたは虫眼鏡ボタンを押すと拡大。\n・拡大中のアイテムをタップすると、さらにアイテムを調査。\n・拡大中のアイテムをタップすると、合成できる場合がある。\n\n【便利な機能】\n・進行が進むたびに自動でセーブされる。\n・画面右上のヒントボタンを押すと、ヒントが見れる。\n・画面左上のメニューボタンを押すと、BGMの切り替え、遊び方を見ることができる。\n\n【楽曲提供】\n効果音ラボ:https://soundeffect-lab.info\nDOVA-SYNDROME:https://dova-s.jp/_contents/about/\n甘茶の音楽工房:https://amachamusic.chagasi.com\nポケットサウンド:https://pocket-se.info/\n\n【Noice Kit.】\nプログラム...Keisuke\nデザイン...enokino",
+    "released": "2026-05-12T07:00:00Z",
+    "updated": "2026-05-13T16:19:18Z",
+    "version": "1.0.1",
+    "score": 4.7,
+    "reviews": 253,
+    "developer": "Sasaki Keisuke",
+    "developerUrl": "https://apps.apple.com/jp/developer/sasaki-keisuke/id1599863768?uo=4",
+    "genres": [
+      "ゲーム",
+      "トリビア",
+      "エンターテインメント",
+      "アドベンチャー"
+    ],
+    "releaseNotes": "軽微な微調整をしました"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 4 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:03:25.016Z"
+}

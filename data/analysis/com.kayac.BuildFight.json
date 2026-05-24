@@ -1,0 +1,41 @@
+{
+  "appId": "com.kayac.BuildFight",
+  "name": "Build Fight",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Let's place blocks and units!\n\nPlace a block on the stage and build your base.\n\nBy selecting a unit, you can place a battle soldier.\n\nPress the play button and destroy the opponent's base!",
+    "released": "Dec 3, 2025",
+    "updated": 1777637637000,
+    "version": "059",
+    "installs": "1,000,000+",
+    "score": 4.54902,
+    "ratings": 3678,
+    "reviews": 3,
+    "developer": "KAYAC Inc.",
+    "developerWebsite": "https://kayac.games",
+    "genre": "Arcade"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 6,
+      "2": 3,
+      "3": 7,
+      "4": 6,
+      "5": 28
+    },
+    "positiveRatio": 68,
+    "negativeRatio": 18,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-04T20:36:35.786Z"
+}

@@ -1,0 +1,48 @@
+{
+  "appId": "6756563656",
+  "name": "Farmery: Nông trại Sói ca",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Farmery - tựa game nông trại mới nhất, nông trại phiên bản Sói ca! Cùng Sói ca và những người bạn xây dựng nên nông trại độc đáo của riêng mình.  \nThu hoạch nông sản, dùng làm nguyên liệu chế biến trăm ngàn món ăn hấp dẫn, bán những hàng hóa giá trị cao hơn để phát triển và mở rộng nông trại. Dòng game nông trại tưởng chừng như đơn giản nhưng lại trở nên hấp dẫn và cạnh tranh hơn bao giờ hết khi ai cũng muốn sở hữu nông trại trong mơ nơi mọi hoạt động luôn diễn ra tấp nập không ngừng nghỉ. \nKhôn",
+    "released": "2026-05-04T07:00:00Z",
+    "updated": "2026-05-06T04:29:48Z",
+    "version": "1.2.5",
+    "score": 4.2,
+    "reviews": 6,
+    "developer": "ZingPlay VietNam",
+    "developerUrl": "https://apps.apple.com/vn/developer/zingplay-vietnam/id1600022992?uo=4",
+    "genres": [
+      "Games"
+    ],
+    "releaseNotes": "Sửa lỗi và cải thiện hiệu năng"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 11 天，評分 4.2",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:39:39.902Z"
+}

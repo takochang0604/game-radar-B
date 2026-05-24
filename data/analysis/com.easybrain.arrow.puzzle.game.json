@@ -1,0 +1,55 @@
+{
+  "appId": "com.easybrain.arrow.puzzle.game",
+  "name": "Arrow Puzzle: Tap Puzzle Games",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Arrow Puzzle is a relaxing logic game that turns simple taps into a rewarding challenge. Your goal is straightforward: find a free path, tap arrows in the right order, and enjoy as the maze slowly turns into a clear, empty board. Follow the arrows to escape the puzzle and find a soothing flow that keeps your mind engaged and relaxed.\n\nLooking for a gentle workout for your brain without any pressure attached? This comforting arrow game lets you tap away the stress, gives you a focused break from ",
+    "released": "Nov 14, 2025",
+    "updated": 1778599939000,
+    "version": "1.5.0",
+    "installs": "10,000,000+",
+    "score": 4.8,
+    "ratings": 310330,
+    "reviews": 1484,
+    "developer": "Easybrain",
+    "developerWebsite": "https://easybrain.com",
+    "genre": "Puzzle",
+    "recentChanges": "- Performance and stability improvements<br><br>We read all your reviews and always try to make the game better. Please leave us some feedback if you love what we do and feel free to suggest any improvements. Play Arrow Puzzle, clear the grid, and enjoy a rare balance of sharp focus and deep relaxation!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 9,
+      "2": 3,
+      "3": 6,
+      "4": 15,
+      "5": 167
+    },
+    "positiveRatio": 91,
+    "negativeRatio": 6,
+    "eventMentions": [
+      {
+        "text": "if your new you will be telling yourself this is hard for me but keep playing using your mind and it",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 91%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:50:39.647Z"
+}

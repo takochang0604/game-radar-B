@@ -1,0 +1,45 @@
+{
+  "appId": "6744235731",
+  "name": "Crostic Guru: Word Puzzle Game",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Ready for a real brain challenge?\nWe’ve got the ultimate puzzle game for true logic lovers! Our new game will put your brain to the test with intricate word puzzles, hidden proverbs, famous quotes, and secret words to decode. But here’s the twist – there’s no auto-fill! Every single letter must be placed manually, and mistakes matter – accuracy is everything! Can you handle the challenge?\n\nA Fresh Take on the Crossword Puzzle Genre!\nIf you love crossword puzzles, logic riddles, and word games, t",
+    "released": "2025-04-22T07:00:00Z",
+    "updated": "2026-05-08T15:27:36Z",
+    "version": "2.0.1",
+    "score": 4.7,
+    "reviews": 1057,
+    "developer": "Severex",
+    "developerUrl": "https://apps.apple.com/ph/developer/severex/id1443556229?uo=4",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Word",
+      "Entertainment"
+    ],
+    "releaseNotes": "Hello!\nWe hope you’re having fun playing Crostic Guru!\n\nIn this update:\n\n- General improvements\n- Bug fixes\n- Smoother gameplay experience\n\nDon’t forget to download the latest version for the best experience!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:50:25.048Z"
+}

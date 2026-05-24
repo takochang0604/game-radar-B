@@ -1,0 +1,44 @@
+{
+  "appId": "1330123889",
+  "name": "PUBG MOBILE",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "【Epic battle royale masterpiece】\nLots of events for you to explore.Climb to the top in PUBG MOBILE and fire at will. PUBG MOBILE is the original battle royale game on mobile and one of the best mobile shooting games.\n\n【Extreme battles in 10-minute matches】\nPrepare your firearms, respond to the call for battle in PUBG MOBILE, and fire at will.\n\n【Tons of maps and modes】\nPUBG MOBILE has many maps and gameplay mechanics that give you a thrilling survival experience. Find your friends and play the ne",
+    "released": "2018-03-19T17:13:23Z",
+    "updated": "2026-05-12T10:02:45Z",
+    "version": "4.4.0",
+    "score": 4.3,
+    "reviews": 1580069,
+    "developer": "Tencent Mobile International Limited",
+    "developerUrl": "https://apps.apple.com/us/developer/tencent-mobile-international-limited/id504515421?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Strategy"
+    ],
+    "releaseNotes": "The first ancient Greek myth-themed version, Hero's Crown is here! Conquer the four temple areas, complete five glorious trials, and recruit the centaur ally to fight alongside you!\n\nBattle Royale\n1. New Themed Mode: Four Mysterious Areas × Five New Trials → Challenge and recruit the centaur ally, and conquer the Crown's Abode.\n2. Returning Themed Mode: Dinoground is back after three years!\n3. Classic Mode: The 2-seater convertible Roadster is here with turbocharged speed.\nNew Collaborations\nBLUE LOCK, Harley-Davidson, Ford, and more collaborations are coming soon! Stay tuned!\nWorld of Wonder\nStandalone Lobby (Swipe left to access) + Join matches in progress → Seamlessly find maps and team up."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:39:47.465Z"
+}

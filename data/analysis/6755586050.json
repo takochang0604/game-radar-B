@@ -1,0 +1,50 @@
+{
+  "appId": "6755586050",
+  "name": "왕좌의 게임: 킹스로드",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "왕좌의 게임 킹스로드는 HBO의 TV드라마를 원작으로 한 액션 RPG 게임으로, \n전례 없는 규모와 놀라운 디테일로 웨스테로스를 생생하게 구현했습니다. \n\n얼음처럼 차가운 음모와 불꽃 같은 전쟁이 공존하는 이 땅에서, 당신은 명예와 생존 사이의 위태로운 경계를 걷게 될 것입니다. \n장벽 너머의 어둠이 깨어나고 왕국의 질서가 무너지는 지금, 이제 당신의 선택이 웨스테로스의 새로운 역사가 됩니다.\n\n■ 직접 걷고 느끼는 왕좌의 게임 세계 \n광활한 오픈 월드로 구현된 일곱 왕국의 대서사시를 탐험하세요. 킹스랜딩의 찬란한 화려함부터 700피트 장벽 너머 캐슬 블랙의 시린 공기까지, 웨스테로스의 모든 상징적인 장소들이 압도적인 디테일로 되살아납니다. 생동감 넘치는 도시와 미지의 황야를 가로지르며, 당신이 갈망하던 세계의 진실을 직접 목격하십시오.\n\n■ 함께 즐기는 왕좌의 게임: 킹스로드 \n위어우드의 깊은 그림자 속, 전설로만 전해지던 고대의 마물들이 깨어납니다. 혼자서는 감당할 수 없는 거대",
+    "released": "2026-05-20T07:00:00Z",
+    "updated": "2026-05-20T08:30:56Z",
+    "version": "1.0.12",
+    "score": 4.7,
+    "reviews": 279,
+    "developer": "Netmarble Corporation",
+    "developerUrl": "https://apps.apple.com/kr/developer/netmarble-corporation/id930364579?uo=4",
+    "genres": [
+      "게임",
+      "액션",
+      "어드벤처"
+    ],
+    "releaseNotes": "왕좌의 게임 최초 액션 RPG"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 3 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:02:20.905Z"
+}

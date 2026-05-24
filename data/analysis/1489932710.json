@@ -1,0 +1,45 @@
+{
+  "appId": "1489932710",
+  "name": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "「ヴァンパイア」「KING」「ロキ」「シャルル」「Tell Your World」など\n最新の人気曲からみんなが知ってる名曲まで、3DMV付きで多数収録！\nSEGA×Colorful Paletteが贈る、誰でもかんたんに楽しめるリズムゲーム。\n\n■■最新の人気曲からみんなが知ってる名曲まで、多数収録■■\nフォニイ（作詞：ツミキ　作曲：ツミキ）\n千本桜（作詞：黒うさ　作曲：黒うさ）\nドラマツルギー（作詞：Eve　作曲：Eve）\nTell Your World（作詞：kz（livetune）　作曲：kz（livetune））\nKING（作詞：Kanaria　作曲：Kanaria）\n命に嫌われている（作詞：カンザキイオリ　作曲：カンザキイオリ）\nヴァンパイア（作詞：DECO*27　作曲：DECO*27）\nシャルル（作詞：バルーン　作曲：バルーン）\nロキ（作詞：みきとP　作曲：みきとP）\nアスノヨゾラ哨戒班（作詞：Orangestar　作曲：Orangestar）\nマトリョシカ（作詞：ハチ　作曲：ハチ）\n夜に駆ける（作詞：Ayase　作曲：Ayase）\nローリンガール（作詞：wowaka　作",
+    "released": "2020-09-30T07:00:00Z",
+    "updated": "2026-04-30T00:31:30Z",
+    "version": "6.5.0",
+    "score": 4.7,
+    "reviews": 1185362,
+    "developer": "SEGA CORPORATION",
+    "developerUrl": "https://apps.apple.com/jp/developer/sega-corporation/id302946768?uo=4",
+    "genres": [
+      "ゲーム",
+      "ミュージック",
+      "アドベンチャー",
+      "ミュージック"
+    ],
+    "releaseNotes": "[v6.5.0アップデート内容]\n・[新機能]「譜面メーカー」の追加\n・[改善]コネクトライブ開催に伴う対応\n・[その他]細やかな調整、および不具合の修正"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:46:31.120Z"
+}

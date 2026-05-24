@@ -1,0 +1,44 @@
+{
+  "appId": "721911537",
+  "name": "SARCOPH",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "SEARCH, SURVIVE, ESCAPE\n\nThe SARCOPH monster is BACK in a new perspective on Action Horror!\n\nYou are trapped inside a secret floor of an abandoned building.\nFind and recover the 5 idols back to the elevator.\nThe Occupant guards the idols and will try to stop you.\nHide and use your tool to survive.\n\nGood Luck\n\nSARCOPH DOES NOT support: iPhone 5S, 6, 6 Plus; iPad Air, Mini 2, 3; iPod Touch 6th gen and lower.",
+    "released": "2013-10-18T10:21:10Z",
+    "updated": "2022-01-01T02:54:10Z",
+    "version": "2.5",
+    "score": 4.3,
+    "reviews": 9167,
+    "developer": "David Turkiewicz",
+    "developerUrl": "https://apps.apple.com/cn/developer/david-turkiewicz/id721911540?uo=4",
+    "genres": [
+      "游戏",
+      "模拟",
+      "动作"
+    ],
+    "releaseNotes": "A big update.\nGame is now widescreen and uses more traditional controls for a first person game.\nSound issue when minimizing the game is fixed.\nGetting stuck in the elevator on first completion is fixed.\nBest completion time is saved to device."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:10.988Z"
+}

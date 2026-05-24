@@ -1,0 +1,79 @@
+{
+  "appId": "com.arumgames.darkwizard",
+  "name": "Dark Mage Defense: 66,666",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Do you like defense games?\n\nThe hit webtoon “66,666 Years: Advent of the Dark Mage”\nhas arrived as a mobile roguelike defense RPG!\n\nExperience the world and characters from the original webtoon,\ncombine powerful magic and heroes, and defend the battlefield against endless enemies!\n\nJoin the Dark Mage who awakens after 66,666 years\nand dive into the ultimate strategy defense experience!\nFeel the thrill of combat and the excitement of endless growth!\n\n🎮 Game Features\n\n▶ Strategic Defense Action!\n",
+    "released": "Feb 24, 2026",
+    "updated": 1779069559000,
+    "version": "1.0.19",
+    "installs": "10,000+",
+    "score": 4.5,
+    "ratings": 722,
+    "reviews": 108,
+    "developer": "Arumgames",
+    "developerWebsite": "http://www.arumgames.com",
+    "genre": "Casual",
+    "recentChanges": "- Fixed UI freeze after clearing Stage 200"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 16,
+      "2": 10,
+      "3": 11,
+      "4": 3,
+      "5": 10
+    },
+    "positiveRatio": 26,
+    "negativeRatio": 52,
+    "eventMentions": [
+      {
+        "text": "mid at best. practically a copy of several other anime td games but with worse engrish. changing fro",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "amazing game, daily rewards in mailbox, you can play without paying anything. if you want to support",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "standard base defense survival game. nothing new.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "nothing new here , same as every other type of game like it",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "game is actually fine. i do enjoy the gameplay itself and no forced ads but it has one critical flaw",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:02:32.927Z"
+}

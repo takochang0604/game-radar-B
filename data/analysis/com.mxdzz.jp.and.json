@@ -1,0 +1,49 @@
+{
+  "appId": "com.mxdzz.jp.and",
+  "name": "キノコ伝説 x 『オーバーロード』コラボ開催",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Mushroom Legend x Overlord Collaboration Event!\n\nGet the collaboration-exclusive skin \"Momon\" and companion \"Eclair\" just by logging in! Furthermore, collaboration-exclusive items make their first appearance in the Mushroom World! \n\nDownload to get 4000 gacha pulls! The super popular adventure RPG \"Mushroom Legend: The Hero and the Magic Lamp,\" which has surpassed 30 million downloads worldwide, has finally arrived in Japan!\n\n100 years ago, the hero of the Mushroom clan waged a fierce battle aga",
+    "released": "Feb 21, 2024",
+    "updated": 1776167807000,
+    "version": "2.1.60",
+    "installs": "1,000,000+",
+    "score": 4.2865577,
+    "ratings": 22028,
+    "reviews": 3783,
+    "developer": "Joy Nice Games",
+    "developerWebsite": "https://x.com/kinoden_jp",
+    "genre": "Role Playing",
+    "recentChanges": "■ 更新内容<br>1.【使獣の王】イベント　4.17-4.23<br>威風凛々！使獣の王がキノコ世界に降臨、万獣の魂が偉大なる使魂ノコを呼んでいます！<br><br>2.コンテンツアップグレード-【越域駐騎場】<br>越域駐騎場アップグレード！越域と奇星の2タイプになります！協力し合って、最高スペースの帰属権を奪い合いましょう！<br><br>3.その他の改善事項とバグ修正。<br>"
+  },
+  "reviewAnalysis": {
+    "total": 4,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 25,
+    "eventMentions": [
+      {
+        "text": "ランプとかコラボがいっぱいあって面白い",
+        "keywords": [
+          "コラボ"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:08:02.495Z"
+}

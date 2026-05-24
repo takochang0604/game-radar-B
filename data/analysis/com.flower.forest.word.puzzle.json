@@ -1,0 +1,86 @@
+{
+  "appId": "com.flower.forest.word.puzzle",
+  "name": "Flower Forest - Word Puzzle",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "🌙 Bước vào một giấc mơ kỳ lạ… nơi mọi vật đều ẩn giấu một bí mật.\n\nFlower Forest - Word Puzzle là một game giải đố thư giãn kết hợp lối chơi point-and-click, đưa bạn bước vào hành trình khám phá những không gian huyền bí. Tại đây, bạn sẽ quan sát, tương tác và kết hợp các đồ vật để tìm ra lời giải ẩn sau mỗi câu đố.\n\nKhông lời thoại. Không tiếng nói. Chỉ có trực giác dẫn lối.\n\nMỗi màn chơi là một câu đố trí tuệ được thiết kế tinh tế, có thể giải bằng sự quan sát và logic - không cần tính toán p",
+    "released": "May 3, 2026",
+    "updated": 1779440335000,
+    "version": "0.6.1",
+    "installs": "1,000,000+",
+    "score": 4.6,
+    "ratings": 19250,
+    "reviews": 356,
+    "developer": "SkySoft Studio",
+    "developerWebsite": "https://cellsoft.vn/",
+    "genre": "Puzzle",
+    "recentChanges": "Ver 0.6.1<br>- Update new levels<br>- Fix Bugs"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 95,
+      "2": 21,
+      "3": 14,
+      "4": 13,
+      "5": 57
+    },
+    "positiveRatio": 35,
+    "negativeRatio": 58,
+    "eventMentions": [
+      {
+        "text": "hope in next update, more new challenges will be added. starting between 70 to 80, challenges starts",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "it's a good game with a simplistic art style (i don't think ai was used) with 70 unique levels befor",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the game is fun, the concept is interesting, levels are very unique. but there are way too many ads.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "once you finish a boquet you get a new one and it overall challenges your brain in the best way",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "a new beautiful game but so much annoying ads",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 20 天，評分 4.6",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:38.147Z"
+}

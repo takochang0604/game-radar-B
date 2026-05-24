@@ -1,0 +1,40 @@
+{
+  "appId": "com.eq3rui.bzrln.qxzzf",
+  "name": "Z188Lucky Lantern",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Lucky Lantern transports players into a lively Chinese ancient street at night with red lanterns, full of festive joy. Rich traditional symbols and gorgeous effects offer varied spinning experiences, like strolling through a prosperous lucky street.\nThis game is for entertainment purposes only.\nIt does not involve real-money gambling, nor does it offer any opportunity to win real prizes.\nAll coins and rewards in the game are virtual items and have no real-world value.\nPlayers must be 18 years of",
+    "released": "Apr 15, 2026",
+    "updated": 1776933167000,
+    "version": "1.10",
+    "installs": "10,000+",
+    "score": 3.857143,
+    "ratings": 42,
+    "reviews": 7,
+    "developer": "Kiol Duong",
+    "genre": "Casino"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:03:01.086Z"
+}

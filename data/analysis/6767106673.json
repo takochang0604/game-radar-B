@@ -1,0 +1,42 @@
+{
+  "appId": "6767106673",
+  "name": "Sun MonsterSiege",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "In Sun Monster Siege, you play as a giant monster launching a full-scale attack on the city. Your mission is to crush everything in sight, from buildings and vehicles to military forces trying to stop you. Each level requires creating enough destruction to break through human defenses. With overwhelming power and enormous destructive ability, you will spread terror throughout the city in the monster's siege.",
+    "released": "2026-05-06T07:00:00Z",
+    "updated": "2026-05-07T07:56:13Z",
+    "version": "1.1",
+    "score": 0,
+    "reviews": 0,
+    "developer": "Van Ngoc Nguyen",
+    "developerUrl": "https://apps.apple.com/vn/developer/van-ngoc-nguyen/id1896333833?uo=4",
+    "genres": [
+      "Games"
+    ],
+    "releaseNotes": "- Fixed attack delay issues.\n- Fixed animation freezing issues.\n- Added combat effects."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:34:53.176Z"
+}

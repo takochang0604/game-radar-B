@@ -1,0 +1,63 @@
+{
+  "appId": "6689516366",
+  "name": "Bus Escape: Traffic Jam",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "Get Ready for Bus Escape Color Jam - The Ultimate Parking Puzzle Challenge. It’s a perfect game for mental exercise and strategic thinking\n\nHow to play: \n- Tap to move cars, each car go in only 1 direction\n- Plan your moves carefully as the parking slot is limited \n- Each type of car can carry 4 - 6 8 stickmen, so strategize your moves to tackle challenging sort puzzles.\n- Ensure every passenger gets to their matching buses\n- Stuck in jam? Power up a booster to secure a victory with ease\n\nGame F",
+    "released": "2024-09-21T07:00:00Z",
+    "updated": "2026-05-06T12:06:00Z",
+    "version": "1.9.77",
+    "score": 4.62364,
+    "reviews": 8856,
+    "developer": "ABI GLOBAL LTD.",
+    "developerUrl": "https://apps.apple.com/kr/developer/abi-global-ltd/id1743349083?uo=4",
+    "genres": [
+      "게임",
+      "퍼즐",
+      "캐주얼"
+    ],
+    "releaseNotes": "-Update levels."
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 24,
+      "2": 3,
+      "3": 6,
+      "4": 5,
+      "5": 11
+    },
+    "positiveRatio": 33,
+    "negativeRatio": 55,
+    "eventMentions": [
+      {
+        "text": "그거 왜 어제냐 엊그제냐부터 안 채워지고 600/600에서 멈춰있는거죠 만우절이벤트인 줄 알고 순수띠니하게 레벨업만 엄청 햇는데 !! 다 돌려줄 줄 알앗는데 !!! 어.혹시.? 그",
+        "keywords": [
+          "이벤트"
+        ]
+      },
+      {
+        "text": "2026/02 업데이트 했더니 광고보고 티켓주는것도 사라지고 아이템 없어도 광고보고 하나 받을수있는데 것도 사라지고.... 이제 그만하라는건가봅니다",
+        "keywords": [
+          "업데이트"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:35:47.829Z"
+}

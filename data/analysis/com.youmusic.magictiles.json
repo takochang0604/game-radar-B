@@ -1,0 +1,79 @@
+{
+  "appId": "com.youmusic.magictiles",
+  "name": "Magic Tiles 3™ - Piano Game",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Magic Tiles 3 – The Ultimate Piano Game & Music Game Experience! 🎶\n\nDive into Magic Tiles 3, the definitive piano game loved by millions, best music game all the time. Magic Tiles 3 blends rhythmic gameplay, vibrant visuals, and a massive library of official and licensed music. Prepare to unleash your inner pianist in this addictive song game!\n\nTap Piano Tiles, Feel the Music!\n\nMagic Tiles 3 is an intuitive yet challenging piano game. Tap the black piano tiles as they cascade down, matching the",
+    "released": "Feb 24, 2017",
+    "updated": 1778742889000,
+    "version": "13.044.008",
+    "installs": "500,000,000+",
+    "score": 4.4,
+    "ratings": 3459830,
+    "reviews": 21446,
+    "developer": "AMANOTES PTE. LTD.",
+    "developerWebsite": "https://amanotes.com/",
+    "genre": "Music",
+    "recentChanges": "🎶 New in Magic Tiles 3! 🎶  <br>✨ Exciting Updates: We regularly update the game to enhance your experience! Don’t forget to update and enjoy the latest improvements. 🎵💖  <br>Stay connected with us on TikTok, YouTube, Facebook, and Instagram @magictiles3! 📱🎶  "
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 50,
+      "2": 14,
+      "3": 18,
+      "4": 14,
+      "5": 104
+    },
+    "positiveRatio": 59,
+    "negativeRatio": 32,
+    "eventMentions": [
+      {
+        "text": "the only real downfall with this game is there's abt 5000 ads no matter what. you have to clicked an",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this is a new level of greed. i used to play a year ago and it was already bad with the ads, and i d",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "used to play this a lot when i was younger or at least a version of it. now, not only having to watc",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this was my favourite game when i was younger but now i realised the amount of ads they added in thi",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i love this game!!!!❤️❤️. this game is so fun and amazing!!!! i love how the adds are not always the",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-19T12:55:27.080Z"
+}

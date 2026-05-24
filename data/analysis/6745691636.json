@@ -1,0 +1,50 @@
+{
+  "appId": "6745691636",
+  "name": "吃碰杠连连",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "《吃碰杠连连》—— 融合麻将智慧的创新消除游戏\n一场颠覆传统的消除体验，将东方麻将哲学与现代解压玩法完美结合。在指尖轻触间激活大脑潜能，享受策略消除与知识积累的双重乐趣。\n\n核心特色\n• 创新麻将消除玩法\n基于经典「吃、碰、杠」规则重新设计，每个关卡都是精心布局的思维谜题。通过策略性选择与组合，体验深度思考带来的满足感。\n\n•在娱乐中掌握智慧\n无需任何麻将基础，在轻松游玩过程中自然理解复杂牌型组合。每一次消除都是知识积累，让成长悄然发生。\n\n•智能辅助系统\n内置动态提示与多种特效道具，在恰当时机提供恰到好处的帮助。既保持挑战性，又确保流畅的游戏体验。\n\n•精心设计的进度体系\n从简单到复杂的渐进式关卡设计，配合舒适视觉反馈与悦耳音效，打造沉浸式的心流体验。",
+    "released": "2025-05-12T07:00:00Z",
+    "updated": "2025-12-23T08:24:06Z",
+    "version": "1.0.9",
+    "score": 4.52291,
+    "reviews": 1113,
+    "developer": "Guangzhou Duoying Technology Co.,Ltd",
+    "developerUrl": "https://apps.apple.com/cn/developer/guangzhou-duoying-technology-co-ltd/id1620327837?uo=4",
+    "genres": [
+      "游戏",
+      "休闲"
+    ],
+    "releaseNotes": "同步更新游戏玩法内容"
+  },
+  "reviewAnalysis": {
+    "total": 37,
+    "starCounts": {
+      "1": 22,
+      "2": 2,
+      "3": 1,
+      "4": 2,
+      "5": 10
+    },
+    "positiveRatio": 32,
+    "negativeRatio": 65,
+    "eventMentions": [
+      {
+        "text": "为啥让输入真实姓名和身份证号码？绝对不能输入！ 你看到的这个“实名认证”弹窗，100%是诈骗陷阱。\n\n正规游戏实名认证通常由国家新闻出版署统一管理，或者通过微信/qq授权一键完成，绝对不会在游戏内直接",
+        "keywords": [
+          "新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:23:51.985Z"
+}

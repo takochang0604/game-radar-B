@@ -1,0 +1,75 @@
+{
+  "appId": "com.com2us.futurecpb.android.google.global.normal",
+  "name": "컴투스프로야구V26",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Feel the thrill of baseball at your fingertips!\n\nThe official KBO licensed baseball game, Com2uS Pro Baseball V26\n\nEnjoy a realistic baseball game anywhere with Com2uS Pro Baseball V26!\n\n◈ Club Home Run Race Update! ◈\n\n- Added Club Home Run Race, adding the fun of cooperation and competition!\n\n- Introducing ‘Diamond Balls’ capable of massive scoring and ‘Bomb Balls’ that deduct points! Experience the tension and excitement!\n\n◈ POTM Improvements! Meet the Player of the Month! ◈\n\n- 100% Guaranteed",
+    "released": "Apr 1, 2022",
+    "updated": 1777293360000,
+    "version": "5.01.20",
+    "installs": "1,000,000+",
+    "score": 4.4,
+    "ratings": 51221,
+    "reviews": 8617,
+    "developer": "Com2uS",
+    "developerWebsite": "https://www.com2us.com",
+    "genre": "Sports",
+    "recentChanges": "컴투스프로야구V26 업데이트!<br>현존 최고의 리얼리티 야구 게임을 경험해보세요!<br><br>- 클럽 홈런 레이스<br>- 노다웃 홈런 추가 및 특이폼 개선<br>- 편의성 및 인게임 개선<br>- UI / UX 개선<br>- 버그 수정<br><br>여러분의 소중한 의견을 리뷰로 남겨주세요.<br>컴프야V26은 모든 리뷰를 확인합니다."
+  },
+  "reviewAnalysis": {
+    "total": 63,
+    "starCounts": {
+      "1": 10,
+      "2": 8,
+      "3": 5,
+      "4": 11,
+      "5": 29
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 29,
+    "eventMentions": [
+      {
+        "text": "업데이트 한번에 3기가바이트 다운받으라고 하는건 좀 너무하지 않냐?",
+        "keywords": [
+          "업데이트"
+        ]
+      },
+      {
+        "text": "enjoying the updates for the 2026 season!!!",
+        "keywords": [
+          "update",
+          "season"
+        ]
+      },
+      {
+        "text": "게임을 윈도우에 다운로드해서 게임에 들어갔는데 업데이트도중 99.4%에서 계속 멈춥니다 10번이상 시도했는데 똑같습니다...",
+        "keywords": [
+          "업데이트"
+        ]
+      },
+      {
+        "text": "this is truly the \"superstar\"of all baseball games on mobile the only thing for us americans is that",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "it updates on the motorola phone but not on this samsung newer phone..whats up with that!",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:39:32.798Z"
+}

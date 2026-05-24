@@ -1,0 +1,43 @@
+{
+  "appId": "6740848451",
+  "name": "RF 온라인 넥스트",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "철과 피가 타는 치열한 전장을 뚫고 함께 얻어낸 승리.\n그 순수한 기쁨을 즐기고 싶으시다면,\n\n지금, 낭만의 전장으로 집결하라!\nThe MMORPG, RF 온라인 넥스트.\n\n\n▣ 게임 소개\n\n■ RF 온라인, 그 이상의 NEXT ■\n광활한 우주를 배경으로 영겁의 시간 동안 펼쳐지는 장대한 스페이스 오페라.\n삶과 죽음, 희망과 절망이 교차하는 혼돈의 시간을 각자의 방식으로 살아가는 영웅의 이야기. \n\n글로벌 54개국 2,000만 유저에게 사랑받은 'RF 온라인'의 정식 후속작 'RF 온라인 넥스트' \n그 벅차오르는 감동의 전장에 지금 바로 참전하세요.  \n\n■ 추가 성장의 부담 없는 자유로운 클래스 체인지 ■\n당신이 꿈꿔왔던 전투 스타일, 무엇이든 마음껏 경험해 보세요!\n개성 넘치고 매력적인 6종의 클래스는 '바이오 슈트'를 통해 자유롭게 변경 가능하며\n장비 및 스킬 성장도가 보전되므로 플레이 취향이나 상황에 맞춰 다채로운 전투를 즐기실 수 있습니다.\n\n■ 전세를 뒤집는 최종병기 ‘신",
+    "released": "2025-03-19T07:00:00Z",
+    "updated": "2026-04-21T23:05:12Z",
+    "version": "1.26.7",
+    "score": 4.5,
+    "reviews": 2565,
+    "developer": "Netmarble Corporation",
+    "developerUrl": "https://apps.apple.com/kr/developer/netmarble-corporation/id930364579?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉"
+    ],
+    "releaseNotes": "- 콜라보 업데이트&기념 이벤트 진행\n- 워게임 '강철의 전장' 업데이트\n- 부스트 서버 오픈\n- 시스템 및 편의성 개선"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:39:15.272Z"
+}

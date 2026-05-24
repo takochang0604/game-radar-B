@@ -1,0 +1,43 @@
+{
+  "appId": "6746614437",
+  "name": "NBA 2K26 MyTEAM",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "NBA 2K Mobile is FREE to download and includes optional in-app purchases, including random items. Drop rate information is available in-game. In-app purchases can be disabled in device settings.\n\nStay on the court with the NBA 2K26 MyTEAM app. Build, strategize, and manage your star-studded roster of NBA and WNBA players anytime, anywhere. Collect your favorite players from every era and compete in single-player and multiplayer game modes on the go—because competition never rests. \n\nLink the NBA",
+    "released": "2025-11-28T08:00:00Z",
+    "updated": "2026-05-15T15:02:49Z",
+    "version": "1.06",
+    "score": 4.7,
+    "reviews": 2652,
+    "developer": "2K",
+    "developerUrl": "https://apps.apple.com/ph/developer/2k/id324563547?uo=4",
+    "genres": [
+      "Games",
+      "Sports"
+    ],
+    "releaseNotes": "Show you can handle the pressure in Season 7.\nEvery play, every possession, every Season has led to this moment. The NBA Playoffs reach their climactic finish, the WNBA enters a new era led by Angel Reese, and Season 7 of NBA 2K26 MyTEAM Mobile puts the spotlight on rising under pressure. From championship-level rewards to elite MyTEAM talent, this Season is about proving you can deliver when it matters most.\n\nRise in the Clutch\nSeason 7 brings a new wave of earnable rewards across MyTEAM, built for players ready to compete at the highest level. Build momentum, stay composed, and climb from Level 1 to Level 40 as you unlock premium rewards along the way. Chase new Season rewards including:\n\nLVL 1 Invincible Angel Reese\n\nLVL 10 Dark Matter Wendell Carter Jr.\n\nLVL 20 Dark Matter Norman Powell\n\nLVL 28 Dark Matter Phil Jackson Coach Card\n\nLVL 30 100 OVR John Stockton\n\nLVL 35 Invincible Ben Wallace\n\nLVL 40 G.O.A.T. Michael Jordan (SG/SF)\n\nMyTEAM: Championship-Caliber Lineups\nSeason 7’s MyTEAM rewards feature elite veterans, defensive anchors, and all-time greats built to elevate any roster. From dominant paint presence to historic playmaking and leadership, each reward strengthens your path to a title run.\n\nSync. Progress. Level Up.\nConnect your NBA 2K account and sync your MyTEAM progress across console and mobile. Manage your lineup, chase rewards, and keep earning — anytime, anywhere.\n\nSeason 7 is live. Step into the moment, stay composed under pressure, and prove you belong when everything is on the line."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:05:40.057Z"
+}

@@ -1,0 +1,48 @@
+{
+  "appId": "funvent.tilepark",
+  "name": "Tile Park",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Find your zen with a refreshing twist on tile matching! 🌳✨\n\nStep into a peaceful sanctuary designed to sharpen your focus and melt away stress. This soothing puzzle experience brings the beauty of a lush park to your screen, offering a perfect blend of strategy and relaxation.\n\nExplore the Park:\n• Match 3 🧩: Tap on three identical nature-inspired tiles to clear them from the board.\n• Master the Space 📥: You have 7 slots on your tray. Plan your moves carefully!\n• Clear the Landscape 🍃: Elimin",
+    "released": "Jul 30, 2024",
+    "updated": 1777888566000,
+    "version": "2.0.18",
+    "installs": "50,000,000+",
+    "score": 4.7237353,
+    "ratings": 582810,
+    "reviews": 1058,
+    "developer": "Funvent Studios DMCC",
+    "developerWebsite": "https://funvent.cc",
+    "genre": "Puzzle",
+    "recentChanges": "♦️  Bug fixes and general enhancements"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 8,
+      "2": 0,
+      "3": 4,
+      "4": 9,
+      "5": 79
+    },
+    "positiveRatio": 88,
+    "negativeRatio": 8,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 88%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:36:55.816Z"
+}

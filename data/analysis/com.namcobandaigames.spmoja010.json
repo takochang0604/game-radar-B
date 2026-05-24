@@ -1,0 +1,85 @@
+{
+  "appId": "com.namcobandaigames.spmoja010",
+  "name": "ONE PIECE トレジャークルーズ",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Gather your friends and have a great adventure! A flashy combo with a simple tap!\nDive into the world of One Piece with your own pirates!\n\n◆ A new sensation action that connects combos with a tap! ◆\n\"ONE PIECE Treasure Cruise\" is a simple tap operation\nA new sensation tap action where you can enjoy a powerful battle just like the original!\nTap your fellow characters at the right time to decide on a combo!\nIn addition, the unique \"Special Moves\" of all characters are reproduced with a flashy prod",
+    "released": "May 11, 2014",
+    "updated": 1778735049000,
+    "version": "16.0.2",
+    "installs": "5,000,000+",
+    "score": 4.3,
+    "ratings": 486017,
+    "reviews": 161998,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerWebsite": "https://www.bandainamcoent.co.jp/",
+    "genre": "Role Playing",
+    "recentChanges": "◆v16.0.2の変更内容<br>・不具合の修正"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 12,
+      "2": 1,
+      "3": 7,
+      "4": 24,
+      "5": 156
+    },
+    "positiveRatio": 90,
+    "negativeRatio": 7,
+    "eventMentions": [
+      {
+        "text": "a great one piece game. quite complex now compared to the early days but it's still cool. one qualit",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "after update, seems always force close in the middle of turn. causing many \nlosses and stamina. very",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "最近1つのイベント終わらせるのに無駄に思える周回が多すぎてウンザリしてくる 今回の藤虎みたいに同じとこ100周近くしなきゃキャラ育たないとかやる気失せる",
+        "keywords": [
+          "イベント"
+        ]
+      },
+      {
+        "text": "good games but i think it should have updated about everything",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "good update",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 90%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:37:57.848Z"
+}

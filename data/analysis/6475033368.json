@@ -1,0 +1,44 @@
+{
+  "appId": "6475033368",
+  "name": "鳴潮 - 2周年",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "『鳴潮』は自由度の高い戦闘と多種多彩なコンテンツが楽しめるオープンワールドアクションRPGである。プレイヤーは長い眠りから目覚めた「漂泊者」となって自分の記憶と物語を探す旅に就き、十人十色の共鳴者の仲間たちと共に世界を変える旅路へと踏み出す。\n\n◆The Game Awards 2025Players' Voice 受賞◆\n◆The Game Awards 2025ベストモバイルゲーム ノミネート◆\n◆The Game Awards 2024Players' Voice ノミネート◆\n◆The Game Awards 2024ベストモバイルゲーム ノミネート◆\n\n\n◆世界観紹介◆\n漂泊する者よ、目覚めの気分はいかがかな？\n我々の世界からは、潮が引いた。引いてしまった。\n悲鳴が降臨し、人類は旧時代の法則に取り残され、文明が浅瀬に擱坐したのだ。\nしかし完全なる静寂の末、人類は再び産声をあげる。\n壊滅とともに訪れた新生。そう、人類は微かな希望を信じ、新たな世のあり方と向き合い始めたのだった。\nそして、あなたーー漂泊者は、これからある旅路に就く。\n共に戦う仲間、想像を超える強敵、理を覆すほどの",
+    "released": "2024-05-21T07:00:00Z",
+    "updated": "2026-05-15T02:51:28Z",
+    "version": "3.3.2",
+    "score": 4.7,
+    "reviews": 85823,
+    "developer": "KURO GAMES",
+    "developerUrl": "https://apps.apple.com/jp/developer/kuro-games/id1723145160?uo=4",
+    "genres": [
+      "ゲーム",
+      "ロールプレイング",
+      "アクション"
+    ],
+    "releaseNotes": "既知の一部のクラッシュ問題を修正しました。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:11.390Z"
+}

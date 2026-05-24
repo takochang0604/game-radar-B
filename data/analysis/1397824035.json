@@ -1,0 +1,45 @@
+{
+  "appId": "1397824035",
+  "name": "Cooking City - Cooking Games",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Cooking City - One of the most addicting time-management cooking games! Simply tap to cook, serve global cuisine and enjoy the fast-paced gameplay! \n\nBecome a master chef! Cook the best food and make the cooking fever catch on in Cooking City! Prepare, Cook & Serve delicious meals from all over the world! Get all the citizens and guests in this real cooking craze! Build your cooking empire and serve every hungry and crazy diner with great dishes! \n\nExplore worldwide food cultures by traveling am",
+    "released": "2018-11-30T09:32:35Z",
+    "updated": "2026-04-16T16:32:20Z",
+    "version": "3.87.0",
+    "score": 4.8,
+    "reviews": 16998,
+    "developer": "MagicSeven Co., Ltd",
+    "developerUrl": "https://apps.apple.com/ph/developer/magicseven-co-ltd/id1022421351?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Simulation",
+      "Strategy"
+    ],
+    "releaseNotes": "New Events\n• The Easter event is underway! The Spring Sweets Market is open, featuring egg-themed desserts and handcrafted chocolates that paint a vibrant picture of spring.\n• A Pet Café-themed event is coming soon! Whip up adorable pet-themed cupcakes, paw-print popsicles, and specialty coffees to enjoy some truly heartwarming moments!\n\nNew Season\n• Purchase the Camping Season Pass to unlock double the rewards!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:44:45.531Z"
+}

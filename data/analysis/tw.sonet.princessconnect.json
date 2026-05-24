@@ -1,0 +1,75 @@
+{
+  "appId": "tw.sonet.princessconnect",
+  "name": "超異域公主連結！Re:Dive",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Once again, a story connected to you.\nThe super-hit animated RPG \"Exotic Princess Link Re:Dive\" kicks off a new generation!\n\n◆Embellish wonderful stories with beautiful animations\nA large number of high-standard animations produced by the famous Japanese animation production team \"WIT STUDIO\".\nBringing the dramatic tension and effects of authentic Japanese animation!\nWith the blessing of moving music produced by Japan's god-level animation music composer \"Tanaka Hiroshi\", you can immerse yoursel",
+    "released": "Jul 31, 2018",
+    "updated": 1773036969000,
+    "version": "5.6.0",
+    "installs": "500,000+",
+    "score": 4.4075856,
+    "ratings": 45122,
+    "reviews": 12239,
+    "developer": "SO-NET ENTERTAINMENT TAIWAN LIMITED",
+    "developerWebsite": "http://www.princessconnect.so-net.tw/",
+    "genre": "Role Playing",
+    "recentChanges": "．公會小屋BGM更新<br>．調整了部份UI<br>．戰鬥選單功能擴充<br>．轉蛋系統優化，變更了部份轉蛋的UI界面與新增兌換系統<br>．當「傷害提升」增加時，若單次攻擊動作所造成的傷害超過一定數值，最終造成的傷害將根據該效果量進一步提升。 由「傷害提升」所增加的傷害量設有上限。"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 19,
+      "2": 3,
+      "3": 5,
+      "4": 9,
+      "5": 64
+    },
+    "positiveRatio": 73,
+    "negativeRatio": 22,
+    "eventMentions": [
+      {
+        "text": "更新完開遊戲要下載，點了就不動了，完全進不去",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "i really love thos game but with the recent update. it keeps crashing for no reason, especially andr",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "one of the best mobile game, character design, event and music are great~",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "更新安卓12之後一直閃退，無法進行遊戲。進入關卡之後都會卡loading畫面，希望趕快改善。",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "遊戲體驗很好 但是要忍受大量外掛玩家，對正常玩家是很不公平 外掛是異常地猖獗，不少低玩家等級能全破最新內容 回報之後也不一定鎖帳號，只得到公式範本回覆",
+        "keywords": [
+          "新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:40:04.728Z"
+}

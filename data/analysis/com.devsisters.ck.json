@@ -1,0 +1,87 @@
+{
+  "appId": "com.devsisters.ck",
+  "name": "CookieRun: Kingdom",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "◼︎ EVERYONE'S FAVORITE TINY HEROES: THE COOKIES\nMeet our Cookies, all voiced by an amazing cast of voice actors\nWitness their epic skills, fall in love with their voices, and dress them into new chic costumes.\nJoin the Cookies in CookieRun: Kingdom!\n\n◼︎ EMBARK ON AN EPIC JOURNEY AROUND EARTHBREAD\nThe secrets of the ancient Cookies and their kingdoms are waiting to be unraveled.\nJoin GingerBrave and his friends against Dark Enchantress Cookie and her dark legion.\nThe chronicles of CookieRun: King",
+    "released": "Jan 19, 2021",
+    "updated": 1779106343000,
+    "version": "VARY",
+    "installs": "10,000,000+",
+    "score": 4.8,
+    "ratings": 1493801,
+    "reviews": 144273,
+    "developer": "Devsisters Corporation",
+    "developerWebsite": "https://cs.devsisters.com/ko/cookierun-kingdom",
+    "genre": "Role Playing",
+    "recentChanges": "- New Episode: Timeline of Fate<br>- New: Daily Play Log<br>- New: Arcade Arena<br>- New Cookies: Timekeeper Cookie (LEGENDARY), Ash Salt Cookie (EPIC)<br>- New Treasure<br>- 2 New Costumes: Black Sapphire Cookie (LEGENDARY), Candy Apple Cookie (EPIC)"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 16,
+      "2": 3,
+      "3": 8,
+      "4": 21,
+      "5": 152
+    },
+    "positiveRatio": 87,
+    "negativeRatio": 10,
+    "eventMentions": [
+      {
+        "text": "good game lots of lore and many updates with fun and new characters always a nice community and not ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "playing the game is just such a fun experience for me, and it's strangely addicting as well! i used ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "cool but can you please do a vocaloid collab and not hide it behind a paywall?",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "u treat new players good by giving them op stuff like beast rarity cookie and this is nice",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i love this game, story, character, art but in this season time keeper gacha make me sad. i just rol",
+        "keywords": [
+          "season"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 87%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:08:14.738Z"
+}

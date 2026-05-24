@@ -1,0 +1,45 @@
+{
+  "appId": "1638139403",
+  "name": "Block Crush: Block Puzzle Game",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Block Crush: A Calm & Classic Woody Block Puzzle for Everyone\n\nStep into Block Crush, a beautifully crafted block puzzle world built from warm wood textures and peaceful design. This soothing woody puzzle blends logic, focus, and creative play into a relaxing daily moment you can enjoy anytime.\n\nSlide each block into place, clear lines with ease, and feel the natural rhythm of a block puzzle that’s free, satisfying, and endlessly calming.\n\nA Relaxing Woody Block Puzzle Experience\n\nEvery move in ",
+    "released": "2022-10-15T07:00:00Z",
+    "updated": "2026-05-11T02:25:45Z",
+    "version": "3.7.5",
+    "score": 4.8,
+    "reviews": 6936,
+    "developer": "Wonderful Studio",
+    "developerUrl": "https://apps.apple.com/th/developer/wonderful-studio/id1820623343?uo=4",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Entertainment",
+      "Casual"
+    ],
+    "releaseNotes": "This update brings performance improvements and a smoother gameplay experience."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-17T15:03:09.541Z"
+}

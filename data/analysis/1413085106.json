@@ -1,0 +1,44 @@
+{
+  "appId": "1413085106",
+  "name": "Bacon – The Game",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "把甚麼都要放一片煙肉！\n\n你試過將煙肉配...... \n……雪糕？ \n……椰林飄香？ \n……美國？ \n\n\"Pancake – The Game\" 和 \"Burger – The Game\" 開發者的作品",
+    "released": "2018-09-26T07:00:00Z",
+    "updated": "2026-04-27T15:00:48Z",
+    "version": "4.11",
+    "score": 4.8,
+    "reviews": 25444,
+    "developer": "Philipp Stollenmayer",
+    "developerUrl": "https://apps.apple.com/tw/developer/philipp-stollenmayer/id580506869?uo=4",
+    "genres": [
+      "遊戲",
+      "休閒",
+      "動作"
+    ],
+    "releaseNotes": "· 細微改善 ·"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:43:29.628Z"
+}

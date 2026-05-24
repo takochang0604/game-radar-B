@@ -1,0 +1,72 @@
+{
+  "appId": "com.papegames.lysk.en",
+  "name": "Love and Deepspace",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "As the brand-new installment of the popular Mr. Love series, Love and Deepspace allows you to step into a sci-fi world where love knows no bounds. With immersive cutscenes, 3D storylines and interactions, love is truly within reach!\n\n[New Home Feature and Main Story]\nThe Home Feature is now available and there will be a new Main Story update! \"Before a dominant will, even the cosmos bows.\" Version 5.0 Second Anniversary [Throne of Eros] is now available. Draw closer to him as the story unfolds l",
+    "released": "Jan 8, 2024",
+    "updated": 1766644393000,
+    "version": "5.0.0",
+    "installs": "10,000,000+",
+    "score": 4.5338426,
+    "ratings": 165491,
+    "reviews": 7128,
+    "developer": "InFold Pte. Ltd.",
+    "genre": "Simulation",
+    "recentChanges": "Version 5.0 of Love and Deepspace [Throne of Eros] Is Now Released!"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 12,
+      "2": 3,
+      "3": 8,
+      "4": 12,
+      "5": 65
+    },
+    "positiveRatio": 77,
+    "negativeRatio": 15,
+    "eventMentions": [
+      {
+        "text": "funtastic game, but i'd love it more if every update didnt make it fail to launch for hours on end, ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i love this game and want to play it bad but even with a new phone barely any photos and only two ot",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i'm 473 days in and still very much in love with this game, probably. ore than i should be. i'm risk",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i believe that the age rating for this game needs to be changed to 18+ this game isn't meant for tee",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "great game plot,ministory,sidegame characters, allllll the va's kudos. but i'll give it a 5 when the",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:38:53.722Z"
+}

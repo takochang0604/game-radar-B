@@ -1,0 +1,42 @@
+{
+  "appId": "6760829439",
+  "name": "Spirit Beast Summoning",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "The ancient behemoths that have long guarded the continent have suddenly gone berserk. Their roars tear through the sky and shake the earth; the elements are thrown into chaos, and calamity sweeps across every corner. The fate of the world now rests on the shoulders of the brave soul who can connect with their spirits and rebuild their bonds—could that person be you?\nMaster the battlefield in a clash of strategy and adrenaline!\nExperience the art of turn-based combat where a single move can turn",
+    "released": "2026-04-28T07:00:00Z",
+    "updated": "2026-04-28T07:00:00Z",
+    "version": "1.0.4",
+    "score": 4.7,
+    "reviews": 212,
+    "developer": "Hongdong Guangsheng Network Technology Co., Ltd.",
+    "developerUrl": "https://apps.apple.com/vn/developer/hongdong-guangsheng-network-technology-co-ltd/id1886427375?uo=4",
+    "genres": [
+      "Games"
+    ],
+    "releaseNotes": "Fix known issues\nOptimize user experience"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 22 天，評分 4.7",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:57.619Z"
+}

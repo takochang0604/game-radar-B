@@ -1,0 +1,43 @@
+{
+  "appId": "6739554056",
+  "name": "Kingshot",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Kingshot is an innovative idle medieval survival game that combines strategic gameplay with rich details waiting to be explored.\n\nWhen a sudden rebellion overturns the fate of an entire dynasty and ignites a devastating war, countless people lose their homes. In a world riddled with societal collapse, rebel invasions, rampant disease, and mobs desperate for resources, survival is the ultimate challenge. As a governor in these turbulent times, it's up to you to lead your people through these adve",
+    "released": "2025-02-22T08:00:00Z",
+    "updated": "2026-04-27T07:01:47Z",
+    "version": "1.10.7",
+    "score": 4.6,
+    "reviews": 187409,
+    "developer": "Century Games Pte. Ltd.",
+    "developerUrl": "https://apps.apple.com/us/developer/century-games-pte-ltd/id1540548141?uo=4",
+    "genres": [
+      "Games",
+      "Strategy"
+    ],
+    "releaseNotes": "[New Content]\n1. New Feature: Master System — Quinn sets off on an adventure once again! Accept Governor commissions and face all kinds of challenges on a journey through the Badlands, seeking out Masters who can help build and develop your Town. After you befriend a Master, they will head to the Master Academy in your Town to share their knowledge, offering courses across multiple fields and providing lasting support for Town development and your Kingdom's journey. (Unlocks after your Kingdom reaches the required progress.)\n2. March Skin Optimization: Governors can enable up to 6 different March Skins. These skins will be displayed randomly or in sequence based on your settings, offering more variety when switching appearances."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:49:38.648Z"
+}

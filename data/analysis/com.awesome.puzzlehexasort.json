@@ -1,0 +1,79 @@
+{
+  "appId": "com.awesome.puzzlehexasort",
+  "name": "Color Slide - Hexa Puzzle",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Looking for a simple yet difficult puzzle game that will both help you relax AND train your brain? Color Slide - Hexa Puzzle is your one stop shop for all of that and more! As one of the most satisfying hexa games, it lets you enjoy relaxing sorting as you sort, slide and color match hexagons across the playing field, merging colors and making room for more pieces to appear. Just slide the pieces into place and enjoy this addictive color match puzzle as your stress slips away!\n\nHex-cellent Work ",
+    "released": "Apr 16, 2024",
+    "updated": 1778013264000,
+    "version": "1.24.1",
+    "installs": "10,000,000+",
+    "score": 4.53001,
+    "ratings": 329384,
+    "reviews": 1906,
+    "developer": "SayGames Ltd",
+    "developerWebsite": "https://say.games",
+    "genre": "Puzzle",
+    "recentChanges": "New levels added 🧩<br>Gameplay Improvement 🚀<br>Bugs fixed 🛠️"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 43,
+      "2": 9,
+      "3": 12,
+      "4": 5,
+      "5": 31
+    },
+    "positiveRatio": 36,
+    "negativeRatio": 52,
+    "eventMentions": [
+      {
+        "text": "the ad for this game is preventing me from playing other games, very annoying.",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "really good game, not going to lie. but the fact you can't transfer progress to a new device is shoc",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "fun game, but quickly becomes aggravating. ads everywhere and gameplay feels too random at times. ev",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "game is to biased towards adverts. the tools are not random either. i tried 5 times for new colours ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "major flaw i love this game but not being able to save your progress is bs!! i got to level 45 and g",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-09T15:04:52.735Z"
+}

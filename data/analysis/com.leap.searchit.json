@@ -1,0 +1,85 @@
+{
+  "appId": "com.leap.searchit",
+  "name": "Search It - Hidden Objects",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Search It – Hidden Objects is a hidden object and seek-and-find puzzle game where you search for hidden items, solve mysteries, and enjoy a relaxing find objects experience.\n\nStep into the shoes of a detective and sharpen your I Spy skills as you explore beautifully crafted scenes. Every level is a new scavenger hunt filled with cleverly hidden objects in detailed, abstract environments.\n\nUnlike fast-paced brain teasers, Search It is a relaxing puzzle game with no timers or pressure. Take your t",
+    "released": "Dec 19, 2025",
+    "updated": 1779398225000,
+    "version": "1.2.4",
+    "installs": "1,000,000+",
+    "score": 4.9,
+    "ratings": 40507,
+    "reviews": 65,
+    "developer": "Leap Game Studios",
+    "developerWebsite": "https://www.leapgames.mobi/",
+    "genre": "Puzzle",
+    "recentChanges": "Get ready for an exciting update!<br>-New levels every week!<br>-Bug fixes<br>-Performance improvements"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 14,
+      "2": 5,
+      "3": 12,
+      "4": 8,
+      "5": 161
+    },
+    "positiveRatio": 85,
+    "negativeRatio": 10,
+    "eventMentions": [
+      {
+        "text": "new user here.....and i like it a lot. it doesn't shove tons of ads to you. have the perfect level o",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i have found my new favorite search it game ! this one keeps me going and it is not repitcious with ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "3.5 not so addictive anymore 😕a lot of the \"new\" levels are the same exact graphics as old levels. ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i really enjoy this new, to me, game. i like most of the pictures. it's fun",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "actually, great game. super glitchy now since last update tho. kinda makes it unplayable for me. sor",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 85%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:22.710Z"
+}

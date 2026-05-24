@@ -1,0 +1,67 @@
+{
+  "appId": "com.grandgames.magicsort",
+  "name": "Magic Sort!",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Dive into the Enchanted Realm of Magic Sort: A Mystical Water Sort Adventure!\n\n🎩✨ Discover Magic Sort! Mix colors in a world where every splash of water is a step into mystery. This isn’t just a game; it’s a journey through puzzles that sparkle with charm, inviting you to sort, match, and puzzle your way through.\n\n🌈 Quick Play Guide 🌈\n\nStart Simple: Tap a bottle to pick it up, and another to pour the water. Organize the water so each bottle has only one color.\nThink Ahead: Pour water only if ",
+    "released": "Jun 26, 2024",
+    "updated": 1778867564000,
+    "version": "0.0.2578",
+    "installs": "10,000,000+",
+    "score": 4.7,
+    "ratings": 255958,
+    "reviews": 189,
+    "developer": "Grand Games A.Ş.",
+    "developerWebsite": "https://grand.gs",
+    "genre": "Puzzle",
+    "recentChanges": "Are you ready for a magical new update?<br><br>- New 100 levels!<br>- Bug Fixes &amp; Improvements<br><br>Enjoy!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 52,
+      "2": 21,
+      "3": 13,
+      "4": 23,
+      "5": 91
+    },
+    "positiveRatio": 57,
+    "negativeRatio": 37,
+    "eventMentions": [
+      {
+        "text": "update message same day i just installed put me back to level 1 from level 22.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "lame, why make hard levels impossible to beat in 5 tries, and not give us infinite lives to play as ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "great fun, except for when it's giving you an ad to download a new free version without ads that has",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:08:02.947Z"
+}

@@ -1,0 +1,49 @@
+{
+  "appId": "com.outfit7.mytalkingtomfree",
+  "name": "My Talking Tom",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Talking Tom is the cat making every day a fun adventure.\n\nPlayers adopt this virtual pet, keep him happy and help him explore his world.\n\n- Talking Tom can really talk \n- Fashion and furniture items to collect \n- Mini games add action, adventure and fun \n- Travel destinations are waiting to be explored \n- Photo albums to be filled with memories \n- And more \n\nFrom Outfit7, creators of My Talking Tom 2, My Talking Tom Friends, My Talking Angela 2 and My Talking Angela.\n\nThis app contains:\n- Promot",
+    "released": "Nov 11, 2013",
+    "updated": 1776844278000,
+    "version": "26.2.2.8557",
+    "installs": "1,000,000,000+",
+    "score": 4.3267303,
+    "ratings": 17477988,
+    "reviews": 188937,
+    "developer": "Outfit7 Limited",
+    "developerWebsite": "https://talkingtomandfriends.com/support/",
+    "genre": "Casual",
+    "recentChanges": "Bug fixes and minor gameplay improvements."
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 15,
+      "2": 2,
+      "3": 5,
+      "4": 10,
+      "5": 68
+    },
+    "positiveRatio": 78,
+    "negativeRatio": 17,
+    "eventMentions": [
+      {
+        "text": "why did you have to give the mtt1 tom the new outfit? at least with mtt2, you could choose if you wa",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-09T15:03:47.332Z"
+}

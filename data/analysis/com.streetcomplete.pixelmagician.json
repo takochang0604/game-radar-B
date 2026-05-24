@@ -1,0 +1,42 @@
+{
+  "appId": "com.streetcomplete.pixelmagician",
+  "name": "픽셀 법사 키우기 : 1.5주년 2서버 오픈!",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "1. Dot graphic action\nCute dot characters and spectacular action! Enjoy immersive battles in a world of dot graphics.\n\n2. Skill Chain System\nCollect and connect skill blocks to kill enemies with more powerful attacks. Enjoy the fun of easy but strategic battles!\n\n3. Job change system\nYou can receive new skills and special costumes for free by changing jobs! Transform into a more powerful character after changing jobs!\n\n4. Magic Tower\nClimb the magic tower and earn rich rewards! Defeat increasing",
+    "released": "Nov 18, 2024",
+    "updated": 1778222052000,
+    "version": "1.1.46",
+    "installs": "100,000+",
+    "score": 4.8,
+    "ratings": 10425,
+    "reviews": 1964,
+    "developer": "StreetComplete",
+    "developerWebsite": "https://streetcomplete.blogspot.com/",
+    "genre": "Simulation",
+    "recentChanges": "1) 신규 서버 2서버 추가<br>2) 1.5주년 이벤트<br>3) 1.5주년 특별 출석 이벤트<br>4) 가정의 달 수집 이벤트<br>5) 펫 시스템 확장 및 개선<br>6) 컨텐츠 확장"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:02:56.430Z"
+}

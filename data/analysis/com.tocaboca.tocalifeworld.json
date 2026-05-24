@@ -1,0 +1,86 @@
+{
+  "appId": "com.tocaboca.tocalifeworld",
+  "name": "Toca Boca World",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Welcome to Toca Boca World, the ultimate universe for kids to play, design, and explore their endless imagination! This isn't just a game; it's a safe space where every story is yours to create, and the fun never stops.\n\nToca Boca World is where your creativity takes center stage:\n🛝 Unleash your inner storyteller: Roleplay in a universe you've created, where you can tell your own stories. Become a teacher, a vet, or even an influencer.\n🏡 Design your dream world: Bring your best friends to life",
+    "released": "Nov 21, 2018",
+    "updated": 1779467457000,
+    "version": "1.131.2",
+    "installs": "100,000,000+",
+    "score": 4.3,
+    "ratings": 6659878,
+    "reviews": 213336,
+    "developer": "Toca Boca",
+    "developerWebsite": "https://tocaboca.com/help/",
+    "genre": "Educational",
+    "recentChanges": "Get ready to bring extra attitude to your stories, olivia rodrigo is playing in the Music Player from May 12th through June 8th! We&#39;re dropping a brand new Pixel Art Machine and frames in Home Designer for you to create and display your masterpieces! And speaking of gifts, you can take family roleplay to the next level with Mother&#39;s Day gifts, dress up for your big music performance with a glittering gown or techno outfits, and practice your volley with tennis gear before the big competition!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 20,
+      "2": 6,
+      "3": 14,
+      "4": 28,
+      "5": 132
+    },
+    "positiveRatio": 80,
+    "negativeRatio": 13,
+    "eventMentions": [
+      {
+        "text": "love this game but recently the prices on things in stores have been weird like ending in .29 cents ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "hi toca boca i really love the game and the updates and the free stuff its really the best game ever",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "oh how i love this game. ive been playing for years now and im addicted to it. i just want to say i ",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "i love this game but, if you wanna update it, i wish that y'all add an cute anime eyes, beautiful dr",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i'm obsessed with this game so i've been playing this game since i was 4 or 3 i had have time limit ",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 80%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:07:55.825Z"
+}

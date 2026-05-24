@@ -1,0 +1,44 @@
+{
+  "appId": "6739345737",
+  "name": "Palmon: Survival",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Welcome to our monster-catching survival and crafting simulation game. Embark on an epic adventure in a world filled with mysterious and powerful creatures known as Palmon!\n\n\n\n\n[Capture and fight]\nCapture different Palmon and discover their hidden abilities. Beware—rare Palmon offer greater rewards, but also pose a greater threat. Are you ready to take on fantastic challenges and become the ultimate Palmon master?\n\n\n\n\n[Build your own homestead]\nCollect Palmon and harness their powers to start fi",
+    "released": "2024-12-27T08:00:00Z",
+    "updated": "2026-05-12T11:27:36Z",
+    "version": "0.4.279",
+    "score": 4.9,
+    "reviews": 1129,
+    "developer": "LILITH TECHNOLOGY HONG KONG LIMITED",
+    "developerUrl": "https://apps.apple.com/ph/developer/lilith-technology-hong-kong-limited/id1478872809?uo=4",
+    "genres": [
+      "Games",
+      "Simulation",
+      "Strategy"
+    ],
+    "releaseNotes": "Enhanced game stability and performance optimizations."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:40:39.111Z"
+}

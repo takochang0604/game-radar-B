@@ -1,0 +1,41 @@
+{
+  "appId": "com.animal.match.link.combo",
+  "name": "Animal Match Link - Onet Tile",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Welcome to Animal Match Link - Onet  Tile Match Puzzle with your free time to relax,🏆a super fun Onet puzzle matching game with cool challenges and brain teasers, 😊enjoy a fun and relaxing puzzle game.\n\nHOW TO PLAY?\n⭐Connect two same tiles to eliminate them with a polyline on a Mahjong-styled board\n⭐The polyline contains no more than 3 inflection points\n⭐4 useful tools to help under the board\n⭐Win and get more scores and higher level \n⭐Higher enough to get surprise\n⭐take care time limit\n      ",
+    "released": "Mar 28, 2025",
+    "updated": 1775619937000,
+    "version": "1.0.m260407.0",
+    "installs": "1,000,000+",
+    "score": 4.619608,
+    "ratings": 6049,
+    "reviews": 177,
+    "developer": "BIGJOYSTUDIO",
+    "developerWebsite": "https://hki9981.com/",
+    "genre": "Board"
+  },
+  "reviewAnalysis": {
+    "total": 51,
+    "starCounts": {
+      "1": 2,
+      "2": 0,
+      "3": 1,
+      "4": 6,
+      "5": 42
+    },
+    "positiveRatio": 94,
+    "negativeRatio": 4,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 94%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:35:19.148Z"
+}

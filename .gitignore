@@ -4,11 +4,13 @@ node_modules/
 # 機密金鑰（絕對不可上傳）
 google-credentials.json
 
-# 本地資料快照（已遷移至 Firebase）
-data/
-
 # Gemini AI 設定
 .agents/
 
 # 本機啟動腳本
 start-server.bat
+
+# 臨時腳本
+scratch-*.js
+test-*.js
+*.bak

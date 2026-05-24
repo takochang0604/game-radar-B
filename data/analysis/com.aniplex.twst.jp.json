@@ -1,0 +1,81 @@
+{
+  "appId": "com.aniplex.twst.jp",
+  "name": "ディズニー ツイステッドワンダーランド",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Yana Toboso was in charge of the draft, main scenario, and character design.\n[Synopsis]\nThis story depicts the true appearance of \"villains\".\n\nGuided by a magic mirror, the protagonist is summoned to another world, \"Twisted Wonderland.\"\nThe destination is the prestigious magician training school \"Night Raven College\".\n\nWith nowhere to go, the main character begins to look for a way to return to the original world under the protection of the masked principal.\nHowever, the students who were waitin",
+    "released": "Mar 17, 2020",
+    "updated": 1777294988000,
+    "version": "1.1.14",
+    "installs": "1,000,000+",
+    "score": 4.6,
+    "ratings": 72819,
+    "reviews": 22483,
+    "developer": "Aniplex Inc.",
+    "developerWebsite": "https://twisted-wonderland.aniplex.co.jp/",
+    "genre": "Adventure",
+    "recentChanges": "■Ver1.1.14更新内容<br>・5月リリース予定内容の追加"
+  },
+  "reviewAnalysis": {
+    "total": 151,
+    "starCounts": {
+      "1": 12,
+      "2": 6,
+      "3": 4,
+      "4": 30,
+      "5": 99
+    },
+    "positiveRatio": 85,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "世界観やストーリーが作り込まれていてとても面白いです。キャラクターも皆魅力的で、気付けば全員のことを好きになっていました。 ディズニー作品のオマージュが本当に見事なので、ディズニー作品をよく観る方や、",
+        "keywords": [
+          "イベント",
+          "アップデート"
+        ]
+      },
+      {
+        "text": "イベントは短くすぎる",
+        "keywords": [
+          "イベント"
+        ]
+      },
+      {
+        "text": "ツイステッドワンダーランドは、今までプレイしたゲームの中で一番好きなゲームかもしれません！7月にこのゲームを始めたんですが、キャラクター、ストーリー、バックストーリー、イベントにすごく夢中になりました",
+        "keywords": [
+          "イベント"
+        ]
+      },
+      {
+        "text": "メインストーリーのアップデートが遅すぎるし、イベントが古いものの使い回しだから、面白味が欠けている。",
+        "keywords": [
+          "イベント",
+          "アップデート"
+        ]
+      },
+      {
+        "text": "i love this game but crashes a lot when i play for a longer time. istg i had to restart the game sev",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 85%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:38.105Z"
+}

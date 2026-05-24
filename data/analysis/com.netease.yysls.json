@@ -1,0 +1,66 @@
+{
+  "appId": "com.netease.yysls",
+  "name": "Where Winds Meet",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Step into an open-world action-adventure RPG set in ancient China. Uncover the secrets of your own identity as you rise from a humble village wanderer to the sword master of the imperial capital. Learn martial arts and build your reputation as a hero or a bringer of chaos in this free wuxia world.\n\nJianghu knows no bounds. Play free across PS5, PC, and mobile with full cross-play and cross-progression. No pay-to-win.\nGameplay content is entirely free, with monetization limited to cosmetic items.",
+    "released": "Dec 5, 2025",
+    "updated": 1777365657000,
+    "version": "3.8",
+    "installs": "1,000,000+",
+    "score": 4.133333,
+    "ratings": 49668,
+    "reviews": 1443,
+    "developer": "Exptional Global",
+    "genre": "Action",
+    "recentChanges": "Hexi Expansion Final Chapter: Qinchuan lives on April 30! Explore new map region and become the &quot;wind&quot; to experience the four seasons of Qinchuan!"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 9,
+      "2": 0,
+      "3": 4,
+      "4": 6,
+      "5": 31
+    },
+    "positiveRatio": 74,
+    "negativeRatio": 18,
+    "eventMentions": [
+      {
+        "text": "tbh.. loved this game, the graphic is best, but the items are quite pricy, the story is too much pat",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "game effect problem please update phone skin game effect",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "too huge more than 30gb. like solo mode. annoying to be forced online instead of solo. for now good ",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:23.622Z"
+}

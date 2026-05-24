@@ -1,0 +1,64 @@
+{
+  "appId": "6739561266",
+  "name": "LINE 數獨達人",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "「LINE POINTS GAME」系列第二款作品——《LINE數獨達人》登場！\n有LINE FRIENDS的人氣角色熊大、兔兔、莎莉陪你一起動腦玩數獨！\n享受解題樂趣之餘，完成任務獲得金幣，就能兌換超好用的LINE POINTS！\n快來一起挑戰，成為數獨達人吧！\n\n＜遊玩方式＞\n輕觸螢幕即可操作。\n在縱列、橫列及3×3區塊內，\n分別使用1~9 的數字各一次，\n正確填入所有數字即可輕鬆過關！\n\n＜筆記功能＞\n當格子內可能填入的數字有多個選項時，\n可開啟筆記功能來標記。\n即使當下無法確定答案，\n隨著解題進度推進，答案可能會逐漸浮現！\n\n＜提示功能＞\n如果遇到無法繼續解題的狀況，  \n就來試著使用提示功能吧！  \n系統會直接幫你填入一個正確的數字！  \n\n＜活動＞\n定期舉辦各種特別活動！  \n在活動期間內只要通關特定關卡，\n即可獲得額外的獎勵金幣！  \n\n＜每日數獨＞\n完成「每日數獨」就能入手比平時更多的金幣！\n而且！！\n如果完成整個月份的關卡，\n還能獲得獎盃及全通額外獎勵金幣！\n\n＜金幣＞\n完成數獨關卡即可獲得「金幣」！\n獲得的金幣可用來兌換「提示」或「道具」，\n幫助你順利解題！\n\n＜刮",
+    "released": "2025-05-07T07:00:00Z",
+    "updated": "2026-04-24T02:01:08Z",
+    "version": "3.7.0",
+    "score": 4.407,
+    "reviews": 25241,
+    "developer": "LINE Corporation",
+    "developerUrl": "https://apps.apple.com/tw/developer/line-corporation/id359067226?uo=4",
+    "genres": [
+      "遊戲",
+      "解謎",
+      "休閒"
+    ],
+    "releaseNotes": "[ver_3.7.0更新內容]\n修正細微錯誤並進行改善。"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 30,
+      "2": 7,
+      "3": 7,
+      "4": 2,
+      "5": 3
+    },
+    "positiveRatio": 10,
+    "negativeRatio": 76,
+    "eventMentions": [
+      {
+        "text": "更新過後答錯第三次看廣告繼續都無法看 過關之後想要看廣告得50塊獎勵也都無法觀看 就偏偏在答題時找到兩塊的獎勵都可以正常觀看廣告 可以麻煩改善一下嗎？重新刷新登入也一樣 還沒更新前都很正常 更新後就整",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "之前累積很多的金幣因為重新下載都沒了⋯",
+        "keywords": [
+          "新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:37.839Z"
+}

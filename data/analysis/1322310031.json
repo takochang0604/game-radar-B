@@ -1,0 +1,45 @@
+{
+  "appId": "1322310031",
+  "name": "ONE PIECE バウンティラッシュ - アクションゲーム",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "海賊なら奪い合え――\n\n●キミの手にした1ベリーが勝利を決めるPIECEとなる\nONE PIECEでは初となる最大プレイヤー4人vsプレイヤー4人のチーム対戦アクション。\n1人の力だけではなく、チームでの戦略が勝利へのカギになる。\n完全同期で進行するベリー奪取対戦ゲームが登場だ。\n\n●3Dで表現されたONE PIECEの世界がバトルのフィールドに\nONE PIECEのあの世界が対戦バトルフィールドそのままに。\nステージには自分やチームが有利になるアイテム、往く手を阻むギミックが登場。\nつかえるものは何でもつかってチームを勝利に導け。\n\n●特徴的なONE PIECEのキャラクターでチームバトルに勝利せよ\nONE PIECEの人気キャラクターを操作してライバルチームとバトル。\n前衛が得意なタイプ・後衛を担うタイプなど、キャラクターによって性能が異なる。\nチームの中で自分がどの役割を担うかしっかり決めてバトルにのぞもう。\n\n【動作環境、その他お問い合わせ】\n「Appサポート」をご確認ください\n\n※このアプリは、必ず「Appサポート」に記載の動作環境でご利用ください。動作環境でご利用の場合も、",
+    "released": "2018-03-29T08:22:41Z",
+    "updated": "2026-04-20T05:09:01Z",
+    "version": "91100",
+    "score": 4.7,
+    "reviews": 1160029,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerUrl": "https://apps.apple.com/jp/developer/bandai-namco-entertainment-inc/id352305770?uo=4",
+    "genres": [
+      "ゲーム",
+      "エンターテインメント",
+      "アドベンチャー",
+      "アクション"
+    ],
+    "releaseNotes": "■Ver91100の更新内容\n・一部UIの調整や改善を行いました。\n・一部不具合の修正を行いました。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:03:11.658Z"
+}

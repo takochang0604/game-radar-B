@@ -1,0 +1,45 @@
+{
+  "appId": "6745120053",
+  "name": "Imposter Game - Party Edition",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game for groups that love fun, suspense, and a bit of deception. Playable with 3 or more players - no internet needed.\n\nEach round, every player gets a secret word. Everyone? Not quite! One player receives only \"IMPOSTER\".\nNow it's time to improvise: Each person gives a clue in one sentence. The imposter has to guess the word. The others must figure out who's lying.\n\nNow with a brand new game mode: 'Find the Liar' - everyon",
+    "released": "2025-05-18T07:00:00Z",
+    "updated": "2026-05-21T00:03:28Z",
+    "version": "4.2.2",
+    "score": 4.8,
+    "reviews": 63771,
+    "developer": "Sven Vucak",
+    "developerUrl": "https://apps.apple.com/us/developer/sven-vucak/id1721257940?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Family",
+      "Word"
+    ],
+    "releaseNotes": "Impostor Team Mode\nImposters can now see their teammates when multiple imposters are in the game - enable it in settings!\n\nPlayer Groups\nSave your favorite player groups and switch between them instantly - each with its own impostor settings."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:01.620Z"
+}

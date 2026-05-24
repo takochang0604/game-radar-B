@@ -1,0 +1,42 @@
+{
+  "appId": "com.bibota.blast.puzzle",
+  "name": "Block Blast Puzzle Mania",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Block Blast Puzzle Mania: The Best Fun!\nAre you ready to test your skills? In Block Blast Puzzle Mania, your mission is to match and pop blocks of the same color to clear the board and score as high as possible! This puzzle game is very addictive.\n\n🌟 Features:\n\n🕹️ Simple Controls: Tap or swipe to move blocks. It is perfect for a relaxing break.\n\n🧩 Hundreds of Levels: Play many challenges with increasing difficulty.\n\n💥 Combo System: Clear more blocks to get power-ups. Block Blast Puzzle Mania",
+    "released": "Dec 16, 2025",
+    "updated": 1774511935000,
+    "version": "1.2.7",
+    "installs": "1,000,000+",
+    "score": 4.347339,
+    "ratings": 5990,
+    "reviews": 320,
+    "developer": "Bibota",
+    "developerWebsite": "https://bibotastudio.netlify.app/",
+    "genre": "Puzzle",
+    "recentChanges": "- add 6 maps adventure<br>- fixed some bugs<br>Have fun playing the game!"
+  },
+  "reviewAnalysis": {
+    "total": 24,
+    "starCounts": {
+      "1": 4,
+      "2": 1,
+      "3": 0,
+      "4": 1,
+      "5": 18
+    },
+    "positiveRatio": 79,
+    "negativeRatio": 21,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:22:20.383Z"
+}

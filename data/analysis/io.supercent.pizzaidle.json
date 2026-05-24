@@ -1,0 +1,49 @@
+{
+  "appId": "io.supercent.pizzaidle",
+  "name": "Pizza Ready!",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Pizza Ready, the ultimate pizza restaurant simulation game! 🍕🍽\n\nDive into an addictive restaurant game where cooking, management, and simulation come together in one delicious experience. \n\nIf you love games about food, chefs, and running a busy kitchen, Pizza Ready is the perfect choice!\n\n🍕 Run and Manage Your Own Pizza Restaurant! 🍕\nStep into the role of a professional chef and pizza restaurant manager. Cook tasty dishes, follow recipes, design your menu, and serve customers efficiently.\n\n",
+    "released": "Jul 4, 2023",
+    "updated": 1775643893000,
+    "version": "56.4.0",
+    "installs": "100,000,000+",
+    "score": 4.3,
+    "ratings": 2516674,
+    "reviews": 16620,
+    "developer": "Supercent, Inc.",
+    "developerWebsite": "https://supercent.io/",
+    "genre": "Simulation",
+    "recentChanges": "-Minor bug fixes."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 50,
+      "2": 10,
+      "3": 13,
+      "4": 22,
+      "5": 105
+    },
+    "positiveRatio": 64,
+    "negativeRatio": 30,
+    "eventMentions": [
+      {
+        "text": "i suggest you make a update where its a multyplayer where a person makes multiplayer puts a code the",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:40:02.173Z"
+}

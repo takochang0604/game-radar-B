@@ -1,0 +1,61 @@
+{
+  "appId": "com.media720.games2020",
+  "name": "Offline Games No WiFi internet",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Looking for a relaxing and entertaining way to pass the time without an internet connection? \"100+ Offline Games No WiFi Fun\" offers a carefully curated collection of puzzles and games designed to keep you engaged and entertained wherever you are. Whether you're traveling, commuting, or just unwinding at home, this app delivers endless offline fun.\n\nWhy Choose This App?\nHuge Selection of Games: Enjoy over 100 diverse puzzles and challenges, ranging from classic card games to creative brainteaser",
+    "released": "Aug 1, 2020",
+    "updated": 1777059645000,
+    "version": "3.55",
+    "installs": "100,000,000+",
+    "score": 4.4583073,
+    "ratings": 590917,
+    "reviews": 5622,
+    "developer": "Fun Offline Games",
+    "developerWebsite": "http://720.media",
+    "genre": "Casual",
+    "recentChanges": "  - Fix bugs"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 19,
+      "2": 4,
+      "3": 11,
+      "4": 1,
+      "5": 65
+    },
+    "positiveRatio": 66,
+    "negativeRatio": 23,
+    "eventMentions": [
+      {
+        "text": "hi, my name is khusi sahu and i like to review in this app . this app can't have any problems. i lik",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "its perfect! i rlly like the jigsaw puzzles theres mutilpe games we dont have internet at the new ap",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 14 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-09T15:03:06.274Z"
+}

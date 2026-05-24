@@ -1,0 +1,6393 @@
+{
+  "date": "2026-05-06",
+  "totalBeforeMerge": 130,
+  "count": 81,
+  "config": {
+    "lookbackDays": 7,
+    "rankJumpThreshold": 30,
+    "consecutiveRiseDays": 5,
+    "newEntryDays": 7,
+    "newEntryMaxRank": 30,
+    "newEntryMinNulls": 4,
+    "minHistoryDays": 4,
+    "minScore": 3.5,
+    "minConfidence": 1.5,
+    "maxCurrentRank": 50
+  },
+  "darkhorses": [
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1606356401",
+      "name": "ゼンレスゾーンゼロ",
+      "developer": "COGNOSPHERE PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/1e/9d/911e9df7-8a8e-66e3-14d8-83867c5b219e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 6,
+      "score": 4.29663,
+      "category": "ゲーム",
+      "url": "https://apps.apple.com/jp/app/%E3%82%BC%E3%83%B3%E3%83%AC%E3%82%B9%E3%82%BE%E3%83%BC%E3%83%B3%E3%82%BC%E3%83%AD/id1606356401?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #92 升至 #6（↑86 名）",
+          "score": 2.8666666666666667
+        },
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #6",
+          "score": 3
+        }
+      ],
+      "confidenceScore": 12.32,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 92,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 66,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 6,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:04.547Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 6,
+          "score": 12.32
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1606356401",
+      "name": "젠레스 존 제로",
+      "developer": "COGNOSPHERE PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/1e/9d/911e9df7-8a8e-66e3-14d8-83867c5b219e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 13,
+      "score": 4.15278,
+      "category": "게임",
+      "url": "https://apps.apple.com/kr/app/%EC%A0%A0%EB%A0%88%EC%8A%A4-%EC%A1%B4-%EC%A0%9C%EB%A1%9C/id1606356401?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #89 升至 #13（↑76 名）",
+          "score": 2.533333333333333
+        },
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #13",
+          "score": 2.5
+        }
+      ],
+      "confidenceScore": 7.25,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 89,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 82,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 13,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:08.240Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 13,
+          "score": 7.25
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.neptune.anchorpanic",
+      "name": "앵커패닉 : 1주년 600뽑 대축제",
+      "developer": "Neptune Corp.",
+      "icon": "https://play-lh.googleusercontent.com/R4QmhBqfPmhnNASMg2F93UDjKyibPoGQol4y9K3afzZbc_gYextTP3mPEaxYzAW0Hy6ZarcJiJCIs7wsCyP7",
+      "currentRank": 4,
+      "score": 4.0251255,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.neptune.anchorpanic",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #4",
+          "score": 3
+        }
+      ],
+      "confidenceScore": 7.2,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 4,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:05.562Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 4,
+          "score": 7.2
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "jp.sammynet.next.ort.a0230",
+      "name": "[7R]スマスロ 甲鉄城のカバネリ 海門（うなと）決戦",
+      "developer": "Sammy Networks Co.,Ltd.",
+      "icon": "https://play-lh.googleusercontent.com/fFNJzH4afrFznmhzEDsqmM40zR6Qj2VaZN35cCKdCc8-JdoFqeMx1U2FGh6Cfg9i7wVtDaYxrcQzHRcnjfuYfg",
+      "currentRank": 6,
+      "score": 3.9333334,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=jp.sammynet.next.ort.a0230",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #6",
+          "score": 3
+        }
+      ],
+      "confidenceScore": 6.3,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 6,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:01.853Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 6,
+          "score": 6.3
+        }
+      ]
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6758817271",
+      "name": "鬼雄三國：主公有夠鬼",
+      "developer": "MAX GAME PTE.LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/ab/a5/27aba5ad-14fb-3f53-3f50-177e643b5a3b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "currentRank": 2,
+      "score": 0,
+      "category": "遊戲",
+      "url": "https://apps.apple.com/tw/app/%E9%AC%BC%E9%9B%84%E4%B8%89%E5%9C%8B-%E4%B8%BB%E5%85%AC%E6%9C%89%E5%A4%A0%E9%AC%BC/id6758817271?uo=4",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #2",
+          "score": 3
+        }
+      ],
+      "confidenceScore": 6,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 2,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:11.971Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 2,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "market": "vn",
+      "marketName": "越南",
+      "marketFlag": "🇻🇳",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6762191054",
+      "name": "EnduranceHomelessGuy",
+      "developer": "Sander van Dongen",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/f4/02/71f4026e-8e09-be89-5087-add8a40d1c45/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 16,
+      "score": 0,
+      "category": "Games",
+      "url": "https://apps.apple.com/vn/app/endurancehomelessguy/id6762191054?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #87 升至 #16（↑71 名）",
+          "score": 2.3666666666666667
+        },
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #16",
+          "score": 2.5
+        }
+      ],
+      "confidenceScore": 5.84,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 87,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 20,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 16,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:18.894Z",
+      "markets": [
+        {
+          "code": "vn",
+          "name": "越南",
+          "flag": "🇻🇳",
+          "rank": 16,
+          "score": 5.84
+        }
+      ]
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.gamesofa.android.catcafe2",
+      "name": "Catfe World",
+      "developer": "Gamesofa Inc.",
+      "icon": "https://play-lh.googleusercontent.com/gJZ8W3tBR7NcYmMx7aT_M74UKt5h6sO-u-NnYUs1MVKnxvaxrZuWdGz709Kngn7BKn8tfEg1-6eb0lvSk5xOkQ",
+      "currentRank": 11,
+      "score": 4.5660377,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.gamesofa.android.catcafe2",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #64 升至 #11（↑53 名）",
+          "score": 1.7666666666666666
+        },
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #11",
+          "score": 2.5
+        }
+      ],
+      "confidenceScore": 5.12,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 64,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 17,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 11,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:11.181Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 11,
+          "score": 5.12
+        }
+      ]
+    },
+    {
+      "market": "vn",
+      "marketName": "越南",
+      "marketFlag": "🇻🇳",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.eq3rui.bzrln.qxzzf",
+      "name": "Z188Lucky Lantern",
+      "developer": "Kiol Duong",
+      "icon": "https://play-lh.googleusercontent.com/1c7wdydjg-2dQYSrggXvOZ43mkdsBu8x1sOXwgn9D4-hiXtkIBKKrdg8oEEmAeJPYlMy8xCCPfdTdC1OiH42aM4",
+      "currentRank": 18,
+      "score": 4.1363635,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.eq3rui.bzrln.qxzzf",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #64 升至 #18（↑46 名）",
+          "score": 1.5333333333333334
+        },
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #18",
+          "score": 2.5
+        }
+      ],
+      "confidenceScore": 4.84,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 64,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 18,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:18.130Z",
+      "markets": [
+        {
+          "code": "vn",
+          "name": "越南",
+          "flag": "🇻🇳",
+          "rank": 18,
+          "score": 4.84
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1322310031",
+      "name": "ONE PIECE バウンティラッシュ - アクションゲーム",
+      "developer": "Bandai Namco Entertainment Inc.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/68/7b/a2687ba3-41cd-888b-896b-72e7118249d0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 3,
+      "score": 4.69815,
+      "category": "ゲーム",
+      "url": "https://apps.apple.com/jp/app/one-piece-%E3%83%90%E3%82%A6%E3%83%B3%E3%83%86%E3%82%A3%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id1322310031?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #51 升至 #3（↑48 名）",
+          "score": 1.6
+        }
+      ],
+      "confidenceScore": 4.48,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 51,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 31,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 38,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 41,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 45,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 4,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 3,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:04.512Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 3,
+          "score": 4.48
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6759995063",
+      "name": "夢織りの花園",
+      "developer": "Pogo Hopper",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/d5/a4/66d5a454-84dd-9dc5-f4b8-40358d30cd95/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 12,
+      "score": 4.72034,
+      "category": "ゲーム",
+      "url": "https://apps.apple.com/jp/app/%E5%A4%A2%E7%B9%94%E3%82%8A%E3%81%AE%E8%8A%B1%E5%9C%92/id6759995063?uo=4",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #12",
+          "score": 2.5
+        }
+      ],
+      "confidenceScore": 4.2,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 6,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 12,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:02.934Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 12,
+          "score": 4.2
+        }
+      ]
+    },
+    {
+      "market": "us",
+      "marketName": "美國",
+      "marketFlag": "🇺🇸",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6752864987",
+      "name": "FIFA Panini Collection",
+      "developer": "Panini S.p.A.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/a0/b6/50a0b60b-0a5a-653b-853f-6ab03df24917/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 35,
+      "score": 4.03704,
+      "category": "Games",
+      "url": "https://apps.apple.com/us/app/fifa-panini-collection/id6752864987?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #80 升至 #35（↑45 名）",
+          "score": 1.5
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#80 → #35）",
+          "score": 1.2
+        }
+      ],
+      "confidenceScore": 4.05,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 80,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 54,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 48,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 42,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 39,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 37,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 35,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:20:57.018Z",
+      "markets": [
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 35,
+          "score": 4.05
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1606359076",
+      "name": "绝区零",
+      "developer": "miHoYo Games",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/24/b9/ba24b9a7-ce58-d64a-0247-46f81deec2fa/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 19,
+      "score": 3.90014,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/%E7%BB%9D%E5%8C%BA%E9%9B%B6/id1606359076?uo=4",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #19",
+          "score": 2.5
+        }
+      ],
+      "confidenceScore": 3.9,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 19,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:10.137Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 19,
+          "score": 3.9
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "1638139403",
+      "name": "ブロッククラッシュ (Block Crush)",
+      "developer": "Wonderful Studio",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/71/36/9971363d-b4cf-8bc4-1a41-b6a9eb12f3dc/AppIcon-0-0-1x_U007epad-0-11-0-sRGB-85-220.png/512x512bb.jpg",
+      "currentRank": 45,
+      "score": 4.55706,
+      "category": "ゲーム",
+      "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5-block-crush/id1638139403?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #87 升至 #45（↑42 名）",
+          "score": 1.4
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#87 → #45）",
+          "score": 1.2
+        }
+      ],
+      "confidenceScore": 3.64,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 87,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 84,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 82,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 79,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 75,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 56,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 45,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:03.186Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 45,
+          "score": 3.64
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6741319337",
+      "name": "앵커패닉 : 1주년 600뽑 대축제",
+      "developer": "Neptune Company",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/4e/07/764e07ba-f10a-fe99-9560-c72aa8666a99/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "currentRank": 20,
+      "score": 4.67495,
+      "category": "게임",
+      "url": "https://apps.apple.com/kr/app/%EC%95%B5%EC%BB%A4%ED%8C%A8%EB%8B%89-1%EC%A3%BC%EB%85%84-600%EB%BD%91-%EB%8C%80%EC%B6%95%EC%A0%9C/id6741319337?uo=4",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #20",
+          "score": 2.5
+        }
+      ],
+      "confidenceScore": 3.6,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 20,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:06.482Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 20,
+          "score": 3.6
+        }
+      ]
+    },
+    {
+      "market": "us",
+      "marketName": "美國",
+      "marketFlag": "🇺🇸",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "921022358",
+      "name": "Star Wars™: Galaxy of Heroes",
+      "developer": "Electronic Arts",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/d1/54/c2d15463-2ce1-7a5c-5727-6d0e3ec0494b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 18,
+      "score": 4.58876,
+      "category": "Games",
+      "url": "https://apps.apple.com/us/app/star-wars-galaxy-of-heroes/id921022358?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #76 升至 #18（↑58 名）",
+          "score": 1.9333333333333333
+        }
+      ],
+      "confidenceScore": 3.48,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 76,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 40,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 18,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:01.244Z",
+      "markets": [
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 18,
+          "score": 3.48
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1454663939",
+      "name": "明日方舟",
+      "developer": "Shanghai Hypergryph Network Technology Co., Ltd.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/3c/cc/ed3ccc4c-5dd8-5efa-cffb-a101ef18a08d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 10,
+      "score": 4.50659,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F/id1454663939?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #63 升至 #10（↑53 名）",
+          "score": 1.7666666666666666
+        }
+      ],
+      "confidenceScore": 3.45,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 63,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 3,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 3,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 4,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 7,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 8,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 10,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:10.028Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 10,
+          "score": 3.45
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6754370732",
+      "name": "耳だけ捜査線 - 暇つぶし論理パズルゲーム",
+      "developer": "FTY LLC.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/c2/43/15c24398-fd5e-2c3d-9239-a3784ba7aa96/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 22,
+      "score": 4.32505,
+      "category": "ゲーム",
+      "url": "https://apps.apple.com/jp/app/%E8%80%B3%E3%81%A0%E3%81%91%E6%8D%9C%E6%9F%BB%E7%B7%9A-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97%E8%AB%96%E7%90%86%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6754370732?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #57 升至 #22（↑35 名）",
+          "score": 1.1666666666666667
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#57 → #22）",
+          "score": 1.2
+        }
+      ],
+      "confidenceScore": 3.31,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 57,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 48,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 46,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 43,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 33,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 25,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 22,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:03.021Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 22,
+          "score": 3.31
+        }
+      ]
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.linecorp.LGPKPK",
+      "name": "LINE Pokopoko",
+      "developer": "LINE (LY Corporation)",
+      "icon": "https://play-lh.googleusercontent.com/tXW7sirumTEVg81135lskQjy5Z33oUIC0mWyFvtvKxROp82FdZCI0sf9VGLgjixwTM6vtWk9lh0gLQaGVZ5i2Eg",
+      "currentRank": 5,
+      "score": 4.559829,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.linecorp.LGPKPK",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #54 升至 #5（↑49 名）",
+          "score": 1.6333333333333333
+        }
+      ],
+      "confidenceScore": 3.27,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 54,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 41,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 31,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 13,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 5,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:11.138Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 5,
+          "score": 3.27
+        }
+      ]
+    },
+    {
+      "market": "ph",
+      "marketName": "菲律賓",
+      "marketFlag": "🇵🇭",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.hottagames.nte",
+      "name": "NTE: Neverness to Everness",
+      "developer": "N2E",
+      "icon": "https://play-lh.googleusercontent.com/TGl3DdDbi4hty6ooOhEvv_2s5tkpGLbL6derP8y5hK-_Bw--Ve375b08ba9HHQ9ueRpoQ9oye1T_T24BJriLUmw",
+      "currentRank": 31,
+      "score": 4.0617285,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.hottagames.nte",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #88 升至 #31（↑57 名）",
+          "score": 1.9
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#88 → #31）",
+          "score": 1.2
+        }
+      ],
+      "confidenceScore": 3.1,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 88,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 66,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 55,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 44,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 37,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 33,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 31,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:23.011Z",
+      "markets": [
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 31,
+          "score": 3.1
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 46,
+          "score": 2.8
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 13,
+          "score": 2.02
+        }
+      ]
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.netease.yyslshmt",
+      "name": "燕雲十六聲",
+      "developer": "LongE Play",
+      "icon": "https://play-lh.googleusercontent.com/hY-ErSpSs3doKrAvcXD0LZpsNtyxYrURCsPgaaYWqC_1e_7jkOcjBZ1GhLbfYnPIAfsh16492uA0QXvQd_UKvQ",
+      "currentRank": 9,
+      "score": 3.881356,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.netease.yyslshmt",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #70 升至 #9（↑61 名）",
+          "score": 2.033333333333333
+        }
+      ],
+      "confidenceScore": 3.05,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 70,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 11,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 10,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 9,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 9,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 9,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 9,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:12.986Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 9,
+          "score": 3.05
+        }
+      ]
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.Gameplier.TheGhost",
+      "name": "The Ghost - Multiplayer Horror",
+      "developer": "Gameplier",
+      "icon": "https://play-lh.googleusercontent.com/Fx3UqiYCSP9x8S-W10ht-f_W3UQGOZW0Oh4Z1yQEPqZj8o5wIrfAOxVurgFdOZbn2Mk",
+      "currentRank": 16,
+      "score": 3.77,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.Gameplier.TheGhost",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #16",
+          "score": 2.5
+        }
+      ],
+      "confidenceScore": 3,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 16,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:11.222Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 16,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1606356401",
+      "name": "絕區零",
+      "developer": "COGNOSPHERE PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/1e/9d/911e9df7-8a8e-66e3-14d8-83867c5b219e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 20,
+      "score": 4.08242,
+      "category": "遊戲",
+      "url": "https://apps.apple.com/tw/app/%E7%B5%95%E5%8D%80%E9%9B%B6/id1606356401?uo=4",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #20",
+          "score": 2.5
+        }
+      ],
+      "confidenceScore": 3,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 20,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:13.776Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 20,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "market": "ph",
+      "marketName": "菲律賓",
+      "marketFlag": "🇵🇭",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1606356401",
+      "name": "Zenless Zone Zero",
+      "developer": "COGNOSPHERE PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/1e/9d/911e9df7-8a8e-66e3-14d8-83867c5b219e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 14,
+      "score": 3.67916,
+      "category": "Games",
+      "url": "https://apps.apple.com/ph/app/zenless-zone-zero/id1606356401?uo=4",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #14",
+          "score": 2.5
+        }
+      ],
+      "confidenceScore": 3,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 14,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:23.688Z",
+      "markets": [
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 14,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.flower.forest.word.puzzle",
+      "name": "Flower Forest - ワードパズル",
+      "developer": "SkySoft Studio",
+      "icon": "https://play-lh.googleusercontent.com/85UQPJ5ABPQ5zUEWlEU3Xv1dfqmVX5tqsD7YPKmOJWsXonblfTSM7rqtoWxns-VCQ-jhUDQfb8geUFOrZJDc",
+      "currentRank": 27,
+      "score": 3.5333333,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.flower.forest.word.puzzle",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #27",
+          "score": 2
+        }
+      ],
+      "confidenceScore": 2.8,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 42,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 27,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:02.059Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 27,
+          "score": 2.8
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "1645844535",
+      "name": "갓물주 키우기",
+      "developer": "Shimmer Games Co., Ltd.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/5a/d7/6e5ad703-6fb9-31c0-3007-c9e009b23f24/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 48,
+      "score": 4.59938,
+      "category": "게임",
+      "url": "https://apps.apple.com/kr/app/%EA%B0%93%EB%AC%BC%EC%A3%BC-%ED%82%A4%EC%9A%B0%EA%B8%B0/id1645844535?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #81 升至 #48（↑33 名）",
+          "score": 1.1
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#81 → #48）",
+          "score": 1.2
+        }
+      ],
+      "confidenceScore": 2.76,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 81,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 77,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 66,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 59,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 55,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 54,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 48,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:06.767Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 48,
+          "score": 2.76
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.neowiz.games.poker",
+      "name": "Pmang Poker : Casino Royal",
+      "developer": "NEOWIZ corp",
+      "icon": "https://play-lh.googleusercontent.com/isQpniEjKL8RDxTcHsHvRtBawTyo3HDkLIP4_BUQKfYU0ZDB9HsZ7QYCRji8e0gtCA",
+      "currentRank": 23,
+      "score": 4.1736727,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.neowiz.games.poker",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #56 升至 #23（↑33 名）",
+          "score": 1.1
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#56 → #23）",
+          "score": 1.2
+        }
+      ],
+      "confidenceScore": 2.76,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 56,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 39,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 33,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 29,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 28,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 27,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 23,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:07.442Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 23,
+          "score": 2.76
+        }
+      ]
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.whoyaho.pendeco",
+      "name": "Deco Master - DIY Pen ASMR",
+      "developer": "Whoyaho Corp.",
+      "icon": "https://play-lh.googleusercontent.com/4VG72Y8jbmaylwbF95A2dgaCU7Pl2wIL8TNq5tiUcoF1prMlzazw7bcZPDG8hjMpohmmYljYcup6SjIQ4urZag",
+      "currentRank": 4,
+      "score": 4.7272725,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.whoyaho.pendeco",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #45 升至 #4（↑41 名）",
+          "score": 1.3666666666666667
+        }
+      ],
+      "confidenceScore": 2.73,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 45,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 7,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 3,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 3,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 3,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 4,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:11.131Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 4,
+          "score": 2.73
+        }
+      ]
+    },
+    {
+      "market": "vn",
+      "marketName": "越南",
+      "marketFlag": "🇻🇳",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.bibota.blast.puzzle",
+      "name": "Block Blast Puzzle Mania",
+      "developer": "Bibota",
+      "icon": "https://play-lh.googleusercontent.com/mh3QVmpmAAptM0lGS6_5znqkfcm0NqUipmzuOxx0_vwEoTsYAcpj28X9L-lIH2FrAar1MbABTXLekH4xvKgN",
+      "currentRank": 20,
+      "score": 4.347339,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.bibota.blast.puzzle",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #52 升至 #20（↑32 名）",
+          "score": 1.0666666666666667
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#52 → #20）",
+          "score": 1.2
+        }
+      ],
+      "confidenceScore": 2.72,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 52,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 44,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 36,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 34,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 28,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 24,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 20,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:18.138Z",
+      "markets": [
+        {
+          "code": "vn",
+          "name": "越南",
+          "flag": "🇻🇳",
+          "rank": 20,
+          "score": 2.72
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1032346221",
+      "name": "妖怪ウォッチ ぷにぷに",
+      "developer": "Level-5 Inc.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/40/9e/8c409ec9-7f15-d669-030c-4c0e805ff22f/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg",
+      "currentRank": 37,
+      "score": 3.876,
+      "category": "ゲーム",
+      "url": "https://apps.apple.com/jp/app/%E5%A6%96%E6%80%AA%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-%E3%81%B7%E3%81%AB%E3%81%B7%E3%81%AB/id1032346221?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #95 升至 #37（↑58 名）",
+          "score": 1.9333333333333333
+        }
+      ],
+      "confidenceScore": 2.71,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 95,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 24,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 28,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 31,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 35,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 34,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 37,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:04.895Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 37,
+          "score": 2.71
+        }
+      ]
+    },
+    {
+      "market": "th",
+      "marketName": "泰國",
+      "marketFlag": "🇹🇭",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6762244603",
+      "name": "Mini Pirate Brawl",
+      "developer": "HAICHEN STUDIO",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/46/4a/98464a8e-eba4-aff6-5d48-b2fb1ee0cd5f/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/512x512bb.jpg",
+      "currentRank": 24,
+      "score": 4.74324,
+      "category": "Games",
+      "url": "https://apps.apple.com/th/app/mini-pirate-brawl/id6762244603?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #69 升至 #24（↑45 名）",
+          "score": 1.5
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#69 → #24）",
+          "score": 1.2
+        }
+      ],
+      "confidenceScore": 2.7,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 69,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 61,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 47,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 43,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 38,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 29,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 24,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:15.756Z",
+      "markets": [
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 24,
+          "score": 2.7
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "tokyo.chickenskin.yokai",
+      "name": "My Monster Babe",
+      "developer": "CHICKEN SKIN LLC",
+      "icon": "https://play-lh.googleusercontent.com/zpJ18cv92reANnc7bLoxadXEbJOMcMXewK4msPAgiWIQrEEJgQsylZ-idoNt3gkJAfKgUNr8WVUvsgOWbwXcuLg",
+      "currentRank": 41,
+      "score": 3.871287,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=tokyo.chickenskin.yokai",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #98 升至 #41（↑57 名）",
+          "score": 1.9
+        }
+      ],
+      "confidenceScore": 2.66,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 98,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 85,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 71,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 46,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 41,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:02.170Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 41,
+          "score": 2.66
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 40,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.linecorp.LGTMTM",
+      "name": "LINE：ディズニー ツムツム",
+      "developer": "LINE (LY Corporation)",
+      "icon": "https://play-lh.googleusercontent.com/NV4et8M5erNpQbz5mGFAbvYyw5z4JyIguX4DnhSNRQpXRabFx5B3lC3MsIPlPY3pU7GLclqvzUTu-IUZWytBT8A",
+      "currentRank": 9,
+      "score": 3.8509483,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.linecorp.LGTMTM",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #47 升至 #9（↑38 名）",
+          "score": 1.2666666666666666
+        }
+      ],
+      "confidenceScore": 2.66,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 47,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 21,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 13,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 12,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 10,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 9,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 9,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:03.729Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 9,
+          "score": 2.66
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.Level5.YWP",
+      "name": "妖怪ウォッチ ぷにぷに",
+      "developer": "LEVEL-5 Inc.",
+      "icon": "https://play-lh.googleusercontent.com/tRm2I16Uuhcidsm3HukpW-1E61VBea_f9cv32tqro8m-k8BeiEdKBvfECb4ENyz-lNtiH37WaPDFkaRKbYvBzA",
+      "currentRank": 38,
+      "score": 4.150686,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.Level5.YWP",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #95 升至 #38（↑57 名）",
+          "score": 1.9
+        }
+      ],
+      "confidenceScore": 2.66,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 95,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 62,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 49,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 43,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 43,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 41,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 38,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:03.978Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 38,
+          "score": 2.66
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.xd.xdtglobal.gp",
+      "name": "Heartopia",
+      "developer": "XD Entertainment Co., Ltd.",
+      "icon": "https://play-lh.googleusercontent.com/FtZNAkKn4faEpRU4UjtRRUk-aQP5zwiN1Kg4FzAcQBN7S8-PfDo7ODxmjaPlMu3HOFJ6-1WhzXxwKA6q1bOw",
+      "currentRank": 31,
+      "score": 4.15505,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.xd.xdtglobal.gp",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #97 升至 #31（↑66 名）",
+          "score": 2.2
+        }
+      ],
+      "confidenceScore": 2.64,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 97,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 68,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 62,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 34,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 32,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 31,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 31,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:07.587Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 31,
+          "score": 2.64
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 14,
+          "score": 1.84
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6749109552",
+      "name": "X-Clash: サバイバル",
+      "developer": "9z Games(HK)",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/8c/7c/538c7c58-0e4e-03d7-40e4-56563cd3aaf9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 36,
+      "score": 4.48684,
+      "category": "ゲーム",
+      "url": "https://apps.apple.com/jp/app/x-clash-%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB/id6749109552?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #92 升至 #36（↑56 名）",
+          "score": 1.8666666666666667
+        }
+      ],
+      "confidenceScore": 2.61,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 92,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 55,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 49,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 44,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 36,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:03.129Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 36,
+          "score": 2.61
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "pics.karaage.sokutaiho",
+      "name": "Patrol Time! Instant Arrest!",
+      "developer": "KARAAGE GAMES LLC.",
+      "icon": "https://play-lh.googleusercontent.com/MnwELZ8AtpyDK7U70RlDA3kcijbYmrhrNHIfcCcTklqjkOUDP6KWr5_KsMGnyehtBX9__QK3B9vsLVLCCxwf7A",
+      "currentRank": 26,
+      "score": 3.65,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=pics.karaage.sokutaiho",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #91 升至 #26（↑65 名）",
+          "score": 2.1666666666666665
+        }
+      ],
+      "confidenceScore": 2.6,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 91,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 55,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 44,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 26,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:05.727Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 26,
+          "score": 2.6
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "1288758206",
+      "name": "The Phenomenon",
+      "developer": "Kokots LLC",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/93/c8/4793c8e8-7566-d779-51d8-ecedf7b871f4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "currentRank": 22,
+      "score": 3.80717,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/the-phenomenon/id1288758206?uo=4",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #22",
+          "score": 2
+        }
+      ],
+      "confidenceScore": 2.6,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 47,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 54,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 22,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:09.273Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 22,
+          "score": 2.6
+        }
+      ]
+    },
+    {
+      "market": "us",
+      "marketName": "美國",
+      "marketFlag": "🇺🇸",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.nexon.ma",
+      "name": "MapleStory : Idle RPG",
+      "developer": "NEXON Company",
+      "icon": "https://play-lh.googleusercontent.com/lJzKrVodZ9QBZDaIbO3-xGSgMvXgo87p3UjH9uNAU9XGlmSN0-GrRakPuekVSultgbyxsK8jALuWEObln2QE",
+      "currentRank": 38,
+      "score": 4.2379603,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.nexon.ma",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #89 升至 #38（↑51 名）",
+          "score": 1.7
+        }
+      ],
+      "confidenceScore": 2.55,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 89,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 55,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 48,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 42,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 41,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 41,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 38,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:00.547Z",
+      "markets": [
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 38,
+          "score": 2.55
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "games.tatsumaki.ragdollblade",
+      "name": "Ragdoll Blade",
+      "developer": "tatsumaki games",
+      "icon": "https://play-lh.googleusercontent.com/ULCwTpPEaYWxsY6MBKC9GjigZryy5C3dY0IXVbbR5rXQH2jcnFLCGV-Nk9CsuFlaWXIG",
+      "currentRank": 23,
+      "score": 4.6055045,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=games.tatsumaki.ragdollblade",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #75 升至 #23（↑52 名）",
+          "score": 1.7333333333333334
+        }
+      ],
+      "confidenceScore": 2.43,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 75,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 54,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 30,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 24,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 23,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:02.029Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 23,
+          "score": 2.43
+        }
+      ]
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.percent.aos.cooptd",
+      "name": "Coop TD: Together",
+      "developer": "Supermagic",
+      "icon": "https://play-lh.googleusercontent.com/yZyZYyDE0Gu7zDpa__H6Ly8zDnvj82nVvKmPKLoVpvPg8cb4VENp2Hr7WQsDuSn_RtVO",
+      "currentRank": 41,
+      "score": 4.3323784,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.percent.aos.cooptd",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #78 升至 #41（↑37 名）",
+          "score": 1.2333333333333334
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#78 → #41）",
+          "score": 1.2
+        }
+      ],
+      "confidenceScore": 2.43,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 78,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 59,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 53,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 50,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 47,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 43,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 41,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:13.175Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 41,
+          "score": 2.43
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1595603316",
+      "name": "部落冲突（Clash of Clans）",
+      "developer": "Shenzhen Tencent Tianyou Technology Ltd",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/1b/62/a21b6222-8140-368f-d422-2521fafb83dc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 30,
+      "score": 4.52266,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/%E9%83%A8%E8%90%BD%E5%86%B2%E7%AA%81-clash-of-clans/id1595603316?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #84 升至 #30（↑54 名）",
+          "score": 1.8
+        }
+      ],
+      "confidenceScore": 2.34,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 84,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 71,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 60,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 60,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 63,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 63,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 30,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:10.247Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 30,
+          "score": 2.34
+        }
+      ]
+    },
+    {
+      "market": "th",
+      "marketName": "泰國",
+      "marketFlag": "🇹🇭",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "funvent.tilepark",
+      "name": "Tile Park",
+      "developer": "Funvent Studios DMCC",
+      "icon": "https://play-lh.googleusercontent.com/_I5QnnQO2Qz4ZXMmzsME7xZBfsFlAJbPcoyiSkVjLBKHHxVa6zoBAoEdX_BWYs_XTPSFhHEtgGy8wbPV88ySX3I",
+      "currentRank": 39,
+      "score": 4.726275,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=funvent.tilepark",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #79 升至 #39（↑40 名）",
+          "score": 1.3333333333333333
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#95 → #39）",
+          "score": 1
+        }
+      ],
+      "confidenceScore": 2.33,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 79,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 95,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 61,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 57,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 47,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 40,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 39,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:15.047Z",
+      "markets": [
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 39,
+          "score": 2.33
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.k8games.namtatggl",
+      "name": "남 탓 디펜스",
+      "developer": "K8GAMES",
+      "icon": "https://play-lh.googleusercontent.com/YLIkKMp9KMuCZy7zATH7QXYCLlOrJN-o7kTr5liZ2RlNncYsPkJSBQmYSDUnP0Ph8ameVgDqsvuL3o7BaPRYAw",
+      "currentRank": 38,
+      "score": 4.44,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.k8games.namtatggl",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #96 升至 #38（↑58 名）",
+          "score": 1.9333333333333333
+        }
+      ],
+      "confidenceScore": 2.32,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 96,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 71,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 43,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 38,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:05.819Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 38,
+          "score": 2.32
+        }
+      ]
+    },
+    {
+      "market": "th",
+      "marketName": "泰國",
+      "marketFlag": "🇹🇭",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.screw.romantic",
+      "name": "Colorful Screw: Charm Quest",
+      "developer": "Ming technology private limlted",
+      "icon": "https://play-lh.googleusercontent.com/cdr7RfUDqj0fN9qOCm9vx5d6pO-ky81DRzv4VOX4RELjMwaRS7zzZcvUfhw613i4UhgxDKi51p1Tz4Qr9RLpNg",
+      "currentRank": 49,
+      "score": 4.8761907,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.screw.romantic",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #88 升至 #49（↑39 名）",
+          "score": 1.3
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#88 → #49）",
+          "score": 1
+        }
+      ],
+      "confidenceScore": 2.3,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 88,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 83,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 80,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 72,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 57,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 49,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:15.121Z",
+      "markets": [
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 49,
+          "score": 2.3
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1515877221",
+      "name": "ブルーアーカイブ",
+      "developer": "Yostar, Inc.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/60/5c/ca605c06-105f-69fc-14d5-fd8b653348b3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 49,
+      "score": 4.24083,
+      "category": "ゲーム",
+      "url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AB%E3%83%BC%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96/id1515877221?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #97 升至 #49（↑48 名）",
+          "score": 1.6
+        }
+      ],
+      "confidenceScore": 2.24,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 97,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 90,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 92,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 81,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 70,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 49,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:05.068Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 49,
+          "score": 2.24
+        }
+      ]
+    },
+    {
+      "market": "th",
+      "marketName": "泰國",
+      "marketFlag": "🇹🇭",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.papegames.lysk.en",
+      "name": "Love and Deepspace",
+      "developer": "InFold Pte. Ltd.",
+      "icon": "https://play-lh.googleusercontent.com/XX9ZhMxENdDRuuukBcFhuD2aopi5_-ncHLM5aYH20SYl5WINEvQsy1N9JAMWc4ubwQ",
+      "currentRank": 24,
+      "score": 4.5813494,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.papegames.lysk.en",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #91 升至 #24（↑67 名）",
+          "score": 2.2333333333333334
+        }
+      ],
+      "confidenceScore": 2.23,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 91,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 32,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 28,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 28,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 25,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 25,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 24,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:16.579Z",
+      "markets": [
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 24,
+          "score": 2.23
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.nhnent.pokerclassic",
+      "name": "한게임포커 클래식 : 7포커 홀덤 섯다 훌라 슬롯",
+      "developer": "NHN Corp.",
+      "icon": "https://play-lh.googleusercontent.com/Hv-D0Heegr2EW_eyGcfNv-HzI_WRrjxMqnN575pY17XaRfXA4wjmAtTwWsO_ON6WqVtTP0ajH2bKKRDx6CNXhQ",
+      "currentRank": 9,
+      "score": 4.4864335,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.nhnent.pokerclassic",
+      "triggers": [
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#27 → #9）",
+          "score": 1.2
+        }
+      ],
+      "confidenceScore": 2.16,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 27,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 15,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 13,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 12,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 11,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 10,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 9,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:07.317Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 9,
+          "score": 2.16
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "841140063",
+      "name": "炉石传说",
+      "developer": "Blizzard Entertainment, Inc.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/14/8a/15148a28-eec6-f48c-cf2a-6c199b6c333d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 48,
+      "score": 3.95963,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/%E7%82%89%E7%9F%B3%E4%BC%A0%E8%AF%B4/id841140063?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #97 升至 #48（↑49 名）",
+          "score": 1.6333333333333333
+        }
+      ],
+      "confidenceScore": 2.12,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 97,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 48,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:10.359Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 48,
+          "score": 2.12
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6746328263",
+      "name": "Castle Busters",
+      "developer": "Voodoo",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/42/07/5442078c-b4e8-6b14-12de-64458973884d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 33,
+      "score": 4.38663,
+      "category": "ゲーム",
+      "url": "https://apps.apple.com/jp/app/castle-busters/id6746328263?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #78 升至 #33（↑45 名）",
+          "score": 1.5
+        }
+      ],
+      "confidenceScore": 2.1,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 78,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 47,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 44,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 34,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 30,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 38,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 33,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:03.103Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 33,
+          "score": 2.1
+        }
+      ]
+    },
+    {
+      "market": "vn",
+      "marketName": "越南",
+      "marketFlag": "🇻🇳",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6759152358",
+      "name": "GardenScapes Khu vườn huyền bí",
+      "developer": "VTC GAME",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/2d/5a/db2d5a04-1908-2ba4-087f-686d8d638b85/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 26,
+      "score": 4.51429,
+      "category": "Games",
+      "url": "https://apps.apple.com/vn/app/gardenscapes-khu-v%C6%B0%E1%BB%9Dn-huy%E1%BB%81n-b%C3%AD/id6759152358?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #89 升至 #26（↑63 名）",
+          "score": 2.1
+        }
+      ],
+      "confidenceScore": 2.1,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 89,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 99,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 21,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 26,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:18.979Z",
+      "markets": [
+        {
+          "code": "vn",
+          "name": "越南",
+          "flag": "🇻🇳",
+          "rank": 26,
+          "score": 2.1
+        }
+      ]
+    },
+    {
+      "market": "us",
+      "marketName": "美國",
+      "marketFlag": "🇺🇸",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.smilegate.chaoszero.stove.google",
+      "name": "Chaos Zero Nightmare",
+      "developer": "Smilegate, Inc.",
+      "icon": "https://play-lh.googleusercontent.com/RJq-yPAQe9iPVqQX28JcmyBTyAYVKToIlPla4cOPff37UIJ6CFsxu7yUtf0G6qFtB3brgX6VTe0Njzrs4IrOOhw",
+      "currentRank": 43,
+      "score": 4.48363,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.smilegate.chaoszero.stove.google",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #84 升至 #43（↑41 名）",
+          "score": 1.3666666666666667
+        }
+      ],
+      "confidenceScore": 2.05,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 84,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 65,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 57,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 54,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 49,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 50,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 43,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:00.608Z",
+      "markets": [
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 43,
+          "score": 2.05
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6758493031",
+      "name": "楚新钓",
+      "developer": "多量工作室",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/31/e4/de31e40a-9561-d700-d15b-0665bfc3e96e/AppIcon-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 43,
+      "score": 4.73303,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/%E6%A5%9A%E6%96%B0%E9%92%93/id6758493031?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #90 升至 #43（↑47 名）",
+          "score": 1.5666666666666667
+        }
+      ],
+      "confidenceScore": 2.04,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 90,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 92,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 75,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 69,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 52,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 43,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:09.474Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 43,
+          "score": 2.04
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.qookkagames.xczyw.gp.jp",
+      "name": "信長の野望 真戦",
+      "developer": "Qookka Games",
+      "icon": "https://play-lh.googleusercontent.com/3XmTeAwhy-k2u_bN2kvYHXzzTRcDsBIRR0EZOBzf-csvFVR7M7cKo_GNToLfTgeSsdYEUcnmWtrQhBigLSddxNg",
+      "currentRank": 27,
+      "score": 4.144105,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.qookkagames.xczyw.gp.jp",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #70 升至 #27（↑43 名）",
+          "score": 1.4333333333333333
+        }
+      ],
+      "confidenceScore": 2.01,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 70,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 35,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 33,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 29,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 30,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 28,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 27,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:03.894Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 27,
+          "score": 2.01
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.epidgames.trickcalrevive",
+      "name": "트릭컬 리바이브",
+      "developer": "EPIDGames",
+      "icon": "https://play-lh.googleusercontent.com/OCiuBv70Dnuw9wcGet3EtTUF2nEkS1vhYYkvOahe9-MmKg6EhxGkf-9ZVxnWIJXflQSmfOIjTcaSbwJSJyuzHA",
+      "currentRank": 28,
+      "score": 4.818371,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.epidgames.trickcalrevive",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #78 升至 #28（↑50 名）",
+          "score": 1.6666666666666667
+        }
+      ],
+      "confidenceScore": 2,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 78,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 46,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 29,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 30,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 29,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 30,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 28,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:07.555Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 28,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "market": "vn",
+      "marketName": "越南",
+      "marketFlag": "🇻🇳",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "6476137851",
+      "name": "Zenless Zone Zero-Gamota",
+      "developer": "GAMIO STUDIO COMPANY LIMITED",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/e3/88/abe3884b-2e5d-0574-cd03-4e0bb1e3ab33/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 27,
+      "score": 3.94391,
+      "category": "Games",
+      "url": "https://apps.apple.com/vn/app/zenless-zone-zero-gamota/id6476137851?uo=4",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #27",
+          "score": 2
+        }
+      ],
+      "confidenceScore": 2,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 27,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:20.698Z",
+      "markets": [
+        {
+          "code": "vn",
+          "name": "越南",
+          "flag": "🇻🇳",
+          "rank": 27,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "market": "ph",
+      "marketName": "菲律賓",
+      "marketFlag": "🇵🇭",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.media720.games2020",
+      "name": "Offline Games No WiFi internet",
+      "developer": "Fun Offline Games",
+      "icon": "https://play-lh.googleusercontent.com/V9r9XbUk5njQHiag_eBmx-MuADSz2Bp4gReReTR_zyj5BFfYS-wTF2UzgpAhLD9s7Q",
+      "currentRank": 34,
+      "score": 4.4991455,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.media720.games2020",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #94 升至 #34（↑60 名）",
+          "score": 2
+        }
+      ],
+      "confidenceScore": 2,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 94,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 98,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 99,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 74,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 52,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 47,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 34,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:21.473Z",
+      "markets": [
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 34,
+          "score": 2
+        },
+        {
+          "code": "vn",
+          "name": "越南",
+          "flag": "🇻🇳",
+          "rank": 42,
+          "score": 1.8
+        }
+      ]
+    },
+    {
+      "market": "vn",
+      "marketName": "越南",
+      "marketFlag": "🇻🇳",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.BoxedGame.TankDrift",
+      "name": "Tank Drift",
+      "developer": "Boxed Game",
+      "icon": "https://play-lh.googleusercontent.com/J-hX7vykkk_hHqg33J_so8oioJbo4U7w25QlWz66X87UUhiT1MJLuxB0qchcVgisVRk",
+      "currentRank": 37,
+      "score": 4.067039,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.BoxedGame.TankDrift",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #96 升至 #37（↑59 名）",
+          "score": 1.9666666666666666
+        }
+      ],
+      "confidenceScore": 1.97,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 96,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 43,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 30,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 29,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 32,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 37,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:18.276Z",
+      "markets": [
+        {
+          "code": "vn",
+          "name": "越南",
+          "flag": "🇻🇳",
+          "rank": 37,
+          "score": 1.97
+        }
+      ]
+    },
+    {
+      "market": "ph",
+      "marketName": "菲律賓",
+      "marketFlag": "🇵🇭",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.moskgdyasa.poskaread",
+      "name": "Elite Level Slots 777",
+      "developer": "PLATINUM PULSE NETWORK LTD",
+      "icon": "https://play-lh.googleusercontent.com/_88x0htnz6vz0lbXLd1w7buARo_DYx7HlTL0ohb15eIaTl1X9XFQpRr4p2_bNwDR_11qeWgs0ptOX56SAV8k",
+      "currentRank": 37,
+      "score": 4.3333335,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.moskgdyasa.poskaread",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #96 升至 #37（↑59 名）",
+          "score": 1.9666666666666666
+        }
+      ],
+      "confidenceScore": 1.97,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 96,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 54,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 37,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:21.486Z",
+      "markets": [
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 37,
+          "score": 1.97
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6475002539",
+      "name": "再玩亿关",
+      "developer": "无锡地鼠洞网络科技有限公司",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/c4/94/acc494db-3df3-1b82-1d36-f51aa183f977/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 8,
+      "score": 4.8186,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/%E5%86%8D%E7%8E%A9%E4%BA%BF%E5%85%B3/id6475002539?uo=4",
+      "triggers": [
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#30 → #8）",
+          "score": 1
+        }
+      ],
+      "confidenceScore": 1.95,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 24,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 30,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 28,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 22,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 12,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 11,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 8,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:09.162Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 8,
+          "score": 1.95
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "791532221",
+      "name": "开心消消乐",
+      "developer": "乐元素",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/5a/dc/c85adc52-826c-b44a-c7bd-ec2725a0bc04/AppIcon-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 8,
+      "score": 4.61503,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/%E5%BC%80%E5%BF%83%E6%B6%88%E6%B6%88%E4%B9%90/id791532221?uo=4",
+      "triggers": [
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#27 → #8）",
+          "score": 1
+        }
+      ],
+      "confidenceScore": 1.95,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 17,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 27,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 16,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 12,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 11,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 9,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 8,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:10.003Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 8,
+          "score": 1.95
+        }
+      ]
+    },
+    {
+      "market": "ph",
+      "marketName": "菲律賓",
+      "marketFlag": "🇵🇭",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6754098532",
+      "name": "RUSH: Xtreme",
+      "developer": "SayGames LTD",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/e5/8e/b6e58e21-629a-e974-109b-f6312904768e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 37,
+      "score": 4.64211,
+      "category": "Games",
+      "url": "https://apps.apple.com/ph/app/rush-xtreme/id6754098532?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #95 升至 #37（↑58 名）",
+          "score": 1.9333333333333333
+        }
+      ],
+      "confidenceScore": 1.93,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 95,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 85,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 68,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 37,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:22.151Z",
+      "markets": [
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 37,
+          "score": 1.93
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 11,
+          "score": 1.92
+        }
+      ]
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.brain.logic.joygame",
+      "name": "Brain Puzzle 2: Logic Twist",
+      "developer": "JoyGame Studio",
+      "icon": "https://play-lh.googleusercontent.com/q19v_2ZYEOdWOt6ABAVCl10zHrft5qkChjAwxtByGKxJxE3gNULQGf3BwsCYVJk4Jbhf",
+      "currentRank": 40,
+      "score": 4.6039605,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.brain.logic.joygame",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #97 升至 #40（↑57 名）",
+          "score": 1.9
+        }
+      ],
+      "confidenceScore": 1.9,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 97,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 92,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 47,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 32,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 29,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 34,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 40,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:11.415Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 40,
+          "score": 1.9
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "puzzle.snakes.puzzle.slithereat.gaming",
+      "name": "Snake Puzzle: Slither to Eat",
+      "developer": "Brave HK Limited",
+      "icon": "https://play-lh.googleusercontent.com/BPmtnHqdOT3BPoya3WYneYUzcDOkYM0wyfSh-197KPQM3l-mnZvDDK-cnCD0UY21tSw",
+      "currentRank": 47,
+      "score": 3.5490196,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=puzzle.snakes.puzzle.slithereat.gaming",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #84 升至 #47（↑37 名）",
+          "score": 1.2333333333333334
+        }
+      ],
+      "confidenceScore": 1.73,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 84,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 84,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 91,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 76,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 73,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 52,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 47,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:02.214Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 47,
+          "score": 1.73
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.tree.hybrid.catslife",
+      "name": "Cat's Life : Cute Simulation",
+      "developer": "TREEPLLA",
+      "icon": "https://play-lh.googleusercontent.com/SA4FPx0n4bsku3kvxXgtMuv6ckZ8KCw_yR7oFV5rwRDJVTS80IrElK2LAGq5eegmDg",
+      "currentRank": 43,
+      "score": 4.3318453,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.tree.hybrid.catslife",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #86 升至 #43（↑43 名）",
+          "score": 1.4333333333333333
+        }
+      ],
+      "confidenceScore": 1.72,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 86,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 67,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 56,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 57,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 43,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:05.855Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 43,
+          "score": 1.72
+        }
+      ]
+    },
+    {
+      "market": "us",
+      "marketName": "美國",
+      "marketFlag": "🇺🇸",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1480516829",
+      "name": "Free Fire MAX",
+      "developer": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/7a/45/067a4562-101f-1fd2-29d3-838627a5f582/AppIcon-1774970234-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 42,
+      "score": 4.02714,
+      "category": "Games",
+      "url": "https://apps.apple.com/us/app/free-fire-max/id1480516829?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #76 升至 #42（↑34 名）",
+          "score": 1.1333333333333333
+        }
+      ],
+      "confidenceScore": 1.7,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 76,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 58,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 44,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 35,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 44,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 58,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 42,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:01.455Z",
+      "markets": [
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 42,
+          "score": 1.7
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6745691636",
+      "name": "吃碰杠连连",
+      "developer": "Guangzhou Duoying Technology Co.,Ltd",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/c9/e5/e2c9e5b6-2ff2-b1ac-de3c-3ed3d9d86782/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+      "currentRank": 48,
+      "score": 4.52291,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/%E5%90%83%E7%A2%B0%E6%9D%A0%E8%BF%9E%E8%BF%9E/id6745691636?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #86 升至 #48（↑38 名）",
+          "score": 1.2666666666666666
+        }
+      ],
+      "confidenceScore": 1.65,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 86,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 70,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 56,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 43,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 35,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 48,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:09.516Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 48,
+          "score": 1.65
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1520354659",
+      "name": "오딘: 발할라 라이징",
+      "developer": "Kakao Games Corp.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/4b/ba/db4bbadf-bea7-849a-2b8e-8c8aabd034a6/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+      "currentRank": 19,
+      "score": 4.45888,
+      "category": "게임",
+      "url": "https://apps.apple.com/kr/app/%EC%98%A4%EB%94%98-%EB%B0%9C%ED%95%A0%EB%9D%BC-%EB%9D%BC%EC%9D%B4%EC%A7%95/id1520354659?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #53 升至 #19（↑34 名）",
+          "score": 1.1333333333333333
+        }
+      ],
+      "confidenceScore": 1.63,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 53,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 27,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 40,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 56,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 58,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 65,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 19,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:08.321Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 19,
+          "score": 1.63
+        }
+      ]
+    },
+    {
+      "market": "us",
+      "marketName": "美國",
+      "marketFlag": "🇺🇸",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.rush.xtreme.sports",
+      "name": "RUSH: Xtreme",
+      "developer": "SayGames Ltd",
+      "icon": "https://play-lh.googleusercontent.com/bBFvBjosQOZF9vM2l5LPyDyoIbTUta1ZdqeCzq0jxyLWbFWoEYKy-WUjuG6mrZbZMw",
+      "currentRank": 26,
+      "score": 4.532665,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.rush.xtreme.sports",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #58 升至 #26（↑32 名）",
+          "score": 1.0666666666666667
+        }
+      ],
+      "confidenceScore": 1.6,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 58,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 27,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 27,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 26,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:20:55.251Z",
+      "markets": [
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 26,
+          "score": 1.6
+        }
+      ]
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.joycity.im",
+      "name": "임진왜란: 조선의 반격",
+      "developer": "JOYCITY Corp.",
+      "icon": "https://play-lh.googleusercontent.com/lCe1gmPZFYWVAC9SART7Bm4AFDPNRmxteII5Qa417kZVxBgpKdbXbgDaGLLpRevIPyPcQj7W-dLvDdBMmm_ceA",
+      "currentRank": 39,
+      "score": 3.9597316,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.joycity.im",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #79 升至 #39（↑40 名）",
+          "score": 1.3333333333333333
+        }
+      ],
+      "confidenceScore": 1.6,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 79,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 59,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 50,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 46,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 40,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 37,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 39,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:07.653Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 39,
+          "score": 1.6
+        }
+      ]
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.papegames.lysk.tw",
+      "name": "戀與深空",
+      "developer": "InFold Pte. Ltd.",
+      "icon": "https://play-lh.googleusercontent.com/2cqFDGrjdmP425_o2a98siF7iUYkXMYhwR1ca94a_0v9Iw_hpe8t26DzaFICvYgecQc",
+      "currentRank": 7,
+      "score": 4.404878,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.papegames.lysk.tw",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #39 升至 #7（↑32 名）",
+          "score": 1.0666666666666667
+        }
+      ],
+      "confidenceScore": 1.6,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 39,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 7,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 8,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 8,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 8,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 8,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 7,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:12.971Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 7,
+          "score": 1.6
+        }
+      ]
+    },
+    {
+      "market": "th",
+      "marketName": "泰國",
+      "marketFlag": "🇹🇭",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.kurogame.wutheringwaves.global",
+      "name": "Wuthering Waves - 2nd Anniv.",
+      "developer": "HK KURO GAMES LIMITED",
+      "icon": "https://play-lh.googleusercontent.com/QiWsk8He01wtrphP1rkHz-x692TGxJkyC2bQOfQs44x4MePNKjQVW0rIt462GSbIDDFXKzg7YDBVBbU6UsfMGw",
+      "currentRank": 36,
+      "score": 4.707685,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.kurogame.wutheringwaves.global",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #84 升至 #36（↑48 名）",
+          "score": 1.6
+        }
+      ],
+      "confidenceScore": 1.6,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 84,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 48,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 40,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 37,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 35,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 36,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 36,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:16.692Z",
+      "markets": [
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 36,
+          "score": 1.6
+        }
+      ]
+    },
+    {
+      "market": "ph",
+      "marketName": "菲律賓",
+      "marketFlag": "🇵🇭",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6443467666",
+      "name": "Love and Deepspace",
+      "developer": "INFOLD PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/2c/05/ab2c0519-4b4e-02f2-d790-574e98b7907e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 45,
+      "score": 4.12783,
+      "category": "Games",
+      "url": "https://apps.apple.com/ph/app/love-and-deepspace/id6443467666?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #93 升至 #45（↑48 名）",
+          "score": 1.6
+        }
+      ],
+      "confidenceScore": 1.6,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 93,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 38,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 27,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 45,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:22.267Z",
+      "markets": [
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 45,
+          "score": 1.6
+        }
+      ]
+    },
+    {
+      "market": "th",
+      "marketName": "泰國",
+      "marketFlag": "🇹🇭",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1593130084",
+      "name": "Torchlight: Infinite",
+      "developer": "XD Entertainment Pte Ltd",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/fa/bf/67fabfd5-378c-823d-7e3c-fd4b114659f9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 44,
+      "score": 4.78341,
+      "category": "Games",
+      "url": "https://apps.apple.com/th/app/torchlight-infinite/id1593130084?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #91 升至 #44（↑47 名）",
+          "score": 1.5666666666666667
+        }
+      ],
+      "confidenceScore": 1.57,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 91,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 44,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:17.540Z",
+      "markets": [
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 44,
+          "score": 1.57
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "6503432459",
+      "name": "三国：冰河时代",
+      "developer": "EVISTA PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/65/d7/a865d7e0-9a69-c1d2-8b0e-cb9fad7d46f6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "currentRank": 14,
+      "score": 4.53964,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/%E4%B8%89%E5%9B%BD-%E5%86%B0%E6%B2%B3%E6%97%B6%E4%BB%A3/id6503432459?uo=4",
+      "triggers": [
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#31 → #14）",
+          "score": 1
+        }
+      ],
+      "confidenceScore": 1.56,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 24,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 31,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 28,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 22,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 17,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 15,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 14,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:10.083Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 14,
+          "score": 1.56
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "6752632961",
+      "name": "时尚百货城",
+      "developer": "深圳市爱的番茄科技有限公司",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/bf/ef/23bfef91-d134-3ff3-1f49-b3e0bb75f0a7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "currentRank": 20,
+      "score": 4.62817,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/%E6%97%B6%E5%B0%9A%E7%99%BE%E8%B4%A7%E5%9F%8E/id6752632961?uo=4",
+      "triggers": [
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#39 → #20）",
+          "score": 1
+        }
+      ],
+      "confidenceScore": 1.56,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 26,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 39,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 33,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 30,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 26,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 21,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 20,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:10.147Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 20,
+          "score": 1.56
+        }
+      ]
+    },
+    {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1376515087",
+      "name": "Age of Origins---ゾンビ・末日戦記",
+      "developer": "Hong Kong Ke Mo software Co., Limited",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/65/e9/b765e987-3de3-6e21-6306-fed6969ad9c8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 47,
+      "score": 3.73839,
+      "category": "ゲーム",
+      "url": "https://apps.apple.com/jp/app/age-of-origins-%E3%82%BE%E3%83%B3%E3%83%93-%E6%9C%AB%E6%97%A5%E6%88%A6%E8%A8%98/id1376515087?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #80 升至 #47（↑33 名）",
+          "score": 1.1
+        }
+      ],
+      "confidenceScore": 1.54,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 80,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 88,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 55,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 56,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 47,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 46,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 47,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:05.052Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 47,
+          "score": 1.54
+        }
+      ]
+    },
+    {
+      "market": "ph",
+      "marketName": "菲律賓",
+      "marketFlag": "🇵🇭",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.ea.gp.pvzn3xt",
+      "name": "Plants vs. Zombies™ 3: Evolved",
+      "developer": "ELECTRONIC ARTS",
+      "icon": "https://play-lh.googleusercontent.com/P7NhjPZN80VynHosyLJYy7sUnFVY8FCmQQ6-opNhOE6eKdUyp2OlbmkDFFPK-Q4L87hMe5CWlO_xRfwH0reAwg",
+      "currentRank": 49,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.ea.gp.pvzn3xt",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #95 升至 #49（↑46 名）",
+          "score": 1.5333333333333334
+        }
+      ],
+      "confidenceScore": 1.53,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 95,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 63,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 36,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 35,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 49,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:21.563Z",
+      "markets": [
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 49,
+          "score": 1.53
+        }
+      ]
+    },
+    {
+      "market": "cn",
+      "marketName": "中國",
+      "marketFlag": "🇨🇳",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1235504705",
+      "name": "QQ飞车",
+      "developer": "Shenzhen Tencent Tianyou Technology Ltd",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/eb/51/04eb518b-442a-571e-925c-0d24f8b39b1e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 33,
+      "score": 4.12391,
+      "category": "游戏",
+      "url": "https://apps.apple.com/cn/app/qq%E9%A3%9E%E8%BD%A6/id1235504705?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #68 升至 #33（↑35 名）",
+          "score": 1.1666666666666667
+        }
+      ],
+      "confidenceScore": 1.52,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 68,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 24,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 24,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 23,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 25,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 26,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 33,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:10.271Z",
+      "markets": [
+        {
+          "code": "cn",
+          "name": "中國",
+          "flag": "🇨🇳",
+          "rank": 33,
+          "score": 1.52
+        }
+      ]
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "tw.com.iwplay.nte",
+      "name": "異環",
+      "developer": "IWPLAY WORLD",
+      "icon": "https://play-lh.googleusercontent.com/Sslrcaebh6rQ257vPZrXmt1vSdmUOAtIExZginE0T4iuLlDu-ZuS4kTtDHpeHZIxdqKHuuWMu9lzhR7BmHW4",
+      "currentRank": 12,
+      "score": 4.1070337,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=tw.com.iwplay.nte",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #50 升至 #12（↑38 名）",
+          "score": 1.2666666666666666
+        }
+      ],
+      "confidenceScore": 1.52,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 50,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 29,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 23,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 18,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 13,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 13,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 12,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:13.003Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 12,
+          "score": 1.52
+        }
+      ]
+    },
+    {
+      "market": "us",
+      "marketName": "美國",
+      "marketFlag": "🇺🇸",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.supercell.clashofclans",
+      "name": "Clash of Clans",
+      "developer": "Supercell",
+      "icon": "https://play-lh.googleusercontent.com/sFmWfYbYp_2ea7VRMTnwd3gjIBrPGXHj_d_ab1_k1q1p2OMk4riGMF1vqxdhONOtTYOt_BVpk7a4AYcKU68LNGQ",
+      "currentRank": 22,
+      "score": 4.494567,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.supercell.clashofclans",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #52 升至 #22（↑30 名）",
+          "score": 1
+        }
+      ],
+      "confidenceScore": 1.5,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": 52,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": 51,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": 34,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 28,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 24,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 25,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 22,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:20:59.238Z",
+      "markets": [
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 22,
+          "score": 1.5
+        }
+      ]
+    },
+    {
+      "market": "vn",
+      "marketName": "越南",
+      "marketFlag": "🇻🇳",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.miaworld.life.avatar.doll.dressup.design.makeover",
+      "name": "Mia World - Makeover Life",
+      "developer": "31 Dress up Games",
+      "icon": "https://play-lh.googleusercontent.com/4JM12EIz6jd-5rfVMg6AzD_AyyFvgAQUy-4L2D6ylp9CKeQf1HRftlKlol8voI4RF2A",
+      "currentRank": 43,
+      "score": 3.6634147,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.miaworld.life.avatar.doll.dressup.design.makeover",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #88 升至 #43（↑45 名）",
+          "score": 1.5
+        }
+      ],
+      "confidenceScore": 1.5,
+      "rankHistory": [
+        {
+          "date": "2026-04-29",
+          "rank": null,
+          "hasSnapshot": false
+        },
+        {
+          "date": "2026-04-30",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-01",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-02",
+          "rank": null,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-03",
+          "rank": 88,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-04",
+          "rank": 66,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-05",
+          "rank": 55,
+          "hasSnapshot": true
+        },
+        {
+          "date": "2026-05-06",
+          "rank": 43,
+          "hasSnapshot": true
+        }
+      ],
+      "detectedAt": "2026-05-06T11:21:18.323Z",
+      "markets": [
+        {
+          "code": "vn",
+          "name": "越南",
+          "flag": "🇻🇳",
+          "rank": 43,
+          "score": 1.5
+        }
+      ]
+    }
+  ]
+}

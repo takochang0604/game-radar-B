@@ -1,0 +1,42 @@
+{
+  "appId": "com.bandainamcoent.kingdomhadou",
+  "name": "キングダム 覇道",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "The latest \"Kingdom\" app begins!\nJoin your allies and journey to the uncharted battlefields of \"Kingdom.\"\n\n[Game Features]\n■ The world of Kingdom depicted on an overwhelming scale\nAdvance with your allies across the vast land of Kingdom.\nFight alongside your allies on a variety of battlefields, taking advantage of terrain advantages as the battle situation changes in real time.\n\n■ Large-scale army battles of up to 30 players\nAttack and defend using the gigantic \"Siege Tower\" weapon,\nSeize an opp",
+    "released": "Sep 28, 2025",
+    "updated": 1778209490000,
+    "version": "1.02.08",
+    "installs": "100,000+",
+    "score": 4.1,
+    "ratings": 3885,
+    "reviews": 786,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerWebsite": "https://www.bandainamcoent.co.jp/",
+    "genre": "Simulation",
+    "recentChanges": "◆不具合の修正"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:45:19.509Z"
+}

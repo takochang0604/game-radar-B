@@ -1,0 +1,74 @@
+{
+  "appId": "com.linecorp.LGGRTHN",
+  "name": "LINE Let's Get Rich",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Embark on a Global Adventure with Just Your Fingertips!\nRoll the dice and set off on an epic journey across the world, where every move can change your destiny. Will you outsmart your rivals and emerge as the last one standing, crowned the ultimate millionaire?\n\nChallenge friends and claim victory beyond the board!\nIn LINE Let’s Get Rich, it’s not just about luck—strategic thinking and sharp wit are the keys to victory. Invite your friends and family, turn the tables, and show them who truly rul",
+    "released": "Jul 7, 2014",
+    "updated": 1771563990000,
+    "version": "5.7.0",
+    "installs": "50,000,000+",
+    "score": 3.5425296,
+    "ratings": 3868507,
+    "reviews": 864466,
+    "developer": "LINE (LY Corporation)",
+    "developerWebsite": "https://lg-cs.line.me/fm/public/inquiry/index",
+    "genre": "Casual",
+    "recentChanges": "- New Map “Shooting Star&quot;<br>- New Weather Skill<br>- New Weather Pass<br>- New Dark Smithy System<br>- New Characters &amp; New Pendants<br>- Bug Fixes &amp; System Performance Optimizations"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 78,
+      "2": 3,
+      "3": 2,
+      "4": 1,
+      "5": 16
+    },
+    "positiveRatio": 17,
+    "negativeRatio": 81,
+    "eventMentions": [
+      {
+        "text": "garbage game, i used to spend a lot money before but my character and pendant can't compete with new",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "pay2win, no chances for new player.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "abis update selalu reconect padahal signal saya bagus",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i spent lots of diamonds on the card event but i never got the new card .",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      },
+      {
+        "text": "p2w game, not newbie friendly and too much skill card and pendant that dont make any sense (lose in ",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:39:57.405Z"
+}

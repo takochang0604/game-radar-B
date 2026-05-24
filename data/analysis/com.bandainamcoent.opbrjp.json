@@ -1,0 +1,74 @@
+{
+  "appId": "com.bandainamcoent.opbrjp",
+  "name": "ONE PIECE バウンティラッシュ - アクションゲーム",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "ONE PIECE's first full-fledged action game with a team of up to 4 people vs. 4 people\nPlay online as a team! Cooperative multiplayer! Defeat the enemy team and steal the treasure to win the battle!\n\nIf you're a pirate, scramble for it――\n\n- 1 berry in your hand will be the PIECE that decides victory\nONE PIECE's first team battle action with a maximum of 4 players vs. 4 players.\nTeam strategy is the key to victory, not just the power of one person.\nA berry capture battle game that progresses in pe",
+    "released": "Mar 29, 2018",
+    "updated": 1776402802000,
+    "version": "91100",
+    "installs": "1,000,000+",
+    "score": 4.2,
+    "ratings": 117502,
+    "reviews": 45761,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerWebsite": "https://www.bandainamcoent.co.jp/",
+    "genre": "Action",
+    "recentChanges": "■Ver91100の更新内容<br>・一部UIの調整や改善を行いました。<br>・一部不具合の修正を行いました。"
+  },
+  "reviewAnalysis": {
+    "total": 161,
+    "starCounts": {
+      "1": 30,
+      "2": 6,
+      "3": 5,
+      "4": 16,
+      "5": 104
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 22,
+    "eventMentions": [
+      {
+        "text": "the event is not working and i contacted the technical department but to no avail, for two consecuti",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "hi bandai, we have an objection to your new decision to unlink the id. please do not unlink the id b",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "after the new announced update that talks about deleting the id/password link, everything is over fo",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "good game but the new roger is too strong and you need to spend so much money to get him and if u go",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "素晴らしいゲームですが、新しい決定はそれをばかげたものにしました。",
+        "keywords": [
+          "新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:03:59.036Z"
+}

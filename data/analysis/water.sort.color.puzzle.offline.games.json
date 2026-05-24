@@ -1,0 +1,85 @@
+{
+  "appId": "water.sort.color.puzzle.offline.games",
+  "name": "Water Sort! Color Sort Puzzle",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Water Sort! Color Logic Puzzle – Addictive Water Sorting, Relaxing Color Logic & Brain Fun.🌈🌱\nWelcome to the calming world of water, sort, and color logic. Water Sort! Color Logic Puzzle is an addictive water sort puzzle designed to help you relax, focus, and train your brain through smooth and satisfying bottle-sorting gameplay. Every time you pour water and match the right color, you feel the perfect rhythm of logic and comfort. This is the kind of puzzle you can play anytime—during a break,",
+    "released": "Nov 8, 2024",
+    "updated": 1779458451000,
+    "version": "1.0.40",
+    "installs": "10,000,000+",
+    "score": 4.7,
+    "ratings": 278337,
+    "reviews": 262,
+    "developer": "Bobodoo Game",
+    "developerWebsite": "https://www.bobodoo.com/",
+    "genre": "Puzzle",
+    "recentChanges": "Fix some issues"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 19,
+      "2": 5,
+      "3": 5,
+      "4": 17,
+      "5": 154
+    },
+    "positiveRatio": 86,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "i downloaded the original water sort game before this update and really enjoyed it, so much that i p",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i used to love this game, it was so addicting!! but then i did the recent update today and it comple",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "just starting the game, but enjoying it so far! like that is more than just bottles to fill. updated",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "moronic, made till i don't know what level clicked an ad to get empty bottle.. than downloaded new g",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i like the new puzzles that give you some what of challenge.",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 86%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:56.543Z"
+}

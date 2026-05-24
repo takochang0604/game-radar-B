@@ -1,0 +1,81 @@
+{
+  "appId": "com.zigzagame.paranoize",
+  "name": "Paranoize",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Eleven years after a mysterious, colossal object fell into the mountains of Japan, destiny stirs once more. In a secluded dojo, a blind youth trains with his wooden sword, driven by a voice only he can hear.\n\nAn all-star cast brings the story to life in a fully voiced animated series.\n\nStep into the forefront of the comics and manga experience—\nThe Age of Cinematic Comics is here.\n\n*Use of headphones or earphones is recommended for optimal experience.\n\n◆Cast (Japanese Voice Actors)\n　Junya Enoki　",
+    "released": "Mar 25, 2026",
+    "updated": 1778830039000,
+    "version": "1.0.12",
+    "installs": "1,000,000+",
+    "score": 4.5,
+    "ratings": 15232,
+    "reviews": 449,
+    "developer": "ZigZaGame Inc.",
+    "developerWebsite": "https://www.zigzagame.com",
+    "genre": "Role Playing",
+    "recentChanges": "- Yakuza Royale: voice lines, push notifications for bases under attack, smoother map and squad interactions<br>- Guild updates: scrollable bulletin and expanded power rankings<br>- Various UI polish, bug fixes, and stability improvements"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 36,
+      "2": 27,
+      "3": 25,
+      "4": 17,
+      "5": 95
+    },
+    "positiveRatio": 56,
+    "negativeRatio": 32,
+    "eventMentions": [
+      {
+        "text": "the game so far is really interesting considering that it's the first day of playing and i'm now in ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "its alright, not outstanding at all though. the story is the main selling point of the game, however",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i wish there were more things to do in this game. right now, 3 episodes are released once per month ",
+        "keywords": [
+          "event",
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "new to the game, story lines an interesting take on a game, adds a fresh way to play games. thorough",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "love the story, love the music, like the gameplay. unfortunately the gacha is hot garbage and the st",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:50:20.070Z"
+}

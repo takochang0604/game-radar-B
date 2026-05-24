@@ -1,0 +1,49 @@
+{
+  "appId": "1051206681",
+  "name": "Ngôi Sao Thời Trang",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Quyết định phê duyệt nội dung kịch bản trò chơi điện tử G1 trên mạng số: 213/QĐ-PTTH&TTĐT do Bộ Thông tin và Truyền thông cấp ngày 29/05/2025\nhttps://giayphep.abei.gov.vn/g1/128648\n\nNgôi Sao Thời Trang VNG 360mobi – Ngoisaothoitrang - Sáng tạo để trở thành stylist tài năng\n\nBạn đam mê thời trang? Hãy bước vào Ngôi Sao Thời Trang, nơi bạn có thể thỏa sức sáng tạo với hàng ngàn bộ trang phục độc đáo. Kết hợp quần áo, phụ kiện, kiểu tóc theo phong cách riêng và thể hiện gu thẩm mỹ của bạn. Không ch",
+    "released": "2016-02-18T09:47:22Z",
+    "updated": "2026-05-08T02:39:03Z",
+    "version": "11.1.0",
+    "score": 3.67485,
+    "reviews": 31696,
+    "developer": "VNG CORPORATION",
+    "developerUrl": "https://apps.apple.com/vn/developer/vng-corporation/id398453277?uo=4",
+    "genres": [
+      "Games"
+    ],
+    "releaseNotes": "Sửa lỗi và cập nhật tính năng"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 34,
+      "2": 3,
+      "3": 6,
+      "4": 2,
+      "5": 4
+    },
+    "positiveRatio": 12,
+    "negativeRatio": 76,
+    "eventMentions": [
+      {
+        "text": "sắp xếp event như đb\nsập mẹ đi",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:02:51.230Z"
+}

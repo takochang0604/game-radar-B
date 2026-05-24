@@ -1,0 +1,45 @@
+{
+  "appId": "6740910225",
+  "name": "Tricky Puzzle: Brain Quest",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "\"Tricky Puzzle\" - A Brain-Teasing Game of Finding Hidden Oddities! Now Available on iOS!\n\nDive into a world of creativity and surprises with this hilarious game where you'll spot the illogical elements in each scene. Enjoy the unique fun of discovery!\n\nGame Features:\n\nFantastical Scenes: Explore various imaginative settings, each level transports you to a brand-new world of wonders.\n\nSpot the Oddities: Test your observation and judgment to find cleverly hidden discrepancies - some might be deepl",
+    "released": "2025-03-14T07:00:00Z",
+    "updated": "2026-04-30T18:43:26Z",
+    "version": "1.0.27",
+    "score": 4.63945,
+    "reviews": 649,
+    "developer": "美玲 陆",
+    "developerUrl": "https://apps.apple.com/ph/developer/%E7%BE%8E%E7%8E%B2-%E9%99%86/id1632802680?uo=4",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Entertainment",
+      "Casual"
+    ],
+    "releaseNotes": "• Added new levels to enrich the gaming experience\n• Overall level experience enhanced for smoother gameplay"
+  },
+  "reviewAnalysis": {
+    "total": 8,
+    "starCounts": {
+      "1": 6,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 13,
+    "negativeRatio": 88,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:03:29.377Z"
+}

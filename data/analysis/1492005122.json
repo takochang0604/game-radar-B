@@ -1,0 +1,44 @@
+{
+  "appId": "1492005122",
+  "name": "Diablo Immortal",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "UPDATE - NEW CHARACTER CLASS\nUnleash the beast with a new character class! Play as a Druid, a legendary shapeshifting guardian, where you can wield elemental forces and transform into an all-powerful werebear or werewolf.\n\nSLAY YOUR WAY WITH ENDLESS CUSTOMIZATION\n\nChoose from 9 iconic classes and build your legend as a Barbarian, Blood Knight, Crusader, Demon Hunter, Druid, Monk, Necromancer, Tempest, or a Wizard.\n\nCustomize your hero’s appearance, abilities, and gear. Whether you favor up-close",
+    "released": "2022-07-07T07:00:00Z",
+    "updated": "2026-05-05T18:02:18Z",
+    "version": "4.3.3",
+    "score": 4.8,
+    "reviews": 20544,
+    "developer": "Blizzard Entertainment, Inc.",
+    "developerUrl": "https://apps.apple.com/ph/developer/blizzard-entertainment-inc/id306862900?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Role-Playing"
+    ],
+    "releaseNotes": "Minor Bug Fixes and Enhancements"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:38:31.961Z"
+}

@@ -1,0 +1,45 @@
+{
+  "appId": "1105855019",
+  "name": "Gardenscapes",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Welcome to Gardenscapes, the first game from the Playrix Scapes™ series! Some in-game elements (including randomized items) can be purchased for real money. Make match-3 combinations and bring coziness and beauty to every corner of your garden.\n\nSolve fun puzzles, restore and explore new areas of the garden, and meet new friends in every chapter of the exciting storyline. Austin the butler is ready to welcome you to a world of incredible adventures!\n\nGame Features:\n● Gameplay loved by millions o",
+    "released": "2016-08-25T04:13:46Z",
+    "updated": "2026-05-21T18:52:48Z",
+    "version": "9.6.5",
+    "score": 4.8,
+    "reviews": 193563,
+    "developer": "Playrix",
+    "developerUrl": "https://apps.apple.com/th/developer/playrix/id1162116447?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Puzzle",
+      "Casual"
+    ],
+    "releaseNotes": "NEW EVENTS\nCold Peak: Help Rachel find Austin and rescue him in the snowy mountains!\nThe Case of the Golden Statue: Investigate the burglary and help Rachel clear her name!\nMovie Collection: Collect movie-themed cards!\n\nSTORYLINE\nFind out who will become the new director of the Institute of Modern Butlers!\nA new Gardenscapes update is here!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:25.972Z"
+}

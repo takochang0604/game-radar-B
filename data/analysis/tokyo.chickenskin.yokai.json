@@ -1,0 +1,67 @@
+{
+  "appId": "tokyo.chickenskin.yokai",
+  "name": "My Monster Babe",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Cute… but a little scary.\nA romance simulation game with a beautiful monster girl.\n\nslit-mouthed woman, Sadako and monster return—this time as beautiful girls in a romance simulation game!\n\nThe gameplay is simple—just tap one of three choices.\nPick the right answer, and your sweet love story continues.\nChoose wrong… and it's an instant bad ending.\n\n・Fans of monster and pretty girls.\n・Anyone who wants a short and sweet romance game.\n・Those who like a little horror mixed with love.\n\nWin your monst",
+    "released": "Oct 13, 2025",
+    "updated": 1775645601000,
+    "version": "1.0.6",
+    "installs": "500,000+",
+    "score": 3.8019803,
+    "ratings": 1333,
+    "reviews": 123,
+    "developer": "CHICKEN SKIN LLC",
+    "developerWebsite": "https://app.chickenskin.tokyo/privacy/",
+    "genre": "Simulation",
+    "recentChanges": "This update adds a Login Bonus feature, a brand-new monster and improvements to the Collection feature!<br><br>■What’s New<br>・Added a new monster: Guardian Lion-Dogs<br>・Added a Login Bonus feature. Log in for 7 days to unlock the high-difficulty stage “The Beauty Demon”<br>・Added a Special Collection purchase option in the Collection screen, where you can meet monster babe in exclusive outfits"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 27,
+      "2": 3,
+      "3": 11,
+      "4": 17,
+      "5": 42
+    },
+    "positiveRatio": 59,
+    "negativeRatio": 30,
+    "eventMentions": [
+      {
+        "text": "i like it a lot, but i would love for more male options (apart from vampire, there are no other guys",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "bro where are the other updates",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "gameplay yang menarik dan pilihan yang cukup menegangkan,aku harap akan ada update cerita baru",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "its very fun, its a bit hard trying to not die to the monster girls, but its easy when you get the h",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:03:22.215Z"
+}

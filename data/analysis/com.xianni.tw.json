@@ -1,0 +1,41 @@
+{
+  "appId": "com.xianni.tw",
+  "name": "仙逆M-官方正版授權",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Following the rules is mortal, defying them is immortal! The officially licensed fantasy cultivation masterpiece **《仙逆M》** is officially launched!\n\n【Download to receive all heroes & 1000 draws】\n\nHere, there is no conventional ascension, only a path of defying fate! Adapted from the super popular anime 《仙逆》, it presents you with a realistic cultivation world where cruel laws, opportunities, and dangers coexist. From a mortal to a master of the heavens, experience the journey of a cultivator from ",
+    "released": "May 11, 2026",
+    "updated": 1776946077000,
+    "version": "1.0.7",
+    "installs": "10,000+",
+    "score": 4.6,
+    "ratings": 5610,
+    "reviews": 927,
+    "developer": "Amazing Cat Interactive Entertainment Technology",
+    "developerWebsite": "https://www.mcjdhjj.com",
+    "genre": "Card"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 12 天，評分 4.6",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:07:34.028Z"
+}

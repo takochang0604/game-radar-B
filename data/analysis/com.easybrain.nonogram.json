@@ -1,0 +1,73 @@
+{
+  "appId": "com.easybrain.nonogram",
+  "name": "Nonogram.com - Puzzle Games",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Nonogram.com is a captivating picture cross puzzle with a vast collection of griddlers. Challenge your mind with this easy-to-play logic puzzle from a top developer, and become a real Nonogram.com master! Join nonogram puzzle players all around the world, use logic to reveal pixel art pictures, and have fun with this picture game!\n\nNonogram.com highlights:\n· Classic nonogram puzzle gameplay meets a clean design and a set of features to make your picture cross game varied and exciting. Find your ",
+    "released": "Aug 2, 2019",
+    "updated": 1772556769000,
+    "version": "5.30.1",
+    "installs": "50,000,000+",
+    "score": 4.7,
+    "ratings": 883875,
+    "reviews": 3077,
+    "developer": "Easybrain",
+    "developerWebsite": "https://easybrain.com",
+    "genre": "Puzzle",
+    "recentChanges": "- Performance and stability improvements.<br> <br>We have carefully reviewed all your comments and have made the game even better. Please provide feedback as to why you love this game and what else you would like to see improved. Keep your mind active with Nonogram.com!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 64,
+      "2": 23,
+      "3": 25,
+      "4": 27,
+      "5": 61
+    },
+    "positiveRatio": 44,
+    "negativeRatio": 44,
+    "eventMentions": [
+      {
+        "text": "so addictive yet simple enough that i can play while doing something else. lots of events if you lik",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i have a disability and limited hand dexterity, therefore i often cannot press the square i want fro",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "truly the best nonogram game that's out there. no ads with google play pass is an added bonus to an ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i had this game on a previous device and in a few months got to level ~1200. love the game to bits. ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "keeps me entertained. i bought the app to remove the ads and now there are absolutely no ads. even w",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:06:03.693Z"
+}

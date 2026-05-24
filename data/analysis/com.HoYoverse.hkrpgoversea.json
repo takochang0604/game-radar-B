@@ -1,0 +1,75 @@
+{
+  "appId": "com.HoYoverse.hkrpgoversea",
+  "name": "Honkai: Star Rail",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Honkai: Star Rail is a HoYoverse space fantasy RPG.\nHop aboard the Astral Express and experience the galaxy's infinite wonders filled with adventure and thrills.\nPlayers will meet new companions across various worlds and maybe even run into some familiar faces. Overcome the struggles together caused by Stellaron and unravel the hidden truths behind it! May this journey lead us starward!\n\n□ Explore Distinct Worlds — Discover the boundless universe filled with wonder\n3, 2, 1, initiating warp! A sp",
+    "released": "Apr 6, 2023",
+    "updated": 1776312259000,
+    "version": "4.2.0",
+    "installs": "10,000,000+",
+    "score": 3.7,
+    "ratings": 511554,
+    "reviews": 13781,
+    "developer": "COGNOSPHERE PTE. LTD.",
+    "developerWebsite": "https://hsr.hoyoverse.com/",
+    "genre": "Adventure",
+    "recentChanges": "3rd Anniversary Version &quot;So Laughed the Masses&quot; is now available!<br>&quot;New Characters&quot; &quot;Silver Wolf LV.999 (Elation: Imaginary)&quot;, &quot;Evanescia (Elation: Physical)&quot;<br>&quot;Anniversary Rewards&quot; Check in cumulatively to claim Star Rail Special Pass ×20, get an additional Star Rail Special Pass ×10 from Anniversary Gifts, and log in to receive a &quot;Golden Companion Spirit,&quot; exchangeable for limited 5-star characters like &quot;Huohuo&quot; and &quot;Robin&quot;!<br>&quot;New Story&quot; Trailblaze Mission &quot;Planarcadia - So Laughed the Masses&quot;"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 59,
+      "2": 9,
+      "3": 10,
+      "4": 23,
+      "5": 99
+    },
+    "positiveRatio": 61,
+    "negativeRatio": 34,
+    "eventMentions": [
+      {
+        "text": "honestly, for me, one of the better gacha games that ive played. even if there is a constant new cha",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "amazing game, there are many content and event, character and story is great. just...maybe slow down",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      },
+      {
+        "text": "great game but i wish it was smaller in size, it's impossible to play this on phone with every updat",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "all over of the game is good but sometimes i have been experiencing an bug or time out, when i press",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "u could say people should give it a try... the game is awesome and all, the farming gets good and st",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:03.674Z"
+}

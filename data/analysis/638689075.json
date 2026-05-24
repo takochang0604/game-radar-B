@@ -1,0 +1,45 @@
+{
+  "appId": "638689075",
+  "name": "Township",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Welcome to Township, a thrilling city-building and farming game! Some in-game elements (including randomized items) can be purchased for real money. Build your dream town! Construct houses, factories, and community buildings, grow crops on your farm, and decorate your town just the way you like. Take part in limited-time events, compete in exciting regattas, and earn exclusive prizes! \n\nNeed a break from city planning? Jump into relaxing match-3 puzzles to earn rewards, speed up your progress, a",
+    "released": "2013-10-23T13:38:15Z",
+    "updated": "2026-05-14T11:56:51Z",
+    "version": "36.0.2",
+    "score": 4.8,
+    "reviews": 125943,
+    "developer": "Playrix",
+    "developerUrl": "https://apps.apple.com/th/developer/playrix/id1162116447?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Puzzle",
+      "Casual"
+    ],
+    "releaseNotes": "Get ready for a new update!\nNew in Township!\n\nSeason Adventures:\n* Win resources to develop and decorate your town with the Italian and Futuristic Passes!\n\nThrilling New Adventures:\n*Help Richard explore and save a world of magic.\n*Explore the mysterious land of Oz with Ellen. Help her get back home from the Emerald City!\n\nAlso Featuring:\n* A new regatta season on the Amazon River!\n* A new match-3 element: Stone Carving!\n* A new building in town: Concert Hall!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:07:36.494Z"
+}

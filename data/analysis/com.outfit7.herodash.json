@@ -1,0 +1,85 @@
+{
+  "appId": "com.outfit7.herodash",
+  "name": "Talking Tom Hero Dash",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "The race is on! Welcome to Talking Tom Hero Dash – the ultimate endless runner adventure where the fun never stops!\n\nThe Rakoonz are on the loose! They've captured Talking Angela, Ben, Hank, and Ginger, and it's up to you to be the hero, save Tom's friends, and clean up the city! Are you ready to join them on this thrilling quest?\n\n- Epic Runs: Feel the adrenaline rush as you dash, jump, slide, and avoid obstacles in stunning environments. \n\n- Battle the Rakoonz: The Rakoonz are back, wreaking h",
+    "released": "Jun 4, 2019",
+    "updated": 1779194420000,
+    "version": "VARY",
+    "installs": "500,000,000+",
+    "score": 4.4,
+    "ratings": 2088279,
+    "reviews": 45418,
+    "developer": "Outfit7 Limited",
+    "developerWebsite": "https://talkingtomandfriends.com/support/",
+    "genre": "Action",
+    "recentChanges": "Bug fixes and minor gameplay improvements."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 9,
+      "2": 3,
+      "3": 8,
+      "4": 23,
+      "5": 157
+    },
+    "positiveRatio": 90,
+    "negativeRatio": 6,
+    "eventMentions": [
+      {
+        "text": "l want a new experience and enjoy",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "it's a very fun game! it has events and many more! tho- it may get a bit boring but it's entertainin",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "rare suit tom unlock please unlock tom new suit and new city added",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i like the game but you can add 1 or 2 more characters like tom and anjela so, if you adone the new ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "btw this game has updates",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 90%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:08:09.814Z"
+}

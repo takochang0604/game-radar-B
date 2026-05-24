@@ -1,0 +1,42 @@
+{
+  "appId": "com.qookkagames.xczyw.gp.jp",
+  "name": "信長の野望 真戦",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Enter a new Sengoku period where strategy and life (drama) intersect!\n\n\"Nobunaga's Ambition: True Battle\" is an innovative Sengoku SLG x RPG, officially licensed by \"Nobunaga's Ambition: A Realm Reborn\" and brought to you by the creators of \"Romance of the Three Kingdoms True Battle,\" which has been downloaded over 100 million times worldwide.\n\n[Assemble! The Strongest Vassals]\nCollect and train over 100 warlords.\nOrganize your vassals freely based on a variety of elements: military branch, fami",
+    "released": "Dec 4, 2025",
+    "updated": 1776417236000,
+    "version": "1.0.10017.13",
+    "installs": "100,000+",
+    "score": 4.2,
+    "ratings": 4637,
+    "reviews": 943,
+    "developer": "Qookka Games",
+    "developerWebsite": "https://nobunaga-shinsen.qookkagames.jp/",
+    "genre": "Strategy",
+    "recentChanges": "S3シーズン「衆心成城」5月16日 開幕！<br>※サーバーにより、開始日時が異なりますので、ご注意ください。<br><br>・8名のS3シーズン限定武将が登場<br>この戦場にもたらす、新たな変化とは！？<br><br>・4つの「事件戦法」が新登場<br>編制に、無限の可能性を！<br><br>・新システム「一門設備」実装<br>より堅固な防衛線を築き、戦局を支配せよ！<br><br>・新システム「一門調略」登場<br>奇策をもって勝機を掴み、戦局を覆せ！<br><br>戦陣に新風、無限の策へ！"
+  },
+  "reviewAnalysis": {
+    "total": 3,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 1
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:02:58.775Z"
+}

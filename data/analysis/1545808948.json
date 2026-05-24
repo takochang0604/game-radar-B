@@ -1,0 +1,44 @@
+{
+  "appId": "1545808948",
+  "name": "Ragnarok X: Together",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "The new main server, Link Region, launches on November 24! New classes, new maps, new servers, plus tons of rewards going live together!\nA new beginning, a new journey! To all Adventurers old and new—come, unite once more, and step boldly into a brand-new era of adventure!\nOfficially authorized by Gravity from South Korea! A fresh take on the classic masterpiece! Adventurers, let's embark on your own fantasy journey of the next generation!\n\n======Game Features======\n◆ New Class—Soul Linker\nTwin ",
+    "released": "2021-06-17T07:00:00Z",
+    "updated": "2026-01-08T02:45:23Z",
+    "version": "4.1.2",
+    "score": 4.8,
+    "reviews": 51336,
+    "developer": "Nuverse",
+    "developerUrl": "https://apps.apple.com/th/developer/nuverse/id1479664692?uo=4",
+    "genres": [
+      "Games",
+      "Adventure",
+      "Role-Playing"
+    ],
+    "releaseNotes": "◆ New Class—Soul Linker\nTwin souls dance as one, united beyond boundaries\nShatters all boundaries with dual forms, offering a new combat experience\n\n◆ New Lv.160 Map—Lighthalzen\nReborn from the wasteland, with new MVP and MINI monsters awakened\nMajor update on Main City - Rachel, along with the new enchantment feature"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-19T12:55:29.678Z"
+}

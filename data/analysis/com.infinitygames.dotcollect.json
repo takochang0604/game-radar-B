@@ -1,0 +1,67 @@
+{
+  "appId": "com.infinitygames.dotcollect",
+  "name": "Idle Dot Shooter!",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Blast dots. Stack upgrades. Trigger chaos.\n\nIdle Dot Shooter is a minimalist idle shooter built for incremental idle progress. Your turret auto-fires into drifting targets while you build an upgrade engine that turns tiny pops into massive gains. Add a drone, boost suction, and unleash bullet hell abilities when you want chaos. Pure idle dot shooter gameplay - a true idle bullet hell experience.\n\nWhat you do:\nShoot dots to earn cash. Spend it on Defence, Drone, and Economy upgrades. Travel to ne",
+    "released": "Jan 20, 2026",
+    "updated": 1778840360000,
+    "version": "30.0.1",
+    "installs": "100,000+",
+    "score": 4.4,
+    "ratings": 4980,
+    "reviews": 761,
+    "developer": "Infinity Games, Lda",
+    "developerWebsite": "https://www.infinitygames.io",
+    "genre": "Arcade",
+    "recentChanges": "🎮 Dot Shooters, this one&#39;s for you!<br>What&#39;s new:<br>- Rebirth at Galaxy 10 was introduced and it allows you to earn Star Dust and buy permanent upgrades that make every new run stronger;<br>- Rewarded ads no longer fail on long timeouts;<br>- Combat polish: plasma, boss damage, mortars;<br>- More reliable dot tracking;<br>Keep the feedback coming, we read every review! 🚀"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 44,
+      "2": 16,
+      "3": 9,
+      "4": 26,
+      "5": 105
+    },
+    "positiveRatio": 66,
+    "negativeRatio": 30,
+    "eventMentions": [
+      {
+        "text": "pretty cool, the game plays well on my device and is very interactive. can't wait for the next updat",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "there are so many ads, there are also ad breaks and you need to watch ads to unlock certain new turr",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "uh... why is it that i exit the game for a couple hours then when i log back on everything basically",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:06:11.102Z"
+}

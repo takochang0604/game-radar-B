@@ -1,0 +1,52 @@
+{
+  "appId": "943690848",
+  "name": "ONE PIECE TREASURE CRUISE",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "동료들과 함께 떠나는 대모험! 간단한 터치로 콤보 액션과 화려한 필살기 발동!\n지금 나만의 해적단을 만들어 ONE PIECE 세계로 떠나보자!\n\n◆터치로 조작하는 새로운 감각 액션 게임!◆\n‘원피스 트레저 크루즈’는 간단한 터치 조작으로\n원작 그대로의 박진감 넘치는 배틀을 즐길 수 있는 새로운 감각 터치 액션 게임!\n타이밍에 맞춰 동료 캐릭터를 터치하여 콤보를 이어 적을 공격하자!\n뿐만 아니라, 모든 캐릭터들의 개성 넘치는 ‘필살기’도 화려한 액션 연출로 되살아난다!\n내 손 안에서 펼치는 매력적인 캐릭터들의 화끈한 배틀!\n\n◆원작 스토리를 그대로 따라가며 체험해보자! 그 명장면이 지금 생생히 되살아난다!◆\n게임 스토리는 소년 루피와 ‘빨간 머리 샹크스’가 만나는 ‘후샤 마을’부터 시작된다!\n원작 스토리를 그대로 체험해 볼 수 있는 ‘모험’을 통해 그때 그 흥분과 감동을 되새겨보자!\n\n◆동료를 영입하고 육성하여 나만의 해적단을 만들어보자!◆\n메인 캐릭터뿐만 아니라, 개성 넘치는 감초 ",
+    "released": "2021-04-21T07:00:00Z",
+    "updated": "2026-05-08T04:25:07Z",
+    "version": "16.0.1",
+    "score": 4.74525,
+    "reviews": 14214,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerUrl": "https://apps.apple.com/kr/developer/bandai-namco-entertainment-inc/id352305770?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉",
+      "어드벤처",
+      "엔터테인먼트"
+    ],
+    "releaseNotes": "v16.0.1\n・아이콘 변경\n・타이틀 화면 변경"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 9,
+      "2": 2,
+      "3": 0,
+      "4": 3,
+      "5": 35
+    },
+    "positiveRatio": 78,
+    "negativeRatio": 22,
+    "eventMentions": [
+      {
+        "text": "업데이트할때 좀 오래 걸리는데 수정하는거 바랍니다. 게임뽑기확률도 괜찮아서 재미있어요 계정3개정도 있는데 새롭게 만든계정에 좋은거 많이떠서 확률높아졌나 했는데 똑같아서 놀랐음!!",
+        "keywords": [
+          "업데이트"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:02:23.465Z"
+}

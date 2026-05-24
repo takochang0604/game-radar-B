@@ -1,0 +1,41 @@
+{
+  "appId": "com.hilothaigame.relax",
+  "name": "Hilo Game",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Challenge your instincts and judgment in this fun Hi-Lo game experience. This skill-based game focuses on strategy, logic, and smart decision-making, offering an engaging challenge for players of all levels. \n\nWhether you are a beginner learning the basics or an experienced player looking to improve your performance, the simple rules make it easy to start while the gameplay depth keeps it interesting. Practice your skills, improve your judgment with each round, and aim to achieve higher scores a",
+    "released": "Jan 22, 2026",
+    "updated": 1769131842000,
+    "version": "1.0.1",
+    "installs": "50,000+",
+    "score": 4.5,
+    "ratings": 197,
+    "reviews": 28,
+    "developer": "Kashi For You",
+    "developerWebsite": "https://ads.hilogames.top",
+    "genre": "Casino"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:08:07.376Z"
+}

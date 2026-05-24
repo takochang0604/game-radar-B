@@ -1,0 +1,73 @@
+{
+  "appId": "com.ultimategame.eternaltowersaga",
+  "name": "Eternal Tower Saga",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Eternal Tower Saga (ETS)\n\nBreak every MMORPG rule you’ve ever known! Experience a new world in Eternal Tower Saga (ETS), where \"Lifestyle\" meets \"MMORPG\" in perfect harmony. “Change your weapon, change the game. From player to game master.”\nEternal Tower Saga (ETS) is an adventure MMORPG centered around conquering mysterious towers that have appeared across the globe. By blending social lifestyle elements with classic MMORPG progression, the game offers limitless enjoyment and unparalleled freed",
+    "released": "May 5, 2026",
+    "updated": 1778736623000,
+    "version": "3.04.0",
+    "installs": "100,000+",
+    "score": 4.2,
+    "ratings": 364,
+    "reviews": 52,
+    "developer": "Ultimategame.net",
+    "developerWebsite": "https://eternaltowersaga.com/",
+    "genre": "Role Playing",
+    "recentChanges": "Fix bugs"
+  },
+  "reviewAnalysis": {
+    "total": 60,
+    "starCounts": {
+      "1": 13,
+      "2": 5,
+      "3": 4,
+      "4": 1,
+      "5": 37
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 30,
+    "eventMentions": [
+      {
+        "text": "stupid game buttons not working properly, and the lag when you open the event page is wasting our ti",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "stupid games, no updates, and still unable to play,....",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "pretty good even tho it's new",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 9 天，評分 4.2",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:43:36.333Z"
+}

@@ -1,0 +1,44 @@
+{
+  "appId": "852882903",
+  "name": "グランブルーファンタジー",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "空の彼方、約束の地へ\n−想像を超えるクオリティではじまる本格RPG\n\n想像を超えるクオリティではじめる本格スマホRPG。\nサウンドディレクター：植松伸夫\nキャラクターデザイン：皆葉英夫\n壮大な音楽と豪華なボイスで繰り広げられる冒険に今旅立とう。\n\n＜対応OS＞\niOS 14.0以上対応",
+    "released": "2014-05-01T08:00:53Z",
+    "updated": "2026-04-23T06:00:25Z",
+    "version": "1.30.0",
+    "score": 3.9,
+    "reviews": 43444,
+    "developer": "Cygames, Inc.",
+    "developerUrl": "https://apps.apple.com/jp/developer/cygames-inc/id561598806?uo=4",
+    "genres": [
+      "ゲーム",
+      "シミュレーション",
+      "ロールプレイング"
+    ],
+    "releaseNotes": "不具合を修正しました。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:50:17.652Z"
+}

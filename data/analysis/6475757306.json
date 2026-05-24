@@ -1,0 +1,44 @@
+{
+  "appId": "6475757306",
+  "name": "Disney Solitaire",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "Welcome to Disney Solitaire, the ultimate card game that transforms classic tripeaks solitaire into an exciting experience filled with magic!\n\nStep into the enchanting realm of Disney Solitaire, where every postcard recreates an iconic scene from the worlds of Disney and Pixar!\n\nFrom the moment you start playing, you’ll find yourself immersed in colorful scenes featuring some of your favorite characters like Aladdin, Elsa, Moana and Woody.\nThis isn’t just another solitaire game; it’s a vibrant e",
+    "released": "2025-04-16T07:00:00Z",
+    "updated": "2026-05-15T14:16:11Z",
+    "version": "1.18.1",
+    "score": 4.8,
+    "reviews": 4000,
+    "developer": "SuperPlay",
+    "developerUrl": "https://apps.apple.com/tw/developer/superplay/id1484468650?uo=4",
+    "genres": [
+      "遊戲",
+      "卡牌",
+      "桌遊"
+    ],
+    "releaseNotes": "Get ready for an amazing update!\n* Prepare for NEW levels!\n* Unlock NEW Disney characters!\n* Join the magic with NEW DISNEY FEATURES!\n* Enjoy performance improvements for a smoother gaming experience!\nPlay Disney Solitaire!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:07:07.920Z"
+}

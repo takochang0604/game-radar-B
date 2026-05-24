@@ -1,0 +1,43 @@
+{
+  "appId": "1529067679",
+  "name": "Warpath: Ace Shooter",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Experience the new maritime map! Crush the Raven Fleet and fight for Strategic Places at sea!\n\nYour mission: Coordinate your forces and defeat the Ravens at air, land, and sea. Use your powerful modern arsenal to defend your Base and break through the Raven blockade. Meet the Ravens head-on, outmaneuver their fleets, and become master of the seas!\n\n▶ FEATURES◀\n\nEXCITING SNIPER ACTION\nControl the battlefield, destroy your enemies\n● Hone your skills in over a hundred missions, set in diverse battl",
+    "released": "2021-03-15T07:00:00Z",
+    "updated": "2026-05-12T08:22:54Z",
+    "version": "14.00.00",
+    "score": 4.8,
+    "reviews": 11270,
+    "developer": "Lilith Games",
+    "developerUrl": "https://apps.apple.com/th/developer/lilith-games/id982119759?uo=4",
+    "genres": [
+      "Games",
+      "Strategy"
+    ],
+    "releaseNotes": "Title System is Live!\nBingo Battle Events\nNew Officers: Catseye\nNew Tactic: Heavy Drop\nHawaii Conquest Optimizations\nTheater of Conquest New Gold IV Battlefield\nNew Brave’s Path Skins\nEarly-Game Experience Improvements"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:51:24.092Z"
+}

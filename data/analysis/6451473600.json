@@ -1,0 +1,44 @@
+{
+  "appId": "6451473600",
+  "name": "Honkai: Star Rail - 3T Online",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "\"Honkai: Star Rail\" là tựa game RPG thám hiểm vũ trụ do HoYoverse phát hành\nTrong sản phẩm này, người chơi sẽ bước lên Đội Tàu Astral, trải nghiệm những kỳ quan ảo diệu rực rỡ xuyên suốt dải ngân hà, mạo hiểm và kịch tính là tiết tấu chính xuyên suốt cuộc hành trình.\nNgười chơi sẽ được gặp gỡ những người bạn đồng hành mới qua từng thế giới, cũng như gặp lại nhiều gương mặt thân quen, cùng nhau giải quyết tranh chấp do \"\"Stellaron\"\" gây ra, để hé lộ những bí ẩn của nó! Hi vọng cuộc hành trình này",
+    "released": "2023-10-10T07:00:00Z",
+    "updated": "2026-04-21T22:00:50Z",
+    "version": "4.2.0",
+    "score": 4.2,
+    "reviews": 5774,
+    "developer": "Vision Digital",
+    "developerUrl": "https://apps.apple.com/vn/developer/vision-digital/id1698469667?uo=4",
+    "genres": [
+      "Games",
+      "Adventure",
+      "Role-Playing"
+    ],
+    "releaseNotes": "Phiên bản kỷ niệm 3 năm \"Thế Là, Chúng Sinh Vui Cười Mãi Không Thôi\" hiện đã ra mắt!\n\"Nhân Vật Mới\" Sói Bạc LV.999 (Vui Vẻ - Số Ảo), Evanescia (Vui Vẻ - Vật Lý)\n\"Phúc Lợi Kỷ Niệm\" Tích lũy điểm danh nhận Vé Tinh Cầu Đặc Biệt*20, quà tặng kỷ niệm nhận thêm Vé Tinh Cầu Đặc Biệt*10, đăng nhập nhận ngay \"Kim Linh Đồng Hành\", có thể đổi nhân vật 5 sao giới hạn Huohuo, Robin...!\n\"Cốt Truyện Mới\" Nhiệm Vụ Khai Phá \"Planarcadia - Thế Là, Chúng Sinh Vui Cười Mãi Không Thôi\"\n\"Sự Kiện Mới\" Dạo Chơi Tín Hiệu Vũ Trụ, Lại Đổ Xúc Xắc Nào! Băng Lực Chiến!...\n\"Cập Nhật Lối Chơi\" Mở rộng mùa giải \"Chiến Tranh Tiền Tệ - Trò Chơi Có Tổng Bằng 0\"\n\"Khác\" Khung cảnh mới, kẻ địch mới, tăng cường nhân vật \"Ánh Sáng Lấp Lánh\"..."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:38:51.552Z"
+}

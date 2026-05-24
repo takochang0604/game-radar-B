@@ -1,0 +1,44 @@
+{
+  "appId": "6612014908",
+  "name": "Magic Chess: Go Go",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "A New Strategy Game from the MLBB Team! \nWelcome to Magic Chess: Go Go, the ultimate strategy game combining MLBB heroes with fresh and casual gameplay. It's not about fast mechanics, but about wisdom and a touch of luck! Play anywhere, anytime, and have fun with friends!\n\nNew Battleground for MLBB Heroes: Strategy Fully Upgraded\nLead your favorite MLBB heroes in an all-new way. Recruit, merge, and strategize to form the ultimate lineup.\n\n8-Player Showdown: Outwit to Become the Champion\nFace off",
+    "released": "2025-02-21T08:00:00Z",
+    "updated": "2026-05-13T02:14:04Z",
+    "version": "1.2.80.292.1",
+    "score": 3.8,
+    "reviews": 3390,
+    "developer": "VIZTA PTE. LTD.",
+    "developerUrl": "https://apps.apple.com/ph/developer/vizta-pte-ltd/id1706091894?uo=4",
+    "genres": [
+      "Games",
+      "Strategy",
+      "Casual"
+    ],
+    "releaseNotes": "1. Come and join MCGG's anniversary celebration! Don't miss out on tons of fun events, Exclusive Skin, rare Chessboard, and massive bonuses!\n2. Season 6 Dawnlight Celebration is here! New Synergies and Heroes await you!\n3. New Commander Kalea makes her debut! Explore the new patch to get Kalea, new Battle Emotes, and other rewards for free!\n4. Promo Diamond Giveaway! Come and get massive Diamonds!\n5. Layla \"Blue Specter\" makes a dazzling return! Join the event to get it for free!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-19T12:56:09.703Z"
+}

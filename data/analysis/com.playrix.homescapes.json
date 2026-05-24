@@ -1,0 +1,82 @@
+{
+  "appId": "com.playrix.homescapes",
+  "name": "Homescapes",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Welcome to Homescapes, a warm and cozy game from the famous Playrix Scapes™ series! Make match-3 combinations and turn every corner of your home into an inviting place to relax and have fun.\n\nSolve puzzles, restore the interior room by room, and meet new friends in every chapter of the exciting storyline. Austin the butler is ready to welcome you to a world of incredible adventures!\n\nGame features:\n● Original gameplay: make match-3 combinations and decorate your house while enjoying an exciting ",
+    "released": "Sep 19, 2017",
+    "updated": 1776805373000,
+    "version": "8.8.101",
+    "installs": "500,000,000+",
+    "score": 4.345029,
+    "ratings": 13282177,
+    "reviews": 43543,
+    "developer": "Playrix",
+    "developerWebsite": "https://www.playrix.com/homescapes/index.html",
+    "genre": "Casual",
+    "recentChanges": "AROUND THE WORLD<br>• Help William meet up with his old friends and rediscover the joy of life!<br>• Complete the event and get valuable rewards!<br><br>MOTORHOME<br>• Go on a trip in a motorhome and bring the Wood family closer together!<br>• Complete the event and get valuable rewards!<br><br>ALSO<br>• A new chapter: The Fortune Teller&#39;s Apartment! What is the mysterious neighbor Mina hiding—and should you fear her curse!?"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 14,
+      "2": 2,
+      "3": 4,
+      "4": 8,
+      "5": 72
+    },
+    "positiveRatio": 80,
+    "negativeRatio": 16,
+    "eventMentions": [
+      {
+        "text": "the game is fun but the colors are not very updated for a better design affects. change the options ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "why was there no new event after the previous one? it's been close to a week now",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      },
+      {
+        "text": "this is the best game that i play on my phone and i know some people say it is hard but i never let ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "\"it’s been several days that the game hasn’t shown me any new levels and keeps saying it’s updating.",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "nice game need more updates on this games",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 80%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:03:48.288Z"
+}

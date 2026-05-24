@@ -1,0 +1,45 @@
+{
+  "appId": "6760385281",
+  "name": "登龍劍訣：必殺",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "構建無限可能的戰術體繫;\n培養你獨一無二的軍團;\n難度層層遞進的冒險之旅;",
+    "released": "2026-05-01T07:00:00Z",
+    "updated": "2026-05-01T07:00:00Z",
+    "version": "1.1",
+    "score": 3.1,
+    "reviews": 25,
+    "developer": "LIBERTY COMFORT PTE. LTD.",
+    "developerUrl": "https://apps.apple.com/tw/developer/liberty-comfort-pte-ltd/id1837678907?uo=4",
+    "genres": [
+      "遊戲",
+      "策略",
+      "卡牌",
+      "娛樂"
+    ],
+    "releaseNotes": "- 修復已知問題；"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:37:25.429Z"
+}

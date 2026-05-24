@@ -1,0 +1,50 @@
+{
+  "appId": "6476085555",
+  "name": "拉蒂亞的骰子之旅 - 療癒系冒險RPG",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "【Ladia's Dicetiny：命運的骰子，指引溫暖的旅程】\n受到「永恆」祝福的神祭劍士——拉蒂亞，\n為了尋找自身存在的意義，踏上了淨化之旅。\n「只需擲出骰子，即可展開一段輕鬆的冒險。」\n\n【獨特的「骰子探索 × RPG 成長」】\n透過簡單的擲骰，親自感受到角色在旅途中逐漸成長，\n我們將遊戲設計成 5 分鐘 即可享受，\n讓你在繁忙平日也能累積實力，有空時則能沉浸遊玩。\n\n【繁忙生活中的心靈淨土】\n以療癒體驗為核心設計，悠閒的步調與細膩的情感，\n適合在通勤、休息或是睡前，為自己留一段放鬆的時光。\n\n【遊戲特色】\n輕鬆上手： 單手即可操作，介面簡潔直覺，隨時隨地開啟冒險。\n療癒風格： 清新可愛的美術視覺，提供低負擔的放鬆體驗。\n豐富收藏：多款造型可愛的棋子提供收藏，只要持續遊玩即可逐漸收集。\n\n【遊戲中的訂閱服務與條款】\n遊戲中提供了【全能骰子祝福】的訂閱服務，每月NT $290元。\n(首三天免費試用，僅限一次)\n購買後可獲得：\n略過所有廣告功能、\n自動擲骰功能、\n每日額外 60 點淨化之滴、\n每日免費 3 次祝福骰子。\n\n付款：確認購買後，將從您的 Apple 帳戶 扣款。\n續訂：訂",
+    "released": "2026-05-18T07:00:00Z",
+    "updated": "2026-05-18T07:00:00Z",
+    "version": "1.20260516",
+    "score": 5,
+    "reviews": 72,
+    "developer": "zhih-hao Shio",
+    "developerUrl": "https://apps.apple.com/tw/developer/zhih-hao-shio/id1182397122?uo=4",
+    "genres": [
+      "遊戲",
+      "角色扮演",
+      "休閒"
+    ],
+    "releaseNotes": "正式版本"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 2 天，評分 5.0",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:49:19.072Z"
+}

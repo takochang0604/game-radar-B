@@ -1,0 +1,80 @@
+{
+  "appId": "jp.co.ponos.battlecatstw",
+  "name": "貓咪大戰爭",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Disgusting and cute cats are going on a rampage across the country!\nA cat raising game that anyone can play easily.\nIt's free & you can play right away without registration! meow~\n*The game contains some paid items\n--------------------------------------\n★Super simple・Battle system\n--------------------------------------\nMake up your favorite cat team to fight~\nYou can also launch the cat cannon to attack the opponent's castle! !\n--------------------------------------\n★Super simple・Cultivation sys",
+    "released": "Jul 20, 2015",
+    "updated": 1776404732000,
+    "version": "15.3.0",
+    "installs": "1,000,000+",
+    "score": 4.2,
+    "ratings": 114304,
+    "reviews": 35039,
+    "developer": "PONOS Corporation",
+    "developerWebsite": "https://battlecats.club/tw/",
+    "genre": "Casual",
+    "recentChanges": "・修正通關編成的保存功能<br>關卡等級4的通關編成改成會與其他關卡等級的通關編成分開儲存<br>※在本次更新後通過關卡等級4時，該隊伍才會被另外儲存<br><br>■追加角色的進化型態<br>　追加了部份角色的第3進化、第4進化<br><br>■追加角色本能<br>　追加了部份角色的本能、超本能<br><br>■傳奇故事<br>　追加新地圖<br>　現有地圖解放關卡新高難易度<br><br>■其他追加內容<br>　追加等級排行報酬<br>　追加貓咪聯組<br>　改善部分遊戲功能<br><br>■修正部分程式錯誤"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 23,
+      "2": 3,
+      "3": 11,
+      "4": 24,
+      "5": 139
+    },
+    "positiveRatio": 82,
+    "negativeRatio": 13,
+    "eventMentions": [
+      {
+        "text": "nice game and have a good rewards if daily or update",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "where is the demon slayer collaboration ☠️",
+        "keywords": [
+          "collab",
+          "collaboration"
+        ]
+      },
+      {
+        "text": "hi,i heard there is an apology for gals of summer, it's ok.last time i got lucky on the 11th anniver",
+        "keywords": [
+          "anniversary"
+        ]
+      },
+      {
+        "text": "tbh battle cats and so u can change language cuz this version gets more updates and we want english ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i don't know if im the only one, but i can't change the language so, if im not the only one we shoul",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 82%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-18T11:39:28.554Z"
+}

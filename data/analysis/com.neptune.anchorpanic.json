@@ -1,0 +1,41 @@
+{
+  "appId": "com.neptune.anchorpanic",
+  "name": "앵커패닉 : 1주년 600뽑 대축제",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "“Would you like to connect with me, Connector?”\n\nOne day, the sky was torn apart.\n“Shugel,” a high-dimensional space race that appeared through Anchor Point.\nBefore their eyes, humanity was nothing more than a feeble flame, a dying fate.\n\n“Star Chain”—\nThe last fortress made of stars.\nThe moment destruction approaches—\nThe defensive barrier covering the planet protected us.\n\nNow, it's time to fight back.\n“AIMBS-Link System” recreated the selected girls as “agents”, supernatural combat agents.\nAf",
+    "released": "Apr 18, 2025",
+    "updated": 1777905881000,
+    "version": "1.0.18",
+    "installs": "100,000+",
+    "score": 4,
+    "ratings": 2027,
+    "reviews": 588,
+    "developer": "Neptune Corp.",
+    "developerWebsite": "https://customer.withhive.com/neptune",
+    "genre": "Role Playing"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:36:52.663Z"
+}

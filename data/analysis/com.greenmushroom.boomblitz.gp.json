@@ -1,0 +1,83 @@
+{
+  "appId": "com.greenmushroom.boomblitz.gp",
+  "name": "Top Heroes: Kingdom Saga",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Join 50 Million Players and Counting!\nTop Heroes is an RPG strategy game set in a captivating fantasy world. A thrilling adventure awaits as you explore uncharted lands. The world is under siege by an ancient evil, threatening to plunge everything into chaos. Will you lead your heroes to victory and restore peace to the land?\n\nRecruit legendary heroes from across the realm, each with unique abilities and skills. From valiant knights to cunning sorcerers, assemble your dream team and lead your em",
+    "released": "Feb 17, 2024",
+    "updated": 1778655013000,
+    "version": "1.103.14",
+    "installs": "10,000,000+",
+    "score": 4.8,
+    "ratings": 196299,
+    "reviews": 2995,
+    "developer": "RiverGame",
+    "developerWebsite": "https://www.topheroes.com/",
+    "genre": "Strategy",
+    "recentChanges": "A new season has begun! Jump in now and start your adventure!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 70,
+      "2": 6,
+      "3": 7,
+      "4": 10,
+      "5": 107
+    },
+    "positiveRatio": 59,
+    "negativeRatio": 38,
+    "eventMentions": [
+      {
+        "text": "what a great app. plenty of events, build up your castle and territory, the main map quest is full o",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "a great game that quickly became addicting! purchases make a big difference, but are not necessary, ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "great game ... lots of things to do, heros and features to unlock . loved the \"how to train your dra",
+        "keywords": [
+          "collab",
+          "collaboration",
+          "season"
+        ]
+      },
+      {
+        "text": "a great game, always fresh with seasonal events. the guild participation, positivity and community i",
+        "keywords": [
+          "event",
+          "season"
+        ]
+      },
+      {
+        "text": "there are guilds that will legitimately run off new players and non paying players. its actually pre",
+        "keywords": [
+          "new",
+          "season"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:46:04.142Z"
+}

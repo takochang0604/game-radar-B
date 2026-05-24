@@ -1,0 +1,82 @@
+{
+  "appId": "887947640",
+  "name": "CSR2 PvP Car Drag Racing Games",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "CSR Racing 2 – This driving simulator game redefines what you thought possible on your mobile device!\n\nSetting a new standard in racing game visuals, CSR2 delivers hyper-real drag racing to the palm of your hand. Compete against live players across the world with your custom built supercars.\nTeam up with friends to form a crew, and dominate the competition in global crew events. CSR2 is all-new; download for free and start racing now!\n\nLEGENDS LIVE FOREVER!\nProve yourself worthy of owning the in",
+    "released": "2015-09-26T12:54:03Z",
+    "updated": "2026-04-27T11:29:17Z",
+    "version": "6.5.0",
+    "score": 4.65418,
+    "reviews": 8834,
+    "developer": "Zynga Inc.",
+    "developerUrl": "https://apps.apple.com/ph/developer/zynga-inc/id295913422?uo=4",
+    "genres": [
+      "Games",
+      "Sports",
+      "Racing",
+      "Sports"
+    ],
+    "releaseNotes": "A new version has pulled up to the line! Update to keep your race action fast and your car collection growing with new events and a smoother gameplay experience!"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 13,
+      "2": 7,
+      "3": 8,
+      "4": 6,
+      "5": 15
+    },
+    "positiveRatio": 43,
+    "negativeRatio": 41,
+    "eventMentions": [
+      {
+        "text": "whenever i go onto csr2 i get stuck on some return rev up screen and it says new label all around it",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "game is boring and upgrades are limited. i wouldn't want to grind races ive already won",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "pay to win guys! dont start with this game if ur new",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "its a cool game.,the graphics it is really realistic but the sound of the car engine rev is so poor ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "hello zynga and other developers if you read this message can you please make the showdown events fa",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:05:32.112Z"
+}

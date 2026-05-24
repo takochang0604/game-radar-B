@@ -1,0 +1,45 @@
+{
+  "appId": "1094591345",
+  "name": "Pokémon GO",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "전 세계 트레이너들과 함께 포켓몬 세계를 탐험하고 새로운 포켓몬을 발견하세요. 세상의 게임 업계에서 혁명을 가져온 “Pokémon GO”는 10억 건 이상 다운로드되며,  「The Game Developers Choice Awards」의 「Best Mobile Game」을 수상했고, 「TechCrunch」의 「Best App of the Year」 등 수 많은 상을 받았습니다.\n_______________\n\n포켓몬 세계를 모험: 언제 어디서든 포켓몬을 찾아보세요!\n \n포켓몬을 더 많이 잡고 「포켓몬 도감」을 완성하세요!\n \n파트너 포켓몬과 함께 여행하며 포켓몬을 강화하고 보상을 받으세요!\n\n불꽃 튀는 「체육관 배틀」을 하거나...\n\n 다른 트레이너들과 협력하여 강력한 포켓몬이 등장하는 「레이드배틀」에 도전하세요!\n\n지금이 바로 모험의 시간입니다! “Pokémon GO” 세계로 떠나요!\n_______________\n\n\n「언제나 모험 모드」는 헬스 앱과 연동을 허용하면 앱을 닫았을 때도",
+    "released": "2017-01-23T22:37:26Z",
+    "updated": "2026-05-21T20:22:20Z",
+    "version": "0.411.3",
+    "score": 3.5,
+    "reviews": 34955,
+    "developer": "Niantic, Inc.",
+    "developerUrl": "https://apps.apple.com/kr/developer/niantic-inc/id1037205060?uo=4",
+    "genres": [
+      "게임",
+      "전략",
+      "롤플레잉",
+      "건강 및 피트니스"
+    ],
+    "releaseNotes": "트레이너 여러분, \"Pokémon GO\"에서의 모험을 즐기고 계시길 바랍니다! 새로운 이벤트와 기능을 갖고 정기적으로 앱을 업데이트하고 있으니, 가장 최신 상태로 유지하도록 게임 내 새소식을 확인해 주세요."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:06:58.198Z"
+}

@@ -1,0 +1,44 @@
+{
+  "appId": "1415712748",
+  "name": "Co Tuong, Co Up Online - Ziga",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Cờ Ziga là game cờ đậm chất văn hóa Việt Nam, nơi các anh tài so đẳng cấp bài binh bố trận, nơi giao lưu kết bạn với hàng ngàn cao thủ cờ từ khắp nơi trên mọi miền tổ quốc.\n\nCờ Ziga ra đời với mong muốn đưa văn hóa chơi cờ của dân Việt lên di động, kết nối cộng đồng, mang lại những trải nghiệm tuyệt với nhất cho người chơi cờ.\n\nVới mong muốn đó, Game Cờ Tướng, Cờ Úp Online - Ziga có những đặc trưng sau.\n  - Cờ Online - Ziga là game cờ free miễn phí, bạn có thể chơi cờ thoải mái mà không cần phải",
+    "released": "2018-08-02T05:17:35Z",
+    "updated": "2024-09-19T23:15:42Z",
+    "version": "1.33",
+    "score": 4.65756,
+    "reviews": 118361,
+    "developer": "Tran Quoc Khanh",
+    "developerUrl": "https://apps.apple.com/vn/developer/tran-quoc-khanh/id1415712747?uo=4",
+    "genres": [
+      "Games",
+      "Strategy",
+      "Board"
+    ],
+    "releaseNotes": "Add the feature to view the match history.\nThank you for supporting Ziga."
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 27,
+      "2": 3,
+      "3": 3,
+      "4": 2,
+      "5": 14
+    },
+    "positiveRatio": 33,
+    "negativeRatio": 61,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:08:20.636Z"
+}

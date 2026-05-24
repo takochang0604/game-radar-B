@@ -1,0 +1,49 @@
+{
+  "appId": "6751270546",
+  "name": "Sword x Staff",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "”Sword x Staff is a one-of-a-kind RPG — a “Third Way RPG.”\nStrategy, massive world exploration, idle—why pick one when you can have it all?\nGo hardcore, or just vibe—either way, you’ll find your own kind of fun here. The kind that actually feels different.\nNo pressure, no one way to play—just jump in, explore, and let the adventure click your way.\nCurious what the gameplay is really like?\nSo, welcome to the unique world of Kanstein, and experience the one-of-a-kind Third Way adventure. Here, you",
+    "released": "2026-05-19T07:00:00Z",
+    "updated": "2026-05-19T07:00:00Z",
+    "version": "1.0.29",
+    "score": 4.9,
+    "reviews": 7316,
+    "developer": "Boltray Games",
+    "developerUrl": "https://apps.apple.com/us/developer/boltray-games/id1676220745?uo=4",
+    "genres": [
+      "Games",
+      "Roleplaying"
+    ],
+    "releaseNotes": "User experience optimization"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 4 天，評分 4.9",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:39.523Z"
+}

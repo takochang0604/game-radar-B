@@ -1,0 +1,47 @@
+{
+  "appId": "com.xman.tw.gp",
+  "name": "超能戰爭",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "- Catch the thief! How far can you go?\n\n- I'm today's best cop!\n\n- Tense! This thief is too hard to catch!\n\n- Rich puzzle gameplay and fun-filled level challenges\n\n- Exquisite graphics",
+    "released": "Oct 9, 2025",
+    "updated": 1778832156000,
+    "version": "1.0.101",
+    "installs": "100,000+",
+    "score": 4.5,
+    "ratings": 4458,
+    "reviews": 254,
+    "developer": "Glaciers Game",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 13,
+    "starCounts": {
+      "1": 13,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 100,
+    "eventMentions": [
+      {
+        "text": "【嚴重誤導】超能戰爭 / x-clash 貨不對辦，內容低俗，環境極差 我是被廣告裡的 mini games 下載這款遊戲《超能戰爭 / x-clash》，但進去後才發現主體根本不是那些玩法，而是另一",
+        "keywords": [
+          "活動"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:08:00.564Z"
+}

@@ -1,0 +1,45 @@
+{
+  "appId": "1595603316",
+  "name": "部落冲突（Clash of Clans）",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "Supercell公司作为原创手游的领航者，旗下有多款风靡全球的独创手游。《部落冲突》是Supercell旗下的一款风靡全球的休闲策略养成引领手游，开创了全新COC游戏品类。在游戏中，你不仅可以使用野蛮人、弓箭手、野猪骑士皮卡、龙和其他强大的军队战士，还可以和其他玩家一起建立强大的部落进行史诗级的部落战争。《部落冲突》已成为时下超火爆的休闲策略手游，得到无数玩家好评，并保持超高人气。如果你也喜欢模拟经营，喜欢策略对战，就赶快加入我们，体验超丰富的游戏活动，与好友共聚，一起畅享策略盛宴吧！",
+    "released": "2022-02-15T08:00:00Z",
+    "updated": "2026-05-18T06:11:28Z",
+    "version": "18.107.1",
+    "score": 4.5,
+    "reviews": 992618,
+    "developer": "Shenzhen Tencent Tianyou Technology Ltd",
+    "developerUrl": "https://apps.apple.com/cn/developer/shenzhen-tencent-tianyou-technology-ltd/id1586101358?uo=4",
+    "genres": [
+      "游戏",
+      "娱乐",
+      "动作",
+      "策略"
+    ],
+    "releaseNotes": "更新内容：\n【全新传奇联赛】传奇联赛划分等级，奖励增加，上分更轻松！\n【全新大本营守卫】全新大本营守卫滚木手登场，快来体验超强远程防御单位！\n【全新攻城机器】空中战车加入，呼叫来自空中的增援！\n【全新装备】飞龙公爵全新普通装备雷电獠牙，将每次攻击变为一场雷电风暴！\n【全新等级】军队获得全面强化，多个单位可以升级至全新等级。\n【全新充能】全新超级充能等级上线，即刻升级，超越极限！\n【全新部落对战联赛】新增联赛等级和战斗属性调整。\n【问题修复】修复了超级兵种消失等问题修复。\n【平衡性调整】回溯法术现在优先作用于英雄等平衡性调整。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-19T12:54:57.461Z"
+}

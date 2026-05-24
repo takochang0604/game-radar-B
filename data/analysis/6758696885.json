@@ -1,0 +1,50 @@
+{
+  "appId": "6758696885",
+  "name": "SNK：全明星覺醒",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "一睜眼，穿越到SNK格鬥世界。這裡強者如雲、宿命交織，而你，帶著前世記憶歸來，收集碎片修復時空裂縫，改写整個格鬥傳說！\n宿命再臨，開啟你的「拳」新人生！\nSNK正版授權，經典格鬥世界全面重現。你意外墜入南鎮，偶遇草薙京、八神庵、不知火舞等全明星格鬥家，並且和他們建議友誼、並肩作戰。這一世，你將是故事主角，由你親手書寫關鍵人物的命運傳奇！\n▶最全“老友”齊聚，人人都是主力！\n跨世代經典角色全數登場，沒有邊緣人、沒有廢卡。每一位格鬥家都能培養至頂級，隨心組隊，養成屬於你的全明星好友團。\n\n▶陣容隨心搭，策略激情延伸！\n百種羈絆自由搭配，技能連攜爆發強力輸出。沒有固定套路，沒有唯一答案，你喜歡的搭配，就是最強陣容。\n\n▶無損繼承，隨心重置不浪費！\n資源全繼承、等級無痛轉移、培養零損耗。想換陣容直接換，不用重刷、不用重練，輕鬆嘗試所有流派。\n\n▶大招輕鬆搓，3D 特效爆屏！\n必殺技高還原、打擊感超流暢，華麗連段一觸即發。K.O. 瞬間帥度拉滿，重溫當年街機熱血！\n\n▶千抽連發，SSR 天天領！\n上線狂送邀請函，橙卡角色輕鬆收集，情懷一次滿足！騎上專屬坐騎，和你喜歡的角色一起約會聊天吧~\n\n▶M",
+    "released": "2026-05-21T07:00:00Z",
+    "updated": "2026-05-21T07:00:00Z",
+    "version": "1.0.2",
+    "score": 4.5,
+    "reviews": 277,
+    "developer": "LightYear Matrix Limited",
+    "developerUrl": "https://apps.apple.com/tw/developer/lightyear-matrix-limited/id1874519436?uo=4",
+    "genres": [
+      "遊戲",
+      "角色扮演",
+      "卡牌"
+    ],
+    "releaseNotes": "1. 優化網路\n2. 修復已知BUG"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 2 天，評分 4.5",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:02:56.521Z"
+}

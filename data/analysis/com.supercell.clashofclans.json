@@ -1,0 +1,86 @@
+{
+  "appId": "com.supercell.clashofclans",
+  "name": "Clash of Clans",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Join millions of players worldwide as you build your village, raise a clan, and compete in epic Clan Wars!\n\nMustachioed Barbarians, fire wielding Wizards, and other unique troops are waiting for you! Enter the world of Clash!\n\nClassic Features:\n● Join a Clan of fellow players or start your own and invite friends.\n● Fight in Clan Wars as a team against millions of active players across the globe.\n● Test your skills in the competitive Clan War Leagues and prove you’re the best.\n● Forge alliances, ",
+    "released": "Sep 30, 2013",
+    "updated": 1777909375000,
+    "version": "18.350.8",
+    "installs": "500,000,000+",
+    "score": 4.494567,
+    "ratings": 61542746,
+    "reviews": 1975636,
+    "developer": "Supercell",
+    "developerWebsite": "https://help.supercellsupport.com/clash-of-clans/en/",
+    "genre": "Strategy",
+    "recentChanges": "On Guard!<br>• New Guardian: Logger joins Town Hall 18 to sling mighty stumps at ground and air enemies!<br>• New Common Hero Equipment: Sink your teeth into defenses with Dragon Duke’s Electro Fangs and chomp a chain reaction through villages!<br>• New Siege Machine: The Sky Wagon offers reliable troop delivery to the heart of your opponent’s village!<br>• Legend League Rework: Legend League has been divided into three unique levels to offer more variety for top-ranked players!"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 12,
+      "2": 2,
+      "3": 2,
+      "4": 15,
+      "5": 69
+    },
+    "positiveRatio": 84,
+    "negativeRatio": 14,
+    "eventMentions": [
+      {
+        "text": "please add a option scan to pay iam in pakistan we don't have visa card option in my bank how can i ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "clash feel very relaxing and enjoyable and it is very satisfying to complete a townhall and learning",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "bad game i have golden pass but i can't activate because i have not option and all times sending upd",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "ive been playing this game for a long time and been enjoying it due to new features that been added,",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "super update iwant one more heros",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 84%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:24:21.501Z"
+}

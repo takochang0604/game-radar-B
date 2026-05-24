@@ -1,0 +1,43 @@
+{
+  "appId": "6751942351",
+  "name": "Thợ Săn Quỷ: Đại Chiến Dị Giới",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Thợ Săn Qủy: Đại Chiến  Dị Giới mở thám hiểm Dị Giới, cảm nhận sức hút tính năng Idle!\nTrò chơi kết hợp yếu tố tu tiên truyền thống với chủ đề Tam Quốc và Tây Du, tái hiện một thế giới thần thoại RPG Idle hoàn toàn mới - đưa bạn trải nghiệm một vũ trụ rộng lớn giao hòa giữa nhân văn cổ phong thời Tam Quốc và những cuộc đấu pháp tu hành của thần tiên Tây Du.\nTrò chơi còn mở rộng xuyên suốt cổ đại hiện đại tương lai, kết hợp với trải nghiệm chơi nhẹ nhàng, linh hoạt, tỉ lệ rơi trang bị cao hơn, mở",
+    "released": "2026-02-26T08:00:00Z",
+    "updated": "2026-03-05T11:57:10Z",
+    "version": "1.0.2",
+    "score": 4.67295,
+    "reviews": 6100,
+    "developer": "GAMOTA Corporation",
+    "developerUrl": "https://apps.apple.com/vn/developer/gamota-corporation/id790194591?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing"
+    ],
+    "releaseNotes": "Tối ưu nội dung game"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 1,
+      "4": 9,
+      "5": 38
+    },
+    "positiveRatio": 96,
+    "negativeRatio": 2,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 96%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-04T20:35:41.248Z"
+}

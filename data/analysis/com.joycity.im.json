@@ -1,0 +1,48 @@
+{
+  "appId": "com.joycity.im",
+  "name": "임진왜란: 조선의 반격",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "The return of Director Kim Tae-gon, creator of *Merchant* and *Imjinrok*.\n\nInto the heart of that massive battlefield, seven years into the Imjin War!\n\nAlong with legendary names such as Yi Sun-sin, Kim Si-min, and Ryu Seong-ryong,\n\nIt is your turn to change the course of history.\n\n※ Game Features ※\n\n▶ The 1592 Imjin War with Real-Life Heroes\n\n✔ A grand assembly of real-life heroes including Yi Sun-sin, Kim Si-min, and Ryu Seong-ryong\n\n✔ Strategic units assembled from combinations of generals fr",
+    "released": "Apr 27, 2026",
+    "updated": 1779093963000,
+    "version": "10034",
+    "installs": "100,000+",
+    "score": 4.8,
+    "ratings": 5069,
+    "reviews": 933,
+    "developer": "JOYCITY Corp.",
+    "developerWebsite": "https://redginkgogames.com/",
+    "genre": "Role Playing",
+    "recentChanges": "공성전 관련 최적화"
+  },
+  "reviewAnalysis": {
+    "total": 2,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 26 天，評分 4.8",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:06:20.704Z"
+}

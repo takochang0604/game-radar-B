@@ -1,0 +1,52 @@
+{
+  "appId": "1460632826",
+  "name": "1945 Arcade Airplane Shooter",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Remember the feeling of weaving through enemy fire, upgrading your fighter, and unleashing chaos in the skies? 1945 Air Force brings that arcade adrenaline rush back – now with a modern edge and over 900 explosive levels.\n\n**CLASSIC ARCADE SHOOTING REIMAGINED**  \nInspired by retro legends like 1942, Raiden, and Sky Force, 1945 Air Force delivers nostalgic bullet-hell action with updated visuals, responsive controls, and non-stop gameplay. Whether you're a long-time fan or just getting started, t",
+    "released": "2019-05-28T02:11:20Z",
+    "updated": "2026-05-07T01:26:21Z",
+    "version": "15.42",
+    "score": 4.73444,
+    "reviews": 130181,
+    "developer": "ONESOFT GLOBAL PTE. LTD.",
+    "developerUrl": "https://apps.apple.com/vn/developer/onesoft-global-pte-ltd/id1439862247?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Entertainment",
+      "Casual"
+    ],
+    "releaseNotes": "- Change BG Music"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 13,
+      "2": 3,
+      "3": 1,
+      "4": 4,
+      "5": 28
+    },
+    "positiveRatio": 65,
+    "negativeRatio": 33,
+    "eventMentions": [
+      {
+        "text": "event sinh nhật mở chưa dc 1p chúng nó đủ 60k điểm. chưa thấy cái game nào mà event lại như vậy.",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:36:53.506Z"
+}

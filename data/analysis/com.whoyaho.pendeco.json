@@ -1,0 +1,92 @@
+{
+  "appId": "com.whoyaho.pendeco",
+  "name": "Deco Master - DIY Pen ASMR",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "“Make a cute pink pen for my bestie!\"\n\"Wow…! Your deco pens are so pretty! That’s skill!”\n\nDeco Pen ASMR Live Start!\nWhat kind of pen will we create today? Stack glossy pearls, soft ribbons, and a tiny kitty tucked in a heart frame… So dreamy!\n\nFrom your cozy desk, filled with cute trinkets, go from 0 subscribers to 1 million views on your first livestream! Your deco creator journey begins here!\n\n[ Pick Your Beads ]\nShimmering beads pour out like tiny jewels!\nTap and scoop your faves!\n\n[ Decorat",
+    "released": "Apr 22, 2026",
+    "updated": 1777740866000,
+    "version": "1.6.0",
+    "installs": "100,000+",
+    "score": 4.744186,
+    "ratings": 1864,
+    "reviews": 21,
+    "developer": "Whoyaho Corp.",
+    "developerWebsite": "https://www.whoyaho.com",
+    "genre": "Simulation",
+    "recentChanges": "Tap, scoop, sparkle! Make your own perfect deco pen!<br>- No need for a craft store! Unlimited deco fun, right at home!<br>- Start from your desk filled with trinkets, twinkling beads, and ASMR delights!<br>- What theme will you pick? Pink? Cute? Dreamy?<br>- Stack up heart beads, angel wings, and even kitty charms…!<br>- Ta-da! Your custom deco pen is complete!<br>- Click, snap! Show off your masterpiece as comments pour in!<br>- Oh? From shining dolphins to twinkling moons…! Unlock new beads and keep creating!!"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 1,
+      "2": 4,
+      "3": 6,
+      "4": 10,
+      "5": 79
+    },
+    "positiveRatio": 89,
+    "negativeRatio": 5,
+    "eventMentions": [
+      {
+        "text": "i loveeee it and i hope to see more coming soon update!",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "very fun i've been playing tanghulu master for years i was like 8 now am 18 and now theres a new gam",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "a really fun, addicting game because i like how you get to get new beads and create your own design ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "cool game it's similar too tanghulu master so cool update 😍🤩🤯",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "cute game! i was wondering if we could add these updates (my idea lol) we can design and make our ow",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 16 天，評分 4.744186",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 89%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:36:46.423Z"
+}

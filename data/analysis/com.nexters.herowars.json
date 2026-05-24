@@ -1,0 +1,80 @@
+{
+  "appId": "com.nexters.herowars",
+  "name": "ヒーローウォーズ：アライアンス — 放置系ロールプレイング",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "先頭に立って、ドミニオンにかつての栄光を取り戻し、伝説になろう！\n\nこの無料ゲーム「ヒーローウォーズ：アライアンス」は、戦略、スキル、仲間との協力が鍵となるヒーロー育成RPGゲーム。ロールプレイングゲームの醍醐味と戦略バトルの興奮が味わえるこのゲームでは、君の選択が勝敗を分ける！RPGゲームファンにとって見逃せない、ヒーロー収集型の戦略RPGを今すぐ始めよう。\n\n戦争が終わり、大悪魔が勝利を収めた。ガーディアンズに属するヒーローたちは落ちぶれ、彼らの多くは闇の戦士になってしまった。だが、まだ希望はある。オーロラが大悪魔の支配から逃れたのだ。今こそ君の出番だ。他のヒーローたちも取り戻して軍団を作ろう！\n\n「ヒーローウォーズ：アライアンス」はただのRPGじゃない。このゲームは、戦略ゲームとしての要素も満載。戦術や持ち前のスキル、決意が試されるロールプレイングゲームだ。ヒーローを集めてチームを組み、彼らをレベルアップさせてスキルを強化し、敵の動きを読み、自軍に勝利をもたらし、伝説のヒーローになろう。\n\nゲーム内で楽しめるコンテンツは以下のとおりだ。\n\n• 最強の組み合わせを見つけよう\n\nこの",
+    "released": "Mar 17, 2017",
+    "updated": 1779119828000,
+    "version": "1.278.200",
+    "installs": "100,000,000+",
+    "score": 4.2,
+    "ratings": 1709546,
+    "reviews": 6379,
+    "developer": "NEXTERS GLOBAL LTD",
+    "developerWebsite": "https://nextersglobal.com",
+    "genre": "Role Playing",
+    "recentChanges": "More power. More adventure. More chaos!<br><br>Timeless looks.<br>Drayne and Electra get new Jade Flame Skins.<br><br>New season begins!<br>The Scorching Flame Season is here.<br><br>Meet Kendle!<br>A new hero enters with full gear, a Relic, a Talisman, and Angel Skin in the Season Pass.<br><br>Legend reworked.<br>Dorian gets a revamp and brand-new Relic."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 32,
+      "2": 8,
+      "3": 8,
+      "4": 10,
+      "5": 142
+    },
+    "positiveRatio": 76,
+    "negativeRatio": 20,
+    "eventMentions": [
+      {
+        "text": "would give 5 stars if next update you add the ability to choose how much energy to use on missions i",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "shame the game is nothing like the ad. i stopped playing years ago because after finishing the campa",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      },
+      {
+        "text": "i loved this game! but i'm so frustrated. where in the emerald shop can you exchange gold with gems?",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "new game",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "money waster, stonewall cash grab suck in slow progression, rewards do not match time spent in game ",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T12:08:39.036Z"
+}

@@ -1,0 +1,80 @@
+{
+  "appId": "com.JindoBlu.OfflineGames",
+  "name": "Offline Games - No Wifi Games",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Get ready for 'Offline Games': fun for all ages, and a mental workout too! This offline game collection is like an overflowing toy box packed with more than 20 unique minigames. It's designed for classic game enthusiasts, puzzle lovers, and challenge seekers. And the best part? You don't need an internet connection to enjoy it!\n\nOur array of Number Games like 2048 and 2248 will get your neurons firing. Engage in these numeric challenges and strive to hit the highest scores. They're perfect for k",
+    "released": "Aug 4, 2023",
+    "updated": 1777417472000,
+    "version": "3.11.2",
+    "installs": "100,000,000+",
+    "score": 4.6,
+    "ratings": 450716,
+    "reviews": 13615,
+    "developer": "JindoBlu",
+    "developerWebsite": "https://www.jindoblu.com",
+    "genre": "Casual",
+    "recentChanges": "• Bug fixes and improvements<br>"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 18,
+      "2": 10,
+      "3": 8,
+      "4": 16,
+      "5": 148
+    },
+    "positiveRatio": 82,
+    "negativeRatio": 14,
+    "eventMentions": [
+      {
+        "text": "games are good enough, but the app will sell your data and won't let you change it. there are settin",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "i like that i can play game in a car,airplane,at my granys house and with no internet. i can still p",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "a lot of games, and none of them have annoying things like timers or limited moves. most games even ",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "one time payment for no random ads (optional ads still there) and consistently updated",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "super cool, actually wifi free, and keeps your attention. a-plus game. a game worth downloading. upd",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 82%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:35.784Z"
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "com.easybrain.sudoku.android",
+  "name": "Sudoku.com - Classic Sudoku",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Sudoku free puzzle is a popular classic number game to train your brain. Solve daily sudoku and have fun! Thousands of number games to explore. Install the sudoku free app to start now!\n\nClassic sudoku for beginners and advanced players. Whether you'd like to relax or keep your mind active – pass the time in a pleasant way with sudoku free puzzle game! Get a small stimulating break or clear your head! Take your favorite number game with you wherever you go. Sudoku is available offline. Playing t",
+    "released": "Nov 3, 2017",
+    "updated": 1776355893000,
+    "version": "7.5.0",
+    "installs": "100,000,000+",
+    "score": 4.4,
+    "ratings": 2381194,
+    "reviews": 17415,
+    "developer": "Easybrain",
+    "developerWebsite": "http://www.easybrain.com",
+    "genre": "Puzzle"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 56,
+      "2": 12,
+      "3": 14,
+      "4": 18,
+      "5": 100
+    },
+    "positiveRatio": 59,
+    "negativeRatio": 34,
+    "eventMentions": [
+      {
+        "text": "generally like this a lot. but there should be an option to turn off the annoying new bullseye. even",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "best sudoku app anywhere... reasons why it's an all time favourite? ✓super design... no intrusive ad",
+        "keywords": [
+          "event",
+          "update"
+        ]
+      },
+      {
+        "text": "i've played this game for years now and always enjoyed it but the recent addition of needing to earn",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "great game. just spoilt by ads! you dont mine if they at the start or end! but when they pop up mid ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this used to be a good game, but every update has been making it worse. i just want to play sudoku, ",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:49:17.335Z"
+}

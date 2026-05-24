@@ -1,0 +1,42 @@
+{
+  "appId": "highpixel.billion",
+  "name": "암살자 키우기 : 1주년",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Raising an Assassin: Newly Open!\n\nThe perfect harmony of dot action and idle RPG! Become a legend through secret, deadly combat.\n\nThe essence of an idle RPG that you can enjoy even in your busy daily life!\n“Raising an Assassin” is a game where dot action and idle RPG meet, allowing you to experience cool battles and constant growth. Defeat enemies in various battlefields and become an assassin who goes beyond your limits!\n\n◎ Experience unstoppable growth!\nDefeat monsters, collect goods, and beco",
+    "released": "Apr 19, 2025",
+    "updated": 1777742688000,
+    "version": "1.1.98",
+    "installs": "100,000+",
+    "score": 4.6803956,
+    "ratings": 5994,
+    "reviews": 1984,
+    "developer": "하이픽셀(HighPixel)",
+    "developerWebsite": "https://highpixelgame.blogspot.com/",
+    "genre": "Simulation",
+    "recentChanges": "-1주년 이벤트<br>-30일 특별 미션 관련 핫픽스"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:39:20.052Z"
+}

@@ -1,0 +1,42 @@
+{
+  "appId": "6766488589",
+  "name": "数独推演",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "每局可用的「教学法提示」与冲突高亮相辅相成：提示按技巧阶梯说明你该往哪一档宫行列观察，而不是一把填完整盘；再配合本地练习统计与每日一局节奏，把注意力留在真正的推理推演上。\n\n• 选难度新开一局：在同一套引擎下用更多或更少的出题数字微调难度。\n• 棋盘内点击空白格填入数字：系统标出与同区冲突，避免无效心算。\n• 教学法提示按钮：在无网络的情况下也能获取「下一步看什么」的中文引导。\n• 每日一局与 streak 界面：守住轻量仪式感，仍可完全离线。\n• 练习统计卡片：占位展示完成局数、提示次数与柱状趋势。\n• 浅色蓝底标示开局题目已知数，空白格与用户填写格均可编辑推演。\n\n本应用不向服务器上传你的棋盘或存档；棋盘进度、统计数据、反馈意见与占位成就均默认保存在设备本地（例如 UserDefaults/应用沙盒）。无账号、无社交排行榜。\n• 出题与提示逻辑为本地算法与资源；不涉及登录或第三方服务端同步。\n\n适合希望把精力放在「推演」本身的玩家：从简单多提示局练起，逐步提高挖空密度，再配合统计页回顾节奏。",
+    "released": "2026-05-05T07:00:00Z",
+    "updated": "2026-05-05T11:54:37Z",
+    "version": "1.0",
+    "score": 0,
+    "reviews": 0,
+    "developer": "Fatih GELER",
+    "developerUrl": "https://apps.apple.com/cn/developer/fatih-geler/id1896285582?uo=4",
+    "genres": [
+      "游戏"
+    ],
+    "releaseNotes": ""
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:35:04.917Z"
+}

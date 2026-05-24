@@ -1,0 +1,79 @@
+{
+  "appId": "com.AppFore.BubbleWordJam",
+  "name": "Bubble Word Jam",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "This game is a clever and calm word puzzle where every connection matters, designed for fans of brain and mind challenges. Your goal is simple: match the bubble words to their correct categories and clear the board in this smart sorting experience.\n\nTap bubbles, identify themes, and find the perfect flow as you sort words into groups using pure logic and vocabulary. Smooth mechanics and responsive controls make every play feel precise and satisfying.\n\nWith gradually increasing difficulty and tho",
+    "released": "Sep 8, 2025",
+    "updated": 1778514576000,
+    "version": "0.12.3",
+    "installs": "100,000+",
+    "score": 4.6,
+    "ratings": 9902,
+    "reviews": 372,
+    "developer": "Lion Studios Plus",
+    "developerWebsite": "https://lionstudios.cc/",
+    "genre": "Word",
+    "recentChanges": "✨ New Release ✨<br><br>💛 New Levels<br>🛠️ Bug fixes and game improvements<br>🎯 UI updates and visual polish<br><br>Thanks for playing! More exciting updates are on the way. 💛"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 29,
+      "2": 19,
+      "3": 26,
+      "4": 21,
+      "5": 105
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 24,
+    "eventMentions": [
+      {
+        "text": "it's all about revenue which eventually makes for a disappointing & frustrating player experience. a",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "it's a fun game but it keeps having glitches. mostly when you are starting a new game and the only w",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "it was good, but it is no longer giving new lives every 30 mins..",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "so far, i'm really enjoying this game. engaging and no annoying ads.... yet.... which is a huge plus",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "lives are not filling back up, won 15 minutes of unlimited lives and they vanished. haven't been abl",
+        "keywords": [
+          "limited"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:05:16.056Z"
+}

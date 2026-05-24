@@ -1,0 +1,48 @@
+{
+  "appId": "com.hhgame.mlbbvn",
+  "name": "Mobile Legends: Bang Bang FT",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Decision on approving the content of the G1 online game script: Decision No. 842/QD-BTTTT issued on May 23, 2024. License link: https://giayphep.abei.gov.vn/g1/130676\n\nJoin your friends in Mobile Legends: Bang Bang, a brand new 5v5 MOBA masterpiece, to compete with other players from all over the world! Choose your favorite champion and build a great team with your teammates! Team up in 10 seconds, fight for 10 minutes. From laning, jungling to destroying towers and fighting, all the fun from PC",
+    "released": "Dec 18, 2023",
+    "updated": 1776086770000,
+    "version": "2.1.67.11731",
+    "installs": "5,000,000+",
+    "score": 3.7680428,
+    "ratings": 97072,
+    "reviews": 54808,
+    "developer": "Funtap Games Joint Stock Company",
+    "genre": "Action",
+    "recentChanges": "1. Tướng Làm Lại: Tay Búa Thịnh Nộ - Aulus, một Đấu Sĩ bền bỉ với lối chơi xen kẽ Đòn Đánh Thường với kỹ năng.<br>2. Skin Collector mới Grock &quot;Minh Hải Thiết Giáp&quot; đã ra mắt giới hạn.<br>3. Skin Nộ Hoả Diện đã ra mắt giới hạn. Chắc chắn nhận ngẫu nhiên một Skin hoặc vật phẩm Nộ Hoả Diện trong 10 lần mở thưởng đầu tiên!<br>4. Chế Độ Giải Trí: Quyết Đấu Biển Băng và Phòng Thủ Thành Lũy đã ra mắt giới hạn!"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 18,
+      "2": 3,
+      "3": 2,
+      "4": 5,
+      "5": 22
+    },
+    "positiveRatio": 54,
+    "negativeRatio": 42,
+    "eventMentions": [
+      {
+        "text": "game không có phúc lợi cho người chơi. toàn nạp mới có skin còn không nạp chỉ có skin event và mấy s",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:54.906Z"
+}

@@ -1,0 +1,67 @@
+{
+  "appId": "com.dreamgames.royalkingdom",
+  "name": "Royal Kingdom",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "From the creators of Royal Match comes a brand new match 3 puzzle adventure in Royal Kingdom, starring the extended Royal Family!\n\nYou’ll meet King Richard, King Robert's younger brother, as well as a charming cast of new characters, including Princess Bella and the Wizard, to embark on a journey to build legendary kingdoms! Solve match 3 puzzles to explore new lands and defeat the Dark King & his army!\n\nMASTER MATCH 3 PUZZLES\nTest your skills and become the ultimate match 3 expert by solving fu",
+    "released": "Jul 27, 2023",
+    "updated": 1777569293000,
+    "version": "29827",
+    "installs": "50,000,000+",
+    "score": 4.7,
+    "ratings": 2146435,
+    "reviews": 3783,
+    "developer": "Dream Games, Ltd.",
+    "developerWebsite": "https://www.dreamgames.com",
+    "genre": "Puzzle",
+    "recentChanges": "Get ready for a marvelous new update!<br>• Prepare yourself for 100 NEW LEVELS! Experience fun and exciting challenges!<br>• Unlock the latest item, MACE! As it spins with rapid pace, everything breaks without a trace!<br>• Defeat the new enemy, CLOUD! It covers every tile in sight, clear it fast to bring back light!<br>• Explore the new district, FORTRESS! Keep expanding the kingdom to discover new horizons!<br>Play Royal Kingdom now!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 32,
+      "2": 11,
+      "3": 7,
+      "4": 22,
+      "5": 128
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 22,
+    "eventMentions": [
+      {
+        "text": "i liked this game until the latest update to the 4200 level. it is now very difficult to win. i have",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "another game designed to get you to pay to pay, it allows you to play for a little while but you hav",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "i'm obsessed with this game, i really enjoy completing each challenge and seeing what new challenge ",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 14 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:38:12.644Z"
+}

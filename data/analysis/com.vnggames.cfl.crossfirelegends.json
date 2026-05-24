@@ -1,0 +1,72 @@
+{
+  "appId": "com.vnggames.cfl.crossfirelegends",
+  "name": "Crossfire: Legends",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Decision No. 537/QD-PTTH&TTĐT on the online release of the G1 electronic game, issued by the Department of Broadcasting, Television and Electronic Information on December 4, 2025\n\n(https://giayphep.abei.gov.vn/g1/75514)\n\nCrossfire: Legends, the timeless FPS legend, has officially launched!\n\nOptimized for mobile platforms, Crossfire: Legends delivers the thrilling combat pace of the legendary PC version — now with smooth, intuitive controls, ready for any battle anytime, anywhere.\n\nGhost Mode Off",
+    "released": "Dec 13, 2025",
+    "updated": 1777025959000,
+    "version": "1.0.13.60",
+    "installs": "1,000,000+",
+    "score": 4.3,
+    "ratings": 84424,
+    "reviews": 24387,
+    "developer": "VNG GROUP JSC",
+    "genre": "Role Playing",
+    "recentChanges": "Crossfire Legends huyền thoại FPS vượt thời gian Chính Thức Ra Mắt cùng cập nhật mới thú vị!<br>- Ra mắt chế độ ZombAI – Thung Lũng Tử Thần: Phối hợp 4 người, chống lại từng đợt Zombie và tiêu diệt Boss để sinh tồn.<br>- Ra mắt chế độ Ghost: Kẻ địch tàng hình, di chuyển không tiếng động – chiến thắng bằng thính giác, phản xạ và chiến thuật.<br>- Chế độ Đấu đội, Đấu rank, Đặt bom C4 kinh điển.<br>- Hơn 600+ vũ khí và hàng trăm quà tặng đang chờ đón bạn."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 50,
+      "2": 7,
+      "3": 9,
+      "4": 7,
+      "5": 127
+    },
+    "positiveRatio": 67,
+    "negativeRatio": 28,
+    "eventMentions": [
+      {
+        "text": "update late",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "it was very fun. wish dev make more update=))",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "sự kiện thì ngu game thì mãi chưa thấy update cm gì",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "cho ra cái event, thách đố người chơi. trong khi đó hack vẫn có trong game mà không thấy xử lí !",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "stupid event",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-18T11:38:43.957Z"
+}

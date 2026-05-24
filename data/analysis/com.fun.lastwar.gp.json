@@ -1,0 +1,80 @@
+{
+  "appId": "com.fun.lastwar.gp",
+  "name": "Last War:Survival Game",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "A global zombie infestation has converted many into zombies. As a survivor, your primary goal is to retain your humanity and survive.\n\n- Think Fast, Move Faster!\nBegin your journey with an intense survival challenge. Dodge and combat waves of zombies. It's not just about survival; it's about quick reflexes and strategic thinking, as each lane presents unique obstacles and zombies!\n\n- Create Your Zombie-Free Shelter\nCustomize your base and expand your army - you are the light in this shelter, lea",
+    "released": "Aug 13, 2023",
+    "updated": 1778593769000,
+    "version": "VARY",
+    "installs": "100,000,000+",
+    "score": 4.5,
+    "ratings": 2006241,
+    "reviews": 4156,
+    "developer": "FUNFLY PTE. LTD.",
+    "developerWebsite": "https://www.lastwar.com/home.html",
+    "genre": "Strategy",
+    "recentChanges": "Improvements:<br>1. Unclaimed Daily Task rewards will be automatically sent via mail after the next server day refresh.<br>2. Event and battlefield resources can now be manually downloaded from the [Download Center]."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 89,
+      "2": 11,
+      "3": 14,
+      "4": 10,
+      "5": 76
+    },
+    "positiveRatio": 43,
+    "negativeRatio": 50,
+    "eventMentions": [
+      {
+        "text": "lebih enak klo bata emasnya pas lg event dibuat murah pasti banyak yg beli",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "playing for 2 years, mostly f2p. recent seasons have geared to catering to whales spending $1000s a ",
+        "keywords": [
+          "new",
+          "season"
+        ]
+      },
+      {
+        "text": "the support there is mostly non existent, i've been completely ignored for over a week. nothing new!",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "don't put money on this app, one simple mix of 2 letters you type on chat even if its towards no one",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "every season has become more of a cash grab",
+        "keywords": [
+          "season"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:37:20.713Z"
+}

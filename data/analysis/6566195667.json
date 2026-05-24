@@ -1,0 +1,44 @@
+{
+  "appId": "6566195667",
+  "name": "Chants of Sennaar",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "*立即免費體驗《Chants of Sennaar》，並解鎖完整版冒險旅程！*\n\n《Chants of Sennaar》是一款以敘事為核心的解謎冒險遊戲，你將扮演一位神祕的旅人，踏上一場為了重建高塔中失落語言與文化的壯闊旅程。\n發掘失落的符號與語法，挑戰以語言為基礎的謎題。\n在這座充滿層層奧祕的高塔中穿梭，每一層都居住著擁有獨特語言與文化的族群。透過觀察、傾聽與推理，彌合溝通上的隔閡，恢復塔中族群的和諧。\n「破譯古老語言，重新連結塔中久別的族群」——這款屢獲殊榮的解謎冒險遊戲，以鮮明且富有墨必斯風格的美術風格包裝，帶來深刻沉浸的體驗！\n\n特色\n\n- 踏上靈感源自巴別塔神話的迷宮式高塔，見證人們如何遺忘過往\n- 溝通就是關鍵：利用筆記記錄對話與觀察，從中逐步解開語言之謎\n- 體驗受墨必斯和法比系漫畫啟發的強烈視覺風格，搭配觸動心靈的原聲配樂，重新詮釋巴別塔的傳說\n- 與塔中多元族群互動，重新連結分崩離析的文化與語言\n- 解開關於旅人自身的隱藏真相，透過語言謎題，一步步登上高塔之巔\n\n專為行動裝置精心打造\n\n- 全新操作介面：支援完整觸控的專屬手機 UI\n- Game Center 成就系",
+    "released": "2025-08-25T07:00:00Z",
+    "updated": "2026-05-19T08:02:19Z",
+    "version": "1.0.10",
+    "score": 4.8,
+    "reviews": 152,
+    "developer": "Playdigious",
+    "developerUrl": "https://apps.apple.com/tw/developer/playdigious/id1041387229?uo=4",
+    "genres": [
+      "遊戲",
+      "冒險",
+      "解謎"
+    ],
+    "releaseNotes": "- 修正終局模擬中的黑屏問題"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:02:49.255Z"
+}

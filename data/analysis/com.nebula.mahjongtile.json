@@ -1,0 +1,48 @@
+{
+  "appId": "com.nebula.mahjongtile",
+  "name": "Mahjong Blast",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "☕️ Enjoy this classic ad-free offline mahjong tile matching puzzle game for mobile — a fun choice among relaxing matching games for adults & seniors, free games no ads, mahjong offline games, and offline games no WiFi. Built around original mahjong blocks and clear board game layouts, it follows familiar Chinese games of mahjong rules with intuitive tile matching mechanics (including classic mahjong solitaire play). Perfect for daily relaxation, stress relief, and killing time anytime—no interne",
+    "released": "Jun 23, 2025",
+    "updated": 1779455937000,
+    "version": "2.3.9",
+    "installs": "50,000,000+",
+    "score": 4.9,
+    "ratings": 1500908,
+    "reviews": 1581,
+    "developer": "Nebula  Studio",
+    "developerWebsite": "https://www.hurelax.com/",
+    "genre": "Board",
+    "recentChanges": "We refined the app to ensure better speed and stability."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 9,
+      "2": 5,
+      "3": 4,
+      "4": 8,
+      "5": 174
+    },
+    "positiveRatio": 91,
+    "negativeRatio": 7,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 91%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:07:00.623Z"
+}

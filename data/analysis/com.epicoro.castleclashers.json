@@ -1,0 +1,79 @@
+{
+  "appId": "com.epicoro.castleclashers",
+  "name": "Castle Busters",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "BREAK EVERY WALL. RULE EVERY ARENA.\nCastle Busters is a fast, real-time 1v1 PvP strategy brawler where every brick breaks and every shot counts. Draft 8 units, load your keep, and turn your rival's castle into a pile of rubble before they do it to you first. No bot waves. No 20-minute matches. Just online multiplayer PvP battles where one good angle wins the war.\n\nSMASH THE WALLS, NOT THE CLOCK\nMatches are quick. Decisions are not. Pick your shot, read the enemy line, and fire. Every wall, tower",
+    "released": "Jul 18, 2025",
+    "updated": 1778661401000,
+    "version": "1.9.1",
+    "installs": "5,000,000+",
+    "score": 4.5,
+    "ratings": 78420,
+    "reviews": 761,
+    "developer": "VOODOO",
+    "developerWebsite": "https://www.voodoo.io",
+    "genre": "Action",
+    "recentChanges": "• Bug fixes and improvements "
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 35,
+      "2": 10,
+      "3": 18,
+      "4": 18,
+      "5": 119
+    },
+    "positiveRatio": 69,
+    "negativeRatio": 23,
+    "eventMentions": [
+      {
+        "text": "i paid for season 1 pass and its stop at 60.. why yoh wont make it along woth the season or at least",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "every update introduces more bugs. i need to restart after every battle.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i prefer the old version, so one star because of the update 😕",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "love this game , just wish you could watch more adds to renew the win chests more then one time . ye",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "nice game please update more hero and stage",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:40:14.716Z"
+}

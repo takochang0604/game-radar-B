@@ -1,0 +1,55 @@
+{
+  "appId": "com.u1.relax.minigame3",
+  "name": "Mini Challenges: Calm Games",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Welcome to Mini Challenges: Calm Games, a fun, offline collection of mini & classic games made for pure relaxation and easy fun.\n\nNo pressure. Just tap tap gameplay, funny moments, and oddly satisfying challenges that help you relax your brain. From quick puzzles to tricky mini games, this is the perfect casual game to play anytime you need a break.\n\n🎮 HOW IT WORKS\n\n- Tap the screen. That’s it.\n- Simple controls, zero learning curve\n- Short mini games you can play anytime, anywhere\n\n✨ FEATURES\n",
+    "released": "Jan 22, 2026",
+    "updated": 1779367464000,
+    "version": "1.0.11",
+    "installs": "1,000,000+",
+    "score": 4.8,
+    "ratings": 15150,
+    "reviews": 29,
+    "developer": "UltraPub",
+    "developerWebsite": "http://ultrapub.net/",
+    "genre": "Casual",
+    "recentChanges": "+ Game optimization!"
+  },
+  "reviewAnalysis": {
+    "total": 120,
+    "starCounts": {
+      "1": 4,
+      "2": 4,
+      "3": 2,
+      "4": 6,
+      "5": 104
+    },
+    "positiveRatio": 92,
+    "negativeRatio": 7,
+    "eventMentions": [
+      {
+        "text": "is fun for me and you to play with a game like this you got to download it have a lot of games on mi",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 92%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:01.254Z"
+}

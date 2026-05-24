@@ -1,0 +1,73 @@
+{
+  "appId": "com.rovio.baba",
+  "name": "Angry Birds 2",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Join hundreds of millions of players for FREE and start the fun slingshot adventure now! Team up with your friends, climb the leaderboards, gather in clans, collect hats, take on challenges, and play fun events in all-new game modes. Evolve your team and show your skills in this exciting Angry Birds game !\n\nGet to know all of the iconic Angry Birds characters and experience the fun gameplay that has captured the hearts of millions of players.\n\nFeatures:\n\n● DAILY CHALLENGES. Have a minute? Comple",
+    "released": "Jul 23, 2015",
+    "updated": 1777547960000,
+    "version": "10.0.0",
+    "installs": "100,000,000+",
+    "score": 4.1,
+    "ratings": 6298529,
+    "reviews": 273591,
+    "developer": "Rovio Entertainment Oy",
+    "developerWebsite": "https://www.rovio.com",
+    "genre": "Casual",
+    "recentChanges": "Minor fixes and improvements. Just cleaning up around the nest."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 41,
+      "2": 8,
+      "3": 8,
+      "4": 20,
+      "5": 123
+    },
+    "positiveRatio": 72,
+    "negativeRatio": 25,
+    "eventMentions": [
+      {
+        "text": "it's more ab, with some new stuff. lots of stuff to spend irl money on!",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "one minute ago i win but this game supervisors made a like a rotation and i lost, also rovio/ sega g",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "subway surfers & angry birds 2 cross over event!!!",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "honestly, the new energy system kinda ruined the game for many people. angry birds 2 used to be some",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "another update: i am now since saying something not getting birds at all on some challenges. i have ",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:49:16.562Z"
+}

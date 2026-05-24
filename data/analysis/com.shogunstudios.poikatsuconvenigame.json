@@ -1,0 +1,41 @@
+{
+  "appId": "com.shogunstudios.poikatsuconvenigame",
+  "name": "ポイ活コンビニゲーム：買い物ソートパズルでポイントを稼ごう！",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Aim to be a convenience store master with “Poi Katsu Convenience Store Game”! !\n\nThis is a 3D product sorting puzzle set in a Japanese store called ``Convenience Store'' where you have to collect 3 of the same items scattered on the shelves and put them away.\n\n▼Features of the app\nA simple point game app where you can play 3D sorting puzzles for free!\nYou can earn Rakuten points and purchase your favorite products!\nUnlimited number of stages! Use useful items when times are difficult.\nA simple p",
+    "released": "May 14, 2025",
+    "updated": 1765220616000,
+    "version": "1.0.8",
+    "installs": "100,000+",
+    "score": 3.7,
+    "ratings": 4009,
+    "reviews": 403,
+    "developer": "SHOGUN STUDIOS",
+    "developerWebsite": "https://fancsglobal.com/",
+    "genre": "Puzzle"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:07:24.708Z"
+}

@@ -1,0 +1,44 @@
+{
+  "appId": "6757350661",
+  "name": "Police Chief",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "The world is shrouded in crime. Every city teems with gangs, drug cartels, and assassin syndicates, leaving citizens living in fear. As the newly appointed police chief, you must start small – strategically expanding a local precinct while safeguarding the city. Grow your reputation step by step: expand office spaces, establish new departments, streamline paperwork, recruit elite officers, and equip your team with top-tier gear to tackle increasingly complex cases. Transform a modest station int",
+    "released": "2026-05-08T07:00:00Z",
+    "updated": "2026-05-08T07:00:00Z",
+    "version": "0.0.688",
+    "score": 0,
+    "reviews": 0,
+    "developer": "VoyagerOne",
+    "developerUrl": "https://apps.apple.com/us/developer/voyagerone/id1839113942?uo=4",
+    "genres": [
+      "Games",
+      "Strategy",
+      "Entertainment"
+    ],
+    "releaseNotes": "[New Content]\n1. Added a long-press feature for Hero Equipment Upgrades\n\n[Optimization and Adjustments]\n1. Optimized the Hero selection interface in the Boot Camp\n2. Optimized the matchmaking logic in the Arena\n3. Optimized the display of the reservation pop-up for the Sting Operation\n4. Optimized terminology for Resource Collection\n\n[Fixed Content]\n1. Fixed issues with the chat feature\n2. Fixed an issue where some content of the Vault Trap was displayed incorrectly in the Alliance Journal"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-08T11:36:00.185Z"
+}

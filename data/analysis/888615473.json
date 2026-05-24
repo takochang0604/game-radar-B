@@ -1,0 +1,70 @@
+{
+  "appId": "888615473",
+  "name": "LINE Pokopoko 決戰波兔森林",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "超人氣益智遊戲Poko系列的第二款作品「LINE Pokopoko 決戰波兔森林」！\n\n=========================================== \n免費益智遊戲《LINE PokoPoko》等你來挑戰！\n=========================================== \n\n連線並消除兔子POKOTA、大熊COCO和野狼JEFF等可愛的動物方塊，\n使用幸運草來挑戰各種關卡吧！\n\n\n收集櫻桃來召喚夥伴，帶著更多夥伴一起去冒險！\n強化夥伴來提升冒險模式的排行吧！\n贈送幸運草給好友，休閒時一起來玩PokoPoko！\n\n\n【看似簡單卻有深度的益智遊戲】\n看似簡單可愛的動物方塊益智遊戲，其實得動腦才能不斷前進喔！\n不停過關來提升自己的排名，並向大家炫耀一番吧！\n和好友互送幸運草來盡情暢玩PokoPoko吧！\n\n\n【豐富的活動內容】\n限期舉辦活動關卡、賓果關卡、以及能贈送好友\n幸運草等禮物的禮物關卡等豐富內容！\n另外還有電子遊樂場可以挑戰，免費且充滿可愛動物的益智遊戲等你來玩！\n遊戲舉辦活動時還有機會獲得許多幸運草和櫻桃喔！\n\n\n【也別錯過冒險模式",
+    "released": "2014-09-03T02:31:35Z",
+    "updated": "2026-04-27T02:00:18Z",
+    "version": "3.33.1",
+    "score": 4.7023,
+    "reviews": 19036,
+    "developer": "LINE Corporation",
+    "developerUrl": "https://apps.apple.com/tw/developer/line-corporation/id359067226?uo=4",
+    "genres": [
+      "遊戲",
+      "動作",
+      "解謎"
+    ],
+    "releaseNotes": "【Ver.3.33.1】更新資訊\n\n■新增一般關卡／冒險模式關卡／活動關卡\n\n■新增活動功能\n\n■修正細部問題\n※新的道具組合包以及新功能的開放日程資訊將於遊戲內另行告知。\n\n請您今後繼續支持《LINE PokoPoko》，謝謝！"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 29,
+      "2": 2,
+      "3": 3,
+      "4": 1,
+      "5": 14
+    },
+    "positiveRatio": 31,
+    "negativeRatio": 63,
+    "eventMentions": [
+      {
+        "text": "看到line官方帳號日服有小魔女的活動，非常羨慕！希望臺灣伺服器也可以跟上",
+        "keywords": [
+          "活動"
+        ]
+      },
+      {
+        "text": "更新以後就打不開了，麻煩幫我調整，玩很久了⋯不想被浪費掉",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "常常付費支持這個遊戲，但是遊戲bug一堆， 提示有活動，但介面上根本都沒有，例如近期的釣魚達人，根本都不會出現在介面上，是要玩家怎麼玩，是在提示心酸的喔！道具又貴、關卡又難，真的讓玩家失去信任，退坑了",
+        "keywords": [
+          "活動"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-08T11:36:24.280Z"
+}

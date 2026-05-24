@@ -1,0 +1,42 @@
+{
+  "appId": "com.nhnent.pokerclassic",
+  "name": "한게임포커 클래식 : 7포커 홀덤 섯다 훌라 슬롯",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Hangame Poker Classic captures the essence of casino gaming.\nThe 20-year tradition of PC Hangame Poker, now available on mobile, is now available on PC.\n\n♠ Authentic mobile casino with poker games in one place♠\n- When it comes to poker, Seven Poker is the name! The sophisticated and clean basics of poker.\n- Hangame's popular Low Baduk!\n\n- High-Lo! Thrilling battles of wits!\n- Bold matches between skilled players! Hold'em.\n- Add the flavor of Seotda to poker: LA Seotda.\n- Receive, put, and discar",
+    "released": "Aug 12, 2020",
+    "updated": 1776654437000,
+    "version": "1.5.54",
+    "installs": "1,000,000+",
+    "score": 4.4864335,
+    "ratings": 25341,
+    "reviews": 4264,
+    "developer": "NHN Corp.",
+    "developerWebsite": "https://m.hangame.com",
+    "genre": "Casino",
+    "recentChanges": "■ 4월 정기 업데이트<br>- 스페셜 세일즈 오픈<br>- 기타 버그 수정 및 마이너 개선"
+  },
+  "reviewAnalysis": {
+    "total": 6,
+    "starCounts": {
+      "1": 2,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 3
+    },
+    "positiveRatio": 50,
+    "negativeRatio": 33,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:23:06.244Z"
+}

@@ -1,0 +1,79 @@
+{
+  "appId": "com.voodoo.almanac",
+  "name": "The Almanac",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Almanac brings your brain an exciting workout! Tired of losing hours to endless scrolling? It’s time to switch things up. Our app offers a collection of engaging logic puzzles designed to challenge your mind, boost focus, and improve memory — all while keeping you entertained. Sharpen Your Thinking – Solve a variety of puzzles that challenge logic, strategy, and creativity. Boost Focus & Memory – Strengthen neural connections and train your brain to stay sharp and agile. Minimalist, Distraction-",
+    "released": "Nov 13, 2025",
+    "updated": 1778708563000,
+    "version": "1.1.46",
+    "installs": "100,000+",
+    "score": 4.8,
+    "ratings": 2891,
+    "reviews": 32,
+    "developer": "Block Connect",
+    "genre": "Puzzle",
+    "recentChanges": "Small fixes"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 39,
+      "2": 22,
+      "3": 8,
+      "4": 22,
+      "5": 109
+    },
+    "positiveRatio": 66,
+    "negativeRatio": 31,
+    "eventMentions": [
+      {
+        "text": "update is terrible. enjoyed playing the 4 games daily. the new games they added are confusing and no",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "it was kind of cool, but the last update deleted the 6 good puzzles. now all you get is the 4 lame o",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i love the different puzzles on this game, but the amount of ads are killing it for me, i get that a",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "decent game but i can't find any way to transfer my progress to a new device. presumably have to sig",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i did enjoy this app and the variety of puzzles you could do, but then it updated. now everything, m",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:23.293Z"
+}

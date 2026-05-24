@@ -1,0 +1,49 @@
+{
+  "appId": "6755216123",
+  "name": "Bloodline: Dòng Máu Anh Hùng",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Quyết định phê duyệt nội dung kịch bản trò chơi điện tử G1 trên mạng: Số 66/QĐ-PTTH&TTĐT cấp ngày 10/02/2026\n\nBloodline: Dòng Máu Anh Hùng\nLà kiệt tác Fantasy hoàn toàn mới được thể hiện bằng nền đồ họa 3D vô cùng chi tiết và đẹp mắt. Bạn sẽ lựa chọn để dòng máu bản thân từ trong hơn trăm các Thần Thoại khác nhau trên thế giới. Phát triển thế lực của mình từ con số không, xây dựng vùng đất, mở rộng sản xuất, chiêu mộ các vị anh hùng, liên hôn cùng với các Bộ Tộc khác để có nhận được thêm nhiều h",
+    "released": "2026-05-13T07:00:00Z",
+    "updated": "2026-05-13T07:00:00Z",
+    "version": "0.0052.12",
+    "score": 4.6,
+    "reviews": 9,
+    "developer": "GZONE JSC",
+    "developerUrl": "https://apps.apple.com/vn/developer/gzone-jsc/id1715449230?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing"
+    ],
+    "releaseNotes": "ƯU ĐÃI KHỦNG\n- Tính năng Skip Battle: Bỏ qua trận đấu cực nhanh, nhận thưởng tức thì, tiết kiệm thời gian tối đa.\n- Đại tiệc Triệu hồi: Tặng ngay 1000 lượt quay miễn phí cho tất cả người chơi. Quay là trúng, nhận tướng xịn liền tay!\n- Tăng tỉ lệ triệu hồi: Nâng cao xác suất nhận tướng Thần Thoại"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 7 天，評分 4.6",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:51:56.306Z"
+}

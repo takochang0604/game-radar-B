@@ -1,0 +1,79 @@
+{
+  "appId": "com.ea.game.starwarscapital_row",
+  "name": "Star Wars™: Galaxy of Heroes",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nCollect, upgrade, and battle with iconic heroes from across Star Wars™ history, including Luke Skywalker, Ahsoka Tano, Darth Vader, Han Solo, Obi-Wan Kenobi, Yoda, The Mandalorian, and more. Experience a role-playing adventure that combines strategy, action RPG, and online multiplayer gameplay.\n\nEnter the Star Wars universe i",
+    "released": "Nov 9, 2015",
+    "updated": 1778864770000,
+    "version": "0.40.2012955",
+    "installs": "50,000,000+",
+    "score": 4,
+    "ratings": 1798343,
+    "reviews": 175498,
+    "developer": "ELECTRONIC ARTS",
+    "developerWebsite": "https://www.ea.com/games/starwars/galaxy-of-heroes",
+    "genre": "Role Playing",
+    "recentChanges": "Hey, Galaxy of Heroes fans! We’ve added some quality of life improvements in this update to make your game a more seamless experience. Have fun on the Holotables!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 52,
+      "2": 3,
+      "3": 16,
+      "4": 25,
+      "5": 104
+    },
+    "positiveRatio": 65,
+    "negativeRatio": 28,
+    "eventMentions": [
+      {
+        "text": "terrible.. if you want to hop on a game and have nowhere near the capabilities of someone who starte",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "this game is even better, than it was two years ago when i first played it! even though this is an r",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "while i like the revamped campaign missions in context i cant actually enjoy them since at this rate",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "still a trash game. squad arena for instance, they give the opposing team unlimited moves bypassing ",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "there are no ads and if you like star wars like i do then you will love this game. there are probabl",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:32.281Z"
+}

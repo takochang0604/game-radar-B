@@ -1,0 +1,42 @@
+{
+  "appId": "6450212066",
+  "name": "怒火一刀-正版怀旧传奇手游全新起航",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "神器打金版本重装来袭，保留传统玩法同时提升游戏品质。\n游戏复刻的同时结合玩法及画面的创新，融合手游级的操作便捷，让你能够随时随地呼朋唤友上线征战沙场。\n炫酷的时装外形，感受刀刀光柱、神器满地、特有的华丽技能让你应接不暇，重回那段美好时光。\n\n【打金神器 自由交易】\n游戏中装备全靠打，自由交易元宝极速回收，非常适合打金打宝；\n\n【自由PK 跨服争霸】\n安全区外任意地方即可PK，击杀红名爆出装备，跨服争霸与其他服一起抢夺资源，争夺BOSS；\n\n【泡点挂机 升级轻松】\n上线一分钟即可体验泡点挂机升级；\n\n【重回荣耀之巅】\n荣耀征战沙巴克皇城，问鼎皇城之巅！\n\n游戏特色：\n第一天全图刷怪，神装满地战力不用愁！\n第二天上古宝藏现世，神秘地带挖宝！\n第十天沙巴克争霸，城主登顶号令群雄！\n第二十天仙岛出世，跨服泡点，试问哪家行会强无敌！\n第三十天跨服斗技，群雄争霸，荣登荣耀桂冠！",
+    "released": "2023-06-24T07:00:00Z",
+    "updated": "2023-07-05T01:45:32Z",
+    "version": "1.3",
+    "score": 0,
+    "reviews": 0,
+    "developer": "SZYAGAMES",
+    "developerUrl": "https://apps.apple.com/ph/developer/szyagames/id1884202612?uo=4",
+    "genres": [
+      "Games"
+    ],
+    "releaseNotes": "修复app可能出现的闪退问题。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:36:11.975Z"
+}

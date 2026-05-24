@@ -1,0 +1,48 @@
+{
+  "appId": "com.galasports.championsfc.vn",
+  "name": "Đội Hình Tối Thượng",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Decision to approve the content of the G1 electronic game script No. 2201/QD-BTTTT issued on November 10, 2023\n\n[Introduction]\nWith a long-standing brand and unquestionable quality, Football Master 2 is the most realistic and groundbreaking football management game today. Built on an extremely high-quality 3D graphics platform. Create your own team from scratch, train your players to become superstars and compete with other managers in different tournaments around the world. This great game is r",
+    "released": "Aug 12, 2021",
+    "updated": 1775804624000,
+    "version": "6.4.160",
+    "installs": "1,000,000+",
+    "score": 4.239603,
+    "ratings": 42149,
+    "reviews": 17910,
+    "developer": "TAP TAP STUDIO VIETNAM COMPANY LIMITED",
+    "developerWebsite": "https://dhtt.zoneplay.vn/",
+    "genre": "Sports"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 10,
+      "2": 0,
+      "3": 1,
+      "4": 2,
+      "5": 37
+    },
+    "positiveRatio": 78,
+    "negativeRatio": 20,
+    "eventMentions": [
+      {
+        "text": "update very much !!!",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:08:53.167Z"
+}

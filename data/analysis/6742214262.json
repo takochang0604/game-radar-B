@@ -1,0 +1,43 @@
+{
+  "appId": "6742214262",
+  "name": "Shin chan: Shiro & Coal Town",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Available exclusively for Crunchyroll Mega and Ultimate Fan Members.\n\nWelcome to Coal Town, a lively and prosperous town that seems to have been frozen in time since the Showa era. In this town, there are energetic working-class people going about their day. After meeting a mysterious young girl, Shinnosuke becomes friends with these people.\nAnd so begins Shinnosuke’s newest adventure…!\n\nFEATURES\n- Fish Akita’s diverse rivers to catch common and rare species to add to your nature book collection",
+    "released": "2025-05-21T07:00:00Z",
+    "updated": "2025-05-21T07:00:00Z",
+    "version": "1.0.1",
+    "score": 2.69007,
+    "reviews": 413,
+    "developer": "Crunchyroll, LLC",
+    "developerUrl": "https://apps.apple.com/th/developer/crunchyroll-llc/id329913457?uo=4",
+    "genres": [
+      "Games",
+      "Adventure"
+    ],
+    "releaseNotes": "Minor improvements"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 12,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 31
+    },
+    "positiveRatio": 67,
+    "negativeRatio": 29,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:04:53.095Z"
+}

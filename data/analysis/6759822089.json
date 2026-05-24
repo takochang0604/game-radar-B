@@ -1,0 +1,44 @@
+{
+  "appId": "6759822089",
+  "name": "오늘의 꽃 : 진짜 꽃을 키우는 게임",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "당신의 일상을 꽃피울 힐링 정원, [오늘의 꽃]에 오신 것을 환영합니다!\n\n▶ 받으세요! 실제 꽃다발을!\n게임 속에서 정성껏 키운 꽃을 당신의 집으로!\n실제 예쁜 꽃다발과 꽃바구니를 집으로 직접 배송 받는 특별한 혜택을 누려보세요.\n\n▶ 어서와요! 꽃밭가득 정원으로!\n씨앗 재배부터 수확까지! 다채로운 꽃을 심고 나만의 꽃집을 운영하며,\n정원을 점점 더 넓혀가는 힐링 경영 시뮬레이션을 즐겨보세요.\n\n▶ 피어나요! 세상 모든 꽃들이!\n신비로운 '꽃의 정령' 시스템과 함께 평소 보기 힘든\n아름답고 희귀한 꽃들을 수집하고 도감을 채워가는 재미를 느껴보세요.\n\n▶ 만들어요! 나만의 꽃다발을!\n직접 수확한 꽃들을 조합해 아름다운 꽃다발을 만들고 판매하며,\n나만의 꽃집을 최고의 핫 플레이스로 성장시켜 보세요.\n\n▶ 꾸며봐요! 가장 특별한 당신을!\n다양한 의상 아이템으로 캐릭터를 내 취향대로 꾸미고,\n레벨에 따라 새롭게 열리는 몰입감 넘치는 스토리 모드를 경험해 보세요.\n\n▶ 키워봐요! 사랑스런 ",
+    "released": "2026-05-20T07:00:00Z",
+    "updated": "2026-05-20T23:03:43Z",
+    "version": "1.0.2",
+    "score": 3.9,
+    "reviews": 31,
+    "developer": "Ujoy Games Limited",
+    "developerUrl": "https://apps.apple.com/kr/developer/ujoy-games-limited/id1498886982?uo=4",
+    "genres": [
+      "게임",
+      "시뮬레이션",
+      "캐주얼"
+    ],
+    "releaseNotes": "최신 빌드"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:03:18.875Z"
+}

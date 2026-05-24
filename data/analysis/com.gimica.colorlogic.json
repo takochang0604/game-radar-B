@@ -1,0 +1,67 @@
+{
+  "appId": "com.gimica.colorlogic",
+  "name": "Color Logic",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "The rules are simple in this fun and relaxing color matching game, match at least four blocks of any color on the board to make them disappear but be careful! When there's no space left, it's game over!\n\nUse your wits to play with strategy to make the most matches possible and set the highest scores you can!",
+    "released": "Aug 11, 2023",
+    "updated": 1777281404000,
+    "version": "1.13.0",
+    "installs": "100,000+",
+    "score": 4.6,
+    "ratings": 9280,
+    "reviews": 400,
+    "developer": "Gimica GmbH",
+    "developerWebsite": "https://www.gimica.com",
+    "genre": "Puzzle",
+    "recentChanges": "- Bug Fixes <br>- New SDK Integrations"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 11,
+      "2": 5,
+      "3": 13,
+      "4": 23,
+      "5": 148
+    },
+    "positiveRatio": 86,
+    "negativeRatio": 8,
+    "eventMentions": [
+      {
+        "text": "interesting new kind of strategy game",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "so far i am enjoying this game the color match is a new one for me. and i love puzzles give it a try",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "feels unfinished . it's a complete working game .. just missing something i can't put my finger on .",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 86%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:50:59.401Z"
+}

@@ -1,0 +1,45 @@
+{
+  "appId": "329218549",
+  "name": "Chess - Play & Learn Online",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Play chess lessons online with over 250M players from around the world!\n\nChess is known as the best strategy board game in the world!\n\nEnjoy unlimited 3D offline pocket chess games and improve your chess rating with 500,000+ puzzles, more than 20 million chess games a day, lessons, and over 100 powerful bot opponents. Unlock your inner chess master today!\n\nPLAY CHESS ONLINE:\n- 2 Player online chess mode is entirely free to enjoy with your friends.\n- Join tournaments with players online or friend",
+    "released": "2009-10-29T03:18:55Z",
+    "updated": "2026-05-18T22:34:42Z",
+    "version": "4.10.7",
+    "score": 4.8,
+    "reviews": 747439,
+    "developer": "Chess.com",
+    "developerUrl": "https://apps.apple.com/us/developer/chess-com/id329218552?uo=4",
+    "genres": [
+      "Games",
+      "Strategy",
+      "Board",
+      "Entertainment"
+    ],
+    "releaseNotes": "Hi chess fans! Today's new version improves app quality, removing a couple of bugs that could cause the app to crash. We hope you enjoy it! Thank you."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:06.125Z"
+}

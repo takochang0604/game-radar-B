@@ -1,0 +1,62 @@
+{
+  "appId": "com.bunbunstudio.magicblocktiles",
+  "name": "Music Piano 7: Rush Song Games",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "🎹 Music Piano 7: The Ultimate Piano Tiles Rush Game! 🎵\n\nLove tapping to trending songs? Music Piano 7 is the addictive rhythm game where you tap piano tiles to your favorite Pop, K-pop, EDM, Hip-Hop, and R&B hits. Perfect for music lovers and rhythm game fans!\n\n🎮 HOW TO PLAY PIANO TILES\n- Tap the Tiles: Tap black and white tiles to the beat\n- Hold the Rhythm: Press and hold long tiles for continuous melody\n- Don't Miss: Keep perfect timing for 3-star scores!\n- Challenge Mode: Test your speed ",
+    "released": "Oct 12, 2023",
+    "updated": 1778691330000,
+    "version": "3.7.11",
+    "installs": "50,000,000+",
+    "score": 4.7,
+    "ratings": 386769,
+    "reviews": 2439,
+    "developer": "Melodya Muses",
+    "developerWebsite": "https://com-bunbunstudio-magicblocktiles.netlify.app/app-ads.txt",
+    "genre": "Music",
+    "recentChanges": "What&#39;s New:<br>- Smoother Gameplay: Optimized visuals and performance for a flawless rhythm experience!<br>- Bug Fixes: Minor tweaks for better stability.<br>Keep jamming and let us know what you think! 🎶"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 46,
+      "2": 9,
+      "3": 19,
+      "4": 14,
+      "5": 112
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 28,
+    "eventMentions": [
+      {
+        "text": "so many ads, and i don't know how to disable, whether must buy or what i try to search how to buy bu",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "nice play piano with new song update.",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:37:52.316Z"
+}

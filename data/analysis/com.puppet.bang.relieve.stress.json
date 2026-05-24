@@ -1,0 +1,60 @@
+{
+  "appId": "com.puppet.bang.relieve.stress",
+  "name": "Puppet Bang!",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Stressed Out? Let Puppet Bang! Smash Your Worries Away!\nLife got you down? Annoying boss, endless bills, or just a bad day? Don’t hold it in—let it out! Puppet Bang! is your private emotional recycling bin. No rules, no limits—just pure, unadulterated destruction!\n\n🛠️ YOUR ULTIMATE ARSENAL\nClassic Hits: Fists, baseball bats, and even giant frying pans!\n\nHeavy Firepower: Grenades, C4, and Nuclear Warheads—fill your screen with epic explosions.\n\nHigh-Tech Gear: Lasers, orbital cannons, and freeze",
+    "released": "Mar 11, 2026",
+    "updated": 1777442077000,
+    "version": "1.0.6",
+    "installs": "500,000+",
+    "score": 3.7402596,
+    "ratings": 938,
+    "reviews": 10,
+    "developer": "LNet Plus",
+    "developerWebsite": "https://d102wbcxe6opwt.cloudfront.net",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 40,
+    "starCounts": {
+      "1": 35,
+      "2": 1,
+      "3": 0,
+      "4": 1,
+      "5": 3
+    },
+    "positiveRatio": 10,
+    "negativeRatio": 90,
+    "eventMentions": [
+      {
+        "text": "every time i try to play a new round it keeps popping up as an add.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "bad bad bad game it hacked my phone and lucky for me i knew how to fix it",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:02:54.433Z"
+}

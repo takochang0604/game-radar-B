@@ -1,0 +1,79 @@
+{
+  "appId": "com.heavenburnsred",
+  "name": "ヘブンバーンズレッド",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Winner of the Google Play Best of 2022 awards: \"Best Game of 2022,\" \"User Vote Game Category Grand Prize,\" and \"Story Category Award\"!\n\nKey's Jun Maeda's \"Heaven Burns Red\" tells the story of girls entrusted with their final hope.\n\nRun across the field, experience irreplaceable everyday life, and engage in life-or-death battles in this dramatic RPG!\n\n◆Features of Heaven Burns Red\nSimilar to \"AIR,\" \"CLANNAD,\" and \"Little Busters!\" Jun Maeda, the creator of Key, who has brought us numerous masterp",
+    "released": "Feb 3, 2022",
+    "updated": 1778912031000,
+    "version": "6.5.0",
+    "installs": "1,000,000+",
+    "score": 4,
+    "ratings": 77977,
+    "reviews": 11480,
+    "developer": "WFS, Inc.",
+    "developerWebsite": "https://heaven-burns-red.com/",
+    "genre": "Role Playing",
+    "recentChanges": "[Ver 6.5.0]<br>・今後の運営のゲームデータ追加<br>・軽微な不具合の修正"
+  },
+  "reviewAnalysis": {
+    "total": 147,
+    "starCounts": {
+      "1": 23,
+      "2": 6,
+      "3": 7,
+      "4": 16,
+      "5": 95
+    },
+    "positiveRatio": 76,
+    "negativeRatio": 20,
+    "eventMentions": [
+      {
+        "text": "while the most recent update has been causing issues for many, this game's story is amazing and i ho",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this game gave me two fells of the throne in my same 3rd 10 pulls😭✋and gave me multiple ss and 2 li",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "don't play this game anymore, the card you pulled will become useless eventually",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "to players who want to try: you better not. or you should watch main story videos first. without jun",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "建議優化真的要改一下，本人手機跑原神都不會燙了但貴公司出品的這款遊戲有時就會燙的不像話且遊戲中時常莫名掉幀，希望能夠盡快改善，小小願望，希望能夠新增好友系統",
+        "keywords": [
+          "新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:07:58.367Z"
+}

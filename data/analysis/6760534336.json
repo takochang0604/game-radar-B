@@ -1,0 +1,50 @@
+{
+  "appId": "6760534336",
+  "name": "Samkok: Blood Oath",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "A new vision of the Three Kingdoms, where heroes rise and forge their destiny through Blood Oaths.\nStunning anime-style character design\nIconic generals and legendary heroines fight side by side\nEach hero awakens unique powers through Blood Oaths\nFight with honor. Rise with your allies. Conquer with your strategy.\nThis is not just history.\nThis is Samkok: Blood Oath.\n\nSTART STRONG — NO PAYWALL, JUST POWER\n\nLog in and claim endless FREE DRAWS, legendary heroes, and huge launch rewards.\nInstant SS",
+    "released": "2026-05-11T07:00:00Z",
+    "updated": "2026-05-11T07:00:00Z",
+    "version": "1.2",
+    "score": 4.1,
+    "reviews": 21,
+    "developer": "LUMENCODE",
+    "developerUrl": "https://apps.apple.com/th/developer/lumencode/id1864273278?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Role-Playing"
+    ],
+    "releaseNotes": "Internationalization adaptation and rendering optimization"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 4 天，評分 4.1",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:38:02.941Z"
+}

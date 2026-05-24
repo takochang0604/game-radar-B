@@ -1,0 +1,41 @@
+{
+  "appId": "com.mini.coffeegame",
+  "name": "Coffee Rush Run",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Welcome to Coffee Rush Run ！！！\nCoffee Rush Run is a new merge game an innovative simulation and management game designed to offer players an immersive experience in the world of culinary entrepreneurship. With its captivating gameplay and unique mechanics, Coffee Rush Run promises to redefine the genre and provide endless hours of entertainment.\nAt Coffee Rush Run, players step into the shoes of a budding entrepreneur with dreams of building the ultimate cafe empire. From humble beginnings, they",
+    "released": "Mar 5, 2026",
+    "updated": 1773210601000,
+    "version": "1.0.2",
+    "installs": "100,000+",
+    "score": 3.5,
+    "ratings": 79,
+    "reviews": 1,
+    "developer": "starrr tech",
+    "developerWebsite": "http://coffeerushrun1.blogspot.com",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:40:36.537Z"
+}

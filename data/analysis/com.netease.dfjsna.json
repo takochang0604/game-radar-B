@@ -1,0 +1,77 @@
+{
+  "appId": "com.netease.dfjsna",
+  "name": "Racing Master",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Racing Master is a high-quality racing game developed in collaboration with CODEMASTERS®. It features over 100 officially licensed iconic vehicles that players can customize, allowing them to compete in thrilling races set in cities and renowned circuits around the world. With realistic visuals and engine sounds, you can experience an immersive atmosphere that feels just like the real thing, while also enjoying fierce real-time competition with other players.\n \n——————————————\nKey Features of Rac",
+    "released": "Apr 9, 2026",
+    "updated": 1777012259000,
+    "version": "0.29.2",
+    "installs": "100,000+",
+    "score": 4.7,
+    "ratings": 3234,
+    "reviews": 381,
+    "developer": "Exptional Global",
+    "genre": "Racing"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 18,
+      "2": 6,
+      "3": 9,
+      "4": 25,
+      "5": 142
+    },
+    "positiveRatio": 84,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "the best racing game on mobile. and it just released! i highly recommend playing it, it's a lot of f",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "at first it was good but then i realized that during one event race called elimination i saw someone",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "codemasters!!!! they made some of the best racing games 20+ years now! netease and codemasters toget",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "there's a bug where if you use the virtual steering wheel and turn to the right it activates reverse",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "hallo, i'm in serious need of your help, please help me , actually my region is india and i know gam",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 84%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:37:44.380Z"
+}

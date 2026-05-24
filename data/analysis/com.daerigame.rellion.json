@@ -1,0 +1,67 @@
+{
+  "appId": "com.daerigame.rellion",
+  "name": "RELLION: NPC Survival",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "▣ Your Choices Shape the World ▣\nIn Rellion, a forgotten realm now ruled only by NPCs, you step in as the “True Player.”\nWhat path will you choose in this fading world? Shape your destiny in Rellion.\n\n▣ Game Features ▣\n\n[Legendary Rewards Just for Logging In]\n• Instantly receive an SSR Hero\n• Start your adventure with a powerful companion by your side\n\n[Infinite Growth & Alchemy Gem System]\n• Auto-grow even while you’re offline\n• Claim all your overnight resources with a single tap\n• Rewards acc",
+    "released": "May 12, 2026",
+    "updated": 1779356649000,
+    "version": "1.10.4",
+    "installs": "50,000+",
+    "score": 4.6,
+    "ratings": 3592,
+    "reviews": 65,
+    "developer": "DAERI SOFT Inc",
+    "developerWebsite": "https://daerisoft.imweb.me/",
+    "genre": "Role Playing",
+    "recentChanges": "Bug Fixes and Optimization"
+  },
+  "reviewAnalysis": {
+    "total": 53,
+    "starCounts": {
+      "1": 11,
+      "2": 3,
+      "3": 1,
+      "4": 3,
+      "5": 35
+    },
+    "positiveRatio": 72,
+    "negativeRatio": 26,
+    "eventMentions": [
+      {
+        "text": "still have some bugs but with quick response from devs it easily resolve. overall with constant upda",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "update but nothing to update , app stuck",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 11 天，評分 4.6",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:08.403Z"
+}

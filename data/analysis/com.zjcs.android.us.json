@@ -1,0 +1,83 @@
+{
+  "appId": "com.zjcs.android.us",
+  "name": "Sword x Staff",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Sword x Staff is a one-of-a-kind RPG — a “Third Way RPG.”\nStrategy, massive world exploration, idle—why pick one when you can have it all?\nGo hardcore, or just vibe—either way, you’ll find your own kind of fun here. The kind that actually feels different.\nNo pressure, no one way to play—just jump in, explore, and let the adventure click your way.\nCurious what the gameplay is really like?\nSo, welcome to the unique world of Kanstein, and experience the one-of-a-kind Third Way adventure. Here, you ",
+    "released": "May 13, 2026",
+    "updated": 1778675189000,
+    "version": "1.0.0",
+    "installs": "100,000+",
+    "score": 4.7,
+    "ratings": 14975,
+    "reviews": 744,
+    "developer": "BOLTRAY GAMES",
+    "genre": "Role Playing"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 29,
+      "2": 8,
+      "3": 7,
+      "4": 17,
+      "5": 139
+    },
+    "positiveRatio": 78,
+    "negativeRatio": 19,
+    "eventMentions": [
+      {
+        "text": "really fun rpg game. different and hard levels interesting and many rewards. hopefully they do some ",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "love the art and how the games goes . i hope the future brings better updates and quality of life ch",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "love this new game its fun",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "[guild osiris#0] is calling for new members! but \"sensitive words detected\"? yeah ima go ahead and h",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this seems like a decent idle rpg. its great that you only need to check it once a day to collect th",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 10 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:02:16.004Z"
+}

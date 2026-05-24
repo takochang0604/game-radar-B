@@ -1,0 +1,43 @@
+{
+  "appId": "1467762267",
+  "name": "Stickman Party: 4 player games",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Stickman Party is a unique arcade game created so that you can have fun in the company of friends, as well as Stickmen!\nHere is a whole collection of addictive and very exciting games for every day, play wherever and whenever. Compete with your friends or family in more than 30 different types of competitive games, this arcade will allow you to play immediately 1 2 3 and four players on one device. Fight on powerful tanks in hot dueling, play soccer in team battles 2 on 2 or 1 on 1, take part in",
+    "released": "2019-08-01T07:00:00Z",
+    "updated": "2025-06-12T23:41:48Z",
+    "version": "2.4.9",
+    "score": 4.5,
+    "reviews": 115405,
+    "developer": "Maxim Krivokonev",
+    "developerUrl": "https://apps.apple.com/vn/developer/maxim-krivokonev/id1377345236?uo=4",
+    "genres": [
+      "Games",
+      "Family"
+    ],
+    "releaseNotes": "- Fixed achievement bugs\n- Fixed game bugs\n- Added 3 new mini games\n- Added new colors\n- Added new hats"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:51:09.194Z"
+}

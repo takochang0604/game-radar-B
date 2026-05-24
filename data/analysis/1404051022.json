@@ -1,0 +1,45 @@
+{
+  "appId": "1404051022",
+  "name": "Ragnarok M : Eternal Love",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Authorized by Ragnarok Online, A Continuation of the Classic Adventure\n\nLand of Snowflakes, the grand new expansion pack, has been launched. Beneath the Everlasting Primefrost whispers an elegy to a lost crown. The frozen land mirrors the glimmer of minds whose paths cross. Inside the abyssal furnace, an artificial heart pulses weakly. The Wind of Fate has arrived. Do you hear the call from another world?\n\n===Game Features===\n◈ Continuation of Classic, Original Will Upheld ◈\nA free-to-play game ",
+    "released": "2018-10-30T13:22:26Z",
+    "updated": "2026-05-18T01:01:58Z",
+    "version": "1.4.7",
+    "score": 4.2,
+    "reviews": 31388,
+    "developer": "Gravity Interactive, Inc.",
+    "developerUrl": "https://apps.apple.com/ph/developer/gravity-interactive-inc/id1183164104?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing",
+      "Adventure",
+      "Entertainment"
+    ],
+    "releaseNotes": "A collab event between Ragnarok M and the anime [Uncle from Another World] is being launched. The event will last from May 18th to June 18th."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:41:45.962Z"
+}

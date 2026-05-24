@@ -1,0 +1,74 @@
+{
+  "appId": "com.rekoo.pubgm",
+  "name": "PUBG MOBILE：絕地求生M",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "[Epic Battle Royale Masterpiece] There are so many activities waiting for you to play.\nGet to the top in PUBG MOBILE and fire it up. PUBG MOBILE is the original battle royale mobile game and the pinnacle of mobile shooting games.\n\n[Extreme Firefight, 10 Minutes to Fight] Prepare your firearms, respond to PUBG MOBILE’s battle call, and fight freely in the battle.\n\n[Lots of maps, more battles] PUBG MOBILE provides a large number of map gameplays, allowing you to enjoy a new and exciting survival e",
+    "released": "Apr 17, 2019",
+    "updated": 1777365049000,
+    "version": "4.4.0",
+    "installs": "1,000,000+",
+    "score": 3.9,
+    "ratings": 105537,
+    "reviews": 47974,
+    "developer": "HotCool Game",
+    "developerWebsite": "http://www.pubgmobile.com",
+    "genre": "Action",
+    "recentChanges": "首個古希臘神話主題版本「英雄冠冕」現已登場！征服四大神殿城區，完成五大榮耀試煉，招攬半人馬夥伴並肩作戰！"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 53,
+      "2": 3,
+      "3": 11,
+      "4": 15,
+      "5": 118
+    },
+    "positiveRatio": 67,
+    "negativeRatio": 28,
+    "eventMentions": [
+      {
+        "text": "we don’t like the changes with interface. please return the old version. many people stop play game ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "when 3.7 update?",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i have been playing this game since 2020 but earlier this game was very smooth, it used to run smoot",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "this just happened to me this week i think that i can't invite some of my friends because i don't ha",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this game is annoying in evey month you will need an update and the worst part of this the update is",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T12:08:49.491Z"
+}

@@ -1,0 +1,51 @@
+{
+  "appId": "6749222433",
+  "name": "Color Block Run - Puzzle Game",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Escape the everyday with Color Block Run: Addictive, calming puzzles that challenge your brain and soothe your soul.\nExperience the satisfying crunch of logic as you slide blocks, clear space, and outsmart clever obstacles. Each solved puzzle delivers a rewarding mental boost!\n\nKey Features:\nEndless Evolving Challenges: Hundreds of levels from relaxing to intensely complex. Regular free updates!\nSoothing Visual Escape: Clean, minimalist design with beautiful, calming color palettes. A true visua",
+    "released": "2025-08-12T07:00:00Z",
+    "updated": "2026-05-09T18:09:45Z",
+    "version": "3.8",
+    "score": 4.74364,
+    "reviews": 2321,
+    "developer": "PLAY2EVER GAMES LIMITED",
+    "developerUrl": "https://apps.apple.com/us/developer/play2ever-games-limited/id1829381081?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Puzzle"
+    ],
+    "releaseNotes": "New Update: Color Block Run - Better Performance, Endless Puzzles! \n\n~Massive Content Library:\nTest your spatial reasoning and puzzle strategy across over 900 unique challenges! Yes, that's 900+ levels of pure logic game fun waiting for you.\n\n~Performance Upgrade:\nOptimized for faster loading and smoother block movement. Enjoy a more fluid color block matching experience!\n\n~User Interface Refinements:\nMinor visual tweaks and improvements to make navigating our vast library of brain teasers more pleasant.\n\n~Stability Improvements:\nFixed several small bugs and enhanced overall stability for an uninterrupted puzzle session.\n\nUpdate Now and Keep Running Through the Puzzles!"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 36,
+      "2": 6,
+      "3": 0,
+      "4": 0,
+      "5": 7
+    },
+    "positiveRatio": 14,
+    "negativeRatio": 86,
+    "eventMentions": [
+      {
+        "text": "i’m at level 455 and the last levels keep repeating! there is no new content at this level!",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-11T11:41:58.219Z"
+}

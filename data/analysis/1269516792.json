@@ -1,0 +1,45 @@
+{
+  "appId": "1269516792",
+  "name": "2 3 4 Player Games",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Duel your friends in a variety of 2,3 or4 player minigames using simple one touch controls! Play simultaneously on the same device for multiplayer action on the road, wherever you are.\nYou can play with two players but if you have more friends or family around you can battle it out with three or four players.\nYou can also play the 4 Player Cup to determine who is the best!\n\nSnake Arena\nGrow your snake by eating stars, but be careful, make sure your head doesn't touch an opponent's body.\nTry to c",
+    "released": "2017-10-07T07:17:16Z",
+    "updated": "2025-11-01T16:30:13Z",
+    "version": "7.7.0",
+    "score": 3.9,
+    "reviews": 11242,
+    "developer": "Jochem Bergman",
+    "developerUrl": "https://apps.apple.com/vn/developer/jochem-bergman/id1123355526?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Entertainment",
+      "Family"
+    ],
+    "releaseNotes": "7.7.0\n* 3 new minigames\n* Bug fixes"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-19T12:55:42.272Z"
+}

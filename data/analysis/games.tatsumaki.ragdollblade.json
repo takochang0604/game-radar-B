@@ -1,0 +1,73 @@
+{
+  "appId": "games.tatsumaki.ragdollblade",
+  "name": "Ragdoll Blade",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Control the ragdoll and slash through all the enemies with your sword.If you’re hit by an enemy’s blade, you’ll lose the ability to move some joints.The key is to skillfully dodge the enemy’s attacks!",
+    "released": "Nov 17, 2024",
+    "updated": 1777005349000,
+    "version": "2.2.4",
+    "installs": "10,000,000+",
+    "score": 4.5,
+    "ratings": 11348,
+    "reviews": 90,
+    "developer": "tatsumaki games",
+    "developerWebsite": "https://www.tatsumaki.games/",
+    "genre": "Action",
+    "recentChanges": "change enemy color."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 49,
+      "2": 8,
+      "3": 22,
+      "4": 22,
+      "5": 99
+    },
+    "positiveRatio": 61,
+    "negativeRatio": 28,
+    "eventMentions": [
+      {
+        "text": "added new round",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "fun game but with how quick the levels are 30 is not enough. needs more. unfortunately i don't think",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "its just over and over again i dont even get new experiences",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "hilarious! this game needs to be expanded not much to change just more levels. maybe longer ones wit",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "best game in no net but please add new levels",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:06:27.864Z"
+}

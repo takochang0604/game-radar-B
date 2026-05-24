@@ -1,0 +1,61 @@
+{
+  "appId": "com.mob.crowd.arena.wars",
+  "name": "Epic Heroes",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "The most popular idle RPG, combining strategy battle and mass of adventure is online now. Gather your superheroes to wipe out the BOSS and secure victory of galaxy!\n\nAFK&IDLE SYSTEM\nLevel-up when you’re AFK, reap the rewards when you get back. Idle anytime, battle anywhere! Just take a break from working and studying.\n\nSTRAGEGIC BATTLE\nPlan your own offensive and defensive strategy with hundreds of hero combinations. Summon your heroes, upgrade their equipment, develop their skills, strengthen y",
+    "released": "Oct 19, 2022",
+    "updated": 1777371270000,
+    "version": "1.4.13",
+    "installs": "10,000,000+",
+    "score": 4.3,
+    "ratings": 93527,
+    "reviews": 2211,
+    "developer": "Dinosaur-Games",
+    "developerWebsite": "https://x56e7ecdb.app-ads-txt.com",
+    "genre": "Role Playing",
+    "recentChanges": "The contents of this maintenance are as follows.<br><br>[Weekly Events]<br>Starry Date: 05.01-05.07<br>Vault of Creation: 05.01-05.07<br>Stellar Treasure: 05.01-05.07<br>Stellar Bond: 05.01-05.07<br>Valiant Trial: 05.01-05.14<br>Wish Summon: 05.08-05.14; new selectable hero [Dragon Edict Priestess] added.<br>Sacred Wheel: 05.08-05.14; new selectable [Mother of Stars] relics added."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 94,
+      "2": 5,
+      "3": 3,
+      "4": 11,
+      "5": 87
+    },
+    "positiveRatio": 49,
+    "negativeRatio": 50,
+    "eventMentions": [
+      {
+        "text": "everytime install to a new device i need to go through the tutorial again. finish the tutorial then ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "as someone who had paid. you pay you get pennies for your dollars. this game is all about ripping pe",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i paid in-game, and did not receive the products. i was bumped around ai customer service bots. even",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:40:12.330Z"
+}

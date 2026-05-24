@@ -1,0 +1,44 @@
+{
+  "appId": "1423046460",
+  "name": "Paper.io 2",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Join millions of players in the world's most satisfying .io game! Move around the arena, draw a trail to grow your territory, and claim the zone before someone cuts you off. Simple rules, endless fun!\n\nFair warning: this game is seriously hard to put down!\n\nWhat makes Paper.io 2 so fun:\n∙ Smooth, satisfying arcade gameplay that just feels right\n∙ Online multiplayer you can jump into in seconds\n∙ 100+ unique skins to collect\n∙ Free rewards every day\n∙ Quick matches that fit into any break\n∙ A sec",
+    "released": "2018-08-09T02:50:42Z",
+    "updated": "2026-05-22T08:40:53Z",
+    "version": "4.32.0",
+    "score": 4.5,
+    "reviews": 2688488,
+    "developer": "Voodoo",
+    "developerUrl": "https://apps.apple.com/us/developer/voodoo/id714804730?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Action"
+    ],
+    "releaseNotes": "GAMEPLAY UPDATE\n· Gameplay: you can now cross your own trail without dying\n· Controls: movement is more responsive and creates better-looking shapes\n· Performance improvements & bug fixes\nUpdate now and jump back into the action!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:06:48.247Z"
+}

@@ -1,0 +1,85 @@
+{
+  "appId": "com.playdigious.chantsofsennaar",
+  "name": "Chants of Sennaar",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "*Try Chants of Sennaar for free and unlock the full game for the whole adventure!*\n\n​Chants of Sennaar is a narrative-driven puzzle adventure that immerses you in the role of the Traveler, embarking on a quest to reunite the disparate Peoples of the Tower\nDiscover foregone glyphs and grammar and interact with language-based puzzles.\nNavigate through the intricate levels of the Tower, each inhabited by distinct cultures with unique languages. Utilize observation, listening, and deduction to bridg",
+    "released": "Aug 26, 2025",
+    "updated": 1779106056000,
+    "version": "1.0.10",
+    "installs": "100,000+",
+    "score": 4.8,
+    "ratings": 3103,
+    "reviews": 23,
+    "developer": "Playdigious",
+    "developerWebsite": "https://playdigious.helpshift.com/hc/en/34-chants-of-sennaar/contact-us/",
+    "genre": "Puzzle",
+    "recentChanges": "- Fixing a black screen issue in the endgame simulation"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 14,
+      "2": 7,
+      "3": 5,
+      "4": 16,
+      "5": 158
+    },
+    "positiveRatio": 87,
+    "negativeRatio": 11,
+    "eventMentions": [
+      {
+        "text": "for real it was an amazing experience!! finished the game 12 hours in 3 days tops ... i have never p",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "edit: thank you, the bug was fixed! highly recommend! great game. almost finished. unfortunately got",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "was going down some stairs in the glitchy dream world then got the black screen. learned this was a ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "one of my favourite puzzle games! i've played through this multiple times on pc and was so happy to ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game is incredible, however the last update made the game soft lock when entering a door during ",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 87%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:41.958Z"
+}
