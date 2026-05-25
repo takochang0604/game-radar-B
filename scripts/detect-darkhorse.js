@@ -168,20 +168,33 @@ function detectNewEntry(app, history, gapInfo) {
   // 排名必須在 Top N 以內才算黑馬
   if (currentRank > DARKHORSE_CONFIG.newEntryMaxRank) return null;
 
-  // 找第一次出現的日期
-  const firstAppearance = history.findIndex(h => h.rank !== null);
+  const maxRank = DARKHORSE_CONFIG.newEntryMaxRank;
 
-  // 只計算「有快照但不在榜上」的天數（不是「沒有快照」的天數）
+  // 情況 B（優先）：首次衝入 Top N（之前在榜但一直在 Top N 外）
+  // 例如：grossing 從 #71 衝到 #25，雖然已在 Top 100 但首次進入 Top 30
+  if (validHistory.length >= 2 && validHistory.length <= DARKHORSE_CONFIG.newEntryDays + 3) {
+    const previousRanks = validHistory.slice(0, -1);
+    const allOutsideTopN = previousRanks.every(h => h.rank > maxRank);
+    if (allOutsideTopN && currentRank <= maxRank) {
+      return {
+        strategy: 'new_entry',
+        label: '🆕 新進榜',
+        detail: `強勢衝進 Top ${maxRank}，偵測當下排名 #${currentRank}`,
+        score: currentRank <= 10 ? 2.5 : currentRank <= 20 ? 2 : 1.8,
+      };
+    }
+  }
+
+  // 情況 A：首次進入 Top 100
+  const firstAppearance = history.findIndex(h => h.rank !== null);
   const confirmedNulls = history.slice(0, firstAppearance)
     .filter(h => h.hasSnapshot === true && h.rank === null).length;
 
-  // 有 snapshot 斷層時，要求更多天數確認（避免斷層期間的遊戲被誤判）
   let requiredNulls = DARKHORSE_CONFIG.newEntryMinNulls;
   if (gapInfo && gapInfo.hasSignificantGap) {
     requiredNulls = Math.ceil(requiredNulls * 1.5);
   }
 
-  // 前面必須有足夠天數確認不在榜上
   if (confirmedNulls >= requiredNulls && validHistory.length <= DARKHORSE_CONFIG.newEntryDays) {
     const gapNote = (gapInfo && gapInfo.hasSignificantGap) ? '（⚠️ 有快照斷層，門檻已提高）' : '';
     return {
@@ -194,6 +207,7 @@ function detectNewEntry(app, history, gapInfo) {
 
   return null;
 }
+
 
 /**
  * 偵測策略 3: 持續攀升
@@ -385,15 +399,19 @@ async function main() {
             triggers.push(jumpResult);
           }
 
-          // 排名急升已觸發時跳過新進榜（避免矛盾：有歷史排名卻說首次進入）
-          if (!jumpResult) {
+          // new_entry 偵測：即使 rank_jump 已觸發，「首次衝入 Top N」仍然有意義（不同維度信號）
+          {
             const newEntryResult = detectNewEntry(app, history, gapInfo);
             if (newEntryResult) {
-              newEntryResult._detectedAt = today;
-              newEntryResult.market = market.code;
-              newEntryResult.marketName = market.name;
-              newEntryResult.marketFlag = market.flag;
-              triggers.push(newEntryResult);
+              // 如果 rank_jump 已觸發，只保留「情況 B：衝入 Top N」，避免「首次進入 Top 100」和 rank_jump 矛盾
+              const isBreakthroughTopN = newEntryResult.detail && newEntryResult.detail.includes('衝進 Top');
+              if (!jumpResult || isBreakthroughTopN) {
+                newEntryResult._detectedAt = today;
+                newEntryResult.market = market.code;
+                newEntryResult.marketName = market.name;
+                newEntryResult.marketFlag = market.flag;
+                triggers.push(newEntryResult);
+              }
             }
           }
 
