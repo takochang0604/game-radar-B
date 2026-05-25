@@ -609,6 +609,42 @@ async function main() {
     }
   }
 
+  // ============ 補充高排名市場（非觸發但實際名次很好的市場）============
+  // 問題：某些市場長期排名很高（如台灣 #1），因為從未「移動」而不觸發任何偵測策略，
+  //       導致黑馬卡片 badge 和走勢圖完全看不到這些市場，與排行榜卡片顯示落差很大
+  // 解法：掃描今日快照，Top 20 以內的市場主動補入 markets 和 _rankHistoryByMarket
+  const NON_TRIGGER_RANK_THRESHOLD = 20;
+  for (const [, dh] of mergedMap) {
+    const existingCodes = new Set(dh.markets.map(m => m.code));
+    for (const market of MARKETS) {
+      if (existingCodes.has(market.code)) continue;
+      // 確認平台相容（中國無 Google Play）
+      if (dh.platform === 'android' && !market.hasGooglePlay) continue;
+      const snap = loadSnapshot(today, market.code, dh.platform, dh.chartType);
+      if (!snap || !snap.data) continue;
+      const entry = snap.data.find(a => a.appId === dh.appId);
+      if (entry && entry.rank <= NON_TRIGGER_RANK_THRESHOLD) {
+        // 補入 markets 陣列（score=0 不影響信心分數）
+        dh.markets.push({
+          code: market.code,
+          name: market.name,
+          flag: market.flag,
+          rank: entry.rank,
+          score: 0,
+        });
+        existingCodes.add(market.code);
+        // 補入 _rankHistoryByMarket，讓走勢圖也能顯示
+        if (!dh._rankHistoryByMarket) dh._rankHistoryByMarket = {};
+        if (!dh._rankHistoryByMarket[market.code]) {
+          const hist = getRankHistory(dh.appId, market.code, dh.platform, dh.chartType, DARKHORSE_CONFIG.lookbackDays);
+          dh._rankHistoryByMarket[market.code] = hist.slice(-7).map(h => ({
+            ...h, platform: dh.platform, chartType: dh.chartType,
+          }));
+        }
+      }
+    }
+  }
+
   // ============ 多市場加分 ============
   // 同一遊戲在越多市場被偵測為黑馬，信心分數越高
   // 加分公式：基礎分（單市場最高分）+ 額外市場數 × 加分係數
