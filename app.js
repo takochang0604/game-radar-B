@@ -2508,9 +2508,10 @@ async function renderTracked() {
   };
 
   const rawHtml = list.map(t => {
-    // 1. Mini-merge: 從 state.darkhorses 撈同 appId 的所有條目（跨平台/跨市場）
-    //    邏輯與 renderDarkhorses 的 mergedMap 完全相同
-    const dhEntries = state.darkhorses.filter(d => d.appId === t.appId);
+    // 1. Mini-merge: 用 getMergeKey（名稱正規化）查所有條目，與 renderDarkhorses 的合併邏輯一致
+    //    僅用 appId 查會漏掉 iOS/Android appId 不同的另一平台
+    const nameKey = getMergeKey(t);
+    const dhEntries = state.darkhorses.filter(d => d.appId === t.appId || getMergeKey(d) === nameKey);
 
     const _platforms = [...new Set(dhEntries.map(d => d.platform))];
     const markets = [];
