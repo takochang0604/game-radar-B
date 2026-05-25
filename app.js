@@ -2532,8 +2532,9 @@ async function renderTracked() {
       ? markets.map((m, i) => `<span class="dh-tag market${i === 0 ? ' active' : ''}" title="${m.name||m.code}：#${m.rank||'?'}">${getFlag(m.code)||m.flag||''}</span>`).join('')
       : `<span class="dh-tag market active">${getFlag(t.market)||t.marketFlag||''} ${t.marketName||''}</span>`;
 
-    // 平台：合併 iOS + Android（同 renderDarkhorses 的合併邏輯）
-    const detectedPlatforms = allDhMatches.length > 0 ? [...new Set(allDhMatches.map(d => d.platform))] : [t.platform];
+    // 平台：優先用追蹤時存的 _platforms（renderDarkhorses 合併過 iOS+Android）
+    const detectedPlatforms = (t._platforms?.length > 0) ? t._platforms
+      : (allDhMatches.length > 0 ? [...new Set(allDhMatches.map(d => d.platform))] : [t.platform]);
     const platformLabel = detectedPlatforms.length >= 2 ? `${ICON_IOS} ${ICON_ANDROID}` : (detectedPlatforms[0] === 'android' ? ICON_ANDROID : ICON_IOS);
 
     // 右上角排名 badge：從所有 dhMatch 的 markets 合併計算（iOS + Android 兩平台）
@@ -2548,8 +2549,10 @@ async function renderTracked() {
         }
       }
     }
-    let chartRanks = allChartRanks.length > 0 ? allChartRanks
-      : [{ chartLabel: (t.chartType||'topfree') === 'grossing' ? '營收' : '免費', platform: t.platform, rank: t.currentRank, marketFlag: t.marketFlag || '' }];
+    // 右上角排名 badge：優先用追蹤時存的 _chartRanks（已含兩平台），再從 state.darkhorses 補算
+    let chartRanks = (t._chartRanks?.length > 0) ? t._chartRanks
+      : (allChartRanks.length > 0 ? allChartRanks
+      : [{ chartLabel: (t.chartType||'topfree') === 'grossing' ? '營收' : '免費', platform: t.platform, rank: t.currentRank, marketFlag: t.marketFlag || '' }]);
 
     chartRanks.sort((a, b) => {
       if (a.chartLabel !== b.chartLabel) return a.chartLabel === '營收' ? -1 : 1;
