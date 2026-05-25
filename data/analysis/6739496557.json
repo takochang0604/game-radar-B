@@ -1,0 +1,43 @@
+{
+  "appId": "6739496557",
+  "name": "Poolrooms: The Hidden Exit",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "Explore the Poolrooms: Wander through vast areas with ankle-deep water, surrounded by white ceramic tiles covering the walls, floors, and ceilings. \n\n\nFind the Exit: As the lone explorer, your mission is to escape this unsettling environment. Scattered throughout the level are buttons that, when activated, open various doors leading you closer to freedom. Can you find your way out?\n\n\nHigh-Quality Graphics: Experience the Poolrooms like never before with our high-quality graphics that bring this ",
+    "released": "2024-12-20T08:00:00Z",
+    "updated": "2024-12-22T10:32:07Z",
+    "version": "2.21",
+    "score": 4.2,
+    "reviews": 830,
+    "developer": "JEAN MICKAEL DARIE",
+    "developerUrl": "https://apps.apple.com/cn/developer/jean-mickael-darie/id1785644362?uo=4",
+    "genres": [
+      "游戏",
+      "冒险"
+    ],
+    "releaseNotes": "- Minor Fixes"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:50:41.802Z"
+}

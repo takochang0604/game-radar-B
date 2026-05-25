@@ -1,0 +1,79 @@
+{
+  "appId": "com.pocket.sort.coin.puzzle.game",
+  "name": "Pocket Sort: Coin Merge Puzzle",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "SORT YOUR WAY TO HAPPINESS 😃\n\nMaster mergers, ready those fingers and get to matching in 3…2…1! This fun sorting puzzle features colorful coins that need to be matched up in their slots and then merged together to clear the playing field, making way for more. Bright colors, simple graphics, and lots of boosters ensure that your brain can focus on what it does best: noticing patterns and finding unique ways to shuffle everything around in order to win.\n\nMASTER THE MATCH 🧩\n\nSimple in theory yet ",
+    "released": "Dec 3, 2025",
+    "updated": 1778517287000,
+    "version": "1.9.1",
+    "installs": "5,000,000+",
+    "score": 4,
+    "ratings": 84369,
+    "reviews": 222,
+    "developer": "SayGames Ltd",
+    "developerWebsite": "https://say.games/",
+    "genre": "Puzzle",
+    "recentChanges": "- Improved performance<br>- Enjoy the game"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 42,
+      "2": 24,
+      "3": 20,
+      "4": 21,
+      "5": 93
+    },
+    "positiveRatio": 57,
+    "negativeRatio": 33,
+    "eventMentions": [
+      {
+        "text": "gave me an impossible level then when i tried to restart they made me spend all my gems to get a new",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i am so tired of trying to watch ads that do not work!!! the only time they work 100% is when you do",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "rigged. eventually you will be dealt a set of coin that has no possible move and forced to watch ads",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "the recent update ruined this game. i was playing a lot...but they changed how you can progress. sad",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "don't know who got the idea that the \"deal\" button should be replaced with \"drop\". \"deal / draw\" mea",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 13 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:50:39.317Z"
+}

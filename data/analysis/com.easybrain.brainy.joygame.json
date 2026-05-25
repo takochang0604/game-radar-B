@@ -8,26 +8,26 @@
     "released": "Jan 20, 2026",
     "updated": 1779270953000,
     "version": "1.0.1",
-    "installs": "100,000+",
+    "installs": "500,000+",
     "score": 4.6,
-    "ratings": 792,
-    "reviews": 16,
+    "ratings": 1032,
+    "reviews": 24,
     "developer": "JoyGame Studio",
     "developerWebsite": "http://www.ezekielflores.com",
     "genre": "Puzzle",
     "recentChanges": "• Added new levels"
   },
   "reviewAnalysis": {
-    "total": 28,
+    "total": 29,
     "starCounts": {
-      "1": 9,
+      "1": 10,
       "2": 2,
       "3": 1,
       "4": 2,
       "5": 14
     },
-    "positiveRatio": 57,
-    "negativeRatio": 39,
+    "positiveRatio": 55,
+    "negativeRatio": 41,
     "eventMentions": [
       {
         "text": "sure, i'd recommend. in a market inundated with these games, this one sticks out with some different",
@@ -41,9 +41,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-22T11:40:26.612Z"
+  "analyzedAt": "2026-05-25T10:50:17.468Z"
 }

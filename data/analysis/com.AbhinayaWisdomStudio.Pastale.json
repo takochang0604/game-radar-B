@@ -1,0 +1,41 @@
+{
+  "appId": "com.AbhinayaWisdomStudio.Pastale",
+  "name": "Pastale",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Driven by jealousy, a giant eraser steals the precious amulet that has brought color and joy to Chalk Village for generations. A group of brave chalks decides to reclaim it, but as they make their way back, the eraser spots them and launches a relentless pursuit. Will these chalks escape the eraser’s grasp and restore the amulet to its rightful place?\n\nGet ready for an adrenaline-packed 2D sidescroller like no other! In Pastale, you and your friends (2-5 players) will face the challenge of outru",
+    "released": "Mar 20, 2025",
+    "updated": 1778201586000,
+    "version": "2.2.2",
+    "installs": "1,000+",
+    "score": 3,
+    "ratings": 12,
+    "reviews": 11,
+    "developer": "Dev Kelvin",
+    "genre": "Adventure",
+    "recentChanges": "Thank you for playing Pastale! In this version, we’ve added support for Simplified Chinese and Italian, along with minor bug fixes and improvements."
+  },
+  "reviewAnalysis": {
+    "total": 4,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 25,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:50:27.083Z"
+}

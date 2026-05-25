@@ -9,7 +9,7 @@
     "updated": "2026-05-06T08:01:51Z",
     "version": "1.0.10021",
     "score": 4.4,
-    "reviews": 15638,
+    "reviews": 15810,
     "developer": "Qookka Games",
     "developerUrl": "https://apps.apple.com/jp/developer/qookka-games/id1645853327?uo=4",
     "genres": [
@@ -34,11 +34,11 @@
   },
   "inferredReasons": [
     {
-      "type": "major_update",
-      "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 14 天前",
-      "confidence": "medium"
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
     }
   ],
-  "analyzedAt": "2026-05-20T13:52:08.577Z"
+  "analyzedAt": "2026-05-25T10:49:43.104Z"
 }

@@ -9,8 +9,8 @@
     "updated": 1778727069000,
     "version": "2.9.1",
     "installs": "100,000+",
-    "score": 4.1,
-    "ratings": 556,
+    "score": 4,
+    "ratings": 561,
     "reviews": 471,
     "developer": "Capcloud",
     "genre": "Role Playing"
@@ -32,9 +32,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
+      "detail": "最近更新: 11 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:38:01.240Z"
+  "analyzedAt": "2026-05-25T10:49:38.049Z"
 }

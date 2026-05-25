@@ -10,8 +10,8 @@
     "version": "6.6.0_44318314_44476906",
     "installs": "100,000,000+",
     "score": 4,
-    "ratings": 5166793,
-    "reviews": 23433,
+    "ratings": 5172946,
+    "reviews": 23437,
     "developer": "COGNOSPHERE PTE. LTD.",
     "developerWebsite": "https://genshin.hoyoverse.com/",
     "genre": "Adventure",
@@ -20,44 +20,45 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 154,
-      "2": 13,
-      "3": 4,
-      "4": 4,
-      "5": 25
+      "1": 146,
+      "2": 16,
+      "3": 6,
+      "4": 3,
+      "5": 29
     },
-    "positiveRatio": 14,
-    "negativeRatio": 84,
+    "positiveRatio": 16,
+    "negativeRatio": 81,
     "eventMentions": [
       {
-        "text": "mid update, no skip button and gate keeping exploration features, what happened to my boy rerir. why",
+        "text": "the game is not as rewarding as it was back then(not like the game gives that much reward to begin w",
         "keywords": [
-          "update"
+          "new"
         ]
       },
       {
-        "text": "love this game, the new update main story is peak as we go back to sumeru and beat dottore the secon",
+        "text": "i been playing the game when it was release, when the first time i played the game on the release da",
         "keywords": [
           "update",
           "new"
         ]
       },
       {
-        "text": "i think that it will be great if there's a way to level up faster in the game (for example, some pla",
+        "text": "this game has changed a lot especially the new lunar characters they're so restrictive and they just",
+        "keywords": [
+          "limited",
+          "new"
+        ]
+      },
+      {
+        "text": "genshin impact is becoming less and less f2p friendly. i've been playing since 2024, but rewards kee",
         "keywords": [
           "event"
         ]
       },
       {
-        "text": "mostly everything is behind a paywall in the gacha system, outfits and the miliastra wonderland mode",
+        "text": "the developers already decided the game is in decline, so instead of improving they will only milk a",
         "keywords": [
           "new"
-        ]
-      },
-      {
-        "text": "haii, di uptade ini knp aku ga bisa update ya?? maaf, aku kasih bintang 3 dulu! perasaan memori ku n",
-        "keywords": [
-          "update"
         ]
       }
     ]
@@ -70,5 +71,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:37:38.795Z"
+  "analyzedAt": "2026-05-25T10:47:46.615Z"
 }

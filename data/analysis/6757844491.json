@@ -8,8 +8,8 @@
     "released": "2026-01-22T08:00:00Z",
     "updated": "2026-05-09T00:58:08Z",
     "version": "1.0.8",
-    "score": 4.4,
-    "reviews": 268,
+    "score": 4.5,
+    "reviews": 331,
     "developer": "Tang Thi Thuy",
     "developerUrl": "https://apps.apple.com/kr/developer/tang-thi-thuy/id1699552610?uo=4",
     "genres": [
@@ -35,11 +35,11 @@
   },
   "inferredReasons": [
     {
-      "type": "major_update",
-      "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 13 天前",
-      "confidence": "medium"
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
     }
   ],
-  "analyzedAt": "2026-05-22T11:38:30.415Z"
+  "analyzedAt": "2026-05-25T10:50:05.701Z"
 }

@@ -1,0 +1,86 @@
+{
+  "appId": "com.bilibili.trickcal",
+  "name": "Trickcal:Chibi Go",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "♥ Set Off for the Irresistibly Cute World of Squeezy Cheeks! ♥\nWelcome to Elias, home of the Squeezy Cheeks!\nA place where even if the kingdom explodes tomorrow, people will still be happily munching sweets like, \"Eh, whatever.\"\nHere, the one every Sprite calls \"Born Leader!\" is Lady Erpin... who, well, used to be... (she's currently being chased by rebels over a national sweets shortage.)\nAnyway—since you've somehow ended up as the head of Yggdrasil, it's time to rally your Apostles and start y",
+    "released": "Sep 17, 2025",
+    "updated": 1778586278000,
+    "version": "1.4.0",
+    "installs": "1,000,000+",
+    "score": 4.7,
+    "ratings": 45240,
+    "reviews": 2314,
+    "developer": "BILIBILI",
+    "developerWebsite": "https://trickcal.biligames.com",
+    "genre": "Role Playing",
+    "recentChanges": "[New System] <br>Card Crystal Store <br>Card Welding System<br>Rune/Artifact Card Ornament System <br>New Tab Added to Revival Theater <br>Apostle Action Preview<br><br>[Improvements] <br>Line-up Save Feature <br>Adventure Club Balance Adjusted"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 13,
+      "2": 1,
+      "3": 4,
+      "4": 7,
+      "5": 175
+    },
+    "positiveRatio": 91,
+    "negativeRatio": 7,
+    "eventMentions": [
+      {
+        "text": "today's update created a bug where it tells me to download 5.4gb instead of 800mb despite the game a",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i was about to rate 5 stars until i logged into the game again and noticed my lobby had changed, and",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i do love this game at its current state, with the cute interactive characters and comical story. my",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i saw this game in early 2025. decided to install in early 2026. damn, i wish i installed earlier. f",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "play for a 3 week now. i love it. cute. love erpin,allet and supiki. i download the games because in",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 91%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:51:08.574Z"
+}

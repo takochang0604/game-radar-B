@@ -1,0 +1,50 @@
+{
+  "appId": "6755233247",
+  "name": "Lineage W",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "▶ Lineage W – The Ultimate MMORPG: Lineage\nLineage W is a next-generation open-world MMORPG, bringing players across SEA (Southeast Asia) together on one massive, seamless battlefield.\nExperience the true spirit of Lineage - loyalty, sacrifice, clan alliances, and massive warfare that forge the strongest Blood Pledges.\n28 Years of Legacy.\nThe Ultimate PvP MMORPG.\nClans rise. Kingdoms fall.\nLooking for a hardcore MMORPG with real Clan Wars, Castle Sieges, and cross-server PvP battles? Lineage W i",
+    "released": "2026-05-23T07:00:00Z",
+    "updated": "2026-05-23T07:00:00Z",
+    "version": "2.10.02",
+    "score": 5,
+    "reviews": 6,
+    "developer": "NCV GAMES PTE. LTD.",
+    "developerUrl": "https://apps.apple.com/th/developer/ncv-games-pte-ltd/id1785578031?uo=4",
+    "genres": [
+      "Games",
+      "Adventure",
+      "Role-Playing"
+    ],
+    "releaseNotes": "The Ultimate Lineage MMORPG is now officially live!\nJoin the Ultimate Blood Battle and begin your journey today.\nExclusive SEA-only skins, special launch events, and exciting rewards are waiting for you!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 2 天，評分 5.0",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:49:30.962Z"
+}

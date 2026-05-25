@@ -6,27 +6,27 @@
   "detail": {
     "description": "Eleven years after a mysterious, colossal object fell into the mountains of Japan, destiny stirs once more. In a secluded dojo, a blind youth trains with his wooden sword, driven by a voice only he can hear.\n\nAn all-star cast brings the story to life in a fully voiced animated series.\n\nStep into the forefront of the comics and manga experience—\nThe Age of Cinematic Comics is here.\n\n*Use of headphones or earphones is recommended for optimal experience.\n\n◆Cast (Japanese Voice Actors)\n　Junya Enoki　",
     "released": "Mar 25, 2026",
-    "updated": 1778830039000,
-    "version": "1.0.12",
+    "updated": 1779498230000,
+    "version": "1.0.15",
     "installs": "1,000,000+",
-    "score": 4.5,
-    "ratings": 15232,
-    "reviews": 449,
+    "score": 4.4,
+    "ratings": 15706,
+    "reviews": 470,
     "developer": "ZigZaGame Inc.",
     "developerWebsite": "https://www.zigzagame.com",
     "genre": "Role Playing",
-    "recentChanges": "- Yakuza Royale: voice lines, push notifications for bases under attack, smoother map and squad interactions<br>- Guild updates: scrollable bulletin and expanded power rankings<br>- Various UI polish, bug fixes, and stability improvements"
+    "recentChanges": "Miscellaneous Bug Fixes"
   },
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 36,
-      "2": 27,
-      "3": 25,
+      "1": 35,
+      "2": 28,
+      "3": 27,
       "4": 17,
-      "5": 95
+      "5": 93
     },
-    "positiveRatio": 56,
+    "positiveRatio": 55,
     "negativeRatio": 32,
     "eventMentions": [
       {
@@ -67,7 +67,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 2 天前",
       "confidence": "high"
     },
     {
@@ -77,5 +77,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-20T13:50:20.070Z"
+  "analyzedAt": "2026-05-25T10:49:11.398Z"
 }

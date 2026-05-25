@@ -1,0 +1,83 @@
+{
+  "appId": "com.YostarJP.BlueArchive",
+  "name": "ブルーアーカイブ",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "--A story about finding a little miracle in everyday life\n\nSchool x Youth x Story RPG “Blue Archive” presented by Yostar!\nAs a teacher, spend your daily life in the unique academic city of Kivotos with your unique and attractive students!\n\n■Synopsis\nThis is the academic city of Kivotos.\nIn this super-huge university city made up of thousands of schools, troubles are constant every day.\nIn order to deal with this problem, the Federal Investigation Department [Petri] was established by the Federat",
+    "released": "Feb 3, 2021",
+    "updated": 1779247503000,
+    "version": "1.68.421271",
+    "installs": "1,000,000+",
+    "score": 4.1,
+    "ratings": 38181,
+    "reviews": 11727,
+    "developer": "Yostar, Inc.",
+    "developerWebsite": "https://bluearchive.jp/",
+    "genre": "Role Playing",
+    "recentChanges": "・表示ミス及び軽微な不具合の修正"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 42,
+      "2": 9,
+      "3": 16,
+      "4": 16,
+      "5": 117
+    },
+    "positiveRatio": 67,
+    "negativeRatio": 26,
+    "eventMentions": [
+      {
+        "text": "the newer update more asset related bugs all of it are blank",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "新しいアップデートのたびにパフォーマンスはどんどん悪くなる。読み込み画面が非常に遅い",
+        "keywords": [
+          "新",
+          "アップデート"
+        ]
+      },
+      {
+        "text": "i have played for 3 years. but recently, the character has been returned for how many times. and, th",
+        "keywords": [
+          "event",
+          "anniversary"
+        ]
+      },
+      {
+        "text": "good game but bad performance, after the latest update i can't even open my game, the game already k",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "it's become more heavy after new update",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:49:25.939Z"
+}

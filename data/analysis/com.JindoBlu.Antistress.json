@@ -1,0 +1,79 @@
+{
+  "appId": "com.JindoBlu.Antistress",
+  "name": "Antistress - relaxation toys",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "When you need relaxation, diversion or just a moment of distraction enjoy this collection of toys: hear the sound of a bamboo chime, play with wooden boxes, swipe gently your finger in the water, tap buttons, draw with chalks and so on! Are you waiting for something and you need a diversion? Open Antistress app and start playing with a Newton's cradle! Are you furious with someone? Have some relaxation with the never-old fifteen game! Do you need distraction from study? Open Antistress app and c",
+    "released": "Nov 8, 2016",
+    "updated": 1779358687000,
+    "version": "11.1.2",
+    "installs": "100,000,000+",
+    "score": 4.6,
+    "ratings": 962645,
+    "reviews": 12277,
+    "developer": "JindoBlu",
+    "developerWebsite": "https://www.jindoblu.com",
+    "genre": "Puzzle",
+    "recentChanges": "• Bug fixes and improvements<br>"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 15,
+      "2": 4,
+      "3": 2,
+      "4": 18,
+      "5": 161
+    },
+    "positiveRatio": 90,
+    "negativeRatio": 10,
+    "eventMentions": [
+      {
+        "text": "it's a really fun game! although it takes a while for it to add smth new it's still rly fun. i sugge",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "its good but i want new games",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i think we all agree that using ai was unnecessary. we wouldn't ask to get more games if we knew you",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "yo this is so fun,10/10 dude pls make more updates,i like it",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 90%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:51:45.150Z"
+}

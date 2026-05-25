@@ -1,0 +1,44 @@
+{
+  "appId": "1553777064",
+  "name": "Exposed - Who's Most Likely To",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Exposed is the best game to know what your friends think about you.\n\nFind out who is willing to do absurd things in your friend group!\n\nThe game is simple. Add all your friends’ names and wait for them to be EXPOSED! \nAnswer questions, do dares and complete challenges. \nWith a number of different categories ranging from cheeky, sexy to absurd! This game is sure to turn any time you spend with your friends super fun!\nSay goodbye to the old fashioned games of spin the bottle, truth or dare, quizup",
+    "released": "2021-03-24T07:00:00Z",
+    "updated": "2024-09-11T17:21:59Z",
+    "version": "2.2.1",
+    "score": 4.6,
+    "reviews": 221197,
+    "developer": "Behind The App",
+    "developerUrl": "https://apps.apple.com/us/developer/behind-the-app/id1589287115?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Trivia"
+    ],
+    "releaseNotes": "- Bugfix\n- App improvement"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:51:01.341Z"
+}

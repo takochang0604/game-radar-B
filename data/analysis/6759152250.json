@@ -8,8 +8,8 @@
     "released": "2026-04-17T07:00:00Z",
     "updated": "2026-05-14T11:59:22Z",
     "version": "36.0.2",
-    "score": 4.3,
-    "reviews": 304,
+    "score": 4.4,
+    "reviews": 406,
     "developer": "VTC GAME",
     "developerUrl": "https://apps.apple.com/vn/developer/vtc-game/id1267784899?uo=4",
     "genres": [
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 7 天前",
-      "confidence": "high"
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:39:15.109Z"
+  "analyzedAt": "2026-05-25T10:49:18.789Z"
 }

@@ -6,12 +6,12 @@
   "detail": {
     "description": "Hole Stars – Scoop, Solve, and Shine\n\nLooking for a game that’s fun, fast, and totally satisfying? Meet Hole Stars — a relaxing puzzle game where you guide a growing black hole through colorful levels, collect everything in sight, and beat the clock in style.\n\nFrom tiny objects to giant surprises, every level is packed with items to collect, puzzles to solve, and obstacles to outsmart. Whether you’re in it for the challenge or the relaxing vibes, Hole Stars is the perfect break-time pick-me-up.\n",
     "released": "Sep 16, 2025",
-    "updated": 1778578754000,
-    "version": "220000.1.175",
+    "updated": 1779284881000,
+    "version": "220000.1.192",
     "installs": "1,000,000+",
     "score": 4.5,
-    "ratings": 30359,
-    "reviews": 47,
+    "ratings": 34142,
+    "reviews": 55,
     "developer": "Moon Active",
     "developerWebsite": "https://www.moonactive.com",
     "genre": "Puzzle"
@@ -19,15 +19,34 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 58,
-      "2": 14,
-      "3": 17,
-      "4": 27,
-      "5": 84
+      "1": 55,
+      "2": 18,
+      "3": 15,
+      "4": 20,
+      "5": 92
     },
     "positiveRatio": 56,
-    "negativeRatio": 36,
+    "negativeRatio": 37,
     "eventMentions": [
+      {
+        "text": "super fun and time flys. something new with every level. lotz of laughs lol",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "was my favorite game until recent updates. now, when i get up to the new sea-life theme, i un-instal",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i've tried so many of these hole games, so sure i'd like them but in actuality they're repetative an",
+        "keywords": [
+          "event"
+        ]
+      },
       {
         "text": "sucky game is the worst hole game, the ads are a lie, bad graphics, cluttered gameplay with too many",
         "keywords": [
@@ -39,25 +58,6 @@
         "keywords": [
           "update"
         ]
-      },
-      {
-        "text": "i loved this game cause when you reached the end of the levels, you used to be able to play star mas",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "best hole type game ive played.--part 2.was,the best hole type game ive played.last update made it w",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "i was really enjoying playing this game until the new updates and they took away being able to watch",
-        "keywords": [
-          "update",
-          "new"
-        ]
       }
     ]
   },
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-13T11:38:36.930Z"
+  "analyzedAt": "2026-05-25T10:51:28.041Z"
 }

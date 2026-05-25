@@ -6,10 +6,10 @@
   "detail": {
     "description": "HIGHWAY RACER PRO - The most realistic highway traffic racing game on mobile\nPush your limits in the ultimate car racing game. Experience high-speed action on real highways, dodge through dense traffic, and become the king of the road.\n\nDOMINATE THE HIGHWAY WITH REAL CARS\nJump into your dream car and hit the highway. With real car physics and ultra-detailed vehicles, every race feels extreme. Whether you’re driving a muscle car or a tuner, the traffic is your playground.\n\nREAL HIGHWAYS, REAL TRA",
     "released": "2025-07-29T07:00:00Z",
-    "updated": "2026-05-16T09:08:58Z",
-    "version": "1.0.1",
+    "updated": "2026-05-24T06:22:50Z",
+    "version": "1.0.2",
     "score": 4.7,
-    "reviews": 55975,
+    "reviews": 56726,
     "developer": "Spektra Games",
     "developerUrl": "https://apps.apple.com/us/developer/spektra-games/id1498896142?uo=4",
     "genres": [
@@ -18,7 +18,7 @@
       "Sports",
       "Racing"
     ],
-    "releaseNotes": "Biggest update of Highway Racer Pro!\n- NEW MAP - LONDON! Race through iconic streets in left-hand traffic\n- NEW CUSTOMIZATION SYSTEM! Bodykits, liveries, exhausts, interior, plates & more\n- 7 NEW CARS!\n- NEW LEVEL-UP SYSTEM! Earn XP and exclusive rewards\n- CAR & DRIVER MISSION SYSTEMS! \n- NEW SPECIAL EVENTS! Elimination Events with exclusive cars\n- RENEWED MUSIC & SOUND! \n- GRAPHICS IMPROVEMENTS!"
+    "releaseNotes": "- Critical performance improvements to RAM & GPU usage.\n- Tutorial is shorter and cleaner.\n- Crash fixes.\n- Fuel/Energy limit increased from 10 to 30.\n- Input block in Validation mode fixed.\n- Driver level-up and level-end animations are faster."
   },
   "reviewAnalysis": {
     "total": 0,
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 6 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-22T11:42:38.878Z"
+  "analyzedAt": "2026-05-25T10:51:38.104Z"
 }

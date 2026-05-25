@@ -8,53 +8,53 @@
     "released": "Apr 24, 2026",
     "updated": 1778902445000,
     "version": "1.2.1",
-    "installs": "50,000+",
-    "score": 4.6,
-    "ratings": 994,
-    "reviews": 130,
+    "installs": "100,000+",
+    "score": 4.5,
+    "ratings": 1674,
+    "reviews": 202,
     "developer": "Oakever Games",
     "developerWebsite": "https://oakevergames.com/",
     "genre": "Puzzle",
     "recentChanges": "-Bug fixes and performance improvements."
   },
   "reviewAnalysis": {
-    "total": 130,
+    "total": 200,
     "starCounts": {
-      "1": 27,
-      "2": 15,
-      "3": 26,
-      "4": 18,
-      "5": 44
+      "1": 38,
+      "2": 33,
+      "3": 44,
+      "4": 19,
+      "5": 66
     },
-    "positiveRatio": 48,
-    "negativeRatio": 32,
+    "positiveRatio": 43,
+    "negativeRatio": 36,
     "eventMentions": [
       {
-        "text": "great visual design and a fun game idea, but unfortunately the levels start repeating really fast, a",
+        "text": "fun game, a new view on sudoku",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "forced ads before start new level is a bit too much, it's a fun game, if there is no ads purchase wi",
+        "text": "they need more puzzles! i love this game, but they keep repeating puzzles. i'll play one, and then a",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "fun game, but the ads are ridiculous. for the first 30 or so levels, there were no ads. then you hit",
+        "text": "personal data collection agency discretely disguised as a game. just read the privacy policy and ter",
         "keywords": [
-          "event"
+          "limited"
         ]
       },
       {
-        "text": "love it.... updating my rating from a 3 to a 4 because you have updated the colors making it easier ",
+        "text": "too many adds only to expose the cats even if i knew there was one there is no option to flip it unl",
         "keywords": [
-          "update"
+          "new"
         ]
       },
       {
-        "text": "why so many ads? ads keep popping up every time a new level comes up",
+        "text": "i really enjoy the game, but the option to watch an ad to get a hint is broken. the ads play, but i ",
         "keywords": [
           "new"
         ]
@@ -63,16 +63,10 @@
   },
   "inferredReasons": [
     {
-      "type": "new_release",
-      "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 28 天，評分 4.6",
-      "confidence": "high"
-    },
-    {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 6 天前",
-      "confidence": "high"
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
     },
     {
       "type": "event_driven",
@@ -81,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:40:58.597Z"
+  "analyzedAt": "2026-05-25T10:49:13.734Z"
 }

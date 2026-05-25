@@ -9,7 +9,7 @@
     "updated": "2026-05-16T04:49:21Z",
     "version": "5.2",
     "score": 4.6,
-    "reviews": 5109,
+    "reviews": 5130,
     "developer": "Sky Entertainment Network Limited",
     "developerUrl": "https://apps.apple.com/tw/developer/sky-entertainment-network-limited/id1439530152?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
-      "confidence": "high"
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-21T11:38:45.527Z"
+  "analyzedAt": "2026-05-25T10:50:32.104Z"
 }

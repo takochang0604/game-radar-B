@@ -1,0 +1,48 @@
+{
+  "appId": "com.tricky.brain.annoying.puzzle.prank.master",
+  "name": "Tricky Brain: Annoying Puzzle",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "🧩 Tricky Brain: Annoying Puzzle – Devious, brainy challenges 🧠\n\nReady for brain tricky puzzles that blend humor and logic? This is a puzzle game where you’ll face tricky brain test setups, pull off prankster moves, and crack wild scenarios like a true prank master. Tackle brain puzzle stages that surprise, delight, and train your brain.\n\nEach level mixes creative riddles with logic twists. Use smart strategies, flip expectations, and keep a cool head through tricky brain puzzles or brain trick",
+    "released": "Oct 14, 2025",
+    "updated": 1776163250000,
+    "version": "0.1.9",
+    "installs": "1,000,000+",
+    "score": 4.4,
+    "ratings": 2776,
+    "reviews": 8,
+    "developer": "FemeAves",
+    "developerWebsite": "https://trickybrainannoyingpuzzle.netlify.app/",
+    "genre": "Puzzle"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 33,
+      "2": 9,
+      "3": 20,
+      "4": 27,
+      "5": 111
+    },
+    "positiveRatio": 69,
+    "negativeRatio": 21,
+    "eventMentions": [
+      {
+        "text": "eugh the levels are too easy and theres ads every time i complete a level and i try to cancel it and",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:51:33.035Z"
+}

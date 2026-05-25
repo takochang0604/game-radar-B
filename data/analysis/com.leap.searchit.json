@@ -2,54 +2,59 @@
   "appId": "com.leap.searchit",
   "name": "Search It - Hidden Objects",
   "platform": "android",
-  "market": "kr",
+  "market": "jp",
   "detail": {
     "description": "Search It – Hidden Objects is a hidden object and seek-and-find puzzle game where you search for hidden items, solve mysteries, and enjoy a relaxing find objects experience.\n\nStep into the shoes of a detective and sharpen your I Spy skills as you explore beautifully crafted scenes. Every level is a new scavenger hunt filled with cleverly hidden objects in detailed, abstract environments.\n\nUnlike fast-paced brain teasers, Search It is a relaxing puzzle game with no timers or pressure. Take your t",
     "released": "Dec 19, 2025",
-    "updated": 1777660947000,
-    "version": "1.2.3",
+    "updated": 1779398225000,
+    "version": "1.2.4",
     "installs": "1,000,000+",
-    "score": 4.987097,
-    "ratings": 29330,
-    "reviews": 64,
+    "score": 4.9,
+    "ratings": 42049,
+    "reviews": 66,
     "developer": "Leap Game Studios",
     "developerWebsite": "https://www.leapgames.mobi/",
     "genre": "Puzzle",
     "recentChanges": "Get ready for an exciting update!<br>-New levels every week!<br>-Bug fixes<br>-Performance improvements"
   },
   "reviewAnalysis": {
-    "total": 100,
+    "total": 200,
     "starCounts": {
-      "1": 11,
-      "2": 5,
-      "3": 13,
-      "4": 7,
-      "5": 64
+      "1": 21,
+      "2": 6,
+      "3": 8,
+      "4": 8,
+      "5": 157
     },
-    "positiveRatio": 71,
-    "negativeRatio": 16,
+    "positiveRatio": 83,
+    "negativeRatio": 14,
     "eventMentions": [
       {
-        "text": "finally!!! i tried more than 25 games and they were so easy they bored me from the get go and i unst",
+        "text": "it's a beautiful game, levels are easy tho. the reason for the rating and why i uninstalled the game",
         "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "an absolutely relaxing and beautiful game with stunning graphics!! every picture in this game is bea",
-        "keywords": [
-          "update",
           "new"
         ]
       },
       {
-        "text": "hate it after the update",
+        "text": "best search find game i've found in a long time! none or maybe one ad, no timer, not too easy, and a",
         "keywords": [
-          "update"
+          "new"
         ]
       },
       {
-        "text": "this is by far my favorite search game! thank you for adding new levels quicker. i just have one req",
+        "text": "i've been playing two dots for a long time for their scavenger hunt, long wait times for new maps to",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "enjoyed the game initially but it keeps running out of new screens to search. not that that matters ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "new user here.....and i like it a lot. it doesn't shove tons of ads to you. have the perfect level o",
         "keywords": [
           "new"
         ]
@@ -60,15 +65,21 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 7 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     },
     {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
-      "detail": "評論中 4 次提及活動/事件",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 83%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-09T15:03:52.118Z"
+  "analyzedAt": "2026-05-25T10:50:00.756Z"
 }

@@ -2,60 +2,59 @@
   "appId": "com.readygo.dark.gp",
   "name": "Dark War Survival",
   "platform": "android",
-  "market": "us",
+  "market": "kr",
   "detail": {
     "description": "Gear up and brace yourself for the ultimate test of zombie apocalypse survival! Dive into thrilling gameplay and uncover captivating events that await your exploration!\n\nAs a sudden and catastrophic zombie virus ravages human society, your once cozy life is shattered. Family and friends turn into the walking dead before your very eyes. Escaping the chaos of your crumbling home, you now face the ultimate challenge: setting up a shelter to survive the zombie apocalyptic world, and reigniting the f",
-    "released": "May 19, 2024",
-    "updated": 1778734910000,
-    "version": "1.250.645",
+    "released": "Sep 19, 2024",
+    "updated": 1779355640000,
+    "version": "1.250.647",
     "installs": "10,000,000+",
-    "score": 4.4,
-    "ratings": 748850,
-    "reviews": 23085,
+    "score": 4.7,
+    "ratings": 754953,
+    "reviews": 9488,
     "developer": "Omnilojo Pte Ltd",
     "genre": "Strategy"
   },
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 105,
-      "2": 21,
-      "3": 5,
-      "4": 13,
-      "5": 56
+      "1": 79,
+      "2": 11,
+      "3": 7,
+      "4": 23,
+      "5": 80
     },
-    "positiveRatio": 35,
-    "negativeRatio": 63,
+    "positiveRatio": 52,
+    "negativeRatio": 45,
     "eventMentions": [
       {
-        "text": "played on server 590 in the kor alliance (later renamed avof), led by kor leader. i reached level 20",
+        "text": "not like the ads. it's a copy of white out. nothing new or different.",
         "keywords": [
-          "event"
+          "new"
         ]
       },
       {
-        "text": "i really love the hunt craze in wasteland party event!! 😍😍😁😁🎉🎉",
-        "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "a standard tower defence/town management game. excellent graphics, and i appreciate the loads of spo",
+        "text": "just got updated thanks. (updated)",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "poor developer support. very inconsistent when it comes to game changes. no new update , just the sa",
+        "text": "the game takes a lot of space and has frequent update now that i already reached season 5",
         "keywords": [
           "update",
-          "new"
+          "season"
         ]
       },
       {
-        "text": "this game is nothing but a cash grab now. devs ignore player feedback and only care about getting pl",
+        "text": "i have alliance its a group of 100 people i injoy it because of them i have lots of friends and we d",
         "keywords": [
-          "event",
+          "event"
+        ]
+      },
+      {
+        "text": "legitimately a really good creation i often get addicted too. no ads or nonsense. highly recommended",
+        "keywords": [
           "update"
         ]
       }
@@ -65,7 +64,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +74,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-14T12:46:14.216Z"
+  "analyzedAt": "2026-05-25T10:51:42.780Z"
 }

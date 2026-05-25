@@ -8,10 +8,10 @@
     "released": "Feb 24, 2026",
     "updated": 1779069559000,
     "version": "1.0.19",
-    "installs": "10,000+",
-    "score": 4.3,
-    "ratings": 677,
-    "reviews": 106,
+    "installs": "50,000+",
+    "score": 4.5,
+    "ratings": 835,
+    "reviews": 118,
     "developer": "Arumgames",
     "developerWebsite": "http://www.arumgames.com",
     "genre": "Casual",
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:38:03.504Z"
+  "analyzedAt": "2026-05-25T10:48:37.869Z"
 }

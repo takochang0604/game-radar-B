@@ -2,23 +2,23 @@
   "appId": "6756482832",
   "name": "Brain Puzzle 3: Crazy Mind",
   "platform": "ios",
-  "market": "ph",
+  "market": "tw",
   "detail": {
-    "description": "Warning: This game may cause intermittent frustration, sudden bursts of laughter, and a strong desire to show off to your friends!\n\nSay goodbye to boredom! The Brain Puzzle series is back with a brand-new sequel, Crazy Mind—and this time, it's for real!  We've prepared countless mind-bending levels designed specifically to cure \"\"boredom\"\" and \"\"slow reflexes.\"\" Don't worry, this isn't an exam—it's a fun-filled mental adventure!\n\n Think you're smart enough? That's because you haven't tried Crazy",
+    "description": "警告：本遊戲可能導致間歇性抓狂、突然的傻笑，以及向朋友炫耀的強烈慾望！\n\n告別無聊！《Brain Puzzle》系列攜全新續作《Crazy Mind》震撼回歸！這次是真的「瘋狂」！我們準備了無數腦洞大開的關卡，專治各種「無聊」和「反應慢」。別擔心，你不是在考試，你是在享受一場妙趣橫生的腦力大冒險！\n\n你以為你夠聰明？那是因為你沒遇上《Crazy Mind》！\n我們這次玩得更大、更野、更刺激！準備好你的大腦，它即將經歷一場前所未有的雲霄飛車！\n\n【主要亮點】\n海量奇葩關卡：從讓人暈頭轉向的視覺謎題，到需要手速的快速反應題，再到燒腦的邏輯陷阱…… 只有你想不到，沒有我們考不到！保證讓你大呼「還有這種操作？」\n精緻簡約的介面：秉承系列一貫的清新簡約風格，讓你能完全專注於解決謎題本身，享受純粹的思考樂趣。\n深度的認知探索：從 pattern recognition 到 divergent thinking，系統性地引導你探索自己思維的廣度和深度。\n隨時隨地來一局：等公車、排大隊、蹲廁所…… 隨時隨地，花幾分鐘就能讓大腦做套「保健操」。\n\n還在刷短影片？快來點有營養的！立即下載，看看你能闖到第幾",
     "released": "2025-12-20T08:00:00Z",
     "updated": "2026-05-14T20:47:45Z",
     "version": "1.0.6",
-    "score": 4.6,
-    "reviews": 303,
+    "score": 4.7,
+    "reviews": 386,
     "developer": "SmallStep Dev Team",
-    "developerUrl": "https://apps.apple.com/ph/developer/smallstep-dev-team/id1473677344?uo=4",
+    "developerUrl": "https://apps.apple.com/tw/developer/smallstep-dev-team/id1473677344?uo=4",
     "genres": [
-      "Games",
-      "Puzzle",
-      "Casual",
-      "Entertainment"
+      "遊戲",
+      "解謎",
+      "休閒",
+      "娛樂"
     ],
-    "releaseNotes": "• Fixed some bugs\n• Improved game stability"
+    "releaseNotes": "• 修正部分錯誤\n• 提升遊戲穩定性"
   },
   "reviewAnalysis": {
     "total": 0,
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
-      "confidence": "high"
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-20T13:49:26.243Z"
+  "analyzedAt": "2026-05-25T10:51:23.169Z"
 }

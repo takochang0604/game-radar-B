@@ -8,10 +8,10 @@
     "released": "May 16, 2026",
     "updated": 1779082727000,
     "version": "0.39.11",
-    "installs": "500,000+",
+    "installs": "1,000,000+",
     "score": 4.7,
-    "ratings": 1504,
-    "reviews": 466,
+    "ratings": 3748,
+    "reviews": 865,
     "developer": "FARLIGHT",
     "genre": "Casual",
     "recentChanges": "Clash of Critters is now live!: Your Virtual Pet Paradise is Here!"
@@ -19,41 +19,41 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 6,
-      "2": 6,
-      "3": 7,
-      "4": 24,
+      "1": 15,
+      "2": 7,
+      "3": 2,
+      "4": 19,
       "5": 157
     },
-    "positiveRatio": 91,
-    "negativeRatio": 6,
+    "positiveRatio": 88,
+    "negativeRatio": 11,
     "eventMentions": [
       {
-        "text": "i really like the evolution system thats its easy but sometimes a bit hard. easy mechanics i just wi",
+        "text": "good make some updates or other critters",
         "keywords": [
-          "new"
+          "update"
         ]
       },
       {
-        "text": "new to the game, but i love it already! and it has no ads??!! i love this!!!!!!!!",
+        "text": "cute critters, game slows down a lot, maybe should create stuff so it doesn't slow too much and make",
         "keywords": [
-          "new"
+          "event"
         ]
       },
       {
-        "text": "cute — and i will be there in about an hour or so ago and i was like a new one for the kids to the p",
+        "text": "it reminds me a zombie that the critters have awesome skills fighting zobos but guys this is not a j",
         "keywords": [
-          "new"
+          "update"
         ]
       },
       {
-        "text": "fun, easy to get on do a few levels and is really easy for new players",
+        "text": "i'm so upset that i need to leave this review. i really wanted to love this game, and i did when i f",
         "keywords": [
-          "new"
+          "event"
         ]
       },
       {
-        "text": "so far it looks and seems as fun as displayed in the ads, and it's so exciting to see the new tatari",
+        "text": "this game is really cute! i have no complaints. you can talk to people from around the world, get ad",
         "keywords": [
           "new"
         ]
@@ -64,13 +64,13 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 7 天，評分 4.7",
+      "detail": "上架 9 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     },
     {
@@ -82,9 +82,9 @@
     {
       "type": "word_of_mouth",
       "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 91%",
+      "detail": "4-5星評論佔 88%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-23T15:03:23.664Z"
+  "analyzedAt": "2026-05-25T10:48:18.933Z"
 }

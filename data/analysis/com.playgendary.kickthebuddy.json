@@ -1,0 +1,67 @@
+{
+  "appId": "com.playgendary.kickthebuddy",
+  "name": "Kick the Buddy－Fun Action Game",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Looking for a way to relax and unwind after a long day? Or maybe you’re just looking for a fun game to play when bored? Kick The Buddy is the perfect anti stress game for you! This cool game lets you take a break, have fun, and release some energy in a light-hearted way. Whether it’s kicking, punching, or tossing Buddy around, this is all about having fun without any real harm—after all, Buddy is just a ragdoll dummy!\n\nWhy you’ll love Kick The Buddy:\n\n– Fun & Relaxing: Release stress with funny ",
+    "released": "May 22, 2018",
+    "updated": 1779272300000,
+    "version": "2.16.2",
+    "installs": "500,000,000+",
+    "score": 3.8,
+    "ratings": 3564171,
+    "reviews": 27899,
+    "developer": "Playgendary Limited",
+    "developerWebsite": "https://newplg.dev/",
+    "genre": "Action",
+    "recentChanges": "Minor bug fixes"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 52,
+      "2": 6,
+      "3": 11,
+      "4": 11,
+      "5": 120
+    },
+    "positiveRatio": 66,
+    "negativeRatio": 29,
+    "eventMentions": [
+      {
+        "text": "i don't like the new version of the game but i like the old version of the game so can you change th",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "scam pay weekly dangerous for kids. response from develop unsatisfactory the problem is not ads it's",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "you removed the og tools with the new ui you should release a kick the buddy classic which has all t",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:49:35.874Z"
+}

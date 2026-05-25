@@ -9,7 +9,7 @@
     "updated": "2026-05-21T01:00:09Z",
     "version": "12.2.0",
     "score": 4.3,
-    "reviews": 29651,
+    "reviews": 29696,
     "developer": "Com2uS Corp.",
     "developerUrl": "https://apps.apple.com/kr/developer/com2us-corp/id299175870?uo=4",
     "genres": [
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-22T11:39:46.784Z"
+  "analyzedAt": "2026-05-25T10:51:54.905Z"
 }

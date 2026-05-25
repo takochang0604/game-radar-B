@@ -2,22 +2,22 @@
   "appId": "1423046460",
   "name": "Paper.io 2",
   "platform": "ios",
-  "market": "us",
+  "market": "vn",
   "detail": {
     "description": "Join millions of players in the world's most satisfying .io game! Move around the arena, draw a trail to grow your territory, and claim the zone before someone cuts you off. Simple rules, endless fun!\n\nFair warning: this game is seriously hard to put down!\n\nWhat makes Paper.io 2 so fun:\n∙ Smooth, satisfying arcade gameplay that just feels right\n∙ Online multiplayer you can jump into in seconds\n∙ 100+ unique skins to collect\n∙ Free rewards every day\n∙ Quick matches that fit into any break\n∙ A sec",
-    "released": "2018-08-09T02:50:42Z",
-    "updated": "2026-05-05T10:36:38Z",
-    "version": "4.31.1",
-    "score": 4.5,
-    "reviews": 2686742,
+    "released": "2018-09-01T19:54:13Z",
+    "updated": "2026-05-22T08:40:53Z",
+    "version": "4.32.0",
+    "score": 4.4,
+    "reviews": 54313,
     "developer": "Voodoo",
-    "developerUrl": "https://apps.apple.com/us/developer/voodoo/id714804730?uo=4",
+    "developerUrl": "https://apps.apple.com/vn/developer/voodoo/id714804730?uo=4",
     "genres": [
       "Games",
       "Casual",
       "Action"
     ],
-    "releaseNotes": "COSMETICS UPDATE\n∙ Visuals: a new zone creation visual effect has been added\n∙ Skins: 8 new hero outfits have been introduced\n∙ Performance improvements & bug fixes\nJump in the arena now!"
+    "releaseNotes": "GAMEPLAY UPDATE\n· Gameplay: you can now cross your own trail without dying\n· Controls: movement is more responsive and creates better-looking shapes\n· Performance improvements & bug fixes\nUpdate now and jump back into the action!"
   },
   "reviewAnalysis": {
     "total": 0,
@@ -34,11 +34,11 @@
   },
   "inferredReasons": [
     {
-      "type": "unknown",
-      "label": "🔍 待深入調查",
-      "detail": "未能自動推測原因，建議手動查看",
-      "confidence": "low"
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-21T11:42:28.357Z"
+  "analyzedAt": "2026-05-25T10:50:58.850Z"
 }

@@ -1,0 +1,44 @@
+{
+  "appId": "1501301871",
+  "name": "《英雄聯盟：激鬥峽谷》",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "縱身一躍進入《激鬥峽谷》的世界：為手機從零開始重新打造，完美再現Riot Games《英雄聯盟》中講求技巧與戰術的五對五MOBA體驗。操作超流暢，對戰快節奏，你可以與好友組成隊伍、鎖定自己的拿手英雄，然後大顯身手。\n\n為戰而生 力求完美\n用強大的英雄和多變的策略來征服峽谷，成為箇中傳奇！每一場對戰都有機會讓你使出完美的指向技能、在激烈團戰中扭轉戰局，或收下甜美無比的五連殺。\n\n與好友一同競技\n想稱霸這款MOBA手遊，團隊合作絕對至關重要。你可以與好友們進行雙排、三排或五排，拿下一座又一座的敵方主堡，不斷往上衝分。 \n\n選擇你的英雄\n你可以提起巨劍躍起劈砍、射出橫越地圖的冰箭來凍住敵軍，或魅惑對手使其自取滅亡。無論想成就什麼樣的傳奇，你都能找到適合自己的英雄。\n\n免費遊戲 公平第一\n系統會依據兩隊人數與技巧水準做配對，讓你在公平的對決中拿出真正實力。《激鬥峽谷》中的所有英雄皆可免費取得，不用額外課金來回體或強化能力。永遠不用。\n\n\n追蹤以下社群媒體，看看逼近200智商的高超對戰影片，了解開發過程、更新消息，還有更多內容：\nInstagram： https://www.instagram.",
+    "released": "2020-12-06T08:00:00Z",
+    "updated": "2026-04-09T00:00:58Z",
+    "version": "9849",
+    "score": 3.5,
+    "reviews": 43351,
+    "developer": "Taiwan Mobile Co., Ltd.",
+    "developerUrl": "https://apps.apple.com/tw/developer/taiwan-mobile-co-ltd/id386942698?uo=4",
+    "genres": [
+      "遊戲",
+      "動作",
+      "策略"
+    ],
+    "releaseNotes": "在7.1版本盡情狂飆吧！4月至7月期間： \n\n• 新英雄：跟上卡桑帝、塔莉雅與史加納的速度。\n• 新主題：進入「力鐸」的世界，奔馳於炫目的賽道。\n• 新聯名：探索我們與保時捷聯名推出的迅雷體驗。\n• 玩法操作：發掘全新符文與重大更新。\n\n\n詳情請見https://wildrift.leagueoflegends.com/zh-tw/。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:50:08.112Z"
+}

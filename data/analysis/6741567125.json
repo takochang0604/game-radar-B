@@ -9,7 +9,7 @@
     "updated": "2026-05-20T07:00:00Z",
     "version": "0.39.11",
     "score": 4.9,
-    "reviews": 805,
+    "reviews": 5904,
     "developer": "Farlight Games",
     "developerUrl": "https://apps.apple.com/us/developer/farlight-games/id1605558679?uo=4",
     "genres": [
@@ -36,15 +36,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 2 天，評分 4.9",
+      "detail": "上架 5 天，評分 4.9",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-22T11:37:30.153Z"
+  "analyzedAt": "2026-05-25T10:47:49.149Z"
 }

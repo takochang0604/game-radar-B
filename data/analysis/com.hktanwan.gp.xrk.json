@@ -9,21 +9,21 @@
     "updated": 1778754395000,
     "version": "1.24",
     "installs": "100,000+",
-    "score": 4.7,
-    "ratings": 3349,
-    "reviews": 370,
+    "score": 4.8,
+    "ratings": 4316,
+    "reviews": 451,
     "developer": "TANWAN GAMES",
     "developerWebsite": "https://hktanwan.com/",
     "genre": "Casual"
   },
   "reviewAnalysis": {
-    "total": 2,
+    "total": 4,
     "starCounts": {
       "1": 0,
       "2": 0,
       "3": 0,
       "4": 1,
-      "5": 1
+      "5": 3
     },
     "positiveRatio": 100,
     "negativeRatio": 0,
@@ -33,15 +33,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 15 天，評分 4.7",
+      "detail": "上架 18 天，評分 4.8",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
+      "detail": "最近更新: 11 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:40:48.826Z"
+  "analyzedAt": "2026-05-25T10:50:53.956Z"
 }

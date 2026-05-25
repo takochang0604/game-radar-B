@@ -2,16 +2,16 @@
   "appId": "com.smilegate.outerplane.stove.google",
   "name": "OUTERPLANE - Strategy Anime",
   "platform": "android",
-  "market": "tw",
+  "market": "kr",
   "detail": {
     "description": "▶ Plenty of rewards await!\nClaim up to 100 Limited Recruitment Tickets!\n\n▮New Players Up to 1,000 Free Recruits!\n\nThe Action Anime, OUTERPLANE\n\n◎ The revenge saga of an Earthling summoned to another world commences! Summoned to \"Mirsha,\" Earthling \"K\" pledges vengeance against betrayers, setting forth on a journey with the automaton \"Eva\"... The riveting tale of intertwined destinies begins to unfold.\n\n▮ Dazzling Action ▮\nEndless Turn-Based strategic excellence with skill chains and burst system",
     "released": "May 17, 2023",
     "updated": 1778748851000,
     "version": "1.4.7",
     "installs": "1,000,000+",
-    "score": 4.6,
-    "ratings": 88187,
-    "reviews": 588,
+    "score": 4.7,
+    "ratings": 88650,
+    "reviews": 1403,
     "developer": "Major9",
     "developerWebsite": "https://outerplane.vagames.kr",
     "genre": "Role Playing",
@@ -20,15 +20,34 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 62,
+      "1": 64,
       "2": 6,
-      "3": 14,
-      "4": 19,
+      "3": 13,
+      "4": 18,
       "5": 99
     },
     "positiveRatio": 59,
-    "negativeRatio": 34,
+    "negativeRatio": 35,
     "eventMentions": [
+      {
+        "text": "insanely generous towards new player",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "in addition to what i previously said, i know they will ignore this comment just like everyone else'",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i am a very... strict gacha player. i get bored easily. but this game is it. i love the music. the a",
+        "keywords": [
+          "season"
+        ]
+      },
       {
         "text": "3rd anniversary and still tons of bugs and freezing at end of battles.",
         "keywords": [
@@ -40,24 +59,6 @@
         "keywords": [
           "anniversary"
         ]
-      },
-      {
-        "text": "okay i finally got everything back thank you for that truly but i just got a question that we were s",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "good evening. as far as the game is good, the storyline is good, the characters are good too. but, i",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "help i keep trying to make my selection for the new 3 star hero banner and it just keeps telling me ",
-        "keywords": [
-          "new"
-        ]
       }
     ]
   },
@@ -65,7 +66,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
+      "detail": "最近更新: 11 天前",
       "confidence": "medium"
     },
     {
@@ -75,5 +76,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:37:56.450Z"
+  "analyzedAt": "2026-05-25T10:47:54.063Z"
 }

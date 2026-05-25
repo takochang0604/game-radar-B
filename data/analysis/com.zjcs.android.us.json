@@ -8,10 +8,10 @@
     "released": "May 13, 2026",
     "updated": 1778675189000,
     "version": "1.0.0",
-    "installs": "100,000+",
-    "score": 4.7,
-    "ratings": 9079,
-    "reviews": 548,
+    "installs": "500,000+",
+    "score": 4.8,
+    "ratings": 24036,
+    "reviews": 1094,
     "developer": "BOLTRAY GAMES",
     "genre": "Role Playing"
   },
@@ -19,42 +19,44 @@
     "total": 200,
     "starCounts": {
       "1": 24,
-      "2": 2,
-      "3": 5,
-      "4": 25,
-      "5": 144
+      "2": 6,
+      "3": 6,
+      "4": 26,
+      "5": 138
     },
-    "positiveRatio": 85,
-    "negativeRatio": 13,
+    "positiveRatio": 82,
+    "negativeRatio": 15,
     "eventMentions": [
       {
-        "text": "i played this game in closed beta and even then i knew it was something special. it's much more invo",
+        "text": "so far very fun, the progression feels steady. new to game so i will update my review as needed when",
         "keywords": [
+          "update",
           "new"
         ]
       },
       {
-        "text": "great game unless you want to play it more than two days at a time. time gated so theres no reason t",
+        "text": "just getting started but its actually fun so far. will update more later",
         "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "you need to do something about the servers being full because that's keeping new players from joinin",
+        "keywords": [
+          "event",
           "new"
         ]
       },
       {
-        "text": "this feels more like an old rpg than some new styles of games, it's very comfy and i'm enjoying it w",
+        "text": "so trash yah, can't even put your update info poster, side ways.... these games only last for a yr a",
         "keywords": [
-          "new"
+          "update"
         ]
       },
       {
-        "text": "the best idle rpg i played! i love the character's customization, the skill upgrade system, the clas",
+        "text": "i played lineage 2 revolution before and this game is a pretty good mmorpg-like afk kind of game, yo",
         "keywords": [
-          "season"
-        ]
-      },
-      {
-        "text": "it's very fun!! no adds at all either, which is very suprizing. charactor customization is pretty da",
-        "keywords": [
-          "limited"
+          "event"
         ]
       }
     ]
@@ -63,13 +65,13 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 9 天，評分 4.7",
+      "detail": "上架 12 天，評分 4.8",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
+      "detail": "最近更新: 11 天前",
       "confidence": "medium"
     },
     {
@@ -81,9 +83,9 @@
     {
       "type": "word_of_mouth",
       "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 85%",
+      "detail": "4-5星評論佔 82%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:37:46.520Z"
+  "analyzedAt": "2026-05-25T10:48:23.707Z"
 }

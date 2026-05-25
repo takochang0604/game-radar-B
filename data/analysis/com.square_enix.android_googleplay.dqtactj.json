@@ -1,0 +1,42 @@
+{
+  "appId": "com.square_enix.android_googleplay.dqtactj",
+  "name": "ドラゴンクエストタクト",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Dragon Quest has become a tactics game! Command Dragon Quest monsters on an adventure!\nThe Dragon Quest series' first tactics game is simple yet deep. Plan your strategy and enjoy heated tactical battles!\n\n□Recommended for these tactics games□\n- Play all of the Dragon Quest (DQ) games planned and produced by Square Enix\n- Love the worldview of the Dragon Quest (DQ) series\n- Love the characters and monsters of the Dragon Quest (DQ) series\n- Want a tactics game where you can control your favorite ",
+    "released": "Jul 10, 2020",
+    "updated": 1779359286000,
+    "version": "6.7.2",
+    "installs": "1,000,000+",
+    "score": 3.9,
+    "ratings": 64122,
+    "reviews": 16959,
+    "developer": "SQUARE ENIX Co.,Ltd.",
+    "developerWebsite": "https://www.dragonquest.jp/tact/",
+    "genre": "Role Playing",
+    "recentChanges": "・不具合の修正"
+  },
+  "reviewAnalysis": {
+    "total": 19,
+    "starCounts": {
+      "1": 5,
+      "2": 2,
+      "3": 2,
+      "4": 1,
+      "5": 9
+    },
+    "positiveRatio": 53,
+    "negativeRatio": 37,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:51:47.417Z"
+}

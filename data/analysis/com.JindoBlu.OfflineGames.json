@@ -9,46 +9,53 @@
     "updated": 1777417472000,
     "version": "3.11.2",
     "installs": "100,000,000+",
-    "score": 4.6170583,
-    "ratings": 445249,
-    "reviews": 13436,
+    "score": 4.6,
+    "ratings": 451510,
+    "reviews": 13650,
     "developer": "JindoBlu",
     "developerWebsite": "https://www.jindoblu.com",
     "genre": "Casual",
     "recentChanges": "• Bug fixes and improvements<br>"
   },
   "reviewAnalysis": {
-    "total": 100,
+    "total": 200,
     "starCounts": {
-      "1": 6,
-      "2": 6,
-      "3": 1,
-      "4": 11,
-      "5": 76
+      "1": 15,
+      "2": 4,
+      "3": 9,
+      "4": 16,
+      "5": 156
     },
-    "positiveRatio": 87,
-    "negativeRatio": 12,
+    "positiveRatio": 86,
+    "negativeRatio": 10,
     "eventMentions": [
       {
-        "text": "started off great, really fun games. after a while it started with ads. every single time i did anyt",
+        "text": "please please please.... add a way to favorite games! so i can quickly find the game i want at that ",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "i've always tried my best for the extra hard and it helps my mind to make a new technique",
+        "text": "please update 25 may 2026 new minigames.",
         "keywords": [
+          "update",
           "new"
         ]
       },
       {
-        "text": "very nice, it has lots of games and sometimes they add new ones",
+        "text": "pleasantly surprised with tons of simple and still fun offline games. update: after a few weeks of p",
         "keywords": [
-          "new"
+          "update"
         ]
       },
       {
-        "text": "excellent! lots of fun for hours and hours, and plenty of all of your favorite games! the ads are so",
+        "text": "some suggestions for updates: 1) the ai for spades should be improved for your partner when you are ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i find this very fun! the levels of difficulty actually seem to match the difficulty i set it to (gr",
         "keywords": [
           "new"
         ]
@@ -57,23 +64,17 @@
   },
   "inferredReasons": [
     {
-      "type": "major_update",
-      "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 9 天前",
-      "confidence": "medium"
-    },
-    {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
-      "detail": "評論中 4 次提及活動/事件",
+      "detail": "評論中 5 次提及活動/事件",
       "confidence": "medium"
     },
     {
       "type": "word_of_mouth",
       "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 87%",
+      "detail": "4-5星評論佔 86%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-08T07:35:00.192Z"
+  "analyzedAt": "2026-05-25T10:51:13.481Z"
 }

@@ -1,0 +1,41 @@
+{
+  "appId": "com.webzen.muangel.google",
+  "name": "뮤 모나크",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "★MU Monarch Hell Hunter Update★\n\n▶ Hunt the strongest of Hell! Hell Hunter Open!\n\nPowerful Hell Hunter BOSSes appearing at the time Hell opens!\n\nExperience overwhelming battles and abundant rewards amidst the extreme hunts unfolding in the Hell Realm!\n\n★Game Introduction★\n\n▶ Brilliant Glory, the memories and emotions of MU Online 그대로!\n\nThe true return of MU! Be reborn as the strongest warrior once again!\n\nBreak through the darkness that has descended upon the MU Continent and save the world!\n\n▶ ",
+    "released": "Oct 18, 2023",
+    "updated": 1765445895000,
+    "version": "1.2.5004",
+    "installs": "100,000+",
+    "score": 4.3,
+    "ratings": 12566,
+    "reviews": 6159,
+    "developer": "Webzen Inc.",
+    "genre": "Role Playing",
+    "recentChanges": "▶ 찬란한 영광, 뮤 온라인의 추억과 감동을 그대로!◀<br>- 마이너 버그 수정"
+  },
+  "reviewAnalysis": {
+    "total": 3,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:49:58.325Z"
+}

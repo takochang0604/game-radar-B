@@ -9,7 +9,7 @@
     "updated": "2026-05-20T21:22:49Z",
     "version": "2.390.5565",
     "score": 4.5,
-    "reviews": 96747,
+    "reviews": 96767,
     "developer": "NEXON Company",
     "developerUrl": "https://apps.apple.com/tw/developer/nexon-company/id523546006?uo=4",
     "genres": [
@@ -35,9 +35,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-22T11:41:18.745Z"
+  "analyzedAt": "2026-05-25T10:48:31.073Z"
 }

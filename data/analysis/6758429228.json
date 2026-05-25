@@ -1,0 +1,48 @@
+{
+  "appId": "6758429228",
+  "name": "驯龙之旅",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "奶龙重磅联动！《驯龙之旅》5月26日全平台首发，国民IP奶龙与你开启治愈冒险。\n\n你相信吗？在这个世界，睡觉都能变强！你意外捡到一枚龙蛋，孵化出独一无二的龙崽。一人一龙踏上驯龙之旅——你负责动脑搭配战术，它负责离线战斗、收集资源。当你醒来，它已带着满满收获等你归来。\n\n【奶龙联动专属】全新伙伴“奶龙”与“暴暴龙”、贪吃奶龙大作战、多款奶龙系皮肤，软萌陪伴不间断。\n\n【人龙共斗，策略先行】你动脑，它卖力\n【离线躺赢，收益不停】睡觉也在变强\n【萌龙相伴，性格养成】每只龙都有独特个性\n\n预约福利：上线即领史诗级龙蛋+500连抽\n公测活动：已预约用户免费领取暴暴龙限定头像、头像框+萌宠暴暴龙一只\n\n5月26日，与奶龙一同出征，躺赢世界！",
+    "released": "2026-05-23T07:00:00Z",
+    "updated": "2026-05-23T07:00:00Z",
+    "version": "1.0.4",
+    "score": 4.8,
+    "reviews": 1391,
+    "developer": "咪咕互动娱乐有限公司",
+    "developerUrl": "https://apps.apple.com/cn/developer/%E5%92%AA%E5%92%95%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/id1039351793?uo=4",
+    "genres": [
+      "游戏"
+    ],
+    "releaseNotes": "优化游戏体验，修复游戏bug。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 2 天，評分 4.8",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:49:02.120Z"
+}

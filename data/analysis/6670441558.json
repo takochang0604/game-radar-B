@@ -6,10 +6,10 @@
   "detail": {
     "description": "Gear up and brace yourself for the ultimate test of zombie apocalypse survival! Dive into thrilling gameplay and uncover captivating events that await your exploration!\n\nAs a sudden and catastrophic zombie virus ravages human society, your once cozy life is shattered. Family and friends turn into the walking dead before your very eyes. Escaping the chaos of your crumbling home, you now face the ultimate challenge: setting up a shelter to survive the zombie apocalyptic world, and reigniting the f",
     "released": "2024-09-05T07:00:00Z",
-    "updated": "2026-05-08T09:49:40Z",
-    "version": "1.250.645",
+    "updated": "2026-05-22T03:04:10Z",
+    "version": "1.250.647",
     "score": 4.6,
-    "reviews": 6639,
+    "reviews": 6773,
     "developer": "Omnilojo Pte Ltd",
     "developerUrl": "https://apps.apple.com/ph/developer/omnilojo-pte-ltd/id1838371095?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-13T11:39:20.148Z"
+  "analyzedAt": "2026-05-25T10:51:30.639Z"
 }

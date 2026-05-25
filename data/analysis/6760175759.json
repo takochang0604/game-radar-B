@@ -9,7 +9,7 @@
     "updated": "2026-05-19T07:00:00Z",
     "version": "1.1",
     "score": 4.7,
-    "reviews": 554,
+    "reviews": 1310,
     "developer": "MOREFUN (H.K.) LIMITED",
     "developerUrl": "https://apps.apple.com/kr/developer/morefun-h-k-limited/id1773044663?uo=4",
     "genres": [
@@ -36,15 +36,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 3 天，評分 4.7",
+      "detail": "上架 6 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 6 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-22T11:38:13.256Z"
+  "analyzedAt": "2026-05-25T10:48:42.735Z"
 }

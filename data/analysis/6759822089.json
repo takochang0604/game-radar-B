@@ -8,8 +8,8 @@
     "released": "2026-05-20T07:00:00Z",
     "updated": "2026-05-20T23:03:43Z",
     "version": "1.0.2",
-    "score": 3.7,
-    "reviews": 23,
+    "score": 4.3,
+    "reviews": 61,
     "developer": "Ujoy Games Limited",
     "developerUrl": "https://apps.apple.com/kr/developer/ujoy-games-limited/id1498886982?uo=4",
     "genres": [
@@ -34,11 +34,17 @@
   },
   "inferredReasons": [
     {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 5 天，評分 4.3",
+      "confidence": "high"
+    },
+    {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-22T11:38:15.795Z"
+  "analyzedAt": "2026-05-25T10:49:45.699Z"
 }

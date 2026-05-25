@@ -1,0 +1,85 @@
+{
+  "appId": "com.xten.ufl",
+  "name": "UFL - Soccer Game 2026",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Experience the next generation of football gaming right on your mobile device! UFL is the soccer simulation that puts your talent to the ultimate test. It's time to build your legacy from the ground up and challenge players globally in a fair, engaging, and competitive environment.\n\nBuild your football club: start your journey, assemble your dream top eleven squad, and implement a strategy that rewards pure football games knowledge. UFL is designed for fresh, skill-rewarding gameplay where the p",
+    "released": "May 21, 2026",
+    "updated": 1779450447000,
+    "version": "14.0.0",
+    "installs": "1,000,000+",
+    "score": 4.5,
+    "ratings": 19233,
+    "reviews": 136,
+    "developer": "XTEN LIMITED",
+    "developerWebsite": "https://portal.uflgame.com",
+    "genre": "Sports",
+    "recentChanges": "Build your dream football league team. Real football simulator!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 45,
+      "2": 18,
+      "3": 22,
+      "4": 33,
+      "5": 82
+    },
+    "positiveRatio": 57,
+    "negativeRatio": 32,
+    "eventMentions": [
+      {
+        "text": "it's good but always removing it self also create new jerseys and ne boots even player faces but qua",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game is very enjoyable.....but there are things that need to be improved in the next update.....",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "it is okay for now but i have a few problems. 1. the apps closes and says reinstall or check if goog",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the game will start and stop asking me to update my google play store and reinstall it whic i have d",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i really like the game.the graphics are really good. but,i gave 3 stars cause i'm just not having th",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 4 天，評分 4.5",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:50:34.481Z"
+}

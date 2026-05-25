@@ -1,0 +1,79 @@
+{
+  "appId": "jp.co.sumzap.pj0014",
+  "name": "呪術廻戦 ファントムパレード（ファンパレ）",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "What is “Jujutsu Kaisen Phantom Parade”\n◆The worldview of “TV anime” and the story of “Jujutsu Kaisen” unique to “games”◆\nThe anime story is reproduced with new full voice. In addition, the story is told from the perspectives of various characters and is fully voiced.\n\n◆Use your hands to control the spell and exorcise cursed spirits in battles just like the TV anime◆\nA battle unfolding in high quality. Create your own team and exorcise powerful cursed spirits.\n◆Experience the battle of “Jujutsu ",
+    "released": "Nov 15, 2023",
+    "updated": 1778839261000,
+    "version": "3.6.0",
+    "installs": "1,000,000+",
+    "score": 4.6,
+    "ratings": 53862,
+    "reviews": 9672,
+    "developer": "Sumzap, Inc.",
+    "developerWebsite": "https://jujutsuphanpara.jp/",
+    "genre": "Role Playing",
+    "recentChanges": "不具合の修正、及び機能改善"
+  },
+  "reviewAnalysis": {
+    "total": 149,
+    "starCounts": {
+      "1": 25,
+      "2": 5,
+      "3": 6,
+      "4": 11,
+      "5": 102
+    },
+    "positiveRatio": 76,
+    "negativeRatio": 20,
+    "eventMentions": [
+      {
+        "text": "please add satoru gojo amanai events please 🥺",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "幽遊白書コラボお願いします",
+        "keywords": [
+          "コラボ"
+        ]
+      },
+      {
+        "text": "スムーズプレイ出来ていますが、キュウブとイベントが不足です。ランキングバトル、ストーリー、夢幻廻楼ももっと上げて欲しい。特にリワードの量です。失礼ですが、あなたのゲームがいきつづける為に。",
+        "keywords": [
+          "イベント"
+        ]
+      },
+      {
+        "text": "great experience whilst playing the game, updates aren't rushed like global, the cutscenes, soundtra",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this japan version is much more generous and not money hungry. the events are not rushed like in glo",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:50:56.342Z"
+}

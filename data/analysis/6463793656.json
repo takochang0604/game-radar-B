@@ -1,0 +1,43 @@
+{
+  "appId": "6463793656",
+  "name": "MFC - Midnight Fight Club",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Step into the ring and prepare for the ultimate fighting experience! MFC - Midnight Fight Club brings the raw intensity and excitement of professional mixed martial arts fighting right to your fingertips. With unparalleled graphics, a diverse roster of fighters, and realistic physics, this is the mobile fighting game you've been waiting for.\nFeatures:\nDynamic Combat System\nChoose from two types of attacks—weak and heavy—to outwit your opponents. Nail the timing, and you could land a devastating ",
+    "released": "2024-08-07T07:00:00Z",
+    "updated": "2024-08-07T11:51:06Z",
+    "version": "1.5",
+    "score": 4.4,
+    "reviews": 616,
+    "developer": "MIDNIGHT GAMES S.R.L.",
+    "developerUrl": "https://apps.apple.com/vn/developer/midnight-games-s-r-l/id1591618325?uo=4",
+    "genres": [
+      "Games",
+      "Sports"
+    ],
+    "releaseNotes": "- Added Online Mode (Quick March, Private Match)\n- Added Haptic vibrations\n- Added Training Notifications\n- Interface Improvements\n- Bug Fixes"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:51:18.257Z"
+}

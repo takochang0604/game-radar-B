@@ -8,8 +8,8 @@
     "released": "2026-05-11T07:00:00Z",
     "updated": "2026-05-19T02:01:25Z",
     "version": "1.0.1",
-    "score": 3.8,
-    "reviews": 375,
+    "score": 4,
+    "reviews": 1282,
     "developer": "鑫 沈",
     "developerUrl": "https://apps.apple.com/cn/developer/%E9%91%AB-%E6%B2%88/id1846022771?uo=4",
     "genres": [
@@ -33,11 +33,17 @@
   },
   "inferredReasons": [
     {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 14 天，評分 4.0",
+      "confidence": "high"
+    },
+    {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 6 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-23T15:03:39.760Z"
+  "analyzedAt": "2026-05-25T10:49:21.237Z"
 }

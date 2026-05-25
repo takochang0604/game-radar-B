@@ -2,48 +2,72 @@
   "appId": "com.warrior.screw.gp",
   "name": "Screw All Out - Jam Master",
   "platform": "android",
-  "market": "jp",
+  "market": "kr",
   "detail": {
     "description": "Arrange and Twist out the screws. Correctly screw them away from the boards and clear all out. Simple to start yet IQ testing!  \nWe believe this is the difficulty level design you don't want to miss out! It's challenging but will definitely rest your brain. Can you be the screw jam Master?\nTwist them Out! Screw All Out! Screw away your stress! \n\nDive into a world of satisfying ASMR sounds and colorful screw jam puzzles, master thousands of levels!\nTap on the screws with matching colors and clear",
     "released": "Aug 24, 2025",
     "updated": 1776956175000,
     "version": "1.0.22",
     "installs": "1,000,000+",
-    "score": 4.1960783,
-    "ratings": 44465,
-    "reviews": 78,
+    "score": 4.7,
+    "ratings": 47351,
+    "reviews": 292,
     "developer": "Warrior Puzzle Game Studio",
     "developerWebsite": "https://loveballs.club/",
     "genre": "Puzzle",
     "recentChanges": "- Participate in new events to win tons of gold and &quot;unlimited lives&quot;<br>- UI optimization<br><br>The ultimate screw challenge awaits your conquest! For any questions or suggestions, please contact service@warriorgame.mobi"
   },
   "reviewAnalysis": {
-    "total": 100,
+    "total": 200,
     "starCounts": {
-      "1": 68,
-      "2": 11,
-      "3": 4,
-      "4": 2,
-      "5": 15
+      "1": 120,
+      "2": 24,
+      "3": 11,
+      "4": 4,
+      "5": 41
     },
-    "positiveRatio": 17,
-    "negativeRatio": 79,
+    "positiveRatio": 23,
+    "negativeRatio": 72,
     "eventMentions": [
+      {
+        "text": "i used to enjoy this game but now with the new pinterest ads that force open pinterest every time, i",
+        "keywords": [
+          "new"
+        ]
+      },
       {
         "text": "it's been great playing, but now the ads aren't loading. i've re-installed it twice and even cleared",
         "keywords": [
           "update"
+        ]
+      },
+      {
+        "text": "game looks fun,but i had to stop. the ads,to many and they froze the game and another time i had to ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "fun but frustrating. though i enjoy the game, every time an ad opens the game resets and loads a new",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i totally hate this game! when you start out, you can get a new life by just watching an ad. as you ",
+        "keywords": [
+          "new"
         ]
       }
     ]
   },
   "inferredReasons": [
     {
-      "type": "unknown",
-      "label": "🔍 待深入調查",
-      "detail": "未能自動推測原因，建議手動查看",
-      "confidence": "low"
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-09T15:04:35.667Z"
+  "analyzedAt": "2026-05-25T10:51:06.077Z"
 }

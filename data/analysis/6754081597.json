@@ -1,0 +1,44 @@
+{
+  "appId": "6754081597",
+  "name": "Lineage W",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Quyết định phát hành trò chơi điện tử G1 trên mạng số 40/QĐ-PTTH&TTĐT do Cục Phát thanh, truyền hình và thông tin điện tử cấp ngày 30/01/2026.\nhttps://giayphep.abei.gov.vn/g1/131809\n\n▶ Lineage W - Siêu phẩm MMORPG của dòng game Lineage\nLineage W là tựa game nhập vai trực tuyến nhiều người chơi (MMORPG) thế hệ mới với thế giới mở, mang đến chiến trường quy mô lớn cho cộng đồng game thủ Đông Nam Á. \n\nTrải nghiệm tinh thần cốt lõi của Lineage: lòng trung thành, sự hy sinh, sự liên minh và những cuộ",
+    "released": "2026-05-23T07:00:00Z",
+    "updated": "2026-05-23T07:00:00Z",
+    "version": "2.10.02",
+    "score": 3.1,
+    "reviews": 14,
+    "developer": "VNGGames Co., Ltd",
+    "developerUrl": "https://apps.apple.com/vn/developer/vnggames-co-ltd/id1834870709?uo=4",
+    "genres": [
+      "Games",
+      "Adventure",
+      "Role-Playing"
+    ],
+    "releaseNotes": "Phiên bản The Ultimate Lineage MMORPG đã chính thức ra mắt! Tham gia Huyết Chiến Tối Thượng và bắt đầu hành trình của bạn ngay hôm nay. Skin độc quyền dành riêng cho thị trường SEA cùng hàng loạt sự kiện đặc biệt và phần thưởng hấp dẫn đang chờ đón bạn!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-25T10:50:36.933Z"
+}
