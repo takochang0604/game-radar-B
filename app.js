@@ -724,15 +724,13 @@ function renderDarkhorses() {
         else if (!existing.markets.find(em => em.code === dh.market)) existing.markets.push({ code: dh.market, flag: getFlag(dh.market), name: dh.marketName, rank: dh.currentRank });
       }
 
-      // 合併排行資訊 (將 dh.markets 的所有排名都加入 _chartRanks)
+      // 合併排行資訊：每個 chartType+platform 只加入最佳排名（用 dh.currentRank）
       const chartLabel = dh.chartType === 'grossing' ? '營收' : '免費';
-      const sourceMarkets = dh.markets || [{ code: dh.market, flag: getFlag(dh.market), rank: dh.currentRank }];
-      sourceMarkets.forEach(m => {
-        const mf = getFlag(m.code) || m.flag || '';
-        if (!existing._chartRanks.find(cr => cr.chartLabel === chartLabel && cr.platform === dh.platform && cr.marketFlag === mf)) {
-          existing._chartRanks.push({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: mf });
-        }
-      });
+      const bestMarket = (dh.markets || []).sort((a, b) => (a.rank || 999) - (b.rank || 999))[0];
+      const mf = bestMarket ? (getFlag(bestMarket.code) || bestMarket.flag || '') : (getFlag(dh.market) || dh.marketFlag || '');
+      if (!existing._chartRanks.find(cr => cr.chartLabel === chartLabel && cr.platform === dh.platform)) {
+        existing._chartRanks.push({ chartLabel, platform: dh.platform, rank: dh.currentRank, marketFlag: mf });
+      }
       // 取較高信心分數
       if ((dh.confidenceScore || 0) > (existing.confidenceScore || 0)) {
         existing.confidenceScore = dh.confidenceScore;
@@ -796,9 +794,13 @@ function renderDarkhorses() {
         markets: initialMarkets,
         triggers: taggedTriggers,
         _platforms: [dh.platform],
-        _chartRanks: initialMarkets.length > 0
-          ? initialMarkets.map(m => ({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: getFlag(m.code) || m.flag || '' }))
-          : [{ chartLabel, platform: dh.platform, rank: dh.currentRank, marketFlag: getFlag(dh.market) || dh.marketFlag || '' }],
+        _chartRanks: (() => {
+          const bestMkt = initialMarkets.length > 0
+            ? initialMarkets.sort((a, b) => (a.rank || 999) - (b.rank || 999))[0]
+            : null;
+          const mf = bestMkt ? (getFlag(bestMkt.code) || bestMkt.flag || '') : (getFlag(dh.market) || dh.marketFlag || '');
+          return [{ chartLabel, platform: dh.platform, rank: dh.currentRank, marketFlag: mf }];
+        })(),
         _rankHistoryByLine: (() => {
           const lines = {};
           // 優先用後端提供的 _rankHistoryByMarket（各市場獨立歷史）
