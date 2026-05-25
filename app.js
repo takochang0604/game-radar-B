@@ -147,7 +147,8 @@ function findAppInAllMarkets(date, appIds) {
           if (!idSet.has(app.appId)) continue;
           if (!result.has(app.appId)) result.set(app.appId, []);
           const arr = result.get(app.appId);
-          if (!arr.find(e => e.code === market.code)) {
+          // 同市場+同平台+同榜才算重複（之前只比市場，導致營收榜被跳過）
+          if (!arr.find(e => e.code === market.code && e.platform === plat && e.chartType === ct)) {
             arr.push({ code: market.code, rank: app.rank, platform: plat, chartType: ct });
           }
         }
@@ -1096,10 +1097,11 @@ function renderDarkhorses() {
       '🇹🇼': 1.0, '🇹🇭': 1.0, '🇻🇳': 1.0, '🇵🇭': 0.9,
     };
 
-    // 排序：營收優先 > 排名小優先 > 同名次時市場權重高的優先
+    // 排序：加權排名（營收 ×0.5、免費 ×1.0）— 營收含金量較高
     chartRanks.sort((a, b) => {
-      if (a.chartLabel !== b.chartLabel) return a.chartLabel === '營收' ? -1 : 1;
-      if (a.rank !== b.rank) return a.rank - b.rank;
+      const wa = a.rank * (a.chartLabel === '營收' ? 0.5 : 1);
+      const wb = b.rank * (b.chartLabel === '營收' ? 0.5 : 1);
+      if (wa !== wb) return wa - wb;
       return (RANK_MARKET_WEIGHTS[b.marketFlag] || 0.5) - (RANK_MARKET_WEIGHTS[a.marketFlag] || 0.5);
     });
 
