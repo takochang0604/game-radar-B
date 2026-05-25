@@ -96,6 +96,7 @@ const GAME_ALIASES = {
   '原神': 'genshinimpact',
   'genshinimpact': 'genshinimpact',
   '原神空月の歌': 'genshinimpact',
+  '原神空月之歌': 'genshinimpact',
   '崩壊スターレイル': 'honkaistarrail',
   '崩壞星穹鐵道': 'honkaistarrail',
   'honkaistarrail': 'honkaistarrail',
@@ -444,15 +445,7 @@ function sanitizeDarkhorses() {
     // 兼容處理：統一使用 sanitizeGameItem 處理新舊 Schema 差異
     sanitizeGameItem(dh);
 
-    // 修正：若 dh.markets 中的主市場排名與 dh.currentRank 不一致，將其修正為最新排名，防止保留歷史黑馬時使用過期排名
-    if (dh.markets) {
-      dh.markets = dh.markets.map(m => {
-        if (m.code === dh.market && m.rank !== dh.currentRank) {
-          return { ...m, rank: dh.currentRank };
-        }
-        return m;
-      });
-    }
+    // 注意：不可修改 dh.markets 或 dh.currentRank，原始數據在偵測時已經是正確的
 
     // 備註：不再於此處就地（in-place）覆寫 triggers[].detail 的排名文字，
     // 以便保留首偵當下的起點排名，改由 formatTriggerDetail 在渲染時動態對比並呈現軌跡。
@@ -655,15 +648,7 @@ function renderDarkhorses() {
 
   for (const dh of filtered) {
     if (!dh || !dh.name) continue; // 健壯性防護：避免髒資料導致整個渲染掛掉
-    // 修正：若 dh.markets 中的主市場排名與 dh.currentRank 不一致，將其修正為最新排名，防止保留歷史黑馬時使用過期排名
-    if (dh.markets) {
-      dh.markets = dh.markets.map(m => {
-        if (m.code === dh.market && m.rank !== dh.currentRank) {
-          return { ...m, rank: dh.currentRank };
-        }
-        return m;
-      });
-    }
+    // 注意：不可修改 dh.markets 或 dh.currentRank（參考 reference 會汙染原始數據）
 
     let targetKey = null;
     const nameKey = getMergeKey(dh);
@@ -1434,6 +1419,7 @@ function showAnalysis(appId, platform) {
   });
 
   // 修正：動態同步 allDh 的 currentRank 及其 triggers 的名次為最新排名，解決彈窗黑馬觸發條件名次過期的問題
+  // ⚠️ 重要：不可直接修改原始 dh 物件（它是 state.darkhorses 的 reference），否則會汙染卡片渲染的排名
   allDh.forEach(dh => {
     // 優先從當日排行榜快照獲取最新排名，以確保最新最準確
     let latestRank = null;
@@ -1451,20 +1437,13 @@ function showAnalysis(appId, platform) {
     // 如果快照找不到，退而求其次使用 dh.currentRank
     if (!latestRank) latestRank = dh.currentRank;
 
-    if (latestRank) {
-      dh.currentRank = latestRank;
-      if (dh.markets) {
-        dh.markets = dh.markets.map(m => {
-          if (m.code === targetMarket) return { ...m, rank: latestRank };
-          return m;
+    // 只設定 _latestRank 供 modal 內渲染用，不修改 currentRank 和 markets
+    dh._modalLatestRank = latestRank;
+    if (dh.triggers) {
+      dh.triggers.forEach(t => {
+        // 動態儲存最新排名，在渲染時才進行格式化，不破壞底層原始偵測資料
+        t._latestRank = latestRank;
         });
-      }
-      if (dh.triggers) {
-        dh.triggers.forEach(t => {
-          // 動態儲存最新排名，在渲染時才進行格式化，不破壞底層原始偵測資料
-          t._latestRank = latestRank;
-        });
-      }
     }
   });
 
