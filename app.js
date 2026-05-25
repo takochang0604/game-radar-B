@@ -2596,7 +2596,7 @@ async function renderTracked() {
     </div>
   `; }).join('');
 
-  grid.innerHTML = (typeof window.replaceFlagsInHTML === 'function') ? window.replaceFlagsInHTML(rawHtml) : rawHtml;
+  grid.innerHTML = rawHtml;
 
   // Sparkline（完全複製自 renderDarkhorses）
   setTimeout(() => {
