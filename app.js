@@ -2513,14 +2513,18 @@ async function renderTracked() {
   const RANK_MARKET_WEIGHTS = { '🇯🇵': 1.6, '🇺🇸': 1.5, '🇰🇷': 1.4, '🇨🇳': 1.3, '🇹🇼': 1.0, '🇹🇭': 1.0, '🇻🇳': 1.0, '🇵🇭': 0.9 };
   const dhDataList = [];
 
-  grid.innerHTML = list.map(t => {
-    const _norm = s => (s||'').toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g,'').substring(0,20);
-    const dhMatch = state.darkhorses.find(d => d.appId === t.appId) ||
-      state.darkhorses.find(d => _norm(d.name) === _norm(t.name) && d.market === t.market);
+  const _norm = s => (s||'').toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g,'').substring(0,20);
 
+  const rawHtml = list.map(t => {
+    // 同時找 iOS 和 Android 版的 dhMatch（renderDarkhorses 合併了，但 state.darkhorses 是分開的）
+    const dhMatchIos = state.darkhorses.find(d => d.appId === t.appId && d.platform === 'ios');
+    const dhMatchAndroid = state.darkhorses.find(d => d.appId === t.appId && d.platform === 'android');
+    const dhMatch = dhMatchIos || dhMatchAndroid ||
+      state.darkhorses.find(d => _norm(d.name) === _norm(t.name) && d.market === t.market);
+    const allDhMatches = [dhMatchIos, dhMatchAndroid].filter(Boolean);
     const src = dhMatch || t;
 
-    // markets 國旗（同黑馬卡片規則）
+    // markets 國旗（優先用 dhMatch，同黑馬卡片規則）
     const markets = src.markets?.length ? src.markets
       : [{ code: t.market, name: t.marketName, flag: t.marketFlag, rank: t.currentRank, score: 0 }];
     const isMultiMarket = markets.length > 1;
@@ -2528,15 +2532,25 @@ async function renderTracked() {
       ? markets.map((m, i) => `<span class="dh-tag market${i === 0 ? ' active' : ''}" title="${m.name||m.code}：#${m.rank||'?'}">${getFlag(m.code)||m.flag||''}</span>`).join('')
       : `<span class="dh-tag market active">${getFlag(t.market)||t.marketFlag||''} ${t.marketName||''}</span>`;
 
-    // 平台
-    const platforms = src._platforms || [src.platform || t.platform];
-    const platformLabel = platforms.length >= 2 ? `${ICON_IOS} ${ICON_ANDROID}` : (platforms[0] === 'android' ? ICON_ANDROID : ICON_IOS);
+    // 平台：合併 iOS + Android（同 renderDarkhorses 的合併邏輯）
+    const detectedPlatforms = allDhMatches.length > 0 ? [...new Set(allDhMatches.map(d => d.platform))] : [t.platform];
+    const platformLabel = detectedPlatforms.length >= 2 ? `${ICON_IOS} ${ICON_ANDROID}` : (detectedPlatforms[0] === 'android' ? ICON_ANDROID : ICON_IOS);
 
-    // 右上角排名 badge：從 markets 重新計算（_chartRanks 是 renderDarkhorses 的 local 變數，state.darkhorses 沒有）
-    const _chartLabel = (dhMatch?.chartType || t.chartType || 'topfree') === 'grossing' ? '營收' : '免費';
-    let chartRanks = (dhMatch?.markets?.filter(m => m.rank != null).length > 0)
-      ? dhMatch.markets.filter(m => m.rank != null).map(m => ({ chartLabel: _chartLabel, platform: dhMatch.platform, rank: m.rank, marketFlag: getFlag(m.code) || m.flag || '' }))
-      : [{ chartLabel: _chartLabel, platform: t.platform, rank: t.currentRank, marketFlag: t.marketFlag || '' }];
+    // 右上角排名 badge：從所有 dhMatch 的 markets 合併計算（iOS + Android 兩平台）
+    const allChartRanks = [];
+    const dmList = allDhMatches.length > 0 ? allDhMatches : (dhMatch ? [dhMatch] : []);
+    for (const dm of dmList) {
+      const clabel = (dm.chartType || 'topfree') === 'grossing' ? '營收' : '免費';
+      for (const m of (dm.markets || []).filter(m => m.rank != null)) {
+        const mFlag = getFlag(m.code) || m.flag || '';
+        if (!allChartRanks.find(cr => cr.marketFlag === mFlag && cr.chartLabel === clabel && cr.platform === dm.platform)) {
+          allChartRanks.push({ chartLabel: clabel, platform: dm.platform, rank: m.rank, marketFlag: mFlag });
+        }
+      }
+    }
+    let chartRanks = allChartRanks.length > 0 ? allChartRanks
+      : [{ chartLabel: (t.chartType||'topfree') === 'grossing' ? '營收' : '免費', platform: t.platform, rank: t.currentRank, marketFlag: t.marketFlag || '' }];
+
     chartRanks.sort((a, b) => {
       if (a.chartLabel !== b.chartLabel) return a.chartLabel === '營收' ? -1 : 1;
       if (a.rank !== b.rank) return a.rank - b.rank;
@@ -2595,6 +2609,9 @@ async function renderTracked() {
       ${releasedDate ? `<div class="dh-card-footer"><div class="dh-released">上架 ${releasedDate}</div></div>` : ''}
     </div>`;
   }).join('');
+
+  // 強制轉換國旗 emoji → img，不依賴 MutationObserver 時序
+  grid.innerHTML = (typeof window.replaceFlagsInHTML === 'function') ? window.replaceFlagsInHTML(rawHtml) : rawHtml;
 
   // Sparkline（完全同黑馬卡片邏輯）
   setTimeout(() => {

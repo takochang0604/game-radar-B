@@ -39,6 +39,7 @@
    */
   function processNode(node) {
     if (node.nodeType === Node.TEXT_NODE) {
+      FLAG_REGEX.lastIndex = 0; // 重置 global regex 的 lastIndex，避免連續呼叫時跳過匹配
       if (FLAG_REGEX.test(node.textContent)) {
         const span = document.createElement('span');
         span.innerHTML = node.textContent.replace(FLAG_REGEX, (match) => flagToImg(match));
