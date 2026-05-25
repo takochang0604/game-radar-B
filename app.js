@@ -2484,19 +2484,10 @@ async function renderTracked() {
   const allList = getTrackedList();
   const searchTerm = (document.getElementById('trackedSearch')?.value || '').toLowerCase().trim();
 
-  // 篩選
   const list = allList.filter(t => {
-    // 搜尋
     if (searchTerm) {
-      const nameMatch = t.name.toLowerCase().includes(searchTerm);
-      const devMatch = (t.developer || '').toLowerCase().includes(searchTerm);
-      if (!nameMatch && !devMatch) return false;
+      if (!t.name.toLowerCase().includes(searchTerm) && !(t.developer||'').toLowerCase().includes(searchTerm)) return false;
     }
-    // 市場
-    if (state.trackedMarket !== 'all' && t.market !== state.trackedMarket) return false;
-    // 已評測篩選
-    if (state.trackedReportFilter === 'reported' && !findReport(t.name)) return false;
-    if (state.trackedReportFilter === 'unreported' && findReport(t.name)) return false;
     return true;
   });
 
@@ -2509,128 +2500,130 @@ async function renderTracked() {
     return;
   }
 
-  // Firebase 模式：確保追蹤遊戲所在市場的快照已載入
   if (state.firebaseMode) {
     const latestDate = state.availableDates[state.availableDates.length - 1];
     if (latestDate) {
       const marketsToLoad = [...new Set(list.map(t => t.market).filter(Boolean))];
       for (const market of marketsToLoad) {
-        try { await ensureSnapshotLoaded(latestDate, market); } catch (e) { console.warn('快照載入失敗:', market, e); }
+        try { await ensureSnapshotLoaded(latestDate, market); } catch (e) {}
       }
     }
   }
 
+  const RANK_MARKET_WEIGHTS = { '🇯🇵': 1.6, '🇺🇸': 1.5, '🇰🇷': 1.4, '🇨🇳': 1.3, '🇹🇼': 1.0, '🇹🇭': 1.0, '🇻🇳': 1.0, '🇵🇭': 0.9 };
+  const dhDataList = [];
+
   grid.innerHTML = list.map(t => {
-    // 檢查是否仍在今日黑馬名單中（appId 或名稱模糊匹配），並取得最新排名
-    const _norm = s => (s || '').toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 20);
+    const _norm = s => (s||'').toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g,'').substring(0,20);
     const dhMatch = state.darkhorses.find(d => d.appId === t.appId) ||
       state.darkhorses.find(d => _norm(d.name) === _norm(t.name) && d.market === t.market);
-    const stillDarkhorse = !!dhMatch;
 
-    // 排名來源：1) 今日黑馬資料 2) 快照查詢 3) 存檔排名
-    // 優先查追蹤市場的排名
-    let currentRank = null;
+    const src = dhMatch || t;
 
-    // 先從 dhMatch 的 markets 找追蹤市場的排名
-    if (dhMatch && dhMatch.markets) {
-      const marketEntry = dhMatch.markets.find(m => m.code === t.market);
-      if (marketEntry && marketEntry.rank) currentRank = marketEntry.rank;
+    // markets 國旗（同黑馬卡片規則）
+    const markets = src.markets?.length ? src.markets
+      : [{ code: t.market, name: t.marketName, flag: t.marketFlag, rank: t.currentRank, score: 0 }];
+    const isMultiMarket = markets.length > 1;
+    const marketTags = isMultiMarket
+      ? markets.map((m, i) => `<span class="dh-tag market${i === 0 ? ' active' : ''}" title="${m.name||m.code}：#${m.rank||'?'}">${getFlag(m.code)||m.flag||''}</span>`).join('')
+      : `<span class="dh-tag market active">${getFlag(t.market)||t.marketFlag||''} ${t.marketName||''}</span>`;
+
+    // 平台
+    const platforms = src._platforms || [src.platform || t.platform];
+    const platformLabel = platforms.length >= 2 ? `${ICON_IOS} ${ICON_ANDROID}` : (platforms[0] === 'android' ? ICON_ANDROID : ICON_IOS);
+
+    // 右上角排名 badge（同黑馬卡片邏輯）
+    let chartRanks = src._chartRanks || [{ chartLabel: (t.chartType||'topfree') === 'grossing' ? '營收' : '免費', platform: t.platform, rank: t.currentRank, marketFlag: t.marketFlag||'' }];
+    chartRanks.sort((a, b) => {
+      if (a.chartLabel !== b.chartLabel) return a.chartLabel === '營收' ? -1 : 1;
+      if (a.rank !== b.rank) return a.rank - b.rank;
+      return (RANK_MARKET_WEIGHTS[b.marketFlag]||1) - (RANK_MARKET_WEIGHTS[a.marketFlag]||1);
+    });
+    const displayRanks = chartRanks.slice(0, 2);
+    const hiddenRanks = chartRanks.slice(2);
+    let rankHtml = displayRanks.map(cr => {
+      const pIcon = cr.platform === 'android' ? ICON_ANDROID : ICON_IOS;
+      const rtCls = cr.chartLabel === '營收' ? 'rt-grossing' : 'rt-free';
+      const mFlag = cr.marketFlag ? `<span style="font-size:11px;margin-right:2px">${cr.marketFlag}</span>` : '';
+      return `<div class="dh-rank-row">${mFlag}<span class="dh-rank-type ${rtCls}">${cr.chartLabel}</span>${pIcon}<span class="dh-rank-num">#${cr.rank}</span></div>`;
+    }).join('');
+    if (hiddenRanks.length > 0) {
+      const tooltipText = hiddenRanks.map(cr => `${cr.marketFlag||''} ${cr.platform==='android'?'Android':'iOS'} ${cr.chartLabel} #${cr.rank}`).join('&#10;');
+      rankHtml += `<div class="dh-rank-row" style="justify-content:flex-end;opacity:0.6;font-size:10px;cursor:help;margin-top:2px" title="${tooltipText}">+${hiddenRanks.length} 個排行</div>`;
     }
-    if (!currentRank && dhMatch) currentRank = dhMatch.currentRank;
+    if (!rankHtml) rankHtml = `<span class="dh-rank-num" style="font-size:22px">—</span>`;
 
-    // 快照 fallback：只查追蹤市場
-    if (!currentRank) {
-      const latestDate = state.availableDates[state.availableDates.length - 1];
-      if (latestDate && state.snapshots[latestDate]) {
-        const marketData = state.snapshots[latestDate][t.market];
-        if (marketData) {
-          for (const p of (t._platforms || [t.platform])) {
-            for (const ct of ['topfree', 'grossing']) {
-              if (marketData[p] && marketData[p][ct]) {
-                const found = marketData[p][ct].data?.find(a => a.appId === t.appId);
-                if (found && (currentRank === null || found.rank < currentRank)) {
-                  currentRank = found.rank;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    const rankChange = currentRank && t.currentRank ? t.currentRank - currentRank : null;
-    const ARROW_UP = '<svg width="10" height="10" viewBox="0 0 10 10" style="vertical-align:-1px"><path d="M5 1L9 6H1Z" fill="currentColor"/></svg>';
-    const ARROW_DOWN = '<svg width="10" height="10" viewBox="0 0 10 10" style="vertical-align:-1px"><path d="M5 9L1 4H9Z" fill="currentColor"/></svg>';
-    const rankChangeHtml = rankChange !== null
-      ? rankChange > 0 ? `<span class="rank-change rank-change--up">${ARROW_UP} ${rankChange}</span>`
-        : rankChange < 0 ? `<span class="rank-change rank-change--down">${ARROW_DOWN} ${Math.abs(rankChange)}</span>`
-          : `<span class="rank-change rank-change--same">— 持平</span>`
-      : '';
-
-    // 計算智慧生命週期狀態
-    let statusBadge = '';
-    if (!currentRank) {
-      statusBadge = '<span class="tracked-status tracked-status--dropped">已跌出榜</span>';
-    } else if (rankChange !== null && rankChange < -30) {
-      statusBadge = '<span class="tracked-status tracked-status--fatigue">快速衰退期</span>';
-    } else if (currentRank <= 10) {
-      statusBadge = '<span class="tracked-status tracked-status--stable-top">穩定霸榜期</span>';
-    } else if (rankChange !== null && rankChange > 15) {
-      statusBadge = '<span class="tracked-status tracked-status--secondary-surge">二次爆發</span>';
-    } else {
-      statusBadge = '<span class="tracked-status tracked-status--stable">波動穩定期</span>';
-    }
-
-    const platforms = t._platforms || [t.platform];
-    const platformLabel = platforms.length >= 2
-      ? `${ICON_IOS} ${ICON_ANDROID}`
-      : `${platforms[0] === 'android' ? ICON_ANDROID : ICON_IOS}`;
-
-    // 右上角排名：只顯示追蹤市場的排名
-    const chartLabel = t.chartType === 'grossing' ? '營收' : '免費';
-    const rankHtml = currentRank
-      ? `<div class="dh-rank-row"><span class="dh-rank-type ${t.chartType === 'grossing' ? 'rt-grossing' : 'rt-free'}">${platforms[0] === 'android' ? ICON_ANDROID : ICON_IOS} ${chartLabel}</span><span class="dh-rank-num">#${currentRank}</span></div>`
-      : `<span class="dh-rank-num" style="font-size:22px">—</span>`;
-
-    // 買榜分析
-    const analysisData = state.analysis[t.appId];
-    const buyChartBadge = detectBuyChart(t, analysisData, dhMatch);
+    // 信心分數 badge
+    const score = src.confidenceScore || t.confidenceScore;
+    const scoreBadge = score ? `<span class="dh-star">⭐ ${typeof score === 'number' ? score.toFixed(1) : score} 分</span>` : '';
 
     // 報告 badge
     const hasReport = !!findReport(t.name);
-    const reportBadge = hasReport
-      ? '<span class="dh-tag report-ready" title="已有評測報告">評測</span>'
-      : '';
+    const reportBadge = hasReport ? `<span class="dh-tag report-ready" title="已有評測報告">評測</span>` : '';
 
-    // 市場標籤
-    const marketTag = `<span class="dh-tag market">${t.marketFlag || ''} ${t.marketName || ''}</span>`;
+    // 上架日期
+    const rawReleased = state.analysis[t.appId]?.detail?.released || '';
+    const releasedDate = rawReleased ? (() => { try { const d = new Date(rawReleased); return isNaN(d) ? rawReleased : d.toISOString().split('T')[0]; } catch { return rawReleased; } })() : '';
+
+    const hasAnalysis = !!state.analysis[t.appId];
+    const cardId = `tracked-${t.appId.replace(/[^a-zA-Z0-9]/g,'_')}-${t.platform}`;
+    dhDataList.push({ cardId, dh: src });
 
     return `
-    <div class="dh-card tracked-card" onclick="showAnalysis('${t.appId}', '${t.platform}')">
+    <div class="dh-card ${hasAnalysis ? 'has-analysis' : ''} ${hasReport ? 'has-report' : ''}" onclick="showAnalysis('${t.appId}', '${t.platform}')">
       <div class="dh-header">
-        <img class="dh-icon" src="${t.icon || ''}" alt="" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22 rx=%2220%22/><text x=%2250%22 y=%2258%22 text-anchor=%22middle%22 fill=%22%23888%22 font-size=%2240%22>🎮</text></svg>'">
+        <img class="dh-icon" src="${t.icon||''}" alt="" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%23333%22 width=%22100%22 height=%22100%22 rx=%2220%22/><text x=%2250%22 y=%2258%22 text-anchor=%22middle%22 fill=%22%23888%22 font-size=%2240%22>🎮</text></svg>'">
         <div class="dh-info">
           <div class="dh-name" style="display:flex;align-items:center;gap:6px">
             <button class="pin-btn dh-pin-btn pinned" style="position:static;flex-shrink:0" onclick="event.stopPropagation();untrack('${t.appId}')" title="取消追蹤">📌</button>
             <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${t.name}</span>
           </div>
-          <div class="dh-developer">${t.developer || ''}</div>
+          <div class="dh-developer">${t.developer||''}</div>
         </div>
         <div class="dh-rank-block">${rankHtml}</div>
       </div>
       <div class="dh-meta">
-        ${marketTag}
+        ${marketTags}
         <span class="dh-tag platform">${platformLabel}</span>
-        ${statusBadge}
+        ${scoreBadge}
         ${reportBadge}
-        ${buyChartBadge}
       </div>
-      <div class="dh-card-footer" style="justify-content:space-between;align-items:center">
-        <div style="font-size:11px;color:var(--text-muted)">追蹤時 #${t.currentRank} → 現在 ${currentRank ? '#' + currentRank : '已離榜'} ${rankChangeHtml}</div>
-        <div style="font-size:11px;color:var(--text-muted)">${t.trackedAt}</div>
-      </div>
+      <div class="dh-chart-mini"><canvas id="mini-${cardId}"></canvas></div>
+      ${releasedDate ? `<div class="dh-card-footer"><div class="dh-released">上架 ${releasedDate}</div></div>` : ''}
     </div>`;
   }).join('');
+
+  // Sparkline（同黑馬卡片）
+  setTimeout(() => {
+    const canvasMap = new Map();
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const canvas = entry.target;
+          const { dh } = canvasMap.get(canvas) || {};
+          if (dh) {
+            let miniHistory = dh._trendHistory || dh.rankHistory || [];
+            if (miniHistory.length === 0 && dh._rankHistoryByLine) {
+              const tmCode = dh._trendMarket || dh.market || '';
+              for (const line of Object.values(dh._rankHistoryByLine)) {
+                if (line.market === tmCode && line.data?.length > 0) { miniHistory = line.data; break; }
+              }
+              if (miniHistory.length === 0) {
+                const firstLine = Object.values(dh._rankHistoryByLine)[0];
+                if (firstLine?.data) miniHistory = firstLine.data;
+              }
+            }
+            drawSparkline(canvas, miniHistory);
+            obs.unobserve(canvas);
+          }
+        }
+      });
+    }, { threshold: 0.1 });
+    for (const { cardId, dh } of dhDataList) {
+      const canvas = document.getElementById(`mini-${cardId}`);
+      if (canvas) { canvasMap.set(canvas, { dh }); observer.observe(canvas); }
+    }
+  }, 0);
 }
 
 /**
