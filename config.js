@@ -76,18 +76,18 @@ export const DARKHORSE_CONFIG = {
   minConfidence: 1.5,        // 最低信心分數（低於此分的不列為黑馬）
   maxCurrentRank: 100,       // 擴大監測到 Top 100（Mid-Chart 偵測）
 
-  // #1 回歸型黑馬（跌出後回升）
+  // [未實作] #1 回歸型黑馬（跌出後回升）
   bounceBackMinDrop: 50,     // 曾跌出 Top N（或消失）才算「跌出」
   bounceBackMaxReturn: 20,   // 回歸時必須進入 Top N 以內
   bounceBackWindowDays: 7,   // 在 N 天內發生跌出→回歸
 
-  // #2 免費+營收交叉訊號
+  // [未實作] #2 免費+營收交叉訊號
   crossChartBonus: 1.5,      // 同時在 topfree + grossing 出現的加權倍數
 
-  // #4 跨平台一致性加分
+  // [未實作] #4 跨平台一致性加分
   crossPlatformBonus: 1.3,   // 同時在 iOS + Android 竄升的加權倍數
 
-  // #5 週末效應調整
+  // [未實作] #5 週末效應調整
   weekendAdjustment: 1.2,    // 週一判定時 rankJumpThreshold 乘以此係數（提高門檻）
 
   // #6 黑馬保留期
@@ -98,7 +98,7 @@ export const DARKHORSE_CONFIG = {
   growthShortWindow: 3,            // 短期窗口（天）
   growthLongWindow: 7,             // 長期窗口（天）
 
-  // #8 排名鋸齒偵測（買榜信號）
+  // [未實作] #8 排名鋸齒偵測（買榜信號）
   sawtoothSwingThreshold: 30,      // 排名波動 >= N 名算一次「大幅震盪」
   sawtoothMinSwings: 2,            // 短時間內 >= N 次大幅震盪 → 疑似買榜
 };

@@ -124,7 +124,10 @@ function getSnapshotGapInfo(history, recentDays = 7) {
  * gapInfo: snapshot 斷層資訊，有斷層時提高門檻避免誤判
  */
 function detectRankJump(app, history, gapInfo) {
-  const validHistory = history.filter(h => h.rank !== null);
+  // 只看近 7 天窗口，避免用 60 天前的遠古排名誤判急升
+  const windowDays = 7;
+  const recentHistory = history.slice(-windowDays);
+  const validHistory = recentHistory.filter(h => h.rank !== null);
   if (validHistory.length < 2) return null;
 
   const currentRank = validHistory[validHistory.length - 1].rank;
@@ -172,7 +175,7 @@ function detectNewEntry(app, history, gapInfo) {
 
   // 情況 B（優先）：首次衝入 Top N（之前在榜但一直在 Top N 外）
   // 例如：grossing 從 #71 衝到 #25，雖然已在 Top 100 但首次進入 Top 30
-  if (validHistory.length >= 2 && validHistory.length <= DARKHORSE_CONFIG.newEntryDays + 3) {
+  if (validHistory.length >= 2 && validHistory.length <= DARKHORSE_CONFIG.newEntryDays) {
     const previousRanks = validHistory.slice(0, -1);
     const allOutsideTopN = previousRanks.every(h => h.rank > maxRank);
     if (allOutsideTopN && currentRank <= maxRank) {
@@ -436,7 +439,7 @@ async function main() {
 
           if (triggers.length > 0) {
             // 品質過濾
-            if (app.score && app.score < DARKHORSE_CONFIG.minScore) continue;
+            if (typeof app.score === 'number' && app.score < DARKHORSE_CONFIG.minScore) continue;
             if (app.rank > DARKHORSE_CONFIG.maxCurrentRank) continue;
 
             // 整合歷史偵測觸發器與首次偵測日期鎖定
@@ -476,7 +479,8 @@ async function main() {
               mergedTriggers = triggers;
             }
 
-            const baseScore = triggers.reduce((sum, t) => sum + t.score, 0);
+            // 使用合併後的所有觸發器計算信心分數，避免隔天因新觸發策略變少而分數暴跌
+            const baseScore = mergedTriggers.reduce((sum, t) => sum + (t.score || 0), 0);
             const rankWeight = getRankWeight(app.rank);
             const marketWeight = (MARKET_WEIGHTS[chartType.id] || {})[market.code] || 1.0;
             const finalScore = baseScore * rankWeight * marketWeight;
@@ -660,7 +664,7 @@ async function main() {
         let cursor = new Date(lastDate);
         cursor.setDate(cursor.getDate() + 1);
         while (cursor <= todayDate) {
-          const dateStr = cursor.toISOString().split('T')[0];
+          const dateStr = formatLocalDate(cursor);
           const snap = loadSnapshot(dateStr, pastDh.market, pastDh.platform, pastDh.chartType);
           if (snap && snap.data) {
             const found = snap.data.find(a => a.appId === pastDh.appId);
