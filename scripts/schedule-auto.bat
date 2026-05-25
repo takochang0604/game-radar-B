@@ -65,7 +65,7 @@ if errorlevel 1 (
 )
 echo.
 echo [5/5] Syncing to Git...
-git add data/ .gitignore
+git add data/ app.js scripts/ config.js firebase-data.js index.html index.css .gitignore
 git commit -m "data: auto-sync %date:~0,10%" --no-verify 2>nul
 if errorlevel 1 (
     echo [WARN] Git commit skipped (no changes or error)
