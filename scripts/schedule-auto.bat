@@ -79,15 +79,6 @@ if errorlevel 1 (
 )
 
 echo.
-echo [5/5] Git push (sync data to remote)...
-git add data/
-git commit -m "data: auto-update %date%"
-git push origin main --force-with-lease 2>nul
-if errorlevel 1 (
-    echo [WARN] Git push failed, data saved locally only
-)
-
-echo.
 echo ====================================
 echo  [OK] All done! %date% %time%
 echo ====================================
