@@ -110,6 +110,8 @@ const GAME_ALIASES = {
   'ゼンレスゾーンゼロ': 'zenlesszonezero',
   '絕區零': 'zenlesszonezero',
   'zenlesszonezero': 'zenlesszonezero',
+  'brainpuzzle3': 'brainpuzzle',
+  'brainpuzzle': 'brainpuzzle',
 };
 
 function getMergeKey(dh) {
@@ -627,28 +629,7 @@ function renderDarkhorses() {
   const grid = document.getElementById('darkhorseGrid');
   const searchTerm = (document.getElementById('dhSearch')?.value || '').toLowerCase().trim();
 
-  let filtered = state.darkhorses.filter(dh => {
-    // 搜尋篩選
-    if (searchTerm) {
-      const nameMatch = dh.name.toLowerCase().includes(searchTerm);
-      const devMatch = (dh.developer || '').toLowerCase().includes(searchTerm);
-      if (!nameMatch && !devMatch) return false;
-    }
-    // 市場篩選：支援新的 markets 陣列
-    if (state.dhMarket !== 'all') {
-      const dhMarkets = dh.markets ? dh.markets.map(m => m.code) : [dh.market];
-      if (!dhMarkets.includes(state.dhMarket)) return false;
-    }
-    // 已評測篩選（只過濾黑馬中有報告的）
-    if (state.dhReportFilter === 'reported' && !findReport(dh.name)) return false;
-    if (state.dhReportFilter === 'unreported' && findReport(dh.name)) return false;
-    if (state.dhReportFilter === 'new_entry') {
-      const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
-      const hasTodayNewEntry = dh.triggers?.some(t => t.strategy === 'new_entry' && (t._detectedAt || '').substring(0, 10) === latestDate);
-      if (!hasTodayNewEntry) return false;
-    }
-    return true;
-  });
+  let filtered = state.darkhorses.slice(); // 先用全量做合併，篩選在後處理之後
 
   // ============ 跨平台/跨排行/跨市場合併 ============
   const mergedMap = new Map();
@@ -876,8 +857,29 @@ function renderDarkhorses() {
       });
     }
   }
-  // 存合併後的完整清單供 renderTracked 直接使用（避免重新 merge）
+  // 存合併後的完整清單供 renderTracked 直接使用（不受搜尋/市場篩選影響）
   state.mergedDarkhorses = filtered;
+
+  // ============ 搜尋 / 市場 / 狀態篩選（僅影響黑馬 tab 顯示）============
+  filtered = filtered.filter(dh => {
+    if (searchTerm) {
+      const nameMatch = dh.name.toLowerCase().includes(searchTerm);
+      const devMatch = (dh.developer || '').toLowerCase().includes(searchTerm);
+      if (!nameMatch && !devMatch) return false;
+    }
+    if (state.dhMarket !== 'all') {
+      const dhMarkets = dh.markets ? dh.markets.map(m => m.code) : [dh.market];
+      if (!dhMarkets.includes(state.dhMarket)) return false;
+    }
+    if (state.dhReportFilter === 'reported' && !findReport(dh.name)) return false;
+    if (state.dhReportFilter === 'unreported' && findReport(dh.name)) return false;
+    if (state.dhReportFilter === 'new_entry') {
+      const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
+      const hasTodayNewEntry = dh.triggers?.some(t => t.strategy === 'new_entry' && (t._detectedAt || '').substring(0, 10) === latestDate);
+      if (!hasTodayNewEntry) return false;
+    }
+    return true;
+  });
 
 
   if (filtered.length === 0) {
