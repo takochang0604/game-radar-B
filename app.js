@@ -876,6 +876,9 @@ function renderDarkhorses() {
       });
     }
   }
+  // 存合併後的完整清單供 renderTracked 直接使用（避免重新 merge）
+  state.mergedDarkhorses = filtered;
+
 
   if (filtered.length === 0) {
     grid.innerHTML = `<div class="empty-state"><div class="icon">🔍</div><p>${state.darkhorses.length === 0
@@ -2500,112 +2503,22 @@ async function renderTracked() {
     return;
   }
 
+  // 從 state.mergedDarkhorses 直接取已合併好的物件（renderDarkhorses 已經做好跨平台/跨市場合併+後處理）
+  const merged = state.mergedDarkhorses || [];
   const dhDataList = [];
 
   const RANK_MARKET_WEIGHTS = {
-    '\u{1F1EF}\u{1F1F5}': 1.6, '\u{1F1FA}\u{1F1F8}': 1.5, '\u{1F1F0}\u{1F1F7}': 1.4, '\u{1F1E8}\u{1F1F3}': 1.3,
-    '\u{1F1F9}\u{1F1FC}': 1.0, '\u{1F1F9}\u{1F1ED}': 1.0, '\u{1F1FB}\u{1F1F3}': 1.0, '\u{1F1F5}\u{1F1ED}': 0.9,
+    '🇯🇵': 1.6, '🇺🇸': 1.5, '🇰🇷': 1.4, '🇨🇳': 1.3,
+    '🇹🇼': 1.0, '🇹🇭': 1.0, '🇻🇳': 1.0, '🇵🇭': 0.9,
   };
 
   const rawHtml = list.map(t => {
-    // 1. Mini-merge: 用 getMergeKey（名稱正規化）查所有條目，與 renderDarkhorses 的合併邏輯一致
-    //    僅用 appId 查會漏掉 iOS/Android appId 不同的另一平台
+    // 直接從 renderDarkhorses 已合併好的清單查（用名稱 key，與黑馬合併邏輯完全一致）
     const nameKey = getMergeKey(t);
-    const dhEntries = state.darkhorses.filter(d => d.appId === t.appId || getMergeKey(d) === nameKey);
+    const dh = merged.find(md => md.appId === t.appId || getMergeKey(md) === nameKey)
+             || t;  // fallback：若黑馬清單裡沒有，用追蹤快照
 
-    const _platforms = [...new Set(dhEntries.map(d => d.platform))];
-    const markets = [];
-    const _chartRanks = [];
-    const _rankHistoryByLine = {};
-    let bestConfidence = 0;
-
-    for (const d of dhEntries) {
-      bestConfidence = Math.max(bestConfidence, d.confidenceScore || 0);
-      const chartLabel = d.chartType === 'grossing' ? '營收' : '免費';
-      const srcMarkets = d.markets
-        ? d.markets.map(m => ({ ...m, flag: getFlag(m.code) || m.flag }))
-        : (d.market ? [{ code: d.market, flag: getFlag(d.market), name: d.marketName, rank: d.currentRank }] : []);
-
-      for (const m of srcMarkets) {
-        if (!markets.find(em => em.code === m.code)) markets.push({ ...m });
-        const mf = getFlag(m.code) || m.flag || '';
-        if (!_chartRanks.find(cr => cr.marketFlag === mf && cr.chartLabel === chartLabel && cr.platform === d.platform)) {
-          _chartRanks.push({ chartLabel, platform: d.platform, rank: m.rank || d.currentRank, marketFlag: mf });
-        }
-      }
-
-      if (d._rankHistoryByMarket && typeof d._rankHistoryByMarket === 'object') {
-        for (const [mkt, hist] of Object.entries(d._rankHistoryByMarket)) {
-          if (hist && hist.length > 0) {
-            const lineKey = `${mkt}_${d.platform}_${d.chartType}`;
-            if (!_rankHistoryByLine[lineKey]) {
-              _rankHistoryByLine[lineKey] = { market: mkt, platform: d.platform, chartType: d.chartType, data: hist };
-            }
-          }
-        }
-      } else if (d.rankHistory) {
-        const lineKey = `${d.market||''}_${d.platform}_${d.chartType}`;
-        if (!_rankHistoryByLine[lineKey]) {
-          _rankHistoryByLine[lineKey] = { market: d.market||'', platform: d.platform, chartType: d.chartType, data: d.rankHistory };
-        }
-      }
-    }
-
-    // 後處理：用最新 rankHistory 更新排名（同 renderDarkhorses）
-    for (const line of Object.values(_rankHistoryByLine)) {
-      if (!line.data || line.data.length === 0) continue;
-      const sorted = [...line.data].sort((a, b) => (a.date||'').localeCompare(b.date||''));
-      const latestRank = sorted[sorted.length - 1]?.rank;
-      if (!latestRank) continue;
-      const mkt = markets.find(m => m.code === line.market);
-      if (mkt) mkt.rank = latestRank;
-      const mf = getFlag(line.market);
-      const cl = line.chartType === 'grossing' ? '營收' : '免費';
-      const cr = _chartRanks.find(c => c.marketFlag === mf && c.chartLabel === cl && c.platform === line.platform);
-      if (cr) cr.rank = latestRank;
-    }
-
-    // 後處理：國旗排序（同 renderDarkhorses）
-    markets.sort((a, b) => (a.rank ?? 9999) - (b.rank ?? 9999));
-
-    // 趨勢市場（供 sparkline 使用）
-    const primaryMarket = markets[0] || { code: t.market };
-    let _trendMarket = primaryMarket.code;
-    let _trendHistory = [];
-    for (const line of Object.values(_rankHistoryByLine)) {
-      if (line.market === _trendMarket && line.data && line.data.length > 0) {
-        _trendHistory = line.data; break;
-      }
-    }
-    if (_trendHistory.length === 0) {
-      const firstLine = Object.values(_rankHistoryByLine)[0];
-      if (firstLine?.data) { _trendHistory = firstLine.data; _trendMarket = firstLine.market; }
-    }
-
-    // 2. 組合 dh 物件（若無 state.darkhorses 資料則回退到追蹤時的快照）
-    const base = dhEntries.length > 0 ? dhEntries[0] : t;
-    const dh = {
-      ...base,
-      appId:           t.appId,
-      name:            t.name,
-      icon:            t.icon || base.icon || '',
-      developer:       t.developer || base.developer || '',
-      platform:        base.platform || t.platform,
-      market:          base.market || t.market,
-      marketFlag:      base.marketFlag || t.marketFlag,
-      marketName:      base.marketName || t.marketName,
-      chartType:       base.chartType || t.chartType,
-      currentRank:     base.currentRank || t.currentRank,
-      confidenceScore: bestConfidence || base.confidenceScore || t.confidenceScore,
-      _platforms:      _platforms.length > 0 ? _platforms : (t._platforms || [t.platform]),
-      markets:         markets.length > 0 ? markets : (t.markets || []),
-      _chartRanks:     _chartRanks.length > 0 ? _chartRanks : (t._chartRanks || []),
-      _rankHistoryByLine,
-      _trendMarket,
-      _trendHistory,
-    };
-
-    // 3. 以下完全複製自 renderDarkhorses 的卡片渲染邏輯 ─────────────────
+    // ── 以下完全複製自 renderDarkhorses 的卡片渲染邏輯 ──
 
     const hasAnalysis = !!state.analysis[dh.appId];
     const hasReport = !!findReport(dh.name);
@@ -2628,9 +2541,7 @@ async function renderTracked() {
       ? `${ICON_IOS} ${ICON_ANDROID}`
       : `${platforms[0] === 'android' ? ICON_ANDROID : ICON_IOS}`;
 
-    let chartRanks = dh._chartRanks?.length > 0
-      ? dh._chartRanks
-      : [{ chartLabel: dh.chartType === 'grossing' ? '營收' : '免費', platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }];
+    let chartRanks = dh._chartRanks || [{ chartLabel: dh.chartType === 'grossing' ? '營收' : '免費', platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }];
 
     chartRanks.sort((a, b) => {
       if (a.chartLabel !== b.chartLabel) return a.chartLabel === '營收' ? -1 : 1;
@@ -2659,7 +2570,7 @@ async function renderTracked() {
     const cardId = `tracked-${dh.appId.replace(/[^a-zA-Z0-9]/g, '_')}-${dh.platform}`;
     dhDataList.push({ cardId, dh });
 
-    // 4. 卡片 HTML：與 renderDarkhorses 完全相同，僅 pin 按鈕改為 untrack()
+    // 卡片 HTML：與 renderDarkhorses 完全相同，僅 pin 按鈕改為 untrack()
     return `
     <div class="dh-card ${hasAnalysis ? 'has-analysis' : ''} ${hasReport ? 'has-report' : ''}" onclick="showAnalysis('${dh.appId}', '${dh.platform}')">
       <div class="dh-header">
@@ -2685,10 +2596,9 @@ async function renderTracked() {
     </div>
   `; }).join('');
 
-  // 強制預轉換國旗 emoji → img（不依賴 MutationObserver 時序）
   grid.innerHTML = (typeof window.replaceFlagsInHTML === 'function') ? window.replaceFlagsInHTML(rawHtml) : rawHtml;
 
-  // 5. Sparkline：完全複製自 renderDarkhorses
+  // Sparkline（完全複製自 renderDarkhorses）
   setTimeout(() => {
     const canvasMap = new Map();
     const observer = new IntersectionObserver((entries, obs) => {
