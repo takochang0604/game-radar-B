@@ -46,7 +46,6 @@
     <div class="tabs">
       <div class="tab active" data-tab="darkhorse">🐴 黑馬偵測</div>
       <div class="tab" data-tab="rankings">📊 排行榜</div>
-      <div class="tab" data-tab="tracked">📌 追蹤中<span class="tab-badge" id="trackedBadge"></span></div>
       <div class="tab" data-tab="reports">📄 評測報告<span class="tab-badge" id="reportsBadge"></span></div>
     </div>
 
@@ -132,39 +131,6 @@
           </table>
         </div>
         <p class="data-source-note" style="margin:8px 0 0;font-size:11px;color:var(--text-muted);opacity:0.7;">📡 資料來源：Google Play / App Store 公開排行 API（非商業資料庫，排名與 AppMagic 等商業工具可能有些許差異）</p>
-      </div>
-    </div>
-
-    <!-- Tab: 追蹤中 -->
-    <div class="tab-content" id="tab-tracked">
-      <!-- ▼ 追蹤專用篩選器 -->
-      <div class="tab-filters" id="trackedFilters">
-        <div class="filter-row">
-          <label>市場</label>
-          <div class="pill-group" id="trackedMarketPills"></div>
-        </div>
-        <div class="filter-row">
-          <label>狀態</label>
-          <div class="pill-group">
-            <button class="pill active" data-tracked-report="all" onclick="setTrackedReportFilter('all')">全部</button>
-            <button class="pill" data-tracked-report="reported" onclick="setTrackedReportFilter('reported')">📄 已評測</button>
-            <button class="pill" data-tracked-report="unreported" onclick="setTrackedReportFilter('unreported')">🔍 未評測</button>
-          </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="section-header">
-          <div class="section-title"><span class="icon">📌</span> 追蹤中的遊戲<span class="section-badge" id="trackedCount">0</span></div>
-          <div class="section-actions">
-            <input type="search" id="trackedSearch" class="dh-search" placeholder="🔍 搜尋遊戲名稱..." oninput="renderTracked()">
-          </div>
-        </div>
-        <div id="trackedGrid" class="darkhorse-grid">
-          <div class="empty-state">
-            <div class="icon">📌</div>
-            <p>尚未追蹤任何黑馬。<br>在黑馬卡片上點擊 📌 即可追蹤。</p>
-          </div>
-        </div>
       </div>
     </div>
 
