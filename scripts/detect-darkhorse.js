@@ -492,8 +492,18 @@ async function main() {
   allDarkhorses.sort((a, b) => b.confidenceScore - a.confidenceScore);
 
   // 信心分數過濾：低於門檻的不列為黑馬
+  // 但加入「關聯保留」：同一 appId 若已在其他 chartType 通過門檻，則此筆也保留
+  // 例如：免費榜高分黑馬的營收榜表現，即使 grossing 信心分數低也應保留
+  const highConfidenceAppIds = new Set(
+    allDarkhorses.filter(d => d.confidenceScore >= DARKHORSE_CONFIG.minConfidence).map(d => d.appId)
+  );
   const beforeFilter = allDarkhorses.length;
-  const filtered = allDarkhorses.filter(d => d.confidenceScore >= DARKHORSE_CONFIG.minConfidence);
+  const filtered = allDarkhorses.filter(d => {
+    if (d.confidenceScore >= DARKHORSE_CONFIG.minConfidence) return true;
+    // 關聯保留：同遊戲在其他排行已是黑馬 → 保留此筆
+    if (highConfidenceAppIds.has(d.appId)) return true;
+    return false;
+  });
   const removedCount = beforeFilter - filtered.length;
   if (removedCount > 0) {
     console.log(`\n🧹 品質過濾: 移除 ${removedCount} 匹（評分 < ${DARKHORSE_CONFIG.minScore} 或信心 < ${DARKHORSE_CONFIG.minConfidence}）`);
