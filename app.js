@@ -2532,8 +2532,11 @@ async function renderTracked() {
     const platforms = src._platforms || [src.platform || t.platform];
     const platformLabel = platforms.length >= 2 ? `${ICON_IOS} ${ICON_ANDROID}` : (platforms[0] === 'android' ? ICON_ANDROID : ICON_IOS);
 
-    // 右上角排名 badge（同黑馬卡片邏輯）
-    let chartRanks = src._chartRanks || [{ chartLabel: (t.chartType||'topfree') === 'grossing' ? '營收' : '免費', platform: t.platform, rank: t.currentRank, marketFlag: t.marketFlag||'' }];
+    // 右上角排名 badge：從 markets 重新計算（_chartRanks 是 renderDarkhorses 的 local 變數，state.darkhorses 沒有）
+    const _chartLabel = (dhMatch?.chartType || t.chartType || 'topfree') === 'grossing' ? '營收' : '免費';
+    let chartRanks = (dhMatch?.markets?.filter(m => m.rank != null).length > 0)
+      ? dhMatch.markets.filter(m => m.rank != null).map(m => ({ chartLabel: _chartLabel, platform: dhMatch.platform, rank: m.rank, marketFlag: getFlag(m.code) || m.flag || '' }))
+      : [{ chartLabel: _chartLabel, platform: t.platform, rank: t.currentRank, marketFlag: t.marketFlag || '' }];
     chartRanks.sort((a, b) => {
       if (a.chartLabel !== b.chartLabel) return a.chartLabel === '營收' ? -1 : 1;
       if (a.rank !== b.rank) return a.rank - b.rank;
@@ -2593,37 +2596,45 @@ async function renderTracked() {
     </div>`;
   }).join('');
 
-  // Sparkline（同黑馬卡片）
+  // Sparkline（完全同黑馬卡片邏輯）
   setTimeout(() => {
     const canvasMap = new Map();
     const observer = new IntersectionObserver((entries, obs) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const canvas = entry.target;
-          const { dh } = canvasMap.get(canvas) || {};
+          const dh = canvasMap.get(canvas);
           if (dh) {
             let miniHistory = dh._trendHistory || dh.rankHistory || [];
             if (miniHistory.length === 0 && dh._rankHistoryByLine) {
               const tmCode = dh._trendMarket || dh.market || '';
               for (const line of Object.values(dh._rankHistoryByLine)) {
-                if (line.market === tmCode && line.data?.length > 0) { miniHistory = line.data; break; }
+                if (line.market === tmCode && line.data && line.data.length > 0) {
+                  miniHistory = line.data; break;
+                }
               }
               if (miniHistory.length === 0) {
                 const firstLine = Object.values(dh._rankHistoryByLine)[0];
-                if (firstLine?.data) miniHistory = firstLine.data;
+                if (firstLine && firstLine.data) miniHistory = firstLine.data;
               }
             }
-            drawSparkline(canvas, miniHistory);
-            obs.unobserve(canvas);
+            if (miniHistory.length < 3) {
+              canvas.style.display = 'none';
+              canvas.parentElement.innerHTML = `<div style="height:50px;display:flex;align-items:center;justify-content:center;border:1px dashed rgba(255,255,255,0.08);border-radius:var(--radius-sm);background:rgba(255,255,255,0.01);color:var(--text-secondary);opacity:0.7;font-size:11px;gap:6px;letter-spacing:0.3px;width:100%">新進榜首日，正累積歷史軌跡</div>`;
+            } else {
+              const sortedMini = [...miniHistory].sort((a, b) => a.date.localeCompare(b.date));
+              renderMiniChart(canvas, sortedMini.slice(-7));
+            }
           }
+          obs.unobserve(canvas);
         }
       });
-    }, { threshold: 0.1 });
+    }, { rootMargin: '100px' });
     for (const { cardId, dh } of dhDataList) {
       const canvas = document.getElementById(`mini-${cardId}`);
-      if (canvas) { canvasMap.set(canvas, { dh }); observer.observe(canvas); }
+      if (canvas) { canvasMap.set(canvas, dh); observer.observe(canvas); }
     }
-  }, 0);
+  }, 100);
 }
 
 /**
