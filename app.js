@@ -126,6 +126,59 @@ function getMergeKey(dh) {
 }
 
 /**
+ * 找出某遊戲所有相關的 darkhorse 條目（含追蹤清單）
+ * 統一邏輯：appId 相同 或 getMergeKey 相同 即視為同款遊戲
+ */
+function findRelatedDarkhorses(appId) {
+  const targetDh = state.darkhorses.find(x => x.appId === appId) || getTrackedList().find(x => x.appId === appId);
+  const targetMergeKey = targetDh ? getMergeKey(targetDh) : '';
+  const allDh = state.darkhorses.filter(d => {
+    if (d.appId === appId) return true;
+    if (targetMergeKey && getMergeKey(d) === targetMergeKey) return true;
+    return false;
+  });
+  // 追蹤清單中可能留存的「歷史黑馬」資訊
+  const trackedList = getTrackedList();
+  trackedList.forEach(t => {
+    if (t.appId === appId || (targetMergeKey && getMergeKey(t) === targetMergeKey)) {
+      if (t.triggers && t.triggers.length > 0 && !allDh.find(d => d.appId === t.appId && d.platform === t.platform)) {
+        allDh.push(t);
+      }
+    }
+  });
+  return allDh;
+}
+
+/**
+ * 掃描快照，找出指定 appIds 在各市場的上榜情況
+ * @returns Map<appId, [{code, rank, platform, chartType}]>
+ */
+function findAppInAllMarkets(date, appIds) {
+  const result = new Map();
+  if (!date || !state.snapshots[date]) return result;
+  const idSet = appIds instanceof Set ? appIds : new Set(appIds);
+  for (const market of MARKETS) {
+    const mData = state.snapshots[date]?.[market.code];
+    if (!mData) continue;
+    for (const plat of Object.keys(mData)) {
+      for (const ct of Object.keys(mData[plat] || {})) {
+        const items = mData[plat][ct]?.data || [];
+        for (const app of items) {
+          if (!app.appId || !app.rank || app.rank > 100) continue;
+          if (!idSet.has(app.appId)) continue;
+          if (!result.has(app.appId)) result.set(app.appId, []);
+          const arr = result.get(app.appId);
+          if (!arr.find(e => e.code === market.code)) {
+            arr.push({ code: market.code, rank: app.rank, platform: plat, chartType: ct });
+          }
+        }
+      }
+    }
+  }
+  return result;
+}
+
+/**
  * 起始同步：從 Firestore 拉取追蹤清單，與本機 localStorage 合併
  */
 async function initTrackedSync() {
@@ -543,7 +596,31 @@ async function ensureSnapshotLoaded(date, market) {
 async function preloadAllMarketSnapshots(date) {
   const promises = MARKETS.map(m => ensureSnapshotLoaded(date, m.code).catch(() => {}));
   await Promise.all(promises);
+  enrichDarkhorseMarketsFromSnapshots(date); // 從快照補齊黑馬的市場國旗
   renderStats(); // 全部載完後刷新統計數字
+  renderDarkhorses(); // 重新渲染黑馬卡片（國旗可能有更新）
+}
+
+/**
+ * 從快照資料補齊黑馬的 markets 陣列
+ * 掃描所有市場的最新快照，找出每個黑馬遊戲在哪些市場的 Top 100 內有上榜
+ * 只要有上榜就補上該市場的國旗（只增不減）
+ */
+function enrichDarkhorseMarketsFromSnapshots(date) {
+  if (!state.darkhorses || !state.snapshots[date]) return;
+  const allIds = new Set(state.darkhorses.map(d => d.appId));
+  const appMarketMap = findAppInAllMarkets(date, allIds);
+
+  for (const dh of state.darkhorses) {
+    const found = appMarketMap.get(dh.appId);
+    if (!found || found.length === 0) continue;
+    if (!dh.markets) dh.markets = [];
+    for (const entry of found) {
+      if (!dh.markets.find(m => m.code === entry.code)) {
+        dh.markets.push({ code: entry.code, flag: getFlag(entry.code), name: MARKETS.find(mk => mk.code === entry.code)?.name || entry.code, rank: entry.rank });
+      }
+    }
+  }
 }
 
 function hideLoadingOverlay() {
@@ -810,15 +887,21 @@ function renderDarkhorses() {
     });
   }
 
-  // 後處理：從 rankHistoryByLine 補充歷史市場（國旗只增不減）
-  for (const card of filtered) {
-    if (!card._rankHistoryByLine) continue;
-    if (!card.markets) card.markets = [];
-    for (const line of Object.values(card._rankHistoryByLine)) {
-      if (line.market && !card.markets.find(m => m.code === line.market)) {
-        const mktDef = MARKETS.find(mk => mk.code === line.market);
-        if (mktDef) {
-          card.markets.push({ code: mktDef.code, flag: mktDef.flag, name: mktDef.name, rank: null });
+  // 後處理：從快照補充市場國旗（使用共用函式 findAppInAllMarkets）
+  const latestSnapDate = state.availableDates[state.availableDates.length - 1];
+  if (latestSnapDate && state.snapshots[latestSnapDate]) {
+    // 收集所有卡片的 appId
+    const allCardIds = new Set();
+    for (const card of filtered) allCardIds.add(card.appId);
+    const allMarketResults = findAppInAllMarkets(latestSnapDate, allCardIds);
+
+    for (const card of filtered) {
+      if (!card.markets) card.markets = [];
+      const found = allMarketResults.get(card.appId);
+      if (!found) continue;
+      for (const entry of found) {
+        if (!card.markets.find(m => m.code === entry.code)) {
+          card.markets.push({ code: entry.code, flag: getFlag(entry.code), name: MARKETS.find(mk => mk.code === entry.code)?.name || entry.code, rank: entry.rank });
         }
       }
     }
@@ -1229,7 +1312,7 @@ function renderRankings() {
 
   // 跨平台去重 key：同一款遊戲在 Android/iOS 的 appId 不同，改用正規化名稱去重
   function dedupeKey(app) {
-    return app.name.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 30);
+    return getMergeKey(app);
   }
 
   if (state.platform === 'all') {
@@ -1417,26 +1500,7 @@ window.showGameInfo = showGameInfo;
 // ============ 深度分析 Modal ============
 function showAnalysis(appId, platform) {
   // 找出同遊戲的所有 darkhorse（可能有多個：不同平台、不同排行、不同包名）
-  const targetDh = state.darkhorses.find(x => x.appId === appId) || getTrackedList().find(x => x.appId === appId);
-  const targetMergeKey = targetDh ? getMergeKey(targetDh) : '';
-  const allDh = state.darkhorses.filter(d => {
-    if (d.appId === appId) return true;
-    if (targetMergeKey && getMergeKey(d) === targetMergeKey) return true;
-    return false;
-  });
-  
-  // 補上追蹤名單中可能留存的「歷史黑馬」資訊（如果現在已經跌出榜，但當初追蹤時有存 triggers）
-  const trackedList = getTrackedList();
-  const trackedMatches = trackedList.filter(t => {
-    if (t.appId === appId) return true;
-    if (targetMergeKey && getMergeKey(t) === targetMergeKey) return true;
-    return false;
-  });
-  trackedMatches.forEach(t => {
-    if (t.triggers && t.triggers.length > 0 && !allDh.find(d => d.appId === t.appId && d.platform === t.platform)) {
-      allDh.push(t);
-    }
-  });
+  const allDh = findRelatedDarkhorses(appId);
 
   // 修正：動態同步 allDh 的 currentRank 及其 triggers 的名次為最新排名，解決彈窗黑馬觸發條件名次過期的問題
   // ⚠️ 重要：不可直接修改原始 dh 物件（它是 state.darkhorses 的 reference），否則會汙染卡片渲染的排名
@@ -1502,9 +1566,10 @@ function showAnalysis(appId, platform) {
     }
   }
 
-  // 找出該遊戲所有上榜的市場
+  // 找出該遊戲所有上榜的市場（dh.markets 已由 enrichDarkhorseMarketsFromSnapshots 統一補齊）
   const uniqueMarketsMap = new Map();
 
+  // 從所有相關 darkhorse 條目收集市場
   allDh.forEach(d => {
     if (d.markets && d.markets.length > 0) {
       d.markets.forEach(m => {
@@ -1514,7 +1579,7 @@ function showAnalysis(appId, platform) {
           if (!existing || (newRank && (!existing.rank || newRank < existing.rank))) {
             uniqueMarketsMap.set(m.code, {
               code: m.code,
-              flag: m.flag || MARKETS.find(x => x.code === m.code)?.flag || '',
+              flag: getFlag(m.code) || m.flag || '',
               name: m.name || MARKETS.find(x => x.code === m.code)?.name || m.code,
               rank: newRank || (existing?.rank ?? null)
             });
@@ -1527,33 +1592,23 @@ function showAnalysis(appId, platform) {
       const marketObj = MARKETS.find(x => x.code === mCode);
       uniqueMarketsMap.set(mCode, {
         code: mCode,
-        flag: d.marketFlag || marketObj?.flag || '',
+        flag: getFlag(mCode) || d.marketFlag || '',
         name: d.marketName || marketObj?.name || mCode,
         rank: d.currentRank || null
       });
     }
   });
 
-  // 補充：從快照掃描所有市場，找到遊戲出現過但不在今日黑馬名單的市場
-  const allAppIds2 = Array.from(new Set(allDh.map(d => d.appId).concat([appId])));
+  // 補充：從快照掃描（使用共用函式 findAppInAllMarkets）
+  const allAppIds2 = new Set(allDh.map(d => d.appId).concat([appId]));
   const latestDate = state.availableDates[state.availableDates.length - 1];
-  if (latestDate && state.snapshots[latestDate]) {
-    for (const [mktCode, mktSnap] of Object.entries(state.snapshots[latestDate])) {
-      if (uniqueMarketsMap.has(mktCode)) continue;
-      for (const plat of ['ios', 'android']) {
-        for (const ct of ['topfree', 'grossing']) {
-          if (mktSnap[plat] && mktSnap[plat][ct] && mktSnap[plat][ct].data) {
-            const found = mktSnap[plat][ct].data.find(a => allAppIds2.includes(a.appId));
-            if (found) {
-              const marketObj = MARKETS.find(x => x.code === mktCode);
-              uniqueMarketsMap.set(mktCode, {
-                code: mktCode,
-                flag: marketObj?.flag || '',
-                name: marketObj?.name || mktCode
-              });
-            }
-          }
-        }
+  const snapshotMarkets = findAppInAllMarkets(latestDate, allAppIds2);
+  for (const [, entries] of snapshotMarkets) {
+    for (const entry of entries) {
+      if (!uniqueMarketsMap.has(entry.code)) {
+        uniqueMarketsMap.set(entry.code, {
+          code: entry.code, flag: getFlag(entry.code), name: MARKETS.find(x => x.code === entry.code)?.name || entry.code, rank: entry.rank
+        });
       }
     }
   }
@@ -2029,24 +2084,7 @@ function switchModalMarket(marketCode) {
   });
 
   // 3. Rebuild rank history for this market
-  const targetMergeKey = getMergeKey(dh);
-  const allDh = state.darkhorses.filter(d => {
-    if (d.appId === dh.appId) return true;
-    if (targetMergeKey && getMergeKey(d) === targetMergeKey) return true;
-    return false;
-  });
-  
-  const trackedList = getTrackedList();
-  const trackedMatches = trackedList.filter(t => {
-    if (t.appId === dh.appId) return true;
-    if (targetMergeKey && getMergeKey(t) === targetMergeKey) return true;
-    return false;
-  });
-  trackedMatches.forEach(t => {
-    if (t.triggers && t.triggers.length > 0 && !allDh.find(d => d.appId === t.appId && d.platform === t.platform)) {
-      allDh.push(t);
-    }
-  });
+  const allDh = findRelatedDarkhorses(dh.appId);
 
   rebuildModalRankHistory(dh, allDh, marketCode);
 
