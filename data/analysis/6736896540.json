@@ -1,0 +1,45 @@
+{
+  "appId": "6736896540",
+  "name": "Hello Kitty My Dream Store",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "Hello Kitty和酷洛米看到因朋友們不再光顧而荒廢的購物商城，內心感到悲傷，感嘆這裡已不再是每個人的夢幻空間了。\n然而，不能就此放棄！和可愛的三麗鷗角色們一起合併圖形，打造屬於自己的特殊購物商城吧。\n為購物商城找回過去滿滿的閃耀夢想和歡笑！只要和三麗鷗角色們同在就無所不能\n\n『Hello Kitty My Dream Store』的特色：\n \nㅁ 可愛合併上可愛\n - 合併圖形後，將出現更可愛的三麗鷗圖形！\n - 不斷地完成合併任務，探索更多采多姿的三麗鷗朋友們和關卡！\n \nㅁ 修復並擴張購物商城\n - 幫助Hello Kitty和酷洛米修復荒廢的購物商城，看看各式各樣的商店！\n - 描繪著重拾夢想與希望的購物商城之旅，講述著溫暖人心的療癒故事！\n \nㅁ 打造並經營自己的店面\n - 以三麗鷗的人氣角色為主題，打造並擴張自己專屬的可愛商店！\n - 用個性十足的500多種裝飾來裝飾店面，再透過主題和時裝增添獨特風格！\n \nㅁ 收集與培養的樂趣\n - 收集超過30種的三麗鷗角色，培養出頂尖的店長和店員！\n - 收集角色並完成圖鑑，同時獲得特別的獎勵！\n\n【官方社群帳號】\n▶ Faceb",
+    "released": "2025-02-28T08:00:00Z",
+    "updated": "2026-05-20T01:42:58Z",
+    "version": "1.12.1",
+    "score": 4.4,
+    "reviews": 4218,
+    "developer": "ACTGames Co., Ltd.",
+    "developerUrl": "https://apps.apple.com/tw/developer/actgames-co-ltd/id1585641858?uo=4",
+    "genres": [
+      "遊戲",
+      "娛樂",
+      "解謎",
+      "休閒"
+    ],
+    "releaseNotes": "【以下為本次的主要更新內容】\n\n- 在全新活動「甜點皮納塔派對」中擊破皮納塔，獲得甜蜜獎勵吧！\n- 新增限時推出的全新驚喜活動「咚咚！三位好友登場！」。\n- 已進行效能優化，以及多項功能改善與錯誤修復。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:48.882Z"
+}

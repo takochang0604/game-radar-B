@@ -1,0 +1,79 @@
+{
+  "appId": "com.skypeople.finalbladegb",
+  "name": "파이널 블레이드 : 기억을 깨우다",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "The Era of Transcendence Begins!\n\nUpdate: ‘Transcendence,’ a new growth system that pushes beyond limits!\n\nMeet the Transcendence Heroes, who have surpassed the Ultimate Descent, and experience even more powerful battles right now.\n\n=====================================================\n\n■ Transcendence Hero Update\n\nA new growth beyond the ultimate realm—Transcendence Heroes have arrived!\n\n■ Deeper Fun in Growth\n\nTrain your heroes to become even stronger and complete your battles with your own un",
+    "released": "Dec 2, 2018",
+    "updated": 1779274043000,
+    "version": "0.0.12",
+    "installs": "500,000+",
+    "score": 4.5,
+    "ratings": 18561,
+    "reviews": 480,
+    "developer": "(주) 넷플레버",
+    "developerWebsite": "https://netflavor.co.kr/26",
+    "genre": "Role Playing",
+    "recentChanges": "&gt; 초월 시스템 추가<br>초월 영웅 5종 추가<br>- 무황 흑태자<br>- 환세 서이<br>- 방랑시영<br>- 휘 측천여제<br>- 은령 서유화<br>&gt; 신규/복귀 이벤트 2종 추가<br>&gt; 기타 편의성 증대 기능 추가"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 61,
+      "2": 20,
+      "3": 30,
+      "4": 20,
+      "5": 69
+    },
+    "positiveRatio": 45,
+    "negativeRatio": 41,
+    "eventMentions": [
+      {
+        "text": "i love playing this game but i tried to go and play it today and it won't even load what happened to",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "their haven't update the game since 2020,so..don't waste time.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this is good game but this is need an update",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "why is it every game with any kind of playability is strictly p2w. the game started off with so much",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "the recent update was great in terms of freebies but it also came with a few technical problems. i h",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-23T15:04:13.262Z"
+}

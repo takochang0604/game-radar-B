@@ -1,0 +1,485 @@
+{
+  "collectedAt": "2026-05-21T13:21:12.199Z",
+  "android": {
+    "appId": "com.wildfire.romance",
+    "title": "Under My Roof: Love Stories",
+    "developer": "Wildfire Interactive",
+    "developerId": "6691736640905481066",
+    "genre": "Simulation",
+    "score": 4.071429,
+    "ratings": 1928,
+    "installs": "100,000+",
+    "maxInstalls": 298073,
+    "free": true,
+    "released": "May 5, 2026",
+    "updated": 1778573227000,
+    "version": "1.2.0511",
+    "contentRating": "Everyone 10+",
+    "icon": "https://play-lh.googleusercontent.com/sI4acuEZNxUe5xA1L3GiOUFEq9kAYOmpbQR5eEHwmgVSjiosJ1iZnbNv1Z6oxicA7EZRc2uGwIiXo97Hym_9KPY",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/3Kn1vHlGUeSqkCLdNTMSLOb7MqtYRmDuGw0ccN5W-K7EVyQYpWSdZ_3OnjdeoyfMSL24jn_rvz90OhKd2J-X5Q",
+      "https://play-lh.googleusercontent.com/h7YUgmmsKLb613GQxdwZq6UEoqWbFcteMIRrdLTdoyQ302gv--1mFL3XtfTVUSbgZTIdqLN-8jko3wTA32uB",
+      "https://play-lh.googleusercontent.com/rwJ4PNqOqGwWlNkIpEbJLfQuJMMYK38jPWcH9QMzcyZLIIsMHEuPoQmDnBlOLVGGM1BCisBE4dN_7Y58y_jZ",
+      "https://play-lh.googleusercontent.com/DdUo0ImhlCf37vtIEI-7lAtlBaQQGyt_zWDZpMHmZhOKW5JVjNdg8MWKJRu49zG_VNvfeNtbS-7Y-3HwoZwu",
+      "https://play-lh.googleusercontent.com/Nb1-CxU4HURL6zKfQGfwVYm3svddQgE_Gfy8aFbluWqHYYzBZHXNR-hLVjHmFl5ClA9UMt708dZyd6DU0R3erQ",
+      "https://play-lh.googleusercontent.com/J8nbtVekw43V1ZwJEjdTZxdH7bnurwlFqnGQspWTaRvCB10bVHhIqzpftTVQ3z9dnBlZGP7p_X4ox78O4_IMr_U",
+      "https://play-lh.googleusercontent.com/uBQlEQrH17dx7SD_gfHAksp8zJWEnpvOavL81aBRYuPZ7HunbHFdOpsTY-wIYNQtWJ6_4l7R7AcpkOyNAqxwdA",
+      "https://play-lh.googleusercontent.com/S91FghORA35VdLA5wwPmdv1MAx0GbjIjGkOZs2fGlXaeoWt4GcW7uGGEyOxOTFxPBy0eJCMntDFBqdtmJZmt_hE",
+      "https://play-lh.googleusercontent.com/6zlNyJncF4ZLCUvcrDkB5cEy-JS1FIAOuucvbI2K2BAM0fqUPSDMH9EhYtflwlLpG2seSlAtLLQhJxIy0Dh-iH8",
+      "https://play-lh.googleusercontent.com/KOoyS5mlI8EdoSExLxvY1qyvDtjKfXgmskw9Mj5P3r5EcAE9oxmmpwXGbQlLDs_gmO-pd-q29piX74u_wGVQFQ",
+      "https://play-lh.googleusercontent.com/-Gr7KiiJwsABbMNb7xLemmNQkh3EioSpCg13qtW4IVahN4nQk6hn_wlNZcVa65wttv_ja9TkgzzeOEi41Eyz4t0",
+      "https://play-lh.googleusercontent.com/MdHiL9mTWtwdC8wiKM_UMpO4QdWmtsSdB-zcfuj1NGt4wDpk4osY4WBI5ciW-W_hza3kGeUvGY5zPOyWtSUDXw",
+      "https://play-lh.googleusercontent.com/uBQlEQrH17dx7SD_gfHAksp8zJWEnpvOavL81aBRYuPZ7HunbHFdOpsTY-wIYNQtWJ6_4l7R7AcpkOyNAqxwdA",
+      "https://play-lh.googleusercontent.com/S91FghORA35VdLA5wwPmdv1MAx0GbjIjGkOZs2fGlXaeoWt4GcW7uGGEyOxOTFxPBy0eJCMntDFBqdtmJZmt_hE",
+      "https://play-lh.googleusercontent.com/6zlNyJncF4ZLCUvcrDkB5cEy-JS1FIAOuucvbI2K2BAM0fqUPSDMH9EhYtflwlLpG2seSlAtLLQhJxIy0Dh-iH8",
+      "https://play-lh.googleusercontent.com/KOoyS5mlI8EdoSExLxvY1qyvDtjKfXgmskw9Mj5P3r5EcAE9oxmmpwXGbQlLDs_gmO-pd-q29piX74u_wGVQFQ",
+      "https://play-lh.googleusercontent.com/-Gr7KiiJwsABbMNb7xLemmNQkh3EioSpCg13qtW4IVahN4nQk6hn_wlNZcVa65wttv_ja9TkgzzeOEi41Eyz4t0",
+      "https://play-lh.googleusercontent.com/MdHiL9mTWtwdC8wiKM_UMpO4QdWmtsSdB-zcfuj1NGt4wDpk4osY4WBI5ciW-W_hza3kGeUvGY5zPOyWtSUDXw",
+      "https://play-lh.googleusercontent.com/3Kn1vHlGUeSqkCLdNTMSLOb7MqtYRmDuGw0ccN5W-K7EVyQYpWSdZ_3OnjdeoyfMSL24jn_rvz90OhKd2J-X5Q",
+      "https://play-lh.googleusercontent.com/h7YUgmmsKLb613GQxdwZq6UEoqWbFcteMIRrdLTdoyQ302gv--1mFL3XtfTVUSbgZTIdqLN-8jko3wTA32uB",
+      "https://play-lh.googleusercontent.com/rwJ4PNqOqGwWlNkIpEbJLfQuJMMYK38jPWcH9QMzcyZLIIsMHEuPoQmDnBlOLVGGM1BCisBE4dN_7Y58y_jZ",
+      "https://play-lh.googleusercontent.com/DdUo0ImhlCf37vtIEI-7lAtlBaQQGyt_zWDZpMHmZhOKW5JVjNdg8MWKJRu49zG_VNvfeNtbS-7Y-3HwoZwu",
+      "https://play-lh.googleusercontent.com/Nb1-CxU4HURL6zKfQGfwVYm3svddQgE_Gfy8aFbluWqHYYzBZHXNR-hLVjHmFl5ClA9UMt708dZyd6DU0R3erQ",
+      "https://play-lh.googleusercontent.com/J8nbtVekw43V1ZwJEjdTZxdH7bnurwlFqnGQspWTaRvCB10bVHhIqzpftTVQ3z9dnBlZGP7p_X4ox78O4_IMr_U",
+      "https://play-lh.googleusercontent.com/3Kn1vHlGUeSqkCLdNTMSLOb7MqtYRmDuGw0ccN5W-K7EVyQYpWSdZ_3OnjdeoyfMSL24jn_rvz90OhKd2J-X5Q",
+      "https://play-lh.googleusercontent.com/h7YUgmmsKLb613GQxdwZq6UEoqWbFcteMIRrdLTdoyQ302gv--1mFL3XtfTVUSbgZTIdqLN-8jko3wTA32uB",
+      "https://play-lh.googleusercontent.com/rwJ4PNqOqGwWlNkIpEbJLfQuJMMYK38jPWcH9QMzcyZLIIsMHEuPoQmDnBlOLVGGM1BCisBE4dN_7Y58y_jZ",
+      "https://play-lh.googleusercontent.com/DdUo0ImhlCf37vtIEI-7lAtlBaQQGyt_zWDZpMHmZhOKW5JVjNdg8MWKJRu49zG_VNvfeNtbS-7Y-3HwoZwu",
+      "https://play-lh.googleusercontent.com/Nb1-CxU4HURL6zKfQGfwVYm3svddQgE_Gfy8aFbluWqHYYzBZHXNR-hLVjHmFl5ClA9UMt708dZyd6DU0R3erQ",
+      "https://play-lh.googleusercontent.com/J8nbtVekw43V1ZwJEjdTZxdH7bnurwlFqnGQspWTaRvCB10bVHhIqzpftTVQ3z9dnBlZGP7p_X4ox78O4_IMr_U"
+    ],
+    "video": "https://www.youtube.com/watch?v=oI94gU5d1hQ",
+    "summary": "Manage your apartment, date stunning tenants, and find true love!",
+    "description": "💖 Your Dream Starts Here! 💖\n\n🏙️ From Rookie Landlord to Urban Tycoon: Write Your Own Legend! Step into the shoes of an aspiring landlord starting with a single modest apartment. Through savvy management and strategic investment, upgrade your facilities and optimize the environment to build your dream community. Master your finances, expand your business footprint, and achieve a double breakthrough in wealth and status amidst the city's tides.\nWith a deep growth system and diverse mission challenges, you’ll sharpen your Knowledge, Charisma, and Fitness. Break your limits to unlock advanced business strategies and life possibilities. As your success and capabilities soar, you’ll become the brightest star in the city. A peak career and sincere romance are yours to command!\n\n🏠 Immersive Apartment Life Encounter beautiful female tenants with distinct personalities and engage in heartwarming interactions. Deepen your bonds through chats, phone calls, and daily encounters. Every choice you make shapes the relationship, unlocking unique plot branches and exclusive stories. Experience a natural, evolving journey of trust and heart-pounding moments.\n\n👗 Style & Glamour: Unlock Every Side of Her Unlock a vast wardrobe of styles for your characters: elegant evening gowns, cozy loungewear, and playful themed outfits. Each look not only showcases her unique charm but also triggers exclusive storylines and interactive content, ensuring every transformation feels fresh and exciting.\n\n📸 Collect Precious Memories Unlock exclusive photos and sentimental content as the story progresses. Document every milestone and build your personal growth archive, witnessing the synchronized evolution of your career and your heart.\n\n💼 Expand Your Business Empire From a weathered building to a high-end luxury district—scale your assets through renovations, rent management, and commercial investments. Plan your resources wisely, dominate the market, and establish your very own urban business empire.\n\n🔥 Download Now: Start Your Elite Life & Sweet Romance! A brand-new experience where career, growth, and love intertwine awaits you. Your story begins today... and she is waiting for you.\n\n\nCommunity:\n Facebook: https://www.facebook.com/ooyasann.game\n X (Twitter): https://x.com/ooyasann_game",
+    "developerWebsite": "https://bj.wildfiregames.net"
+  },
+  "ios": {
+    "id": 6756704478,
+    "appId": "com.wildfire.romance",
+    "title": "Under My Roof: Love Stories",
+    "developer": "Wildfire Interactive Limited",
+    "score": 4.48386,
+    "reviews": 31,
+    "free": true,
+    "released": "2026-05-05T07:00:00Z",
+    "updated": "2026-05-13T06:51:26Z",
+    "version": "1.1.4",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/32/61/96326106-4c00-426e-649f-3cca0bd3bc74/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Simulation"
+    ],
+    "description": "Your Dream Starts Here! \n\nFrom Rookie Landlord to Urban Tycoon: Write Your Own Legend! Step into the shoes of an aspiring landlord starting with a single modest apartment. Through savvy management and strategic investment, upgrade your facilities and optimize the environment to build your dream community. Master your finances, expand your business footprint, and achieve a double breakthrough in wealth and status amidst the city's tides.\n\nWith a deep growth system and diverse mission challenges, you’ll sharpen your Knowledge, Charisma, and Fitness. Break your limits to unlock advanced business strategies and life possibilities. As your success and capabilities soar, you’ll become the brightest star in the city. A peak career and sincere romance are yours to command!\n\nImmersive Apartment Life Encounter beautiful female tenants with distinct personalities and engage in heartwarming interactions. Deepen your bonds through chats, phone calls, and daily encounters. Every choice you make shapes the relationship, unlocking unique plot branches and exclusive stories. Experience a natural, evolving journey of trust and heart-pounding moments.\n\nStyle & Glamour: Unlock Every Side of Her Unlock a vast wardrobe of styles for your characters: elegant evening gowns, cozy loungewear, and playful themed outfits. Each look not only showcases her unique charm but also triggers exclusive storylines and interactive content, ensuring every transformation feels fresh and exciting.\n\nCollect Precious Memories Unlock exclusive photos and sentimental content as the story progresses. Document every milestone and build your personal growth archive, witnessing the synchronized evolution of your career and your heart.\n\nExpand Your Business Empire From a weathered building to a high-end luxury district—scale your assets through renovations, rent management, and commercial investments. Plan your resources wisely, dominate the market, and establish your very own urban business empire.\n\nDownload Now: Start Your Elite Life & Sweet Romance! A brand-new experience where career, growth, and love intertwine awaits you. Your story begins today... and she is waiting for you.\n\nCommunity:\nFacebook: https://www.facebook.com/ooyasann.game\n X (Twitter): https://x.com/ooyasann_game"
+  },
+  "reviews": {
+    "total": 48,
+    "googlePlay": 46,
+    "appStore": 2,
+    "distribution": {
+      "1": 24,
+      "2": 5,
+      "3": 3,
+      "4": 5,
+      "5": 11
+    },
+    "positive": [
+      {
+        "source": "google_play",
+        "userName": "Emerson",
+        "score": 5,
+        "text": "exciting.",
+        "date": "2026-05-20T05:34:50.367Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Justineerec Sabondo",
+        "score": 4,
+        "text": "It's a nice dating game with business analogy so I give it 4stars that's the only rate I can give maybe I feel it lacks something but it's a pretty good game btw",
+        "date": "2026-05-19T10:28:40.902Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Eugene Lau",
+        "score": 5,
+        "text": "Fun!!",
+        "date": "2026-05-18T04:53:44.374Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kah Long Ho",
+        "score": 5,
+        "text": "Very good",
+        "date": "2026-05-16T23:54:55.524Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Vincent Vincent",
+        "score": 5,
+        "text": "Like it",
+        "date": "2026-05-15T13:57:20.699Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Raymund Baron Patalinghug",
+        "score": 5,
+        "text": "Finally, a Japanese dating game with an awesome business mini game. I've been hooked up with your game ever since this was released. Keep up the good work, developers!",
+        "date": "2026-05-14T14:31:21.267Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "aven anyah",
+        "score": 5,
+        "text": "so fun",
+        "date": "2026-05-14T11:55:33.284Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Saiful Aizam",
+        "score": 5,
+        "text": "Nice game",
+        "date": "2026-05-13T07:33:04.386Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nik Merchant",
+        "score": 4,
+        "text": "the videos are good and the story is nice. Don't have any real choice in the gameplay- it tells you what to press & when.",
+        "date": "2026-05-12T09:05:26.896Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Simon Green",
+        "score": 4,
+        "text": "good fun",
+        "date": "2026-05-11T10:29:50.850Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "John Romano",
+        "score": 4,
+        "text": "a little slow making progress",
+        "date": "2026-05-11T03:45:47.237Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ahmad Taufik Rosdi",
+        "score": 4,
+        "text": "I hope can play all girl story",
+        "date": "2026-05-11T01:41:09.661Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Mr. Yen Luckynine",
+        "score": 5,
+        "text": "juat keep it up congrats.",
+        "date": "2026-05-09T03:28:01.169Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "sofia Wright",
+        "score": 5,
+        "text": "このゲームを数分間プレイしてみましたが、とても気に入りました。キャラクターは愛らしくてキュートで、実写風の演出がリアルな雰囲気を醸し出しています。非常に没入感があり、興味をそそられるので、今後のストーリー展開が気になります。ぜひおすすめしたいゲームです。",
+        "date": "2026-03-17T20:15:11.468Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Jun Takeshita",
+        "score": 5,
+        "text": "it was good for me 👍",
+        "date": "2026-03-08T11:34:38.663Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "app_store",
+        "userName": "hsh1131",
+        "score": 5,
+        "text": "재밌게 잘 하고 있습니다 ^^",
+        "date": "2026-05-10T17:29:57-07:00",
+        "version": "1.1.2"
+      }
+    ],
+    "negative": [
+      {
+        "source": "google_play",
+        "userName": "Evan Peterson",
+        "score": 1,
+        "text": "too much ads",
+        "date": "2026-05-20T09:45:32.113Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mick Odrobinski",
+        "score": 1,
+        "text": "pushy app. always wants money! avoid at all costs. don't download",
+        "date": "2026-05-20T04:25:02.251Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Casey Grimm",
+        "score": 2,
+        "text": "This isn't a game. It's an ad-watching simulator.",
+        "date": "2026-05-19T20:55:53.600Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Paman Ben",
+        "score": 1,
+        "text": "game was good, but sadly i can't watch any ad to take bonus, reward, or anything else. its force me to have skip ad item to get the item or anything i want",
+        "date": "2026-05-19T12:29:16.426Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Marc Tremblay",
+        "score": 1,
+        "text": "Not really a \"game\" it's more a series of long ads with a few brief pauses in between locked gameplay.. Yeah",
+        "date": "2026-05-19T04:53:04.404Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "JS Y",
+        "score": 1,
+        "text": "terrible. everything links to an ad. tho you can choose to not click the ad. but it's advances your game. also, every start of the game brings u to an ad. pathetic.",
+        "date": "2026-05-19T02:02:20.590Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Papa Bear",
+        "score": 1,
+        "text": "has to be the stupidest app made",
+        "date": "2026-05-17T23:50:10.821Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Barbar Teros",
+        "score": 1,
+        "text": "i dont get my purchase , but my money already deducted wth",
+        "date": "2026-05-16T16:37:12.331Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Blank",
+        "score": 2,
+        "text": "Game keeps crashing on its own",
+        "date": "2026-05-16T16:22:02.145Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mark",
+        "score": 1,
+        "text": "It's in Chinese or Japanese with English subtitles.",
+        "date": "2026-05-15T22:30:06.531Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Ryan Montgomery",
+        "score": 1,
+        "text": "all the videos in the game are overly pixelated and unable to be viewed",
+        "date": "2026-05-15T07:46:24.647Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Andrew Hoft",
+        "score": 2,
+        "text": "I enjoy the storyline however the reason why I'm giving this app only two stars is because way more often than not anytime I'm using any feature that requires me to watch an ad for a reward it keeps giving me the message of \"No advertisements are available to watch right now please try again later\" and when this message shows up I don't receive any rewards. I am done playing this app until y'all have 100% confirmed that this issue is fully 100% resolved.",
+        "date": "2026-05-14T14:17:29.929Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Danny Lim",
+        "score": 1,
+        "text": "unable to play at all",
+        "date": "2026-05-13T13:20:57.217Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Anthony Durber.",
+        "score": 1,
+        "text": "another update and still no change.",
+        "date": "2026-05-13T10:30:09.718Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Bradley Denby",
+        "score": 2,
+        "text": "Not Hot enough. The outfits not revealing. scenes are trying to be sexy fully clothed. Girl selection was only 1 maybe possible option for me. Didn't get far enough into the game because of it.",
+        "date": "2026-05-13T01:49:23.308Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "William Brown",
+        "score": 2,
+        "text": "\"Cozy landlord life\" but with different personalities basically, it seems.. 4 choices in this vs 3 from the other...",
+        "date": "2026-05-12T18:28:53.445Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "TM",
+        "score": 1,
+        "text": "Nice Game! It's F2P ! why? Every task and action you need to watch ads! Even you login the first thing to do is watch ads! nothing to play after 2 days and all you can do in the game is WATCH ADS! You can download and play if watch ads is your favourite!",
+        "date": "2026-05-12T15:22:24.963Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "John Rogan",
+        "score": 1,
+        "text": "this is a scam I can tell that the developer are going to steal people account and password don't install it denied it it's a scam",
+        "date": "2026-05-12T04:03:45.496Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Don M",
+        "score": 1,
+        "text": "advertisements never available",
+        "date": "2026-05-11T11:20:52.130Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Thomas",
+        "score": 1,
+        "text": "to many ads cant even start the game without an ad",
+        "date": "2026-05-11T10:56:44.721Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "GiGi Panda",
+        "score": 1,
+        "text": "worthless to play slow loading",
+        "date": "2026-05-10T13:35:55.364Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "P.J Turner Jr.",
+        "score": 1,
+        "text": "cant even play it after installing the the game you get a message saying unusual activities detected. then the game just closes. Ive tried playing the game on 3 different accounts and they all do the same thing. maybe the idiot developers should test their products to make sure they work before releasing the game.",
+        "date": "2026-05-10T04:04:01.776Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "PH.TELCOS BASURA",
+        "score": 1,
+        "text": "unplayable, developers are dead i think..",
+        "date": "2026-05-10T03:40:20.287Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Christofer Mims",
+        "score": 1,
+        "text": "Everytime I open it the app locks me out before the start screen",
+        "date": "2026-05-10T02:49:32.900Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Honest Secret",
+        "score": 1,
+        "text": "nonsense.. not even working",
+        "date": "2026-05-10T02:37:31.762Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "A Google user",
+        "score": 1,
+        "text": "THIS IS A JOKE ,DON'T WAIST TIME DOWN LOADING THIS NOT OP3N ,AND POP SAID SUSPICIOUS ACCOUNTS DELETE",
+        "date": "2026-05-10T00:39:39.980Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "jun peng lin",
+        "score": 1,
+        "text": "I can't even see clearly the ladies or any interaction at all all blurred off like if I can show you a photo of it I can't even see anything at all",
+        "date": "2026-05-09T16:37:25.509Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Nigel Soleta",
+        "score": 1,
+        "text": "Didn't not work",
+        "date": "2026-05-09T06:35:01.242Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Theevan Penales",
+        "score": 1,
+        "text": "it not working",
+        "date": "2026-05-09T05:46:11.570Z",
+        "thumbsUp": 3
+      }
+    ],
+    "neutral": [
+      {
+        "source": "google_play",
+        "userName": "ephemeral5298",
+        "score": 3,
+        "text": "i dont like that its forcing me to download under wifi since i use data mainly. i miss out on the photoshoots. if you get rid of forcing me to download through a \"wifi environment\" it would be a 5 star",
+        "date": "2026-05-18T00:15:39.899Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Todd Blue",
+        "score": 3,
+        "text": "That's awesome 👍🏼😎",
+        "date": "2026-05-10T23:14:52.418Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "app_store",
+        "userName": "Nateofchatt",
+        "score": 3,
+        "text": "It is watching videos, no choices. In the text messages you give back and forth between you and your chosen girl, you have no choice to even give one of two or three texts, just the one pre-generated one. So all the choices are made for you. The game mechanic for getting more cash or getting the girl to like you more is to tap… a -LOT-. If you have nerve damage, that is not your game.",
+        "date": "2026-05-12T06:49:51-07:00",
+        "version": "1.1.3"
+      }
+    ]
+  },
+  "similarApps": [],
+  "developerApps": [
+    {
+      "appId": "com.wildfire.romance",
+      "title": "Under My Roof: Love Stories",
+      "score": 4.071429,
+      "icon": "https://play-lh.googleusercontent.com/sI4acuEZNxUe5xA1L3GiOUFEq9kAYOmpbQR5eEHwmgVSjiosJ1iZnbNv1Z6oxicA7EZRc2uGwIiXo97Hym_9KPY"
+    }
+  ]
+}
