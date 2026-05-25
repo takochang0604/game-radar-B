@@ -573,77 +573,6 @@ async function main() {
     }
   }
 
-  // ============ 累積市場國旗 ============
-  // 規則：曾經觸發的市場國旗永遠保留，不因當日未偵測到而消失
-  // 來源 1：把 yesterdayDhMap 裡有但今日 mergedMap 沒有的市場補回來
-  // 來源 2：從 triggers 歷史裡找出有 market 記錄但未進入 markets 陣列的市場
-  for (const [key, dh] of mergedMap) {
-    const existingCodes = new Set(dh.markets.map(m => m.code));
-
-    // 來源 1：昨日 markets 陣列
-    const yesterdayDh = yesterdayDhMap.get(key);
-    if (yesterdayDh && yesterdayDh.markets) {
-      for (const pastMarket of yesterdayDh.markets) {
-        if (!existingCodes.has(pastMarket.code)) {
-          dh.markets.push({ ...pastMarket });
-          existingCodes.add(pastMarket.code);
-        }
-      }
-    }
-
-    // 來源 2：triggers 歷史（包含所有曾觸發的市場，含日本、菲律賓等）
-    for (const t of (dh.triggers || [])) {
-      if (!t.market || existingCodes.has(t.market)) continue;
-      // 從 MARKETS 找出對應的 flag / name
-      const marketInfo = MARKETS.find(m => m.code === t.market);
-      if (marketInfo) {
-        dh.markets.push({
-          code: t.market,
-          name: t.marketName || marketInfo.name,
-          flag: t.marketFlag || marketInfo.flag,
-          rank: null,   // 當日排名未知，顯示旗幟但不顯示排名數字
-          score: 0,
-        });
-        existingCodes.add(t.market);
-      }
-    }
-  }
-
-  // ============ 補充高排名市場（非觸發但實際名次很好的市場）============
-  // 問題：某些市場長期排名很高（如台灣 #1），因為從未「移動」而不觸發任何偵測策略，
-  //       導致黑馬卡片 badge 和走勢圖完全看不到這些市場，與排行榜卡片顯示落差很大
-  // 解法：掃描今日快照，Top 20 以內的市場主動補入 markets 和 _rankHistoryByMarket
-  const NON_TRIGGER_RANK_THRESHOLD = 20;
-  for (const [, dh] of mergedMap) {
-    const existingCodes = new Set(dh.markets.map(m => m.code));
-    for (const market of MARKETS) {
-      if (existingCodes.has(market.code)) continue;
-      // 確認平台相容（中國無 Google Play）
-      if (dh.platform === 'android' && !market.hasGooglePlay) continue;
-      const snap = loadSnapshot(today, market.code, dh.platform, dh.chartType);
-      if (!snap || !snap.data) continue;
-      const entry = snap.data.find(a => a.appId === dh.appId);
-      if (entry && entry.rank <= NON_TRIGGER_RANK_THRESHOLD) {
-        // 補入 markets 陣列（score=0 不影響信心分數）
-        dh.markets.push({
-          code: market.code,
-          name: market.name,
-          flag: market.flag,
-          rank: entry.rank,
-          score: 0,
-        });
-        existingCodes.add(market.code);
-        // 補入 _rankHistoryByMarket，讓走勢圖也能顯示
-        if (!dh._rankHistoryByMarket) dh._rankHistoryByMarket = {};
-        if (!dh._rankHistoryByMarket[market.code]) {
-          const hist = getRankHistory(dh.appId, market.code, dh.platform, dh.chartType, DARKHORSE_CONFIG.lookbackDays);
-          dh._rankHistoryByMarket[market.code] = hist.slice(-7).map(h => ({
-            ...h, platform: dh.platform, chartType: dh.chartType,
-          }));
-        }
-      }
-    }
-  }
 
   // ============ 多市場加分 ============
   // 同一遊戲在越多市場被偵測為黑馬，信心分數越高
@@ -672,6 +601,43 @@ async function main() {
 
     const newScore = (baseScore + multiMarketBonus) * consistencyMultiplier;
     dh.confidenceScore = Math.round(newScore * 100) / 100;
+  }
+
+  // ============ 市場國旗與排名顯示 ============
+  // 規則：今日快照有撈到（Top 100 以內）就顯示該市場國旗，沒撈到不顯示
+  // 計分不受影響（confidenceScore 已在上方計算完畢）
+  for (const [, dh] of mergedMap) {
+    // 保留觸發市場的 score，供 badge 標示
+    const triggerScores = {};
+    for (const m of dh.markets) {
+      if (m.score > 0) triggerScores[m.code] = m.score;
+    }
+    // 重新從今日快照建立 markets
+    const snapshotMarkets = [];
+    for (const market of MARKETS) {
+      if (dh.platform === 'android' && !market.hasGooglePlay) continue;
+      const snap = loadSnapshot(today, market.code, dh.platform, dh.chartType);
+      if (!snap || !snap.data) continue;
+      const entry = snap.data.find(a => a.appId === dh.appId);
+      if (entry) {
+        snapshotMarkets.push({
+          code: market.code,
+          name: market.name,
+          flag: market.flag,
+          rank: entry.rank,
+          score: triggerScores[market.code] || 0,
+        });
+        // 補充走勢圖歷史資料
+        if (!dh._rankHistoryByMarket) dh._rankHistoryByMarket = {};
+        if (!dh._rankHistoryByMarket[market.code]) {
+          const hist = getRankHistory(dh.appId, market.code, dh.platform, dh.chartType, DARKHORSE_CONFIG.lookbackDays);
+          dh._rankHistoryByMarket[market.code] = hist.slice(-7).map(h => ({
+            ...h, platform: dh.platform, chartType: dh.chartType,
+          }));
+        }
+      }
+    }
+    dh.markets = snapshotMarkets;
   }
 
   // 精簡 rankHistory：走勢線只顯示 7 天，保留最近 7 筆即可
