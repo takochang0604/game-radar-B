@@ -175,7 +175,7 @@
           "marketFlag": "🇵🇭"
         }
       ],
-      "confidenceScore": 74.39,
+      "confidenceScore": 87.25,
       "rankHistory": [
         {
           "date": "2026-05-19",
@@ -256,6 +256,20 @@
           "flag": "🇵🇭",
           "rank": 8,
           "score": 18.3
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 36,
+          "score": 8.11
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": null,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -461,6 +475,570 @@
             "hasSnapshot": true,
             "platform": "android",
             "chartType": "grossing"
+          }
+        ]
+      }
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1517783697",
+      "name": "原神·空月之歌",
+      "developer": "COGNOSPHERE PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/69/1c/df691ca2-735f-4617-256d-a49202f8db1e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "currentRank": 34,
+      "score": 4.44,
+      "category": "遊戲",
+      "url": "https://apps.apple.com/tw/app/%E5%8E%9F%E7%A5%9E-%E7%A9%BA%E6%9C%88%E4%B9%8B%E6%AD%8C/id1517783697?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #64 升至 #2（↑62 名）",
+          "score": 2.066666666666667,
+          "_detectedAt": "2026-05-20",
+          "market": "jp",
+          "marketName": "日本",
+          "marketFlag": "🇯🇵"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #73 升至 #4（↑69 名）",
+          "score": 2.3,
+          "_detectedAt": "2026-05-20",
+          "market": "tw",
+          "marketName": "台灣",
+          "marketFlag": "🇹🇼"
+        },
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #13",
+          "score": 2.5,
+          "_detectedAt": "2026-05-20",
+          "market": "us",
+          "marketName": "美國",
+          "marketFlag": "🇺🇸"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #84 升至 #13（↑71 名）",
+          "score": 2.3666666666666667,
+          "_detectedAt": "2026-05-20",
+          "market": "kr",
+          "marketName": "韓國",
+          "marketFlag": "🇰🇷"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #96 升至 #14（↑82 名）",
+          "score": 2.7333333333333334,
+          "_detectedAt": "2026-05-20",
+          "market": "th",
+          "marketName": "泰國",
+          "marketFlag": "🇹🇭"
+        },
+        {
+          "strategy": "growth_multiplier",
+          "label": "📊 成長加速",
+          "detail": "成長倍率 2.7×（近 3 天平均 #18 vs 近 7 天平均 #49）",
+          "score": 1.0793650793650793,
+          "_detectedAt": "2026-05-21",
+          "market": "jp",
+          "marketName": "日本",
+          "marketFlag": "🇯🇵"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #58 升至 #21（↑37 名）",
+          "score": 1.2333333333333334,
+          "_detectedAt": "2026-05-21",
+          "market": "us",
+          "marketName": "美國",
+          "marketFlag": "🇺🇸"
+        },
+        {
+          "strategy": "growth_multiplier",
+          "label": "📊 成長加速",
+          "detail": "成長倍率 5.4×（近 3 天平均 #9 vs 近 7 天平均 #49）",
+          "score": 2.1714285714285713,
+          "_detectedAt": "2026-05-22",
+          "market": "tw",
+          "marketName": "台灣",
+          "marketFlag": "🇹🇼"
+        },
+        {
+          "strategy": "growth_multiplier",
+          "label": "📊 成長加速",
+          "detail": "成長倍率 2.6×（近 3 天平均 #21 vs 近 7 天平均 #56）",
+          "score": 1.0580357142857144,
+          "_detectedAt": "2026-05-22",
+          "market": "kr",
+          "marketName": "韓國",
+          "marketFlag": "🇰🇷"
+        }
+      ],
+      "confidenceScore": 49.39,
+      "rankHistory": [
+        {
+          "date": "2026-05-19",
+          "rank": 73,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-20",
+          "rank": 4,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-21",
+          "rank": 8,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-22",
+          "rank": 15,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-23",
+          "rank": 22,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-24",
+          "rank": null,
+          "hasSnapshot": false,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-25",
+          "rank": 34,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        }
+      ],
+      "detectedAt": "2026-05-20T16:07:55.760Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 34,
+          "score": 17.51
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 23,
+          "score": 28.01
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 35,
+          "score": 15.76
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": null,
+          "score": 0
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": null,
+          "score": 0
+        }
+      ],
+      "_rankHistoryByMarket": {
+        "tw": [
+          {
+            "date": "2026-05-19",
+            "rank": 73,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": 4,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": 8,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 15,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 22,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 34,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          }
+        ]
+      }
+    },
+    {
+      "market": "th",
+      "marketName": "泰國",
+      "marketFlag": "🇹🇭",
+      "platform": "ios",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "6755586050",
+      "name": "Game of Thrones Kingsroad",
+      "developer": "Netmarble Corporation",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/54/a2/2f54a2e5-2a80-da91-ca27-a183c6852b66/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 10,
+      "score": 4.71842,
+      "category": "Games",
+      "url": "https://apps.apple.com/th/app/game-of-thrones-kingsroad/id6755586050?uo=4",
+      "triggers": [
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #1",
+          "score": 3,
+          "_detectedAt": "2026-05-21",
+          "market": "kr",
+          "marketName": "韓國",
+          "marketFlag": "🇰🇷"
+        },
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #2",
+          "score": 3,
+          "_detectedAt": "2026-05-21",
+          "market": "tw",
+          "marketName": "台灣",
+          "marketFlag": "🇹🇼"
+        },
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #1",
+          "score": 3,
+          "_detectedAt": "2026-05-21",
+          "market": "th",
+          "marketName": "泰國",
+          "marketFlag": "🇹🇭"
+        },
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #6",
+          "score": 3,
+          "_detectedAt": "2026-05-21",
+          "market": "jp",
+          "marketName": "日本",
+          "marketFlag": "🇯🇵"
+        },
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "首次進入 Top 100，目前排名 #11",
+          "score": 2.5,
+          "_detectedAt": "2026-05-21",
+          "market": "ph",
+          "marketName": "菲律賓",
+          "marketFlag": "🇵🇭"
+        }
+      ],
+      "confidenceScore": 41.28,
+      "rankHistory": [
+        {
+          "date": "2026-05-19",
+          "rank": null,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-20",
+          "rank": null,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-21",
+          "rank": 1,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-22",
+          "rank": 2,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-23",
+          "rank": 7,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-24",
+          "rank": null,
+          "hasSnapshot": false,
+          "platform": "ios",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-25",
+          "rank": 10,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "topfree"
+        }
+      ],
+      "detectedAt": "2026-05-21T12:57:46.312Z",
+      "markets": [
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 10,
+          "score": 21.75
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 12,
+          "score": 17.4
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 21,
+          "score": 15.95
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": null,
+          "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": null,
+          "score": 0
+        }
+      ],
+      "_rankHistoryByMarket": {
+        "th": [
+          {
+            "date": "2026-05-19",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": 1,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 2,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 7,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 10,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          }
+        ],
+        "tw": [
+          {
+            "date": "2026-05-19",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": 2,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 4,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 8,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 12,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          }
+        ],
+        "kr": [
+          {
+            "date": "2026-05-19",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": 1,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 2,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 6,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "ios",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 21,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "topfree"
           }
         ]
       }
@@ -747,305 +1325,6 @@
           {
             "date": "2026-05-25",
             "rank": 4,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          }
-        ]
-      }
-    },
-    {
-      "market": "th",
-      "marketName": "泰國",
-      "marketFlag": "🇹🇭",
-      "platform": "ios",
-      "chartType": "topfree",
-      "chartName": "免費下載排行",
-      "appId": "6755586050",
-      "name": "Game of Thrones Kingsroad",
-      "developer": "Netmarble Corporation",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/54/a2/2f54a2e5-2a80-da91-ca27-a183c6852b66/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "currentRank": 10,
-      "score": 4.71842,
-      "category": "Games",
-      "url": "https://apps.apple.com/th/app/game-of-thrones-kingsroad/id6755586050?uo=4",
-      "triggers": [
-        {
-          "strategy": "new_entry",
-          "label": "🆕 新進榜",
-          "detail": "首次進入 Top 100，目前排名 #1",
-          "score": 3,
-          "_detectedAt": "2026-05-21",
-          "market": "kr",
-          "marketName": "韓國",
-          "marketFlag": "🇰🇷"
-        },
-        {
-          "strategy": "new_entry",
-          "label": "🆕 新進榜",
-          "detail": "首次進入 Top 100，目前排名 #2",
-          "score": 3,
-          "_detectedAt": "2026-05-21",
-          "market": "tw",
-          "marketName": "台灣",
-          "marketFlag": "🇹🇼"
-        },
-        {
-          "strategy": "new_entry",
-          "label": "🆕 新進榜",
-          "detail": "首次進入 Top 100，目前排名 #1",
-          "score": 3,
-          "_detectedAt": "2026-05-21",
-          "market": "th",
-          "marketName": "泰國",
-          "marketFlag": "🇹🇭"
-        },
-        {
-          "strategy": "new_entry",
-          "label": "🆕 新進榜",
-          "detail": "首次進入 Top 100，目前排名 #6",
-          "score": 3,
-          "_detectedAt": "2026-05-21",
-          "market": "jp",
-          "marketName": "日本",
-          "marketFlag": "🇯🇵"
-        },
-        {
-          "strategy": "new_entry",
-          "label": "🆕 新進榜",
-          "detail": "首次進入 Top 100，目前排名 #11",
-          "score": 2.5,
-          "_detectedAt": "2026-05-21",
-          "market": "ph",
-          "marketName": "菲律賓",
-          "marketFlag": "🇵🇭"
-        }
-      ],
-      "confidenceScore": 36.52,
-      "rankHistory": [
-        {
-          "date": "2026-05-19",
-          "rank": null,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-20",
-          "rank": null,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-21",
-          "rank": 1,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-22",
-          "rank": 2,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-23",
-          "rank": 7,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-24",
-          "rank": null,
-          "hasSnapshot": false,
-          "platform": "ios",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-25",
-          "rank": 10,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "topfree"
-        }
-      ],
-      "detectedAt": "2026-05-21T12:57:46.312Z",
-      "markets": [
-        {
-          "code": "th",
-          "name": "泰國",
-          "flag": "🇹🇭",
-          "rank": 10,
-          "score": 21.75
-        },
-        {
-          "code": "tw",
-          "name": "台灣",
-          "flag": "🇹🇼",
-          "rank": 12,
-          "score": 17.4
-        },
-        {
-          "code": "kr",
-          "name": "韓國",
-          "flag": "🇰🇷",
-          "rank": 21,
-          "score": 15.95
-        }
-      ],
-      "_rankHistoryByMarket": {
-        "th": [
-          {
-            "date": "2026-05-19",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": 1,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 2,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 7,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 10,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          }
-        ],
-        "tw": [
-          {
-            "date": "2026-05-19",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": 2,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 4,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 8,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 12,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          }
-        ],
-        "kr": [
-          {
-            "date": "2026-05-19",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": 1,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 2,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 6,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "ios",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 21,
             "hasSnapshot": true,
             "platform": "ios",
             "chartType": "topfree"
@@ -1640,7 +1919,7 @@
           "marketFlag": "🇹🇭"
         }
       ],
-      "confidenceScore": 24.55,
+      "confidenceScore": 25.27,
       "rankHistory": [
         {
           "date": "2026-05-19",
@@ -1714,6 +1993,13 @@
           "flag": "🇹🇭",
           "rank": 36,
           "score": 3.81
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 6,
+          "score": 2.1
         }
       ],
       "_rankHistoryByMarket": {
@@ -1867,229 +2153,6 @@
             "rank": 36,
             "hasSnapshot": true,
             "platform": "android",
-            "chartType": "grossing"
-          }
-        ]
-      }
-    },
-    {
-      "market": "tw",
-      "marketName": "台灣",
-      "marketFlag": "🇹🇼",
-      "platform": "ios",
-      "chartType": "grossing",
-      "chartName": "營收排行",
-      "appId": "1517783697",
-      "name": "原神·空月之歌",
-      "developer": "COGNOSPHERE PTE. LTD.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/69/1c/df691ca2-735f-4617-256d-a49202f8db1e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "currentRank": 34,
-      "score": 4.44,
-      "category": "遊戲",
-      "url": "https://apps.apple.com/tw/app/%E5%8E%9F%E7%A5%9E-%E7%A9%BA%E6%9C%88%E4%B9%8B%E6%AD%8C/id1517783697?uo=4",
-      "triggers": [
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #64 升至 #2（↑62 名）",
-          "score": 2.066666666666667,
-          "_detectedAt": "2026-05-20",
-          "market": "jp",
-          "marketName": "日本",
-          "marketFlag": "🇯🇵"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #73 升至 #4（↑69 名）",
-          "score": 2.3,
-          "_detectedAt": "2026-05-20",
-          "market": "tw",
-          "marketName": "台灣",
-          "marketFlag": "🇹🇼"
-        },
-        {
-          "strategy": "new_entry",
-          "label": "🆕 新進榜",
-          "detail": "首次進入 Top 100，目前排名 #13",
-          "score": 2.5,
-          "_detectedAt": "2026-05-20",
-          "market": "us",
-          "marketName": "美國",
-          "marketFlag": "🇺🇸"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #84 升至 #13（↑71 名）",
-          "score": 2.3666666666666667,
-          "_detectedAt": "2026-05-20",
-          "market": "kr",
-          "marketName": "韓國",
-          "marketFlag": "🇰🇷"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #96 升至 #14（↑82 名）",
-          "score": 2.7333333333333334,
-          "_detectedAt": "2026-05-20",
-          "market": "th",
-          "marketName": "泰國",
-          "marketFlag": "🇹🇭"
-        },
-        {
-          "strategy": "growth_multiplier",
-          "label": "📊 成長加速",
-          "detail": "成長倍率 2.7×（近 3 天平均 #18 vs 近 7 天平均 #49）",
-          "score": 1.0793650793650793,
-          "_detectedAt": "2026-05-21",
-          "market": "jp",
-          "marketName": "日本",
-          "marketFlag": "🇯🇵"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #58 升至 #21（↑37 名）",
-          "score": 1.2333333333333334,
-          "_detectedAt": "2026-05-21",
-          "market": "us",
-          "marketName": "美國",
-          "marketFlag": "🇺🇸"
-        },
-        {
-          "strategy": "growth_multiplier",
-          "label": "📊 成長加速",
-          "detail": "成長倍率 5.4×（近 3 天平均 #9 vs 近 7 天平均 #49）",
-          "score": 2.1714285714285713,
-          "_detectedAt": "2026-05-22",
-          "market": "tw",
-          "marketName": "台灣",
-          "marketFlag": "🇹🇼"
-        },
-        {
-          "strategy": "growth_multiplier",
-          "label": "📊 成長加速",
-          "detail": "成長倍率 2.6×（近 3 天平均 #21 vs 近 7 天平均 #56）",
-          "score": 1.0580357142857144,
-          "_detectedAt": "2026-05-22",
-          "market": "kr",
-          "marketName": "韓國",
-          "marketFlag": "🇰🇷"
-        }
-      ],
-      "confidenceScore": 17.51,
-      "rankHistory": [
-        {
-          "date": "2026-05-19",
-          "rank": 73,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-20",
-          "rank": 4,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-21",
-          "rank": 8,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-22",
-          "rank": 15,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-23",
-          "rank": 22,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-24",
-          "rank": null,
-          "hasSnapshot": false,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-25",
-          "rank": 34,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        }
-      ],
-      "detectedAt": "2026-05-20T16:07:55.760Z",
-      "markets": [
-        {
-          "code": "tw",
-          "name": "台灣",
-          "flag": "🇹🇼",
-          "rank": 34,
-          "score": 17.51
-        }
-      ],
-      "_rankHistoryByMarket": {
-        "tw": [
-          {
-            "date": "2026-05-19",
-            "rank": 73,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": 4,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": 8,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 15,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 22,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 34,
-            "hasSnapshot": true,
-            "platform": "ios",
             "chartType": "grossing"
           }
         ]
@@ -2363,7 +2426,7 @@
           "marketFlag": "🇰🇷"
         }
       ],
-      "confidenceScore": 16.11,
+      "confidenceScore": 17.01,
       "rankHistory": [
         {
           "date": "2026-05-19",
@@ -2423,6 +2486,13 @@
           "flag": "🇰🇷",
           "rank": 6,
           "score": 16.11
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 54,
+          "score": 2.99
         }
       ],
       "_rankHistoryByMarket": {
@@ -2624,6 +2694,220 @@
             "rank": 1,
             "hasSnapshot": true,
             "platform": "ios",
+            "chartType": "topfree"
+          }
+        ]
+      }
+    },
+    {
+      "market": "th",
+      "marketName": "泰國",
+      "marketFlag": "🇹🇭",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "jp.co.goodroid.hyper.busflow",
+      "name": "Bus Rush Fever!",
+      "developer": "GOODROID,Inc.",
+      "icon": "https://play-lh.googleusercontent.com/caBiKRTVr57KEWAwIEH8mIXsjwrC19mfST9tLXizP1nPI3WdT5bJwXVSSQDb6HWLMKPkhVwLKHmA9PGAcrTZ",
+      "currentRank": 42,
+      "score": 4.681818,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.busflow",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #87 升至 #42（↑45 名）",
+          "score": 1.5,
+          "_detectedAt": "2026-05-19T12:53:15.267Z"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #87 升至 #42（↑45 名）",
+          "score": 1.5,
+          "_detectedAt": "2026-05-20",
+          "market": "tw",
+          "marketName": "台灣",
+          "marketFlag": "🇹🇼"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #99 升至 #44（↑55 名）",
+          "score": 1.8333333333333333,
+          "_detectedAt": "2026-05-21",
+          "market": "kr",
+          "marketName": "韓國",
+          "marketFlag": "🇰🇷"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #91 升至 #36（↑55 名）",
+          "score": 1.8333333333333333,
+          "_detectedAt": "2026-05-22",
+          "market": "th",
+          "marketName": "泰國",
+          "marketFlag": "🇹🇭"
+        },
+        {
+          "strategy": "new_entry",
+          "label": "🆕 新進榜",
+          "detail": "強勢衝進 Top 30，偵測當下排名 #29",
+          "score": 1.8,
+          "_detectedAt": "2026-05-23",
+          "market": "th",
+          "marketName": "泰國",
+          "marketFlag": "🇹🇭"
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#93 → #29）",
+          "score": 1,
+          "_detectedAt": "2026-05-23",
+          "market": "th",
+          "marketName": "泰國",
+          "marketFlag": "🇹🇭"
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#78 → #36）",
+          "score": 1,
+          "_detectedAt": "2026-05-23",
+          "market": "kr",
+          "marketName": "韓國",
+          "marketFlag": "🇰🇷"
+        }
+      ],
+      "confidenceScore": 14.95,
+      "rankHistory": [
+        {
+          "date": "2026-05-19",
+          "rank": 82,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-20",
+          "rank": 65,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-21",
+          "rank": 49,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-22",
+          "rank": 36,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-23",
+          "rank": 29,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-24",
+          "rank": null,
+          "hasSnapshot": false,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-25",
+          "rank": 42,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        }
+      ],
+      "detectedAt": "2026-05-19T12:53:15.267Z",
+      "markets": [
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 42,
+          "score": 10.47
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 36,
+          "score": 8.43
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": null,
+          "score": 0
+        }
+      ],
+      "_rankHistoryByMarket": {
+        "th": [
+          {
+            "date": "2026-05-19",
+            "rank": 82,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": 65,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": 49,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 36,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 29,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 42,
+            "hasSnapshot": true,
+            "platform": "android",
             "chartType": "topfree"
           }
         ]
@@ -3313,206 +3597,6 @@
       }
     },
     {
-      "market": "th",
-      "marketName": "泰國",
-      "marketFlag": "🇹🇭",
-      "platform": "android",
-      "chartType": "topfree",
-      "chartName": "免費下載排行",
-      "appId": "jp.co.goodroid.hyper.busflow",
-      "name": "Bus Rush Fever!",
-      "developer": "GOODROID,Inc.",
-      "icon": "https://play-lh.googleusercontent.com/caBiKRTVr57KEWAwIEH8mIXsjwrC19mfST9tLXizP1nPI3WdT5bJwXVSSQDb6HWLMKPkhVwLKHmA9PGAcrTZ",
-      "currentRank": 42,
-      "score": 4.681818,
-      "category": "GAME",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.goodroid.hyper.busflow",
-      "triggers": [
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #87 升至 #42（↑45 名）",
-          "score": 1.5,
-          "_detectedAt": "2026-05-19T12:53:15.267Z"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #87 升至 #42（↑45 名）",
-          "score": 1.5,
-          "_detectedAt": "2026-05-20",
-          "market": "tw",
-          "marketName": "台灣",
-          "marketFlag": "🇹🇼"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #99 升至 #44（↑55 名）",
-          "score": 1.8333333333333333,
-          "_detectedAt": "2026-05-21",
-          "market": "kr",
-          "marketName": "韓國",
-          "marketFlag": "🇰🇷"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #91 升至 #36（↑55 名）",
-          "score": 1.8333333333333333,
-          "_detectedAt": "2026-05-22",
-          "market": "th",
-          "marketName": "泰國",
-          "marketFlag": "🇹🇭"
-        },
-        {
-          "strategy": "new_entry",
-          "label": "🆕 新進榜",
-          "detail": "強勢衝進 Top 30，偵測當下排名 #29",
-          "score": 1.8,
-          "_detectedAt": "2026-05-23",
-          "market": "th",
-          "marketName": "泰國",
-          "marketFlag": "🇹🇭"
-        },
-        {
-          "strategy": "consecutive_rise",
-          "label": "📈 持續攀升",
-          "detail": "連續 5 天上升（#93 → #29）",
-          "score": 1,
-          "_detectedAt": "2026-05-23",
-          "market": "th",
-          "marketName": "泰國",
-          "marketFlag": "🇹🇭"
-        },
-        {
-          "strategy": "consecutive_rise",
-          "label": "📈 持續攀升",
-          "detail": "連續 5 天上升（#78 → #36）",
-          "score": 1,
-          "_detectedAt": "2026-05-23",
-          "market": "kr",
-          "marketName": "韓國",
-          "marketFlag": "🇰🇷"
-        }
-      ],
-      "confidenceScore": 10.47,
-      "rankHistory": [
-        {
-          "date": "2026-05-19",
-          "rank": 82,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-20",
-          "rank": 65,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-21",
-          "rank": 49,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-22",
-          "rank": 36,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-23",
-          "rank": 29,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-24",
-          "rank": null,
-          "hasSnapshot": false,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-25",
-          "rank": 42,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        }
-      ],
-      "detectedAt": "2026-05-19T12:53:15.267Z",
-      "markets": [
-        {
-          "code": "th",
-          "name": "泰國",
-          "flag": "🇹🇭",
-          "rank": 42,
-          "score": 10.47
-        }
-      ],
-      "_rankHistoryByMarket": {
-        "th": [
-          {
-            "date": "2026-05-19",
-            "rank": 82,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": 65,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": 49,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 36,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 29,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 42,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          }
-        ]
-      }
-    },
-    {
       "market": "jp",
       "marketName": "日本",
       "marketFlag": "🇯🇵",
@@ -3661,6 +3745,251 @@
             "hasSnapshot": true,
             "platform": "ios",
             "chartType": "grossing"
+          }
+        ]
+      }
+    },
+    {
+      "market": "us",
+      "marketName": "美國",
+      "marketFlag": "🇺🇸",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.puzzlegames.puzzlebrickslegend",
+      "name": "Color Block: Combo Blast",
+      "developer": "Ivy",
+      "icon": "https://play-lh.googleusercontent.com/yYQ4QldM1Dclw1mK0sW1gJlwT6XJ05qPf6IGu9GtXc3kKfNj92PqdmkD8OFtRId75a5fuKkJ5X38b2qCl3QYeA",
+      "currentRank": 57,
+      "score": 4.575472,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.puzzlegames.puzzlebrickslegend",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #67 升至 #33（↑34 名）",
+          "score": 1.1333333333333333,
+          "_detectedAt": "2026-05-19T12:53:01.552Z"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #76 升至 #28（↑48 名）",
+          "score": 1.6,
+          "_detectedAt": "2026-05-20",
+          "market": "jp",
+          "marketName": "日本",
+          "marketFlag": "🇯🇵"
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#48 → #25）",
+          "score": 1,
+          "_detectedAt": "2026-05-21",
+          "market": "jp",
+          "marketName": "日本",
+          "marketFlag": "🇯🇵"
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#44 → #28）",
+          "score": 1.2,
+          "_detectedAt": "2026-05-23",
+          "market": "ph",
+          "marketName": "菲律賓",
+          "marketFlag": "🇵🇭"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #96 升至 #57（↑39 名）",
+          "score": 1.3,
+          "_detectedAt": "2026-05-25",
+          "market": "us",
+          "marketName": "美國",
+          "marketFlag": "🇺🇸"
+        }
+      ],
+      "confidenceScore": 9.57,
+      "rankHistory": [
+        {
+          "date": "2026-05-19",
+          "rank": null,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-20",
+          "rank": null,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-21",
+          "rank": null,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-22",
+          "rank": 96,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-23",
+          "rank": 83,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-24",
+          "rank": null,
+          "hasSnapshot": false,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-25",
+          "rank": 57,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        }
+      ],
+      "detectedAt": "2026-05-19T12:53:01.552Z",
+      "markets": [
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 57,
+          "score": 6.55
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 17,
+          "score": 5.92
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": null,
+          "score": 0
+        }
+      ],
+      "_rankHistoryByMarket": {
+        "us": [
+          {
+            "date": "2026-05-19",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 96,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 83,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 57,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          }
+        ],
+        "ph": [
+          {
+            "date": "2026-05-19",
+            "rank": 38,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": 34,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": 33,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 31,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 28,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 17,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
           }
         ]
       }
@@ -3869,244 +4198,6 @@
           {
             "date": "2026-05-25",
             "rank": 16,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          }
-        ]
-      }
-    },
-    {
-      "market": "us",
-      "marketName": "美國",
-      "marketFlag": "🇺🇸",
-      "platform": "android",
-      "chartType": "topfree",
-      "chartName": "免費下載排行",
-      "appId": "com.puzzlegames.puzzlebrickslegend",
-      "name": "Color Block: Combo Blast",
-      "developer": "Ivy",
-      "icon": "https://play-lh.googleusercontent.com/yYQ4QldM1Dclw1mK0sW1gJlwT6XJ05qPf6IGu9GtXc3kKfNj92PqdmkD8OFtRId75a5fuKkJ5X38b2qCl3QYeA",
-      "currentRank": 57,
-      "score": 4.575472,
-      "category": "GAME",
-      "url": "https://play.google.com/store/apps/details?id=com.puzzlegames.puzzlebrickslegend",
-      "triggers": [
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #67 升至 #33（↑34 名）",
-          "score": 1.1333333333333333,
-          "_detectedAt": "2026-05-19T12:53:01.552Z"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #76 升至 #28（↑48 名）",
-          "score": 1.6,
-          "_detectedAt": "2026-05-20",
-          "market": "jp",
-          "marketName": "日本",
-          "marketFlag": "🇯🇵"
-        },
-        {
-          "strategy": "consecutive_rise",
-          "label": "📈 持續攀升",
-          "detail": "連續 5 天上升（#48 → #25）",
-          "score": 1,
-          "_detectedAt": "2026-05-21",
-          "market": "jp",
-          "marketName": "日本",
-          "marketFlag": "🇯🇵"
-        },
-        {
-          "strategy": "consecutive_rise",
-          "label": "📈 持續攀升",
-          "detail": "連續 6 天上升（#44 → #28）",
-          "score": 1.2,
-          "_detectedAt": "2026-05-23",
-          "market": "ph",
-          "marketName": "菲律賓",
-          "marketFlag": "🇵🇭"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #96 升至 #57（↑39 名）",
-          "score": 1.3,
-          "_detectedAt": "2026-05-25",
-          "market": "us",
-          "marketName": "美國",
-          "marketFlag": "🇺🇸"
-        }
-      ],
-      "confidenceScore": 8.33,
-      "rankHistory": [
-        {
-          "date": "2026-05-19",
-          "rank": null,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-20",
-          "rank": null,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-21",
-          "rank": null,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-22",
-          "rank": 96,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-23",
-          "rank": 83,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-24",
-          "rank": null,
-          "hasSnapshot": false,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-25",
-          "rank": 57,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        }
-      ],
-      "detectedAt": "2026-05-19T12:53:01.552Z",
-      "markets": [
-        {
-          "code": "us",
-          "name": "美國",
-          "flag": "🇺🇸",
-          "rank": 57,
-          "score": 6.55
-        },
-        {
-          "code": "ph",
-          "name": "菲律賓",
-          "flag": "🇵🇭",
-          "rank": 17,
-          "score": 5.92
-        }
-      ],
-      "_rankHistoryByMarket": {
-        "us": [
-          {
-            "date": "2026-05-19",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 96,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 83,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 57,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          }
-        ],
-        "ph": [
-          {
-            "date": "2026-05-19",
-            "rank": 38,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": 34,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": 33,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 31,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 28,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 17,
             "hasSnapshot": true,
             "platform": "android",
             "chartType": "topfree"
@@ -4338,6 +4429,356 @@
           {
             "date": "2026-05-25",
             "rank": 15,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          }
+        ]
+      }
+    },
+    {
+      "market": "us",
+      "marketName": "美國",
+      "marketFlag": "🇺🇸",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.miniclip.eightballpool",
+      "name": "8 Ball Pool",
+      "developer": "Miniclip.com",
+      "icon": "https://play-lh.googleusercontent.com/bPz1guJ6FHF3oIOEy3KqwpaDDKO-hLRaZoyzmM8bLFLN8fWm6L0_EuUnkwv9iqPo3Ag",
+      "currentRank": 44,
+      "score": 4.796662,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.miniclip.eightballpool",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #89 升至 #54（↑35 名）",
+          "score": 1.1666666666666667,
+          "_detectedAt": "2026-05-23",
+          "market": "th",
+          "marketName": "泰國",
+          "marketFlag": "🇹🇭"
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#94 → #54）",
+          "score": 1,
+          "_detectedAt": "2026-05-23",
+          "market": "th",
+          "marketName": "泰國",
+          "marketFlag": "🇹🇭"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #91 升至 #44（↑47 名）",
+          "score": 1.5666666666666667,
+          "_detectedAt": "2026-05-25",
+          "market": "us",
+          "marketName": "美國",
+          "marketFlag": "🇺🇸"
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#91 → #44）",
+          "score": 1,
+          "_detectedAt": "2026-05-25",
+          "market": "us",
+          "marketName": "美國",
+          "marketFlag": "🇺🇸"
+        }
+      ],
+      "confidenceScore": 7.56,
+      "rankHistory": [
+        {
+          "date": "2026-05-19",
+          "rank": 91,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-20",
+          "rank": 90,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-21",
+          "rank": 83,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-22",
+          "rank": 73,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-23",
+          "rank": 53,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-24",
+          "rank": null,
+          "hasSnapshot": false,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-25",
+          "rank": 44,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        }
+      ],
+      "detectedAt": "2026-05-25T08:29:01.252Z",
+      "markets": [
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 44,
+          "score": 7.1
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 54,
+          "score": 1.52
+        }
+      ],
+      "_rankHistoryByMarket": {
+        "us": [
+          {
+            "date": "2026-05-19",
+            "rank": 91,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": 90,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": 83,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 73,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 53,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 44,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          }
+        ]
+      }
+    },
+    {
+      "market": "tw",
+      "marketName": "台灣",
+      "marketFlag": "🇹🇼",
+      "platform": "ios",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "1290086677",
+      "name": "楓之谷M - 奇幻冒險MMORPG",
+      "developer": "NEXON Company",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/e4/47/10e44772-137f-b36a-e864-4939a00d7014/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "currentRank": 16,
+      "score": 4.46031,
+      "category": "遊戲",
+      "url": "https://apps.apple.com/tw/app/%E6%A5%93%E4%B9%8B%E8%B0%B7m-%E5%A5%87%E5%B9%BB%E5%86%92%E9%9A%AAmmorpg/id1290086677?uo=4",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #53 升至 #5（↑48 名）",
+          "score": 1.6,
+          "_detectedAt": "2026-05-21",
+          "market": "tw",
+          "marketName": "台灣",
+          "marketFlag": "🇹🇼"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #82 升至 #29（↑53 名）",
+          "score": 1.7666666666666666,
+          "_detectedAt": "2026-05-21",
+          "market": "th",
+          "marketName": "泰國",
+          "marketFlag": "🇹🇭"
+        },
+        {
+          "strategy": "growth_multiplier",
+          "label": "📊 成長加速",
+          "detail": "成長倍率 5.9×（近 3 天平均 #7 vs 近 7 天平均 #43）",
+          "score": 2.3688311688311687,
+          "_detectedAt": "2026-05-23",
+          "market": "tw",
+          "marketName": "台灣",
+          "marketFlag": "🇹🇼"
+        }
+      ],
+      "confidenceScore": 7.52,
+      "rankHistory": [
+        {
+          "date": "2026-05-19",
+          "rank": 75,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-20",
+          "rank": 68,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-21",
+          "rank": 5,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-22",
+          "rank": 8,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-23",
+          "rank": 9,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-24",
+          "rank": null,
+          "hasSnapshot": false,
+          "platform": "ios",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-25",
+          "rank": 16,
+          "hasSnapshot": true,
+          "platform": "ios",
+          "chartType": "grossing"
+        }
+      ],
+      "detectedAt": "2026-05-21T12:57:46.560Z",
+      "markets": [
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 16,
+          "score": 6.88
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 54,
+          "score": 2.12
+        }
+      ],
+      "_rankHistoryByMarket": {
+        "tw": [
+          {
+            "date": "2026-05-19",
+            "rank": 75,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": 68,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": 5,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 8,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 9,
+            "hasSnapshot": true,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "ios",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 16,
             "hasSnapshot": true,
             "platform": "ios",
             "chartType": "grossing"
@@ -4782,342 +5223,6 @@
       }
     },
     {
-      "market": "us",
-      "marketName": "美國",
-      "marketFlag": "🇺🇸",
-      "platform": "android",
-      "chartType": "topfree",
-      "chartName": "免費下載排行",
-      "appId": "com.miniclip.eightballpool",
-      "name": "8 Ball Pool",
-      "developer": "Miniclip.com",
-      "icon": "https://play-lh.googleusercontent.com/bPz1guJ6FHF3oIOEy3KqwpaDDKO-hLRaZoyzmM8bLFLN8fWm6L0_EuUnkwv9iqPo3Ag",
-      "currentRank": 44,
-      "score": 4.796662,
-      "category": "GAME",
-      "url": "https://play.google.com/store/apps/details?id=com.miniclip.eightballpool",
-      "triggers": [
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #89 升至 #54（↑35 名）",
-          "score": 1.1666666666666667,
-          "_detectedAt": "2026-05-23",
-          "market": "th",
-          "marketName": "泰國",
-          "marketFlag": "🇹🇭"
-        },
-        {
-          "strategy": "consecutive_rise",
-          "label": "📈 持續攀升",
-          "detail": "連續 5 天上升（#94 → #54）",
-          "score": 1,
-          "_detectedAt": "2026-05-23",
-          "market": "th",
-          "marketName": "泰國",
-          "marketFlag": "🇹🇭"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #91 升至 #44（↑47 名）",
-          "score": 1.5666666666666667,
-          "_detectedAt": "2026-05-25",
-          "market": "us",
-          "marketName": "美國",
-          "marketFlag": "🇺🇸"
-        },
-        {
-          "strategy": "consecutive_rise",
-          "label": "📈 持續攀升",
-          "detail": "連續 5 天上升（#91 → #44）",
-          "score": 1,
-          "_detectedAt": "2026-05-25",
-          "market": "us",
-          "marketName": "美國",
-          "marketFlag": "🇺🇸"
-        }
-      ],
-      "confidenceScore": 7.1,
-      "rankHistory": [
-        {
-          "date": "2026-05-19",
-          "rank": 91,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-20",
-          "rank": 90,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-21",
-          "rank": 83,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-22",
-          "rank": 73,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-23",
-          "rank": 53,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-24",
-          "rank": null,
-          "hasSnapshot": false,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-25",
-          "rank": 44,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        }
-      ],
-      "detectedAt": "2026-05-25T08:29:01.252Z",
-      "markets": [
-        {
-          "code": "us",
-          "name": "美國",
-          "flag": "🇺🇸",
-          "rank": 44,
-          "score": 7.1
-        }
-      ],
-      "_rankHistoryByMarket": {
-        "us": [
-          {
-            "date": "2026-05-19",
-            "rank": 91,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": 90,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": 83,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 73,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 53,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 44,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          }
-        ]
-      }
-    },
-    {
-      "market": "tw",
-      "marketName": "台灣",
-      "marketFlag": "🇹🇼",
-      "platform": "ios",
-      "chartType": "grossing",
-      "chartName": "營收排行",
-      "appId": "1290086677",
-      "name": "楓之谷M - 奇幻冒險MMORPG",
-      "developer": "NEXON Company",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/e4/47/10e44772-137f-b36a-e864-4939a00d7014/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "currentRank": 16,
-      "score": 4.46031,
-      "category": "遊戲",
-      "url": "https://apps.apple.com/tw/app/%E6%A5%93%E4%B9%8B%E8%B0%B7m-%E5%A5%87%E5%B9%BB%E5%86%92%E9%9A%AAmmorpg/id1290086677?uo=4",
-      "triggers": [
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #53 升至 #5（↑48 名）",
-          "score": 1.6,
-          "_detectedAt": "2026-05-21",
-          "market": "tw",
-          "marketName": "台灣",
-          "marketFlag": "🇹🇼"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #82 升至 #29（↑53 名）",
-          "score": 1.7666666666666666,
-          "_detectedAt": "2026-05-21",
-          "market": "th",
-          "marketName": "泰國",
-          "marketFlag": "🇹🇭"
-        },
-        {
-          "strategy": "growth_multiplier",
-          "label": "📊 成長加速",
-          "detail": "成長倍率 5.9×（近 3 天平均 #7 vs 近 7 天平均 #43）",
-          "score": 2.3688311688311687,
-          "_detectedAt": "2026-05-23",
-          "market": "tw",
-          "marketName": "台灣",
-          "marketFlag": "🇹🇼"
-        }
-      ],
-      "confidenceScore": 6.88,
-      "rankHistory": [
-        {
-          "date": "2026-05-19",
-          "rank": 75,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-20",
-          "rank": 68,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-21",
-          "rank": 5,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-22",
-          "rank": 8,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-23",
-          "rank": 9,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-24",
-          "rank": null,
-          "hasSnapshot": false,
-          "platform": "ios",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-25",
-          "rank": 16,
-          "hasSnapshot": true,
-          "platform": "ios",
-          "chartType": "grossing"
-        }
-      ],
-      "detectedAt": "2026-05-21T12:57:46.560Z",
-      "markets": [
-        {
-          "code": "tw",
-          "name": "台灣",
-          "flag": "🇹🇼",
-          "rank": 16,
-          "score": 6.88
-        }
-      ],
-      "_rankHistoryByMarket": {
-        "tw": [
-          {
-            "date": "2026-05-19",
-            "rank": 75,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": 68,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": 5,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 8,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 9,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "ios",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 16,
-            "hasSnapshot": true,
-            "platform": "ios",
-            "chartType": "grossing"
-          }
-        ]
-      }
-    },
-    {
       "market": "tw",
       "marketName": "台灣",
       "marketFlag": "🇹🇼",
@@ -5475,7 +5580,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.473Z",
+      "detectedAt": "2026-05-25T12:14:27.426Z",
       "markets": [
         {
           "code": "kr",
@@ -5761,7 +5866,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.513Z",
+      "detectedAt": "2026-05-25T12:14:27.476Z",
       "markets": [
         {
           "code": "kr",
@@ -6047,7 +6152,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.429Z",
+      "detectedAt": "2026-05-25T12:14:27.392Z",
       "markets": [
         {
           "code": "jp",
@@ -6333,7 +6438,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.910Z",
+      "detectedAt": "2026-05-25T12:14:27.660Z",
       "markets": [
         {
           "code": "tw",
@@ -6797,6 +6902,13 @@
           "flag": "🇻🇳",
           "rank": 36,
           "score": 5.97
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": null,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -7095,7 +7207,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.659Z",
+      "detectedAt": "2026-05-25T12:14:27.567Z",
       "markets": [
         {
           "code": "cn",
@@ -8354,6 +8466,166 @@
       }
     },
     {
+      "market": "us",
+      "marketName": "美國",
+      "marketFlag": "🇺🇸",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.tocaboca.tocalifeworld",
+      "name": "Toca Boca World",
+      "developer": "Toca Boca",
+      "icon": "https://play-lh.googleusercontent.com/E8WLv49E3vgEDEHpqQtRgKFiQInxftzZC_TukowmO1wzAhryn1aLP8bKwN5N8BWvzg",
+      "currentRank": 19,
+      "score": 4.3184304,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #59 升至 #26（↑33 名）",
+          "score": 1.1,
+          "_detectedAt": "2026-05-22",
+          "market": "us",
+          "marketName": "美國",
+          "marketFlag": "🇺🇸"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #45 升至 #14（↑31 名）",
+          "score": 1.0333333333333334,
+          "_detectedAt": "2026-05-23",
+          "market": "ph",
+          "marketName": "菲律賓",
+          "marketFlag": "🇵🇭"
+        }
+      ],
+      "confidenceScore": 4.61,
+      "rankHistory": [
+        {
+          "date": "2026-05-19",
+          "rank": 53,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-20",
+          "rank": 45,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-21",
+          "rank": 33,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-22",
+          "rank": 26,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-23",
+          "rank": 27,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-24",
+          "rank": null,
+          "hasSnapshot": false,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-25",
+          "rank": 19,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        }
+      ],
+      "detectedAt": "2026-05-22T13:58:21.734Z",
+      "markets": [
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 19,
+          "score": 3.84
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 14,
+          "score": 2.56
+        }
+      ],
+      "_rankHistoryByMarket": {
+        "us": [
+          {
+            "date": "2026-05-19",
+            "rank": 53,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": 45,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": 33,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 26,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 27,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 19,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          }
+        ]
+      }
+    },
+    {
       "market": "vn",
       "marketName": "越南",
       "marketFlag": "🇻🇳",
@@ -8904,7 +9176,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:42.209Z",
+      "detectedAt": "2026-05-25T12:14:27.771Z",
       "markets": [
         {
           "code": "th",
@@ -9220,7 +9492,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:42.413Z",
+      "detectedAt": "2026-05-25T12:14:27.853Z",
       "markets": [
         {
           "code": "vn",
@@ -10317,159 +10589,6 @@
       }
     },
     {
-      "market": "us",
-      "marketName": "美國",
-      "marketFlag": "🇺🇸",
-      "platform": "android",
-      "chartType": "topfree",
-      "chartName": "免費下載排行",
-      "appId": "com.tocaboca.tocalifeworld",
-      "name": "Toca Boca World",
-      "developer": "Toca Boca",
-      "icon": "https://play-lh.googleusercontent.com/E8WLv49E3vgEDEHpqQtRgKFiQInxftzZC_TukowmO1wzAhryn1aLP8bKwN5N8BWvzg",
-      "currentRank": 19,
-      "score": 4.3184304,
-      "category": "GAME",
-      "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld",
-      "triggers": [
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #59 升至 #26（↑33 名）",
-          "score": 1.1,
-          "_detectedAt": "2026-05-22",
-          "market": "us",
-          "marketName": "美國",
-          "marketFlag": "🇺🇸"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #45 升至 #14（↑31 名）",
-          "score": 1.0333333333333334,
-          "_detectedAt": "2026-05-23",
-          "market": "ph",
-          "marketName": "菲律賓",
-          "marketFlag": "🇵🇭"
-        }
-      ],
-      "confidenceScore": 3.84,
-      "rankHistory": [
-        {
-          "date": "2026-05-19",
-          "rank": 53,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-20",
-          "rank": 45,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-21",
-          "rank": 33,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-22",
-          "rank": 26,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-23",
-          "rank": 27,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-24",
-          "rank": null,
-          "hasSnapshot": false,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-25",
-          "rank": 19,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        }
-      ],
-      "detectedAt": "2026-05-22T13:58:21.734Z",
-      "markets": [
-        {
-          "code": "us",
-          "name": "美國",
-          "flag": "🇺🇸",
-          "rank": 19,
-          "score": 3.84
-        }
-      ],
-      "_rankHistoryByMarket": {
-        "us": [
-          {
-            "date": "2026-05-19",
-            "rank": 53,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": 45,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": 33,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 26,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 27,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 19,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          }
-        ]
-      }
-    },
-    {
       "market": "jp",
       "marketName": "日本",
       "marketFlag": "🇯🇵",
@@ -11023,7 +11142,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.555Z",
+      "detectedAt": "2026-05-25T12:14:27.506Z",
       "markets": [
         {
           "code": "kr",
@@ -11236,6 +11355,166 @@
             "hasSnapshot": true,
             "platform": "android",
             "chartType": "topfree"
+          }
+        ]
+      }
+    },
+    {
+      "market": "kr",
+      "marketName": "韓國",
+      "marketFlag": "🇰🇷",
+      "platform": "android",
+      "chartType": "grossing",
+      "chartName": "營收排行",
+      "appId": "com.playrix.homescapes",
+      "name": "Homescapes",
+      "developer": "Playrix",
+      "icon": "https://play-lh.googleusercontent.com/HWVNuIGO3NfdVBCmw_rQGTfINA7pdoedynIZbC8TcoNKvd-aAkzk7XboE0zDZE0_CF8",
+      "currentRank": 35,
+      "score": 4.67102,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.playrix.homescapes",
+      "triggers": [
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 6 天上升（#48 → #37）",
+          "score": 1.2,
+          "_detectedAt": "2026-05-23",
+          "market": "kr",
+          "marketName": "韓國",
+          "marketFlag": "🇰🇷"
+        },
+        {
+          "strategy": "consecutive_rise",
+          "label": "📈 持續攀升",
+          "detail": "連續 5 天上升（#47 → #36）",
+          "score": 1,
+          "_detectedAt": "2026-05-23",
+          "market": "ph",
+          "marketName": "菲律賓",
+          "marketFlag": "🇵🇭"
+        }
+      ],
+      "confidenceScore": 3.32,
+      "rankHistory": [
+        {
+          "date": "2026-05-19",
+          "rank": 45,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-20",
+          "rank": 44,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-21",
+          "rank": 40,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-22",
+          "rank": 38,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-23",
+          "rank": 37,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-24",
+          "rank": null,
+          "hasSnapshot": false,
+          "platform": "android",
+          "chartType": "grossing"
+        },
+        {
+          "date": "2026-05-25",
+          "rank": 35,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "grossing"
+        }
+      ],
+      "detectedAt": "2026-05-25T08:29:00.983Z",
+      "markets": [
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 35,
+          "score": 3.08
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 36,
+          "score": 0.8
+        }
+      ],
+      "_rankHistoryByMarket": {
+        "kr": [
+          {
+            "date": "2026-05-19",
+            "rank": 45,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": 44,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": 40,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 38,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 37,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "android",
+            "chartType": "grossing"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 35,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "grossing"
           }
         ]
       }
@@ -11710,6 +11989,166 @@
       "_retainedFrom": "2026-05-22"
     },
     {
+      "market": "jp",
+      "marketName": "日本",
+      "marketFlag": "🇯🇵",
+      "platform": "android",
+      "chartType": "topfree",
+      "chartName": "免費下載排行",
+      "appId": "com.pocket.sort.coin.puzzle.game",
+      "name": "Pocket Sort: Coin Merge Puzzle",
+      "developer": "SayGames Ltd",
+      "icon": "https://play-lh.googleusercontent.com/Bo1AzzdXdwig0sc0hx0b0MtL2GymhF3beO3cxiW-W3PGuONQ-33gKKAT9FgUCRh8AQ",
+      "currentRank": 38,
+      "score": 3.9965754,
+      "category": "GAME",
+      "url": "https://play.google.com/store/apps/details?id=com.pocket.sort.coin.puzzle.game",
+      "triggers": [
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #63 升至 #33（↑30 名）",
+          "score": 1,
+          "_detectedAt": "2026-05-23",
+          "market": "us",
+          "marketName": "美國",
+          "marketFlag": "🇺🇸"
+        },
+        {
+          "strategy": "rank_jump",
+          "label": "🚀 排名急升",
+          "detail": "排名從 #78 升至 #38（↑40 名）",
+          "score": 1.3333333333333333,
+          "_detectedAt": "2026-05-25",
+          "market": "jp",
+          "marketName": "日本",
+          "marketFlag": "🇯🇵"
+        }
+      ],
+      "confidenceScore": 3.25,
+      "rankHistory": [
+        {
+          "date": "2026-05-19",
+          "rank": null,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-20",
+          "rank": null,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-21",
+          "rank": null,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-22",
+          "rank": 78,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-23",
+          "rank": 53,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-24",
+          "rank": null,
+          "hasSnapshot": false,
+          "platform": "android",
+          "chartType": "topfree"
+        },
+        {
+          "date": "2026-05-25",
+          "rank": 38,
+          "hasSnapshot": true,
+          "platform": "android",
+          "chartType": "topfree"
+        }
+      ],
+      "detectedAt": "2026-05-25T08:29:00.661Z",
+      "markets": [
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 38,
+          "score": 2.8
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 33,
+          "score": 1.5
+        }
+      ],
+      "_rankHistoryByMarket": {
+        "jp": [
+          {
+            "date": "2026-05-19",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-20",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-21",
+            "rank": null,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-22",
+            "rank": 78,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-23",
+            "rank": 53,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-24",
+            "rank": null,
+            "hasSnapshot": false,
+            "platform": "android",
+            "chartType": "topfree"
+          },
+          {
+            "date": "2026-05-25",
+            "rank": 38,
+            "hasSnapshot": true,
+            "platform": "android",
+            "chartType": "topfree"
+          }
+        ]
+      }
+    },
+    {
       "market": "tw",
       "marketName": "台灣",
       "marketFlag": "🇹🇼",
@@ -11798,7 +12237,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:42.067Z",
+      "detectedAt": "2026-05-25T12:14:27.716Z",
       "markets": [
         {
           "code": "tw",
@@ -12000,159 +12439,6 @@
             "rank": 11,
             "hasSnapshot": true,
             "platform": "ios",
-            "chartType": "grossing"
-          }
-        ]
-      }
-    },
-    {
-      "market": "kr",
-      "marketName": "韓國",
-      "marketFlag": "🇰🇷",
-      "platform": "android",
-      "chartType": "grossing",
-      "chartName": "營收排行",
-      "appId": "com.playrix.homescapes",
-      "name": "Homescapes",
-      "developer": "Playrix",
-      "icon": "https://play-lh.googleusercontent.com/HWVNuIGO3NfdVBCmw_rQGTfINA7pdoedynIZbC8TcoNKvd-aAkzk7XboE0zDZE0_CF8",
-      "currentRank": 35,
-      "score": 4.67102,
-      "category": "GAME",
-      "url": "https://play.google.com/store/apps/details?id=com.playrix.homescapes",
-      "triggers": [
-        {
-          "strategy": "consecutive_rise",
-          "label": "📈 持續攀升",
-          "detail": "連續 6 天上升（#48 → #37）",
-          "score": 1.2,
-          "_detectedAt": "2026-05-23",
-          "market": "kr",
-          "marketName": "韓國",
-          "marketFlag": "🇰🇷"
-        },
-        {
-          "strategy": "consecutive_rise",
-          "label": "📈 持續攀升",
-          "detail": "連續 5 天上升（#47 → #36）",
-          "score": 1,
-          "_detectedAt": "2026-05-23",
-          "market": "ph",
-          "marketName": "菲律賓",
-          "marketFlag": "🇵🇭"
-        }
-      ],
-      "confidenceScore": 3.08,
-      "rankHistory": [
-        {
-          "date": "2026-05-19",
-          "rank": 45,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-20",
-          "rank": 44,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-21",
-          "rank": 40,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-22",
-          "rank": 38,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-23",
-          "rank": 37,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-24",
-          "rank": null,
-          "hasSnapshot": false,
-          "platform": "android",
-          "chartType": "grossing"
-        },
-        {
-          "date": "2026-05-25",
-          "rank": 35,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "grossing"
-        }
-      ],
-      "detectedAt": "2026-05-25T08:29:00.983Z",
-      "markets": [
-        {
-          "code": "kr",
-          "name": "韓國",
-          "flag": "🇰🇷",
-          "rank": 35,
-          "score": 3.08
-        }
-      ],
-      "_rankHistoryByMarket": {
-        "kr": [
-          {
-            "date": "2026-05-19",
-            "rank": 45,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": 44,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": 40,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 38,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 37,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "android",
-            "chartType": "grossing"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 35,
-            "hasSnapshot": true,
-            "platform": "android",
             "chartType": "grossing"
           }
         ]
@@ -13541,7 +13827,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.851Z",
+      "detectedAt": "2026-05-25T12:14:27.632Z",
       "markets": [
         {
           "code": "tw",
@@ -13970,7 +14256,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:42.141Z",
+      "detectedAt": "2026-05-25T12:14:27.741Z",
       "markets": [
         {
           "code": "th",
@@ -14113,7 +14399,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:42.470Z",
+      "detectedAt": "2026-05-25T12:14:27.877Z",
       "markets": [
         {
           "code": "vn",
@@ -14172,159 +14458,6 @@
             "rank": 12,
             "hasSnapshot": true,
             "platform": "ios",
-            "chartType": "topfree"
-          }
-        ]
-      }
-    },
-    {
-      "market": "jp",
-      "marketName": "日本",
-      "marketFlag": "🇯🇵",
-      "platform": "android",
-      "chartType": "topfree",
-      "chartName": "免費下載排行",
-      "appId": "com.pocket.sort.coin.puzzle.game",
-      "name": "Pocket Sort: Coin Merge Puzzle",
-      "developer": "SayGames Ltd",
-      "icon": "https://play-lh.googleusercontent.com/Bo1AzzdXdwig0sc0hx0b0MtL2GymhF3beO3cxiW-W3PGuONQ-33gKKAT9FgUCRh8AQ",
-      "currentRank": 38,
-      "score": 3.9965754,
-      "category": "GAME",
-      "url": "https://play.google.com/store/apps/details?id=com.pocket.sort.coin.puzzle.game",
-      "triggers": [
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #63 升至 #33（↑30 名）",
-          "score": 1,
-          "_detectedAt": "2026-05-23",
-          "market": "us",
-          "marketName": "美國",
-          "marketFlag": "🇺🇸"
-        },
-        {
-          "strategy": "rank_jump",
-          "label": "🚀 排名急升",
-          "detail": "排名從 #78 升至 #38（↑40 名）",
-          "score": 1.3333333333333333,
-          "_detectedAt": "2026-05-25",
-          "market": "jp",
-          "marketName": "日本",
-          "marketFlag": "🇯🇵"
-        }
-      ],
-      "confidenceScore": 2.8,
-      "rankHistory": [
-        {
-          "date": "2026-05-19",
-          "rank": null,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-20",
-          "rank": null,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-21",
-          "rank": null,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-22",
-          "rank": 78,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-23",
-          "rank": 53,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-24",
-          "rank": null,
-          "hasSnapshot": false,
-          "platform": "android",
-          "chartType": "topfree"
-        },
-        {
-          "date": "2026-05-25",
-          "rank": 38,
-          "hasSnapshot": true,
-          "platform": "android",
-          "chartType": "topfree"
-        }
-      ],
-      "detectedAt": "2026-05-25T08:29:00.661Z",
-      "markets": [
-        {
-          "code": "jp",
-          "name": "日本",
-          "flag": "🇯🇵",
-          "rank": 38,
-          "score": 2.8
-        }
-      ],
-      "_rankHistoryByMarket": {
-        "jp": [
-          {
-            "date": "2026-05-19",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-20",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-21",
-            "rank": null,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-22",
-            "rank": 78,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-23",
-            "rank": 53,
-            "hasSnapshot": true,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-24",
-            "rank": null,
-            "hasSnapshot": false,
-            "platform": "android",
-            "chartType": "topfree"
-          },
-          {
-            "date": "2026-05-25",
-            "rank": 38,
-            "hasSnapshot": true,
-            "platform": "android",
             "chartType": "topfree"
           }
         ]
@@ -14409,7 +14542,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.660Z",
+      "detectedAt": "2026-05-25T12:14:27.568Z",
       "markets": [
         {
           "code": "cn",
@@ -14848,7 +14981,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:42.068Z",
+      "detectedAt": "2026-05-25T12:14:27.716Z",
       "markets": [
         {
           "code": "tw",
@@ -15651,7 +15784,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:42.471Z",
+      "detectedAt": "2026-05-25T12:14:27.879Z",
       "markets": [
         {
           "code": "vn",
@@ -15852,7 +15985,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.168Z",
+      "detectedAt": "2026-05-25T12:14:27.209Z",
       "markets": [
         {
           "code": "us",
@@ -16138,7 +16271,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.475Z",
+      "detectedAt": "2026-05-25T12:14:27.429Z",
       "markets": [
         {
           "code": "kr",
@@ -16424,7 +16557,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.430Z",
+      "detectedAt": "2026-05-25T12:14:27.393Z",
       "markets": [
         {
           "code": "jp",
@@ -16710,7 +16843,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.300Z",
+      "detectedAt": "2026-05-25T12:14:27.305Z",
       "markets": [
         {
           "code": "jp",
@@ -16853,7 +16986,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:42.471Z",
+      "detectedAt": "2026-05-25T12:14:27.879Z",
       "markets": [
         {
           "code": "vn",
@@ -17006,7 +17139,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:42.516Z",
+      "detectedAt": "2026-05-25T12:14:27.904Z",
       "markets": [
         {
           "code": "vn",
@@ -17159,7 +17292,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.912Z",
+      "detectedAt": "2026-05-25T12:14:27.661Z",
       "markets": [
         {
           "code": "tw",
@@ -17370,7 +17503,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.514Z",
+      "detectedAt": "2026-05-25T12:14:27.479Z",
       "markets": [
         {
           "code": "kr",
@@ -17581,7 +17714,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.301Z",
+      "detectedAt": "2026-05-25T12:14:27.306Z",
       "markets": [
         {
           "code": "jp",
@@ -17867,7 +18000,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.475Z",
+      "detectedAt": "2026-05-25T12:14:27.430Z",
       "markets": [
         {
           "code": "kr",
@@ -18296,7 +18429,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.852Z",
+      "detectedAt": "2026-05-25T12:14:27.634Z",
       "markets": [
         {
           "code": "tw",
@@ -18439,7 +18572,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.554Z",
+      "detectedAt": "2026-05-25T12:14:27.506Z",
       "markets": [
         {
           "code": "kr",
@@ -18582,7 +18715,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:42.619Z",
+      "detectedAt": "2026-05-25T12:14:27.958Z",
       "markets": [
         {
           "code": "ph",
@@ -18725,7 +18858,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.385Z",
+      "detectedAt": "2026-05-25T12:14:27.365Z",
       "markets": [
         {
           "code": "jp",
@@ -19297,7 +19430,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.609Z",
+      "detectedAt": "2026-05-25T12:14:27.536Z",
       "markets": [
         {
           "code": "kr",
@@ -19440,7 +19573,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:41.300Z",
+      "detectedAt": "2026-05-25T12:14:27.305Z",
       "markets": [
         {
           "code": "jp",
@@ -19583,7 +19716,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-05-25T10:47:42.561Z",
+      "detectedAt": "2026-05-25T12:14:27.929Z",
       "markets": [
         {
           "code": "vn",

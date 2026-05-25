@@ -573,6 +573,42 @@ async function main() {
     }
   }
 
+  // ============ 累積市場國旗 ============
+  // 規則：曾經觸發的市場國旗永遠保留，不因當日未偵測到而消失
+  // 來源 1：把 yesterdayDhMap 裡有但今日 mergedMap 沒有的市場補回來
+  // 來源 2：從 triggers 歷史裡找出有 market 記錄但未進入 markets 陣列的市場
+  for (const [key, dh] of mergedMap) {
+    const existingCodes = new Set(dh.markets.map(m => m.code));
+
+    // 來源 1：昨日 markets 陣列
+    const yesterdayDh = yesterdayDhMap.get(key);
+    if (yesterdayDh && yesterdayDh.markets) {
+      for (const pastMarket of yesterdayDh.markets) {
+        if (!existingCodes.has(pastMarket.code)) {
+          dh.markets.push({ ...pastMarket });
+          existingCodes.add(pastMarket.code);
+        }
+      }
+    }
+
+    // 來源 2：triggers 歷史（包含所有曾觸發的市場，含日本、菲律賓等）
+    for (const t of (dh.triggers || [])) {
+      if (!t.market || existingCodes.has(t.market)) continue;
+      // 從 MARKETS 找出對應的 flag / name
+      const marketInfo = MARKETS.find(m => m.code === t.market);
+      if (marketInfo) {
+        dh.markets.push({
+          code: t.market,
+          name: t.marketName || marketInfo.name,
+          flag: t.marketFlag || marketInfo.flag,
+          rank: null,   // 當日排名未知，顯示旗幟但不顯示排名數字
+          score: 0,
+        });
+        existingCodes.add(t.market);
+      }
+    }
+  }
+
   // ============ 多市場加分 ============
   // 同一遊戲在越多市場被偵測為黑馬，信心分數越高
   // 加分公式：基礎分（單市場最高分）+ 額外市場數 × 加分係數
