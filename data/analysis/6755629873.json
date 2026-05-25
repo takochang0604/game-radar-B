@@ -1,0 +1,45 @@
+{
+  "appId": "6755629873",
+  "name": "UFL: Football Mobile Game 2026",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Experience the next generation of football gaming right on your mobile device! UFL is the soccer simulation that puts your talent to the ultimate test. It's time to build your legacy from the ground up and challenge players globally in a fair, engaging, and competitive environment.\n\nBuild your football club: start your journey, assemble your dream top eleven squad, and implement a strategy that rewards pure football games knowledge. UFL is designed for fresh, skill-rewarding gameplay where the p",
+    "released": "2026-05-21T07:00:00Z",
+    "updated": "2026-05-21T16:17:50Z",
+    "version": "14.0.0",
+    "score": null,
+    "reviews": 0,
+    "developer": "XTEN Limited",
+    "developerUrl": "https://apps.apple.com/th/developer/xten-limited/id1253002320?uo=4",
+    "genres": [
+      "Games",
+      "Sports",
+      "Simulation",
+      "Sports"
+    ],
+    "releaseNotes": "Experience the next generation of football gaming right on your mobile device! UFL is the soccer simulation that puts your talent to the ultimate test. It's time to build your legacy from the ground up and challenge players globally in a fair, engaging, and competitive environment."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:09.695Z"
+}

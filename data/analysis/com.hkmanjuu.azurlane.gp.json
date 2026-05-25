@@ -1,0 +1,75 @@
+{
+  "appId": "com.hkmanjuu.azurlane.gp",
+  "name": "碧藍航線",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "【World view】\nThis is a blue planet whose surface is covered by 71% of sea water. Human beings are born, grow, nurture and develop their own civilization in this blue. However, they are accompanied by ever-expanding ambitions and desires. Under the seemingly calm world structure, historical undercurrents surge. Finally, an unknown enemy appeared in the ocean. Faced with the enemy's overwhelming combat power, each camp still fought on its own. The final result was tragic: humans lost more than 90%",
+    "released": "Oct 2, 2019",
+    "updated": 1760327352000,
+    "version": "8.4.1",
+    "installs": "500,000+",
+    "score": 4.2,
+    "ratings": 13783,
+    "reviews": 3936,
+    "developer": "JIMI PTE.LTD.",
+    "genre": "Strategy",
+    "recentChanges": "1. 修復權限問題"
+  },
+  "reviewAnalysis": {
+    "total": 47,
+    "starCounts": {
+      "1": 21,
+      "2": 4,
+      "3": 2,
+      "4": 5,
+      "5": 15
+    },
+    "positiveRatio": 43,
+    "negativeRatio": 53,
+    "eventMentions": [
+      {
+        "text": "最近的更新後直接不能進入遊戲，必須要把手機語言系統換到繁中才能順利進入。變成每次要進入遊戲就必須更換語言系統去繁中，請趕緊修正。 最新版本已修正。",
+        "keywords": [
+          "新",
+          "新版",
+          "更新"
+        ]
+      },
+      {
+        "text": "更新后炸了，开不了",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "great game, for those that can't open the game (the game shows black screen with gray sidebars) afte",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "cannot login after the most recent update",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "after the update, i am unable to launch the game interface. even after uninstalling and reinstalling",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:38:56.722Z"
+}

@@ -1,0 +1,78 @@
+{
+  "appId": "com.smilegate.chaoszero.stove.google",
+  "name": "Chaos Zero Nightmare",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Zero Out All Despair\nSmilegate's new title, \"Chaos Zero Nightmare,\" is now open!\nBoard the SS Nightmare now!\n\nChaos.\n\nA cosmic disaster that struck without warning.\nThe beginning, or the end, of every story.\n\"Chaos,\" a black fog that consumes planets, distorting their environment and lifeforms.\n..\n[The Blue Pot], a Chaos located on Earth, the birthplace of humanity. There have been reports of unidentifiable creatures being discovered.\nAnd for some reason, a strange phenomenon that couldn't—no, s",
+    "released": "Oct 14, 2025",
+    "updated": 1776845952000,
+    "version": "1.0.277",
+    "installs": "1,000,000+",
+    "score": 4.48363,
+    "ratings": 138941,
+    "reviews": 3131,
+    "developer": "Smilegate, Inc.",
+    "genre": "Role Playing"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 26,
+      "2": 8,
+      "3": 7,
+      "4": 6,
+      "5": 53
+    },
+    "positiveRatio": 59,
+    "negativeRatio": 34,
+    "eventMentions": [
+      {
+        "text": "i really love the game and i'm excited for more characters and upcoming seasons. i'm truly impressed",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "never won a single 50/50 on this game.. i always go hard pity and losing to the shttiest characters ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "even in 3rd season, this game is still failing. the new mode sortie forces the use of a very small p",
+        "keywords": [
+          "new",
+          "season"
+        ]
+      },
+      {
+        "text": "after half-anniv update i can't update the game always stuck at verifying update",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this game is way too grindy and not in a fun way but a repetitive way. unlike slay the spire where t",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 14 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:23:15.989Z"
+}

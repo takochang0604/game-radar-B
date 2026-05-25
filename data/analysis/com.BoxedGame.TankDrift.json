@@ -1,0 +1,42 @@
+{
+  "appId": "com.BoxedGame.TankDrift",
+  "name": "Tank Drift",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Get ready to rev your engines and fire up your cannons! Tank Racing is a wild, high-speed fusion of racing and explosive tank battles\nFast-paced Racing Action – Compete on wild tracks filled with ramps, obstacles, and enemy",
+    "released": "Apr 19, 2025",
+    "updated": 1777145536000,
+    "version": "3.2",
+    "installs": "500,000+",
+    "score": 4.067039,
+    "ratings": 7229,
+    "reviews": 5199,
+    "developer": "Boxed Game",
+    "developerWebsite": "https://r5afce08.app-ads-txt.com",
+    "genre": "Racing",
+    "recentChanges": "bug fix"
+  },
+  "reviewAnalysis": {
+    "total": 67,
+    "starCounts": {
+      "1": 9,
+      "2": 1,
+      "3": 4,
+      "4": 10,
+      "5": 43
+    },
+    "positiveRatio": 79,
+    "negativeRatio": 15,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:23:30.147Z"
+}

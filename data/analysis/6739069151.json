@@ -1,0 +1,52 @@
+{
+  "appId": "6739069151",
+  "name": "Crossword Go!",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Challenge your mind and compete in real-time crossword duels! \nTrain your brain, expand your vocabulary, and outsmart opponents in thrilling word battles. Play live, score big, and climb the leaderboards in this action-packed crossword game!\n\nReal-Time Crossword Duels – Compete like a Master!\nThink fast, spell smarter, and outscore your opponents in intense, real-time word battles! Play live — no waiting, just pure competitive fun! Become a crossword Master as you rise to the top in every game!\n",
+    "released": "2024-12-10T08:00:00Z",
+    "updated": "2026-04-30T20:23:17Z",
+    "version": "1.102.0",
+    "score": 4.91981,
+    "reviews": 1509,
+    "developer": "PlaySimple Games Pte Ltd",
+    "developerUrl": "https://apps.apple.com/ph/developer/playsimple-games-pte-ltd/id1189416142?uo=4",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Entertainment",
+      "Word"
+    ],
+    "releaseNotes": "Challenge your mind and compete in real-time crossword duels! \nTrain your brain, expand your vocabulary, and outsmart opponents in thrilling word battles. Play live, score big, and climb the leaderboards in this action-packed crossword game!"
+  },
+  "reviewAnalysis": {
+    "total": 17,
+    "starCounts": {
+      "1": 7,
+      "2": 3,
+      "3": 2,
+      "4": 0,
+      "5": 5
+    },
+    "positiveRatio": 29,
+    "negativeRatio": 59,
+    "eventMentions": [
+      {
+        "text": "very mentally stimulating, great for dementia prevention. luv it😍",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:05:53.480Z"
+}

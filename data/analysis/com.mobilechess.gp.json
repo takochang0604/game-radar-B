@@ -1,0 +1,81 @@
+{
+  "appId": "com.mobilechess.gp",
+  "name": "Magic Chess: Go Go",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "A New Strategy Game from the MLBB Team! \nWelcome to Magic Chess: Go Go, the ultimate strategy game combining MLBB heroes with fresh and casual gameplay. It's not about fast mechanics, but about wisdom and a touch of luck! Play anywhere, anytime, and have fun with friends!\n\nNew Battleground for MLBB Heroes: Strategy Fully Upgraded\nLead your favorite MLBB heroes in an all-new way. Recruit, merge, and strategize to form the ultimate lineup.\n\n8-Player Showdown: Outwit to Become the Champion\nFace off",
+    "released": "Feb 20, 2025",
+    "updated": 1778337166000,
+    "version": "1.2.80.2921",
+    "installs": "10,000,000+",
+    "score": 4.2,
+    "ratings": 327588,
+    "reviews": 8251,
+    "developer": "Vizta Games",
+    "genre": "Strategy",
+    "recentChanges": "1. Come and join MCGG&#39;s anniversary celebration! Don&#39;t miss out on tons of fun events, Exclusive Skin, rare Chessboard, and massive bonuses!<br>2. Season 6 Dawnlight Celebration is here! New Synergies and Heroes await you!<br>3. New Commander Kalea makes her debut! Explore the new patch to get Kalea, new Battle Emotes, and other rewards for free!<br>4. Promo Diamond Giveaway! Come and get massive Diamonds!<br>5. Layla &quot;Blue Specter&quot; makes a dazzling return! Join the event to get it for free!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 66,
+      "2": 6,
+      "3": 16,
+      "4": 12,
+      "5": 100
+    },
+    "positiveRatio": 56,
+    "negativeRatio": 36,
+    "eventMentions": [
+      {
+        "text": "it used to be fun and great but nowadays it's too limited not fun at all",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "please bring back the old magic chess! this new update is 'no more fun!'",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "hey there! i really love this game and the updates are really unpredictable along with events bringi",
+        "keywords": [
+          "event",
+          "update"
+        ]
+      },
+      {
+        "text": "can you fix the tutorial part as an old player literally annoying when tryna install it in new devic",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "new update is good",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:53.474Z"
+}

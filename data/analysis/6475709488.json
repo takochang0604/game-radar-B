@@ -1,0 +1,58 @@
+{
+  "appId": "6475709488",
+  "name": "Carnival Tycoon: Coin Games",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Are you ready to join Carnival Tycoon?\n\nCarnival Tycoon - an idle simulation game  that you can play together with friends. In this idle game, you start with a small theme park where visitors can ride roller coasters and Ferris wheels. To build the most interesting theme park in the world, you unlock and upgrade more rides, strive to manage and expand the scale of the park. With hard work and dedication, you make it and become a true tycoon!\n\nFeatures:\nManage a theme park: Build more creatively ",
+    "released": "2024-01-30T08:00:00Z",
+    "updated": "2026-04-24T16:18:08Z",
+    "version": "1.0.108",
+    "score": 4.86562,
+    "reviews": 11750,
+    "developer": "Wild Candle Spin LLC",
+    "developerUrl": "https://apps.apple.com/th/developer/wild-candle-spin-llc/id1802530043?uo=4",
+    "genres": [
+      "Games",
+      "Simulation",
+      "Casual"
+    ],
+    "releaseNotes": "Get ready for an enhanced experience with our latest update! Enjoy new features and improvements with this release. Update now and dive into the excitement!"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 15,
+      "2": 2,
+      "3": 8,
+      "4": 0,
+      "5": 24
+    },
+    "positiveRatio": 49,
+    "negativeRatio": 35,
+    "eventMentions": [
+      {
+        "text": "extremely disappointed with the referral system. i invited a friend using my referral link and liter",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i have been playing carnival tycoon: coin games as a free-to-play user, and overall, the experience ",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-12T11:43:28.302Z"
+}

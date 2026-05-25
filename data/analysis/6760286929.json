@@ -1,0 +1,43 @@
+{
+  "appId": "6760286929",
+  "name": "Immortal Ascension: Tao",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "An idle Xianxia RPG you can enjoy completely hands-free.\n\nFrom the awakening of your spirit roots to the perfection of the Nascent Soul, every moment of idle cultivation resonates with the Dao—an unbroken echo of your unwavering will.\n\nWhen you awaken, the world around you is unfamiliar.\nYour companions are gone without a trace, leaving behind only silence—and a lingering sense of unease.\n\nAs the leader, you make your choice:\nto journey across the Immortal Realm and uncover the truth behind thei",
+    "released": "2026-04-02T07:00:00Z",
+    "updated": "2026-04-07T07:48:42Z",
+    "version": "1.1",
+    "score": 4.5,
+    "reviews": 12,
+    "developer": "Ryoko Navi Online Co., Limited",
+    "developerUrl": "https://apps.apple.com/ph/developer/ryoko-navi-online-co-limited/id1764868220?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing"
+    ],
+    "releaseNotes": "Fixed some bugs and optimized the gaming experience"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-12T11:43:25.856Z"
+}

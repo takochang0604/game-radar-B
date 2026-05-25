@@ -1,0 +1,44 @@
+{
+  "appId": "6748397500",
+  "name": "Arrows – Puzzle Escape",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "Welcome to Arrows – Puzzle Escape, a minimalist puzzle game that challenges your logic, planning, and spatial thinking. Your goal is simple: extract each arrow without causing a collision. \n\nFeatures:\n\n* Challenging logic puzzles that test your planning skills\n* Thousands of handcrafted levels with increasing complexity\n* Clean, minimalist design that lets you focus on the puzzle\n* Relaxing, no-pressure gameplay – no timers, just your brain\n* Hint system to help when you're stuck\n\nWhether you ha",
+    "released": "2025-08-09T07:00:00Z",
+    "updated": "2026-04-17T08:10:32Z",
+    "version": "0.17.0",
+    "score": 4.7,
+    "reviews": 1689,
+    "developer": "Lessmore GmbH",
+    "developerUrl": "https://apps.apple.com/tw/developer/lessmore-gmbh/id1579865033?uo=4",
+    "genres": [
+      "遊戲",
+      "解謎",
+      "休閒"
+    ],
+    "releaseNotes": "- Bug fixes  \n\nThanks for playing!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:50:03.441Z"
+}

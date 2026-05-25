@@ -1,0 +1,45 @@
+{
+  "appId": "506627515",
+  "name": "Hay Day",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Welcome to Hay Day, the fun farm simulator game! Build a farm, go fishing, raise animals, and explore the Valley. Farm with friends and decorate your own slice of country paradise.\n\nFarming has never been easier! Grow crops like wheat and corn in this farm simulator, and even though it never rains, they never die. Harvest and replant seeds to multiply crops, then make goods to sell. Feed your animals to produce eggs, bacon, dairy, and more to trade with neighbors or fill truck orders for coins. ",
+    "released": "2012-06-21T08:10:22Z",
+    "updated": "2026-05-11T05:54:47Z",
+    "version": "1.70.97",
+    "score": 4.7,
+    "reviews": 271400,
+    "developer": "Supercell",
+    "developerUrl": "https://apps.apple.com/th/developer/supercell/id488106216?uo=4",
+    "genres": [
+      "Games",
+      "Simulation",
+      "Family",
+      "Entertainment"
+    ],
+    "releaseNotes": "Spring is blooming on the farm! This update brings smoother progress and new ways to earn rewards.\n\nBoat and Truck Orders improvements\n- Some players may notice new ways to earn extra rewards from Boat and Truck Orders.\n- For some players, Boats may return faster, ask for simpler goods, and reward expansion materials early on, with difficulty increasing as more boats are completed throughout the day.\n- Truck Track Rewards are also being tested with some players, bringing extra rewards for delivering truck orders.\n\nEarly game improvements and Quality of Life\n- The start of the farming journey is now smoother, with better early level-up rewards, more truck orders, and more fields available earlier.\n- Progression toward unlocking Sanctuary animals has also been improved.\n- Crops can now be purchased with coins.\n- Axes and saws can now also be purchased with coins.\n\nWe’ve also made improvements across Events, Tutorials, Derby, Town, rewards, UI, and Golden Key Chests based on your feedback.\n\nHappy Farming!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-18T11:37:56.442Z"
+}

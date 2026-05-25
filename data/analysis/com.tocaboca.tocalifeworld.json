@@ -1,0 +1,86 @@
+{
+  "appId": "com.tocaboca.tocalifeworld",
+  "name": "Toca Boca World",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Welcome to Toca Boca World, the ultimate universe for kids to play, design, and explore their endless imagination! This isn't just a game; it's a safe space where every story is yours to create, and the fun never stops.\n\nToca Boca World is where your creativity takes center stage:\n🛝 Unleash your inner storyteller: Roleplay in a universe you've created, where you can tell your own stories. Become a teacher, a vet, or even an influencer.\n🏡 Design your dream world: Bring your best friends to life",
+    "released": "Nov 21, 2018",
+    "updated": 1779287687000,
+    "version": "1.131.2",
+    "installs": "100,000,000+",
+    "score": 4.3,
+    "ratings": 6658163,
+    "reviews": 213296,
+    "developer": "Toca Boca",
+    "developerWebsite": "https://tocaboca.com/help/",
+    "genre": "Educational",
+    "recentChanges": "Get ready to bring extra attitude to your stories, olivia rodrigo is playing in the Music Player from May 12th through June 8th! We&#39;re dropping a brand new Pixel Art Machine and frames in Home Designer for you to create and display your masterpieces! And speaking of gifts, you can take family roleplay to the next level with Mother&#39;s Day gifts, dress up for your big music performance with a glittering gown or techno outfits, and practice your volley with tennis gear before the big competition!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 7,
+      "2": 4,
+      "3": 16,
+      "4": 30,
+      "5": 143
+    },
+    "positiveRatio": 87,
+    "negativeRatio": 6,
+    "eventMentions": [
+      {
+        "text": "good game but i bought a bundle a year ago and i had to get a new phone and when i reinstalled the g",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "so far, the gameplay is good, and i like the style of the game, but i do wish that with the new upda",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i like it but i do hope they do more collabs in the future",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "i like the game and all but i've always dreamed that they should collaborate with aespa that would b",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "this update is so fun and so cool",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 87%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:43:23.068Z"
+}

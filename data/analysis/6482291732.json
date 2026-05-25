@@ -1,0 +1,44 @@
+{
+  "appId": "6482291732",
+  "name": "運氣拚輸贏",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "你曾經測試過自己的運氣嗎？\n只憑運氣的塔防遊戲運氣拚輸贏！\n現在就在「運氣拚輸贏」中測試自己的運氣吧！\n\n- 召喚隊員都靠運氣！在機率中殺出重圍吧！\n- 首先，這是塔防遊戲！請消滅怪物！\n- 也可以進行隊員合成！只是不知道會出現什麼！\n- 總覺得運氣很好？那就透過轉盤挑戰一波大的吧！\n\n天堂還是地獄！一切都靠自己的運氣！ \n運氣加持的休閒塔防遊戲「運氣拚輸贏」",
+    "released": "2024-05-26T07:00:00Z",
+    "updated": "2026-05-21T19:28:04Z",
+    "version": "2.0.1",
+    "score": 4.4,
+    "reviews": 18838,
+    "developer": "111%",
+    "developerUrl": "https://apps.apple.com/tw/developer/111/id1060433596?uo=4",
+    "genres": [
+      "遊戲",
+      "策略",
+      "休閒"
+    ],
+    "releaseNotes": "■ 2週年紀念傳說特別兵種：「雷伊」登場！\n- 千萬別錯過免費發放兵種與快速成長的機會！\n■ 2週年慶典！大規模冒險內容開放！\n- 光是登入，立即發放11,111個鑽石！快來享有豐富優惠～\n■ 超越不滅境界！新增「突破極限」系統！\n■ 改善便利性與修正錯誤"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:48.640Z"
+}

@@ -1,0 +1,48 @@
+{
+  "appId": "vn.zoneplay.gp01",
+  "name": "Bloodline: Dòng Máu Anh Hùng",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Decision approving the content of the online video game G1: No. 66/QD-PTTH&TTĐT issued on February 10, 2026\n\nBloodline: Heroic Bloodline\nA masterpiece of upcoming fantasy, rendered with incredibly detailed and beautiful 3D graphics. You will choose your own bloodline from over a hundred different mythologies around the world. Develop your power from scratch, build your land, expand production, recruit heroes, and intermarry with other tribes to obtain more inherited bloodlines...\n\nFrom there, in",
+    "released": "May 13, 2026",
+    "updated": 1778229624000,
+    "version": "0.0051.22",
+    "installs": "10,000+",
+    "score": 4.7,
+    "ratings": 895,
+    "reviews": 183,
+    "developer": "GZONE JSC",
+    "developerWebsite": "https://gzone.vn",
+    "genre": "Role Playing",
+    "recentChanges": "- Tính năng Skip Battle: Bỏ qua trận đấu nhanh,  tiết kiệm thời gian tối đa.<br>- Đại tiệc Triệu hồi: 1000 lượt quay cho tất cả người chơi<br>- Tăng tỉ lệ triệu hồi: Nâng cao tỉ lệ nhận tướng Thần Thoại"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 9 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 14 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:11.939Z"
+}

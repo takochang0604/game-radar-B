@@ -1,0 +1,57 @@
+{
+  "appId": "6752369665",
+  "name": "Haunted Merge: Horror Story",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "\"You don't see them... but they see you.\n\nYou’re an orphan, raised by a wandering feng shui master who found you near a graveyard. Before he died, he handed you a locked box—the only clue to your past. After burying him, you begin your journey to uncover the truth.\nYour first lead brings you to a run-down apartment building. You move in as a tenant—but something is deeply wrong.\n- The elevator opens by itself—on floors no one pressed.\n- An empty unit echoes with whispers that don’t exist.\n- A cu",
+    "released": "2025-11-25T08:00:00Z",
+    "updated": "2026-04-29T03:10:58Z",
+    "version": "1.147.2129",
+    "score": 4.86821,
+    "reviews": 736,
+    "developer": "WhaleJoy Game Limited",
+    "developerUrl": "https://apps.apple.com/th/developer/whalejoy-game-limited/id1839130305?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Puzzle"
+    ],
+    "releaseNotes": "- Fixed some known issues"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 5,
+      "2": 1,
+      "3": 0,
+      "4": 5,
+      "5": 38
+    },
+    "positiveRatio": 88,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "i luv this game no ads but i want more sub-event for more energy",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 88%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-04T20:36:09.191Z"
+}

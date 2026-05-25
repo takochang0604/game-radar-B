@@ -1,0 +1,41 @@
+{
+  "appId": "com.phzm.jp",
+  "name": "夢織りの花園",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "\"Dream-Woven Flower Garden ~A Cozy Life in the Forest~\" — Cultivate Kindness, and Bring the Blooming Flowers to You\nDon't you ever have moments when you think, \"Hey, I just want to zone out for a little while, undisturbed by anyone...\"? Forget about rushing to reply, forgetting about anyone's expectations. In \"Dream-Woven Flower Garden ~A Cozy Life in the Forest~,\" you can simply be yourself. Why not spend some gentle time here, flowing not for anyone else, but just for yourself?\n\nWow! Real flow",
+    "released": "Apr 21, 2026",
+    "updated": 1776776607000,
+    "version": "1.3.45",
+    "installs": "10,000+",
+    "score": 3.9758065,
+    "ratings": 523,
+    "reviews": 105,
+    "developer": "Pogo Hopper Games",
+    "genre": "Casual",
+    "recentChanges": "不具合修正"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:01:17.692Z"
+}

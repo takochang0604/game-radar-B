@@ -1,0 +1,45 @@
+{
+  "appId": "911121200",
+  "name": "Good Pizza, Great Pizza",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Ever wanted to know what it feels like to run your own Pizza shop? Now you can with TapBlaze’s newest game, Good Pizza, Great Pizza! Do your best to fulfill pizza orders from customers while making enough money to keep your shop open. Upgrade your shop with new toppings and equipment to compete against your pizza rival, Alicante!\n\nGAME HIGHLIGHTS\n\n* Featuring Pizza News Network (PNN), the first newscast about all things pizza.\n* Over 80 customers with unique pizza orders and personalities.\n* Piz",
+    "released": "2014-12-02T12:10:01Z",
+    "updated": "2026-05-09T18:09:37Z",
+    "version": "5.50.2",
+    "score": 4.7,
+    "reviews": 18110,
+    "developer": "TAPBLAZE",
+    "developerUrl": "https://apps.apple.com/ph/developer/tapblaze/id1055223695?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Simulation",
+      "Food & Drink"
+    ],
+    "releaseNotes": "Fixed minor bugs."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:40:46.097Z"
+}

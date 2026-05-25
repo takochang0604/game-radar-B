@@ -1,0 +1,42 @@
+{
+  "appId": "com.gf.p2h5krkr.hwyad.google",
+  "name": "희비전 리버스",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "We are looking for the newly reborn Heebi!\n\nTo her, who has grown step by step from the heights of an ordinary court lady...\n\nIf given another chance to choose, is she worthy of remaining by His Majesty's side?\n\nLet's live this life as our hearts lead us!\n\nLet's recreate your own legend in the classic story simulation RPG \"Heebi-den Rebirth\"!\n\n▶ Unpredictable and Heart-Pounding Story\n\nA world where you help friends? A comrade who betrayed you? Once you enter the ever-changing royal court...\n\nYou",
+    "released": "May 5, 2026",
+    "updated": 1777441234000,
+    "version": "1.0.1",
+    "installs": "10,000+",
+    "score": 3.7454545,
+    "ratings": 55,
+    "reviews": 42,
+    "developer": "WISH INTERACTIVE TECHNOLOGY LIMITED",
+    "developerWebsite": "https://p2rebirth.wishgamer.com",
+    "genre": "Role Playing",
+    "recentChanges": "-일보 버그 수정"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 13 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-12T11:42:29.979Z"
+}

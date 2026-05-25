@@ -20,14 +20,19 @@ import {
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 
+// 支援命令列指定日期：node scripts/detect-darkhorse.js 2026-05-23
+const OVERRIDE_DATE = process.argv[2] && /^\d{4}-\d{2}-\d{2}$/.test(process.argv[2])
+  ? process.argv[2]
+  : null;
+
 function getToday() {
-  return new Date().toISOString().split('T')[0];
+  return OVERRIDE_DATE || new Date().toISOString().split('T')[0];
 }
 
 function getDateStr(daysAgo) {
-  const d = new Date();
-  d.setDate(d.getDate() - daysAgo);
-  return d.toISOString().split('T')[0];
+  const base = OVERRIDE_DATE ? new Date(OVERRIDE_DATE + 'T00:00:00') : new Date();
+  base.setDate(base.getDate() - daysAgo);
+  return base.toISOString().split('T')[0];
 }
 
 function ensureDir(dirPath) {
@@ -85,10 +90,32 @@ function getRankHistory(appId, marketCode, platform, chartTypeId, days) {
 }
 
 /**
+ * 計算近 N 天內的 snapshot 斷層統計
+ * 用於偵測策略中判斷資料是否足夠可信
+ */
+function getSnapshotGapInfo(history, recentDays = 7) {
+  const recent = history.slice(-recentDays);
+  const missingDays = recent.filter(h => !h.hasSnapshot).length;
+  // 計算最長連續缺失天數
+  let maxConsecutiveGap = 0;
+  let currentGap = 0;
+  for (const h of recent) {
+    if (!h.hasSnapshot) {
+      currentGap++;
+      maxConsecutiveGap = Math.max(maxConsecutiveGap, currentGap);
+    } else {
+      currentGap = 0;
+    }
+  }
+  return { missingDays, maxConsecutiveGap, recentDays, hasSignificantGap: maxConsecutiveGap >= 2 };
+}
+
+/**
  * 偵測策略 1: 排名急升
  * 7 天內排名上升 ≥ 30 名
+ * gapInfo: snapshot 斷層資訊，有斷層時提高門檻避免誤判
  */
-function detectRankJump(app, history) {
+function detectRankJump(app, history, gapInfo) {
   const validHistory = history.filter(h => h.rank !== null);
   if (validHistory.length < 2) return null;
 
@@ -97,12 +124,19 @@ function detectRankJump(app, history) {
 
   if (oldestRank === null || currentRank === null) return null;
 
+  // 有 snapshot 斷層時提高門檻（斷層可能導致中間的漸進式變化被忽略）
+  let threshold = DARKHORSE_CONFIG.rankJumpThreshold;
+  if (gapInfo && gapInfo.hasSignificantGap) {
+    threshold = Math.ceil(threshold * 1.5);
+  }
+
   const jump = oldestRank - currentRank;
-  if (jump >= DARKHORSE_CONFIG.rankJumpThreshold) {
+  if (jump >= threshold) {
+    const gapNote = (gapInfo && gapInfo.hasSignificantGap) ? '（⚠️ 有快照斷層，門檻已提高）' : '';
     return {
       strategy: 'rank_jump',
       label: '🚀 排名急升',
-      detail: `排名從 #${oldestRank} 升至 #${currentRank}（↑${jump} 名）`,
+      detail: `排名從 #${oldestRank} 升至 #${currentRank}（↑${jump} 名）${gapNote}`,
       score: Math.min(jump / DARKHORSE_CONFIG.rankJumpThreshold, 3),
     };
   }
@@ -115,8 +149,9 @@ function detectRankJump(app, history) {
  * 條件：前面至少 minNulls 天「有快照但不在榜上」+ 排名在 maxRank 以內
  * 關鍵：只有 hasSnapshot===true 且 rank===null 才算「確認不在榜上」
  *       hasSnapshot===false（沒有快照資料）不算，避免首次收集時誤判
+ * gapInfo: snapshot 斷層資訊，有斷層時要求更多 confirmedNulls
  */
-function detectNewEntry(app, history) {
+function detectNewEntry(app, history, gapInfo) {
   const validHistory = history.filter(h => h.rank !== null);
   if (validHistory.length === 0) return null;
 
@@ -132,12 +167,19 @@ function detectNewEntry(app, history) {
   const confirmedNulls = history.slice(0, firstAppearance)
     .filter(h => h.hasSnapshot === true && h.rank === null).length;
 
+  // 有 snapshot 斷層時，要求更多天數確認（避免斷層期間的遊戲被誤判）
+  let requiredNulls = DARKHORSE_CONFIG.newEntryMinNulls;
+  if (gapInfo && gapInfo.hasSignificantGap) {
+    requiredNulls = Math.ceil(requiredNulls * 1.5);
+  }
+
   // 前面必須有足夠天數確認不在榜上
-  if (confirmedNulls >= DARKHORSE_CONFIG.newEntryMinNulls && validHistory.length <= DARKHORSE_CONFIG.newEntryDays) {
+  if (confirmedNulls >= requiredNulls && validHistory.length <= DARKHORSE_CONFIG.newEntryDays) {
+    const gapNote = (gapInfo && gapInfo.hasSignificantGap) ? '（⚠️ 有快照斷層，門檻已提高）' : '';
     return {
       strategy: 'new_entry',
       label: '🆕 新進榜',
-      detail: `首次進入 Top 100，目前排名 #${currentRank}`,
+      detail: `首次進入 Top 100，目前排名 #${currentRank}${gapNote}`,
       score: currentRank <= 10 ? 3 : currentRank <= 20 ? 2.5 : 2,
     };
   }
@@ -180,10 +222,14 @@ function detectConsecutiveRise(app, history) {
  * 近 3 天平均排名 vs 近 7 天平均排名的比值
  * 比值越高代表近期加速越快
  * 參考：StoreSignal 的 Growth Multiplier 方法論
+ * gapInfo: snapshot 斷層資訊，有斷層時要求更多有效資料
  */
-function detectGrowthMultiplier(app, history) {
+function detectGrowthMultiplier(app, history, gapInfo) {
   const validHistory = history.filter(h => h.rank !== null);
-  if (validHistory.length < 4) return null; // 至少要有 4 天資料
+
+  // 有 snapshot 斷層時要求更多有效資料天數（正常 4 天 → 斷層時 6 天）
+  const minRequired = (gapInfo && gapInfo.hasSignificantGap) ? 6 : 4;
+  if (validHistory.length < minRequired) return null;
 
   const shortWindow = Math.min(DARKHORSE_CONFIG.growthShortWindow || 3, validHistory.length);
   const longWindow = Math.min(DARKHORSE_CONFIG.growthLongWindow || 7, validHistory.length);
@@ -201,10 +247,11 @@ function detectGrowthMultiplier(app, history) {
 
   const threshold = DARKHORSE_CONFIG.growthMultiplierThreshold || 2.5;
   if (multiplier >= threshold) {
+    const gapNote = (gapInfo && gapInfo.hasSignificantGap) ? '（⚠️ 有快照斷層）' : '';
     return {
       strategy: 'growth_multiplier',
       label: '📊 成長加速',
-      detail: `成長倍率 ${multiplier.toFixed(1)}×（近 ${shortWindow} 天平均 #${Math.round(recentAvg)} vs 近 ${longWindow} 天平均 #${Math.round(longAvg)}）`,
+      detail: `成長倍率 ${multiplier.toFixed(1)}×（近 ${shortWindow} 天平均 #${Math.round(recentAvg)} vs 近 ${longWindow} 天平均 #${Math.round(longAvg)}）${gapNote}`,
       score: Math.min(multiplier / threshold, 2.5),
     };
   }
@@ -240,6 +287,24 @@ async function main() {
   console.log('╚══════════════════════════════════════════════╝');
   console.log(`📅 日期: ${today}`);
   console.log(`🔍 回溯: ${DARKHORSE_CONFIG.lookbackDays} 天`);
+
+  // 全域 snapshot 斷層掃描（近 7 天）
+  const recentGapDays = [];
+  for (let i = 1; i <= 7; i++) {
+    const dateStr = getDateStr(i);
+    const snapshotDir = path.resolve(ROOT, SNAPSHOTS_DIR, dateStr);
+    if (!fs.existsSync(snapshotDir)) {
+      recentGapDays.push(dateStr);
+    }
+  }
+  if (recentGapDays.length > 0) {
+    console.log('');
+    console.log('⚠️ ═══════════════════════════════════════════════');
+    console.log(`⚠️  近 7 天有 ${recentGapDays.length} 天缺少 snapshot：`);
+    recentGapDays.forEach(d => console.log(`⚠️    📁 ${d} — 無資料`));
+    console.log('⚠️  偵測門檻已自動提高，避免因資料斷層導致誤判');
+    console.log('⚠️ ═══════════════════════════════════════════════');
+  }
   console.log('');
 
   const allDarkhorses = [];
@@ -298,9 +363,12 @@ async function main() {
             DARKHORSE_CONFIG.lookbackDays
           );
 
+          // 計算近期 snapshot 斷層資訊
+          const gapInfo = getSnapshotGapInfo(history, 7);
+
           const triggers = [];
 
-          const jumpResult = detectRankJump(app, history);
+          const jumpResult = detectRankJump(app, history, gapInfo);
           if (jumpResult) {
             jumpResult._detectedAt = today;
             jumpResult.market = market.code;
@@ -311,7 +379,7 @@ async function main() {
 
           // 排名急升已觸發時跳過新進榜（避免矛盾：有歷史排名卻說首次進入）
           if (!jumpResult) {
-            const newEntryResult = detectNewEntry(app, history);
+            const newEntryResult = detectNewEntry(app, history, gapInfo);
             if (newEntryResult) {
               newEntryResult._detectedAt = today;
               newEntryResult.market = market.code;
@@ -331,7 +399,7 @@ async function main() {
           }
 
           // 策略 4: Growth Multiplier（成長倍率）
-          const growthResult = detectGrowthMultiplier(app, history);
+          const growthResult = detectGrowthMultiplier(app, history, gapInfo);
           if (growthResult) {
             growthResult._detectedAt = today;
             growthResult.market = market.code;

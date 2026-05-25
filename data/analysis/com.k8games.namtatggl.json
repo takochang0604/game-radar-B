@@ -1,0 +1,41 @@
+{
+  "appId": "com.k8games.namtatggl",
+  "name": "남 탓 디펜스",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "A feast of blaming others begins the moment you are summoned to another world! A light strategy defense game where you summon creatures, raise them, and pass the surging waves on to others.\n\n✨Blame Defense is a collectible strategy defense game where a summoner, summoned to another world, deploys various creatures to fend off waves of enemies.\n\nAnyone can easily enjoy it with simple controls, and strategic gameplay is possible depending on the combination and growth of your summons.\n\n✨Different ",
+    "released": "Apr 28, 2026",
+    "updated": 1778485962000,
+    "version": "1.0.7",
+    "installs": "100,000+",
+    "score": 3.6,
+    "ratings": 60,
+    "reviews": 35,
+    "developer": "K8GAMES",
+    "developerWebsite": "https://namtatdefense.web.app",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 100,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T12:01:02.390Z"
+}

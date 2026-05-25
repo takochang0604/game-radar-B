@@ -14,14 +14,14 @@ where node >nul 2>nul
 if errorlevel 1 (
     echo.
     echo [ERROR] node not found in PATH
-    echo %date% %time% FAIL - node not found >> "%~dp0..\data\schedule.log"
+    echo %date% %time% FAIL [pipeline] - node not found >> "%~dp0..\data\schedule.log"
     goto :eof
 )
 
 if not exist "node_modules" (
     echo.
     echo [ERROR] node_modules not found
-    echo %date% %time% FAIL - node_modules missing >> "%~dp0..\data\schedule.log"
+    echo %date% %time% FAIL [pipeline] - node_modules missing >> "%~dp0..\data\schedule.log"
     goto :eof
 )
 
@@ -30,7 +30,7 @@ echo [1/4] Fetching rankings...
 call npm run fetch
 if errorlevel 1 (
     echo [ERROR] Fetch failed
-    echo %date% %time% FAIL - fetch >> "%~dp0..\data\schedule.log"
+    echo %date% %time% FAIL [pipeline] - fetch >> "%~dp0..\data\schedule.log"
     goto :eof
 )
 
@@ -53,12 +53,26 @@ echo [4/4] Uploading to Firebase...
 call npm run upload
 if errorlevel 1 (
     echo [ERROR] Upload failed
-    echo %date% %time% FAIL - upload >> "%~dp0..\data\schedule.log"
+    echo %date% %time% FAIL [pipeline] - upload >> "%~dp0..\data\schedule.log"
     goto :eof
+)
+echo.
+echo [5/5] Syncing to Git...
+git add data/ .gitignore
+git commit -m "data: auto-sync %date:~0,10%" --no-verify 2>nul
+if errorlevel 1 (
+    echo [WARN] Git commit skipped (no changes or error)
+) else (
+    git push origin main 2>nul
+    if errorlevel 1 (
+        echo [WARN] Git push failed, will retry next run
+    ) else (
+        echo [OK] Git sync done
+    )
 )
 
 echo.
 echo ====================================
 echo  [OK] All done! %date% %time%
 echo ====================================
-echo %date% %time% OK >> "%~dp0..\data\schedule.log"
+echo %date% %time% OK [pipeline] >> "%~dp0..\data\schedule.log"

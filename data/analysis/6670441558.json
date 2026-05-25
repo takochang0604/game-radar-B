@@ -1,0 +1,44 @@
+{
+  "appId": "6670441558",
+  "name": "Dark War:Survival",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Gear up and brace yourself for the ultimate test of zombie apocalypse survival! Dive into thrilling gameplay and uncover captivating events that await your exploration!\n\nAs a sudden and catastrophic zombie virus ravages human society, your once cozy life is shattered. Family and friends turn into the walking dead before your very eyes. Escaping the chaos of your crumbling home, you now face the ultimate challenge: setting up a shelter to survive the zombie apocalyptic world, and reigniting the f",
+    "released": "2024-09-05T07:00:00Z",
+    "updated": "2026-05-08T09:49:40Z",
+    "version": "1.250.645",
+    "score": 4.6,
+    "reviews": 6639,
+    "developer": "Omnilojo Pte Ltd",
+    "developerUrl": "https://apps.apple.com/ph/developer/omnilojo-pte-ltd/id1838371095?uo=4",
+    "genres": [
+      "Games",
+      "Card",
+      "Strategy"
+    ],
+    "releaseNotes": "We will fix some known issues and optimize some feature experiences."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:39:20.148Z"
+}

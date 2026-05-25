@@ -1,0 +1,73 @@
+{
+  "appId": "com.an.camo.hunt.sniper.spy",
+  "name": "Camo Hunt: Sniper Spy",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Become the ultimate sniper in Camo Hunt: Sniper Spy, where you become a skilled assassin trying to hunt down all the camouflaged targets. You will find yourself facing numerous challenges throughout your mission as your targets can blend perfectly into their surroundings. Be careful where you shoot, sharpen your strategic skills and precision, because your bullets are not unlimited!\n\nKey Features:\n• Camo Targets: Hunt down targets that use camouflage to blend into the environment. Their color an",
+    "released": "Sep 10, 2025",
+    "updated": 1773750526000,
+    "version": "2.0.1",
+    "installs": "1,000,000+",
+    "score": 4.1,
+    "ratings": 17144,
+    "reviews": 25,
+    "developer": "TVC Global., Ltd",
+    "developerWebsite": "https://tvc-game.github.io/",
+    "genre": "Casual",
+    "recentChanges": "Camo Hunt v2.0.1 – Big Update!<br><br>• Tons of new levels to challenge your skills<br>• Brand-new Mission System with exciting rewards<br>• Shop added with more powerful weapons<br>• Boosters introduced to help you beat tough levels<br>• Gameplay improvements and optimizations<br><br>Jump back in and start the hunt!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 48,
+      "2": 20,
+      "3": 21,
+      "4": 22,
+      "5": 89
+    },
+    "positiveRatio": 56,
+    "negativeRatio": 34,
+    "eventMentions": [
+      {
+        "text": "waw, where in the toilet , in the room , in the living room or something else that's it you give me ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "why are there no levels after level 93? i've completed all 93 levels. it was really exciting, i hope",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this game is alright to kill time. it's nothing special but it is entertaining enough. my issue is t",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i love this game so much.. sadly it has only 90+ levels and after that.. there's no more new levels ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "why is there only 93 levels ???plz update",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:51:04.354Z"
+}

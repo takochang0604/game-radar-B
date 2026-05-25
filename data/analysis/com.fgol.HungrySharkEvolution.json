@@ -1,0 +1,81 @@
+{
+  "appId": "com.fgol.HungrySharkEvolution",
+  "name": "Hungry Shark Evolution",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Dive into the official game of Shark Week with Hungry Shark Evolution! Become the ultimate predator in this offline shark game where you’ll rule the ocean and eat your way through an underwater world of adventure 🦈🦈🦈🦈\n \nTake control of a mighty, hungry shark and survive as long as possible by eating everything in sight! In this thrilling, classic arcade-style shark game, evolve your predator into a fierce sea beast, from Great Whites to the ferocious Megalodon, and explore the ocean’s depths",
+    "released": "Feb 22, 2013",
+    "updated": 1778464056000,
+    "version": "14.0.2",
+    "installs": "500,000,000+",
+    "score": 4.4,
+    "ratings": 7604942,
+    "reviews": 48257,
+    "developer": "Ubisoft Entertainment",
+    "developerWebsite": "https://www.ubisoft.com/",
+    "genre": "Arcade",
+    "recentChanges": "HUNGRY SHARK X DAVE THE DIVER <br>Dave and his crew have docked in shark-infested waters! Escort and protect Dave to gather fresh ingredients for Bancho and keep the restaurant running. Complete daily requests to unlock exclusive rewards like Bancho’s Knife, and even Dave himself! "
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 24,
+      "2": 8,
+      "3": 18,
+      "4": 20,
+      "5": 130
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 16,
+    "eventMentions": [
+      {
+        "text": "i've played this game for years, across the device this game is: updating frequently and always add ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this is the best game i have ever played only problem is i downloaded the new update and still can't",
+        "keywords": [
+          "event",
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "more updates please",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "opppp crazy game mind-blowing i think games devloper ko ek aur naya update lana chahiye 🤗🤗🤗❤️❤️❤️",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this game is so fun no ad this game makes so fun is because you every time you locked a new shark it",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:39:54.925Z"
+}

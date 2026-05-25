@@ -1,0 +1,45 @@
+{
+  "appId": "1274132545",
+  "name": "Total Battle: Strategy Game",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Total Battle is a war strategy game that will allow you to become immersed in a fantasy world of battles between ancient civilizations, magic kingdoms, and great empires. Join the legendary heroes of the mighty kingdoms and build your empire in the magical world of Total Battle!\n\nEnjoy this online strategy building game, and show off your castle defense skills and tactical war maneuvres. Command and conquer kingdoms and castles, occupy forts, and feel the rush of battle glory in this fantasy MMO",
+    "released": "2018-10-20T15:45:58Z",
+    "updated": "2026-05-21T07:37:23Z",
+    "version": "344.3.852",
+    "score": 4.6,
+    "reviews": 54096,
+    "developer": "Scorewarrior",
+    "developerUrl": "https://apps.apple.com/us/developer/scorewarrior/id1274132544?uo=4",
+    "genres": [
+      "Games",
+      "Strategy",
+      "Entertainment",
+      "Roleplaying"
+    ],
+    "releaseNotes": "Bug fixes and stability improvements.\nWe would be happy to hear your feedback and suggestions. Please send them to support@totalbattle.com"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:43:54.884Z"
+}

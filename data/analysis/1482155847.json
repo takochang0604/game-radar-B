@@ -1,0 +1,44 @@
+{
+  "appId": "1482155847",
+  "name": "Royal Match",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "King Robert needs your help to restore Royal Castle’s former glory. Break the obstacles and combine amazing power-ups to beat joyful and challenging levels! Keep unlocking wonderful areas by playing fun match-3 levels! Come along now and join the fun!\n\nOnce you play, you will come for Royal Match every day!\n\nRoyal Match features:\n• A new unique taste in match-3 levels with amusing obstacles and fun levels!\n• Collect loads of coins in bonus levels!\n• Lots of powerful boosters await for you to unl",
+    "released": "2021-02-25T08:00:00Z",
+    "updated": "2026-05-11T07:03:03Z",
+    "version": "36263",
+    "score": 4.7,
+    "reviews": 3649865,
+    "developer": "Dream Games",
+    "developerUrl": "https://apps.apple.com/us/developer/dream-games/id1482155846?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Puzzle"
+    ],
+    "releaseNotes": "Are you ready for a spectacular new update?\n\n• Get ready for amazing 100 NEW LEVELS! Watch the TURTLE spread LEAVES across the board!\n\n• Explore the NEW AREA! Craft colorful celebration at the PARADE ATELIER!\n\nNew levels are coming in every two weeks! Be sure to update your game to get the latest content!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:05:44.941Z"
+}

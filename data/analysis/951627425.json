@@ -1,0 +1,76 @@
+{
+  "appId": "951627425",
+  "name": "DRAGON BALL Z DOKKAN BATTLE",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "DRAGON BALL Z DOKKAN BATTLE is the one of the best DRAGON BALL mobile game experiences available. This DB anime action puzzle game features beautiful 2D illustrated visuals and animations set in a DRAGON BALL world where the timeline has been thrown into chaos, where DB characters from the past and present come face to face in new and exciting battles! Experience the new story and save the world of DRAGON BALL!\n\nDRAGON BALL Z DOKKAN BATTLE features a super refreshing and simplistic approach to t",
+    "released": "2015-07-16T02:59:25Z",
+    "updated": "2026-04-22T07:23:32Z",
+    "version": "6.0.5",
+    "score": 4.78061,
+    "reviews": 248008,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerUrl": "https://apps.apple.com/us/developer/bandai-namco-entertainment-inc/id352305770?uo=4",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Action",
+      "Entertainment"
+    ],
+    "releaseNotes": "v6.0.5\n- Fixed some bugs.\n\nv6.0.0\n- Added the new content \"Dokkan Frontier\".\n- Adjusted the user interface.\n- Fixed some bugs."
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 17,
+      "2": 2,
+      "3": 2,
+      "4": 4,
+      "5": 24
+    },
+    "positiveRatio": 57,
+    "negativeRatio": 39,
+    "eventMentions": [
+      {
+        "text": "the game is peak pls continue making good updates🫡",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i don’t know how long i’ve played this game but have been playing this game since the 5th anniversar",
+        "keywords": [
+          "anniversary"
+        ]
+      },
+      {
+        "text": "says there are missions to collect with the red icon and link level ups should all show up at once i",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i was summoning for baby on the brand new denver’s crossover banner with the evil god vegeta. i got ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i do not recommend this game. it is fun to play. i played it for eight or 10 years. i got a new phon",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:01:49.950Z"
+}

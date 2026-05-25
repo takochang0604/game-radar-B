@@ -1,0 +1,48 @@
+{
+  "appId": "6757611698",
+  "name": "打寶傳說:神話篇",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "二十載傳世經典，今朝神話再臨！\n《打寶傳說：神話篇》完美復刻經典傳世玩法，並融入東方神話元素，打造出一個光怪陸離的熱血世界。這裡沒有繁瑣的任務，只有最純粹的PK快感和極致的打寶體驗。瑪法大陸的風雲已經變色，天宮之上的寶座虛位以待，戰士們，是時候拔劍出鞘，書寫屬於你的不朽傳說！\n\n兄弟集結，決戰天宮：呼朋喚友，誓要拿下天宮霸主之位！\n\n無限打寶，百倍爆率：滿屏光柱，神裝遍地！\n\n輕鬆不課，福利爆倉：散人天堂，打怪掉元寶！",
+    "released": "2026-05-12T07:00:00Z",
+    "updated": "2026-05-12T07:00:00Z",
+    "version": "3.0",
+    "score": 4.7,
+    "reviews": 181,
+    "developer": "江西云鸟网络科技有限公司",
+    "developerUrl": "https://apps.apple.com/tw/developer/%E6%B1%9F%E8%A5%BF%E4%BA%91%E9%B8%9F%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/id1450632342?uo=4",
+    "genres": [
+      "遊戲"
+    ],
+    "releaseNotes": "1、修復一些已知問題"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 9 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-21T11:40:57.019Z"
+}

@@ -1,0 +1,80 @@
+{
+  "appId": "com.levelinfinite.gst",
+  "name": "Gangstar Mirage City",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Gangstar Mirage City is a multiplayer open-world action RPG, officially licensed by Gameloft and published by Level Infinite. \n\nThe legend returns. Build your empire in Gangstar Mirage City—the streets welcome the daring to get their hands dirty. There’s only one path to the top: know the right people, grab your weapon, and keep driving. With every mission, you’re closer to the dream - luxury cars, penthouses, and your own empire. This is your story!\n\nEXPLORE THE LIVING CITY\nDrive through the br",
+    "released": "Apr 19, 2026",
+    "updated": 1776973959000,
+    "version": "0.9.0_11800",
+    "installs": "100,000+",
+    "score": 4.1,
+    "ratings": 965,
+    "reviews": 392,
+    "developer": "Level Infinite",
+    "developerWebsite": "https://www.gangstarmiragecity.com",
+    "genre": "Role Playing",
+    "recentChanges": "Welcome to Gangstar Mirage City！"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 41,
+      "2": 14,
+      "3": 28,
+      "4": 22,
+      "5": 95
+    },
+    "positiveRatio": 59,
+    "negativeRatio": 28,
+    "eventMentions": [
+      {
+        "text": "magandang laro parang gta. sana sasusunod na update sana pwede magbigay ng gamit at pera at baril ta",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "great game the only question is when will be the next big update?",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "my new favorite games",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "update: my account is gone and i don't know the reason, it just logged off itself and i cant recover",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "hoping for more events , mission , heists , new clothes , guns , vehicles etc. and pls always optimi",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 30 天，評分 4.1",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-19T12:55:02.361Z"
+}

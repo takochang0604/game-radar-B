@@ -1,0 +1,44 @@
+{
+  "appId": "1098157959",
+  "name": "Evony",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Shoot and engage in battles！\nBuild your cities. Train your troops. Expand your empire. Be the king of 7 kingdoms!\nAll in Evony: The King's Return, the hottest real-time strategy MMO of 2024!\n\nUnique gameplay features:\n◆ Challenge a variety of Survivor Levels\n◆ Move, shoot, evolve weapons\n◆ Use flexible finger controls\n◆ Experience the joy of puzzle solving\n\n\nTHE EXCEPTIONALLY RICH AND AMAZING SET OF FEATURES:\n◆ YOU ARE THE SURVIVOR! Move, dodge, shoot, acquire weapons, and fight to the last mome",
+    "released": "2016-09-02T14:24:01Z",
+    "updated": "2026-05-08T00:06:34Z",
+    "version": "5.25.0",
+    "score": 4.3,
+    "reviews": 3150,
+    "developer": "TOP GAMES INC.",
+    "developerUrl": "https://apps.apple.com/ph/developer/top-games-inc/id1050386041?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing",
+      "Strategy"
+    ],
+    "releaseNotes": "- Bug fixes and improvements"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:49:23.794Z"
+}

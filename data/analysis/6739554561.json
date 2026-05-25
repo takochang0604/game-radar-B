@@ -1,0 +1,44 @@
+{
+  "appId": "6739554561",
+  "name": "信長の野望 真戦",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "【集結！最強の家臣団】\n百人以上の武将が収集・育成可能\n兵種・家門・勢力――多様な要素で自在に編制！\n\n【天下人への道は一つにあらず】\n武芸・弁論・茶道・算術…資質を選び、文武を極め、己の道を切り開け！\n\n【就任！戦国の新人城主】\nプレイヤー自らが城主となって、練兵と経営に努め、天下布武への道を突き進め！\n\n【出陣！天下統一へ】\n地形、士気、建築などさまざまな要素が、一つのマップ上に集約\n公平性と知略を極めた頂上対決、開幕！\n\n【初心者も、天下人へ】\n推奨編制で即出陣！ 星5武将4名無料入手可能。資源販売なし、知略こそがものをいう公平な戦場\n\n▼公式情報\n公式X（旧Twitter）： https://x.com/nobunagashinsen\n公式YouTube：https://www.youtube.com/@信長の野望真戦",
+    "released": "2025-12-18T08:00:00Z",
+    "updated": "2026-05-06T08:01:51Z",
+    "version": "1.0.10021",
+    "score": 4.4,
+    "reviews": 15638,
+    "developer": "Qookka Games",
+    "developerUrl": "https://apps.apple.com/jp/developer/qookka-games/id1645853327?uo=4",
+    "genres": [
+      "ゲーム",
+      "シミュレーション",
+      "ストラテジー"
+    ],
+    "releaseNotes": "S3シーズン「衆心成城」5月16日 開幕！\n※サーバーにより、開始日時が異なりますので、ご注意ください。 \n\n・8名のS3シーズン限定武将が登場\nこの戦場にもたらす、新たな変化とは！？\n\n・4つの「事件戦法」が新登場\n編制に、無限の可能性を！\n\n・新システム「一門設備」実装\nより堅固な防衛線を築き、戦局を支配せよ！\n\n・新システム「一門調略」登場\n奇策をもって勝機を掴み、戦局を覆せ！\n\n戦陣に新風、無限の策へ！"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 14 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:08.577Z"
+}

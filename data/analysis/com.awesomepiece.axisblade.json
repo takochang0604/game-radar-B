@@ -1,0 +1,87 @@
+{
+  "appId": "com.awesomepiece.axisblade",
+  "name": "AXIS-BLADE",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Thrilling blade battles unfold right in your hands!Who will become the next Axis Master?!\nWelcome to Axis-Blade, the next-gen 3D action epic RPG with PvP, \nstunning skill combos, and intense spinning clashes!\n\nAxis-Blade fuses spin mechanics, arena battles, and deep customization in one epic strategy game.\n🔥 Launch bonus available now—log in and claim your free gacha rewards!\n\n▶ Real Time 3D Action Battles\nSpin your Blade in 1v1 PvP and 3v3 team battles! \nUse real-time controls to unleash epic ",
+    "released": "Apr 15, 2025",
+    "updated": 1778667307000,
+    "version": "1.5.1",
+    "installs": "1,000,000+",
+    "score": 3.8,
+    "ratings": 8217,
+    "reviews": 27,
+    "developer": "AWESOMEPIECE",
+    "developerWebsite": "https://awesomepiece.com",
+    "genre": "Action",
+    "recentChanges": "- Version 1.5.1 Update<br>- Bug Fixes"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 15,
+      "2": 5,
+      "3": 20,
+      "4": 24,
+      "5": 136
+    },
+    "positiveRatio": 80,
+    "negativeRatio": 10,
+    "eventMentions": [
+      {
+        "text": "game is top notch but i think adding an update of messaging friends will be good because what is use",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "actual beyblade game i can recommend.👍 animations on attacks is cool, parts attachment is cool and ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i’ve been playing axis blade for a while now and i’m really impressed with the overall quality. the ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "add new updates, add new beys, or add new events. do something new that everyone enjoys and all the ",
+        "keywords": [
+          "event",
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "we need more events etc.",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 80%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-18T11:38:51.225Z"
+}

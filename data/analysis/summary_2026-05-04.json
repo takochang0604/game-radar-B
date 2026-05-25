@@ -1,0 +1,4908 @@
+{
+  "date": "2026-05-04",
+  "analyzed": 80,
+  "results": [
+    {
+      "appId": "6755577882",
+      "name": "コンビニ発展ものがたり",
+      "platform": "ios",
+      "market": "jp",
+      "detail": {
+        "description": "コンビニ発展ものがたり\n\n小さなコンビニから、街一番のお店へ！\nお金を稼いで、設備を解放し、コンビニをどんどん発展させていく\n放置×育成×タイクーンゲームです。\n\n■ お金を稼いでコンビニを成長！\n\n商品を売ってお金をゲット。\n稼いだお金でレジ・棚・冷蔵ケースなどの設備を強化＆解放！\n設備が増えるほど、売上もどんどんアップします。\n\n■ すべて解放して次の街へ！\n\n現在の店舗の設備をすべて解放すると、\n次の街のコンビニへ進出可能！\n街が変われば客層も変化。\n新しい発展ストーリーが待っています。\n\n■ 選択で運命が変わるストーリーイベント\n\n定期的に発生するストーリーイベントでは、\nあなたの選択がコンビニの未来を左右します。\n\t•\tお店のレビューが上がる\n\t•\tボーナスがもらえる\n\t•\t逆に評判が下がってしまうことも…？\n\n正解はひとつじゃない！？\n経営センスが試されます。\n\n■ こんな人におすすめ\n\t•\t放置・育成ゲームが好き\n\t•\tタイクーン・経営シミュレーションが好き\n\t•\tコツコツ発展させるのが楽しい\n\t•\t選択肢のあるゲームが好き\n\nさあ、あなたの手で\nコンビニを発展させ、街を",
+        "released": "2025-12-21T08:00:00Z",
+        "updated": "2026-03-24T01:00:34Z",
+        "version": "1.1.7",
+        "score": 2.64615,
+        "reviews": 130,
+        "developer": "FTY LLC.",
+        "developerUrl": "https://apps.apple.com/jp/developer/fty-llc/id1225503009?uo=4",
+        "genres": [
+          "ゲーム",
+          "カジュアル",
+          "エンターテインメント",
+          "シミュレーション"
+        ],
+        "releaseNotes": "バグ修正。。。ご不便をおかけして申し訳ございません！（土下座）"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 20,
+          "2": 6,
+          "3": 3,
+          "4": 2,
+          "5": 18
+        },
+        "positiveRatio": 41,
+        "negativeRatio": 53,
+        "eventMentions": [
+          {
+            "text": "広告の頻度が多すぎてゲームになりません。\nそれに、イベント発生で店員ゲットのチャンスで広告を見ても何も人員補充されませんでした。",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "広告みたいに値段設定できないし他の店と競争できない\nイベントも少ないし最初は設備が安かったのにどんどん高くなっていってお金が貯まるのが遅いからほぼ放置\nまあ放置して楽しみたいならいいけど、",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "イベントが結構発生してその度に広告でるのめんどくさい。",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "1分毎くらいに強制イベントからの強制広告のせいで放置ゲームをしているというより、広告をひたすら見せられているだけのアプリ\nゲームと言うのも烏滸がましい",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "イベント発生の回数が少ない\nたまにしか無い\nだからほぼ放置\nイベント発生して選択したら強制広告\n放置して楽しむ分にはよき\n飽きやすいかも",
+            "keywords": [
+              "イベント"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:32.315Z"
+    },
+    {
+      "appId": "6749109552",
+      "name": "X-Clash: サバイバル",
+      "platform": "ios",
+      "market": "jp",
+      "detail": {
+        "description": "邪悪なる虚無が大陸を引き裂き、アンデッドの疫病が文明の最後の残滓を貪り尽くす！この二重の終末において、真に相応しき者のみが王国を再建できるのだ！\n\nこの大災厄を生き抜くには、戦略的指揮と生存本能の両方を極めなければならない！\n\nチャンピオンたちへの助言：真の力は腕力にあらず、仲間との不屈の絆を築くことにある。賢明に仲間を集めよ——彼らの血統こそが勝利への鍵なのだ。\n\n注目の特徴：\n\n- 複数の選択肢がある全く新しいレベル体験\n- 片手操作で大陸を制覇せよ！\n- 謎を解き明かし、様々な戦略ゲームプレイを体験せよ\n- 収集とマッチングで虚無の謎を解き明かせ\n- 力を強化し、他者と同盟を結んで最大の支援を得よ！",
+        "released": "2025-10-10T07:00:00Z",
+        "updated": "2026-04-27T02:44:51Z",
+        "version": "1.0.14",
+        "score": 4.49091,
+        "reviews": 4017,
+        "developer": "9z Games(HK)",
+        "developerUrl": "https://apps.apple.com/jp/developer/9z-games-hk/id1605575568?uo=4",
+        "genres": [
+          "ゲーム",
+          "カジュアル",
+          "ストラテジー"
+        ],
+        "releaseNotes": "パフォーマンスを最適化する"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 40,
+          "2": 4,
+          "3": 1,
+          "4": 1,
+          "5": 3
+        },
+        "positiveRatio": 8,
+        "negativeRatio": 90,
+        "eventMentions": [
+          {
+            "text": "このゲームを始めて2ヶ月経ちましたので、レビューします！\n\nまず2ヶ月で課金した金額は\n50万ちょいです！\n\nイベント等のアイテムを手に入れるには最低でも20000から30000くらいが必要だと思いま",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "先に結論を話すと最初のシューティングゲーもすぐ飽きてつまらないです。\nよくある放置系カジュアル集金ゲーですね。最初はラストウォーみたいなシューティングをやらせてくれるが城レベル9くらいになったあたりか",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "最近こんなのばっかなので慣れっこ。広告のゲームは要素のごくごく1部。99ぱーを占めるのはストラテジー。要は課金課金かっきーんです。札束でユーザー同士殴り合い殺し合うありふれたつまらない詐欺ゲー。\nちょ",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "蜂のゲームだけやるというのは無理です。\n本編？をある程度進めないと出来ない仕様です\n他のミニゲームも広告でよく見るタイプのゲームです\nそれプラス城塞をアップデート、キャラの解放などやること多過ぎて面倒",
+            "keywords": [
+              "アップデート"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 7 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 4 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:34.773Z"
+    },
+    {
+      "appId": "1596859213",
+      "name": "Top War: Battle Game - Funtap",
+      "platform": "ios",
+      "market": "vn",
+      "detail": {
+        "description": "Đội Quân Hắc Ám ập đến! Bạo quân thống trị thế giới \n\nChiến hoả liên miên, người dân lầm than, ai sẽ giải cứu thế giới đây? \nGia nhập Liên Minh Tự Do dũng cảm đương đầu, trở thành Chỉ huy mạnh nhất! \n\n◆Ghép Để Nâng Cấp◆ \nDù là kiến trúc hay đơn vị lính, cứ Ghép là Nâng! Tiết kiệm vô số thời gian so với phương thức nâng cấp trước đây, tận hưởng niềm vui sướng khi sở hữu chiến lực mạnh mẽ trong nháy mắt! \n\n◆Tướng Huyền Thoại◆ \nTrở thành thống lĩnh ba quân, chiêu mộ Tướng huyền thoại. TƯớng Hải, Lụ",
+        "released": "2021-12-19T08:00:00Z",
+        "updated": "2026-04-30T02:10:46Z",
+        "version": "1.650.0",
+        "score": 4.65024,
+        "reviews": 7994,
+        "developer": "Valar Technology Corp",
+        "developerUrl": "https://apps.apple.com/vn/developer/valar-technology-corp/id1438383758?uo=4",
+        "genres": [
+          "Games",
+          "Role-Playing",
+          "Strategy"
+        ],
+        "releaseNotes": "Thông báo phiên bản\n[Ưu hoá và sửa Bug]"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 28,
+          "2": 1,
+          "3": 3,
+          "4": 1,
+          "5": 16
+        },
+        "positiveRatio": 35,
+        "negativeRatio": 59,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 4 天前",
+          "confidence": "high"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:37.070Z"
+    },
+    {
+      "appId": "com.ea.gp.pvzn3xt",
+      "name": "Plants vs. Zombies™ 3: Evolved",
+      "platform": "android",
+      "market": "ph",
+      "detail": {
+        "description": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nWhether you love strategy games, fast-paced tower defense, or chaotic action, Plants vs. Zombies™ 3: Evolved delivers a fresh spin on defending against every zombie attack. Step into Neighborville today to grow, merge and experiment with new tactics as you help shape a wild, taco-fueled tower defense against Dr. Zomboss’ late",
+        "released": "Jan 12, 2024",
+        "updated": 1775574756000,
+        "version": "28.0.21",
+        "installs": "1,000,000+",
+        "developer": "ELECTRONIC ARTS",
+        "developerWebsite": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-3",
+        "genre": "Strategy",
+        "recentChanges": "WHAT’S NEW<br><br>Merge: Use meteorite power to merge 55+ unique plants (very scientific!)<br>Adventures: Help Dave and the plants confront Dr. Zomboss in 100 story levels!<br>Lawn Patrol: Explore new plants and zombies!<br>Expeditions: Play really hard battles, for funnzies!<br>My Yard: Collect weird objects to display in your yard for decreased curb appeal!<br>Zen Garden: Nurture your plant buddies… then mulch them into seeds for upgrades? (You monster!)<br>Odd Jobs: Play Dave’s mini-games to power up your… garden?"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 12,
+          "2": 3,
+          "3": 8,
+          "4": 9,
+          "5": 18
+        },
+        "positiveRatio": 54,
+        "negativeRatio": 30,
+        "eventMentions": [
+          {
+            "text": "earning tier ii let alone tier iii plants takes an unbelievably long time with no idication as to wh",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "takes days of boring grinding to get 1 upgraded plant. would cost nearly €50 to unlock the 3rd upgra",
+            "keywords": [
+              "season"
+            ]
+          },
+          {
+            "text": "good game, but needs polishing with more plants, harder gameplay (why did you reduce the hp of coneh",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "the plant mini games are so boring, who play tested these and thought you know what pvz needs. a bor",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "the game is looking really beautiful. the new animations and plants merging mechanic are fun. the lo",
+            "keywords": [
+              "new"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:39.308Z"
+    },
+    {
+      "appId": "com.epidgames.trickcalrevive",
+      "name": "트릭컬 리바이브",
+      "platform": "android",
+      "market": "kr",
+      "detail": {
+        "description": "세계수 중심으로 펼쳐진 세계 \"엘리아스\"\n얼떨결에 교주가 된 당신과 100명이 넘는 볼따구 캐릭터가 함께하는 우당탕탕 이세계 라이프!\n\n◼︎ 볼따구 당기기! 귀여운 캐릭터와 교감하세요\n100명 이상의 개성 넘치는 캐릭터와의 특별한 교감!\n볼 당기기·쓰다듬기 등 다양한 상호작용이 기다립니다.\n\n◼︎ 모든 이야기는 풀보이스 더빙으로 즐겨보세요\n메인스토리와 이벤트 스토리까지 전편 한국어 풀더빙!\n일상에서 모험으로 이어지는 유쾌한 이야기,\n2주마다 새롭게 공개되는 신규 캐릭터와 풀더빙 스토리를 시청해 보세요.\n\n◼︎ 가볍게 즐기는 전투, 깊이 있는 전략을 만들어보세요\n자동 전투로 손쉽고 간편한 플레이!\n챌린지, 던전, PvP 등  다양한 콘텐츠에서 색다른 재미를 즐겨보세요.\n캐릭터 고유 속성을 조합해 나만의 전략을 세우고 도전해 보세요.\n\n◼︎ 매 시즌 새롭게 선보이는 미니게임, 풍성한 꾸미기 콘텐츠를 만나보세요\n시즌마다 등장하는 다채로운 미니게임에서 특별한 재미를 느껴보세요!\n집 꾸미기와",
+        "released": "Sep 26, 2023",
+        "updated": 1777584424000,
+        "version": "10539",
+        "installs": "500,000+",
+        "score": 4.8170676,
+        "ratings": 43194,
+        "reviews": 12661,
+        "developer": "EPIDGames",
+        "developerWebsite": "https://www.trickcal.com/",
+        "genre": "Role Playing",
+        "recentChanges": "메인스토리 시즌3 챕터 4-B 오픈!<br>[푸른 하늘 위 타임어택!] 사복 세트 출시!"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 2,
+          "2": 1,
+          "3": 3,
+          "4": 1,
+          "5": 43
+        },
+        "positiveRatio": 88,
+        "negativeRatio": 6,
+        "eventMentions": [
+          {
+            "text": "i would give this game 5 stars if it wasn't for a couple of issues. pros: very cute characters and s",
+            "keywords": [
+              "event",
+              "update",
+              "anniversary"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 3 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 88%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:41.669Z"
+    },
+    {
+      "appId": "pics.karaage.sokutaiho",
+      "name": "Patrol Time! Instant Arrest!",
+      "platform": "android",
+      "market": "kr",
+      "detail": {
+        "description": "You are a police officer at a small neighborhood police box.\n\nFrom daily patrols to on-site investigations—\nto keep the streets safe, spot criminals hiding among civilians and arrest them!\n\n▼How to Play\n・Patrol the streets.\n・When you meet a resident, question them.\n・Observe carefully during questioning and decide whether to arrest.\n・Arrest a criminal, and they’ll vanish on the spot—off to jail!\n・Sometimes serious cases occur—catch the culprit at the scene!\n・The more criminals you arrest, the fas",
+        "released": "Mar 8, 2026",
+        "updated": 1777541194000,
+        "version": "1.0.6",
+        "installs": "10,000+",
+        "score": 2.8,
+        "ratings": 63,
+        "reviews": 5,
+        "developer": "KARAAGE GAMES LLC.",
+        "developerWebsite": "https://app.karaage.pics/privacy/",
+        "genre": "Simulation"
+      },
+      "reviewAnalysis": {
+        "total": 6,
+        "starCounts": {
+          "1": 5,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "positiveRatio": 0,
+        "negativeRatio": 100,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 4 天前",
+          "confidence": "high"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:43.843Z"
+    },
+    {
+      "appId": "com.qookkagames.xczyw.gp.jp",
+      "name": "信長の野望 真戦",
+      "platform": "android",
+      "market": "jp",
+      "detail": {
+        "description": "Enter a new Sengoku period where strategy and life (drama) intersect!\n\n\"Nobunaga's Ambition: True Battle\" is an innovative Sengoku SLG x RPG, officially licensed by \"Nobunaga's Ambition: A Realm Reborn\" and brought to you by the creators of \"Romance of the Three Kingdoms True Battle,\" which has been downloaded over 100 million times worldwide.\n\n[Assemble! The Strongest Vassals]\nCollect and train over 100 warlords.\nOrganize your vassals freely based on a variety of elements: military branch, fami",
+        "released": "Dec 4, 2025",
+        "updated": 1776417236000,
+        "version": "1.0.10017.13",
+        "installs": "100,000+",
+        "score": 4.155361,
+        "ratings": 4452,
+        "reviews": 891,
+        "developer": "Qookka Games",
+        "developerWebsite": "https://nobunaga-shinsen.qookkagames.jp/",
+        "genre": "Strategy",
+        "recentChanges": "「真戦夏の陣 第一章」開催決定！<br><br>姫武将「お初」と「お江」がいよいよ登場！イベント期間中、ゲームにログインすると、限定登用状10枚がもらえます！<br><br>さらに、ゲーム内外でさまざまなイベントが開催され、参加すると小判、登用状、武名の証、イベント限定称号など、たくさんの報酬を獲得できます！"
+      },
+      "reviewAnalysis": {
+        "total": 3,
+        "starCounts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 1
+        },
+        "positiveRatio": 100,
+        "negativeRatio": 0,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:45.986Z"
+    },
+    {
+      "appId": "6745691636",
+      "name": "吃碰杠连连",
+      "platform": "ios",
+      "market": "cn",
+      "detail": {
+        "description": "《吃碰杠连连》—— 融合麻将智慧的创新消除游戏\n一场颠覆传统的消除体验，将东方麻将哲学与现代解压玩法完美结合。在指尖轻触间激活大脑潜能，享受策略消除与知识积累的双重乐趣。\n\n核心特色\n• 创新麻将消除玩法\n基于经典「吃、碰、杠」规则重新设计，每个关卡都是精心布局的思维谜题。通过策略性选择与组合，体验深度思考带来的满足感。\n\n•在娱乐中掌握智慧\n无需任何麻将基础，在轻松游玩过程中自然理解复杂牌型组合。每一次消除都是知识积累，让成长悄然发生。\n\n•智能辅助系统\n内置动态提示与多种特效道具，在恰当时机提供恰到好处的帮助。既保持挑战性，又确保流畅的游戏体验。\n\n•精心设计的进度体系\n从简单到复杂的渐进式关卡设计，配合舒适视觉反馈与悦耳音效，打造沉浸式的心流体验。",
+        "released": "2025-05-12T07:00:00Z",
+        "updated": "2025-12-23T08:24:06Z",
+        "version": "1.0.9",
+        "score": 4.52337,
+        "reviews": 1091,
+        "developer": "Guangzhou Duoying Technology Co.,Ltd",
+        "developerUrl": "https://apps.apple.com/cn/developer/guangzhou-duoying-technology-co-ltd/id1620327837?uo=4",
+        "genres": [
+          "游戏",
+          "休闲"
+        ],
+        "releaseNotes": "同步更新游戏玩法内容"
+      },
+      "reviewAnalysis": {
+        "total": 36,
+        "starCounts": {
+          "1": 22,
+          "2": 2,
+          "3": 1,
+          "4": 2,
+          "5": 9
+        },
+        "positiveRatio": 31,
+        "negativeRatio": 67,
+        "eventMentions": [
+          {
+            "text": "为啥让输入真实姓名和身份证号码？绝对不能输入！ 你看到的这个“实名认证”弹窗，100%是诈骗陷阱。\n\n正规游戏实名认证通常由国家新闻出版署统一管理，或者通过微信/qq授权一键完成，绝对不会在游戏内直接",
+            "keywords": [
+              "新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:48.457Z"
+    },
+    {
+      "appId": "1235504705",
+      "name": "QQ飞车",
+      "platform": "ios",
+      "market": "cn",
+      "detail": {
+        "description": "腾讯十年经典，唯一官方正版《QQ飞车手游》，全球累计注册用户突破2亿，全民竞速手游不可不玩！\n\n《QQ飞车手游》由端游原班人马倾情打造，采用最新的渲染方式，为玩家带来耳目一新的视觉体验！玩法上传承端游的操作手感，原汁原味还原各种中高端操作技巧，竞速赛、道具赛、排位赛、剧情模式等端游经典模式玩法悉数登场，等你挑战！指尖狂欢，极速漂移，尽在《QQ飞车手游》！\n\n---游戏特色---\n\n【唯一官方正版，腾讯十年经典】\n\n原班人马倾情打造，十年端游经典，完美呈现。\n\n \n\n【3分钟！随时随地畅快漂移】\n\n3分钟，随时随地畅快飙一局！没有场地和时间限制，想怎么飙车就怎么飚！极速漂移，一触即发！\n\n \n\n【指尖极速漂移，手感完美还原】\n\n原汁原味还原各种端游操作技巧，保证了操作的深度，在指尖上来一场畅爽淋漓的极速漂移体验。\n\n \n\n【独创道具传递，畅享组队乐趣】\n\n妙趣横生的道具赛，各种各样的道具，给你不一样的惊喜。与好友一同组队，道具传递，乐趣加倍！\n\n【炫酷赛车，个性装扮，随心搭配】\n\n赛车经典延续，品质升级，百变时装、翅膀，随心搭配，找到与众不同的自己！\n\n \n\n【趣味休闲区 亲密交友】\n\n",
+        "released": "2017-12-27T03:29:51Z",
+        "updated": "2026-04-22T21:10:11Z",
+        "version": "1.56.038530",
+        "score": 4.1239,
+        "reviews": 910820,
+        "developer": "Shenzhen Tencent Tianyou Technology Ltd",
+        "developerUrl": "https://apps.apple.com/cn/developer/shenzhen-tencent-tianyou-technology-ltd/id1586101358?uo=4",
+        "genres": [
+          "游戏",
+          "娱乐",
+          "动作",
+          "竞速"
+        ],
+        "releaseNotes": "一、酷洛米时间到！\n\nQQ飞车x酷洛米联动，快来和酷洛米一起，开启全新萌趣旅程！\n快翻出你背包中的紫色衣服，酷洛米时间到！酷洛米即将来到飞车大陆，橘妹已经等不及坐上赛车，感受十一城紫色的风了！\n\n二、筑梦之旅 闪耀之路\n\n大家喜爱的双人玩法逐梦同行迎来2.0版本升级！「筑梦携行」玩法将于新版本与各位车手见面～在该玩法中，车手们可以与好友携手同行，共同筑就极速之梦！车手们可以选择单人匹配或双人组队参与比赛，在单局中获得队伍积分前2名即可获得胜利！\n在「筑梦携行」玩法中，每局将获得星光值奖励，累积星光值可以解锁更强力的尾流效果和竞速buff，还可在赛季结束后结算排行榜并发放称号奖励，车手们快来努力争取吧！\n\n1、双人组队竞速，吸收队友尾流：车手将会和队友共同参与比赛。小队中，跑在前面的车手将会为队友留下尾流，而后面的赛车手如果能吸收到队友尾流的话，将会获得强力增益，并为队伍更快累积电量。\n\n2、累积电量，解锁强力竞速加成：队伍在吃到尾流加成或穿过充电桩时，将会进行充能，当电量充能达到临界值时，会解锁对应的电量buff，带来全新的竞速加成。解锁全部buff，在赛道上通过buff加持，击败其他队伍！\n\n3、开局随机buff：开局时，每个队伍随机获得buff，累积星光值还可解锁更高级buff、提升高级buff出现概率。解锁更强力的buff，助你快人一步！\n\n4、随机道具助力前行：单局内通过道具门时，将会获得一个随机道具\n\n5、累积星光值：单局结算时会累积赛车手的星光值，星光值可以用来解锁竞速buff升级，以及解锁各种名片夹、语音包、套装等奖励！车手们的星光值还会进行累积排名，快来在排行榜上闪耀你的星光吧~\n\n三、界面焕新 视觉升级\n\n1、界面全面更新，游戏内整体风格更新，新增画质滤镜功能，可以选择不同风格，解决了部分玩家资源装备展示效果突变的问题。\n\n2、新增UI界面主题包，入口在背包-个性化（默认新风格，可以在背包里切换经典风格）\n\n3、游戏优化了分辨率的设置效果，现在切换到标清分辨率也能保证按钮和文字的清晰度\n\n4、个人空间主页界面优化，玩家个性标签内新增更多个性化表达内容\n\n5、大厅界面布局调整，大厅内移除橘子电玩入口，如需使用可在活动界面中找到\n\n6、颁奖台改版，设计了全新的颁奖台效果\n\n四、梦幻庄园 更新优化\n\n1、庄园支持保存自定义花径功能\n在进入绘制花径界面后，可进行上传当前自己绘制的自定义花径，该信息将被保存在图案中可直接像预设图案一样使用。但与预设图案不同，玩家保存的自定义图案还会保存轨迹上使用的鲜花的信息。玩家们可以更方便地随时更换自己的创作啦~\n\n2、绘制花径过程玩家视角范围提升\n在进入绘制花径界面后，可通过手指缩放进一步拉大视角，可以更完整地看见花圃，便于玩家们更好地观察自己的创作\n\n3、摸猪记录优化\n玩家可在“记录”界面查看谁摸了自己的小猪，不再面对小猪爆了一地却不知道是谁干的的情况了~\n\n4、庄园新增可幻化机甲\n在梦幻庄园内的机甲幻化中，新增了序列未来LTR、奥莉娜、魅娅、枢米尔。\n\n5、庄园拍照功能上新\n\n5.1 新增【景观】选项，车手们可自由更换庄园时间、天气、景观。\n时间包括白天、黄昏、黑夜\n天气包括雪天、阴天、雾天、雨天\n景观包括萤火虫、花瓣、蝴蝶、爱心、泡泡\n注意：天气与景观为互斥关系，不同同时选中~\n\n5.2【一键成片】选项中新增【摄像】页签，车手们可选择镜头进行快捷运镜\n镜头包括：拉远镜头、推进镜头、下移镜头、右环绕镜头、左环绕镜头、过肩后拉镜头\n\n5.3 跟跳功能优化\n版本更新后，跟跳功能将支持不同类型套装之间的同步，包括机甲幻化、新体型套装、臻藏套装等\n\n6、庄园内支持乘坐座椅/骑宠升空\n\n6.1 庄园内支持乘坐座椅/骑宠升空，三段升空高度（10/30/50米）自主选择；\n\n6.2 支持好友共乘（注：机甲幻化状态下不支持乘坐座椅）\n\n7、梦幻庄园魔镜更新\n衣柜选择太多？还在为OOTD烦恼？魔镜来帮你！\n版本更新后，车手们前往梦幻庄园-唤醒魔镜-穿搭推荐，即可体验该功能。魔镜将会根据车手们的需求，为车手进行装扮推荐~快去试试看吧！\n\n8、体验优化：\n\n8.1 玩家可选择是否展示进别墅过场动画\n\n8.2 收菜、照料、浇水体验优化、可打断动作\n\n8.3 升空器飞行距离提升，玩家可以看到更大的范围\n\n8.4 管家委托设置在云端，切换设备也不需要重新设置啦\n\n8.5 神同步功能支持多体型\n\n五、S52新赛季 筑梦携行\n\n欢迎来到S52赛季——筑梦携行！4月23日起，新赛季正式开放，赛季专属套装、飞饰、脚底炫光等奖励等你来拿～\n\n1、S52排位赛时间：2026年04月23日-6月25日\n\n2、赛季赞助车厂：雷诺重工\n\n3、赛季玩法更新—萌宠大战\nS52赛季全新趣味玩法来袭！在个人竞速模式的排位赛和经典模式下，有一定几率触发赛季玩法——萌宠大战，完成目标任务可获得额外奖励。\n\n4、S52赛季专属奖励\n车手们参与排位赛就有机会带走S52赛季专属套装紫萝轻语、赛季专属赛车皮肤阿斯顿马丁 星梦、S52专属飞饰紫梦甜心哦～\n\n5、S52车队赛&队标赛\n\nS52车队赛专属脚底炫光：\n（1）本赛季车队最高段位达到铂金段位且个人车队赛完成20场：即可获得S52车队赛炫光（30天）\n（2）本赛季车队最高段位达到钻石段位且个人车队赛完成30场：即可获得S52车队赛炫光\n\nS52队标赛专属脚底炫光：\n（1）本赛季车队获得350队标且个人夺得60队标：可获得S52队标赛炫光（30天）\n（2）本赛季车队获得500队标且个人夺得80队标：可获得S52队标赛炫光\n\n六、体验优化\n\n1、商城&背包优化\n\n1.1 角色头型大小切换功能\n在背包内，右下角可进行切换头型大小，各位车手可自行选择喜爱的头型大小。（高模不适配，只支持经典体型）\n\n1.2 新增手持动作开关\n佩戴手持动作后，可在背包-饰品-手持页签中进行开启或关闭手持动作。\n\n2、对局体验优化\n2.1 三人房布局功能优化\n优化经典和排位赛三人房布局，侧边好友栏可以收起\n\n2.2 精英积分展示效果优化\n优化排位赛精英积分生效时的动画效果，并展示对局得分详细情况\n\n2.3 CWW特训界面优化\n优化了CWW特训界面布局和效果\n\n2.4 单人模式冲线界面优化\n优化了所有单人模式下的重现界面，整合效果一致\n\n2.5 结算流程优化\n匹配模式冲线流程改版，参加个人竞速模式，冲线界面增加进入颁奖台按钮，满足3人冲线即可快速进入颁奖台界面"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 31,
+          "2": 0,
+          "3": 2,
+          "4": 5,
+          "5": 11
+        },
+        "positiveRatio": 33,
+        "negativeRatio": 63,
+        "eventMentions": [
+          {
+            "text": "后面的抽车越来越难，越来越费钱了，旧车和新车五六月在出厂最好，过年的抽车无法抽，疫情时间哪有那么多钱还加费钱问题",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "新玩家想玩一想到因为🚗的问题跑不过就不想玩了",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "傻鸟游戏每次更新完就卡着不动了开不了别开迟早倒闭弱智游戏",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "就是更新以后那个练图播放视频和设置旗点的位置也太阴了非常不舒服",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "真的越玩越无语，必须给个差评！首先匹配机制超级不合理，要么匹配到实力差距超大的队友带不动，要么乱匹配对手，完全不按段位和水平匹配，输赢全靠系统安排，一点游戏体验都没有。\n\n其次游戏按键特别难用，手感巨",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 11 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:50.991Z"
+    },
+    {
+      "appId": "6752602491",
+      "name": "三國：謀定天下",
+      "platform": "ios",
+      "market": "tw",
+      "detail": {
+        "description": "《三國：謀定天下》是一款為新世代策略玩家打造的三國戰爭遊戲。\n 你將化身亂世君主，尋訪三國名將，組建各種戰場隊伍，親身參與真正的大型國戰！\n\n在這裡，你不只是打仗——\n你要種田發育、築城囤糧、訓練軍隊，從一座小城開始經營勢力；\n加入最多200人的同盟，和盟友一起攻城掠地、擴張版圖；\n若你擅長外交，更能遠交近攻，在談判與謀略之間左右天下局勢，最終攻入洛陽，成為一代英雄。\n\n這裡的戰場不是數值比拼，而是腦力對決。\n兵種剋制，上百種戰法搭配，勝負全在你的一念之間\n在遼闊的沙盤大地圖上，利用山谷設伏、平原布陣，隨時上演以少勝多的奇跡。\n獨創「前線輜重」玩法，補給線與運輸都是真實戰爭的一部分\n我們承諾：不賣資源、不賣VIP，保證絕對公平的競技環境。\n贏家，永遠屬於更會思考的人。\n\n遊戲首創六大職業分工——奇佐、鎮軍、神行、青囊、司倉、天工，各司其職、互相配合。\n奇佐可火攻斷糧，擾亂敵軍後勤；\n神行能隱身伏擊，奇襲關鍵目標；\n天工打造攻城器械，讓攻城事半功倍。\n在千人攻城戰中，職業搭配不只是輔助，而是直接影響補給線、戰術選擇與最終勝負。\n打仗不只看戰力，更看分工與策略。\n\n同時遊戲加入大量降肝減負",
+        "released": "2026-01-20T08:00:00Z",
+        "updated": "2026-04-23T07:56:22Z",
+        "version": "1.29.0",
+        "score": 4.43018,
+        "reviews": 881,
+        "developer": "BILIBILI HK LIMITED",
+        "developerUrl": "https://apps.apple.com/tw/developer/bilibili-hk-limited/id1382536367?uo=4",
+        "genres": [
+          "遊戲",
+          "策略"
+        ],
+        "releaseNotes": "1、優化部分遊戲體驗；\n2、修復部分已知問題。"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 18,
+          "2": 1,
+          "3": 5,
+          "4": 4,
+          "5": 21
+        },
+        "positiveRatio": 51,
+        "negativeRatio": 39,
+        "eventMentions": [
+          {
+            "text": "標榜不更動任何數據，結果在賽季結算亂給你加東西",
+            "keywords": [
+              "賽季"
+            ]
+          },
+          {
+            "text": "為何要搞爛新賽季的霸業、涿鹿卡包？實在搞不懂這波操作到底帶給你們什麼優越感。",
+            "keywords": [
+              "新",
+              "賽季"
+            ]
+          },
+          {
+            "text": "有趣，合作戰略戰術，抽卡保底來",
+            "keywords": [
+              "合作"
+            ]
+          },
+          {
+            "text": "s2賽季拖太晚了",
+            "keywords": [
+              "賽季"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 11 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 4 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:53.246Z"
+    },
+    {
+      "appId": "6443467666",
+      "name": "Love and Deepspace",
+      "platform": "ios",
+      "market": "ph",
+      "detail": {
+        "description": "As the brand-new installment of the popular Mr. Love series, Love and Deepspace allows you to step into a sci-fi world where love knows no bounds. With immersive cutscenes, 3D storylines and interactions, love is truly within reach!\n\n[New Home Feature and Main Story]\nThe Home Feature is now available and there will be a new Main Story update! \"Before a dominant will, even the cosmos bows.\" Version 5.0 Second Anniversary [Throne of Eros] is now available. Draw closer to him as the story unfolds l",
+        "released": "2024-01-17T08:00:00Z",
+        "updated": "2025-12-30T20:59:50Z",
+        "version": "5.0.0",
+        "score": 4.12802,
+        "reviews": 2734,
+        "developer": "INFOLD PTE. LTD.",
+        "developerUrl": "https://apps.apple.com/ph/developer/infold-pte-ltd/id1646211490?uo=4",
+        "genres": [
+          "Games",
+          "Simulation"
+        ],
+        "releaseNotes": "Version 5.0 of Love and Deepspace [Throne of Eros] Is Now Released!\n\n[New 5-Star Memories]\n-Before a dominant will, even the cosmos bows. The limited Wish Pool [Throne of Eros] is now available with the new Memory series. You can obtain limited-time pulls, Memory-themed Outfits, and selectable event-limited 5-Star Memories.\n-Participate in the [Illusia Locus] event, and use the Kindling Guide to claim five new 4-Star Memories for free!\n\n[New Home Feature]\n-With Linkon Real Estate, you can enjoy a happy life! The Home feature is now available. You can claim a detached garden villa and 1000+ pieces of exquisite furniture for free! With him by your side, home feels warmer than ever. Enjoy rich interactive activities with him. You can grow flowers, take photos together, and customize the decor to create your unique, cozy haven. Don't forget to enjoy the fireworks with him on the special celebration night and treasure these radiant memories.\n\n[Yearly Mega Sale] \n-Anniversary Offer is available for a limited time. Unlocks the Premium Gift to claim up to 1300% Bonus Rewards for 50 consecutive weeks!\n-New Promise launches, romance awaits. Encounter with new Memories! The First Top-Up Gift for all Crystal packages in the Shop will be reset, and the Aurum Pass benefit will also be enhanced!\n\n[Anniversary Celebration Now Live] \n-Main Story [To Our Yesterday] updates, complete the exploration of [Timelock Key] and claim His Universal Outfits, Diamonds and more for free!\n-[Heart Compass] Selectable 5-Star Memories Limited Special Wish Pool is available! Choose your favorite Memories and get the Memories you want quickly!\n-Anniversary Event [Royal Masque] is available for a limited time. Participate in the event to claim a permanent 5-Star Memory Crate, 10 pulls, commemorative items, and more rewards!\n-Intangible Cultural Heritage Papercutting Theme Event [Poetic Figures] is available. Discuss Papercutting with him and claim event-themed Wall decor, ACC., Stickers, and more rewards!\n-[Heart's Archive] commemorative event is available. Check the Heart's Archive, and view Yearly Highlights Journal. His handwritten letters and paintings, exclusive titles, journal items, and more await!\n-[Lemonette's Trove] is permanently available. You can claim previous limited event rewards for free. Surprises last, limited-time activity reruns.\n\n[Rewards]\n-Participate in the Version 5.0 Second Anniversary, and log in to claim a detached garden villa, 1000+ pieces of exquisite furniture and new event-themed 4-Star Memory*5 for free!\nAlso, claim Selectable 5-Star Memory & 4-Star Memory Crate, limited With Him Decor, diamonds, limited-time pulls, and more for free!"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 6,
+          "2": 3,
+          "3": 4,
+          "4": 9,
+          "5": 27
+        },
+        "positiveRatio": 73,
+        "negativeRatio": 18,
+        "eventMentions": [
+          {
+            "text": "i used to play lads but my phone can’t keep up with the storage so i end up uninstalling it a year a",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "1. absolutely ridiculous to put so much content behind the lunar shop and yet completely forget abt ",
+            "keywords": [
+              "event",
+              "new"
+            ]
+          },
+          {
+            "text": "this is just no ordinary otome game i love how this game is so detailed and it got me obsessed. it h",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "customer service takes 2–3 days just to respond, and when they do, the replies are vague and repetit",
+            "keywords": [
+              "limited"
+            ]
+          },
+          {
+            "text": "as a new player, i really got hooked into playing. but i came to notice how costly the wish system i",
+            "keywords": [
+              "event",
+              "new"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:55.555Z"
+    },
+    {
+      "appId": "6504332779",
+      "name": "Color Block Jam",
+      "platform": "ios",
+      "market": "jp",
+      "detail": {
+        "description": "Color Block Jam: A Fun & Challenging Puzzle Adventure\nGet ready for an exciting block puzzle game where your creativity and logic skills are key to unlocking new levels! In Color Block Jam, your mission is to send colored blocks to their matching doors and watch them disappear in a satisfying burst! With simple yet captivating gameplay, the challenge escalates as you progress through increasingly tricky levels.\n\n\n\n\nGame Features:\nEasy to Play, Hard to Master: Slide the blocks freely, but be mind",
+        "released": "2024-06-28T07:00:00Z",
+        "updated": "2026-05-01T05:27:18Z",
+        "version": "1.37.0",
+        "score": 4.28798,
+        "reviews": 38652,
+        "developer": "Rollic Games",
+        "developerUrl": "https://apps.apple.com/jp/developer/rollic-games/id1452111779?uo=4",
+        "genres": [
+          "ゲーム",
+          "パズル"
+        ],
+        "releaseNotes": "Fresh icon, same fun\nWe refined our game icon. Your home screen just got better."
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 24,
+          "2": 8,
+          "3": 4,
+          "4": 7,
+          "5": 6
+        },
+        "positiveRatio": 27,
+        "negativeRatio": 65,
+        "eventMentions": [
+          {
+            "text": "現在レベル1192です。ゲーム自体は面白いのですが、レベルが上がるとかなり無理のある時間設定になり連続クリアした際のアイテム使用前提のような状態になります。\nまた、他の端末でも入れてるので見比べた所、",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "レベル1070まで進んだ感想。 　　　　　　　　　　　　　　　　　　　　　 レベル1000を超えた辺りから、難易度がかなり上がります。 完璧にロスなくブロックを動かさないと制限時間に間に合わないです。",
+            "keywords": [
+              "アップデート"
+            ]
+          },
+          {
+            "text": "難しさはほぼ制限時間のせいで、じっくり解きたい人には面白くない。ログインボーナスや簡単なイベントは存在しないのでじっくり考えたいのならば課金が必須。課金も数百円では焼け石に水なので万単位の円が必要。広",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "アップデートしてからプレイ途中でフリーズすることが多くなりました\n全く進めません\n改善してください",
+            "keywords": [
+              "アップデート"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 3 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 4 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:33:58.045Z"
+    },
+    {
+      "appId": "1347776121",
+      "name": "实况足球",
+      "platform": "ios",
+      "market": "cn",
+      "detail": {
+        "description": "■实况足球2026，震撼登场！\n全球9亿下载，实况足球手游现已更新2026赛季年度版本。全球豪门与海量球星授权，全新升级的动作与操控技巧，“心有灵犀”教练技能，个性化定制主场，每周实时更新球员状态……实况足球的含义，就是实况的足球！ \n\n■全球顶级豪门授权，组建你的银河战舰\n多特蒙德全新授权！你还可以在游戏中使用巴萨、曼联、阿森纳、AC米兰、国际米兰等强队走上世界之巅，也可以招募来自全世界的现役、传奇球星，组建你的队伍！\n\n■更多元，更自由\n你可以完全自定义球队阵型和球员排布，为单个球员布置针对性战术设计，并根据比赛进程随时调整阵容、战术、进攻倾向；你甚至可以决定球员们的培养方向，学习新的技巧，解锁新的位置。这一次，你想让梅西成为中场，还是前锋？\n\n■根据你的喜好个性化定制游戏！\n实况球场将新增自定义功能，快来打造独属于你的独特主场吧！新版本中，你将能按自己的喜好自由组合多种元素，包括球场颜色、草坪图案、巨幅海报、巨型道具等。此外，你还可以为球队设置最能体现你个性的三套球衣，向所有对手展示你的风范！\n\n■操控更丝滑\n新增“传球取消”功能！为了更好还原现实比赛中的球员表现，还强化了球员的",
+        "released": "2018-07-25T15:05:34Z",
+        "updated": "2026-03-26T02:00:35Z",
+        "version": "10.3.0",
+        "score": 4.50176,
+        "reviews": 532510,
+        "developer": "网易移动游戏",
+        "developerUrl": "https://apps.apple.com/cn/developer/%E7%BD%91%E6%98%93%E7%A7%BB%E5%8A%A8%E6%B8%B8%E6%88%8F/id656116440?uo=4",
+        "genres": [
+          "游戏",
+          "体育",
+          "动作"
+        ],
+        "releaseNotes": "新增功能\n・ 中国球员新卡牌即将登录实况。\n・ 游戏内部分比赛支持手柄控制。\n・ 新手系统迭代——将任务、教程、推荐玩法等功能整合进新手系统，系统化引导新玩家完成从\"零基础\"到\"独立成长\"的完整过渡。\n・ 惊喜倒计时活动——在限定天数内登录将获得奖励，最后揭秘惊喜奖励。\n・ 部分界面布局调整。\n数据更新\n・ 更新了各种游戏内数据。\n・ 更新了授权。\n・ 为巴西甲级联赛 贝塔诺添加了各种数据，部分联赛更新为新赛季数据。\n此外，还添加或更新了以下列出的各种数据。\n・ 球衣\n・ 徽章\n・ 足球鞋\n・ 手套\n・ 足球\n・ 球场图像\n・ 球场边广告牌\n・ 过场演出和动作\n・ 角旗\n・ 球员照片、图像和数据\n・ 解说"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 37,
+          "2": 1,
+          "3": 3,
+          "4": 2,
+          "5": 6
+        },
+        "positiveRatio": 16,
+        "negativeRatio": 78,
+        "eventMentions": [
+          {
+            "text": "我认识一个实况老玩家这几天呢，我玩实况突然发现一个新版的漏洞就是我每次出东西的时候或者干什么必须充钱才能获得好球员，所以呢，实况最好就是让获得这些好球员更容易一点可以吗？我就这点要求。",
+            "keywords": [
+              "新",
+              "新版"
+            ]
+          },
+          {
+            "text": "无语服务器不能更新一下吗",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "这个游戏真的很好，手感特别棒。就是滚卡速度太快了，总是跟着国际服的速度走。实际上包的质量和球员的获取难易度差的太多了，网易真应该考虑一下改善签约质量了，要不你就也别跟着国际服的速度上新球员，这样真的很",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "更新后服务器容易出错，经常有与服务器相关的问题",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "国服最先撑不住 网易自己不谈版权 割韭菜也恨 游戏优化也很差 就是为了骗钱赚钱。​科乐美没钱就罢了起码还有些良心 网易丧良心赚这么些钱 也不自己和科乐美谈合作更不去谈版权 都把钱自己赚了最后，更新最少",
+            "keywords": [
+              "新",
+              "合作",
+              "更新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:00.519Z"
+    },
+    {
+      "appId": "com.smilegate.chaoszero.stove.google",
+      "name": "Chaos Zero Nightmare",
+      "platform": "android",
+      "market": "us",
+      "detail": {
+        "description": "Zero Out All Despair\nSmilegate's new title, \"Chaos Zero Nightmare,\" is now open!\nBoard the SS Nightmare now!\n\nChaos.\n\nA cosmic disaster that struck without warning.\nThe beginning, or the end, of every story.\n\"Chaos,\" a black fog that consumes planets, distorting their environment and lifeforms.\n..\n[The Blue Pot], a Chaos located on Earth, the birthplace of humanity. There have been reports of unidentifiable creatures being discovered.\nAnd for some reason, a strange phenomenon that couldn't—no, s",
+        "released": "Oct 14, 2025",
+        "updated": 1776845952000,
+        "version": "1.0.277",
+        "installs": "1,000,000+",
+        "score": 4.492334,
+        "ratings": 138789,
+        "reviews": 3127,
+        "developer": "Smilegate, Inc.",
+        "genre": "Role Playing"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 13,
+          "2": 5,
+          "3": 5,
+          "4": 4,
+          "5": 23
+        },
+        "positiveRatio": 54,
+        "negativeRatio": 36,
+        "eventMentions": [
+          {
+            "text": "after half-anniv update i can't update the game always stuck at verifying update",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "this game is way too grindy and not in a fun way but a repetitive way. unlike slay the spire where t",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "season 3: story and chaos design are clearly improving, found myself not skipping the stories for fi",
+            "keywords": [
+              "event",
+              "season"
+            ]
+          },
+          {
+            "text": "its run better now thanks dev! its way smoother than when in season 2.",
+            "keywords": [
+              "season"
+            ]
+          },
+          {
+            "text": "half anni!!! amazing celebration, awesome new characters, modes and freebies!! still going strong, g",
+            "keywords": [
+              "update",
+              "new"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 12 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:02.739Z"
+    },
+    {
+      "appId": "1505445106",
+      "name": "暗区突围",
+      "platform": "ios",
+      "market": "cn",
+      "detail": {
+        "description": "《暗区突围》是一款由腾讯魔方工作室自研的真硬核射击手游，打造了全新的沉浸式暗区战场体验！这是一个充满未知危险的战场，有高自由度的战术策略性，成功携带物资从暗区撤离是你的目标，你可以一路搜索物资满载而归，也有可能被人埋伏失去一切。\n\n\n倒计时已经开始，做好准备，务必小心，因为，这将是一场硬仗！\n\n【游戏特色】\n\n1、明争与暗斗\n\n你需要采用不同的战术，来帮助自己实现突围。是迂回埋伏，还是正面刚枪，记住，带着物资撤离才是你的目的，在你瞄准敌人时，你可能也暴露在射程之内。\n\n2、较量就此开始\n\n进入战局前，你需要选择入场装备来决定你的战力，是全装大佬、半装平民还是裸装跑刀仔？不同策略，不同战局体验，每一个选择都与你的收获息息相关，这是一场高自由度的心跳挑战。\n\n3、枪械自由改装\n\n成功从战场突围后，你可以通过高自由度的拟真枪械改造系统，组装配件、改造枪械，备战下一场暗区对局。上千种枪机配件，多种子弹选择，打造专属于你的暗区枪械！\n\n4、出金看实力\n\n在战局内，你可以搜集到各种不同价值的物资，或者与其他玩家、游荡者、地图中的精英首领展开战斗，从他们身上获取战利品，将它们装进你的背包，并带离暗区",
+        "released": "2022-07-12T07:00:00Z",
+        "updated": "2026-04-01T20:04:55Z",
+        "version": "1.0.165",
+        "score": 4.34895,
+        "reviews": 1050147,
+        "developer": "Shenzhen Tencent Tianyou Technology Ltd",
+        "developerUrl": "https://apps.apple.com/cn/developer/shenzhen-tencent-tianyou-technology-ltd/id1586101358?uo=4",
+        "genres": [
+          "游戏",
+          "动作"
+        ],
+        "releaseNotes": "诡雾山谷 主题活动\n一场不为人知的实验，一片被雾气笼罩的山谷。敌人和“朋友”，诡异与阈限。在大雾里，你隐约听到了好似“你好”的声音……\n\n【诡雾·山谷】\n山谷地区出现了一系列神秘诡异的现象，先锋们需要探索，发掘这些诡异事件背后的真相！\n理智值\n在特定区域内理智值会下降，在区域外理智值会缓慢恢复；\n随着理智值的降低，视野和体力会受到影响；\n低理智的先锋，会被其他先锋使用定制照相机观测到；\n低理智的先锋，会更容易吸引攻击；\n可饮用果仁饮料恢复理智值。\n\n定制照相机\n进入迷雾山谷中会自动装备定制照相机；\n坚定不移的相信你的相机！可帮助你发现各种异常物！\n定制照相机可用于观测较低理智值的先锋。\n\n局内商人\n山谷中会出现特殊载具，可前往与载具中的特殊商人买卖道具：\n1、可以向商人售卖局内获取的杂物，获取柯恩币；\n2、可以从商人处购买杂物、食物、针剂、投掷物、151型手持电台、果仁饮料；\n3、小队在商人处买卖一定价值的物资后，可以解锁高级物资的购买。\n\n山谷动态事件更新\n山谷·新秩序地图中补充了一些动态事件：\n1、侦察部队：在一定时间内淘汰指定位置出现的游荡者，可以获得一次性的雷达装置，能获取所有特遣队员的粗略位置；\n2、釜底抽薪：在一定时间内淘汰指定位置出现的游荡者，会在周边掉落一个实验品空投；\n3、暗藏玄机：在一定时间内到达指定位置，帮助指定NPC淘汰指定游荡者并存活坚守44s，完成任务后可以获悉全图保险箱的解锁状态。\n\n\n地图关卡更新\n【增援机制优化】\n1、增加了被淘汰后的增援冷却时间，冷却时间结束后才能被队友呼叫增援；\n2、增加了增援车辆的信息暴露，当有特遣队员被增援时，增援车辆会触发信号弹，且会定向给刚才淘汰自己的玩家发送播报；\n3、增加了增援车辆破坏机制，可以在车头交互使增援车辆失效。\n\n【其他地图关卡优化】\n1、优化了战术地图的内容显示，增加图标精确选择功能；\n2、进入新区域时，会显示该区域名称。\n\n能力更新\n【全新能力】\n新增了一批可供练习装配的能力：\n临危不乱（1费）：受击和子弹擦身的方向提示，存在时间延长；\n改装拉线（1费）：烟雾弹可以在倒地时主动释放；\n战地飞手（3费）：无人机操控能力提高；\n高效吸收（3费）：能量和水量上限增加，且能量和水量超过一百时，体力恢复速度增加；\n光路感知（3费）：在视野范围内存在瞄准中的高倍镜武器时，可以发现其大致位置；\n守财奴（5费）：局内收益超过200000时，移动速度加快；\n人脉关系（5费）：开局一段时间后，身份牌撤离点所需的身份牌数量-1，队伍共享\n\n【能力系统更新】\n1、能力页面新增自定义方案（可设置方案名），最多可配置5套能力方案；\n2、一些特殊模式会预设固定的能力方案；\n3、能力可在训练场试用，训练场中临时解锁所有能力。训练场试用的能力，可直接在方案页面修改后，应用到训练场。\n\n全新武器装备\n【赛季装备物资】\n注：赛季物资装备可在赛季联络人处购买，也可从局内战利品中获取并带出，不可上架市场，会在当赛季结束后清除。\n\n赛季枪械\n\tM1887截短霰弹枪：精致古典的杠杆式霰弹枪，进行截短处理后可以当做手枪使用，但考虑到安全风险，不建议用其模仿某位科伦猛男的单手旋转上膛动作。\n\tSPC9A冲锋枪：FA公司研发的新型冲锋枪，理论射速高达1500发每分钟，但极高的射速也导致了各种问题，于是其量产型号使用了某种让射速先快后慢的限制系统以保证可靠性，使用9×19毫米子弹。\nARX160突击步枪、“链锯”RPT轻机枪返场赛季商店。\u000b\n赛季子弹\n\t7.62×39毫米7N24子弹（返场）\n\t5.45×39毫米BT子弹（返场）\n\n特殊赛季物资\n\t注：特殊赛季物资有概率在对局内获取，可带出上架市场，会随着赛季切换清除。\n\t验证原型Vector军刀枪托（返场）\n\n【实验品道具】\n注：实验品道具可在常规模式和部分限时模式中的实验品箱中获得，仅能在当局内使用，无法带出。\n小队用战术针剂盒：专业的针剂运输/储存盒，内部装载了足够一支整编小队使用的实验性战术针剂，需要放置后使用。\n\n【常规装备物资】\n常规枪械\nT87A突击步枪：一款于步枪小口径化风潮在全世界流行时研发的过渡步枪，内部结构不算新，装备数量不大，但却为后来的5.8mm系列弹药探索了道路。\n\n常规配件\n\tAN94特种上机匣、AN94特种护木、T03 特种护木、T03自适应枪托、MP5自适应枪托\n\n常规装备\n\t无畏者3型弹挂：欧特斯制造的顶级军用携行挂具，无畏者型弹挂凭借更大容量、更好质量、更高价格，毫无疑问地超越B系列弹挂成为欧特斯面向海外市场的顶级产品。"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 22,
+          "2": 3,
+          "3": 2,
+          "4": 2,
+          "5": 20
+        },
+        "positiveRatio": 45,
+        "negativeRatio": 51,
+        "eventMentions": [
+          {
+            "text": "1.为什么不能把匹配机制改成单人匹配单人多人匹配多人呢？老是一个人玩遇到满编队。打死两个还有两个这你受的了？\n2.官方要饭的嘴脸太过难看，保险箱就两格能装什么东西呢？别人有刀皮感觉比我没有刀皮的强了不",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "非常不推荐打了十几把全掉，资产也是从1,000,000变成了100,000而且我这还是个新号10,000,000都是福利顶的，然后全打没了",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "我是暗区突围新手，接触搜打撤时间游戏时间比较较晚，所以是从三角洲起手的。三角洲较高的画质吸引了暗区大量玩家流失，当我将三角洲玩腻时，抱着不是很大的期望打开这款游戏时，它却震撼了我：它的背后是一个精神，",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "能不能增加一个左右手扔雷？解决拐角扔雷不方便的情况，天赋系统可以增加一个，左右手扔雷都不会影响精准度的的天赋，新赛季游戏还是不错的",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "我更新完游戏之后就一直给我卡在资源包系统正在初始化100%就一直卡在这上面也干不了一个月了都希望能解决",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:05.263Z"
+    },
+    {
+      "appId": "1219233424",
+      "name": "QQ炫舞",
+      "platform": "ios",
+      "market": "cn",
+      "detail": {
+        "description": "《QQ炫舞手游》是由《QQ炫舞》原班人马，精心打造的一款音乐舞蹈手游。十年经典，触动新生，开创3D音舞手游的新纪元！\n其原汁原味的音舞体验、海量流行音乐曲库、万千绝美定制套装、浪漫缤纷休闲社交，千人千面自由捏脸，为广大玩家打造一场趣乐无边的音舞盛宴。\n【海量音乐 正版流行】\n海量正版流行音乐曲库，热门歌曲周周更新，超多模式挑战神经~敢来挑战你的手速极限吗？！\n【海量服饰 百变搭配】\n凹个造型，美衣不停！新手立领一百连抽，轻松得臻品装扮！千万种服饰搭配，不花钱也能穿得美美哒~\n【独家捏脸 千人前面】\n独创精致独特的捏脸玩法，随心定制你的专属形象！丰富潮流的时装商城，清新唯美的妆发造型，海量服饰任你搭配，掌控时尚不是梦！\n【便捷社交 以舞会友】\n一舞倾心，以舞会友，一键开麦，陷入爱河！超多小哥哥小姐姐在寻找游戏搭子~或许你的TA就在这里！\n\n---特别说明---\n在游戏《QQ炫舞手游》中，用户使用平台账号（QQ或微信）登录，能够同步游戏中部分数据，包括等级、好友等非通过购买累计的数值。用户在游戏中购买的游戏代币仅限于在此应用中使用。腾讯平台上的虚拟货币, 比如Q币、Q点都无法在游戏内使用。",
+        "released": "2018-03-13T16:27:33Z",
+        "updated": "2026-04-08T16:09:24Z",
+        "version": "9.4.2",
+        "score": 4.04287,
+        "reviews": 130258,
+        "developer": "Shenzhen Tencent Tianyou Technology Ltd",
+        "developerUrl": "https://apps.apple.com/cn/developer/shenzhen-tencent-tianyou-technology-ltd/id1586101358?uo=4",
+        "genres": [
+          "游戏",
+          "音乐"
+        ],
+        "releaseNotes": "亲爱的舞者，春日游园季版本暖心上线！游园踏春系列活动开启，呜莓猫猫联动软萌好礼，穿搭混搭自由度飙升，动作自定义效果惊喜来袭！更有全新的服装进阶系统与交易行重磅登场，时装可唤醒进阶、随心变幻，道具还能自由交易流通！\n\n一、穿搭系统全面升级，混搭更自由 \n配饰拆分更细，定制无界！现有饰品部位优化：多部位搭配拆分更细，舞者们混搭更加自由个性！同时新增“内搭上、下”位，可支持组合装随心搭配，面纹可叠搭，个性造型轻松拿捏！\n动作系统支持混搭展示，舞者们获得相关动作资源后可前往背包设置自己的奔跑、走路等多状态动作效果，还可自定义对局入场动作，春日最飒舞者就是你！\n5月1日上线华冕幻阶进阶系统，舞者们唤醒对应部件后，可以进行自定义变幻，进阶；同时交易行系统上线，支持舞者们交易和交换华冕幻阶系统中的指定道具，快来炫舞手游经营属于你的时尚工坊吧！\n\n二、春日游园福利＆萌系联动开启\n参与“寻光春游记”活动，攒“光辉币”兑“拾光焕礼店”好礼。新体型组合装、全景名片夹背景、超凡妆容、单人轻奢座椅、海量超凡甄选抽奖券、炫舞经典情怀布衣套以及浮云座椅可供舞者们兑换。\n“炫舞手游×呜莓猫猫”联动同步开启！参与即得呜莓猫猫主题装扮，呜莓猫猫蜕变轻奢装、呜莓猫猫全景名片夹背景、呜莓猫猫超凡妆容以及呜莓猫猫单人轻奢座椅等你来拿，来炫舞手游搭配属于你的软萌造型，速来解锁你的春日限定可爱！"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 27,
+          "2": 2,
+          "3": 6,
+          "4": 1,
+          "5": 13
+        },
+        "positiveRatio": 29,
+        "negativeRatio": 59,
+        "eventMentions": [
+          {
+            "text": "怎么更新不了进不去了气死我了\n气死我了",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "换个衣服一会卡住一会卡住的，还点退了重新进，抽奖池子还si黑si黑的",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "新手教程点一次闪退一次",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "我用的苹果区，这几天要更新，然后我重新下要钱？？，这是怎么回事",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "更新都更不了 进了游戏卡的要命 要么就动不动直接卡掉线 除了天天研究怎么出新品圈钱以外 啥也不会优化 破游戏早点凉",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:07.696Z"
+    },
+    {
+      "appId": "1621328561",
+      "name": "MONOPOLY GO!",
+      "platform": "ios",
+      "market": "ph",
+      "detail": {
+        "description": "Hit GO! Roll the dice! Earn MONOPOLY money, interact with your friends, family members and fellow Tycoons from around the world as you explore the expanding universe of MONOPOLY GO! It’s the new way to play – board-flipping cleanup not required!\n\nTake a Break!\n\nEscape, enjoy, dream, scheme and stay in touch with this newly reimagined twist on MONOPOLY! Let everyone’s favourite zillionaire, Mr. MONOPOLY, be your guide as you explore new boards themed after world-famous cities, fantastical lands a",
+        "released": "2022-06-30T07:00:00Z",
+        "updated": "2026-04-24T11:13:17Z",
+        "version": "1.67.1",
+        "score": 4.77799,
+        "reviews": 49201,
+        "developer": "Scopely, Inc.",
+        "developerUrl": "https://apps.apple.com/ph/developer/scopely-inc/id305003647?uo=4",
+        "genres": [
+          "Games",
+          "Family",
+          "Board",
+          "Entertainment"
+        ],
+        "releaseNotes": "Ready for a storybook adventure, Tycoon?\nThe Monopoly Ever After Album is live — step into a world of magic and mischief!\n\nCollect enchanting, fairytale-inspired stickers\nExplore whimsical boards full of wonder\nA little magic swept away those pesky bugs and smoothed your journey!\nUpdate now and live happily ever after!"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 20,
+          "2": 4,
+          "3": 4,
+          "4": 3,
+          "5": 18
+        },
+        "positiveRatio": 43,
+        "negativeRatio": 49,
+        "eventMentions": [
+          {
+            "text": "this is in line with the partners event where i wasted too much items on the wheel. 90% you only get",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "been playing for months now and i can notice that whenever you play the \"shutdown\" mode it feels lik",
+            "keywords": [
+              "limited"
+            ]
+          },
+          {
+            "text": "not monopoly at all and just some mobile slop game with limited rolls and nothing to do with actual ",
+            "keywords": [
+              "limited"
+            ]
+          },
+          {
+            "text": "it might look like the dices are random but i feel like they really lower probability of you getting",
+            "keywords": [
+              "event",
+              "limited"
+            ]
+          },
+          {
+            "text": "so annoyed with this app, first of all it takes multiple time’s to open and reload the game, and whe",
+            "keywords": [
+              "event"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 10 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:10.048Z"
+    },
+    {
+      "appId": "1480516829",
+      "name": "Free Fire MAX",
+      "platform": "ios",
+      "market": "us",
+      "detail": {
+        "description": "The Undersea Mystery has arrived!\nMysterious ocean energy has surged, and a new undersea adventure begins.\n\n[Undersea Realm]\nBoard a whale‑themed aircraft into the map! Enter the Undersea Realm in Bermuda through whirlpool entrances and fight underwater. The High-tier Loot Zone becomes the Hydro Zone, and giant whales fly across the sky to drop Bubble Airdrops.\n\n[Hydro Blaster & Fishing Ponds]\nTry the new event weapon, the Hydro Blaster, for a fresh combat feel. Fishing ponds containing loot hav",
+        "released": "2021-09-27T07:00:00Z",
+        "updated": "2026-04-08T03:30:13Z",
+        "version": "2.123.1",
+        "score": 4.02675,
+        "reviews": 53538,
+        "developer": "GARENA INTERNATIONAL I PRIVATE LIMITED",
+        "developerUrl": "https://apps.apple.com/us/developer/garena-international-i-private-limited/id1335627134?uo=4",
+        "genres": [
+          "Games",
+          "Adventure",
+          "Action"
+        ],
+        "releaseNotes": "[Undersea Realm] Dive into the seabed in Bermuda and fight underwater! Try out the event weapon Hydro Blaster.\n[New Character - Ray] Link to a target and knock them down when they're low on HP. A takedown resets the skill.  \n[CS Random Events] Bigger starting funds, free Gloo Walls, and other random events shake up CS!\n[Quick Messages] Smarter auto-trigger messages and pings for clearer comms.\n[Pyro] Keep your fiery new companion active to level them up and unlock outfits."
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 18,
+          "2": 2,
+          "3": 2,
+          "4": 3,
+          "5": 24
+        },
+        "positiveRatio": 55,
+        "negativeRatio": 41,
+        "eventMentions": [
+          {
+            "text": "laggy out of no where it’s super laggy! iphone xs max and the other free fire is super laggy! and ju",
+            "keywords": [
+              "update"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:12.675Z"
+    },
+    {
+      "appId": "6740026253",
+      "name": "오피스 퀸 키우기",
+      "platform": "ios",
+      "market": "kr",
+      "detail": {
+        "description": "현대 도시를 배경으로 리얼한 직장 분위기! 신세대 직장인으로서의 성장과 삶!\n여기서 평범함은 Say No! 그녀의 무한 가능성이 기대된다! \nWelcome To 리얼 직장 방치형 RPG「오피스 퀸 키우기」\n\n▶초보에서 퀸으로의 역전\n끊임없는 노력을 통해 초보에서 오피스 퀸으로 완벽 변신!\n올라갈수록 진실에 가까워진다면 당신은 어떤 선택을 할것인가?\n\n▶소중한 인연 든든한 동료\n개성 넘치는 동료들과의 뜻밖의 만남!\n당신과 그 사람만의 기억을 만들어 보자!\n\n▶짜릿함 가득한 시나리오\n동료의 질투, 상사의 의심..이 모든 것들을 해결할 수 있을까?\n모든 선택은 당신의 직장 생활에서 중요한 터닝포인트가 될 수 있다!\n\n▶만족감 넘친 일상 콘텐츠\n커뮤니티, 쇼핑 등등 다양한 일상 시스템으로 \n바쁜 직장 생활 속에서 자신만의 재미와 여유를 찾아보자!\n\n▶나만의 스타일 나만의 퀸 만들자\n헤어, 분장, 옷, 소지품, 잡화까지! 다 마음대로 코디할 수 있다!\n세련된 직장 스타일! 화려한 여왕 스타일",
+        "released": "2025-05-07T07:00:00Z",
+        "updated": "2026-01-19T02:01:37Z",
+        "version": "1.0.9",
+        "score": 4.5663,
+        "reviews": 1116,
+        "developer": "Wish Interactive Technology Limited",
+        "developerUrl": "https://apps.apple.com/kr/developer/wish-interactive-technology-limited/id1220733885?uo=4",
+        "genres": [
+          "게임",
+          "롤플레잉"
+        ],
+        "releaseNotes": "1.신규 주간 이벤트 [수달 낚시] 추가\n2.신규 이벤트 추가-겨울빛 축제\n3.메인 캐릭터 레벨 확장\n4.신규 동료 소소 및 상응 펫과 수호 아이템 추가\n5.신규 동료 담연 및 상응 펫과 수호 아이템 추가\n6.소원풀 확장\n7.코스튬 고급 시리즈 확장\n8.엄선 스토어 신규 아이템 추가\n9.친구 리스트 검색 기능 추가\n10.일부 버그 수정"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 15,
+          "2": 1,
+          "3": 2,
+          "4": 6,
+          "5": 25
+        },
+        "positiveRatio": 63,
+        "negativeRatio": 33,
+        "eventMentions": [
+          {
+            "text": "소과금(5만원이하) 기준으로 한 두달 정도면 천만투력 찍는 것 같아요 천만투력 찍고 첫 스승님 생겼을 때 현질 없인 투력 빨리 올리기 힘들다 하시길래 더 하면 전재산 탕진하고 망하",
+            "keywords": [
+              "이벤트"
+            ]
+          },
+          {
+            "text": "돈 엄청 잡아먹음 일이천 생각해야하고\n개발사 운영 거지같이 하고 \n그만큼 써도 혜택 1도 없고 \n호구 취급하는 게임임 \n이런 게임을 했다는 거 자체가 \n내 인생 오점임\n리뷰도 다 ",
+            "keywords": [
+              "이벤트"
+            ]
+          },
+          {
+            "text": "게임이 피로도가 진짜 높아요 \n챙겨야 할건 많은데 편리성이 없는 시스템이라 진짜 귀찮아요 (보스 잡을때 이용권 여러개 써서 빨리감기 못함 그냥 이용권 하나하나 써야함) \n\n이벤트 ",
+            "keywords": [
+              "이벤트"
+            ]
+          },
+          {
+            "text": "중독성이 강하고 그래픽도 화려하니 예쁩니다. 계속 하고 싶은 게임이긴 한데 정말 현질 유도가 심해요 … 컨텐츠가 너무 부족하다 해야하나?\n\n승진하려고 하면 평판 점수 필요한데 그거",
+            "keywords": [
+              "업데이트"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 4 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:15.196Z"
+    },
+    {
+      "appId": "6739069151",
+      "name": "Crossword Go!",
+      "platform": "ios",
+      "market": "ph",
+      "detail": {
+        "description": "Challenge your mind and compete in real-time crossword duels! \nTrain your brain, expand your vocabulary, and outsmart opponents in thrilling word battles. Play live, score big, and climb the leaderboards in this action-packed crossword game!\n\nReal-Time Crossword Duels – Compete like a Master!\nThink fast, spell smarter, and outscore your opponents in intense, real-time word battles! Play live — no waiting, just pure competitive fun! Become a crossword Master as you rise to the top in every game!\n",
+        "released": "2024-12-10T08:00:00Z",
+        "updated": "2026-04-30T20:23:17Z",
+        "version": "1.102.0",
+        "score": 4.91981,
+        "reviews": 1509,
+        "developer": "PlaySimple Games Pte Ltd",
+        "developerUrl": "https://apps.apple.com/ph/developer/playsimple-games-pte-ltd/id1189416142?uo=4",
+        "genres": [
+          "Games",
+          "Puzzle",
+          "Entertainment",
+          "Word"
+        ],
+        "releaseNotes": "Challenge your mind and compete in real-time crossword duels! \nTrain your brain, expand your vocabulary, and outsmart opponents in thrilling word battles. Play live, score big, and climb the leaderboards in this action-packed crossword game!"
+      },
+      "reviewAnalysis": {
+        "total": 17,
+        "starCounts": {
+          "1": 7,
+          "2": 3,
+          "3": 2,
+          "4": 0,
+          "5": 5
+        },
+        "positiveRatio": 29,
+        "negativeRatio": 59,
+        "eventMentions": [
+          {
+            "text": "very mentally stimulating, great for dementia prevention. luv it😍",
+            "keywords": [
+              "event"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 4 天前",
+          "confidence": "high"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:17.625Z"
+    },
+    {
+      "appId": "com.joycity.im",
+      "name": "임진왜란: 조선의 반격",
+      "platform": "android",
+      "market": "kr",
+      "detail": {
+        "description": "The return of Director Kim Tae-gon, creator of *Merchant* and *Imjinrok*.\n\nInto the heart of that massive battlefield, seven years into the Imjin War!\n\nAlong with legendary names such as Yi Sun-sin, Kim Si-min, and Ryu Seong-ryong,\n\nIt is your turn to change the course of history.\n\n※ Game Features ※\n\n▶ The 1592 Imjin War with Real-Life Heroes\n\n✔ A grand assembly of real-life heroes including Yi Sun-sin, Kim Si-min, and Ryu Seong-ryong\n\n✔ Strategic units assembled from combinations of generals fr",
+        "released": "Apr 27, 2026",
+        "updated": 1777900093000,
+        "version": "10024",
+        "installs": "100,000+",
+        "score": 3.690141,
+        "ratings": 533,
+        "reviews": 356,
+        "developer": "JOYCITY Corp.",
+        "developerWebsite": "https://redginkgogames.com/",
+        "genre": "Role Playing",
+        "recentChanges": "해상전, 무사 움직임, 우편 최적화"
+      },
+      "reviewAnalysis": {
+        "total": 0,
+        "starCounts": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "positiveRatio": 0,
+        "negativeRatio": 0,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 0 天前",
+          "confidence": "high"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:19.974Z"
+    },
+    {
+      "appId": "1471486284",
+      "name": "한게임 포커",
+      "platform": "ios",
+      "market": "kr",
+      "detail": {
+        "description": "클래스가 다른 포커 게임을 모바일로 즐겨라!\n카지노 대표게임들을 고퀄리티 실시간 멀티로 즐기세요!\n\n홀덤을 비롯한 실감나는 포커게임들은 기본!\n바카라 7인, 블랙잭 다이사이 룰렛 5인 멀티플레이 모드!\n\n오직 한게임에서만 가능한 카지노의 현장감!\n\n■ 모바일 게임환경에 최적화된 포커 게임\n세븐 포커(7 Poker) - 포커의 클래식\n로우바둑이(Low Badugi) - 블라인드 베팅의 묘미\n홀덤(Holdem) - 9명 맥스베팅의 스릴\n하이로우(High Low) - 하이 or 로우 두가지 즐거움\n\n■ 고퀄리티 카지노 게임\n바카라, 다이사이, 룰렛, 블랙잭은 멀티 플레이로 현장감 Up~\n잭팟 슬롯, 빅휠, 빅팟 스크래치까지! \n내 손 안의 라스베가스가 펼쳐집니다!\n※ 매일 1회 잭팟슬롯머신 공짜로 이용 가능\n\n■ 한게임 포커만의 재미있는 요소\n- 매주 총 상금 3조 칩! 랭킹전이 열립니다!\n- 2시간마다 지급되는 티켓으로 뽑기하세요~\n- 업무목표 달성하고 보너스 받는 재미~\n- 매일매일 ",
+        "released": "2019-08-25T07:00:00Z",
+        "updated": "2026-04-29T01:16:16Z",
+        "version": "4.16.91",
+        "score": 4.45714,
+        "reviews": 14315,
+        "developer": "NHN Corp.",
+        "developerUrl": "https://apps.apple.com/kr/developer/nhn-corp/id708107055?uo=4",
+        "genres": [
+          "게임",
+          "보드",
+          "카드"
+        ],
+        "releaseNotes": "[UPDATE]\n■ 축구도 좀 하는 골 때리는 로즈의 한 방을 기대해 주세요!\n■ 러시홀덤 전격 오픈! 쉴 틈 없는 매치를 원한다면 이제부터 Rush!\n■ 클럽 이름도 관리하고 싶은 분들을 위한 전용 아이템 출시\n■ 성능 및 서비스 개선"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 8,
+          "2": 1,
+          "3": 0,
+          "4": 2,
+          "5": 38
+        },
+        "positiveRatio": 82,
+        "negativeRatio": 18,
+        "eventMentions": [
+          {
+            "text": "현질해가면서 게임하는데 갑자기 업데이트 하고나니까 정지먹어있음 내가 뭘 잘못했는데 내돈 물어내라",
+            "keywords": [
+              "업데이트"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 5 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 82%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:22.448Z"
+    },
+    {
+      "appId": "com.rush.xtreme.sports",
+      "name": "RUSH: Xtreme",
+      "platform": "android",
+      "market": "us",
+      "detail": {
+        "description": "READY BIKER ONE 🚴‍♂️ \n\nHop on your dirt bike and get ready to pedal in this fast-paced racing game! Each level, you’ll face off against skilled rivals as you ride your bicycle through a variety of exciting locations. Grab powerful boosts to blast past the competition and feel the thrill of realistic driving — all from the comfort of your phone, in this ultimate driving simulator motocross game.\n\n🔥 KICK UP SOME DUST 🔥\n\nEach game level is a short and sweet race to the finish line, with a variet",
+        "released": "Jul 15, 2025",
+        "updated": 1777301440000,
+        "version": "1.6.1",
+        "installs": "10,000,000+",
+        "score": 4.531929,
+        "ratings": 344016,
+        "reviews": 1491,
+        "developer": "SayGames Ltd",
+        "developerWebsite": "https://say.games/",
+        "genre": "Racing",
+        "recentChanges": "-Gameplay improvements<br>-Bug fixes <br>-New levels"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 13,
+          "2": 3,
+          "3": 3,
+          "4": 4,
+          "5": 27
+        },
+        "positiveRatio": 62,
+        "negativeRatio": 32,
+        "eventMentions": [
+          {
+            "text": "great game but an ad after eacha game is too much. had to change my stars. enjoying game. when do ne",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "i used to love this game before the update. it was so simple to add features to my bikes etc. now it",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "not sure why people aren't playing games in 2026 without an ad blocker to deal with that issue. besi",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "1/2026 you don't have to steer except to avoid obstacles. i didn't feel challenged enough. update: 3",
+            "keywords": [
+              "update"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 7 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 4 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:24.676Z"
+    },
+    {
+      "appId": "com.papegames.lysk.tw",
+      "name": "戀與深空",
+      "platform": "android",
+      "market": "tw",
+      "detail": {
+        "description": "*Love and Deep Space* continues the world view of the *Love and Producer* series, offering a highly immersive 3D romance game set in a near-future fantasy. Through ultra-immersive first-person perspective, rich romantic interactions, and multi-sensory gameplay, it provides a highly realistic romance experience, making love tangible.\n\n【New Homestead Gameplay and Main Story】 The Homestead system is officially launched, and the main storyline has been updated! \"Controlling all things, the galaxy bo",
+        "released": "Jan 8, 2024",
+        "updated": 1766644877000,
+        "version": "5.0.0",
+        "installs": "100,000+",
+        "score": 4.391234,
+        "ratings": 7154,
+        "reviews": 2436,
+        "developer": "InFold Pte. Ltd.",
+        "genre": "Simulation",
+        "recentChanges": "《戀與深空》5.0年度版本「愛，宇宙，詩王座」現已推出！"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 11,
+          "2": 3,
+          "3": 1,
+          "4": 4,
+          "5": 31
+        },
+        "positiveRatio": 70,
+        "negativeRatio": 28,
+        "eventMentions": [
+          {
+            "text": "很好玩沒錯，但每次久久進去登更新等很久 而且更新很久手機又發燙，所以我刪掉了",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "very pradatory gacha game, not really enjoyable without paying a lot of money. story is updated very",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "用心製作，畫面很美，主題曲動聽，和其他合作方的作品也很有誠意",
+            "keywords": [
+              "合作"
+            ]
+          },
+          {
+            "text": "要拿到5星卡在台灣的好難啊。你們是故意的嗎？我玩新加坡的server不知道已經抽到幾張5星的了。感覺被你們詐騙了！且我花錢呢！",
+            "keywords": [
+              "新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 4 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:26.866Z"
+    },
+    {
+      "appId": "1376515087",
+      "name": "Age of Origins---ゾンビ・末日戦記",
+      "platform": "ios",
+      "market": "jp",
+      "detail": {
+        "description": "世界でのダウンロード回数が70,000,000を突破しています\n\n生き残れ！滅亡の日が迫る世界で、ゾンビを殺し、同盟を結成、軍隊を支配し、都市を繁栄させ人類文明の再建を目指すゾンビストラテジーMMO！\n\nゾンビ危機が瞬く間に世界に広がり、数千年かけて築き上げられてきた人類文明が崩壊寸前まで追い詰められ、人類の運命やいかに！復興のゆくえは、君にかかっている。\n強い軍人魂と武器戦車で生き延びる意欲を維持しよう。\nゾンビ群れ死体の潮が崩れる、敵を粉砕で失われた領土を取り戻そう。\n都市再建、難民救助により人類文明の再生を図ろう。\n同じ志と情熱を持った世界中の指揮官たちと同盟を結成し、敵を打ち砕いて首都を取り戻し、この世界の新たな指導者になって人類の復興を目指そう！\n\n人類を滅ぼせるのは人類しかいない！Age of Z Originsの世界では、あなたを狙っているのは凶暴なゾンビの群れではない。他の都市から攻撃と略奪を仕掛けてくる真の敵に十分用心しましょう！\n\n生き残れ\n\n------「軍隊を集め、テクノロジーを強化し、敵を叩き潰そう！」\n弱肉強食、軍備がものを言う世界：過酷な世界で生き残るには",
+        "released": "2018-10-25T12:18:48Z",
+        "updated": "2026-04-23T12:20:12Z",
+        "version": "1.3.841",
+        "score": 3.7382,
+        "reviews": 13583,
+        "developer": "Hong Kong Ke Mo software Co., Limited",
+        "developerUrl": "https://apps.apple.com/jp/developer/hong-kong-ke-mo-software-co-limited/id1603183695?uo=4",
+        "genres": [
+          "ゲーム",
+          "ストラテジー",
+          "ロールプレイング"
+        ],
+        "releaseNotes": "いくつかのプレイモードを最適化しました"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 34,
+          "2": 5,
+          "3": 3,
+          "4": 4,
+          "5": 3
+        },
+        "positiveRatio": 14,
+        "negativeRatio": 80,
+        "eventMentions": [
+          {
+            "text": "アップデートの新要素は全て課金するとステータスが上がるだけ、新イベントは課金したら有利になるだけ\n古くからあるイベントは金を使わなくても遊べるが、どんどん課金要素が増えていってつまらなくなっています\n",
+            "keywords": [
+              "イベント",
+              "新",
+              "アップデート"
+            ]
+          },
+          {
+            "text": "やり始めはギリ楽しめるが、イベント開始時間が国によって深夜とか早朝にあり何も出来ない事が多い\n初心者のみのマップとかが無い限り蹂躙されて終わる\nずっとログインしたままかつ永遠に課金していかないと楽しめ",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "新規鯖には経験者とrmtを勧めてくる人しかいない。\n既に遊び尽くされたゲームであり、経験者の指示に従うことを強制される。また、育成方法なども通り一辺倒なため、ただ時間やお金を使い同じような城をつくるだ",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "正直、デイリーのクエストは単調だし、イベントも同じものの繰り返し。ビジュアルに誤魔化された単調なゲーム。\n逆に、ゲーム舞台で自分が何を行うかによって、ゲーム自体の面白さが変わる。\n同盟に入るもよし、同",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "重課金ユーザーしか生き残れないです。今都市レベル３３ですが、これ以下は農場として容赦なく攻撃されるので、シールド無しでは生き残れないし、ユーザー間のルールで都市レベル３３以下は兵士レベル３以上を保有し",
+            "keywords": [
+              "新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 11 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:29.394Z"
+    },
+    {
+      "appId": "664575829",
+      "name": "フィッシュダム(Fishdom)",
+      "platform": "ios",
+      "market": "jp",
+      "detail": {
+        "description": "素晴らしいフィッシュダムの世界へ飛び込もう！エキサイティングなレベル、たくさんのかわいい魚やペット、夢中になれるイベントの海がキミを待ってるよ！\n\n迫力満点の水中アドベンチャーを探検しよう！アクアリウムをアンロックして、自分好みに飾り付けて、かわいい魚やその仲間たちにピッタリなお家を作ってあげよう。\n\nゲームの特徴：\n● 独創的なゲームプレイ：マッチ3レベルをクリアして、魚たちにステキな家を作ってあげよう！\n● 何千もの夢中になれるレベルと強力なブースター！\n● 美しい装飾アイテムで想像力を膨らませよう！アクアリウムをどのように見せるかはキミ次第！\n● エキサイティングなイベント：探検に出かけ、アドベンチャー・シーズンで鍵を集め、パワーアップやブースター、無限ライフ、ペット、アクアリウムの装飾などの素晴らしい報酬を手に入れよう！\n● 一緒に楽しもう：他のプレイヤーと競い合ったり、チームを組んだり、豪華賞品をゲットしよう！Facebookの友達と一緒に遊んだり、ゲームコミュニティで新しい友達を作ろう！\n\nフィッシュダムは無料でお楽しみいただけますが、ゲーム内の一部の要素（ランダム化された",
+        "released": "2015-12-10T03:20:41Z",
+        "updated": "2026-04-06T14:12:23Z",
+        "version": "9.7.2",
+        "score": 4.51979,
+        "reviews": 306038,
+        "developer": "Playrix",
+        "developerUrl": "https://apps.apple.com/jp/developer/playrix/id1162116447?uo=4",
+        "genres": [
+          "ゲーム",
+          "パズル",
+          "エンターテインメント",
+          "カジュアル"
+        ],
+        "releaseNotes": "フィッシュダムの最新アップデートをチェック！\n- 探検「王冠と剣」に飛び込んで、王女の心を射止めるため、ずる賢いライバルに挑戦しよう！\n- 探検「機械の台頭」に出発し、秘密基地に潜入して、放棄された研究所の謎を解き明かそう！\nさらに\n新しい水槽：ゲーム開発\n新しい魚：クラウン・コリスとブルーリング・エンゼルフィッシュ\nゲームをお楽しみください！"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 30,
+          "2": 6,
+          "3": 3,
+          "4": 0,
+          "5": 10
+        },
+        "positiveRatio": 20,
+        "negativeRatio": 73,
+        "eventMentions": [
+          {
+            "text": "イベントでフリーズして先に進めない。\n再起動したり、削除して再度インストールしても改善されない。",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "2人で協力して車輪を回して報酬ゲットとかいう\nクソゴミイベント。\n決定した相手を途中で解除できず。やる気のない\nクソユーザーとたまたま組んでしまったために\nほとんど自分一人で得点ためて報酬ゲット。\nな",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "ゲーム自体は広告詐欺だけど楽しい。けど、ステージに挑むためのライフが5個までなのに回復に30分かかって待ち時間が暇。暇を潰すゲームで暇が発生するし、イベントはめっちゃ不平等でダメダメ。",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "3月24日のアップデート後、ゲームが始まらずローディング中に落ちるようになりました。\nゲーム自体は楽しいのですが…\n\n25日追記\nもう修正されました。対応はやっ！",
+            "keywords": [
+              "アップデート"
+            ]
+          },
+          {
+            "text": "アップデートしてからロード中に消えるようになってしまった。不具合ですか？",
+            "keywords": [
+              "アップデート"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:31.947Z"
+    },
+    {
+      "appId": "com.screwflower.puzzle",
+      "name": "Frenzy Screw Puzzle",
+      "platform": "android",
+      "market": "ph",
+      "detail": {
+        "description": "Welcome to Frenzy Screw Puzzle — a flower-themed match-and-earn puzzle game that lets you relax and make money at the same time! \nTap to match colorful flower-shaped bolts, enjoy the satisfying elimination gameplay, and accumulate cash rewards as you play. Complete levels, collect cash, reach your target and withdraw your earnings. Real rewards are right at your fingertips!\n\n🧩 Gameplay Features  \n● Earn Cash by Matching: Get rewards for every match you make, and withdraw once you reach the mini",
+        "released": "Jan 21, 2026",
+        "updated": 1777540171000,
+        "version": "1.0.2",
+        "installs": "100,000+",
+        "score": 3.737864,
+        "ratings": 3374,
+        "reviews": 46,
+        "developer": "OrlinDev",
+        "developerWebsite": "https://screwflower.com/app-ads.txt",
+        "genre": "Puzzle",
+        "recentChanges": "Fixed issues and improved performance"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 25,
+          "2": 1,
+          "3": 5,
+          "4": 3,
+          "5": 16
+        },
+        "positiveRatio": 38,
+        "negativeRatio": 52,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 4 天前",
+          "confidence": "high"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:34.175Z"
+    },
+    {
+      "appId": "com.bubadu.supermarket",
+      "name": "Supermarket Game",
+      "platform": "android",
+      "market": "ph",
+      "detail": {
+        "description": "Welcome to the shopping paradise! Explore the supermarket world with many popular mini-games. Help your customers shop and get ready for some fun!\n \nThis supermarket has a lot of sections: a cash register, departments for grocery, cheese and salami, fruits and vegetables, sweets, and toys, a recycling area and other. Do all the necessary tasks and provide superb shopping services to meet your customers’ needs.\n \n• Cash register: Have fun scanning items and issuing invoices. Learn about numbers a",
+        "released": "Jun 23, 2016",
+        "updated": 1777040281000,
+        "version": "1.63",
+        "installs": "100,000,000+",
+        "score": 4.109626,
+        "ratings": 270533,
+        "reviews": 1493,
+        "developer": "FM by Bubadu",
+        "developerWebsite": "http://www.bubadu.com",
+        "genre": "Casual",
+        "recentChanges": "- maintenance"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 7,
+          "2": 0,
+          "3": 1,
+          "4": 8,
+          "5": 34
+        },
+        "positiveRatio": 84,
+        "negativeRatio": 14,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 10 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 84%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:36.409Z"
+    },
+    {
+      "appId": "6745120053",
+      "name": "Imposter Game - Party Edition",
+      "platform": "ios",
+      "market": "us",
+      "detail": {
+        "description": "Are you the imposter - or will you expose them?\n\nImposter is the perfect game for groups that love fun, suspense, and a bit of deception. Playable with 3 or more players - no internet needed.\n\nEach round, every player gets a secret word. Everyone? Not quite! One player receives only \"IMPOSTER\".\nNow it's time to improvise: Each person gives a clue in one sentence. The imposter has to guess the word. The others must figure out who's lying.\n\nNow with a brand new game mode: 'Find the Liar' - everyon",
+        "released": "2025-05-18T07:00:00Z",
+        "updated": "2026-03-04T22:25:27Z",
+        "version": "4.2.1",
+        "score": 4.84637,
+        "reviews": 59290,
+        "developer": "Sven Vucak",
+        "developerUrl": "https://apps.apple.com/us/developer/sven-vucak/id1721257940?uo=4",
+        "genres": [
+          "Games",
+          "Entertainment",
+          "Family",
+          "Word"
+        ],
+        "releaseNotes": "Impostor Team Mode\nImposters can now see their teammates when multiple imposters are in the game - enable it in settings!\n\nPlayer Groups\nSave your favorite player groups and switch between them instantly - each with its own impostor settings."
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 1,
+          "2": 1,
+          "3": 3,
+          "4": 2,
+          "5": 42
+        },
+        "positiveRatio": 90,
+        "negativeRatio": 4,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 90%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:38.889Z"
+    },
+    {
+      "appId": "1595314851",
+      "name": "Lamar - Idle Vlogger",
+      "platform": "ios",
+      "market": "us",
+      "detail": {
+        "description": "Become a Viral Sensation with Lamar - Idle Vlogger!\nWelcome to the wacky world of \"Lamar - Idle Vlogger,\" where you can turn into a superstar by doing the silliest and funniest things online! Join Lamar as he starts his journey from a nobody to a famous internet sensation by making people laugh and going viral!\nStart from Zero\nLamar begins with just a simple camera and a big dream. Help him make hilarious videos that catch everyone's attention. From silly pranks to funny challenges, there's no l",
+        "released": "2021-12-20T08:00:00Z",
+        "updated": "2026-03-26T08:52:40Z",
+        "version": "238.0.0",
+        "score": 4.6476,
+        "reviews": 157435,
+        "developer": "Crazy Labs",
+        "developerUrl": "https://apps.apple.com/us/developer/crazy-labs/id721307559?uo=4",
+        "genres": [
+          "Games",
+          "Simulation",
+          "Roleplaying",
+          "Entertainment"
+        ],
+        "releaseNotes": "Hey you, Lamar calling with some news!\nThey said \"\"various improvements.\"\" What does that mean? No clue. \nBut the game still slaps, the buttons still button, and if things feel extra smooth… We did that! \nJust nod like you always knew this was coming.\nAnd as always, don't forget to like, comment, subscribe!"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 23,
+          "2": 6,
+          "3": 4,
+          "4": 1,
+          "5": 15
+        },
+        "positiveRatio": 33,
+        "negativeRatio": 59,
+        "eventMentions": [
+          {
+            "text": "i have contacted support over 3 weeks ago they said they are working on it i reached out to them aga",
+            "keywords": [
+              "update"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:41.403Z"
+    },
+    {
+      "appId": "com.kayac.PistolDuel",
+      "name": "Pistol Duel",
+      "platform": "android",
+      "market": "jp",
+      "detail": {
+        "description": "Tap to shoot bullets and take down your enemies!\nEach shot’s recoil propels your gun—master the kickback to move, dodge, and conquer every level!",
+        "released": "Oct 5, 2025",
+        "updated": 1775817350000,
+        "version": "043",
+        "installs": "1,000,000+",
+        "score": 4.347826,
+        "ratings": 5293,
+        "reviews": 9,
+        "developer": "KAYAC Inc.",
+        "developerWebsite": "https://kayac.games/",
+        "genre": "Action",
+        "recentChanges": "Fixed bugs."
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 16,
+          "2": 4,
+          "3": 3,
+          "4": 5,
+          "5": 22
+        },
+        "positiveRatio": 54,
+        "negativeRatio": 40,
+        "eventMentions": [
+          {
+            "text": "this game is simple and just like the ads and its offline too. i honestly enjoyed it but the problem",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "limited progress, repetitive levels, but fun to pass the time. does what it's intended for. wish the",
+            "keywords": [
+              "limited"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 2 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:43.642Z"
+    },
+    {
+      "appId": "6746151928",
+      "name": "Heartopia",
+      "platform": "ios",
+      "market": "ph",
+      "detail": {
+        "description": "Welcome to Heartopia, a multiplayer life simulation game crafted for creativity, freedom, and peace. Build your dream home, explore a wide range of hobbies, and forge warm connections with friends in a town full of endless possibilities. \n\n[Game Features]\n◆ Let's Connect! Create Unique Memories\nChat with the charming residents of Heartopia Town, hang out with old friends, and meet new friends every time you log in!\n\n◆ Let's Explore! Gardening, Fishing, Birding...\nHobbies are yours to enjoy, not ",
+        "released": "2026-01-07T08:00:00Z",
+        "updated": "2026-04-20T06:08:50Z",
+        "version": "0.4.12",
+        "score": 4.53768,
+        "reviews": 5585,
+        "developer": "XD Entertainment Co., Ltd.",
+        "developerUrl": "https://apps.apple.com/ph/developer/xd-entertainment-co-ltd/id1810952934?uo=4",
+        "genres": [
+          "Games",
+          "Simulation",
+          "Family"
+        ],
+        "releaseNotes": "◆Feature Updates and Optimizations◆\n[The Beaver Build Challenge]\nThe Developer's Guild is busy preparing for a big event — Heartopia First Build Challenge is about to begin!\nAfter the challenge starts, D.G. Members who meet the requirements can form teams of up to 4 members. During and after the Build Challenge, D.G. Members can freely visit other teams' entries, like their favorite entries, and take photos. After the build challenge ends, exclusive rewards (including the Limited Terminal & Construction Beaver's Approval) will be sent to the winning teams via in-game mail. You can revisit your submitted creation via the Limited Terminal.\n\nThe Build Challenge will begin on April 25 at 6 AM (Server Time). For more details on the event schedule, please stay tuned to future announcements or follow our official community."
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 18,
+          "2": 5,
+          "3": 10,
+          "4": 8,
+          "5": 8
+        },
+        "positiveRatio": 33,
+        "negativeRatio": 47,
+        "eventMentions": [
+          {
+            "text": "before i completely leave the game. just wanna say something. this game feels like a complete money ",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "this game has been getting more and more laggy lately. it’s starting to lose the mobile-friendly exp",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "enjoying at first, even spending moneys for an event. but recently there are a lot of events and all",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "hi developers! i just wanna say the game is very nice, i love all the things and whatever but there ",
+            "keywords": [
+              "update",
+              "collab"
+            ]
+          },
+          {
+            "text": "i would like to acknowledge this game, it really is a good chill game to play when you’re bored or n",
+            "keywords": [
+              "update"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 14 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:46.199Z"
+    },
+    {
+      "appId": "com.bunbunstudio.magicblocktiles",
+      "name": "Music Piano 7: Rush Song Games",
+      "platform": "android",
+      "market": "tw",
+      "detail": {
+        "description": "🎵 Why Music Piano 7? 🎵\n\nSearching for a piano game packed with your favorite trending songs? Look no further! Music Piano 7 perfectly blends the relaxation of a music game with the excitement of a piano Tile challenge. Step into a musical paradise with genres like Pop, Classic Piano, T-pop, K-pop, J-pop, EDM, Hip-Hop, and R&B.\n\n🎹 How to Play\nCreate beautiful melodies by mastering simple yet engaging mechanics:\n\n1. Feel the Beat: Tap the white or black tiles to listen the song.\n2. Hold the Rhy",
+        "released": "Oct 12, 2023",
+        "updated": 1776235651000,
+        "version": "3.7.7",
+        "installs": "50,000,000+",
+        "score": 4.6145835,
+        "ratings": 383780,
+        "reviews": 194,
+        "developer": "Melodya Muses",
+        "developerWebsite": "https://com-bunbunstudio-magicblocktiles.netlify.app/app-ads.txt",
+        "genre": "Music",
+        "recentChanges": "What&#39;s New:<br>- Smoother Gameplay: Optimized visuals and performance for a flawless rhythm experience!<br>- Bug Fixes: Minor tweaks for better stability.<br>Keep jamming and let us know what you think! 🎶"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 15,
+          "2": 3,
+          "3": 5,
+          "4": 2,
+          "5": 25
+        },
+        "positiveRatio": 54,
+        "negativeRatio": 36,
+        "eventMentions": [
+          {
+            "text": "so many ads, and i don't know how to disable, whether must buy or what i try to search how to buy bu",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "nice play piano with new song update.",
+            "keywords": [
+              "update",
+              "new"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 2 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:48.404Z"
+    },
+    {
+      "appId": "com.cliffs.pro.cell.building.crazy.clever.craft",
+      "name": "Block Crazy Robo World Craft",
+      "platform": "android",
+      "market": "tw",
+      "detail": {
+        "description": "🧱 Block Crazy Robo World Craft – Unleash your creativity in a futuristic voxel universe!\nStep into an open-world sandbox where robots meet blocks. Craft, build, and explore limitless possibilities in a world full of tech, creativity, and imagination. Design futuristic bases, high-tech cities, and robotic landscapes in a fully customizable 3D environment.\n\n🔑 Key Features:\n\n🛠️ Build & Create Freely\nConstruct anything you dream of! From robot factories and tech towers to epic cities and homes us",
+        "released": "Mar 16, 2025",
+        "updated": 1775407694000,
+        "version": "2024",
+        "installs": "50,000,000+",
+        "score": 4.3,
+        "ratings": 204893,
+        "reviews": 101,
+        "developer": "Prokids Studio",
+        "developerWebsite": "https://prokids-studio.blogspot.com/",
+        "genre": "Simulation"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 7,
+          "2": 3,
+          "3": 2,
+          "4": 3,
+          "5": 35
+        },
+        "positiveRatio": 76,
+        "negativeRatio": 20,
+        "eventMentions": [
+          {
+            "text": "amazing game to find out your new model on (and i love my new little fox)",
+            "keywords": [
+              "new"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:50.613Z"
+    },
+    {
+      "appId": "6742937695",
+      "name": "ペタペタペンギン団",
+      "platform": "ios",
+      "market": "jp",
+      "detail": {
+        "description": "【無料で３０００連ガチャ、豪華特典ゲット！】\nペタペタペンギン団、予約数100万突破！今DLして無料で3000連ガチャを引ける！さらに地域限定スキン・「剣魂」（ケンタマ）と、エリート所蔵品「厳冬の悲しみ」を贈呈！\n\n【刺激満点な簡単操作】\n「召喚」をタップするだけで次々とヒーローを呼び出せる！たくさん召喚して神話級ヒーローに合成しよう！最強チームを自分の手で作り上げろ。\n\n【チャット機能で盛り上がるチーム戦】\n仲間と協力してラスボスに挑め！戦力を共有して助け合い、ゲーム内チャットでコミュニケーションを取りながら戦略的バトルを楽しもう。\n\n【8人対決のバトルロワイヤル】\nバトロワモードで熱き戦いに参加せよ！混沌の戦場で最後まで生き残ったチームだけが勝者となり、豊富な報酬を手に入れることができる。\n\n【神話級ヒーローの収集と合成】\n多彩なヒーローでコレクションを充実させよう！神聖・炎・自然など各属性の特徴的なスキルを使いこなし、エンジェル・サキュバス・雪娘など様々なキャラクターを合成して最強の布陣で勝利を目指せ！\n\n【関連情報】\n公式X\nhttps://x.com/PGFightJP",
+        "released": "2025-04-27T07:00:00Z",
+        "updated": "2026-03-17T09:00:11Z",
+        "version": "1.1.2",
+        "score": 4.41559,
+        "reviews": 6184,
+        "developer": "MOREFUN (H.K.) LIMITED",
+        "developerUrl": "https://apps.apple.com/jp/developer/morefun-h-k-limited/id1773044663?uo=4",
+        "genres": [
+          "ゲーム",
+          "ロールプレイング",
+          "カジュアル"
+        ],
+        "releaseNotes": "1. 新システム「ホームシステム」実装\n農場・修練・研究など、ホーム内で楽しめる新要素を追加\n※メイン、共同作戦、バトロワなどのモードでホーム建築アイテムが入手可能になります\n\n2. 新機能「ホーム-農場システム」「ホーム-祈願システム」\n作物の栽培・収穫、祈願による加護獲得が可能になります\n\n3. 新システム「ギルド協力」\nギルドメンバーの協力で、建築アップグレードの待ち時間を短縮できます\n\n4. 新機能「不朽特訓室」\n不朽ヒーローを獲得後、毎週キャンプで特訓を行うことで「不朽ヒーローの欠片」を獲得できます（獲得数はヒーローレベルに応じて増加します）。\n\n5. 新シーズン「S7」開幕\n新シーズンの報酬やスキンが登場！さらに、数値を平準化した「期間限定対戦モード」を追加。\n\n6. 栄誉チャレンジ・第2期開催\n報酬が全面的にアップグレード！\n\n7. 新たな幻羽が登場\nクールなデザインの幻羽が複数追加されます。\n\n8. メカ風極上スキン「虚幻装束」登場\n華やかなメカスタイルの極上スキンが実装。"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 20,
+          "2": 4,
+          "3": 6,
+          "4": 4,
+          "5": 15
+        },
+        "positiveRatio": 39,
+        "negativeRatio": 49,
+        "eventMentions": [
+          {
+            "text": "最初だけ面白かった。\n少し進めると、全然勝てなくなり、つまらない。\nノーマルクエスト？でこの段階から勝てないとかいうゲームは初めて。\nイベントとか高難易度クエならともかく...\n時間の無駄でした。",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "課金した時に反映されなかった\n月パスが反映されず課金できなかったのかと思い再度購入した所2回購入扱いになっていた\nその後ランクマッチのシーズンパスも購入したがそちらも課金されているがアイテム付与なし\n",
+            "keywords": [
+              "シーズン"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 2 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:53.107Z"
+    },
+    {
+      "appId": "com.funnyjoy.snysw.an",
+      "name": "Brain Puzzle King",
+      "platform": "android",
+      "market": "tw",
+      "detail": {
+        "description": "🔥Welcome to \"Brain Puzzle King\"!🔥\n\nAre you ready for a new challenge in the spot-the-difference game? \"Brain Puzzle King\" will take you to a whole new gaming world. Test your smarts and vision while enjoying a blend of culture and trendy memes!\n\nGame Features:\n🧠 Unique Brain Challenges: Unlike traditional puzzle games, this one takes gameplay to a whole new level by combining stunning visual puzzles with creative brain teasers.\n\n🌐 Brand New Gaming World: Get ready for a world full of puzzles",
+        "released": "Jan 12, 2024",
+        "updated": 1764926775000,
+        "version": "1.1.2.1",
+        "installs": "10,000,000+",
+        "score": 4.4145937,
+        "ratings": 107438,
+        "reviews": 345,
+        "developer": "Mangoing Game Studio",
+        "developerWebsite": "http://catchcash.online/MangoingGameStudio/privacy",
+        "genre": "Puzzle"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 8,
+          "2": 10,
+          "3": 8,
+          "4": 2,
+          "5": 22
+        },
+        "positiveRatio": 48,
+        "negativeRatio": 36,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:55.312Z"
+    },
+    {
+      "appId": "com.mergegames.gossipharbor",
+      "name": "Gossip Harbor®: Merge & Story",
+      "platform": "android",
+      "market": "th",
+      "detail": {
+        "description": "Welcome to Gossip Harbor 🌊\nFollow Quinn Castillo as her picture perfect life on Brimwave Island crumbles around her. Divorce, sabotage and secrets. Help answer the question everyone's thinking: Who's trying to ruin her life? \nMerge flavorful dishes, restore and decorate Quinn's restaurant and watch the mystery unfold. \nBut who can you trust in Brimwave? \n\nWhip Up Tasty Dishes🥪\nServe coffee, sandwiches, seafood, and a range of other dishes, to your customers. The more you play, the more dishes ",
+        "released": "Sep 9, 2022",
+        "updated": 1777440067000,
+        "version": "3.89.0",
+        "installs": "50,000,000+",
+        "score": 4.7085204,
+        "ratings": 617950,
+        "reviews": 1781,
+        "developer": "Microfun Limited",
+        "developerWebsite": "https://www.microfun.com/game_cookieEN.html",
+        "genre": "Puzzle",
+        "recentChanges": "NEW EPISODE EVERY FRIDAY!<br>- NEW EPISODE: With new chapter updates every Friday; follow Quinn as she exposes secrets and solves puzzles.<br>- NEW EVENT:Saddle up and head on out to Slivertails! Join Colton, Olivia, and Lori as they enjoy the cowboy celebrations. Explore by collecting points and unlock exclusive decorations to complete the event!"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 17,
+          "2": 1,
+          "3": 4,
+          "4": 3,
+          "5": 25
+        },
+        "positiveRatio": 56,
+        "negativeRatio": 36,
+        "eventMentions": [
+          {
+            "text": "cute game i just wish that there would be bonuses past level 20 when you hit a new level",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "i just want to mention that i hate some events, like card collecting, because there's no option to s",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "in the ads it kept on saying no adds but it contains a lot of ads and it asks me to update the game ",
+            "keywords": [
+              "update"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 5 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 3 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:57.507Z"
+    },
+    {
+      "appId": "6759763476",
+      "name": "Bus Rush Fever!",
+      "platform": "ios",
+      "market": "ph",
+      "detail": {
+        "description": "Do you love solving challenging yet satisfying puzzles?\nStep into the world of Bus Rush Fever!\n\nBus Rush Fever! combines the excitement of parking games, the challenge of color-sorting games, and the satisfying people. Plan your moves to clear the parking lot congestion and make way for smooth traffic.\n\nMove, park, and collect—every decision matters in this parking jam puzzle.\n\nWhether you love car parking games, color-sorting games, or just brain teasers, this addictive puzzle game will keep yo",
+        "released": "2026-03-13T07:00:00Z",
+        "updated": "2026-03-19T18:30:55Z",
+        "version": "1.2.0",
+        "score": 4.83824,
+        "reviews": 136,
+        "developer": "GOODROID,Inc.",
+        "developerUrl": "https://apps.apple.com/ph/developer/goodroid-inc/id951688937?uo=4",
+        "genres": [
+          "Games",
+          "Casual",
+          "Puzzle"
+        ],
+        "releaseNotes": "Bug Fix"
+      },
+      "reviewAnalysis": {
+        "total": 2,
+        "starCounts": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "positiveRatio": 50,
+        "negativeRatio": 50,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:34:59.933Z"
+    },
+    {
+      "appId": "com.smilegate.lordnine.stove.google",
+      "name": "로드나인",
+      "platform": "android",
+      "market": "kr",
+      "detail": {
+        "description": "▣Game Introduction▣\n\n■ The One Who Will Seize Hegemony Over the World\n\nAn epic saga centered around the 9 Lords who hold supremacy over the continent\n\nHaving arrived in this other world at the call of Orpheus, will you be able to\n\nbe reborn as the 10th Lord!\n\n■ MMORPG's First Customizable Growth System\n\nHigh freedom in weapon selection and growth, leading to changes in combat style\n\nStrategically utilize additional skills through ability and tag combinations\n\nFreely select and switch between var",
+        "released": "Jul 7, 2024",
+        "updated": 1776769790000,
+        "version": "1.4.2",
+        "installs": "500,000+",
+        "score": 4.653666,
+        "ratings": 26532,
+        "reviews": 5174,
+        "developer": "Smilegate, Inc.",
+        "developerWebsite": "http://smilegate.com",
+        "genre": "Role Playing",
+        "recentChanges": "- 최상위 사냥터 &#39;태고의 심연&#39; 추가\t<br>- 각성 직업 70종 추가\t<br>- 월드 던전 대규모 리뉴얼\t<br>- 서약된 무기 추가\t<br>- 신규 아바타 스킨 추가\t<br>- 밸런스 업데이트\t<br>- 콘텐츠 편의성 개선\t<br>- 버그 및 기타 오류 수정\t"
+      },
+      "reviewAnalysis": {
+        "total": 10,
+        "starCounts": {
+          "1": 6,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 4
+        },
+        "positiveRatio": 40,
+        "negativeRatio": 60,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 13 天前",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:02.255Z"
+    },
+    {
+      "appId": "com.fungames.blockcraft",
+      "name": "Block Craft 3D：Building Game",
+      "platform": "android",
+      "market": "us",
+      "detail": {
+        "description": "Ready? Block? Go! \nCraft and grow your own village or build freely in an unlimited open world!\n\nFeatures:\n•  Fun building game: Lots of different constructions. Build a house, a castle, a mine or even a spaceship and the Eiffel Tower!\n•  Simulate the best life it's a fun simulator game! \n•  Lots of pixels: enjoy the special pixel graphics.\n•  Choose your character!\n•  Animals adopt and play with animals! It's fun!\n\nHighlights: \nAmazing buildings in 3D\nPlay now one of the best construction games!",
+        "released": "Aug 24, 2016",
+        "updated": 1777032075000,
+        "version": "3.32.2",
+        "installs": "500,000,000+",
+        "score": 4.5170975,
+        "ratings": 2864880,
+        "reviews": 75550,
+        "developer": "Wildlife Studios",
+        "developerWebsite": "https://www.fungames-forfree.com/games/blockcraft",
+        "genre": "Arcade"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 6,
+          "2": 1,
+          "3": 4,
+          "4": 5,
+          "5": 34
+        },
+        "positiveRatio": 78,
+        "negativeRatio": 14,
+        "eventMentions": [
+          {
+            "text": "downloading this game at the time of lockdown was the best decision of my life, i remember kid me fe",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "new block",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "new house",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "devs, thank you soo much. the placing blocks range is soooo helpful and i'm so grateful that your te",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "ok but too much of advertisement. we can't creat any thing and has limited type of blocks.",
+            "keywords": [
+              "limited"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 10 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:04.472Z"
+    },
+    {
+      "appId": "com.nflystudio.InfiniteStaircase",
+      "name": "Infinite Stairs",
+      "platform": "android",
+      "market": "kr",
+      "detail": {
+        "description": "\"\nThe Iconic Korean Arcade Game, Loved by 50 Million Players  \n\nJust press the button and climb the stairs—simple yet incredibly addictive action arcade gameplay!\nFree to play, easy to control, and fun for everyone—from preschoolers to kids, teens, and adults.\n\nPlay with popular characters like Brain Rot, Catch! Teenieping, Shinbi Apartment, and Demon Hunters, \nand collect from over 1,000 unique characters!\n\n   - Boost your focus and reflexes\n   - Featured on Google Play & App Store\n   - 10 year",
+        "released": "Jan 16, 2015",
+        "updated": 1775024815000,
+        "version": "VARY",
+        "installs": "10,000,000+",
+        "score": 4.231843,
+        "ratings": 532450,
+        "reviews": 260449,
+        "developer": "Neptune Corp.",
+        "developerWebsite": "https://assets.adxcorp.kr/redirect?url=https://neptunecompany.kr",
+        "genre": "Arcade",
+        "recentChanges": "v1.3.192<br>-K-League compensation content update<br>-Bug Fix"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 4,
+          "5": 42
+        },
+        "positiveRatio": 92,
+        "negativeRatio": 4,
+        "eventMentions": [
+          {
+            "text": "콜라보 그만 했으면 좋겠어요......",
+            "keywords": [
+              "콜라보"
+            ]
+          },
+          {
+            "text": "i think this is a really good game, its very easy to get really fast. it also has a lot of new thing",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "love the teenieping event🎉",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "the teenieping update was awesome i was stuck on heartsping but it's fine!! i like the animation's o",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "please i beg ya to keep the catch teenieping event- also i love this game, makes my time pass! just ",
+            "keywords": [
+              "event"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        },
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 92%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:06.771Z"
+    },
+    {
+      "appId": "6756288168",
+      "name": "Cookingo: Perfect Meal",
+      "platform": "ios",
+      "market": "kr",
+      "detail": {
+        "description": "Welcome to Cookingo, your peaceful little escape from the hustle and bustle of everyday life. In this game, cooking is more than just making food—it’s a foodie haven, where you can savor each calm and happy moment.\n\nYour mission is simple: craft all the fresh ingredients into delightful creations.\n- Chop & Slice: Feel your rhythm as you softly slice fruits and veggies.\n- Whisk & Mix: Watch colors swirl and textures blend while soothing ASMR sounds wrap around you like a cozy blanket.\n- Perfect P",
+        "released": "2025-12-16T08:00:00Z",
+        "updated": "2026-04-06T10:46:41Z",
+        "version": "1.4",
+        "score": 2.46429,
+        "reviews": 28,
+        "developer": "Higame Global Limited",
+        "developerUrl": "https://apps.apple.com/kr/developer/higame-global-limited/id1764022277?uo=4",
+        "genres": [
+          "게임",
+          "캐주얼"
+        ],
+        "releaseNotes": "- Fixed some bugs\n- Added 11 new levels\n- Enhanced the user experience."
+      },
+      "reviewAnalysis": {
+        "total": 22,
+        "starCounts": {
+          "1": 7,
+          "2": 4,
+          "3": 4,
+          "4": 4,
+          "5": 3
+        },
+        "positiveRatio": 32,
+        "negativeRatio": 50,
+        "eventMentions": [
+          {
+            "text": "다음레벨업데이트만빨리부탁드립니다",
+            "keywords": [
+              "업데이트"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:09.193Z"
+    },
+    {
+      "appId": "6744726523",
+      "name": "問劍長生",
+      "platform": "ios",
+      "market": "tw",
+      "detail": {
+        "description": "你是傳奇的紫微仙尊轉世，出身就氣度不凡。\n準備好踏上主角之路了嗎？\n一鍵進入3D修仙大世界，輕鬆修煉，放手御劍。與百丈巨獸騰挪周旋，與百仙跨區同屏對戰！\n\n【輕鬆飛行 多人空戰】\n乘龍敖翔在3D修仙大世界，全場景空中激鬥。\n橫豎屏切換沉浸欣賞，叫上好友一起空中群戰！\n\n【不肝不課 輕鬆修煉】\n放置修煉，掛機練等，AI代打日常副本，\n單手操作御劍空戰，躺著也能飛升！\n\n【三系兼修 仙魔可選】\n雷火劍三大流派，魔道蠱道多線修煉。\n策略自由組合，創造自己的獨門絕技！\n\n【個性無限 自在遨遊】\n3D捏臉、精美時裝、百種飛行器、靈獸隨行，\n還有浪漫雙人同乘賞無邊雲海，仙途不孤單！\n\n【組隊刷金 自由交易】\n百人同屏激戰世界Boss，搬磚黨組隊刷寶箱。\n爆紅裝上架交易，輕鬆賺仙玉！\n\n【六域共戰 仙榜爭鋒】\n飛升靈界，戰況升級！\n台港澳新馬韓，六域仙友跨區對戰！\n\n【開服贈禮 福利滿滿】\n7天100抽功法券與3套時裝，\n輕鬆開局，養成頂級功法！\n\n即刻預約，踏入這個兼顧熱血戰鬥與閒適修行的3D世界，執劍問道，踏破長生路！\n\n關注官方社區了解更多修仙資訊和福利！\n\n※本遊戲角色穿著凸顯女性胸、臀性特",
+        "released": "2025-11-27T08:00:00Z",
+        "updated": "2026-04-23T07:59:55Z",
+        "version": "2025.0.26042101",
+        "score": 4.81119,
+        "reviews": 7987,
+        "developer": "LTGAMES GLOBAL",
+        "developerUrl": "https://apps.apple.com/tw/developer/ltgames-global/id1512565013?uo=4",
+        "genres": [
+          "遊戲",
+          "策略",
+          "角色扮演"
+        ],
+        "releaseNotes": "【活動玩法相關】\n1. 5 月 1 日 - 5 月 5 日，將開啟戲曲主題活動-千面奇戲\n2. 宗門聯賽-萬道爭鋒第二賽季開啟\n3. 宗門聯賽調整最佳化說明 \n4. 新增爭鋒至寶-真靈印，可在宗門聯賽第二賽季-仙跡遺珍中獲得\n \n【日常體驗最佳化】\n1. 道火顯世活動開啟時，如果仙長所在位面位於魔淵，則預設選擇【上命宮】；位於巫山，則預設選擇【中命宮】；位於荒獄，則預設選擇【下命宮】。仙長主動選擇切換其他命宮後，將記錄最近一次選擇直至本期活動結束。\n2. 諸天大會現在將於每次活動前重新組合界域。\n調整問劍盟活動時間顯示規則，現在會顯示下一次活動的具體日期和時間。\n3. 新增免修補程式下載失敗提醒，如遇免修補程式下載失敗，遊戲中將出現提示按鈕，可透過提示按鈕快速下載。\n4. 在交易行購買商品時，若綁元不足且可用仙元兌換綁元時，將主動彈出兌換提示。\n5. 異化吞噬最佳化\n1) 普通命火異化圓滿之後，仍可繼續吞噬本體轉化獲得稀有命火碎片。2) 稀有命火異化圓滿之後，繼續吞噬本體轉化獲得命火精髓。"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 25,
+          "2": 2,
+          "3": 4,
+          "4": 2,
+          "5": 16
+        },
+        "positiveRatio": 37,
+        "negativeRatio": 55,
+        "eventMentions": [
+          {
+            "text": "未參加到第一次聯動只跟到了兩天，希望後續可以再開放！",
+            "keywords": [
+              "聯動"
+            ]
+          },
+          {
+            "text": "這是一款課金遊戲，前期課金為了自身等級與戰力，遊戲公司看那些追不上整體進度，就增加祝福類的增加%數，為了吸引人還在活動內新增永久卡增加找回天數，但是，原先的卻不做補償，爛耶！花錢給你們當盤子耍！",
+            "keywords": [
+              "新",
+              "活動"
+            ]
+          },
+          {
+            "text": "非常後悔，不要浪費時間玩\n1. 不儲值少一半樂趣，參與不了合戰跟排名，純單機點一點的消消樂\n\n2.永久卡670、月卡140、每週330台幣，只是基本完全不算有課，每月推4-5次活動，平時各種超值200",
+            "keywords": [
+              "新",
+              "活動"
+            ]
+          },
+          {
+            "text": "活動一直連續出、每天都感覺有東西要你花錢、小課玩家每天至少被燒掉300-500台幣。大課長不用說了玩一個月可能就要你花20-50萬了，真的是把玩家當提款機的機制，恐怖的吃相",
+            "keywords": [
+              "活動"
+            ]
+          },
+          {
+            "text": "剛開始還好，玩到元嬰開始就無聊，更新趕不上，新鮮感很快沒有。",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 11 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:11.687Z"
+    },
+    {
+      "appId": "6754387513",
+      "name": "堡壘傳說：蒸汽龐克",
+      "platform": "ios",
+      "market": "tw",
+      "detail": {
+        "description": "末世廢土 × 機甲戰車 × 放置塔防 × 移動要塞作戰——跨時空冒險正式啟航！\n通關主線獲取稀有堡壘「天空船」形態——助力指揮官即刻投入戰鬥！\n\n黑潮暴動，怪海肆虐，世界正在崩壞……\n在這個科幻與災厄交織的末世，每一座奮力抵擋的移動堡壘築起文明最後的防線。\n\n指揮官，廢土危機四伏，彌亞大陸急需您的馳援！\n請駕駛您的黑科技堡壘戰車，集結英雄、裝備炮塔、衝鋒探險——\n用策略與火力撕裂怪潮，改寫廢土命運！\n\n===遊戲特色===\n【玩法革新：移動塔防 × 戰車戰略】\n駕駛移動堡壘前進抵禦黑潮——您的戰車就是這個末世的終極武器！\n武裝、改造、重組炮塔與機甲模組，打造專屬戰略流派。\n是穩扎穩打的防守還是孤注一擲的衝刺？指揮官的每一步，都將決定末世生存法則！\n\n【多元模式：休閒掛機 × 硬核挑戰】\n佛系掛機派：放置掛機自動推進，離線12小時資源照收，輕鬆養成零壓力。\n肝帝挑戰派：黑潮之路、異域探險、肉鴿秘境……多線玩法，戰力與耐力全面拚。\n跨服競技場即時對轟，卡牌戰術拼腦力與陣容，巔峰僅屬最強指揮官！\n\n【外觀圖鑒：特色造型 × 收藏系統】\n基地工坊自由改裝堡壘戰車，隨心組裝炮塔與模組，打造專屬夢",
+        "released": "2026-01-04T08:00:00Z",
+        "updated": "2026-04-29T08:46:21Z",
+        "version": "1.0.13",
+        "score": 4.83054,
+        "reviews": 3228,
+        "developer": "Flame Games",
+        "developerUrl": "https://apps.apple.com/tw/developer/flame-games/id1668712811?uo=4",
+        "genres": [
+          "遊戲",
+          "卡牌"
+        ],
+        "releaseNotes": "【全新多隊玩法】\n神隕戰場·多隊大型PVP玩法，每月1/15號火熱開啟\n魔淵鏖戰·多隊試煉PVE玩法，配套全新產出限定金色收藏品\n\n【全新紅契物】\n禁言法典 | 聖光福音：律文靜默，弦音即真。啟封強力契物，解鎖神秘力量！"
+      },
+      "reviewAnalysis": {
+        "total": 39,
+        "starCounts": {
+          "1": 18,
+          "2": 3,
+          "3": 3,
+          "4": 0,
+          "5": 15
+        },
+        "positiveRatio": 38,
+        "negativeRatio": 54,
+        "eventMentions": [
+          {
+            "text": "首先 第一點沒有廣告，光這點就很推， 第二點每天幾乎都有活動， 鑽石一直拿無課玩家也可以輕鬆玩， 第三點遊戲玩到一定程度活動都可略過， 對於沒時間的玩家也很佛心。 建議部分 希望之前出的角色可以提前復",
+            "keywords": [
+              "活動"
+            ]
+          },
+          {
+            "text": "整體體驗不錯沒有廣告，每兩週就有新活動，還有新的小遊戲，一直在更新體驗。\n遊戲裡有劇情的玩法，不過都有設置跳過以及一鍵掃蕩功能，對於想花時間或者沒時間的人都算友善，英雄跟動畫也都做的不錯。\n\n不過獎勵",
+            "keywords": [
+              "新",
+              "活動",
+              "更新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 5 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 2 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:14.185Z"
+    },
+    {
+      "appId": "6739561266",
+      "name": "LINE 數獨達人",
+      "platform": "ios",
+      "market": "tw",
+      "detail": {
+        "description": "「LINE POINTS GAME」系列第二款作品——《LINE數獨達人》登場！\n有LINE FRIENDS的人氣角色熊大、兔兔、莎莉陪你一起動腦玩數獨！\n享受解題樂趣之餘，完成任務獲得金幣，就能兌換超好用的LINE POINTS！\n快來一起挑戰，成為數獨達人吧！\n\n＜遊玩方式＞\n輕觸螢幕即可操作。\n在縱列、橫列及3×3區塊內，\n分別使用1~9 的數字各一次，\n正確填入所有數字即可輕鬆過關！\n\n＜筆記功能＞\n當格子內可能填入的數字有多個選項時，\n可開啟筆記功能來標記。\n即使當下無法確定答案，\n隨著解題進度推進，答案可能會逐漸浮現！\n\n＜提示功能＞\n如果遇到無法繼續解題的狀況，  \n就來試著使用提示功能吧！  \n系統會直接幫你填入一個正確的數字！  \n\n＜活動＞\n定期舉辦各種特別活動！  \n在活動期間內只要通關特定關卡，\n即可獲得額外的獎勵金幣！  \n\n＜每日數獨＞\n完成「每日數獨」就能入手比平時更多的金幣！\n而且！！\n如果完成整個月份的關卡，\n還能獲得獎盃及全通額外獎勵金幣！\n\n＜金幣＞\n完成數獨關卡即可獲得「金幣」！\n獲得的金幣可用來兌換「提示」或「道具」，\n幫助你順利解題！\n\n＜刮",
+        "released": "2025-05-07T07:00:00Z",
+        "updated": "2026-04-24T02:01:08Z",
+        "version": "3.7.0",
+        "score": 4.407,
+        "reviews": 25241,
+        "developer": "LINE Corporation",
+        "developerUrl": "https://apps.apple.com/tw/developer/line-corporation/id359067226?uo=4",
+        "genres": [
+          "遊戲",
+          "解謎",
+          "休閒"
+        ],
+        "releaseNotes": "[ver_3.7.0更新內容]\n修正細微錯誤並進行改善。"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 30,
+          "2": 7,
+          "3": 7,
+          "4": 2,
+          "5": 3
+        },
+        "positiveRatio": 10,
+        "negativeRatio": 76,
+        "eventMentions": [
+          {
+            "text": "更新過後答錯第三次看廣告繼續都無法看 過關之後想要看廣告得50塊獎勵也都無法觀看 就偏偏在答題時找到兩塊的獎勵都可以正常觀看廣告 可以麻煩改善一下嗎？重新刷新登入也一樣 還沒更新前都很正常 更新後就整",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "之前累積很多的金幣因為重新下載都沒了⋯",
+            "keywords": [
+              "新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 10 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 2 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:16.672Z"
+    },
+    {
+      "appId": "6642673658",
+      "name": "Chúa Công Chạy Mau - 3Q",
+      "platform": "ios",
+      "market": "vn",
+      "detail": {
+        "description": "Quyết định phê duyệt nội dung kịch bản trò chơi điện tử G1 trên mạng số: 2012/QĐ-BTTTT cấp ngày 19/11/2024.\nGame \"Chúa Công Chạy Mau\" được mong đợi từ lâu đã chính thức ra mắt! Chào mừng tất cả người chơi tham gia vào bộ tộc Tam Quốc của chúng ta. Ngoài ra, còn có rất nhiều phúc lợi trong trò chơi đang chờ bạn nhận! Hãy nhanh chóng đăng nhập vào trò chơi và trải nghiệm thế giới Tam Quốc khác!\n\n\"Chúa Công Chạy Mau\" là một tựa game thẻ bài giải trí lấy bối cảnh Tam Quốc. Trong game, bạn sẽ sát cán",
+        "released": "2025-01-22T08:00:00Z",
+        "updated": "2026-04-25T01:10:55Z",
+        "version": "1.2.8",
+        "score": 3.3879,
+        "reviews": 1124,
+        "developer": "NEXFUN",
+        "developerUrl": "https://apps.apple.com/vn/developer/nexfun/id1763486824?uo=4",
+        "genres": [
+          "Games",
+          "Casual",
+          "Card"
+        ],
+        "releaseNotes": "Sửa một số bug đã biết"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 46,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "positiveRatio": 0,
+        "negativeRatio": 100,
+        "eventMentions": [
+          {
+            "text": "what the heck all earth, my account was like at rank 40-50 with like 14-16 generals at level 100-130",
+            "keywords": [
+              "new"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 9 天前",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:19.172Z"
+    },
+    {
+      "appId": "com.magic.dancing.tiles.game.piano",
+      "name": "Magic Dancing Tiles",
+      "platform": "android",
+      "market": "ph",
+      "detail": {
+        "description": "TAP TAP PIANO MUSIC GAME \nAre you looking for a new piano music game? Want to play piano tiles offline and for the gameplay to be vibrant, fun, and full of challenges?\n\nTry our Magic Dancing Tiles Piano Pink Music, a new ultra-fun tap piano tiles game that's packed with melody and rhythm! \n\nImmerse yourself in the magic world of music with this captivating tiles hop and tap game.\n\n🎵 TAP PIANO TILES GAME FULL OF MELODY AND RHYTHM:  \nGet ready to tap your way to musical greatness in this enchanti",
+        "released": "Oct 30, 2023",
+        "updated": 1776429318000,
+        "version": "0.5.57",
+        "installs": "10,000,000+",
+        "score": 4.1359224,
+        "ratings": 38911,
+        "reviews": 75,
+        "developer": "PHY STUDIO",
+        "developerWebsite": "https://www.phydoes.com",
+        "genre": "Music"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 15,
+          "2": 2,
+          "3": 1,
+          "4": 5,
+          "5": 27
+        },
+        "positiveRatio": 64,
+        "negativeRatio": 34,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:21.399Z"
+    },
+    {
+      "appId": "com.JindoBlu.OfflineGames",
+      "name": "Offline Games - No Wifi Games",
+      "platform": "android",
+      "market": "us",
+      "detail": {
+        "description": "Get ready for 'Offline Games': fun for all ages, and a mental workout too! This offline game collection is like an overflowing toy box packed with more than 20 unique minigames. It's designed for classic game enthusiasts, puzzle lovers, and challenge seekers. And the best part? You don't need an internet connection to enjoy it!\n\nOur array of Number Games like 2048 and 2248 will get your neurons firing. Engage in these numeric challenges and strive to hit the highest scores. They're perfect for k",
+        "released": "Aug 4, 2023",
+        "updated": 1777417472000,
+        "version": "3.10.1",
+        "installs": "100,000,000+",
+        "score": 4.6234474,
+        "ratings": 443971,
+        "reviews": 13406,
+        "developer": "JindoBlu",
+        "developerWebsite": "https://www.jindoblu.com",
+        "genre": "Casual",
+        "recentChanges": "• Bug fixes and improvements<br>"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 2,
+          "2": 1,
+          "3": 2,
+          "4": 4,
+          "5": 41
+        },
+        "positiveRatio": 90,
+        "negativeRatio": 6,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 5 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 90%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:23.655Z"
+    },
+    {
+      "appId": "1337578317",
+      "name": "我的汤姆猫2-哈吉米蒸蚌！",
+      "platform": "ios",
+      "market": "cn",
+      "detail": {
+        "description": "玩法焕新，欢乐启程！《我的汤姆猫2》全新升级来袭，多样玩法同步解锁，每一份惊喜都等你开启，快来沉浸式体验全新趣味互动！\n-- 全新玩法亮点 --\n【独创烹饪，解锁美味】全新的烹饪功能上线！发挥你的创意，烹饪汉堡和煎饼，亲手制作独属于你的佳肴，解锁舌尖上的欢乐体验！\n\n【后院升级，畅玩无忧】后院迎来重大升级！更宽广的活动空间，更多趣味互动玩法，让你和家族伙伴拥有足够空间，尽情享受休闲时光。\n\n【太空竞技，探索未知】飞机建造器和天空竞赛重大升级！4款新的太空主题天空竞赛轨道全新上线，搭配全新的生物和太空主题飞机建造玩法，带你探索太空竞技的无限乐趣！\n\n【新奇玩法，焕新体验】全新的牙刷玩法重磅来袭！简单操作，趣味十足，解锁不一样的互动体验，为你的欢乐时光再添新意！\n\n超级明星虚拟猫咪将踏上终极宠物冒险之旅，有了你，这将比以往任何时候都更有趣！你最喜爱的有趣朋友已经准备好用他的新服装、惊人技能和特殊功能让你大开眼界。\n\n你能做什么：\n\n- 学习新技能：教汤姆猫一些很酷的技巧和技能，比如打鼓、篮球和拳击。他将成为最有天赋的猫咪！\n\n- 品尝最新零食：发现并喂汤姆猫各种美味有趣的零售。从冰淇淋到寿",
+        "released": "2018-11-08T04:21:38Z",
+        "updated": "2026-04-22T08:07:24Z",
+        "version": "26.2.9",
+        "score": 4.50777,
+        "reviews": 1490603,
+        "developer": "Outfit7 Limited",
+        "developerUrl": "https://apps.apple.com/cn/developer/outfit7-limited/id351110111?uo=4",
+        "genres": [
+          "游戏",
+          "模拟",
+          "角色扮演",
+          "娱乐"
+        ],
+        "releaseNotes": "焕然一新的后院\n - 更宽敞的后院，为你提供更多空间与互动玩法\n - 全新的烹饪功能，让你轻松制作美味点心\n - 探索门廊区域，发现宠物派对与神奇惊喜\n - 游戏体验优化升级，运行更流畅"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 25,
+          "2": 4,
+          "3": 2,
+          "4": 3,
+          "5": 15
+        },
+        "positiveRatio": 37,
+        "negativeRatio": 59,
+        "eventMentions": [
+          {
+            "text": "更新之后很卡，很容易莫名奇妙卡死，广告有的也找不到关闭按钮了",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "更新了挺多东西但是玩的时候会出现卡住的情况",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "怎么更新了新的版本以后给汤姆猫刷牙一直刷不干净，重新更新吧",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "进去玩一会儿就会卡顿 闪屏 没有更新之前就没有这种情况",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "更新完为什么会这么卡进都进不去",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 12 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:26.255Z"
+    },
+    {
+      "appId": "6449294809",
+      "name": "Invincible: Guarding the Globe",
+      "platform": "ios",
+      "market": "ph",
+      "detail": {
+        "description": "Invincible: Guarding the Globe is an idle squad RPG set in the Invincible universe featuring a new story never seen in the comics or Amazon Prime TV series, with graphic multi battle action, character collection, team management, idle features and, of course, super-powered visuals.\n\nTHE WORLD OF INVINCIBLE\nAccompany the highly rated Amazon Prime Video show with the first Invincible mobile RPG.\nEmbark on a complete campaign with an original story – a new narrative where you join the Global Defens",
+        "released": "2023-10-04T07:00:00Z",
+        "updated": "2026-04-21T07:16:56Z",
+        "version": "3.1.8",
+        "score": 4.54577,
+        "reviews": 284,
+        "developer": "Ubisoft",
+        "developerUrl": "https://apps.apple.com/ph/developer/ubisoft/id317644720?uo=4",
+        "genres": [
+          "Games",
+          "Role-Playing",
+          "Action"
+        ],
+        "releaseNotes": "NEW UPDATE\n- We're bringing even MORE characters and events from Season 4 of Prime Video's hit Invincible!\n- The Lizard League is getting reinforcement with their loyal  Soldiers\n- A new GDA Case File is available now: Explore the mystical story of Seance Dog\nMinor tech issues resolved"
+      },
+      "reviewAnalysis": {
+        "total": 31,
+        "starCounts": {
+          "1": 10,
+          "2": 2,
+          "3": 6,
+          "4": 3,
+          "5": 10
+        },
+        "positiveRatio": 42,
+        "negativeRatio": 39,
+        "eventMentions": [
+          {
+            "text": "the latest update automatically logged me out and after downloading the game again, i was surprised ",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "stop shipping so many new features without fixing the fundamentals. game crashes half of the time",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "you should really add the grand regent to your game and make it an a event to get him because he was",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "i'm an old player and have been playing this game so long enough almost since this game was first re",
+            "keywords": [
+              "event",
+              "limited"
+            ]
+          },
+          {
+            "text": "do you guys have a new update to correct the enormous error notification. can’t log in to the game",
+            "keywords": [
+              "update",
+              "new"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 13 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:29.139Z"
+    },
+    {
+      "appId": "1442061397",
+      "name": "Pokémon Masters EX",
+      "platform": "ios",
+      "market": "jp",
+      "detail": {
+        "description": "■ ポケモンの、その先の物語を楽しもう\nトレーナーたちの物語の続きや\n地方を超えた新しい関係の始まりなど\nポケマスだけのポケモンストーリーが楽しめる！\n\n■ 様々な地方からバディーズが登場！\nパルデア地方やヒスイ地方の\nトレーナーたちも登場！\n様々な地方のトレーナー同士の交流を楽しもう！\n\n■ 3vs3のバトルに挑もう！\n好きなトレーナーでポケモンバトル！\nポケモンとトレーナーのきずなで\n勝ち進もう！\n\n■ 歴代のトレーナー＆ポケモンが大集結！\n歴代の『ポケットモンスター』シリーズに\n登場したチャンピオン、四天王、ジムリーダー、\n様々なトレーナー&ポケモンが大集結！\n\n■ 特別な衣装のトレーナーも登場\n「ポケモンマスターズEX」だけの特別な衣装\nを身にまとったトレーナーたちが登場！\n衣装にちなんだオリジナルストーリーも楽しもう！\n\n■ お気に入りのトレーナーたちと交流しよう！\n「トレーナーズサロン」で\nお気に入りのトレーナーたちとの交流を深め、\n特別なフォトやエピソードを手に入れよう！\n\n■トレーナーたちのフォトを撮影しよう\nトレーナー、背景、フレームなどを選んで、\n自分だけのオリジナ",
+        "released": "2019-08-28T07:00:00Z",
+        "updated": "2026-04-27T05:00:47Z",
+        "version": "2.68.1",
+        "score": 4.63009,
+        "reviews": 406509,
+        "developer": "DeNA Co., Ltd.",
+        "developerUrl": "https://apps.apple.com/jp/developer/dena-co-ltd/id431078943?uo=4",
+        "genres": [
+          "ゲーム",
+          "エンターテインメント",
+          "アドベンチャー",
+          "ロールプレイング"
+        ],
+        "releaseNotes": "■アップデート内容■\n不具合修正を行いました。"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 17,
+          "2": 1,
+          "3": 3,
+          "4": 2,
+          "5": 26
+        },
+        "positiveRatio": 57,
+        "negativeRatio": 37,
+        "eventMentions": [
+          {
+            "text": "始めて1週間ですが、非常に不愉快な思いをしています。\n特定の強力な配布キャラ（サンダー等）が「期間限定」であるため、少し始めるのが遅かっただけで埋めようのない戦力差を背負わされます。\n\nバトルラリー等",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "2026年4月に開催されたイベント「第2回パシオジムバトル」にてグリッジを利用した大陸系の不正ユーザーがランキング1~4位を占める事例が発生。 \n本来即座にbanなど対策を取るべき運営が一切対応しない",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "ランキングイベントで不正行為を働き、上位を獲得したチームに一切の処罰をせず、非公開の仕様であったと言い切る。\n課金してまでキャラ揃えてたけど馬鹿馬鹿しくなりました。\n時間返して。今後dena製のアプリ",
+            "keywords": [
+              "イベント"
+            ]
+          },
+          {
+            "text": "良い点: \n1.キャラとbgmが良い。これはずっとこのゲームの強みです。  2.新実装のマスターexガチャ。ようやくピックアップ1%に見合う内容になりました。 \n悪い点: \n1.アルコスガチャの内容の",
+            "keywords": [
+              "イベント",
+              "周年",
+              "新",
+              "周年"
+            ]
+          },
+          {
+            "text": "ポケモンの推しトレーナーがいるならやるべきです！\n推しとの交流やフォトメーカーで推しのフォトを撮ることができます！\n\nキャラが多いため登場は高頻度ではないものの、新登場したりマジコスとか来たらめちゃ嬉",
+            "keywords": [
+              "イベント",
+              "新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 7 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:31.656Z"
+    },
+    {
+      "appId": "6738109752",
+      "name": "Tiles Survive!",
+      "platform": "ios",
+      "market": "ph",
+      "detail": {
+        "description": "Enter the world of \"Tiles Survive!\" and guide your team of survivors through a harsh wilderness. As the core of your survivor team, explore the wild, gather key resources, and use them wisely to strengthen your shelter.\nVenture into different tiles and expand your territory. Improve how you manage resources, build and upgrade structures, and connect electricity to speed up production. Create a self-sufficient shelter where every decision shapes your survivors’ future.\n\nGame Features:\n\n● Operatio",
+        "released": "2025-07-16T07:00:00Z",
+        "updated": "2026-04-29T07:03:29Z",
+        "version": "2.5.100",
+        "score": 4.6954,
+        "reviews": 522,
+        "developer": "FunPlus International AG",
+        "developerUrl": "https://apps.apple.com/ph/developer/funplus-international-ag/id1343106322?uo=4",
+        "genres": [
+          "Games",
+          "Role-Playing",
+          "Strategy"
+        ],
+        "releaseNotes": "[What's New]\n- Chosen by hundreds of thousands of Chiefs, this year's premier competition has officially been named Rising Legend. The registration is now open. Update to the latest version to check it out!\nBattle Zone groupings will be revealed soon as top contenders prepare for the fight ahead. We look forward to witnessing the road to glory with you!\n\n- Reach a certain Power Plant level to unlock the \"Claim All\" feature for Intel Post, allowing Chiefs to collect completed Intel rewards with a single tap. Less hassle, smoother battles!\n\n[Optimizations & Fixes]\n- Starting at 00:00 UTC on May 6, Chiefs who leave an Alliance must wait at least 48 hours before participating in Oil Clash, Gene Clash, or Copper Clash. Chiefs who leave an Alliance before 00:00 UTC on May 6 will remain under the previous 12-hour rule.\n\n- The VIP Store refresh time has been adjusted from Sunday 00:00 UTC to Monday 00:00 UTC, making it easier to purchase Arena Challenge Tickets and other items after a new Arena season begins.\n\n- Chief Posts Improvements:\n1. Added \"For You\" and \"Trending\" channels so Chiefs can keep up with the latest community highlights.\n2. Chiefs can now upload up to 4 images in a single post to share more memorable moments.\n3. Improved interactions for browsing, liking, commenting, and new message notifications.\n\n- Alliance Siege now features a Defense Lineup setup option, allowing Chiefs to customize their defense preset for the event. Any changes to the lineup will automatically update the displayed defense power in the event interface.\n\n- Improved Behemoth Talent progress display and enhanced animation effects when opening the Talent screen."
+      },
+      "reviewAnalysis": {
+        "total": 21,
+        "starCounts": {
+          "1": 16,
+          "2": 1,
+          "3": 3,
+          "4": 0,
+          "5": 1
+        },
+        "positiveRatio": 5,
+        "negativeRatio": 81,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 5 天前",
+          "confidence": "high"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:34.107Z"
+    },
+    {
+      "appId": "887947640",
+      "name": "CSR2 PvP Car Drag Racing Games",
+      "platform": "ios",
+      "market": "ph",
+      "detail": {
+        "description": "CSR Racing 2 – This driving simulator game redefines what you thought possible on your mobile device!\n\nSetting a new standard in racing game visuals, CSR2 delivers hyper-real drag racing to the palm of your hand. Compete against live players across the world with your custom built supercars.\nTeam up with friends to form a crew, and dominate the competition in global crew events. CSR2 is all-new; download for free and start racing now!\n\nLEGENDS LIVE FOREVER!\nProve yourself worthy of owning the in",
+        "released": "2015-09-26T12:54:03Z",
+        "updated": "2026-04-27T11:29:17Z",
+        "version": "6.5.0",
+        "score": 4.65418,
+        "reviews": 8834,
+        "developer": "Zynga Inc.",
+        "developerUrl": "https://apps.apple.com/ph/developer/zynga-inc/id295913422?uo=4",
+        "genres": [
+          "Games",
+          "Sports",
+          "Racing",
+          "Sports"
+        ],
+        "releaseNotes": "A new version has pulled up to the line! Update to keep your race action fast and your car collection growing with new events and a smoother gameplay experience!"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 13,
+          "2": 7,
+          "3": 8,
+          "4": 6,
+          "5": 15
+        },
+        "positiveRatio": 43,
+        "negativeRatio": 41,
+        "eventMentions": [
+          {
+            "text": "whenever i go onto csr2 i get stuck on some return rev up screen and it says new label all around it",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "game is boring and upgrades are limited. i wouldn't want to grind races ive already won",
+            "keywords": [
+              "limited"
+            ]
+          },
+          {
+            "text": "pay to win guys! dont start with this game if ur new",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "its a cool game.,the graphics it is really realistic but the sound of the car engine rev is so poor ",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "hello zynga and other developers if you read this message can you please make the showdown events fa",
+            "keywords": [
+              "event"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 7 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:36.586Z"
+    },
+    {
+      "appId": "funvent.tilepark",
+      "name": "Tile Park",
+      "platform": "android",
+      "market": "th",
+      "detail": {
+        "description": "Find your zen with a refreshing twist on tile matching! 🌳✨\n\nStep into a peaceful sanctuary designed to sharpen your focus and melt away stress. This soothing puzzle experience brings the beauty of a lush park to your screen, offering a perfect blend of strategy and relaxation.\n\nExplore the Park:\n• Match 3 🧩: Tap on three identical nature-inspired tiles to clear them from the board.\n• Master the Space 📥: You have 7 slots on your tray. Plan your moves carefully!\n• Clear the Landscape 🍃: Elimin",
+        "released": "Jul 30, 2024",
+        "updated": 1777888566000,
+        "version": "2.0.18",
+        "installs": "50,000,000+",
+        "score": 4.728331,
+        "ratings": 582237,
+        "reviews": 1057,
+        "developer": "Funvent Studios DMCC",
+        "developerWebsite": "https://funvent.cc",
+        "genre": "Puzzle",
+        "recentChanges": "♦️  Bug fixes and general enhancements"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 2,
+          "2": 0,
+          "3": 3,
+          "4": 4,
+          "5": 41
+        },
+        "positiveRatio": 90,
+        "negativeRatio": 4,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 0 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 90%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:38.822Z"
+    },
+    {
+      "appId": "6751942351",
+      "name": "Thợ Săn Quỷ: Đại Chiến Dị Giới",
+      "platform": "ios",
+      "market": "vn",
+      "detail": {
+        "description": "Thợ Săn Qủy: Đại Chiến  Dị Giới mở thám hiểm Dị Giới, cảm nhận sức hút tính năng Idle!\nTrò chơi kết hợp yếu tố tu tiên truyền thống với chủ đề Tam Quốc và Tây Du, tái hiện một thế giới thần thoại RPG Idle hoàn toàn mới - đưa bạn trải nghiệm một vũ trụ rộng lớn giao hòa giữa nhân văn cổ phong thời Tam Quốc và những cuộc đấu pháp tu hành của thần tiên Tây Du.\nTrò chơi còn mở rộng xuyên suốt cổ đại hiện đại tương lai, kết hợp với trải nghiệm chơi nhẹ nhàng, linh hoạt, tỉ lệ rơi trang bị cao hơn, mở",
+        "released": "2026-02-26T08:00:00Z",
+        "updated": "2026-03-05T11:57:10Z",
+        "version": "1.0.2",
+        "score": 4.67295,
+        "reviews": 6100,
+        "developer": "GAMOTA Corporation",
+        "developerUrl": "https://apps.apple.com/vn/developer/gamota-corporation/id790194591?uo=4",
+        "genres": [
+          "Games",
+          "Role-Playing"
+        ],
+        "releaseNotes": "Tối ưu nội dung game"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 9,
+          "5": 38
+        },
+        "positiveRatio": 96,
+        "negativeRatio": 2,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 96%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:41.248Z"
+    },
+    {
+      "appId": "com.fiogonia.drop",
+      "name": "Drop Escape: Color Puzzle",
+      "platform": "android",
+      "market": "jp",
+      "detail": {
+        "description": "Experience a truly challenging puzzle adventure with NO TIMER and absolutely NO PAY-TO-WIN. Drop Escape: Color Match Puzzle tests your strategy, precision, and decision-making at your own pace. No countdowns, no pressure boosts, no forced purchases—just fair, clever, skill-based puzzles where your brain does the winning.\n\nIf you enjoy color puzzles, sort puzzles, drop puzzle games, marble puzzles, match games, or logic and brain-training challenges, this unique drop-and-match mechanic will push ",
+        "released": "Dec 9, 2025",
+        "updated": 1773329771000,
+        "version": "1.0.5",
+        "installs": "1,000,000+",
+        "score": 4.401961,
+        "ratings": 19136,
+        "reviews": 203,
+        "developer": "FIOGONIA LIMITED",
+        "developerWebsite": "https://www.fiogonia.com",
+        "genre": "Puzzle",
+        "recentChanges": "We’ve made Drop Escape even better!<br><br>-Performance upgrades for smoother marble-dropping gameplay<br>-Minor bug fixes and colorful visual improvements<br>-Tuning to enhance puzzle flow and level balance<br>-Optimized for an even more relaxing, satisfying drop-and-match experience."
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 9,
+          "2": 1,
+          "3": 4,
+          "4": 2,
+          "5": 34
+        },
+        "positiveRatio": 72,
+        "negativeRatio": 20,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:43.439Z"
+    },
+    {
+      "appId": "com.xman.tw.gp",
+      "name": "超能戰爭",
+      "platform": "android",
+      "market": "tw",
+      "detail": {
+        "description": "- Catch the thief! How far can you go?\n\n- I'm today's best cop!\n\n- Tense! This thief is too hard to catch!\n\n- Rich puzzle gameplay and fun-filled level challenges\n\n- Exquisite graphics",
+        "released": "Oct 9, 2025",
+        "updated": 1777467138000,
+        "version": "1.0.99",
+        "installs": "100,000+",
+        "score": 4.4858756,
+        "ratings": 4143,
+        "reviews": 240,
+        "developer": "Glaciers Game",
+        "genre": "Casual"
+      },
+      "reviewAnalysis": {
+        "total": 11,
+        "starCounts": {
+          "1": 11,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "positiveRatio": 0,
+        "negativeRatio": 100,
+        "eventMentions": [
+          {
+            "text": "【嚴重誤導】超能戰爭 / x-clash 貨不對辦，內容低俗，環境極差 我是被廣告裡的 mini games 下載這款遊戲《超能戰爭 / x-clash》，但進去後才發現主體根本不是那些玩法，而是另一",
+            "keywords": [
+              "活動"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 5 天前",
+          "confidence": "high"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:45.670Z"
+    },
+    {
+      "appId": "6754688265",
+      "name": "最終曙光（Last Light）",
+      "platform": "ios",
+      "market": "tw",
+      "detail": {
+        "description": "在一個被亡靈蹂躪的世界裡，人類最後的餘燼在廢墟的陰影中搖曳，你會崛起成為人類最後防線的構築者嗎？歡迎來到《最終曙光》—— 面對毀滅時的終極策略與意志考驗。\n\n建造 & 防禦\n在末日的中心建立你的據點。建造堅固的城牆，設立重要的資源站，並研發先進技術以抵禦亡靈無情的浪潮。你建造的每一座建築和你加強的每一道防線，都可能意味著生存與滅絕的區別。\n\n管理 & 適應\n指揮一個倖存者社區 —— 每個人都有獨特的技能、特質和負擔。分配角色，管理士氣，並做出關乎生死的決定以維持庇護所的運轉。但要小心：在這個破碎的世界裡，危險不僅僅來自外部。\n\n探索 & 收復\n派遣探險隊進入舊世界的廢墟。搜尋物資，揭開隱藏的傳說，並遭遇其他倖存者 —— 有些願意交易，有些則會背叛。擴大你的影響力，收復失地，並揭開爆發背後的黑暗秘密。\n\n聯盟 & 統治\n與全球玩家建立聯盟。協調攻擊，共享資源，聯合起來征服喪屍群和敵對勢力。齊心協力，你們不僅可以重建一個庇護所 —— 更是一個新的文明。\n\n世界的終結僅僅是開始。你會僅僅為了生存…… 還是會帶領人類走向新的黎明？\n\n本遊戲部份內容涉及「暴力」情節。依遊戲軟體分級管理辦法分類為",
+        "released": "2026-04-15T07:00:00Z",
+        "updated": "2026-05-01T13:15:10Z",
+        "version": "1.0.10",
+        "score": 4.76503,
+        "reviews": 183,
+        "developer": "BINGCHUAN NETWORK (HONG KONG) COMPANY LIMITED",
+        "developerUrl": "https://apps.apple.com/tw/developer/bingchuan-network-hong-kong-company-limited/id1478697635?uo=4",
+        "genres": [
+          "遊戲",
+          "休閒",
+          "策略"
+        ],
+        "releaseNotes": "-新休閒玩法\n-修復已知漏洞\n-優化遊戲體驗"
+      },
+      "reviewAnalysis": {
+        "total": 4,
+        "starCounts": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "positiveRatio": 25,
+        "negativeRatio": 75,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "new_release",
+          "label": "🆕 新遊戲上線熱度",
+          "detail": "上架 19 天，評分 4.76503",
+          "confidence": "high"
+        },
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 3 天前",
+          "confidence": "high"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:48.126Z"
+    },
+    {
+      "appId": "com.percent.aos.cooptd",
+      "name": "Coop TD: Together",
+      "platform": "android",
+      "market": "tw",
+      "detail": {
+        "description": "(((The Best Cooperative Tower Defense in the world)))\nNow recruiting players!\n\nDo you believe 1+1 is better than 1? 😀\nWant to achieve something awesome through teamwork? 😀\n\n[What you need]\nCooperation ❤️ Loyalty ❤️ Friendship ❤️\n\nThis is a strategic tower defense game where cooperation is key!\nWe call it ⭐Coop TD⭐\n\nLooking for an easy, fun co-op tower defense game?\nSurvival and defense combined!\nExperience the joy of cooperation, the thrill of strategic choices, and the satisfaction of victory",
+        "released": "Oct 18, 2024",
+        "updated": 1777570058000,
+        "version": "1.5.7",
+        "installs": "1,000,000+",
+        "score": 4.3414636,
+        "ratings": 48402,
+        "reviews": 476,
+        "developer": "Supermagic",
+        "developerWebsite": "https://supermagic.io/",
+        "genre": "Strategy",
+        "recentChanges": "Stop the Humans! Join [Co-op TD] Now!<br>■ Control the Battlefield! New Difficulty「Deep Sea」Update!<br>■ New AoE DPS &#39;Ivy&#39; Is Here!<br>■ &#39;Giant Invasion&#39; &amp; &#39;Research Lab&#39; added!<br>■ Season Pass Update! New Legendary Skin &amp; Rewards!"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 11,
+          "2": 4,
+          "3": 8,
+          "4": 8,
+          "5": 19
+        },
+        "positiveRatio": 54,
+        "negativeRatio": 30,
+        "eventMentions": [
+          {
+            "text": "very good for people who are new to the game and it actually fully teaches you and is not hard or to",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "fake ads that don't fully show the gameplay. i don't know which marketing provider you used but your",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "since the latest update the app does not load past 20% when launched. i don't know if this is someth",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "i'm stuck in the loading screen, it only stopped at 20%, must be because of the recent update",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "after the update the game started to lag and phone(xiaomi mi 13) overheats, which never happened bef",
+            "keywords": [
+              "update"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 4 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:50.327Z"
+    },
+    {
+      "appId": "6762244603",
+      "name": "Mini Pirate Brawl",
+      "platform": "ios",
+      "market": "th",
+      "detail": {
+        "description": "This is a pirate battle game full of adventure and challenges, allowing players to transform into pirate captains and embark on unknown adventures on the vast ocean.",
+        "released": "2026-04-27T07:00:00Z",
+        "updated": "2026-04-27T07:00:00Z",
+        "version": "1.1",
+        "score": 4.6875,
+        "reviews": 48,
+        "developer": "HAICHEN STUDIO",
+        "developerUrl": "https://apps.apple.com/th/developer/haichen-studio/id1893526850?uo=4",
+        "genres": [
+          "Games"
+        ],
+        "releaseNotes": "fix the issue found;"
+      },
+      "reviewAnalysis": {
+        "total": 11,
+        "starCounts": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 9
+        },
+        "positiveRatio": 82,
+        "negativeRatio": 9,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "new_release",
+          "label": "🆕 新遊戲上線熱度",
+          "detail": "上架 7 天，評分 4.6875",
+          "confidence": "high"
+        },
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 7 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 82%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:52.737Z"
+    },
+    {
+      "appId": "com.netease.yysls",
+      "name": "Where Winds Meet",
+      "platform": "android",
+      "market": "ph",
+      "detail": {
+        "description": "Step into an open-world action-adventure RPG set in ancient China. Uncover the secrets of your own identity as you rise from a humble village wanderer to the sword master of the imperial capital. Learn martial arts and build your reputation as a hero or a bringer of chaos in this free wuxia world.\n\nJianghu knows no bounds. Play free across PS5, PC, and mobile with full cross-play and cross-progression. No pay-to-win.\nGameplay content is entirely free, with monetization limited to cosmetic items.",
+        "released": "Dec 5, 2025",
+        "updated": 1777365657000,
+        "version": "3.8",
+        "installs": "1,000,000+",
+        "score": 4.125731,
+        "ratings": 49614,
+        "reviews": 1443,
+        "developer": "Exptional Global",
+        "genre": "Action",
+        "recentChanges": "Hexi Expansion Final Chapter: Qinchuan lives on April 30! Explore new map region and become the &quot;wind&quot; to experience the four seasons of Qinchuan!"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 10,
+          "2": 0,
+          "3": 4,
+          "4": 5,
+          "5": 31
+        },
+        "positiveRatio": 72,
+        "negativeRatio": 20,
+        "eventMentions": [
+          {
+            "text": "tbh.. loved this game, the graphic is best, but the items are quite pricy, the story is too much pat",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "game effect problem please update phone skin game effect",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "too huge more than 30gb. like solo mode. annoying to be forced online instead of solo. for now good ",
+            "keywords": [
+              "new"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 6 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 3 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:54.923Z"
+    },
+    {
+      "appId": "com.mxdzz.jp.and",
+      "name": "キノコ伝説 x 『オーバーロード』コラボ開催",
+      "platform": "android",
+      "market": "jp",
+      "detail": {
+        "description": "Mushroom Legend x Overlord Collaboration Event!\n\nGet the collaboration-exclusive skin \"Momon\" and companion \"Eclair\" just by logging in! Furthermore, collaboration-exclusive items make their first appearance in the Mushroom World! \n\nDownload to get 4000 gacha pulls! The super popular adventure RPG \"Mushroom Legend: The Hero and the Magic Lamp,\" which has surpassed 30 million downloads worldwide, has finally arrived in Japan!\n\n100 years ago, the hero of the Mushroom clan waged a fierce battle aga",
+        "released": "Feb 21, 2024",
+        "updated": 1776167807000,
+        "version": "2.1.60",
+        "installs": "1,000,000+",
+        "score": 4.2886877,
+        "ratings": 22026,
+        "reviews": 3781,
+        "developer": "Joy Nice Games",
+        "developerWebsite": "https://x.com/kinoden_jp",
+        "genre": "Role Playing",
+        "recentChanges": "■ 更新内容<br>1.【使獣の王】イベント　4.17-4.23<br>威風凛々！使獣の王がキノコ世界に降臨、万獣の魂が偉大なる使魂ノコを呼んでいます！<br><br>2.コンテンツアップグレード-【越域駐騎場】<br>越域駐騎場アップグレード！越域と奇星の2タイプになります！協力し合って、最高スペースの帰属権を奪い合いましょう！<br><br>3.その他の改善事項とバグ修正。<br>"
+      },
+      "reviewAnalysis": {
+        "total": 4,
+        "starCounts": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 3
+        },
+        "positiveRatio": 75,
+        "negativeRatio": 25,
+        "eventMentions": [
+          {
+            "text": "ランプとかコラボがいっぱいあって面白い",
+            "keywords": [
+              "コラボ"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:57.171Z"
+    },
+    {
+      "appId": "6445982244",
+      "name": "X-hero",
+      "platform": "ios",
+      "market": "vn",
+      "detail": {
+        "description": "Quyết định phê duyệt nội dung kịch bản trò chơi điện tử G1 trên mạng số: 641/QĐ-BT cấp ngày 14/4/2023 \nLink giấy phép: https://giayphep.abei.gov.vn/g1/130824 \n\nHãy cùng bạn bè của bạn tham gia vào trò chơi RPG tuyệt vời nhất ngay lập tức! Hãy triệu tập những anh hùng của bạn và dẫn dắt họ để chiến đấu với bóng tối trong tương lai. Bạn chọn anh hùng nào?\n\n· CỨU CON CHÓ\nDùng ngón tay chạm vào màn hình để vẽ một đường làm bức tường bảo vệ chú chó khỏi bị ong tấn công! Giữ trong 10 giây thì chiến th",
+        "released": "2023-08-15T07:00:00Z",
+        "updated": "2026-03-11T06:21:33Z",
+        "version": "1.0.74",
+        "score": 3.59786,
+        "reviews": 2340,
+        "developer": "Valar Technology Corp",
+        "developerUrl": "https://apps.apple.com/vn/developer/valar-technology-corp/id1438383758?uo=4",
+        "genres": [
+          "Games",
+          "Card"
+        ],
+        "releaseNotes": "bug fixes"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 47,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "positiveRatio": 2,
+        "negativeRatio": 98,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:35:59.612Z"
+    },
+    {
+      "appId": "com.media720.games2020",
+      "name": "Offline Games No WiFi internet",
+      "platform": "android",
+      "market": "ph",
+      "detail": {
+        "description": "Looking for a relaxing and entertaining way to pass the time without an internet connection? \"100+ Offline Games No WiFi Fun\" offers a carefully curated collection of puzzles and games designed to keep you engaged and entertained wherever you are. Whether you're traveling, commuting, or just unwinding at home, this app delivers endless offline fun.\n\nWhy Choose This App?\nHuge Selection of Games: Enjoy over 100 diverse puzzles and challenges, ranging from classic card games to creative brainteaser",
+        "released": "Aug 1, 2020",
+        "updated": 1777059645000,
+        "version": "3.55",
+        "installs": "100,000,000+",
+        "score": 4.5021496,
+        "ratings": 589416,
+        "reviews": 1842,
+        "developer": "Fun Offline Games",
+        "developerWebsite": "http://720.media",
+        "genre": "Casual",
+        "recentChanges": "  - Fix bugs"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 11,
+          "2": 5,
+          "3": 3,
+          "4": 2,
+          "5": 29
+        },
+        "positiveRatio": 62,
+        "negativeRatio": 32,
+        "eventMentions": [
+          {
+            "text": "hi, my name is khusi sahu and i like to review in this app . this app can't have any problems. i lik",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "its perfect! i rlly like the jigsaw puzzles theres mutilpe games we dont have internet at the new ap",
+            "keywords": [
+              "new"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 10 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 2 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:01.830Z"
+    },
+    {
+      "appId": "1053012308",
+      "name": "Clash Royale",
+      "platform": "ios",
+      "market": "ph",
+      "detail": {
+        "description": "Enter the Arena! Build your Battle Deck and outsmart the enemy in fast real-time battles. From the creators of CLASH OF CLANS comes a real-time multiplayer battle game starring your favourite Clash characters and more. Start battling against players from around the world!\n\nClash Royale is free to download and play, however, some game items can also be purchased for real money (including random items). If you don't want to purchase game items for real money, please disable in-app purchases in you",
+        "released": "2016-03-02T07:25:45Z",
+        "updated": "2026-04-29T12:39:21Z",
+        "version": "14.593.15",
+        "score": 4.50541,
+        "reviews": 28266,
+        "developer": "Supercell",
+        "developerUrl": "https://apps.apple.com/ph/developer/supercell/id488106216?uo=4",
+        "genres": [
+          "Games",
+          "Strategy",
+          "Entertainment",
+          "Action"
+        ],
+        "releaseNotes": "Various minor bug fixes and improvements"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 36,
+          "2": 1,
+          "3": 3,
+          "4": 1,
+          "5": 8
+        },
+        "positiveRatio": 18,
+        "negativeRatio": 76,
+        "eventMentions": [
+          {
+            "text": "like i get it the game needs to produce money, but at this scale is just too much. the level 16 is s",
+            "keywords": [
+              "season"
+            ]
+          },
+          {
+            "text": "how to know if you have played with a.i.\n\n1. their clan disappears after the game.\n2. they usually s",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "the update sucks, we want the old one badk",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "added a new card every month that is op and can be obtain by the best powerful card, the credit card",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "this game is not friendly to free to play players (not spending any money on the game) at first its ",
+            "keywords": [
+              "event",
+              "season"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 5 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:04.295Z"
+    },
+    {
+      "appId": "1561903786",
+      "name": "心动小镇",
+      "platform": "ios",
+      "market": "cn",
+      "detail": {
+        "description": "《心动小镇》是一款慢节奏生活模拟游戏。无论拥有什么样的爱好、个性，在这里都能随心所欲展示。现在就放松心情，在小镇悠哉度日，遇见生活的美好吧！\n\n【游戏特色】\n▷不断尝试每一种可能 ◁\n丰富爱好，自由发展！\n钓鱼、烹饪、养猫、园艺、捕虫、观鸟…没有体力限制，也没有“今天应该做什么”；抛开束缚与规则，只关注自己的感受。\n\n▷认真置装每一寸空间 ◁\n装修建造，理想居所！\n从收集资源，到垒砌砖瓦；从点缀鲜花，到摆正挂画…一花一草、一砖一瓦都可以随心创造。你的每一次精心设计，都让小镇一点点更靠近你梦想中的样子。\n\n▷随心开启每一次快乐 ◁\n时间自由，拒绝束缚！\n心动小镇没有每日任务的束缚，也不存在每天完成打卡的压力。这是一个完全轻松的“乌托邦”式家园：任何时候，小镇都对你开放；任何游玩方式，小镇都欢迎。\n\n▷轻松对待每一场相遇 ◁\n随机邻里，可I可E！\n每次上线，都邂逅随机的12人小镇。一期一会，所以相遇才弥足珍贵。或萍水相逢、擦肩而过，或双向奔赴、热闹派对。在这里，享受最轻松的社交关系。\n\n▷悠然探索每一处风景 ◁\n无缝地图，处处惊喜！\n特有的无缝地图，每一寸都是风景。每日随机刷新的商店，地图",
+        "released": "2024-07-16T07:00:00Z",
+        "updated": "2025-11-08T01:49:44Z",
+        "version": "0.4.2",
+        "score": 4.52475,
+        "reviews": 175342,
+        "developer": "X.D. Network Inc.",
+        "developerUrl": "https://apps.apple.com/cn/developer/x-d-network-inc/id929034871?uo=4",
+        "genres": [
+          "游戏",
+          "模拟",
+          "家庭聚会"
+        ],
+        "releaseNotes": "◆小镇庆典·沸雪浴场◆\n开启时间：11月8日6:00-12月20日5:59\n开启条件：发展家等级达到7级，并完成新手引导“答案在此中”主线任务\n\n【沸雪浴场手册】\n解锁沸雪浴场手册后，完成手册内的挑战目标，可获得庆典代币、满愿星和庆典点数等奖励；庆典期间完成每日委托也可获得庆典点数，庆典点数可以提升庆典等级，领取等级奖励【桧木桑拿屋】家具套装图纸、【凇林汤泉】建材家具套装部分建材和家具、材料包、烟花、明信片、庆典代币等多种奖励。\n\n同时，手册中也开启了本次庆典的专属图鉴收集，收集奖励包括限时展演通票*18、满愿星、材料包等奖励，还能解锁各种限定的爱好收集物图鉴~\n\n【庆典礼包】\n庆典礼包将和手册同步开启。购买本期庆典礼包，提升庆典等级，共可获得展演通票36和心钻300，并解锁【冬林绒装·寻鹿】、【冬林绒装·引鹿】服饰套装，【凇林汤泉】建材家具套装部分内容、雪鹿小提琴、驯鹿水壶工具涂装、宠物服装、脸绘等丰厚限定奖品！\n庆典礼包分为30元庆典礼包与68元臻享庆典礼包。购买臻享庆典礼包，可获得包含庆典礼包所有的内容物，还可额外获得庆典点数、出售物品庆典代币获取加成、凇林温泉池建材、桑拿聊天气泡等特殊奖励。\n购买30元庆典礼包后，也可付费38元升级为臻享庆典礼包。\n\n【庆典商店】\n沸雪浴场庆典期间，可通过手册界面或阿塔拉进入庆典商店，使用沸雪浴场庆典期间专属的庆典代币购买单人动作、桑拿帽、浴巾、驯鹿摆件、圆顶雪窝等特色庆典商品；同时也可以在阿塔拉处出售特定的流行品，获取庆典代币。\n特别提醒：庆典代币还可通过手册奖励、庆典期间任务奖励等途径获取；未使用的庆典代币将会在庆典结束后，按1:1的比例转化为金币发放至邮箱。\n\n【限定食材、烹饪】\n沸雪浴场庆典期间，使用蒸汽式桧木灶与限定食材，可烹饪出各式特色庆典食物。\n11月8日6:00后，可在马西莫的烹饪商店购买限定食谱与限定食材。\n\n【限定花卉、作物】\n11月8日6:00后，在布兰克的园艺商店可购买并种植限定花卉一品红、限定作物甜菜。\n\n【限定鱼种、昆虫、鸟类】\n沸雪浴场庆典期间，东海附近有特殊鱼种出没；还有仿生欧鸽和石块虫出现在各个区域。\n限定鱼种和昆虫将在11月8日6:00后、鸟类将在11月15日6:00后开放收集；11月15日6:00后也将开放戏水玩具鱼、石块虫、飞鸽冬引事件。特别提醒：较为特殊的虫类和鱼种，需要参加相应事件才可获取哦~\n\n【庆典收集挑战】\n11月22日6:00 - 12月6日5:59，发展家可以在家门前的“收集挑战箱”处提交指定物品，也可以帮助他人提交。\n\n【家园点赞】\n沸雪浴场庆典期间，家园门口处邮箱会根据庆典期间获得的赞数增添不同的装饰。赞数越多，装饰也会逐步升级。\n\n◆活动上新◆\n【欢乐波尔卡】\n寻找你的最佳拍档，一起旋转、抬腿，跳出热情欢快的波尔卡舞步吧！\n活动时间：11月8日6:00-12月20日5:59\n活动内容：活动期间，与好友每日进行面对面双人互动，累计7天即可免费获得与该好友的限定专属双人动作【欢乐波尔卡】。活动期间玩家可以同时与多位好友打卡，每个好友单独计算打卡进度。\n\n【桑拿体验】\n天气转凉，正是和大家一起体验疗愈桑拿的好时候。不过，过程中似乎出现了一些小插曲。\n活动时间：11月8日6:00-12月20日5:59\n活动内容：活动期间，通过活动界面提示找到泡泡，即可获得泡泡中的神秘表情礼物。"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 17,
+          "2": 3,
+          "3": 5,
+          "4": 8,
+          "5": 16
+        },
+        "positiveRatio": 49,
+        "negativeRatio": 41,
+        "eventMentions": [
+          {
+            "text": "这边新的写作我也很接受，就是希望官方能不能推一个能放写作书的书柜真的写了一大堆家园太满了，就是没地方放",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "玩了不到一年最近打开显示该设备不支持运行请前往top top社区查看推荐设备如继续运行会出现未知问题，然后我选择扔要运行一进到里面卡的。然后呢还一直闪退。本想着更新之后就好了，结果还还是这样。",
+            "keywords": [
+              "新",
+              "更新"
+            ]
+          },
+          {
+            "text": "作为累计充值近4000元的老玩家，对《心动小镇》彻底失望。\n\n1. 沙滩乐园季小黄鸭气垫床：仅买过1次成品点亮图鉴，从未获得制作书；\n\n2. 本次返场想补制作书，客服反复用“已点亮道具不刷新”模板话术",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "作为一个老玩家，有时候想换号就会手滑点到退出登录然后我那个号的电话号码已经停了，就是登不上了。还有一个就是能不能跳过新手教程",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "一个月没当想当一下，然后就给我弹出一个要重新登录的，然后呢号就不见了，问了客服客服也没给答复心血全都在号里",
+            "keywords": [
+              "新"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:06.754Z"
+    },
+    {
+      "appId": "6752369665",
+      "name": "Haunted Merge: Horror Story",
+      "platform": "ios",
+      "market": "th",
+      "detail": {
+        "description": "\"You don't see them... but they see you.\n\nYou’re an orphan, raised by a wandering feng shui master who found you near a graveyard. Before he died, he handed you a locked box—the only clue to your past. After burying him, you begin your journey to uncover the truth.\nYour first lead brings you to a run-down apartment building. You move in as a tenant—but something is deeply wrong.\n- The elevator opens by itself—on floors no one pressed.\n- An empty unit echoes with whispers that don’t exist.\n- A cu",
+        "released": "2025-11-25T08:00:00Z",
+        "updated": "2026-04-29T03:10:58Z",
+        "version": "1.147.2129",
+        "score": 4.86821,
+        "reviews": 736,
+        "developer": "WhaleJoy Game Limited",
+        "developerUrl": "https://apps.apple.com/th/developer/whalejoy-game-limited/id1839130305?uo=4",
+        "genres": [
+          "Games",
+          "Casual",
+          "Puzzle"
+        ],
+        "releaseNotes": "- Fixed some known issues"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 5,
+          "2": 1,
+          "3": 0,
+          "4": 5,
+          "5": 38
+        },
+        "positiveRatio": 88,
+        "negativeRatio": 12,
+        "eventMentions": [
+          {
+            "text": "i luv this game no ads but i want more sub-event for more energy",
+            "keywords": [
+              "event"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 5 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 88%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:09.191Z"
+    },
+    {
+      "appId": "jp.co.ponos.battlecatstw",
+      "name": "貓咪大戰爭",
+      "platform": "android",
+      "market": "tw",
+      "detail": {
+        "description": "Disgusting and cute cats are going on a rampage across the country!\nA cat raising game that anyone can play easily.\nIt's free & you can play right away without registration! meow~\n*The game contains some paid items\n--------------------------------------\n★Super simple・Battle system\n--------------------------------------\nMake up your favorite cat team to fight~\nYou can also launch the cat cannon to attack the opponent's castle! !\n--------------------------------------\n★Super simple・Cultivation sys",
+        "released": "Jul 20, 2015",
+        "updated": 1776404732000,
+        "version": "15.3.0",
+        "installs": "1,000,000+",
+        "score": 4.16492,
+        "ratings": 114257,
+        "reviews": 35018,
+        "developer": "PONOS Corporation",
+        "developerWebsite": "https://battlecats.club/tw/",
+        "genre": "Casual",
+        "recentChanges": "・修正通關編成的保存功能<br>關卡等級4的通關編成改成會與其他關卡等級的通關編成分開儲存<br>※在本次更新後通過關卡等級4時，該隊伍才會被另外儲存<br><br>■追加角色的進化型態<br>　追加了部份角色的第3進化、第4進化<br><br>■追加角色本能<br>　追加了部份角色的本能、超本能<br><br>■傳奇故事<br>　追加新地圖<br>　現有地圖解放關卡新高難易度<br><br>■其他追加內容<br>　追加等級排行報酬<br>　追加貓咪聯組<br>　改善部分遊戲功能<br><br>■修正部分程式錯誤"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 5,
+          "2": 1,
+          "3": 4,
+          "4": 6,
+          "5": 34
+        },
+        "positiveRatio": 80,
+        "negativeRatio": 12,
+        "eventMentions": [
+          {
+            "text": "nice game and have a good rewards if daily or update",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "where is the demon slayer collaboration ☠️",
+            "keywords": [
+              "collab",
+              "collaboration"
+            ]
+          },
+          {
+            "text": "hi,i heard there is an apology for gals of summer, it's ok.last time i got lucky on the 11th anniver",
+            "keywords": [
+              "anniversary"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 3 次提及活動/事件",
+          "confidence": "medium"
+        },
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 80%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:11.389Z"
+    },
+    {
+      "appId": "jp.co.ponos.battlecatskr",
+      "name": "냥코 대전쟁",
+      "platform": "android",
+      "market": "kr",
+      "detail": {
+        "description": "★The cute and adorable cat army dreams of conquering the world!!★\nAnyone can easily play! A cat training & strategy game!!\n*Free to play, but includes some paid content.\n\n★☆Super-simple battle system★☆\nClick on your favorite cat!!\n\nOne powerful blow! Fire the cat cannon!!\n\nCapture the enemy castle!!\n\n★☆Super-simple training system★☆\nEarn XP by clearing stages!!\n\nChoose your favorite cat!!\n\nChange classes by reaching level 10!!\n\n★☆Super-simple cat war★☆\nCollecting treasures from around the world ",
+        "released": "Jun 26, 2014",
+        "updated": 1776403585000,
+        "version": "15.3.0",
+        "installs": "10,000,000+",
+        "score": 4.144145,
+        "ratings": 200111,
+        "reviews": 90214,
+        "developer": "PONOS Corporation",
+        "developerWebsite": "https://battlecats.club/kr/",
+        "genre": "Casual",
+        "recentChanges": "■클리어 시 편성 저장 기능 개선<br>스테이지 레벨4 클리어 시, 다른 스테이지 레벨과는 별도로 편성이 저장되도록 개선했습니다<br>※이번 업데이트 이후 스테이지 레벨4를 클리어한 편성부터 적용됩니다<br><br>■캐릭터에 진화 형태 추가<br>일부 캐릭터에 제3형태, 제4형태 진화 추가<br><br>■캐릭터에 본능 추가<br>일부 캐릭터에 본능, 초본능을 추가<br><br>■레전드 스토리<br>새로운 맵 추가<br>기존 맵의 고난이도 스테이지 레벨 해방<br><br>■그 외<br>유저 랭크 보수 추가<br>냥콤보 추가<br>일부 기능 개선<br><br>■버그 수정"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 7,
+          "2": 1,
+          "3": 0,
+          "4": 5,
+          "5": 37
+        },
+        "positiveRatio": 84,
+        "negativeRatio": 16,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 84%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:14.485Z"
+    },
+    {
+      "appId": "529479190",
+      "name": "클래시 오브 클랜",
+      "platform": "ios",
+      "market": "kr",
+      "detail": {
+        "description": "마을을 짓고, 클랜을 키우고, 클랜전에 참가해 전 세계 수백만 플레이어와 함께하세요!\n\n콧수염 바바리안, 불꽃 마법사를 비롯해 특별한 유닛들이 대장님의 지휘를 기다리고 있습니다! 클래시 오브 클랜의 세계로 지금 떠나보세요!\n\n클래시 오브 클랜은 무료로 다운로드하여 플레이할 수 있지만, 일부 게임 아이템(무작위 아이템 포함)은 현금으로 구매할 수 있습니다. 현금을 사용한 게임 아이템 구매를 원하지 않는 경우에는 기기 설정에서 인앱 구매를 비활성화하세요.\n\n깨지지 않는 장벽으로 보호된 클랜 캐피탈의 새 구역, 해골 공원에 오신 걸 환영합니다!\n● 신규 무덤 마법으로 적 캐피탈 구역을 파괴하고 적을 혼란에 빠뜨리세요!\n● 특별한 2개의 신규 방어 시설, 미니 미니언 벙커와 반사경으로 적을 부들부들 떨게 만드세요!\n● 취향대로 나만의 플레이어 하우스를 만들고 클랜 캐피탈 리그에서 캐피탈 트로피를 얻으세요!\n● 또 적을 초토화시키는 능력자 광부와 장애물 삽 업그레이드 등 많은 신규 콘텐츠가 ",
+        "released": "2012-08-02T08:24:58Z",
+        "updated": "2026-04-27T08:52:23Z",
+        "version": "18.350.2",
+        "score": 4.72825,
+        "reviews": 121265,
+        "developer": "Supercell",
+        "developerUrl": "https://apps.apple.com/kr/developer/supercell/id488106216?uo=4",
+        "genres": [
+          "게임",
+          "액션",
+          "엔터테인먼트",
+          "전략"
+        ],
+        "releaseNotes": "방어 중!\n• 신규 가디언: 벌목꾼, 마을회관 18 합류! 공중의 적에게도 통나무를 던집니다!\n• 신규 일반 영웅 장비: 드래곤 듀크의 일렉트로 송곳니로 방어시설을 파괴하고 마을에 연쇄 전기 공격을 일으키세요!\n• 신규 시즈 머신: 하늘 마차는 확실하게 유닛을 상대편의 마을 중심부에 전달합니다!\n• 전설 리그 재조정: 상위권 플레이어에게 더 많은 경험을 제공하기 위해 전설 리그가 3개의 특별한 레벨로 나뉩니다!"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 21,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 23
+        },
+        "positiveRatio": 51,
+        "negativeRatio": 45,
+        "eventMentions": [
+          {
+            "text": "요즘 업데이트도 많이하고 시간도 줄이는 등에 많은 개선을 하려는 노력이 너무 좋은 것 같아요 근데 방벽 레벨이 너무 높아서 올리기가 쉽지가 않은 것 같은데 가격을 좀 낮춰 주시면 ",
+            "keywords": [
+              "업데이트"
+            ]
+          },
+          {
+            "text": "약 12년을 했는데 최근에는 이벤트랑 업데이트가 잦아서 더 재미있네요. 오랫동안 재밌게 잘 하고 있습니다. 돈을 쓴다고 실력에 차이가 나는 게임이 아니다보니 오래가는듯 하네요.",
+            "keywords": [
+              "이벤트",
+              "업데이트"
+            ]
+          },
+          {
+            "text": "접속  로그인 시 불러오기 화면에서 멈춰있어요\n이거 저만 그런거 아닌듯하던데\n이번 업데이트 시 개선 바래요",
+            "keywords": [
+              "업데이트"
+            ]
+          },
+          {
+            "text": "요번 패치 업데이트 되면서 접속이 안되네요..ㅠㅠ\n어떡하죠",
+            "keywords": [
+              "업데이트"
+            ]
+          },
+          {
+            "text": "점유 수치가 120까지 차 있는데도 **관리자(워든)**가 바위 골렘 지원을 따라가지 않는 버그가 아직도 그대로임.\n킹을 먼저 풀어야만 워든이 따라오는 말도 안 되는 상황이 계속 ",
+            "keywords": [
+              "업데이트"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 7 天前",
+          "confidence": "high"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:16.992Z"
+    },
+    {
+      "appId": "com.tree.hybrid.catslife",
+      "name": "Cat's Life : Cute Simulation",
+      "platform": "android",
+      "market": "kr",
+      "detail": {
+        "description": "🐾 What kind of life will your kitty live?\nBecome a kitten and experience every moment yourself in this cute idle life game!\n\nFrom a little kitty to an elderly cat, you’ll grow step by step, making meaningful choices along the way.\nPick a career, fall in love, and enjoy unique events and adventures in a world filled only with cats.\nEvery choice leads to a different story, so no two lives are ever the same!\n\n\n🐾 Life Choices\nDecide how your kitten will grow.\nChoose careers, discover love, and sha",
+        "released": "Oct 23, 2025",
+        "updated": 1775634753000,
+        "version": "1.0.27",
+        "installs": "100,000+",
+        "score": 4.357971,
+        "ratings": 9467,
+        "reviews": 564,
+        "developer": "TREEPLLA",
+        "developerWebsite": "https://home.treeplla.com",
+        "genre": "Simulation",
+        "recentChanges": "- Bug fixes"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 13,
+          "2": 7,
+          "3": 7,
+          "4": 5,
+          "5": 18
+        },
+        "positiveRatio": 46,
+        "negativeRatio": 40,
+        "eventMentions": [
+          {
+            "text": "pretty glitchey, repeats same events several times, lots of ads, alot of events are worded weird or ",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "language is so poor that every event is incomprehensible",
+            "keywords": [
+              "event"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 2 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:19.204Z"
+    },
+    {
+      "appId": "jp.pokemon.pokemontcgp",
+      "name": "Pokémon TCG Pocket",
+      "platform": "android",
+      "market": "kr",
+      "detail": {
+        "description": "Pokémon Trading Card Game Pocket has players in 150 countries and regions around the world.\nUse your mobile devices to enjoy collecting and battling with Pokémon cards anytime, anywhere!\n\n■ Open packs every day to collect cards!\nPlayers can enjoy the experience of collecting, with two booster packs available to open every day at no cost. Collect different kinds of Pokémon cards, like those with nostalgic illustrations from the past, as well as completely new cards exclusive to this game!\n       ",
+        "released": "Oct 22, 2024",
+        "updated": 1774842731000,
+        "version": "1.6.0",
+        "installs": "50,000,000+",
+        "score": 4.574458,
+        "ratings": 1710622,
+        "reviews": 4499,
+        "developer": "The Pokémon Company",
+        "genre": "Card",
+        "recentChanges": "● New Pulsing Aura booster packs are now available.<br>● Gold frames have been added to flair.<br>● A Claim All feature has been added for packs.<br>● Updates to the Obtain Items feature.<br>● A 2D pattern code feature has been added for friend requests.<br>● Revisions have been made to some features."
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 23,
+          "2": 5,
+          "3": 8,
+          "4": 5,
+          "5": 9
+        },
+        "positiveRatio": 28,
+        "negativeRatio": 56,
+        "eventMentions": [
+          {
+            "text": "reason im giving it a 3 is for the fact that their battle events arent in any way \"leveled\". what i ",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "the wonder picks after the most recent update makes them feel rigged. pokémon tcgp is quite nostalgi",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "its ok for a card game but i am sick of seeing the red dot on every option telling me there is somet",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "there is an event going on right now where you face an npc in battle, and the system is obviously an",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "new solo battle event surely harder everytime for f2p player, its unbalanced as f as the ai always p",
+            "keywords": [
+              "event",
+              "new"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:21.399Z"
+    },
+    {
+      "appId": "com.zempot.wplpoker",
+      "name": "WPL:Texas Hold'em, MTT, Sit&Go",
+      "platform": "android",
+      "market": "kr",
+      "detail": {
+        "description": "Winjoy Poker Game",
+        "released": "Dec 7, 2020",
+        "updated": 1777385946000,
+        "version": "2.31.3",
+        "installs": "100,000+",
+        "score": 4.4990687,
+        "ratings": 5361,
+        "reviews": 2484,
+        "developer": "Zempot INC.",
+        "developerWebsite": "https://wpl.winjoygame.com/",
+        "genre": "Casino",
+        "recentChanges": "■ Update contents<br> <br>1. Various issues in Coin Rush have been resolved.<br>　- Fixed an issue where assets could become frozen at the table<br>　- Fixed an issue where pot winnings were not properly settled after a win<br>　- Adjusted the frequency of being assigned to BB/SB positions more often than intended<br> <br>2. Minor bug fixes and optimizations"
+      },
+      "reviewAnalysis": {
+        "total": 5,
+        "starCounts": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 3
+        },
+        "positiveRatio": 80,
+        "negativeRatio": 20,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 6 天前",
+          "confidence": "high"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:23.679Z"
+    },
+    {
+      "appId": "6475757306",
+      "name": "Disney Solitaire",
+      "platform": "ios",
+      "market": "ph",
+      "detail": {
+        "description": "Welcome to Disney Solitaire, the ultimate card game that transforms classic tripeaks solitaire into an exciting experience filled with magic!\n\nStep into the enchanting realm of Disney Solitaire, where every postcard recreates an iconic scene from the worlds of Disney and Pixar!\n\nFrom the moment you start playing, you’ll find yourself immersed in colorful scenes featuring some of your favorite characters like Aladdin, Elsa, Moana and Woody.\nThis isn’t just another solitaire game; it’s a vibrant e",
+        "released": "2024-11-27T08:00:00Z",
+        "updated": "2026-04-23T08:58:31Z",
+        "version": "1.17.3",
+        "score": 4.8292,
+        "reviews": 1007,
+        "developer": "SuperPlay",
+        "developerUrl": "https://apps.apple.com/ph/developer/superplay/id1484468650?uo=4",
+        "genres": [
+          "Games",
+          "Card",
+          "Board"
+        ],
+        "releaseNotes": "Get ready for an amazing update!\n* Prepare for NEW levels!\n* Unlock NEW Disney characters!\n* Join the magic with NEW DISNEY FEATURES!\n* Enjoy performance improvements for a smoother gaming experience!\nPlay Disney Solitaire!"
+      },
+      "reviewAnalysis": {
+        "total": 43,
+        "starCounts": {
+          "1": 14,
+          "2": 8,
+          "3": 4,
+          "4": 2,
+          "5": 15
+        },
+        "positiveRatio": 40,
+        "negativeRatio": 51,
+        "eventMentions": [
+          {
+            "text": "i was going to put a review of what i thought was a new game this 2026, but after reading the other ",
+            "keywords": [
+              "new"
+            ]
+          },
+          {
+            "text": "enjoyable but there are always rewards missing. you have to contact them but they don’t give you’re ",
+            "keywords": [
+              "update",
+              "new"
+            ]
+          },
+          {
+            "text": "latest update placed an in-app payment on the movie night feature. before one can grind watching the",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "i genuinely enjoy this game — the gameplay is fun, engaging, and the nostalgia factor (especially as",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "this is not free to play even if you can download it for free because eventually you will be forced ",
+            "keywords": [
+              "event"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 11 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 5 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:26.139Z"
+    },
+    {
+      "appId": "6502820653",
+      "name": "Archero 2",
+      "platform": "ios",
+      "market": "th",
+      "detail": {
+        "description": "Welcome to the new era of the legendary roguelike mobile game—Archero 2! Join 200 million players in unlocking the memories of the archer!\n\nThe once-great hero has fallen into the Demon King's trap and turned into an even more powerful leader of dark forces! As a new-generation hero, you must master every skill you acquire to embark on your mission to save the world!\n\nGame Features:\n1.Roguelike Experience 2.0: Unique skill rarity settings and more chances to choose your skills!\n2.Combat Experien",
+        "released": "2024-06-13T07:00:00Z",
+        "updated": "2026-04-16T17:36:35Z",
+        "version": "1.1.6",
+        "score": 4.7,
+        "reviews": 1460,
+        "developer": "HABBY",
+        "developerUrl": "https://apps.apple.com/th/developer/habby/id1422308796?uo=4",
+        "genres": [
+          "Games",
+          "Entertainment",
+          "Action",
+          "Casual"
+        ],
+        "releaseNotes": "1. New Umbral Tempest class: Diviner is coming in the new season!\n2. New Legendary Mystling: Fool\n3. New character skins: Violet Lotus Pulse (Nezha), Awakened Stone Monkey (Wukong)\n4. Plant and Spirit build will receive major enhancements\n5. All-Star Cup Qualifiers upgraded, with comprehensive optimization to both the format and rewards\n6. Major Guild system upgrade, adding features such as Guild Research, pinned announcements, and recommendation mechanisms\n7. Cchat system optimization"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 15,
+          "2": 1,
+          "3": 2,
+          "4": 1,
+          "5": 30
+        },
+        "positiveRatio": 63,
+        "negativeRatio": 33,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "unknown",
+          "label": "🔍 待深入調查",
+          "detail": "未能自動推測原因，建議手動查看",
+          "confidence": "low"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:28.556Z"
+    },
+    {
+      "appId": "com.netease.idv_tw.googleplay",
+      "name": "第五人格",
+      "platform": "android",
+      "market": "tw",
+      "detail": {
+        "description": "【Game Introduction】 Identity V is NetEase's first asymmetrical competitive mobile game. Its grotesque gothic art style, suspenseful and brain-teasing storyline, and thrilling 1v4 asymmetrical gameplay will bring players a brand new gaming experience. Players will become detective Orpheus, who, after receiving a mysterious letter of commission, enters the infamous manor to investigate a missing person case. During the evidence investigation, Orpheus will use deductive reasoning to review the case",
+        "released": "Jul 10, 2018",
+        "updated": 1774365626000,
+        "version": "2026.0324.1458",
+        "installs": "1,000,000+",
+        "score": 3.2725103,
+        "ratings": 102351,
+        "reviews": 49353,
+        "developer": "LongE Play",
+        "developerWebsite": "https://www.identityvgame.com/tw/",
+        "genre": "Role Playing",
+        "recentChanges": "——修復了部分兼容性問題；"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 21,
+          "2": 3,
+          "3": 3,
+          "4": 4,
+          "5": 19
+        },
+        "positiveRatio": 46,
+        "negativeRatio": 48,
+        "eventMentions": [
+          {
+            "text": "this is an amazing but underrated game. (2.9 at the time). here's my viewpoint on some issues people",
+            "keywords": [
+              "event"
+            ]
+          },
+          {
+            "text": "兩三年沒玩，重新登陸後發現帳號被收回了，一登陸直接從頭開始。登陸前確定自己綁定的gmail帳號是正確的，但是過去充錢買的皮膚啥的完全憑空消失，奉勸各位玩家，想玩可以，別充錢！別充錢！別充錢！否則哪天帳",
+            "keywords": [
+              "新"
+            ]
+          },
+          {
+            "text": "nostalgic. loved the anniversary stories and side events.",
+            "keywords": [
+              "event",
+              "anniversary"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 3 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:31.212Z"
+    },
+    {
+      "appId": "1098157959",
+      "name": "Evony",
+      "platform": "ios",
+      "market": "th",
+      "detail": {
+        "description": "Shoot and engage in battles！\nBuild your cities. Train your troops. Expand your empire. Be the king of 7 kingdoms!\nAll in Evony: The King's Return, the hottest real-time strategy MMO of 2024!\n\nUnique gameplay features:\n◆ Challenge a variety of Survivor Levels\n◆ Move, shoot, evolve weapons\n◆ Use flexible finger controls\n◆ Experience the joy of puzzle solving\n\n\nTHE EXCEPTIONALLY RICH AND AMAZING SET OF FEATURES:\n◆ YOU ARE THE SURVIVOR! Move, dodge, shoot, acquire weapons, and fight to the last mome",
+        "released": "2016-09-02T14:24:01Z",
+        "updated": "2026-04-24T00:17:37Z",
+        "version": "5.24.0",
+        "score": 4.24451,
+        "reviews": 4507,
+        "developer": "TOP GAMES INC.",
+        "developerUrl": "https://apps.apple.com/th/developer/top-games-inc/id1050386041?uo=4",
+        "genres": [
+          "Games",
+          "Role-Playing",
+          "Strategy"
+        ],
+        "releaseNotes": "- Bug fixes and improvements"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 37,
+          "2": 1,
+          "3": 3,
+          "4": 1,
+          "5": 7
+        },
+        "positiveRatio": 16,
+        "negativeRatio": 78,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 10 天前",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:33.626Z"
+    },
+    {
+      "appId": "com.kayac.BuildFight",
+      "name": "Build Fight",
+      "platform": "android",
+      "market": "tw",
+      "detail": {
+        "description": "Let's place blocks and units!\n\nPlace a block on the stage and build your base.\n\nBy selecting a unit, you can place a battle soldier.\n\nPress the play button and destroy the opponent's base!",
+        "released": "Dec 3, 2025",
+        "updated": 1777637637000,
+        "version": "059",
+        "installs": "1,000,000+",
+        "score": 4.54902,
+        "ratings": 3678,
+        "reviews": 3,
+        "developer": "KAYAC Inc.",
+        "developerWebsite": "https://kayac.games",
+        "genre": "Arcade"
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 6,
+          "2": 3,
+          "3": 7,
+          "4": 6,
+          "5": 28
+        },
+        "positiveRatio": 68,
+        "negativeRatio": 18,
+        "eventMentions": []
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 3 天前",
+          "confidence": "high"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:35.786Z"
+    },
+    {
+      "appId": "1158967485",
+      "name": "Hero Wars: Alliance RPG",
+      "platform": "ios",
+      "market": "th",
+      "detail": {
+        "description": "Hero Wars: Alliance is a free-to-play game. Includes optional purchases and loot boxes with random rewards.\n\nLead legendary Heroes into battle! Crush enemies, defeat bosses, and rule Dominion.\n\n\nThe Archdemon has won. The Guardians have fallen, many now twisted by darkness. But hope remains — Aurora has broken free. Now it’s your turn to rise and bring the others back.\n\nHero Wars: Alliance is more than an RPG — it's a test of your strategy, timing, and leadership. Collect powerful heroes, upgrad",
+        "released": "2017-03-31T08:11:28Z",
+        "updated": "2026-04-22T09:29:41Z",
+        "version": "1.277.200",
+        "score": 4.67017,
+        "reviews": 12570,
+        "developer": "Nexters Global LTD",
+        "developerUrl": "https://apps.apple.com/th/developer/nexters-global-ltd/id660706304?uo=4",
+        "genres": [
+          "Games",
+          "Entertainment",
+          "Adventure",
+          "Role-Playing"
+        ],
+        "releaseNotes": "Ancient magic shifts!\n\nDon’t fear the darkness.\nPhobos gets a new Relic.\n\nSharpen the edge.\nNew Talisman for Drayne is on the way!\n\nDesert power rises.\nMorrigan steps into the ancient sands with a new Skin and Skin+.\n\nTime pays off.\nTempus gains a new Relic — and red gear to match.\n\nChaos heals.\nAidan gets a brand-new Blazing Skin!"
+      },
+      "reviewAnalysis": {
+        "total": 49,
+        "starCounts": {
+          "1": 16,
+          "2": 3,
+          "3": 2,
+          "4": 2,
+          "5": 26
+        },
+        "positiveRatio": 57,
+        "negativeRatio": 39,
+        "eventMentions": [
+          {
+            "text": "few updates back i started to have a lot of crashes. game says i have critical errors and asked to s",
+            "keywords": [
+              "update"
+            ]
+          },
+          {
+            "text": "please release new era because when the hero have lv 120 there is nothing to do.thank you for listen",
+            "keywords": [
+              "new"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 12 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "event_driven",
+          "label": "🎉 限時活動引流",
+          "detail": "評論中 2 次提及活動/事件",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:38.341Z"
+    },
+    {
+      "appId": "com.epicoro.castleclashers",
+      "name": "Castle Busters",
+      "platform": "android",
+      "market": "ph",
+      "detail": {
+        "description": "BREAK EVERY WALL. RULE EVERY ARENA.\nCastle Busters is a fast, real-time 1v1 PvP strategy brawler where every brick breaks and every shot counts. Draft 8 units, load your keep, and turn your rival's castle into a pile of rubble before they do it to you first. No bot waves. No 20-minute matches. Just online multiplayer PvP battles where one good angle wins the war.\n\nSMASH THE WALLS, NOT THE CLOCK\nMatches are quick. Decisions are not. Pick your shot, read the enemy line, and fire. Every wall, tower",
+        "released": "Jul 18, 2025",
+        "updated": 1776848896000,
+        "version": "1.8.1",
+        "installs": "5,000,000+",
+        "score": 4.772549,
+        "ratings": 66327,
+        "reviews": 587,
+        "developer": "VOODOO",
+        "developerWebsite": "https://www.voodoo.io",
+        "genre": "Action",
+        "recentChanges": "• Bug fixes and improvements "
+      },
+      "reviewAnalysis": {
+        "total": 50,
+        "starCounts": {
+          "1": 3,
+          "2": 1,
+          "3": 6,
+          "4": 7,
+          "5": 33
+        },
+        "positiveRatio": 80,
+        "negativeRatio": 8,
+        "eventMentions": [
+          {
+            "text": "overall the gameplay is so addictive, but some heroes are imbalance especially air strike the damage",
+            "keywords": [
+              "event"
+            ]
+          }
+        ]
+      },
+      "inferredReasons": [
+        {
+          "type": "major_update",
+          "label": "🔄 重大更新帶動",
+          "detail": "最近更新: 12 天前",
+          "confidence": "medium"
+        },
+        {
+          "type": "word_of_mouth",
+          "label": "💬 口碑爆發",
+          "detail": "4-5星評論佔 80%",
+          "confidence": "medium"
+        }
+      ],
+      "analyzedAt": "2026-05-04T20:36:40.839Z"
+    }
+  ]
+}

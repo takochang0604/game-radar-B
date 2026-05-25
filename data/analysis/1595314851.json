@@ -1,0 +1,52 @@
+{
+  "appId": "1595314851",
+  "name": "Lamar - Idle Vlogger",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Become a Viral Sensation with Lamar - Idle Vlogger!\nWelcome to the wacky world of \"Lamar - Idle Vlogger,\" where you can turn into a superstar by doing the silliest and funniest things online! Join Lamar as he starts his journey from a nobody to a famous internet sensation by making people laugh and going viral!\nStart from Zero\nLamar begins with just a simple camera and a big dream. Help him make hilarious videos that catch everyone's attention. From silly pranks to funny challenges, there's no l",
+    "released": "2021-12-20T08:00:00Z",
+    "updated": "2026-03-26T08:52:40Z",
+    "version": "238.0.0",
+    "score": 4.6476,
+    "reviews": 157435,
+    "developer": "Crazy Labs",
+    "developerUrl": "https://apps.apple.com/us/developer/crazy-labs/id721307559?uo=4",
+    "genres": [
+      "Games",
+      "Simulation",
+      "Roleplaying",
+      "Entertainment"
+    ],
+    "releaseNotes": "Hey you, Lamar calling with some news!\nThey said \"\"various improvements.\"\" What does that mean? No clue. \nBut the game still slaps, the buttons still button, and if things feel extra smooth… We did that! \nJust nod like you always knew this was coming.\nAnd as always, don't forget to like, comment, subscribe!"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 23,
+      "2": 6,
+      "3": 4,
+      "4": 1,
+      "5": 15
+    },
+    "positiveRatio": 33,
+    "negativeRatio": 59,
+    "eventMentions": [
+      {
+        "text": "i have contacted support over 3 weeks ago they said they are working on it i reached out to them aga",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-04T20:34:41.403Z"
+}

@@ -1,0 +1,41 @@
+{
+  "appId": "com.lotum.wordsearchhotel",
+  "name": "Word Search Hotel",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Looking for a cozy word search puzzle adventure? Find hidden words, beat the clock, and give charming hotels a complete makeover!\n\nJoin the dedicated hotel manager Mr. Bellweather and his cat Peaches as you bring run-down places back to life. Behind dusty lobbies and quiet hallways, the character they once had still lingers. Mr. Bellweather believes they deserve a second chance and needs your keen eye to help them shine again.\n\nBRAIN-TEASING WORD PUZZLES\n• Beat the Clock: Enjoy a thrilling take ",
+    "released": "Mar 26, 2026",
+    "updated": 1777460205000,
+    "version": "1.15.1",
+    "installs": "100,000+",
+    "score": 4.4347825,
+    "ratings": 25,
+    "reviews": 5,
+    "developer": "Lotum two GmbH",
+    "developerWebsite": "http://www.lotum.com",
+    "genre": "Word"
+  },
+  "reviewAnalysis": {
+    "total": 5,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 5
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:21.355Z"
+}

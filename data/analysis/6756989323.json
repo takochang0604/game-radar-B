@@ -1,0 +1,44 @@
+{
+  "appId": "6756989323",
+  "name": "라스트 어사일럼: 페스트",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "종말의 흑사병 속에서, 새부리 의사가 되어 행동으로 삶의 희망을 되찾으세요!\n갑작스러운 흑사병이 마을 전체를 집어삼켰습니다. 의료 체계는 붕괴되고 치안은 무너졌으며, 쥐떼가 코앞까지 몰려오고 있습니다. 당신은 새부리 의사로서 환자를 돌보고 약을 제작하며, 경비대를 지휘해 피난소를 세워야 합니다. 위험이 도사리는 황폐한 땅에서 매 순간 중대한 결단을 내려, 생존자들을 위한 새로운 질서를 재건하세요!\n\n[종말 병원: 희망을 치료하다]\n당신만의 종말 시대 병원을 운영하세요. 운영부터 진료, 확장까지—모든 선택은 당신의 손에 달려 있습니다!\n새부리 의사로서, 당신은 진료 접수부터 증상 판단, 약제 조제와 치료까지 직접 지휘해야 합니다. 병실과 의료 장비를 관리하고 진료 구역을 확장해 의료 역량을 끌어올리세요. 의료를 생존의 돌파구로 만들어야 합니다!\n\n[영웅 레벨업, 쥐떼에 맞서다]\n영웅을 육성하고 타워 디펜스 배치를 강화하여 쥐떼 앞에서 마지막 방어선을 지켜내세요!\n쥐떼와 쥐왕이 언제든 ",
+    "released": "2026-03-02T08:00:00Z",
+    "updated": "2026-05-21T08:31:12Z",
+    "version": "1.0.36",
+    "score": 4.8,
+    "reviews": 1648,
+    "developer": "WISENESS GAME ONLINE INTERNATIONAL LTD",
+    "developerUrl": "https://apps.apple.com/kr/developer/wiseness-game-online-international-ltd/id1091188713?uo=4",
+    "genres": [
+      "게임",
+      "시뮬레이션",
+      "전략"
+    ],
+    "releaseNotes": "성능 개선 및 일부 문제를 수정했습니다"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:38:08.236Z"
+}

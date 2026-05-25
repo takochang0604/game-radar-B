@@ -1,0 +1,49 @@
+{
+  "appId": "com.warrior.screw.gp",
+  "name": "Screw All Out - Jam Master",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Arrange and Twist out the screws. Correctly screw them away from the boards and clear all out. Simple to start yet IQ testing!  \nWe believe this is the difficulty level design you don't want to miss out! It's challenging but will definitely rest your brain. Can you be the screw jam Master?\nTwist them Out! Screw All Out! Screw away your stress! \n\nDive into a world of satisfying ASMR sounds and colorful screw jam puzzles, master thousands of levels!\nTap on the screws with matching colors and clear",
+    "released": "Aug 24, 2025",
+    "updated": 1776956175000,
+    "version": "1.0.22",
+    "installs": "1,000,000+",
+    "score": 4.1960783,
+    "ratings": 44465,
+    "reviews": 78,
+    "developer": "Warrior Puzzle Game Studio",
+    "developerWebsite": "https://loveballs.club/",
+    "genre": "Puzzle",
+    "recentChanges": "- Participate in new events to win tons of gold and &quot;unlimited lives&quot;<br>- UI optimization<br><br>The ultimate screw challenge awaits your conquest! For any questions or suggestions, please contact service@warriorgame.mobi"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 68,
+      "2": 11,
+      "3": 4,
+      "4": 2,
+      "5": 15
+    },
+    "positiveRatio": 17,
+    "negativeRatio": 79,
+    "eventMentions": [
+      {
+        "text": "it's been great playing, but now the ads aren't loading. i've re-installed it twice and even cleared",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-09T15:04:35.667Z"
+}

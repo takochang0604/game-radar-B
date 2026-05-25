@@ -1,0 +1,43 @@
+{
+  "appId": "6759963349",
+  "name": "小小羊圈-羊趣乐园",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "《羊趣乐园》是一款萌趣羊类休闲益智游戏，适配全年龄段，主打幼儿启蒙与亲子互动。\n包含四种玩法：\n羊羊图鉴可查看详情并交互；\n羊羊分类需拖拽图片归位；\n羊羊点击要限时点击目标；\n羊羊影子配对需将彩图拖至对应影子，兼顾趣味与教育，锻炼多方面能力。",
+    "released": "2026-03-03T08:00:00Z",
+    "updated": "2026-05-12T02:32:28Z",
+    "version": "1.0.2",
+    "score": 4.6,
+    "reviews": 4363,
+    "developer": "宏达 孙",
+    "developerUrl": "https://apps.apple.com/cn/developer/%E5%AE%8F%E8%BE%BE-%E5%AD%99/id1855322685?uo=4",
+    "genres": [
+      "游戏",
+      "休闲"
+    ],
+    "releaseNotes": "解决已知问题"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-17T15:02:59.779Z"
+}

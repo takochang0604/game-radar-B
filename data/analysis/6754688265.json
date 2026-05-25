@@ -1,0 +1,50 @@
+{
+  "appId": "6754688265",
+  "name": "最終曙光（Last Light）",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "在一個被亡靈蹂躪的世界裡，人類最後的餘燼在廢墟的陰影中搖曳，你會崛起成為人類最後防線的構築者嗎？歡迎來到《最終曙光》—— 面對毀滅時的終極策略與意志考驗。\n\n建造 & 防禦\n在末日的中心建立你的據點。建造堅固的城牆，設立重要的資源站，並研發先進技術以抵禦亡靈無情的浪潮。你建造的每一座建築和你加強的每一道防線，都可能意味著生存與滅絕的區別。\n\n管理 & 適應\n指揮一個倖存者社區 —— 每個人都有獨特的技能、特質和負擔。分配角色，管理士氣，並做出關乎生死的決定以維持庇護所的運轉。但要小心：在這個破碎的世界裡，危險不僅僅來自外部。\n\n探索 & 收復\n派遣探險隊進入舊世界的廢墟。搜尋物資，揭開隱藏的傳說，並遭遇其他倖存者 —— 有些願意交易，有些則會背叛。擴大你的影響力，收復失地，並揭開爆發背後的黑暗秘密。\n\n聯盟 & 統治\n與全球玩家建立聯盟。協調攻擊，共享資源，聯合起來征服喪屍群和敵對勢力。齊心協力，你們不僅可以重建一個庇護所 —— 更是一個新的文明。\n\n世界的終結僅僅是開始。你會僅僅為了生存…… 還是會帶領人類走向新的黎明？\n\n本遊戲部份內容涉及「暴力」情節。依遊戲軟體分級管理辦法分類為",
+    "released": "2026-04-15T07:00:00Z",
+    "updated": "2026-05-01T13:15:10Z",
+    "version": "1.0.10",
+    "score": 4.80152,
+    "reviews": 262,
+    "developer": "BINGCHUAN NETWORK (HONG KONG) COMPANY LIMITED",
+    "developerUrl": "https://apps.apple.com/tw/developer/bingchuan-network-hong-kong-company-limited/id1478697635?uo=4",
+    "genres": [
+      "遊戲",
+      "休閒",
+      "策略"
+    ],
+    "releaseNotes": "-新休閒玩法\n-修復已知漏洞\n-優化遊戲體驗"
+  },
+  "reviewAnalysis": {
+    "total": 5,
+    "starCounts": {
+      "1": 4,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 20,
+    "negativeRatio": 80,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 25 天，評分 4.80152",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:03:50.567Z"
+}

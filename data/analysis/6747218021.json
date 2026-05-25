@@ -1,0 +1,44 @@
+{
+  "appId": "6747218021",
+  "name": "Cookzii: Cozy Cooking ASMR",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "A Peaceful Journey Through Traditional Flavors\nStep into a quiet countryside kitchen where tradition meets tranquility. Unlike fast-paced cooking games, this game invites you to embrace slow living, breathe in the scent of homemade dishes, and rediscover the joy of cooking in a rustic, heartwarming setting.\n\nKey Features:\n- Gentle, Stress-Free Gameplay\nCook at your own pace with intuitive touch controls and no pressure. There's no rush — only the simple pleasure of preparing meaningful meals.\n\n-",
+    "released": "2025-07-03T07:00:00Z",
+    "updated": "2026-05-05T08:56:01Z",
+    "version": "6.1",
+    "score": 4.6,
+    "reviews": 4898,
+    "developer": "Vu Long",
+    "developerUrl": "https://apps.apple.com/vn/developer/vu-long/id1820325841?uo=4",
+    "genres": [
+      "Games",
+      "Simulation",
+      "Puzzle"
+    ],
+    "releaseNotes": "- Update new menu\n- Fix bug level 131\n- Improve game play"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:43:18.136Z"
+}

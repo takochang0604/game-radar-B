@@ -1,0 +1,73 @@
+{
+  "appId": "jp.konami.wecc",
+  "name": "eFootball™  CHAMPION SQUADS",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Introducing the most famous footballers from around the world, now with photo-realistic likeness!\nPlay at your own pace with auto matchplay and high-quality 3D graphics!\nUse the best players and tactics to take on world-class opponents on the pitch!\n\n- Player Cards with popular real life players!\nPlayers from the world's top national teams are here, including Argentina, France and Belgium, as well as stars from some of the most popular club teams, including FC BARCELONA, AC MILAN and MANCHESTER ",
+    "released": "Oct 29, 2017",
+    "updated": 1777269851000,
+    "version": "9.5.0",
+    "installs": "10,000,000+",
+    "score": 4.3,
+    "ratings": 163715,
+    "reviews": 3276,
+    "developer": "KONAMI",
+    "developerWebsite": "https://www.konami.com/wepes/mobile/wecc/",
+    "genre": "Sports",
+    "recentChanges": "[Update Details]<br>- Implementation of events<br>- Bug fixes"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 49,
+      "2": 11,
+      "3": 14,
+      "4": 21,
+      "5": 105
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 30,
+    "eventMentions": [
+      {
+        "text": "it stops mid game and that can be really frustrating. became worse after the previous two updates..",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "brother, i’ve been playing efootball for almost three years now because i truly love football. ❤️❤️ ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "good graphic.keep it up n bring new challenges",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "good give me unlimited money in the game 🎮",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "horrible i liked the regular game without all this card stuff.i got a new phone and tried downloadin",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-21T11:37:28.039Z"
+}

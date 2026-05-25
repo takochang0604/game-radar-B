@@ -1,0 +1,81 @@
+{
+  "appId": "com.gear2.growslayer",
+  "name": "Slayer Legend : Idle RPG",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "# Super cool Idle RPG\n# High-quality Retro Pixel RPG\n\nAn unknown crack in the dimension brought demons into this world... The world is in need of a hero, a SLAYER to put an end to the chaos. Become a Slayer and protect the world!\n\n▶ ENDLESS IDLE GAME\n\nGet rich rewards by being AFK!!\nJust 10 minutes a day is enough to explore the fantasy world.\n\n▶RETRO PIXEL INDIE GAME\nRaising Slayer is a RPG story filled with adventure and action. \nIn the adventure, beautiful Elves and wandering Swordsman are wa",
+    "released": "May 16, 2021",
+    "updated": 1777758693000,
+    "version": "600.8.0",
+    "installs": "5,000,000+",
+    "score": 4.8,
+    "ratings": 145188,
+    "reviews": 10531,
+    "developer": "GEAR2",
+    "developerWebsite": "https://continue.netlify.app/app-ads.txt",
+    "genre": "Adventure",
+    "recentChanges": "[Event] Aslan Wonderland Event will begin.<br>[Event] Spacetime Fracture Event will begin.<br>[New] Square will be added.<br>Ancient Weapon Awakening will be added.<br>[Stage] Regions will be added. (~1780)<br><br><br>"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 28,
+      "2": 9,
+      "3": 7,
+      "4": 6,
+      "5": 150
+    },
+    "positiveRatio": 78,
+    "negativeRatio": 19,
+    "eventMentions": [
+      {
+        "text": "looking forward to you're next update,every time you update it's getting better and better i hope fo",
+        "keywords": [
+          "event",
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "absolutely one of the best games available on mobile, no questions asked. it starts off simple, so v",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this is an incredibly fun game. deserves 5 stars, but after the recent update it stopped working, wh",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the game is not starting after the update, it's frozen down on the login screen",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "needs an update to fix bug. it says \"tap to start\" then freezes once you click it and brings me to m",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:37:56.103Z"
+}

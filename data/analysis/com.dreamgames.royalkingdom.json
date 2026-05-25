@@ -1,0 +1,80 @@
+{
+  "appId": "com.dreamgames.royalkingdom",
+  "name": "Royal Kingdom",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "From the creators of Royal Match comes a brand new match 3 puzzle adventure in Royal Kingdom, starring the extended Royal Family!\n\nYou’ll meet King Richard, King Robert's younger brother, as well as a charming cast of new characters, including Princess Bella and the Wizard, to embark on a journey to build legendary kingdoms! Solve match 3 puzzles to explore new lands and defeat the Dark King & his army!\n\nMASTER MATCH 3 PUZZLES\nTest your skills and become the ultimate match 3 expert by solving fu",
+    "released": "Jul 27, 2023",
+    "updated": 1778859929000,
+    "version": "30319",
+    "installs": "50,000,000+",
+    "score": 4.7,
+    "ratings": 2187595,
+    "reviews": 3820,
+    "developer": "Dream Games, Ltd.",
+    "developerWebsite": "https://www.dreamgames.com",
+    "genre": "Puzzle",
+    "recentChanges": "Get ready for a splendid new update!<br>• Prepare yourself for 100 NEW LEVELS! Experience fun and exciting challenges!<br>• Explore the new district, GLASSWORK! Keep expanding the kingdom to discover new horizons!<br>• Glory awaits in the new event, KINGDOM DUELS! Battle your rivals and become the Champion!<br>Play Royal Kingdom now!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 41,
+      "2": 13,
+      "3": 13,
+      "4": 17,
+      "5": 116
+    },
+    "positiveRatio": 67,
+    "negativeRatio": 27,
+    "eventMentions": [
+      {
+        "text": "when i first started playing, it was good. now that it updated, i can't see the extra lives and i ca",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "it's an amazing game but the constant update it's irritating",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "there really is no ads but after a certain level they start to get you to update. it's not the end o",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the leader of my team and maxed out levels now i'll have to uninstall because the newest update want",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i fell for it, i fell for the ads.... i enjoy the mini games in these royal games. and the ad even c",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:29.220Z"
+}

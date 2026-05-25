@@ -1,0 +1,79 @@
+{
+  "appId": "com.mergegames.gossipharbor",
+  "name": "Gossip Harbor®: Merge & Story",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Welcome to Gossip Harbor 🌊\nFollow Quinn Castillo as her picture perfect life on Brimwave Island crumbles around her. Divorce, sabotage and secrets. Help answer the question everyone's thinking: Who's trying to ruin her life? \nMerge flavorful dishes, restore and decorate Quinn's restaurant and watch the mystery unfold. \nBut who can you trust in Brimwave? \n\nWhip Up Tasty Dishes🥪\nServe coffee, sandwiches, seafood, and a range of other dishes, to your customers. The more you play, the more dishes ",
+    "released": "Sep 9, 2022",
+    "updated": 1778667549000,
+    "version": "3.90.0",
+    "installs": "50,000,000+",
+    "score": 4.7,
+    "ratings": 627808,
+    "reviews": 1833,
+    "developer": "Microfun Limited",
+    "developerWebsite": "https://www.microfun.com/game_cookieEN.html",
+    "genre": "Puzzle",
+    "recentChanges": "NEW EPISODE EVERY FRIDAY!<br>- NEW EPISODE: With new chapter updates every Friday; follow Quinn as she exposes secrets and solves puzzles.<br>- NEW EVENT:Explore the storied world of the Fair Frost Princess and unlock her Rose Red Reign! Join Lori and Quinn as they explore to collect points, unlock exclusive decorations, and witness the event in full."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 55,
+      "2": 20,
+      "3": 11,
+      "4": 13,
+      "5": 101
+    },
+    "positiveRatio": 57,
+    "negativeRatio": 38,
+    "eventMentions": [
+      {
+        "text": "the ads are so deceiving! the worst part is that newer ads for this keep coming where they assure th",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "very very nice game but they need to update all the time is very exhausting",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i enjoy playing the game but there are a few things that is off putting. 1. 100 energies depletes so",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "storyline is weird. side games are odd and excessive. played for a year and recent update was sketch",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "really nice game, no ads, but when you try to watch ads to get something theres a 50/50 chance the a",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:43:44.898Z"
+}

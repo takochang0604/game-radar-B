@@ -1,0 +1,79 @@
+{
+  "appId": "com.readygo.dark.gp",
+  "name": "Dark War Survival",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Gear up and brace yourself for the ultimate test of zombie apocalypse survival! Dive into thrilling gameplay and uncover captivating events that await your exploration!\n\nAs a sudden and catastrophic zombie virus ravages human society, your once cozy life is shattered. Family and friends turn into the walking dead before your very eyes. Escaping the chaos of your crumbling home, you now face the ultimate challenge: setting up a shelter to survive the zombie apocalyptic world, and reigniting the f",
+    "released": "May 19, 2024",
+    "updated": 1778734910000,
+    "version": "1.250.645",
+    "installs": "10,000,000+",
+    "score": 4.4,
+    "ratings": 748850,
+    "reviews": 23085,
+    "developer": "Omnilojo Pte Ltd",
+    "genre": "Strategy"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 105,
+      "2": 21,
+      "3": 5,
+      "4": 13,
+      "5": 56
+    },
+    "positiveRatio": 35,
+    "negativeRatio": 63,
+    "eventMentions": [
+      {
+        "text": "played on server 590 in the kor alliance (later renamed avof), led by kor leader. i reached level 20",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i really love the hunt craze in wasteland party event!! 😍😍😁😁🎉🎉",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "a standard tower defence/town management game. excellent graphics, and i appreciate the loads of spo",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "poor developer support. very inconsistent when it comes to game changes. no new update , just the sa",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "this game is nothing but a cash grab now. devs ignore player feedback and only care about getting pl",
+        "keywords": [
+          "event",
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:46:14.216Z"
+}

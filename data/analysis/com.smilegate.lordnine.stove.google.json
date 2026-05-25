@@ -1,0 +1,42 @@
+{
+  "appId": "com.smilegate.lordnine.stove.google",
+  "name": "로드나인",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "▣Game Introduction▣\n\n■ The One Who Will Seize Hegemony Over the World\n\nAn epic saga centered around the 9 Lords who hold supremacy over the continent\n\nHaving arrived in this other world at the call of Orpheus, will you be able to\n\nbe reborn as the 10th Lord!\n\n■ MMORPG's First Customizable Growth System\n\nHigh freedom in weapon selection and growth, leading to changes in combat style\n\nStrategically utilize additional skills through ability and tag combinations\n\nFreely select and switch between var",
+    "released": "Jul 7, 2024",
+    "updated": 1777471757000,
+    "version": "1.5.1",
+    "installs": "500,000+",
+    "score": 4.655981,
+    "ratings": 26533,
+    "reviews": 5172,
+    "developer": "Smilegate, Inc.",
+    "developerWebsite": "http://smilegate.com",
+    "genre": "Role Playing",
+    "recentChanges": "- 세르비스 장미 축제 진행\t<br>- 장신구 세트 효과 확장\t<br>- 신규 탈것 추가\t<br>- 밸런스 업데이트\t<br>- 콘텐츠 편의성 개선\t<br>- 버그 및 기타 오류 수정\t"
+  },
+  "reviewAnalysis": {
+    "total": 10,
+    "starCounts": {
+      "1": 6,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 4
+    },
+    "positiveRatio": 40,
+    "negativeRatio": 60,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:40:29.031Z"
+}

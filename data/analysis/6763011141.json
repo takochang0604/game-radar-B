@@ -1,0 +1,43 @@
+{
+  "appId": "6763011141",
+  "name": "Chicken Farm Cozy Life",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Chicken Farm Cozy Farm is a relaxing idle farming game where you build a happy farm collect animals and grow your business. Take care of cute chickens upgrade your barn hire workers and expand your cozy countryside world.\n\nManage your farm earn rewards and unlock new areas as your small ranch becomes a busy animal paradise. Enjoy simple gameplay colorful graphics and satisfying progress anytime.\n\nFeatures\n\nBuild and upgrade your chicken farm\n\nCollect cute animals and grow your ranch\n\nHire worker",
+    "released": "2026-04-22T07:00:00Z",
+    "updated": "2026-05-05T07:59:03Z",
+    "version": "1.1",
+    "score": 2.9,
+    "reviews": 16,
+    "developer": "DUONG NGOC DUC",
+    "developerUrl": "https://apps.apple.com/vn/developer/duong-ngoc-duc/id1896472926?uo=4",
+    "genres": [
+      "Games",
+      "Casual"
+    ],
+    "releaseNotes": "* Add new levels to discover\n*Optimizing game performance"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:38:57.575Z"
+}

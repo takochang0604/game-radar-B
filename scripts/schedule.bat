@@ -60,10 +60,25 @@ if errorlevel 1 (
 )
 
 echo.
+echo [5/5] Syncing to Git...
+git add data/ .gitignore
+git commit -m "data: auto-sync %date:~0,10%" --no-verify 2>nul
+if errorlevel 1 (
+    echo [WARN] Git commit skipped (no changes or error)
+) else (
+    git push origin main 2>nul
+    if errorlevel 1 (
+        echo [WARN] Git push failed, will retry next run
+    ) else (
+        echo [OK] Git sync done
+    )
+)
+
+echo.
 echo ====================================
 echo  [OK] All done! %date% %time%
 echo ====================================
-echo %date% %time% OK >> "%~dp0..\data\schedule.log"
+echo %date% %time% OK [pipeline] >> "%~dp0..\data\schedule.log"
 goto :eof
 
 :fail
@@ -71,5 +86,5 @@ echo.
 echo ====================================
 echo  [FAIL] %date% %time%
 echo ====================================
-echo %date% %time% FAIL >> "%~dp0..\data\schedule.log"
+echo %date% %time% FAIL [pipeline] >> "%~dp0..\data\schedule.log"
 goto :eof

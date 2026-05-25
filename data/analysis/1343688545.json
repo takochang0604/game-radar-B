@@ -1,0 +1,45 @@
+{
+  "appId": "1343688545",
+  "name": "ONE PIECE Bounty Rush",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "是海賊就來你爭我奪吧―\n\n●手中的每1枚貝里，都是決定勝負的關鍵\n《航海王》首款隊伍對戰動作遊戲隆重登場！最多能夠進行4名玩家對4名玩家的隊伍對戰。\n重點並不是單打獨鬥，要依靠隊伍整體的戰略才能帶來勝利。\n玩家之間搶奪貝里的激烈戰鬥，完全同步進行！\n\n●壯觀的《航海王》世界，化為3D戰場\n《航海王》的世界直接化為玩家開戰的場地。\n關卡中會出現為自己或隊伍帶來優勢的道具，以及阻擋去路的機關。\n善用場上的所有物品，為我方帶來勝利吧！\n\n●操縱充滿特色的《航海王》角色，在隊伍對戰中取勝\n玩家要操縱《航海王》的人氣角色，與敵方隊伍展開戰鬥。\n每個角色的特性都有所不同，例如有些擅長擔任前衛，有些則適合負責後衛。\n確實找出最適合自己的戰鬥崗位，朝戰場前進吧！\n\n\nBandai Namco Entertainment Inc. Website:\nhttps://bandainamcoent.co.jp/english/\n\n您下載或安裝本應用程式，即表示同意Bandai Namco Entertainment的《服務條款》。\n《服務條款》：\nhttps://legal.bandainamcoent.c",
+    "released": "2018-03-29T08:22:41Z",
+    "updated": "2026-04-20T05:10:13Z",
+    "version": "91100",
+    "score": 4.6,
+    "reviews": 31516,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerUrl": "https://apps.apple.com/tw/developer/bandai-namco-entertainment-inc/id352305770?uo=4",
+    "genres": [
+      "遊戲",
+      "冒險",
+      "動作",
+      "娛樂"
+    ],
+    "releaseNotes": "■Ver91100新增內容\n‧已調整並改善部分UI。\n‧已修正部分錯誤。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-21T11:40:59.463Z"
+}

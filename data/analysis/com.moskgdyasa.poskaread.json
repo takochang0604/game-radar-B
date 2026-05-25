@@ -1,0 +1,40 @@
+{
+  "appId": "com.moskgdyasa.poskaread",
+  "name": "Elite Level Slots 777",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Experience the fun of classic slot machines! Elite Level Slots 777 offers a pure 777-style gameplay, easy to learn and suitable for all casual players. No internet required, play anytime, anywhere, win big prizes, and relax! \nElite Level Slots 777 is a casual game paying tribute to traditional slot machines. There are no complicated rules, only familiar cherries, BAR, lucky sevens and dazzling 777 prizes. Pull the lever, watch the roulette wheel spin, and relive the classic pleasure of the game ",
+    "released": "Apr 22, 2026",
+    "updated": 1776845455000,
+    "version": "1.0.1",
+    "installs": "10,000+",
+    "score": 4.3076925,
+    "ratings": 14,
+    "reviews": 1,
+    "developer": "PLATINUM PULSE NETWORK LTD",
+    "genre": "Casino"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 16 天，評分 4.3076925",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:37:04.948Z"
+}

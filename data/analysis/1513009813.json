@@ -1,0 +1,45 @@
+{
+  "appId": "1513009813",
+  "name": "Braindom: Brain Games Test Out",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Looking for brain games, brain tests, 7 seconds riddles, tricky puzzles to play and become the riddle master? Come and solve them all and become the master of the IQ games.\n\nEnter the word of Braindom: Brain Games Test, a word of trivia, quiz, riddle, puzzles and solve them all, show me what you’ve got! Braindom free games are one of the most popular games amongst mobile games, ios games and iphone games. Can you beat it and prove you are the smartest? Sure you can since it’s an easy-game for al",
+    "released": "2020-05-19T07:00:00Z",
+    "updated": "2026-03-30T22:13:57Z",
+    "version": "2.5.4",
+    "score": 4.6,
+    "reviews": 7687,
+    "developer": "Lahana Games",
+    "developerUrl": "https://apps.apple.com/vn/developer/lahana-games/id1801202718?uo=4",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Entertainment",
+      "Word"
+    ],
+    "releaseNotes": "- Performance improvements\n- Bug fixes"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:50.997Z"
+}

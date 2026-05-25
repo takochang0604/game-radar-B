@@ -1,0 +1,74 @@
+{
+  "appId": "com.tencent.ig",
+  "name": "PUBG MOBILE",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "【Epic battle royale masterpiece】\nLots of events for you to explore.Climb to the top in PUBG MOBILE and fire at will. PUBG MOBILE is the original battle royale game on mobile and one of the best mobile shooting games.\n\n【Extreme battles in 10-minute matches】\nPrepare your firearms, respond to the call for battle in PUBG MOBILE, and fire at will.\n\n【Tons of maps and modes】\nPUBG MOBILE has many maps and gameplay mechanics that give you a thrilling survival experience. Find your friends and play the ne",
+    "released": "Mar 19, 2018",
+    "updated": 1777363707000,
+    "version": "4.4.0",
+    "installs": "1,000,000,000+",
+    "score": 4.4,
+    "ratings": 48267940,
+    "reviews": 192465,
+    "developer": "Level Infinite",
+    "developerWebsite": "https://www.pubgmobile.com/",
+    "genre": "Action",
+    "recentChanges": "The first ancient Greek myth-themed version, Hero&#39;s Crown is here! Conquer the four temple areas, complete five glorious trials, and recruit the centaur ally to fight alongside you!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 59,
+      "2": 6,
+      "3": 7,
+      "4": 9,
+      "5": 119
+    },
+    "positiveRatio": 64,
+    "negativeRatio": 33,
+    "eventMentions": [
+      {
+        "text": "back then, i used to run a smooth fps on my mid end device but when the huge update came, i started ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i am an indian this game is very nice and good it is good game i don't why it is banned i wish is to",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "so nice update",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "new update",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "gamenya sih lumayan bagus saya player dari 2018 cuma tolong diperbaiki lagi untuk hp kentang yang pa",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:39:22.544Z"
+}

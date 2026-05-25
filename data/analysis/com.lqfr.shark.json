@@ -1,0 +1,41 @@
+{
+  "appId": "com.lqfr.shark",
+  "name": "NBA王朝崛起",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "=====立即加入，成為全能GM，組建球隊，爭奪冠軍=====\n不只是看比賽，而是化身全能 GM ，從陣容配置到交易佈局，親手打造屬於你的冠軍王朝。\n以真實 NBA 球員與賽事數據為基礎，自由招募現役球星與傳奇名將，每一次選擇都將左右球隊未來，冠軍之路由你規劃。\n\n=====特色玩法=====\n◆ NBA 正版授權｜全明星圖鑑，頂級聯盟球員全收錄\n收錄超過500名現役與傳奇巨星卡牌，每位球員皆擁有獨特技能與賽場風格。\n透過圖鑑收集與陣容搭配，解鎖專屬羈絆效果，讓「黃金搭檔」取代經典默契，全面提升團隊戰力。\n\n◆ 球隊經理｜聚齊名宿與新星，隨心組建夢幻陣容\n以真實NBA球員為核心，自由招募、位置搭配、羈絆激活，\n無論是即戰力豪華陣容，還是長線潛力培養，\n每一次排兵佈陣，都是你的經理判斷。\n\n◆ 球隊教練｜復刻傳奇戰術，臨場決策反敗為勝\n進攻節奏、防守策略、關鍵回合調度，比賽不只是數值比拼，而是策略博弈。\n依對手陣容即時調整戰術，在關鍵時刻改寫戰局。\n\n◆ 球隊球探｜洞察球員潛力，挖掘下個超巨新秀\n透過數據分析與成長曲線，提前鎖定潛力新秀與被低估的黑馬。\n培養、突破、進化，讓今日的角色球員",
+    "released": "Apr 21, 2026",
+    "updated": 1776823005000,
+    "version": "1.0.27",
+    "installs": "10,000+",
+    "score": 4.7350426,
+    "ratings": 239,
+    "reviews": 35,
+    "developer": "SHARK ENTERTAINMENT LIMITED",
+    "developerWebsite": "https://www.sky-shark.com/",
+    "genre": "Sports"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 20 天，評分 4.7350426",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-11T11:40:28.506Z"
+}

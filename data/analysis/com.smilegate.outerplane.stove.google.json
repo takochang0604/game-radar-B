@@ -1,0 +1,79 @@
+{
+  "appId": "com.smilegate.outerplane.stove.google",
+  "name": "OUTERPLANE - Strategy Anime",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "▶ Plenty of rewards await!\nClaim up to 100 Limited Recruitment Tickets!\n\n▮New Players Up to 1,000 Free Recruits!\n\nThe Action Anime, OUTERPLANE\n\n◎ The revenge saga of an Earthling summoned to another world commences! Summoned to \"Mirsha,\" Earthling \"K\" pledges vengeance against betrayers, setting forth on a journey with the automaton \"Eva\"... The riveting tale of intertwined destinies begins to unfold.\n\n▮ Dazzling Action ▮\nEndless Turn-Based strategic excellence with skill chains and burst system",
+    "released": "May 17, 2023",
+    "updated": 1778748851000,
+    "version": "1.4.7",
+    "installs": "1,000,000+",
+    "score": 4.6,
+    "ratings": 88187,
+    "reviews": 588,
+    "developer": "Major9",
+    "developerWebsite": "https://outerplane.vagames.kr",
+    "genre": "Role Playing",
+    "recentChanges": "1. 3rd Anniversary Festival<br>2. New Limited Hero - [Midnight Rush Skadi]<br>3. New Event Dungeon - [The Price of a Perfect Heist]<br>4. Side Story Revamp &amp; Rapport System Added for Select Heroes<br>5. Real-Time Arena<br>6. Joint Challenge – [Defeat the Annihilator]<br>7. Battle Pass: Ace Accomplice Rey<br>8. New Packages Added<br>9. Other Improvements and Bug Fixes"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 62,
+      "2": 6,
+      "3": 14,
+      "4": 19,
+      "5": 99
+    },
+    "positiveRatio": 59,
+    "negativeRatio": 34,
+    "eventMentions": [
+      {
+        "text": "3rd anniversary and still tons of bugs and freezing at end of battles.",
+        "keywords": [
+          "anniversary"
+        ]
+      },
+      {
+        "text": "i am ashamed i only found this game while it's celebrating its 3rd anniversary. solid game, peak wai",
+        "keywords": [
+          "anniversary"
+        ]
+      },
+      {
+        "text": "okay i finally got everything back thank you for that truly but i just got a question that we were s",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "good evening. as far as the game is good, the storyline is good, the characters are good too. but, i",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "help i keep trying to make my selection for the new 3 star hero banner and it just keeps telling me ",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:37:56.450Z"
+}

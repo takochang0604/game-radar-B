@@ -1,0 +1,44 @@
+{
+  "appId": "1376515087",
+  "name": "Age of Origins---ゾンビ・末日戦記",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "世界でのダウンロード回数が70,000,000を突破しています\n\n生き残れ！滅亡の日が迫る世界で、ゾンビを殺し、同盟を結成、軍隊を支配し、都市を繁栄させ人類文明の再建を目指すゾンビストラテジーMMO！\n\nゾンビ危機が瞬く間に世界に広がり、数千年かけて築き上げられてきた人類文明が崩壊寸前まで追い詰められ、人類の運命やいかに！復興のゆくえは、君にかかっている。\n強い軍人魂と武器戦車で生き延びる意欲を維持しよう。\nゾンビ群れ死体の潮が崩れる、敵を粉砕で失われた領土を取り戻そう。\n都市再建、難民救助により人類文明の再生を図ろう。\n同じ志と情熱を持った世界中の指揮官たちと同盟を結成し、敵を打ち砕いて首都を取り戻し、この世界の新たな指導者になって人類の復興を目指そう！\n\n人類を滅ぼせるのは人類しかいない！Age of Z Originsの世界では、あなたを狙っているのは凶暴なゾンビの群れではない。他の都市から攻撃と略奪を仕掛けてくる真の敵に十分用心しましょう！\n\n生き残れ\n\n------「軍隊を集め、テクノロジーを強化し、敵を叩き潰そう！」\n弱肉強食、軍備がものを言う世界：過酷な世界で生き残るには",
+    "released": "2018-10-25T12:18:48Z",
+    "updated": "2026-05-15T08:13:09Z",
+    "version": "1.3.845",
+    "score": 3.7,
+    "reviews": 13590,
+    "developer": "Hong Kong Ke Mo software Co., Limited",
+    "developerUrl": "https://apps.apple.com/jp/developer/hong-kong-ke-mo-software-co-limited/id1603183695?uo=4",
+    "genres": [
+      "ゲーム",
+      "ストラテジー",
+      "ロールプレイング"
+    ],
+    "releaseNotes": "いくつかのプレイモードを最適化しました"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:36.392Z"
+}

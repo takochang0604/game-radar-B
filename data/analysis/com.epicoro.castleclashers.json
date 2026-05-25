@@ -1,0 +1,79 @@
+{
+  "appId": "com.epicoro.castleclashers",
+  "name": "Castle Busters",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "BREAK EVERY WALL. RULE EVERY ARENA.\nCastle Busters is a fast, real-time 1v1 PvP strategy brawler where every brick breaks and every shot counts. Draft 8 units, load your keep, and turn your rival's castle into a pile of rubble before they do it to you first. No bot waves. No 20-minute matches. Just online multiplayer PvP battles where one good angle wins the war.\n\nSMASH THE WALLS, NOT THE CLOCK\nMatches are quick. Decisions are not. Pick your shot, read the enemy line, and fire. Every wall, tower",
+    "released": "Jul 18, 2025",
+    "updated": 1778661401000,
+    "version": "1.9.1",
+    "installs": "5,000,000+",
+    "score": 4.6,
+    "ratings": 88164,
+    "reviews": 798,
+    "developer": "VOODOO",
+    "developerWebsite": "https://www.voodoo.io",
+    "genre": "Action",
+    "recentChanges": "• Bug fixes and improvements "
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 38,
+      "2": 10,
+      "3": 10,
+      "4": 17,
+      "5": 125
+    },
+    "positiveRatio": 71,
+    "negativeRatio": 24,
+    "eventMentions": [
+      {
+        "text": "suggestion if this game update soon please add this certain aspects 1. guild/clan 2. pvp invite 3. t",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "love that the ads are limited, and you can watch them when you want things, not forced to watch them",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "can't buy updated",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "pvp worms/scorch clone that's pretty fun and not too grind-y. there are pay to win elements but so f",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "update: just un-installed. many opponents are clearly bots. pvp is a lie in most games, poor ai and ",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:44:09.809Z"
+}

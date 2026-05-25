@@ -1,0 +1,80 @@
+{
+  "appId": "com.sega.pjsekai",
+  "name": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "\"Vampire\", \"KING\", \"Loki\", \"Charles\", \"Tell Your World\" etc.\nFrom the latest popular songs to famous songs that everyone knows, there are many included with 3DMV!\nA rhythm game that anyone can easily enjoy, brought to you by SEGA x Colorful Palette.\n\n■■Contains a large number of songs, from the latest popular songs to famous songs that everyone knows■■\nPhonii (Lyrics: Tsumiki, Composition: Tsumiki)\nSenbonzakura (lyrics: Kurousa, music: Kurousa)\nDramaturgy (lyrics: Eve, music: Eve)\nTell Your Worl",
+    "released": "Sep 29, 2020",
+    "updated": 1776842689000,
+    "version": "6.5.0",
+    "installs": "5,000,000+",
+    "score": 4.6,
+    "ratings": 132702,
+    "reviews": 34763,
+    "developer": "SEGA CORPORATION",
+    "developerWebsite": "https://pjsekai.sega.jp/",
+    "genre": "Music",
+    "recentChanges": "[v6.5.0アップデート内容]<br>・[新機能]「譜面メーカー」の追加<br>・[改善]コネクトライブ開催に伴う対応<br>・[その他]細やかな調整、および不具合の修正"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 18,
+      "2": 5,
+      "3": 7,
+      "4": 11,
+      "5": 159
+    },
+    "positiveRatio": 85,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "all i have to say is good characters, bad story writing and bad gacha system. this game makes trauma",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "fun,the characters stories r nice the notes r on beat n usually updates. the only problem is that on",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "very great game! expecting to get to the new updates next year on the global!",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "great game new song new stuff coming out and honestly best game",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "how to update",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 85%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:36.402Z"
+}

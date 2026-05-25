@@ -1,0 +1,74 @@
+{
+  "appId": "com.xiaomeng.fategrandorder",
+  "name": "Fate/Grand Order",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "In 2017, the future realm observed by the \"Near Future Observation Lens - Sheba\" vanished without warning.\n\nCalculations revealed—no, confirmed—that humanity would become extinct in 2018.\n\nWhy? How? Who? What?\n\nFaced with numerous questions, researchers at the \"Humanity Continuation Security Agency - Chaldea\" were bewildered.\n\nJust then, Sheba observed a new anomaly.\n\nIn the year 2004, in a city somewhere in Japan,\n\nAn unprecedented \"unobservable realm\" appeared.\n\nAssuming this to be the cause o",
+    "released": "May 17, 2017",
+    "updated": 1776855830000,
+    "version": "2.106.0",
+    "installs": "500,000+",
+    "score": 3.9,
+    "ratings": 34467,
+    "reviews": 11204,
+    "developer": "Komoe",
+    "developerWebsite": "http://www.fate-go.com.tw/",
+    "genre": "Card",
+    "recentChanges": "1.可透過遊戲設定，在從者強化、概念禮裝強化&amp;進化介面中，增加高稀有度&amp;已強化卡牌被消耗時的二次確認功能。<br>2.新增友情點數100連召喚。<br>3.新增可確認期間限定福袋及PICK UP對象5星從者的持有狀況的功能。<br>4.期間限定卡池的確定召喚功能修改，不再有每個卡池僅限1次的限制。此外，也將顯示觸發確定召喚所需的抽卡次數。<br>5.新增附加技能，同時追加新功能，可在任意2個附加技能間替換技能的解放&amp;強化狀態。<br>6.從者、概念禮裝以及指令紋章的持有欄位增加，從者、概念禮裝的保管欄位最大擴張數增加，隊伍的組合數增加。<br>7.新增強化、再臨道具的獲取來源任務跳轉連結。<br>8.新增推薦支援編隊。<br>9.新增章節推進報酬藍圖。<br>10.令咒恢復修改為每天3劃。<br>11.挑戰特殊任務時彈出的自動編成執行確認介面，可以在遊戲設定中設定是否自動彈出。<br>12.從者模組更新<br>  ①阿斯忒里翁<br>13.第1部~奏章Ⅱ為止的主線任務戰鬥失敗時不消耗AP。<br>14.在御主任務介面，部分限定任務會追加【挑戰】按鈕。<br>15.其他文本優化。"
+  },
+  "reviewAnalysis": {
+    "total": 159,
+    "starCounts": {
+      "1": 72,
+      "2": 11,
+      "3": 11,
+      "4": 19,
+      "5": 46
+    },
+    "positiveRatio": 41,
+    "negativeRatio": 52,
+    "eventMentions": [
+      {
+        "text": "lostbelt battle just hard af, surely want to trouble new player",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "不建議新手玩",
+        "keywords": [
+          "新"
+        ]
+      },
+      {
+        "text": "全屏更新後沒了，明明日版都可以的",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "一個活動要打五六個小時還打不完 任務描述還是謎語人要一個關卡一個關卡翻看到底要打什麼 關卡內是什麼配置也不講 要帶全體寶具還是單體寶具要進關卡才知道不然就是去查攻略炒作業 我有那麼多時間我幹嘛花在一個",
+        "keywords": [
+          "活動"
+        ]
+      },
+      {
+        "text": "the game keeps crashing after the last update and cannot play at all.",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:37:49.956Z"
+}

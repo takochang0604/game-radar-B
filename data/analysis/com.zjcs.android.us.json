@@ -1,0 +1,89 @@
+{
+  "appId": "com.zjcs.android.us",
+  "name": "Sword x Staff",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Sword x Staff is a one-of-a-kind RPG — a “Third Way RPG.”\nStrategy, massive world exploration, idle—why pick one when you can have it all?\nGo hardcore, or just vibe—either way, you’ll find your own kind of fun here. The kind that actually feels different.\nNo pressure, no one way to play—just jump in, explore, and let the adventure click your way.\nCurious what the gameplay is really like?\nSo, welcome to the unique world of Kanstein, and experience the one-of-a-kind Third Way adventure. Here, you ",
+    "released": "May 13, 2026",
+    "updated": 1778675189000,
+    "version": "1.0.0",
+    "installs": "100,000+",
+    "score": 4.7,
+    "ratings": 9079,
+    "reviews": 548,
+    "developer": "BOLTRAY GAMES",
+    "genre": "Role Playing"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 24,
+      "2": 2,
+      "3": 5,
+      "4": 25,
+      "5": 144
+    },
+    "positiveRatio": 85,
+    "negativeRatio": 13,
+    "eventMentions": [
+      {
+        "text": "i played this game in closed beta and even then i knew it was something special. it's much more invo",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "great game unless you want to play it more than two days at a time. time gated so theres no reason t",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this feels more like an old rpg than some new styles of games, it's very comfy and i'm enjoying it w",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the best idle rpg i played! i love the character's customization, the skill upgrade system, the clas",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "it's very fun!! no adds at all either, which is very suprizing. charactor customization is pretty da",
+        "keywords": [
+          "limited"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 9 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 85%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:37:46.520Z"
+}

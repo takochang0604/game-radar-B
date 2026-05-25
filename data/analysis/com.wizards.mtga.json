@@ -1,0 +1,79 @@
+{
+  "appId": "com.wizards.mtga",
+  "name": "Magic: The Gathering Arena",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Welcome to the digital Multiverse! Magic: The Gathering is the original trading card game- and now you can download and start playing for free with your friends from anywhere!  \n\nMagic: The Gathering Arena empowers you to discover your strategy, meet the planeswalkers, explore the multiverse, and battle friends around the world. Collect, build and master your unique deck that will become its own legend. Your battle is only the beginning; duel on stunning battlefields, and enjoy Arena’s game chan",
+    "released": "Mar 17, 2021",
+    "updated": 1777069496000,
+    "version": "2026.58.20.6022",
+    "installs": "5,000,000+",
+    "score": 4.0787134,
+    "ratings": 284420,
+    "reviews": 29684,
+    "developer": "Wizards of the Coast LLC",
+    "developerWebsite": "https://magic.wizards.com/en/mtgarena-welcome",
+    "genre": "Card",
+    "recentChanges": "FACE YOUR GREATEST TEST YET<br><br>Will you master the elements in Prismari? Learn from the past in Lorehold? With five colleges to choose from, you’re sure to find your fit at Strixhaven. Prove your college is the best by stepping up and making the grade."
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 33,
+      "2": 7,
+      "3": 4,
+      "4": 0,
+      "5": 6
+    },
+    "positiveRatio": 12,
+    "negativeRatio": 80,
+    "eventMentions": [
+      {
+        "text": "i had a very detailed review but the letter counter so i had to shorten it this game has large updat",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i really enjoy this game but can you fix the color challenge once you get to the end? it says im sup",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "3rd post and update. last one was 2024 and now 2026. still garbage. people still wasting everyone el",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "update (may 2026): back one year later and still running into the same issues but not as consistentl",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "not sure if it's their servers or other issues with the app but i have never seen anything with such",
+        "keywords": [
+          "limited"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:28.177Z"
+}

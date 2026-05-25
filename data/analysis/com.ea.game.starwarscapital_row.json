@@ -1,0 +1,81 @@
+{
+  "appId": "com.ea.game.starwarscapital_row",
+  "name": "Star Wars™: Galaxy of Heroes",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nCollect, upgrade, and battle with iconic heroes from across Star Wars™ history, including Luke Skywalker, Ahsoka Tano, Darth Vader, Han Solo, Obi-Wan Kenobi, Yoda, The Mandalorian, and more. Experience a role-playing adventure that combines strategy, action RPG, and online multiplayer gameplay.\n\nEnter the Star Wars universe i",
+    "released": "Nov 9, 2015",
+    "updated": 1777312649000,
+    "version": "0.40.2002411",
+    "installs": "50,000,000+",
+    "score": 4.027782,
+    "ratings": 1797871,
+    "reviews": 175428,
+    "developer": "ELECTRONIC ARTS",
+    "developerWebsite": "https://www.ea.com/games/starwars/galaxy-of-heroes",
+    "genre": "Role Playing",
+    "recentChanges": "Hey Galaxy of Heroes fans! We have some big news regarding our Cantina Update! Here’s what you can expect to find in this update:<br> <br>-Visual &amp; Navigational Enhancement: Exciting changes to the cantina layout.<br>-Refactored Campaign: Updates to Light Side, Dark Side, Cantina, and Mod campaign mission content<br>-New Content: Additional rewards and 21 new battles across Light Side, Dark Side and Cantina<br>-Economy Changes: General updates to streamline progression and resource flow"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 25,
+      "2": 5,
+      "3": 5,
+      "4": 12,
+      "5": 53
+    },
+    "positiveRatio": 65,
+    "negativeRatio": 30,
+    "eventMentions": [
+      {
+        "text": "goated game been playing 2 years f2p, you might not get far at first but eventually you will have a ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "played this game since it first came out - after 10 years, the anniversary event was enough to end m",
+        "keywords": [
+          "event",
+          "anniversary",
+          "new"
+        ]
+      },
+      {
+        "text": "such a nice game but i can't describe how much i hate the mod system. it's just very rng based and o",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "recent ui update shows promise. i'm in need of graphic settings in the main menu. something to turn ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "stop milking this game and just shut it down already as you lose more players than actually gain the",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 14 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-12T11:42:58.779Z"
+}

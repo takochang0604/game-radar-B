@@ -1,0 +1,49 @@
+{
+  "appId": "com.igs.TMD",
+  "name": "滿貫大亨 - 快打旋風登場",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Experience the biggest win in your life on ManganDahen Casino!\n\nAll your favorite slot games are free to play. Enjoy an exciting variety of slot bonus rounds, from free spins to interactive bonuses. Aim for the big win when you play for the jackpot!\n\nA variety of high-quality slot games from Classic to the latest unique one give you ultimate fun you may have never experienced!\n\nDownload & Play SLOTS FREE, the best casino game where you can enjoy slots fun anytime anywhere!\n\n\n\n*The games are inte",
+    "released": "Jan 5, 2016",
+    "updated": 1776397789000,
+    "version": "1.1.243",
+    "installs": "1,000,000+",
+    "score": 4.4,
+    "ratings": 26702,
+    "reviews": 7447,
+    "developer": "SHIZI TECH LTD CO.",
+    "developerWebsite": "https://www.gametower.com.tw",
+    "genre": "Casino",
+    "recentChanges": "《雷霆之錘2》超級奧丁之怒，2000X球狂炸！"
+  },
+  "reviewAnalysis": {
+    "total": 56,
+    "starCounts": {
+      "1": 12,
+      "2": 2,
+      "3": 1,
+      "4": 1,
+      "5": 40
+    },
+    "positiveRatio": 73,
+    "negativeRatio": 25,
+    "eventMentions": [
+      {
+        "text": "new gamer here",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:40:44.003Z"
+}

@@ -1,0 +1,49 @@
+{
+  "appId": "6758817271",
+  "name": "鬼雄三國：主公有夠鬼",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "關羽一刀劈開時空裂縫，三國鬼雄跨界而來，從此人鬼共存，雙雄並世。\n想要成就什麼樣的三國，盡在你的一念之間。\n\n【雙形態鬼雄，人鬼一秒切換】\n體驗全新雙形態三國，做人做鬼你說了算！\n一鍵切換幻形狀態，同一隻武將，玩出兩種天花板。\n\n【號令全名將，三國英魂入麾下】\n武將全集結，專屬羈絆助主公如虎添翼。\n鬼殿等級互通，一將升級全員受益！\n\n【征盡天下稅，資源躺平領到爽】\n放置掛機，離線也可收割資源。\n通關越多，收益效率越高，躺平也可稱霸三國！\n\n【軍團齊集結，聯手問鼎天下】\n軍團集結，打造強力兵符；派兵遠征，捍衛軍團榮耀！\n參與跨服軍團戰，橫掃三國就在今朝！\n\n【最新資訊】\n想獲得《鬼雄三國：主公有夠鬼》最新消息，記得來官方社群獲取活動資訊！\n追蹤官方粉專：https://www.facebook.com/GXSGOfficial/\n加入官方Discord：https://discord.gg/EcwNrkSHP4\n\n=== 注意事項 === \n*本軟體因涉及暴力、打鬥，依遊戲軟體分級管理辦法分類為輔12級\n*遊戲內提供購買虛擬遊戲幣、物品等付費服務\n*請注意遊戲時間，避免沉迷\n※共和國科技",
+    "released": "2026-05-05T07:00:00Z",
+    "updated": "2026-05-20T08:54:47Z",
+    "version": "1.0.7",
+    "score": 4.8,
+    "reviews": 5704,
+    "developer": "MAX GAME PTE.LTD.",
+    "developerUrl": "https://apps.apple.com/tw/developer/max-game-pte-ltd/id1635935777?uo=4",
+    "genres": [
+      "遊戲",
+      "角色扮演"
+    ],
+    "releaseNotes": "「更新內容」\n1、新增耕耘獻禮主題節日活動\n2、內容優化\n- 部分寶物類型重新調整（如攻擊或防禦）對應寶物技能類型爲主\n- 首個幻獸上陣調整，從60級下調至55級\n- 幻獸家園升級要求下降\n- 元寶商城/VIP特權界面新增代金券說明（方便各位主公查看禮包檔位對應價格與VIP經驗）\n3、BUG修複\n- 官職戰令價格顯示異常問題\n- 快速征收次數顯示異常問題"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 15 天，評分 4.8",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:53:04.970Z"
+}

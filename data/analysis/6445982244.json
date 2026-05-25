@@ -1,0 +1,43 @@
+{
+  "appId": "6445982244",
+  "name": "X-hero",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Quyết định phê duyệt nội dung kịch bản trò chơi điện tử G1 trên mạng số: 641/QĐ-BT cấp ngày 14/4/2023 \nLink giấy phép: https://giayphep.abei.gov.vn/g1/130824 \n\nHãy cùng bạn bè của bạn tham gia vào trò chơi RPG tuyệt vời nhất ngay lập tức! Hãy triệu tập những anh hùng của bạn và dẫn dắt họ để chiến đấu với bóng tối trong tương lai. Bạn chọn anh hùng nào?\n\n· CỨU CON CHÓ\nDùng ngón tay chạm vào màn hình để vẽ một đường làm bức tường bảo vệ chú chó khỏi bị ong tấn công! Giữ trong 10 giây thì chiến th",
+    "released": "2023-08-15T07:00:00Z",
+    "updated": "2026-03-11T06:21:33Z",
+    "version": "1.0.74",
+    "score": 3.59786,
+    "reviews": 2340,
+    "developer": "Valar Technology Corp",
+    "developerUrl": "https://apps.apple.com/vn/developer/valar-technology-corp/id1438383758?uo=4",
+    "genres": [
+      "Games",
+      "Card"
+    ],
+    "releaseNotes": "bug fixes"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 47,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 2,
+    "negativeRatio": 98,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-04T20:35:59.612Z"
+}

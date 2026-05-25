@@ -1,0 +1,42 @@
+{
+  "appId": "com.fiogonia.drop",
+  "name": "Drop Escape: Color Puzzle",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Experience a truly challenging puzzle adventure with NO TIMER and absolutely NO PAY-TO-WIN. Drop Escape: Color Match Puzzle tests your strategy, precision, and decision-making at your own pace. No countdowns, no pressure boosts, no forced purchases—just fair, clever, skill-based puzzles where your brain does the winning.\n\nIf you enjoy color puzzles, sort puzzles, drop puzzle games, marble puzzles, match games, or logic and brain-training challenges, this unique drop-and-match mechanic will push ",
+    "released": "Dec 9, 2025",
+    "updated": 1773329771000,
+    "version": "1.0.5",
+    "installs": "1,000,000+",
+    "score": 4.401961,
+    "ratings": 19136,
+    "reviews": 203,
+    "developer": "FIOGONIA LIMITED",
+    "developerWebsite": "https://www.fiogonia.com",
+    "genre": "Puzzle",
+    "recentChanges": "We’ve made Drop Escape even better!<br><br>-Performance upgrades for smoother marble-dropping gameplay<br>-Minor bug fixes and colorful visual improvements<br>-Tuning to enhance puzzle flow and level balance<br>-Optimized for an even more relaxing, satisfying drop-and-match experience."
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 9,
+      "2": 1,
+      "3": 4,
+      "4": 2,
+      "5": 34
+    },
+    "positiveRatio": 72,
+    "negativeRatio": 20,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-04T20:35:43.439Z"
+}

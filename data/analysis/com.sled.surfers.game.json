@@ -1,0 +1,73 @@
+{
+  "appId": "com.sled.surfers.game",
+  "name": "Sled Surfers",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Dive into the ultimate winter adventure with Sled Surfers! Become a true snow rider as you slide through icy slopes, dodge obstacles, and race across a magical frost world filled with action. Glide on your sledge, surf the snow, and enjoy fast-paced challenges inspired by the fun, simple unpredictability.\nRace through snowy trails, master tight turns, and unlock cool winter gear as you explore frozen forests, icy cliffs, and slippery downhill tracks. Whether you're chasing the thrill of a snow r",
+    "released": "Apr 29, 2025",
+    "updated": 1776859730000,
+    "version": "1.9.5",
+    "installs": "5,000,000+",
+    "score": 4.4,
+    "ratings": 116948,
+    "reviews": 3144,
+    "developer": "CrazyLabs LTD",
+    "developerWebsite": "https://www.crazylabs.com",
+    "genre": "Arcade",
+    "recentChanges": "Smooth rides ahead!<br>We’ve cleared out pesky bugs and fine-tuned performance so your sledding runs feel faster, smoother, and more fun than ever.<br>Fewer hiccups, better controls, and a cleaner experience all around.<br>Update now and enjoy the ride downhill!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 53,
+      "2": 21,
+      "3": 17,
+      "4": 27,
+      "5": 82
+    },
+    "positiveRatio": 55,
+    "negativeRatio": 37,
+    "eventMentions": [
+      {
+        "text": "fun to play until you realize the sled builds don't carry to the next course and each 'new sled' is ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "they start repeating the levels on level 27. i'm on level 41 now and i'm just getting old maps and n",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i downloaded the game several months ago and paid for removing ads, also, i got level 65 and 145 dia",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i'm enjoying this game a lot. rebuilding slowly at the start of each level was a bit frustrating but",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "great game, but why does the \"triple it\" button not always appear? please produce new levels - altho",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:46:26.576Z"
+}

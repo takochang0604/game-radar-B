@@ -1,0 +1,41 @@
+{
+  "appId": "com.magic.dancing.tiles.game.piano",
+  "name": "Magic Dancing Tiles",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "TAP TAP PIANO MUSIC GAME \nAre you looking for a new piano music game? Want to play piano tiles offline and for the gameplay to be vibrant, fun, and full of challenges?\n\nTry our Magic Dancing Tiles Piano Pink Music, a new ultra-fun tap piano tiles game that's packed with melody and rhythm! \n\nImmerse yourself in the magic world of music with this captivating tiles hop and tap game.\n\n🎵 TAP PIANO TILES GAME FULL OF MELODY AND RHYTHM:  \nGet ready to tap your way to musical greatness in this enchanti",
+    "released": "Oct 30, 2023",
+    "updated": 1776429318000,
+    "version": "0.5.57",
+    "installs": "10,000,000+",
+    "score": 4.14,
+    "ratings": 38933,
+    "reviews": 75,
+    "developer": "PHY STUDIO",
+    "developerWebsite": "https://www.phydoes.com",
+    "genre": "Music"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 15,
+      "2": 2,
+      "3": 1,
+      "4": 5,
+      "5": 27
+    },
+    "positiveRatio": 64,
+    "negativeRatio": 34,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:11.974Z"
+}

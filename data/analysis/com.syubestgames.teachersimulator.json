@@ -1,0 +1,49 @@
+{
+  "appId": "com.syubestgames.teachersimulator",
+  "name": "Teacher Simulator: Exam Time",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Ready to step into the classroom and rule your school? \n\nIn this exciting teacher game, YOU are the star of the show! \n\nGet ready to catch sneaky cheaters, break up fights, handle the pop quiz, and get your students through each tricky test, all while you try to keep your cool under pressure. \n\nIt’s time to see if you’ve got what it takes to be a teacher, or the one evil teacher that everyone dreads!\n\nTake charge of your class, from marking papers to crafting lessons that actually make learning ",
+    "released": "Nov 6, 2020",
+    "updated": 1779077650000,
+    "version": "2.4.1",
+    "installs": "100,000,000+",
+    "score": 4.5,
+    "ratings": 795399,
+    "reviews": 10469,
+    "developer": "Kwalee Ltd",
+    "developerWebsite": "https://www.kwalee.com/",
+    "genre": "Simulation",
+    "recentChanges": "Ready to level up your job as a teacher?<br>Enjoy a fresh new look! Every classroom feels brighter, actions more satisfying and your teaching journey is smoother than ever. <br>So jump back in and check out the upgrades!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 54,
+      "2": 12,
+      "3": 21,
+      "4": 24,
+      "5": 89
+    },
+    "positiveRatio": 56,
+    "negativeRatio": 33,
+    "eventMentions": [
+      {
+        "text": "so good game iam in 5th grade and this game slay and teaches so e thing new alot and the characters ",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:01.260Z"
+}

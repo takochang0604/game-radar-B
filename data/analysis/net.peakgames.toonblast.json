@@ -1,0 +1,67 @@
+{
+  "appId": "net.peakgames.toonblast",
+  "name": "トゥーンブラスト (Toon Blast)",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "『Toy Blast』のクリエイターが贈る、ユニークなゲームプレイがいつまでも楽しめる究極パズルゲーム！\n\nネコのCooper、オオカミのWally、クマのBrunoが大活躍するクレイジーなカートゥーンワールドに飛びこんで、たくさんのヘンテコで手強いレベルに挑戦！キューブを爆破し、強力なコンボを作ってレベルをクリアしよう。パズルを解いて魔法の世界を旅するトゥーンギャングを手伝ってあげよう！\n\n人生で最もワイルドな冒険に参加して（文字通り）爆発的な楽しさを体験！\n\nゲームの特徴：\n\n● たくさんの手強いレベルをクリアして新しいエピソードをアンロック！\n● ユニークな目的を達成し、様々な面白い障害物に挑もう！\n● へんてこなブースターをアンロックして次のレベルへの道を爆破で切り拓け！\n● スターを集めてレベルをクリアしてすごい報酬をゲット！\n● 自分自身のチームを結成して他のチームと競い、パズルワールドの頂点を目指そう！\n● チームメイトからライフを受け取ってプレイし続けよう！\n● 携帯電話とタブレット間で簡単にゲームの同期が可能！\n● 誰でも簡単に楽しくプレイ可能、でもマスターするのは難",
+    "released": "Aug 25, 2017",
+    "updated": 1776860865000,
+    "version": "22315",
+    "installs": "100,000,000+",
+    "score": 4.1105866,
+    "ratings": 4569858,
+    "reviews": 48448,
+    "developer": "Peak",
+    "developerWebsite": "https://peak.com/support/toonblast",
+    "genre": "Puzzle",
+    "recentChanges": "PLAY 50 NEW LEVELS!<br>Toon Blast introduces the Missing Piece episode with 50 new levels!<br>Be sure to update to the current version of Toon Blast for the newest content.<br>Come and join the fun!"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 20,
+      "2": 4,
+      "3": 4,
+      "4": 9,
+      "5": 63
+    },
+    "positiveRatio": 72,
+    "negativeRatio": 24,
+    "eventMentions": [
+      {
+        "text": "allow the game to stay updated after weekend tournaments! i would like the 300 coins that i am due f",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "love this game, been playing since it started. like it so much i started over with new phone instead",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "problem solved, will never buy google play card again in this lifetime. update, made mistake and bou",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i’ve played this game for years, but the new card collection is frustrating. i’ve spent hours collec",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:02:15.719Z"
+}

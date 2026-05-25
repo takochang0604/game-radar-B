@@ -1,0 +1,81 @@
+{
+  "appId": "sheep.animal.parking.puzzle.game.jam",
+  "name": "Sheep Dash: Sheep Away",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Sheep Dash: Sheep Away – Sequential Logic & Cartoon game Brainteaser\nSolve the intensive logic puzzle in Sheep Dash: Sheep Away, a farm puzzle that challenges cute games enthusiasts. This puzzle farm requires deductive reasoning as every jam animal acts as a variable in a dense animal jam bottleneck. This farm jam animal cartoon game requires a precise farm parking games  solution. To solve the jam game, you must calculate the animal jam exit sequence for jam animal within these cute games.\nThe ",
+    "released": "Dec 10, 2025",
+    "updated": 1779443974000,
+    "version": "3.2",
+    "installs": "5,000,000+",
+    "score": 4.9,
+    "ratings": 73241,
+    "reviews": 138,
+    "developer": "Snap Brain Games",
+    "developerWebsite": "https://winlonpte.com/",
+    "genre": "Puzzle",
+    "recentChanges": "New levels"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 39,
+      "2": 9,
+      "3": 16,
+      "4": 13,
+      "5": 123
+    },
+    "positiveRatio": 68,
+    "negativeRatio": 24,
+    "eventMentions": [
+      {
+        "text": "love this game but; will you please do something about the temu ads? i end up having to close the ga",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "its simple fun and calming i love the game sounds if the sheep. especial when they bumo into each ot",
+        "keywords": [
+          "event",
+          "update",
+          "season"
+        ]
+      },
+      {
+        "text": "​i enjoy the game, but it's becoming very repetitive. i'm at level 578 and there's no new challenge.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game is really good, accept for two or three levels where they were impossible to win without a ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i love this game im on level 1026. however since being on this level they are now seem to be just re",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:39:12.548Z"
+}

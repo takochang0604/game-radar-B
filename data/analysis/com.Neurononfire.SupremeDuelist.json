@@ -1,0 +1,86 @@
+{
+  "appId": "com.Neurononfire.SupremeDuelist",
+  "name": "Supreme Duelist",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Discover the Thrill of \"Supreme Duelist\" — The Ultimate Stickman and Stick Figure Battle!\n\nGet ready for a fast-paced, hilarious, and easy-to-play stickman fighting game! It's the perfect blend of fun and challenge, packed with unique features:\n\nNew Modes: Enjoy a football mini-game and a challenging Boss Fight Tournament, all starring dynamic stickman and stick figure warriors.\n\nCreative Play: Explore various maps with a new editor, unlock cool skins, and create your ultimate stickman or stick ",
+    "released": "Jul 16, 2018",
+    "updated": 1778267252000,
+    "version": "4.0.5",
+    "installs": "100,000,000+",
+    "score": 4.5,
+    "ratings": 1998865,
+    "reviews": 29140,
+    "developer": "Neron's Brother",
+    "developerWebsite": "https://neronsbrother.com",
+    "genre": "Action",
+    "recentChanges": "New Basketball Weapon<br>New option for the basketball mini-game to play without weapons"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 4,
+      "2": 4,
+      "3": 6,
+      "4": 13,
+      "5": 173
+    },
+    "positiveRatio": 93,
+    "negativeRatio": 4,
+    "eventMentions": [
+      {
+        "text": "its ok i guess but please polish up survival if u could add a new weapon add the grapples and swords",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "best stick man figure fighting game ever i play this since i was a child keep going updates brr",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "hello.nerons brother.i'm here to say.that ur game is so good. and the latest update was nice.btw:can",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i didn't played this game for like 1 year, but after redownloading it and playing it with my cousins",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "inf star 'new strong weapon pls neron brother pls pls pls pls pls pls pls pls pls pls pls pls pls pl",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 93%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:50:07.720Z"
+}

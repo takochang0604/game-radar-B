@@ -1,0 +1,62 @@
+{
+  "appId": "com.netease.idv_tw.googleplay",
+  "name": "第五人格",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "【Game Introduction】 Identity V is NetEase's first asymmetrical competitive mobile game. Its grotesque gothic art style, suspenseful and brain-teasing storyline, and thrilling 1v4 asymmetrical gameplay will bring players a brand new gaming experience. Players will become detective Orpheus, who, after receiving a mysterious letter of commission, enters the infamous manor to investigate a missing person case. During the evidence investigation, Orpheus will use deductive reasoning to review the case",
+    "released": "Jul 10, 2018",
+    "updated": 1774365626000,
+    "version": "2026.0324.1458",
+    "installs": "1,000,000+",
+    "score": 3.2725825,
+    "ratings": 102352,
+    "reviews": 49355,
+    "developer": "LongE Play",
+    "developerWebsite": "https://www.identityvgame.com/tw/",
+    "genre": "Role Playing",
+    "recentChanges": "——修復了部分兼容性問題；"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 21,
+      "2": 3,
+      "3": 3,
+      "4": 4,
+      "5": 19
+    },
+    "positiveRatio": 46,
+    "negativeRatio": 48,
+    "eventMentions": [
+      {
+        "text": "this is an amazing but underrated game. (2.9 at the time). here's my viewpoint on some issues people",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "兩三年沒玩，重新登陸後發現帳號被收回了，一登陸直接從頭開始。登陸前確定自己綁定的gmail帳號是正確的，但是過去充錢買的皮膚啥的完全憑空消失，奉勸各位玩家，想玩可以，別充錢！別充錢！別充錢！否則哪天帳",
+        "keywords": [
+          "新"
+        ]
+      },
+      {
+        "text": "nostalgic. loved the anniversary stories and side events.",
+        "keywords": [
+          "event",
+          "anniversary"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:08:30.661Z"
+}

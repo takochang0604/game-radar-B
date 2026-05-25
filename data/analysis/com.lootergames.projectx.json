@@ -1,0 +1,78 @@
+{
+  "appId": "com.lootergames.projectx",
+  "name": "Titanite: Mecha Survival Game",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Join the ranks of Pioneers in a world devastated by AI's evolution into ravenous mechanical beasts. A relentless nano-virus has decimated humanity, drained resources, and triggered a global war against mankind’s own creations. After the failure of the “Pioneer Plan,” you must enter the infected zone, build temporary shelters, scavenge vital supplies, and execute a swift, strategic evacuation. Titanite delivers an immersive, high-stakes experience: master powerful Mechas, face AI adversaries, and",
+    "released": "Aug 14, 2024",
+    "updated": 1779432397000,
+    "version": "1.4.120",
+    "installs": "100,000+",
+    "score": 3.5,
+    "ratings": 1563,
+    "reviews": 207,
+    "developer": "LOOTER GAMES",
+    "genre": "Action",
+    "recentChanges": "Performance enhancement, improved issues causing crashes and lags."
+  },
+  "reviewAnalysis": {
+    "total": 159,
+    "starCounts": {
+      "1": 56,
+      "2": 13,
+      "3": 18,
+      "4": 15,
+      "5": 57
+    },
+    "positiveRatio": 45,
+    "negativeRatio": 43,
+    "eventMentions": [
+      {
+        "text": "best new game",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "256gb room or 512gb android update",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "can't play, it's ask to update to latest version, when i press the update button..guess what?? the i",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "update terbaik.....saya suka.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "do you guys have any other update it say i need to update the game i installed it on playstore and n",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:13.820Z"
+}

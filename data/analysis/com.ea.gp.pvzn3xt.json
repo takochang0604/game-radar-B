@@ -1,0 +1,70 @@
+{
+  "appId": "com.ea.gp.pvzn3xt",
+  "name": "Plants vs. Zombies™ 3: Evolved",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nWhether you love strategy games, fast-paced tower defense, or chaotic action, Plants vs. Zombies™ 3: Evolved delivers a fresh spin on defending against every zombie attack. Step into Neighborville today to grow, merge and experiment with new tactics as you help shape a wild, taco-fueled tower defense against Dr. Zomboss’ late",
+    "released": "Jan 12, 2024",
+    "updated": 1775574756000,
+    "version": "28.0.21",
+    "installs": "1,000,000+",
+    "developer": "ELECTRONIC ARTS",
+    "developerWebsite": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-3",
+    "genre": "Strategy",
+    "recentChanges": "WHAT’S NEW<br><br>Merge: Use meteorite power to merge 55+ unique plants (very scientific!)<br>Adventures: Help Dave and the plants confront Dr. Zomboss in 100 story levels!<br>Lawn Patrol: Explore new plants and zombies!<br>Expeditions: Play really hard battles, for funnzies!<br>My Yard: Collect weird objects to display in your yard for decreased curb appeal!<br>Zen Garden: Nurture your plant buddies… then mulch them into seeds for upgrades? (You monster!)<br>Odd Jobs: Play Dave’s mini-games to power up your… garden?"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 41,
+      "2": 8,
+      "3": 10,
+      "4": 12,
+      "5": 29
+    },
+    "positiveRatio": 41,
+    "negativeRatio": 49,
+    "eventMentions": [
+      {
+        "text": "earning tier ii let alone tier iii plants takes an unbelievably long time with no idication as to wh",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "takes days of boring grinding to get 1 upgraded plant. would cost nearly €50 to unlock the 3rd upgra",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "good game, but needs polishing with more plants, harder gameplay (why did you reduce the hp of coneh",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the plant mini games are so boring, who play tested these and thought you know what pvz needs. a bor",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game is looking really beautiful. the new animations and plants merging mechanic are fun. the lo",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:24:16.565Z"
+}

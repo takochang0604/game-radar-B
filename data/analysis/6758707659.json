@@ -1,0 +1,50 @@
+{
+  "appId": "6758707659",
+  "name": "문파존망겜",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "망해가는 문파, 마지막 희망은 ‘나’?!\n어느 날 갑자기 무림에 떨어진 당신.\n눈을 떠보니… 문파는 이미 붕괴 직전?!\n문주는 사라지고, 제자는 없고,\n남은 건 오직 나 하나.\n이제 당신의 선택과 성장에\n문파의 운명이 달려 있다!\n\n▣게임 소개▣\n▶ 기상천외 병맛 무공, 조합할수록 강해진다!\n월루검법, 오빠강남스킬… 이름부터 수상한 무학 총출동!\n웃기지만 은근히 강력하다 — 조합할수록 발동하는 기묘한 시너지!\n▶ 예측 불가! 웃음 가득 무림 라이프\n정통 무림은 잠시 내려놓자!\n선택 하나에 전개가 달라지는 유쾌한 스토리!\n황당하지만 계속 빠져드는 무림 생활!\n▶ 부담 없이 즐기는 무한 뽑기!\n접속만 해도 쌓이는 보상!\n가볍게 시작해도 꾸준히 강해진다!\n▶ 개성 넘치는 캐릭터 총집합\n전설, 패러디, 상상력까지 한자리에!\n익숙하면서도 새로운 매력의 동료들!\n다양한 조합으로 전투의 재미를 더하라!\n▶ 문파 재건 & 전략 성장\n무너진 문파를 다시 일으켜라!\n제자 육성, 무력 성장, 문파 확장",
+    "released": "2026-05-11T07:00:00Z",
+    "updated": "2026-05-12T00:47:15Z",
+    "version": "1.0.3",
+    "score": 4.4,
+    "reviews": 599,
+    "developer": "avatargame",
+    "developerUrl": "https://apps.apple.com/kr/developer/avatargame/id1832672210?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉",
+      "어드벤처"
+    ],
+    "releaseNotes": "인게임 최적화 패치"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 5 天，評分 4.4",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:03:10.756Z"
+}

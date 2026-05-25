@@ -1,0 +1,44 @@
+{
+  "appId": "1596859213",
+  "name": "Top War: Battle Game - Funtap",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Đội Quân Hắc Ám ập đến! Bạo quân thống trị thế giới \n\nChiến hoả liên miên, người dân lầm than, ai sẽ giải cứu thế giới đây? \nGia nhập Liên Minh Tự Do dũng cảm đương đầu, trở thành Chỉ huy mạnh nhất! \n\n◆Ghép Để Nâng Cấp◆ \nDù là kiến trúc hay đơn vị lính, cứ Ghép là Nâng! Tiết kiệm vô số thời gian so với phương thức nâng cấp trước đây, tận hưởng niềm vui sướng khi sở hữu chiến lực mạnh mẽ trong nháy mắt! \n\n◆Tướng Huyền Thoại◆ \nTrở thành thống lĩnh ba quân, chiêu mộ Tướng huyền thoại. TƯớng Hải, Lụ",
+    "released": "2021-12-19T08:00:00Z",
+    "updated": "2026-04-30T02:10:46Z",
+    "version": "1.650.0",
+    "score": 4.65022,
+    "reviews": 8008,
+    "developer": "Valar Technology Corp",
+    "developerUrl": "https://apps.apple.com/vn/developer/valar-technology-corp/id1438383758?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing",
+      "Strategy"
+    ],
+    "releaseNotes": "Thông báo phiên bản\n[Ưu hoá và sửa Bug]"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 28,
+      "2": 1,
+      "3": 3,
+      "4": 1,
+      "5": 16
+    },
+    "positiveRatio": 35,
+    "negativeRatio": 59,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:37:07.451Z"
+}

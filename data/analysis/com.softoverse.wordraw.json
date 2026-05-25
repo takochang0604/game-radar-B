@@ -1,0 +1,79 @@
+{
+  "appId": "com.softoverse.wordraw",
+  "name": "Wordraw",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Wordraw is an engaging word puzzle game where you sharpen your vocabulary and spelling skills through clever crossword challenges.\nStart each level with a few given letters as clues. Test your mind by forming new words and strategically connecting them to complete the grid. As you progress, puzzles grow more complex, offering fresh challenges that reward creative thinking and word knowledge.\nPerfect for word game fans who enjoy logical gameplay, expanding their vocabulary, and solving satisfying",
+    "released": "May 17, 2026",
+    "updated": 1779269061000,
+    "version": "1.0.2",
+    "installs": "50,000+",
+    "score": 4.6,
+    "ratings": 9643,
+    "reviews": 518,
+    "developer": "SoftoVerse",
+    "developerWebsite": "http://www.wwwsoft-overse.com",
+    "genre": "Word",
+    "recentChanges": "1. Fixed an issue where the information popup would not appear in certain cases.<br>2. Fixed other known issues."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 14,
+      "2": 13,
+      "3": 21,
+      "4": 17,
+      "5": 135
+    },
+    "positiveRatio": 76,
+    "negativeRatio": 14,
+    "eventMentions": [
+      {
+        "text": "i'm still new here",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "nakakawalang gana na maglaro dahil sa update hindi na nagbibigay",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "just updated saying they increased the points in ads and lessen points in invites . but how? that me",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "legit new release earnings apps",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 5 天，評分 4.6",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:38:47.427Z"
+}

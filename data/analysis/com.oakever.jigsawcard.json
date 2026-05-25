@@ -1,0 +1,67 @@
+{
+  "appId": "com.oakever.jigsawcard",
+  "name": "Jigsawcard Solitaire Puzzle",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Jigsawcard – The HD Jigsaw Puzzle & Solitaire Card Game\nExperience an exciting new way to enjoy jigsaw puzzles! In Jigsawcard, you’ll flip, slide, match, and snap puzzle cards to reveal breathtaking HD images. The game seamlessly blends classic jigsaw satisfaction with smooth solitaire card-sliding mechanics and mysterious face-down cards that await your revealing flip, creating a relaxing yet addictive, surprising, and truly memory‑challenging adventure.\nHow to Play\n- Slide cards into place wit",
+    "released": "Nov 14, 2025",
+    "updated": 1779284986000,
+    "version": "1.5.3",
+    "installs": "5,000,000+",
+    "score": 4.7,
+    "ratings": 249912,
+    "reviews": 2451,
+    "developer": "Oakever Games",
+    "developerWebsite": "https://oakevergames.com/",
+    "genre": "Puzzle",
+    "recentChanges": "Jigsawcard Solitaire Puzzle is a welcomed and addictive Jigsaw Puzzle &amp; Solitaire Card game on Google Play Store. You can download it for your android phone and tablet, have fun."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 15,
+      "2": 11,
+      "3": 20,
+      "4": 21,
+      "5": 133
+    },
+    "positiveRatio": 77,
+    "negativeRatio": 13,
+    "eventMentions": [
+      {
+        "text": "update 5-17-26 the game suddenly stopped loading got through about 3 months of the daily and other p",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i absolutely love this game, however, for the past few tournaments the only ad is for subpilot. it's",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "new puzzle concept",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:39:44.241Z"
+}

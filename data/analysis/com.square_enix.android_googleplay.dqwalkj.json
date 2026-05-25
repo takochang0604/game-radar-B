@@ -1,0 +1,82 @@
+{
+  "appId": "com.square_enix.android_googleplay.dqwalkj",
+  "name": "ドラゴンクエストウォーク",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Dragon Quest Walk, a role-playing location-based game app that you can enjoy while walking!\nEnjoy an adventure with your friends in the world of Dragon Quest RPG while traveling in the real world!\n\n[You can explore the world of Dragon Quest! Manage your health while enjoying RPG! ]\n\nWhen you move by walking in the real world, your character will also move accordingly.\nEveryday transportation becomes an adventure!\n\nThe life log function ``Arukunsu W'' records the results of your walking and allow",
+    "released": "Sep 10, 2019",
+    "updated": 1779170508000,
+    "version": "7.18.0",
+    "installs": "1,000,000+",
+    "score": 3.5,
+    "ratings": 77047,
+    "reviews": 29768,
+    "developer": "SQUARE ENIX Co.,Ltd.",
+    "developerWebsite": "https://walk.dragonquest.jp/web/contact/",
+    "genre": "Role Playing",
+    "recentChanges": "・一部不具合の修正<br>・その他ゲーム内調整"
+  },
+  "reviewAnalysis": {
+    "total": 102,
+    "starCounts": {
+      "1": 23,
+      "2": 5,
+      "3": 10,
+      "4": 6,
+      "5": 58
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 27,
+    "eventMentions": [
+      {
+        "text": "4月になったので、月に1枚しか交換できないメタルキングコインを交換しに行ったら、winコインが0に？？？調べてみるとカジノシーズンが変わった際に「いにしえのコイン」に変わるらしい… といってもいにしえ",
+        "keywords": [
+          "シーズン"
+        ]
+      },
+      {
+        "text": "this is by far, the best of any walking type game. i feel like it's a deep rpg and once you get to l",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "ドラクエの位置ゲーという、素材は非常に良いのにコロプラが調理することにより、廃課金者が出るほどのガチャゲーに化けました。 更にアップデートを重ねるたびに年々余計な機能が追加され糞ゲーっぷりが加速する始",
+        "keywords": [
+          "新",
+          "アップデート"
+        ]
+      },
+      {
+        "text": "extremely buggy. since they released a new kind of mega monster were up to 30 people can join, the a",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "金も頭も時間も使いたくない、面倒なことはしたくない、望みのものが出なけりゃ面白くない、おまけに更新の度に不満にしか目が行かない。 イベントの度に全部取れなきゃクソゲー認定。じゃあもうやめっちまえよゲー",
+        "keywords": [
+          "イベント",
+          "新",
+          "更新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-21T11:41:25.554Z"
+}

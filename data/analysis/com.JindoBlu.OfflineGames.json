@@ -1,0 +1,79 @@
+{
+  "appId": "com.JindoBlu.OfflineGames",
+  "name": "Offline Games - No Wifi Games",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Get ready for 'Offline Games': fun for all ages, and a mental workout too! This offline game collection is like an overflowing toy box packed with more than 20 unique minigames. It's designed for classic game enthusiasts, puzzle lovers, and challenge seekers. And the best part? You don't need an internet connection to enjoy it!\n\nOur array of Number Games like 2048 and 2248 will get your neurons firing. Engage in these numeric challenges and strive to hit the highest scores. They're perfect for k",
+    "released": "Aug 4, 2023",
+    "updated": 1777417472000,
+    "version": "3.11.2",
+    "installs": "100,000,000+",
+    "score": 4.6170583,
+    "ratings": 445249,
+    "reviews": 13436,
+    "developer": "JindoBlu",
+    "developerWebsite": "https://www.jindoblu.com",
+    "genre": "Casual",
+    "recentChanges": "• Bug fixes and improvements<br>"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 6,
+      "2": 6,
+      "3": 1,
+      "4": 11,
+      "5": 76
+    },
+    "positiveRatio": 87,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "started off great, really fun games. after a while it started with ads. every single time i did anyt",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i've always tried my best for the extra hard and it helps my mind to make a new technique",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "very nice, it has lots of games and sometimes they add new ones",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "excellent! lots of fun for hours and hours, and plenty of all of your favorite games! the ads are so",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 87%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:35:00.192Z"
+}

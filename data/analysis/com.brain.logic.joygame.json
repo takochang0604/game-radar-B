@@ -1,0 +1,79 @@
+{
+  "appId": "com.brain.logic.joygame",
+  "name": "Brain Puzzle 2: Logic Twist",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "This time, we’re continuing the humorous storytelling and brain-teasing design of the first game, bringing you an even richer and more surprising puzzle-solving experience.\n\nIn this brand-new sequel, you'll follow quirky plot lines and make clever use of clues and interactive elements to crack a series of bizarre yet cleverly constructed levels.\n\nEach scene is packed with carefully designed puzzles, unconventional logic, and unexpected twists—making you think outside the box and enjoy a perfect ",
+    "released": "May 21, 2025",
+    "updated": 1777457060000,
+    "version": "1.2.5",
+    "installs": "10,000,000+",
+    "score": 4.6039605,
+    "ratings": 74184,
+    "reviews": 50,
+    "developer": "JoyGame Studio",
+    "developerWebsite": "http://www.ezekielflores.com",
+    "genre": "Puzzle",
+    "recentChanges": "• Fixed some bugs"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 49,
+      "2": 5,
+      "3": 5,
+      "4": 14,
+      "5": 27
+    },
+    "positiveRatio": 41,
+    "negativeRatio": 54,
+    "eventMentions": [
+      {
+        "text": "i love this better than the first one because it has more story-type puzzles and most are easy to so",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "why don't i have the ones in youtube..??? please give some update i just wanna try it like the youtu",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "takes too long for them to update with more, uninstalling",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this game is great and fun! but the problem is there is to many adds. please do an update so there i",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "it was just 23 episodes then i updated and it became 22",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:23:42.402Z"
+}

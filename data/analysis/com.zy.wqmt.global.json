@@ -1,0 +1,80 @@
+{
+  "appId": "com.zy.wqmt.global",
+  "name": "Path to Nowhere",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "〓A light snow graces the shallow waters;\nAmidst deepening storms, the plum flowers.〓\n3.5th Anniversary Limited-Time Event [Silent Snow, Hidden Plum] Now Live!\n\nPath to Nowhere is a SRPG featured by Real-time Tower Defense gameplay. \n  \n[In the year N.F.112, you are appointed to be the Chief of MBCC]\n \nWelcome to Minos Bureau of Crisis Control. As the Chief, you are obligated to Shackle and Control the most vicious outlaws—Sinners, to Protect the city from falling. Hold on to the light in the dar",
+    "released": "Oct 21, 2022",
+    "updated": 1770147956000,
+    "version": "1.8.1.0",
+    "installs": "1,000,000+",
+    "score": 4.4,
+    "ratings": 115841,
+    "reviews": 1130,
+    "developer": "AISNO Games",
+    "developerWebsite": "https://ptn.aisnogames.com/en-EN/home",
+    "genre": "Role Playing",
+    "recentChanges": "Bug fixes"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 18,
+      "2": 7,
+      "3": 11,
+      "4": 25,
+      "5": 139
+    },
+    "positiveRatio": 82,
+    "negativeRatio": 13,
+    "eventMentions": [
+      {
+        "text": "gotta say, with games these days, there are few new ones that show promise but path to nowhere has d",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "stay away from this game because it's the most rigged gacha i have ever seen. over 100k summon curre",
+        "keywords": [
+          "limited",
+          "new"
+        ]
+      },
+      {
+        "text": "open parma ruins every day, devs! the game is very good. love the art, the music, voice actors did a",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "cant touch anything after update",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "been playing since global release, best gacha game i have ever played to this day still, however i q",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 82%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:45:00.305Z"
+}

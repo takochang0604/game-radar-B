@@ -1,0 +1,44 @@
+{
+  "appId": "6747875092",
+  "name": "Yarn Fever! Unravel Puzzle",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Yarn Fever! Unravel Puzzle is a colorful and addictive puzzle game where ASMR relaxing meets creativity. In this game, you’ll immerse yourself in sorting vibrant threads, all while testing your logic and organizational skills.\n\nGAMEPLAY OVERVIEW:\nYou’ll need to collect colorful threads from various knitted objects and place them into matching colored boxes. Think carefully before placing your threads into temporary slots, and use your strategic mind to avoid filling up the available space. As yo",
+    "released": "2025-07-02T07:00:00Z",
+    "updated": "2026-05-15T12:45:38Z",
+    "version": "9.9",
+    "score": 4.6,
+    "reviews": 86559,
+    "developer": "Brave HK Limited",
+    "developerUrl": "https://apps.apple.com/us/developer/brave-hk-limited/id1833825255?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Puzzle"
+    ],
+    "releaseNotes": "- Hot fixes!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-18T11:38:19.676Z"
+}

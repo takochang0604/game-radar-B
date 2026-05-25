@@ -1,0 +1,81 @@
+{
+  "appId": "com.cocoplay.fashion.style",
+  "name": "Super Stylist Fashion Makeover",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "There's a new fashion super stylist glow in town! In this fashion makeover Hollywood story game, tailor stunning outfits and ensure your makeup and fashion styling are always on point. \nBe seen in Hollywood and glow! Dress to impress at fancy events, win every fashion battle, and take stylish pics for Stylegram. Show off your tailor-made fashion styling, dress up, and makeup skills in one of the best fashion games!\n\nYou've just realized that you could turn your mad shopping and makeup skills int",
+    "released": "May 1, 2019",
+    "updated": 1778709910000,
+    "version": "3.8.05",
+    "installs": "100,000,000+",
+    "score": 4.1,
+    "ratings": 1064438,
+    "reviews": 1641,
+    "developer": "CrazyLabs LTD",
+    "developerWebsite": "https://www.crazylabs.com",
+    "genre": "Role Playing",
+    "recentChanges": "Hey Stylists!<br>Get ready for a fresh wave of glam <br><br>Discover new Necklace &amp; Lipstick Collections, spread your style with Fantasy Wings! <br><br>Bloom in the Spring Event, don’t forget to shine in the Zodiac Event – Taurus! <br><br>Rule the runway at Fashion Week, and spin the Double Wheel!<br>Plus, enjoy 20 new levels to conquer.<br><br>Update now and let your style shine!<br>Love the game? Leave a review"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 41,
+      "2": 14,
+      "3": 20,
+      "4": 28,
+      "5": 97
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 28,
+    "eventMentions": [
+      {
+        "text": "i love this game! a ton of variety of styles, outfits, and accessories! there are a lot of ads, but ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "🕹 i absolutely ♡ this app! it's fun & challenging! i give it ☆☆☆☆☆'s & 2 👍🏻! i highly🔝 recommend",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i was trying to update but it's not working help",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "was playing this game for years then j got a new phone and get get my old progress back. pretty disa",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "love this game love to create these new styles and dressing up people it's fun plus your energy last",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-17T15:04:11.806Z"
+}

@@ -1,0 +1,67 @@
+{
+  "appId": "jp.co.goodroid.hyper.busflow",
+  "name": "Bus Rush Fever!",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Do you love solving challenging yet satisfying puzzles?\nStep into the world of Bus Rush Fever!\n\nBus Rush Fever! combines the excitement of parking games, the challenge of color-sorting games, and the satisfying people. Plan your moves to clear the parking lot congestion and make way for smooth traffic.\n\nMove, park, and collect—every decision matters in this parking jam puzzle.\n\nWhether you love car parking games, color-sorting games, or just brain teasers, this addictive puzzle game will keep yo",
+    "released": "Mar 17, 2026",
+    "updated": 1777632775000,
+    "version": "1.4.0",
+    "installs": "1,000,000+",
+    "score": 4.6,
+    "ratings": 10155,
+    "reviews": 16,
+    "developer": "GOODROID,Inc.",
+    "developerWebsite": "https://goodroid.co.jp/",
+    "genre": "Puzzle",
+    "recentChanges": "Bug Fix"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 85,
+      "2": 33,
+      "3": 22,
+      "4": 17,
+      "5": 43
+    },
+    "positiveRatio": 30,
+    "negativeRatio": 59,
+    "eventMentions": [
+      {
+        "text": "fun game. just challenging enough to be interesting but not so hard it gets frustrating. eventually ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "the app has been freezing mid game and i would have to force stop and start the game over. update 5/",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i'm obsessed with this game but they repeat the same puzzles over and over. i'm in the level 400's a",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "great game, but now the app doesn't open anymore after i reached high levels. it keeps giving me an ",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:39:07.793Z"
+}

@@ -1,0 +1,44 @@
+{
+  "appId": "6740756173",
+  "name": "鹅鸭杀",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "好戏上演 公测启程！\n《鹅鸭杀手游》现已正式上线！游戏由《Goose Goose Duck》官方正版授权。完整复刻经典阵营对抗玩法，地图与角色均原滋原味呈现。此外，我们新增了全新角色、开放主城及多样娱乐玩法。在确保易于上手的同时，延续了鹅鸭杀特有的推理与趣味互动的双线体验，致力于为玩家打造笑声不断、氛围沉浸的精彩对局。\n\n【经典重回归，推理整活两不误】\n游戏完整复刻了端游核心机制，支持8-15人实时语音身份推理，保留鹅、鸭、中立三大阵营。警长、刺客、鹈鹕等人气角色悉数回归，经典地图如“老妈鹅飞船”“地下室”等也获得了原滋原味的重现。让每一局对战都如同一场现场剧本杀，充满了高能反转与悬念。\n\n\n【新角色登场，多变对局更刺激】\n本次公测我们还带来了两位全新角色：巫医和布谷鸟。其中，巫医是来自鸭阵营的全新角色，而布谷鸟则是一位中立角色，希望这两位新伙伴可以给玩家们的对局带来更多的变化和新鲜感。\n\n\n【火鸟节开幕，主城互动藏惊喜】\n火鸟节现已正式开幕，主城场景迎来全面焕新。火把、热气球、火鸟雕塑等主题装饰已经上线，期望大家在全新的主城中一同享受庆典的氛围。玩家可以自由与主城中的气球、滑梯、泳池",
+    "released": "2026-01-06T08:00:00Z",
+    "updated": "2026-04-15T04:21:22Z",
+    "version": "1.1.4",
+    "score": 4.7,
+    "reviews": 135693,
+    "developer": "Chengdu Kingsoft Shiyou Zhuoli Technology Co., Ltd.",
+    "developerUrl": "https://apps.apple.com/cn/developer/chengdu-kingsoft-shiyou-zhuoli-technology-co-ltd/id1587874633?uo=4",
+    "genres": [
+      "游戏",
+      "家庭聚会",
+      "休闲"
+    ],
+    "releaseNotes": "-修复部分已知的bug\n-对网络环境进行优化"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:20.833Z"
+}

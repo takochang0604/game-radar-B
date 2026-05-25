@@ -1,0 +1,44 @@
+{
+  "appId": "6746151928",
+  "name": "Heartopia",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Welcome to Heartopia, a multiplayer life simulation game crafted for creativity, freedom, and peace. Build your dream home, explore a wide range of hobbies, and forge warm connections with friends in a town full of endless possibilities. \n\n[Game Features]\n◆ Let's Connect! Create Unique Memories\nChat with the charming residents of Heartopia Town, hang out with old friends, and meet new friends every time you log in!\n\n◆ Let's Explore! Gardening, Fishing, Birding...\nHobbies are yours to enjoy, not ",
+    "released": "2026-01-07T08:00:00Z",
+    "updated": "2026-04-20T06:08:50Z",
+    "version": "0.4.12",
+    "score": 4.4,
+    "reviews": 10425,
+    "developer": "XD Entertainment Co., Ltd.",
+    "developerUrl": "https://apps.apple.com/th/developer/xd-entertainment-co-ltd/id1810952934?uo=4",
+    "genres": [
+      "Games",
+      "Simulation",
+      "Family"
+    ],
+    "releaseNotes": "◆Feature Updates and Optimizations◆\n[The Beaver Build Challenge]\nThe Developer's Guild is busy preparing for a big event — Heartopia First Build Challenge is about to begin!\nAfter the challenge starts, D.G. Members who meet the requirements can form teams of up to 4 members. During and after the Build Challenge, D.G. Members can freely visit other teams' entries, like their favorite entries, and take photos. After the build challenge ends, exclusive rewards (including the Limited Terminal & Construction Beaver's Approval) will be sent to the winning teams via in-game mail. You can revisit your submitted creation via the Limited Terminal.\n\nThe Build Challenge will begin on April 25 at 6 AM (Server Time). For more details on the event schedule, please stay tuned to future announcements or follow our official community."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:49:53.525Z"
+}

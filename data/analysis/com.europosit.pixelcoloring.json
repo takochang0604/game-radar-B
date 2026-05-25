@@ -1,0 +1,74 @@
+{
+  "appId": "com.europosit.pixelcoloring",
+  "name": "Pixel Art - Color by Number",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "🌈 Color by number to relax your mind with Pixel Art, one of the first and largest coloring games on the Google Play! Join millions of happy players and find your zen through the paint by number game from a top developer. ⭐️\n\n👨‍🎨 Designed by gaming experts and loved by players worldwide, Pixel Art offers a meditative coloring journey. Explore over 40,000 artworks or create your own pixel masterpieces. Paint by number and get the soothing experience of Pixel Art coloring games. 🎨\n\nWhy play Pix",
+    "released": "Oct 16, 2017",
+    "updated": 1772815043000,
+    "version": "10.7.0",
+    "installs": "100,000,000+",
+    "score": 4.6,
+    "ratings": 2557356,
+    "reviews": 7504,
+    "developer": "Easybrain",
+    "developerWebsite": "http://www.easybrain.com",
+    "genre": "Puzzle",
+    "recentChanges": "- Performance and stability improvements<br> <br>We read all your reviews and always try to make the game better. Please leave us some feedback if you love what we do and feel free to suggest any improvements. Color. Relax. Enjoy!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 30,
+      "2": 12,
+      "3": 15,
+      "4": 19,
+      "5": 124
+    },
+    "positiveRatio": 72,
+    "negativeRatio": 21,
+    "eventMentions": [
+      {
+        "text": "verynice,i can learn new drawing how to colour it and hard drawings so that it is good.i like it and",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "hi advantages this app is nice. many pictures are given by the app. like there are some events comin",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "simply love pixel art!! i play every day, love the books, 3 d pics, an am addicted to the events!! g",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i've been using this app for years but the new update that plays an ad almost every 2 colors really ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "my advice never uninstall until you finish a event. i backed up my progress, my greenhouse progress ",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:28.749Z"
+}

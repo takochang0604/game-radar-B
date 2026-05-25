@@ -1,0 +1,64 @@
+{
+  "appId": "1557035248",
+  "name": "The Ghost - Multiplayer Horror",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "New Wishlie Hospital\nYou were getting your daily treatment with friends at the New Wishlie Hospital for 2 weeks already, and today was time to get discharged from the hospital. But something happened. You woke up at 2 AM and found out that all the patients were gone, except you and your friends. The place looks much muddier and it’s... locked! You read in magazines about the hospital and turns out that it's haunted. Now It seems like the only way to escape is through the garage door. Will you be",
+    "released": "2021-05-22T07:00:00Z",
+    "updated": "2026-01-23T15:22:45Z",
+    "version": "1.76",
+    "score": 3.6824,
+    "reviews": 551,
+    "developer": "Gameplier Ltd",
+    "developerUrl": "https://apps.apple.com/tw/developer/gameplier-ltd/id1538782408?uo=4",
+    "genres": [
+      "遊戲",
+      "動作",
+      "冒險"
+    ],
+    "releaseNotes": "- New Year event has ended\n- Added quests with a chance to receive special perks and items\n- Bug fixes and improvements"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 11,
+      "2": 4,
+      "3": 6,
+      "4": 8,
+      "5": 20
+    },
+    "positiveRatio": 57,
+    "negativeRatio": 31,
+    "eventMentions": [
+      {
+        "text": "地圖都過關了都玩很多次了可以更新新地圖嗎",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "可以出新的地圖嗎 都玩膩了 最好恐怖一點 鬼會閃現的那種 但我不要一直死掉的",
+        "keywords": [
+          "新"
+        ]
+      },
+      {
+        "text": "本人i15用戶，動態島不論在左在右都會卡到遊戲裡的按鍵。遊戲也沒什麼新手教學，從一開始就讓人很茫然，只能自己摸索。遊戲廣告也蠻多的，一局結束之後給你塞個廣告，躲都躲不掉。然後遊戲進行時的畫面也讓人眼睛",
+        "keywords": [
+          "新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:39:00.838Z"
+}

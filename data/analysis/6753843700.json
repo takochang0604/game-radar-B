@@ -1,0 +1,49 @@
+{
+  "appId": "6753843700",
+  "name": "Throne of 3Q",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "THRONE OF 3Q – 3D STRATEGY SLG\nChaos erupts across the land, and heroes rise to claim their destiny. My Lord, enter the world of the Three Kingdoms — gather resources, build your city, and begin your path to domination.\nAt the beginning, you only have 3 villagers and a small settlement. Resources are scarce and the road ahead is difficult. But with your strategy and leadership, even a barren land can grow into a mighty empire.\nThe world awaits a true ruler. And that ruler is you!\nFEATURES\n3D CIT",
+    "released": "2026-05-11T07:00:00Z",
+    "updated": "2026-05-11T07:00:00Z",
+    "version": "1.1.2",
+    "score": 4.9,
+    "reviews": 32,
+    "developer": "SohaGame",
+    "developerUrl": "https://apps.apple.com/vn/developer/sohagame/id1460367655?uo=4",
+    "genres": [
+      "Games",
+      "Strategy"
+    ],
+    "releaseNotes": ""
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 3 天，評分 4.9",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:45:59.156Z"
+}

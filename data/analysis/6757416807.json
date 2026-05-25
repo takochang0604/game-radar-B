@@ -1,0 +1,49 @@
+{
+  "appId": "6757416807",
+  "name": "瑞利昂(RELLION)：NPC的生存記",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "▣ 你的選擇，塑造世界 ▣\n曾被遺忘、如今只剩NPC存活的世界——瑞利昂。\n此刻，你將以「真正的玩家」之姿降臨。\n在逐漸崩壞的世界裡，你會走上哪條路？\n在瑞利昂，寫下你的命運。\n\n▣ 遊戲特色 ▣\n\n【登入就送豪華福利】\n・SSR角色立即入手\n・開局就有強力夥伴，從第一天並肩冒險！\n\n【離線也能變強｜無限成長＆鍊金寶石】\n・離線照樣自動成長\n・一鍵領取整晚累積的培養資源\n・獎勵隨時間累積，養成更輕鬆、壓力更低\n\n【900次輪迴淬鍊的策略戰鬥】\n・陣容搭配＋站位（陣型）決定勝負\n・告別單調／無腦戰鬥\n・特性與陣型不同，戰局結果大不同\n\n【高品質插畫＆技能演出】\n・風格鮮明的角色，華麗技能演出一次看個夠\n\n【內容豐富，玩不膩】\n・多樣地下城\n・多頭目Boss團隊戰（多人／多王挑戰）\n\n【快速簡單的每日任務】\n・再忙也能迅速完成核心內容\n\n立即加入 瑞利昂！",
+    "released": "2026-05-13T07:00:00Z",
+    "updated": "2026-05-19T06:43:54Z",
+    "version": "1.8.12",
+    "score": 4.7,
+    "reviews": 503,
+    "developer": "DAERI SOFT",
+    "developerUrl": "https://apps.apple.com/tw/developer/daeri-soft/id414170559?uo=4",
+    "genres": [
+      "遊戲",
+      "角色扮演"
+    ],
+    "releaseNotes": "1. 全新世界關卡\n2. 新增莉亞的支線故事與支線關卡\n3. 裂縫次元擴張\n4. Bug修復與優化"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 6 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:43:25.215Z"
+}

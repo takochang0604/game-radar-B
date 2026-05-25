@@ -1,0 +1,42 @@
+{
+  "appId": "com.zempot.wplpoker",
+  "name": "WPL:Texas Hold'em, MTT, Sit&Go",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Winjoy Poker Game",
+    "released": "Dec 7, 2020",
+    "updated": 1777385946000,
+    "version": "2.31.3",
+    "installs": "100,000+",
+    "score": 4.4925375,
+    "ratings": 5363,
+    "reviews": 2483,
+    "developer": "Zempot INC.",
+    "developerWebsite": "https://wpl.winjoygame.com/",
+    "genre": "Casino",
+    "recentChanges": "■ Update contents<br> <br>1. Various issues in Coin Rush have been resolved.<br>　- Fixed an issue where assets could become frozen at the table<br>　- Fixed an issue where pot winnings were not properly settled after a win<br>　- Adjusted the frequency of being assigned to BB/SB positions more often than intended<br> <br>2. Minor bug fixes and optimizations"
+  },
+  "reviewAnalysis": {
+    "total": 5,
+    "starCounts": {
+      "1": 0,
+      "2": 1,
+      "3": 0,
+      "4": 1,
+      "5": 3
+    },
+    "positiveRatio": 80,
+    "negativeRatio": 20,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:38:58.300Z"
+}

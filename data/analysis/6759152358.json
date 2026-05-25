@@ -1,0 +1,51 @@
+{
+  "appId": "6759152358",
+  "name": "GardenScapes Khu vườn huyền bí",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "https://kvhb.vtcgame.vn/\n \t\nChào mừng bạn đến với Gardenscapes, trò chơi đầu tiên trong sê-ri Playrix Scapes™! Hãy ghép các tổ hợp match-3 và mang lại sự ấm cúng và vẻ đẹp cho mọi ngóc ngách trong khu vườn của bạn.\n\nGiải các câu đố vui nhộn, khôi phục và khám phá các khu vực mới trong vườn và gặp gỡ những người bạn mới trong mỗi chương của câu chuyện thú vị. Quản gia Austin đã sẵn sàng chào đón bạn đến với một thế giới của những cuộc phiêu lưu đáng kinh ngạc!\n\nTính năng trò chơi:\n● Lối chơi được",
+    "released": "2026-04-08T07:00:00Z",
+    "updated": "2026-04-30T09:24:54Z",
+    "version": "9.6.0",
+    "score": 4.4881,
+    "reviews": 84,
+    "developer": "VTC GAME",
+    "developerUrl": "https://apps.apple.com/vn/developer/vtc-game/id1267784899?uo=4",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Entertainment",
+      "Casual"
+    ],
+    "releaseNotes": "Đã có bản cập nhật Gardenscapes mới! \nSỰ KIỆN MỚI \nĐỉnh Núi Lạnh Giá: Giúp Rachel tìm Austin và giải cứu anh ấy trên những ngọn núi tuyết! \nVụ Án Bức Tượng Vàng: Điều tra vụ trộm và giúp Rachel minh oan! \nBộ Sưu Tập Phim: Sưu tập các thẻ bài chủ đề phim ảnh! \n \nCỐT TRUYỆN \nTìm ra ai sẽ trở thành giám đốc mới của Học Viện Quản Gia Hiện Đại!"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 100,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 30 天，評分 4.4881",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:34:27.363Z"
+}

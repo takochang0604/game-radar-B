@@ -1,0 +1,44 @@
+{
+  "appId": "6443760593",
+  "name": "Zombie Waves-shooting game",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Danger lurks around every corner in this zombie-infested post-apocalypse! Keep your wits sharp — the myriad infected will attempt to overwhelm you with their endless numbers the minute you step foot into the world.\nRally companions to your side as you attempt to unravel the truth behind the outbreak.\nTest your survivalist mettle against a world intent on one goal: your demise!\nLoad up on ammo, cull the shambling hordes that block your way, and stand your ground as a beacon of hope in humanity’s ",
+    "released": "2022-10-12T07:00:00Z",
+    "updated": "2026-02-06T06:27:48Z",
+    "version": "2.1.9",
+    "score": 4.7,
+    "reviews": 4182,
+    "developer": "FUN FORMULA PTE. LTD.",
+    "developerUrl": "https://apps.apple.com/ph/developer/fun-formula-pte-ltd/id1614794891?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Adventure"
+    ],
+    "releaseNotes": "1. New Weapon: Electrosaw Crossbow\n2. New Feature: Mechanical Zombie"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:05:11.243Z"
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "com.nebula.tiles",
+  "name": "Tap Tile!",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Tap Tile! is a calming and satisfying tile puzzle game where you tap, match, and clear tiles. Enjoy smooth and simple tile match gameplay while exploring thousands of relaxing levels.\n\nThis addictive triple tile match game combines classic match 3 mechanics with peaceful visuals, making it perfect for unwinding anytime.\n\nSimple & Addictive Tile Matching Gameplay\nTap to collect and match 3 identical tiles\nClear each board by solving relaxing tile puzzles\nPlan your moves to complete challenging tr",
+    "released": "Apr 15, 2026",
+    "updated": 1778847951000,
+    "version": "1.0.6",
+    "installs": "100,000+",
+    "score": 4.8,
+    "ratings": 5222,
+    "reviews": 6,
+    "developer": "Nebula  Studio",
+    "developerWebsite": "https://www.hurelax.com/",
+    "genre": "Puzzle",
+    "recentChanges": "We refined the app to ensure better speed and stability."
+  },
+  "reviewAnalysis": {
+    "total": 102,
+    "starCounts": {
+      "1": 5,
+      "2": 0,
+      "3": 3,
+      "4": 8,
+      "5": 86
+    },
+    "positiveRatio": 92,
+    "negativeRatio": 5,
+    "eventMentions": [
+      {
+        "text": "tap tile is my new favorite game! i just love love these tiles. no other game has tiles like these. ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "new fun",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "hello everyone welcome to the new game it is good",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 92%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:39:17.396Z"
+}

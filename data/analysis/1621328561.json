@@ -1,0 +1,83 @@
+{
+  "appId": "1621328561",
+  "name": "MONOPOLY GO!",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Hit GO! Roll the dice! Earn MONOPOLY money, interact with your friends, family members and fellow Tycoons from around the world as you explore the expanding universe of MONOPOLY GO! It’s the new way to play – board-flipping cleanup not required!\n\nTake a Break!\n\nEscape, enjoy, dream, scheme and stay in touch with this newly reimagined twist on MONOPOLY! Let everyone’s favourite zillionaire, Mr. MONOPOLY, be your guide as you explore new boards themed after world-famous cities, fantastical lands a",
+    "released": "2022-06-30T07:00:00Z",
+    "updated": "2026-04-24T11:13:17Z",
+    "version": "1.67.1",
+    "score": 4.77799,
+    "reviews": 49201,
+    "developer": "Scopely, Inc.",
+    "developerUrl": "https://apps.apple.com/ph/developer/scopely-inc/id305003647?uo=4",
+    "genres": [
+      "Games",
+      "Family",
+      "Board",
+      "Entertainment"
+    ],
+    "releaseNotes": "Ready for a storybook adventure, Tycoon?\nThe Monopoly Ever After Album is live — step into a world of magic and mischief!\n\nCollect enchanting, fairytale-inspired stickers\nExplore whimsical boards full of wonder\nA little magic swept away those pesky bugs and smoothed your journey!\nUpdate now and live happily ever after!"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 20,
+      "2": 4,
+      "3": 4,
+      "4": 3,
+      "5": 18
+    },
+    "positiveRatio": 43,
+    "negativeRatio": 49,
+    "eventMentions": [
+      {
+        "text": "this is in line with the partners event where i wasted too much items on the wheel. 90% you only get",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "been playing for months now and i can notice that whenever you play the \"shutdown\" mode it feels lik",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "not monopoly at all and just some mobile slop game with limited rolls and nothing to do with actual ",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "it might look like the dices are random but i feel like they really lower probability of you getting",
+        "keywords": [
+          "event",
+          "limited"
+        ]
+      },
+      {
+        "text": "so annoyed with this app, first of all it takes multiple time’s to open and reload the game, and whe",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:06:09.996Z"
+}

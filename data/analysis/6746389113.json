@@ -1,0 +1,45 @@
+{
+  "appId": "6746389113",
+  "name": "Hatch Dragons",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Discover Dragons like you’ve never seen before! Collect and care for hundreds of unique Dragons, uncovering their origins as they grow. From playful Cat Dragons to rare Bluebell Dragons, every new Dragon you hatch and raise brings this cozy, peaceful world to life.\n\nLong ago, Dragons filled this enchanted forest, thriving alongside nature. Each evolved into forms as diverse as the surrounding flora and fauna. Some shimmered with glittering scales, others were soft and furry, and some even bloome",
+    "released": "2026-02-24T08:00:00Z",
+    "updated": "2026-05-12T21:56:03Z",
+    "version": "0.8.1",
+    "score": 4.9,
+    "reviews": 238,
+    "developer": "Runaway",
+    "developerUrl": "https://apps.apple.com/th/developer/runaway/id1042800793?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Casual",
+      "Simulation"
+    ],
+    "releaseNotes": "NEW EVENT TYPE! Cook up a feast with Ole, Dole, and Doff - three charming travelling gnomes who've arrived in the forest on their moose, Skutt. Help Ole, Dole and Doff forage ingredients, fire up the grill, and fill their tummies, all while earning points to collect new dragons!\nNEW DRAGONS are on the way - celebrate Mother's Day with the Graceful Guardians set, then dive into the Koi Legend event with the Lustrous Fins set.\nScore 300 required to unlock events!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:39:58.891Z"
+}

@@ -1,0 +1,45 @@
+{
+  "appId": "6754878717",
+  "name": "The Cozy Florist",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Looking for a heartwarming game to relax without boredom? Eager to meet like-minded friends but afraid of social awkwardness? This game filled with flowers and surprises solves all your worries!\nDual gameplay of managing a garden + flower shop—therapeutic and fun, plus real flower rewards waiting for you to claim! \n\nUnlock a World of Blossoms, Manage Your Exclusive Garden & Flower Shop\nDive into a diverse world of flowers in The Cozy Florist! From daisies and lilies of the valley to rare tulips,",
+    "released": "2026-02-11T08:00:00Z",
+    "updated": "2026-05-08T06:18:27Z",
+    "version": "1.0.35",
+    "score": 4.7,
+    "reviews": 591,
+    "developer": "RiftSky Games",
+    "developerUrl": "https://apps.apple.com/ph/developer/riftsky-games/id1805546623?uo=4",
+    "genres": [
+      "Games",
+      "Simulation",
+      "Entertainment",
+      "Casual"
+    ],
+    "releaseNotes": "Advertising feature optimization"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:37:58.583Z"
+}

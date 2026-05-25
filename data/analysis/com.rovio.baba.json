@@ -1,0 +1,74 @@
+{
+  "appId": "com.rovio.baba",
+  "name": "Angry Birds 2",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Join hundreds of millions of players for FREE and start the fun slingshot adventure now! Team up with your friends, climb the leaderboards, gather in clans, collect hats, take on challenges, and play fun events in all-new game modes. Evolve your team and show your skills in this exciting Angry Birds game !\n\nGet to know all of the iconic Angry Birds characters and experience the fun gameplay that has captured the hearts of millions of players.\n\nFeatures:\n\n● DAILY CHALLENGES. Have a minute? Comple",
+    "released": "Jul 23, 2015",
+    "updated": 1777547960000,
+    "version": "10.0.0",
+    "installs": "100,000,000+",
+    "score": 4.1,
+    "ratings": 6298885,
+    "reviews": 273621,
+    "developer": "Rovio Entertainment Oy",
+    "developerWebsite": "https://www.rovio.com",
+    "genre": "Casual",
+    "recentChanges": "Minor fixes and improvements. Just cleaning up around the nest."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 48,
+      "2": 12,
+      "3": 11,
+      "4": 14,
+      "5": 115
+    },
+    "positiveRatio": 65,
+    "negativeRatio": 30,
+    "eventMentions": [
+      {
+        "text": "scam. if you are doing too well, they will give you a level that would be impossible to beat without",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "playing 5 years now, some frustration with failed updates and no way to buy special hats after you g",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i've been playing this game for a really long time it's one of my favourites it wasn't doing the upd",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "rovio, i give up because of you😠😠😠😠😠😠you promised you will make improvements in every update b",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "my one of the favourite game but level play charges & gems has limited but| i love the game ♥️♥️♥️♥️",
+        "keywords": [
+          "limited"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:43:35.167Z"
+}

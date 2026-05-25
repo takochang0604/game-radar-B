@@ -1,0 +1,80 @@
+{
+  "appId": "grill.sort.food.games.match.puzzle",
+  "name": "Grill Sort - Food Sort Games",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Get ready to fire up the grill in Grill Sort! 🍢 This tantalizing experience combines the challenges of food games, matching games, and sorting games into a sizzling adventure. Perfect your culinary skills in this cooking game and become a master of the engaging match 3 puzzle, as you align delicious skewers for spectacular combos in these engaging puzzle games. If you love a cooking game, this is for you!\n\nHow to Play:🔥\nUnlock the secrets to culinary mastery in this thrilling cooking game, a s",
+    "released": "Mar 7, 2025",
+    "updated": 1778316568000,
+    "version": "3.061",
+    "installs": "10,000,000+",
+    "score": 4.5,
+    "ratings": 98818,
+    "reviews": 392,
+    "developer": "Gloryway Puzzle",
+    "developerWebsite": "https://gloryway.games/",
+    "genre": "Puzzle",
+    "recentChanges": "Sizzle your way through juicy puzzles in our BBQ match-3 game!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 59,
+      "2": 27,
+      "3": 22,
+      "4": 15,
+      "5": 77
+    },
+    "positiveRatio": 46,
+    "negativeRatio": 43,
+    "eventMentions": [
+      {
+        "text": "great ad machine. don't expect to actually play the game unless you pay for no ads. update: even if ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this is the best sort game for me. i play this in my leisure time. however, the level is quite repet",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "as of 4/19/26, game freezes when you try to collect your 0/7 prizes... i'll update my score after it",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "game concept is decent. it continuously throws new concepts at you for no apparent reason, ruining a",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game was fun until i got to around lvl 25, its almost impossible to beat the levels with out wat",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:38:08.257Z"
+}

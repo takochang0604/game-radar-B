@@ -1,0 +1,55 @@
+{
+  "appId": "com.kayac.PistolDuel",
+  "name": "Pistol Duel",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Tap to shoot bullets and take down your enemies!\nEach shot’s recoil propels your gun—master the kickback to move, dodge, and conquer every level!",
+    "released": "Oct 5, 2025",
+    "updated": 1775817350000,
+    "version": "043",
+    "installs": "1,000,000+",
+    "score": 4.3333335,
+    "ratings": 5322,
+    "reviews": 3,
+    "developer": "KAYAC Inc.",
+    "developerWebsite": "https://kayac.games/",
+    "genre": "Action",
+    "recentChanges": "Fixed bugs."
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 16,
+      "2": 4,
+      "3": 3,
+      "4": 5,
+      "5": 22
+    },
+    "positiveRatio": 54,
+    "negativeRatio": 40,
+    "eventMentions": [
+      {
+        "text": "this game is simple and just like the ads and its offline too. i honestly enjoyed it but the problem",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "limited progress, repetitive levels, but fun to pass the time. does what it's intended for. wish the",
+        "keywords": [
+          "limited"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:35.552Z"
+}

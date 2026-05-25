@@ -1,0 +1,73 @@
+{
+  "appId": "com.budgestudios.googleplay.BlueyBLU",
+  "name": "Bluey: Let's Play!",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Explore, imagine, create & play in Bluey's house. There's so much to do!\nWackadoo! Come join Bluey, her friends & family! For real life.\n\nFun, easy & calm kids learning game for boys and girls of all ages. Preschool children and toddlers will enjoy this app. Parents and other family members can play along too!\n\nEXPLORE\nDiscover and play all over the Heeler family home, just like in the TV show! Hunt for longdogs, play a game of Pop up Croc, listen to your favorite Bluey tunes, and so much more! ",
+    "released": "Aug 13, 2023",
+    "updated": 1777483813000,
+    "version": "2026.5.0",
+    "installs": "50,000,000+",
+    "score": 4.3,
+    "ratings": 208455,
+    "reviews": 4888,
+    "developer": "Budge Studios",
+    "developerWebsite": "http://www.budgestudios.com",
+    "genre": "Casual",
+    "recentChanges": "Play with Bluey and Bingo and explore the new front entrance! There are so many new surprises to discover! Don&#39;t forget sticky gecko!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 55,
+      "2": 13,
+      "3": 12,
+      "4": 12,
+      "5": 108
+    },
+    "positiveRatio": 60,
+    "negativeRatio": 34,
+    "eventMentions": [
+      {
+        "text": "thank you for the update i love the game",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i don't like the game it's boring broo pls don't play pls we want new something😫",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i love the show and the new game",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "it's cute and my kid likes it, but the cost and the limitations of the free version are both excessi",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "i love this game! but my subscription got renewed because i have not being playing this game!:(",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:39:03.909Z"
+}

@@ -1,0 +1,87 @@
+{
+  "appId": "com.ProjectMoon.LimbusCompany",
+  "name": "Limbus Company",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "FACE THE SIN, SAVE THE E.G.O\n\nAs the Executive Manager of Limbus Company, lead your group of twelve Sinners,\nventure into the buried facilities of Lobotomy Corporation, and lay claim on the Golden Boughs.\n\n\n▶ A Combination of Turn-based RPG and Realtime Brawl\nEach turn results in a display of exhilarating action.\nIn the combat phase, units on both sides will act simultaneously.\nDuring the scramble, characters targeting each other may Clash.\nThe outcome of a Clash depends on the strength of their",
+    "released": "Feb 26, 2023",
+    "updated": 1778488499000,
+    "version": "1.105.0",
+    "installs": "1,000,000+",
+    "score": 4.7,
+    "ratings": 69168,
+    "reviews": 9074,
+    "developer": "Project Moon",
+    "developerWebsite": "https://limbuscompany.kr/",
+    "genre": "Strategy"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 19,
+      "2": 4,
+      "3": 4,
+      "4": 6,
+      "5": 167
+    },
+    "positiveRatio": 87,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "allllll haaaaiiilll limmmmbuuuusss compaaaannnyyyyy, we absolutely love the gameeee!!! genshin? hoyo",
+        "keywords": [
+          "update",
+          "new",
+          "season"
+        ]
+      },
+      {
+        "text": "w gambling game i am new and i can't get any good chrecter",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "limbus company has an extremely good story. the gacha system is f2p friendly as you don't require to",
+        "keywords": [
+          "event",
+          "update"
+        ]
+      },
+      {
+        "text": "probably the best gacha game i ever played. all of the characters here (especially the sinners) are ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "genuinely just a great game overall, the gacha is basically unneeded unless a new character releases",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 87%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:51:51.308Z"
+}

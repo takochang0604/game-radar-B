@@ -1,0 +1,81 @@
+{
+  "appId": "defense.roguelike.cell.shoot.survivor",
+  "name": "Cell Survivor",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Embark on an epic adventure in Cell Survivor, a tactical RPG game that tests your survival skills in intense microscopic battles within survival games. 🚀 Dive into the vast cellular universe and strategically defeat unpredictable virus bosses with precision, quick reflexes, and tactical prowess in this roguelike RPG. Gear up to unleash your inner warrior in one of the most exhilarating RPG survival games crafted to date among top tower defense games!\n\n🎮 Gameplay:\nProgress through Cell Survivor",
+    "released": "Jun 26, 2025",
+    "updated": 1778498434000,
+    "version": "2.07",
+    "installs": "5,000,000+",
+    "score": 3.8,
+    "ratings": 136152,
+    "reviews": 2076,
+    "developer": "Snap Brain Games",
+    "developerWebsite": "https://winlonpte.com/",
+    "genre": "Role Playing",
+    "recentChanges": "Added limited-time events.<br>Fix Bugs"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 95,
+      "2": 35,
+      "3": 17,
+      "4": 19,
+      "5": 34
+    },
+    "positiveRatio": 27,
+    "negativeRatio": 65,
+    "eventMentions": [
+      {
+        "text": "literally won't load past the opening developer screen. had it open on my phone for 15 minutes and d",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "everything is good i enjoy the game and the level up system but after i got the new skin from the ev",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      },
+      {
+        "text": "i can't open my game after the update,i already uninstall and install more then 5 time for 2 day and",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i updated the game on may 11 and now it won't open i love playing the game but i wish i wouldn't hav",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "unfortunately the newest update seems to have broken the game as it will no longer load past the spl",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:39:07.242Z"
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "com.neowiz.games.poker",
+  "name": "Pmang Poker : Casino Royal",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "최고의 겜블러를 위한 하이퀄리티 피망 포커: 카지노 로얄!\n실감나는 플레이 연출로 짜릿한 승부를 느껴보세요!\n\n♣  완전히 새로운 하이클래스 멀티 포커!\n- 7포커, 하이로우, 로우바둑이를 한번에 플레이할 수 있습니다!\n- 실시간으로 유저들과 대결하고 포커에서만 즐길 수 있는 베팅의 묘미를 느껴보세요!\n\n♣  고급스럽고 감각적인 게임 플레이!\n- 쉽고 빠른 베팅과 쫀득한 손맛으로 짜릿한 한판 승부를 즐겨보세요!\n- 깔끔하고 세련된 인터페이스로 편리하게 이용이 가능합니다~\n- 친구 대전과, 포커칩채널로 두배 더 재미있게 즐겨보세요!\n- 커스컴 UI 설정으로 쉽고 편리한 게임 이용이 가능합니다!\n\n♣  피망 포커에서만 선사하는 특별한 카지노 서비스!\n- 배드빗 잭팟을 통한 대박 보너스 머니를 획득해 보세요~\n- 100% 당첨 복권 긁고 100억 골드에 도전하세요!\n- 매일 제공되는 미션을 달성하고 달콤한 선물을 받아가세요!\n\n[게임팁]\n1. 피망 포커: 카지노 로얄 (7포커, 로우바둑이",
+    "released": "Aug 27, 2013",
+    "updated": 1776845703000,
+    "version": "134.0",
+    "installs": "5,000,000+",
+    "score": 4.1745315,
+    "ratings": 195990,
+    "reviews": 119633,
+    "developer": "NEOWIZ corp",
+    "developerWebsite": "http://m.pmang.com",
+    "genre": "Casino",
+    "recentChanges": "- 카드뽑기 이벤트 <br>- 머니 교환소 기능 추가<br>- 정기 세일즈 및 핫딜 적용<br>- 기타 버그 수정 및 안정화"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 18,
+      "2": 1,
+      "3": 6,
+      "4": 17,
+      "5": 58
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 19,
+    "eventMentions": [
+      {
+        "text": "i gave this a 2 star because there is something wrong with your game, it keeps on glitching and glit",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "water works road aci limited narayangonj. city, dhaka bangladesh country, bangladesh",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "can not play and update..eror why",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "today can not play, cause can not update.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "when i was in air plane transfer, it was so wonderful to prevent the boring times.",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:38:44.093Z"
+}

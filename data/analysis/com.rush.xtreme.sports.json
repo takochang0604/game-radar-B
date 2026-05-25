@@ -1,0 +1,73 @@
+{
+  "appId": "com.rush.xtreme.sports",
+  "name": "RUSH: Xtreme",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "READY BIKER ONE 🚴‍♂️ \n\nHop on your dirt bike and get ready to pedal in this fast-paced racing game! Each level, you’ll face off against skilled rivals as you ride your bicycle through a variety of exciting locations. Grab powerful boosts to blast past the competition and feel the thrill of realistic driving — all from the comfort of your phone, in this ultimate driving simulator motocross game.\n\n🔥 KICK UP SOME DUST 🔥\n\nEach game level is a short and sweet race to the finish line, with a variet",
+    "released": "Jul 15, 2025",
+    "updated": 1777301440000,
+    "version": "1.6.1",
+    "installs": "10,000,000+",
+    "score": 4.6,
+    "ratings": 380281,
+    "reviews": 1662,
+    "developer": "SayGames Ltd",
+    "developerWebsite": "https://say.games/",
+    "genre": "Racing",
+    "recentChanges": "-Gameplay improvements<br>-Bug fixes <br>-New levels"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 20,
+      "2": 6,
+      "3": 9,
+      "4": 21,
+      "5": 144
+    },
+    "positiveRatio": 83,
+    "negativeRatio": 13,
+    "eventMentions": [
+      {
+        "text": "new game",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "newbie here,gudluck!",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "love the game. when i changed phones i got the scooter but no motor bike. then i just brought a new ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "something's new just trying out just came into one of the games pop up trying it out now let's see s",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 83%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:06.331Z"
+}

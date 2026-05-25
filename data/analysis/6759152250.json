@@ -1,0 +1,45 @@
+{
+  "appId": "6759152250",
+  "name": "Township – Thị trấn vui vẻ",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "XÂY DỰNG THỊ TRẤN TRONG MƠ CỦA BẠN!\n\nChào mừng bạn đến với Township — trò chơi xây dựng thành phố kết hợp nông trại đầy hấp dẫn, nơi bạn trở thành thị trưởng của chính thị trấn của mình!\nXây dựng nhà cửa, nhà máy và các công trình cộng đồng, trồng trọt trên nông trại và trang trí thị trấn theo ý thích. Tham gia các sự kiện giới hạn thời gian, cạnh tranh trong những cuộc đua thuyền sôi động và nhận các phần thưởng độc quyền!\nCần nghỉ ngơi khỏi việc quy hoạch thành phố? Hãy thử các màn match-3 thư",
+    "released": "2026-04-17T07:00:00Z",
+    "updated": "2026-05-14T11:59:22Z",
+    "version": "36.0.2",
+    "score": 4.3,
+    "reviews": 304,
+    "developer": "VTC GAME",
+    "developerUrl": "https://apps.apple.com/vn/developer/vtc-game/id1267784899?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Puzzle",
+      "Entertainment"
+    ],
+    "releaseNotes": "Chuẩn bị cho bản cập nhật mới!\nCó gì mới trong Township!\n\nCuộc phiêu lưu theo mùa:\n\n* Nhận tài nguyên để phát triển và trang trí thị trấn của bạn với Italian Pass và Futuristic Pass!\n\nNhững cuộc phiêu lưu mới đầy kịch tính:\n\n* Giúp Richard khám phá và giải cứu một thế giới phép thuật.\n* Khám phá vùng đất bí ẩn Oz cùng Ellen. Hãy giúp cô ấy trở về nhà từ Thành phố Ngọc Lục Bảo!\n\nNgoài ra còn có:\n\n* Mùa đua thuyền (regatta) mới trên sông Amazon!\n* Yếu tố match-3 mới: Khắc đá!\n* Công trình mới trong thị trấn: Nhà hòa nhạc!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:39:15.109Z"
+}

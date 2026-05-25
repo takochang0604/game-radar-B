@@ -1,0 +1,50 @@
+{
+  "appId": "6756169358",
+  "name": "仙逆M-官方正版授權",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "順為凡，逆則仙！官方正版授權玄幻修仙大作**《仙逆M》**正式上線！\n\n【下載送全英雄&1000抽】\n\n          這裡，沒有循規蹈矩的飛升，只有我命由我不由天的逆途！改編自超人氣動漫《仙逆》，為你呈現一個法則殘酷、機緣與殺機並存的真實修真大世界。從一介凡人到踏天之主，體驗一位修真者從平凡逐步成為強者的歷程。\n“仙”：代表修真世界的終極目標——成仙，象徵著長生、力量與超脫。修真者追求成仙，渴望突破凡人的局限。\n“逆”：意味著“逆天而行”，修真者通過修煉對抗天道規則，試圖改變命運。背景設定在一個充滿修仙者、妖獸和神秘力量的修真世界。故事圍繞主角王林的成長歷程展開，他從一個平凡的少年逐步成長為修真界的巔峰強者。\n\n【踏天問道，逆天而行】\n\n   境界突破，引動天劫\n從凝氣到踏天，每一重大境界的突破，都將引動毀天滅地的專屬逆劫。你需要精心準備，在雷罰與心魔的雙重考驗下逆天而行，體驗小說中描述的突破震撼。\n\n  大世界探索，機緣自尋\n無縫大地圖涵蓋修魔海、仙界碎片、祖城等經典場景。地圖中隱藏著無數“緣”，可能是上古洞府，也可能是致命殺局，完美復現小說中“機緣與危險並存”的探索感。\n\n ",
+    "released": "2026-05-11T07:00:00Z",
+    "updated": "2026-05-18T02:46:29Z",
+    "version": "1.0.4",
+    "score": 4.8,
+    "reviews": 5067,
+    "developer": "Hainan Jinhe Network Technology Co.,Ltd.",
+    "developerUrl": "https://apps.apple.com/tw/developer/hainan-jinhe-network-technology-co-ltd/id1601791493?uo=4",
+    "genres": [
+      "遊戲",
+      "卡牌",
+      "角色扮演"
+    ],
+    "releaseNotes": "1.全新神臨陣營上市；\n2.修復遊戲問題，優化體驗；"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 8 天，評分 4.8",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:41:29.472Z"
+}

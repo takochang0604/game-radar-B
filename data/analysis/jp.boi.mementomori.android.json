@@ -1,0 +1,73 @@
+{
+  "appId": "jp.boi.mementomori.android",
+  "name": "MementoMori: AFKRPG",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "“All roads lead to our ‘Goodbye.’”\n\nBoasting an epic soundtrack that can turn the world of gaming on its head, and some of the most stunning designs ever seen in a game, Bank of Innovation’s newest title, MementoMori, is finally here!\n\nSongs performed by many renowned artists enhance the rich world of MementoMori.\n*We recommend playing while wearing earphones or headphones.\n\n◆ STORY:\nA tale of “justice” woven by girls whose fragile hearts verge on shattering...\n\nThere are girls who many call “wi",
+    "released": "Oct 7, 2022",
+    "updated": 1776843570000,
+    "version": "4.13.0",
+    "installs": "1,000,000+",
+    "score": 4.5261493,
+    "ratings": 91084,
+    "reviews": 9071,
+    "developer": "Bank of Innovation, Inc.",
+    "developerWebsite": "https://mememori-game.com/",
+    "genre": "Role Playing",
+    "recentChanges": "【v4.13.0】<br>====================================<br>・Various bug fixes<br>===================================="
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 12,
+      "2": 6,
+      "3": 5,
+      "4": 5,
+      "5": 72
+    },
+    "positiveRatio": 77,
+    "negativeRatio": 18,
+    "eventMentions": [
+      {
+        "text": "game itself is fun, looks great and plays great but it now feels as though i've run head first into ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "hey update!",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "pros: really good music, great character design cons: not f2p friendly, barely any events, barely an",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "only just started but so far decent game nothing to special but also not being spamed with packs is ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "last update make it impossible to open my box.",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:02:58.915Z"
+}

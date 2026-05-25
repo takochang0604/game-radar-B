@@ -1,0 +1,48 @@
+{
+  "appId": "com.sanctumstudio.poly",
+  "name": "拉蒂亞的骰子之旅 - 療癒系冒險RPG",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Simply roll the dice to embark on a relaxing adventure.\n\n【Ladia's Dicetiny: The Dice of Destiny Guides a Heartwarming Journey】\nLadia, a divine swordswoman blessed with \"eternity,\"\n\nembarks on a journey of purification to find the meaning of her existence.\n\n🎲 Unique \"Dice Exploration × RPG Growth\"\n\nThrough simple dice rolls, personally experience your character's gradual growth on the journey.\n\nWe've designed the game to be enjoyable in just 5 minutes,\n\nallowing you to accumulate strength even o",
+    "released": "May 16, 2026",
+    "updated": 1778938340000,
+    "version": "1.20260516.0",
+    "installs": "5,000+",
+    "score": 4.5,
+    "ratings": 259,
+    "reviews": 68,
+    "developer": "Sanctum Games Limited",
+    "developerWebsite": "https://www.eternalsenia2.com/",
+    "genre": "Role Playing",
+    "recentChanges": "正式版本"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 100,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 6 天，評分 4.5",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:39:53.780Z"
+}

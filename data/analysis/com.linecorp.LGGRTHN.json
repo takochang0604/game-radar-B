@@ -1,0 +1,79 @@
+{
+  "appId": "com.linecorp.LGGRTHN",
+  "name": "LINE Let's Get Rich",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "A major collaboration update with the legendary Ragnarok Online is now available! In this collaboration, players can enjoy a variety of new content, including special characters such as S+ [Evo] Swordman, who can be upgraded to S+ [Legendary] Lord Knight.\n\nJourney through the classic Prontera Map, complete with familiar background music that brings the nostalgic world of Ragnarok back to life.\n\nThere are also many special items to collect, including Poring Dice and Lunatic Dice, S+ Pendants such",
+    "released": "Jul 7, 2014",
+    "updated": 1778586767000,
+    "version": "5.8.1",
+    "installs": "50,000,000+",
+    "score": 3.5,
+    "ratings": 3865007,
+    "reviews": 863866,
+    "developer": "LINE (LY Corporation)",
+    "developerWebsite": "https://lg-cs.line.me/fm/public/inquiry/index",
+    "genre": "Casual",
+    "recentChanges": "- New Map “Zero Gravity&quot;<br>- New Premium Pass<br>- New Live Calendar<br>- New Dice Skill<br>- New Characters &amp; New Pendants<br>- Bug Fixes &amp; System Performance Optimizations"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 147,
+      "2": 6,
+      "3": 9,
+      "4": 2,
+      "5": 36
+    },
+    "positiveRatio": 19,
+    "negativeRatio": 77,
+    "eventMentions": [
+      {
+        "text": "didn't make sense game, new player haven't chance to win 😊😩 please fix the mechanic",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "kalo bisa gw kasih bintang 0 gw kasih bintang 0, heran gw buka lgr gk bisa tapi buka yt bisa, buka m",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "still the same p2w game as back then, thought something change with the update but nah its the same",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "garbage game, i used to spend a lot money before but my character and pendant can't compete with new",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "pay2win, no chances for new player.",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:44:07.325Z"
+}

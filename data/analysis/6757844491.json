@@ -1,0 +1,45 @@
+{
+  "appId": "6757844491",
+  "name": "Tricky Story 2: Brain Twist",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "Welcome back to Tricky Story 2 – the sequel where the puzzles are trickier and the stories are even crazier!\n\nEverything you loved about the first game is back, but with a whole new level of \"Wait, what?!\" moments. Challenge your logic, sharpen your wit, and get ready for the ultimate brain workout that doesn't take itself too seriously.\n\nWhat’s New in Part 2:\n\nBrand-New Levels: Fresh brain-teasers that will keep you guessing.\nEpic Plot Twists: Each level tells a hilarious story where nothing is",
+    "released": "2026-01-22T08:00:00Z",
+    "updated": "2026-05-09T00:58:08Z",
+    "version": "1.0.8",
+    "score": 4.4,
+    "reviews": 268,
+    "developer": "Tang Thi Thuy",
+    "developerUrl": "https://apps.apple.com/kr/developer/tang-thi-thuy/id1699552610?uo=4",
+    "genres": [
+      "게임",
+      "퍼즐",
+      "캐주얼",
+      "엔터테인먼트"
+    ],
+    "releaseNotes": "We have updated new levels and fixed performance-related issues"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 13 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:38:30.415Z"
+}

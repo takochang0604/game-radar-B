@@ -1,0 +1,77 @@
+{
+  "appId": "com.cmalert.donotmissrewardsandevents",
+  "name": "Monster Evo Saga",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Enter a fantasy world bathed in starlight and begin your very own spirit adventure!\n\nMeet a variety of companions, build your own team, and grow stronger through idle progression and strategic battles.\n\n\n\n✨ Game Features\n\n\n\n🌟 Spirit Training\n\nCollect spirits of various attributes. Each companion has unique skills and evolution paths to build your ultimate team!\n\n\n\n⚔️ Strategic Turn-Based Battles\n\nCombine teams and skills wisely, use elemental advantages and tactics to defeat powerful enemies an",
+    "released": "Jan 21, 2021",
+    "updated": 1776916329000,
+    "version": "12.0",
+    "installs": "50,000+",
+    "score": 4.7,
+    "ratings": 1795,
+    "reviews": 111,
+    "developer": "Green Screen Studios",
+    "genre": "Role Playing"
+  },
+  "reviewAnalysis": {
+    "total": 162,
+    "starCounts": {
+      "1": 11,
+      "2": 4,
+      "3": 6,
+      "4": 22,
+      "5": 119
+    },
+    "positiveRatio": 87,
+    "negativeRatio": 9,
+    "eventMentions": [
+      {
+        "text": "things could be cheaper $ and, because xp is limited, you are stuck moving as slow as your xp gain, ",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "good game, pls keep it update n more content 🔥",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i've been playing this game for 2 days, it will be my 3rd day tomorrow. i've been grinding so far! a",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "please update more links",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "now date 6-7-2021 but u never updated bad app",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 87%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-21T11:42:38.216Z"
+}

@@ -1,0 +1,55 @@
+{
+  "appId": "com.snake.io.slither.worms",
+  "name": "Snake Lite® - Worm Snake Game",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "📍Snake Lite -Join a global community of over a hundred million players. As one of the top-rated snake IO games on the market, Snake Lite is trusted by millions for its smooth performance and addictive battle royale gameplay. \n\nLooking for a low-storage snake game that runs smoothly on older Android devices? Snake Lite is the ultimate offline worm io game designed for a lag-free experience even without Wi-Fi.\n\n📍Snake Lite is a classic, fun, and dynamic action PVP hungry io snake game — Relax, t",
+    "released": "Dec 30, 2020",
+    "updated": 1775803527000,
+    "version": "4.33.0",
+    "installs": "100,000,000+",
+    "score": 4.6784453,
+    "ratings": 458022,
+    "reviews": 1477,
+    "developer": "Hippo Lab",
+    "developerWebsite": "https://snakelite.fun/",
+    "genre": "Action",
+    "recentChanges": "★ Play the snake &amp; worms game!! <br>★ Enjoy it for free with your family and friends!! <br>★ New Events Online!"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 5,
+      "2": 2,
+      "3": 4,
+      "4": 4,
+      "5": 35
+    },
+    "positiveRatio": 78,
+    "negativeRatio": 14,
+    "eventMentions": [
+      {
+        "text": "i have purchased the newbie starter pack but i didn't get the package",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "game achaha hai bas kuch new features dalne ki jarurat hai baki sab theek hai",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:42.742Z"
+}

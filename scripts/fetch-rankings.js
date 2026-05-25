@@ -352,6 +352,16 @@ async function main() {
     completedAt: new Date().toISOString(),
   }, null, 2), 'utf-8');
 
+  // 自動寫入 schedule.log（不管是 .bat 排程還是手動 npm run fetch 都會記錄）
+  const scheduleLogPath = path.resolve(ROOT, DATA_DIR, 'schedule.log');
+  const now = new Date();
+  const pad = (n) => String(n).padStart(2, '0');
+  const logTimestamp = `${now.getFullYear()}/${pad(now.getMonth()+1)}/${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+  const logStatus = failures.length > totalExpected * 0.5 ? 'FAIL' : 'OK';
+  const logLine = `${logTimestamp} ${logStatus} [fetch] saved=${totalSaved}/${totalExpected}${failures.length > 0 ? ` fail=${failures.length}` : ''}\n`;
+  fs.appendFileSync(scheduleLogPath, logLine, 'utf-8');
+  log(`📝 已寫入 schedule.log: ${logLine.trim()}`);
+
   // 如果超過 50% 市場失敗，回傳非零 exit code
   if (failures.length > totalExpected * 0.5) {
     console.error(`\n❌ 超過半數抓取失敗 (${failures.length}/${totalExpected})，中斷流程`);

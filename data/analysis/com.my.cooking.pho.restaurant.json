@@ -1,0 +1,73 @@
+{
+  "appId": "com.my.cooking.pho.restaurant",
+  "name": "Pho Master: Cooking Fever",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Welcome to Pho Master: Cooking Fever – a fun and casual pho cooking simulator!\n\nStep into a playful kitchen world where you cook delicious pho, serve hungry customers, and upgrade your cooking skills. This is a fictional cooking game, designed for entertainment only.\n\n\nIf you love cooking games, food simulators, and chef challenges, this pho cooking game is perfect for you!",
+    "released": "Dec 12, 2025",
+    "updated": 1777876779000,
+    "version": "2.5",
+    "installs": "1,000,000+",
+    "score": 4.0367646,
+    "ratings": 3468,
+    "reviews": 1235,
+    "developer": "Brocker Bus Studio",
+    "developerWebsite": "https://gamejoyst.github.io/",
+    "genre": "Role Playing",
+    "recentChanges": "Have fun!"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 27,
+      "2": 18,
+      "3": 14,
+      "4": 10,
+      "5": 31
+    },
+    "positiveRatio": 41,
+    "negativeRatio": 45,
+    "eventMentions": [
+      {
+        "text": "i paid for it because i really like the concept. but please make update it. i want it to play offlin",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i really luv this game thanks developers i just wish yall will do an update add more customers etc, ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "plss update more",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i don't think there's enough ads in this game. i mean, having to watch only 4 back to back ads after",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-12T11:43:16.363Z"
+}

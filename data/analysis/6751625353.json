@@ -1,0 +1,45 @@
+{
+  "appId": "6751625353",
+  "name": "West Game II",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Welcome to West Game II, where the rugged spirit of the American Frontier comes to life in your quest to build a thriving town amid the chaos of the Wild West. As the leader of an emerging settlement in post-Civil War America, you will rescue townsfolk, build a formidable gang, and carve your name into the annals of Western history.\n\nIn 1865, the Civil War had ended, but the struggle for survival in the lawless West had just begun. Dreamers and fortune-seekers flood the Frontier, each fighting f",
+    "released": "2025-09-15T07:00:00Z",
+    "updated": "2026-04-10T09:24:21Z",
+    "version": "1.6.0",
+    "score": 4.78648,
+    "reviews": 281,
+    "developer": "LEXIANGCO.,LIMITED",
+    "developerUrl": "https://apps.apple.com/ph/developer/lexiangco-limited/id1468865680?uo=4",
+    "genres": [
+      "Games",
+      "Strategy",
+      "Simulation",
+      "Entertainment"
+    ],
+    "releaseNotes": "* Bugs fixed and other optimizations"
+  },
+  "reviewAnalysis": {
+    "total": 4,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 4
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:08:15.811Z"
+}

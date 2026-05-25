@@ -1,0 +1,42 @@
+{
+  "appId": "jp.konami.prospia",
+  "name": "プロ野球スピリッツA",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Approved by the Nippon Professional Baseball Organization. All other copyrights or trademarks are the property of their respective owners and are used under license.\n---------------------------------------------\nThe definitive realistic professional baseball game has finally arrived!\nRecreate the realism of professional baseball with the highest quality visuals.\nAim for the championship of Japan with your strongest, most trained team!\n\n---------------------------------------------\n◇Important Not",
+    "released": "Oct 20, 2015",
+    "updated": 1778483558000,
+    "version": "22.1.2",
+    "installs": "5,000,000+",
+    "score": 4.2,
+    "ratings": 114187,
+    "reviews": 36847,
+    "developer": "KONAMI",
+    "developerWebsite": "https://www.konami.com/games/prospi_a/",
+    "genre": "Sports",
+    "recentChanges": "【Ver.22.1.2】<br>■メインビジュアルとアプリアイコンを変更しました。<br>■イベント用のリソースを追加しました。<br>※詳細はアプリ内のお知らせをご覧下さい。"
+  },
+  "reviewAnalysis": {
+    "total": 52,
+    "starCounts": {
+      "1": 9,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 34
+    },
+    "positiveRatio": 73,
+    "negativeRatio": 21,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-21T11:41:28.197Z"
+}

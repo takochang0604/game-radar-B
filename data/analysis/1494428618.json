@@ -1,0 +1,45 @@
+{
+  "appId": "1494428618",
+  "name": "あんさんぶるスターズ！！Music",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "個性豊かなアイドルたちのライブを楽しむリズムゲーム\n『あんさんぶるスターズ！！Music』\n\n初心者から上級者まで楽しめる本格派リズムゲームで、豪華3D演出のMVを心ゆくまで楽しめます。\n収録楽曲は200曲以上！\nアイドルや衣装を入れ替えて、あなただけのライブを自由自在に創り上げよう！\n\n◆◇ストーリー◇◆\n新たなアイドル時代の幕開け！\n全世界の人々に〝アイドルのすべて〟を発信しよう！\n\n突如『アンサンブルスクエア』（通称：『ＥＳ』）上空に飛来した天空のワンダーランド・メガスフィア！\nあなたは四つの芸能事務所に所属する個性弾けるアイドルたちをプロデュースし、　前代未聞の新配信番組『メガストリーム』を手掛けていくことに――\n\n胸踊るエンターテイメント、ノンストップのサプライズ\nアイドル界の新時代は〝ここ〟から始まる！！\n\n◆◇クレジット◇◆\n【タイトル】あんさんぶるスターズ！！Music\n【ジャンル】男子アイドル育成リズムゲーム\n【公式サイト】：https://ensemble-stars.jp\n【公式X】：https://x.com/enstars_music\n【キャスト】阿座上洋平/",
+    "released": "2020-03-12T07:00:00Z",
+    "updated": "2026-05-13T03:03:42Z",
+    "version": "2.0.47",
+    "score": 4.4,
+    "reviews": 69578,
+    "developer": "Happy Elements K.K",
+    "developerUrl": "https://apps.apple.com/jp/developer/happy-elements-k-k/id574733038?uo=4",
+    "genres": [
+      "ゲーム",
+      "ミュージック",
+      "アクション",
+      "エンターテインメント"
+    ],
+    "releaseNotes": "- 細かな改善"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:04:10.693Z"
+}

@@ -1,0 +1,49 @@
+{
+  "appId": "6758422044",
+  "name": "넋나간 삼국지",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "생사의 경계에서 차원의 균열이 열렸다\n죽은 삼국 영웅들이 유령 장수로 돌아왔다\n인간 장수 × 유령 장수\n두 세계를 지휘할 주공은 바로 당신!\n\n▶ 정신나간 삼국, 귀혼 영웅으로 각성!\n삼국 명장들이 유령 장수로 부활!\n인간 ↔ 귀혼 영웅, 자유롭게 변신!\n상식 파괴 조합으로 전장을 뒤흔들어라!\n\n▶ 넋나간 전략, 한 판이면 빠진다\n50+ 무장으로 만드는 나만의 덱!\n인연, 보물, 병부까지 완벽 조합!\n생각할수록 강해지는 전략의 재미!\n\n▶ 한 번 빠지면 못 나오는 귀혼 영웅 세계\n다크하게 뒤틀린 삼국지 세계관!\n영웅들의 또 다른 운명을 직접 경험하라!\n혼돈의 시대, 당신의 영지를 확장하라!\n\n▶ 손 놓으면 더 강해지는 방치 시스템\n24시간 자동 전투!\n접속 하지 않아도 보상은 계속 쌓인다!\n편하게 키우는 진짜 방치형 RPG\n\n▶ 같이 미치면 더 재밌다, 연맹 콘텐츠\n친구들과 연맹 결성!\n대규모 전장에서 함께 싸워라!\n연맹 한정 보상까지 싹 쓸어가세요!\n\n----------------",
+    "released": "2026-05-12T07:00:00Z",
+    "updated": "2026-05-14T02:57:35Z",
+    "version": "1.0.13",
+    "score": 4.7,
+    "reviews": 1033,
+    "developer": "BYTEFUN GAMES PTE.LTD.",
+    "developerUrl": "https://apps.apple.com/kr/developer/bytefun-games-pte-ltd/id1773261999?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉"
+    ],
+    "releaseNotes": "시스템 최적화"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 7 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:47:51.281Z"
+}

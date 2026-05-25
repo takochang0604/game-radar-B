@@ -1,0 +1,78 @@
+{
+  "appId": "com.superplaystudios.disneysolitairedreams",
+  "name": "Disney Solitaire",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Welcome to Disney Solitaire, the ultimate solitaire card game that transforms classic tripeaks solitaire into an exciting experience filled with Disney magic! \n\nPlay through beautifully designed levels inspired by iconic Disney and Pixar scenes while solving fun and challenging puzzles.\n\nStep into the enchanting realm of Disney Solitaire, where every postcard recreates an iconic scene from the worlds of Disney and Pixar! \nFrom the moment you start playing, you’ll find yourself immersed in colorf",
+    "released": "Apr 16, 2025",
+    "updated": 1778766092000,
+    "version": "1.18.1",
+    "installs": "10,000,000+",
+    "score": 4.4,
+    "ratings": 688487,
+    "reviews": 2751,
+    "developer": "SuperPlay.",
+    "genre": "Card",
+    "recentChanges": "Get ready for an amazing update!<br>* Prepare for NEW levels!<br>* Unlock NEW Disney characters!<br>* Join the magic with NEW DISNEY FEATURES!<br>* Enjoy performance improvements for a smoother gaming experience!<br>Play Disney Solitaire!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 9,
+      "2": 1,
+      "3": 4,
+      "4": 21,
+      "5": 165
+    },
+    "positiveRatio": 93,
+    "negativeRatio": 5,
+    "eventMentions": [
+      {
+        "text": "it's really fun and not hard to get the hang new of!",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "update. when you are on the last draw card and it is a match it doesn't hint. game is a challenge an",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this game is fun and cute but it crashes several times a day. update- i tried to report it in the ga",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "downloaded a version, got to level 3, had to update app. now, playing smoothly, no commercials, nice",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 93%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:31.388Z"
+}

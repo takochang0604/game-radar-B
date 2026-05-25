@@ -1,0 +1,39 @@
+{
+  "appId": "com.ewhjgfkz.ewjdlkz",
+  "name": "Giác Ngộ Thuật Chú",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Siêu Phẩm Mobile RPG Chú Thuật Hồi Chiến Đã Cập Bến! Tập hợp các chú thuật sư và cùng nhau thanh tẩy chú nguyền ngay!\n\n[Tính Năng Game]\n\n---Cốt Truyện Nguyên Bản---\nTrải nghiệm câu chuyện Chú Thuật Hồi Chiến dưới góc nhìn của các nhân vật chính! Sống lại những trận chiến kịch tính từ anime.\nTừ Bách Dạ Quỷ Hành đến Tử Diệt Hồi Du, những tình tiết kinh điển đều được tái hiện sống động!\n\n---Hội Tụ Đầy Đủ Nhân Vật---\nThu thập mọi nhân vật từ anime và thỏa mãn khao khát sở hữu bộ sưu tập tối thượng c",
+    "updated": 1777543956000,
+    "version": "1.0.6",
+    "installs": "50,000+",
+    "score": 4,
+    "ratings": 219,
+    "reviews": 166,
+    "developer": "Md.Tarikuzzaman",
+    "genre": "Role Playing"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 100,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:37:33.316Z"
+}

@@ -1,0 +1,78 @@
+{
+  "appId": "com.x.aoz.gl",
+  "name": "Attack on Zombies",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Doomsday is here! Quit sunbathing—the Zombie Kings are calling you out by name!\nWelcome to the Last Line of Defense! In this garden, acting cute won’t save you. This is a story of plant-based vengeance. Grab your weapons, command your botanical legion, and defend your home!\n\nGame Features:\n【Big Guy Incoming! Shoot It Down!】\nFacing a surging tide of undead? Don't flinch—hold the line! See that jerk leading the pack? Open fire! Turn those Walking Dead into the most colorful fertilizer this garden ",
+    "released": "Apr 8, 2026",
+    "updated": 1779332204000,
+    "version": "1.1.24",
+    "installs": "10,000+",
+    "score": 4.7,
+    "ratings": 3026,
+    "reviews": 116,
+    "developer": "Vizta Games",
+    "developerWebsite": "https://www.viztagames.com/",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 82,
+    "starCounts": {
+      "1": 17,
+      "2": 5,
+      "3": 8,
+      "4": 9,
+      "5": 43
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 27,
+    "eventMentions": [
+      {
+        "text": "after the recent update. there is a bug when the level is completed, the game does not show that the",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "games 🎮 like this one • where it basically plays itself, with you only having limited input ... are",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "pretty good thus far but not far into it, will update at a different time",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "new dopamine",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "\"attack on zombies offers an addictive blend of strategy and casual gameplay. the progression system",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:31.501Z"
+}

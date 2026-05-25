@@ -1,0 +1,40 @@
+{
+  "appId": "com.xman.kr.gp",
+  "name": "X 클래시",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "The malevolent void tears through the continent, and an immortal plague engulfs civilization! Amidst this double catastrophe, only the true might can rise to power.\n\nIn this war for survival at the end of the world, you must awaken your instincts to survive and seize strategic command!\n\nThe Secret to Survival for the Ultimate: True power does not depend on mere brute force, but on the unbreakable bonds forged with comrades. Gather your comrades carefully; their bloodline will be the key to victo",
+    "released": "Oct 9, 2025",
+    "updated": 1778832896000,
+    "version": "1.0.101",
+    "installs": "100,000+",
+    "score": 4.6,
+    "ratings": 8160,
+    "reviews": 398,
+    "developer": "Glaciers Game",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 2,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 50,
+    "negativeRatio": 50,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-21T11:41:56.491Z"
+}

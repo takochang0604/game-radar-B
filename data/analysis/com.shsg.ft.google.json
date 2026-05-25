@@ -1,0 +1,41 @@
+{
+  "appId": "com.shsg.ft.google",
+  "name": "這三國有點獸",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "In the chaotic Three Kingdoms period, heroes rose up, and war raged across the land! The Demon King Zuo Ci seized the opportunity, unleashing the forbidden art of beast transformation, causing many famous generals of the Three Kingdoms to fall into the bodies of monstrous beasts. From then on, their combat power plummeted, and they gradually lost their humanity, becoming puppets manipulated by Zuo Ci.\n\nBut you—an awakened member of the Beastman race, born with powerful beast transformation poten",
+    "released": "Apr 29, 2026",
+    "updated": 1777518238000,
+    "version": "28.26.2",
+    "installs": "1,000+",
+    "score": 3.7619047,
+    "ratings": 42,
+    "reviews": 11,
+    "developer": "MetaDream",
+    "developerWebsite": "http://www.ijunhai.com/",
+    "genre": "Role Playing"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-11T11:41:29.403Z"
+}

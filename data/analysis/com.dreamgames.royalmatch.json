@@ -1,0 +1,61 @@
+{
+  "appId": "com.dreamgames.royalmatch",
+  "name": "Royal Match",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Welcome to Royal Match, the king of puzzle games! Swipe colors, solve match-3 puzzles and help King Robert decorate his castle. An exciting adventure is calling you!\n\nWe have thousands of challenging match-3 levels for you to play in the Royal Arena! On this fun journey, you will solve exciting puzzles, receive coins for unlocking new areas, decorate King Robert’s castle and get extra boosters to continue your saga. Also you can compete with millions of players in events such as King's Cup, Sky ",
+    "released": "Feb 25, 2021",
+    "updated": 1778249071000,
+    "version": "36263",
+    "installs": "100,000,000+",
+    "score": 4.6778383,
+    "ratings": 10251096,
+    "reviews": 10997,
+    "developer": "Dream Games, Ltd.",
+    "developerWebsite": "https://dreamgames.com",
+    "genre": "Puzzle",
+    "recentChanges": "Are you ready for a spectacular new update?<br>• Get ready for amazing 100 NEW LEVELS! Watch the TURTLE spread LEAVES across the board!<br>• Explore the NEW AREA! Craft colorful celebration at the PARADE ATELIER!<br>New levels are coming in every two weeks! Be sure to update your game to get the latest content!"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 13,
+      "2": 1,
+      "3": 7,
+      "4": 7,
+      "5": 72
+    },
+    "positiveRatio": 79,
+    "negativeRatio": 14,
+    "eventMentions": [
+      {
+        "text": "i would have given this game six stars but unfortunately since the update i am unable to collect car",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "pathetic. initially it was fun as rewards and booster were exciting but now players have started loo",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-11T11:40:54.740Z"
+}

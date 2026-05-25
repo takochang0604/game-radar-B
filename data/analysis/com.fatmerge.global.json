@@ -1,0 +1,79 @@
+{
+  "appId": "com.fatmerge.global",
+  "name": "Tasty Travels: Merge Game",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Tasty Travels\n\n\"Open your phone and join us on a journey around the culinary world!\"\nIn \"Tasty Travels\", you get to travel the world while experiencing local cuisines, learning to make various specialty dishes, and sharing with friends from all corners of the globe! The most exciting part? You can combine two identical ingredients to create new exquisite dishes, reveling in the joy of cooking!\n\nUnique Gameplay: Merge and Explore\nInnovative Merging: Discover and merge identical ingredients during",
+    "released": "Jul 29, 2024",
+    "updated": 1777260828000,
+    "version": "54.0.0",
+    "installs": "10,000,000+",
+    "score": 4.5577397,
+    "ratings": 88622,
+    "reviews": 1216,
+    "developer": "Century Games PTE. LTD.",
+    "developerWebsite": "https://www.centurygames.com/",
+    "genre": "Casual",
+    "recentChanges": "release 1741 (54.0.0) "
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 46,
+      "2": 9,
+      "3": 5,
+      "4": 0,
+      "5": 40
+    },
+    "positiveRatio": 40,
+    "negativeRatio": 55,
+    "eventMentions": [
+      {
+        "text": "one of the better merge games out there don't miss out. it is shockingly generous with newbie packs ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the aggressive advertising is a total turn-off. i see full-screen pop-ups for this game constantly a",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "rubbish update, will play for a while and next the game won't launch again until i uninstalled and i",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "it's a fun game but not at all like the advertisement... i just want to play but the limited energy ",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "3rd update- another massive sized update, less than 2 weeks later?!?! 2nd update- i guess i'm done p",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 13 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:03:46.062Z"
+}

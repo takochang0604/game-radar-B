@@ -1,0 +1,85 @@
+{
+  "appId": "com.outfit7.mytalkingtomfriends",
+  "name": "My Talking Tom Friends",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Join Talking Tom, Angela, Hank, Ginger, Ben, and Becca in the most exciting virtual pet adventure! Dive into a world of cool animals and endless fun! Visit their house and see why they are the ultimate pet friends!\n\nHere's why you'll love playing with them:\n\n- Take Care of All Six Friends: Interact with your favorite characters in one house! Feed, bathe, dress, and put them to sleep. Talk, play, and engage with Tom, Angela, Hank, Ginger, Ben, and Becca. Each character has their unique personalit",
+    "released": "Jun 11, 2020",
+    "updated": 1778842710000,
+    "version": "26.2.10.21240",
+    "installs": "500,000,000+",
+    "score": 4.4,
+    "ratings": 4051195,
+    "reviews": 26134,
+    "developer": "Outfit7 Limited",
+    "developerWebsite": "https://talkingtomandfriends.com/support/",
+    "genre": "Casual",
+    "recentChanges": "Bug fixes and minor gameplay improvements."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 18,
+      "2": 6,
+      "3": 9,
+      "4": 16,
+      "5": 151
+    },
+    "positiveRatio": 84,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "this game is very interesting to children and they also learn something new.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "wow i like this game i like the second floor part and i want to update it so i can go to every place",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "bad update, i can't get off pijamas",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "very entertainment good graphics and funny little animals like tom, angela, ben and more play the ga",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "game is not that much bad but i just wants to ask why did u updated this game previously it used to ",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 84%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:43:10.690Z"
+}

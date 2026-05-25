@@ -1,0 +1,50 @@
+{
+  "appId": "6741567125",
+  "name": "Clash of Critters",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "【Collect 100+ Unique Tataris!】\nForget generic designs! Collect them all in just 1 month—from the goofy Frugling to the sassy Solpear!\n\n【Evolve to Power Up!】\nReach formidable Tier 4 evolutions and unlock rare Glitter forms! How many can you get?\n\n【Strategy-Based Battles】\nMix and match formations to discover powerful combos! Crush the Zobo waves with your strategic genius!\n\n【Build Your Tatari Paradise】\nCraft a cozy home and interact with your pets— what happens if you drop Frostnip in the pool?",
+    "released": "2026-05-20T07:00:00Z",
+    "updated": "2026-05-20T07:00:00Z",
+    "version": "0.39.11",
+    "score": 4.9,
+    "reviews": 805,
+    "developer": "Farlight Games",
+    "developerUrl": "https://apps.apple.com/us/developer/farlight-games/id1605558679?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Roleplaying"
+    ],
+    "releaseNotes": "Clash of Critters Global Launch: Your Virtual Pet Paradise is Here!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 2 天，評分 4.9",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:37:30.153Z"
+}

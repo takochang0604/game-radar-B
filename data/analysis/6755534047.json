@@ -1,0 +1,45 @@
+{
+  "appId": "6755534047",
+  "name": "Pond Pals",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Aaron the Frog has a dream: to turn his pond into the world's hottest glamping site... but success never comes easy, and now he needs a helping hand (or is it leg?). Are you up to the challenge?\n\nBuild and customize your dream glamping site in a peaceful pond. Attract new frogs unique new visitors with charming personalities. Each visitor has its own preferences: some love to go fishing, others prefer sunbathing or drinking mushroom juice cocktails. Upgrade your facilities, cook tasty meals, hos",
+    "released": "2026-05-21T07:00:00Z",
+    "updated": "2026-05-21T07:00:00Z",
+    "version": "1.0.1",
+    "score": null,
+    "reviews": 0,
+    "developer": "HyperBeard Inc.",
+    "developerUrl": "https://apps.apple.com/us/developer/hyperbeard-inc/id1169188578?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Trivia",
+      "Simulation"
+    ],
+    "releaseNotes": "Little frog Aaron has a dream: to turn his pond into the world's most beautiful glamping site, but he has a hard time dealing with other people. Can you help him?\nYou build and customize a glamping site in a peaceful pond, attracting frogs and other kind of visitors with unique personalities. Each visitor has preferences, some love to go fishing, others prefer sunbathing or to drink mushroom juice.\nUpgrade tents, cook meals, host activities, and unlock new visitors over time!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-21T11:37:50.207Z"
+}

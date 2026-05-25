@@ -1,0 +1,74 @@
+{
+  "appId": "com.miHoYo.GenshinImpact",
+  "name": "Genshin Impact",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "This game includes optional in-game purchases, including random virtual items.\n\nStep into Teyvat, a vast world teeming with life and flowing with elemental energy.\n\nYou and your sibling arrived here from another world. Separated by an unknown god, stripped of your powers, and cast into a deep slumber, you now awake to a world very different from when you first arrived.\n\nThus begins your journey across Teyvat to seek answers from The Seven — the gods of each element. Along the way, prepare to exp",
+    "released": "Sep 26, 2020",
+    "updated": 1778145167000,
+    "version": "6.6.0_44318314_44476906",
+    "installs": "100,000,000+",
+    "score": 4,
+    "ratings": 5166793,
+    "reviews": 23433,
+    "developer": "COGNOSPHERE PTE. LTD.",
+    "developerWebsite": "https://genshin.hoyoverse.com/",
+    "genre": "Adventure",
+    "recentChanges": "Version &quot;Luna VII,&quot; Song of the Welkin Moon: Andante — Truth Amongst the Pages of Purana, is now available!<br>New Characters: Nicole, Lohen, Prune<br>New Events: Version Main Event &quot;Phantasmal Pals,&quot; etc.<br>New Stories: New Archon Quests and Story Quest<br>Miliastra Wonderland Update: New Manekin Cosmetics and Lobby<br>New Artifacts: Celestial Gift Set, Disenchantment in Deep Shadow Set<br>New Weapons: Angelos&#39; Heptades, Disaster and Remorse<br>TCG Update: New Character Cards and Action Cards"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 154,
+      "2": 13,
+      "3": 4,
+      "4": 4,
+      "5": 25
+    },
+    "positiveRatio": 14,
+    "negativeRatio": 84,
+    "eventMentions": [
+      {
+        "text": "mid update, no skip button and gate keeping exploration features, what happened to my boy rerir. why",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "love this game, the new update main story is peak as we go back to sumeru and beat dottore the secon",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i think that it will be great if there's a way to level up faster in the game (for example, some pla",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "mostly everything is behind a paywall in the gacha system, outfits and the miliastra wonderland mode",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "haii, di uptade ini knp aku ga bisa update ya?? maaf, aku kasih bintang 3 dulu! perasaan memori ku n",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:37:38.795Z"
+}

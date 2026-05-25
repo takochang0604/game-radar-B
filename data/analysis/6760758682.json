@@ -1,0 +1,44 @@
+{
+  "appId": "6760758682",
+  "name": "这就是功夫 - 特工打怪割草大作战",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "感受拳拳到肉的打击感，体验策略与休闲的完美结合！身处危机四伏的武林，你将化身一代宗师，坚守阵地，以一当百，击溃源源不断的敌人！无需复杂操作，轻松上手，尽享自动攻击的爽快！\n\n 核心特色：\n  中心固守，轻松休闲： 告别繁琐走位，策略搭配技能与属性，守护你的武馆！\n 肉鸽功法，百变组合： 击败强敌，获取武功秘籍，主动、被动、辅助技能，每次都是独一无二的build体验！\n 双重养成，武力飞升： 局内糖果助力，临时提升战力；局外金币、钻石强化角色，解锁更多技能，抽取常驻功法，打造你的专属功夫大师！\n 多元挑战，层层突破： 主线关卡与无尽模式，考验你的功法搭配与角色培养，挑战极限，不断突破自我！\n 简约像素，轻松上手： 简约卡通像素风，上手门槛低，随时随地体验功夫的乐趣！\n\n更多精彩：\n  活动奖励、成就系统，海量资源助力成长！\n 不断更新的关卡与挑战，让你永远保持新鲜感！\n\n准备好迎接挑战了吗？来证明你的功夫吧！",
+    "released": "2026-04-13T07:00:00Z",
+    "updated": "2026-05-20T07:38:40Z",
+    "version": "1.1",
+    "score": 4.8,
+    "reviews": 1835,
+    "developer": "AkerSun Technology Co.,Ltd.",
+    "developerUrl": "https://apps.apple.com/cn/developer/akersun-technology-co-ltd/id1510868842?uo=4",
+    "genres": [
+      "游戏",
+      "动作",
+      "休闲"
+    ],
+    "releaseNotes": "抓住了一些Bug，现已修复\n本次更新优化了App性能，使用更加流畅稳定"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:40:08.604Z"
+}

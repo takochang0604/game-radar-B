@@ -1,0 +1,50 @@
+{
+  "appId": "6760175759",
+  "name": "밤탈출 - 49일",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "심야의 서울 2호선, 현실을 잠식한 이계와 끝없이 시작되는 괴담. 야근 중이던 당신은 '인도자'로 선택되었다!\n49일의 루프 속에서 악귀를 사냥하고 생존자를 구하며, 이세계 최강의 '인도자'가 되어보세요!\n이 루프의 끝에 무엇이 기다리고 있을까요?\n궁금해요? 궁금하면 오싹하게 털고 짜릿하게 탈출하라!\n\n-----------------------\n\n【한 손으로 귀신 소탕 · 신개념 로그라이크】\n한 손으로 300+ 스테이지 정복! 490+종 아티팩트로 즐기는 무한 로그라이크!\n\n【방치만 해도 성장 · 육성 부담 제로】\n대피소 자원이 차곡차곡! 간편한 캐릭터 육성으로 최강의 인도자로 거듭나세요!\n\n【49일 무한 루프 · 짜릿한 탈출】\n일상이 괴담의 무대로 변한다! 전투, 파밍, 탈출이 반복되는 짜릿한 손맛을 경험하세요!\n\n【2인 협동 · 함께해서 더 재밌다】\n2인 모드부터 듀오 PvP, 음성 채팅까지! 친구와 함께 유쾌하게 무한 루프를 탈출하세요!\n\n【무섭고도 웃긴 · 코믹 호러 신세계】",
+    "released": "2026-05-19T07:00:00Z",
+    "updated": "2026-05-19T07:00:00Z",
+    "version": "1.1",
+    "score": 4.7,
+    "reviews": 554,
+    "developer": "MOREFUN (H.K.) LIMITED",
+    "developerUrl": "https://apps.apple.com/kr/developer/morefun-h-k-limited/id1773044663?uo=4",
+    "genres": [
+      "게임",
+      "어드벤처",
+      "롤플레잉"
+    ],
+    "releaseNotes": "정식 런칭.\n게임 기능 최적화."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 3 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:38:13.256Z"
+}

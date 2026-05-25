@@ -1,0 +1,42 @@
+{
+  "appId": "6747331870",
+  "name": "Dark War: Survival VN",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Trang bị và sẵn sàng cho thử thách cuối cùng trong cuộc sống sót sau tận thế zombie! Hòa mình vào lối chơi hấp dẫn và khám phá những sự kiện lôi cuốn đang chờ đón bạn!\n\nKhi một loại virus zombie đột ngột và thảm khốc tàn phá xã hội loài người, cuộc sống yên bình trước đây của bạn bị phá vỡ. Gia đình và bạn bè biến thành những xác sống ngay trước mắt bạn. Trốn khỏi hỗn loạn của ngôi nhà đang sụp đổ, bạn giờ đây đối mặt với thử thách tối thượng: xây dựng nơi trú ẩn để sống sót trong thế giới tận t",
+    "released": "2025-07-02T07:00:00Z",
+    "updated": "2026-05-08T12:12:37Z",
+    "version": "1.250.645",
+    "score": 4.6974,
+    "reviews": 20734,
+    "developer": "Valar Technology Corp",
+    "developerUrl": "https://apps.apple.com/vn/developer/valar-technology-corp/id1438383758?uo=4",
+    "genres": [
+      "Games"
+    ],
+    "releaseNotes": "Chúng tôi sẽ sửa một số lỗi đã biết và tối ưu hóa một số trải nghiệm tính năng."
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 34,
+      "2": 1,
+      "3": 4,
+      "4": 0,
+      "5": 10
+    },
+    "positiveRatio": 20,
+    "negativeRatio": 71,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-09T15:03:31.356Z"
+}

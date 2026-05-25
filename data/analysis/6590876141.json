@@ -1,0 +1,45 @@
+{
+  "appId": "6590876141",
+  "name": "Color Slide - Hexa Puzzle",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "► Hex-traordinary Fun\n\nLooking for a simple yet difficult puzzle that will both help you relax AND train your brain? Color Slide is your one stop shop for all of that and more! Sort and color match hexagons across the playing field, merging colors and making room for more pieces to appear. As you do so your stress will just slip away!\n\n► Hex-cellent Work \n\nWhat might seem simple at first gets progressively more difficult and challenging as you progress and more colors of hexagons appear, and the",
+    "released": "2024-08-01T07:00:00Z",
+    "updated": "2026-05-14T12:41:34Z",
+    "version": "2.0",
+    "score": 4.7,
+    "reviews": 40601,
+    "developer": "SayGames LTD",
+    "developerUrl": "https://apps.apple.com/us/developer/saygames-ltd/id1551847165?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Entertainment",
+      "Puzzle"
+    ],
+    "releaseNotes": "- Bug fixes\n- Gameplay improvements"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:40:20.877Z"
+}

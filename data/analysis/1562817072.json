@@ -1,0 +1,50 @@
+{
+  "appId": "1562817072",
+  "name": "Mob Control",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "ODDLY SATISFYING GAMEPLAY\nCreate massive mobs and lead them to victory in the most competitive and relaxing game in the App Store!\n\nUnlock all the Cannons, Mobs and Champions in the armory and discover their amazing evolutions as you level them up.\n\nChoose the best combo and rise to the top of the Champions League!\n\n\nODDLY SATISFYING GAMEPLAY\n- Aim and shoot at the multiplying gates and watch your mob grow huge!\n- Deploy your Champions to break through the enemy mob and reach their base.\n- Use t",
+    "released": "2021-05-12T07:00:00Z",
+    "updated": "2026-05-08T16:18:27Z",
+    "version": "3.16.3",
+    "score": 4.61014,
+    "reviews": 10573,
+    "developer": "Voodoo",
+    "developerUrl": "https://apps.apple.com/ph/developer/voodoo/id714804730?uo=4",
+    "genres": [
+      "Games",
+      "Casual"
+    ],
+    "releaseNotes": "- Piñata Party - New Season splash screen update & themed Collect Challenge\n- App icon update\n- Partial Release - Onboarding balancing tweaks and improvements\n- Some additional fixes"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 26,
+      "2": 5,
+      "3": 9,
+      "4": 2,
+      "5": 7
+    },
+    "positiveRatio": 18,
+    "negativeRatio": 63,
+    "eventMentions": [
+      {
+        "text": "too many ads and almost impossible to win the event games",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-11T11:42:17.578Z"
+}

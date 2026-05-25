@@ -1,0 +1,42 @@
+{
+  "appId": "jp.co.koeitecmo.Might",
+  "name": "三國志 覇道",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "\"Romance of the Three Kingdoms: Hadou\" is a strategy simulation game where you fight alongside the unique military commanders of the Romance of the Three Kingdoms!\nThe first smartphone app for Koei Tecmo's \"Romance of the Three Kingdoms\" series is now available in its 35th anniversary!\nSet on a vast continent, the military commanders of the Romance of the Three Kingdoms clash in real time and compete for everything!\nAim to unify China with the military commanders of the Romance of the Three King",
+    "released": "Sep 14, 2020",
+    "updated": 1779245545000,
+    "version": "1.22.21",
+    "installs": "100,000+",
+    "score": 4,
+    "ratings": 14008,
+    "reviews": 3538,
+    "developer": "KOEI TECMO GAMES CO., LTD.",
+    "developerWebsite": "https://www.gamecity.ne.jp/sangokushi_hadou/",
+    "genre": "Simulation",
+    "recentChanges": "【1.22.21】<br>◆アプリの安定化や不具合の修正<br><br>【1.22.20】<br>◆今後のデータ更新で使用可能になる機能の追加<br>◆UIやテキスト、演出の調整<br>◆その他、アプリの安定化や不具合の修正"
+  },
+  "reviewAnalysis": {
+    "total": 5,
+    "starCounts": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    },
+    "positiveRatio": 60,
+    "negativeRatio": 40,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-21T11:39:53.298Z"
+}

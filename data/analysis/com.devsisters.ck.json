@@ -1,0 +1,85 @@
+{
+  "appId": "com.devsisters.ck",
+  "name": "CookieRun: Kingdom",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "◼︎ EVERYONE'S FAVORITE TINY HEROES: THE COOKIES\nMeet our Cookies, all voiced by an amazing cast of voice actors\nWitness their epic skills, fall in love with their voices, and dress them into new chic costumes.\nJoin the Cookies in CookieRun: Kingdom!\n\n◼︎ EMBARK ON AN EPIC JOURNEY AROUND EARTHBREAD\nThe secrets of the ancient Cookies and their kingdoms are waiting to be unraveled.\nJoin GingerBrave and his friends against Dark Enchantress Cookie and her dark legion.\nThe chronicles of CookieRun: King",
+    "released": "Jan 19, 2021",
+    "updated": 1778494314000,
+    "version": "VARY",
+    "installs": "10,000,000+",
+    "score": 4.8,
+    "ratings": 1492508,
+    "reviews": 144241,
+    "developer": "Devsisters Corporation",
+    "developerWebsite": "https://cs.devsisters.com/ko/cookierun-kingdom",
+    "genre": "Role Playing",
+    "recentChanges": "- New Episode: Timeline of Fate<br>- New: Daily Play Log<br>- New: Arcade Arena<br>- New Cookies: Timekeeper Cookie (LEGENDARY), Ash Salt Cookie (EPIC)<br>- New Treasure<br>- 2 New Costumes: Black Sapphire Cookie (LEGENDARY), Candy Apple Cookie (EPIC)"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 12,
+      "2": 2,
+      "3": 13,
+      "4": 17,
+      "5": 156
+    },
+    "positiveRatio": 87,
+    "negativeRatio": 7,
+    "eventMentions": [
+      {
+        "text": "cookierun kingdom is my favorite game,the graphics are amazing as well as the storyline. all the upd",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "gacha is rigged in a good way😭😭😭 first i go into the timekeeper cookie update i get in i get 1000",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "it is so fun the reason why u can do many things! and there r fun events in the game! and u can have",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "this game is super fun. even though i loose my account sometimes (cuz new phone) its easy for me to ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i love cookie run kingdom!! i play it everyday and i find new cookies a lot! it's also a great chall",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 87%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-19T12:54:47.517Z"
+}

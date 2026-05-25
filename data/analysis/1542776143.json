@@ -1,0 +1,45 @@
+{
+  "appId": "1542776143",
+  "name": "Pocket Champs: 3D Racing Games",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Are you ready for an action-packed multiplayer idle racing game? Train your Champ, improve its stats, get him the best gadget and win the race!\n\nPocket Champs is a fun multiplayer idle game. Focus your training time on running, flying, or climbing and develop the best strategy before the race. Compete globally against other Champs: who will win the crown?\n\nRunning shoes, fins, or pick? Choose the best gadget to give you an edge during the race! Open new chests every day and unlock some legendary",
+    "released": "2022-07-14T07:00:00Z",
+    "updated": "2026-04-30T12:47:39Z",
+    "version": "7.6.0",
+    "score": 4.7,
+    "reviews": 4618,
+    "developer": "MADBOX",
+    "developerUrl": "https://apps.apple.com/ph/developer/madbox/id981448700?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Racing",
+      "Sports"
+    ],
+    "releaseNotes": "Hey, Coaches! We are continuously improving your game experience with bug fixes and changes based on community feedback. Thank you for racing with us!\n\nPlease visit the Pocket Champs Hub to learn about current and future game events!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:39:36.815Z"
+}

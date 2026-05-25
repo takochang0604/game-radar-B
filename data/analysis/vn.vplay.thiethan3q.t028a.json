@@ -1,0 +1,42 @@
+{
+  "appId": "vn.vplay.thiethan3q.t028a",
+  "name": "Samkok Tam Quốc - Vplay",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Three Kingdoms Game gives you 1000 spins right from the start, easily allowing you to summon Cao Cao, Guan Yu, Lu Bu, Zhao Yun, and a stunning harem. SamKok Battle - Thousands of spins!!!\n\nStep into the brand new world of the Three Kingdoms - Famous generals gather, stunning beauties serve the Lord, epic battles demand sophisticated tactics. Join now and conquer the Three Kingdoms!\n\n1. 1000 SPINS – RECRUIT FAMOUS 3Q GENERALS – CONSTANTLY CHANGE YOUR TACTICS\nEvery 10 recruitment spins guarantees ",
+    "released": "Feb 26, 2026",
+    "updated": 1772079895000,
+    "version": "1.1.1",
+    "installs": "100,000+",
+    "score": 4.778555,
+    "ratings": 25174,
+    "reviews": 8983,
+    "developer": "VPLAY Game",
+    "developerWebsite": "https://www.vtvlive.vn/",
+    "genre": "Role Playing",
+    "recentChanges": "Update icon app"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 11,
+      "2": 2,
+      "3": 1,
+      "4": 1,
+      "5": 35
+    },
+    "positiveRatio": 72,
+    "negativeRatio": 26,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:57.341Z"
+}

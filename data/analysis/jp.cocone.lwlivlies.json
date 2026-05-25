@@ -1,0 +1,42 @@
+{
+  "appId": "jp.cocone.lwlivlies",
+  "name": "リヴリヴ　終末スローライフ",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "A post-apocalyptic slow life lived alongside the mysterious creatures, Livlies.\nBorrowing the body of a Livly created through alchemy,\nyou'll explore a post-apocalyptic world and build your life.\n\nExplore various areas at your leisure,\ngenerate new Livlies endlessly,\ndecorate your avatar and house as you please,\nand sometimes engage in life-or-death battles with monsters—find your own way of life in this alternate world.\n\n◆The Mysterious Creatures: \"Livlies\"\nLivlies are artificial creatures born",
+    "released": "Apr 16, 2026",
+    "updated": 1778495865000,
+    "version": "1.0.3",
+    "installs": "100,000+",
+    "score": 3.8,
+    "ratings": 270,
+    "reviews": 139,
+    "developer": "cocone ONE corporation",
+    "developerWebsite": "https://lwlivlies.livly.com/",
+    "genre": "Simulation",
+    "recentChanges": "不具合の修正を行いました<br>・一部環境でソーシャルログインができなくなる<br>・終末レポートの更新が正しく行われない<br>・終末アクティビティの進捗が反映されない<br>・餌やりで経験値が正しく付与されない<br>引き続き、終末世界での暮らしをお楽しみください…"
+  },
+  "reviewAnalysis": {
+    "total": 7,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 4
+    },
+    "positiveRatio": 71,
+    "negativeRatio": 14,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:37:28.796Z"
+}

@@ -1,0 +1,85 @@
+{
+  "appId": "com.vitastudio.mahjong",
+  "name": "Vita Mahjong",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Vita Mahjong is an Exclusive Puzzle Game of Tile Matching. We are thrilled to present the mahjong  game that combines innovation with classic gameplay. It offers large tiles and a user-friendly interface compatible with pads and phones. Our goal is to provide a relaxing yet mentally engaging gaming experience, particularly focused on older adults.\n\nAt Vita Studio, we have always been dedicated to crafting mobile games designed for seniors that bring back relaxation, fun, and joy. Our repertoire ",
+    "released": "Jan 9, 2024",
+    "updated": 1779362406000,
+    "version": "3.21.1",
+    "installs": "100,000,000+",
+    "score": 4.8,
+    "ratings": 5319520,
+    "reviews": 4316,
+    "developer": "Vita Studio.",
+    "developerWebsite": "https://www.vitastudio.ai",
+    "genre": "Board"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 25,
+      "2": 6,
+      "3": 9,
+      "4": 8,
+      "5": 152
+    },
+    "positiveRatio": 80,
+    "negativeRatio": 16,
+    "eventMentions": [
+      {
+        "text": "update ruined the game. uninstalling",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this is a really good app, but it's got two drawbacks. the first is the temu ad with spins in it has",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "helps my mind to be quick & remember tiles. love this game. 3/12/2026 😡now the game keeps shutting ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i loved playing this app. i'm good at it. but the latest format change is terrible. i hate it. its n",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "absolutely do not like the new changes! i used to really love this game, i'm so saddened by the chan",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 80%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:01.010Z"
+}

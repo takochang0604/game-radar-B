@@ -1,0 +1,73 @@
+{
+  "appId": "com.netease.yyslshmt",
+  "name": "燕雲十六聲",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "*Sixteen Sounds of Yan Yun* is an epic, free-to-play open-world action-adventure RPG centered on martial arts culture. The game guarantees no pay-to-win mechanics, allowing every player to easily and stress-free experience their own martial arts story. Set against the backdrop of the turbulent Five Dynasties and Ten Kingdoms period in Chinese history, you will become a young swordsman, uncovering forgotten truths and the mysteries of your own origins. As the gentle breeze sweeps across the mount",
+    "released": "Dec 5, 2025",
+    "updated": 1777366324000,
+    "version": "3.8",
+    "installs": "100,000+",
+    "score": 3.849162,
+    "ratings": 2160,
+    "reviews": 992,
+    "developer": "LongE Play",
+    "genre": "Action",
+    "recentChanges": "河西大型資料片最終章：秦川4月30日更新！探索全新地圖，變成「風」感受秦川的四季！"
+  },
+  "reviewAnalysis": {
+    "total": 17,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 14
+    },
+    "positiveRatio": 88,
+    "negativeRatio": 6,
+    "eventMentions": [
+      {
+        "text": "not recommended to play on ur phone too big! xd , must have high-end gaming phone! . they need to pu",
+        "keywords": [
+          "event",
+          "update"
+        ]
+      },
+      {
+        "text": "the game is fine...what irritate me the most is loading always need too much verification, repair cl",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "wow i'm really speechless for this game, its too good i got addicted so bad, i played the pc version",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 88%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:38:19.102Z"
+}

@@ -1,0 +1,46 @@
+{
+  "appId": "com.rueutinue.janajlytic",
+  "name": "777 Grnd Foxrt",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Tap Spin to roll all eight cells at once. Symbols land randomly across the board. Three or more of the same symbol in any cluster scores points—count multiplied by symbol value. Larger clusters pay more. Five of a kind grants bonus. A full-board match is a super win. Each symbol carries a different point value. Cluster-based scoring, not just paylines.",
+    "released": "May 9, 2026",
+    "updated": 1778491913000,
+    "version": "6.0.96",
+    "installs": "5,000+",
+    "score": 4.6,
+    "ratings": 5,
+    "reviews": 1,
+    "developer": "M ali4702968",
+    "genre": "Casino"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 12 天，評分 4.6",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-21T11:42:35.879Z"
+}

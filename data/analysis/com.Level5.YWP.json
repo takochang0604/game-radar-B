@@ -1,0 +1,85 @@
+{
+  "appId": "com.Level5.YWP",
+  "name": "妖怪ウォッチ ぷにぷに",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "That \"Yokai Watch\"\nTurn it into a smartphone game with “Puni” and puzzles!\n\nEveryone's favorite monsters such as Jibanyan and Koma-san\nIt has become a “Yokai Puni” with a pleasant squishy feeling ♪\n\nTap to erase, connect and make bigger!\nThe squishy feeling is addictive!\n\n[How to play]\nClear the stage by defeating the enemy monsters that appear in each stage!\n\nTo attack, simply tap the \"Yokai Puni\" that falls from above to make it disappear.\nWhen connected, it becomes “huge”!\n\nChance for big dam",
+    "released": "Oct 20, 2015",
+    "updated": 1778833539000,
+    "version": "4.166.1",
+    "installs": "10,000,000+",
+    "score": 4.2,
+    "ratings": 337148,
+    "reviews": 151315,
+    "developer": "LEVEL-5 Inc.",
+    "developerWebsite": "http://yokai-punipuni.jp/",
+    "genre": "Puzzle",
+    "recentChanges": "・アプリアイコンの変更"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 15,
+      "2": 1,
+      "3": 5,
+      "4": 13,
+      "5": 166
+    },
+    "positiveRatio": 90,
+    "negativeRatio": 8,
+    "eventMentions": [
+      {
+        "text": "life changing i've wanted to play for over a decade, consistent updates keep it fresh",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i love this game, it's one of the best mobile apps i've ever used, the only thing that i could see a",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "pretty good and quite a casual game always having new content.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "waifu collabs 🔥",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "五等分の花嫁コラボありがとう",
+        "keywords": [
+          "コラボ"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 90%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:40:24.235Z"
+}

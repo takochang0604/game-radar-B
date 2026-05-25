@@ -1,0 +1,86 @@
+{
+  "appId": "com.wildspike.wormszone",
+  "name": "Worms Zone .io - Hungry Snake",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "You love games with tons of real fun and dynamic action? Then welcome to the Worms Zone.io, an awesome arcade, where you can become the great champion of the arena! Collect yummies and different powerups, defeat enemies, and become the biggest worm of them all! \n\nYou think it's hard? Relax, the rules are simple - explore the arena, collect all the food you see, and grow your worms as big as you can imagine - there are no limits! \n\nStand out from the other players, choose a skin from the wardrobe",
+    "released": "Apr 2, 2018",
+    "updated": 1778858441000,
+    "version": "6.24.0",
+    "installs": "500,000,000+",
+    "score": 4.3,
+    "ratings": 3184783,
+    "reviews": 52335,
+    "developer": "CASUAL AZUR GAMES",
+    "developerWebsite": "https://aigames.ae/",
+    "genre": "Action",
+    "recentChanges": "Dinosaurs and dragons are taking over the arena once again! Join the updated &quot;Age of Dinosaurs&quot; event featuring a brand-new animated worm - Dilophosaurus! Right after that, the ancient battle between &quot;Knights and Dragons&quot; begins, bringing back last year’s favorites and introducing new warriors to the battlefield! And so you never miss an event, we’ve added a brand-new Event Calendar right in the lobby!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 20,
+      "2": 2,
+      "3": 12,
+      "4": 15,
+      "5": 151
+    },
+    "positiveRatio": 83,
+    "negativeRatio": 11,
+    "eventMentions": [
+      {
+        "text": "this is the very fantastic 🤩 game 🎯 am every day play ▶️ game new 😎",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "wao nice game worms zone but he game a network network connect my friend he network connect to he my",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "why the version 6.24.0 not available theres no update button available",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i play this game everyday when i'm free. very good game ❤️👍🏼😊😊😊🤗🥹🔥😘😘 one suggestion tho ca",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      },
+      {
+        "text": "you are using too many ai bots.... edit: what a rude reply to honest feedback. fyi we all know event",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 83%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:00.039Z"
+}

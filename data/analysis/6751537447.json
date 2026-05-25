@@ -1,0 +1,43 @@
+{
+  "appId": "6751537447",
+  "name": "Snake Puzzle: Slither to Eat!",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Guide your snake through tricky puzzles, eat apples to grow longer, and reach the teleportation portal. Each move matters plan carefully to make your snake long enough to succeed!\n\nKey Features:\n\nStrategic Gameplay: Eat apples, grow longer, and reach the portal.\n\nChallenging Levels: Puzzles get harder as your snake grows.\n\nFun & Addictive: Easy to learn, hard to master!\n\nRelaxing & Engaging: A perfect mix of calm play and brain-teasing fun.\n\nReady to slither, eat, and grow your way to victory? T",
+    "released": "2025-08-30T07:00:00Z",
+    "updated": "2026-04-24T20:07:59Z",
+    "version": "2.11",
+    "score": 4.4,
+    "reviews": 2008,
+    "developer": "Superboost Soft Limited",
+    "developerUrl": "https://apps.apple.com/us/developer/superboost-soft-limited/id1879733249?uo=4",
+    "genres": [
+      "Games",
+      "Casual"
+    ],
+    "releaseNotes": "- Improved overall game stability."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:47:01.199Z"
+}

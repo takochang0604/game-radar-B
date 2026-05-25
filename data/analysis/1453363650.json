@@ -1,0 +1,44 @@
+{
+  "appId": "1453363650",
+  "name": "PUBG MOBILE：絕地求生M",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "【史詩級大逃殺巨作】\n超多活動，等你遊玩。\n在PUBG MOBILE登上顛峰，盡情開火。 PUBG MOBILE是原創的大逃殺手機遊戲，也是手機射擊遊戲巔峰之作。\n\n【極限火拼，10分鐘吃雞】\n準備好你的槍械，回應PUBG MOBILE的戰鬥召喚，在對戰中自由火拼。\n\n【大量地圖，更多戰鬥】\nPUBG MOBILE提供大量地圖玩法，讓你在不同地圖中享受全新刺激生存體驗。快找朋友一起遊玩新模式！隨心所欲，自由開火！\n\n【隨時隨地遊玩】\n放鬆心情盡情遊玩PUBG MOBILE！無可比擬的流暢體驗，讓你盡情射擊和火拼。\n\n【專為手機設計】\n提供自訂控制鍵、訓練模式，以及好友語音聊天。在手機上體驗最流暢的控制體驗和最逼真的武器。\n\nPUBG MOBILE為你帶來最逼真的道具和遊玩體驗。你有什麼願望，PUBG MOBILE都幫你實現。無數武器自由使用，快來試試你的槍法。全新物品、地圖和模式不斷增加中。\n\nPUBG MOBILE提供手機上最激烈的免費多人戰鬥。加入戰鬥，穿上裝備，痛快吃雞。在史詩級百人經典模式、火力全開模式、快節奏4V4團隊競技模式和殭屍模式求生。生存才是王道，活下來才能笑到最後。",
+    "released": "2019-05-01T07:00:00Z",
+    "updated": "2026-05-12T03:00:25Z",
+    "version": "4.4.0",
+    "score": 4.1,
+    "reviews": 83105,
+    "developer": "MAINSTREAM UNIVERSAL CO. LTD.",
+    "developerUrl": "https://apps.apple.com/tw/developer/mainstream-universal-co-ltd/id970970489?uo=4",
+    "genres": [
+      "遊戲",
+      "動作",
+      "冒險"
+    ],
+    "releaseNotes": "首個古希臘神話主題版本「英雄冠冕」現已登場！征服四大神殿城區，完成五大榮耀試煉，招募半人馬夥伴，並肩作戰！\n\n【大逃殺模式】\n1. 全新主題玩法：四大神秘城區 × 五大新奇試煉→挑戰及招募半人馬戰友，征服受冕之地。\n2. 主題玩法回歸：恐龍棲地主題玩法，闊別三年即將強勢回歸！\n3. 經典玩法：雙人敞篷跑車登場，渦輪增壓，狂飆開局。\n【新合作】\n藍色監獄/Harley-Davidson/Ford等多重重磅IP合作陸續登場，敬請期待！\n【WOW模式】\n獨立大廳（向右滑直達）+隨進隨出機制→找作品組隊一氣呵成。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-17T15:04:33.775Z"
+}

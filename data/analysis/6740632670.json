@@ -1,0 +1,44 @@
+{
+  "appId": "6740632670",
+  "name": "Return to Childhood - Life Sim",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Certificate of Registration for Providing Online Electronic Game Services (G2, G3, G4), No. 318/GCN-PTTH&TTĐT, issued by the Authority of Broadcasting and Electronic Information on December 24, 2024.\n\nReturn to Childhood – Cozy Village Life Simulation\nReturn to Childhood is a cozy idle village simulation game inspired by Vietnamese childhood memories from the early 2000s.\nPlay nostalgic mini games, build your village, upgrade houses, and earn money over time in a relaxing idle experience.\n\nKey F",
+    "released": "2025-01-25T08:00:00Z",
+    "updated": "2026-05-15T07:25:31Z",
+    "version": "1.24.1",
+    "score": 4.4,
+    "reviews": 23521,
+    "developer": "COROCHTI",
+    "developerUrl": "https://apps.apple.com/vn/developer/corochti/id1790877296?uo=4",
+    "genres": [
+      "Games",
+      "Simulation",
+      "Casual"
+    ],
+    "releaseNotes": "Update 1.24.1:\n+ Fixed some bugs"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:50:22.565Z"
+}

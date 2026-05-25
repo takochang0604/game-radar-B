@@ -1,0 +1,48 @@
+{
+  "appId": "com.jhkr.google",
+  "name": "문파존망겜",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "A Failing Sect, Is ‘Me’ the Last Hope?!\n\nYou suddenly find yourself in the Murim one day.\n\nWhen you open your eyes… the sect is already on the verge of collapse?!\n\nThe sect leader is gone, there are no disciples,\n\nand only I remain.\n\nNow, the fate of the sect rests on your choices and growth!\n\n▣Game Introduction▣\n\n▶ Outrageous and bizarre martial arts; they get stronger the more you combine them!\n\nMoonlight Sword Technique, Oppa Gangnam Skill… A full lineup of martial arts with suspicious names!",
+    "released": "Apr 29, 2026",
+    "updated": 1778491969000,
+    "version": "1.1.40.100",
+    "installs": "50,000+",
+    "score": 4.5,
+    "ratings": 4525,
+    "reviews": 1162,
+    "developer": "Avatar Technology Limited",
+    "developerWebsite": "https://avatargames-tw.com/",
+    "genre": "Role Playing",
+    "recentChanges": "인게임 최적화 패치"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 21 天，評分 4.5",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:49:14.036Z"
+}

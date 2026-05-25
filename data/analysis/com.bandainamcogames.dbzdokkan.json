@@ -1,0 +1,75 @@
+{
+  "appId": "com.bandainamcogames.dbzdokkan",
+  "name": "ドラゴンボールZ ドッカンバトル",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Connect your ki balls and unleash the Kamehameha!\nA transcendent battle that surpasses all of \"Dragon Ball Z\"!\n-----------------------------------------------------------\n[Simple controls! Defeat enemies with one touch!]\n▼Intuitive! Dokkan! Super-exciting! Battle development\nJust tap the \"Ki Balls\" on the battle screen!\nEasily unleash super-powerful special moves!\n\n[Game highlights!]\n▼Dream battles with \"Dragon Ball\" warriors\nFamiliar warriors make their big appearance!\nTrain and awaken your cha",
+    "released": "Jan 29, 2015",
+    "updated": 1775702987000,
+    "version": "6.1.0",
+    "installs": "5,000,000+",
+    "score": 4.3,
+    "ratings": 255939,
+    "reviews": 91505,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerWebsite": "https://www.bandainamcoent.co.jp/",
+    "genre": "Action",
+    "recentChanges": "6.1.0の更新内容<br>・スキル玉検索機能を改善しました<br>・一括売却/交換機能を実装しました<br>・キャラクターの所持上限枠をまとめて拡張できるようになりました<br>・その他不具合を修正しました"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 32,
+      "2": 8,
+      "3": 6,
+      "4": 15,
+      "5": 139
+    },
+    "positiveRatio": 77,
+    "negativeRatio": 20,
+    "eventMentions": [
+      {
+        "text": "the 11th anniversary celebration units are a low rate. 1.5k stones and not one pull",
+        "keywords": [
+          "anniversary"
+        ]
+      },
+      {
+        "text": "i appreciate dokkan battle! it certainly has come a long way. i still enjoy playing it daily since 2",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "as a dokkaner for 10+ years i say: pros are visuals & animations, content and events, fun, offline o",
+        "keywords": [
+          "event",
+          "limited",
+          "new"
+        ]
+      },
+      {
+        "text": "best mobile game, love the new ui and the better animations on the new units!",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "we need a stand-alone or a new vegito blue, but either way, the game is awesome",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:37:42.515Z"
+}

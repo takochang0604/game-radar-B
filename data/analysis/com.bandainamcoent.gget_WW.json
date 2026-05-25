@@ -1,0 +1,79 @@
+{
+  "appId": "com.bandainamcoent.gget_WW",
+  "name": "SD Gundam G Generation ETERNAL",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "The latest title from the Gundam strategy game series \"G Generation\" is finally available on your smartphone!\nDive into the world of Gundam and enjoy the game's unique system to upgrade, develop, and form squads with your favorite Mobile Suits and characters from your favorite series.\nEnjoy the epic battles where characters and Mobile Suits from all the series clash together! \n\n[Game Features]\n\n■ The most Mobile Suits and characters ever!\nPlay with over 850 Mobile Suits from 96 different Gundam ",
+    "released": "Apr 13, 2025",
+    "updated": 1778814832000,
+    "version": "2.1.1",
+    "installs": "1,000,000+",
+    "score": 4.8,
+    "ratings": 113456,
+    "reviews": 2600,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerWebsite": "https://www.bandainamcoent.co.jp/english/",
+    "genre": "Simulation",
+    "recentChanges": "- Resolution of minor issues"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 50,
+      "2": 16,
+      "3": 10,
+      "4": 12,
+      "5": 112
+    },
+    "positiveRatio": 62,
+    "negativeRatio": 33,
+    "eventMentions": [
+      {
+        "text": "next main event seed freedom",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "this is a game where being the best is optional. you can play your own way and still get the most of",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "unfortunately i saw a lot of reviews talks about this is not a f2p game and the pulling rates are aw",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "a promising start to a long time beloved series. here's to hoping the flow and gameplay can keep up ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "about day 50 into the game. game is pretty good and has events that gives pretty decent reward. mast",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-17T15:04:36.162Z"
+}

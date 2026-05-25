@@ -1,0 +1,50 @@
+{
+  "appId": "6759962815",
+  "name": "Garden Defense：พืช vs สไลม์",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "\"พืชสุดเท่ รวมพลัง ปกป้องสวน!\nวางแผนง่าย ๆ แต่สนุกสุดมันส์ในเกมป้องกันฐานสไตล์ชิล ๆ!\n\nล็อกอินรับทันที:\n ล็อกอินรับ 1000 กาชา! \n โกลด์*1500, เพชร*200, เอสเซนส์พืชสุ่ม*50, แพ็กสารละลายพืชเลเจนด์*10 \n พืชระดับเลเจนด์ — ทุเรียนแมน*25\n\n◆ คุมสนามรบให้ได้!\nสะสมแสงอาทิตย์ จัดวางพืช\nสร้างทีมพืชสุดแกร่ง วางแผนกลยุทธ์ ต้านทานศัตรูเป็นฝูง!\nปกป้องทานตะวัน พิชิตทุกด่าน!\n\n\n ◆ อัญเชิญกองทัพพืชสุดเท่!\nอีเวนต์เฉพาะไทย! รวมพลผลไม้เขตร้อนสุดเท่!\n ราชาแก๊งทุเรียนออร่าจัดเต็ม, มือสังหารมังคุดสุดเย็นชา, ผ้าสับปะรดสุดด",
+    "released": "2026-05-13T07:00:00Z",
+    "updated": "2026-05-15T03:46:28Z",
+    "version": "1.0.4",
+    "score": 4.8,
+    "reviews": 1495,
+    "developer": "Hong Kong Tanwan Information Technology Co.,Limited",
+    "developerUrl": "https://apps.apple.com/th/developer/hong-kong-tanwan-information-technology-co-limited/id1579873440?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Role-Playing"
+    ],
+    "releaseNotes": "bug fixes"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 9 天，評分 4.8",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:38:55.128Z"
+}

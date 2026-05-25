@@ -1,0 +1,44 @@
+{
+  "appId": "880047117",
+  "name": "Angry Birds 2",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Play the world's best bird flinging, pig popping game!\n\nUse the slingshot to fling birds at the piggies' towers and bring them crashing down – all to save the precious eggs.\n\nNew to the world of Angry Birds? Angry Birds 2 is the best way to get to know all of the iconic characters and experience the fun gameplay that has captured the hearts (and spare time) of millions of players.\n\nDecorated Angry Birds veteran? Everything you love about classic Angry Birds games is here with some awesome new ad",
+    "released": "2015-07-30T06:29:53Z",
+    "updated": "2026-05-05T08:14:48Z",
+    "version": "10.0.0",
+    "score": 4.6,
+    "reviews": 75135,
+    "developer": "Rovio Entertainment Oyj",
+    "developerUrl": "https://apps.apple.com/vn/developer/rovio-entertainment-oyj/id298910979?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Puzzle"
+    ],
+    "releaseNotes": "Minor fixes and improvements. Just cleaning up around the nest."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:38:52.595Z"
+}

@@ -1,0 +1,90 @@
+{
+  "appId": "dress.up.fashion.makeup.style.makeover.girl.rebel.queen",
+  "name": "Rebel Glam: Dress Up Games",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Every heart holds a magnificent spark, ready to shine. Your creativity, unique style, and confidence deserve a radiant place to glow.\nWelcome to Rebel Glam, an inspiring fashion simulation where beauty and imagination come to life. This is more than ordinary dress up games—it is a glorious celebration of self-expression and artistic design. Discover vibrant aesthetics, explore global trends, and create exquisite outfits that reflect your authentic personality.\n\nFrom E-Girl energy to Red Carpet g",
+    "released": "Apr 23, 2026",
+    "updated": 1779100483000,
+    "version": "1.0.5",
+    "installs": "1,000,000+",
+    "score": 4.7,
+    "ratings": 5826,
+    "reviews": 102,
+    "developer": "31 Dress up Games",
+    "developerWebsite": "http://www.31gamestudio.com/",
+    "genre": "Simulation"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 15,
+      "2": 5,
+      "3": 8,
+      "4": 24,
+      "5": 148
+    },
+    "positiveRatio": 86,
+    "negativeRatio": 10,
+    "eventMentions": [
+      {
+        "text": "this game is really fun but when i play fhe event everytime i win it will make me use and add and ad",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "cute game for kids, but too much ads, can you update some of the outfits? ♡",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "so fun i literally can't stop designing new characters",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "in this app, items that are supposed to be \"permanent\" (purchased with gems or obtained with ads) ar",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "my game crashed all the time and the items are very limited. not a wide range compared to other fash",
+        "keywords": [
+          "limited"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 27 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 86%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:52:30.769Z"
+}

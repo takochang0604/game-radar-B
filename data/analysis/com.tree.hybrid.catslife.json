@@ -1,0 +1,67 @@
+{
+  "appId": "com.tree.hybrid.catslife",
+  "name": "Cat's Life : Cute Simulation",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "🐾 What kind of life will your kitty live?\nBecome a kitten and experience every moment yourself in this cute idle life game!\n\nFrom a little kitty to an elderly cat, you’ll grow step by step, making meaningful choices along the way.\nPick a career, fall in love, and enjoy unique events and adventures in a world filled only with cats.\nEvery choice leads to a different story, so no two lives are ever the same!\n\n\n🐾 Life Choices\nDecide how your kitten will grow.\nChoose careers, discover love, and sha",
+    "released": "Oct 23, 2025",
+    "updated": 1775634753000,
+    "version": "1.0.27",
+    "installs": "100,000+",
+    "score": 4.3318453,
+    "ratings": 9487,
+    "reviews": 566,
+    "developer": "TREEPLLA",
+    "developerWebsite": "https://home.treeplla.com",
+    "genre": "Simulation",
+    "recentChanges": "- Bug fixes"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 25,
+      "2": 13,
+      "3": 15,
+      "4": 12,
+      "5": 35
+    },
+    "positiveRatio": 47,
+    "negativeRatio": 38,
+    "eventMentions": [
+      {
+        "text": "pretty glitchey, repeats same events several times, lots of ads, alot of events are worded weird or ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "language is so poor that every event is incomprehensible",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "it's very cute and fun to play, but i think some of the translations are a bit off and there are a f",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "a good time waster for a short period of time but ive found that after around 4 or 5 generations, it",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-06T11:23:46.950Z"
+}

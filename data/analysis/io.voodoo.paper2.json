@@ -1,0 +1,81 @@
+{
+  "appId": "io.voodoo.paper2",
+  "name": "Paper.io 2",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Move around the arena, draw a trail to grow your territory, and claim the zone before someone cuts you off. Simple rules, endless fun!\n\nFair warning: this game is seriously hard to put down!\n\nWhat makes Paper.io 2 so fun:\n∙ Smooth, satisfying arcade gameplay that just feels right\n∙ Online multiplayer you can jump into in seconds\n∙ 100+ unique skins to collect\n∙ Free rewards every day\n∙ Quick matches that fit into any break\n∙ A secret surprise if you manage to capture the entire map",
+    "released": "Sep 13, 2018",
+    "updated": 1779290576000,
+    "version": "4.31.1",
+    "installs": "100,000,000+",
+    "score": 3.8,
+    "ratings": 2435657,
+    "reviews": 7747,
+    "developer": "VOODOO",
+    "developerWebsite": "https://www.voodoo.io",
+    "genre": "Arcade",
+    "recentChanges": "MAJOR UPDATE<br>∙ Visuals: a new zone creation visual effect has been added<br>∙ Skins: 8 new hero outfits have been introduced<br>∙ Performance improvements &amp; bug fixes<br>Jump in the arena now!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 34,
+      "2": 6,
+      "3": 10,
+      "4": 29,
+      "5": 121
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 20,
+    "eventMentions": [
+      {
+        "text": "game itself isn't bad but the new style sucks, and you should return the spider skin's paint to grey",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "اللعبه حلوه اوي جدا زائد التحديث الجدبد خلاها احلي بجد لا تحفه the game is really great, and the new",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i liked this game, until i relized it was against bots. and the new update is rubish",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "extremely bad ad they have used like why would you put down roblox for ur own game atleast make it s",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "this game is so fun its simple easy to play and very addictive i can play it for hours and as usual ",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:39:39.260Z"
+}

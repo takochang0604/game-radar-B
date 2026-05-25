@@ -1,0 +1,80 @@
+{
+  "appId": "com.AppFore.BubbleWordJam",
+  "name": "Bubble Word Jam",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "This game is a clever and calm word puzzle where every connection matters, designed for fans of brain and mind challenges. Your goal is simple: match the bubble words to their correct categories and clear the board in this smart sorting experience.\n\nTap bubbles, identify themes, and find the perfect flow as you sort words into groups using pure logic and vocabulary. Smooth mechanics and responsive controls make every play feel precise and satisfying.\n\nWith gradually increasing difficulty and tho",
+    "released": "Sep 8, 2025",
+    "updated": 1778514576000,
+    "version": "0.12.3",
+    "installs": "100,000+",
+    "score": 4.6,
+    "ratings": 9295,
+    "reviews": 362,
+    "developer": "Lion Studios Plus",
+    "developerWebsite": "https://lionstudios.cc/",
+    "genre": "Word",
+    "recentChanges": "✨ New Release ✨<br><br>💛 New Levels<br>🛠️ Bug fixes and game improvements<br>🎯 UI updates and visual polish<br><br>Thanks for playing! More exciting updates are on the way. 💛"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 30,
+      "2": 15,
+      "3": 23,
+      "4": 21,
+      "5": 111
+    },
+    "positiveRatio": 66,
+    "negativeRatio": 23,
+    "eventMentions": [
+      {
+        "text": "so far, i'm really enjoying this game. engaging and no annoying ads.... yet.... which is a huge plus",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "lives are not filling back up, won 15 minutes of unlimited lives and they vanished. haven't been abl",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "getting 1 star at the moment as my lives just keep resetting to 0. i also paid for a welcome pack wi",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "lives are not refilling. i ran out last night yet every time i've tried to play today its say i'm ou",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "good: great game, new concept for me. multi-level categories & partial words are challenging. bad: p",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:39:49.247Z"
+}

@@ -1,0 +1,42 @@
+{
+  "appId": "6760453153",
+  "name": "ピクセル英雄伝",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "『ピクセル英雄伝』の世界では、鋭い戦術、緻密なフォーメーション、賢明なリソース管理が物語を牽引し、英雄たちの運命を紡いでいきます。",
+    "released": "2026-05-06T07:00:00Z",
+    "updated": "2026-05-07T02:44:16Z",
+    "version": "1.0.2",
+    "score": 3.66667,
+    "reviews": 3,
+    "developer": "Hubei Yingsu Network Technology Co., Ltd.",
+    "developerUrl": "https://apps.apple.com/jp/developer/hubei-yingsu-network-technology-co-ltd/id1896381840?uo=4",
+    "genres": [
+      "ゲーム"
+    ],
+    "releaseNotes": "利用体験の質を高める"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:02:06.637Z"
+}

@@ -1,0 +1,83 @@
+{
+  "appId": "1342290011",
+  "name": "Last Shelter: Survival",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "-Real Time Nation vs. Nation post-apocalyptic strategy war game. Join now! Your Country needs you!\n\n[Last Shelter: Survival] is a Massive Multi-Player, Real-Time strategy war game. The player will take upon the role of a leader of a small settlement in a world devastated by a zombie apocalypse. Build your own wasteland empire, train your troops, recruit legendary heroes and join your allies in the non-ending war even in the end of humanity. To befriend or to plunder, the choice is yours!\n\nUnique",
+    "released": "2018-02-19T11:23:28Z",
+    "updated": "2026-05-01T03:25:09Z",
+    "version": "26.404.1",
+    "score": 4.24524,
+    "reviews": 1733,
+    "developer": "LONG TECH NETWORK LIMITED",
+    "developerUrl": "https://apps.apple.com/ph/developer/long-tech-network-limited/id1040083066?uo=4",
+    "genres": [
+      "Games",
+      "Strategy",
+      "Entertainment",
+      "Role-Playing"
+    ],
+    "releaseNotes": "Ver. 26.404.1 is out!\nThe latest ver. 26.404.1 is now available.\n\nOptimizations\n\n1. 【Hero】 New SP Hero—Doomed Cowboy, coming soon.\n\n2. 【Doomsday Conquest】 Hero's Creed Season, faction hero optimizations.\n\nFixes\n\n1. Fixed some identified bugs.\n\nUpdate now to get 500 Diamonds!"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 22,
+      "2": 4,
+      "3": 4,
+      "4": 7,
+      "5": 12
+    },
+    "positiveRatio": 39,
+    "negativeRatio": 53,
+    "eventMentions": [
+      {
+        "text": "pure pay to win. no skill needed.  game is glitchy with server crashes. maintenance updates always b",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "many people on fb page in lss are saying that it was hacked? please tell us the updates",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "good job on collaborating with the walking dead management. daryll and maggie are great additions bu",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "i just update the game. and now i cant play the game. i uninstall and install the game. same happen.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "why is it i cant open the game after the i updated the app?",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-11T11:41:34.583Z"
+}

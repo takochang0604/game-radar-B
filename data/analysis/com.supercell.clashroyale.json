@@ -1,0 +1,74 @@
+{
+  "appId": "com.supercell.clashroyale",
+  "name": "Clash Royale",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "ALL FOR THE CROWN!\n\nBuild a formidable team, attack enemy towers, and use strategy skills to defend your own in multiplayer PvP card battles. Unlock 100+ unique cards, build an unrivalled battle deck, and defend your King’s Tower using strategy, wit, and Skeletons.\n\nClash Royale is free to download and play, however, some game items can also be purchased for real money (including random items). If you don't want to purchase game items for real money, please disable in-app purchases in your devic",
+    "released": "Mar 1, 2016",
+    "updated": 1777038814000,
+    "version": "140593015",
+    "installs": "500,000,000+",
+    "score": 4.501503,
+    "ratings": 41337331,
+    "reviews": 969305,
+    "developer": "Supercell",
+    "developerWebsite": "https://help.supercellsupport.com/clash-royale/en/",
+    "genre": "Strategy",
+    "recentChanges": "Various minor bug fixes and improvements"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 44,
+      "2": 3,
+      "3": 6,
+      "4": 6,
+      "5": 41
+    },
+    "positiveRatio": 47,
+    "negativeRatio": 47,
+    "eventMentions": [
+      {
+        "text": "worse update of the year",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "why so many updates",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "game has too many exploits especially now with the new updates. some people take advantage of it and",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "here i am playing game for 6 years and still have to play with limited cards because of lvl 15 16. t",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "long to update and there are too many!!!but it is fun",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-11T11:40:40.302Z"
+}

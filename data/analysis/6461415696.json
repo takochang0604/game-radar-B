@@ -1,0 +1,50 @@
+{
+  "appId": "6461415696",
+  "name": "Racing Master",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Racing Master is a high-quality racing game developed in collaboration with CODEMASTERS®. It features over 100 officially licensed iconic vehicles that players can customize, allowing them to compete in thrilling races set in cities and renowned circuits around the world. With realistic visuals and engine sounds, you can experience an immersive atmosphere that feels just like the real thing, while also enjoying fierce real-time competition with other players.\n \n——————————————\nKey Features of Rac",
+    "released": "2026-05-06T07:00:00Z",
+    "updated": "2026-05-06T10:03:24Z",
+    "version": "0.29.0",
+    "score": 4.7,
+    "reviews": 1116,
+    "developer": "NETEASE INTERACTIVE ENTERTAINMENT PTE. LTD",
+    "developerUrl": "https://apps.apple.com/us/developer/netease-interactive-entertainment-pte-ltd/id1485225410?uo=4",
+    "genres": [
+      "Games",
+      "Racing",
+      "Sports"
+    ],
+    "releaseNotes": "Racing Master enters new season with new vehicles and new content!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 8 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:43:03.876Z"
+}

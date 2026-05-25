@@ -1,0 +1,73 @@
+{
+  "appId": "com.ubisoft.invincible.guardians.globe.idle.superhero.rpg.battle.afk",
+  "name": "Invincible: Guarding the Globe",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Invincible: Guarding the Globe is an idle hero squad RPG set in the Invincible world featuring an epic story never seen in the Invincible comics or Amazon Prime Video series, with graphic multi battle action, character collection, team management, idle features and, of course, super-powered visuals.\n\nTHE WORLD OF INVINCIBLE\nAccompany the highly rated Amazon Prime Video animation with the first idle mobile RPG in the world of Invincible.\nBecome the hero in this epic campaign featuring an original",
+    "released": "Feb 15, 2024",
+    "updated": 1776690486000,
+    "version": "3.1.8",
+    "installs": "1,000,000+",
+    "score": 4.6,
+    "ratings": 77138,
+    "reviews": 7557,
+    "developer": "Ubisoft Entertainment",
+    "developerWebsite": "https://www.ubisoft.com/",
+    "genre": "Role Playing",
+    "recentChanges": "NEW UPDATE<br>- We&#39;re bringing even MORE characters and events from Season 4 of Prime Video&#39;s hit Invincible!<br>- A new threat just arrived: Face the infamous Lizard League soldiers<br>- A new GDA Case File is available now: Explore the mystical story of Seance Dog"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 18,
+      "2": 14,
+      "3": 12,
+      "4": 19,
+      "5": 137
+    },
+    "positiveRatio": 78,
+    "negativeRatio": 16,
+    "eventMentions": [
+      {
+        "text": "fun game at first- played it religiously and figured it all out but eventually backs you to a wall w",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "had some good moments to start with. but after a while you can see the cracks. classified recruitmen",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "monetization is aggressive, but that could be the standard of mobile game nowadays. there's very lit",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "it's a cash grab with tons of gacha events that feel really scummy, there's not enough free premium ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "\"mark, this is good news! we can be bees\" \"this is insane!?\" \"we can live up to 30 years!\" \"i don't ",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:39:41.716Z"
+}

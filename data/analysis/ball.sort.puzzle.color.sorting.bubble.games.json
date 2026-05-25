@@ -1,0 +1,73 @@
+{
+  "appId": "ball.sort.puzzle.color.sorting.bubble.games",
+  "name": "Ball Sort Puzzle - Color Game",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "As the most relaxing and addictive color sorting game, this ball puzzle is engineered to both entertain and sharpen your cognitive faculties. While strategically sorting the colored balls to fill each bottle with the same color, the Zen-like focus it cultivates will relieve stress and provide a necessary distraction from daily routines.\n\nThis classic color sorting game is intuitive to play, but difficult to master. Tap to transfer a colored ball from one bottle and stack it into another. Success",
+    "released": "May 18, 2022",
+    "updated": 1778123514000,
+    "version": "4.7.0",
+    "installs": "50,000,000+",
+    "score": 4.8,
+    "ratings": 806733,
+    "reviews": 626,
+    "developer": "Guru Puzzle Game",
+    "developerWebsite": "https://ballsort.gurugame.ai/",
+    "genre": "Puzzle",
+    "recentChanges": "Hi Ball Sort Puzzle Players,<br>This update includes bug fixes and performance improvements.<br>Train your brain with colorful sorting games! Play and relax!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 27,
+      "2": 10,
+      "3": 4,
+      "4": 11,
+      "5": 148
+    },
+    "positiveRatio": 80,
+    "negativeRatio": 19,
+    "eventMentions": [
+      {
+        "text": "i'm new to this platform so far i'm happy 😊",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "your recent update broke this game. it was a great game. i paid for no ads between games, but the ad",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "play 1 game and a pop up tells you to download another; over and over for every new game until you h",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 80%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-17T15:03:11.977Z"
+}

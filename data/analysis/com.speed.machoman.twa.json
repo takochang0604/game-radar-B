@@ -1,0 +1,41 @@
+{
+  "appId": "com.speed.machoman.twa",
+  "name": "Life of a Handsome Guy",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "From a debt-ridden nobody to the legendary owner of industries across the universe!\n「This Man Is Xiao Shuai 」is a hilarious and heartwarming idle management game where you help Xiao Shuai turn his life around—one step (and one carrot) at a time!\nHire secretaries, upgrade your businesses, automate your income, and watch Xiao Shuai rise from rock bottom to unstoppable success!\nGame Features\n◆ Secretary Training\nUnlock multiple secretary characters—each with charming personalities to grow with you!",
+    "released": "Nov 25, 2025",
+    "updated": 1768298803000,
+    "version": "1.0.81",
+    "installs": "50,000+",
+    "score": 4.4903846,
+    "ratings": 1023,
+    "reviews": 71,
+    "developer": "Qian Yue Game",
+    "developerWebsite": "http://www.qianyuegames.com/",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 10,
+    "starCounts": {
+      "1": 4,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 4
+    },
+    "positiveRatio": 50,
+    "negativeRatio": 40,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:08:32.882Z"
+}

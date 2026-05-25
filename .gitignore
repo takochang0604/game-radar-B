@@ -4,8 +4,8 @@ node_modules/
 # 機密金鑰（絕對不可上傳）
 google-credentials.json
 
-# 本地資料快照（已遷移至 Firebase）
-data/
+# 資料目錄（需跨電腦同步，不可排除）
+# data/
 
 # Gemini AI 設定
 .agents/

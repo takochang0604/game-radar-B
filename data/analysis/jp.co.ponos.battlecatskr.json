@@ -1,0 +1,55 @@
+{
+  "appId": "jp.co.ponos.battlecatskr",
+  "name": "냥코 대전쟁",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "★The cute and adorable cat army dreams of conquering the world!!★\nAnyone can easily play! A cat training & strategy game!!\n*Free to play, but includes some paid content.\n\n★☆Super-simple battle system★☆\nClick on your favorite cat!!\n\nOne powerful blow! Fire the cat cannon!!\n\nCapture the enemy castle!!\n\n★☆Super-simple training system★☆\nEarn XP by clearing stages!!\n\nChoose your favorite cat!!\n\nChange classes by reaching level 10!!\n\n★☆Super-simple cat war★☆\nCollecting treasures from around the world ",
+    "released": "Jun 26, 2014",
+    "updated": 1776403585000,
+    "version": "15.3.0",
+    "installs": "10,000,000+",
+    "score": 4.1,
+    "ratings": 200084,
+    "reviews": 90204,
+    "developer": "PONOS Corporation",
+    "developerWebsite": "https://battlecats.club/kr/",
+    "genre": "Casual",
+    "recentChanges": "■클리어 시 편성 저장 기능 개선<br>스테이지 레벨4 클리어 시, 다른 스테이지 레벨과는 별도로 편성이 저장되도록 개선했습니다<br>※이번 업데이트 이후 스테이지 레벨4를 클리어한 편성부터 적용됩니다<br><br>■캐릭터에 진화 형태 추가<br>일부 캐릭터에 제3형태, 제4형태 진화 추가<br><br>■캐릭터에 본능 추가<br>일부 캐릭터에 본능, 초본능을 추가<br><br>■레전드 스토리<br>새로운 맵 추가<br>기존 맵의 고난이도 스테이지 레벨 해방<br><br>■그 외<br>유저 랭크 보수 추가<br>냥콤보 추가<br>일부 기능 개선<br><br>■버그 수정"
+  },
+  "reviewAnalysis": {
+    "total": 155,
+    "starCounts": {
+      "1": 15,
+      "2": 10,
+      "3": 7,
+      "4": 15,
+      "5": 108
+    },
+    "positiveRatio": 79,
+    "negativeRatio": 16,
+    "eventMentions": [
+      {
+        "text": "업데이트가 안되고 오류가 계속뜨는데요 ;;;;",
+        "keywords": [
+          "업데이트"
+        ]
+      },
+      {
+        "text": "제발 울슈레가 한.기.라.도 나오게 해주세요 제발요 25번은 돌렸는데 한기도 안나옵니다.. 레전드스토리 깰때 통조림도 늘려주시고 이벤트 할때 더 쿨하게 해주세요",
+        "keywords": [
+          "이벤트"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:03.818Z"
+}

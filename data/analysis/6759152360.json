@@ -1,0 +1,45 @@
+{
+  "appId": "6759152360",
+  "name": "Home Scapes – Ngôi nhà mơ ước",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Chào mừng bạn đến với Homescapes, một trò chơi thực sự ấm áp từ sê-ri Scapes™ của Playrix! Giải các câu đố ghép 3 để khôi phục một biệt thự tuyệt vời trên con phố xanh tươi. Những cuộc phiêu lưu thú vị bắt đầu ngay trước cửa!\n\nVượt qua các màn chơi ghép 3 đầy màu sắc để cải tạo và trang trí các căn phòng trong biệt thự, mở khóa thêm nhiều chương mới trong câu chuyện gia đình thú vị! Bạn còn chờ gì nữa? Cứ tự nhiên như ở nhà nhé!\n \nCác tính năng của trò chơi:\n\n●     Lối chơi độc đáo: giúp Austin ",
+    "released": "2026-04-20T07:00:00Z",
+    "updated": "2026-05-18T08:57:05Z",
+    "version": "8.8.602",
+    "score": 4,
+    "reviews": 90,
+    "developer": "VTC GAME",
+    "developerUrl": "https://apps.apple.com/vn/developer/vtc-game/id1267784899?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Casual",
+      "Puzzle"
+    ],
+    "releaseNotes": "Khám phá bản cập nhật Homescapes mới đầy ắp những chuyến phiêu lưu!\n\nVÒNG QUANH THẾ GIỚI\n• Giúp William tham gia một chuyến hành trình và tìm lại niềm vui cuộc sống!\n• Thăm những người bạn cũ ở khắp nơi trên thế giới, từ sa mạc nóng bỏng đến vùng cực bắc!\n• Hoàn thành sự kiện và nhận những phần thưởng giá trị!\n\nXE CẮM TRẠI\n• Lên đường đi du lịch bằng xe cắm trại cùng Gia đình Wood!\n• Giúp Chloe vượt qua tuổi dậy thì đầy khó khăn và những thử thách trên đường đi!\n• Hoàn thành sự kiện và nhận những phần thưởng giá trị!\n\nNGOÀI RA\n• Chương mới: Căn hộ của Thầy bói! Người hàng xóm bí ẩn Mina đang che giấu điều gì và bạn có nên sợ lời nguyền của cô ấy không!?"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:26.796Z"
+}

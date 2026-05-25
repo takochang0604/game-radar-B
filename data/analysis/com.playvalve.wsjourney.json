@@ -1,0 +1,86 @@
+{
+  "appId": "com.playvalve.wsjourney",
+  "name": "Word Search - Word Puzzle Game",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Take your mind on an exotic journey with the most exciting, destination-themed free word search! 🌎\n\nTravel the world with Word Search Journey, a beautiful word puzzle game with all the challenging yet entertaining word hunt features you love! Train & exercise your brain in a fun, relaxing way and stretch your critical thinking skills and IQ to a new level.\n\n⭐ SPECIAL FEATURES ⭐\n♦ CHALLENGE YOUR MIND: These word find games are easy at first, but they get challenging fast. Is your mind ready to g",
+    "released": "Nov 15, 2020",
+    "updated": 1778596420000,
+    "version": "4.0.1",
+    "installs": "100,000,000+",
+    "score": 4.8,
+    "ratings": 730015,
+    "reviews": 928,
+    "developer": "Bluetile",
+    "developerWebsite": "https://www.bluetile.com/",
+    "genre": "Word",
+    "recentChanges": "&gt; New challenges!<br>&gt; Amazing new gifts<br>&gt; Added +1000 new levels<br>&gt; New games modes"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 27,
+      "2": 5,
+      "3": 5,
+      "4": 25,
+      "5": 138
+    },
+    "positiveRatio": 82,
+    "negativeRatio": 16,
+    "eventMentions": [
+      {
+        "text": "learning new words",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i've had the game downloaded and used it for a long time, today it made me download the update to ke",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "made me update and i had to star all over. garbage",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "game tells me update and then it installs a new game when i do",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "excellent thanks for the update 🙂",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 82%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:03:27.421Z"
+}

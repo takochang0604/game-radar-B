@@ -1,0 +1,48 @@
+{
+  "appId": "com.rebirthkr.gp",
+  "name": "밤탈출 - 49일",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Pre-register for the 4949 Draw! Limited Skins! Various In-game Items!\n\nA terrifyingly lighthearted comic horror exploration RPG, Night Escape - 49 Days!\n\nLate at night on Seoul Subway Line 2, an alternate dimension encroaching upon reality, and endless ghost stories.\n\nWhile working overtime, you were chosen as the 'Guide'!\n\nHunt demons and rescue survivors within a 49-day loop to become the strongest 'Guide' in this alternate world!\n\nNight Escape - 49 Days, steal the creeps and escape with a thr",
+    "released": "May 18, 2026",
+    "updated": 1779094331000,
+    "version": "19",
+    "installs": "5,000+",
+    "score": 4.5,
+    "ratings": 1536,
+    "reviews": 252,
+    "developer": "MOREFUN（H.K.) LIMITED",
+    "developerWebsite": "https://escape49.morefun-hk.com/",
+    "genre": "Role Playing",
+    "recentChanges": "test-0514"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 4 天，評分 4.5",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:38:05.707Z"
+}

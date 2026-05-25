@@ -1,0 +1,49 @@
+{
+  "appId": "6762171648",
+  "name": "Cơ Giáp Vô Hạn - Gamota",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Cuộc phiêu lưu bắn súng 3D Roguelike dễ làm quen, mỗi ván đều mang đến trải nghiệm mới mẻ và đầy hứng khởi.\n\n\n[Dễ Làm Quen, Chơi Một Ván Là Ghiền]\nThao tác đơn giản, nhịp độ nhanh, chiến đấu bất cứ lúc nào! Cảm giác sảng khoái khi một phát dọn sạch màn hình lặp lại không ngừng, càng chơi càng không thể dừng lại.\n\n\n[Lắp Ráp Tự Do, Chế Tạo Cơ Giáp Độc Nhất Vô Nhị]\nHơn 30 cấu hình cơ giáp, hơn 180 vũ khí tùy ý lựa chọn - Muốn phun lửa? Máy cưa khổng lồ? Hay phóng tên lửa hàng loạt?\nTùy ý kết hợp, t",
+    "released": "2026-04-29T07:00:00Z",
+    "updated": "2026-05-21T01:55:43Z",
+    "version": "2.3.2",
+    "score": 4.9,
+    "reviews": 1712,
+    "developer": "KDATA COMPANY LIMITED",
+    "developerUrl": "https://apps.apple.com/vn/developer/kdata-company-limited/id1547396692?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing"
+    ],
+    "releaseNotes": "[Nội dung cập nhật]\n Tối ưu hóa chức năng và hệ thống:\n -Hệ thống thức tỉnh cơ giáp:\n Cơ chế kỹ năng chủ động của cơ giáp thức tỉnh chí tôn +2 được tăng cường theo cấp độ nhân vật trong ải\n Cơ giáp thức tỉnh chí tôn +2 mở thêm cơ giáp mới - Nữ Hoàng Kim Cương Pha Lê\n -Thêm sự kiện lễ mừng máy chủ mới:\n Bao gồm chiến lệnh điểm danh, phó bản, lật thẻ, quyên góp toàn máy chủ và gói quà mua trực tiếp, sẽ tự động mở sau khi máy chủ mới ra mắt!\n \n Dự báo sự kiện mùa giải:\n -S ự kiện Mê Thành Cơ Giới: 21/5 ~ 24/5, tổng cộng 4 ngày. Phần thưởng có thể nhận: Chip Đỏ Ngẫu Nhiên, Máy Tinh Chế Chip, Chipset\n -Sự kiện Đoạt Bảo May Mắn: 22/5 ~ 24/5, tổng cộng 3 ngày. Phần thưởng có thể nhận: Phi công độc quyền cơ giáp - Triệu Vân, phi công độc quyền vũ khí - Việt Nữ\n -Sự kiện Chạy Nước Rút: 22/5 ~ 28/5, tổng cộng 7 ngày. Phần thưởng có thể nhận: Khóa Thời Không, Cát Ánh Sáng Lung Linh, Kim Cương.\n -Sự kiện Thám Hiểm Linh Hồn Rồng: 25/5 ~ 31/5, tổng cộng 7 ngày. Phần thưởng có thể nhận: Phi hành khí S mới - Xích Diệu Phương Châu"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 23 天，評分 4.9",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:16.980Z"
+}

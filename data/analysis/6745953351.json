@@ -1,0 +1,44 @@
+{
+  "appId": "6745953351",
+  "name": "LORDNINE : Infinite Class",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "■ Goldrush Server Sven Pre-Registration in Progress ■\n\n“The master of this world…is now you.”\nOn a vast continent ruled by nine Lords,\nyou have been chosen by Orphe\nto awaken as the legendary tenth Lord.\nA grand tale of freedom, battle, and glory begins now!\n\n■ Play Your Way, A Class System Without Limits!\nChoose from over 60 classes and switch between them instantly.\nMix and match weapons and combat styles to define your unique playstyle.\nCustomize your skill sets with the Ability + Tag system!",
+    "released": "2025-07-29T07:00:00Z",
+    "updated": "2026-05-13T01:01:01Z",
+    "version": "1.5.1",
+    "score": 4.6,
+    "reviews": 751,
+    "developer": "Smilegate, Inc.",
+    "developerUrl": "https://apps.apple.com/ph/developer/smilegate-inc/id588277915?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Role-Playing"
+    ],
+    "releaseNotes": "- Server Transfer Phase 5 (May 13 after the maintenance – May 17)\n- Event Dungeon Ebon Heretic Inquisition Added\n- Barthes' Deluxe Check-in Event\n- Deligeon's Special Mission Event\n- Lucky Draw New Schedule Added\n- New Mount Greed's End Griffin Added\n- 7 New Products Added\n- Battle Pass Season 17 Begins\n- Bug fixes and other error fixes"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:39:24.943Z"
+}

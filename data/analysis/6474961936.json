@@ -1,0 +1,43 @@
+{
+  "appId": "6474961936",
+  "name": "레이싱 마스터",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "\"레이싱 마스터\"는 공식 라이선스를 획득한 100종 이상의 명차를 커스터마이즈하고, 전 세계의 명소들을 실시간으로 질주하는 레이싱 게임입니다.\n\n\"레이싱 마스터\"는 코드마스터즈와 손잡고 만든 정통 레이싱 게임입니다. 100종 이상의 공식 라이선스를 받은 명차들을 수집하고 개조해, 전 세계 유명 도시와 서킷에서 열정적인 레이스를 벌일 수 있습니다.\n\n사실감 넘치는 비주얼과 엔진 사운드는 마치 실제와 같은 현장감을 경험할 수 있으며, 다른 플레이어들과 실시간으로 치열한 경쟁을 즐길 수 있습니다.\n이제 당신이 진정한 레이싱 마스터가 되는 순간입니다!\n\n[100종 이상의 명차 컬렉션] 람보르기니 아벤타도르SVJ, 포르쉐 911, 닛산 GT-R 등 100대가 넘는 차량들에 대한 공식 라이선스를 받아, 실제 차량의 세부 사항, 문, 창, 라디오까지 완벽하게 재현했습니다!\n\n[드림카를 자유롭게 커스터마이즈] 페인트, 데칼, 타이어, 휠, 서스펜션, 브레이크 등 모든 것을 커스터마이즈할 수 있습니",
+    "released": "2025-03-17T07:00:00Z",
+    "updated": "2026-05-14T06:30:09Z",
+    "version": "0.28.9",
+    "score": 4.8,
+    "reviews": 6424,
+    "developer": "NETEASE INTERACTIVE ENTERTAINMENT PTE. LTD",
+    "developerUrl": "https://apps.apple.com/kr/developer/netease-interactive-entertainment-pte-ltd/id1485225410?uo=4",
+    "genres": [
+      "게임",
+      "레이싱"
+    ],
+    "releaseNotes": "26S3시즌 업데이트 완료\n\n새로운 차량\n프리미엄 레전드 차량인 Bugatti Divo와 Koenigsegg CCX가 새롭게 등장합니다! \n\n새로운 F1 트랙 등장\nF1 랜드마크를 정복하시고, 야스 마리나에서 결전을 펼쳐보시기 바랍니다! \n\n김블루 콜라보 시작\n로그인하시면 한정 스티커와 장식을 증정해 드립니다. 경기장에 블루 컬러를 더해보세요. \n5월 21월 3일까지, 매일 18:00~23:59 사이에 로그인하시면 월드 채팅창에서 김블루가 준비한 다이아 지원금을 받으실 수 있습니다! \n\n6월은 Lamborghini 테마 월!\nLamborghini Reventon이 기간 한정으로 재출시됩니다. \n6월 1일에 로그인하시면 Lamborghini 선택 전설 차량과 1단계 튜닝 MAX 체험 쿠폰을 증정해 드립니다!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:39:35.184Z"
+}

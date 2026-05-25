@@ -1,0 +1,50 @@
+{
+  "appId": "6738116963",
+  "name": "镭明闪击",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "《镭明闪击》是一款3D成女幻想即时策略RPG！PC/移动多端互通！\n在战胜外星入侵后的近未来，你作为“英雄”再度苏醒，为延续火种而战！游戏采用次世代写实3D画风，塑造了众多兼具细腻成女、科幻猎奇等鲜明风格的角色，战时火力全开，战后也能沉浸式培养好感！\n游戏原创「塔攻」玩法，即时快节奏1分钟1局！你不是被动防御，而是始终扮演主动进攻的一方。游戏的多样战场，多种战术与自由配队，以及费用部署、掩体、射程、场景破坏、弱点等机制设计，让战斗体验兼具动态策略博弈与快节奏枪战的爽感！\n\n【角色无代餐】3D成女、独特喜好......随你自由！角色差异化风格更明显，肌理、互动更真实\n【1分钟1局】轻松爽玩塔攻！技能连携火力全开！多重打击瞬间清场\n【福利夯到爆】登录游玩轻松获得300抽，自选SSR，多个时装和互动情景等超高福利\n【出手即终结】你的布局压制全场！R卡照样操作\n【玩法超有料】剧情肉鸽、双人PVE......更多样的玩法等你体验\n【减负超省心】别担心！游戏做足了减负优化，不仅无损重置养成！日常还能速清，时间更自由！",
+    "released": "2026-05-13T07:00:00Z",
+    "updated": "2026-05-13T07:00:00Z",
+    "version": "1.0.2",
+    "score": 4.8,
+    "reviews": 1614,
+    "developer": "Beijing Zhaoxiguangnian Information Technology Co., Ltd",
+    "developerUrl": "https://apps.apple.com/cn/developer/beijing-zhaoxiguangnian-information-technology-co-ltd/id912289441?uo=4",
+    "genres": [
+      "游戏",
+      "卡牌",
+      "策略"
+    ],
+    "releaseNotes": "更新游戏简介信息"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 6 天，評分 4.8",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-19T11:45:11.477Z"
+}

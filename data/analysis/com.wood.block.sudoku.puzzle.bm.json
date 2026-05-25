@@ -1,0 +1,61 @@
+{
+  "appId": "com.wood.block.sudoku.puzzle.bm",
+  "name": "Block Crush!",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Welcome to Block Crush — a classic block puzzle and line-clear game designed for those who love fitting blocks, clearing lines, and strategic spatial reasoning. Whether you are looking for a puzzle for adults to sharpen your mind or a relaxing way to pass the time offline, Block Crush delivers a premium experience inspired by iconic block-shaping logic.\n\nEvery move counts. As a thoughtful brain teaser, this game challenges you to control the grid and manage space through precise placement. Since",
+    "released": "Dec 14, 2021",
+    "updated": 1779330056000,
+    "version": "2.3.8",
+    "installs": "10,000,000+",
+    "score": 4.8,
+    "ratings": 488175,
+    "reviews": 3814,
+    "developer": "Wonderful  Studio",
+    "developerWebsite": "https://www.crushblocks.com",
+    "genre": "Puzzle",
+    "recentChanges": "Game optimization is improved"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 39,
+      "2": 10,
+      "3": 4,
+      "4": 8,
+      "5": 139
+    },
+    "positiveRatio": 74,
+    "negativeRatio": 25,
+    "eventMentions": [
+      {
+        "text": "noooo the customer avatar picture is gone. change it back. please, i begging you 🙏 no more updates,",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "about to delete this app. every time i have to stop playing, i lose my progress. it knocks me back a",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:14.422Z"
+}

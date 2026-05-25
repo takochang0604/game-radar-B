@@ -1,0 +1,54 @@
+{
+  "appId": "com.wildfire.romance",
+  "name": "Under My Roof: Love Stories",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "💖 Your Dream Starts Here! 💖\n\n🏙️ From Rookie Landlord to Urban Tycoon: Write Your Own Legend! Step into the shoes of an aspiring landlord starting with a single modest apartment. Through savvy management and strategic investment, upgrade your facilities and optimize the environment to build your dream community. Master your finances, expand your business footprint, and achieve a double breakthrough in wealth and status amidst the city's tides.\nWith a deep growth system and diverse mission chal",
+    "released": "May 13, 2026",
+    "updated": 1778573227000,
+    "version": "1.2.0511",
+    "installs": "100,000+",
+    "score": 4.7,
+    "ratings": 2092,
+    "reviews": 44,
+    "developer": "Wildfire Interactive",
+    "developerWebsite": "https://bj.wildfiregames.net",
+    "genre": "Simulation"
+  },
+  "reviewAnalysis": {
+    "total": 55,
+    "starCounts": {
+      "1": 26,
+      "2": 5,
+      "3": 2,
+      "4": 5,
+      "5": 17
+    },
+    "positiveRatio": 40,
+    "negativeRatio": 56,
+    "eventMentions": [
+      {
+        "text": "another update and still no change.",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 9 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:38:25.517Z"
+}

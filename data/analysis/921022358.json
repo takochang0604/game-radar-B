@@ -1,0 +1,44 @@
+{
+  "appId": "921022358",
+  "name": "Star Wars™: Galaxy of Heroes",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nCollect, upgrade, and battle with iconic heroes from across Star Wars™ history, including Luke Skywalker, Ahsoka Tano, Darth Vader, Han Solo, Obi-Wan Kenobi, Yoda, The Mandalorian, and more. Experience a role-playing adventure that combines strategy, action RPG, and online multiplayer gameplay.\n\nEnter the Star Wars universe i",
+    "released": "2015-11-24T16:53:08Z",
+    "updated": "2026-04-28T17:05:49Z",
+    "version": "0.40.0",
+    "score": 4.58873,
+    "reviews": 227878,
+    "developer": "Electronic Arts",
+    "developerUrl": "https://apps.apple.com/us/developer/electronic-arts/id284800461?uo=4",
+    "genres": [
+      "Games",
+      "Strategy",
+      "Roleplaying"
+    ],
+    "releaseNotes": "Hey Galaxy of Heroes fans! We have some big news regarding our Cantina Update! Here’s what you can expect to find in this update:\n \n-Visual & Navigational Enhancement: Exciting changes to the cantina layout.\n-Refactored Campaign: Updates to Light Side, Dark Side, Cantina, and Mod campaign mission content\n-New Content: Additional rewards and 21 new battles across Light Side, Dark Side and Cantina\n-Economy Changes: General updates to streamline progression and resource flow"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:39:08.636Z"
+}

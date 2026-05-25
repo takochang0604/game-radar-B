@@ -1,0 +1,40 @@
+{
+  "appId": "com.pg.crossrim",
+  "name": "크로스림:오디세이",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Crossrim, a continent torn apart by chaos.\n\nFollowing an ancient war, the world remains mired in an unfinished narrative.\n\nYour choices, battles, and your guild\nwill rewrite the fate of this world.\n\nCrosrim is a true hardcore MMORPG,\ndesigned around large-scale PvP, guild wars, and sieges.\n\n■ Crossrim, the Heart of the Narrative\nA story-driven dungeon experience that uncovers the truth behind the ancient wars surrounding the continent,\na farming system for ancient tomestones scattered by conflic",
+    "released": "Mar 9, 2026",
+    "updated": 1778727069000,
+    "version": "2.9.1",
+    "installs": "100,000+",
+    "score": 4.1,
+    "ratings": 556,
+    "reviews": 471,
+    "developer": "Capcloud",
+    "genre": "Role Playing"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:38:01.240Z"
+}

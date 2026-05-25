@@ -1,0 +1,73 @@
+{
+  "appId": "com.screw.romantic",
+  "name": "Colorful Screw: Charm Quest",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Enter the world of Colorful Screw: Charm Quest, a fun and challenging puzzle game designed to test your logic and creativity. Your mission is to unscrew, rearrange, and unlock tricky puzzles filled with colorful screws and hidden challenges.\n\nWith every level, the puzzles get harder, requiring sharper focus and smarter strategies. Can you complete them all?\n\n🔧 How to Play:\n\nTap and unscrew colorful pins or bolts\n\nRearrange pieces to free blocked parts\n\nSolve each puzzle by clearing all obstacle",
+    "released": "Aug 20, 2025",
+    "updated": 1777024730000,
+    "version": "1.2.1",
+    "installs": "1,000,000+",
+    "score": 4.931624,
+    "ratings": 13590,
+    "reviews": 26,
+    "developer": "Ming technology private limlted",
+    "developerWebsite": "https://ads.romanticpuzzle.biz",
+    "genre": "Puzzle",
+    "recentChanges": "Dive into Colorful Screw: Charm Quest, a puzzle game where you unscrew, rearrange, and unlock colorful challenges that test your logic and creativity."
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 31,
+      "2": 4,
+      "3": 4,
+      "4": 2,
+      "5": 59
+    },
+    "positiveRatio": 61,
+    "negativeRatio": 35,
+    "eventMentions": [
+      {
+        "text": "to devs.there was update for the app today. after update i lost all my progress. also my no ads purc",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "got a update on this game and decided to get the subscription as i can't stop playing the game, now ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i do love this game, very addictive, but just subscribed for 30 days and got a update and the game d",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "better experience in this video game and it is also important and interesting for people who don't h",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "game was good but now it's broken. none of the new level videos load and the same level keeps playin",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-11T11:40:24.132Z"
+}

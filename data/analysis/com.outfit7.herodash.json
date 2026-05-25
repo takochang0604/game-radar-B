@@ -1,0 +1,85 @@
+{
+  "appId": "com.outfit7.herodash",
+  "name": "Talking Tom Hero Dash",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "The race is on! Welcome to Talking Tom Hero Dash – the ultimate endless runner adventure where the fun never stops!\n\nThe Rakoonz are on the loose! They've captured Talking Angela, Ben, Hank, and Ginger, and it's up to you to be the hero, save Tom's friends, and clean up the city! Are you ready to join them on this thrilling quest?\n\n- Epic Runs: Feel the adrenaline rush as you dash, jump, slide, and avoid obstacles in stunning environments. \n\n- Battle the Rakoonz: The Rakoonz are back, wreaking h",
+    "released": "Jun 4, 2019",
+    "updated": 1778667421000,
+    "version": "VARY",
+    "installs": "500,000,000+",
+    "score": 4.4,
+    "ratings": 2087459,
+    "reviews": 45387,
+    "developer": "Outfit7 Limited",
+    "developerWebsite": "https://talkingtomandfriends.com/support/",
+    "genre": "Action",
+    "recentChanges": "Ready to run for rewards? Find exciting events where you can unlock outfits and gadgets. "
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 7,
+      "2": 4,
+      "3": 6,
+      "4": 21,
+      "5": 162
+    },
+    "positiveRatio": 92,
+    "negativeRatio": 6,
+    "eventMentions": [
+      {
+        "text": "rare suit tom unlock please unlock tom new suit and new city added",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i like the game but you can add 1 or 2 more characters like tom and anjela so, if you adone the new ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "btw this game has updates",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this is a nice game, yes things are pricey, but a game should be like that 😉. this game has a nice ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "it was so good i literally have 1790 dimonds after beating the game properly and this game has such ",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 92%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-18T11:39:42.612Z"
+}

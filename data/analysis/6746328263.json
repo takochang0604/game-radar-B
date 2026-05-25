@@ -1,0 +1,44 @@
+{
+  "appId": "6746328263",
+  "name": "Castle Busters",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "SMASH EVERY CASTLE. RULE EVERY ARENA.\nCastle Busters is fast, loud, and unfair in the best way. Every brick breaks. Every shot counts. Draft 8 units, load your keep, and turn your rival's castle into a pile of rubble before they do it to you first. No grinding waves of bots. No 20-minute matches. Just real-time 1v1 PvP where one good angle wins the war.\n\nDESTROY THE WALLS, NOT THE CLOCK\nMatches are quick. Decisions are not. Pick your shot, read the enemy line, and fire. Every wall, tower and tur",
+    "released": "2025-05-26T07:00:00Z",
+    "updated": "2026-05-13T10:18:55Z",
+    "version": "1.9.1",
+    "score": 4.4,
+    "reviews": 4228,
+    "developer": "Voodoo",
+    "developerUrl": "https://apps.apple.com/jp/developer/voodoo/id714804730?uo=4",
+    "genres": [
+      "ゲーム",
+      "アクション",
+      "ストラテジー"
+    ],
+    "releaseNotes": "Improvements and bug fixes."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:11.360Z"
+}

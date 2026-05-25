@@ -1,0 +1,45 @@
+{
+  "appId": "824116884",
+  "name": "ONE PIECE トレジャークルーズ",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "仲間を集めて大冒険！かんたんタップでド派手なコンボ！\n自分だけの海賊団で、ONE PIECEの世界に飛び込もう！\n\n◆タップでコンボをつなげる新感覚アクション！◆\n『ONE PIECE　トレジャークルーズ』は、かんたんなタップ操作で\n原作さながらの大迫力バトルが楽しめる新感覚タップアクション！\n仲間のキャラクターたちをタイミングよくタップしてコンボを決めよう！\nさらに、全キャラクターが持つ個性豊かな「必殺技」も、ド派手な演出で再現。\n魅力的なキャラクターたちが、手のひらの中で暴れまわる！\n\n◆原作のストーリーを追体験！あの名シーンがよみがえる！◆\n物語の始まりは少年ルフィと「赤髪のシャンクス」が出会う「フーシャ村」。\n原作のストーリーを追体験できる「クエスト」で、あの興奮と感動がよみがえる！\n\n◆仲間をあつめて育てて、自分だけの海賊団を結成しよう！◆\n主要キャラクターだけでなく、個性豊かな名脇役も勢揃い！\n酒場で手配書をゲットして、さまざまなキャラクターを仲間に加えよう！\nあつめた仲間を育てて、最強の海賊団を目指せ！\n\n【動作環境、その他お問い合わせ】\n「Appサポート」をご確認くださ",
+    "released": "2014-05-12T03:46:54Z",
+    "updated": "2026-05-14T05:09:09Z",
+    "version": "16.0.2",
+    "score": 4.6,
+    "reviews": 1065471,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerUrl": "https://apps.apple.com/jp/developer/bandai-namco-entertainment-inc/id352305770?uo=4",
+    "genres": [
+      "ゲーム",
+      "エンターテインメント",
+      "アドベンチャー",
+      "ロールプレイング"
+    ],
+    "releaseNotes": "◆v16.0.2の変更内容\n・不具合の修正"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:40:53.670Z"
+}

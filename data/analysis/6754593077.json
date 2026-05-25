@@ -1,0 +1,44 @@
+{
+  "appId": "6754593077",
+  "name": "이환",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "[이환]은 Hotta Studio에서 개발한 서브 컬처 초자연 어반 판타지 오픈월드 RPG로, 이야기는 헤테로 시티에서 시작됩니다. 「무면허 취업」을 한 첫 번째 「이상 헌터」인 당신은 경영난에 시달리며 민간 이상 의뢰를 받아 간신히 가게를 유지하는 골동품 가게 「에이본」의 일원이 됩니다. 개성 넘치고 비범한 능력을 가진 동료들과 도시 곳곳의 수수께끼를 파헤치고, 다양한 인연 속에서 당신만의 이야기를 써 내려가세요.\n\n[기괴한 시티에서 펼쳐지는 이능력 모험]\n감정사의 첫 여정—자유롭고 생동감 넘치는 헤테로 시티에 오신 것을 환영합니다! 「이상 관리국」 로비 앞에 줄 선 「오디티」들은 동경 어린 표정을 짓고, 전차 플랫폼 앞 「이능력자」 직장인들은 바삐 움직입니다. 거리 한쪽에서는 「단자부로」를 쫓는 소동이 벌어지고, 골목 끝에서는 실버라인 글러브 「집사」가 주인과 담소를 나눕니다. 온 거리가 「이상」으로 가득한 이곳에서, 인간과 초자연이 공존하는 세계를 직접 보고, 느끼고, 기록해 ",
+    "released": "2026-04-26T07:00:00Z",
+    "updated": "2026-04-26T07:00:00Z",
+    "version": "1.0.7",
+    "score": 4.6,
+    "reviews": 1604,
+    "developer": "N2E ENTERTAINMENT PTE. LTD.",
+    "developerUrl": "https://apps.apple.com/kr/developer/n2e-entertainment-pte-ltd/id1849110179?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉",
+      "액션"
+    ],
+    "releaseNotes": "감별 여정의 첫 역—자유롭고 생동감 넘치는 헤테로 시티에 오신 것을 환영합니다!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 19 天，評分 4.6",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-15T11:38:15.018Z"
+}

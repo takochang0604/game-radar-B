@@ -1,0 +1,45 @@
+{
+  "appId": "6566177585",
+  "name": "나 혼자 만렙 키우기",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "이제 게임에서 만나보세요!게임 속에서 단 한 번도 공략하지 못한 마왕 '바알'! \n〈윤상혁의 무한 성장 & 최종 보스 바알과의 치열한 전투!〉 지금 만나러 갑니다!\n\n\n-- 미확인 메시지: 애착 동료 '서큐버스 릴리스'가 당신을 기다리고 있습니다 --\n\n【7일 출석만 해도, 애착 동료 '서큐버스 릴리스'가 날 기다리고 있다고!?】\n론칭 기념 압도적 혜택*-* ! 지금까지 이런 동료는 없었다!\n플레이하기만 해도 '릴리스'를 만나볼 수 있는 기회!\n\n【게임 속 동료들이 이제는 진짜 내 동료?!】\n최고의 대장장이, 정예 길드원, 게임 속 보스들...\n플레이를 통해 차원이 다른 동료들을 수집해 보세요!\n차원이 다른 동료들과 마왕 '바알' 정복 → 지금 바로 시작하기!\n\n【원작을 넘어서는 생동감 있는 액션】\n다양한 스킬과 이펙트가 보여주는 〈시원한 핵앤슬래시 STAGE〉\n성장은 눈으로 봐야 제맛! 〈미친 성장체감 PvE〉\n액션 난투! 〈손에 땀을 쥐는 PvP〉\n동료들과 함께 승리의 기쁨을 만",
+    "released": "2024-11-05T08:00:00Z",
+    "updated": "2026-05-12T07:40:11Z",
+    "version": "1.0.213",
+    "score": 4.9,
+    "reviews": 395,
+    "developer": "Punchline Games Co., Ltd.",
+    "developerUrl": "https://apps.apple.com/kr/developer/punchline-games-co-ltd/id1840064378?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉",
+      "엔터테인먼트",
+      "캐주얼"
+    ],
+    "releaseNotes": "기타 버그 수정 및 개선"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-21T11:40:40.181Z"
+}

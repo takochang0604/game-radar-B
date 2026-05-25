@@ -1,0 +1,56 @@
+{
+  "appId": "com.gamesofa.android.catcafe2",
+  "name": "Catfe World",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "CATFE WORLD – Cozy Cat Café Game\n\nBuild your dream cat café in a heartwarming pixel world!\nFrom cat-loving creators in Taiwan comes a relaxing idle simulation filled with adorable cats, sweet treats, and cozy stories to melt your heart.\n\nHelp Grandpa Tabby fulfill his lifelong dream — run a 24-hour cat café where every furry visitor has a story to tell.\n\n♥♥ Game Features♥♥ \n\n1.Collect adorable cat staff\nHire and manage cute cats like oranges, calicos, tuxedos, Bengals, and more. Each has its own",
+    "released": "Nov 25, 2024",
+    "updated": 1776742985000,
+    "version": "1.17.1",
+    "installs": "100,000+",
+    "score": 4.5675673,
+    "ratings": 2515,
+    "reviews": 453,
+    "developer": "Gamesofa Inc.",
+    "developerWebsite": "https://www.gamesofa.com",
+    "genre": "Simulation",
+    "recentChanges": "New Update Is Live!<br>Dive into the aquarium with me and check out what’s new!<br><br>[New area: Aquarium Restaurant]<br>The cafe is finally underwater! Let the fish come out and meet the guests!<br>Customers can enjoy their meals surrounded by swimming fish!"
+  },
+  "reviewAnalysis": {
+    "total": 16,
+    "starCounts": {
+      "1": 1,
+      "2": 2,
+      "3": 1,
+      "4": 4,
+      "5": 8
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 19,
+    "eventMentions": [
+      {
+        "text": "感覺的出來很用心在更新、讓玩家感到更好玩、而且非常聽取大家的建議 真的很溫暖很謝謝團隊的所有人！沒有玩過一個遊戲是團隊這麼用心的",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "ok i don't usually like management games, but i love cats and retro graphics so i downloaded it. bef",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-10T15:03:05.854Z"
+}

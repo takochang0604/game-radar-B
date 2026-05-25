@@ -1,0 +1,43 @@
+{
+  "appId": "6478139184",
+  "name": "Mini Heroes: Magic Throne",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "In Valoria, where magic and nature once thrived, darkness falls as a powerful sorcerer seizes the throne.\nPrince Mars, armed with his father’s final gift—a magical helmet—retreats to the forest. \nAs shadows grow, can Mars save his people and reclaim his homeland? \nThe fate of Valoria rests in your hands.\n\n· BOUNTY NEW PLAYER GIFTS\nCome and claim your rewards, no strings attached!\nEnjoy 30 guaranteed summons daily, with a total of 7,777 summons!\nAlso receive a SSR hero, 777 diamonds, and other ra",
+    "released": "2024-10-17T07:00:00Z",
+    "updated": "2026-04-22T11:32:52Z",
+    "version": "1.23.44",
+    "score": 4.8,
+    "reviews": 1003,
+    "developer": "MAX GAME PTE.LTD.",
+    "developerUrl": "https://apps.apple.com/ph/developer/max-game-pte-ltd/id1635935777?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing"
+    ],
+    "releaseNotes": "1. Added the [Relic] gameplay, unlocked at level 150.\n2. Skeleton King's [Return from the Underworld] skill adjusted: changed from resurrecting after death to directly restoring health upon receiving fatal damage.\n3. Adjusted monster attribute modifiers in Main stage, Tower of The Throne, Land of trials, and the Gate of Darkness."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-18T11:39:49.691Z"
+}

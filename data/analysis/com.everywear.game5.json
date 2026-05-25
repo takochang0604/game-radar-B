@@ -1,0 +1,79 @@
+{
+  "appId": "com.everywear.game5",
+  "name": "Merge Mansion: Puzzles & Story",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Restore a forgotten mansion to its former glory – and solve mysteries along the way! Can you uncover the secrets Grandma is hiding and reveal the truth behind the Boulton family’s past?\n\nUnlock spaces and rooms in the garden and mansion by completing fun merge tasks. Collect clues, meet fascinating characters, and piece the story together one mystery at a time.\n\nRelax into this cozy merge puzzle game packed with more twists and turns than Grandma’s knitting.\n\nMATCH & MERGE\nMerge matching items t",
+    "released": "Sep 16, 2020",
+    "updated": 1778509533000,
+    "version": "26.04.02",
+    "installs": "10,000,000+",
+    "score": 4.4,
+    "ratings": 648685,
+    "reviews": 31159,
+    "developer": "Metacore Games Oy",
+    "developerWebsite": "https://metacoregames.com/",
+    "genre": "Puzzle",
+    "recentChanges": "Small fixes and improvements. Thank you for playing Merge Mansion."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 72,
+      "2": 37,
+      "3": 20,
+      "4": 20,
+      "5": 51
+    },
+    "positiveRatio": 36,
+    "negativeRatio": 55,
+    "eventMentions": [
+      {
+        "text": "after 4 years of playing - absolutely disappointing latest updates. the game became frustrating with",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i've been playing for over half a decade but the last few updates have made the game go from one of ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the last update ruined it for me.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "stop. do not purchase on this app. i have purchased the season past twice. each time i have purchase",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "it's a fun game outside of the side games that you clearly have to spend money to win or they put a ",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:03:56.712Z"
+}

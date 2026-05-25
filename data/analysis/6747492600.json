@@ -1,0 +1,45 @@
+{
+  "appId": "6747492600",
+  "name": "Mahjong Blast",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Mahjong Blast — A Classic Mahjong Solitaire and Mahjong Free Game\n\nMahjong Blast is a mahjong free game built on classic mahjong solitaire, built for players who enjoy clear boards, familiar mahjong tile layouts, and a calm, structured pace. Designed around classic rules and clean presentation, it delivers a pure mahjong experience that feels natural and easy to follow from the very first board, offering cozy, relaxed play centered on mahjong and mahjong tile matching.\n\nBuilt on the foundation o",
+    "released": "2025-06-24T07:00:00Z",
+    "updated": "2026-05-11T06:56:28Z",
+    "version": "1.7.8",
+    "score": 4.7,
+    "reviews": 14937,
+    "developer": "Nebula Studio",
+    "developerUrl": "https://apps.apple.com/vn/developer/nebula-studio/id1795182714?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Board",
+      "Puzzle"
+    ],
+    "releaseNotes": "Bug fixes & performance improvements\nEnjoy a smoother Mahjong experience designed to help you unwind and sleep better."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:44:02.461Z"
+}

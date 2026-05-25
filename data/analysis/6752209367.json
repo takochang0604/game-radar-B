@@ -1,0 +1,45 @@
+{
+  "appId": "6752209367",
+  "name": "脱出ゲーム キッズパーク",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "鍵を見つけて目的を達成するシンプルな謎解きゲームです。\n本作は初心者向けで優しい難易度になっています。\nかわいいキャラクター達と楽しい脱出ゲームで遊びましょう！\n\n\n【遊びかた】\n・タップで調べてアイテム入手\n・それを調べたり使ったり組み合わせたりして謎解き\n・ボタンを押して部屋を移動する簡単操作\n\n\n【機能】\n・ヒントと答えで初心者も安心！\n・いつでも中断OK！オートセーブ機能\n・料金は無料でお金は一切かかりません\n\n\n【レインコート RainCoat】\n個人でアプリ開発しています。他にも脱出ゲームをリリースしていますので、よければ遊んでみてください！\n\n下記SNSにて新作アプリ配信をお知らせ！\n\nLINE  https://lin.ee/5BRW4ta\nX @raincoat_app",
+    "released": "2026-05-12T07:00:00Z",
+    "updated": "2026-05-12T13:30:09Z",
+    "version": "1.0.0",
+    "score": null,
+    "reviews": 0,
+    "developer": "Tatsuki Nomura",
+    "developerUrl": "https://apps.apple.com/jp/developer/tatsuki-nomura/id957090705?uo=4",
+    "genres": [
+      "ゲーム",
+      "アドベンチャー",
+      "トリビア",
+      "エンターテインメント"
+    ],
+    "releaseNotes": ""
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:38:01.070Z"
+}

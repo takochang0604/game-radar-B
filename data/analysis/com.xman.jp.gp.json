@@ -1,0 +1,47 @@
+{
+  "appId": "com.xman.jp.gp",
+  "name": "X-Clash",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Spin!\nSpin at high speed! Mow down all the enemies around you!\nSpin your weapon at high speed and defeat enemies approaching from all sides to achieve victory!\nThe thrilling speed battle begins now!",
+    "released": "Oct 9, 2025",
+    "updated": 1778831750000,
+    "version": "1.0.101",
+    "installs": "100,000+",
+    "score": 4.2,
+    "ratings": 3201,
+    "reviews": 607,
+    "developer": "Glaciers Game",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 5,
+    "starCounts": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    },
+    "positiveRatio": 60,
+    "negativeRatio": 40,
+    "eventMentions": [
+      {
+        "text": "i wasn't expecting to play this game for so long. the game is busy, with numerous events taking plac",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:43:03.149Z"
+}

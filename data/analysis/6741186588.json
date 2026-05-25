@@ -1,0 +1,71 @@
+{
+  "appId": "6741186588",
+  "name": "Ragdoll Blade",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "Control the ragdoll and slash through all the enemies with your sword.If you’re hit by an enemy’s blade, you’ll lose the ability to move some joints.The key is to skillfully dodge the enemy’s attacks!",
+    "released": "2025-01-30T08:00:00Z",
+    "updated": "2026-01-08T20:18:56Z",
+    "version": "2.2.5",
+    "score": 4.67028,
+    "reviews": 2942,
+    "developer": "tatsumaki games",
+    "developerUrl": "https://apps.apple.com/jp/developer/tatsumaki-games/id1610305063?uo=4",
+    "genres": [
+      "ゲーム",
+      "カジュアル",
+      "アクション"
+    ],
+    "releaseNotes": "Improved game play"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 3,
+      "4": 5,
+      "5": 40
+    },
+    "positiveRatio": 92,
+    "negativeRatio": 2,
+    "eventMentions": [
+      {
+        "text": "楽しすぎて1100レベルまで行ったんですけどステージが変わりませんアップデート待ってます。どのレベルまで行ったかのランキングなども欲しいです。",
+        "keywords": [
+          "アップデート"
+        ]
+      },
+      {
+        "text": "if multiplayer were added, it would definitely become popular!\n\n★★★★★\njan 11 – rag doll man\n\nthe gam",
+        "keywords": [
+          "update",
+          "limited",
+          "new"
+        ]
+      },
+      {
+        "text": "今のままでも十分楽しいですが、マルチプレイとステージの数を増やすアップデートがあれば、もっと楽しくなると思います！",
+        "keywords": [
+          "アップデート"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 92%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:05:34.542Z"
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "com.pubg.krmobile",
+  "name": "PUBG Mobile",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "▶ Hero's Crown Theme Mode ◀\nHero's Crown Theme Mode has been added to PUBG Mobile.\nYasnaya Polyana, Ruins, Ferry Pier, and Mylta urban areas have been transformed with a Greek-inspired style, featuring new themed buildings and structures.\nRuins and Ferry Pier are fully converted into Greek-style cities, while Yasnaya Polyana and Mylta become trial-focused zones.\nAdditionally, the Temple of Olympus has been added to Sky Island, where gathering embers allows you to board the Sun Chariot, battle th",
+    "released": "May 15, 2018",
+    "updated": 1777381905000,
+    "version": "4.4.0",
+    "installs": "10,000,000+",
+    "score": 4.1,
+    "ratings": 1191067,
+    "reviews": 352974,
+    "developer": "KRAFTON, Inc.",
+    "developerWebsite": "https://battlegroundsmobile.kr/",
+    "genre": "Action",
+    "recentChanges": "New Mode: Hero&#39;s Crown Theme Mode<br>Hero&#39;s Crown Theme Mode Trials<br>Classic Updates"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 33,
+      "2": 3,
+      "3": 8,
+      "4": 12,
+      "5": 144
+    },
+    "positiveRatio": 78,
+    "negativeRatio": 18,
+    "eventMentions": [
+      {
+        "text": "you guys update the game and it will soo laging 😭😭😭 in low and devices",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "best pubg kr and skiin new m416 agein",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "its a vary nice game but i like for you to bring back the mission impossible outfits it could be jus",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "many people have quit playing this game because of the excessive updates. it's very annoying to have",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "it's getting worse day by day every update old pubg is no more 😭😭",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:26.212Z"
+}

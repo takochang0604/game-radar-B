@@ -1,0 +1,63 @@
+{
+  "appId": "net.mobigame.zombietsunami",
+  "name": "Zombie Tsunami",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Lead a wild zombie horde across the globe. Turn pedestrians into zombies, grow your swarm, and destroy everything in your path.\n\nCollect crazy power-ups, unlock upgrades, hatch zombie birds, and take on 300+ missions in this fast, chaotic endless runner.\n\nJoin over 500 million players worldwide.\n\nFEATURES\n• Easy one-touch controls\n• Grow the ultimate zombie horde\n• Smash through cars, buses, tanks, planes, and more\n• Unlock 10 insane bonuses, including ninjas, dragons, and UFOs\n• Collect zombie ",
+    "released": "Sep 10, 2013",
+    "updated": 1775820827000,
+    "version": "4.7.1",
+    "installs": "500,000,000+",
+    "score": 4.5,
+    "ratings": 6141496,
+    "reviews": 29560,
+    "developer": "Mobigame SAS",
+    "developerWebsite": "https://www.mobigame.net",
+    "genre": "Arcade",
+    "recentChanges": "Discover the Spring events<br>Bug fixes and improvements<br>Haptic feedback added<br>Blast Processing<br><br>Follow Zombie Tsunami on Facebook, X, Bluesky, or Mobigame.net for the latest updates.<br><br>Thanks for playing Zombie Tsunami"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 16,
+      "2": 3,
+      "3": 10,
+      "4": 11,
+      "5": 160
+    },
+    "positiveRatio": 86,
+    "negativeRatio": 10,
+    "eventMentions": [
+      {
+        "text": "hello i really love this game i played it long time ago and now i'm back and addicted to it!! i was ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "it would cost about 450,000 diamonds (over 10k usd) of classic eggs to max out your pets. man that's",
+        "keywords": [
+          "event",
+          "season"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 86%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:03:42.046Z"
+}

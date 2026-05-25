@@ -1,0 +1,45 @@
+{
+  "appId": "6754098532",
+  "name": "RUSH: Xtreme",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "► READY BIKER ONE\n\nHop on your dirt bike and get ready to pedal in this fast-paced racing game! Each level you’ll face off against other riders as you ride your bicycle across all sorts of exciting locations. Hit those bonuses to fly past your competitors, and enjoy the thrill of realistic driving all from the comfort of your phone, thanks to this driving simulator motocross game.\n\n► KICK UP SOME DUST\n\nEach game level is a short and sweet race to the finish line, with a variety of landscapes, ob",
+    "released": "2025-11-07T08:00:00Z",
+    "updated": "2026-03-11T22:36:20Z",
+    "version": "1.6.1",
+    "score": 4.7,
+    "reviews": 2317,
+    "developer": "SayGames LTD",
+    "developerUrl": "https://apps.apple.com/th/developer/saygames-ltd/id1551847165?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Action",
+      "Racing"
+    ],
+    "releaseNotes": "-Gameplay improvements\n-Bug fixes \n-New levels"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:48.524Z"
+}

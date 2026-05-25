@@ -1,0 +1,80 @@
+{
+  "appId": "com.plarium.raidlegends",
+  "name": "RAID: Shadow Legends",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Summon over 800 legendary heroes from 16 factions to battle bosses like fearsome dragons and colossal demons. Explore dungeons, enjoy turn-based multiplayer action, and master tactics to free Teleria in this epic role-playing game!\n\nTactical battles await in this turn-based dark fantasy role-playing game, where you can summon hundreds of Champions from 16 playable factions.\n\nFight the forces of the dark lord Siroth with your legendary band of immortal warriors. Train them for battle, craft the p",
+    "released": "Feb 26, 2019",
+    "updated": 1778499364000,
+    "version": "11.51.0",
+    "installs": "50,000,000+",
+    "score": 4.6,
+    "ratings": 2236569,
+    "reviews": 148073,
+    "developer": "Plarium Global Ltd",
+    "developerWebsite": "http://www.plarium.com",
+    "genre": "Role Playing",
+    "recentChanges": "New in 11.51.0:<br><br>FEATURES:<br>- Added Auto-Equip button: equips your Champions with recommended Gear.<br>- Oil Mixer: combine Oils into Chaos Dust &amp; Chaos Powder.<br>- Added Background Auto-Climb in the Doom Tower.<br>- Added new Gear filters.<br>- Treasure Tickets: exchange Plarium Points for rewards. Check the Forum &amp; Release News for more details.<br>- Telerian Homecoming: new reactivation program for those returning to Teleria.<br>- Added ability to craft up to 10 Relics at a time.<br>- Champion rebalance."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 61,
+      "2": 11,
+      "3": 10,
+      "4": 13,
+      "5": 105
+    },
+    "positiveRatio": 59,
+    "negativeRatio": 36,
+    "eventMentions": [
+      {
+        "text": "not very friendly for f2p .the point distribution for free champion event are just not great ,with s",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "downloaded latest update !!!!!!!, still have to clear cache and uninstall/re-install before being ab",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "common guys its 2026 year and still only 60 fps inside game wth please give us 120 hz update ! this ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "started fun but progression quickly hits paywalls and grind walls unless you spend money. limited-ti",
+        "keywords": [
+          "event",
+          "limited"
+        ]
+      },
+      {
+        "text": "this game is fun to get the new characters, that's it. the main thing i'm upset about is the shards.",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:43.804Z"
+}

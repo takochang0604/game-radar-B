@@ -1,0 +1,48 @@
+{
+  "appId": "com.vivaplay.slicemania",
+  "name": "Slice Mania - Juicy Challenge",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Get ready to master fruit slicing with Slice Mania - Juicy Knife Cut, the most satisfying mobile game! Tap to slice juicy fruits and enjoy the vibrant splash – simple, addictive, and perfect for quick play.\n\nExperience high replayability and relaxing satisfaction with these core casual features:\n- Slice dozens of juicy fruits with easy one-touch controls\n- Unlock over 50 unique knives with rewarding effects\n- Play offline at anytime for instant fun\n\nMaster the Game:\n- Select your favorite knife ",
+    "released": "Jul 3, 2025",
+    "updated": 1778897491000,
+    "version": "1.0.7",
+    "installs": "10,000+",
+    "score": null,
+    "ratings": 0,
+    "reviews": 0,
+    "developer": "Viva Play",
+    "developerWebsite": "https://viva-play.com",
+    "genre": "Arcade",
+    "recentChanges": "Bug fixes &amp; performance improvements."
+  },
+  "reviewAnalysis": {
+    "total": 172,
+    "starCounts": {
+      "1": 14,
+      "2": 3,
+      "3": 8,
+      "4": 7,
+      "5": 140
+    },
+    "positiveRatio": 85,
+    "negativeRatio": 10,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 85%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-17T15:03:59.661Z"
+}

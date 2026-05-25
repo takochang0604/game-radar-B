@@ -1,0 +1,56 @@
+{
+  "appId": "6754184272",
+  "name": "Ta Là Cao Thủ Võ Lâm JoyGames",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Ta Là Cao Thủ Võ Lâm là tựa game thẻ bài chủ đề giang hồ hấp dẫn, nơi bạn dạo bước võ lâm, chiêu mộ hiệp khách và từng bước khẳng định vị thế trong thế giới võ học rộng lớn.\nĐăng nhập nhận ngay 2000 lượt Chiêu mộ, nhanh chóng xây dựng đội hình mạnh mẽ và làm chủ giang hồ theo cách của riêng bạn!\n\n- Tu luyện nhẹ nhàng – Tăng trưởng liên tục\nKhông cần thao tác phức tạp hay cày cuốc áp lực. Các hiệp khách sẽ tự động rèn luyện và tích lũy sức mạnh theo thời gian, giúp nhân vật phát triển ổn định mỗi",
+    "released": "2026-04-19T07:00:00Z",
+    "updated": "2026-04-23T04:29:07Z",
+    "version": "1.3",
+    "score": 4.63335,
+    "reviews": 1181,
+    "developer": "ACE JOY GAMES",
+    "developerUrl": "https://apps.apple.com/vn/developer/ace-joy-games/id1806546367?uo=4",
+    "genres": [
+      "Games",
+      "Card",
+      "Strategy"
+    ],
+    "releaseNotes": "Tối ưu trò chơi"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 3,
+      "2": 0,
+      "3": 0,
+      "4": 3,
+      "5": 43
+    },
+    "positiveRatio": 94,
+    "negativeRatio": 6,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 16 天，評分 4.63335",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 94%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:08:48.395Z"
+}

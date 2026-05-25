@@ -1,0 +1,44 @@
+{
+  "appId": "1449552940",
+  "name": "일곱 개의 대죄: GRAND CROSS",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "모험 그 이상, 초대형 어드벤처 RPG 【일곱 개의 대죄: GRAND CROSS】\n지금까지 어디에서도 본 적 없는 새로운 게임!\n\n=====================================\n◆일곱 개의 대죄: GRAND CROSS 게임 특징◆\n=====================================\n\n▶  6년 동안 사랑받고 있는 검증된 인기 게임\n전 세계 7,777만 이상의 다운로드를 자랑하는 인기 게임\n다양하고 풍성한 이벤트를 통해 지금 시작해도 완벽 적응 가능!\n지금 바로 다운로드해서 〈일곱 개의 대죄: GRAND CROSS〉를 즐겨보세요\n\n▶  스킬 카드를 활용한 전략성 넘치는 전투 시스템\n같은 성급의 동일한 스킬 카드를 나란히 배치하면 더 강한 스킬로 랭크 업!\n카드를 합치고 사용하여, 궁극의 \"필살\"로 상대를 완벽하게 제압하자!\n한 턴 한 턴 짜릿함을 느낄 수 있는 박진감 넘치는 전투를 지금 펼쳐보세요.\n\n▶ 공략의 재미를 느낄 수 있는 다양한 콘텐츠\n",
+    "released": "2019-06-03T02:28:47Z",
+    "updated": "2026-05-20T22:05:39Z",
+    "version": "8.7.02",
+    "score": 4.7,
+    "reviews": 57064,
+    "developer": "Netmarble Corporation",
+    "developerUrl": "https://apps.apple.com/kr/developer/netmarble-corporation/id930364579?uo=4",
+    "genres": [
+      "게임",
+      "어드벤처",
+      "롤플레잉"
+    ],
+    "releaseNotes": "■ 신규 영웅 및 코스튬 추가\n- UR [일곱 개의 대죄] 불구대천 멜리오다스\n\n■ 콘텐츠 및 이벤트 추가\n- 7주년 기념 레전드 앙케이트 뽑기\n- 7주년 파티 럭키드로우\n- 7주년 레전드 페스티벌 출석 이벤트\n- 7주년 기념 웰컴 출석 이벤트 1부\n- 7주년 스페셜 미션 1부/2부\n- 묵시록의 4기사 5챕터\n- 신규 PvE 콘텐츠: 최고신전\n- 신규 영웅 성장 시스템: 신의 가호\n- 신규 성물 추가\n\n■ 기타 시스템 개선, 문제 수정"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:40:11.066Z"
+}

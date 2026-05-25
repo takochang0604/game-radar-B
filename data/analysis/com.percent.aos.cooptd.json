@@ -1,0 +1,79 @@
+{
+  "appId": "com.percent.aos.cooptd",
+  "name": "Coop TD: Together",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "(((The Best Cooperative Tower Defense in the world)))\nNow recruiting players!\n\nDo you believe 1+1 is better than 1? 😀\nWant to achieve something awesome through teamwork? 😀\n\n[What you need]\nCooperation ❤️ Loyalty ❤️ Friendship ❤️\n\nThis is a strategic tower defense game where cooperation is key!\nWe call it ⭐Coop TD⭐\n\nLooking for an easy, fun co-op tower defense game?\nSurvival and defense combined!\nExperience the joy of cooperation, the thrill of strategic choices, and the satisfaction of victory",
+    "released": "Oct 18, 2024",
+    "updated": 1777570058000,
+    "version": "1.5.7",
+    "installs": "1,000,000+",
+    "score": 4.3305554,
+    "ratings": 48509,
+    "reviews": 478,
+    "developer": "Supermagic",
+    "developerWebsite": "https://supermagic.io/",
+    "genre": "Strategy",
+    "recentChanges": "Stop the Humans! Join [Co-op TD] Now!<br>■ Control the Battlefield! New Difficulty「Deep Sea」Update!<br>■ New AoE DPS &#39;Ivy&#39; Is Here!<br>■ &#39;Giant Invasion&#39; &amp; &#39;Research Lab&#39; added!<br>■ Season Pass Update! New Legendary Skin &amp; Rewards!"
+  },
+  "reviewAnalysis": {
+    "total": 100,
+    "starCounts": {
+      "1": 31,
+      "2": 7,
+      "3": 14,
+      "4": 14,
+      "5": 34
+    },
+    "positiveRatio": 48,
+    "negativeRatio": 38,
+    "eventMentions": [
+      {
+        "text": "it's very fun and addicting, just sucks your clears with friends don't really count towards new leve",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "very focused on making money, the community is full of p2w and is very toxic if you speak your mind ",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "i'm stuck in the loading screen, it only stopped at 20%, must be because of the recent update edit: ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "since the update the game doesn't start anymore. just a black screen",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "very good for people who are new to the game and it actually fully teaches you and is not hard or to",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-07T11:39:13.609Z"
+}

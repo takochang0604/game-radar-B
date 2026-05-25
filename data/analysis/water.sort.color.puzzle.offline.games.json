@@ -1,0 +1,86 @@
+{
+  "appId": "water.sort.color.puzzle.offline.games",
+  "name": "Water Sort! Color Sort Puzzle",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Water Sort! Color Logic Puzzle – Addictive Water Sorting, Relaxing Color Logic & Brain Fun.🌈🌱\nWelcome to the calming world of water, sort, and color logic. Water Sort! Color Logic Puzzle is an addictive water sort puzzle designed to help you relax, focus, and train your brain through smooth and satisfying bottle-sorting gameplay. Every time you pour water and match the right color, you feel the perfect rhythm of logic and comfort. This is the kind of puzzle you can play anytime—during a break,",
+    "released": "Nov 8, 2024",
+    "updated": 1778763140000,
+    "version": "1.0.39",
+    "installs": "10,000,000+",
+    "score": 4.7,
+    "ratings": 276943,
+    "reviews": 262,
+    "developer": "Bobodoo Game",
+    "developerWebsite": "https://www.bobodoo.com/",
+    "genre": "Puzzle",
+    "recentChanges": "Fix some issues"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 19,
+      "2": 5,
+      "3": 6,
+      "4": 15,
+      "5": 155
+    },
+    "positiveRatio": 85,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "just starting the game, but enjoying it so far! like that is more than just bottles to fill. updated",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "moronic, made till i don't know what level clicked an ad to get empty bottle.. than downloaded new g",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i like the new puzzles that give you some what of challenge.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "fun and i like the new update, it is how it's advertised on the ads",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "very anoying fraud add , telling you to update a game!",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 85%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:08.815Z"
+}

@@ -1,0 +1,48 @@
+{
+  "appId": "com.and.cjys.tw",
+  "name": "鬼雄三國：主公有夠鬼",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "🎁Get Ma Chao this Year of the Horse! Log in to claim this powerful general!\n\nDownload now to receive Ma Chao, a five-star exclusive ghost hero to help you conquer the land.\n\nEven more exclusive benefits await: \"Ten Thousand Draws in a Millennium,\" making dominating the Three Kingdoms a reality!\n\nGuan Yu cleaved a rift in time and space with his sword, bringing forth ghost heroes from the Three Kingdoms. From then on, humans and ghosts coexisted, two heroes reigning side by side.\n\nWhat kind of T",
+    "released": "Apr 30, 2026",
+    "updated": 1779184595000,
+    "version": "1.0.14",
+    "installs": "10,000+",
+    "score": 4.7,
+    "ratings": 5981,
+    "reviews": 303,
+    "developer": "BYTEFUN GAMES PTE. LTD.",
+    "developerWebsite": "https://bytefungames.com",
+    "genre": "Role Playing",
+    "recentChanges": "「更新內容」<br>1、新增耕耘獻禮主題節日活動<br>2、內容優化<br>- 部分寶物類型重新調整（如攻擊或防禦）對應寶物技能類型爲主<br>- 首個幻獸上陣調整，從60級下調至55級<br>- 幻獸家園升級要求下降<br>- 元寶商城/VIP特權界面新增代金券說明（方便各位主公查看禮包檔位對應價格與VIP經驗）<br>3、BUG修複<br>- 官職戰令價格顯示異常問題<br>- 快速征收次數顯示異常問題"
+  },
+  "reviewAnalysis": {
+    "total": 4,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 2
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 25,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 22 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:44:04.753Z"
+}

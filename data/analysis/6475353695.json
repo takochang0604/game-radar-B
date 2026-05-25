@@ -1,0 +1,51 @@
+{
+  "appId": "6475353695",
+  "name": "삼국이 분다2",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "난세의 영웅들을 물리치고\n천자가 될 준비가 되셨습니까?\n\n\n\n[삼국지의 영웅들과 함께 천하통일을 이루세요!]\n\n\n\n소설속의 삼국지 영웅들과 함께 전장을 누비고 싸워서 승리하세요. \n영웅들을 성장시키고 천하를 통일하세요.\n\n\n\n[장수를 수집하고 진형을 구축하세요!]\n\n\n\n삼국지 영웅들을 수집하고 진형을 구축하여 전투에서 유리한 고지를 선점하세요.\n\n\n\n[다양한 보물을 통해 전투에서 승리하세요!]\n\n\n\n보물들을 모아 영웅을 강화하고 승리의 나팔을 울리세요.\n\n\n\n[풍부한 콘텐츠로 성장하세요!]\n\n\n\n군단을 만들고 단원을 모아 국력을 성장시키세요.\n도전, 레이드, 토벌에 참여하여 다양한 보상을 얻으세요.\n\n\n\n\n\n'삼국이 분다: 전장의 바람 - 수집형 RPG'\n지금 바로 다운로드 하세요!\n\n\n\n\n[문의 이메일]\nsupport@kikike.com\n\n\n\n[개인정보 처리방침]\nhttps://noticesg.oopy.io/privacy/kr\n\n\n\n[서비스 운영 정책]\nhttps://notices",
+    "released": "2024-04-22T07:00:00Z",
+    "updated": "2026-05-07T00:28:17Z",
+    "version": "1.56.0",
+    "score": 4.84014,
+    "reviews": 563,
+    "developer": "kikike Corp.",
+    "developerUrl": "https://apps.apple.com/kr/developer/kikike-corp/id1400116388?uo=4",
+    "genres": [
+      "게임",
+      "전략",
+      "롤플레잉"
+    ],
+    "releaseNotes": "Ver. 1.56.0\n- 스테이지 39, 40이 추가됩니다.\n- 마천루 12층이 추가됩니다.\n- 결투장, 총력전의 보상이 개편됩니다.\n- 청주서버 : 명예의 전당이 오픈됩니다.\n- 편의성 : 목걸이 목록에 필터가 추가됩니다.\n- 마이너 버그 수정"
+  },
+  "reviewAnalysis": {
+    "total": 27,
+    "starCounts": {
+      "1": 6,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 20
+    },
+    "positiveRatio": 74,
+    "negativeRatio": 22,
+    "eventMentions": [
+      {
+        "text": "삼국지 팬이라면 할만합니다.\n\n마이너틱하긴한데 유저 톡방도 있고\n\n카페도 있어요.\n\n군단전도 있고 여러가지 노력을 많이 하는 회사에요.\n\n업데이트 내역 보시면 알겠지만,\n\n제작진들",
+        "keywords": [
+          "업데이트"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-08T07:36:19.146Z"
+}

@@ -1,0 +1,79 @@
+{
+  "appId": "com.easybrain.jigsaw.puzzles",
+  "name": "Jigsaw Puzzles - Puzzle Games",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Get an engaging jigsaw puzzle experience with one of the world’s most-downloaded puzzle games from a top developer!\n\nJigsaw Puzzles is an addictive, easy to play game for seniors with over 30,000 FREE cute HD pictures. No points, no gimmicks, and no missing pieces, simply enjoy hours of fun putting jigsaw puzzles together to calm down and relax.\n\nCreated by game experts and played by millions of puzzle lovers worldwide, Jigsaw Puzzles helps you exercise your short-term memory and concentration, ",
+    "released": "Jun 4, 2019",
+    "updated": 1779288709000,
+    "version": "4.7.0",
+    "installs": "100,000,000+",
+    "score": 4.7,
+    "ratings": 2283422,
+    "reviews": 3777,
+    "developer": "Easybrain",
+    "developerWebsite": "http://www.easybrain.com",
+    "genre": "Puzzle",
+    "recentChanges": "- Performance and stability improvements<br><br>We read all your reviews and always try to make the game better. Please leave us some feedback if you love what we do and feel free to suggest any improvements. Make every day relaxing and fun putting puzzle pieces together!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 23,
+      "2": 22,
+      "3": 16,
+      "4": 11,
+      "5": 128
+    },
+    "positiveRatio": 70,
+    "negativeRatio": 23,
+    "eventMentions": [
+      {
+        "text": "used to love this app but it seems they got rid of you having collections and force you into events ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i dont want this app it auto download on to my phone after an android update 😫",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "love this game but just got a new phone very disappointed that you can't carry over your progress fr",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "love these puzzles but the constant interruptions sucks. been playing for ages and thought it would ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "so far it's really good i will update when i get more information so i can go deeper detail",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:43:47.398Z"
+}

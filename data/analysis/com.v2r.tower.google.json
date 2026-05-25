@@ -1,0 +1,42 @@
+{
+  "appId": "com.v2r.tower.google",
+  "name": "미친 타워가 되었다: 반주년 미친쿠폰 이벤트",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Thanks to all the Commanders, Mita is successfully celebrating its Half-Anniversary!\n\nWe have prepared gifts to express our gratitude! There is also a new server available!\n\nTake this opportunity to start playing Mita!\n\nCoupon: ILOVEMITA\n\n1. Mythical Hero Random Card*1\n\n2. 1-Star Legendary Equipment Random Box*1\n\n3. Summon Ticket*50\n\n4. Select Epic Unit Fragment*50\n\n5. Voucher*100,000\n\n🔥New Update! [Battle of the Abyss] Open!\n\n1. The new event-type content [Battle of the Abyss] has opened.\n\n2. ",
+    "released": "Sep 5, 2025",
+    "updated": 1776850005000,
+    "version": "1.0.12",
+    "installs": "100,000+",
+    "score": 4.5,
+    "ratings": 2197,
+    "reviews": 398,
+    "developer": "V2R",
+    "developerWebsite": "https://www.v2r.kr/",
+    "genre": "Role Playing",
+    "recentChanges": "1. 신규 시스템 [심연의 전투] 업데이트<br>2. 신규 유물 추가 / 신규 유물 스킬 추가 <br>3. 기타 버그 수정 <br>4. 게임 최적화"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-13T11:37:41.820Z"
+}

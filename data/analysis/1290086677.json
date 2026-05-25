@@ -1,0 +1,43 @@
+{
+  "appId": "1290086677",
+  "name": "楓之谷M - 奇幻冒險MMORPG",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "隱月、狂狼勇士重製紀念活動開跑！\n透過雙重究極燃燒 1+4 快速升級，搭配多樣成長活動，讓實力全面提升。\n現在開始，別錯過這波最快變強的機會！\n________________________________________\n\n▶ 體驗最強動畫MMORPG的精髓！ ◀\n冒險家，現在是你在楓之谷世界展開旅程的時刻！\n在《楓之谷M》手遊中，邂逅充滿動漫感的手機傳說風格。\n從弓箭手村、墮落城市到玩具城等經典場景！\n豐富地形、刺激的地城，以及動畫般的劇情等你來探索！\n挑戰星力戰場、武陵道場、怪物公園、故事探險隊、星光M塔等多種內容，\n在這款趣味十足的MMORPG中將角色培養到最強境界！\n\n\n\n\n\n▶ 打造獨一無二的個性角色！ ◀\n想創造與眾不同的角色嗎？\n如果你正在尋找動畫風的手遊MMORPG，《楓之谷M》絕對是不二之選！\n從皇家美髮整形、混合染髮、隱形眼鏡，到可愛的寵物與機器人，\n利用紙娃娃系統，隨你盡情打扮!\n在廣闊的楓之谷世界中寫下屬於你的故事—展開冒險，培養你的英雄、創造你的世界！\n\n\n\n\n\n▶ 和朋友一起挑戰團結的MMORPG ◀\n真正的MMORPG樂趣，是與朋友一同冒險！\n建立公會",
+    "released": "2018-08-01T15:53:17Z",
+    "updated": "2026-05-20T21:22:49Z",
+    "version": "2.390.5565",
+    "score": 4.5,
+    "reviews": 96747,
+    "developer": "NEXON Company",
+    "developerUrl": "https://apps.apple.com/tw/developer/nexon-company/id523546006?uo=4",
+    "genres": [
+      "遊戲",
+      "角色扮演"
+    ],
+    "releaseNotes": "▶ 角色重製：隱月、狂狼勇士\n▶ 全新活動：M4U BOSS們的邀請活動（第 2 彈）\n▶ 全新內容：卡歐的記憶任務\n▶ 系統更新：紋章系統改版"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:41:18.745Z"
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "com.epidgames.trickcalrevive",
+  "name": "트릭컬 리바이브",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "세계수 중심으로 펼쳐진 세계 \"엘리아스\"\n얼떨결에 교주가 된 당신과 100명이 넘는 볼따구 캐릭터가 함께하는 우당탕탕 이세계 라이프!\n\n◼︎ 볼따구 당기기! 귀여운 캐릭터와 교감하세요\n100명 이상의 개성 넘치는 캐릭터와의 특별한 교감!\n볼 당기기·쓰다듬기 등 다양한 상호작용이 기다립니다.\n\n◼︎ 모든 이야기는 풀보이스 더빙으로 즐겨보세요\n메인스토리와 이벤트 스토리까지 전편 한국어 풀더빙!\n일상에서 모험으로 이어지는 유쾌한 이야기,\n2주마다 새롭게 공개되는 신규 캐릭터와 풀더빙 스토리를 시청해 보세요.\n\n◼︎ 가볍게 즐기는 전투, 깊이 있는 전략을 만들어보세요\n자동 전투로 손쉽고 간편한 플레이!\n챌린지, 던전, PvP 등  다양한 콘텐츠에서 색다른 재미를 즐겨보세요.\n캐릭터 고유 속성을 조합해 나만의 전략을 세우고 도전해 보세요.\n\n◼︎ 매 시즌 새롭게 선보이는 미니게임, 풍성한 꾸미기 콘텐츠를 만나보세요\n시즌마다 등장하는 다채로운 미니게임에서 특별한 재미를 느껴보세요!\n집 꾸미기와",
+    "released": "Sep 26, 2023",
+    "updated": 1779217319000,
+    "version": "10556",
+    "installs": "500,000+",
+    "score": 4.8,
+    "ratings": 43425,
+    "reviews": 12725,
+    "developer": "EPIDGames",
+    "developerWebsite": "https://www.trickcal.com/",
+    "genre": "Role Playing",
+    "recentChanges": "신규 사도 - 이드(재활) 등장!"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 2,
+      "2": 1,
+      "3": 3,
+      "4": 1,
+      "5": 43
+    },
+    "positiveRatio": 88,
+    "negativeRatio": 6,
+    "eventMentions": [
+      {
+        "text": "i would give this game 5 stars if it wasn't for a couple of issues. pros: very cute characters and s",
+        "keywords": [
+          "event",
+          "update",
+          "anniversary"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 88%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-22T11:42:43.788Z"
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "com.gimica.maketen",
+  "name": "Dice Logic",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Put your logical skills to the test at a relaxing pace with Dice Logic. \n\nThe goal is simple, using the given pieces make any vertical or horizontal row add up to ten to remove it from the board but be careful space is limited!",
+    "released": "Aug 15, 2023",
+    "updated": 1777551945000,
+    "version": "1.12.1",
+    "installs": "100,000+",
+    "score": 4.4,
+    "ratings": 10836,
+    "reviews": 486,
+    "developer": "Gimica GmbH",
+    "developerWebsite": "https://www.gimica.com",
+    "genre": "Puzzle",
+    "recentChanges": "- Bug Fixes"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 22,
+      "2": 12,
+      "3": 18,
+      "4": 32,
+      "5": 116
+    },
+    "positiveRatio": 74,
+    "negativeRatio": 17,
+    "eventMentions": [
+      {
+        "text": "game was very different from my normal games i play..but makes you think and i like that..i got a ne",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "just started will update but love the concept and love dice",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this game is m my new addiction!! and i'm earning money playing it on justplay!!",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "waaaaayyy too many ads and too often. i like the game but it wastes my time because you can't just g",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "it's new to me.",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-20T13:51:14.177Z"
+}

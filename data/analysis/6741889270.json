@@ -1,0 +1,44 @@
+{
+  "appId": "6741889270",
+  "name": "픽셀 법사 키우기 : 방치형 RPG",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "1. 도트 그래픽 액션\n아기자기한 도트 캐릭터와 화려한 액션! 도트 그래픽의 세계에서 몰입감 넘치는 전투를 즐기세요.\n\n2. 스킬체인 시스템\n스킬 블록을 모아 연결하고, 더 강력한 공격으로 적을 처치하세요. 쉽지만 전략적인 전투의 재미를 느껴보세요!\n\n3. 전직 시스템\n전직을 통해 새로운 스킬과 특별한 코스튬을 무료로 지급받을 수 있어요! 전직 후에는 더욱 강력한 캐릭터로 변신!\n\n4. 마탑\n마탑을 올라가며 풍성한 보상을 획득하세요! 점점 강해지는 보스를 처치하고 성장의 기회를 놓치지 마세요.\n\n지금 바로 모험을 떠나고, 아르미스 왕성의 복수를 다짐하세요! 대악마 군주들을 물리치고, 새로운 전설을 만들어보세요!",
+    "released": "2025-04-14T07:00:00Z",
+    "updated": "2026-05-08T15:22:02Z",
+    "version": "1.1.46",
+    "score": 4.9,
+    "reviews": 4152,
+    "developer": "YONGJIN JO",
+    "developerUrl": "https://apps.apple.com/kr/developer/yongjin-jo/id1796092577?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉",
+      "시뮬레이션"
+    ],
+    "releaseNotes": "1) 신규 서버 2서버 추가\n2) 1.5주년 이벤트\n3) 1.5주년 특별 출석 이벤트\n4) 가정의 달 수집 이벤트\n5) 펫 시스템 확장 및 개선\n6) 컨텐츠 확장"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-16T15:02:58.843Z"
+}

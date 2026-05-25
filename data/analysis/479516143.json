@@ -1,0 +1,44 @@
+{
+  "appId": "479516143",
+  "name": "Minecraft: Dream it, Build it!",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Dive into an open world of building, crafting and survival. Gather resources, survive the night, and build whatever you can imagine one block at a time. Explore and craft your way through a completely open world where you can play with friends, build a city, start a farm, mine deep into the ground, face mysterious enemies, or just experiment to the limits of your imagination! \n \nThe possibilities are endless. Embark on an epic adventure and play with friends, building from the ground up. Build a",
+    "released": "2011-11-17T08:00:00Z",
+    "updated": "2026-04-06T17:06:08Z",
+    "version": "26.13",
+    "score": 4.11211,
+    "reviews": 24235,
+    "developer": "Mojang",
+    "developerUrl": "https://apps.apple.com/th/developer/mojang/id479516146?uo=4",
+    "genres": [
+      "Games",
+      "Simulation",
+      "Adventure"
+    ],
+    "releaseNotes": "Various bug fixes!"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 20,
+      "2": 7,
+      "3": 5,
+      "4": 9,
+      "5": 8
+    },
+    "positiveRatio": 35,
+    "negativeRatio": 55,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:50.201Z"
+}

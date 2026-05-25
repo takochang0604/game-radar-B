@@ -1,0 +1,51 @@
+{
+  "appId": "6642673658",
+  "name": "Chúa Công Chạy Mau - 3Q",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Quyết định phê duyệt nội dung kịch bản trò chơi điện tử G1 trên mạng số: 2012/QĐ-BTTTT cấp ngày 19/11/2024.\nGame \"Chúa Công Chạy Mau\" được mong đợi từ lâu đã chính thức ra mắt! Chào mừng tất cả người chơi tham gia vào bộ tộc Tam Quốc của chúng ta. Ngoài ra, còn có rất nhiều phúc lợi trong trò chơi đang chờ bạn nhận! Hãy nhanh chóng đăng nhập vào trò chơi và trải nghiệm thế giới Tam Quốc khác!\n\n\"Chúa Công Chạy Mau\" là một tựa game thẻ bài giải trí lấy bối cảnh Tam Quốc. Trong game, bạn sẽ sát cán",
+    "released": "2025-01-22T08:00:00Z",
+    "updated": "2026-04-25T01:10:55Z",
+    "version": "1.2.8",
+    "score": 3.3879,
+    "reviews": 1124,
+    "developer": "NEXFUN",
+    "developerUrl": "https://apps.apple.com/vn/developer/nexfun/id1763486824?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Card"
+    ],
+    "releaseNotes": "Sửa một số bug đã biết"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 45,
+      "2": 3,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "positiveRatio": 2,
+    "negativeRatio": 98,
+    "eventMentions": [
+      {
+        "text": "what the heck all earth, my account was like at rank 40-50 with like 14-16 generals at level 100-130",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:33.165Z"
+}

@@ -1,0 +1,45 @@
+{
+  "appId": "6480102112",
+  "name": "ODIN:VALHALLA RISING",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "▣ 1st Anniversary Event: GRAND FESTA OF VALHALLA ▣\n A festival to celebrate a year of greatness! \n Don't miss out on the greatest reward the gods can offer.\n The most epic event ever! \n \n ▣ New Class: The Bard Released ▣\n It's time to dominate the battlefield with music!\n The Bard, a new sub class of the Priest, has joined the battle. \n Play your harp to aid your allies and disrupt your foes!\n\n▣Game Introduction▣\n■ An MMORPG That Challenges the Gods' Realms\nGodlike visuals powered by Unreal Engi",
+    "released": "2025-04-27T07:00:00Z",
+    "updated": "2026-05-13T22:09:26Z",
+    "version": "1.9.2",
+    "score": 4.4,
+    "reviews": 526,
+    "developer": "Kakao Games Corp.",
+    "developerUrl": "https://apps.apple.com/ph/developer/kakao-games-corp/id1002306740?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Entertainment",
+      "Role-Playing"
+    ],
+    "releaseNotes": "Bug fix and service stabilization"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-14T12:46:31.569Z"
+}

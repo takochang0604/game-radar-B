@@ -1,0 +1,63 @@
+{
+  "appId": "1616630100",
+  "name": "Three Kingdoms Tactics-TTH",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "[Game introduction]\n\"The Three Kingdoms - Strategy\" is a military game masterpiece officially authorized by KOEI TECMO to be released in Vietnam!\nEntering this 3D ancient battlefield, you will transform into a King during the chaotic Three Kingdoms period.\nStart growing your power from scratch, recruit famous generals, and order your army to march;\nForm an alliance with 200 other gamers, borrow the mountainous terrain to ambush, defeat strong enemies, steadfast in one direction;\nThen came the ba",
+    "released": "2023-01-03T08:00:00Z",
+    "updated": "2026-02-09T03:29:54Z",
+    "version": "2.0.10038",
+    "score": 4.53263,
+    "reviews": 4275,
+    "developer": "THIEN THUONG HOA ENTERTAINMENT JOINT STOCK COMPANY",
+    "developerUrl": "https://apps.apple.com/vn/developer/thien-thuong-hoa-entertainment-joint-stock-company/id1580495122?uo=4",
+    "genres": [
+      "Games",
+      "Strategy",
+      "Simulation"
+    ],
+    "releaseNotes": "[Cốt truyện của năm \"Trận Định Quân Sơn\" hoàn toàn mới]\n- Chiến trường lập thể: Chiến trường lập thể với độ chênh lệch cao thấp chân thực độc đáo \n- Hệ thống Kỳ Trận: Tự do thiết lập đội quân, nhận buff khủng \n- Võ Tướng mới: SP Hoàng Trung, SP Pháp Chính long trọng ra mắt\n\nEvent Kỷ Niệm Hệ Liệt Tam Quốc Chí 40 Năm đang diễn ra sôi nổi!"
+  },
+  "reviewAnalysis": {
+    "total": 49,
+    "starCounts": {
+      "1": 15,
+      "2": 2,
+      "3": 4,
+      "4": 1,
+      "5": 27
+    },
+    "positiveRatio": 57,
+    "negativeRatio": 35,
+    "eventMentions": [
+      {
+        "text": "game updates càng ngày càng tốt",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "kỷ niệm 2 năm mà không có lấy 1 cái event ra hồn",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "game ra event quay về mà lừa khách hàng, đánh tráo khái niệm, không nghe các ý kiến tích cực của khá",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-09T15:04:28.364Z"
+}

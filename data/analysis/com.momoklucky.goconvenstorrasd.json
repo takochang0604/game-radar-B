@@ -1,0 +1,41 @@
+{
+  "appId": "com.momoklucky.goconvenstorrasd",
+  "name": "Go Convenience store Ready",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Create your own convenience store, where you will become the owner of a store. Expand more stores, convenience stores, sportswear, coffee and desserts, and become a super tycoon in a leisurely and enjoyable gameplay. Start your journey of wealth!",
+    "released": "May 23, 2024",
+    "updated": 1776335926000,
+    "version": "1.2.13",
+    "installs": "10,000,000+",
+    "score": 3.3461537,
+    "ratings": 3664,
+    "reviews": 14,
+    "developer": "zame",
+    "developerWebsite": "https://momokpgamestudio.net",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 31,
+      "2": 5,
+      "3": 1,
+      "4": 2,
+      "5": 11
+    },
+    "positiveRatio": 26,
+    "negativeRatio": 72,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-05T12:07:19.133Z"
+}
