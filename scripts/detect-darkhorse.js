@@ -183,7 +183,7 @@ function detectNewEntry(app, history, gapInfo) {
         strategy: 'new_entry',
         label: '🆕 新進榜',
         detail: `強勢衝進 Top ${maxRank}，偵測當下排名 #${currentRank}`,
-        score: currentRank <= 10 ? 2.5 : currentRank <= 20 ? 2 : 1.8,
+        score: currentRank <= 10 ? 3.0 : currentRank <= 20 ? 2.5 : 2.0,
       };
     }
   }

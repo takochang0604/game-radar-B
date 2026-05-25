@@ -335,8 +335,8 @@ function initScoreInfo() {
           <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 觸發越多核心條件、名次爬升越劇烈 → 基礎分數越高</div>
           <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 🏆 **名次頂端加成**：名次越頂尖（特別是空降 Top 5 / Top 3）獲得大幅加分</div>
           <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 🌍 **大市場權重**：在商業價值高的大市場（如日、美、韓）出現，加權分越高</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 🔗 **跨平台一致性**：同時在 iOS + Android 或 免費榜+營收榜竄升，獲 **1.3 ~ 1.5 倍加成**</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 👀 **黑馬保留期**：一經判定，在 **30 天觀察期** 內只要仍在排行榜上就繼續保留統計</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 🌍 **多市場同步**：同款遊戲在越多市場被偵測為黑馬，每個額外市場貢獻其分數的 **30% 加成**，3 市場以上另有一致性乘數加持</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 👀 **黑馬保留期**：一經判定，只要仍維持在 **Top 20**，信心分數會隨時間衰減（每天 −15%），分數降至門檻以下才會移出</div>
         </div>
       </div>
 
@@ -459,7 +459,12 @@ async function loadData() {
     try {
       updateStatus('⏳ 正在從 Firebase 載入...');
       const { loadInitialData } = await import('./firebase-data.js');
-      const data = await loadInitialData();
+
+      // 加上 10 秒 timeout 保護，避免 Firestore 卡住時 loading 永遠不關閉
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error('Firebase 載入逾時（10秒）')), 10000)
+      );
+      const data = await Promise.race([loadInitialData(), timeoutPromise]);
       state.availableDates = data.availableDates || [];
       state.snapshots = {}; // 快照按需載入
       state.darkhorses = data.darkhorses || [];
@@ -485,12 +490,14 @@ async function loadData() {
       return;
     } catch (err) {
       console.error('Firebase 載入失敗，嘗試 data.js fallback:', err);
+      // Firebase 失敗時也要確保 loading 會被關閉（由 fallback 或此處處理）
     }
   }
 
   // data.js fallback 模式
   if (typeof APP_DATA === 'undefined' || APP_DATA === null) {
     updateStatus('❌ 找不到資料 — 請先執行 npm run upload 或 npm run build');
+    hideLoadingOverlay(); // ← 補上：避免 loading 畫面永遠轉圈
     return;
   }
 
@@ -807,6 +814,7 @@ function renderDarkhorses() {
   filtered = Array.from(mergedMap.values());
   filtered.sort((a, b) => (b.confidenceScore || 0) - (a.confidenceScore || 0));
 
+
   // 後處理：多國卡片的 trigger 若沒有國旗，補上主市場旗幟
   for (const card of filtered) {
     if (!card.markets || card.markets.length <= 1) continue;
@@ -844,10 +852,15 @@ function renderDarkhorses() {
       // 更新 markets
       const mkt = card.markets.find(m => m.code === line.market);
       if (mkt) mkt.rank = latestRank;
-      // 更新 _chartRanks
+      // 更新 _chartRanks（必須同時比對 marketFlag + chartLabel + platform，避免免費榜/營收榜排名互相汙染）
       if (card._chartRanks) {
         const mf = getFlag(line.market);
-        const cr = card._chartRanks.find(c => c.marketFlag === mf);
+        const chartLabelForLine = line.chartType === 'grossing' ? '營收' : '免費';
+        const cr = card._chartRanks.find(c =>
+          c.marketFlag === mf &&
+          c.chartLabel === chartLabelForLine &&
+          c.platform === line.platform
+        );
         if (cr) cr.rank = latestRank;
       }
     }
@@ -1025,7 +1038,7 @@ function renderDarkhorses() {
     let rankHtml = displayRanks.map(cr => {
       const pIcon = cr.platform === 'android' ? ICON_ANDROID : ICON_IOS;
       const rtCls = cr.chartLabel === '營收' ? 'rt-grossing' : 'rt-free';
-      const mFlag = hasMultiMarkets && cr.marketFlag ? `<span style="font-size:11px;margin-right:2px">${cr.marketFlag}</span>` : '';
+      const mFlag = cr.marketFlag ? `<span style="font-size:11px;margin-right:2px">${cr.marketFlag}</span>` : '';
       return `<div class="dh-rank-row">${mFlag}<span class="dh-rank-type ${rtCls}">${cr.chartLabel}</span>${pIcon}<span class="dh-rank-num">#${cr.rank}</span></div>`;
     }).join('');
 
