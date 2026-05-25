@@ -1571,8 +1571,8 @@ function showAnalysis(appId, platform) {
   // 按排名排序（排名最好的在前面）
   modalMarkets.sort((a, b) => (a.rank ?? 9999) - (b.rank ?? 9999));
 
-  // 決定初始市場
-  let initialMarketCode = dh.market || dh.marketCode || state.rankMarket;
+  // 決定初始市場：取排名最好的市場（與外層卡片排序一致）
+  let initialMarketCode = modalMarkets.length > 0 ? modalMarkets[0].code : (dh.market || dh.marketCode || state.rankMarket);
   if (!uniqueMarketsMap.has(initialMarketCode) && modalMarkets.length > 0) {
     initialMarketCode = modalMarkets[0].code;
   }

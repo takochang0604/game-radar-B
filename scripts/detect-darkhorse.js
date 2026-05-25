@@ -25,14 +25,22 @@ const OVERRIDE_DATE = process.argv[2] && /^\d{4}-\d{2}-\d{2}$/.test(process.argv
   ? process.argv[2]
   : null;
 
+// 用 local time 格式化日期，避免 toISOString() 的 UTC 時區差異（UTC+8 下會差一天）
+function formatLocalDate(d) {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
+}
+
 function getToday() {
-  return OVERRIDE_DATE || new Date().toISOString().split('T')[0];
+  return OVERRIDE_DATE || formatLocalDate(new Date());
 }
 
 function getDateStr(daysAgo) {
-  const base = OVERRIDE_DATE ? new Date(OVERRIDE_DATE + 'T00:00:00') : new Date();
+  const base = OVERRIDE_DATE ? new Date(OVERRIDE_DATE + 'T12:00:00') : new Date();
   base.setDate(base.getDate() - daysAgo);
-  return base.toISOString().split('T')[0];
+  return formatLocalDate(base);
 }
 
 function ensureDir(dirPath) {
