@@ -9,9 +9,9 @@
     "updated": 1776956175000,
     "version": "1.0.22",
     "installs": "1,000,000+",
-    "score": 4.7,
-    "ratings": 47351,
-    "reviews": 292,
+    "score": 4.8,
+    "ratings": 47642,
+    "reviews": 295,
     "developer": "Warrior Puzzle Game Studio",
     "developerWebsite": "https://loveballs.club/",
     "genre": "Puzzle",
@@ -20,11 +20,11 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 120,
+      "1": 119,
       "2": 24,
       "3": 11,
       "4": 4,
-      "5": 41
+      "5": 42
     },
     "positiveRatio": 23,
     "negativeRatio": 72,
@@ -69,5 +69,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:51:06.077Z"
+  "analyzedAt": "2026-05-26T12:52:06.223Z"
 }

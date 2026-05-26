@@ -8,8 +8,8 @@
     "released": "2026-05-15T07:00:00Z",
     "updated": "2026-05-24T19:26:03Z",
     "version": "1.2.1",
-    "score": 2.3,
-    "reviews": 3,
+    "score": 3,
+    "reviews": 6,
     "developer": "Hsingchien Cheng",
     "developerUrl": "https://apps.apple.com/tw/developer/hsingchien-cheng/id1896534780?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:50:29.583Z"
+  "analyzedAt": "2026-05-26T12:53:05.529Z"
 }

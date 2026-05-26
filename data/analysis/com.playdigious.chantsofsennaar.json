@@ -10,8 +10,8 @@
     "version": "1.0.10",
     "installs": "100,000+",
     "score": 4.8,
-    "ratings": 3126,
-    "reviews": 25,
+    "ratings": 3135,
+    "reviews": 26,
     "developer": "Playdigious",
     "developerWebsite": "https://playdigious.helpshift.com/hc/en/34-chants-of-sennaar/contact-us/",
     "genre": "Puzzle",
@@ -65,8 +65,8 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 6 天前",
-      "confidence": "high"
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
     },
     {
       "type": "event_driven",
@@ -81,5 +81,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:50:24.901Z"
+  "analyzedAt": "2026-05-26T12:53:02.966Z"
 }

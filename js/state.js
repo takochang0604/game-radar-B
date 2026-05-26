@@ -22,7 +22,7 @@ export const MARKETS = [
 export const state = {
   // --- 各 tab 獨立篩選狀態 ---
   dh:    { market: 'all', platform: 'ios', chartType: 'all' },
-  rank:  { market: 'tw',  platform: 'ios', chartType: 'topfree' },
+  rank:  { market: 'all', platform: 'ios', chartType: 'topfree' },
   trend: { market: 'all', platform: 'ios', chartType: 'topfree' },
   // --- 共用 ---
   selectedDate: null,

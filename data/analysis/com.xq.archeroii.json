@@ -1,0 +1,73 @@
+{
+  "appId": "com.xq.archeroii",
+  "name": "Archero 2",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Welcome to the new era of the legendary roguelike mobile game—Archero 2! Join the crowd in unlocking the memories of the archer!\n\nThe once-great hero has fallen into the Demon King's trap and turned into an even more powerful leader of dark forces! As a new-generation hero, you must master every skill you acquire to embark on your mission to save the world!\n\nGame Features:\n1. Roguelike Experience 2.0: Unique skill rarity settings and more chances to choose your skills!\n2. Combat Experience 2.0: ",
+    "released": "Nov 19, 2024",
+    "updated": 1776239783000,
+    "version": "1.1.6",
+    "installs": "5,000,000+",
+    "score": 4.4,
+    "ratings": 163355,
+    "reviews": 2100,
+    "developer": "Habby",
+    "developerWebsite": "https://www.habby.com/",
+    "genre": "Action",
+    "recentChanges": "1. New Umbral Tempest class: Diviner is coming in the new season!<br>2. New Legendary Mystling: Fool<br>3. New character skins: Violet Lotus Pulse (Nezha), Awakened Stone Monkey (Wukong)<br>4. Plant and Spirit build will receive major enhancements<br>5. All-Star Cup Qualifiers upgraded, with comprehensive optimization to both the format and rewards<br>6. Major Guild system upgrade, adding features such as Guild Research, pinned announcements, and recommendation mechanisms<br>7. Cchat system optimization"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 37,
+      "2": 15,
+      "3": 14,
+      "4": 16,
+      "5": 118
+    },
+    "positiveRatio": 67,
+    "negativeRatio": 26,
+    "eventMentions": [
+      {
+        "text": "it really fun and makes the time fly, wish it was abit easier for new characters however.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "it's a really good improvement from the 1st!! i love the fact you don't have to waste time running t",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "red flag: energy. energy displays that your game is incapable of providing sufficient fun and exists",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "events rely heavily upon fomo and giving players a sense of urgency. some of these events really squ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "bad update lots off bugs in game im not happy for this update 😔.. is bad only one game any mode my ",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:51:36.830Z"
+}

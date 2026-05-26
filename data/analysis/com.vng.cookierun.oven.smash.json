@@ -1,0 +1,79 @@
+{
+  "appId": "com.vng.cookierun.oven.smash",
+  "name": "CookieRun: OvenSmash",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Discover the latest sensation from CookieRun - the IP beloved by 200 million fans worldwide!\nThis real-time battle action reaches thrilling new heights.\nWelcome to the world of CookieRun: OvenSmash!\n\nJoin the Cookies gathering in Platter City \nWatch as they clash in epic battles to make their wishes come true \nStep into an urban fantasy world of Cookies like nothing you've ever imagined!\nFight with everything you've got to fulfill your wish! \n\n1. Immersive Urban Fantasy\nBattle it out in a stunni",
+    "released": "Apr 20, 2026",
+    "updated": 1779294282000,
+    "version": "1.3.02",
+    "installs": "100,000+",
+    "score": 3.2,
+    "ratings": 3610,
+    "reviews": 164,
+    "developer": "VNG SINGAPORE PTE. LTD.",
+    "genre": "Action",
+    "recentChanges": "Welcome to CookieRun: OvenSmash!<br>What&#39;s new:<br>– New version update<br>– Ranked Mode added<br>– User experience optimizations<br>Update now to enjoy the latest improvements!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 62,
+      "2": 27,
+      "3": 28,
+      "4": 18,
+      "5": 65
+    },
+    "positiveRatio": 42,
+    "negativeRatio": 45,
+    "eventMentions": [
+      {
+        "text": "new",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "for 3v3 games that have an obvious inspiration or good polished competitor, this game still feels un",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game is super awesome will there be a collabs for this new game i love this game it's fun for pp",
+        "keywords": [
+          "collab",
+          "new"
+        ]
+      },
+      {
+        "text": "this game's powercreep is disgusting. black pudding is a 1st patch character that literally outperfo",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "even though this game is good and got some nice cookies i want to know why every time i boot this ga",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:54:00.473Z"
+}

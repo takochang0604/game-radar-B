@@ -10,8 +10,8 @@
     "version": "0.39.11",
     "installs": "1,000,000+",
     "score": 4.7,
-    "ratings": 3748,
-    "reviews": 865,
+    "ratings": 5568,
+    "reviews": 1084,
     "developer": "FARLIGHT",
     "genre": "Casual",
     "recentChanges": "Clash of Critters is now live!: Your Virtual Pet Paradise is Here!"
@@ -19,43 +19,43 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 15,
-      "2": 7,
-      "3": 2,
-      "4": 19,
-      "5": 157
+      "1": 7,
+      "2": 6,
+      "3": 6,
+      "4": 25,
+      "5": 156
     },
-    "positiveRatio": 88,
-    "negativeRatio": 11,
+    "positiveRatio": 91,
+    "negativeRatio": 7,
     "eventMentions": [
       {
-        "text": "good make some updates or other critters",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "cute critters, game slows down a lot, maybe should create stuff so it doesn't slow too much and make",
-        "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "it reminds me a zombie that the critters have awesome skills fighting zobos but guys this is not a j",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "i'm so upset that i need to leave this review. i really wanted to love this game, and i did when i f",
-        "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "this game is really cute! i have no complaints. you can talk to people from around the world, get ad",
+        "text": "one of the best knew games i played i love the little critters especially the ones in this list whic",
         "keywords": [
           "new"
+        ]
+      },
+      {
+        "text": "this game is really grest and adorable! not only that, you can either have your little pets fight as",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game is fun but, they need to add 13+ or 10 to younger servers. the ppl in world are pretty disg",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i love it! it's a mixture of some of my childhood games + new features that makes this game extraord",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "update: deleted. repeatedly four pop-ups in a row begging for money, i'm out. old: what could have b",
+        "keywords": [
+          "update"
         ]
       }
     ]
@@ -64,14 +64,14 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 9 天，評分 4.7",
+      "detail": "上架 10 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 7 天前",
-      "confidence": "high"
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
     },
     {
       "type": "event_driven",
@@ -82,9 +82,9 @@
     {
       "type": "word_of_mouth",
       "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 88%",
+      "detail": "4-5星評論佔 91%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:48:18.933Z"
+  "analyzedAt": "2026-05-26T12:49:27.652Z"
 }

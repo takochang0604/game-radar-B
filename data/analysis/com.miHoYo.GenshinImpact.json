@@ -10,8 +10,8 @@
     "version": "6.6.0_44318314_44476906",
     "installs": "100,000,000+",
     "score": 4,
-    "ratings": 5172946,
-    "reviews": 23437,
+    "ratings": 5174385,
+    "reviews": 23444,
     "developer": "COGNOSPHERE PTE. LTD.",
     "developerWebsite": "https://genshin.hoyoverse.com/",
     "genre": "Adventure",
@@ -20,45 +20,44 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 146,
-      "2": 16,
-      "3": 6,
-      "4": 3,
-      "5": 29
+      "1": 148,
+      "2": 15,
+      "3": 9,
+      "4": 5,
+      "5": 23
     },
-    "positiveRatio": 16,
-    "negativeRatio": 81,
+    "positiveRatio": 14,
+    "negativeRatio": 82,
     "eventMentions": [
       {
-        "text": "the game is not as rewarding as it was back then(not like the game gives that much reward to begin w",
+        "text": "why did my review got deleted loll this game is really bad not even worth your time for new players ",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "i been playing the game when it was release, when the first time i played the game on the release da",
-        "keywords": [
-          "update",
-          "new"
-        ]
-      },
-      {
-        "text": "this game has changed a lot especially the new lunar characters they're so restrictive and they just",
+        "text": "rewards and the new chest finder compass thingy are very great in nod krai and hope the other nation",
         "keywords": [
           "limited",
           "new"
         ]
       },
       {
-        "text": "genshin impact is becoming less and less f2p friendly. i've been playing since 2024, but rewards kee",
+        "text": "horrible rewards for so many new chars coming we get basically nothing",
         "keywords": [
-          "event"
+          "new"
         ]
       },
       {
-        "text": "the developers already decided the game is in decline, so instead of improving they will only milk a",
+        "text": "don't play this game if you're new. if the devs treat long time players such as myself like garbage,",
         "keywords": [
           "new"
+        ]
+      },
+      {
+        "text": "give us the event 4 star weapons back.",
+        "keywords": [
+          "event"
         ]
       }
     ]
@@ -71,5 +70,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:47:46.615Z"
+  "analyzedAt": "2026-05-26T12:49:13.061Z"
 }

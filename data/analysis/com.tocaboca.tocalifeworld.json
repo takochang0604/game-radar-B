@@ -7,54 +7,55 @@
     "description": "Welcome to Toca Boca World, the ultimate universe for kids to play, design, and explore their endless imagination! This isn't just a game; it's a safe space where every story is yours to create, and the fun never stops.\n\nToca Boca World is where your creativity takes center stage:\n🛝 Unleash your inner storyteller: Roleplay in a universe you've created, where you can tell your own stories. Become a teacher, a vet, or even an influencer.\n🏡 Design your dream world: Bring your best friends to life",
     "released": "Nov 21, 2018",
     "updated": 1779467457000,
-    "version": "1.131.2",
+    "version": "1.132",
     "installs": "100,000,000+",
     "score": 4.3,
-    "ratings": 6662477,
-    "reviews": 213415,
+    "ratings": 6663909,
+    "reviews": 213448,
     "developer": "Toca Boca",
     "developerWebsite": "https://tocaboca.com/help/",
     "genre": "Educational",
-    "recentChanges": "Get ready to bring extra attitude to your stories, olivia rodrigo is playing in the Music Player from May 12th through June 8th! We&#39;re dropping a brand new Pixel Art Machine and frames in Home Designer for you to create and display your masterpieces! And speaking of gifts, you can take family roleplay to the next level with Mother&#39;s Day gifts, dress up for your big music performance with a glittering gown or techno outfits, and practice your volley with tennis gear before the big competition!"
+    "recentChanges": "It&#39;s brutal out here! Soundtrack your stories with four hit songs from olivia rodrigo in the Music Player until June 9! And look, we&#39;re getting ready for a party in the Post Office! We&#39;re dropping a rainbow dress, cake and macramé decoration to celebrate Pride! Looking for the perfect outfit for Festa Junina? We&#39;ve got that covered, too! Next time, let emotions take center stage in your stories, with music from SIENNA SPIRO in the Music Player from June 9 through June 29!"
   },
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 24,
-      "2": 6,
-      "3": 20,
-      "4": 32,
-      "5": 118
+      "1": 17,
+      "2": 7,
+      "3": 21,
+      "4": 31,
+      "5": 124
     },
-    "positiveRatio": 75,
-    "negativeRatio": 15,
+    "positiveRatio": 78,
+    "negativeRatio": 12,
     "eventMentions": [
       {
-        "text": "it's a really fun game no ads is better but sometimes gets boring when you need to buy more characte",
-        "keywords": [
-          "collab"
-        ]
-      },
-      {
-        "text": "love it! next time...can you try to collaborate with any anime? please? i will love that!",
-        "keywords": [
-          "collab"
-        ]
-      },
-      {
-        "text": "hey thanks for fixing this bug that was happening and also i've come to the coxlution that yiu shoul",
+        "text": "it's nice but i or we really need new hair style:)",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "nothing worked my entire new progress is gone too honestly u guys need to add a code that u get the ",
+        "text": "bec there not many to do and in the new update you have to like stuff some ppl are not allowed to bu",
         "keywords": [
+          "update",
           "new"
         ]
       },
       {
-        "text": "ʜᴇʟʟᴏ(•̀’◡’•̀)ﾉ also the glitch is gone forever for good and the game is good 👍 and the update to k",
+        "text": "i love it 😍 so much and it's give a calmnnis and the event is fun and toca boca is my favorite game",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "girl, i really really really like it but i wanted more pretty clothes for my lesbian couple hahaha, ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "what about a free 2 slot to make 5 for free to make role playing with 5 people in the family for the",
         "keywords": [
           "update"
         ]
@@ -65,7 +66,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +76,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:49:50.913Z"
+  "analyzedAt": "2026-05-26T12:52:03.833Z"
 }

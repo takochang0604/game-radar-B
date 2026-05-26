@@ -8,8 +8,8 @@
     "released": "2024-10-07T07:00:00Z",
     "updated": "2026-05-21T17:20:26Z",
     "version": "2.2.2",
-    "score": 4.2,
-    "reviews": 15,
+    "score": 3.3,
+    "reviews": 36,
     "developer": "Erwin .",
     "developerUrl": "https://apps.apple.com/tw/developer/erwin/id1748432630?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:48:49.882Z"
+  "analyzedAt": "2026-05-26T12:50:24.174Z"
 }

@@ -10,8 +10,8 @@
     "version": "4.4.0",
     "installs": "1,000,000+",
     "score": 3.9,
-    "ratings": 105537,
-    "reviews": 47974,
+    "ratings": 105552,
+    "reviews": 47987,
     "developer": "HotCool Game",
     "developerWebsite": "http://www.pubgmobile.com",
     "genre": "Action",
@@ -70,5 +70,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-20T12:08:49.491Z"
+  "analyzedAt": "2026-05-26T12:55:14.679Z"
 }

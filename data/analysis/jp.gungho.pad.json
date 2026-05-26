@@ -1,0 +1,80 @@
+{
+  "appId": "jp.gungho.pad",
+  "name": "パズル＆ドラゴンズ(Puzzle & Dragons)",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "[Game introduction] \nIt is a large adventure at a puzzle! \nThis game is a game which ventures by the power of a puzzle together with a monster. \nI will venture the dungeon in the world and will find out a legendary dragon! \n\n* A cardinal rule is an easy puzzle! \nAbout the drops of the same color, it is a puzzle game arranged and erased three at length or width. \nI will move drops well, will erase at the time of said, and will aim at a  invigorating combo! \n\n* The battle with a monster! \nIf drops",
+    "released": "Sep 17, 2012",
+    "updated": 1779264093000,
+    "version": "23.3.0",
+    "installs": "10,000,000+",
+    "score": 3.2,
+    "ratings": 598613,
+    "reviews": 213640,
+    "developer": "GungHo Online Entertainment, Inc.",
+    "developerWebsite": "https://pad.gungho.jp/",
+    "genre": "Puzzle",
+    "recentChanges": "Ver. 23.3.0 Update Details<br><br>* New Accelerate Awoken Skill added.<br>* New &quot;Gimmick Filter&quot; added for use in Exploration team selection.<br><br>* Miscellaneous bug fixes and minor improvements have been made.<br><br>* For details, from within the app see Others &gt; Event/Update Info"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 59,
+      "2": 11,
+      "3": 8,
+      "4": 22,
+      "5": 100
+    },
+    "positiveRatio": 61,
+    "negativeRatio": 35,
+    "eventMentions": [
+      {
+        "text": "it's fun. there are many great collabs with different fandoms. i always save gems to get the charact",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "hope can get android 13 update as soon as possible",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "パズドラ内メールでのイベント予告ありがと。 公式サイト見る度に｢coming soon｣だから、サイト一切開かなくなって楽しみ皆無でモチベも落ちてたから、ほんとありがと",
+        "keywords": [
+          "イベント"
+        ]
+      },
+      {
+        "text": "not game, only luck. ゴミ、最新osで起動すらしない バグなおさない、違法なガチャをやめない、詐欺",
+        "keywords": [
+          "新"
+        ]
+      },
+      {
+        "text": "10周年おめでとうございます",
+        "keywords": [
+          "周年",
+          "周年"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:54:05.869Z"
+}

@@ -1,0 +1,49 @@
+{
+  "appId": "com.tw.mf.uamo",
+  "name": "Arena Breakout: Hardcore FPS",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "SEASON 12 NOW LIVE!\nArena Breakout is a Next-Gen Immersive Tactical FPS, and a first-of-its-kind extraction looter shooter that pushes the limits of war simulation on Mobile. Choose a faction and engage in tactical team confrontation,complete special missions, and experience intense firefights in a wide variety of  maps and modes.\n\nEXPLORE THE SWAMPY VALLEY\nExplore the all-new Swampy Valley, an expanse 47% larger than before, providing boundless opportunities for exploration. Traverse the river ",
+    "released": "Oct 19, 2023",
+    "updated": 1773020914000,
+    "version": "1.0.236.236",
+    "installs": "500,000+",
+    "score": 3.8,
+    "ratings": 42507,
+    "reviews": 10148,
+    "developer": "熱酷遊戲",
+    "developerWebsite": "https://arenabreakout.com",
+    "genre": "Action",
+    "recentChanges": "[Map Updates]<br>[New Map: Valley: New Order]<br>       During the North-South Conflict, many of the Valley facilities once owned by the Antonio Family were left to decay. As Doss returned and gradually regained his footing, he started restoring these ruins... along with his family&#39;s glory."
+  },
+  "reviewAnalysis": {
+    "total": 53,
+    "starCounts": {
+      "1": 9,
+      "2": 1,
+      "3": 0,
+      "4": 5,
+      "5": 38
+    },
+    "positiveRatio": 81,
+    "negativeRatio": 19,
+    "eventMentions": [
+      {
+        "text": "the match making on the current season was unfair i have good gears but mostly my teammates and oppo",
+        "keywords": [
+          "season"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 81%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:52:33.361Z"
+}

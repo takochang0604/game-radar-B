@@ -1,0 +1,74 @@
+{
+  "appId": "com.bandainamcoent.opbrww",
+  "name": "ONE PIECE Bounty Rush",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Take the loot you pirate!  One Piece Bounty Rush is a 3D anime battle arena treasure looting game set in the popular manga pirate world of One Piece!  Join Luffy, the famous Straw Hat Pirate and all your favorite characters in 4 vs 4 real-time pvp battles to rush and loot the treasure of berry coins for victory!  \n\n4 vs 4 MULTIPLAYER TREASURE LOOTING ACTION\n• Exciting capture the flag-style anime pirate action\n• 2 teams of 4 players battle in real-time to loot the most treasure\n• Rush to grab mo",
+    "released": "Mar 29, 2018",
+    "updated": 1776402899000,
+    "version": "91100",
+    "installs": "50,000,000+",
+    "score": 3.7,
+    "ratings": 934621,
+    "reviews": 6413,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerWebsite": "https://www.bandainamcoent.co.jp/english/",
+    "genre": "Action",
+    "recentChanges": "Details of the Ver.91100 Update<br>- Adjusted and improved parts of the UI.<br>- Fixed certain bugs."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 55,
+      "2": 16,
+      "3": 9,
+      "4": 15,
+      "5": 105
+    },
+    "positiveRatio": 60,
+    "negativeRatio": 36,
+    "eventMentions": [
+      {
+        "text": "after new update 60 lvl ex zoro and sanji one shotting my all 100 lvl ex character game is not balan",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "great game, but the pull rates are kind of horrible, haven't gotten a new character in months",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "good but terrible pity system u should make 5 pity so new players can get better and pls give me luc",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "why i can't update to ver. 43000",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "really fun until it starts putting you in matches where everyone one shots you if they are even in t",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:52:23.596Z"
+}

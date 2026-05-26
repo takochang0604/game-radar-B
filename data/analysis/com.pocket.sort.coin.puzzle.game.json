@@ -10,7 +10,7 @@
     "version": "1.9.1",
     "installs": "5,000,000+",
     "score": 4,
-    "ratings": 84369,
+    "ratings": 85309,
     "reviews": 222,
     "developer": "SayGames Ltd",
     "developerWebsite": "https://say.games/",
@@ -20,15 +20,21 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 42,
-      "2": 24,
-      "3": 20,
+      "1": 43,
+      "2": 25,
+      "3": 18,
       "4": 21,
       "5": 93
     },
     "positiveRatio": 57,
-    "negativeRatio": 33,
+    "negativeRatio": 34,
     "eventMentions": [
+      {
+        "text": "fun and a good way to waste time, but the game screws you eventually and forces tou to watch ads or ",
+        "keywords": [
+          "event"
+        ]
+      },
       {
         "text": "gave me an impossible level then when i tried to restart they made me spend all my gems to get a new",
         "keywords": [
@@ -52,12 +58,6 @@
         "keywords": [
           "update"
         ]
-      },
-      {
-        "text": "don't know who got the idea that the \"deal\" button should be replaced with \"drop\". \"deal / draw\" mea",
-        "keywords": [
-          "new"
-        ]
       }
     ]
   },
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 13 天前",
+      "detail": "最近更新: 14 天前",
       "confidence": "medium"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:50:39.317Z"
+  "analyzedAt": "2026-05-26T12:52:45.918Z"
 }

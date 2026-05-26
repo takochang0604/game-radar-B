@@ -6,12 +6,12 @@
   "detail": {
     "description": "*Sixteen Sounds of Yan Yun* is an epic, free-to-play open-world action-adventure RPG centered on martial arts culture. The game guarantees no pay-to-win mechanics, allowing every player to easily and stress-free experience their own martial arts story. Set against the backdrop of the turbulent Five Dynasties and Ten Kingdoms period in Chinese history, you will become a young swordsman, uncovering forgotten truths and the mysteries of your own origins. As the gentle breeze sweeps across the mount",
     "released": "Dec 5, 2025",
-    "updated": 1777366324000,
+    "updated": 1779444522000,
     "version": "3.8",
     "installs": "100,000+",
-    "score": 3.849162,
-    "ratings": 2160,
-    "reviews": 992,
+    "score": 3.7,
+    "ratings": 2195,
+    "reviews": 1012,
     "developer": "LongE Play",
     "genre": "Action",
     "recentChanges": "河西大型資料片最終章：秦川4月30日更新！探索全新地圖，變成「風」感受秦川的四季！"
@@ -53,8 +53,8 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 9 天前",
-      "confidence": "medium"
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
     },
     {
       "type": "event_driven",
@@ -69,5 +69,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-07T11:38:19.102Z"
+  "analyzedAt": "2026-05-26T12:52:50.636Z"
 }

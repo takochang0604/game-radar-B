@@ -10,8 +10,8 @@
     "version": "1.2.1",
     "installs": "100,000+",
     "score": 4.5,
-    "ratings": 1674,
-    "reviews": 202,
+    "ratings": 1998,
+    "reviews": 235,
     "developer": "Oakever Games",
     "developerWebsite": "https://oakevergames.com/",
     "genre": "Puzzle",
@@ -20,15 +20,33 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 38,
-      "2": 33,
+      "1": 41,
+      "2": 34,
       "3": 44,
       "4": 19,
-      "5": 66
+      "5": 62
     },
-    "positiveRatio": 43,
-    "negativeRatio": 36,
+    "positiveRatio": 41,
+    "negativeRatio": 38,
     "eventMentions": [
+      {
+        "text": "super fun to play, but there are alot of repeated levels. i had the same layout back to back, then a",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "after about level 100 or so, the games recycle, i'm playing the exact same 3 levels over and over. t",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "ad reward broken. the game is fun, but rewards for hints or renewed lives is broken. you suffer thro",
+        "keywords": [
+          "new"
+        ]
+      },
       {
         "text": "fun game, a new view on sudoku",
         "keywords": [
@@ -40,24 +58,6 @@
         "keywords": [
           "new"
         ]
-      },
-      {
-        "text": "personal data collection agency discretely disguised as a game. just read the privacy policy and ter",
-        "keywords": [
-          "limited"
-        ]
-      },
-      {
-        "text": "too many adds only to expose the cats even if i knew there was one there is no option to flip it unl",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "i really enjoy the game, but the option to watch an ad to get a hint is broken. the ads play, but i ",
-        "keywords": [
-          "new"
-        ]
       }
     ]
   },
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 9 天前",
+      "detail": "最近更新: 10 天前",
       "confidence": "medium"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:49:13.734Z"
+  "analyzedAt": "2026-05-26T12:50:35.670Z"
 }

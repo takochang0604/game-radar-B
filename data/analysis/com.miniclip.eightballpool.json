@@ -6,12 +6,12 @@
   "detail": {
     "description": "Do you want to play in the world of pool games? 8 Ball Pool is an addictive challenging game based on real 3D pool games, where you will challenge your friends online. Become a master of the pool!\n\nThe balls game is easy to win. You just have to select the table and get ready. Join us and challenge your friends to this ball game in PvP mode. Use your pool strategy with the cue wisely in this online multiplayer ball game as every round will be more difficult after each level. You can play in mult",
     "released": "Jan 23, 2013",
-    "updated": 1779464802000,
+    "updated": 1779713852000,
     "version": "56.23.2",
     "installs": "1,000,000,000+",
     "score": 4.8,
-    "ratings": 31321353,
-    "reviews": 982759,
+    "ratings": 31327367,
+    "reviews": 982818,
     "developer": "Miniclip.com",
     "developerWebsite": "https://www.miniclip.com/",
     "genre": "Sports",
@@ -20,19 +20,25 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 25,
+      "1": 44,
       "2": 3,
       "3": 4,
       "4": 6,
-      "5": 162
+      "5": 143
     },
-    "positiveRatio": 84,
-    "negativeRatio": 14,
+    "positiveRatio": 75,
+    "negativeRatio": 24,
     "eventMentions": [
       {
-        "text": "very bad game meri porani i'd gain kar key new i'd de di",
+        "text": "enjoying the game with new friends",
         "keywords": [
           "new"
+        ]
+      },
+      {
+        "text": "unlimited goichies in this game and so many hackers 😕",
+        "keywords": [
+          "limited"
         ]
       }
     ]
@@ -41,15 +47,15 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 0 天前",
       "confidence": "high"
     },
     {
-      "type": "word_of_mouth",
-      "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 84%",
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:48:28.548Z"
+  "analyzedAt": "2026-05-26T12:50:05.016Z"
 }

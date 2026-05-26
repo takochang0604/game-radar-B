@@ -9,7 +9,7 @@
     "updated": "2026-05-25T00:00:18Z",
     "version": "6.7.2",
     "score": 4.5,
-    "reviews": 327747,
+    "reviews": 327782,
     "developer": "SQUARE ENIX",
     "developerUrl": "https://apps.apple.com/jp/developer/%E3%82%B9%E3%82%AF%E3%82%A6%E3%82%A7%E3%82%A2-%E3%82%A8%E3%83%8B%E3%83%83%E3%82%AF%E3%82%B9/id300186801?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:51:11.070Z"
+  "analyzedAt": "2026-05-26T12:53:29.402Z"
 }

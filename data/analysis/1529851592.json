@@ -9,7 +9,7 @@
     "updated": "2026-05-19T19:09:00Z",
     "version": "125.6.4",
     "score": 3.3,
-    "reviews": 588846,
+    "reviews": 588963,
     "developer": "Tencent Mobile Games",
     "developerUrl": "https://apps.apple.com/cn/developer/tencent-mobile-games/id446324237?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 6 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:49:04.593Z"
+  "analyzedAt": "2026-05-26T12:50:45.640Z"
 }

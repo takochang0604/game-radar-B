@@ -1,0 +1,80 @@
+{
+  "appId": "com.percent.aos.luckydefense",
+  "name": "Lucky Defense",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "How far can your luck take you? Have you tested your limits?\nIntroducing the ultimate luck-based tower defense game!\nTry [Lucky Defense] now and push your LUCK to the extreme!\n\n🍀 Summoning units is all based on LUCK! Beat the odds!\n🍀 Yes, it's a tower defense game! Defeat the monsters!\n🍀 You can also merge units! You just never know what you'll get!\n🍀 Feeling LUCKY? Take a big swing with the roulette!\n\nTo rise or to fall, LUCK is the question!\nLucky Defense - A casual tower defense all about",
+    "released": "May 23, 2024",
+    "updated": 1779382743000,
+    "version": "2.0.1",
+    "installs": "5,000,000+",
+    "score": 4.3,
+    "ratings": 207348,
+    "reviews": 28591,
+    "developer": "111%",
+    "developerWebsite": "http://www.111percent.net",
+    "genre": "Casual",
+    "recentChanges": "■ 2nd Anniversary Guardian, Ray!<br>- Don’t miss your chance to get Ray and power him up fast!<br>■ 2nd Anniversary Festival! Massive Adventure Content Now Open!<br>- Log in now to instantly claim 11,111 Diamonds and enjoy tons of special rewards!<br>■ Beyond Immortal! New Limit-Break Update!<br>■ Bug Fixes &amp; Other Improvements"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 49,
+      "2": 22,
+      "3": 28,
+      "4": 19,
+      "5": 82
+    },
+    "positiveRatio": 51,
+    "negativeRatio": 36,
+    "eventMentions": [
+      {
+        "text": "after update to new patches.. seems to be this game suddenly crash while playing... thia is 4 timea ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "ever since your update every game i play it will crash at some point in the game this has never happ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "among the casual multiplayer games, this game developer are the most generous with rewards, f2p frie",
+        "keywords": [
+          "anniversary"
+        ]
+      },
+      {
+        "text": "the ads crash this game 3/4 times. sometimes, the ad doesn't count as being watched. i don't know wh",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "as of may 2026 match making is getting cancelled on google play emulator ! 😫 update: it got fixed a",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:52:48.414Z"
+}

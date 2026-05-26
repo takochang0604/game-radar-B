@@ -9,7 +9,7 @@
     "updated": "2026-05-22T03:04:10Z",
     "version": "1.250.647",
     "score": 4.6,
-    "reviews": 6773,
+    "reviews": 6784,
     "developer": "Omnilojo Pte Ltd",
     "developerUrl": "https://apps.apple.com/ph/developer/omnilojo-pte-ltd/id1838371095?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:51:30.639Z"
+  "analyzedAt": "2026-05-26T12:54:10.928Z"
 }

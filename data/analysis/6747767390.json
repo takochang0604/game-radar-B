@@ -1,0 +1,43 @@
+{
+  "appId": "6747767390",
+  "name": "War Inc: Rising",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "War Inc: Rising thrusts you into a world under siege by monstrous hordes and ruthless enemy armies. As a commander of the last bastion, your mission is clear – rally heroes, build your defenses, and fight alongside allies to save your world from destruction. The war is on, and only strategic teamwork and courage will turn the tide. Are you ready to rise to the challenge and become the hero this cartoon war-torn world needs?\n\nTeam Up for Epic Co-Op Defense\n\nGrab your friends and fight side by sid",
+    "released": "2025-07-09T07:00:00Z",
+    "updated": "2026-05-19T22:34:25Z",
+    "version": "1.0.4",
+    "score": 4.7,
+    "reviews": 368,
+    "developer": "Fastone Games",
+    "developerUrl": "https://apps.apple.com/ph/developer/fastone-games/id1402946708?uo=4",
+    "genres": [
+      "Games",
+      "Strategy"
+    ],
+    "releaseNotes": "1. Fixed an issue where battles were prone to crashing on certain devices."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:55:04.523Z"
+}

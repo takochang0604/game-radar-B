@@ -9,7 +9,7 @@
     "updated": "2026-05-21T01:08:09Z",
     "version": "23.3.0",
     "score": 3.6,
-    "reviews": 201546,
+    "reviews": 201547,
     "developer": "GungHo Online Entertainment, Inc.",
     "developerUrl": "https://apps.apple.com/jp/developer/gungho-online-entertainment-inc/id403963903?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:48:45.262Z"
+  "analyzedAt": "2026-05-26T12:50:43.199Z"
 }

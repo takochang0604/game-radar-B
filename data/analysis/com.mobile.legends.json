@@ -1,0 +1,73 @@
+{
+  "appId": "com.mobile.legends",
+  "name": "Mobile Legends: Bang Bang",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Join your friends in Mobile Legends: Bang Bang, the brand new 5v5 MOBA showdown, and fight against real players! Choose your favorite heroes and build the perfect team with your comrades-in-arms! 10-second matchmaking, 10-minute battles. Laning, jungling, pushing, and teamfighting, all the fun of PC MOBA and action games in the palm of your hand! Feed your eSports spirit!\n\nMobile Legends: Bang Bang, the fascinating MOBA game on mobile. Smash and outplay your enemies and achieve the final victory",
+    "released": "Sep 28, 2016",
+    "updated": 1778210205000,
+    "version": "VARY",
+    "installs": "500,000,000+",
+    "score": 3.9,
+    "ratings": 38628680,
+    "reviews": 26533,
+    "developer": "MOONTON",
+    "developerWebsite": "https://www.mobilelegends.com/",
+    "genre": "Action",
+    "recentChanges": "1. Revamped Hero: Warrior of Ferocity - Aulus, a sustained Fighter who weaves Basic Attacks between skills.<br>2. The new Collector skin Grock &quot;&quot;Tremor of the Deep&quot;&quot; is available for a limited time.<br>3. The Neobeasts skins are available for a limited time. A random Neobeasts skin or item is guaranteed in the first 10 draws!<br>4. Arcade Modes: Frozen Sea Showdown and Tide Siege are available for a limited time!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 109,
+      "2": 9,
+      "3": 5,
+      "4": 6,
+      "5": 71
+    },
+    "positiveRatio": 39,
+    "negativeRatio": 59,
+    "eventMentions": [
+      {
+        "text": "please moonton can you do collector event in about a month?can you add gusion collector too? it's my",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "give the 5 star card of melisa and rafaela if you don't want your player go to hok the youth fair ev",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "stop matching with new player. this auto lane selection is disgusting...new players are getting jung",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "rather than collabs, fixs the matchmaking system",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "new buff on yin is clearly unfair and pointless. yin is actually perfect for a assassin type but her",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:52:26.124Z"
+}

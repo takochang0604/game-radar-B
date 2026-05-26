@@ -1,0 +1,82 @@
+{
+  "appId": "zombie.survival.craft.z",
+  "name": "Last Day on Earth: Survival",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Last Day on Earth is a zombie survival action game with base building, crafting, and shooting zombies in a brutal post-apocalyptic world. Your life depends on how well you loot, craft, and build, turning whatever you find into weapons, gear, and a fortified shelter. Explore hostile lands, shoot zombies, and fight to protect everything you’ve worked for. In this zombie survival world, every piece of loot matters, every wall you build matters, and every mistake may be your last.\n\n■ CRAFTING & BASE",
+    "released": "May 24, 2017",
+    "updated": 1779175804000,
+    "version": "1.49.0",
+    "installs": "100,000,000+",
+    "score": 4.1,
+    "ratings": 4748015,
+    "reviews": 9365,
+    "developer": "KEFIR",
+    "developerWebsite": "https://www.kefircyprus.com/",
+    "genre": "Action",
+    "recentChanges": "<br>— Let&#39;s celebrate LDoE&#39;s 9th anniversary with the Metal &amp; Mud event! Complete Genesis&#39;s tasks, drive around the bogs on an ATV, and crush everything on your path. <br>— New ATV modules: Launchable Winch, Turret, Steel Tracks, and Ram<br>— Cats and kittens: Crossbreed the best cats out of 10 breeds and 13 coat colors<br>— New food for kittens<br>— Caiman Farm. These ain&#39;t your friendly turkeys!<br>— New sulfur and lead extractors<br>— Broken Down ATV Engine that you can disassemble to find goodies inside"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 35,
+      "2": 11,
+      "3": 21,
+      "4": 24,
+      "5": 109
+    },
+    "positiveRatio": 67,
+    "negativeRatio": 23,
+    "eventMentions": [
+      {
+        "text": "there just isn't enough communication between the community and the devs, the game was peak during t",
+        "keywords": [
+          "event",
+          "update"
+        ]
+      },
+      {
+        "text": "good game, really good, only i think there could be a bit more events that are different end not the",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "you have become greedy,some update sucks butt.. why did u remove the 3 purple blueprints from the ba",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i would like an multiplayer update in crater",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i love new atv update, it is very enjoyable to drive atv and smashing zombies. i hope that dev make ",
+        "keywords": [
+          "event",
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:53:46.256Z"
+}

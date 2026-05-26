@@ -1,0 +1,46 @@
+{
+  "appId": "com.hgdri.fernytap",
+  "name": "Ferny Tap",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Step into a hand painted forest clearing where every falling leaf glows with life. Ferny Tap is a bright, endlessly satisfying one finger arcade game about growing a magical grove with nothing but your fingertips.\n\nLeaves, spores and fireflies rain down from the canopy. Tap the good ones to weave combos, collect golden spores for coins, chase butterflies to unlock score multipliers, and let the gentle fireflies supercharge your chain. Stay sharp though. Sneaky crawling pests drop in too, and tap",
+    "released": "Apr 27, 2026",
+    "updated": 1778920543000,
+    "version": "4.0",
+    "installs": "10,000+",
+    "score": 4.7,
+    "ratings": 17,
+    "reviews": 1,
+    "developer": "Cluck Back",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 29 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:54:59.523Z"
+}

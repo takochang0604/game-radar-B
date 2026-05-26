@@ -1,0 +1,81 @@
+{
+  "appId": "com.Shooter.ModernWarships",
+  "name": "Modern Warships: Naval Battles",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Command your warship in epic online sea battles. Try this advanced army simulator and get your adrenaline pumping! \n\nJoin this massive warfare, develop your naval strategy and start a real fleet battle. If you are the kind enjoying boating games, this one is definitely for you. Dive into ship destruction, army shooting, and a constant military challenge. \n\nModern fighting ships are waiting for you! Fight with your friends in the realistic online action game Modern Warships. You'll become the cap",
+    "released": "May 13, 2021",
+    "updated": 1778787188000,
+    "version": "0.104.3.120516320",
+    "installs": "50,000,000+",
+    "score": 4.3,
+    "ratings": 900913,
+    "reviews": 3330,
+    "developer": "Artstorm FZE",
+    "developerWebsite": "https://artstorm.com/",
+    "genre": "Action",
+    "recentChanges": "In this Update:<br>HMS Defender (D36) Destroyer;<br>X-49 SpeedHawk Helicopter;<br>Deterrence 300 Grenade Launcher;<br>Kh-90 Missile;<br>DM2A5 Torpedo;<br>New Camouflages and avatars;<br>Lots of new features and Bug fixes!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 33,
+      "2": 6,
+      "3": 10,
+      "4": 18,
+      "5": 133
+    },
+    "positiveRatio": 76,
+    "negativeRatio": 20,
+    "eventMentions": [
+      {
+        "text": "this game is fantastic ,easy to control and it's generally fast to grind since its a fast paced game",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i really love this game but you should add autocannons to every cruisers because it's hard to get cr",
+        "keywords": [
+          "event",
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "the game developer should add some new map.its so frustating to play in a same map many times.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game seriously needs new maps. like add the pacific, atlantic, indian, arctic, and southern ocea",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i love this game also i recommend you all you to play this game. it give a high graphic or advance s",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:53:41.457Z"
+}

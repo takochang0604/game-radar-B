@@ -1,0 +1,50 @@
+{
+  "appId": "6757032233",
+  "name": "TS Origin - VTC",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Quay lại chiến trường turn-based kinh điển: Bước vào thế giới Tam Quốc diệu kỳ, nơi những trận đánh không chỉ là sức mạnh mà là cuộc đấu trí đỉnh cao. TS Origin tái hiện nguyên vẹn linh hồn của dòng game turn-based huyền thoại, nơi bạn làm chủ từng lượt đánh, định đoạt giang sơn chỉ bằng một cú chạm. Đồ họa nguyên bản, lối chơi kinh điển – Đã đến lúc viết tiếp chương mới cho thanh xuân của chính mình!\n\n1. Tự do thu phục, mở lối chơi riêng\nĐừng chỉ nhìn, hãy sở hữu! Tại TS Origin, từ danh tướng l",
+    "released": "2026-05-24T07:00:00Z",
+    "updated": "2026-05-24T07:00:00Z",
+    "version": "1.0",
+    "score": 4.4,
+    "reviews": 14,
+    "developer": "VTC Mobile",
+    "developerUrl": "https://apps.apple.com/vn/developer/vtc-mobile/id869225534?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Role-Playing"
+    ],
+    "releaseNotes": ""
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 2 天，評分 4.4",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:52:08.683Z"
+}

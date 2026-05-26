@@ -1,0 +1,48 @@
+{
+  "appId": "tw.playground.kesto",
+  "name": "Kesto — Daily Puzzle Challenge",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Kesto is a daily logic puzzle. Swipe in any direction and every box on the board slides at once. Your goal is to land every box on a goal tile. \n\nEach puzzle is hand-crafted, and rotates at midnight UTC.",
+    "released": "May 15, 2026",
+    "updated": 1779740366000,
+    "version": "2.0.0",
+    "installs": "1,000+",
+    "score": 4.8,
+    "ratings": 8,
+    "reviews": 7,
+    "developer": "Hiking Studio",
+    "developerWebsite": "https://playground.tw/",
+    "genre": "Puzzle",
+    "recentChanges": "- Swapped Undo and Reset button positions.<br>- Minor bug fixes."
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 11 天，評分 4.8",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:53:36.553Z"
+}

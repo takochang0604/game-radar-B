@@ -1,24 +1,24 @@
 {
   "appId": "1358222641",
-  "name": "DRAGON BALL LEGENDS -七龍珠 激戰傳說-",
+  "name": "DRAGON BALL LEGENDS",
   "platform": "ios",
-  "market": "tw",
+  "market": "us",
   "detail": {
-    "description": "全球期待已久的《七龍珠》智慧型手機遊戲最新作即將登場！\n精美3D圖像以及戰鬥中全程語音的超高遊戲品質！\n與全世界的勁敵享受對戰樂趣吧！\n\n單指操作的卡片動作對戰\n・只靠一根手指即可簡單操作的對戰！\n・不管是連段還是必殺技都能靠單一點擊釋放！\n\n全世界對戰\n・可與全世界的玩家進行即時線上對戰！\n・操控親手培育的角色，壓制其他玩家！\n\n原創劇情\n・遊戲主角為鳥山明老師繪製的原創角色！\n・一同來體驗悟空一行人的新冒險！\n\nBandai Namco Entertainment Inc. Website:\nhttps://bandainamcoent.co.jp/english/\n\n您下載或安裝本應用程式，即表示同意Bandai Namco Entertainment的《服務條款》。\n《服務條款》：\nhttps://legal.bandainamcoent.co.jp/terms/\n《私隱政策》：\nhttps://legal.bandainamcoent.co.jp/privacy/\n\n註：本遊戲包含一些可通過應用程式購買的項目，來增加遊戲樂趣，加快遊戲進度。您可更改裝置的設定，關閉應用程式的購",
+    "description": "The ultimate anime action RPG is here! DRAGON BALL LEGENDS puts the power of your favorite DRAGON BALL heroes in your hands! Epic 3D visuals and animations bring your collection of heroes to life: More than 400 characters to find and train to make your ultimate team for the battles ahead. Goku, Vegeta, Trunks, Piccolo, Frieza, Broly, Majin Buu and many other heroes and villains are waiting for you! Discover a new original story based off the brand-new character designed by Akira Toriyama, the my",
     "released": "2018-05-31T09:06:23Z",
     "updated": "2026-05-20T05:03:51Z",
     "version": "6.24.0",
-    "score": 4.7,
-    "reviews": 36727,
+    "score": 4.8,
+    "reviews": 793271,
     "developer": "Bandai Namco Entertainment Inc.",
-    "developerUrl": "https://apps.apple.com/tw/developer/bandai-namco-entertainment-inc/id352305770?uo=4",
+    "developerUrl": "https://apps.apple.com/us/developer/bandai-namco-entertainment-inc/id352305770?uo=4",
     "genres": [
-      "遊戲",
-      "角色扮演",
-      "娛樂",
-      "動作"
+      "Games",
+      "Roleplaying",
+      "Entertainment",
+      "Action"
     ],
-    "releaseNotes": "為了8週年準備的大型更新！\n・翻新任務方案！\n統合以往的各方案，全新尊榮方案登場！\n達成任務，獲得刻之結晶等各式各樣的報酬吧！\n・已進行其他各種UI的調整"
+    "releaseNotes": "A major update for the 8th anniversary!\n・Mission Plan overhaul!\nAll Mission Plans up to now have been combined, and a new Premium Plan is here! Complete Missions to get Chrono Crystals and various other rewards!\n・Also adjusted various UI elements"
   },
   "reviewAnalysis": {
     "total": 0,
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 6 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:50:46.864Z"
+  "analyzedAt": "2026-05-26T12:49:47.430Z"
 }

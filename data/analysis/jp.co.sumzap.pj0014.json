@@ -10,25 +10,31 @@
     "version": "3.6.0",
     "installs": "1,000,000+",
     "score": 4.6,
-    "ratings": 53862,
-    "reviews": 9672,
+    "ratings": 53930,
+    "reviews": 9683,
     "developer": "Sumzap, Inc.",
     "developerWebsite": "https://jujutsuphanpara.jp/",
     "genre": "Role Playing",
     "recentChanges": "不具合の修正、及び機能改善"
   },
   "reviewAnalysis": {
-    "total": 149,
+    "total": 150,
     "starCounts": {
-      "1": 25,
+      "1": 26,
       "2": 5,
       "3": 6,
       "4": 11,
       "5": 102
     },
-    "positiveRatio": 76,
-    "negativeRatio": 20,
+    "positiveRatio": 75,
+    "negativeRatio": 21,
     "eventMentions": [
+      {
+        "text": "after the update, story chapter 2 episode 13 keeps crashing, making it impossible to upgrade the cha",
+        "keywords": [
+          "update"
+        ]
+      },
       {
         "text": "please add satoru gojo amanai events please 🥺",
         "keywords": [
@@ -52,12 +58,6 @@
         "keywords": [
           "update"
         ]
-      },
-      {
-        "text": "this japan version is much more generous and not money hungry. the events are not rushed like in glo",
-        "keywords": [
-          "event"
-        ]
       }
     ]
   },
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 10 天前",
+      "detail": "最近更新: 11 天前",
       "confidence": "medium"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:50:56.342Z"
+  "analyzedAt": "2026-05-26T12:51:24.938Z"
 }

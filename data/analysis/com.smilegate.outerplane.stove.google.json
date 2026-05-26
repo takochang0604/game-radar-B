@@ -10,8 +10,8 @@
     "version": "1.4.7",
     "installs": "1,000,000+",
     "score": 4.7,
-    "ratings": 88650,
-    "reviews": 1403,
+    "ratings": 88825,
+    "reviews": 1409,
     "developer": "Major9",
     "developerWebsite": "https://outerplane.vagames.kr",
     "genre": "Role Playing",
@@ -20,15 +20,27 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 64,
+      "1": 61,
       "2": 6,
       "3": 13,
       "4": 18,
-      "5": 99
+      "5": 102
     },
-    "positiveRatio": 59,
-    "negativeRatio": 35,
+    "positiveRatio": 60,
+    "negativeRatio": 34,
     "eventMentions": [
+      {
+        "text": "great game n very welcome to new player. thanks 🙏",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "something is wrong and my hard work is from the update, everything is gone, and don't know what to d",
+        "keywords": [
+          "update"
+        ]
+      },
       {
         "text": "insanely generous towards new player",
         "keywords": [
@@ -47,18 +59,6 @@
         "keywords": [
           "season"
         ]
-      },
-      {
-        "text": "3rd anniversary and still tons of bugs and freezing at end of battles.",
-        "keywords": [
-          "anniversary"
-        ]
-      },
-      {
-        "text": "i am ashamed i only found this game while it's celebrating its 3rd anniversary. solid game, peak wai",
-        "keywords": [
-          "anniversary"
-        ]
       }
     ]
   },
@@ -66,7 +66,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 11 天前",
+      "detail": "最近更新: 12 天前",
       "confidence": "medium"
     },
     {
@@ -76,5 +76,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:47:54.063Z"
+  "analyzedAt": "2026-05-26T12:49:22.691Z"
 }

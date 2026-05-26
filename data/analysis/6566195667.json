@@ -9,7 +9,7 @@
     "updated": "2026-05-19T08:02:19Z",
     "version": "1.0.10",
     "score": 4.9,
-    "reviews": 200,
+    "reviews": 221,
     "developer": "Playdigious",
     "developerUrl": "https://apps.apple.com/tw/developer/playdigious/id1041387229?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 6 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:48:52.431Z"
+  "analyzedAt": "2026-05-26T12:51:44.355Z"
 }

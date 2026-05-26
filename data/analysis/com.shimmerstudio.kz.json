@@ -1,0 +1,80 @@
+{
+  "appId": "com.shimmerstudio.kz",
+  "name": "Hello! My Cozy Inn",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "A super healing countryside simulation game, experience a different kind of laid-back life～Take a break and recharge for your next adventure!\n\nDesign soothing decorations, create delicious meals, recruit interesting staff, and fill every corner with surprises!\nBecome the most popular innkeeper and heal every guest!\n\nGame Features:\nExciting business management\nUpgrade your shabby old inn to a luxurious space, satisfy your guests, and earn loads of rewards! The sense of achievement is real!\n\nDecor",
+    "released": "Sep 23, 2024",
+    "updated": 1778504194000,
+    "version": "1.103.14",
+    "installs": "1,000,000+",
+    "score": 4.9,
+    "ratings": 32436,
+    "reviews": 377,
+    "developer": "Shimmer Studio",
+    "developerWebsite": "https://www.shimmergames.com/policy",
+    "genre": "Simulation",
+    "recentChanges": "Fixed some known issues."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 24,
+      "2": 18,
+      "3": 9,
+      "4": 8,
+      "5": 141
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 21,
+    "eventMentions": [
+      {
+        "text": "i am enjoying the game so far. ill will update how i feel after playing it some more.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "cannot be saved on my new oppo phone. it works fine on my old samsung phone.",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this is everything wrong with mobile gaming. starts off fun and simple, a basic gameplay loop with f",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "so far, i've gotten to the first staff story. it's cute, and i will update later.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "when is the new update coming out? why do new players gets the courtyard? the new skewer stall sucks",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 14 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:54:20.606Z"
+}

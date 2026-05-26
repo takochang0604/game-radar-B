@@ -10,8 +10,8 @@
     "version": "6.7.2",
     "installs": "1,000,000+",
     "score": 3.9,
-    "ratings": 64122,
-    "reviews": 16959,
+    "ratings": 64136,
+    "reviews": 16962,
     "developer": "SQUARE ENIX Co.,Ltd.",
     "developerWebsite": "https://www.dragonquest.jp/tact/",
     "genre": "Role Playing",
@@ -34,9 +34,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:51:47.417Z"
+  "analyzedAt": "2026-05-26T12:53:12.679Z"
 }

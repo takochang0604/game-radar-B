@@ -2,16 +2,16 @@
   "appId": "com.playgendary.kickthebuddy",
   "name": "Kick the Buddy－Fun Action Game",
   "platform": "android",
-  "market": "vn",
+  "market": "us",
   "detail": {
     "description": "Looking for a way to relax and unwind after a long day? Or maybe you’re just looking for a fun game to play when bored? Kick The Buddy is the perfect anti stress game for you! This cool game lets you take a break, have fun, and release some energy in a light-hearted way. Whether it’s kicking, punching, or tossing Buddy around, this is all about having fun without any real harm—after all, Buddy is just a ragdoll dummy!\n\nWhy you’ll love Kick The Buddy:\n\n– Fun & Relaxing: Release stress with funny ",
     "released": "May 22, 2018",
-    "updated": 1779272300000,
+    "updated": 1779791906000,
     "version": "2.16.2",
     "installs": "500,000,000+",
-    "score": 3.8,
-    "ratings": 3564171,
-    "reviews": 27899,
+    "score": 4.1,
+    "ratings": 3564462,
+    "reviews": 195379,
     "developer": "Playgendary Limited",
     "developerWebsite": "https://newplg.dev/",
     "genre": "Action",
@@ -20,14 +20,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 52,
-      "2": 6,
-      "3": 11,
-      "4": 11,
-      "5": 120
+      "1": 50,
+      "2": 7,
+      "3": 9,
+      "4": 13,
+      "5": 121
     },
-    "positiveRatio": 66,
-    "negativeRatio": 29,
+    "positiveRatio": 67,
+    "negativeRatio": 28,
     "eventMentions": [
       {
         "text": "i don't like the new version of the game but i like the old version of the game so can you change th",
@@ -53,7 +53,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 0 天前",
       "confidence": "high"
     },
     {
@@ -63,5 +63,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:49:35.874Z"
+  "analyzedAt": "2026-05-26T12:49:25.274Z"
 }

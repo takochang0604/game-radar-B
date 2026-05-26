@@ -1,0 +1,45 @@
+{
+  "appId": "1193508329",
+  "name": "Sudoku.com - Number Games",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Have fun and train your brain with one of the most downloaded sudoku apps in the AppStore! Millions of people play sudoku daily and it’s truly a game for everyone! Sudoku.com app has thousands of classic sudoku puzzles to help you keep your brain active, unwind from stress or relax. Install to play now!\n\nClassic sudoku for beginners and advanced players. Whether you'd like to relax or keep your mind active – pass the time in a pleasant way! Have a short stimulating break and clear your head with",
+    "released": "2017-03-30T09:32:35Z",
+    "updated": "2026-05-25T18:16:43Z",
+    "version": "7.15.0",
+    "score": 4.7,
+    "reviews": 22846,
+    "developer": "Easybrain Ltd",
+    "developerUrl": "https://apps.apple.com/ph/developer/easybrain-ltd/id1190815537?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Board",
+      "Puzzle"
+    ],
+    "releaseNotes": "- Performance and stability improvements\n\nWe hope you enjoy playing Sudoku.com. We read all your reviews carefully to make the game even better for you. Please leave us some feedback why you love this game and what you'd like to improve. Keep your mind active with Sudoku.com!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:55:02.067Z"
+}

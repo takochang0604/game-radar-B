@@ -1,0 +1,79 @@
+{
+  "appId": "com.pandadagames.ninja.global",
+  "name": "Ninja Must Die",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "On April 22, the Spring Update “Everflowing Glow” goes live in Ninja Must Die!\n\nNew Fire Element Cooperative Ninja: [Lucia] debuts!\nClear the field with sweeping damage, stun enemies, and help your main Ninja lock onto bosses!\nFinish off bosses with a spectacular fireworks display, dealing devastating damage!\nLucia’s new skin [Lucia - Heartflutter Tales] will also be available at a discount on April 22!\nExperience the “heartbeat” moments together with Lucia!\n\nKoi’s second Exclusive Weapon: Fire ",
+    "released": "Mar 7, 2023",
+    "updated": 1778570963000,
+    "version": "1.0.125",
+    "installs": "1,000,000+",
+    "score": 3.3,
+    "ratings": 40897,
+    "reviews": 2474,
+    "developer": "Pandada Games",
+    "developerWebsite": "https://www.pandadagames.com",
+    "genre": "Action",
+    "recentChanges": "Improve game performance"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 37,
+      "2": 11,
+      "3": 13,
+      "4": 23,
+      "5": 116
+    },
+    "positiveRatio": 70,
+    "negativeRatio": 24,
+    "eventMentions": [
+      {
+        "text": "after realizing that you cannot get everything you need or want such as relics i became extremely di",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i played for ~2 years. typical game mode: run map with ninja, choose cards, kill boss, run 2nd part ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "used to be good but gacha is rigged. there was a point where i was addicted to this game but poor dr",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "id give it a 5 if only my old favorite character was playable, unless it becomes a future update to ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "這遊戲抽卡有夠坑，衛鯉池我出了3金都歪，太雖的話基本上新角都要抽到大保底才能抽到，而且勾玉跟抽數也很難拿到，自從洛清出了之後就沒再抽到過新角色了，都是出金歪角，不課金想累積抽數抽新角基本上要等很久。還",
+        "keywords": [
+          "新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 14 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:53:39.002Z"
+}

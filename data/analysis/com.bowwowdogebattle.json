@@ -6,12 +6,12 @@
   "detail": {
     "description": "Bow-Wow Battle is a funny battle game where players become dogs and compete using their barking voice.\n\nIn each match, two players face each other. The mission is simple: bark louder, overpower your opponent, and win the battle. The game has a light, humorous style, perfect for playing with friends or testing the power of your own voice.\n\nThe game uses the microphone to detect the player’s sound, creating a more direct and entertaining battle experience. You do not need complicated controls or h",
     "released": "May 10, 2026",
-    "updated": 1779622960000,
-    "version": "10.4",
+    "updated": 1779796302000,
+    "version": "10.9",
     "installs": "50,000+",
-    "score": 4.7,
-    "ratings": 1739,
-    "reviews": 596,
+    "score": 4.6,
+    "ratings": 2159,
+    "reviews": 687,
     "developer": "SSGamer",
     "developerWebsite": "https://ssgamer.games/",
     "genre": "Action",
@@ -34,7 +34,7 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 15 天，評分 4.7",
+      "detail": "上架 16 天，評分 4.6",
       "confidence": "high"
     },
     {
@@ -44,5 +44,5 @@
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:49:23.489Z"
+  "analyzedAt": "2026-05-26T12:51:34.468Z"
 }

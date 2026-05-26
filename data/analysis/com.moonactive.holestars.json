@@ -6,11 +6,11 @@
   "detail": {
     "description": "Hole Stars – Scoop, Solve, and Shine\n\nLooking for a game that’s fun, fast, and totally satisfying? Meet Hole Stars — a relaxing puzzle game where you guide a growing black hole through colorful levels, collect everything in sight, and beat the clock in style.\n\nFrom tiny objects to giant surprises, every level is packed with items to collect, puzzles to solve, and obstacles to outsmart. Whether you’re in it for the challenge or the relaxing vibes, Hole Stars is the perfect break-time pick-me-up.\n",
     "released": "Sep 16, 2025",
-    "updated": 1779284881000,
+    "updated": 1779782320000,
     "version": "220000.1.192",
     "installs": "1,000,000+",
     "score": 4.5,
-    "ratings": 34142,
+    "ratings": 34533,
     "reviews": 55,
     "developer": "Moon Active",
     "developerWebsite": "https://www.moonactive.com",
@@ -19,14 +19,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 55,
+      "1": 52,
       "2": 18,
-      "3": 15,
-      "4": 20,
-      "5": 92
+      "3": 18,
+      "4": 22,
+      "5": 90
     },
     "positiveRatio": 56,
-    "negativeRatio": 37,
+    "negativeRatio": 35,
     "eventMentions": [
       {
         "text": "super fun and time flys. something new with every level. lotz of laughs lol",
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 0 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:51:28.041Z"
+  "analyzedAt": "2026-05-26T12:52:52.991Z"
 }

@@ -9,7 +9,7 @@
     "updated": "2026-05-22T08:12:25Z",
     "version": "1.0.22",
     "score": 4.8,
-    "reviews": 12236,
+    "reviews": 13261,
     "developer": "Lingxi Games Inc.",
     "developerUrl": "https://apps.apple.com/cn/developer/lingxi-games-inc/id1014466415?uo=4",
     "genres": [
@@ -36,15 +36,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 7 天，評分 4.8",
+      "detail": "上架 8 天，評分 4.8",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:48:04.357Z"
+  "analyzedAt": "2026-05-26T12:49:32.637Z"
 }

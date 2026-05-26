@@ -1,0 +1,87 @@
+{
+  "appId": "com.netmarble.nanatsunotaizai",
+  "name": "七つの大罪 光と闇の交戦 : グラクロ",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Have you ever seen an RPG like this?!\nEnjoy a cinematic adventure RPG with high-quality 3D animation!\n\n◆Introduction to The Seven Deadly Sins: Grand Cross◆\n\n･ With a total circulation of 55 million copies! The world of the popular comic \"The Seven Deadly Sins\" is perfectly recreated in 3D graphics!\n･Full voice recording by the popular voice actors from the original anime, plus new voice acting!\n･ Enjoy cinematic production and strategic battles that are 200% enjoyable even if you're not familiar",
+    "released": "Jun 2, 2019",
+    "updated": 1779263431000,
+    "version": "2.104.0",
+    "installs": "1,000,000+",
+    "score": 4.2,
+    "ratings": 81558,
+    "reviews": 26226,
+    "developer": "Netmarble",
+    "developerWebsite": "https://7taizai.netmarble.jp/",
+    "genre": "Role Playing",
+    "recentChanges": "『グラクロ』の7周年！レジェンドフェスアップデート！<br>- すぐLRに進化できる新キャラ、〈七つの大罪〉不俱戴天 メリオダスが登場！<br><br>■新キャラおよびコスチュームを実装<br>- UR〈七つの大罪〉不俱戴天 メリオダス<br><br>■コンテンツおよびイベントの追加<br>- 7周年記念レジェンドアンケートガチャ<br>- 7周年レジェンドフェスログインボーナス<br>〈黙示録の四騎士〉チャプター5<br>- 新PvEコンテンツ：最高神戦<br>- 新キャラ成長システム：神の加護"
+  },
+  "reviewAnalysis": {
+    "total": 141,
+    "starCounts": {
+      "1": 12,
+      "2": 3,
+      "3": 7,
+      "4": 14,
+      "5": 105
+    },
+    "positiveRatio": 84,
+    "negativeRatio": 11,
+    "eventMentions": [
+      {
+        "text": "great game, the only issue is how they decided to not go with each character who has or is getting a",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "so many player hacking it, drop two srr in second, give they black list... lol....no drop event ssr.",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "this game is really one of my best games and i hope you will download new updates for new characters",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "pvp is now difficult with new broken character",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "brilliant game with very nice graphics and gameplay. my only problem with it (and it's a big problem",
+        "keywords": [
+          "event",
+          "limited"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 84%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:54:25.252Z"
+}

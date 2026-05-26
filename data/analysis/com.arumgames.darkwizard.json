@@ -10,7 +10,7 @@
     "version": "1.0.19",
     "installs": "50,000+",
     "score": 4.5,
-    "ratings": 835,
+    "ratings": 901,
     "reviews": 118,
     "developer": "Arumgames",
     "developerWebsite": "http://www.arumgames.com",
@@ -65,8 +65,8 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 7 天前",
-      "confidence": "high"
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
     },
     {
       "type": "event_driven",
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:48:37.869Z"
+  "analyzedAt": "2026-05-26T12:51:20.114Z"
 }

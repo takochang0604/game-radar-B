@@ -10,7 +10,7 @@
     "version": "1.03.00",
     "installs": "100,000+",
     "score": 4.1,
-    "ratings": 3922,
+    "ratings": 3925,
     "reviews": 797,
     "developer": "Bandai Namco Entertainment Inc.",
     "developerWebsite": "https://www.bandainamcoent.co.jp/",
@@ -34,9 +34,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 7 天前",
-      "confidence": "high"
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:51:03.555Z"
+  "analyzedAt": "2026-05-26T12:53:22.370Z"
 }

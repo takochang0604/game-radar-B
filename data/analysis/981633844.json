@@ -1,0 +1,45 @@
+{
+  "appId": "981633844",
+  "name": "Block Craft 3D: Crafting Game",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Craft and grow your own village or build freely in an unlimited open world!\n\n+ Craft anything you like!\n+ Fill the world with your creations!\n+ Build your village!\n+ Help keeping your people happy!\n\nDownload now and don't miss amazing updates!\n\n\n● What our players are saying\n\n- This is a great game. Easy to play and an easy way to kill some time in between appointments. A must have. I spend hours playing this game. Simplistic but addicting! Love it\n\n- Very good game, but completely addicting. Fi",
+    "released": "2015-07-11T07:00:00Z",
+    "updated": "2026-05-19T16:43:27Z",
+    "version": "3.35.0",
+    "score": 4.6,
+    "reviews": 94429,
+    "developer": "Wildlife Studios",
+    "developerUrl": "https://apps.apple.com/vn/developer/wildlife-studios/id1721431484?uo=4",
+    "genres": [
+      "Games",
+      "Simulation",
+      "Role-Playing",
+      "Entertainment"
+    ],
+    "releaseNotes": "Bugfixes and optimizations"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:52:55.466Z"
+}

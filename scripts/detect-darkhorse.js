@@ -604,30 +604,54 @@ async function main() {
   }
 
   // ============ 市場國旗與排名顯示 ============
-  // 規則：今日快照有撈到（Top 100 以內）就顯示該市場國旗，沒撈到不顯示
+  // 規則：所有歷史快照中有撈到（Top 100 以內）就顯示該市場國旗
+  // 排名顯示最新一天有上榜的排名（若最新沒上榜則顯示歷史最佳排名）
   // 計分不受影響（confidenceScore 已在上方計算完畢）
+
+  // 先收集所有有快照的日期
+  const allSnapshotDates = [];
+  for (let i = DARKHORSE_CONFIG.lookbackDays; i >= 0; i--) {
+    const dateStr = getDateStr(i);
+    const snapshotDir = path.resolve(ROOT, SNAPSHOTS_DIR, dateStr);
+    if (fs.existsSync(snapshotDir)) allSnapshotDates.push(dateStr);
+  }
+
   for (const [, dh] of mergedMap) {
     // 保留觸發市場的 score，供 badge 標示
     const triggerScores = {};
     for (const m of dh.markets) {
       if (m.score > 0) triggerScores[m.code] = m.score;
     }
-    // 重新從今日快照建立 markets
-    const snapshotMarkets = [];
+    // 掃描所有歷史日期的快照建立 markets
+    const marketMap = new Map();
     for (const market of MARKETS) {
       if (dh.platform === 'android' && !market.hasGooglePlay) continue;
-      const snap = loadSnapshot(today, market.code, dh.platform, dh.chartType);
-      if (!snap || !snap.data) continue;
-      const entry = snap.data.find(a => a.appId === dh.appId);
-      if (entry) {
-        snapshotMarkets.push({
-          code: market.code,
-          name: market.name,
-          flag: market.flag,
-          rank: entry.rank,
-          score: triggerScores[market.code] || 0,
-        });
-        // 補充走勢圖歷史資料
+      for (const dateStr of allSnapshotDates) {
+        const snap = loadSnapshot(dateStr, market.code, dh.platform, dh.chartType);
+        if (!snap || !snap.data) continue;
+        const entry = snap.data.find(a => a.appId === dh.appId);
+        if (entry && entry.rank <= 100) {
+          const existing = marketMap.get(market.code);
+          if (!existing) {
+            marketMap.set(market.code, {
+              code: market.code,
+              name: market.name,
+              flag: market.flag,
+              rank: entry.rank,
+              score: triggerScores[market.code] || 0,
+              _latestDate: dateStr,
+            });
+          } else {
+            // 保留最新日期的排名（如果排名有效）
+            if (dateStr > existing._latestDate) {
+              existing.rank = entry.rank;
+              existing._latestDate = dateStr;
+            }
+          }
+        }
+      }
+      // 補充走勢圖歷史資料
+      if (marketMap.has(market.code)) {
         if (!dh._rankHistoryByMarket) dh._rankHistoryByMarket = {};
         if (!dh._rankHistoryByMarket[market.code]) {
           const hist = getRankHistory(dh.appId, market.code, dh.platform, dh.chartType, DARKHORSE_CONFIG.lookbackDays);
@@ -637,6 +661,8 @@ async function main() {
         }
       }
     }
+    // 移除內部用的 _latestDate 欄位
+    const snapshotMarkets = Array.from(marketMap.values()).map(({ _latestDate, ...rest }) => rest);
     dh.markets = snapshotMarkets;
   }
 
@@ -667,7 +693,7 @@ async function main() {
   // 過去 N 天曾被偵測為黑馬的遊戲，如果今天仍在榜上且排名夠高，就繼續保留
   // 衰減公式：信心分數 * 0.85^(天數)，越久衰減越多
   const retentionDays = DARKHORSE_CONFIG.retentionDays || 30;
-  const retentionMinRank = 20;     // 只保留仍在 Top 20 的
+  const retentionMinRank = DARKHORSE_CONFIG.maxCurrentRank || 100;  // 仍在 Top 100 就保留（與偵測範圍一致）
   const retentionMinScore = 3.0;   // 衰減後信心分數需 >= 3.0
   const decayRate = 0.85;          // 每天衰減 15%
   const existingIds = new Set(mergedDarkhorses.map(d => d.appId));
@@ -745,6 +771,145 @@ async function main() {
   if (retainedCount > 0) {
     console.log(`\n🔄 黑馬保留: 從過去 ${retentionDays} 天保留 ${retainedCount} 匹仍在 Top ${retentionMinRank} 的黑馬`);
     mergedDarkhorses.sort((a, b) => b.confidenceScore - a.confidenceScore);
+  }
+
+  // ============ 跨平台自動配對 ============
+  // 用開發商名稱從快照中找到同款遊戲在另一平台的 appId
+  // 解決 iOS/Android 不同名稱（如「原神」vs「Genshin Impact」）無法自動合併的問題
+  console.log('\n🔗 跨平台自動配對...');
+
+  // Step 1: 從今天所有快照建立 開發商→遊戲 對照表
+  function normalizeDev(dev) {
+    if (!dev) return '';
+    return dev.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '');
+  }
+  function devMatch(a, b) {
+    if (!a || !b) return false;
+    if (a === b) return true;
+    // 子字串匹配（如 "netmarble" vs "netmarblecorporation"）
+    if (a.length >= 4 && b.length >= 4) {
+      if (a.includes(b) || b.includes(a)) return true;
+    }
+    // 前綴匹配（至少 5 字元）
+    const minLen = Math.min(a.length, b.length);
+    if (minLen >= 5 && a.substring(0, minLen) === b.substring(0, minLen)) return true;
+    return false;
+  }
+  // 名稱中提取拉丁字母 token（用於跨語言名稱比對）
+  function extractLatinTokens(name) {
+    if (!name) return [];
+    return name.toLowerCase().match(/[a-z]{3,}/g) || [];
+  }
+
+  const devGameMap = new Map(); // normalized_dev → [{appId, platform, name, developer}]
+  for (const market of MARKETS) {
+    for (const plat of ['ios', 'android']) {
+      if (plat === 'android' && !market.hasGooglePlay) continue;
+      for (const ct of CHART_TYPES) {
+        const snap = loadSnapshot(today, market.code, plat, ct.id);
+        if (!snap || !snap.data) continue;
+        for (const app of snap.data) {
+          if (!app.developer) continue;
+          const devKey = normalizeDev(app.developer);
+          if (!devKey) continue;
+          if (!devGameMap.has(devKey)) devGameMap.set(devKey, []);
+          const list = devGameMap.get(devKey);
+          if (!list.find(e => e.appId === app.appId)) {
+            list.push({ appId: app.appId, platform: plat, name: app.name, developer: app.developer });
+          }
+        }
+      }
+    }
+  }
+
+  // Step 2: 為每個黑馬配對另一平台的 sibling appId
+  let pairedCount = 0;
+  for (const dh of mergedDarkhorses) {
+    if (!dh.developer) continue;
+    const dhDevKey = normalizeDev(dh.developer);
+    const otherPlatform = dh.platform === 'android' ? 'ios' : 'android';
+
+    // 找所有開發商名稱匹配的候選遊戲
+    let candidates = [];
+    for (const [devKey, games] of devGameMap) {
+      if (devMatch(dhDevKey, devKey)) {
+        candidates.push(...games.filter(g => g.platform === otherPlatform));
+      }
+    }
+    // 去重
+    const seen = new Set();
+    candidates = candidates.filter(c => {
+      if (seen.has(c.appId)) return false;
+      seen.add(c.appId);
+      return true;
+    });
+
+    if (candidates.length === 0) continue;
+
+    if (candidates.length === 1) {
+      // 同開發商在另一平台只有一款遊戲 → 直接配對
+      dh._siblingAppIds = [candidates[0].appId];
+      pairedCount++;
+    } else {
+      // 同開發商有多款遊戲 → 多重策略篩選
+
+      // 策略 A：用名稱相似度篩選
+      const dhTokens = extractLatinTokens(dh.name);
+      let bestMatch = null;
+      let bestScore = 0;
+
+      for (const c of candidates) {
+        const cTokens = extractLatinTokens(c.name);
+        // 計算共有 token 數量
+        let matchScore = 0;
+        for (const t of dhTokens) {
+          if (cTokens.includes(t)) matchScore++;
+          // 子字串匹配（如 "genshin" 出現在 candidate 的某個 token 中）
+          else if (cTokens.some(ct => ct.includes(t) || t.includes(ct))) matchScore += 0.5;
+        }
+        // CJK 字元比對（漢字 + 假名 + 韓文）
+        const dhCJK = (dh.name.match(/[\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g) || []).join('');
+        const cCJK = (c.name.match(/[\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g) || []).join('');
+        if (dhCJK.length >= 2 && cCJK.length >= 2) {
+          const commonCJK = [...dhCJK].filter(ch => cCJK.includes(ch)).length;
+          matchScore += commonCJK * 0.3;
+        }
+
+        if (matchScore > bestScore) {
+          bestScore = matchScore;
+          bestMatch = c;
+        }
+      }
+
+      if (bestMatch && bestScore >= 1) {
+        dh._siblingAppIds = [bestMatch.appId];
+        pairedCount++;
+      } else {
+        // 策略 B：同開發商 + 同排行類型在另一平台只有一款遊戲
+        // 例如：COGNOSPHERE 的 grossing 在 iOS 上只有「原神」→ 直接配 Android「Genshin Impact」
+        const chartTypeCandidates = [];
+        for (const market of MARKETS) {
+          if (otherPlatform === 'android' && !market.hasGooglePlay) continue;
+          const snap = loadSnapshot(today, market.code, otherPlatform, dh.chartType);
+          if (!snap || !snap.data) continue;
+          for (const app of snap.data) {
+            if (!app.developer) continue;
+            const appDevKey = normalizeDev(app.developer);
+            if (devMatch(dhDevKey, appDevKey) && !chartTypeCandidates.find(c => c.appId === app.appId)) {
+              chartTypeCandidates.push({ appId: app.appId, name: app.name });
+            }
+          }
+        }
+        if (chartTypeCandidates.length === 1) {
+          dh._siblingAppIds = [chartTypeCandidates[0].appId];
+          pairedCount++;
+        }
+      }
+    }
+  }
+
+  if (pairedCount > 0) {
+    console.log(`🔗 自動配對 ${pairedCount} 匹黑馬的跨平台 sibling`);
   }
 
   // 儲存結果

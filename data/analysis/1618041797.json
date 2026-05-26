@@ -1,0 +1,44 @@
+{
+  "appId": "1618041797",
+  "name": "Sudoku Blast!",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Sudoku Blast! — Clean & Focused Sudoku Free Number Games\n\nSudoku Blast! is a clean, calm, and focused sudoku free app made for players who enjoy pure number logic and clear puzzle design. With minimalist visuals and smooth controls, Sudoku Blast! creates a simple and rewarding number puzzle experience built around clarity and logic. Whether you prefer easy levels or deeper logic puzzles, this sudoku free game keeps your mind sharp and relaxed.\n\nEnjoy quick breaks with light puzzles or challenge ",
+    "released": "2022-04-07T07:00:00Z",
+    "updated": "2026-05-19T03:55:04Z",
+    "version": "2.4.7",
+    "score": 4.9,
+    "reviews": 4240,
+    "developer": "Hungry Studio",
+    "developerUrl": "https://apps.apple.com/ph/developer/hungry-studio/id1655290753?uo=4",
+    "genres": [
+      "Games",
+      "Board",
+      "Puzzle"
+    ],
+    "releaseNotes": "Your daily Sudoku ritual just got better.\nNew improvements and fixes for a smoother play experience."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:51:49.134Z"
+}

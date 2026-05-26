@@ -10,53 +10,51 @@
     "version": "1.0.0",
     "installs": "500,000+",
     "score": 4.8,
-    "ratings": 24036,
-    "reviews": 1094,
+    "ratings": 29494,
+    "reviews": 1274,
     "developer": "BOLTRAY GAMES",
     "genre": "Role Playing"
   },
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 24,
-      "2": 6,
-      "3": 6,
-      "4": 26,
-      "5": 138
+      "1": 27,
+      "2": 2,
+      "3": 10,
+      "4": 28,
+      "5": 133
     },
-    "positiveRatio": 82,
-    "negativeRatio": 15,
+    "positiveRatio": 81,
+    "negativeRatio": 14,
     "eventMentions": [
       {
-        "text": "so far very fun, the progression feels steady. new to game so i will update my review as needed when",
-        "keywords": [
-          "update",
-          "new"
-        ]
-      },
-      {
-        "text": "just getting started but its actually fun so far. will update more later",
+        "text": "just started playing, seems an interesting game. however won't continue due to no japanese voice ove",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "you need to do something about the servers being full because that's keeping new players from joinin",
+        "text": "the game play is alright. biggest issue for me is servers reaching capacity??? i can't play with my ",
         "keywords": [
-          "event",
           "new"
         ]
       },
       {
-        "text": "so trash yah, can't even put your update info poster, side ways.... these games only last for a yr a",
+        "text": "would recommend to everyone easy one of my new favorites",
         "keywords": [
-          "update"
+          "new"
         ]
       },
       {
-        "text": "i played lineage 2 revolution before and this game is a pretty good mmorpg-like afk kind of game, yo",
+        "text": "really good for a new game, gameplay is interesting, character designs are nice! i play on mute so i",
         "keywords": [
-          "event"
+          "new"
+        ]
+      },
+      {
+        "text": "seems legit so far. will update if i run into any pay wall or something, but so far it's been a good",
+        "keywords": [
+          "update"
         ]
       }
     ]
@@ -65,13 +63,13 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 12 天，評分 4.8",
+      "detail": "上架 13 天，評分 4.8",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 11 天前",
+      "detail": "最近更新: 13 天前",
       "confidence": "medium"
     },
     {
@@ -83,9 +81,9 @@
     {
       "type": "word_of_mouth",
       "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 82%",
+      "detail": "4-5星評論佔 81%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:48:23.707Z"
+  "analyzedAt": "2026-05-26T12:49:37.496Z"
 }

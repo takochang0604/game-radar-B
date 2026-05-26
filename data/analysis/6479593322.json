@@ -9,7 +9,7 @@
     "updated": "2026-05-21T05:11:45Z",
     "version": "1.0.35",
     "score": 4.2,
-    "reviews": 326,
+    "reviews": 328,
     "developer": "EIGHT STUDIO (Korea)",
     "developerUrl": "https://apps.apple.com/kr/developer/eight-studio-korea/id1581756358?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:50:03.271Z"
+  "analyzedAt": "2026-05-26T12:51:22.607Z"
 }

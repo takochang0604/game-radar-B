@@ -1,0 +1,1497 @@
+{
+  "collectedAt": "2026-05-26T09:18:38.654Z",
+  "android": {
+    "appId": "com.farlightgames.pgame.gp",
+    "title": "Clash of Critters",
+    "developer": "FARLIGHT",
+    "developerId": "FARLIGHT",
+    "genre": "Casual",
+    "score": 4.714894,
+    "ratings": 5366,
+    "installs": "1,000,000+",
+    "maxInstalls": 1005381,
+    "free": true,
+    "released": "May 16, 2026",
+    "updated": 1779082727000,
+    "version": "0.39.11",
+    "contentRating": "Everyone",
+    "icon": "https://play-lh.googleusercontent.com/nIjO9pFz1R7G_wct00QMBKVqAmLHs2TqiaCmSUJfnKPw7yG_VzSmp26TRGCmm98v-Mye0MtsW_xz8CHNdIFD1A",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/jyytYkM-_1lh2U_WZOQzxjTJYyydCjFNuK4VDqfY-6uqSIM953btKoZhinQ24_x7quTmfsm27AZxQHqnmGO6kA",
+      "https://play-lh.googleusercontent.com/0G4VlinK2Ysnh1mPR8XybNlvXXJvB9VQzqVitwFNYUOb4fs2Db24mGQIxfOeCgVKic77fpwKoG1i9CfZeZ_uGw",
+      "https://play-lh.googleusercontent.com/HZxpK_ZSxGUjQ8ZXy1LeHBzuilczrCAoLEQCW9NARwleUjXRob_aK2vvMnAfQiDlOeXMZTPmd62srZY_A6T-c8E",
+      "https://play-lh.googleusercontent.com/NRJM8QVJxK-s8R0BBKwTOKpIS9cABl2_QHo010xxUiduYx0VIrb3Uh0xe1olYF1VVcFiDqJxaz9DT4uV2gElaQ",
+      "https://play-lh.googleusercontent.com/YHpAVtExJMQigbRIkiwoXYVMZH69VDUIRqcSVbHy1NsbQ4CUHh4rf_Oo_8SfdONs10ckvCCDwS_KnaOZCqV7",
+      "https://play-lh.googleusercontent.com/_YR2aLLYzMX8SHBvwPkUYv5zhjlZ1lAbL7T2Pyiskvr4aNUVBaba1xvGJ1iKrkYE8MUBRbtIhkUeTYqQ1jzmrw",
+      "https://play-lh.googleusercontent.com/IZRvn5vsM_wVMTJBCNEbdIh3fCRXDyLEO2-qmFYD8ha5eSRBfUai4gtjeIV8ZMjVFmg9X7hHW2rqQXAsEQfl4Q",
+      "https://play-lh.googleusercontent.com/xT1BbjjVLu0_ljjYYazuBmNnZ3ZS_Q-Z6VI1charK1VrMrYqowJIqkNcwJndofzIRaZybPpCvVKlV6avIrhd2w",
+      "https://play-lh.googleusercontent.com/GLrv7xOJnG3xrLheaZooCMcFkpfvSeP7njRsXtgjqzS6GhnTHKM95NTzqUnPPup8FKtxr0_-NwA72PelLraP",
+      "https://play-lh.googleusercontent.com/AxqycNcMfo-1GOpivgLU_cpYCDHS6uRVyLqnf1ZiPrJ-yjg5KWJY5HjgCc5Zobjeh4TUTUwZewH4c5HeDJLx",
+      "https://play-lh.googleusercontent.com/_YR2aLLYzMX8SHBvwPkUYv5zhjlZ1lAbL7T2Pyiskvr4aNUVBaba1xvGJ1iKrkYE8MUBRbtIhkUeTYqQ1jzmrw",
+      "https://play-lh.googleusercontent.com/IZRvn5vsM_wVMTJBCNEbdIh3fCRXDyLEO2-qmFYD8ha5eSRBfUai4gtjeIV8ZMjVFmg9X7hHW2rqQXAsEQfl4Q",
+      "https://play-lh.googleusercontent.com/xT1BbjjVLu0_ljjYYazuBmNnZ3ZS_Q-Z6VI1charK1VrMrYqowJIqkNcwJndofzIRaZybPpCvVKlV6avIrhd2w",
+      "https://play-lh.googleusercontent.com/GLrv7xOJnG3xrLheaZooCMcFkpfvSeP7njRsXtgjqzS6GhnTHKM95NTzqUnPPup8FKtxr0_-NwA72PelLraP",
+      "https://play-lh.googleusercontent.com/AxqycNcMfo-1GOpivgLU_cpYCDHS6uRVyLqnf1ZiPrJ-yjg5KWJY5HjgCc5Zobjeh4TUTUwZewH4c5HeDJLx"
+    ],
+    "video": null,
+    "summary": "A pocket pet adventure begins! Collect over 100 adorable pets for endless fun!",
+    "description": "【Collect 100+ Unique Tataris!】\nForget generic designs! Collect them all in just 1 month—from the goofy Frugling to the sassy Solpear!\n\n【Evolve to Power Up!】\nReach formidable Tier 4 evolutions and unlock rare Glitter forms! How many can you get?\n\n【Strategy-Based Battles】\nMix and match formations to discover powerful combos! Crush the Zobo waves with your strategic genius!\n\n【Build Your Tatari Paradise】\nCraft a cozy home and interact with your pets— what happens if you drop Frostnip in the pool?",
+    "recentChanges": "Clash of Critters is now live!: Your Virtual Pet Paradise is Here!"
+  },
+  "ios": {
+    "id": 6741567125,
+    "appId": "com.farlightgames.pgame.ios",
+    "title": "Clash of Critters",
+    "developer": "Farlight Games",
+    "score": 4.90043,
+    "reviews": 8035,
+    "free": true,
+    "released": "2026-05-20T07:00:00Z",
+    "updated": "2026-05-20T07:00:00Z",
+    "version": "0.39.11",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/f6/ec/2ef6ecf4-971c-4bec-8c8b-9aafc77ce810/AppIcon-Global-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Casual",
+      "Roleplaying"
+    ],
+    "description": "【Collect 100+ Unique Tataris!】\nForget generic designs! Collect them all in just 1 month—from the goofy Frugling to the sassy Solpear!\n\n【Evolve to Power Up!】\nReach formidable Tier 4 evolutions and unlock rare Glitter forms! How many can you get?\n\n【Strategy-Based Battles】\nMix and match formations to discover powerful combos! Crush the Zobo waves with your strategic genius!\n\n【Build Your Tatari Paradise】\nCraft a cozy home and interact with your pets— what happens if you drop Frostnip in the pool?"
+  },
+  "reviews": {
+    "total": 168,
+    "googlePlay": 168,
+    "appStore": 0,
+    "distribution": {
+      "1": 7,
+      "2": 10,
+      "3": 10,
+      "4": 21,
+      "5": 120
+    },
+    "positive": [
+      {
+        "source": "google_play",
+        "userName": "Tony Eyer",
+        "score": 4,
+        "text": "4 star is good for my rating because you cant to anything at camp and id like to play with my tatari please. have a mederate day",
+        "date": "2026-05-25T09:16:25.754Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alex Bell",
+        "score": 5,
+        "text": "so addicting",
+        "date": "2026-05-25T09:16:04.843Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sadaf Shaheen",
+        "score": 4,
+        "text": "a very nice and fun game",
+        "date": "2026-05-25T09:14:19.825Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tommy Xay-Ananh",
+        "score": 5,
+        "text": "MY GOD THIS GAME IS PERFECT EVERYTHING, THE GAMEPLAY, THE LOOP, THE GAMBLING, THE ART STYLE, THE SOUNDS, AND GOONBUG MY GOD DUDE THIS GAME IS SO GREAT I LOVE IT, PLAY THIS GAME MAN ITS SO GREAT,I GENUINELY AS OF WRITING THIS I AM HAVING A BLAST, NORMALLY I DONT LEAVE RATINGS ON GAMES, BUT THIS GAME IS WORTH PLAYING HIDDEN GEM 10/10 GAME GO PLAY RIGHT NOW",
+        "date": "2026-05-25T09:12:17.330Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "John kenneth Barbolino",
+        "score": 5,
+        "text": "good 😊",
+        "date": "2026-05-25T08:58:41.393Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Gavin McLaughlin",
+        "score": 5,
+        "text": "best game",
+        "date": "2026-05-25T08:46:49.481Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dezire Stinson",
+        "score": 4,
+        "text": "this game is so cute and fun but the chat is terrible people are racist or down right nasty.",
+        "date": "2026-05-25T08:42:12.190Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Rylle",
+        "score": 5,
+        "text": "pay to win but the reward after beating world 1 makes up for it and the critters are good (hope this is helpful)",
+        "date": "2026-05-25T08:21:32.350Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Garden Gnome",
+        "score": 5,
+        "text": "Good game expected from farlight I just wish that the pinball was a western pinball not a pachinko machine though eh but who am I too judge I enjoy the game.",
+        "date": "2026-05-25T08:16:20.243Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Hu Maeng",
+        "score": 5,
+        "text": "so erm basically literally gem silly game = fun whenever you want to stop being loser you are cool when you play this game basically best game ever (super totally not endorsed btw i just have tiny brain) >:3",
+        "date": "2026-05-25T08:12:16.110Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Honeybee",
+        "score": 5,
+        "text": "Intrigued by the art and concepts within it, got more than I was expecting in the best way possible. Download this game, you won't be disappointed in it.",
+        "date": "2026-05-25T07:50:32.418Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jad Ezz",
+        "score": 5,
+        "text": "I think it's a really good game",
+        "date": "2026-05-25T07:49:25.881Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Fabian Soto",
+        "score": 5,
+        "text": "very fun and awesome gameplay",
+        "date": "2026-05-25T07:43:05.130Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Play Boy",
+        "score": 5,
+        "text": "good game😑",
+        "date": "2026-05-25T07:40:50.573Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jack Morante",
+        "score": 5,
+        "text": "This game is really grest and adorable! not only that, you can either have your little pets fight as you do other things unless you loose then you gotta plan out a strat against different elements to do more damage, and for a newerly release game it is already one of my favourite games of this year :3",
+        "date": "2026-05-25T07:28:35.175Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tristan Littrell",
+        "score": 5,
+        "text": "it's good I really like the goofy characters",
+        "date": "2026-05-25T07:25:10.887Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mostafa E",
+        "score": 5,
+        "text": "very good fun game",
+        "date": "2026-05-25T07:24:34.941Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "smokey613 s",
+        "score": 4,
+        "text": "perfect and good for my anxiety",
+        "date": "2026-05-25T07:13:46.515Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jdndbdmsn Ieuwiiwis",
+        "score": 5,
+        "text": "peak actually even with my old phone 🌹🌹🌹",
+        "date": "2026-05-25T06:56:06.993Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ty Wolffe",
+        "score": 5,
+        "text": "Game is incredibly addictive and fun for the short time I've played it so far!",
+        "date": "2026-05-25T06:55:31.743Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jangel Oviedo",
+        "score": 5,
+        "text": "This games has to be one of the most enjoyable perfect game for me and it could be for others. This game is so simple and yet sometimes I find myself struggling a bit from the difficulty This game can have. the gacha system is addictive since you'll always be able to have currency for gacha. The artstyle is really pretty and what I enjoy the most is that the evolutions look different and not just a bigger of the original drawing. Overall enjoyable game never ending games and easy to understand.",
+        "date": "2026-05-25T06:50:56.398Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mikadzuki Sakai",
+        "score": 5,
+        "text": "Very fun game. Its not pay to win, it has NO add's and it feels fair to play. By that i mean it dosnt feel like u have to grind a crazy ammount of time to keep up. It pretty fair. And even if u do decide to purchase something, the pricetags are actualy reasonable. (mostly like 2-3 bucks) The artstyle is ok, i really like the designs of the critters (critters is the name of these pet like creatures). Also the pinball game is fun and adds more to do to the game. recomented! (∂ω∂)",
+        "date": "2026-05-25T06:44:46.696Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "MCcookie",
+        "score": 4,
+        "text": "I honestly love anything Lilith/Farlight Games makes, they always have really amazing characters designs and a fairly addictive game loop, you dont really need to be super invested into it but its still hard enough to the point where its fun still, overall pretty good for a mobile game!!",
+        "date": "2026-05-25T06:38:46.155Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Cassidy Eastman",
+        "score": 5,
+        "text": "it's a good game that reminds me of plants vs zombies but has a lot more stuff",
+        "date": "2026-05-25T06:36:09.710Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Phillip Mccarragher",
+        "score": 5,
+        "text": "Gotta Collect the Critter",
+        "date": "2026-05-25T06:34:36.838Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Luther Lapore",
+        "score": 5,
+        "text": "it's fun to play",
+        "date": "2026-05-25T06:28:23.909Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dylan Jefferson",
+        "score": 5,
+        "text": "This game is insanely fun and addicting!! Also, the art style is really cool!",
+        "date": "2026-05-25T06:28:13.964Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alin Roberson",
+        "score": 5,
+        "text": "very addicting and fun accly found it in youtube ads while scrolling shorts theres so many critterd and kunda gambleing but i love it so good work and cant wait for more critters",
+        "date": "2026-05-25T06:07:28.231Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nikola Butler",
+        "score": 5,
+        "text": "it's pretty good",
+        "date": "2026-05-25T05:51:32.390Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Yhona Fe",
+        "score": 5,
+        "text": "Love the game!! It's simple to play and the designs are SOO CUTE! (Btw no ADS!)",
+        "date": "2026-05-25T05:48:17.253Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "aaron ng",
+        "score": 5,
+        "text": "clash of critters you are so good",
+        "date": "2026-05-25T05:39:21.492Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Louise Jennings",
+        "score": 5,
+        "text": "tuff ahh goober game all hail goonbug",
+        "date": "2026-05-25T05:28:26.609Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Asher G",
+        "score": 5,
+        "text": "it's amazing and if I had to chose a game play for 24 hours it would be this",
+        "date": "2026-05-25T05:15:11.396Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Juan Marin",
+        "score": 5,
+        "text": "surprisingly addictive and entertaining. Even as F2P",
+        "date": "2026-05-25T05:11:51.402Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sami Emery",
+        "score": 5,
+        "text": "honestly, so cute and easy to get into. many little creatures to collect and evolve while making a camp and playing both plants vs zombies and pichinko. continue the good work~!",
+        "date": "2026-05-25T05:03:31.717Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jody Cleveland",
+        "score": 5,
+        "text": "most fun I've had in a while.",
+        "date": "2026-05-25T04:53:34.470Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mark Lester Paule",
+        "score": 5,
+        "text": "very cute",
+        "date": "2026-05-25T04:46:56.238Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "ShamirElixer",
+        "score": 5,
+        "text": "I'm addicted to evolve tartari",
+        "date": "2026-05-25T04:42:35.819Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Noel",
+        "score": 5,
+        "text": "fun not pay to win it's just fun on mobile Pokemon on mobile in our solar cell just good five stars",
+        "date": "2026-05-25T04:39:23.948Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Zool Fender Pellazar",
+        "score": 5,
+        "text": "nice game",
+        "date": "2026-05-25T04:34:36.560Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "《Itz ᎷᎯᎨᏕᎽᎯᏒᎯ》",
+        "score": 5,
+        "text": "Am I a Clash of Critters addict? Yes.",
+        "date": "2026-05-25T04:32:18.250Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "The Rock",
+        "score": 4,
+        "text": "it was actually pretty solid for a game i saw on one of those interactive ads, i thought to try it for a moment and ended up spending 3 hours playing it. the only complaint i have is how little the moderation is in the public chats, letting people say whatever they want basically",
+        "date": "2026-05-25T04:29:42.906Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "sammy",
+        "score": 5,
+        "text": "my sister loves cute things, she'll love this game, thanks for making this!",
+        "date": "2026-05-25T04:29:31.430Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "kinh gamer",
+        "score": 5,
+        "text": "fun, easy, and a game I play on the go, it's very cute and Pokemon + Plants vs Zombies based and I love it ❤️",
+        "date": "2026-05-25T04:26:29.724Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Zoie Bates",
+        "score": 5,
+        "text": "I love it!",
+        "date": "2026-05-25T04:22:13.262Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mateo Garcia",
+        "score": 5,
+        "text": "a good game to play and focus for like 15 mins then let be for the rest of the day",
+        "date": "2026-05-25T04:07:44.256Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Carlosbdrfioz",
+        "score": 5,
+        "text": "I love it",
+        "date": "2026-05-25T04:06:04.283Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Deon Branch",
+        "score": 5,
+        "text": "Really enjoying all yhe different creature designs. Evolving them is my main goal. combat is fun and easy to understand. And I could get lost playing the pinball game for hours. Not bad for a pokemon esk app game.",
+        "date": "2026-05-25T04:03:47.466Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sam Bigelow",
+        "score": 4,
+        "text": "it seems great, but I uninstalled because apparently you HAVE to attack other players. I suppose that is the 'clash' aspect, but I play games for myself, and never do multiplayer. I don't want a game where I have to attack other people, which means at some point I will be attacked as well. everything else was great, cute critters, didn't run out of energy too fast, and I really loved the auto battle feature!",
+        "date": "2026-05-25T04:03:03.526Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "D D (ArgoTheMerc)",
+        "score": 5,
+        "text": "addictive yet doesn't drill into your head that you need to pay for everything.",
+        "date": "2026-05-25T04:02:12.271Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "kris hagan",
+        "score": 5,
+        "text": "yippe",
+        "date": "2026-05-25T03:57:04.565Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "stevied97",
+        "score": 5,
+        "text": "pretty fun",
+        "date": "2026-05-25T03:53:39.120Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Abhijithrvx",
+        "score": 5,
+        "text": "the ad from weazy mode made me download this game. tbh it's a solid game",
+        "date": "2026-05-25T03:41:58.408Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Noble Horizen",
+        "score": 5,
+        "text": "cute game for time killing",
+        "date": "2026-05-25T03:39:43.799Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alisha",
+        "score": 5,
+        "text": "NICE GAME BUT I STUCK AT LEVEL 6/13 PLS HELP ME",
+        "date": "2026-05-25T03:38:16.741Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "jaiden grimins",
+        "score": 5,
+        "text": "pretty fun game to play and I like the animals I think their designs are pretty cool.",
+        "date": "2026-05-25T03:26:43.149Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nikky Meyn",
+        "score": 5,
+        "text": "great",
+        "date": "2026-05-25T03:23:04.148Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "DeAndre Griffin",
+        "score": 5,
+        "text": "love the co op horde survival mode thing",
+        "date": "2026-05-25T03:19:46.300Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Stephanie Bau",
+        "score": 5,
+        "text": "it's good",
+        "date": "2026-05-25T03:10:13.909Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kyle Jhian Casañas",
+        "score": 5,
+        "text": "amazing game",
+        "date": "2026-05-25T03:08:27.433Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bhogilal Kalal",
+        "score": 5,
+        "text": "I love it sooo much",
+        "date": "2026-05-25T03:06:39.906Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nadiem Wildan Sawie",
+        "score": 5,
+        "text": "very cool game",
+        "date": "2026-05-25T02:49:05.156Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Chayuda Muangyoung",
+        "score": 5,
+        "text": "the characters are so cute and the gameplay is understandable faster",
+        "date": "2026-05-25T02:45:22.340Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Conner Riggs",
+        "score": 5,
+        "text": "Very fun and addicting with cute critters that you'll love",
+        "date": "2026-05-25T02:42:37.910Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Laiken Igbonagwam",
+        "score": 5,
+        "text": "the game is fun but, they Need to add 13+ or 10 to younger servers. the ppl in world are pretty disgusting and no kid or teen should be talking to grown adults like that one said: \"minors 😘😘😘\" and are attacking my sister. I know the game is new so y'all do it yet but please do something PLEASE😭🙏",
+        "date": "2026-05-25T02:27:46.803Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Leighton Gorsha",
+        "score": 5,
+        "text": "pretty addictive game ngl",
+        "date": "2026-05-25T02:25:50.552Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Emma Davis",
+        "score": 4,
+        "text": "𝗋𝖾𝖺𝗅𝗅𝗒 𝖼𝗎𝗍𝖾 𝗌𝗍𝗒𝗅𝖾 𝗅𝗈𝗍𝗌 𝗍𝗈 𝖽𝗈 𝖻𝗎𝗍 𝗍𝗁𝖾 𝖼𝗁𝖺𝗍 𝗐𝗂𝗍𝗁 𝗈𝗍𝗁𝖾𝗋 𝗉𝗅𝖺𝗒𝖾𝗋𝗌 𝖺𝗋𝖾 𝗋𝖾𝖺𝗅𝗅𝗒 𝗍𝗈𝗑𝗂𝖼. 𝟣𝟢𝟢℅ 𝗇𝖾𝖾𝖽𝗌 𝖺 𝖿𝗂𝗅𝗍𝖾𝗋!",
+        "date": "2026-05-25T02:24:39.278Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alex Low",
+        "score": 4,
+        "text": "is a grindy game and i love how cute is the critter are",
+        "date": "2026-05-25T02:21:57.637Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "John Carlo Gotas",
+        "score": 5,
+        "text": "I LOVE IT! It's a mixture of some of my childhood games + new features that makes this game extraordinary! It's very good but I think we need more modes and etc.",
+        "date": "2026-05-25T02:19:14.250Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Michael Baker",
+        "score": 4,
+        "text": "seems very fun, will raise my rating after I play a little longer to see if it matches my ftp standards, so far, amazing.",
+        "date": "2026-05-25T02:12:13.281Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jordan Garcia",
+        "score": 5,
+        "text": "is ok unusual",
+        "date": "2026-05-25T02:11:26.401Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Yasmeen Abbasi",
+        "score": 5,
+        "text": "creating custom criiters fooooor yooooouuuu",
+        "date": "2026-05-25T02:11:13.678Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tisha Winchester",
+        "score": 5,
+        "text": "I loveee it it's so fun it helped me become happy the citters are rlly cute!!!!",
+        "date": "2026-05-25T01:56:34.311Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Cameron",
+        "score": 5,
+        "text": "one word: awesome",
+        "date": "2026-05-25T01:49:24.420Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dillon Foster",
+        "score": 5,
+        "text": "fun time killer or you can go deep in if you want, no ads, really enjoy it, would recommend it to anyone",
+        "date": "2026-05-25T01:49:10.716Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nelly Martin",
+        "score": 5,
+        "text": "I LOVE IT!!",
+        "date": "2026-05-25T01:29:33.397Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "U Jaycey",
+        "score": 5,
+        "text": "Very fun",
+        "date": "2026-05-25T01:28:58.525Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Aldrich Niebres",
+        "score": 5,
+        "text": "it is so fun to play",
+        "date": "2026-05-25T01:07:49.231Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bit",
+        "score": 5,
+        "text": "cute art style, nice auto battler social game. had a lot of in app purchases but other than that it's fine. I just bought the $5 starter pack and it seems decent enough to be my only purchase",
+        "date": "2026-05-25T01:04:11.557Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Carrie Yuvan",
+        "score": 4,
+        "text": "Wish there were more ways to get the little guys, but pretty fun anyway.",
+        "date": "2026-05-25T01:03:56.645Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nonchalant Sigma",
+        "score": 5,
+        "text": "DOWNLOAD this game now, this is by far the most fun ive had in a mobile game in YEARS, collecting the little critters is so fun and the gameplay keeps me hooked, the game is very F2P friendly and has no ads, this DESERVES to be mobile game of the year!",
+        "date": "2026-05-25T00:55:19.735Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jessica Kinsman",
+        "score": 5,
+        "text": "This is honestly the first ever mobile game that i've ever become addicted to. It's very easy to learn the strategy of battles in this game, but its not so hard that you need in-app purchases to continue. Plus, NO ADS! Love the different game modes also! Some things I suggest are chat filters you can enable, and a battery saver mode that can reduce frame rate and quality. Overall the best game ever! :D",
+        "date": "2026-05-22T00:31:53.376Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "MEM0RYZ !!!",
+        "score": 5,
+        "text": "I had high expectations for this game when it was announced, and when it was officially put on pre-register. And the expectations were MET!!! the critters are cool to collect, the gameplay is repetitive in a good way, and it's really easy to progress once you get the hang of it, so it's not package reliant. 10/10 would definitely recommend ^_^",
+        "date": "2026-05-23T20:29:13.948Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Braylynn Pedersen",
+        "score": 5,
+        "text": "Oh my goodness, I never leave a review for games. But THIS is the exception. Clash of Critters is very underrated. Despite its similar name to Clash of Clans, it has a LOT of originality to it. This game is fun to play when bored, just hard enough not to fly through levels, but just easy enough that you're not going to be stuck on one level for the majority of your game. Plus, the art is ADORABLE! 10/10. Would recommend.",
+        "date": "2026-05-23T02:50:47.996Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Evelyn M",
+        "score": 5,
+        "text": "This game is so cool! When it hit the app store the other day I had it pre-registered, so I opened it up as soon as it was done downloading and I was not disappointed >< While it may seem that there are a lot of microtransactions, they aren't necessary to enjoy the game at all and it's fun with or without the purchases! The creatures are so cute and the social features are really cool to mess around with, 5 STARS!!",
+        "date": "2026-05-22T19:41:26.167Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "umit karabacak",
+        "score": 5,
+        "text": "one part of the game is really good, it's just great, I just defeated the first world and his head just called it has enough entertainment and just don't know enough anything good enough, but the concept is, is it snow it's in Wi-Fi game so you can not go do this on the go, second of all, the boss start awfully sometimes hard to face and whenever you want to get new critters, which the things that you used to fight in the game, they usually give you duplicates, which you could use to evolve w",
+        "date": "2026-05-23T22:08:02.165Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jessie Radgowski",
+        "score": 5,
+        "text": "This is a really cute game. It's super worthwhile to spend $10 for the rock salamander at the beginning, because after that you get a TON of cute little critters and lots of variety to build your teams. Otherwise, for people who are free to play, it's pretty slow going. I'm sure I'll log in eventually and also be slow going, but I'll have all the critters I want by then, and that's all I'll need.",
+        "date": "2026-05-21T02:52:14.608Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Jacob Krabbe",
+        "score": 5,
+        "text": "Basic yet fun pokemon-esque collection game. MTX are a bit pricy but the game has absolutely no ads. The battles are like plants vs zombies, except you use your own critters instead of plants. The upgrade system uses a pinball machine that you just shoot 100s of balls into and watch what happens. Very entertaining for a time killer type game, and I can see myself playing for a long time.",
+        "date": "2026-05-23T19:05:38.929Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ashlyn",
+        "score": 5,
+        "text": "I'd been in a rut trying new games over and over but nothing was doing it for me like I wanted. I tried this yesterday when it released and I was honestly blown away by the simplicity and depth of the game! The art and character design is quite extraordinary and I'm a big fan of creature collection and team building games. So many features to discover and explore and I just feel so... happy playing this game. Thank you for creating this game, I think I will be playing this for a long time! ^-^",
+        "date": "2026-05-22T01:10:49.572Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Wade Franklin",
+        "score": 5,
+        "text": "It's amazing I love all the unique and different creditors. It's just amazing lonely thing. I have a kind of a downside of is the pinball machine. Because I don't know how to get well. I do know how to get, but it's really hard to get new critters through the little Pick her up, claw thingy, when you get it throughout the same time.It's f****** amazing",
+        "date": "2026-05-22T15:59:13.160Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mahnoor Begum",
+        "score": 5,
+        "text": "Very good game! absolutely recommend it!! not bad for a first time game :D basically, it's like plants Vs zombies but has a gambling like thing inside (don't have to pay ofc) you use pinballs and launch it to get some rewards (sorry if you don't understand) and I can see that they got inspired by Pokémon. also, it's strangely addicting!! I literally just played this the whole day 😭😭 + THERES NO ADS!!!",
+        "date": "2026-05-21T13:54:58.169Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Nicholas Perez",
+        "score": 5,
+        "text": "Went into this game barely knowing a single thing about it but was pleasantly surprised with how cute, simple, and fun it is! The mechanisms are simple and the reward system is pretty good. The art style and overall design is also so cute. The only downside are the weirdos in the chats... but just remember internet safety and you'll be fine.",
+        "date": "2026-05-22T02:42:09.821Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Raven Pugh",
+        "score": 5,
+        "text": "this game is clash of clans meets Pokémon meets plants vs. zombies in the best way possible! there's constantly things to be doing so you're rarely board and the critters are so cute that all you want to do is protect them. its really addicting and really fun. I love the battles against other players and feeding the animals. would totally recommend to anyone looking for a fast pace game.",
+        "date": "2026-05-22T17:24:11.406Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "GildedGold",
+        "score": 5,
+        "text": "As with any mobile game I was genuinely skeptical about this one because of the ads, but I downloaded it anyway to see what was up. I can't lie, I wasn't expecting the amount of sheer effort that I was greeted with, with a new-release game that's actually got time and love put into it with a whole bunch of tiny details and playable aspects that come together really smoothly to make an actually fun game. Honestly a rare gem in the current AI slop of mobile games, there's not even any ads here.",
+        "date": "2026-05-23T23:16:15.876Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "DittoMaster 37",
+        "score": 5,
+        "text": "This game has been awesome! It's a bit overwhelming at first, but I really like the gameplay loop. Lack of ads is great, but it is sometimes a bit in your face about its in-app purchases. I don't mind too much, though. They have to make money somehow, and the prices don't seem bad at all, if you're the type to spend money on games! Gameplay and art is exactly as advertised too, which is awesome in an era of games that feel like they were made in an hour. I recommend picking up this one!",
+        "date": "2026-05-21T16:15:22.417Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nancy Alanis",
+        "score": 5,
+        "text": "it was a little glitch the first time I played but its entirely gone now, it runs quick and easy, leveling up and getting new pets is very simple, I started playing yesterday and am already at level 43!! very fun game, very cute art, will 100% be recommending it to my friends!",
+        "date": "2026-05-23T23:36:48.409Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Theodore Kiser",
+        "score": 5,
+        "text": "this is an amazing game with action and collecting all the different critters and it's so addicting I feel like I found my new favorite game. And I have never found a game that is so pulling and the zombies and bosses I just love it. this is a better version of plants vs zombies and Pokémon go to gather so good thanks for the best game ever Clash of Critters 😄😄",
+        "date": "2026-05-21T19:15:05.908Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Giovanni Antonia Sim",
+        "score": 5,
+        "text": "The critters are so cute, and i like the pinball game consept as a way to upg and collect critters. Its also have various gameplay on it too, rather than just a per level battle games. Honestly i kinda have a hardtime gathering all of the pinballs after playing for a while and i hope the dev can add like a daily quest to obtained like a specific ammount of pinballs (example. 100 pinballs eachday in daily quest). Overall i really enjoy the game and i hope the dev can improve it more ❤️❤️",
+        "date": "2026-05-24T03:04:06.666Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jaxson Gerrard",
+        "score": 5,
+        "text": "I just think this game is really fun and I like how they created all the animals and stuff intellectual things and you can evolve them it's just really an amazing game most people who might play it might think the same thing I just like the fun strategy part of it and collecting all the new animals and stuff",
+        "date": "2026-05-23T16:54:44.804Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mims Amor",
+        "score": 5,
+        "text": "☺️I really love this game I saw it before it was out and had it on hold I was so happy to see it come out to day. I really like the cute critters,the gameplay what I can do even decorate I love it all, it doesn't lag and as well it doesn't have any adds I think it's pretty good.😍",
+        "date": "2026-05-22T02:37:37.441Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Blazing Roy",
+        "score": 5,
+        "text": "To be honest I had low expectations,but I ABSOLUTELY love this game! The monster designs are really cool and to raise/catch is fairly easy. I would definitely recommend it to anyone who likes monster collection! I wish all the best for this game!",
+        "date": "2026-05-23T02:58:18.300Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Chzly Dump",
+        "score": 5,
+        "text": "this game is so fun and addictive, like it has no ads so that's cool, there's lots of cute critters you could get and the pinball activity was relaxing for me. I'd recommend this to people who loved Capybara GO! and i hope the game gets more rewards and fun events, updates in the future. that is all, i love this game🫶🥰",
+        "date": "2026-05-21T19:47:21.807Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Rueben Lall",
+        "score": 5,
+        "text": "started yesterday and litterally so fun, you can get so many rewards right now a total of 1k pinballs which is so hard to run out of and the critters are SO CUTE. I LOVE THIS GAME. 8/10 sure sometimes it gets a bit slow with stuff the game doens't provide instantly but the waiting isn't also that long just progess a bit further slightly and u get 100 whole pinballs perday. game is VERY f2p",
+        "date": "2026-05-22T10:33:33.114Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Marquis Hill",
+        "score": 5,
+        "text": "it really cool it's a cute monster collecting game with strat that you really need to think of cause each monster (tatari) has a unique ability and you can evolve them. if you love to play pok****s you're going to love this (even tho it use different gameplay)",
+        "date": "2026-05-23T12:12:55.420Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "singulator 22",
+        "score": 5,
+        "text": "its a nice game, it requires internet to play, you can't even get on if you don't have internet and you get kicked from it without it. with internet its good. There's trash out there with 4 stars so I gotta give this 5 for the lack of ads, it still advertises its microtransactions but rarely.",
+        "date": "2026-05-23T16:10:05.500Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "JunnethXV",
+        "score": 5,
+        "text": "Love this game!! A friend of mine actually recommended it to me, she had been playing it for quite a bit before I got it in my country and I loved what I saw. Super fun mechanics, super cute art, and I adore all of my tatari. I couldn't pick a favorite even if I tried.",
+        "date": "2026-05-23T02:15:08.541Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "anna pitts",
+        "score": 5,
+        "text": "absolutely amazing. the thing i like most about this game is the leveling up. all your creatures level up at the same time with each other. like if you get a new critter when you're at 75, it will be at 75 like all the others and I absolutely love that",
+        "date": "2026-05-23T16:07:51.299Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Shawn Kilpatrick",
+        "score": 5,
+        "text": "Engaging satisfying gacha/monster obtainment, afk progression enough to progress with ease without being so easy you feel detached from the game, adorable character design and evolutions. I have nothing else to ask from a game",
+        "date": "2026-05-21T01:46:05.748Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Tyler Nelson",
+        "score": 5,
+        "text": "Its a very fun game! it give you cute little critters and you fight against Zombies! but to upgrade your critters is very easy to! you also have a chat to talk to other players!!!!!",
+        "date": "2026-05-22T22:23:04.551Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Jacob Huggins",
+        "score": 5,
+        "text": "A fun new twist on Pachinko! The game description and inside labeling says this is pinball, it is Not. This is Pachinko! Working to level up your critters and playing Pachinko to move forward in the game getting access to further map levels is a great way to pass time! Definitely check it out! :)",
+        "date": "2026-05-23T20:36:37.675Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "V's Clips",
+        "score": 5,
+        "text": "Pretty neat little game, pretty much mashed together a bunch of popular minigames and ideas into one package, plinko, number gates, monster collecting and gachas. Constant gratification too, so its a really nice time burner",
+        "date": "2026-05-24T02:25:49.208Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Elsie Blanche",
+        "score": 5,
+        "text": "I love the way the app so cute so amazing and you can even chat with the world you can play with other players you can play alone and you can get the highest level and you still have prices it's like it will never end.",
+        "date": "2026-05-23T09:21:51.809Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Piper Chaney (Pipsqueek)",
+        "score": 5,
+        "text": "I downloaded because of the art style and ended up keeping because of how much I enjoyed the game itself. There's no ads, tons to do, AND really cute critters.",
+        "date": "2026-05-23T05:45:22.370Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "LlamablaZe",
+        "score": 5,
+        "text": "I like the art style, it's cute. The sound effects are nice too but I kind of wish there was more music. although It's still a decently well made game in my opinion :)",
+        "date": "2026-05-22T14:20:36.564Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Natalia Malan",
+        "score": 5,
+        "text": "this game is really cute! i have no complaints. you can talk to people from around the world, get adorable new pets, i mean, they're all so cute how can you not like them. i love the art in this game, kudos to the artist who created all these adorable creatures!",
+        "date": "2026-05-23T23:41:59.815Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Micah Zook",
+        "score": 5,
+        "text": "this game is very good. the lack of ads in this app amazes me. normally games like this bombard you with ads and slow progression but this game doesn't slow down it is consistently fun with a plethora of features that don't get old.",
+        "date": "2026-05-23T03:30:18.829Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dravin Walker (CorpseDaddyツ)",
+        "score": 5,
+        "text": "Something about this game drew me in and Immediatly became a favorite. The music, fun bright colors all bring it together with that collecting charm I have always craved. New but so far LOVING the game already.",
+        "date": "2026-05-21T01:18:56.720Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Roxas Kobold",
+        "score": 5,
+        "text": "So adorable! This game is all over the place, in the good way. I hope they keep adding more Tatari (the cute fuzzy animals) because the art is definitely a highlight.",
+        "date": "2026-05-21T19:21:10.120Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Franniel Veras",
+        "score": 5,
+        "text": "so far so good, the game is a bit heavy due to the monetization, but its quite cutely drawn. It doesnt feel like they used AI, hopefully thats true because ive been loving the game:)",
+        "date": "2026-05-22T17:42:51.641Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Ebony Nichols",
+        "score": 5,
+        "text": "This is the most exciting game I ever played in my whole tire life! When I first saw it, I didn't think that much of it. But when I played it... OMG! It was so amazing! I get to evolve my little creatures! It's really fun, you should try it out!",
+        "date": "2026-05-24T00:18:32.620Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lil ChubbyPanda",
+        "score": 5,
+        "text": "New game but I think it's very fun so far! I was expecting it to be like a Pokemon knockoff when I registered for it but am very happy to see it's gameplay is very different.",
+        "date": "2026-05-21T23:04:19.833Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "William Hukill",
+        "score": 5,
+        "text": "It's a really fun game if you like pets.And it's kind of like pokemon kind of you don't get to go out and catch them , it's fighting against zombies , it's really fun , though",
+        "date": "2026-05-24T02:47:17.293Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sonnenblume",
+        "score": 5,
+        "text": "I like the game so far but i'm not sure how playable it is after you run out of pinballs and live purely on the daily amount the game gives you. Fun thing to pass the time though.",
+        "date": "2026-05-22T04:09:40.311Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Zach",
+        "score": 5,
+        "text": "Pretty unique Critter Auto battler. Each mechanic feels fresh and I have yet to spend money to progress for feel the need to after playing it for 2 hours.",
+        "date": "2026-05-22T23:17:42.206Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jaxx james",
+        "score": 5,
+        "text": "so far its simple, fun, easy to learn, and best of all NO ADS aside from the occasional pop up ever so often its really letting you play without spending money.",
+        "date": "2026-05-21T15:45:50.134Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Rachel Kaye",
+        "score": 5,
+        "text": "LOVE this cute little game! It feels like a lighthearted mix of Pokemon and Plants VS Zombies. Very wholesome and somehow also feels nostalgic. 10/10 will be recommending to my friends!",
+        "date": "2026-05-23T22:18:16.273Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jenna Buechler",
+        "score": 5,
+        "text": "The design of the critters are adorable! I also love the battling portion of the game, it's rewarding when getting stuff to upgrade.",
+        "date": "2026-05-22T14:10:17.292Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "En Go",
+        "score": 5,
+        "text": "Been a while since I've found a mobile game this engaging without using a lick of AI nowadays, the art style is really charming in these days where sloppily-made mobile games just slap freemodels or AI all over their game, such a refreshing game",
+        "date": "2026-05-23T23:56:19.131Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ty Lovin",
+        "score": 5,
+        "text": "Great game! I love how cute it is, and the gameplay is surprisingly engaging! (Edit, I'm adding a star because there are zero ads, none whatsoever! Though, the pop-ups are still annoying)",
+        "date": "2026-05-24T22:24:52.480Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ari",
+        "score": 5,
+        "text": "cute game and I love the character design, theyre cute in theyre own way without just being copycats of other things, this is one of the best creature collectors ive seen in a while by virtue of not ussing Ai or stealing art as others have been known to do",
+        "date": "2026-05-23T17:58:12.152Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sophie Roberts",
+        "score": 5,
+        "text": "super cute critters. Battles are sometimes difficult, but that's okay because it's enough to not be one of those really easy games.",
+        "date": "2026-05-23T17:23:17.467Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sara H",
+        "score": 4,
+        "text": "Been playing this game for several hours now, and so far I really like it! The art style and critter designs are really cute, and the gameplay loop is addicting. However, I'm inclined to only give it 4/5 stars because my main issue so far is how frequently the game tries to sell you its numerous microtransactions. So far I haven't seen anything too outrageously priced, but it's still annoying to have to clear out 2-3 microtransaction offers each time I visit the pinball machine.",
+        "date": "2026-05-21T21:54:48.983Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Caos_Fossil887",
+        "score": 4,
+        "text": "This game is great, the critters, the style, the idea. However, I believe it gets a bit boring in long-term since the most you can do is only fight and fight and fight zombos, that after that you either grind the pin machine, talk on the chat or playing the other game modes. It requires a bit more in summary, but, is great as it is.",
+        "date": "2026-05-23T23:40:53.833Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Juniper",
+        "score": 4,
+        "text": "I really love the game so far because of the art and critters, but it's hard to lower pinballs in the pin machine, so I have almost 2-4 times the amount needed to play now and it's only getting higher. I haven't been able to collect any from my trees because of the pinballs I can't get rid of, and without being able to run out of them fast it no longer feels like a gamble you must work to earn the credit for and just a \"keep tapping you'll get something better\" making the feature less fun.",
+        "date": "2026-05-23T14:37:25.859Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Gradient Gr33n",
+        "score": 4,
+        "text": "Seems like an easy enough game to picture and play when you need free time. I love the creature collecting aspect and even the pinball element is a nice and easily rewarding pass time. I will say there there are quite a few features that feel thrown in and it's a little confusing at time seeing the screen fill up with several types of resources and only a short 1-2 sentence story driven blurb to explain it. Nonetheless, I like it enough when I need a break from my other games.",
+        "date": "2026-05-22T16:38:13.199Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Garrett Mitchell",
+        "score": 4,
+        "text": "It's a great game for the first few hours, but then you basically just have to stop playing. I'm at level 87 and the only thing I can play rn is a level 112 boss fight that I can't complete with any battle arrangement. I've competed all the dojos (the ones available at least) and the boss fights, and the only thing I can do right now is wait for my trees to finish creating pinballs every two hours so I can slowly level up (atp to reach level 112 it looks like I'll need thousands of pinballs)",
+        "date": "2026-05-23T22:14:03.130Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Fanilla",
+        "score": 4,
+        "text": "great game with a bunch of fun critters to collect. I think the designs are extremely cute and evolving them as a lot of fun. My only complaint is that I wish that the pinball had different layouts for the peg so I'm not just looking at the same pinball machine the whole time, same goes for the creature collector minigame. other than that awesome game and I love it.",
+        "date": "2026-05-21T12:44:52.409Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "The Glurak",
+        "score": 4,
+        "text": "Progress halts after clearing all the early progression rewards and gets very, very stale and slow afterwards. The constant new rewards and events are pretty nice, but the magnitude of said event rewards are still pretty meager.",
+        "date": "2026-05-24T16:31:08.560Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Thomas Brennan",
+        "score": 4,
+        "text": "this game is great! I was expecting the idle tower defense to be boring, but the pinball and the Tatari keep me coming back! the art style is amazing and the creatures are so fun. my only problem is that getting evolution stars is really hard and the critter catcher minigame is very rare, but other than that, I love this game!",
+        "date": "2026-05-23T16:34:16.526Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ezekiel Emmette",
+        "score": 4,
+        "text": "it's a nice game with plenty of nice no wait A LOT of nice little pokemon-like creatures and they are so cute with special abilities I don't really find any problem but I have to say the leveling up is odd and they should add more ways to get candy and more candy because it's hard to get a lot of pinballs but honestly a really good game. I used this app cuz my phone is flickering but with its slow gameplay. its very fun still",
+        "date": "2026-05-21T01:39:15.972Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Tara Hamlin",
+        "score": 4,
+        "text": "Generally great game. It scratches that one itch I have wanted scratched for a long time. It's a fun not pay to win experience. the one complaint is the repetitive microtransaction pestering me. But it's still awsome with a covy/cute art style and the constant supply of rewards if you have good momentum.",
+        "date": "2026-05-22T14:25:22.647Z",
+        "thumbsUp": 0
+      }
+    ],
+    "negative": [
+      {
+        "source": "google_play",
+        "userName": "Nathan Aguiar",
+        "score": 1,
+        "text": "pay to win gatcha slop. save your time and money, go play a real game instead.",
+        "date": "2026-05-25T08:51:42.890Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Chibi Glaceon",
+        "score": 2,
+        "text": "It's cute, but.. a few things to note is: THE POPUPS FOR PURCHASES. VERY ANNOYING. You've gotta make them less intrusive and in your face, devs. Maybe just have a one time pop up and a button that says \"don't show me again\" ? or put all the purchase options in a drop down window on the side. Also the misleading ads. It's not a merge game, but it's still fun, just the popups turn it into a giant cash grab. I like the gatcha pinball mechanics. It's unique!",
+        "date": "2026-05-25T07:17:13.141Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "John Saylor",
+        "score": 1,
+        "text": "It's fun for about an hour. It's definitely not a monster collecting game. It's tower defense mixed with pinball. It feels a little bit like a fever dream when playing.",
+        "date": "2026-05-25T03:43:38.363Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Gianna",
+        "score": 2,
+        "text": "very cute art, love many of the critters, but the omnipresent microtransaction popups are incredibly annoying and actively lag my game at times. gameplay is both lackluster and occasionally unfair. evolving critters takes far too much effort (and sometimes even luck) and doesn't feel worth it. the pinball mechanic as the main way of getting currency and critters is odd, as its not actually tied to how much im progressing its just. detached from it. ultimately pretty disappointed",
+        "date": "2026-05-25T02:39:30.251Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Liam Thompson",
+        "score": 2,
+        "text": "Had this as a 5 star review originally because I really like the creature designs and overall style of the game, but I had to edit it because of the never ending and incessant pop ups for micro transactions. Having a pop up every time I go to the main Hub is ridiculous and legitimately makes me not want to open the game anymore.",
+        "date": "2026-05-25T01:07:47.373Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Austin Stevens",
+        "score": 2,
+        "text": "I don't think this game's going to end up being for me, at least not yet. Rewards are miniscule, and levels are too difficult for what it's trying to be. an auto-battle system that I have to keep tending to seems pointless. the quick deploy for battles is hardly effective. requirements for evolving are way too much for not enough payoff. hit paywalls, paid, and still got nowhere. gagged when I saw the card system, as I've quit other games for that reason.",
+        "date": "2026-05-21T11:49:09.853Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Magician",
+        "score": 2,
+        "text": "Fun game. for the first couple hours. After a while, if you don't get extremely lucky you hit a point where no matter what, you'll never win. while playing, I would randomly hit points that felt completely impossible and would have to wait an entire day to get enough resources to hopefully get something that could help, but no matter what, I'd still get steamrolled until now, where I don't even see a point in playing. I'm losing out on rewards I need to beat content, because of said content.",
+        "date": "2026-05-22T02:00:30.378Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "MissMurmaider",
+        "score": 2,
+        "text": "I'm so upset that I need to leave this review. I really wanted to love this game, and I did when I first started playing it, but I have gotten stuck on level 4-30 with no means to level up my guys. Believe me, I've tried EVERYTHING you could think of. It seems like I can't even get pinballs as efficiently anymore. The game seems cash grabby, with event limits, too. It's so sad. This was one of few games that I actually pre-registered for just for it to turn out this way. I'm sorry! 💔",
+        "date": "2026-05-24T00:44:33.849Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Benjamin Cauble",
+        "score": 2,
+        "text": "the cute puppy eyes art got me to write the review. I love the game and art. edit: after playing for a few hours you seem to hit a wall where you have no pinballs and are level locked to the point your creatures just can't continue and there's nothing to do. which really kills the fun completely...like starting off was probably the most fun I've had on a mobile game for a hot minute and then it's just a dead stop.",
+        "date": "2026-05-21T09:11:44.560Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Adelina Lopez",
+        "score": 2,
+        "text": "I saw this game on an ad as a game where you combine these cute creatures into stronger creatures, which is an element in the game but not in the way the ad presented it. I had bought the game expecting that same gameplay from the ad, only to wound up seeing it's just a PVZ(Plants vs. Zombies) Clone. Upon only 5 mins of gameplay, it wounds up being a afk game with an OVERWHELMING amount of purchases and options on the pinball screen to pay for game items. Also the Chat's are pretty braindead 😭",
+        "date": "2026-05-23T19:45:53.252Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ryan Brooks",
+        "score": 2,
+        "text": "Fun concept. I refuse to play a game shoving sales in my face repeatedly in a single session. Not only do their sale packs ring the screen the whole time, but I'd be trying to play and up pops \"buy this pack\" I dismiss it, a minute later \"buy this pack!\", dismiss, play a bit longer \"buy this pack!\", but each time it happens you have to dismiss multiple pop-ups. I would be fine with a single pitch of them when I launch the game, forcing me to close them multiple times a session is unacceptable.",
+        "date": "2026-05-22T14:55:44.300Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Kai",
+        "score": 1,
+        "text": "People can and will randomly raid and steal your progress. You can pay cash to stop them or to lock in the next level. The main gameplay is much less interactive than the 2009 game Plants vs Zombies. The levels are so short and virtually indistinguishable to make you believe you are playing a game, but you are just placing your towers down again. Make sure their color matches the monster weakness. Match colors, woohoo, gaming",
+        "date": "2026-05-22T10:59:50.837Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Not Okay",
+        "score": 1,
+        "text": "The game doesn't tell you how to strategize beyond elemental advantage so I'm already constantly stuck, the raids and duals are awful features, and the pop-ups to buy things need to stop. The only thing I genuinely like are the creatures themselves, the quick deploy feature, and the auto battle function.",
+        "date": "2026-05-23T01:02:25.374Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Daniel Stevens",
+        "score": 1,
+        "text": "This isnt a game, you just let it play automatically and push buttons for the gatcha pinball. You can tell the designers know they have nothing when they have one nothing to try and distract you from the other nothing. It is bright and dynamic and colorful though. Aesthetically ideas borrowed from Pokémon and Plants VS Zombies.",
+        "date": "2026-05-23T03:07:39.469Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Chase McFadden",
+        "score": 1,
+        "text": "I do like that this game is different than many of the others out there, but, I have to give this a low rating for false advertising I've seen about the game that misleads people about its gameplay because I'm sick and tired of ads that lie about what the gameplay is, just be honest, dont lie",
+        "date": "2026-05-24T00:37:26.243Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Chris Cosenza",
+        "score": 1,
+        "text": "Not only did this not match the ads that I've seen, but it's easily one of the worst games when it comes to how many times and how many ways it tries to get you to spend money. Constant pop ups, actual walling. Easily one of the worst examples of mobile gaming I've ever tried.",
+        "date": "2026-05-22T00:24:39.736Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Victor Serrano",
+        "score": 2,
+        "text": "The art is cute and I had hoped the gameplay would be like PvZ, but there just isn't a game here. Everything is automated and most of the \"game\" is just watching a number go up then watching it go down to make another number go up. Hard pass.",
+        "date": "2026-05-21T15:47:47.579Z",
+        "thumbsUp": 2
+      }
+    ],
+    "neutral": [
+      {
+        "source": "google_play",
+        "userName": "Chadley",
+        "score": 3,
+        "text": "it perfect but why use AI ads please try to do better",
+        "date": "2026-05-25T06:07:30.837Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Danny B",
+        "score": 3,
+        "text": "The game itself isn't bad, there aren't any ads which is a welcomed thing to see. However, all of the market pop ups every time you do do a different task is annoying. Right now, I get 4 of them trying to shove these money packs in my face. Progress is slow past the first couple hours.",
+        "date": "2026-05-25T04:47:07.481Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "furious banana",
+        "score": 3,
+        "text": "very decent timekiller",
+        "date": "2026-05-25T03:35:57.970Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Justin Edward",
+        "score": 3,
+        "text": "cool game. yall shld chill w the ads and trying to sell me stuff. also why does this game need internet connection.",
+        "date": "2026-05-25T00:57:13.194Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Rowan Shaw",
+        "score": 3,
+        "text": "After playing the game for a bit here's what I think: I think the art style for the critters is awesome, and it's extremely easy to get started. Where my problems arise, is in the pop ups and actually getting tataris. I feel the game is TOO reliant on the pinball machine. The pop ups are annoying as well, having to click through every one every time is just bad design. Getting tataris feels too infrequent. A solution would be to provide guaranteed rewards from x amount of pinballs used.",
+        "date": "2026-05-22T21:17:49.288Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Nathan Oliva",
+        "score": 3,
+        "text": "I got this game when it released and saw that it was new. The game itself is really fun! Feels like a mix of monster collector games and pvz. Still needs more content, but so far it's a good time, albeit pay 2 win gacha as expected. My rating went down because I later saw the ads for the game, and half of them are fake gameplay with generic audio. I don't understand the need to fake gameplay for the ads, when the gameplay itself is already very eye catching. Disingenuous move.",
+        "date": "2026-05-23T20:55:42.251Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Blamerbug",
+        "score": 3,
+        "text": "This is the epitome of a Gacha game. Cute themes swallowed whole by so many in-app purchases they throw in your face every time you switch tabs. The main leveling system is literally pinball gambling, which while I didn't mind at first, has quickly made it hard to keep advancing without throwing money at them. I get wanting to earn something for your work, but it gets old very quickly. The auto-deploy also doesn't pick your strongest, it just picks based on what the types are, gets you stuck.",
+        "date": "2026-05-23T11:41:46.190Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "倉倉",
+        "score": 3,
+        "text": "This game is pretty fun to me, as an artist, i really like the artstyle, gameplay and animation really smooth too. But the only problem is i don't like the promo/starter pack keep jumping on my screen, make me really want to uninstall the game. This only show how money hungry the company are.",
+        "date": "2026-05-23T17:39:01.790Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Att 432",
+        "score": 3,
+        "text": "It was a fun little distraction the art is cute and so were the little animations for the creatures but That's about all that I can say was good, Now on to the bad the game is decently grindy with you constantly having to manage multiple tabs, The little world chat can for some reason be removed and not reclaimed but I don't think you would want to have it because not even 5 seconds of checking it there was immediate only slurs being thrown and no report option only DM, block, and add.",
+        "date": "2026-05-23T14:28:37.478Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Olivia Andrews",
+        "score": 3,
+        "text": "The critters are fun and adorable, but the game play is repetitive and a little boring. You hold down a button for pinball to level up and then you play Plants vs Zombies but with a type chart. Not the game I was hoping for",
+        "date": "2026-05-21T21:03:38.643Z",
+        "thumbsUp": 1
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "com.farlightgames.samo.gp",
+      "title": "Call of Dragons",
+      "developer": "FARLIGHT",
+      "score": 4.451613,
+      "icon": "https://play-lh.googleusercontent.com/L7HwAvvMf6wrpHIni1TIqFEipuLRp5_L_UWNCb2FxZkDOFt_YbGNEF6ojc8heXxY1PM"
+    },
+    {
+      "appId": "com.farlightgames.igame.gp",
+      "title": "AFK Journey",
+      "developer": "FARLIGHT",
+      "score": 4.5613756,
+      "icon": "https://play-lh.googleusercontent.com/-E0FGVIVVOZCjbSOmpft2ieYc8z-bod-DZVU0vVjePIJKw5MSQhe90Et4All89q2G7HFAN2gvQDqNpHCmar_cw"
+    },
+    {
+      "appId": "com.miraclegames.farlight84",
+      "title": "Farlight 84",
+      "developer": "FARLIGHT",
+      "score": 3.4119477,
+      "icon": "https://play-lh.googleusercontent.com/t1F-BjuuQoS-dSRA3Zboa1l46wntO0YlML42_-Fgk8xkPZcRA8R2fQtR0eaSnzKp8HkRmuTihOCqeOTJomLn"
+    },
+    {
+      "appId": "com.lilithgames.xgame.gp",
+      "title": "Dislyte",
+      "developer": "FARLIGHT",
+      "score": 4.2026114,
+      "icon": "https://play-lh.googleusercontent.com/vQhXlgIouA5IB0LRD0Ohva3NCdqG8ds4a5x_DAY-pIWdgR72tDfJ-l2tpY0xqc07p3ItQXyorD1QHpU7VAaHZXs"
+    },
+    {
+      "appId": "com.farlightgames.dgame.gp.apac",
+      "title": "Crystal Legends",
+      "developer": "FARLIGHT",
+      "score": 4.1862745,
+      "icon": "https://play-lh.googleusercontent.com/BQkcV691ifRLivKeMZpNM-pEMhih2r-6_NmfY9cE7dnWRIDn8_iYodzREx-9pg9tItc"
+    }
+  ],
+  "developerApps": [
+    {
+      "appId": "com.farlightgames.pgame.gp",
+      "title": "Clash of Critters",
+      "score": 4.714894,
+      "icon": "https://play-lh.googleusercontent.com/nIjO9pFz1R7G_wct00QMBKVqAmLHs2TqiaCmSUJfnKPw7yG_VzSmp26TRGCmm98v-Mye0MtsW_xz8CHNdIFD1A"
+    },
+    {
+      "appId": "com.farlightgames.igame.gp",
+      "title": "AFK Journey",
+      "score": 4.5613756,
+      "icon": "https://play-lh.googleusercontent.com/-E0FGVIVVOZCjbSOmpft2ieYc8z-bod-DZVU0vVjePIJKw5MSQhe90Et4All89q2G7HFAN2gvQDqNpHCmar_cw"
+    },
+    {
+      "appId": "com.farlightgames.samo.gp",
+      "title": "Call of Dragons",
+      "score": 4.451613,
+      "icon": "https://play-lh.googleusercontent.com/L7HwAvvMf6wrpHIni1TIqFEipuLRp5_L_UWNCb2FxZkDOFt_YbGNEF6ojc8heXxY1PM"
+    },
+    {
+      "appId": "com.miraclegames.farlight84",
+      "title": "Farlight 84",
+      "score": 3.4119477,
+      "icon": "https://play-lh.googleusercontent.com/t1F-BjuuQoS-dSRA3Zboa1l46wntO0YlML42_-Fgk8xkPZcRA8R2fQtR0eaSnzKp8HkRmuTihOCqeOTJomLn"
+    },
+    {
+      "appId": "com.lilithgames.xgame.gp",
+      "title": "Dislyte",
+      "score": 4.2026114,
+      "icon": "https://play-lh.googleusercontent.com/vQhXlgIouA5IB0LRD0Ohva3NCdqG8ds4a5x_DAY-pIWdgR72tDfJ-l2tpY0xqc07p3ItQXyorD1QHpU7VAaHZXs"
+    },
+    {
+      "appId": "com.farlightgames.dgame.gp.apac",
+      "title": "Crystal Legends",
+      "score": 4.1862745,
+      "icon": "https://play-lh.googleusercontent.com/BQkcV691ifRLivKeMZpNM-pEMhih2r-6_NmfY9cE7dnWRIDn8_iYodzREx-9pg9tItc"
+    }
+  ]
+}

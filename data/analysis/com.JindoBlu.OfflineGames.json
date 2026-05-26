@@ -6,12 +6,12 @@
   "detail": {
     "description": "Get ready for 'Offline Games': fun for all ages, and a mental workout too! This offline game collection is like an overflowing toy box packed with more than 20 unique minigames. It's designed for classic game enthusiasts, puzzle lovers, and challenge seekers. And the best part? You don't need an internet connection to enjoy it!\n\nOur array of Number Games like 2048 and 2248 will get your neurons firing. Engage in these numeric challenges and strive to hit the highest scores. They're perfect for k",
     "released": "Aug 4, 2023",
-    "updated": 1777417472000,
+    "updated": 1779726854000,
     "version": "3.11.2",
     "installs": "100,000,000+",
     "score": 4.6,
-    "ratings": 451510,
-    "reviews": 13650,
+    "ratings": 452007,
+    "reviews": 13669,
     "developer": "JindoBlu",
     "developerWebsite": "https://www.jindoblu.com",
     "genre": "Casual",
@@ -20,15 +20,21 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 15,
-      "2": 4,
-      "3": 9,
-      "4": 16,
-      "5": 156
+      "1": 12,
+      "2": 3,
+      "3": 5,
+      "4": 19,
+      "5": 161
     },
-    "positiveRatio": 86,
-    "negativeRatio": 10,
+    "positiveRatio": 90,
+    "negativeRatio": 8,
     "eventMentions": [
+      {
+        "text": "i only have two complaints - the app is a battery drain, and some games (like sudoku) need a way to ",
+        "keywords": [
+          "limited"
+        ]
+      },
       {
         "text": "please please please.... add a way to favorite games! so i can quickly find the game i want at that ",
         "keywords": [
@@ -53,16 +59,16 @@
         "keywords": [
           "update"
         ]
-      },
-      {
-        "text": "i find this very fun! the levels of difficulty actually seem to match the difficulty i set it to (gr",
-        "keywords": [
-          "new"
-        ]
       }
     ]
   },
   "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    },
     {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
@@ -72,9 +78,9 @@
     {
       "type": "word_of_mouth",
       "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 86%",
+      "detail": "4-5星評論佔 90%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:51:13.481Z"
+  "analyzedAt": "2026-05-26T12:53:31.825Z"
 }

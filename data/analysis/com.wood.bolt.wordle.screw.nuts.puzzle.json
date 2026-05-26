@@ -1,0 +1,79 @@
+{
+  "appId": "com.wood.bolt.wordle.screw.nuts.puzzle",
+  "name": "Woodle Screw™ Pin Nuts & Bolts",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "🔩 Unscrewing puzzles? 🔑 Hunting for keys? We’ve got it all!\n🧩 Tired of just clearing levels? 🏙️ How about rebuilding an entire CITY? \nGet ready for a puzzle game with a bigger purpose! ✨\n\nIn Woodle Screw™ Pin Nuts & Bolts, your puzzle-solving skills get a major upgrade. It’s the addictive screw puzzle you love, but now every victory directly contributes to rebuilding a magnificent city, turning your wins into visible, satisfying progress.\n\nThis adds a whole new dimension to the game. You'll ",
+    "released": "Oct 23, 2024",
+    "updated": 1778728486000,
+    "version": "1.3.9",
+    "installs": "10,000,000+",
+    "score": 4.5,
+    "ratings": 508510,
+    "reviews": 938,
+    "developer": "LifePulse Puzzle Game Studio",
+    "developerWebsite": "https://longsealink.com/",
+    "genre": "Puzzle",
+    "recentChanges": "What&#39;s New:<br>- You can get various coin bundles and prop bundles in the shop.<br>- Added Mine Rush and Ticket Challenge Event.<br>- Improved UI for a better gaming experience.<br>- Bug fixes and performance improvements.<br><br>We hope you enjoy the update!<br>Please leave us a review if you like the game.<br>Thank you for playing Woodle Screw™ Pin Nuts &amp; Bolts :)"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 44,
+      "2": 12,
+      "3": 15,
+      "4": 9,
+      "5": 120
+    },
+    "positiveRatio": 65,
+    "negativeRatio": 28,
+    "eventMentions": [
+      {
+        "text": "i think apps should allow the patron to play their games for awhile first .every game has as good fi",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "game locking with stupid event - i don't want to participate in it, but can't close event window",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "fun game. but ads we're to excessive and too long especially during competitive events against other",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "another game where the second ad to add the 4th slot malfunctioned and had to close the program so u",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "passable playable but only if you watch adds. eventually we get tired of them and move on to somethi",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:54:13.371Z"
+}

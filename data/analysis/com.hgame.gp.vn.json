@@ -1,0 +1,67 @@
+{
+  "appId": "com.hgame.gp.vn",
+  "name": "Thánh Địa AFK",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Link your Classic Server account and transfer all your heroes to AFK Arena: Companions. Returning players can resume immediately without any hassle! Continue your adventure where you left off and rediscover the magic of Esperia.\n\n1,000 Free Summons\nLog in and receive 1,000 free summons! Enjoy 10 free summons every day! Easily summon your favorite heroes and receive countless rewards to make you stronger!\nUnlock All Heroes\nComplete stages to unlock every hero in the game. Build your dream team an",
+    "released": "Nov 6, 2022",
+    "updated": 1779101529000,
+    "version": "1.194.01",
+    "installs": "100,000+",
+    "score": 4.6,
+    "ratings": 37820,
+    "reviews": 13833,
+    "developer": "GZONE PUBLISHER VIETNAM",
+    "developerWebsite": "https://www.lilith.com/",
+    "genre": "Role Playing",
+    "recentChanges": "Companions<br>1. Thêm tướng Saurus - Chiến Binh Trỗi Dậy.<br>2. Sự kiện Tụ Họp Thợ Săn từ 22/5.<br>3. Cải tiến Thám Hiểm, Trại Bang Hội, thêm Cừu Vân Linh.<br><br>Cổ Điển<br>1. Thêm Tướng Severin - Học Giả Hình Thái.<br>2. Sự kiện Tụ Họp Thợ Săn từ 24/5.<br>3. Cải tiến thăng cấp Quái Vật, Tháp Vua, Tháp Ánh Sáng."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 15,
+      "2": 3,
+      "3": 12,
+      "4": 23,
+      "5": 147
+    },
+    "positiveRatio": 85,
+    "negativeRatio": 9,
+    "eventMentions": [
+      {
+        "text": "game nên cho nhiều banner/event để quay nhân vật hon, game hay :>",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "thật sự mình khá là tức vì game ko còn tùy chỉnh ngôn ngữ tiếng anh, mình biết đây là bản dành cho n",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 85%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:54:30.210Z"
+}

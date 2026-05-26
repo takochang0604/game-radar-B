@@ -11,7 +11,7 @@
     "installs": "1,000,000+",
     "score": 4.1,
     "ratings": 38181,
-    "reviews": 11727,
+    "reviews": 11726,
     "developer": "Yostar, Inc.",
     "developerWebsite": "https://bluearchive.jp/",
     "genre": "Role Playing",
@@ -69,7 +69,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 6 天前",
       "confidence": "high"
     },
     {
@@ -79,5 +79,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:49:25.939Z"
+  "analyzedAt": "2026-05-26T12:50:53.321Z"
 }

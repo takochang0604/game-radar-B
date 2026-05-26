@@ -2,16 +2,16 @@
   "appId": "com.epicoro.castleclashers",
   "name": "Castle Busters",
   "platform": "android",
-  "market": "ph",
+  "market": "tw",
   "detail": {
     "description": "BREAK EVERY WALL. RULE EVERY ARENA.\nCastle Busters is a fast, real-time 1v1 PvP strategy brawler where every brick breaks and every shot counts. Draft 8 units, load your keep, and turn your rival's castle into a pile of rubble before they do it to you first. No bot waves. No 20-minute matches. Just online multiplayer PvP battles where one good angle wins the war.\n\nSMASH THE WALLS, NOT THE CLOCK\nMatches are quick. Decisions are not. Pick your shot, read the enemy line, and fire. Every wall, tower",
     "released": "Jul 18, 2025",
-    "updated": 1778661401000,
+    "updated": 1779451614000,
     "version": "1.9.1",
     "installs": "5,000,000+",
-    "score": 4.6,
-    "ratings": 88164,
-    "reviews": 798,
+    "score": 4.2,
+    "ratings": 93318,
+    "reviews": 365,
     "developer": "VOODOO",
     "developerWebsite": "https://www.voodoo.io",
     "genre": "Action",
@@ -20,43 +20,44 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 38,
-      "2": 10,
-      "3": 10,
-      "4": 17,
-      "5": 125
+      "1": 47,
+      "2": 15,
+      "3": 14,
+      "4": 24,
+      "5": 100
     },
-    "positiveRatio": 71,
-    "negativeRatio": 24,
+    "positiveRatio": 62,
+    "negativeRatio": 31,
     "eventMentions": [
       {
-        "text": "suggestion if this game update soon please add this certain aspects 1. guild/clan 2. pvp invite 3. t",
+        "text": "hi is it possible to refund my unclaimed rewards chests from the event? i didn't know it ends this 1",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "suddenly i can't log in to the game...ask me to update but i can't do anything..have to uninstalled ",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "love that the ads are limited, and you can watch them when you want things, not forced to watch them",
+        "text": "my new stress releaver 😘👍",
         "keywords": [
-          "limited"
+          "new"
         ]
       },
       {
-        "text": "can't buy updated",
+        "text": "latest update. there is always crash after finishing ads, and i got nothing, nothing as reward, noth",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "pvp worms/scorch clone that's pretty fun and not too grind-y. there are pay to win elements but so f",
+        "text": "enjoyed the game at first reminded me of worms armageddon just new faces. then i finally decided to ",
         "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "update: just un-installed. many opponents are clearly bots. pvp is a lie in most games, poor ai and ",
-        "keywords": [
-          "update"
+          "event",
+          "new"
         ]
       }
     ]
@@ -65,8 +66,8 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 9 天前",
-      "confidence": "medium"
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
     },
     {
       "type": "event_driven",
@@ -75,5 +76,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:44:09.809Z"
+  "analyzedAt": "2026-05-26T12:52:35.834Z"
 }

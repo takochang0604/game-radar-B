@@ -1,0 +1,80 @@
+{
+  "appId": "com.bandainamcoent.dblegends_ww",
+  "name": "DRAGON BALL LEGENDS",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "The ultimate anime action RPG is here! DRAGON BALL LEGENDS puts the power of your favorite DRAGON BALL heroes in your hands! Epic 3D visuals and animations bring your heroes to life: More than 400 fighters to find and train to make your ultimate team ready for battle. Goku, Vegeta, Trunks, Piccolo, Frieza, Broly, Majin Buu and many other heroes and villains are waiting for you! Discover a new original story based on the brand-new character designed by manga creator Akira Toriyama, the mysterious",
+    "released": "May 24, 2018",
+    "updated": 1779163856000,
+    "version": "6.24.0",
+    "installs": "50,000,000+",
+    "score": 3.5,
+    "ratings": 2133798,
+    "reviews": 8347,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerWebsite": "https://www.bandainamcoent.co.jp/english/",
+    "genre": "Action",
+    "recentChanges": "A major update for the 8th anniversary!<br>・Mission Plan overhaul!<br>All Mission Plans up to now have been combined, and a new Premium Plan is here! Complete Missions to get Chrono Crystals and various other rewards!<br>・Also adjusted various UI elements"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 56,
+      "2": 10,
+      "3": 9,
+      "4": 11,
+      "5": 114
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 33,
+    "eventMentions": [
+      {
+        "text": "if you want to keep your sanity please don't play this game cause if you don't have the new units it",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "p2w as a f2p for a year i got only one lr from all the banners that came from fest totally depends o",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      },
+      {
+        "text": "worst. used to be good new summons are completely waste. i wasted 10k cc but didn't get the characte",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "so far i have been playing this game for 8 whole years and it has not gotten better it sucks more th",
+        "keywords": [
+          "anniversary"
+        ]
+      },
+      {
+        "text": "again ultra banners are literally built for just spending money on the game not enough compensation ",
+        "keywords": [
+          "anniversary"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:49:52.693Z"
+}

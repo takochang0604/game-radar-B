@@ -9,9 +9,9 @@
     "updated": 1778604637000,
     "version": "1.0.2",
     "installs": "10,000+",
-    "score": 4.7,
-    "ratings": 1413,
-    "reviews": 212,
+    "score": 4.6,
+    "ratings": 1723,
+    "reviews": 239,
     "developer": "LIGHTYEAR MATRIX LIMITED",
     "genre": "Role Playing",
     "recentChanges": "1. 優化網路<br>2. 修復已知BUG"
@@ -33,15 +33,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 13 天，評分 4.7",
+      "detail": "上架 14 天，評分 4.6",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 12 天前",
+      "detail": "最近更新: 13 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:48:47.462Z"
+  "analyzedAt": "2026-05-26T12:50:21.753Z"
 }

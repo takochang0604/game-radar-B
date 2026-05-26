@@ -1,0 +1,43 @@
+{
+  "appId": "6467846624",
+  "name": "Night Valley - Tower Defense",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "JOIN THE MAGICAL BATTLE IN NIGHT AT THE VALLEY!\nStep into the enchanting world of Emerald Village, where Moo and Lulu need your help to defend their quaint town from an invasion of magical creatures! In this idle tower defense RPG, you’ll build, upgrade, and strategize to protect the valley from waves of whimsical yet dangerous foes. Ready for an idle game adventure packed with strategy and mystery? \n\nDEFEND WITH STRATEGY!\nAs a lone defender, you’ll command Moo and Lulu to fend off mystical enem",
+    "released": "2025-04-02T07:00:00Z",
+    "updated": "2026-03-23T06:00:39Z",
+    "version": "1.0.24",
+    "score": 4.4,
+    "reviews": 15,
+    "developer": "Pitaya Group, Inc, The",
+    "developerUrl": "https://apps.apple.com/ph/developer/pitaya-group-inc-the/id1337550147?uo=4",
+    "genres": [
+      "Games",
+      "Strategy"
+    ],
+    "releaseNotes": "- Bug fixes and other improvements\n\nThank you for playing our game!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:51:56.383Z"
+}

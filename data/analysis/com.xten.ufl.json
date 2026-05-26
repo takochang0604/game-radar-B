@@ -9,9 +9,9 @@
     "updated": 1779450447000,
     "version": "14.0.0",
     "installs": "1,000,000+",
-    "score": 4.5,
-    "ratings": 19233,
-    "reviews": 136,
+    "score": 4.4,
+    "ratings": 21049,
+    "reviews": 157,
     "developer": "XTEN LIMITED",
     "developerWebsite": "https://portal.uflgame.com",
     "genre": "Sports",
@@ -20,43 +20,43 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 45,
-      "2": 18,
+      "1": 52,
+      "2": 19,
       "3": 22,
-      "4": 33,
-      "5": 82
+      "4": 35,
+      "5": 72
     },
-    "positiveRatio": 57,
-    "negativeRatio": 32,
+    "positiveRatio": 54,
+    "negativeRatio": 36,
     "eventMentions": [
       {
-        "text": "it's good but always removing it self also create new jerseys and ne boots even player faces but qua",
+        "text": "just focus on skills add new skills overall best",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "the game is very enjoyable.....but there are things that need to be improved in the next update.....",
+        "text": "good game it was a great update despite it want to upgrade some things such the tackle and defence",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "it is okay for now but i have a few problems. 1. the apps closes and says reinstall or check if goog",
+        "text": "hello @ufl, i'm glad you guys are putting in much effort to make the gameplay good. i have a problem",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "the game will start and stop asking me to update my google play store and reinstall it whic i have d",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "i really like the game.the graphics are really good. but,i gave 3 stars cause i'm just not having th",
+        "text": "ok, a fresh new experience for a football game. i've been playing from the beta, but some improvemen",
         "keywords": [
           "new"
+        ]
+      },
+      {
+        "text": "the game is actually good, but make more updates in commentary, more camera options. that's all. but",
+        "keywords": [
+          "update"
         ]
       }
     ]
@@ -65,13 +65,13 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 4 天，評分 4.5",
+      "detail": "上架 5 天，評分 4.4",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     },
     {
@@ -81,5 +81,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:50:34.481Z"
+  "analyzedAt": "2026-05-26T12:52:40.936Z"
 }

@@ -1,0 +1,44 @@
+{
+  "appId": "6444692469",
+  "name": "老爹熱炒店",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "《老爹熱炒店》是一款非常有趣的模擬經營遊戲，玩法輕鬆易上手；畫風簡潔清新。你會在這裡經營一家屬於自己的熱炒店，通過真實物理顛鍋，自由開放的烹飪炒出各種各樣的菜色滿足客人的各種需求。快來展示你的廚藝。\n\n你還可以體驗老爹的日常，買菜、備菜、清潔廚具等各種有趣解壓小遊戲。\n\n快來和我們一起經營”熱炒店“吧！\n\n【遊戲特色】\n－操作簡單，體驗上癮的顛鍋\n－畫風清新，治愈你的一整天\n－幽靈、土豪、白富美等各式各樣的客人，對話詼諧有趣，滿足他們的胃口，打開他們的心防\n－豐富的菜譜，各種食材滿足你的廚藝展示\n－更有隱藏劇情等你來發現\n\n\nFacebook官方粉絲頁：https://www.facebook.com/CookingPapaStar\n\n歡迎加入我們，獲取更多遊戲獎勵和資訊！",
+    "released": "2022-11-28T08:00:00Z",
+    "updated": "2023-02-13T01:35:43Z",
+    "version": "2.17.4",
+    "score": 3.1,
+    "reviews": 756,
+    "developer": "GUANHAI",
+    "developerUrl": "https://apps.apple.com/tw/developer/guanhai/id1656193337?uo=4",
+    "genres": [
+      "遊戲",
+      "休閒",
+      "模擬"
+    ],
+    "releaseNotes": "bug fixed"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:50:55.800Z"
+}

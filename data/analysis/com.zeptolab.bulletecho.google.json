@@ -1,0 +1,79 @@
+{
+  "appId": "com.zeptolab.bulletecho.google",
+  "name": "Bullet Echo: PVP Shooter",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Like action shooters? Bullet Echo is an exciting PvP tactical top-down shooter. Use stealth, team up, and shoot to win in this shooting game with multiplayer!\n\nChoose from dozens of different heroes with unique play styles, guns and abilities.\nUnite with friends, set a strategy, and be the last team standing when the battle ends!\n\n- UNIQUE TACTICAL STEALTH ACTION: Your vision is limited by the beam of a flashlight, but you can hear enemies' steps and shots.\n- DESIGNED FOR TEAM PLAY: Start playin",
+    "released": "May 25, 2020",
+    "updated": 1779469654000,
+    "version": "7.11.1",
+    "installs": "10,000,000+",
+    "score": 4.4,
+    "ratings": 828154,
+    "reviews": 1924,
+    "developer": "ZeptoLab",
+    "developerWebsite": "https://www.bulletecho.game",
+    "genre": "Action",
+    "recentChanges": "RECKONING SEASON<br>The reckoning starts in Mortuary. Tear through a new Star Pass loaded with fresh skins, stickers, graffiti, and tombstones. The dead have more company now.<br><br>MEET BONNIE<br>With an SMG, toxic rounds, and two vicious hounds, Bonnie locks down ground with poison zones, patrol pressure, and explosive punishment for reckless pushes. She can even revive a fallen ally — dying isn&#39;t an excuse anymore!<br><br>VISUAL UPGRADES &amp; FIXES<br>Sharper visuals all around. Fixed a minimum of 6 to 7 bugs."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 48,
+      "2": 11,
+      "3": 16,
+      "4": 20,
+      "5": 105
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 30,
+    "eventMentions": [
+      {
+        "text": "the monetization is extremely forcefully. the game is fun but i dont need a new offer from the shop ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "switch from one destroyed phone to a new one. the profile didn't transfer from log in and the help a",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i get shes new but how do you screw up this bad? bonnie straight up has no counterplay, she punishes",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this is the worst game ever, with the new lady with dogs. auto robots with high quality players no h",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "soo i have bought over a hundred dollars worth of bucks to open chests so i could get some new heroe",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:53:58.105Z"
+}

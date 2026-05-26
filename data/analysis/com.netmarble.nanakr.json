@@ -1,0 +1,56 @@
+{
+  "appId": "com.netmarble.nanakr",
+  "name": "일곱 개의 대죄: GRAND CROSS",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "More than just an adventure, a massive adventure RPG\n[The Seven Deadly Sins: GRAND CROSS]\nA brand-new game like no other!\n\n======================================\n◆The Seven Deadly Sins: GRAND CROSS Game Features◆\n========================================\n\n▶ A proven, popular game loved for 6 years\nA popular game with over 77 million downloads worldwide\nStart playing now with a variety of rich events to get you up and running!\n\nDownload now and enjoy \n\n▶ A strategic battle system utilizing skill c",
+    "released": "Jun 2, 2019",
+    "updated": 1779263380000,
+    "version": "2.104.0",
+    "installs": "1,000,000+",
+    "score": 4.2,
+    "ratings": 83997,
+    "reviews": 49207,
+    "developer": "Netmarble",
+    "developerWebsite": "http://mobile.netmarble.net",
+    "genre": "Role Playing",
+    "recentChanges": "7대죄의 7주년! 레전드 페스티벌 업데이트!<br>- 바로 LR 진화 가능한 신규 영웅  불구대천 멜리오다스 등장!<br><br>■ 신규 영웅 및 코스튬 추가<br>- UR  불구대천 멜리오다스<br><br>■ 콘텐츠 및 이벤트 추가<br>- 7주년 기념 레전드 앙케이트 뽑기<br>- 7주년 레전드 페스티벌 출석 이벤트<br>- 묵시록의 4기사 5챕터<br>- 신규 PvE 콘텐츠: 최고신전<br>- 신규 영웅 성장 시스템: 신의 가호"
+  },
+  "reviewAnalysis": {
+    "total": 97,
+    "starCounts": {
+      "1": 11,
+      "2": 1,
+      "3": 4,
+      "4": 9,
+      "5": 72
+    },
+    "positiveRatio": 84,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "(2021 aug) as per i mentioned the problems last year that are remain. point of new heroes, it's too ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 84%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:55:06.988Z"
+}

@@ -9,9 +9,9 @@
     "updated": 1778169227000,
     "version": "1.0.4.2.0",
     "installs": "500,000+",
-    "score": 4.7,
-    "ratings": 11630,
-    "reviews": 71,
+    "score": 4.8,
+    "ratings": 11920,
+    "reviews": 75,
     "developer": "NEOWIZ",
     "developerWebsite": "https://hideacorp.blogspot.com",
     "genre": "Casual",
@@ -23,8 +23,8 @@
       "1": 12,
       "2": 7,
       "3": 6,
-      "4": 23,
-      "5": 152
+      "4": 24,
+      "5": 151
     },
     "positiveRatio": 88,
     "negativeRatio": 10,
@@ -66,7 +66,7 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 28 天，評分 4.7",
+      "detail": "上架 29 天，評分 4.8",
       "confidence": "high"
     },
     {
@@ -82,5 +82,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:50:12.956Z"
+  "analyzedAt": "2026-05-26T12:50:50.746Z"
 }

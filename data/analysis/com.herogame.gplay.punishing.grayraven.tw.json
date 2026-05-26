@@ -1,0 +1,80 @@
+{
+  "appId": "com.herogame.gplay.punishing.grayraven.tw",
+  "name": "戰雙帕彌什：末世科幻3D動作遊戲",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "◆Game world view\n\nThe story takes place in the near future...\nHumanity's ultimate exploration of basic science has touched a taboo area, and \"punishing\" punishment suddenly comes. The fragile human body was quickly destroyed, while the eroded machinery was manipulated and turned into a violent killing machine.\n\nThe once highly prosperous human civilization has almost lost its traces on the earth. The survivors were forced to flee their homes and flee into deep space. And you will play the role o",
+    "released": "Aug 27, 2020",
+    "updated": 1778747634000,
+    "version": "4.4.2.1777027472",
+    "installs": "100,000+",
+    "score": 4.4,
+    "ratings": 9690,
+    "reviews": 3093,
+    "developer": "KURO TECHNOLOGY (HONG KONG) CO., LIMITED",
+    "developerWebsite": "https://pgr.kurogames.com/tw/",
+    "genre": "Action",
+    "recentChanges": "一、烈日將燼——新增角色|武器|意識|輔助機|塗裝<br>1. 新增S級角色：「神威·不落日」<br>2. 新增6星武器：「朗日耀斑」（不落日專屬）<br>3. 新增6星意識：「費曼」<br>4. 新增輔助機：「焰燧」<br>5. 新增&amp;復刻塗裝<br>「矢志獵蹤」 - 神威·不落日<br>「拂曉長誓」 - 露西亞·誓焰<br>「赤樗椿」 - 露西亞·深紅囚影<br>「煢心溯願」 - 拉彌亞·深謠<br>「緣紡祈糸」 - 賽琳娜·希聲<br><br><br>二、烈日將燼——新版本內容&amp;活動玩法<br>1. 全新浮點紀實：烈日將燼<br>2. 逐日者復歸：學習角色機制，完成戰鬥挑戰<br>3. 相約紀事：體驗「神威·不落日」好感度劇情<br>4. 故門柩歌：面對BOSS的未知挑戰<br>5. 疾速追緝：限定角色，挑戰高難BOSS<br>6. 黃油咖啡奇遇事：俯視角射擊體驗，解決敵人<br>7. 「神寂啟示錄」亡命死競賽季返場：經典機制回歸，更有加時賽<br>8. 塵浪露營：規劃路線，讓突擊鷹開心露營"
+  },
+  "reviewAnalysis": {
+    "total": 98,
+    "starCounts": {
+      "1": 11,
+      "2": 3,
+      "3": 10,
+      "4": 16,
+      "5": 58
+    },
+    "positiveRatio": 76,
+    "negativeRatio": 14,
+    "eventMentions": [
+      {
+        "text": "come on do something it may 22nd and where rhe dmc5 event? did it got delay or something come on i a",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "my game will not update to the latest version",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "used to love this game but it keeps crashing after the lastest update! hope it will be fixed soon. (",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "請問會不會更新視綫囚籠？",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "blueh let me enjoy all the new games on 2021 e",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:53:55.661Z"
+}

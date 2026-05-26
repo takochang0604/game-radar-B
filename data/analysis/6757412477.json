@@ -9,7 +9,7 @@
     "updated": "2026-05-21T01:07:05Z",
     "version": "1.0.4",
     "score": 4,
-    "reviews": 60,
+    "reviews": 76,
     "developer": "Modo Game",
     "developerUrl": "https://apps.apple.com/jp/developer/modo-game/id1485200031?uo=4",
     "genres": [
@@ -35,17 +35,11 @@
   },
   "inferredReasons": [
     {
-      "type": "new_release",
-      "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 5 天，評分 4.0",
-      "confidence": "high"
-    },
-    {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:50:22.440Z"
+  "analyzedAt": "2026-05-26T12:50:19.564Z"
 }

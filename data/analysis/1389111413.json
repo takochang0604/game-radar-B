@@ -1,0 +1,44 @@
+{
+  "appId": "1389111413",
+  "name": "Hole.io",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "The most addictive black hole game! \n\nCan you move the black hole to swallow the buildings into the hole like an attacking hole master? The clock is ticking, tik tok, tik tok, will you succeed to swallow? \n\nEnter the arena and face the other black holes in a fierce battle. Eat everything in sight with your black hole and expand it to eat more! Choose your favorite black hole skin and go like a hoard master. Show them who is the biggest black hole in town! Play Hole.io now!",
+    "released": "2018-06-24T04:28:15Z",
+    "updated": "2026-05-14T11:25:06Z",
+    "version": "2.43.11",
+    "score": 4.5,
+    "reviews": 72616,
+    "developer": "Voodoo",
+    "developerUrl": "https://apps.apple.com/vn/developer/voodoo/id714804730?uo=4",
+    "genres": [
+      "Games",
+      "Sports",
+      "Casual"
+    ],
+    "releaseNotes": "Bug fixes & Technical improvements"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:53:17.665Z"
+}

@@ -9,7 +9,7 @@
     "updated": "2026-05-25T03:25:31Z",
     "version": "2026.310",
     "score": 4.3,
-    "reviews": 109853,
+    "reviews": 109851,
     "developer": "Mad Head Limited",
     "developerUrl": "https://apps.apple.com/tw/developer/mad-head-limited/id496582149?uo=4",
     "genres": [
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:50:49.289Z"
+  "analyzedAt": "2026-05-26T12:51:15.285Z"
 }

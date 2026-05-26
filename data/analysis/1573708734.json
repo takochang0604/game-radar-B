@@ -9,7 +9,7 @@
     "updated": "2026-05-12T08:28:47Z",
     "version": "14.00.00",
     "score": 4.7,
-    "reviews": 28679,
+    "reviews": 28685,
     "developer": "TRAVELLET VN",
     "developerUrl": "https://apps.apple.com/vn/developer/travellet-vn/id1573708736?uo=4",
     "genres": [
@@ -35,9 +35,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 13 天前",
+      "detail": "最近更新: 14 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:51:59.936Z"
+  "analyzedAt": "2026-05-26T12:55:17.214Z"
 }

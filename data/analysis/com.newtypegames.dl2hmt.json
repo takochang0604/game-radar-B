@@ -1,0 +1,85 @@
+{
+  "appId": "com.newtypegames.dl2hmt",
+  "name": "Dynasty Legends 2",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "DYNASTY LEGENDS 2 is a complete evolution of Hack & Slash ARPG game. Thrilling battle experience allows you wipe out thousands of enemies all by yourself, become the overlord of the Three Kingdoms. Stunning graphics, bring you back to chaotic ancient battlefields. Join the battle with your friends now and build up your empire!\n\n▶Break through the Limit◀\nDesigned with Next-Gen technology, it will give you the ultimate experience on your phone!\nUltra-high quality 3D models and special effects brin",
+    "released": "May 1, 2022",
+    "updated": 1778641034000,
+    "version": "1.36.601",
+    "installs": "1,000,000+",
+    "score": 4.6,
+    "ratings": 210171,
+    "reviews": 4502,
+    "developer": "HK TAIHE INTERACTIVE LIMITED",
+    "developerWebsite": "https://dl2hmt.newtypegames.com/",
+    "genre": "Action",
+    "recentChanges": "Fixed Bugs and Other Optimizations"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 8,
+      "2": 2,
+      "3": 13,
+      "4": 27,
+      "5": 150
+    },
+    "positiveRatio": 89,
+    "negativeRatio": 5,
+    "eventMentions": [
+      {
+        "text": "i think this game so good , but if you new user , you can get hero mythic free",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "it's good game updated now with best graphics",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this game has turned to trash now .... every server merger it gets worse and worse... right now i ca",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i sort of kinda like the game but i prefer the more old school version the way it used to be like th",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "if the guild event timing can be adjust will perfect. all 3 events is set within 8pm-8.30pm, i sugge",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 13 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 89%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:52:28.666Z"
+}

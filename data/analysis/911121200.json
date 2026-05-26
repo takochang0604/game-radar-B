@@ -1,24 +1,24 @@
 {
   "appId": "911121200",
-  "name": "Good Pizza, Great Pizza",
+  "name": "可口的披薩，美味的披薩！",
   "platform": "ios",
-  "market": "ph",
+  "market": "tw",
   "detail": {
-    "description": "Ever wanted to know what it feels like to run your own Pizza shop? Now you can with TapBlaze’s newest game, Good Pizza, Great Pizza! Do your best to fulfill pizza orders from customers while making enough money to keep your shop open. Upgrade your shop with new toppings and equipment to compete against your pizza rival, Alicante!\n\nGAME HIGHLIGHTS\n\n* Featuring Pizza News Network (PNN), the first newscast about all things pizza.\n* Over 80 customers with unique pizza orders and personalities.\n* Piz",
-    "released": "2014-12-02T12:10:01Z",
-    "updated": "2026-05-09T18:09:37Z",
-    "version": "5.50.2",
-    "score": 4.7,
-    "reviews": 18110,
+    "description": "是否想體驗開一家屬於自己的披薩店的感覺 ？ TapBlaze的最新遊戲 - \"可口的披薩，美味的披薩\" ，滿足你的一切想像！盡你所能滿足顧客的披薩訂單。賺足夠多的錢, 讓你的披薩店生意蒸蒸日上。升級店舖的原材料和設備, 以打敗你的競爭對手-大鬍子披薩!\n\n遊戲亮點\n* 披薩新聞網絡(PNN)，為你帶來關於披薩的實時報導。\n* 超過80位性格各異的顧客，開動腦筋讓他們滿意。\n* 豐富的披薩配料可選，包括意大利辣腸，香腸, 洋蔥等等。\n* 升級烹飪設備幫助你一步一步成為烘烤大師。\n* 遊戲操作簡單易上手，有趣又有挑戰性。\n* 由披薩專家精心創作，遊戲設計師有四年多的披薩製作經驗！\n\n你能成為披薩大師嗎？這得讓顧客說了算！立即下載並開始製作你自己的披薩！\n\n“可口的披薩，美味的披薩”是一款免費下載遊戲，不過你可以用真實貨幣支付應用內購買項目。",
+    "released": "2015-03-06T18:33:45Z",
+    "updated": "2026-05-24T06:10:17Z",
+    "version": "5.51.0",
+    "score": 4.8,
+    "reviews": 12312,
     "developer": "TAPBLAZE",
-    "developerUrl": "https://apps.apple.com/ph/developer/tapblaze/id1055223695?uo=4",
+    "developerUrl": "https://apps.apple.com/tw/developer/tapblaze/id1055223695?uo=4",
     "genres": [
-      "Games",
-      "Casual",
-      "Simulation",
-      "Food & Drink"
+      "遊戲",
+      "休閒",
+      "美食佳飲",
+      "模擬"
     ],
-    "releaseNotes": "Fixed minor bugs."
+    "releaseNotes": "版本說明：奇境廚房上新（5/25-6/14）\n\n新內容：\n• 限時奇境廚房裝飾（5/25-6/14）\n- 在兒童節活動開始前1週上線！\n\n其他：\n• 修復閃退問題、翻譯修正及最佳化\n\n請在遊戲內點擊「聯絡我們」了解更多詳情！"
   },
   "reviewAnalysis": {
     "total": 0,
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 2 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-15T11:40:46.097Z"
+  "analyzedAt": "2026-05-26T12:52:16.255Z"
 }

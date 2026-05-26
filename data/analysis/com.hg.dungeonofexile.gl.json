@@ -1,0 +1,48 @@
+{
+  "appId": "com.hg.dungeonofexile.gl",
+  "name": "DoE: Dungeon of Exile—Season 2",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "The Diablo-like dark fantasy ARPG welcomes its brand-new Season 2, \"Age of Bones\"! The new class, the \"Necromancer\", descends to reshape the order of the battlefield!\n〓GAME HIGHLIGHTS〓\n[New Class—The Necromancer Has Arrived!]\nThe new class, the Necromancer, makes its official debut! The master of death arrives to reshape the order of the battlefield! Define your unique combat style—whether as a Necromancer, Barbarian, Ranger, or Elemental Mage, freely combine various affixes!\n\n[Abyssal Primal An",
+    "released": "Aug 27, 2025",
+    "updated": 1776681730000,
+    "version": "1.0.15",
+    "installs": "100,000+",
+    "score": 4.7,
+    "ratings": 17148,
+    "reviews": 523,
+    "developer": "HUNT Games Company Limited",
+    "genre": "Action"
+  },
+  "reviewAnalysis": {
+    "total": 104,
+    "starCounts": {
+      "1": 28,
+      "2": 14,
+      "3": 12,
+      "4": 6,
+      "5": 44
+    },
+    "positiveRatio": 48,
+    "negativeRatio": 40,
+    "eventMentions": [
+      {
+        "text": "i’ve been enjoying the game so far, but i believe it has the potential to become even better with fu",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:53:53.371Z"
+}

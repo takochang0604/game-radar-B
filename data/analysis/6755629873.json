@@ -9,7 +9,7 @@
     "updated": "2026-05-21T16:17:50Z",
     "version": "14.0.0",
     "score": 4.6,
-    "reviews": 161,
+    "reviews": 211,
     "developer": "XTEN Limited",
     "developerUrl": "https://apps.apple.com/th/developer/xten-limited/id1253002320?uo=4",
     "genres": [
@@ -37,15 +37,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 4 天，評分 4.6",
+      "detail": "上架 5 天，評分 4.6",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-25T10:50:51.753Z"
+  "analyzedAt": "2026-05-26T12:53:08.024Z"
 }

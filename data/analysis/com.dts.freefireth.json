@@ -1,0 +1,60 @@
+{
+  "appId": "com.dts.freefireth",
+  "name": "Free Fire: Undersea Mystery",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "The Undersea Mystery has arrived!\nMysterious ocean energy has surged, and a new undersea adventure begins.\n\n[Undersea Realm]\nBoard a whale‑themed aircraft into the map! Enter the Undersea Realm in Bermuda through whirlpool entrances and fight underwater. The High-tier Loot Zone becomes the Hydro Zone, and giant whales fly across the sky to drop Bubble Airdrops.\n\n[Hydro Blaster & Fishing Ponds]\nTry the new event weapon, the Hydro Blaster, for a fresh combat feel. Fishing ponds containing loot hav",
+    "released": "Nov 17, 2017",
+    "updated": 1775026408000,
+    "version": "1.123.1",
+    "installs": "1,000,000,000+",
+    "score": 4,
+    "ratings": 128012513,
+    "reviews": 93226,
+    "developer": "GARENA INTERNATIONAL I",
+    "genre": "Action",
+    "recentChanges": "[Undersea Realm] Dive into the seabed in Bermuda and fight underwater! Try out the event weapon Hydro Blaster.<br>[New Character - Ray] Link to a target and knock them down when they&#39;re low on HP. A takedown resets the skill.  <br>[CS Random Events] Bigger starting funds, free Gloo Walls, and other random events shake up CS!<br>[Pyro] Keep your fiery new companion active to level them up and unlock outfits.<br>New Play Games Service Achievements will be available after updating to Version 1.123."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 16,
+      "2": 2,
+      "3": 4,
+      "4": 9,
+      "5": 169
+    },
+    "positiveRatio": 89,
+    "negativeRatio": 9,
+    "eventMentions": [
+      {
+        "text": "awful game experience then before, rigid game motion and \"l\" game updates",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "high graphics up coming update free fir team",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 89%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:52:38.533Z"
+}

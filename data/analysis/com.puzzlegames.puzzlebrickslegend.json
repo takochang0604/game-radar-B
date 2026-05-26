@@ -6,12 +6,12 @@
   "detail": {
     "description": "A fresh twist on the classic block puzzle game you already love. Relax, train your brain, and enjoy hours of addictive gameplay anytime, anywhere. Whether you have 2 minutes or 2 hours, Color Block: Combo Blast is the perfect companion.\n\nHow to Play?\n\nDrag & Drop the blocks into the board.\nMatch full lines vertically or horizontally to clear them.\nKeep the board clean to score higher.\nBlocks cannot be rotated – so think carefully!\nPlay without time limits at your own pace.\n\nWhy Choose Color Bloc",
     "released": "Apr 17, 2019",
-    "updated": 1779446776000,
-    "version": "5.3.7",
+    "updated": 1779790911000,
+    "version": "5.3.8",
     "installs": "10,000,000+",
     "score": 4.6,
-    "ratings": 30673,
-    "reviews": 260,
+    "ratings": 31014,
+    "reviews": 270,
     "developer": "Ivy",
     "developerWebsite": "http://www.ivymobilegame.com/",
     "genre": "Puzzle"
@@ -19,14 +19,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 32,
-      "2": 7,
-      "3": 4,
-      "4": 8,
-      "5": 149
+      "1": 30,
+      "2": 8,
+      "3": 5,
+      "4": 6,
+      "5": 151
     },
     "positiveRatio": 79,
-    "negativeRatio": 20,
+    "negativeRatio": 19,
     "eventMentions": [
       {
         "text": "i am a seventy year old senior citizen and i find this game very soothing and comforting thank you s",
@@ -58,7 +58,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 0 天前",
       "confidence": "high"
     },
     {
@@ -68,5 +68,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:48:21.345Z"
+  "analyzedAt": "2026-05-26T12:49:35.097Z"
 }

@@ -1,0 +1,74 @@
+{
+  "appId": "com.bandainamcoent.gundambattle.tw",
+  "name": "鋼彈 爭鋒對決",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "The Mobile Suit Gundam series: 40 years of history culminates in an ultimate collision!\n\nGames like *Mobile Suit Gundam*, *New Mobile Report Gundam Wing*, *Mobile Suit Gundam SEED*, *Mobile Suit Gundam 00*, and *Mobile Suit Gundam UC* offer a glimpse into the vibrant world of Gundam!\n\n■■■■■ Game Features ■■■■■\n\n● Real-time Intense Battles at Different Levels ● No more ordinary battles! Experience three-dimensional real-time combat in the vast universe.\n\nBeam sabers, beam rifles, and all-area att",
+    "released": "Jun 15, 2021",
+    "updated": 1776917507000,
+    "version": "5.3.0",
+    "installs": "500,000+",
+    "score": 3.2,
+    "ratings": 11026,
+    "reviews": 2644,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerWebsite": "https://www.bandainamcoent.co.jp/english/",
+    "genre": "Action",
+    "recentChanges": "▶5.3版本新增內容：<br><br>*機體/駕駛員<br>5.3版本更新後遊戲內新登場的新機體，在首次啟用機體時將會直接獲得專屬駕駛員*1。<br>5.3版本更新後，所有機體將只可搭乘其專屬駕駛員。<br><br>*競技場<br>組隊競技場開啟【輕匹配】測試。<br><br>*神秘商店<br>新增部分機體的駕駛員的額外立繪式樣和EX特寫，可在神秘商店中進行購買。<br><br>*格納庫<br>主畫面的的駕駛員功能合併至格納庫中。<br><br>*登入畫面<br>進入遊戲時將隨機播放駕駛員語音。"
+  },
+  "reviewAnalysis": {
+    "total": 125,
+    "starCounts": {
+      "1": 71,
+      "2": 11,
+      "3": 7,
+      "4": 11,
+      "5": 25
+    },
+    "positiveRatio": 29,
+    "negativeRatio": 66,
+    "eventMentions": [
+      {
+        "text": "112/9/26更新後完全登入不了，一直卡在主畫面... 問題真的太多！！ 比如說很多按鍵按下去當下應該要反應的結果卻都沒有動作！ 完全無法像是在ps3 ps4上的模式來操作！ 越來越難用！課金一推也",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "i played this game since this game server began. it was good game but very poor experience from this",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "please change how people log in to their accounts. it's so annoying to not be able to login with goo",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "overly sensitive to the connection. makes game play atrocious - especially when on the move. sometim",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "after update the game cannot log in at all",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:53:43.781Z"
+}

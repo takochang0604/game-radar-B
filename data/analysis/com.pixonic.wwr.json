@@ -1,0 +1,79 @@
+{
+  "appId": "com.pixonic.wwr",
+  "name": "War Robots Multiplayer Battles",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Great to see you, Commander!\nWar Robots is a shooter game about giant robots that fits into your pocket. Join epic PvP battles against rivals from all over the world and show them who’s the smartest, fastest, toughest pilot around! Prepare for surprise attacks, intricate tactical maneuvers and other tricks up enemies’ sleeves. Destroy! Capture! Upgrade! Become stronger — and prove yourself as the best mech commander in the War Robots online universe!\nMAIN FEATURES\n🤖 Choose your fighter. Over 50",
+    "released": "Aug 31, 2015",
+    "updated": 1779122054000,
+    "version": "12.1.0",
+    "installs": "100,000,000+",
+    "score": 4.2,
+    "ratings": 5167249,
+    "reviews": 16399,
+    "developer": "MYGAMES MENA FZ LLC",
+    "developerWebsite": "http://warrobots.com",
+    "genre": "Action",
+    "recentChanges": "SHADOW OVER SHORE: A new event in a place shrouded in mystery.<br>SHOGGOTH: There’s something fishy about EvoLife this time.<br>ULTIMATE RHINO: Running through the fog with an indestructible shield up front.<br>R&#39;LYEH: Don&#39;t lose your sanity in the damage zone!<br>UNSTABLE CONDUIT: Power to the shields!<br>FIXES: Patched bugs and improved optimization."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 64,
+      "2": 6,
+      "3": 8,
+      "4": 15,
+      "5": 107
+    },
+    "positiveRatio": 61,
+    "negativeRatio": 35,
+    "eventMentions": [
+      {
+        "text": "i don't know back then war robots used to be fun cuz everything was balanced gatling gun, electro,..",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this game is the laughing stock of the war games. it's basically open source. mexican, brazilian and",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "war robots is a game for hackers. the developers will never prevent cheating. they thrive off of it.",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "when i started playing the game it is fair and game matching was good. but nowadays the game match u",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i've played this game for about a decade now, and still love it!the action, and the god like kill so",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:53:48.738Z"
+}

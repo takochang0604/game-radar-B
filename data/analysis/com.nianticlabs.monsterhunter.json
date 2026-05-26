@@ -1,0 +1,80 @@
+{
+  "appId": "com.nianticlabs.monsterhunter",
+  "name": "Monster Hunter Now",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "The thrill of the hunt is calling. Begin your hunting adventure now! \n\n🌎 Hunt monsters in the real world:\nEmbark on a global quest to track down and hunt some of the most formidable monsters from the Monster Hunter universe as they appear in our world. Forge powerful weapons and team up with fellow hunters to track down larger-than-life monsters and take them head-on.\n\n⚔️ Authentic hunting action carefully adapted to mobile:\nDiscover a variety of monsters depending on the habitat around you – F",
+    "released": "Sep 12, 2023",
+    "updated": 1779415440000,
+    "version": "121.0",
+    "installs": "5,000,000+",
+    "score": 4.5,
+    "ratings": 304046,
+    "reviews": 4170,
+    "developer": "Niantic, Inc.",
+    "genre": "Action",
+    "recentChanges": "Thank you for playing Monster Hunter Now.<br><br>Key Updates:<br>・A monster source filter has been added for weapons/armor.<br>・A filter has been added to the Item Box screen and the material disposal screen.<br>・You can now see the region of each participating hunter in a Paintball List Friend Link.<br><br>*For more detailed update information, please visit the Community Forum.  <br>https://community.monsterhunternow.com"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 46,
+      "2": 18,
+      "3": 28,
+      "4": 23,
+      "5": 85
+    },
+    "positiveRatio": 54,
+    "negativeRatio": 32,
+    "eventMentions": [
+      {
+        "text": "this game is not good for you in the low density population area, up till now i can only miss on the",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "hello developer. can i please pick and choose what notification i wanna get? currently i get at leas",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "1 main mechanic is not accessible at all. the base defense keeps getting events and updates for it.b",
+        "keywords": [
+          "event",
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "2026 revised from 2024 pros: no ads free to play w/optional purchases. new quests every week. new qo",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "overall, it's a really good game. leaves me wanting more and more monsters in the game and keeps me ",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:52:31.088Z"
+}

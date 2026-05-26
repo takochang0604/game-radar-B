@@ -1,0 +1,75 @@
+{
+  "appId": "jp.co.mixi.monsterstrikeTW",
+  "name": "怪物彈珠 - RPG手機遊戲",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "There are 4 people who want to play regardless of anything! You can play standing up, sitting down or lying down!\nNo matter when and where, just slide your finger with magic power,\nA super simple popular Japanese mobile game where you can just defeat the enemy!\nWhat is the charm of Japan’s popular mobile game, which is played by more than 50 million people around the world?\nFace-to-face and SNS online multiplayer play creates more sparks!\nAll my friends have fallen into the trap! What are you wa",
+    "released": "May 13, 2014",
+    "updated": 1776152867000,
+    "version": "31.5.0",
+    "installs": "5,000,000+",
+    "score": 3.5,
+    "ratings": 190655,
+    "reviews": 31095,
+    "developer": "XFLAG, Inc.",
+    "developerWebsite": "https://monster-strike.com.tw/",
+    "genre": "Action",
+    "recentChanges": "▼Ver.31.5.0 更新内容<br>・「怪物展示櫃」登場！<br>・能夠更流暢的設置怪彈探險團My探險點的天線了！<br>・可透過使用順序篩選守護獸了！<br>・改善「怪彈探險團」力量效果的運氣顯示<br>・遊玩黎絕時，與連勝中編組不同時會另外確認了！<br>・追加STRIKE貼紙的任務！<br>・可以再度購買優惠禮包＆「怪物彈珠網路商店」中能累積點數！<br>・更新完成後能抽的轉蛋登場！<br>・「更新完成！塔斯的巢穴」冒險登場！<br>・追加「追憶書庫」中的冒險！<br>・追加可獲得「英雄之証」的角色！<br>・部分轉蛋中追加轉出對象角色<br>・變更部分守護技能的說明文<br>・其他輕微問題修正"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 75,
+      "2": 11,
+      "3": 15,
+      "4": 21,
+      "5": 78
+    },
+    "positiveRatio": 50,
+    "negativeRatio": 43,
+    "eventMentions": [
+      {
+        "text": "it is a fun game. after its recent update on august 6th in 2025, i was not able to update and play i",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "更新成ver.8.0真的超讚!{®}lol",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "更新完還是看不到廣告",
+        "keywords": [
+          "新",
+          "更新"
+        ]
+      },
+      {
+        "text": "the rate of getting 6 star eggs are awful. the recent 50 draws event i only can get 1 6 star and 3 5",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "太廢，完全唔適合新手，前期太難玩，開掛度過前期又容易被封",
+        "keywords": [
+          "新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-26T12:53:34.349Z"
+}
