@@ -823,7 +823,7 @@ function renderDarkhorses() {
       sourceMarkets.forEach(m => {
         const mf = getFlag(m.code) || m.flag || '';
         if (!existing._chartRanks.find(cr => cr.chartLabel === chartLabel && cr.platform === dh.platform && cr.marketFlag === mf)) {
-          existing._chartRanks.push({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: mf });
+          existing._chartRanks.push({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: mf, marketCode: m.code || '' });
         }
       });
       // 取較高信心分數
@@ -890,8 +890,8 @@ function renderDarkhorses() {
         triggers: taggedTriggers,
         _platforms: [dh.platform],
         _chartRanks: initialMarkets.length > 0
-          ? initialMarkets.map(m => ({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: getFlag(m.code) || m.flag || '' }))
-          : [{ chartLabel, platform: dh.platform, rank: dh.currentRank, marketFlag: getFlag(dh.market) || dh.marketFlag || '' }],
+          ? initialMarkets.map(m => ({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: getFlag(m.code) || m.flag || '', marketCode: m.code || '' }))
+          : [{ chartLabel, platform: dh.platform, rank: dh.currentRank, marketFlag: getFlag(dh.market) || dh.marketFlag || '', marketCode: dh.market || '' }],
         _rankHistoryByLine: (() => {
           const lines = {};
           // 優先用後端提供的 _rankHistoryByMarket（各市場獨立歷史）
@@ -966,7 +966,7 @@ function renderDarkhorses() {
         const chartLabel = entry.chartType === 'grossing' ? '營收' : '免費';
         const mf = getFlag(entry.code);
         if (!card._chartRanks.find(cr => cr.chartLabel === chartLabel && cr.platform === entry.platform && cr.marketFlag === mf)) {
-          card._chartRanks.push({ chartLabel, platform: entry.platform, rank: entry.rank, marketFlag: mf });
+          card._chartRanks.push({ chartLabel, platform: entry.platform, rank: entry.rank, marketFlag: mf, marketCode: entry.code || '' });
         }
       }
     }
@@ -1164,18 +1164,7 @@ function renderDarkhorses() {
     // 上架日期
     const rawReleased = state.analysis[dh.appId]?.detail?.released || '';
     const releasedDate = rawReleased ? (() => { try { const d = new Date(rawReleased); return isNaN(d) ? rawReleased : d.toISOString().split('T')[0]; } catch { return rawReleased; } })() : '';
-    // 多市場標籤（hover 顯示該國排名）
-    const cardId = `${dh.appId.replace(/[^a-zA-Z0-9]/g, '_')}-${dh.platform}`;
-    const marketTags = isMultiMarket
-      ? dh.markets.map((m, i) => {
-          return `<span class="dh-tag market${i === 0 ? ' active' : ''}" title="${m.name || m.code}：#${m.rank || '?'}">${getFlag(m.code) || m.flag || ''}</span>`;
-        }).join('')
-      : `<span class="dh-tag market active">${getFlag(dh.market) || dh.marketFlag || ''} ${dh.marketName || ''}</span>`;
-    // 平台顯示（合併後可能多平台）
-    const platforms = dh._platforms || [dh.platform];
-    const platformLabel = platforms.length >= 2
-      ? `${ICON_IOS} ${ICON_ANDROID}`
-      : `${platforms[0] === 'android' ? ICON_ANDROID : ICON_IOS}`;
+    // === 排名計算（必須在國旗 HTML 之前） ===
     // 排名顯示（合併後可能多排行）
     let chartRanks = dh._chartRanks || [{ chartLabel: dh.chartType === 'grossing' ? '營收' : '免費', platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }];
     
@@ -1196,6 +1185,32 @@ function renderDarkhorses() {
     const hasMultiMarkets = dh.markets && dh.markets.length > 1;
     const displayRanks = chartRanks.slice(0, 2);
     const hiddenRanks = chartRanks.slice(2);
+
+    // 對齊：右上角排名第一名的國家 → 國旗第一個 + 迷你圖資料來源
+    const topMarketCode = displayRanks[0]?.marketCode || '';
+    if (topMarketCode && dh.markets && dh.markets.length > 1) {
+      dh._primaryDisplayMarket = topMarketCode;
+      dh.markets.sort((a, b) => {
+        if (a.code === topMarketCode) return -1;
+        if (b.code === topMarketCode) return 1;
+        return (a.rank ?? 9999) - (b.rank ?? 9999);
+      });
+    }
+    // 存一份排好的國旗順序供 Modal 使用
+    dh._sortedMarketOrder = (dh.markets || []).map(m => m.code);
+
+    // 多市場標籤（hover 顯示該國排名）
+    const cardId = `${dh.appId.replace(/[^a-zA-Z0-9]/g, '_')}-${dh.platform}`;
+    const marketTags = isMultiMarket
+      ? dh.markets.map((m, i) => {
+          return `<span class="dh-tag market${i === 0 ? ' active' : ''}" title="${m.name || m.code}：#${m.rank || '?'}">${getFlag(m.code) || m.flag || ''}</span>`;
+        }).join('')
+      : `<span class="dh-tag market active">${getFlag(dh.market) || dh.marketFlag || ''} ${dh.marketName || ''}</span>`;
+    // 平台顯示（合併後可能多平台）
+    const platforms = dh._platforms || [dh.platform];
+    const platformLabel = platforms.length >= 2
+      ? `${ICON_IOS} ${ICON_ANDROID}`
+      : `${platforms[0] === 'android' ? ICON_ANDROID : ICON_IOS}`;
 
     let rankHtml = displayRanks.map(cr => {
       const pIcon = cr.platform === 'android' ? ICON_ANDROID : ICON_IOS;
@@ -1244,28 +1259,33 @@ function renderDarkhorses() {
           const canvas = entry.target;
           const dh = canvasMap.get(canvas);
           if (dh) {
-            let miniHistory = dh._trendHistory || dh.rankHistory || [];
-            // 從 _rankHistoryByLine 查：優先用排名最好的市場（markets 已按排名排序）
+            // 迷你圖：優先用右上角排名第一名的國家資料（與國旗順序一致）
+            let miniHistory = [];
+            const primaryMkt = dh._primaryDisplayMarket;
+            if (primaryMkt && dh._rankHistoryByLine) {
+              // 在該國的所有線中取資料最長的
+              let bestLine = null;
+              for (const line of Object.values(dh._rankHistoryByLine)) {
+                if (line.market === primaryMkt && line.data && line.data.length > 0) {
+                  if (!bestLine || line.data.length > bestLine.data.length) bestLine = line;
+                }
+              }
+              if (bestLine) miniHistory = bestLine.data;
+            }
+            // fallback 1：用 _trendHistory 或 rankHistory（注意空陣列是 truthy）
+            if (miniHistory.length === 0) {
+              miniHistory = (dh._trendHistory && dh._trendHistory.length > 0) ? dh._trendHistory : [];
+            }
+            if (miniHistory.length === 0) {
+              miniHistory = dh.rankHistory || [];
+            }
+            // fallback 2：_rankHistoryByLine 取任意最長線
             if (miniHistory.length === 0 && dh._rankHistoryByLine) {
-              // 依序嘗試 markets 中的市場，取第一個有歷史的
-              const marketCodes = (dh.markets || []).map(m => m.code).filter(Boolean);
-              if (dh.market && !marketCodes.includes(dh.market)) marketCodes.push(dh.market);
-              for (const mCode of marketCodes) {
-                for (const line of Object.values(dh._rankHistoryByLine)) {
-                  if (line.market === mCode && line.data && line.data.length > miniHistory.length) {
-                    miniHistory = line.data;
-                  }
-                }
-                if (miniHistory.length > 0) break;
+              let bestLine = null;
+              for (const line of Object.values(dh._rankHistoryByLine)) {
+                if (line.data && line.data.length > 0 && (!bestLine || line.data.length > bestLine.data.length)) bestLine = line;
               }
-              // fallback：取資料最長的線
-              if (miniHistory.length === 0) {
-                let bestLine = null;
-                for (const line of Object.values(dh._rankHistoryByLine)) {
-                  if (line.data && (!bestLine || line.data.length > bestLine.data.length)) bestLine = line;
-                }
-                if (bestLine && bestLine.data) miniHistory = bestLine.data;
-              }
+              if (bestLine) miniHistory = bestLine.data;
             }
             if (miniHistory.length < 3) {
               canvas.style.display = 'none';
@@ -1627,6 +1647,14 @@ function showAnalysis(appId, platform) {
 
   const allAppIds = Array.from(new Set(allDh.map(d => d.appId).concat([appId])));
   let dh = allDh.find(d => d.appId === appId && d.platform === platform) || allDh.find(d => allAppIds.includes(d.appId)) || allDh[0];
+  // 優先使用合併後的 dh（state.mergedDarkhorses），因為它才有完整的 _chartRanks 資料
+  // 原始 state.darkhorses 的 dh 沒有經過合併與快照補充，排序資訊不完整
+  if (state.mergedDarkhorses) {
+    const mergedDh = state.mergedDarkhorses.find(d => d.appId === appId) || state.mergedDarkhorses.find(d => allAppIds.includes(d.appId));
+    if (mergedDh && mergedDh._chartRanks && mergedDh._chartRanks.length > 0) {
+      dh = mergedDh;
+    }
+  }
   
   let analysis = null;
   for (const aid of allAppIds) {
@@ -1721,8 +1749,32 @@ function showAnalysis(appId, platform) {
       name: marketObj.name
     });
   }
-  // 按排名排序（排名最好的在前面）
-  modalMarkets.sort((a, b) => (a.rank ?? 9999) - (b.rank ?? 9999));
+  // 按卡片外層相同的加權排序邏輯排列（直接重算，不依賴 _sortedMarketOrder）
+  // 與卡片渲染 L1172-1198 完全相同的邏輯
+  const MODAL_RANK_MARKET_WEIGHTS = {
+    '🇯🇵': 1.6, '🇺🇸': 1.5, '🇰🇷': 1.4, '🇨🇳': 1.3,
+    '🇹🇼': 1.0, '🇹🇭': 1.0, '🇻🇳': 1.0, '🇵🇭': 0.9,
+  };
+  // 從 _chartRanks 計算每個國家的最佳加權分數
+  const chartRanks = dh._chartRanks || [];
+  const marketBestScore = {}; // code -> best weighted score
+  chartRanks.forEach(cr => {
+    const code = cr.marketCode || '';
+    if (!code) return;
+    const weighted = cr.rank * (cr.chartLabel === '營收' ? 0.5 : 1);
+    if (marketBestScore[code] === undefined || weighted < marketBestScore[code]) {
+      marketBestScore[code] = weighted;
+    }
+  });
+  modalMarkets.sort((a, b) => {
+    const sa = marketBestScore[a.code] ?? 9999;
+    const sb = marketBestScore[b.code] ?? 9999;
+    if (sa !== sb) return sa - sb;
+    // 同分時按市場權重排
+    const flagA = getFlag(a.code) || '';
+    const flagB = getFlag(b.code) || '';
+    return (MODAL_RANK_MARKET_WEIGHTS[flagB] || 0.5) - (MODAL_RANK_MARKET_WEIGHTS[flagA] || 0.5);
+  });
 
   // 決定初始市場：取排名最好的市場（與外層卡片排序一致）
   let initialMarketCode = modalMarkets.length > 0 ? modalMarkets[0].code : (dh.market || dh.marketCode || state.rankMarket);
@@ -2167,7 +2219,29 @@ function showAnalysis(appId, platform) {
             }
           }
 
-          const newModalMarkets = Array.from(refreshedMarkets.values()).sort((a, b) => (a.rank ?? 9999) - (b.rank ?? 9999));
+          const newModalMarkets = Array.from(refreshedMarkets.values());
+          const refreshChartRanks = dh._chartRanks || [];
+          const refreshBestScore = {};
+          refreshChartRanks.forEach(cr => {
+            const code = cr.marketCode || '';
+            if (!code) return;
+            const weighted = cr.rank * (cr.chartLabel === '營收' ? 0.5 : 1);
+            if (refreshBestScore[code] === undefined || weighted < refreshBestScore[code]) {
+              refreshBestScore[code] = weighted;
+            }
+          });
+          const REFRESH_MARKET_WEIGHTS = {
+            '🇯🇵': 1.6, '🇺🇸': 1.5, '🇰🇷': 1.4, '🇨🇳': 1.3,
+            '🇹🇼': 1.0, '🇹🇭': 1.0, '🇻🇳': 1.0, '🇵🇭': 0.9,
+          };
+          newModalMarkets.sort((a, b) => {
+            const sa = refreshBestScore[a.code] ?? 9999;
+            const sb = refreshBestScore[b.code] ?? 9999;
+            if (sa !== sb) return sa - sb;
+            const flagA = getFlag(a.code) || '';
+            const flagB = getFlag(b.code) || '';
+            return (REFRESH_MARKET_WEIGHTS[flagB] || 0.5) - (REFRESH_MARKET_WEIGHTS[flagA] || 0.5);
+          });
 
           // 更新市場標籤按鈕
           const selectorEl = document.getElementById('modalMarketSelector');
