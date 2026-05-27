@@ -1,0 +1,44 @@
+{
+  "appId": "1436151665",
+  "name": "H.I.D.E. - Hide or Seek Online",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "在我們的線上遊戲中潛入捉迷藏和生存的世界！一款令人興奮的多人第一人稱射擊遊戲，具有引人入勝的角色扮演機制。用獨特的地圖探索充滿活力的像素世界！\n\n在 HIDE 中，每個人都選擇自己的角色。你需要當道具來躲避獵人。您也可以在扮演獵人時尋找道具。\n\n成為狡猾的道具，巧妙地躲避獵人。在地圖周圍散佈物體以製造令人困惑的陷阱。變身為獵人並尋找你的敵人。升級你的能力，變得更敏捷、更難以捉摸。在線上捉迷藏中生存並征服！\n\n在多人線上模式中與來自世界各地的朋友和玩家對戰。培養你的技能，成為真正的隱藏大師。參加線上比賽並取得勝利。\n\n=> 立即下載。 HIDE 將成為您最喜歡的像素生存射擊遊戲！\n\n在這個奇妙的世界裡有什麼在等著你？\n\n- 在「道具與獵人」模式下進行遊戲。使用道具來隱藏並智取敵人！\n- 升級你的角色，在這款多人線上生存遊戲中獲勝。大量的皮膚和武器。獨特的成就係統。\n- 一款引人入勝的像素射擊遊戲。每一個舉動都可能是決定性的。只有最勇敢、最聰明的人才能取得勝利。\n- 這款獨特的道具狩獵類型 3D 遊戲結合了《Among Us》、《Squid Game》、《Hide Online》和《Gar",
+    "released": "2018-09-16T20:59:48Z",
+    "updated": "2026-03-10T22:37:04Z",
+    "version": "9.6",
+    "score": 4.3,
+    "reviews": 899,
+    "developer": "Aleksandr Minakov",
+    "developerUrl": "https://apps.apple.com/tw/developer/aleksandr-minakov/id1375487393?uo=4",
+    "genres": [
+      "遊戲",
+      "休閒",
+      "動作"
+    ],
+    "releaseNotes": "许多漏洞已被修复，甚至还新增了一些漏洞（找出是哪些漏洞）。"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:09:11.969Z"
+}

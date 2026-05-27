@@ -36,15 +36,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 8 天，評分 4.1",
+      "detail": "上架 9 天，評分 4.1",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
+      "detail": "最近更新: 9 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:51:41.908Z"
+  "analyzedAt": "2026-05-27T12:11:00.958Z"
 }

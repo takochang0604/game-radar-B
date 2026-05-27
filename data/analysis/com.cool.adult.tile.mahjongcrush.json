@@ -9,23 +9,23 @@
     "updated": 1779096382000,
     "version": "1.9",
     "installs": "1,000,000+",
-    "score": 4.8,
-    "ratings": 12272,
-    "reviews": 20,
+    "score": 4.7,
+    "ratings": 12580,
+    "reviews": 21,
     "developer": "Dynamic Aviation Group, Inc.",
     "developerWebsite": "https://dagfungame.store/",
     "genre": "Casual"
   },
   "reviewAnalysis": {
-    "total": 146,
+    "total": 147,
     "starCounts": {
-      "1": 47,
+      "1": 48,
       "2": 14,
       "3": 8,
       "4": 19,
       "5": 58
     },
-    "positiveRatio": 53,
+    "positiveRatio": 52,
     "negativeRatio": 42,
     "eventMentions": [
       {
@@ -64,7 +64,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
+      "detail": "最近更新: 9 天前",
       "confidence": "medium"
     },
     {
@@ -74,5 +74,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:54:15.738Z"
+  "analyzedAt": "2026-05-27T12:12:53.878Z"
 }

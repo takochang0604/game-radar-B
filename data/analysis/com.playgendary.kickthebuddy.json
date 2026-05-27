@@ -10,8 +10,8 @@
     "version": "2.16.2",
     "installs": "500,000,000+",
     "score": 4.1,
-    "ratings": 3564462,
-    "reviews": 195379,
+    "ratings": 3564686,
+    "reviews": 195387,
     "developer": "Playgendary Limited",
     "developerWebsite": "https://newplg.dev/",
     "genre": "Action",
@@ -20,15 +20,21 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 50,
-      "2": 7,
+      "1": 54,
+      "2": 8,
       "3": 9,
       "4": 13,
-      "5": 121
+      "5": 116
     },
-    "positiveRatio": 67,
-    "negativeRatio": 28,
+    "positiveRatio": 65,
+    "negativeRatio": 31,
     "eventMentions": [
+      {
+        "text": "too many ads. you can remove forced ads for 13 dollars. the new ui is bad, and you cant switch betwe",
+        "keywords": [
+          "new"
+        ]
+      },
       {
         "text": "i don't like the new version of the game but i like the old version of the game so can you change th",
         "keywords": [
@@ -53,15 +59,15 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
     },
     {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
-      "detail": "評論中 3 次提及活動/事件",
+      "detail": "評論中 4 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:49:25.274Z"
+  "analyzedAt": "2026-05-27T12:07:46.758Z"
 }

@@ -6,16 +6,16 @@
   "detail": {
     "description": "Do you like defense games?\n\nThe hit webtoon “66,666 Years: Advent of the Dark Mage”\nhas arrived as a mobile roguelike defense RPG!\n\nExperience the world and characters from the original webtoon,\ncombine powerful magic and heroes, and defend the battlefield against endless enemies!\n\nJoin the Dark Mage who awakens after 66,666 years\nand dive into the ultimate strategy defense experience!\nFeel the thrill of combat and the excitement of endless growth!\n\n🎮 Game Features\n\n▶ Strategic Defense Action!\n",
     "released": "Feb 24, 2026",
-    "updated": 1779069559000,
-    "version": "1.0.19",
+    "updated": 1779792250000,
+    "version": "1.0.20",
     "installs": "50,000+",
-    "score": 4.5,
-    "ratings": 901,
-    "reviews": 118,
+    "score": 4.4,
+    "ratings": 919,
+    "reviews": 126,
     "developer": "Arumgames",
     "developerWebsite": "http://www.arumgames.com",
     "genre": "Casual",
-    "recentChanges": "- Fixed UI freeze after clearing Stage 200"
+    "recentChanges": "[New Update]<br>- Max Level expanded to 100<br>- 300 new stages added (Basic Mission / Elite Mission / Infinite Mage Tower, 100 each)<br>- New Refining Stone Step-Up Package added<br><br>[Bug Fixes]<br>- Fixed several skill and option errors"
   },
   "reviewAnalysis": {
     "total": 50,
@@ -65,8 +65,8 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
-      "confidence": "medium"
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
     },
     {
       "type": "event_driven",
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:51:20.114Z"
+  "analyzedAt": "2026-05-27T12:10:22.391Z"
 }

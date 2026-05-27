@@ -10,8 +10,8 @@
     "version": "4.4.0",
     "installs": "1,000,000,000+",
     "score": 4.4,
-    "ratings": 48267940,
-    "reviews": 192465,
+    "ratings": 48277519,
+    "reviews": 192505,
     "developer": "Level Infinite",
     "developerWebsite": "https://www.pubgmobile.com/",
     "genre": "Action",
@@ -20,42 +20,41 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 59,
-      "2": 6,
+      "1": 74,
+      "2": 9,
       "3": 7,
-      "4": 9,
-      "5": 119
+      "4": 11,
+      "5": 99
     },
-    "positiveRatio": 64,
-    "negativeRatio": 33,
+    "positiveRatio": 55,
+    "negativeRatio": 42,
     "eventMentions": [
       {
-        "text": "back then, i used to run a smooth fps on my mid end device but when the huge update came, i started ",
+        "text": "literally after 4.4update there is to much lag on low end devices and ping high issues 🤡 can't you ",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "i am an indian this game is very nice and good it is good game i don't why it is banned i wish is to",
+        "text": "we want zombies update next and remove wow mode",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "so nice update",
+        "text": "my all time favorite thing to play with good friends and new diverse people who become friends.",
         "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "new update",
-        "keywords": [
-          "update",
           "new"
         ]
       },
       {
-        "text": "gamenya sih lumayan bagus saya player dari 2018 cuma tolong diperbaiki lagi untuk hp kentang yang pa",
+        "text": "please avoid performance heavy updates for low-end devices. the game is unplayable if the device is ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "a very bad update",
         "keywords": [
           "update"
         ]
@@ -70,5 +69,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:39:22.544Z"
+  "analyzedAt": "2026-05-27T12:11:39.418Z"
 }

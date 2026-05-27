@@ -2,16 +2,16 @@
   "appId": "com.pocket.sort.coin.puzzle.game",
   "name": "Pocket Sort: Coin Merge Puzzle",
   "platform": "android",
-  "market": "jp",
+  "market": "us",
   "detail": {
     "description": "SORT YOUR WAY TO HAPPINESS 😃\n\nMaster mergers, ready those fingers and get to matching in 3…2…1! This fun sorting puzzle features colorful coins that need to be matched up in their slots and then merged together to clear the playing field, making way for more. Bright colors, simple graphics, and lots of boosters ensure that your brain can focus on what it does best: noticing patterns and finding unique ways to shuffle everything around in order to win.\n\nMASTER THE MATCH 🧩\n\nSimple in theory yet ",
-    "released": "Dec 3, 2025",
+    "released": "Sep 5, 2025",
     "updated": 1778517287000,
     "version": "1.9.1",
     "installs": "5,000,000+",
-    "score": 4,
-    "ratings": 85309,
-    "reviews": 222,
+    "score": 4.5,
+    "ratings": 86086,
+    "reviews": 1369,
     "developer": "SayGames Ltd",
     "developerWebsite": "https://say.games/",
     "genre": "Puzzle",
@@ -20,15 +20,21 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 43,
-      "2": 25,
-      "3": 18,
-      "4": 21,
-      "5": 93
+      "1": 46,
+      "2": 21,
+      "3": 21,
+      "4": 23,
+      "5": 89
     },
-    "positiveRatio": 57,
+    "positiveRatio": 56,
     "negativeRatio": 34,
     "eventMentions": [
+      {
+        "text": "y'all need to chill with these updates. it was fine at first, then it got better, then you ruined it",
+        "keywords": [
+          "update"
+        ]
+      },
       {
         "text": "fun and a good way to waste time, but the game screws you eventually and forces tou to watch ads or ",
         "keywords": [
@@ -52,22 +58,10 @@
         "keywords": [
           "event"
         ]
-      },
-      {
-        "text": "the recent update ruined this game. i was playing a lot...but they changed how you can progress. sad",
-        "keywords": [
-          "update"
-        ]
       }
     ]
   },
   "inferredReasons": [
-    {
-      "type": "major_update",
-      "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 14 天前",
-      "confidence": "medium"
-    },
     {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
@@ -75,5 +69,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:52:45.918Z"
+  "analyzedAt": "2026-05-27T12:10:07.736Z"
 }

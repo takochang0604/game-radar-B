@@ -9,7 +9,7 @@
     "updated": "2026-05-20T07:00:00Z",
     "version": "1.0",
     "score": 4.8,
-    "reviews": 465,
+    "reviews": 509,
     "developer": "WEPLAY PUBLISHING",
     "developerUrl": "https://apps.apple.com/vn/developer/weplay-publishing/id1888099965?uo=4",
     "genres": [
@@ -35,15 +35,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 6 天，評分 4.8",
+      "detail": "上架 7 天，評分 4.8",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 6 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-26T12:54:32.731Z"
+  "analyzedAt": "2026-05-27T12:13:10.903Z"
 }

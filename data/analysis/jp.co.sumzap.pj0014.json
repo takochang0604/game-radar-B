@@ -10,8 +10,8 @@
     "version": "3.6.0",
     "installs": "1,000,000+",
     "score": 4.6,
-    "ratings": 53930,
-    "reviews": 9683,
+    "ratings": 54001,
+    "reviews": 9690,
     "developer": "Sumzap, Inc.",
     "developerWebsite": "https://jujutsuphanpara.jp/",
     "genre": "Role Playing",
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 11 天前",
+      "detail": "最近更新: 12 天前",
       "confidence": "medium"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:51:24.938Z"
+  "analyzedAt": "2026-05-27T12:10:29.742Z"
 }

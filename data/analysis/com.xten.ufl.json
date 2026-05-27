@@ -6,55 +6,57 @@
   "detail": {
     "description": "Experience the next generation of football gaming right on your mobile device! UFL is the soccer simulation that puts your talent to the ultimate test. It's time to build your legacy from the ground up and challenge players globally in a fair, engaging, and competitive environment.\n\nBuild your football club: start your journey, assemble your dream top eleven squad, and implement a strategy that rewards pure football games knowledge. UFL is designed for fresh, skill-rewarding gameplay where the p",
     "released": "May 21, 2026",
-    "updated": 1779450447000,
-    "version": "14.0.0",
+    "updated": 1779697533000,
+    "version": "14.1.0",
     "installs": "1,000,000+",
     "score": 4.4,
-    "ratings": 21049,
-    "reviews": 157,
+    "ratings": 22488,
+    "reviews": 178,
     "developer": "XTEN LIMITED",
     "developerWebsite": "https://portal.uflgame.com",
     "genre": "Sports",
-    "recentChanges": "Build your dream football league team. Real football simulator!"
+    "recentChanges": "Bug fixes"
   },
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 52,
-      "2": 19,
-      "3": 22,
-      "4": 35,
-      "5": 72
+      "1": 46,
+      "2": 17,
+      "3": 18,
+      "4": 29,
+      "5": 90
     },
-    "positiveRatio": 54,
-    "negativeRatio": 36,
+    "positiveRatio": 60,
+    "negativeRatio": 32,
     "eventMentions": [
       {
-        "text": "just focus on skills add new skills overall best",
+        "text": "the game keeps crashing every time i have not even finished the tutorial😂😂 i've installed it and u",
         "keywords": [
+          "update",
           "new"
         ]
       },
       {
-        "text": "good game it was a great update despite it want to upgrade some things such the tackle and defence",
+        "text": "i'm giving this game 2 rating because i discovered that have been playing competition with the same ",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "hello @ufl, i'm glad you guys are putting in much effort to make the gameplay good. i have a problem",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "ok, a fresh new experience for a football game. i've been playing from the beta, but some improvemen",
+        "text": "one of the baddest games ever, it doesn't have any new things, disgusting...",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "the game is actually good, but make more updates in commentary, more camera options. that's all. but",
+        "text": "best graphics...best animations..best menu and also nice start for a new game...keep up with updates",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "try to same e football game betar update",
         "keywords": [
           "update"
         ]
@@ -65,13 +67,13 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 5 天，評分 4.4",
+      "detail": "上架 6 天，評分 4.4",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 2 天前",
       "confidence": "high"
     },
     {
@@ -81,5 +83,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:52:40.936Z"
+  "analyzedAt": "2026-05-27T12:11:51.171Z"
 }

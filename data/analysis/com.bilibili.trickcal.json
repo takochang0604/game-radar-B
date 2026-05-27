@@ -10,7 +10,7 @@
     "version": "1.4.0",
     "installs": "1,000,000+",
     "score": 4.7,
-    "ratings": 45268,
+    "ratings": 45300,
     "reviews": 2315,
     "developer": "BILIBILI",
     "developerWebsite": "https://trickcal.biligames.com",
@@ -63,12 +63,6 @@
   },
   "inferredReasons": [
     {
-      "type": "major_update",
-      "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 14 天前",
-      "confidence": "medium"
-    },
-    {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
       "detail": "評論中 5 次提及活動/事件",
@@ -81,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:53:26.919Z"
+  "analyzedAt": "2026-05-27T12:12:38.968Z"
 }

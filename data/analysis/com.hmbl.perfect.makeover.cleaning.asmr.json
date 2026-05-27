@@ -1,0 +1,66 @@
+{
+  "appId": "com.hmbl.perfect.makeover.cleaning.asmr",
+  "name": "Perfect Makeover Cleaning ASMR",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Relax, clean, and transform messy objects with soothing ASMR satisfaction!\nStep into Perfect Makeover: Cleaning ASMR, the ultimate oddly satisfying game where your mission is simple — wash, wipe, and restore dirty objects to sparkling perfection. Enjoy calming ASMR sounds with every tap and swipe in this relaxing cleaning simulation.\n\nFrom rusty tools to dusty objects, every scrub brings instant joy. Watch grime fade away and objects shine again in one of the most satisfying cleaning games ever ",
+    "released": "Nov 13, 2025",
+    "updated": 1778711266000,
+    "version": "1.0.21",
+    "installs": "5,000,000+",
+    "score": 4.6,
+    "ratings": 18881,
+    "reviews": 156,
+    "developer": "HMBL Apps",
+    "developerWebsite": "https://hmblapps.com/",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 72,
+      "2": 21,
+      "3": 9,
+      "4": 17,
+      "5": 81
+    },
+    "positiveRatio": 49,
+    "negativeRatio": 47,
+    "eventMentions": [
+      {
+        "text": "just a constant series of 4 ai generated images (obvious on the keyboard level) that progressively g",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "adds pop up during game play & between levels. i am fine with between levels, that is the compromise",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "excellent game, just as advertised! the visuals are handmade and realistic. the gameplay is satisfyi",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 13 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:10:56.154Z"
+}

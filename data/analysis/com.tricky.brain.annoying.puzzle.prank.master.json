@@ -10,8 +10,8 @@
     "version": "0.1.9",
     "installs": "1,000,000+",
     "score": 4.4,
-    "ratings": 2776,
-    "reviews": 8,
+    "ratings": 2944,
+    "reviews": 9,
     "developer": "FemeAves",
     "developerWebsite": "https://trickybrainannoyingpuzzle.netlify.app/",
     "genre": "Puzzle"
@@ -19,14 +19,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 33,
-      "2": 9,
+      "1": 38,
+      "2": 11,
       "3": 20,
-      "4": 27,
-      "5": 111
+      "4": 29,
+      "5": 102
     },
-    "positiveRatio": 69,
-    "negativeRatio": 21,
+    "positiveRatio": 66,
+    "negativeRatio": 25,
     "eventMentions": [
       {
         "text": "eugh the levels are too easy and theres ads every time i complete a level and i try to cancel it and",
@@ -44,5 +44,5 @@
       "confidence": "low"
     }
   ],
-  "analyzedAt": "2026-05-25T10:51:33.035Z"
+  "analyzedAt": "2026-05-27T12:13:08.387Z"
 }

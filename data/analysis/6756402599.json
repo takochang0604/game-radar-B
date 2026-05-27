@@ -1,0 +1,50 @@
+{
+  "appId": "6756402599",
+  "name": "Thợ Săn Siêu Cấp",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Một thế giới hiểm nguy sau biến cố hàng loạt cổng thần bí mở ra ở khắp mọi nơi. Ma nhân, dị thú, khô lâu, quỷ tế tràn ngập ra tàn phá mọi đô thị, biến nhiều nền văn minh trở về con số không. May mắn thay, trong số những người sống sót cũng lần lượt có thể thức tỉnh dị năng, trở thành các thợ săn mạnh mẽ. Là một người sống sót sau thảm họa cánh cổng của quân vương Asmodeus mở ra giữa kinh đô ánh sáng, bạn đột nhiên nắm giữ hệ thống, từng bước đi trên con đường trở thành Thợ Săn Siêu Cấp huyền tho",
+    "released": "2026-05-13T07:00:00Z",
+    "updated": "2026-05-21T01:44:34Z",
+    "version": "1.0.8",
+    "score": 4.5,
+    "reviews": 28,
+    "developer": "VGP Company",
+    "developerUrl": "https://apps.apple.com/vn/developer/vgp-company/id1055271558?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Role-Playing"
+    ],
+    "releaseNotes": "Thợ Săn Siêu Cấp – Trỗi Dậy! Trở thành Thợ Săn Huyền Thoại\n\nCấy ghép gen, nâng cấp công nghệ, tham gia chiến đội săn kho báu và chinh chiến khắp thiên hà.\nSự kiện 24/7, cập nhật liên tục – trải nghiệm luôn mới mẻ!\n\nGame mới ra mắt 2026\n1. Đăng nhập nhận ngay 2000 KC Khóa\n2. Chơi 15 phút – nhận Cánh Tử Ma Dực\n3. Chơi 60 phút – nhận SSR Deus\n4. Mở Chợ KC Đen – Nhận ngay trang bị hiếm\n5. Săn Boss 24/7, farm trang bị thỏa thích"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 14 天，評分 4.5",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:10:58.651Z"
+}

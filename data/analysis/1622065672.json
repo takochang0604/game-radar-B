@@ -1,0 +1,45 @@
+{
+  "appId": "1622065672",
+  "name": "Party Fowl",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Party Fowl is a new type of party game that you play by moving your body in crazy, wacky, and hilarious ways. Whether you’re a spring chicken or a seasoned turkey, you’ll have around the cluck fun in a series of flat-out absurd but incredibly entertaining AR mini-games. Try to best your opponent in this ultimate showdown of utter ridiculousness. \n\nOnly the silliest shall prevail.\n__\n\n\nYOUR BODY IS THE CONTROLLER.\n\nGet the party started with just your phone, tablet or PC. Party Fowl uses your dev",
+    "released": "2022-05-29T07:00:00Z",
+    "updated": "2023-06-01T23:45:49Z",
+    "version": "1.7",
+    "score": 3.7,
+    "reviews": 33,
+    "developer": "Nex",
+    "developerUrl": "https://apps.apple.com/ph/developer/nex/id1258520422?uo=4",
+    "genres": [
+      "Games",
+      "Health & Fitness",
+      "Family",
+      "Casual"
+    ],
+    "releaseNotes": "Thank you for playing Party Fowl! We are regularly making updates to create even better motion game experiences.\n\nThis update includes bug fixes and other minor improvements."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:09:43.136Z"
+}

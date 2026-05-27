@@ -6,16 +6,16 @@
   "detail": {
     "description": "ONE PIECE's first full-fledged action game with a team of up to 4 people vs. 4 people\nPlay online as a team! Cooperative multiplayer! Defeat the enemy team and steal the treasure to win the battle!\n\nIf you're a pirate, scramble for it――\n\n- 1 berry in your hand will be the PIECE that decides victory\nONE PIECE's first team battle action with a maximum of 4 players vs. 4 players.\nTeam strategy is the key to victory, not just the power of one person.\nA berry capture battle game that progresses in pe",
     "released": "Mar 29, 2018",
-    "updated": 1776402802000,
-    "version": "91100",
+    "updated": 1779704629000,
+    "version": "92000",
     "installs": "1,000,000+",
     "score": 4.2,
-    "ratings": 117487,
-    "reviews": 45741,
+    "ratings": 117560,
+    "reviews": 45784,
     "developer": "Bandai Namco Entertainment Inc.",
     "developerWebsite": "https://www.bandainamcoent.co.jp/",
     "genre": "Action",
-    "recentChanges": "■Ver91100の更新内容<br>・一部UIの調整や改善を行いました。<br>・一部不具合の修正を行いました。"
+    "recentChanges": "■Ver92000の更新内容<br>・「ルームマッチ」のカスタムルールに「タイマンバトル」を追加しました。<br>・「カジュアルマッチ」で獲得するバトルスコアがキャラランキングに加算されるようになりました。<br>・リーグランク昇格時の報酬を調整しました。<br>・交換所の表示・操作を改善しました。<br>　※詳細はゲーム内のお知らせをご確認ください。<br>・「期間限定のログインボーナス」の受け取り方法を変更しました。<br>・一部の「ミッション」にて報酬を一括で受け取れるようになりました。<br>・アプリアイコンを変更しました。<br>・「シングルクエスト」を追加しました。<br>・一部UIの調整や改善を行いました。<br>・一部不具合の修正を行いました。"
   },
   "reviewAnalysis": {
     "total": 161,
@@ -64,11 +64,17 @@
   },
   "inferredReasons": [
     {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
       "detail": "評論中 5 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:40:06.155Z"
+  "analyzedAt": "2026-05-27T12:13:13.831Z"
 }

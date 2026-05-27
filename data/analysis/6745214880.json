@@ -1,0 +1,44 @@
+{
+  "appId": "6745214880",
+  "name": "Chiến Tuyến Hướng Dương",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Gần trăm loại Thực Vật lai tạo mới – Chiến lực bùng nổ, bảo vệ Gia Viên Thực Vật!\n\nĐồ Sơn Tô Tô x Bạch Nguyệt Sơ [Tình yêu chuyển thế] chính thức xuất hiện! Mau tham gia ngay!\nĐăng nhập lần đầu là tặng ngay Thực Vật Truyền Thuyết Vàng - Ngộ Không Đào, Sen Quan Âm, Thực Vật Sử thi Tím - Vải Dứa và Vua Hoa, cùng nhiều nguyên liệu nâng cấp cao cấp và rất nhiều vàng đang chờ bạn đến nhận!\nCòn có trang phục đặc sắc – Siêu Nhân Nón Lá và vũ khí đặc biệt – Ống Tre Tia Lửa tặng miễn phí!\n\nTrong một nông",
+    "released": "2025-10-22T07:00:00Z",
+    "updated": "2026-05-25T01:18:35Z",
+    "version": "1.0.17",
+    "score": 4.6,
+    "reviews": 37655,
+    "developer": "MGOL SOFTWARE CO.,LTD",
+    "developerUrl": "https://apps.apple.com/vn/developer/mgol-software-co-ltd/id1683478911?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Strategy"
+    ],
+    "releaseNotes": "Nội Dung Cập Nhật:\n1. Cải thiện điều kiện hoàn thành nhiệm vụ ngày và thưởng tiến độ\n2. Giảm thời gian hồi khi gỡ cây trong hệ thống Cộng Hưởng\n3. Hệ thống Kết Đôi sẽ thêm phần thưởng tích lũy 200 ngày\n4. Sau khi nhận thưởng quảng cáo ở Gói Ưu Đãi Ngày vẫn có thể đổi chủ đề\n5. Thêm nội dung collab kỳ 2 《Hồ Yêu Tiểu Hồng Nương》\n\nQuyết Đấu Đấu Trường:\n\n1. Thêm cơ chế bù thưởng chuỗi thua \n2. Lần đầu tiên thắng top mỗi ngày nhận gấp đôi Xu Đấu Trường\n3. Điều chỉnh độ mạnh của một số quái theo đợt\n4. Điều chỉnh độ mạnh của một số quái triệu hồi\n5. Điều chỉnh tỷ lệ thuộc tính của quái triệu hồi cường hóa\n6. Các tối ưu và điều chỉnh khác"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:11:53.655Z"
+}

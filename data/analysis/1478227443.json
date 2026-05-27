@@ -1,0 +1,44 @@
+{
+  "appId": "1478227443",
+  "name": "리니지2M",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "클래스 리부트 : 이도류\n최전선에서 휘몰아치는 버서커의 귀환\n\n▣  게임 소개  ▣\n\nALL TIME NO.1 GRAPHIC\n“시대와 플랫폼의 경계를 넘어선 최고의 비주얼”\n현존하는 최고 사양의 Full 3D 그래픽으로\n모바일 역사상 가장 아름다운 비쥬얼\n\nOne-Channel Seamless Open World \n“가장 거대한 심리스 오픈 월드”\n현실 세계와 동일하게 하나의 세상에서\n경험의 단절없이 모든 플레이가 이루어지는 리얼리스틱 월드\n\nComplete The  MMORPG\n“다시 쓰는 MMORPG의 기준”\n[월드] 마을/사냥터 별  고유 특징은 유지하면서 더욱 아름답게 재구성\n[클래스] 원작의 31개 클래스는 물론 기존에 없던 새로운 클래스 등장\n[전투] 강자가 돋보이면서도 약자가 저항할 수 있는 리니지 전투의 완성\n\n▣  리니지2M 공식 커뮤니티  ▣\n\n1. 리니지2M의 최신 정보와 이벤트 소식을 가장 빠르게 접할 수 있는 리니지2M 커뮤니티\nhttps://lineage2m",
+    "released": "2019-11-24T08:00:00Z",
+    "updated": "2026-05-26T19:36:52Z",
+    "version": "1.2.37",
+    "score": 3.4,
+    "reviews": 17406,
+    "developer": "NC Corp.",
+    "developerUrl": "https://apps.apple.com/kr/developer/nc-corp/id293317095?uo=4",
+    "genres": [
+      "게임",
+      "액션",
+      "롤플레잉"
+    ],
+    "releaseNotes": "■ 공통\n· 'REQUIEM : 전장을 지휘하는 검무' 업데이트\n· 클래스 리부트 : 이도류\n· 프리 클래스 체인지 (전체)\n· 신규 컨텐츠 '미미르의 연구실' 추가\n· 신화 클래스 스킨 '진 데스나이트' 추가\n \n■ 리저브 월드\n· 각성 '네비트' 추가\n \n■ 라울, 데스나이트 서버\n· 아레나 던전 '악마섬' 추가"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:12:51.432Z"
+}

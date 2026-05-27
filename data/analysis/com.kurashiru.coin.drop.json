@@ -1,0 +1,48 @@
+{
+  "appId": "com.kurashiru.coin.drop",
+  "name": "うさぎのコイン落とし by クラシル",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "【What is Rabbit Coin Drop?】\nFrom the hugely popular \"Kurashiru\" series comes a new game, \"Rabbit Coin Drop,\" where you drop coins with a cute rabbit!\n\nIt's an exhilarating coin action game where you earn points quickly with super simple controls—just tap the screen to drop coins.\n\nExperience the easiest and cutest way to earn points, turning \"killing time\" into \"pocket money\"!\n\n【What is Rabbit Coin Drop?】\nThe gameplay is very simple. Just tap the screen at the right time to drop coins into the p",
+    "released": "May 17, 2026",
+    "updated": 1779844434000,
+    "version": "1.0.1",
+    "installs": "1,000+",
+    "score": 4.1,
+    "ratings": 212,
+    "reviews": 27,
+    "developer": "Kurashiru, Inc.",
+    "developerWebsite": "https://www.rewards.kurashiru.com/",
+    "genre": "Puzzle",
+    "recentChanges": "いつもご利用いただきありがとうございます。<br>クラシルゲームシリーズ「うさぎのコイン落とし」をリリースしました。<br>レシチャレのコインが貯まりますのでぜひプレイしてお楽しみください。<br><br>----------------------------------------<br>クラシルゲームシリーズでは、皆さまのご意見を参考にして日々改善を行なっております。<br>ご要望をいただいた機能は随時改善を行なっておりますので、<br>ぜひレビューにご意見・ご感想をお寄せください。<br>----------------------------------------"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 10 天，評分 4.1",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:09:23.284Z"
+}

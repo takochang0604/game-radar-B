@@ -9,9 +9,9 @@
     "updated": 1779094331000,
     "version": "19",
     "installs": "50,000+",
-    "score": 4.4,
-    "ratings": 6243,
-    "reviews": 685,
+    "score": 4.5,
+    "ratings": 6962,
+    "reviews": 752,
     "developer": "MOREFUN（H.K.) LIMITED",
     "developerWebsite": "https://escape49.morefun-hk.com/",
     "genre": "Role Playing",
@@ -34,15 +34,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 8 天，評分 4.4",
+      "detail": "上架 9 天，評分 4.5",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
+      "detail": "最近更新: 9 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:50:31.042Z"
+  "analyzedAt": "2026-05-27T12:09:21.019Z"
 }

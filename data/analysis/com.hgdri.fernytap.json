@@ -9,9 +9,9 @@
     "updated": 1778920543000,
     "version": "4.0",
     "installs": "10,000+",
-    "score": 4.7,
-    "ratings": 17,
-    "reviews": 1,
+    "score": 4.5,
+    "ratings": 24,
+    "reviews": 3,
     "developer": "Cluck Back",
     "genre": "Casual"
   },
@@ -32,15 +32,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 29 天，評分 4.7",
+      "detail": "上架 30 天，評分 4.5",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 10 天前",
+      "detail": "最近更新: 11 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:54:59.523Z"
+  "analyzedAt": "2026-05-27T12:13:18.501Z"
 }

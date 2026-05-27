@@ -10,8 +10,8 @@
     "version": "2.104.0",
     "installs": "1,000,000+",
     "score": 4.2,
-    "ratings": 81558,
-    "reviews": 26226,
+    "ratings": 81567,
+    "reviews": 26229,
     "developer": "Netmarble",
     "developerWebsite": "https://7taizai.netmarble.jp/",
     "genre": "Role Playing",
@@ -67,7 +67,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 6 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     },
     {
@@ -83,5 +83,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:54:25.252Z"
+  "analyzedAt": "2026-05-27T12:11:29.857Z"
 }

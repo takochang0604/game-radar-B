@@ -10,8 +10,8 @@
     "version": "1.4.7",
     "installs": "1,000,000+",
     "score": 4.7,
-    "ratings": 88825,
-    "reviews": 1409,
+    "ratings": 88941,
+    "reviews": 1413,
     "developer": "Major9",
     "developerWebsite": "https://outerplane.vagames.kr",
     "genre": "Role Playing",
@@ -20,14 +20,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 61,
+      "1": 60,
       "2": 6,
-      "3": 13,
+      "3": 14,
       "4": 18,
       "5": 102
     },
     "positiveRatio": 60,
-    "negativeRatio": 34,
+    "negativeRatio": 33,
     "eventMentions": [
       {
         "text": "great game n very welcome to new player. thanks 🙏",
@@ -66,7 +66,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 12 天前",
+      "detail": "最近更新: 13 天前",
       "confidence": "medium"
     },
     {
@@ -76,5 +76,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:49:22.691Z"
+  "analyzedAt": "2026-05-27T12:07:44.306Z"
 }

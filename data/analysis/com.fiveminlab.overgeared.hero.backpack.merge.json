@@ -1,0 +1,84 @@
+{
+  "appId": "com.fiveminlab.overgeared.hero.backpack.merge",
+  "name": "Overgeared Hero: Merge RPG",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "\"🎒 Pack your backpack, build your power - Overgeared Hero is the pixel roguelike auto-battler where every item placement decides the fight.\n\nIn Overgeared Hero, you collect rare, epic, and legendary gear, merge duplicates into stronger versions, and arrange them in your backpack to unlock powerful synergies. Then your hero auto-battles based on the build you designed. Every run is different, every backpack tells a different story.\n\n💡 Pro tips before you start:\n- Item placement is everything. P",
+    "released": "May 25, 2026",
+    "updated": 1779644233000,
+    "version": "1.31.4",
+    "installs": "100,000+",
+    "score": 4.8,
+    "ratings": 10884,
+    "reviews": 93,
+    "developer": "5minlab Corp.",
+    "developerWebsite": "http://overgearedhero.com",
+    "genre": "Strategy"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 52,
+      "2": 12,
+      "3": 11,
+      "4": 27,
+      "5": 98
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 32,
+    "eventMentions": [
+      {
+        "text": "great fun so far will update later",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "good game, simple mechanics so far, may update later if things are still as easy or get much harder.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "so far it's rather fun and simple i feel like it will be great. i don't like that you need to use re",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "omg this game soo good but stop making me buy useless stuff i rather pay 10$ on unlimited stamina th",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "i thought it would be similar to smash legends not a merger style game. sadly they aren't doing upda",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 2 天，評分 4.8",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:08:34.316Z"
+}

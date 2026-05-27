@@ -2,19 +2,19 @@
   "appId": "6751537447",
   "name": "Snake Puzzle: Slither to Eat!",
   "platform": "ios",
-  "market": "jp",
+  "market": "us",
   "detail": {
-    "description": "Snake Puzzle: Slither to Eat は、戦略的思考と計画力を試す、わくわくしながらリラックスできるパズルゲームです！\n\nヘビを操作してシンプルだけどトリッキーなパズルを解き、リンゴを食べて体を伸ばしましょう。目標はヘビを十分に長くしてテレポートポータルに到達することです。リンゴを食べるたびに体が伸び、動くたびに慎重にルートを考える必要があります。\n\n主な特徴:\n\n戦略的ゲームプレイ: ヘビを導いてパズルを解き、リンゴを食べて成長！一歩一歩がポータルへの道。\n\n段階的な難易度: 長くなるほどパズルは複雑に！クリアの達成感もアップ。\n\n楽しく中毒性あり: 簡単に学べて奥深い仕組みで何度でも遊びたくなる。\n\nリラックスしつつ没頭: 脳を刺激しながら癒される、思考派プレイヤーに最適。\n\n短時間のパズル体験にも、じっくり挑戦にも最適。Snake Puzzle: Slither to Eat で成長しながらポータルを目指そう！最後までたどり着けますか？",
+    "description": "Guide your snake through tricky puzzles, eat apples to grow longer, and reach the teleportation portal. Each move matters plan carefully to make your snake long enough to succeed!\n\nKey Features:\n\nStrategic Gameplay: Eat apples, grow longer, and reach the portal.\n\nChallenging Levels: Puzzles get harder as your snake grows.\n\nFun & Addictive: Easy to learn, hard to master!\n\nRelaxing & Engaging: A perfect mix of calm play and brain-teasing fun.\n\nReady to slither, eat, and grow your way to victory? T",
     "released": "2025-08-30T07:00:00Z",
     "updated": "2026-05-19T17:37:11Z",
     "version": "2.30",
     "score": 4.4,
-    "reviews": 422,
+    "reviews": 2022,
     "developer": "Superboost Soft Limited",
-    "developerUrl": "https://apps.apple.com/jp/developer/superboost-soft-limited/id1879733249?uo=4",
+    "developerUrl": "https://apps.apple.com/us/developer/superboost-soft-limited/id1879733249?uo=4",
     "genres": [
-      "ゲーム",
-      "カジュアル"
+      "Games",
+      "Casual"
     ],
     "releaseNotes": "- Improved overall game stability."
   },
@@ -35,9 +35,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 6 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-26T12:53:15.181Z"
+  "analyzedAt": "2026-05-27T12:09:50.663Z"
 }

@@ -10,8 +10,8 @@
     "version": "6.6.0_44318314_44476906",
     "installs": "100,000,000+",
     "score": 4,
-    "ratings": 5174385,
-    "reviews": 23444,
+    "ratings": 5175583,
+    "reviews": 23449,
     "developer": "COGNOSPHERE PTE. LTD.",
     "developerWebsite": "https://genshin.hoyoverse.com/",
     "genre": "Adventure",
@@ -20,44 +20,44 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 148,
-      "2": 15,
-      "3": 9,
-      "4": 5,
-      "5": 23
+      "1": 155,
+      "2": 5,
+      "3": 7,
+      "4": 8,
+      "5": 25
     },
-    "positiveRatio": 14,
-    "negativeRatio": 82,
+    "positiveRatio": 17,
+    "negativeRatio": 80,
     "eventMentions": [
       {
-        "text": "why did my review got deleted loll this game is really bad not even worth your time for new players ",
+        "text": "👎🏻nlt enough pulls for each update",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "genuinely disappointed with character design releases lately. why are we normalizing female designs ",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "rewards and the new chest finder compass thingy are very great in nod krai and hope the other nation",
+        "text": "i stopped playing this game months ago and i am not going to be going back. with the lack of world e",
         "keywords": [
-          "limited",
+          "update",
           "new"
         ]
       },
       {
-        "text": "horrible rewards for so many new chars coming we get basically nothing",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "don't play this game if you're new. if the devs treat long time players such as myself like garbage,",
+        "text": "we need more pulls!!! they keep pumping out new characters and not giving us enough primogems for em",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "give us the event 4 star weapons back.",
+        "text": "again, the developers of this game wont listen unless its the chinese community and thats the reason",
         "keywords": [
-          "event"
+          "update"
         ]
       }
     ]
@@ -70,5 +70,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:49:13.061Z"
+  "analyzedAt": "2026-05-27T12:07:36.731Z"
 }

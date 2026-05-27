@@ -10,8 +10,8 @@
     "version": "56.23.2",
     "installs": "1,000,000,000+",
     "score": 4.8,
-    "ratings": 31327367,
-    "reviews": 982818,
+    "ratings": 31332454,
+    "reviews": 982872,
     "developer": "Miniclip.com",
     "developerWebsite": "https://www.miniclip.com/",
     "genre": "Sports",
@@ -20,25 +20,33 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 44,
-      "2": 3,
-      "3": 4,
-      "4": 6,
-      "5": 143
+      "1": 35,
+      "2": 8,
+      "3": 6,
+      "4": 12,
+      "5": 139
     },
-    "positiveRatio": 75,
-    "negativeRatio": 24,
+    "positiveRatio": 76,
+    "negativeRatio": 22,
     "eventMentions": [
       {
-        "text": "enjoying the game with new friends",
+        "text": "please do not play this game!! it is full of cheaters and hackers who use apks and tools to win game",
         "keywords": [
-          "new"
+          "event"
         ]
       },
       {
-        "text": "unlimited goichies in this game and so many hackers 😕",
+        "text": "to be fair, this is my favorite pool game. the physics are perfect, and i love the seasonal updates,",
         "keywords": [
-          "limited"
+          "event",
+          "update",
+          "season"
+        ]
+      },
+      {
+        "text": "white ball is rigged and game still full hacker cheaters! only reaaon people rating this game 5 star",
+        "keywords": [
+          "new"
         ]
       }
     ]
@@ -47,15 +55,15 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
     },
     {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
-      "detail": "評論中 2 次提及活動/事件",
+      "detail": "評論中 3 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:50:05.016Z"
+  "analyzedAt": "2026-05-27T12:09:32.710Z"
 }

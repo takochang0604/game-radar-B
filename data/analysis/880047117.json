@@ -1,23 +1,23 @@
 {
   "appId": "880047117",
-  "name": "Angry Birds 2",
+  "name": "앵그리버드 2 (Angry Birds 2)",
   "platform": "ios",
-  "market": "vn",
+  "market": "kr",
   "detail": {
-    "description": "Play the world's best bird flinging, pig popping game!\n\nUse the slingshot to fling birds at the piggies' towers and bring them crashing down – all to save the precious eggs.\n\nNew to the world of Angry Birds? Angry Birds 2 is the best way to get to know all of the iconic characters and experience the fun gameplay that has captured the hearts (and spare time) of millions of players.\n\nDecorated Angry Birds veteran? Everything you love about classic Angry Birds games is here with some awesome new ad",
+    "description": "앵그리버드 2 베테랑이시라고요? 오리지널앵그리버드 2에서 여러분이 즐기셨던 모든 요소가 앵그리버드 2에 녹아들어 있으며 멋진 추가 요소까지 더해졌습니다. 친구들과 함께 플레이하거나 멀티 스테이지 레벨에 도전하거나 전 세계의 플레이어들\"\"새를 날려 돼지를 터뜨리는 모바일 액션 게임의 원조! \n\n돼지들이 만든 요새에 용감한 새들을 발사해 요새를 부수고 빼앗긴 알을 되찾으세요. \n\n앵그리버드의 세계에 오신 걸 환영합니다. 앵그리버드 2를 통해 수 백만 플레이어들의 마음을 사로잡고 여가 시간을 빼앗아 간 독특한 캐릭터를 만나 보세요!\n\n앵그리버드 2 베테랑이시라고요? 오리지널앵그리버드 2에서 여러분이 즐기셨던 모든 요소가앵그리버드 2에 녹아들어 있으며 멋진 추가 요소까지 더해졌습니다. 친구들과 함께 플레이하거나 멀티 스테이지 레벨에 도전하거나 전 세계의 플레이어들과 협력 또는 경쟁플레이를 할 때 어떤 새를 날릴 지 선택해 보세요.\n\n특징:\n● 어떤 새를 날릴까요? 발사할 새를 전략적으로 선",
     "released": "2015-07-30T06:29:53Z",
-    "updated": "2026-05-05T08:14:48Z",
-    "version": "10.0.0",
-    "score": 4.6,
-    "reviews": 75135,
+    "updated": "2026-05-26T07:29:38Z",
+    "version": "10.0.1",
+    "score": 4.7,
+    "reviews": 70892,
     "developer": "Rovio Entertainment Oyj",
-    "developerUrl": "https://apps.apple.com/vn/developer/rovio-entertainment-oyj/id298910979?uo=4",
+    "developerUrl": "https://apps.apple.com/kr/developer/rovio-entertainment-oyj/id298910979?uo=4",
     "genres": [
-      "Games",
-      "Action",
-      "Puzzle"
+      "게임",
+      "액션",
+      "퍼즐"
     ],
-    "releaseNotes": "Minor fixes and improvements. Just cleaning up around the nest."
+    "releaseNotes": "사소한 수정 및 개선. 둥지를 말끔히 치웠습니다."
   },
   "reviewAnalysis": {
     "total": 0,
@@ -34,11 +34,11 @@
   },
   "inferredReasons": [
     {
-      "type": "unknown",
-      "label": "🔍 待深入調查",
-      "detail": "未能自動推測原因，建議手動查看",
-      "confidence": "low"
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-22T11:38:52.595Z"
+  "analyzedAt": "2026-05-27T12:09:16.604Z"
 }

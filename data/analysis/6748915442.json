@@ -1,0 +1,44 @@
+{
+  "appId": "6748915442",
+  "name": "Kitchen Together 2",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "Get ready to stir up some fun in the ultimate cooking challenge! Join your friends in this engaging multiplayer game where teamwork meets culinary creativity. Choose your kitchen role, from chopping and frying to decorating and serving, as you race against the clock to prepare delicious dishes. Whether you're a beginner or a master chef, this game serves up a hearty mix of excitement and collaboration. So put on your chef's hat, team up with your friends, and cook your way to victory!",
+    "released": "2025-07-22T07:00:00Z",
+    "updated": "2026-05-20T20:44:25Z",
+    "version": "2.2.9",
+    "score": 3.8,
+    "reviews": 4,
+    "developer": "Kiet Le",
+    "developerUrl": "https://apps.apple.com/tw/developer/kiet-le/id1529327989?uo=4",
+    "genres": [
+      "遊戲",
+      "休閒",
+      "家庭"
+    ],
+    "releaseNotes": "+ Fix bugs"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:09:58.375Z"
+}

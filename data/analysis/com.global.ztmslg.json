@@ -1,0 +1,79 @@
+{
+  "appId": "com.global.ztmslg",
+  "name": "Puzzles & Survival",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Match-3 Puzzle meets Strategy! Solve the mysteries and build an impenetrable sanctuary. The future of humanity is in your hands.\nTip: Use your brain to defend your brain!\n\n——APOCALYPTIC FEATURES——\n※ STRATEGY + MATCH-3※\n- Solve puzzles to kill zombies\n- Arm yourself with strategy and tactics\n- A combination of a tactical wargame and casual puzzle gameplay\n- An innovative post-apocalyptic experience\n\n※ BUILD A SANCTUARY※\n- Lead survivors in the last bastion of humanity\n- Craft cutting-edge equipme",
+    "released": "Oct 2, 2020",
+    "updated": 1779189160000,
+    "version": "7.0.260",
+    "installs": "10,000,000+",
+    "score": 4.5,
+    "ratings": 344218,
+    "reviews": 31263,
+    "developer": "37GAMES",
+    "developerWebsite": "https://gsupport.37games.com/home?package=com.global.ztmslg",
+    "genre": "Strategy",
+    "recentChanges": "New version is live! <br>[New Hero] Meet Luna and her exclusive Nanoweapon! <br>[New Gameplay] Tundra Tussle upgraded: Station Master removed, plus 4 new Team Skills for diverse tactics! <br>[New Challenge] Zombie Zero has arrived! Push your limits and earn exclusive rewards! <br>[New Content] Play Organizing Master anytime in Mini-Game Center!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 72,
+      "2": 14,
+      "3": 14,
+      "4": 10,
+      "5": 90
+    },
+    "positiveRatio": 50,
+    "negativeRatio": 43,
+    "eventMentions": [
+      {
+        "text": "they need to stop locking things tho the story and also give out more reword and also help the new p",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i love the gave been playing for over 2yrs maybe a little longer. it's fun and exciting at times. if",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this an exciting game thanks for the update and please improve the game experience",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "sorry but this game is not fun anymore, too much unnecessary upgrades and too much event on weekday.",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "games super fun with lots of depth, all the people complaining in the reviews are new players who ha",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:13:05.903Z"
+}

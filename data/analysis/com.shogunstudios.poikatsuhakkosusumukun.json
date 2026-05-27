@@ -1,0 +1,42 @@
+{
+  "appId": "com.shogunstudios.poikatsuhakkosusumukun",
+  "name": "ポイ活 発酵！ススムくん：放置ゲームで簡単ポイント稼ぎ",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "\"Point-Earning Fermentation! Susumu-kun\" is an easy-to-play idle clicker game where you can play by simply leaving it running or tapping!\n\nThis idle clicker game features Susumu-kun, a boy who loves pickles, making fermented foods, and you receive rewards after a certain amount of time has passed.\n\n▼App Features\nAn easy point-earning game app where you can play for free, letting you make fermented foods from around the world!\n\nReceive various gift codes to purchase your favorite items!\n\nJust lea",
+    "released": "Jun 10, 2025",
+    "updated": 1779858225000,
+    "version": "1.5.2",
+    "installs": "100,000+",
+    "score": 3.8,
+    "ratings": 9845,
+    "reviews": 894,
+    "developer": "SHOGUN STUDIOS",
+    "developerWebsite": "https://fancsglobal.com/",
+    "genre": "Adventure",
+    "recentChanges": "軽微な不具合修正"
+  },
+  "reviewAnalysis": {
+    "total": 3,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:12:00.586Z"
+}

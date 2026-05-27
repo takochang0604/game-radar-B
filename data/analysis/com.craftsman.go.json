@@ -1,0 +1,79 @@
+{
+  "appId": "com.craftsman.go",
+  "name": "Craftsman: Building Craft",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "You are a craftsman, your task is to design houses, castles and build them.\nYou can do it alone or with your friends' help.\nPlease experience our game:\n- Stunning graphics and realistic sound.\n- Simple, easy to play.\n- Many game modes.\n- Very much like the real world.\n- A lot of interesting things",
+    "released": "May 27, 2019",
+    "updated": 1779732431000,
+    "version": "1.83",
+    "installs": "100,000,000+",
+    "score": 3.2,
+    "ratings": 3702432,
+    "reviews": 85093,
+    "developer": "StarGame12",
+    "developerWebsite": "https://craftsman-ec9d2.web.app",
+    "genre": "Simulation"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 53,
+      "2": 17,
+      "3": 17,
+      "4": 9,
+      "5": 104
+    },
+    "positiveRatio": 56,
+    "negativeRatio": 35,
+    "eventMentions": [
+      {
+        "text": "a great fake minecraft, but the new update makes it unavailable when you turn off your data or wifi,",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "umm......not bad but when u are playing in a lan world and an ad pops up ur friend gets kicked from ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "as an old player of this game i kinda miss the old ver cause when me and my friends play multiplayer",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this game should add mace apear happy ghast and more updates",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "when i update this game it becomes online for better experience? i hope it will be back in offline i",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:13:03.578Z"
+}

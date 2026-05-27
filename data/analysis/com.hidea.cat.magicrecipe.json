@@ -10,8 +10,8 @@
     "version": "1.0.4.2.0",
     "installs": "500,000+",
     "score": 4.8,
-    "ratings": 11920,
-    "reviews": 75,
+    "ratings": 12131,
+    "reviews": 77,
     "developer": "NEOWIZ",
     "developerWebsite": "https://hideacorp.blogspot.com",
     "genre": "Casual",
@@ -20,14 +20,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 12,
+      "1": 11,
       "2": 7,
       "3": 6,
       "4": 24,
-      "5": 151
+      "5": 152
     },
     "positiveRatio": 88,
-    "negativeRatio": 10,
+    "negativeRatio": 9,
     "eventMentions": [
       {
         "text": "super cute game to play when you have an extra 15 minutes. you can unlock outfits for the kitties an",
@@ -66,7 +66,7 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 29 天，評分 4.8",
+      "detail": "上架 30 天，評分 4.8",
       "confidence": "high"
     },
     {
@@ -82,5 +82,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:50:50.746Z"
+  "analyzedAt": "2026-05-27T12:09:53.085Z"
 }

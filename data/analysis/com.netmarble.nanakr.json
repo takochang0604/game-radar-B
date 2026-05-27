@@ -10,8 +10,8 @@
     "version": "2.104.0",
     "installs": "1,000,000+",
     "score": 4.2,
-    "ratings": 83997,
-    "reviews": 49207,
+    "ratings": 84001,
+    "reviews": 49210,
     "developer": "Netmarble",
     "developerWebsite": "http://mobile.netmarble.net",
     "genre": "Role Playing",
@@ -42,7 +42,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 6 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     },
     {
@@ -52,5 +52,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:55:06.988Z"
+  "analyzedAt": "2026-05-27T12:13:25.536Z"
 }

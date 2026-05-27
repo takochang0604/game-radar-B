@@ -10,8 +10,8 @@
     "version": "4.31.1",
     "installs": "100,000,000+",
     "score": 3.8,
-    "ratings": 2435657,
-    "reviews": 7747,
+    "ratings": 2439597,
+    "reviews": 7763,
     "developer": "VOODOO",
     "developerWebsite": "https://www.voodoo.io",
     "genre": "Arcade",
@@ -20,44 +20,43 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 34,
-      "2": 6,
-      "3": 10,
-      "4": 29,
-      "5": 121
+      "1": 36,
+      "2": 2,
+      "3": 7,
+      "4": 22,
+      "5": 133
     },
-    "positiveRatio": 75,
-    "negativeRatio": 20,
+    "positiveRatio": 78,
+    "negativeRatio": 19,
     "eventMentions": [
       {
-        "text": "game itself isn't bad but the new style sucks, and you should return the spider skin's paint to grey",
+        "text": "nice my rank is master now more updates please",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i have played it from a very long time. my new tab didn't have this so i got soo bored so u download",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "اللعبه حلوه اوي جدا زائد التحديث الجدبد خلاها احلي بجد لا تحفه the game is really great, and the new",
+        "text": "just had to start over on russia!!!! so livid! i love the game, overall, but it's really annoying th",
         "keywords": [
-          "update",
           "new"
         ]
       },
       {
-        "text": "i liked this game, until i relized it was against bots. and the new update is rubish",
-        "keywords": [
-          "update",
-          "new"
-        ]
-      },
-      {
-        "text": "extremely bad ad they have used like why would you put down roblox for ur own game atleast make it s",
+        "text": "the game is awesome but please collab with blackpink or create your own blackpink skins please your ",
         "keywords": [
           "collab"
         ]
       },
       {
-        "text": "this game is so fun its simple easy to play and very addictive i can play it for hours and as usual ",
+        "text": "the new version of the mini map inside the game is now confusing whennthe update added white border ",
         "keywords": [
+          "update",
           "new"
         ]
       }
@@ -67,7 +66,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 6 天前",
       "confidence": "high"
     },
     {
@@ -77,5 +76,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-22T11:39:39.260Z"
+  "analyzedAt": "2026-05-27T12:10:39.325Z"
 }

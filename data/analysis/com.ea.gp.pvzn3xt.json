@@ -6,52 +6,53 @@
   "detail": {
     "description": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nWhether you love strategy games, fast-paced tower defense, or chaotic action, Plants vs. Zombies™ 3: Evolved delivers a fresh spin on defending against every zombie attack. Step into Neighborville today to grow, merge and experiment with new tactics as you help shape a wild, taco-fueled tower defense against Dr. Zomboss’ late",
     "released": "Jan 12, 2024",
-    "updated": 1775574756000,
+    "updated": 1779473834000,
     "version": "28.0.21",
     "installs": "1,000,000+",
+    "score": null,
     "developer": "ELECTRONIC ARTS",
     "developerWebsite": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-3",
     "genre": "Strategy",
     "recentChanges": "WHAT’S NEW<br><br>Merge: Use meteorite power to merge 55+ unique plants (very scientific!)<br>Adventures: Help Dave and the plants confront Dr. Zomboss in 100 story levels!<br>Lawn Patrol: Explore new plants and zombies!<br>Expeditions: Play really hard battles, for funnzies!<br>My Yard: Collect weird objects to display in your yard for decreased curb appeal!<br>Zen Garden: Nurture your plant buddies… then mulch them into seeds for upgrades? (You monster!)<br>Odd Jobs: Play Dave’s mini-games to power up your… garden?"
   },
   "reviewAnalysis": {
-    "total": 100,
+    "total": 200,
     "starCounts": {
-      "1": 41,
-      "2": 8,
-      "3": 10,
-      "4": 12,
-      "5": 29
+      "1": 64,
+      "2": 22,
+      "3": 25,
+      "4": 31,
+      "5": 58
     },
-    "positiveRatio": 41,
-    "negativeRatio": 49,
+    "positiveRatio": 45,
+    "negativeRatio": 43,
     "eventMentions": [
       {
-        "text": "earning tier ii let alone tier iii plants takes an unbelievably long time with no idication as to wh",
+        "text": "it's pretty neat. future is looking hopeful. can't wait to see more updates that make the game more ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "scaming people of their money, ask for a refund as i did my purchase was wiped by the update as conf",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "a very boring game, very lacking in any progression in the early game. you're stuck repeating levels",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "takes days of boring grinding to get 1 upgraded plant. would cost nearly €50 to unlock the 3rd upgra",
+        "text": "update the game you haven't updated this game on about 2 month what are you doing?",
         "keywords": [
-          "season"
+          "update"
         ]
       },
       {
-        "text": "good game, but needs polishing with more plants, harder gameplay (why did you reduce the hp of coneh",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "the plant mini games are so boring, who play tested these and thought you know what pvz needs. a bor",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "the game is looking really beautiful. the new animations and plants merging mechanic are fun. the lo",
+        "text": "i like the new art style but the gameplay can use some reworking. the fact that there's a cap to how",
         "keywords": [
           "new"
         ]
@@ -60,11 +61,17 @@
   },
   "inferredReasons": [
     {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    },
+    {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
       "detail": "評論中 5 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-06T11:24:16.565Z"
+  "analyzedAt": "2026-05-27T12:12:36.569Z"
 }

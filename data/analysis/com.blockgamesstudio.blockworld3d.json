@@ -2,16 +2,16 @@
   "appId": "com.blockgamesstudio.blockworld3d",
   "name": "Block World 3D: Craft & Build",
   "platform": "android",
-  "market": "vn",
+  "market": "th",
   "detail": {
     "description": "Block World 3D is a sandbox game with crafting and building, where you can explore, craft, survive, build and more with other players.\n\nCRAFTING\nThis is a block craft game and you are the best craftsman. You may create many items and blocks from crafting recipes. Build a city and have a school party craft there.\n\nBUILDING\nThis is a building game in sandbox mode. Build your house or build your world. In creative mode, you can build any buildings and structures. The game has a built-in editor for ",
     "released": "May 5, 2021",
     "updated": 1779478760000,
     "version": "12.1.36",
     "installs": "10,000,000+",
-    "score": 4.3,
-    "ratings": 61563,
-    "reviews": 1969,
+    "score": 4.4,
+    "ratings": 61857,
+    "reviews": 269,
     "developer": "Funburstgame LTD",
     "developerWebsite": "https://www.funburstgameltd.com",
     "genre": "Arcade",
@@ -20,14 +20,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 40,
+      "1": 41,
       "2": 8,
-      "3": 14,
-      "4": 29,
-      "5": 109
+      "3": 13,
+      "4": 28,
+      "5": 110
     },
     "positiveRatio": 69,
-    "negativeRatio": 24,
+    "negativeRatio": 25,
     "eventMentions": [
       {
         "text": "it is helpfully because i don't know if it has ads but the game is good just like roblox new minecra",
@@ -41,9 +41,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-26T12:53:20.120Z"
+  "analyzedAt": "2026-05-27T12:10:20.123Z"
 }

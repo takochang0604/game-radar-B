@@ -6,28 +6,28 @@
   "detail": {
     "description": "Welcome to Mini Challenges: Calm Games, a fun, offline collection of mini & classic games made for pure relaxation and easy fun.\n\nNo pressure. Just tap tap gameplay, funny moments, and oddly satisfying challenges that help you relax your brain. From quick puzzles to tricky mini games, this is the perfect casual game to play anytime you need a break.\n\n🎮 HOW IT WORKS\n\n- Tap the screen. That’s it.\n- Simple controls, zero learning curve\n- Short mini games you can play anytime, anywhere\n\n✨ FEATURES\n",
     "released": "Jan 22, 2026",
-    "updated": 1779367464000,
+    "updated": 1779804728000,
     "version": "1.0.12",
     "installs": "1,000,000+",
     "score": 4.9,
-    "ratings": 21442,
-    "reviews": 53,
+    "ratings": 24078,
+    "reviews": 55,
     "developer": "UltraPub",
     "developerWebsite": "http://ultrapub.net/",
     "genre": "Casual",
     "recentChanges": "+ Game optimization!"
   },
   "reviewAnalysis": {
-    "total": 199,
+    "total": 200,
     "starCounts": {
-      "1": 7,
-      "2": 3,
-      "3": 3,
-      "4": 10,
-      "5": 176
+      "1": 9,
+      "2": 2,
+      "3": 4,
+      "4": 12,
+      "5": 173
     },
     "positiveRatio": 93,
-    "negativeRatio": 5,
+    "negativeRatio": 6,
     "eventMentions": [
       {
         "text": "ijust hate it ,i mean like no updates man get serious 😒 i can't even rate this game",
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 0 天前",
       "confidence": "high"
     },
     {
@@ -81,5 +81,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:49:20.296Z"
+  "analyzedAt": "2026-05-27T12:07:39.136Z"
 }

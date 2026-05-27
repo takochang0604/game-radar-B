@@ -696,26 +696,41 @@ function renderStats() {
     if (snapSubEl) snapSubEl.textContent = `共 ${dates.length} 天快照`;
   }
 
-  // 去重邏輯：以名稱為基礎，使其與下方卡片合併後的數量一致
-  const getUniqueCount = (dhList) => {
-    const seen = new Set();
-    dhList.forEach(dh => {
-      seen.add(getMergeKey(dh));
-    });
-    return seen.size;
+  // 去重邏輯：模擬 renderDarkhorses 的合併邏輯（含名稱 + sibling 配對，不做傳遞性合併）
+  const getMergedCount = (dhList) => {
+    const entries = []; // [{nameKey, appId, siblings}]
+    for (const dh of dhList) {
+      if (!dh || !dh.name) continue;
+      const nameKey = getMergeKey(dh);
+      let found = false;
+      for (const entry of entries) {
+        const sameName = entry.nameKey === nameKey;
+        // 完全對齊 renderDarkhorses 的 isSibling 邏輯
+        const isSibling = (dh._siblingAppIds || []).includes(entry.appId) ||
+                           entry.siblings.includes(dh.appId);
+        if (sameName || isSibling) {
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        entries.push({ nameKey, appId: dh.appId, siblings: dh._siblingAppIds || [] });
+      }
+    }
+    return entries.length;
   };
 
   // 今日新黑馬（只計算最新一天偵測到的 new_entry）
   const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
   const newEntryList = state.darkhorses.filter(dh => dh.triggers?.some(t => t.strategy === 'new_entry' && (t._detectedAt || '').substring(0, 10) === latestDate));
   const statNewDhEl = document.getElementById('statNewDh');
-  if (statNewDhEl) statNewDhEl.textContent = getUniqueCount(newEntryList);
+  if (statNewDhEl) statNewDhEl.textContent = getMergedCount(newEntryList);
 
   // 已評測黑馬
   const reportedList = state.darkhorses.filter(dh => !!findReport(dh.name));
   const statAppsEl = document.getElementById('statApps');
-  const totalUnique = getUniqueCount(state.darkhorses);
-  if (statAppsEl) statAppsEl.textContent = `${getUniqueCount(reportedList)} / ${totalUnique}`;
+  const totalUnique = getMergedCount(state.darkhorses);
+  if (statAppsEl) statAppsEl.textContent = `${getMergedCount(reportedList)} / ${totalUnique}`;
   const statAppsSub = document.getElementById('statAppsSub');
   if (statAppsSub) statAppsSub.textContent = '匹已完成 AI 評測報告';
 
@@ -995,6 +1010,12 @@ function renderDarkhorses() {
   // 存合併後的完整清單供 renderTracked 直接使用（不受搜尋/市場篩選影響）
   state.mergedDarkhorses = filtered;
 
+  // 更新 header 統計數字（合併後的真實數量，含 sibling 配對）
+  const mergedTotal = filtered.length;
+  const mergedReported = filtered.filter(dh => !!findReport(dh.name)).length;
+  const statAppsEl2 = document.getElementById('statApps');
+  if (statAppsEl2) statAppsEl2.textContent = `${mergedReported} / ${mergedTotal}`;
+
   // ============ 搜尋 / 市場 / 狀態篩選（僅影響黑馬 tab 顯示）============
   filtered = filtered.filter(dh => {
     if (searchTerm) {
@@ -1224,19 +1245,26 @@ function renderDarkhorses() {
           const dh = canvasMap.get(canvas);
           if (dh) {
             let miniHistory = dh._trendHistory || dh.rankHistory || [];
-            // 若趨勢計算時已選定市場，直接用；否則從 _rankHistoryByLine 查
+            // 從 _rankHistoryByLine 查：優先用排名最好的市場（markets 已按排名排序）
             if (miniHistory.length === 0 && dh._rankHistoryByLine) {
-              const tmCode = dh._trendMarket || dh.market || '';
-              for (const line of Object.values(dh._rankHistoryByLine)) {
-                if (line.market === tmCode && line.data && line.data.length > 0) {
-                  miniHistory = line.data;
-                  break;
+              // 依序嘗試 markets 中的市場，取第一個有歷史的
+              const marketCodes = (dh.markets || []).map(m => m.code).filter(Boolean);
+              if (dh.market && !marketCodes.includes(dh.market)) marketCodes.push(dh.market);
+              for (const mCode of marketCodes) {
+                for (const line of Object.values(dh._rankHistoryByLine)) {
+                  if (line.market === mCode && line.data && line.data.length > miniHistory.length) {
+                    miniHistory = line.data;
+                  }
                 }
+                if (miniHistory.length > 0) break;
               }
-              // fallback
+              // fallback：取資料最長的線
               if (miniHistory.length === 0) {
-                const firstLine = Object.values(dh._rankHistoryByLine)[0];
-                if (firstLine && firstLine.data) miniHistory = firstLine.data;
+                let bestLine = null;
+                for (const line of Object.values(dh._rankHistoryByLine)) {
+                  if (line.data && (!bestLine || line.data.length > bestLine.data.length)) bestLine = line;
+                }
+                if (bestLine && bestLine.data) miniHistory = bestLine.data;
               }
             }
             if (miniHistory.length < 3) {
@@ -1317,9 +1345,23 @@ async function renderRankingsAsync() {
   if (state.firebaseMode && state.selectedDate) {
     tbody.innerHTML = '<tr><td colspan="6"><div class="empty-state"><p>⏳ 載入中...</p></div></td></tr>';
     const currentIdx = state.availableDates.indexOf(state.selectedDate);
-    const prev = currentIdx > 0 ? state.availableDates[currentIdx - 1] : null;
     await ensureSnapshotLoaded(state.selectedDate, state.rankMarket);
-    if (prev) await ensureSnapshotLoaded(prev, state.rankMarket);
+
+    // 往前找最近一天有該市場資料的快照並預載
+    const market = state.rankMarket;
+    const platform = state.platform;
+    const chartType = state.chartType;
+    const platforms = platform === 'all' ? ['android', 'ios'] : [platform];
+    for (let i = currentIdx - 1; i >= 0; i--) {
+      const prevDate = state.availableDates[i];
+      await ensureSnapshotLoaded(prevDate, market);
+      const snap = state.snapshots[prevDate];
+      if (snap && snap[market]) {
+        const mData = snap[market];
+        const hasData = platforms.some(p => mData[p] && mData[p][chartType] && mData[p][chartType].data && mData[p][chartType].data.length > 0);
+        if (hasData) break;
+      }
+    }
   }
   renderRankings();
 }
@@ -1374,30 +1416,42 @@ function renderRankings() {
     apps.forEach((a, i) => a.rank = i + 1);
   }
 
-  // 排名變化：必須用與今日相同的邏輯處理昨日資料
+  // 排名變化：往前找最近一天有該市場/平台/榜型資料的快照
   let prevApps = {};
-  if (prev && state.snapshots[prev] && state.snapshots[prev][state.rankMarket]) {
-    const pMarket = state.snapshots[prev][state.rankMarket];
-    let prevList = [];
-    platforms.forEach(p => {
-      if (pMarket[p] && pMarket[p][state.chartType]) {
-        (pMarket[p][state.chartType].data || []).forEach(app => prevList.push({ ...app, _platform: p }));
+  {
+    let prevIdx = currentIdx - 1;
+    while (prevIdx >= 0) {
+      const prevDate = state.availableDates[prevIdx];
+      const prevSnap = state.snapshots[prevDate];
+      if (prevSnap && prevSnap[state.rankMarket]) {
+        const pMarket = prevSnap[state.rankMarket];
+        // 確認該市場有對應平台+榜型的資料
+        const hasData = platforms.some(p => pMarket[p] && pMarket[p][state.chartType] && pMarket[p][state.chartType].data && pMarket[p][state.chartType].data.length > 0);
+        if (hasData) {
+          let prevList = [];
+          platforms.forEach(p => {
+            if (pMarket[p] && pMarket[p][state.chartType]) {
+              (pMarket[p][state.chartType].data || []).forEach(app => prevList.push({ ...app, _platform: p }));
+            }
+          });
+          if (state.platform === 'all') {
+            const prevMap = new Map();
+            prevList.forEach(a => {
+              const key = dedupeKey(a);
+              const existing = prevMap.get(key);
+              if (!existing || a.rank < existing.rank) prevMap.set(key, a);
+            });
+            prevList = Array.from(prevMap.values());
+            prevList.sort((a, b) => a.rank - b.rank);
+            prevList = prevList.slice(0, 100);
+            prevList.forEach((a, i) => a.rank = i + 1);
+          }
+          prevList.forEach(app => { prevApps[app.appId] = app.rank; });
+          break;
+        }
       }
-    });
-    if (state.platform === 'all') {
-      // 同樣：按排名合併，取最佳排名
-      const prevMap = new Map();
-      prevList.forEach(a => {
-        const key = dedupeKey(a);
-        const existing = prevMap.get(key);
-        if (!existing || a.rank < existing.rank) prevMap.set(key, a);
-      });
-      prevList = Array.from(prevMap.values());
-      prevList.sort((a, b) => a.rank - b.rank);
-      prevList = prevList.slice(0, 100);
-      prevList.forEach((a, i) => a.rank = i + 1);
+      prevIdx--;
     }
-    prevList.forEach(app => { prevApps[app.appId] = app.rank; });
   }
 
   if (apps.length === 0) {

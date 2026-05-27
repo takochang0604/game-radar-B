@@ -10,49 +10,50 @@
     "version": "1.0.0",
     "installs": "500,000+",
     "score": 4.8,
-    "ratings": 29494,
-    "reviews": 1274,
+    "ratings": 33810,
+    "reviews": 1398,
     "developer": "BOLTRAY GAMES",
     "genre": "Role Playing"
   },
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 27,
-      "2": 2,
-      "3": 10,
-      "4": 28,
-      "5": 133
+      "1": 22,
+      "2": 6,
+      "3": 11,
+      "4": 30,
+      "5": 131
     },
     "positiveRatio": 81,
     "negativeRatio": 14,
     "eventMentions": [
       {
-        "text": "just started playing, seems an interesting game. however won't continue due to no japanese voice ove",
+        "text": "wasn't expecting much but its very fun and engaging, has idle mechanics but i think every new player",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "after the beginning tutorial it has crashed twice, first time i was looking up something in-game and",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "the game play is alright. biggest issue for me is servers reaching capacity??? i can't play with my ",
+        "text": "originally 5/5 stars until i found out you can't just play and level up. your limited by attack rati",
+        "keywords": [
+          "event",
+          "limited"
+        ]
+      },
+      {
+        "text": "very fun game! i loved exploring the different adventures, leveling up, and meeting new characters! ",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "would recommend to everyone easy one of my new favorites",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "really good for a new game, gameplay is interesting, character designs are nice! i play on mute so i",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "seems legit so far. will update if i run into any pay wall or something, but so far it's been a good",
+        "text": "the ad i saw for the game was a complete lie. if you can't advertise it right don't release the game",
         "keywords": [
           "update"
         ]
@@ -63,7 +64,7 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 13 天，評分 4.8",
+      "detail": "上架 14 天，評分 4.8",
       "confidence": "high"
     },
     {
@@ -85,5 +86,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:49:37.496Z"
+  "analyzedAt": "2026-05-27T12:08:03.695Z"
 }

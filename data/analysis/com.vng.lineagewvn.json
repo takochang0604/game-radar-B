@@ -1,0 +1,41 @@
+{
+  "appId": "com.vng.lineagewvn",
+  "name": "Lineage W",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "▶ Lineage W - The MMORPG masterpiece of the Lineage series\nLineage W is a next-generation massively multiplayer online role-playing game (MMORPG) with an open world, bringing large-scale battlefields to the Southeast Asian gaming community.\n\nExperience the core spirit of Lineage: loyalty, sacrifice, alliances, and large-scale battles that forge powerful guilds.\n\n28 years of legacy.\n\nUltimate MMORPG PvP.\nGuilds rise. Kingdoms fall.\n\nIf you're looking for a hardcore MMORPG with guild wars, sieges,",
+    "released": "May 15, 2026",
+    "updated": 1779468018000,
+    "version": "2.10.02.13",
+    "installs": "100,000+",
+    "score": 3.9,
+    "ratings": 123,
+    "reviews": 145,
+    "developer": "VNGGames Co., Ltd",
+    "genre": "Role Playing",
+    "recentChanges": "Phiên bản The Ultimate Lineage MMORPG đã chính thức ra mắt!<br>Tham gia Huyết Chiến Tối Thượng và bắt đầu hành trình của bạn ngay hôm nay.<br>Skin độc quyền dành riêng cho thị trường SEA cùng hàng loạt sự kiện đặc biệt và phần thưởng hấp dẫn đang chờ đón bạn!"
+  },
+  "reviewAnalysis": {
+    "total": 3,
+    "starCounts": {
+      "1": 3,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 100,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:10:03.103Z"
+}

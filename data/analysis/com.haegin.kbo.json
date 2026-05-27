@@ -1,0 +1,42 @@
+{
+  "appId": "com.haegin.kbo",
+  "name": "2026 프로야구GO!",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "▶ A special opportunity to personally select and acquire Legend, Franchise, and Monster grade players!\n\nMeet the legendary teams and legendary players again in 2026 Pro Baseball GO!\n\nA new baseball experience that reinterprets iconic moments from KBO League history and Newtro sensibilities in a modern style.\n\nStart playing idle × collect × communicative baseball now—easy to raise, comfortable to enjoy, and growing together with the fans!\n\n🎉 1. Equipped with the official KBO license!\n\nFully refl",
+    "released": "Mar 25, 2026",
+    "updated": 1779366528000,
+    "version": "1.4.1.0",
+    "installs": "100,000+",
+    "score": 4.5,
+    "ratings": 3300,
+    "reviews": 1076,
+    "developer": "HAEGIN Co., Ltd.",
+    "developerWebsite": "http://www.haegin.kr",
+    "genre": "Sports",
+    "recentChanges": "- 2005년 시즌 내 특정 스테이지 진행 불가 현상 수정<br>- 장비 자동 뽑기 내 &#39;신화 등급 이상&#39; 필터 오류 수정"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:12:31.676Z"
+}

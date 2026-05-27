@@ -10,8 +10,8 @@
     "version": "1.103.14",
     "installs": "1,000,000+",
     "score": 4.9,
-    "ratings": 32436,
-    "reviews": 377,
+    "ratings": 32515,
+    "reviews": 378,
     "developer": "Shimmer Studio",
     "developerWebsite": "https://www.shimmergames.com/policy",
     "genre": "Simulation",
@@ -64,17 +64,11 @@
   },
   "inferredReasons": [
     {
-      "type": "major_update",
-      "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 14 天前",
-      "confidence": "medium"
-    },
-    {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
       "detail": "評論中 5 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:54:20.606Z"
+  "analyzedAt": "2026-05-27T12:12:20.013Z"
 }

@@ -1,0 +1,44 @@
+{
+  "appId": "6483252725",
+  "name": "몬길: STAR DIVE",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "반짝이는 미지의 세계로 DIVE!\n몬스터 테이밍 RPG, 몬길: STAR DIVE! \n\n몬스터 길들이기! 몬스터와 공존하는 세계\n귀여운 몬스터들을 수집하고 도감을 가득 채워보세요!\n모든 몬스터 찾고 길들여, 다양한 몬스터의 능력으로 함께 전투에서 승리하세요!\n\n쉽고 빠른 3인 태그 액션!\n누구나 쉽게 즐길 수 있는, 쾌감 넘치는 태그 전투 시스템!\n상황에 맞춰 실시간으로 캐릭터를 교체하고 강력한 태그 스킬을 발동해 보세요!\n다양한 캐릭터를 조합해 개성 강한 파티를 만들 수 있습니다.\n\n숨겨진 진실을 향해 가는 스토리!\n몬스터와 인간, 아인종이 공존하는 세계에서 펼쳐지는\n클라우드 베르나 그리고 매력적인 야옹이와 함께 하는 모험!\n\n원하는 대로 즐기는 미지의 모험!\n자신만의 속도로 흥미로운 이야기를 따라가 보세요.\n누군가와 경쟁하지 않아도, 빠르지 않아도 괜찮습니다.\n원하는 대로 미지의 세계를 여행하며, 다양한 캐릭터들과 멋진 추억을 쌓아보세요!\n\n모험의 끝에 기다리고 있는 것은?\n수수",
+    "released": "2026-04-13T07:00:00Z",
+    "updated": "2026-05-27T00:17:39Z",
+    "version": "1.01.00",
+    "score": 4.7,
+    "reviews": 5055,
+    "developer": "Netmarble Corporation",
+    "developerUrl": "https://apps.apple.com/kr/developer/netmarble-corporation/id930364579?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉",
+      "액션"
+    ],
+    "releaseNotes": "[신규]\n- 신규 소환 캐릭터: 나래\n- 에피소드 6 '상흔 속에 피어나는 꽃들' 추가 \n- 전설 몬스터 '레기눌라' 등장\n- 신규 지역 '무원' 추가 \n\n[개선 및 수정]\n - 편의 사항 추가 및 개선 \n - 버그 수정 및 기타 기능 개선"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:11:58.393Z"
+}

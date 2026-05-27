@@ -9,7 +9,7 @@
     "updated": "2026-05-21T07:00:00Z",
     "version": "1.0.2",
     "score": 4.6,
-    "reviews": 727,
+    "reviews": 802,
     "developer": "LightYear Matrix Limited",
     "developerUrl": "https://apps.apple.com/tw/developer/lightyear-matrix-limited/id1874519436?uo=4",
     "genres": [
@@ -36,15 +36,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 5 天，評分 4.6",
+      "detail": "上架 6 天，評分 4.6",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 6 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-26T12:50:58.250Z"
+  "analyzedAt": "2026-05-27T12:11:03.397Z"
 }

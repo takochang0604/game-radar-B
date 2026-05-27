@@ -7,11 +7,11 @@
     "description": "--A story about finding a little miracle in everyday life\n\nSchool x Youth x Story RPG “Blue Archive” presented by Yostar!\nAs a teacher, spend your daily life in the unique academic city of Kivotos with your unique and attractive students!\n\n■Synopsis\nThis is the academic city of Kivotos.\nIn this super-huge university city made up of thousands of schools, troubles are constant every day.\nIn order to deal with this problem, the Federal Investigation Department [Petri] was established by the Federat",
     "released": "Feb 3, 2021",
     "updated": 1779247503000,
-    "version": "1.68.421271",
+    "version": "1.69.428359",
     "installs": "1,000,000+",
     "score": 4.1,
-    "ratings": 38181,
-    "reviews": 11726,
+    "ratings": 38178,
+    "reviews": 11730,
     "developer": "Yostar, Inc.",
     "developerWebsite": "https://bluearchive.jp/",
     "genre": "Role Playing",
@@ -69,7 +69,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 6 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     },
     {
@@ -79,5 +79,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:50:53.321Z"
+  "analyzedAt": "2026-05-27T12:09:55.540Z"
 }

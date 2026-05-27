@@ -2,16 +2,16 @@
   "appId": "com.percent.aos.luckydefense",
   "name": "Lucky Defense",
   "platform": "android",
-  "market": "kr",
+  "market": "tw",
   "detail": {
     "description": "How far can your luck take you? Have you tested your limits?\nIntroducing the ultimate luck-based tower defense game!\nTry [Lucky Defense] now and push your LUCK to the extreme!\n\n🍀 Summoning units is all based on LUCK! Beat the odds!\n🍀 Yes, it's a tower defense game! Defeat the monsters!\n🍀 You can also merge units! You just never know what you'll get!\n🍀 Feeling LUCKY? Take a big swing with the roulette!\n\nTo rise or to fall, LUCK is the question!\nLucky Defense - A casual tower defense all about",
     "released": "May 23, 2024",
     "updated": 1779382743000,
     "version": "2.0.1",
     "installs": "5,000,000+",
-    "score": 4.3,
-    "ratings": 207348,
-    "reviews": 28591,
+    "score": 4.1,
+    "ratings": 207426,
+    "reviews": 1683,
     "developer": "111%",
     "developerWebsite": "http://www.111percent.net",
     "genre": "Casual",
@@ -66,7 +66,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     },
     {
@@ -76,5 +76,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:52:48.414Z"
+  "analyzedAt": "2026-05-27T12:12:17.651Z"
 }

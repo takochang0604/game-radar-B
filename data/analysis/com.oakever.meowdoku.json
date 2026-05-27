@@ -6,12 +6,12 @@
   "detail": {
     "description": "Looking for a game that soothes the soul but keeps your brain spinning? Welcome to Meowdoku — a pure logic puzzle game that flawlessly blends the rigorous reasoning of Sudoku with the thrilling deduction of Minesweeper.\nHere, you have only one mission: find the perfect \"exclusive territory\" for every aloof little cat!\n💡 Simple Rules, Deep Strategy\nThe concept is elegant and intuitive, yet anything but simple:\n• Exclusive Territory: The board is divided into colored sections. You must place exac",
     "released": "Apr 24, 2026",
-    "updated": 1778902445000,
-    "version": "1.2.1",
+    "updated": 1779823077000,
+    "version": "1.3.0",
     "installs": "100,000+",
     "score": 4.5,
-    "ratings": 1998,
-    "reviews": 235,
+    "ratings": 2320,
+    "reviews": 273,
     "developer": "Oakever Games",
     "developerWebsite": "https://oakevergames.com/",
     "genre": "Puzzle",
@@ -20,15 +20,33 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 41,
-      "2": 34,
-      "3": 44,
+      "1": 44,
+      "2": 35,
+      "3": 45,
       "4": 19,
-      "5": 62
+      "5": 57
     },
-    "positiveRatio": 41,
-    "negativeRatio": 38,
+    "positiveRatio": 38,
+    "negativeRatio": 40,
     "eventMentions": [
+      {
+        "text": "fun game really enjoyed it but if you run out of lives(hearts)and watch ads for new lives you never ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "cute game. no ads at first, but eventually there was an ad per level. i'd pay a few bucks for ad-fre",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "cute game. very enjoyable. unfortunately ran out of new levels pretty quickly.",
+        "keywords": [
+          "new"
+        ]
+      },
       {
         "text": "super fun to play, but there are alot of repeated levels. i had the same layout back to back, then a",
         "keywords": [
@@ -40,24 +58,6 @@
         "keywords": [
           "new"
         ]
-      },
-      {
-        "text": "ad reward broken. the game is fun, but rewards for hints or renewed lives is broken. you suffer thro",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "fun game, a new view on sudoku",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "they need more puzzles! i love this game, but they keep repeating puzzles. i'll play one, and then a",
-        "keywords": [
-          "new"
-        ]
       }
     ]
   },
@@ -65,8 +65,8 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 10 天前",
-      "confidence": "medium"
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
     },
     {
       "type": "event_driven",
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:50:35.670Z"
+  "analyzedAt": "2026-05-27T12:09:30.274Z"
 }

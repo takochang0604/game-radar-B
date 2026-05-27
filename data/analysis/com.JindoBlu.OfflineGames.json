@@ -10,8 +10,8 @@
     "version": "3.11.2",
     "installs": "100,000,000+",
     "score": 4.6,
-    "ratings": 452007,
-    "reviews": 13669,
+    "ratings": 452507,
+    "reviews": 13684,
     "developer": "JindoBlu",
     "developerWebsite": "https://www.jindoblu.com",
     "genre": "Casual",
@@ -20,14 +20,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 12,
+      "1": 14,
       "2": 3,
-      "3": 5,
-      "4": 19,
-      "5": 161
+      "3": 7,
+      "4": 22,
+      "5": 154
     },
-    "positiveRatio": 90,
-    "negativeRatio": 8,
+    "positiveRatio": 88,
+    "negativeRatio": 9,
     "eventMentions": [
       {
         "text": "i only have two complaints - the app is a battery drain, and some games (like sudoku) need a way to ",
@@ -42,13 +42,6 @@
         ]
       },
       {
-        "text": "please update 25 may 2026 new minigames.",
-        "keywords": [
-          "update",
-          "new"
-        ]
-      },
-      {
         "text": "pleasantly surprised with tons of simple and still fun offline games. update: after a few weeks of p",
         "keywords": [
           "update"
@@ -59,6 +52,12 @@
         "keywords": [
           "update"
         ]
+      },
+      {
+        "text": "i find this very fun! the levels of difficulty actually seem to match the difficulty i set it to (gr",
+        "keywords": [
+          "new"
+        ]
       }
     ]
   },
@@ -66,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
     },
     {
@@ -78,9 +77,9 @@
     {
       "type": "word_of_mouth",
       "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 90%",
+      "detail": "4-5星評論佔 88%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:53:31.825Z"
+  "analyzedAt": "2026-05-27T12:12:41.386Z"
 }

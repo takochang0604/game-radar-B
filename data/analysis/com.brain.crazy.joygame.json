@@ -1,0 +1,79 @@
+{
+  "appId": "com.brain.crazy.joygame",
+  "name": "Brain Puzzle 3: Crazy Mind",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Warning: This game may cause intermittent frustration, sudden bursts of laughter, and a strong desire to show off to your friends!\n\nSay goodbye to boredom! The Brain Puzzle series is back with a brand-new sequel, Crazy Mind—and this time, it's for real! 💥 We've prepared countless mind-bending levels designed specifically to cure \"boredom\" and \"slow reflexes.\" Don't worry, this isn't an exam—it's a fun-filled mental adventure!\n\n💡 Think you're smart enough? That's because you haven't tried Crazy",
+    "released": "Dec 3, 2025",
+    "updated": 1779792549000,
+    "version": "1.0.7",
+    "installs": "5,000,000+",
+    "score": 4.6,
+    "ratings": 21422,
+    "reviews": 31,
+    "developer": "JoyGame Studio",
+    "developerWebsite": "http://www.ezekielflores.com",
+    "genre": "Puzzle",
+    "recentChanges": "• Fixed some bugs"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 70,
+      "2": 18,
+      "3": 13,
+      "4": 21,
+      "5": 78
+    },
+    "positiveRatio": 50,
+    "negativeRatio": 44,
+    "eventMentions": [
+      {
+        "text": "do you like ads? well, then this is the game for you! do you also happen to like crashes, good news!",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "glitch prevented finishing a level...click on man in black vest it says... i did that first even and",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "ads ads and more ads. i get u need ads to maintain the game but u even force ads to unlock new level",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "dear, the creator of the game, please release season 4 , i really can't wait to play thank u 😁",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "loved the game but can't unlock any new levels. ads not working",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:10:44.349Z"
+}

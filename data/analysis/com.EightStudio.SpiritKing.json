@@ -9,9 +9,9 @@
     "updated": 1779267768000,
     "version": "0.6.0",
     "installs": "100,000+",
-    "score": 4.5,
-    "ratings": 2438,
-    "reviews": 822,
+    "score": 4.4,
+    "ratings": 2472,
+    "reviews": 851,
     "developer": "Eight Studio",
     "developerWebsite": "https://www.eightstudio.co.kr/",
     "genre": "Adventure",
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 6 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:51:12.778Z"
+  "analyzedAt": "2026-05-27T12:10:09.948Z"
 }

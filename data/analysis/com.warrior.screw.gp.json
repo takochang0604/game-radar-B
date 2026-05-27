@@ -6,12 +6,12 @@
   "detail": {
     "description": "Arrange and Twist out the screws. Correctly screw them away from the boards and clear all out. Simple to start yet IQ testing!  \nWe believe this is the difficulty level design you don't want to miss out! It's challenging but will definitely rest your brain. Can you be the screw jam Master?\nTwist them Out! Screw All Out! Screw away your stress! \n\nDive into a world of satisfying ASMR sounds and colorful screw jam puzzles, master thousands of levels!\nTap on the screws with matching colors and clear",
     "released": "Aug 24, 2025",
-    "updated": 1776956175000,
+    "updated": 1779871514000,
     "version": "1.0.22",
     "installs": "1,000,000+",
     "score": 4.8,
-    "ratings": 47642,
-    "reviews": 295,
+    "ratings": 47883,
+    "reviews": 296,
     "developer": "Warrior Puzzle Game Studio",
     "developerWebsite": "https://loveballs.club/",
     "genre": "Puzzle",
@@ -63,11 +63,17 @@
   },
   "inferredReasons": [
     {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    },
+    {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
       "detail": "評論中 5 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:52:06.223Z"
+  "analyzedAt": "2026-05-27T12:11:34.706Z"
 }

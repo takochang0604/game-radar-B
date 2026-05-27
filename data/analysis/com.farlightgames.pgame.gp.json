@@ -10,8 +10,8 @@
     "version": "0.39.11",
     "installs": "1,000,000+",
     "score": 4.7,
-    "ratings": 5568,
-    "reviews": 1084,
+    "ratings": 7014,
+    "reviews": 1263,
     "developer": "FARLIGHT",
     "genre": "Casual",
     "recentChanges": "Clash of Critters is now live!: Your Virtual Pet Paradise is Here!"
@@ -19,41 +19,41 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 7,
+      "1": 17,
       "2": 6,
       "3": 6,
-      "4": 25,
-      "5": 156
+      "4": 21,
+      "5": 150
     },
-    "positiveRatio": 91,
-    "negativeRatio": 7,
+    "positiveRatio": 86,
+    "negativeRatio": 12,
     "eventMentions": [
       {
-        "text": "one of the best knew games i played i love the little critters especially the ones in this list whic",
+        "text": "it's an alright game. i have one slight issue. it says i need the soda cans to evolve one of my tata",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i like that theres a ball drop to get new critters, and the designs are adorable, i love the game, s",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "this game is really grest and adorable! not only that, you can either have your little pets fight as",
+        "text": "i love this game.~ i very much like to see some more of those cute little fellas!~ maybe introduce s",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "the game is fun but, they need to add 13+ or 10 to younger servers. the ppl in world are pretty disg",
+        "text": "pretty good so far as a new player. verry good creature desighns i apreciate that even if you evolve",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "i love it! it's a mixture of some of my childhood games + new features that makes this game extraord",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "update: deleted. repeatedly four pop-ups in a row begging for money, i'm out. old: what could have b",
+        "text": "enjoying game. more updates to come",
         "keywords": [
           "update"
         ]
@@ -64,13 +64,13 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 10 天，評分 4.7",
+      "detail": "上架 11 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
+      "detail": "最近更新: 9 天前",
       "confidence": "medium"
     },
     {
@@ -82,9 +82,9 @@
     {
       "type": "word_of_mouth",
       "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 91%",
+      "detail": "4-5星評論佔 86%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:49:27.652Z"
+  "analyzedAt": "2026-05-27T12:07:51.758Z"
 }

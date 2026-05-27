@@ -9,9 +9,9 @@
     "updated": 1779699251000,
     "version": "1.0.16",
     "installs": "1,000,000+",
-    "score": 4.5,
-    "ratings": 15834,
-    "reviews": 480,
+    "score": 4.4,
+    "ratings": 15928,
+    "reviews": 487,
     "developer": "ZigZaGame Inc.",
     "developerWebsite": "https://www.zigzagame.com",
     "genre": "Role Playing",
@@ -20,15 +20,29 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 34,
-      "2": 29,
-      "3": 27,
+      "1": 35,
+      "2": 28,
+      "3": 30,
       "4": 17,
-      "5": 93
+      "5": 90
     },
-    "positiveRatio": 55,
+    "positiveRatio": 54,
     "negativeRatio": 32,
     "eventMentions": [
+      {
+        "text": "too much update in a week and not new fitur",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "new to the game, story lines an interesting take on a game, adds a fresh way to play games. thorough",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
       {
         "text": "the game so far is really interesting considering that it's the first day of playing and i'm now in ",
         "keywords": [
@@ -48,18 +62,6 @@
           "update",
           "new"
         ]
-      },
-      {
-        "text": "love the story, love the music, like the gameplay. unfortunately the gacha is hot garbage and the st",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "i've been stuck for 4 weeks now. i can maybe level up 1 character twice a day. stuck on floor no mat",
-        "keywords": [
-          "event"
-        ]
       }
     ]
   },
@@ -67,7 +69,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 2 天前",
       "confidence": "high"
     },
     {
@@ -77,5 +79,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:51:08.072Z"
+  "analyzedAt": "2026-05-27T12:10:53.702Z"
 }

@@ -1,0 +1,44 @@
+{
+  "appId": "1580691683",
+  "name": "MLB 9局職棒 勁旅對決 26",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "隨時隨地暢玩MLB官方授權棒球手遊\n\n完美重現2026美國職棒大聯盟賽程！\n與2026 LIVE卡一同挑戰世界大賽！\n\n透過全新卡片，邂逅National Baseball Hall of Fame的傳奇球員！\n\n兩度榮獲國聯MVP的Bryce Harper指定遊戲《MLB 9局職棒 勁旅對決 26》！\n\n■ 《MLB 9局職棒 勁旅對決 26》遊戲介紹\n\n[NEW]\n# 於例行賽期間設定應援球隊即可獲得各項獎勵的應援內容開跑！\n# 排名錦標賽火熱登場，分出真正強者的頂尖對決！\n# 新增投球隊長，強化俱樂部之家隊長系統！\n# 超越擴展＆超越潛力更新！提升成長球員的樂趣！\n\n[REAL]\n# 2026 MLB賽季賽程、球場及球衣完美呈現！\n# 根據2026實際成績變動能力值的「2026 LIVE卡」\n# 透過最新動作捕捉技術呈現球員真實動作\n# 每一球都是關鍵，導入ABS挑戰讓投打對決火熱升級\n\n[PLAY]\n# [快速模式、焦點打擊模式、手動模式]自由選擇暢玩方式\n# 想成為全壘打王？挑戰刺激的「強棒排名賽」\n# 與全球勁敵即時對決的即時對戰\n# 與俱樂部成員一同挑戰最強俱樂部的俱樂部",
+    "released": "2023-07-04T07:00:00Z",
+    "updated": "2026-05-27T02:00:03Z",
+    "version": "4.02.00",
+    "score": 4.1,
+    "reviews": 2457,
+    "developer": "Com2uS Corp.",
+    "developerUrl": "https://apps.apple.com/tw/developer/com2us-corp/id299175870?uo=4",
+    "genres": [
+      "遊戲",
+      "運動",
+      "模擬"
+    ],
+    "releaseNotes": "[全新內容]\n- 新增打點對戰專用成長系統\n- Signature超越材料擴增\n- Signature Black位置擴增\n- 新增HOF代言人\n\n[優化事項]\n- 變更提升挖角結構\n- 優化主大廳畫面視覺效果\n- 優化潛力成長功能\n- 優化新秀任務"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:13:28.065Z"
+}

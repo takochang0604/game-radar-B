@@ -2,75 +2,44 @@
   "appId": "1094591345",
   "name": "Pokémon GO",
   "platform": "ios",
-  "market": "kr",
+  "market": "jp",
   "detail": {
-    "description": "전 세계 트레이너들과 함께 포켓몬 세계를 탐험하고 새로운 포켓몬을 발견하세요. 세상의 게임 업계에서 혁명을 가져온 “Pokémon GO”는 10억 건 이상 다운로드되며,  「The Game Developers Choice Awards」의 「Best Mobile Game」을 수상했고, 「TechCrunch」의 「Best App of the Year」 등 수 많은 상을 받았습니다.\n_______________\n\n포켓몬 세계를 모험: 언제 어디서든 포켓몬을 찾아보세요!\n \n포켓몬을 더 많이 잡고 「포켓몬 도감」을 완성하세요!\n \n파트너 포켓몬과 함께 여행하며 포켓몬을 강화하고 보상을 받으세요!\n\n불꽃 튀는 「체육관 배틀」을 하거나...\n\n 다른 트레이너들과 협력하여 강력한 포켓몬이 등장하는 「레이드배틀」에 도전하세요!\n\n지금이 바로 모험의 시간입니다! “Pokémon GO” 세계로 떠나요!\n_______________\n\n\n「언제나 모험 모드」는 헬스 앱과 연동을 허용하면 앱을 닫았을 때도",
-    "released": "2017-01-23T22:37:26Z",
-    "updated": "2026-04-27T18:36:22Z",
-    "version": "0.409.0",
-    "score": 3.5397,
-    "reviews": 34786,
+    "description": "世界中のトレーナーたちと一緒に探検してポケモンを探しましょう。世界のゲーム業界に革命をもたらした『Pokémon GO』は、合計で10億回以上ダウンロードされ、「The Game Developers Choice Awards」の「Best Mobile Game」や「TechCrunch」の「Best App of the Year」といった数々の賞に輝いています。\n_______________\n\n ポケモンの世界を冒険：いつでもどこでもポケモンを探そう！\n\n ポケモンをゲットして「ポケモン図鑑」を完成させよう！\n\n相棒のポケモンと一緒に旅をして、ポケモンを育ててリワードを手に入れよう！\n\n「ジムバトル」で火花を散らしたり――\n\n 他のトレーナーと協力して、強力なポケモンが登場する「レイドバトル」に挑戦しよう！\n\n今こそ冒険の時間です！『Pokémon GO』の世界へ旅立ちましょう！\n_______________\n\n「いつでも冒険モード」は、ヘルスアプリとの連動を許可すると、アプリを閉じている時でも歩いた距離を記録できます。\n\n■Pokémon GO対応環境：\n※このアプリは無",
+    "released": "2016-07-22T02:51:54Z",
+    "updated": "2026-05-26T12:02:13Z",
+    "version": "0.413.0",
+    "score": 3.5,
+    "reviews": 260451,
     "developer": "Niantic, Inc.",
-    "developerUrl": "https://apps.apple.com/kr/developer/niantic-inc/id1037205060?uo=4",
+    "developerUrl": "https://apps.apple.com/jp/developer/niantic-inc/id1037205060?uo=4",
     "genres": [
-      "게임",
-      "전략",
-      "롤플레잉",
-      "건강 및 피트니스"
+      "ゲーム",
+      "ストラテジー",
+      "ロールプレイング",
+      "ヘルスケア／フィットネス"
     ],
-    "releaseNotes": "트레이너 여러분, \"Pokémon GO\"에서의 모험을 즐기고 계시길 바랍니다! 새로운 이벤트와 기능을 갖고 정기적으로 앱을 업데이트하고 있으니, 가장 최신 상태로 유지하도록 게임 내 새소식을 확인해 주세요."
+    "releaseNotes": "トレーナーの皆さん、『Pokémon GO』での冒険を楽しんでいますか？定期的にアップデートを行い、新イベントや新機能を皆さんにお届けしますので、ゲーム内ニュースの最新情報をチェックして楽しみにお待ちください。"
   },
   "reviewAnalysis": {
-    "total": 49,
+    "total": 0,
     "starCounts": {
-      "1": 21,
-      "2": 2,
-      "3": 5,
-      "4": 4,
-      "5": 17
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
     },
-    "positiveRatio": 43,
-    "negativeRatio": 47,
-    "eventMentions": [
-      {
-        "text": "제가 이게임을 2021년정도 부터 해왔는데 포켓몬을 점점 모으며 스페셜리서치나 일일 리서치 깨는 재미가 있고요 일일 리서치 일주일까지 달성하면 무료로 포켓몬을 줘서 어떤 포켓몬이 ",
-        "keywords": [
-          "이벤트"
-        ]
-      },
-      {
-        "text": "포켓몬 잡았는데 다 튀어나와서 도망감;심지어 라즈열매에다가 하이퍼볼 했는데 다 튀어나와서 도망가고 레이드패스 사서 레이드 16명이서 하려고 준비하고았다가 들어갔는데 튕겨서 못했어요",
-        "keywords": [
-          "이벤트"
-        ]
-      },
-      {
-        "text": "레이드 시작할 때 꺼지는 버그 좀 잡아주세요ㅠ\nyour app is way too heavy and need too many updates",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "진짜 포고 한 1년전만 해도 갓겜이었는데 지금은 뭐 추가도 안하고 똑같은 이벤트만 계속하고 이제 할 이유가 없음 위에 뜨라고 5점 줍니다.ㅅㄱ",
-        "keywords": [
-          "이벤트"
-        ]
-      }
-    ]
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
   },
   "inferredReasons": [
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 7 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
-    },
-    {
-      "type": "event_driven",
-      "label": "🎉 限時活動引流",
-      "detail": "評論中 4 次提及活動/事件",
-      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-05T12:06:22.187Z"
+  "analyzedAt": "2026-05-27T12:12:07.850Z"
 }

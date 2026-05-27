@@ -1,0 +1,50 @@
+{
+  "appId": "6761399468",
+  "name": "패왕의별M",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "무협의 정점, 1억뷰의 원작 '패왕의별'이 iOS에서 다시 타오르다!\n수백만 독자를 열광시킨 원작의 서사와 압도적인 무협 액션을 이제 iPhone과 iPad에서 최고의 최적화로 경험하십시오.\n\n하나의 패왕(覇王)!\n하나의 자리를 놓고 벌이는 치열한 야망과 사랑\n그리고 긴박하게 펼쳐지는 수많은 지략과 배신\n\n과연 붉은 패왕성의 주인은 누가 될 것인가?\n천하를 격동시키는 그들의 이야기가\n이제 시작된다.\n\n지금 '강호 출도'를 명하는 패왕에게만 드리는 특별 하사품!\n[절정패왕] 패왕의 길을 걷는 절정 패왕과 특별 칭호\n[성장 지원] 10만원 상당의 패키지\n\n· 원작의 감동을 잇는 압도적 서사: 장영훈 작가의 탄탄한 세계관을 기반으로 한 몰입감 넘치는 시나리오.\n· 독보적인 절세무공 시스템: 수십 종의 초식을 조합하여 완성하는 나만의 필살기. 추천하는 전략적 무공 조합의 재미.\n· 실시간 대규모 문파 전쟁: 문파의 명예를 건 전략적 혈투! iOS의 부드러운 그래픽으로 펼쳐지는 화려한 무공의",
+    "released": "2026-05-26T07:00:00Z",
+    "updated": "2026-05-26T07:00:00Z",
+    "version": "1.0",
+    "score": 5,
+    "reviews": 5,
+    "developer": "NEWLEAP SOFT",
+    "developerUrl": "https://apps.apple.com/kr/developer/newleap-soft/id1639263063?uo=4",
+    "genres": [
+      "게임",
+      "전략",
+      "롤플레잉"
+    ],
+    "releaseNotes": ""
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 1 天，評分 5.0",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:08:38.928Z"
+}

@@ -9,7 +9,7 @@
     "updated": "2026-05-26T04:27:01Z",
     "version": "1.0.16",
     "score": 4.7,
-    "reviews": 10516,
+    "reviews": 10610,
     "developer": "ZigZaGame Inc.",
     "developerUrl": "https://apps.apple.com/jp/developer/zigzagame-inc/id665001828?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-26T12:51:17.796Z"
+  "analyzedAt": "2026-05-27T12:11:15.436Z"
 }

@@ -1,0 +1,49 @@
+{
+  "appId": "game.buzzbreak.cardstory",
+  "name": "Card Story",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Welcome to Card Story! A fun and challenging game that combines memory, observation, and logic skills. Not only is it engaging, but you can also earn real rewards!\n\nIn this game, you’ll complete various puzzle challenges to unlock treasure chests, earn coins, and collect cards. Use your wits and patience to conquer levels, complete card sets, and discover exciting surprises!\n\nGameplay Highlights\n\n\t•\tNormal Mode: Each image has one block randomly hidden. Select the correct hidden block from the o",
+    "released": "Dec 19, 2024",
+    "updated": 1758104903000,
+    "version": "1.1.2",
+    "installs": "500,000+",
+    "score": 4.6,
+    "ratings": 27209,
+    "reviews": 3789,
+    "developer": "BuzzBreak",
+    "developerWebsite": "https://cardstory.gobuzzbreak.com/",
+    "genre": "Puzzle",
+    "recentChanges": "- Fixed crash on 32-bit devices."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 11,
+      "2": 3,
+      "3": 16,
+      "4": 21,
+      "5": 149
+    },
+    "positiveRatio": 85,
+    "negativeRatio": 7,
+    "eventMentions": [
+      {
+        "text": "i appreciate that the app is legitimate and allows users to successfully withdraw earnings. however,",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 85%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-27T12:12:56.288Z"
+}

@@ -4,14 +4,14 @@
   "platform": "android",
   "market": "th",
   "detail": {
-    "description": "Do you love solving challenging yet satisfying puzzles?\nStep into the world of Bus Rush Fever!\n\nBus Rush Fever! combines the excitement of parking games, the challenge of color-sorting games, and the satisfying people. Plan your moves to clear the parking lot congestion and make way for smooth traffic.\n\nMove, park, and collect—every decision matters in this parking jam puzzle.\n\nWhether you love car parking games, color-sorting games, or just brain teasers, this addictive puzzle game will keep yo",
+    "description": "Do you love solving challenging yet satisfying puzzles?\nStep into the world of Bus Traffic Fever!\n\nBus Traffic Fever! combines the excitement of parking games, the challenge of color-sorting games, and the satisfying people. Plan your moves to clear the parking lot congestion and make way for smooth traffic.\n\nMove, park, and collect—every decision matters in this parking jam puzzle.\n\nWhether you love car parking games, color-sorting games, or just brain teasers, this addictive puzzle game will k",
     "released": "Mar 17, 2026",
-    "updated": 1777632775000,
-    "version": "1.4.0",
+    "updated": 1779799963000,
+    "version": "1.5.0",
     "installs": "1,000,000+",
     "score": 4.7,
-    "ratings": 11632,
-    "reviews": 9,
+    "ratings": 12751,
+    "reviews": 10,
     "developer": "GOODROID,Inc.",
     "developerWebsite": "https://goodroid.co.jp/",
     "genre": "Puzzle",
@@ -20,15 +20,21 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 106,
-      "2": 33,
-      "3": 27,
-      "4": 11,
-      "5": 23
+      "1": 114,
+      "2": 32,
+      "3": 24,
+      "4": 13,
+      "5": 17
     },
-    "positiveRatio": 17,
-    "negativeRatio": 70,
+    "positiveRatio": 15,
+    "negativeRatio": 73,
     "eventMentions": [
+      {
+        "text": "after the first few levels (the braindead ones a snail could solve) this becomes a game of \"how many",
+        "keywords": [
+          "limited"
+        ]
+      },
       {
         "text": "it started off super fun, but now it's just repetitive with so many ads. sometimes the ads don't tim",
         "keywords": [
@@ -52,16 +58,16 @@
         "keywords": [
           "update"
         ]
-      },
-      {
-        "text": "i'm obsessed with this game but they repeat the same puzzles over and over. i'm in the level 400's a",
-        "keywords": [
-          "new"
-        ]
       }
     ]
   },
   "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    },
     {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
@@ -69,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-25T10:48:14.048Z"
+  "analyzedAt": "2026-05-27T12:08:24.836Z"
 }
