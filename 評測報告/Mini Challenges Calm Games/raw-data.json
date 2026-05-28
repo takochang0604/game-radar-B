@@ -1,0 +1,3365 @@
+{
+  "collectedAt": "2026-05-27T14:09:04.901Z",
+  "android": {
+    "appId": "com.u1.relax.minigame3",
+    "title": "Mini Challenges: Calm Games",
+    "developer": "UltraPub",
+    "developerId": "7290062307797419335",
+    "genre": "Casual",
+    "score": 4.8883495,
+    "ratings": 24399,
+    "installs": "1,000,000+",
+    "maxInstalls": 4977116,
+    "free": true,
+    "released": "Jan 22, 2026",
+    "updated": 1779804728000,
+    "version": "1.0.12",
+    "contentRating": "Everyone",
+    "icon": "https://play-lh.googleusercontent.com/tZO4p-R6R05mZAMKsEmH6shCtolDdhgkn2CwtyNOGd6PSBGU1RNH3l3SjkBOrHWD9nA",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/CfHbsKw7ySqWXt8aWPX_SwinmJ47uXd97Td2wWICosCPwsMkfaOa3uwXDyjo2ZMvQ0g",
+      "https://play-lh.googleusercontent.com/rqQyvBnwbwMadzKDiB5z_Mq1zHWIgU8IrIXYViAPzEFNtgAcQijda68OypdjI0kkYns",
+      "https://play-lh.googleusercontent.com/Fsquo0Bbs3OkcJ3OIsr2EgDHODNaQSC881Ey-hm14XKAlU8xNJR6WeRFYJtl7a4dj8g",
+      "https://play-lh.googleusercontent.com/7UBUeha9O2lH157Djd6odmrTC2fBOsX1mr4u__KUBwG6GkYpfd7DS9N0OOZVWnIp5A",
+      "https://play-lh.googleusercontent.com/srtFIyNKAkRzVjPQ8Ow_EePN2rb2_76NsjIzRfO9qeFqAdCN1MV9MkBlDmdCC_TA44o",
+      "https://play-lh.googleusercontent.com/7JZw7sWbQNBhuvKdXSFjjELjRO73ihnriMjxU7H0vhWxaGjpzipskfPeAOybBITDY30",
+      "https://play-lh.googleusercontent.com/Jf90-ZiXTnt7QpvE7js18URFN4qRemMpaWnjLBZOYZLAhOWpTHSLksG1Y--ZO-ZYEQ",
+      "https://play-lh.googleusercontent.com/OndYJ1yaLt5oLoJ_dYCZsoORGjEt4akojB3zTpg3cmFTsANzbzE-AIrCFyJSSpi_PBw",
+      "https://play-lh.googleusercontent.com/nIcvXirWdMGIESJVrswphfOH1KlSlEP3JnGrFV6Q4HKA7zoTAZe_3sCSuIvQYRh4_A",
+      "https://play-lh.googleusercontent.com/ZQa1-Y-d-a1YmqSEtLMe21ZPe6BwYZWLJKVMt3MISfHA7-Prpx5VhTD5vBEAle9D",
+      "https://play-lh.googleusercontent.com/mN5vNB3B8-17E9S62Xas3XuFKW-wGWvHZr_8PNPgJuej3T3Gd83SXc_-UaiWu_xyz-A",
+      "https://play-lh.googleusercontent.com/5cPcaLmMV3SyB7Kcqv261NOeWvCE1UJ3fColJsMEn-QaJeSMLLare9_No_QPTiXX84mb",
+      "https://play-lh.googleusercontent.com/9xH4DWoznYLfQ7MKTRjiE4zRosqNQZh8poA7uDqITZV-z4_doQfM7J5IcLMgXdWJc1U",
+      "https://play-lh.googleusercontent.com/3FI4qEnKJfXi-eO_29ZS4FX7lq2Yg-jw-FBJiGwj8QOYHCqrkCCX1a4xRJOl6MKuW00",
+      "https://play-lh.googleusercontent.com/pi6tJpf2kQ_F5fJf6Nb50SnQjmQKHPE_ZJIcRfqh_GceO7dYxp3eU2eGGIxT-cjkdw",
+      "https://play-lh.googleusercontent.com/W_hY1XvKPqQlLV2hKH4stJkjj0nncCfB9HscmmXRTU4RWNtyEZyClhExjSUiMXZSsQ",
+      "https://play-lh.googleusercontent.com/_bbmg2dAyJ5ECimSEGt2pdDr6W17lfFiOXNShQ76isb_4cObceTrfIVyFNLJRwknaw",
+      "https://play-lh.googleusercontent.com/RpUZ_TWisKRXGRJTREMb0Gfr0TJdxfSSyK-uesd7aMqMMoayO37uTYCjw1emDzANwNs"
+    ],
+    "video": null,
+    "summary": "Antistress games collection: fun, relaxing puzzles to tap and chill",
+    "description": "Welcome to Mini Challenges: Calm Games, a fun, offline collection of mini & classic games made for pure relaxation and easy fun.\n\nNo pressure. Just tap tap gameplay, funny moments, and oddly satisfying challenges that help you relax your brain. From quick puzzles to tricky mini games, this is the perfect casual game to play anytime you need a break.\n\n🎮 HOW IT WORKS\n\n- Tap the screen. That’s it.\n- Simple controls, zero learning curve\n- Short mini games you can play anytime, anywhere\n\n✨ FEATURES\n- Mini & Classic Games Collection\n- Calm & Antistress Gameplay\n- Easy to Play, Tricky to Master\n- Always Fresh Fun\n\nWhether you’re bored, stressed, or just scrolling for something fun, Mini Challenges: Calm Games is your go-to chill game collection. Download now and start tapping the calm vibes!",
+    "recentChanges": "+ Game optimization!",
+    "developerWebsite": "http://ultrapub.net/"
+  },
+  "ios": {
+    "id": 6737214802,
+    "appId": "com.unicorn.minigame.relax",
+    "title": "Mini Games: Calm & Chill",
+    "developer": "CTC Technology Limited",
+    "score": 4.69203,
+    "reviews": 428588,
+    "free": true,
+    "released": "2024-10-24T07:00:00Z",
+    "updated": "2026-05-01T01:04:50Z",
+    "version": "5.6",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/b5/be/2ab5be21-371e-7627-e3d1-ef10bc5e38fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Entertainment",
+      "Casual"
+    ],
+    "description": "Dive into the world of excitement and fun with Mini Games: Calm & Chill — the ultimate mini-games collection that brings the hottest trends and addictive gameplay right to your fingertips!\n\n\nHOW TO PLAY:\n\n\n- Easy to learn, hard to master! Just tap, swipe, or use your voice to conquer each challenge.\n- Master your reflexes and precision to achieve high scores and unlock new, hilarious games.\n\n\n\nFEATURES:\n\n- Hottest Games Challenge: Experience a diverse selection of mini-games inspired by the latest viral trends and popular challenges.\n- Funny and Addictive Gameplay: Each game is designed to be both entertaining and addictive, ensuring endless hours of fun.\n- High-Quality Graphics: Enjoy a sleek, modern design with minimalistic yet captivating visuals.\n- Stress Relief and Entertainment: Perfect for winding down or getting a quick burst of joy anytime, anywhere.\n\n\n\nReady to see if you have what it takes to be a mini-game master?"
+  },
+  "reviews": {
+    "total": 400,
+    "googlePlay": 152,
+    "appStore": 248,
+    "distribution": {
+      "1": 51,
+      "2": 16,
+      "3": 40,
+      "4": 46,
+      "5": 247
+    },
+    "positive": [
+      {
+        "source": "google_play",
+        "userName": "Christi Price",
+        "score": 5,
+        "text": "lots of fun mini games exactly what you see in the adds",
+        "date": "2026-05-26T13:52:38.806Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "__ Noor Zara ___ Khan",
+        "score": 5,
+        "text": "😴😴😴",
+        "date": "2026-05-26T13:45:35.763Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "mahitab salama",
+        "score": 5,
+        "text": "I like the game",
+        "date": "2026-05-26T13:36:58.696Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "sandeep ganwar",
+        "score": 5,
+        "text": "very nice game",
+        "date": "2026-05-26T12:54:29.852Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kamatchi Vinay",
+        "score": 4,
+        "text": "it is a fun game to play with our friends",
+        "date": "2026-05-26T12:11:15.531Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Vikey Makwana",
+        "score": 5,
+        "text": "yah game bahut acchi hai aap log bhi download kar sakte ho",
+        "date": "2026-05-26T11:07:19.703Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "kumar sunny",
+        "score": 4,
+        "text": "this game is so amazing I love this game",
+        "date": "2026-05-26T11:00:03.674Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nasrin Nipa",
+        "score": 4,
+        "text": "sooo much fun",
+        "date": "2026-05-26T10:56:32.742Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Puspanjali Panigrahi",
+        "score": 5,
+        "text": "so soothing 😌",
+        "date": "2026-05-26T10:34:34.737Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Puja Biswakarma",
+        "score": 4,
+        "text": "its fun",
+        "date": "2026-05-26T09:50:19.851Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Manjeet kumar",
+        "score": 5,
+        "text": "I love this game it is 1000 of games",
+        "date": "2026-05-26T09:06:07.179Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kusum Lata",
+        "score": 5,
+        "text": "very good game",
+        "date": "2026-05-26T08:59:33.650Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Rameshwar Dass Dass",
+        "score": 5,
+        "text": "this is very nice the game name of Nick is Nisha 🥰",
+        "date": "2026-05-26T08:44:36.692Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Snehal Dalvi",
+        "score": 5,
+        "text": "I Like mini games 🎮 ☺️ 😌 😏 🙂 😊 🎮",
+        "date": "2026-05-26T08:37:51.857Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Arpita Joshi",
+        "score": 5,
+        "text": "best game ever but instead of brainrot if they had sanrio i would love it more",
+        "date": "2026-05-26T08:37:43.900Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Malati Khole",
+        "score": 4,
+        "text": "This game is nice but their are to many ads",
+        "date": "2026-05-26T08:09:59.714Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "pushpa kumari",
+        "score": 5,
+        "text": "this game is so much best best in our life really I like this game this game have so many game I have not so meaning in cutting frocks come to a animal they are many many many so much game p they are bounded craft mini car I have not installed so many games are many many many not do anything this is my favourite game in the life. Maine mere phone mein hi nahin a raha tha kyunki yah uske pura Bhar Gaya tha Maine iski apni favourite game delete kiya 10 Guna jyada achcha nikala yah mujhe bilkul nah",
+        "date": "2026-05-26T07:51:55.745Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Shilpa Mahakud",
+        "score": 5,
+        "text": "I like this game so much and you should play this game you will love this game so much You love the left right game also you will like the but do not play the Tom game because you have to download that game",
+        "date": "2026-05-26T07:47:10.232Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mariammal",
+        "score": 5,
+        "text": "🩷🩷👍👍",
+        "date": "2026-05-26T07:11:57.643Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ragini Pathak",
+        "score": 5,
+        "text": "very nice",
+        "date": "2026-05-26T07:01:19.561Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Hema Amit",
+        "score": 5,
+        "text": "too much good 💯😊",
+        "date": "2026-05-26T07:00:27.883Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Gennielyn Dela Torre",
+        "score": 5,
+        "text": "i play mini games and i'm win 😎🎉 that challenges completed until i also available 2027 srw2",
+        "date": "2026-05-26T06:39:12.334Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Saroj Soni",
+        "score": 5,
+        "text": "👀👀🩷💝💖💐🫶",
+        "date": "2026-05-26T06:20:05.963Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Samsung Mobile1",
+        "score": 5,
+        "text": "this game is nice",
+        "date": "2026-05-26T05:25:34.990Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Maya Mondal",
+        "score": 5,
+        "text": "Very relaxing. good for timepass in free time and it's totally free!🥰",
+        "date": "2026-05-26T05:20:13.686Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "MD ALAD HOSSIN",
+        "score": 5,
+        "text": "so awesome and perfect game",
+        "date": "2026-05-26T05:17:22.576Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Padmajarani Alladi",
+        "score": 5,
+        "text": "nice good 👍",
+        "date": "2026-05-26T04:35:06.648Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "jawed anwar",
+        "score": 5,
+        "text": "OMG this game so amazing in the game all game so fantastic. like say on the beat and dress changing doll and cat comb ❤️❤️🌺🌺",
+        "date": "2026-05-26T04:34:59.233Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tirumala Mamidi",
+        "score": 5,
+        "text": "it is so funny",
+        "date": "2026-05-26T04:34:04.213Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Shabana Khan",
+        "score": 5,
+        "text": "really good",
+        "date": "2026-05-26T02:27:30.260Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ana-Maria Secareanu",
+        "score": 5,
+        "text": "really fun nice and calming",
+        "date": "2026-05-25T19:30:31.295Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mst tamanna",
+        "score": 5,
+        "text": "Tayef",
+        "date": "2026-05-25T17:41:33.983Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Swara Agrawal",
+        "score": 4,
+        "text": "interesting",
+        "date": "2026-05-25T17:06:57.863Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "House Anku",
+        "score": 5,
+        "text": "it's just so fun to do and calming. That's all I have to say.",
+        "date": "2026-05-25T16:42:30.435Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Shamim bano peeran Sayyed",
+        "score": 5,
+        "text": "I LOVE THIS GAME 🤩🤩🤩",
+        "date": "2026-05-25T16:29:21.976Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Rahamath Nisha",
+        "score": 5,
+        "text": "This game is awesome you should definitely try",
+        "date": "2026-05-25T15:48:22.901Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Chloe Green",
+        "score": 5,
+        "text": "no glitching and not that much ads I love it",
+        "date": "2026-05-25T15:19:40.647Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "nabam riza",
+        "score": 5,
+        "text": "Best' ❤️❤️❤️❤️🥳🥳🥳🥳",
+        "date": "2026-05-25T14:55:00.547Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dev Dev",
+        "score": 4,
+        "text": "I hate ads",
+        "date": "2026-05-25T13:58:04.437Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Thirujdt YouTube",
+        "score": 5,
+        "text": "the scan chicken is very good",
+        "date": "2026-05-25T13:44:48.360Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kiel Ormesher",
+        "score": 5,
+        "text": "really cooooooll",
+        "date": "2026-05-25T13:42:14.461Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bose Austin",
+        "score": 5,
+        "text": "I think that my favourite game is the one like with the cutting dresses because it's just so fun and no matter how you do it's like marvellous or something yeah and I think this is very expiring because when I do again I wanted just to be like this is so expiring so this is my review",
+        "date": "2026-05-25T13:13:11.755Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Renu Devi",
+        "score": 5,
+        "text": "nice and good",
+        "date": "2026-05-25T12:56:31.331Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sneha Turukmane",
+        "score": 5,
+        "text": "it's a very amazing game I love it 😁😻",
+        "date": "2026-05-25T12:45:37.635Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Yoshita Talupula",
+        "score": 5,
+        "text": "give more funny and hot games",
+        "date": "2026-05-25T12:22:33.783Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Musfirah Faisal",
+        "score": 5,
+        "text": "best gameeeee",
+        "date": "2026-05-25T12:13:10.254Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Kamran Nafish",
+        "score": 5,
+        "text": "i love it it's cute and perfect for kids",
+        "date": "2026-05-25T11:10:13.944Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bilawal Ahmad",
+        "score": 5,
+        "text": "this game is so so fun 😊😊☺️☺️",
+        "date": "2026-05-25T10:56:01.111Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ansari Home",
+        "score": 5,
+        "text": "WOW 😉😉",
+        "date": "2026-05-25T10:02:08.658Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Margret PW",
+        "score": 5,
+        "text": "are you kidding me this game said that I will be birth to 36 kids 🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣 I love this game this is funny and mysterious and there is lots of games I love it five out of five 😍😍😍😍😍👍👍👍😘😘😘😘🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥🫶🫶🫶🫶🫶🫶💕💕💕💕💕👍🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳 love this game blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+        "date": "2026-05-25T09:54:20.560Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Fayiza Badarudheen",
+        "score": 5,
+        "text": "Hahaha",
+        "date": "2026-05-25T09:52:06.703Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Nilesh Thakkar",
+        "score": 5,
+        "text": "i. pike it",
+        "date": "2026-05-25T09:27:25.860Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Guradesh",
+        "score": 5,
+        "text": "awesome 😎 game 🎯",
+        "date": "2026-05-25T08:55:51.735Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "sudhesh cib",
+        "score": 5,
+        "text": "It was great game",
+        "date": "2026-05-25T08:17:12.220Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Mario Salditos",
+        "score": 5,
+        "text": "cool😀",
+        "date": "2026-05-25T08:04:06.695Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Caoimhe Richardson",
+        "score": 5,
+        "text": "awesome! So calming and fun!",
+        "date": "2026-05-25T07:57:47.560Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ram Kishore",
+        "score": 5,
+        "text": "it's good",
+        "date": "2026-05-25T07:29:37.944Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Tara Reissi",
+        "score": 5,
+        "text": "nice game recommended for people who just wanna chill",
+        "date": "2026-05-25T07:24:54.785Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Sohini Rusha",
+        "score": 5,
+        "text": "so so god ❤️❤️ i love this",
+        "date": "2026-05-25T07:18:49.232Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Deepa soni",
+        "score": 5,
+        "text": "very nice app.and very funny app",
+        "date": "2026-05-25T07:14:33.535Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Sanchita Borah",
+        "score": 5,
+        "text": "calm and relaxing",
+        "date": "2026-05-25T06:46:23.731Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Vikas Sarkale",
+        "score": 5,
+        "text": "nice game must try 👍",
+        "date": "2026-05-25T06:00:07.589Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Deepanshu Punia",
+        "score": 5,
+        "text": "this game is awesome download this game 🎮🎮",
+        "date": "2026-05-25T05:21:53.757Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Christian Rayven Pascual",
+        "score": 5,
+        "text": "the ads of this app is so horrifying... I love it. It made me jump when the cat eats me",
+        "date": "2026-05-25T04:39:01.966Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Anusuiya Sarda",
+        "score": 4,
+        "text": "l has enjoy it .",
+        "date": "2026-05-25T04:37:21.505Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Fernando Matias",
+        "score": 5,
+        "text": "it is a beautiful game and I love it!!",
+        "date": "2026-05-25T02:04:47.293Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Hoodo Ali",
+        "score": 5,
+        "text": "it has so much games and barely any ads",
+        "date": "2026-05-24T23:55:54.320Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "sally jones",
+        "score": 5,
+        "text": "I like this every much thank you so much.",
+        "date": "2026-05-24T23:31:47.936Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "mhae rhamil",
+        "score": 5,
+        "text": "why so fun that i actually can i play the day and ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️💖💖💖💕💖💕💕💕💕💖💖💕💕💕💕💖💕💕💕💖💖💕💖💖💖💕💖💖💖💕💕💕💕💕💖💖💖💕💖 i love you",
+        "date": "2026-05-24T23:02:26.845Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Stephanie Flietstra",
+        "score": 5,
+        "text": "I loved it rn",
+        "date": "2026-05-24T20:59:01.893Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Champ Chuck",
+        "score": 5,
+        "text": "cool app",
+        "date": "2026-05-24T20:16:20.658Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Abdul Majid",
+        "score": 5,
+        "text": "good 👍😊☺️💯 thanks 👍👍🌹🫵❤️💟👍",
+        "date": "2026-05-24T20:07:30.825Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Priya Desai",
+        "score": 5,
+        "text": "it's so free and no payments just ads and wifi i loooove this game it has so many games to play for free and good satisfying game TRY IT ON ITS FREE",
+        "date": "2026-05-24T19:03:09.153Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Afroz Md",
+        "score": 5,
+        "text": "good 😊",
+        "date": "2026-05-24T18:18:58.120Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Diandra Lovell",
+        "score": 5,
+        "text": "it is the best game I have ever played I love it.",
+        "date": "2026-05-24T18:08:30.890Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Dumade Duma",
+        "score": 5,
+        "text": "wowww",
+        "date": "2026-05-24T17:43:18.764Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "MD MURSHID",
+        "score": 5,
+        "text": "this game is very sweet and beautiful 😍❤️😍❤️😍❤️❤️❤️😍❤️😍❤️❤️❤️❤️❤️😍❤️😍❤️😍❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️ I am very lucky to play this game and download this game I love this game very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very and crazy",
+        "date": "2026-05-24T17:09:28.760Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Lilith Valdez",
+        "score": 5,
+        "text": "cute :)",
+        "date": "2026-05-24T17:08:43.410Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Fathima Majeed",
+        "score": 5,
+        "text": "super 🥰∞",
+        "date": "2026-05-24T16:15:42.165Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Sai Prasad",
+        "score": 5,
+        "text": "Super",
+        "date": "2026-05-24T16:05:58.169Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jolizmar Diaz",
+        "score": 5,
+        "text": "fantastic",
+        "date": "2026-05-24T15:46:44.372Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Muhammad Afzal Bhatti",
+        "score": 5,
+        "text": "it has add, s",
+        "date": "2026-05-24T15:19:55.330Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Scarlett Neal",
+        "score": 5,
+        "text": "i love this game tgere is not a lot of adds at all and it us very fun!!!",
+        "date": "2026-05-24T15:07:51.850Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "nyabera souma",
+        "score": 5,
+        "text": "kpop❤️‍🔥",
+        "date": "2026-05-24T14:34:25.159Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Dhanashree",
+        "score": 5,
+        "text": "cool 😎🤘🤘🤙🤙🆒",
+        "date": "2026-05-24T13:04:28.840Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Savannah Dantona",
+        "score": 5,
+        "text": "Really fun, even though my sound is broken. One problem though. The ads at random times annoy me, espesially when I`m playing the brush cat game. Everything except for the ads, is accually really fun. I can`t believe I expected a scam.",
+        "date": "2026-05-14T23:07:31.711Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "bhaskar sardar",
+        "score": 5,
+        "text": "I like this Mini challenges calm game. there are many challenges birthday I like that new one it is so crazy game you have to try this why you are wasting your time install install the Mini challenges game and play right now",
+        "date": "2026-05-22T18:48:53.612Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "RITESH KHATRI",
+        "score": 5,
+        "text": "Very marvelous, good, excellent, relaxing and funny games but they load too slow .",
+        "date": "2026-05-22T09:41:25.676Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Vanessa Ivey",
+        "score": 5,
+        "text": "It's so fun And those so many games you don't have to download like 50 games, you can you, you can play the game on the so Relaxing",
+        "date": "2026-05-17T18:32:01.839Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Kiran Junaid",
+        "score": 5,
+        "text": "THIS IS THE BEST game it has casual small fun and Phenomenal games to play plus it's available withiut internet it's like offline 2019 roblox!",
+        "date": "2026-05-17T08:35:21.956Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Sheree Roy",
+        "score": 5,
+        "text": "Bixby cuz, I listen to summertime sadness, quite wow, I'm playing this, so I love this game, so thank you for the scheme.I'm sad bye",
+        "date": "2026-05-20T19:59:09.747Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Aramiyah Langeveldt",
+        "score": 5,
+        "text": "Its so good please dont be a hater if your a youtobe just know im 6 be famillie friendly and do a video fillming and wotching revuse 5 stars",
+        "date": "2026-05-08T19:23:47.399Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Amer Anzi",
+        "score": 5,
+        "text": "a bunch of mini game fun and low storage",
+        "date": "2026-05-22T16:03:41.505Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "sang kim",
+        "score": 5,
+        "text": "I love this game 🥰🥰🥰🥰🥰🥰🥰🥰 but remove ADS!!!",
+        "date": "2026-05-16T13:24:21.858Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Sudha Singh",
+        "score": 5,
+        "text": "this is very good game I love this game so much❤️❤️😃😃😃 you should try this game this is very nice game there are so many fun filter in this game❤️🩷",
+        "date": "2026-05-21T11:10:54.526Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Bun Jan",
+        "score": 5,
+        "text": "I do play is every time i so like it i from indonesia you can speak indonesia like ti this terima kasih its like thank you",
+        "date": "2026-05-18T14:11:48.582Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Devi Choubey",
+        "score": 5,
+        "text": "verygood game if you are bored of one single game just scroll and play the game you like",
+        "date": "2026-05-21T17:15:41.442Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lucinda Brooke Breda",
+        "score": 5,
+        "text": "💅✨️it is sooooo goood not really for brushing the cat its scary and funny thanks💅✨️",
+        "date": "2026-05-18T14:15:02.654Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Yousaf Haider",
+        "score": 5,
+        "text": "it is very nice game I love it it has many many challenges I love it",
+        "date": "2026-05-20T10:55:20.189Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "sreekutty ps",
+        "score": 5,
+        "text": "great games and it is so much fun with filters",
+        "date": "2026-05-14T11:21:01.627Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Nelda White",
+        "score": 5,
+        "text": "it is a fun game but it is really difficult",
+        "date": "2026-05-12T22:40:57.859Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Mayeesha Islam Sadia Rafi",
+        "score": 5,
+        "text": "This app is very good. It is very interesting and is excellent for spending time.",
+        "date": "2026-05-18T04:48:27.214Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Rebecca Turner",
+        "score": 5,
+        "text": "this is my onlyapp it's so good. put stich and lama lama red pj it we'll make you rich love this infinity rate",
+        "date": "2026-05-08T01:00:58.783Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "MUKESH CHAUHAN",
+        "score": 5,
+        "text": "This game is surprising me 🥰😘 I don't believe many games one game 💖💝",
+        "date": "2026-05-24T03:13:50.140Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Amy Samson",
+        "score": 5,
+        "text": "it's very funny and relaxing!!!!🩷🩷🩷",
+        "date": "2026-05-21T21:05:03.548Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "HAWK SECURITY FORCE",
+        "score": 5,
+        "text": "this is the best game for filters!!!",
+        "date": "2026-05-22T13:45:37.609Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Suzanne Cooper",
+        "score": 5,
+        "text": "very well at keeping me entertained",
+        "date": "2026-03-20T20:20:12.821Z",
+        "thumbsUp": 19
+      },
+      {
+        "source": "google_play",
+        "userName": "Kosmik Kaos",
+        "score": 5,
+        "text": "I LOVE THIS GAME BUT WOULD YOU PLEASE GET THE ADS OUT BECAUSE IT MAKES ME FEEL FRUSTRATED ☹️😮‍💨😒😕😟😠😾 THANK YOU 🤗🤗😄😁😃🤗😺😸🤚👍😉",
+        "date": "2026-04-01T01:09:41.799Z",
+        "thumbsUp": 16
+      },
+      {
+        "source": "google_play",
+        "userName": "Szia Kimberly aniano",
+        "score": 5,
+        "text": "it's super fun and relaxing",
+        "date": "2026-05-10T00:31:26.326Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "Zoey Ochoa",
+        "score": 5,
+        "text": "So fun cuz how difficult it i just love when I get to play all these funny games. So much. I wish this game was a movie to watch and play Forever. And ever and ever ended up and ever and ever and ever and ever and ever and ever ever ever ever ever ever and ever and ever ever ever ever ever ever ever ever ever ever ever ever ever after ever ever ever forever ever ever after ever ever ever ever ever and ever and ever and ever and ever in an effort and never at an end. Add amber and ever and ever",
+        "date": "2026-05-23T17:55:03.797Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Rick Rife",
+        "score": 5,
+        "text": "its relaxing and fun",
+        "date": "2026-05-23T19:44:34.200Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Lakshmi Devi",
+        "score": 5,
+        "text": "this game is so much fun.",
+        "date": "2026-05-23T10:38:45.309Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Meena Gohil",
+        "score": 5,
+        "text": "I like it so much ❤️",
+        "date": "2026-05-23T09:27:15.500Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Cora",
+        "score": 5,
+        "text": "This is the second best game after Minecraft.",
+        "date": "2026-05-09T11:43:25.624Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Nancy Van Siegman",
+        "score": 5,
+        "text": "the first I downloaded it and it wouldn't work so did I try the second time and it worked in the system was relaxing thing I've ever done and it's really good",
+        "date": "2026-05-16T04:20:45.369Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Fariya Khan",
+        "score": 5,
+        "text": "its good but its good🤣",
+        "date": "2026-05-22T16:14:38.756Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Hujaifa Khanam",
+        "score": 5,
+        "text": "Very fun and relax!",
+        "date": "2026-05-08T08:22:48.302Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "army bts",
+        "score": 5,
+        "text": "So creative I fell in love",
+        "date": "2026-05-08T00:07:04.374Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Priya Agarwal",
+        "score": 5,
+        "text": "much creative game I wanted 😍😍😍",
+        "date": "2026-05-21T10:25:44.219Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Adhwika Athul",
+        "score": 5,
+        "text": "I love this game it's the best 😍",
+        "date": "2026-05-21T08:41:45.912Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Rifa Rifa",
+        "score": 5,
+        "text": "l am only LOVE this game",
+        "date": "2026-05-15T10:18:29.900Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Lael Albert",
+        "score": 5,
+        "text": "thank you for the games 🎮 🙏",
+        "date": "2026-05-09T03:54:05.551Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Nagesh Chavan",
+        "score": 5,
+        "text": "this is the best for flight 😁",
+        "date": "2026-05-19T18:17:09.306Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "fo8 ufo",
+        "score": 5,
+        "text": "it is very funny",
+        "date": "2026-05-20T10:05:36.679Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Shaji K",
+        "score": 5,
+        "text": "not good or not bad that's what is the moral of the game 😌🙂",
+        "date": "2026-05-14T14:04:59.632Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Audrianna Nana",
+        "score": 5,
+        "text": "This game is very good and fun",
+        "date": "2026-05-16T08:11:29.164Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Angelica Melendez",
+        "score": 5,
+        "text": "I love it so much",
+        "date": "2026-05-13T22:40:46.470Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Nyaradzai Muchingami",
+        "score": 5,
+        "text": "I love this game",
+        "date": "2026-05-11T11:01:54.984Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Ram Ram ji",
+        "score": 5,
+        "text": "good 👍👏😁games 10/10",
+        "date": "2026-05-21T17:53:56.681Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "amazing aeryll",
+        "score": 5,
+        "text": "Mini challenge Calm games",
+        "date": "2026-05-17T01:54:11.954Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Chinna Pappa",
+        "score": 5,
+        "text": "this game was soo nice 😁",
+        "date": "2026-05-20T11:22:46.522Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Carlos Esparza",
+        "score": 5,
+        "text": "I love it lol fr",
+        "date": "2026-05-10T02:06:31.448Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Shasui rah",
+        "score": 5,
+        "text": "my favorite game",
+        "date": "2026-05-22T10:57:38.630Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Paulo Vueta",
+        "score": 5,
+        "text": "omg this game has games 🎮🎮",
+        "date": "2026-05-09T10:40:02.765Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Rama Bastola",
+        "score": 5,
+        "text": "This game is so nice I love it 🤩",
+        "date": "2026-03-21T02:45:34.204Z",
+        "thumbsUp": 19
+      },
+      {
+        "source": "google_play",
+        "userName": "Luis Zelaya",
+        "score": 4,
+        "text": "it's very fun, but it has ads",
+        "date": "2026-05-06T23:02:49.357Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Jayabharathi Potluri",
+        "score": 4,
+        "text": "i gave this game only 4 stars because it has more annoying ad's but I love this game if you remove those i will give you 5 star🤗",
+        "date": "2026-04-24T07:18:02.180Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "userName": "Rincy Muthappan",
+        "score": 4,
+        "text": "l love it. It is so calm and relaxing and so fun.",
+        "date": "2026-05-23T12:39:25.694Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Bertha Kamati",
+        "score": 4,
+        "text": "it's a very nice game! download now",
+        "date": "2026-05-07T21:05:55.333Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "app_store",
+        "userName": "Vanespino24",
+        "score": 5,
+        "text": "I love this \nIdea of a Good Time play",
+        "date": "2026-05-25T17:04:04-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Takeitintoconsideration",
+        "score": 5,
+        "text": "I hate that",
+        "date": "2026-05-25T15:40:35-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Neison Hernest",
+        "score": 5,
+        "text": "This is the best because it has a lot of games",
+        "date": "2026-05-25T14:18:26-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Nickname lollipop for me",
+        "score": 4,
+        "text": "I like this game but it has a lot of adds so most times is an add.",
+        "date": "2026-05-25T12:04:58-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pancake butter, fried chicken",
+        "score": 5,
+        "text": "It’s the best game",
+        "date": "2026-05-25T04:25:38-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Crossword2579",
+        "score": 4,
+        "text": "I had it for a bit but then my sister got rid of it. Then I survived without it for a while. I decided I wanted it back so I redownloaded and I now love this game.",
+        "date": "2026-05-24T20:06:54-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Max da baddie",
+        "score": 5,
+        "text": "I love this game I play it when I’m bored or mad at something but it has to many adds",
+        "date": "2026-05-24T19:48:13-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "🌍 The first time we had 🌈",
+        "score": 5,
+        "text": "It’s like Roblox but more fun stuff sorry Roblox, but thanks for reading this!",
+        "date": "2026-05-24T19:26:54-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Review dog is nutts",
+        "score": 4,
+        "text": "It is bad to many adds and if you have parental gardiens then you can’t have it",
+        "date": "2026-05-24T17:47:29-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Aka amazing game /very good",
+        "score": 5,
+        "text": "This game is so fun and I can’t stop playing the whole thing lol 😂 it’s a good one to play and the gameplay was so good and I loved the game so much and I love the way the graphics are and I can’t even get into the story.",
+        "date": "2026-05-24T14:21:03-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ariel Zanella",
+        "score": 5,
+        "text": "I love it",
+        "date": "2026-05-24T10:38:00-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mini games for Lilyana",
+        "score": 5,
+        "text": "This game is so cool and fun I play it all the time",
+        "date": "2026-05-24T05:59:53-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Milo￼ cat",
+        "score": 5,
+        "text": "I love this game it is so awesome and so cool. You should get it. It’s most probably the funniest game I’ve ever played. It’s most funniest game ever ever played. You should definitely get it but the only thing that for the dress and Demon slayer clothes and items that would be really fun so get this app is probably the best to exist for Commonwealth. Relax, you can be calm and relax and have fun at the same time and then after that once you get really good stuff you be so much you’ll be true. You just be so you’re just chilling that’s why she love it so much thank you for reading this love you guys bye",
+        "date": "2026-05-23T09:24:12-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Real Mr.beast",
+        "score": 5,
+        "text": "Medium",
+        "date": "2026-05-23T05:40:01-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "😞😞😭😭😭",
+        "score": 5,
+        "text": "Capybara capybara capybara capybara",
+        "date": "2026-05-22T18:06:44-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Vrp1118",
+        "score": 5,
+        "text": "This game is so much fun",
+        "date": "2026-05-22T03:26:27-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Lailah Hardy",
+        "score": 5,
+        "text": "This game is so good",
+        "date": "2026-05-21T17:58:33-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Big back Saenz",
+        "score": 5,
+        "text": "It’s a five of five but I wish that there was less adds",
+        "date": "2026-05-21T13:37:47-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ttftrfrdfyrhfgyujiiiiii",
+        "score": 4,
+        "text": "It is funny",
+        "date": "2026-05-21T12:25:37-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "StellyAWESOME",
+        "score": 4,
+        "text": "TOO MANY ADDS THO",
+        "date": "2026-05-21T11:32:07-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "My dog loves it and my cat",
+        "score": 5,
+        "text": "It’s a super fun game and there a lot of adds but all you need to do is turn Wi-Fi off then there’s no adds I had fun playing this with my friends like it was a real ticktock",
+        "date": "2026-05-20T19:04:56-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Denimalex4",
+        "score": 5,
+        "text": "lol I love it!!🤩🤩🤩🤩🤩🤤🤤🤤",
+        "date": "2026-05-20T16:34:55-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "The queen 25",
+        "score": 5,
+        "text": "The game is so good because  it is so cool and creative",
+        "date": "2026-05-19T17:04:29-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Emery $$$$@$$",
+        "score": 5,
+        "text": "Baddddddd",
+        "date": "2026-05-19T16:37:49-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jtw0326",
+        "score": 5,
+        "text": "I’m very happy with this games",
+        "date": "2026-05-18T21:14:11-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Reporter alpha",
+        "score": 4,
+        "text": "I love the game and all but THERE ARE SO MANY ADS!!",
+        "date": "2026-05-18T17:36:34-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "A YouTuber brooo",
+        "score": 4,
+        "text": "Can you please delete scream chicken my cousin keeps screaming on it i told him to stop screaming and he wont",
+        "date": "2026-05-17T11:52:01-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Peppa ￼￼",
+        "score": 5,
+        "text": "Peppa",
+        "date": "2026-05-17T07:30:47-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "notlaurencurl",
+        "score": 5,
+        "text": "This is so fun my child loves this",
+        "date": "2026-05-16T10:36:38-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "kiki merd",
+        "score": 5,
+        "text": "I read this game five stars because it’s so much fun and I can’t even stop playing it like when I have to leave the game I’m just so sad because I love this game is my favorite game on my phone my favorite app too",
+        "date": "2026-05-16T07:45:29-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Butterfly :",
+        "score": 5,
+        "text": "I love all the games there so Fun especially the predicting ones",
+        "date": "2026-05-15T19:33:26-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "¡i¡i¡ii",
+        "score": 5,
+        "text": "Way too many ads also many ads stoping you from playing. Only reason I gave 5 stars is so you can see this",
+        "date": "2026-05-15T09:46:07-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "DD and my sister would be pp",
+        "score": 5,
+        "text": "It’s a good idea to get it now",
+        "date": "2026-05-14T16:05:34-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "B and A are the",
+        "score": 5,
+        "text": "Ana Clarisa",
+        "date": "2026-05-14T15:41:57-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mario-Upper90Energy",
+        "score": 5,
+        "text": "This game makes you feel soooooo relaxed! You should try.",
+        "date": "2026-05-14T15:11:29-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "It’s your girl Nevaeh 🤗",
+        "score": 5,
+        "text": "This game is super fun!! It’s just like the add all the games in this fun!! Speaking of adds there is way too many adds in this game like… every time I loose the game i get an add and when you go on this game it takes a little time to load so I want that fixed immediately!! But also you need PERFECT internet for this game like no glitches in your WiFi!. But besides the WiFi adds and time to load is pretty good thank you  for reading this paragraph 😅😂.",
+        "date": "2026-05-13T16:01:25-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Koala puncher",
+        "score": 5,
+        "text": "It’s pretty fun. I gave it five stars so you would definitely see it. I would’ve given it like three stars. There’s just so many ads.",
+        "date": "2026-05-13T11:09:44-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jswan0408",
+        "score": 4,
+        "text": "I like it because it takes so many hours away and games on Snapchat, other games.but ads still pop up.",
+        "date": "2026-05-13T04:31:38-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "2027 maha",
+        "score": 5,
+        "text": "8\nYas\n2026",
+        "date": "2026-05-13T00:46:23-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "“Rose Dawson”",
+        "score": 5,
+        "text": "So normally games need WiFi but this one doesn’t. Also it is not one of those boring games it has many different fun games to play and I think this deserves 5 stars because it is amazing and never have I found a game that doesn’t need WiFi that is fun to play. So I think you should download",
+        "date": "2026-05-12T12:44:54-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Chicken, veggie nugget",
+        "score": 4,
+        "text": "This game is cool but it has SO MUCH ADS AND ITS ANNOYING😡",
+        "date": "2026-05-11T19:39:10-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Gxhdnchchco",
+        "score": 5,
+        "text": "……………",
+        "date": "2026-05-11T16:40:18-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Chinkennugg101",
+        "score": 5,
+        "text": "It’s so relaxing playing, The game  helps me when I’m bored and it helps me chill and calm down.Its so fun,but one doubt is just a little bit of adds.But that doesn’t go down 1 star.WONDERFUL!!( this is the first game I have ever gave 5 stars) THANK YOU",
+        "date": "2026-05-11T13:21:30-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Fgkrkfkfkeifkroe",
+        "score": 5,
+        "text": "This game is calm",
+        "date": "2026-05-11T05:32:09-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Fprotopapas",
+        "score": 5,
+        "text": "Game is so fun you can do so many games and you can do it for free\nDo it now",
+        "date": "2026-05-10T10:49:23-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "citlaly corbett",
+        "score": 5,
+        "text": "l love this game but it so cute and fun and bye",
+        "date": "2026-05-10T00:44:14-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "The best fourteen hours",
+        "score": 5,
+        "text": "A firefighter five",
+        "date": "2026-05-09T16:05:53-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Lily’s been here",
+        "score": 4,
+        "text": "The game is really fun and it’s not that weird but their is just so many adds and it get annoying",
+        "date": "2026-05-09T15:52:45-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Me love this period girl",
+        "score": 5,
+        "text": "It’s fun but add no adds",
+        "date": "2026-05-09T12:49:08-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Block blassssst",
+        "score": 4,
+        "text": "It is very nice",
+        "date": "2026-05-09T12:18:56-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "How old ever",
+        "score": 5,
+        "text": "It’s calm and fun at the same time",
+        "date": "2026-05-09T08:18:05-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "HeisRisen87",
+        "score": 5,
+        "text": "Hissam",
+        "date": "2026-05-08T14:37:14-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "FF j de",
+        "score": 4,
+        "text": "4.9 stars",
+        "date": "2026-05-07T17:50:44-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "kinhger",
+        "score": 5,
+        "text": "Love this game soo much it is fun and addicting in a good way",
+        "date": "2026-05-06T16:52:10-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "57 Bella 67",
+        "score": 5,
+        "text": "It has a bunch of ads, but it’s still really good and it’s really calming and funny. You should really try it.",
+        "date": "2026-05-06T13:14:13-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "iNeoTekAndy",
+        "score": 5,
+        "text": "اقننثهثهعهثه",
+        "date": "2026-05-06T04:38:53-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "comradespongeblob",
+        "score": 5,
+        "text": "Love it but you could take away adds",
+        "date": "2026-05-05T17:35:12-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pinksassycat3692",
+        "score": 5,
+        "text": "The games on there are so much fun. You can create your own account on there, you can play with other people, like it is so fun. I would recommend people to play it.❤️❤️❤️",
+        "date": "2026-05-04T19:40:41-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Cleo12cat",
+        "score": 5,
+        "text": "This game is the best ever the ads are like every couple of games but it’s not too bad but I love it. I would like if it cost \nmoney I will play it so hopefully this helps y’all so yeah.",
+        "date": "2026-05-03T12:42:28-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Happylittlelearner",
+        "score": 5,
+        "text": "The game itself is really good but the only concern I have is there arevyo many add",
+        "date": "2026-05-03T06:44:47-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Stitch lover￼",
+        "score": 5,
+        "text": "It is so relaxing",
+        "date": "2026-05-03T05:31:55-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "BlAkelyscott",
+        "score": 5,
+        "text": "1,0000",
+        "date": "2026-05-02T08:36:45-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Clam kid",
+        "score": 5,
+        "text": "What that clam",
+        "date": "2026-05-01T15:14:07-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Unknown a.k.a.￼￼ Walla",
+        "score": 5,
+        "text": "This is great I’ve seen all of this on my for you page. I’m so glad I get to play it now.",
+        "date": "2026-05-01T14:46:49-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Avabuggy",
+        "score": 5,
+        "text": "I used to have zero followers and now I have 14M thank you so much best game ever!!!!",
+        "date": "2026-05-01T11:43:36-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "*⋆ ˚｡⋆୨୧˚ 𝓟𝓮𝓷𝓷𝔂 ˚୨୧⋆｡˚ ⋆*",
+        "score": 4,
+        "text": "𝓘 𝓶𝓮𝓪𝓷 𝓲𝓽 𝓷𝓸𝓽 𝓽𝓱𝓮 𝓫𝓮𝓼𝓽 𝓰𝓪𝓶𝓮 𝓲𝓷 𝓽𝓱𝓮 𝔀𝓸𝓻𝓭  𝓫𝓾𝓽 𝓽𝓱𝓮𝓻𝓮 𝓪 𝓵𝓸𝓽 𝓸𝓯 𝓪𝓭𝓼. 𝓑𝓾𝓽 𝓽𝓱𝓮𝓻𝓮 𝓪𝓻𝓮 𝓮𝓿𝓮𝓷 𝓶𝓸𝓻𝓮 𝓰𝓪𝓶𝓮𝓼 𝓽𝓱𝓪𝓷 𝓪𝓭𝓿𝓮𝓻𝓽𝓲𝓼𝓮𝓭  𝓪𝓷𝓭 𝓸𝓿𝓮𝓻𝓪𝓵𝓵 𝓲𝓽 𝓪 𝓭𝓮𝓼𝓬𝓮𝓷𝓽 𝓰𝓪𝓶𝓮 𝓫𝓾𝓽 𝓘 𝔀𝓸𝓾𝓵𝓭𝓷'𝓽 𝓱𝓲𝓰𝓱𝓵𝔂 𝓻𝓮𝓬𝓸𝓶𝓶𝓮𝓷𝓭 𝓽𝓱𝓲𝓼 𝓰𝓪𝓶𝓮. ໒꒰ྀི ˶• ༝ •˶ ྀི১. ദ്ദി‎◍˃ ᵕ ˂◍)",
+        "date": "2026-04-28T18:51:24-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "❤️AI ❤️",
+        "score": 5,
+        "text": "♾️ stars",
+        "date": "2026-04-27T15:47:19-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Co kooooo",
+        "score": 5,
+        "text": "There was no adds and it was perfect i don’t know who made this game but they did a good good job yeyeyyeyeheheheheyeyeyeyeyyeyeyeyyeyeyeyeyeyeyye now watch me whip watch my nay nay🐸🐸😭😭🔥🔥🔥",
+        "date": "2026-04-25T14:09:38-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Yousouxdd cry gs",
+        "score": 5,
+        "text": "I love your game but ther are to many adds",
+        "date": "2026-04-25T08:46:22-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Leahpuopy 💞🐶",
+        "score": 5,
+        "text": "Every single second I press one theres an add all the time it is so annoying. This is fun by please do less ads! Or even no ads!",
+        "date": "2026-04-24T22:09:30-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Brainsurgeon1",
+        "score": 5,
+        "text": "Loved this game 😍",
+        "date": "2026-04-24T16:58:11-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "JayDussy",
+        "score": 5,
+        "text": "So much fun",
+        "date": "2026-04-23T17:55:46-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "⭐️⭐️✨✨✨⭐️⭐️🌟🌟💫💫",
+        "score": 4,
+        "text": "This is amazing but I have to rate this 4 ⭐️ because THE ADS I hate the adds every time I complete a level add it’s everywhere! So that is why I am rating this four stars ⭐️",
+        "date": "2026-04-23T10:49:51-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Waffle master000",
+        "score": 4,
+        "text": "I like this game it makes me feel like I am a streamer but there are a lot of adds",
+        "date": "2026-04-23T04:06:05-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Play pls love this game",
+        "score": 5,
+        "text": "I love this gameeee",
+        "date": "2026-04-22T20:17:50-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hyydhdgdudhgd",
+        "score": 4,
+        "text": "This game has way too many pop-up ads, but this game is very very fun. You should try it out.",
+        "date": "2026-04-21T16:55:34-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Dwsaa esa sed de ese",
+        "score": 5,
+        "text": "Es el mejor juego del mundo Que he visto",
+        "date": "2026-04-19T18:54:26-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ввввв какаа",
+        "score": 4,
+        "text": "Гуд Гуд игра мяу мяу",
+        "date": "2026-04-19T01:46:10-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "Bonisgoat",
+        "score": 4,
+        "text": "Rất vui và thư giãn",
+        "date": "2026-04-18T18:02:13-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "cbarnes98",
+        "score": 5,
+        "text": "Give it five review right now",
+        "date": "2026-04-18T15:30:12-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hub hjnj",
+        "score": 5,
+        "text": "So amazing so many games and I’m happy that there’s a lot of games in one mini game thank you",
+        "date": "2026-04-18T08:16:54-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "Piper is so dead and mad",
+        "score": 5,
+        "text": "It’s an interactive it even helps me with my local cards and also it has K-pop the 100s I love K-pop demon hunters",
+        "date": "2026-04-17T18:22:55-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mckaylor",
+        "score": 4,
+        "text": "I think it’s ok but the mini games are a little weird like sprunkies",
+        "date": "2026-04-17T16:58:19-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "Salman Ab",
+        "score": 5,
+        "text": "It’s helps my depression",
+        "date": "2026-04-17T10:43:59-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "Sasquatch😄❤️❤️❤️",
+        "score": 5,
+        "text": "I really like this game. It has a bunch of fun and cool and fun games. I do think that one of the games they should have is a ranking game we get to rank different stuff. Like how they have the filter set up.",
+        "date": "2026-04-16T18:37:21-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "I hate ads they are the worst",
+        "score": 5,
+        "text": "You need to get rid of the ads like nobody wants to have them like me and I have to play off-line. I hate the ads. Please get rid of it.",
+        "date": "2026-04-15T16:21:22-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "🐶🐴🫥😛😝😜🤪🌸🌸",
+        "score": 4,
+        "text": "Supper fun and relaxing but every time I get on before I even get on it gives me an ad",
+        "date": "2026-04-15T15:20:32-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Lesdoodle",
+        "score": 5,
+        "text": "Love this game it keeps me so focused I focus more in school. Just thinking about the game",
+        "date": "2026-04-13T12:11:44-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "coconut351",
+        "score": 5,
+        "text": "I love this game so much! There’s not a lot of ads. The amount of ads is perfect. I love this app it’s so relaxing and I totally recommend this app for you☺️",
+        "date": "2026-04-12T12:28:53-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Among Us fan from 2020",
+        "score": 4,
+        "text": "It’s like ranking things hair like characters like I don’t know like those like filters and like maybe satisfying like ASMR organizing things",
+        "date": "2026-04-12T12:24:38-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Perth6627",
+        "score": 5,
+        "text": "It’s entertaining",
+        "date": "2026-04-11T17:27:17-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Benicio Mickels",
+        "score": 4,
+        "text": "Really good game super calm and helpful",
+        "date": "2026-04-11T07:20:35-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Toooooooooooooootaaaaaaaaa",
+        "score": 4,
+        "text": "the game is super fun and challenging it is so much good but can you make it more more faster to download",
+        "date": "2026-04-11T04:47:59-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Loulourun",
+        "score": 5,
+        "text": "So fun to play when u are bored",
+        "date": "2026-04-09T17:42:22-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "ohh aah",
+        "score": 5,
+        "text": "Literally such a baddie game. LITERALLY.",
+        "date": "2026-04-09T16:49:13-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "￼￼Christian",
+        "score": 5,
+        "text": "Beause it is good game",
+        "date": "2026-04-09T08:11:41-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Sunc_fenddi",
+        "score": 5,
+        "text": "I’m gonna be rich in 2070",
+        "date": "2026-04-08T13:13:12-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Wild fox 🦊",
+        "score": 5,
+        "text": "I like to play the dressing up game! It’s the best game I’ve ever played!",
+        "date": "2026-04-08T12:01:19-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Olivia  thomas 28",
+        "score": 5,
+        "text": "This game is so fun. I love dressing up the dolls and doing the filters there are so many games to play on this game is is the best. There is when will you become a billionaire and so many others. I would really recommend this game",
+        "date": "2026-04-08T11:23:24-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Stella Gil",
+        "score": 4,
+        "text": "It has adds my sister said it doesn’t I thought it was chill and calm I don’t like the adds",
+        "date": "2026-04-07T09:36:45-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Yelidac",
+        "score": 5,
+        "text": "it is really fun and I gave it five stars. Try it out.",
+        "date": "2026-04-06T17:21:56-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "8slayqeen5",
+        "score": 5,
+        "text": "Just did five stars so people can see this review. This game is so bad cause people can see your face on the Internet and I don’t want any more kids that I’m in a Mom to five kids and each of them have this and I’ve seen their face on YouTube and they’ve been getting nasty comments",
+        "date": "2026-04-06T14:53:00-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "💕love this game",
+        "score": 5,
+        "text": "I love this game because it’s so fun and relaxing every one told me about this game so I gave it a try and it’s a really good game you should play it",
+        "date": "2026-04-05T20:56:19-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "IKEADaniel    🇺🇸",
+        "score": 5,
+        "text": "I. Love this game",
+        "date": "2026-04-05T12:32:45-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "CJmW07",
+        "score": 5,
+        "text": "𝕄𝕪 𝕜𝕚𝕕𝕤 𝕝𝕚𝕜𝕖 𝕥𝕙𝕒𝕥",
+        "date": "2026-04-04T20:08:56-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Know it all 226",
+        "score": 5,
+        "text": "WHY IS IT 13+ NOW I CAN NOT PLAY IT!",
+        "date": "2026-04-04T12:05:22-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Good reason for this",
+        "score": 4,
+        "text": "Im gonna be completely honest with this game. I like the games and all that but the amount of ads ARE NOT necessary! I get so tired of opening the game to an ad then tapping something I want to play and another ad pops up! Sometimes when I do two things, I get another ad! Im so confused why this game would possibly need so many. It’s not like it has a couple hundred people playing it or anything.",
+        "date": "2026-04-04T10:37:59-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Chasey smalley",
+        "score": 5,
+        "text": "I can play a lot on here and it’s very fun",
+        "date": "2026-04-03T18:34:44-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "PS. Sorry",
+        "score": 4,
+        "text": "Ok so I was playing this game and when I’m playing this game this add came up and it would not go off. This happens every time and it was very frustrating. And also again there is to many adds. But after all this game is cool but I wouldn’t play this game anymore. PS. Sorry it’s just true 😕",
+        "date": "2026-04-03T15:28:00-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "The best  game yeah baby",
+        "score": 5,
+        "text": "I love the game in fact",
+        "date": "2026-04-03T11:29:19-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Coolgirl5757",
+        "score": 4,
+        "text": "Ok is, this game has A LOT of adds which is really bugging but you have to buy something to get rid of them so I wish they would fix that but  it is a fun game with lots of different filters and stuff so if you get this app I would probably buy the no adds thing and after that it's not so bugging.   it's not that bad compared to other filter apps that make you pay. My favorite filter on this is the prediction filter, overall I would buy this if I already haven't. Just one suggestion for this app, please pleasee remove the ADDS.",
+        "date": "2026-04-02T09:00:38-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Maemae 100",
+        "score": 4,
+        "text": "I like to have, but there’s way too many adds. If they remove and it would be more enjoyable to play. All in all this game is fabulous.",
+        "date": "2026-03-31T20:45:44-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Adi baddy",
+        "score": 5,
+        "text": "Ok so it’s a good game but it has some flaws but over all I’m in love❤️❤️❤️❤️💋💋💋😀😀😀😀",
+        "date": "2026-03-31T20:04:47-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Show in show out 123",
+        "score": 5,
+        "text": "This game is so fun and relaxing definitely recommend playing it",
+        "date": "2026-03-29T14:36:15-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jonas0137",
+        "score": 5,
+        "text": "Like you can play almost like these games are really good. One of my favorite games. This is fashion one you have to go against somebody and whoever wins wins so have a funny one,",
+        "date": "2026-03-29T10:21:27-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Fatoom an",
+        "score": 5,
+        "text": "𝙎𝙚𝙧𝙪𝙞𝙨𝙡𝙮",
+        "date": "2026-03-29T02:11:39-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "내 볼댕댕ㅋㅋ",
+        "score": 5,
+        "text": "너무좋고 이거광고도 별로안나온다구요 진짜좋아여 이거플레이하신분들 이거진짜꿀잼이죠잉 이거만든사람천재 지금플레아하세요 여러가지게임이 여러분을기다리고계세요 마지막으로 한마디,넘 좋아¡¡¡¡,,¡",
+        "date": "2026-05-09T00:27:25-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "밖에 수 있어",
+        "score": 5,
+        "text": "너무 재밌어서 리뷰를 했어요",
+        "date": "2026-05-08T21:28:15-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "도준이파워!",
+        "score": 5,
+        "text": "재밋어여❤️❤️❤️",
+        "date": "2026-05-03T22:06:14-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "하루 하하 하이",
+        "score": 5,
+        "text": "광고 넘 많아요 에바",
+        "date": "2026-03-25T06:21:23-07:00",
+        "version": "5.2"
+      },
+      {
+        "source": "app_store",
+        "userName": "같이게임할레요",
+        "score": 5,
+        "text": "광고가만킨한데너무제미있음니다게발잔님이거보고업데이트좀헤주세용",
+        "date": "2026-03-19T03:16:03-07:00",
+        "version": "5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "쌰갈 ٩(๑`^´๑)۶ ",
+        "score": 5,
+        "text": "처음에는 재미있어 보였는데 막상하니까 재미없음 그리고 광고가 너무 많이 나옴 비추",
+        "date": "2026-03-10T02:27:17-07:00",
+        "version": "5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "광고 없는 게임",
+        "score": 5,
+        "text": "1년이 지난 지금도 광고가 쏟아지고 광고 연속으로 2번 뜨고 걍 광고에 미친 앱입니다. 혹여 호기심이라도 다운 받지 말길",
+        "date": "2026-03-05T12:02:13-07:00",
+        "version": "5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "허거거거ㅓ거ㅓ걱",
+        "score": 5,
+        "text": "광고가 너무 많아요",
+        "date": "2026-03-02T04:03:59-07:00",
+        "version": "5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "바위게게",
+        "score": 5,
+        "text": "그럼 광고 안 나와",
+        "date": "2026-02-27T20:49:56-07:00",
+        "version": "5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "환이아빠^^",
+        "score": 5,
+        "text": "진짜 광고가 너무 많아서 무슨 하나 하면 뜨고 하다가 뜨고.. 진짜 게임은 재밌는데 광고가 너무너무 많이 나오네요 짧은 5초 광고도 아니고.. 핸드폰 용량만 찹니다. 비추비추",
+        "date": "2026-01-12T23:48:05-07:00",
+        "version": "4.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "커야운 애깅",
+        "score": 4,
+        "text": "광고가 넘많아요ㅠㅠ",
+        "date": "2026-01-03T19:42:55-07:00",
+        "version": "4.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "노래 잘하는 힘 쎈 호랑이",
+        "score": 5,
+        "text": "너무재미 있고 짜릿해 요!!! 단점은 영어지만…,,,",
+        "date": "2025-12-31T23:13:24-07:00",
+        "version": "4.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "😍🥹🥹🥹🥹",
+        "score": 4,
+        "text": "광고만 줄이면 될것같아요",
+        "date": "2025-12-01T00:53:18-07:00",
+        "version": "4.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "미츠리짱",
+        "score": 5,
+        "text": "안녕하세요 저 이거얼마한지않됐는데 너무재밌습니다 여러가지 태마가 있어 좋아요 이탈리안 브레인롯에 삐져있어서 많이해요 재작자님 \n감사해요❤️❤️❤️❤️",
+        "date": "2025-07-04T01:06:40-07:00",
+        "version": "3.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "ㅎㅊㅎ츄",
+        "score": 4,
+        "text": "게임이 재밌고 종류도 다양해서 좋은데 광고가 뭐 레벨한개 깨면 나옴;;제작자님 이거 업뎃해서 수정해주세요!",
+        "date": "2025-07-01T16:36:15-07:00",
+        "version": "3.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "좋은 피아노옹",
+        "score": 5,
+        "text": "너무좋고 실력이 더 늘어서 남자애들 을 이길수있을것같아요 우리만",
+        "date": "2025-06-18T06:21:46-07:00",
+        "version": "3.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "다입입니당",
+        "score": 5,
+        "text": "진짜 틱톡,쇼츠,인스타 그런데 너무 많이 떠서 찾아서 해보니 할말 필요 없음 그래서 그냥 하면됨",
+        "date": "2025-06-10T05:45:07-07:00",
+        "version": "3.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "레블스5",
+        "score": 5,
+        "text": "광고가너무많아서좀그래요",
+        "date": "2025-06-07T23:19:30-07:00",
+        "version": "3.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "⭐️멜로",
+        "score": 5,
+        "text": "다양한 게임이 있어서 좋음 더 많은 게임이 생겼으면 좋겠다",
+        "date": "2025-06-02T05:28:59-07:00",
+        "version": "3.2"
+      },
+      {
+        "source": "app_store",
+        "userName": "bbuya13",
+        "score": 5,
+        "text": "너무너무 재미있게 사용하고 있다! 틈 날때마다 조금씩 할 수있는 미니게임이 많아서 기쁘고 활기차다!",
+        "date": "2025-06-01T16:09:20-07:00",
+        "version": "3.2"
+      },
+      {
+        "source": "app_store",
+        "userName": "냐냔이",
+        "score": 5,
+        "text": "너무너무 재미있어요!",
+        "date": "2025-05-09T03:16:34-07:00",
+        "version": "2.9"
+      },
+      {
+        "source": "app_store",
+        "userName": "게미",
+        "score": 5,
+        "text": "광고넘많아요",
+        "date": "2025-05-05T05:02:09-07:00",
+        "version": "2.9"
+      },
+      {
+        "source": "app_store",
+        "userName": "로블록스 매니아",
+        "score": 5,
+        "text": "일단 광고가 ㄹㅈㄷ네요..\n게임이 재미있어서 1판 하면 \n바로 광고가 나오고\n꾹 참고 다시 1판 하면 또\n광고가 나와요…하…\n제작자님 아무리 그래도 광고가 \n이렇게 많으면 1판 1판 정성드려 \n열심히 게임을 즐기는 유저가\n사라질 것 같아요. 저는 이 게임을\n2점으로 평가 할 수 있을 것 \n같습니다…..일단 1점은 게임이 너무\n재밌어서 이고요 나머지 1점은 \n다양한 게임이 인터넷이 안 좋아도\n(없는게 아니라 안 좋은 거임)\n잘 된다는 점 입니다.\n방 업그레이드 하는 것 도 기발하긴\n한데..전 광고만 적게 나오시게\n해주시면 별점 5점입니다!!!\n광고가 없게 해주시는게 아니라\n광고를 줄여달라는 겁니다..",
+        "date": "2025-05-04T22:26:59-07:00",
+        "version": "2.9"
+      },
+      {
+        "source": "app_store",
+        "userName": "skstoddl",
+        "score": 5,
+        "text": "11살 소녀인데요.엄폰으로 이겜을 하고 있어요.광고가 만긴 해도 게임도 많고 여러가지기 때문에(게임이)좋아요!!\n\n_리뷰 보내는 사람한테(불평하는사람만)\n\n그리고 이거 없에라~ 하는 사람은 다른 게임 받으면 되지!\n개발자한테 게임한테 이래라 저래라에요!!!💢\n러 게임하고 기분 안 좋은 리뷰 남기지 말고 걍 그럴거면\n개발자님! 저 (않 좋은 점)않좋은데 고처주세요~ 이러지,\n나쁜 말하지 마셈요!\n\n어쨌든 이거 광고 빼면 좋으니 이 것만 고쳐 주면 돼요!\n이겜 완전 추천 입니댜^^",
+        "date": "2025-05-02T05:24:52-07:00",
+        "version": "2.9"
+      },
+      {
+        "source": "app_store",
+        "userName": "응꼬>_<",
+        "score": 5,
+        "text": "너무 재밌는데 광고가 너무 많이나와요ᅲᅲ 그래서 광고만 줄여주시면 좋을거같아요",
+        "date": "2025-02-21T01:16:52-07:00",
+        "version": "2.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "오타쿠타쿠상",
+        "score": 4,
+        "text": "마이크로 하는게 꽤 재밌습니다. 그리고 게임 종류도 다양하구요. 다만 광고가 조금 심합니다 레벨 한 개 깨면 광고가 나옵니다.",
+        "date": "2025-02-18T03:12:37-07:00",
+        "version": "2.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "온이💖",
+        "score": 5,
+        "text": "막상 하니까 고음이 잘됌ㅋㅋ",
+        "date": "2025-02-17T00:54:29-07:00",
+        "version": "2.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Soyunpark",
+        "score": 5,
+        "text": "미니게임 넘 재밌어요!! 할 게임 많고 넘 좋구요, 광고 많이 뜨죠? 데이터 와이파이 다 끄면 하나도 안 나옴! 이렇게 하면 최근 깐 앱들 중 가장 만족😍",
+        "date": "2025-02-12T02:11:47-07:00",
+        "version": "2.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "무지개 빠삐용",
+        "score": 5,
+        "text": "너무너무 재미있네요 근데 광고가 너무 많이나오네요",
+        "date": "2024-11-30T01:36:58-07:00",
+        "version": "1.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "ㅅㅎ❤️ㅎㅈ",
+        "score": 5,
+        "text": "진짜 스트레스가 다 날라가ㅏㅏㅏ",
+        "date": "2024-11-24T02:38:46-07:00",
+        "version": "1.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "재미있는신기함",
+        "score": 5,
+        "text": "이게 마이크로 하니까 재밌고 신기해요",
+        "date": "2024-11-23T01:41:38-07:00",
+        "version": "1.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "신다니엘",
+        "score": 4,
+        "text": "게임은 저희 엄마도 좋아하시는데 광고가 막 30 초가 나오고 스킵도 없고…… 그래서 광고만 줄이면 좋을것 같아요. 게임은 진짜 진짜 너무 재밌어요!",
+        "date": "2024-11-19T04:35:06-07:00",
+        "version": "1.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "ㅍ ㅜ럇챠ㅛ퍄ㅗ챠ㅛ챠ㅛ퍄ㅛ챠ㅛㅍ",
+        "score": 5,
+        "text": "ㅓㅅ널낳앟",
+        "date": "2024-11-16T00:32:46-07:00",
+        "version": "1.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "슈슈퍼퍼노노바바",
+        "score": 4,
+        "text": "유튜브 쇼츠에 많이 나와서 해봤는데 다양한 미니게임들이 있어 재미있더라구요! 그치만 광고가 많이 나와요…",
+        "date": "2024-11-15T03:08:27-07:00",
+        "version": "1.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "xeonW",
+        "score": 5,
+        "text": "오늘첫날 했는데 너무 재밌어요안 좋은점도 좀 있었지만 괜찮아요. 광고가 너무 많이 나오는 게 아닌 좋은 점이에요 뭐 생각해 보니까 방구가 별로 안 나오는 거 같기도 하고, 어쨌든 별 다섯개 나갑니다.그리고 게임 하나밖에 안했는데 재밌어요. 너무 너무 너무 너무 재밌어요.(초딩)",
+        "date": "2024-11-11T02:56:41-07:00",
+        "version": "1.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "오어올",
+        "score": 5,
+        "text": "자고뒤집히고두두~하니재밌어요 ㅋㅋㅋㅋㅋㅋ",
+        "date": "2024-11-07T05:01:09-07:00",
+        "version": "1.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "아 별명 할게없오",
+        "score": 5,
+        "text": "할게임도 많고 종류도 많아서 잘 하고 있는데 광고가 1분에한 2개정도 광고뜨고 그나마 수박게임이 제밌어서 할라했는데 그 및에 기능들 처음에는 광고 안보고 할수있는데 2일차 정도됐습니당 근댕 버그나 각종 오류 때문에 못하게 됌;; 수박게임이 그나마. 할만한건데 제작자님 이건아닌거같음",
+        "date": "2024-11-04T01:38:41-07:00",
+        "version": "1.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "길가던 소라겔겔겔",
+        "score": 5,
+        "text": "아니 광고가 1번 할때마다 광고30초 떠요;;이건 아니지",
+        "date": "2024-10-31T04:53:20-07:00",
+        "version": "1.2"
+      }
+    ],
+    "negative": [
+      {
+        "source": "google_play",
+        "userName": "Monohar Singh bal",
+        "score": 1,
+        "text": "this game is so ugly",
+        "date": "2026-05-26T06:38:39.191Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nifemi adebayo",
+        "score": 1,
+        "text": "I hate the ads",
+        "date": "2026-05-26T06:13:02.918Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Pinki Gupta",
+        "score": 1,
+        "text": "boots Acha aur calm game hai",
+        "date": "2026-05-25T17:00:24.283Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "MICHEL FABIEN",
+        "score": 1,
+        "text": "to many adds so annoying I hate it",
+        "date": "2026-05-25T16:38:56.318Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jiten Surani",
+        "score": 1,
+        "text": "Soooooooooooooooads",
+        "date": "2026-05-25T12:38:34.839Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Safesure Group Uganda Ltd",
+        "score": 1,
+        "text": "IJUST HATE It ,I mean like no updates man get serious 😒 I can't even rate this game",
+        "date": "2026-05-24T18:13:44.581Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Felicia Rich",
+        "score": 2,
+        "text": "is fun for me and you to play with a game like this you got to download it have a lot of games on Mini challenges is so good a new one is kinda scary is the cat brush in happy mother's day to your mom in auntie 😘💞 💙🩷🩵🩷💜🩷💚🩷💛🩷🧡🩷❤️🩷💯💯💯💯💯💯💯💯🎉🎉🎉❤️💙❤️💘❤️💙❤️💙❤️💙❤️💯❤️💜❤️🎉❤️🩵❤️💙❤️🩵❤️💚💙❤️❤️💙💘🎊💙🎊🩵💙💙💙💜💜💜💜💙💙💙💙💜💜💜💜💜💜💝💝💝💝💝💙💙💙💙💙💜🎊💙💙💙🎊💙💙🎊💙🎊💙💙🎊💙💙💙🎊💙💙💙💙💙💙💙💙💙💙💢💯💢💯💢",
+        "date": "2026-05-11T04:24:05.948Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Marie Mukamba",
+        "score": 2,
+        "text": "ad every time I hit a button or game and what type of ad or these they are every inappropriate.",
+        "date": "2026-05-04T02:49:43.649Z",
+        "thumbsUp": 9
+      },
+      {
+        "source": "google_play",
+        "userName": "P Cortez",
+        "score": 1,
+        "text": "Let me tell you about this inappropriate ad: \"I already left that ugly women!\" Is inappropriate, that ad is about cheating on a woman. If kids watch this ad they have to report it. I already gave a message to the viewers of the app. Now, it's time for you parents. So if your kid downloaded the game, then delete it ASAP, it it has an appropriate ad. So report this app as many times as you can until you're tired of doing it.",
+        "date": "2026-04-05T01:31:34.955Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "userName": "Karma Hossam",
+        "score": 1,
+        "text": "ok listen up this game is horrible horrible horrible the games are great but it needs internet and every 3 seconds I get an ad like whyyyyyyyy😠😐yes the ads are only like 5 seconds but it's very annoying you know😒",
+        "date": "2026-05-22T08:05:21.127Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Karl Timpson",
+        "score": 1,
+        "text": "the downloading took forever",
+        "date": "2026-05-23T17:33:18.466Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "app_store",
+        "userName": "Won’t know",
+        "score": 1,
+        "text": "It is not good for kids. Brain rots are bad. They mean like really bad things in Italian. No one wants to know when they’re gonna die. That’s just scary. And it could worry people for life I wanted to do it, but I knew I was just gonna get too anxious.",
+        "date": "2026-05-25T17:26:11-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Greenpuppy1thinidy",
+        "score": 1,
+        "text": "I played before it became popular  I think it sucks the decibel ball game is really easy if you tap the SCREEN. Before you get mad I am 10. 1 star",
+        "date": "2026-05-25T11:55:14-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Im a real kid",
+        "score": 1,
+        "text": "It’s so bad it has so many aides and every  time I try to play there’s an add it’s so bad some of the games don’t even work.",
+        "date": "2026-05-24T13:59:48-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Shades0919",
+        "score": 1,
+        "text": "I bought something from this game and it keeps making me to do ads. I really want to write a reveal about this because in maybe just stealing your money please fix this glitch.",
+        "date": "2026-05-24T13:42:08-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Witherd Bonnie ……",
+        "score": 1,
+        "text": "I hate this game it basically all is just brainrot and you know how  it’s name is calm and chill well I think I will actually lose brain cells  if I play this do not play this game",
+        "date": "2026-05-22T16:14:22-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "justabuncha",
+        "score": 1,
+        "text": "There are so many ads like every second like add add add add add add add and it’s just really annoying. I like the games but a bunch of me are in there and a bunch of dead memes so I don’t really care too much about this game it’s fun. It’s just it’s not very appropriate sometimes but like it",
+        "date": "2026-05-18T17:01:48-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Izzy🤩🤪🥰",
+        "score": 2,
+        "text": "Not there",
+        "date": "2026-05-18T13:33:24-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Melmel11419",
+        "score": 1,
+        "text": "This APP IS SO BAD BECAUSE WE DO FILTERS AND THEY JUST WANT TO SEE YOUR FACE AND PICTURE IT!!!!!!!!!!!  THIS APP SHOULD BE 30+!!!!!!!!!!",
+        "date": "2026-05-18T13:20:57-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "The_Gayest_Of_Them_All",
+        "score": 1,
+        "text": "It had way too many ads so I deleted it would not recommend",
+        "date": "2026-05-16T14:50:33-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "MoneyMike917",
+        "score": 2,
+        "text": "Way too much brainrot and so much adds but the games WITHOUT BRAINROT are cool and addicting.",
+        "date": "2026-05-16T11:19:11-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "C0sm1c_st4r",
+        "score": 1,
+        "text": "Okay so I had the game for a while and then deleted it, after a while I saw the game and got it back I play this for like 5 minutes and then deleted it, I played one if the games and got stuck on an add like I literally couldn’t get off of it I would try to hit the move on button on the ad and it took me straight to the Apple Store, and when going to write the review you know how it shows what you have passed looked at when you get on? Well I had to tap the out button on the ONE game about 10 times, also there are just a BUNCH of adds so if lots of adds annoy you don’t get this game",
+        "date": "2026-05-15T17:25:15-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Roxie kolstedt",
+        "score": 1,
+        "text": "I can’t see anything or do something",
+        "date": "2026-05-13T18:28:54-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Purplelover2.0",
+        "score": 1,
+        "text": ". so whenever I play a game, a banner ad pops up, and it’s the big kind and I find it carrot but when I click on it, it doesn’t close you guys are being very mean for not letting me close the banner banner ads I don’t really like the banner ads big can you please remove them? Also I have another question. Can you remove the voiceover ads? Can you remove those because it doesn’t let you mute them and you play ads with a very long blue line making me have to watch it over and over again until the skip button shows up. I hate this game.",
+        "date": "2026-05-08T03:47:03-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Sophia Delatorre",
+        "score": 1,
+        "text": "Too many addds 🤬🤬🤬🤬🤬🤬😡😡😡😡😡😡😡😡😡😤😤😭😭😤😤😤😭😤😤😤😭😤😭😭😤😤😭🤬🤬🤬🤬😡😡😡😡",
+        "date": "2026-05-07T17:07:46-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hdbfbcjftkeh",
+        "score": 1,
+        "text": "This game as asss every time you do one game.the games are fun until you see the adds and the games you can find I. Tick-tock for better games that’s my review for this horrible game",
+        "date": "2026-05-05T05:46:21-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "MeIsTheGoat",
+        "score": 1,
+        "text": "I hate this too many adds and boring games",
+        "date": "2026-05-04T16:05:54-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Adam Sockers",
+        "score": 1,
+        "text": "It keeps thinking I’m a girl and I have babies and also don’t I have the AI age option so I can’t show how how young or old I am",
+        "date": "2026-05-01T14:49:15-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Aikskksjsj",
+        "score": 1,
+        "text": "Is the worst game ever hated?\nIt sucks. It’s so fake.",
+        "date": "2026-04-28T19:43:42-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "achristine19",
+        "score": 1,
+        "text": "I can’t even play the game I want because some trailer add takes up half the page. When you try to dismiss it, it acts as if you opened the link and takes you away. Then when you return to the app, it immediately goes into a video ad break. Unusable until this is fixed",
+        "date": "2026-04-27T08:30:12-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Espe81",
+        "score": 1,
+        "text": "Why is the photo of yours like little kids can play like bro like you’re supposed to like people play with it not like oh no you have to be like Tia and blah blah blah I hate it so much. Who made this and put it for 12 year-old, I’m gonna punch them Monday.",
+        "date": "2026-04-26T21:22:24-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Yourhomegirl<3",
+        "score": 1,
+        "text": "Every time I beat a level a add come, second when you start the game a add comes",
+        "date": "2026-04-26T20:40:58-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "blemz13",
+        "score": 2,
+        "text": "I mean it’s fun in all but honestly it’s pretty brainrot like if ur smart don’t play this game",
+        "date": "2026-04-26T08:10:18-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Аопппмввве´пуваппмввва",
+        "score": 2,
+        "text": "Очень много рекламы невозможно играть",
+        "date": "2026-04-26T02:00:23-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "What time is it🐸",
+        "score": 1,
+        "text": "I am a 13 year old girl and these are OVER THE TOP disgusting for little girls!!!! Do not get if\nF under 18 PLEASE!!!!!",
+        "date": "2026-04-25T19:14:47-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "xXRAWURRRXx",
+        "score": 1,
+        "text": "So uh basically this game has brainrot and 100% DO YOU KNOW WHAT A GREAT MEME RESET IS.? Dumb game.",
+        "date": "2026-04-25T17:39:06-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Moomoo soobooo",
+        "score": 1,
+        "text": "This game is so not recommended for kids plus it sucks, because they tell you that there is no adds and they are actually not calm and chill games so, oh and they ask for you to show your face so than kids do and then, the next thing you know you child is missing so ya do not recommend for children.☹️",
+        "date": "2026-04-25T15:02:41-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Krystalmateo3636",
+        "score": 2,
+        "text": "There is to man’s apps",
+        "date": "2026-04-15T16:27:41-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "K1ttyc@t_lover",
+        "score": 2,
+        "text": "I love the trendy things but there’s a lot of annoying things about this game, like, you click on one of the mini games and you hit a 30 second ad, then you press ONE button and hit like 5 ads it’s dumb, even if there is a no ad thingy I’m not wasting money on this game of all the complications! Another reason is because of the glitches! It will pop up an advertisement right when to start drawing in the doge game… So I end up FAILING IT BECAUSE OF THE AD!!! It’s dumb seriously!",
+        "date": "2026-04-13T10:47:54-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": ":()(:(()(:()(",
+        "score": 1,
+        "text": "I got this game because it looked like I would be able to play multiple game and not take up storage, but this game just gives me ads,ads,ads, everytime I complete a game/ level it gives me an ad, if rating was how bad a game was, this would be 5 stars.",
+        "date": "2026-04-11T07:45:50-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Tickturds",
+        "score": 1,
+        "text": "Oh my godddd this has so many adddds I delegated this u can literally see add buttons in this freakin game do not down load",
+        "date": "2026-04-11T05:19:30-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Inkjet’s",
+        "score": 1,
+        "text": "You\nstill like Brainrot? Ur disgusting 🤮🤮🤮🤮🤮maybe you should quit!",
+        "date": "2026-04-10T16:42:17-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Alaina a  a a a a a a a a a",
+        "score": 2,
+        "text": "TO MAKE ADS I hate ADS IF YOU LIKE This is for you",
+        "date": "2026-04-09T14:18:13-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "nila Jade MacCorkle",
+        "score": 1,
+        "text": "It is a great game and it helps give energy for the day. Play it every morning.",
+        "date": "2026-04-08T04:11:07-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "joya roy",
+        "score": 1,
+        "text": "This game includes brainrot, (seen in app pictures) which can get stuck in a young person’s mind and cause them to say it in public spaces (sometimes). It can even cause addiction, which isn’t good. Examples of brainrot shown are Italian Brainrot, Kpop Demon Hunters, etc. (Kpop Demon Hunters is brainrot most likely because it caused many content farms to make brainrot out of it.) Also to get free currency and stuff, you have to watch ads or a YouTube video and that will waste your time. This is a cash grab, don’t download this!",
+        "date": "2026-04-05T18:49:31-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "The W in the chat",
+        "score": 1,
+        "text": "There are so many ads which makes the game hard to play because when I play for 1 minute their are like 5 ads not worth it",
+        "date": "2026-04-05T15:07:51-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Leafstar425",
+        "score": 2,
+        "text": "There’s a lot of adds some of them take up my whole screen. Other than that it’s a ok game",
+        "date": "2026-04-04T18:31:10-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Bry3113",
+        "score": 1,
+        "text": "This is the worst game I have ever played, reason why is because there are ADS EVERY 5 SECONDS and it gets annoying, another reason why is the sound would just suddenly stop playing right in the middle of a mini game, the only way for me to get the sound back is for me to log out of the game then go back in, and it starts to get annoying when I’m having to do that constantly. Please fix this horrible game so I can have a better experience 😡😭😡😭😡😭😡😭😡😭😡😭😡",
+        "date": "2026-04-01T17:42:56-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "El Boobie",
+        "score": 2,
+        "text": "I love but too many ads like an ad before the game and after every Mimi game\nLike I HATE ADs",
+        "date": "2026-04-01T17:23:01-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "This is a bad app read this",
+        "score": 1,
+        "text": "it is fun but I deleted it because ALL OF THE ADDS YOU GET ONE EVERY FIVE SECONDS EVEN IF IT IS CLOSED OR OUT OF VIEW FOR A &)@$?’ SECOND 🦧🦧🦧🦧🦧🦧🦧",
+        "date": "2026-04-01T12:03:46-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Kitenlover86",
+        "score": 1,
+        "text": "It kinda was inappropriate there was a man who was trying to get a toilet and try to pee on the toilet that was inappropriate. That’s why I deleted this game bye guys. See you later. I’m gonna give it a",
+        "date": "2026-03-29T10:27:06-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "ADDS ARE SO ANOOYING",
+        "score": 2,
+        "text": "Pls do not pop up on my ads👹😡😡",
+        "date": "2026-03-28T21:49:08-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "flower_hotel🌸💐",
+        "score": 1,
+        "text": "For some reason this is ad to play and pay to win. I get SO MUCH ADS, please remove the premium stuff and ads.",
+        "date": "2026-03-28T17:44:00-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "조용조용234",
+        "score": 1,
+        "text": "광고가 화면 절반을 찾아하네.  선을 넘엇네",
+        "date": "2026-03-30T02:46:53-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "굿굿ㅋㅋ굿",
+        "score": 1,
+        "text": "몇펀 안해도 및에 광고가 거의 화면의 반을 차지해요ㅜㅜ\n다시 만들어 주세요..ㅠ",
+        "date": "2026-02-16T06:26:11-07:00",
+        "version": "5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "뽭꿨쐡뻅뿆",
+        "score": 1,
+        "text": "이거 재미? 있긴있어요 근데 그 재미를 광고가 다 깨버리잖아요 왜 재밌는 겜 만들어놓고 쓰지를 못하는거에요 이 게임 진짜 돈에만 미친 게임이니까 안까는걸 추천드려요 뭔 로딩 다 되기도 전에 들어가자마자 광고가 나와요 진짜 돈에만 눈이 돌아서 광고만 겁나게 많이 나오는 쓰레기 같은 겜입니다\n겜을 만들어놓고 활용을 못하잖아요",
+        "date": "2026-02-07T23:37:18-07:00",
+        "version": "4.9"
+      },
+      {
+        "source": "app_store",
+        "userName": "Рустем андроид",
+        "score": 1,
+        "text": "Hate u lulu coupons , musterds",
+        "date": "2026-02-07T14:51:00-07:00",
+        "version": "4.9"
+      },
+      {
+        "source": "app_store",
+        "userName": "횬진ㅇㅇ",
+        "score": 1,
+        "text": "광고 평생없는거로 결제했는데 하자마자 광고나오는거 뭐임 ㅋㅋ",
+        "date": "2026-01-25T11:23:20-07:00",
+        "version": "4.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "에베베루루",
+        "score": 1,
+        "text": "이거 도래미도 사기에요  하다가 이상해서\n소리 안내봤는데 지 스스로 움직이더라구요\n그리고 광고도 무슨 ;;  전 냉@큼 삭제 했습니다\n깔면 후회해요 진짜",
+        "date": "2025-02-23T22:50:08-07:00",
+        "version": "2.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "hixa_11",
+        "score": 1,
+        "text": "광고도 너무많이나오고 한번 죽거나 나가면 무슨 광고가 30초씩나와요;;터치도 안되고 도레미게임은 잡음 진짜 조금만있어도 안되네요.절대 깔지마세요 시간낭비입니다 이거 깔바엔 차라리 공부를 하세요",
+        "date": "2025-02-09T01:25:22-07:00",
+        "version": "2.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "눌ㄴ",
+        "score": 2,
+        "text": "게임은 재밌는데 게임하는 시간보다 광고 보는 시간이 더 많음 삭제",
+        "date": "2025-01-24T01:27:43-07:00",
+        "version": "2.2"
+      },
+      {
+        "source": "app_store",
+        "userName": "Genldm",
+        "score": 1,
+        "text": "ㅇㄴ 딱 맞춰야 사는게 뭔데 유튜버들도 개빡칠걸 ㅅㅂㄴ아",
+        "date": "2025-01-20T02:29:16-07:00",
+        "version": "2.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "거짓말맨",
+        "score": 2,
+        "text": "한번쯤은 해볼만한데 광고가 너무 많아서 짜증났던 게임입니다.\n그래도 한번쯤은 재미로 해도 괜찮을거 같긴해요",
+        "date": "2025-01-04T00:29:12-07:00",
+        "version": "2.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "🤝👊✊🤛👍👐🙌🫶🤲👏👎",
+        "score": 1,
+        "text": "진심임 깔지마삼",
+        "date": "2024-12-07T06:21:33-07:00",
+        "version": "1.7"
+      },
+      {
+        "source": "app_store",
+        "userName": "그림그리기 채엄 경찰채업",
+        "score": 2,
+        "text": "목소리는 잘 돼긴 하는데 똑같이 하고 있는데 곤이 자구 맘대로 흔들리거나 움직임 좀 수리 부탁 그리고 광고도 좀 주려주세요  그리고 부모님 운전할때 이겜 하지메세요 시끄럼다고 혼남니다 ㅎ",
+        "date": "2024-11-23T22:23:56-07:00",
+        "version": "1.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "freemaniko",
+        "score": 1,
+        "text": "개같네 진짜",
+        "date": "2024-11-21T18:44:55-07:00",
+        "version": "1.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "정곡을 찔러주마",
+        "score": 2,
+        "text": "광고가 많이나오고 우리말로 번역이 안돼요",
+        "date": "2024-11-16T01:39:49-07:00",
+        "version": "1.4"
+      }
+    ],
+    "neutral": [
+      {
+        "source": "google_play",
+        "userName": "SANDEEP SINGH",
+        "score": 3,
+        "text": "there is lots of adds which is not fun 😕",
+        "date": "2026-05-25T14:06:30.517Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Ruby",
+        "score": 3,
+        "text": "i downloaded it and had to instantly update it wth",
+        "date": "2026-05-23T19:51:53.115Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "app_store",
+        "userName": "Capykitty",
+        "score": 3,
+        "text": "This is a really good game and I like the thing about it not necessarily the brain rot part I really only thing is the ads there’s a lot of ads and it’s kind of annoying and also I think you should give credit to fast and Magic. I think you should give credit to Toca Boca because you’re using their background.",
+        "date": "2026-05-25T13:05:12-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Super slay girl \t1738",
+        "score": 3,
+        "text": "This game is really cool but there are too many ads every time I exit a game a ad pops up I would recommend it for anyone over 4years overall it’s a great game",
+        "date": "2026-05-25T08:22:54-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "From Bunnrae 0523",
+        "score": 3,
+        "text": "WHY ARE THERE SO MANY ADDS!😡🤬😤😠",
+        "date": "2026-05-24T13:39:16-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Anna mango🥭🥭🥭🥭🥭",
+        "score": 3,
+        "text": "Once the game gets fun adds pop up and it becomes very annoying for me",
+        "date": "2026-05-24T13:14:55-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "RBLX is  cool",
+        "score": 3,
+        "text": "This is a really fun game indeed and to ride in car but the adds come more than I get to play",
+        "date": "2026-05-24T08:17:33-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Moon cow 11111",
+        "score": 3,
+        "text": "This app is fun and you don’t need internet. But I hate that there’s so many adds after like every level😡.",
+        "date": "2026-05-23T13:57:30-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "🤭🤪🤣🥹✨🫰🫰🫰",
+        "score": 3,
+        "text": "Love this app, but there’s way too many ads",
+        "date": "2026-05-22T09:44:10-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Laney Grace Flowers",
+        "score": 3,
+        "text": "So this game is really fun for car rides but if you ever play at like home or you have Internet, you get an ad every five seconds it feels like and the brainroot games are so weird but some of the games are really fun but the always getting ads part and the brainroot part takes off two stars so it’s ok!",
+        "date": "2026-05-21T15:57:12-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Queen, sissy",
+        "score": 3,
+        "text": "The game is cool. It just has a lot of brainrot and K-pop demon, hunters and way too much ads take away the ads. I would also like to have more updates and games.",
+        "date": "2026-05-19T09:46:09-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "𝙱𝚛𝚎𝚍",
+        "score": 3,
+        "text": "It’s amazing but there are too many ads if you have a kid and they can’t have TikTok’s but they big you about this new filter her friend has, this is the right game, they are always updating and adding more but with every game or round there is an ad, overall not bred approved.",
+        "date": "2026-05-18T14:20:42-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Eve the kitten",
+        "score": 3,
+        "text": "This game is soooooo much fun and keeps me intertand for hours but I do have a problem.So when ever I play this one game where you dress up a boy or girl it has barely any adds but all the other games have a lot of adds",
+        "date": "2026-05-17T13:19:28-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Stop shshs",
+        "score": 3,
+        "text": "Stop with the adds!",
+        "date": "2026-05-13T10:19:23-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Thherthuyf",
+        "score": 3,
+        "text": "I don’t like it",
+        "date": "2026-05-13T07:02:39-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Alvarado 64",
+        "score": 3,
+        "text": "Way too much ads like it’s a really good fun game, but please get rid of ads like it’s so hard to even play the games if there’s so much ads👍🏻😡",
+        "date": "2026-05-12T17:40:54-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Loveit0000000000",
+        "score": 3,
+        "text": "Less ads would be good",
+        "date": "2026-05-12T13:15:19-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Andar99",
+        "score": 3,
+        "text": "I can’t play because there’s to many pop up ads and I can’t get them to go away.",
+        "date": "2026-05-08T18:01:28-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "I PLAY THIS GAME EVERYDAY BUT…",
+        "score": 3,
+        "text": "I like this game but I have like a lot of adds I love the games that you guys make but it lots of adds.u",
+        "date": "2026-05-03T11:29:32-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "bcksl",
+        "score": 3,
+        "text": "It’s stupid because the ad is so long But I will say it is kind of calm and \n chill\nSo I’ll give it a three",
+        "date": "2026-05-02T12:32:23-07:00",
+        "version": "5.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ramsi78",
+        "score": 3,
+        "text": "IDK actualy",
+        "date": "2026-04-23T08:10:46-07:00",
+        "version": "5.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "567@$@1*#24]6",
+        "score": 3,
+        "text": "It’s super fun but the only reason I’m giving it 3 stars is because of the age rating",
+        "date": "2026-04-20T13:47:46-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "NotAFanofControl",
+        "score": 3,
+        "text": "I love the game you’re so many different games just one app, but there is some ads in there…",
+        "date": "2026-04-19T15:11:56-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "Love vr games",
+        "score": 3,
+        "text": "Don’t put brain rot on this game I’ll give ya five stars IF you TAKE OFF THE BRAIN ROTTT",
+        "date": "2026-04-17T13:45:45-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "375@9275",
+        "score": 3,
+        "text": "For me this game was more ads than games",
+        "date": "2026-04-16T20:29:42-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "It's crazy how much I hate you",
+        "score": 3,
+        "text": "It needs less adds. But overall, it's a really good app!",
+        "date": "2026-04-11T17:47:14-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Gkxkgzuslufzlru",
+        "score": 3,
+        "text": "This game is so fun but dvlprs plz remove ads there's so many ads but it’s so fun. It’s not only just so many ads, it’s the same ad over and over. Dvloprs FIX UR GAME!!",
+        "date": "2026-04-05T07:52:24-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "William :) :D :p",
+        "score": 3,
+        "text": "I rate this 3 stars just cause theres a lot of brainrot in it and theres some adds here and there.",
+        "date": "2026-04-03T11:32:30-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Bubble-lord",
+        "score": 3,
+        "text": "Honestly I like the game, it’s not super boring but after awhile it gets to be that way. It is brain rot which in my opinion is kind of weird, (though it can get very funny). Some of the games such as; fashion magic, one line, block puzzle, and keyboard and a few others are super entertaining, they come with sounds and of course ASMR, like the keyboard mini game is the most satisfying out of them all, the clicks just makes my brain go pop! Fashion magic is also entertaining, if you like up to date dress up and mild house design, then it’s fun. You can battle what seems to be NPCs or actual people, (not sure which),  it I’ve won every single battle… prompting my brain to believe it is NPCs… anyway…. One line is absolutely so fun there’s music as you go along, the tune depends on the color dot.\n\nAnyway super fun game, a little boring after playing a lot, it does come out with new mini games, and it’s good for no Wi-Fi. I recommend^^",
+        "date": "2026-04-02T16:44:52-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Sooooo stupiddd",
+        "score": 3,
+        "text": "It tough my kid brain rot Im mad",
+        "date": "2026-03-29T02:12:06-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "/hellokittylover",
+        "score": 3,
+        "text": "It lags a lot there are to many ads",
+        "date": "2026-03-28T17:43:23-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "할 별명이 없네요",
+        "score": 3,
+        "text": "광고가 한 게임에 2~3개씩 나오네요.(5개 나올때도 많아요.)\n제작자님 광고 좀 없에주세요.",
+        "date": "2026-04-16T22:50:40-07:00",
+        "version": "5.4"
+      },
+      {
+        "source": "app_store",
+        "userName": "안아주리",
+        "score": 3,
+        "text": "광고가 많아서 불편해요 그래도 게임은재미있어요",
+        "date": "2026-04-10T06:13:52-07:00",
+        "version": "5.3"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mmmmmmddd",
+        "score": 3,
+        "text": "어플 켜고 게임 시작도 하기 전에 스킵도 없는 광고가 다섯 개나 뜨더라고요. 전에 재미있게 했던 기억이 나서 오랜만에 켰다가 광고보고 식겁해서 그냥 삭제합니다.",
+        "date": "2025-12-08T09:52:54-07:00",
+        "version": "4.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "이개임",
+        "score": 3,
+        "text": "우와 이 게임 너무 재밌어요",
+        "date": "2025-12-08T03:29:31-07:00",
+        "version": "4.6"
+      },
+      {
+        "source": "app_store",
+        "userName": "미상…",
+        "score": 3,
+        "text": "재밌기는 하지만 너무 광고가 많아서 게임하기가 어렵습니다",
+        "date": "2025-06-24T17:17:45-07:00",
+        "version": "3.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "오둥이러버",
+        "score": 3,
+        "text": "이유:광고가 너무 많지만 재밌어서 4점 주려다 광고 ㄸ문애 3점압나다.",
+        "date": "2025-05-17T23:46:15-07:00",
+        "version": "3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "광고랑 렉이….",
+        "score": 3,
+        "text": "아니 게임 한 판 끝나고 바로 광고 나오고 또 끝나고 광고 나오고 이게 뭐죠?\n그리고 게임 하고 딴 게임 갈려는데 렉 걸려서 이상한걸로 넘어가고,\n제발!!!! 이런 문제들을 좀 없애줬으면 해요…",
+        "date": "2025-02-15T00:04:04-07:00",
+        "version": "2.5"
+      },
+      {
+        "source": "app_store",
+        "userName": "Lun.xa",
+        "score": 3,
+        "text": "광고가 너무 많이 나와요 근데 게임은 또 재미있어서 계속 하게됩니다ㅏ",
+        "date": "2025-01-10T22:19:08-07:00",
+        "version": "2.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "성사동",
+        "score": 3,
+        "text": "재밌긴 한데 도래미파솔라시도 그거 할때 자꾸 털공이 아래 위로 막 왔다갔다 하고 하나 할때마다 광고 나옴 심지어 똑같음 광고만 나옴",
+        "date": "2024-12-29T02:08:24-07:00",
+        "version": "2.0"
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "com.u1.relax.minigame3",
+      "title": "Mini Challenges: Calm Games",
+      "developer": "UltraPub",
+      "score": 4.8883495,
+      "icon": "https://play-lh.googleusercontent.com/tZO4p-R6R05mZAMKsEmH6shCtolDdhgkn2CwtyNOGd6PSBGU1RNH3l3SjkBOrHWD9nA"
+    },
+    {
+      "appId": "com.htt.vape.simulator.tn",
+      "title": "Vape 'N Pod Trick Simulator",
+      "developer": "UltraPub",
+      "score": 4.4150944,
+      "icon": "https://play-lh.googleusercontent.com/_ny2pkVYK51dm5dfcQxQHUNk0nOfTxl4TN6tlExqiKFH3YvALZqLPjiCuU6KI_JNi74"
+    },
+    {
+      "appId": "com.chihuahua.babyescape",
+      "title": "Hide From Daddy: Little Escape",
+      "developer": "UltraPub",
+      "score": 3.13,
+      "icon": "https://play-lh.googleusercontent.com/WaaSg4TXNXXSh5Z9efcJPg7NaaQn0fZH8GGYzbVJhkpLzr32Oo1X357ifNdcP0UypWQJ"
+    },
+    {
+      "appId": "com.htt.baby.hunt.hn",
+      "title": "Where is He: Hide and Seek",
+      "developer": "UltraPub",
+      "score": 4.4987593,
+      "icon": "https://play-lh.googleusercontent.com/dP5uXPtw78k6LBpw8wbYrHSur0-523bKHKu7Yxw9sQtLYsg-VQh5HwpAVGCOO_6VeGY"
+    },
+    {
+      "appId": "com.h.office.animal",
+      "title": "Office Animal Simulator",
+      "developer": "UltraPub",
+      "score": 4.65,
+      "icon": "https://play-lh.googleusercontent.com/TY-6Gb8Xxd402i9FnuGJwL_KFl75BLz3yxKp3Y66ru1uWmvt3XRwfnufWKZ7yfx9rWE"
+    },
+    {
+      "appId": "com.u1.jig.merge.puzzle",
+      "title": "Jigmerge Puzzle: Relaxing Game",
+      "developer": "UltraPub",
+      "score": 4.605769,
+      "icon": "https://play-lh.googleusercontent.com/RnEkugEEUNIu0oXQRDxqOqMn-UHiHIXaDuNr_amPIYJ289qD8qw619zyDVbMDPoOkfk5v_i9qkS0MiSltUyqnw"
+    }
+  ],
+  "developerApps": [
+    {
+      "appId": "com.u1.relax.minigame3",
+      "title": "Mini Challenges: Calm Games",
+      "score": 4.889952,
+      "icon": "https://play-lh.googleusercontent.com/tZO4p-R6R05mZAMKsEmH6shCtolDdhgkn2CwtyNOGd6PSBGU1RNH3l3SjkBOrHWD9nA"
+    },
+    {
+      "appId": "com.htt.vape.simulator.tn",
+      "title": "Vape 'N Pod Trick Simulator",
+      "score": 4.4150944,
+      "icon": "https://play-lh.googleusercontent.com/_ny2pkVYK51dm5dfcQxQHUNk0nOfTxl4TN6tlExqiKFH3YvALZqLPjiCuU6KI_JNi74"
+    },
+    {
+      "appId": "com.chihuahua.babyescape",
+      "title": "Hide From Daddy: Little Escape",
+      "score": 3.13,
+      "icon": "https://play-lh.googleusercontent.com/WaaSg4TXNXXSh5Z9efcJPg7NaaQn0fZH8GGYzbVJhkpLzr32Oo1X357ifNdcP0UypWQJ"
+    },
+    {
+      "appId": "com.htt.baby.hunt.hn",
+      "title": "Where is He: Hide and Seek",
+      "score": 4.4987593,
+      "icon": "https://play-lh.googleusercontent.com/dP5uXPtw78k6LBpw8wbYrHSur0-523bKHKu7Yxw9sQtLYsg-VQh5HwpAVGCOO_6VeGY"
+    },
+    {
+      "appId": "com.h.office.animal",
+      "title": "Office Animal Simulator",
+      "score": 4.65,
+      "icon": "https://play-lh.googleusercontent.com/TY-6Gb8Xxd402i9FnuGJwL_KFl75BLz3yxKp3Y66ru1uWmvt3XRwfnufWKZ7yfx9rWE"
+    },
+    {
+      "appId": "com.u1.jig.merge.puzzle",
+      "title": "Jigmerge Puzzle: Relaxing Game",
+      "score": 4.605769,
+      "icon": "https://play-lh.googleusercontent.com/RnEkugEEUNIu0oXQRDxqOqMn-UHiHIXaDuNr_amPIYJ289qD8qw619zyDVbMDPoOkfk5v_i9qkS0MiSltUyqnw"
+    }
+  ]
+}
