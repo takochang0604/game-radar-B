@@ -744,9 +744,12 @@ function renderStats() {
     return entries.length;
   };
 
-  // 今日新黑馬（只計算最新一天偵測到的 new_entry）
+  // 今日新黑馬（首次偵測日期 = 最新日期的遊戲，不是「今天有 new_entry trigger」）
   const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
-  const newEntryList = state.darkhorses.filter(dh => dh.triggers?.some(t => t.strategy === 'new_entry' && (t._detectedAt || '').substring(0, 10) === latestDate));
+  const newEntryList = state.darkhorses.filter(dh => {
+    const firstDetected = (dh.detectedAt || '').substring(0, 10);
+    return firstDetected === latestDate;
+  });
   const statNewDhEl = document.getElementById('statNewDh');
   if (statNewDhEl) statNewDhEl.textContent = getMergedCount(newEntryList);
 
@@ -1055,8 +1058,8 @@ function renderDarkhorses() {
     if (state.dhReportFilter === 'unreported' && findReport(dh.name, dh.appId)) return false;
     if (state.dhReportFilter === 'new_entry') {
       const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
-      const hasTodayNewEntry = dh.triggers?.some(t => t.strategy === 'new_entry' && (t._detectedAt || '').substring(0, 10) === latestDate);
-      if (!hasTodayNewEntry) return false;
+      const firstDetected = (dh.detectedAt || '').substring(0, 10);
+      if (firstDetected !== latestDate) return false;
     }
     return true;
   });
@@ -1367,9 +1370,15 @@ function renderMiniChart(canvas, history) {
   const dataMap = new Map(history.map(h => [h.date, h.rank]));
   
   const labels = recent7Dates.map(d => d.substring(5));
-  const ranks = recent7Dates.map(d => {
+  const rawRanks = recent7Dates.map(d => {
     const val = dataMap.get(d);
-    return (val === null || val === undefined) ? OFF_CHART_RANK : val;
+    return (val === null || val === undefined) ? null : val;
+  });
+  // 填補 null（無快照的日期）：沿用前一天的排名，避免線條暴跌到底部
+  let lastKnown = null;
+  const ranks = rawRanks.map(r => {
+    if (r !== null) { lastKnown = r; return r; }
+    return lastKnown !== null ? lastKnown : OFF_CHART_RANK;
   });
 
   new Chart(ctx, {
@@ -1940,7 +1949,7 @@ function showAnalysis(appId, platform) {
     } else {
       const reportLines = reportMd.split('\n');
       for (const line of reportLines) {
-        if (line.startsWith('> ') && !line.includes('評測依據') && !line.includes('評測方法') && !line.trim().startsWith('> |')) {
+        if (line.startsWith('> ') && !line.includes('評測依據') && !line.includes('評測方法') && !line.includes('確信度') && !line.trim().startsWith('> |')) {
           extractedSummary = line
             .replace(/^>\s*/, '')
             .replace(/^🚀\s*/, '')
