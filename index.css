@@ -1452,7 +1452,7 @@ th .flag-icon {
   background: var(--bg-glass); border: 1px solid var(--border-glass);
   color: var(--text-secondary); cursor: pointer;
   transition: var(--transition); font-size: 18px;
-  flex-shrink: 0; margin-right: 8px;
+  flex-shrink: 0; margin-left: 8px;
 }
 .theme-toggle:hover {
   background: rgba(59,130,246,0.12); border-color: rgba(59,130,246,0.3);
@@ -1485,9 +1485,19 @@ th .flag-icon {
   --text-primary: #1e293b;
   --text-secondary: #475569;
   --text-muted: #94a3b8;
+  --accent-yellow: #b45309;
   --gradient-card: linear-gradient(145deg, rgba(59,130,246,0.04), rgba(139,92,246,0.03));
   --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.08);
   --shadow-glow: 0 0 30px rgba(59, 130, 246, 0.1);
+}
+
+/* --- 信心分數（黃色系）日間模式加深 --- */
+[data-theme="light"] .dh-confidence {
+  color: #92400e;
+  background: rgba(180, 83, 9, 0.1);
+}
+[data-theme="light"] .score-cell {
+  color: #b45309;
 }
 
 /* --- Body background gradient --- */
