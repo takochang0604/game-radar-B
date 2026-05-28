@@ -1269,18 +1269,17 @@ function renderDarkhorses() {
             <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${dh.name}</span>
           </div>
           <div class="dh-developer">${dh.developer || ''}</div>
+          <div class="dh-platform-inline">${platformLabel}</div>
         </div>
         <div class="dh-rank-block">${rankHtml}</div>
       </div>
       <div class="dh-meta">
         ${marketTags}
-        <span class="dh-tag platform">${platformLabel}</span>
         ${scoreBadge}
-        ${reportBadge}
         ${detectBuyChart(dh, state.analysis[dh.appId], dh)}
       </div>
       <div class="dh-chart-mini"><canvas id="mini-${cardId}"></canvas></div>
-      ${releasedDate ? `<div class="dh-card-footer"><div class="dh-released">上架 ${releasedDate}</div></div>` : ''}
+      <div class="dh-card-footer">${releasedDate ? `<div class="dh-released">上架 ${releasedDate}</div>` : '<div></div>'}${reportBadge}</div>
     </div>
   `;
   }).join('');

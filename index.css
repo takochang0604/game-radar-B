@@ -217,7 +217,7 @@ body::before {
 /* ============ Dark Horse Cards ============ */
 .darkhorse-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 16px;
+  gap: 20px;
 }
 .dh-card {
   display: flex; flex-direction: column;
@@ -227,6 +227,10 @@ body::before {
   backdrop-filter: blur(10px);
   cursor: pointer; transition: var(--transition);
   position: relative; overflow: hidden;
+}
+.dh-platform-inline {
+  margin-top: 2px; display: flex; align-items: center; gap: 3px;
+  line-height: 1;
 }
 .dh-card::before {
   content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
