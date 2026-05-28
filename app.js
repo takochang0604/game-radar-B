@@ -3,6 +3,30 @@
  * 從 data.js 中的 APP_DATA 全域變數讀取資料（不需伺服器）
  */
 
+// ============ 主題切換 ============
+(function initTheme() {
+  const saved = localStorage.getItem('game-radar-theme');
+  if (saved === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+  }
+})();
+
+function toggleTheme() {
+  const html = document.documentElement;
+  const isLight = html.getAttribute('data-theme') === 'light';
+  // 加入過渡動畫 class
+  html.setAttribute('data-theme-transitioning', '');
+  if (isLight) {
+    html.removeAttribute('data-theme');
+    localStorage.setItem('game-radar-theme', 'dark');
+  } else {
+    html.setAttribute('data-theme', 'light');
+    localStorage.setItem('game-radar-theme', 'light');
+  }
+  // 移除過渡 class（避免影響後續操作效能）
+  setTimeout(() => html.removeAttribute('data-theme-transitioning'), 400);
+}
+
 // ============ 平台 Icon ============
 const ICON_ANDROID = '<svg viewBox="0 0 24 24" width="14" height="14" style="vertical-align:-2px;fill:#3DDC84"><path d="M17.6 11.5c0-.9.7-1.6 1.6-1.6s1.6.7 1.6 1.6v4.9c0 .9-.7 1.6-1.6 1.6s-1.6-.7-1.6-1.6v-4.9zm-14.4 0c0-.9.7-1.6 1.6-1.6s1.6.7 1.6 1.6v4.9c0 .9-.7 1.6-1.6 1.6S3.2 17.3 3.2 16.4v-4.9zm3.3-.6h11v7.2c0 .9-.7 1.6-1.6 1.6H15v2.7c0 .9-.7 1.6-1.6 1.6s-1.6-.7-1.6-1.6v-2.7h-1.6v2.7c0 .9-.7 1.6-1.6 1.6s-1.6-.7-1.6-1.6v-2.7h-.9c-.9 0-1.6-.7-1.6-1.6v-7.2zM16.1 4l1.3-2.1c.1-.2.1-.5-.1-.6s-.5-.1-.6.1L15.3 3.6c-.9-.4-2-.7-3.3-.7s-2.3.2-3.3.7L7.4 1.4c-.2-.2-.4-.3-.6-.1s-.3.4-.1.6L8 4C5.9 5.1 4.5 7.2 4.5 9.6V10h15V9.6c0-2.4-1.4-4.5-3.4-5.6zM9 7.5c-.4 0-.8-.3-.8-.8s.3-.8.8-.8.8.3.8.8-.4.8-.8.8zm6 0c-.4 0-.8-.3-.8-.8s.3-.8.8-.8.8.3.8.8-.4.8-.8.8z"/></svg>';
 const ICON_IOS = '<svg viewBox="0 0 24 24" width="13" height="13" style="vertical-align:-1px;fill:#999"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>';
@@ -1186,14 +1210,24 @@ function renderDarkhorses() {
     const displayRanks = chartRanks.slice(0, 2);
     const hiddenRanks = chartRanks.slice(2);
 
-    // 對齊：右上角排名第一名的國家 → 國旗第一個 + 迷你圖資料來源
+    // 對齊：國旗順序完全跟隨右上角 chartRanks 的加權排序
     const topMarketCode = displayRanks[0]?.marketCode || '';
     if (topMarketCode && dh.markets && dh.markets.length > 1) {
       dh._primaryDisplayMarket = topMarketCode;
+      // 依照 chartRanks 排好的順序提取不重複的 marketCode
+      const orderedCodes = [];
+      for (const cr of chartRanks) {
+        if (cr.marketCode && !orderedCodes.includes(cr.marketCode)) {
+          orderedCodes.push(cr.marketCode);
+        }
+      }
       dh.markets.sort((a, b) => {
-        if (a.code === topMarketCode) return -1;
-        if (b.code === topMarketCode) return 1;
-        return (a.rank ?? 9999) - (b.rank ?? 9999);
+        const idxA = orderedCodes.indexOf(a.code);
+        const idxB = orderedCodes.indexOf(b.code);
+        // 有出現在 chartRanks 的排前面，沒出現的排最後
+        const posA = idxA >= 0 ? idxA : 9999;
+        const posB = idxB >= 0 ? idxB : 9999;
+        return posA - posB;
       });
     }
     // 存一份排好的國旗順序供 Modal 使用
