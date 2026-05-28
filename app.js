@@ -751,7 +751,7 @@ function renderStats() {
   if (statNewDhEl) statNewDhEl.textContent = getMergedCount(newEntryList);
 
   // 已評測黑馬
-  const reportedList = state.darkhorses.filter(dh => !!findReport(dh.name));
+  const reportedList = state.darkhorses.filter(dh => !!findReport(dh.name, dh.appId));
   const statAppsEl = document.getElementById('statApps');
   const totalUnique = getMergedCount(state.darkhorses);
   if (statAppsEl) statAppsEl.textContent = `${getMergedCount(reportedList)} / ${totalUnique}`;
@@ -1036,7 +1036,7 @@ function renderDarkhorses() {
 
   // 更新 header 統計數字（合併後的真實數量，含 sibling 配對）
   const mergedTotal = filtered.length;
-  const mergedReported = filtered.filter(dh => !!findReport(dh.name)).length;
+  const mergedReported = filtered.filter(dh => !!findReport(dh.name, dh.appId)).length;
   const statAppsEl2 = document.getElementById('statApps');
   if (statAppsEl2) statAppsEl2.textContent = `${mergedReported} / ${mergedTotal}`;
 
@@ -1051,8 +1051,8 @@ function renderDarkhorses() {
       const dhMarkets = dh.markets ? dh.markets.map(m => m.code) : [dh.market];
       if (!dhMarkets.includes(state.dhMarket)) return false;
     }
-    if (state.dhReportFilter === 'reported' && !findReport(dh.name)) return false;
-    if (state.dhReportFilter === 'unreported' && findReport(dh.name)) return false;
+    if (state.dhReportFilter === 'reported' && !findReport(dh.name, dh.appId)) return false;
+    if (state.dhReportFilter === 'unreported' && findReport(dh.name, dh.appId)) return false;
     if (state.dhReportFilter === 'new_entry') {
       const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
       const hasTodayNewEntry = dh.triggers?.some(t => t.strategy === 'new_entry' && (t._detectedAt || '').substring(0, 10) === latestDate);
@@ -1076,7 +1076,7 @@ function renderDarkhorses() {
   grid.innerHTML = filtered.map((dh, idx) => {
 
     const hasAnalysis = !!state.analysis[dh.appId];
-    const hasReport = !!findReport(dh.name);
+    const hasReport = !!findReport(dh.name, dh.appId);
     const reportBadge = hasReport
       ? '<span class="dh-tag report-ready" title="已有評測報告">已評測</span>'
       : '';
@@ -1926,7 +1926,7 @@ function showAnalysis(appId, platform) {
 
   // 1. AI 深度研判與摘要 (Unified block)
   let aiSectionHtml = '';
-  const reportMd = findReport(dh.name);
+  const reportMd = findReport(dh.name, dh.appId);
 
   // Extract Markdown summary if report exists
   let extractedSummary = '';
@@ -2135,7 +2135,7 @@ function showAnalysis(appId, platform) {
           <div class="modal-app-dev">${dh.developer || ''} · ${modalMarkets.map(m => getFlag(m.code)).filter(Boolean).join(' ')} · ${platformDisplay}</div>
           ${detectedAtStr ? `<div style="font-size:11px;color:var(--text-muted);margin-top:4px">${isRetainedModal ? '👀 首次偵測' : '🆕 偵測日期'}：${detectedAtStr}${isRetainedModal ? ' · 持續觀察中' : ''}</div>` : ''}
         </div>
-        ${findReport(dh.name) ? `
+        ${findReport(dh.name, dh.appId) ? `
           <button class="report-btn-sleek" style="align-self: flex-start; margin-top: 4px;" onclick="event.stopPropagation();showReport('${dh.name.replace(/'/g, "\\'")}','${dh.appId}','${dh.platform}')">
             📄 查看完整報告
           </button>
@@ -2605,7 +2605,7 @@ window.showAnalysis = showAnalysis;
  * 模糊匹配報告名稱：去除特殊符號後比對
  * 解決遊戲名有 !、:、- 等符號但資料夾名沒有的匹配問題
  */
-function findReport(gameName) {
+function findReport(gameName, appId) {
   if (!state.reports || !gameName) return null;
   // 正規化：轉小寫 → 只保留字母數字與中日韓文字（去掉所有空白符號括號）
   const normalize = (s) => s.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\u31f0-\u31ff\uac00-\ud7af\u3400-\u4dbf]/g, '');
@@ -2613,10 +2613,45 @@ function findReport(gameName) {
   const latinOnly = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
   const nameNorm = normalize(gameName);
   const nameLatin = latinOnly(gameName);
+
+  // ---- 1. appId 直接比對（最準確）----
+  const meta = state.reports?.['_meta'];
+  if (appId && meta) {
+    for (const [key, m] of Object.entries(meta)) {
+      if (m.appIds && m.appIds.includes(appId)) {
+        return state.reports[key] || null;
+      }
+    }
+  }
+
+  // ---- 2. _meta aliases 比對（解決跨語言名稱問題，如 フォートナイト ↔ Fortnite）----
+  if (meta) {
+    for (const [key, m] of Object.entries(meta)) {
+      if (m.aliases) {
+        for (const alias of m.aliases) {
+          const aliasNorm = normalize(alias);
+          if (aliasNorm && nameNorm && (aliasNorm === nameNorm || aliasNorm.includes(nameNorm) || nameNorm.includes(aliasNorm))) {
+            return state.reports[key] || null;
+          }
+          const aliasLatin = latinOnly(alias);
+          if (aliasLatin.length >= 4 && nameLatin.length >= 4 && (aliasLatin === nameLatin || aliasLatin.includes(nameLatin) || nameLatin.includes(aliasLatin))) {
+            return state.reports[key] || null;
+          }
+        }
+      }
+      // appIds 也嘗試用 gameName 中可能包含的數字 ID 匹配
+      if (m.appIds && m.appIds.includes(gameName)) {
+        return state.reports[key] || null;
+      }
+    }
+  }
+
+  // ---- 3. 原有的 key 比對 ----
   // 若 normalize 後為空字串（如泰文、阿拉伯文等非 CJK/拉丁字元），
   // 不可用 includes 比對，否則任何報告都會 match（includes("") 永遠 true）
   if (!nameNorm) return null;
   for (const key of Object.keys(state.reports)) {
+    if (key === '_meta') continue; // 跳過 meta 欄位
     const keyNorm = normalize(key);
     if (!keyNorm) continue; // 報告 key 同樣保護
     // 完整正規化比較
@@ -2638,7 +2673,7 @@ function findReport(gameName) {
  * 顯示評測報告 Modal
  */
 function showReport(gameName, appId, platform) {
-  const md = findReport(gameName);
+  const md = findReport(gameName, appId);
   if (!md) return;
 
   const body = document.getElementById('modalBody');
@@ -2715,7 +2750,7 @@ function showReport(gameName, appId, platform) {
  * ★ 下載評測報告為自包含 HTML 檔案
  */
 function downloadReportHTML(gameName) {
-  const md = findReport(gameName);
+  const md = findReport(gameName);  // downloadReportHTML 不帶 appId，靠名稱匹配即可
   if (!md || typeof marked === 'undefined') return;
 
   const renderer = new marked.Renderer();
@@ -2938,6 +2973,7 @@ function renderReportsTab() {
   ];
 
   for (const [reportName, reportData] of Object.entries(state.reports)) {
+    if (reportName === '_meta' || typeof reportData !== 'string') continue; // 跳過 meta 欄位
     // 萃取 Markdown 中的類型標籤
     const genreMatch = reportData.match(/\|\s*\|\s*\*\*(?:遊戲)?類型\*\*\s*\|\s*(.+?)\s*\|/) || reportData.match(/\|\s*\*\*(?:遊戲)?類型\*\*\s*\|\s*(.+?)\s*\|/);
     const rawTags = genreMatch ? genreMatch[1].split(/[,\/、]/).map(t => t.trim()).filter(Boolean) : [];
@@ -2985,14 +3021,14 @@ function renderReportsTab() {
     }
     // 從黑馬中找
     if (!appInfo) {
-      const dh = state.darkhorses.find(d => findReport(d.name) === reportData);
+      const dh = state.darkhorses.find(d => findReport(d.name, d.appId) === reportData);
       if (dh) appInfo = { appId: dh.appId, name: dh.name, icon: dh.icon || '', developer: dh.developer || '' };
     }
 
     const gameName = appInfo?.name || reportName;
     const icon = appInfo?.icon || '';
     const developer = appInfo?.developer || '';
-    const isDarkhorse = state.darkhorses.some(d => findReport(d.name) === reportData);
+    const isDarkhorse = state.darkhorses.some(d => findReport(d.name, d.appId) === reportData);
 
     reportCards.push({ reportName, gameName, icon, developer, isDarkhorse, appId: appInfo?.appId, tags });
   }

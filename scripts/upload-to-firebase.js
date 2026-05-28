@@ -106,15 +106,51 @@ async function uploadDarkhorses() {
   const dhData = JSON.parse(fs.readFileSync(path.join(darkhorseRoot, latestDH), 'utf-8'));
   const darkhorses = dhData.darkhorses || [];
 
-  // 黑馬資料存為單一文件（最新）
+  // 黑馬資料存為單一文件（最新）— 精簡欄位避免超出 Firestore 1MB 限制
   const date = latestDH.replace('.json', '');
-  await db.collection(COLLECTION).doc('darkhorses').set({
+  const slimDarkhorses = darkhorses.map(dh => ({
+    appId: dh.appId,
+    name: dh.name,
+    platform: dh.platform,
+    chartType: dh.chartType,
+    chartName: dh.chartName,
+    currentRank: dh.currentRank,
+    confidenceScore: dh.confidenceScore,
+    market: dh.market,
+    marketFlag: dh.marketFlag,
+    marketName: dh.marketName,
+    triggers: (dh.triggers || []).map(t => ({
+      strategy: t.strategy,
+      label: t.label,
+      detail: t.detail,
+      score: t.score,
+      _detectedAt: t._detectedAt,
+      chartLine: t.chartLine,
+      src: t.src,
+    })),
+    markets: dh.markets || [{ code: dh.market, flag: dh.marketFlag, name: dh.marketName, rank: dh.currentRank }],
+    icon: dh.icon,
+    detectedAt: dh.detectedAt,
+    developer: dh.developer,
+    category: dh.category,
+    rankHistory: dh.rankHistory || [],
+    // sibling 保留 appId 即可，前端用 appId 找回
+    ...(dh.sibling ? { sibling: { appId: dh.sibling.appId, name: dh.sibling.name, platform: dh.sibling.platform } } : {}),
+  }));
+  
+  const payload = {
     date,
-    count: darkhorses.length,
+    count: slimDarkhorses.length,
     config: dhData.config || {},
-    darkhorses,
-  });
-  console.log(`  ✅ 黑馬（${darkhorses.length} 匹，${latestDH}）`);
+    darkhorses: slimDarkhorses,
+  };
+  const payloadSize = Buffer.byteLength(JSON.stringify(payload), 'utf-8');
+  console.log(`  📏 黑馬文件大小: ${(payloadSize / 1024).toFixed(1)} KB（Firestore 限制 1024 KB）`);
+  if (payloadSize > 950 * 1024) {
+    console.warn(`  ⚠️ 黑馬文件接近 1MB 限制，考慮進一步精簡`);
+  }
+  await db.collection(COLLECTION).doc('darkhorses').set(payload);
+  console.log(`  ✅ 黑馬（${slimDarkhorses.length} 匹，${latestDH}）`);
 
   // #8 黑馬歷史：額外保留每天的黑馬到子集合（最多保留 60 天）
   await db.collection(COLLECTION).doc('darkhorseHistory').collection('items').doc(date).set({
@@ -214,6 +250,7 @@ async function uploadReports() {
   if (!fs.existsSync(reportsRoot)) return;
 
   const reports = {};
+  const reportMeta = {};  // gameName → { appIds, aliases }
   const dirs = fs.readdirSync(reportsRoot, { withFileTypes: true })
     .filter(d => d.isDirectory());
 
@@ -224,6 +261,22 @@ async function uploadReports() {
       try {
         const content = fs.readFileSync(path.join(dirPath, mdFiles[0]), 'utf-8');
         reports[dir.name] = content;
+
+        // 讀取 raw-data.json 提取 appId 和別名（用於跨語言名稱匹配）
+        const rawPath = path.join(dirPath, 'raw-data.json');
+        if (fs.existsSync(rawPath)) {
+          try {
+            const raw = JSON.parse(fs.readFileSync(rawPath, 'utf-8'));
+            const appIds = [];
+            const aliases = [dir.name]; // 資料夾名作為主別名
+            if (raw.android?.appId) appIds.push(raw.android.appId);
+            if (raw.ios?.id) appIds.push(String(raw.ios.id));
+            if (raw.ios?.appId) appIds.push(raw.ios.appId);
+            if (raw.android?.title && !aliases.includes(raw.android.title)) aliases.push(raw.android.title);
+            if (raw.ios?.title && !aliases.includes(raw.ios.title)) aliases.push(raw.ios.title);
+            reportMeta[dir.name] = { appIds, aliases };
+          } catch {}
+        }
       } catch {}
     }
   }
@@ -232,17 +285,21 @@ async function uploadReports() {
   let subCount = 0;
   for (const [gameName, content] of Object.entries(reports)) {
     const safeId = gameName.replace(/[/\\#$[\]]/g, '_');
+    const meta = reportMeta[gameName] || {};
     await db.collection(COLLECTION).doc('reports').collection('items').doc(safeId).set({
       gameName,
       content,
+      ...(meta.appIds?.length ? { appIds: meta.appIds } : {}),
+      ...(meta.aliases?.length ? { aliases: meta.aliases } : {}),
       updatedAt: admin.firestore.FieldValue.serverTimestamp(),
     });
     subCount++;
   }
 
-  // 同時保留舊格式（向後相容）
+  // 同時保留舊格式（向後相容） — 加入 _meta 欄位供前端使用
+  reports['_meta'] = reportMeta;
   await db.collection(COLLECTION).doc('reports').set(reports);
-  console.log(`  ✅ 報告（${Object.keys(reports).length} 份，含子集合 ${subCount} 筆）`);
+  console.log(`  ✅ 報告（${Object.keys(reports).length - 1} 份，含子集合 ${subCount} 筆，含 meta）`);
 }
 
 /**

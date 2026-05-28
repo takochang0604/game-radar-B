@@ -1,0 +1,3132 @@
+{
+  "collectedAt": "2026-05-28T10:55:49.886Z",
+  "android": {
+    "appId": "com.epicgames.fortnite",
+    "title": "Fortnite",
+    "developer": "Epic Games, Inc",
+    "developerId": "Epic+Games,+Inc",
+    "genre": "Action",
+    "score": 3.8203633,
+    "ratings": 425524,
+    "installs": "10,000,000+",
+    "maxInstalls": 28703931,
+    "free": true,
+    "released": "Apr 20, 2020",
+    "updated": 1779464277000,
+    "version": "40.41.0-54326946-Android",
+    "contentRating": "Teen",
+    "icon": "https://play-lh.googleusercontent.com/O73HcPxfSKv191ZZffJ85GilCDq7TB3KySmca1nqliOEhJ44kaDUv27QTKYqvlWwmknBNoMHyyuO61h2TsBE",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/Me7w2pV0BaeglOkZ7JalMaGL4fZs0DK_UmQ1aFR4HPzVCduG3Xskm5oEkE_aBp2T9fRP5tvd34c56ZEdeLhp",
+      "https://play-lh.googleusercontent.com/GPMF3dYqRczsHeeSJhivYr63z0wI145E7Bi_4hRv-lcc_O_vU3KKmXh0DO9Zli0CSi2mDW2VBNFELsx10eSK",
+      "https://play-lh.googleusercontent.com/NM3NucQ9eJz9lqDRO6IEbEseRw99E0I1smWIPditk9wTCc08K8wAzxtqjCqBNjUEijYv2yyS6ky9BwsqU7KOBg",
+      "https://play-lh.googleusercontent.com/TK9GVmkQgGR3HAsWmojoWvmawrTKgMlwceksuMhlx2Dp5baaWlOhE0hsxvBOuVhj_UI89HFwqqw5VIaJKCrf",
+      "https://play-lh.googleusercontent.com/aEb9fPmJ2QSyfPhwLUu0ti8Vfi80C-j2zWj6-0iwdE6XDZlQXXgKi_m2Di7JtRWXx6SMaQ8ZczurBW4mjsA2KQ",
+      "https://play-lh.googleusercontent.com/LMndrix2EzdIxot9_y3mbmDVoG2Rio8dgUiKz-p9XQp9XOH9ORiL1H0kAPSX08zgUHQJRkhL0IL8niH6RrHU",
+      "https://play-lh.googleusercontent.com/n1OOI9NctEGkZWzGM22BzrryBGUsixmSCI01hi8QLW-odCsufeSnoSqgtqQwa5oaTuWn-SNogsvYDFOl3q1Ziw",
+      "https://play-lh.googleusercontent.com/Me7w2pV0BaeglOkZ7JalMaGL4fZs0DK_UmQ1aFR4HPzVCduG3Xskm5oEkE_aBp2T9fRP5tvd34c56ZEdeLhp",
+      "https://play-lh.googleusercontent.com/GPMF3dYqRczsHeeSJhivYr63z0wI145E7Bi_4hRv-lcc_O_vU3KKmXh0DO9Zli0CSi2mDW2VBNFELsx10eSK",
+      "https://play-lh.googleusercontent.com/NM3NucQ9eJz9lqDRO6IEbEseRw99E0I1smWIPditk9wTCc08K8wAzxtqjCqBNjUEijYv2yyS6ky9BwsqU7KOBg",
+      "https://play-lh.googleusercontent.com/TK9GVmkQgGR3HAsWmojoWvmawrTKgMlwceksuMhlx2Dp5baaWlOhE0hsxvBOuVhj_UI89HFwqqw5VIaJKCrf",
+      "https://play-lh.googleusercontent.com/aEb9fPmJ2QSyfPhwLUu0ti8Vfi80C-j2zWj6-0iwdE6XDZlQXXgKi_m2Di7JtRWXx6SMaQ8ZczurBW4mjsA2KQ",
+      "https://play-lh.googleusercontent.com/LMndrix2EzdIxot9_y3mbmDVoG2Rio8dgUiKz-p9XQp9XOH9ORiL1H0kAPSX08zgUHQJRkhL0IL8niH6RrHU",
+      "https://play-lh.googleusercontent.com/n1OOI9NctEGkZWzGM22BzrryBGUsixmSCI01hi8QLW-odCsufeSnoSqgtqQwa5oaTuWn-SNogsvYDFOl3q1Ziw",
+      "https://play-lh.googleusercontent.com/Me7w2pV0BaeglOkZ7JalMaGL4fZs0DK_UmQ1aFR4HPzVCduG3Xskm5oEkE_aBp2T9fRP5tvd34c56ZEdeLhp",
+      "https://play-lh.googleusercontent.com/GPMF3dYqRczsHeeSJhivYr63z0wI145E7Bi_4hRv-lcc_O_vU3KKmXh0DO9Zli0CSi2mDW2VBNFELsx10eSK",
+      "https://play-lh.googleusercontent.com/NM3NucQ9eJz9lqDRO6IEbEseRw99E0I1smWIPditk9wTCc08K8wAzxtqjCqBNjUEijYv2yyS6ky9BwsqU7KOBg",
+      "https://play-lh.googleusercontent.com/TK9GVmkQgGR3HAsWmojoWvmawrTKgMlwceksuMhlx2Dp5baaWlOhE0hsxvBOuVhj_UI89HFwqqw5VIaJKCrf",
+      "https://play-lh.googleusercontent.com/aEb9fPmJ2QSyfPhwLUu0ti8Vfi80C-j2zWj6-0iwdE6XDZlQXXgKi_m2Di7JtRWXx6SMaQ8ZczurBW4mjsA2KQ",
+      "https://play-lh.googleusercontent.com/LMndrix2EzdIxot9_y3mbmDVoG2Rio8dgUiKz-p9XQp9XOH9ORiL1H0kAPSX08zgUHQJRkhL0IL8niH6RrHU",
+      "https://play-lh.googleusercontent.com/n1OOI9NctEGkZWzGM22BzrryBGUsixmSCI01hi8QLW-odCsufeSnoSqgtqQwa5oaTuWn-SNogsvYDFOl3q1Ziw"
+    ],
+    "video": "https://www.youtube.com/embed/-Qqhaq_pqM8?vq=large&rel=0&autohide=1&showinfo=0",
+    "summary": "Battle royale, PvP, social games and more. Compete solo or play with friends.",
+    "description": "There is always something new for you and your friends in Fortnite!\n\nBe the last player standing in Battle Royale. Get nostalgic in Fortnite OG. Headline a concert in Fortnite Festival. Explore the worlds of LEGO Fortnite. Play thousands of free developer-made multiplayer adventure games like tycoons, deathruns, zombie survival, and more. There’s always something new for you and your friends.\n\nIn between action-packed games, stop by the Shop to get an Outfit, Back Bling, or Emote. Show off your new look as you go no-building, all action in Zero Build, or get tactical in Reload. Brawl and play Ranked modes and qualify for Fortnite Competitive tournaments, where you can earn rewards like cash or cosmetics.\n\nThere’s a new Battle Pass every Season, with tons of rewards you can use across Fortnite, like new Outfits, Pickaxes, and Gliders. Unlock these rewards as you complete Quests and earn XP.\n\nPast and present collide in the OG Pass, where you can unlock classic looks with fresh Outfits inspired by past Seasons as you brawl your opponents.\n\nNew Seasons of Fortnite Festival bring a brand new music Icon to the stage. Perform as your favorite artists with their Outfits and hit songs in the Shop and Music Pass.\n\nWHAT’S NEW:\n- Overwatch is here! Your mission: protect the island. Answer the call with Overwatch heroes D.Va, Genji, Tracer, and Mercy now in Fortnite.\n- Zero Build is better than ever with new ways to move, fight, and survive.\n\nGAMES IN THE FORTNITE MOBILE APP:\n- Battle Royale\n- Blitz Royale\n- Zero Build\n- Fortnite OG\n- LEGO Fortnite\n- Fortnite Festival\n- Adventure Games\n- Developer-Made Games\n- Competitive Games\n- & more\n\nACTION PACKED BATTLE ROYALE, WHEREVER & WHENEVER\n- Choose your Outfit and explore the Island in style\n- Fight to be the last one standing in this fast-paced third-person PvP shooter\n- Avoid damage as the Storm closes in\n- Coming soon: updates bringing new weapons, vehicles, and more to our competitive games\n\nBRAWL & COMPETE SOLO OR TEAM UP IN ZERO BUILD\n- Battle Royale without the building. Play solo or team up as a duo, trio, or 4-person squad\n- Use your Overshield for protection because no building means more danger\n- Use natural coverage as you move through the map, and leverage your loadout to the max\n- Mantle, hurdle, jump, and more to stay competitive\n\nMORE TO EXPLORE\n- Play faster in a smaller map with fewer players in Blitz Royale\n- Jump into social adventure games\n- Perform or remix awesome music with Jam Tracks from the Shop or Music Pass\n\nIt’s all right here, in your pocket.",
+    "recentChanges": "Jump into Shattered, the End of Season Live Event, at 7pm ET on June 5th.",
+    "developerWebsite": "https://www.epicgames.com/help"
+  },
+  "ios": {
+    "id": 6483539426,
+    "appId": "com.epicgames.FortniteGame",
+    "title": "Fortnite",
+    "developer": "Epic Games Inc.",
+    "score": 4.40068,
+    "reviews": 148263,
+    "free": true,
+    "released": "2025-05-20T07:00:00Z",
+    "updated": "2026-05-28T08:11:46Z",
+    "version": "40.41",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/fa/0d/62fa0d4e-e66f-e80b-c435-2b35b77af219/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Adventure",
+      "Entertainment",
+      "Action"
+    ],
+    "description": "Play and battle with friends in Fortnite. Be the last player standing in Battle Royale, Zero Build, Blitz and OG, carry your squad to victory in fast-paced Reload, build your own adventures in LEGO® Fortnite, or headline a concert in Fortnite Festival — it's all here.\n\nPlay thousands of free developer-made islands with your friends, including tycoons, deathruns, zombie survival, and more.\n\nDISCLAIMER:\nFortnite can be played on iPhone 11 and newer, iPhone XS and newer, iPhone 12 Mini and newer, iPhone SE 3 and newer, iPad Pro 10.5\" and newer, iPad Air 4th Gen and newer, iPad 10th Gen and newer, iPad Mini 6th Gen and newer."
+  },
+  "reviews": {
+    "total": 372,
+    "googlePlay": 179,
+    "appStore": 193,
+    "distribution": {
+      "1": 67,
+      "2": 17,
+      "3": 30,
+      "4": 39,
+      "5": 219
+    },
+    "positive": [
+      {
+        "source": "google_play",
+        "userName": "yeshwanth panidepu",
+        "score": 5,
+        "text": "its the best game",
+        "date": "2026-05-27T07:37:13.868Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Hamid siyavooshi",
+        "score": 5,
+        "text": "good game 🎮 👏",
+        "date": "2026-05-27T07:19:57.509Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nile Red",
+        "score": 5,
+        "text": "i like this game its so very fun and the skins are not bad and i like the rock one",
+        "date": "2026-05-27T05:40:16.717Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alaa Bawazeer",
+        "score": 5,
+        "text": "I can fortnite on samsung YAY",
+        "date": "2026-05-27T03:10:46.200Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Fekett Shamet",
+        "score": 5,
+        "text": "Woooo",
+        "date": "2026-05-27T01:52:07.723Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jeremy Collier",
+        "score": 5,
+        "text": "Right now, this game is going viral on YouTube and I had the best experience. Not the only thing that I want to say there is no limit to your imagination.",
+        "date": "2026-05-27T00:50:40.309Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Markus Carreiro",
+        "score": 5,
+        "text": "love it",
+        "date": "2026-05-26T23:27:37.500Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jesse Ramos",
+        "score": 5,
+        "text": "good gama",
+        "date": "2026-05-26T22:23:23.926Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Luis Martinez",
+        "score": 5,
+        "text": "great game",
+        "date": "2026-05-26T21:47:12.584Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tammy Kolenda",
+        "score": 4,
+        "text": "overall great it ran well and even got some wins took a little bit to getting the hang of the controls it was realy fun the only down side for me may not be for you but it took a pretty long time to download",
+        "date": "2026-05-26T21:19:46.365Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Adyan",
+        "score": 5,
+        "text": "is actually real fornite",
+        "date": "2026-05-26T20:51:52.727Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Samantha Thompson",
+        "score": 5,
+        "text": "its just the travis scott event was insane so fn pls bring travis scott back",
+        "date": "2026-05-26T20:12:53.706Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Paula Pinkert",
+        "score": 5,
+        "text": "amazing 😍.",
+        "date": "2026-05-26T20:05:53.700Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Haneef Sugar",
+        "score": 5,
+        "text": "Good game I. Min the best game on ps and mobile pis",
+        "date": "2026-05-26T18:42:48.746Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Yusuf Yusuf",
+        "score": 5,
+        "text": "I prefer the PS 5 than that of mobile",
+        "date": "2026-05-26T16:36:40.333Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dr rachna singh",
+        "score": 5,
+        "text": "best game I have playing in ps5 but in the phone it's also so fun",
+        "date": "2026-05-26T15:32:49.972Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Usine Baldwin",
+        "score": 5,
+        "text": "w game i been playing since season 4",
+        "date": "2026-05-26T15:26:18.828Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Aaryan prasad Class-4",
+        "score": 5,
+        "text": "it is good",
+        "date": "2026-05-26T14:28:31.783Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alifman Jaafar",
+        "score": 5,
+        "text": "the gameplay was great, best skin, iconic characters, is just so amazing 🫪",
+        "date": "2026-05-26T13:05:06.670Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "MILLI CENT CHIOMA",
+        "score": 5,
+        "text": "It's amazing",
+        "date": "2026-05-26T12:51:59.650Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mosam Rai",
+        "score": 5,
+        "text": "yes, it's good but, the problem is why in phone not working properly like pc or camputer. like we are not seeing the enemy clearly nor the graphic is not good just mean not seeing clearly even my resources is fully done. Can u fix that problem. thank you ❤🙏",
+        "date": "2026-05-26T11:00:22.704Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "SeiShin KAGE",
+        "score": 4,
+        "text": "if you don't hate it, it's best battle royale because somehow pubg mobile became same cringe but this game it's just more fun to play! it's more then just BR have a lot of fun game modes! but I go back to Delta force ;D",
+        "date": "2026-05-26T10:58:46.730Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Renato Rico",
+        "score": 5,
+        "text": "it's good",
+        "date": "2026-05-26T10:45:18.407Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Blue Bear (FUN RUN 4)",
+        "score": 5,
+        "text": "Hey Everyone, I just wanna say that Clearly they we're some stuff on Fortnite they added, Which is pretty cool. I highly recommend this game and at least I'll defend the game for sure :P",
+        "date": "2026-05-26T09:15:44.553Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Munim Shahriar",
+        "score": 5,
+        "text": "its the best game ever and im glad it came to mobile. it wouldve been better if it had a tutorial setup",
+        "date": "2026-05-26T09:00:05.964Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mr samuel",
+        "score": 5,
+        "text": "Fortnite is finally back...",
+        "date": "2026-05-26T05:39:29.967Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Azizjon Murtazokulov",
+        "score": 5,
+        "text": "Good, but fps are not stable, Totally I think it will be good in the future",
+        "date": "2026-05-26T05:31:49.503Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Brian Liesch",
+        "score": 5,
+        "text": "I really Like fortnite I'm a sweat and I'm just glad we get it back on my phone and I can connect it to My Bluetooth xbox controller to play",
+        "date": "2026-05-26T04:24:29.406Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "iFER GENERAL TRADING PLC",
+        "score": 5,
+        "text": "fortnite is so fun and you can invite friends and play so many games so i give fortnite a 5 star rating",
+        "date": "2026-05-26T04:13:06.346Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dayman H",
+        "score": 4,
+        "text": "fun when you have down time good work put in to this game but man monster updates it does kick me off from time to time",
+        "date": "2026-05-26T00:46:33.169Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Gavin Powers",
+        "score": 5,
+        "text": "its good",
+        "date": "2026-05-26T00:40:04.720Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Natasha Smith",
+        "score": 5,
+        "text": "very good",
+        "date": "2026-05-26T00:31:45.485Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Zachary Truong-Chipman",
+        "score": 5,
+        "text": "awsome",
+        "date": "2026-05-25T23:50:03.476Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Chance DeMoss",
+        "score": 5,
+        "text": "love it can play while im away from the house and not have to worry about bringing my console",
+        "date": "2026-05-25T21:22:32.557Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Alp Sönmez",
+        "score": 5,
+        "text": "i love fortnite",
+        "date": "2026-05-25T20:45:14.784Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Kimberlyn Crisanto",
+        "score": 5,
+        "text": "I love this game so much 😭",
+        "date": "2026-05-25T19:22:01.743Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Devon Daniels",
+        "score": 5,
+        "text": "w game",
+        "date": "2026-05-25T19:13:03.902Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "MANUNU NZASI",
+        "score": 5,
+        "text": "to that one sped person who said that they didn't feel comfortable logging in its bc its a security check since you spend real money for in game currency like roblox its gonna ask you for your acc password then it will never ask again bc it alr knows your password and if anyone doesn't know your password they'll know it's not you",
+        "date": "2026-05-25T18:56:02.793Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Tito Mack",
+        "score": 4,
+        "text": "I love fortnite but for some reason it will not let me play",
+        "date": "2026-05-25T18:24:09.308Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Ahmad Chebbo",
+        "score": 5,
+        "text": "the best game ever",
+        "date": "2026-05-25T18:22:19.134Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Tina Stalin",
+        "score": 5,
+        "text": "i really play on ps bcz my laptop is buns but apart from that W game tho",
+        "date": "2026-05-25T17:56:16.592Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Ali Haidar",
+        "score": 5,
+        "text": "Its a cool game its entertaining I recommend playing it it carried 2024 and 2025 summer for me",
+        "date": "2026-05-25T17:07:35.141Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "حودة باشا",
+        "score": 5,
+        "text": "I love this game in a console and now it's downloaded in my phone",
+        "date": "2026-05-25T14:52:08.542Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Liam Ali",
+        "score": 5,
+        "text": "thank you I love you",
+        "date": "2026-05-25T14:24:58.649Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mimi",
+        "score": 5,
+        "text": "best game to ever download",
+        "date": "2026-05-25T13:21:49.309Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Alec Ebo",
+        "score": 5,
+        "text": "so good",
+        "date": "2026-05-25T12:28:43.497Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Jogi Ram",
+        "score": 5,
+        "text": "very good game",
+        "date": "2026-05-25T11:39:50.599Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Tucker ROBINSON",
+        "score": 5,
+        "text": "it's meh",
+        "date": "2026-05-25T09:44:31.414Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Mahmoud Alshhabi",
+        "score": 5,
+        "text": "it's best game",
+        "date": "2026-05-25T08:49:52.680Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Khahliso leketa",
+        "score": 5,
+        "text": "i love it but i cant play with my phone because its not supported and its sad",
+        "date": "2026-05-25T04:10:03.408Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Eric Porras",
+        "score": 5,
+        "text": "I like fortnite because I'm kind of good and kind of bad and I have it in my switch and my phone",
+        "date": "2026-05-25T02:56:36.499Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Praba Livin",
+        "score": 5,
+        "text": "suber பேட்டில் ராயல் கேம்",
+        "date": "2026-05-25T02:47:49.560Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "2M Transporters",
+        "score": 5,
+        "text": "Best game ever rrrr",
+        "date": "2026-05-25T01:26:43.460Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Carter Baron-Davies",
+        "score": 5,
+        "text": "love the gam3 I got 1000 skins in fn",
+        "date": "2026-05-24T23:17:21.875Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Daniel Mendoza",
+        "score": 5,
+        "text": "this game is fun to play! you get play in different modes like: Battle Royal Save The World and much more! there is also a creative mode!",
+        "date": "2026-05-24T22:44:43.625Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Noxi Baby",
+        "score": 5,
+        "text": "i love the game",
+        "date": "2026-05-24T22:39:03.214Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Asher",
+        "score": 5,
+        "text": "runs like butter",
+        "date": "2026-05-24T21:58:30.357Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "PWR NOOahRULZ",
+        "score": 5,
+        "text": "best shooter I have ever played 180000000 out of 10 stars",
+        "date": "2026-05-24T21:28:10.753Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Tristan Westover",
+        "score": 5,
+        "text": "as far as I have seen it has ran great for a phone. I logged in smoothly with no troubles. I also love how I you can just download the modes you want. some games take up more space than others so beware some are over 5 GB. But overall it has improved a lot since I played back in 2017 on mobile. CAUTION ⚠️: some models of phones will heat up fast.",
+        "date": "2026-05-21T21:39:04.249Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "diamond 345",
+        "score": 5,
+        "text": "Fortnite is a great game. I've played it on several different consoles such as a Nintendo, PlayStation, PC, etc. Since they released the mobile version, I had to give it a try. To begin with, the graphics aren't that great, but you can change them in settings, though you sacrifice FPS, which I recommend for Lego Fortnite Oddyssey. Additionally, if you play the Blitz and Battle Royale modes, it feels great as a mobile game. If played on new gen phones, then this is a great shooter. Good game.",
+        "date": "2026-05-02T16:33:49.984Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Matthew Nusca",
+        "score": 5,
+        "text": "So far it's a smooth five all day on mobile for me! going to be playing daily, used to play only on PC a few years ago and have been missing this game. hoping you guys keep up the fun battle passes and keep this game going for a long time to come! will definitely be a paying customer. -New_Nu",
+        "date": "2026-05-19T00:21:50.187Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Anonymous",
+        "score": 5,
+        "text": "Best Battle Royal game at least for Smartphones. It has a lot Maps,Modes,Items and most Collab of any game in existence. There is so much to play so much to explore that if you know you will never get bored and it will almost never get Repetitive. Well there are some drawbacks like it requires a good device for better performance and in many areas there is no server so high ping issues but overall for Smartphone it's a 5/5 no cap.",
+        "date": "2026-03-19T18:17:32.355Z",
+        "thumbsUp": 26
+      },
+      {
+        "source": "google_play",
+        "userName": "Omega Virtuoso",
+        "score": 5,
+        "text": "literally my favorite video videogame of all time, it's a little hard to play on mobile but you can pair a controller via Bluetooth and it plays as well as it does on PS4 or Nintendo Switch so not too bad. I have a Samsung Z Fold phone and it is really cool to be able to play on a larger screen with a controller anywhere!",
+        "date": "2026-04-13T22:24:45.667Z",
+        "thumbsUp": 15
+      },
+      {
+        "source": "google_play",
+        "userName": "Muhammad Ali",
+        "score": 5,
+        "text": "Fortnite is one of the best battle royale games ever made. The game has amazing graphics, smooth gameplay, and nonstop action that keeps it exciting every time you play. What makes Fortnite special is its unique building system, which makes fights more creative and competitive compared to other shooting games. The game also gets regular updates with new skins, weapons, events, and collaborations with famous movies, artists, and superheroes. The maps are always changing, so it never feels boring.",
+        "date": "2026-04-27T04:27:29.274Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "userName": "K Bull",
+        "score": 5,
+        "text": "fortnite is a bloated game whether you play on console or PC. so the fact that they were able to create a mobile version that is exactly the same as the two other platforms is remarkable. you're able to play on an Android or Apple in the same match as someone who's playing on PC. the only challenge is the optimization, but the developer has included plenty of settings that you can toy with to get it to work on your device. not many other games have accomplished this.",
+        "date": "2026-03-06T16:46:53.878Z",
+        "thumbsUp": 36
+      },
+      {
+        "source": "google_play",
+        "userName": "Nathan E",
+        "score": 5,
+        "text": "I downloaded the game, went through set up and logged into my Epic account and then it force reset my phone. now it won't show up on my phone but shows it's still installed in the app store but won't let me uninstall it. *Update, re-downloaded after the new season and everything is working great. It runs just like console if you have a controller for your phone and isn't bad on touchpad either.",
+        "date": "2026-03-21T02:28:11.522Z",
+        "thumbsUp": 22
+      },
+      {
+        "source": "google_play",
+        "userName": "Riyan Riyaz",
+        "score": 5,
+        "text": "Fortnite is an amazing game overall. The graphics are impressive, colorful, and smooth, making the gameplay experience really enjoyable. Everything from the character designs to the maps feels well-made and engaging. The game runs well and offers a lot of fun, whether you're playing solo or with friends. However, one major issue I’ve noticed is the downloading speed, especially when it comes to map updates. Even with a fast internet connection, the map downloads can be surprisingly slow, which c",
+        "date": "2026-04-17T04:55:05.948Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "userName": "Chango Llanta",
+        "score": 5,
+        "text": "Love this game. I've put maybe over 200 hours on it. I wish they would give us more customization options just like PC, especially on the graphics side of the game. I still think this is the best game on my phone.",
+        "date": "2026-05-23T21:16:58.602Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Anshuman Kumar",
+        "score": 5,
+        "text": "I’m blown away by how well Fortnite runs on mobile. It isn’t a stripped-down version; it’s the full, high-quality experience I play on my console, synced perfectly via cross-progression. Whether I’m using touch controls or a Bluetooth controller, the performance is smooth, the graphics look sharp, and I never miss out on live events or season updates. It’s the ultimate way to play on the go!",
+        "date": "2026-04-26T08:33:56.201Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "userName": "Deez Nutz",
+        "score": 5,
+        "text": "This app is less greedy than minecraft and also less laggy. This game is less strict than roblox and now has a lot of games like roblox. the graphics are good, and you can get some free stuff by playing well, which is great because most games out there Need money if you want something different. also, the updates are frequent even if small. it just feels free and fun like how online games should feel.",
+        "date": "2026-03-19T17:03:51.783Z",
+        "thumbsUp": 19
+      },
+      {
+        "source": "google_play",
+        "userName": "Brandon L. Sparks Thompson",
+        "score": 5,
+        "text": "surprised how well it runs compared to how it ran when I downloaded it from the epic game store. I really like the fact that it doesn't make you download the game modes you're not going to play. when I downloaded it from the epic game store, it would try to download everything right away (like 25gb of stuff). this file wasn't as big (6gb). if you're using touch controls I strongly recommend you don't play rocket racing, the controls on that are Way too complicated. I use PS4 controller.",
+        "date": "2025-12-24T02:14:06.988Z",
+        "thumbsUp": 2347
+      },
+      {
+        "source": "google_play",
+        "userName": "Cwin 12345",
+        "score": 5,
+        "text": "Game are pretty good and it was my first time playing frontnite on mobile, basically the game are very fun and good so far with the mobile fixture to help, graphic and texture not very that good since it becomes pixel even with high settings... but yeah, it was very fun 10/10! Absolute epic games.",
+        "date": "2026-04-30T08:46:12.686Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "userName": "David Wilken",
+        "score": 5,
+        "text": "only downside I see is compatibly on lower end devices if they can downscale performance according to lower end budget phone so it will have a smooth experience and be playable so that people that can't afford high end phone also can enjoy this amazing game like codm that allows most phones to be able to play and still looks good this will be for sure then be top 1 game in the playstore also work on the network side sometimes it will kick you out even wh wifi is perfect and ping but great game",
+        "date": "2026-03-22T03:28:11.713Z",
+        "thumbsUp": 15
+      },
+      {
+        "source": "google_play",
+        "userName": "N Sandon",
+        "score": 5,
+        "text": "In my previous review, I gave them a 3-star rating, but it runs surprisingly better on the Play Store than on Epic for my phone. I also have it on PC and my Switch, but it plays better on PC than on the Switch. The controls take a bit to get used to, but I am still playing at a super competitive level. Overall, it's a really solid gameplay experience for me.",
+        "date": "2026-02-13T20:21:48.773Z",
+        "thumbsUp": 379
+      },
+      {
+        "source": "google_play",
+        "userName": "Abhishek S A",
+        "score": 5,
+        "text": "u should improve the graphics rest is very perfect . it's my request to increase your graphics settings in using a high end phone and iam not able to see the maximum quality.",
+        "date": "2026-05-23T07:36:29.214Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "A Google user",
+        "score": 5,
+        "text": "it was my dream to play this game. Finally able to live my dream. More fun than expected. Low fps but that because my phone is kinda old. one of the best shooters out there for mobile players.",
+        "date": "2026-05-15T06:20:23.758Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Rabi Ranjan Mazumdar",
+        "score": 5,
+        "text": "soooo good game ever in the world ,I thought that I can never play Fortnite but my friend said Fortnite is in playstore so I quickly downloaded it and 😲😲😲😲😲 it is so good and the graphic can beat any realistic game but for mobile players it is little laggy so fix it but still this game deserves 5 star",
+        "date": "2026-05-16T08:04:00.926Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Squidly Storm",
+        "score": 5,
+        "text": "Fortnight is a great game I played it on other consoles like ps4, pc it's great for multiplayer graphics the school bus and my Nintendo switch and nonstop action.",
+        "date": "2026-05-23T18:25:07.158Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Talat Ahmed",
+        "score": 5,
+        "text": "I've been playing Fortnite on my mobile and PC for a while now. I love playing Fortnite on my mobile on the go, the controls are also very good and the performance is good but the game feels like running in 720p although I play on 100% 3D resolution. This sometimes makes me feel frustrated as the visual looks bad due to the jagged edges. I using FXAA does not help. My phone has 144 refresh rate and lots of other game support high refresh rate gaming. I would love to have 90fps option in Fortnite",
+        "date": "2026-04-01T11:57:20.250Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "userName": "Jawad",
+        "score": 5,
+        "text": "its a amazing game where you can play with friends and there guns and build and make sure if your not playing with the person you see in the game then i suggest shotting them or if they are bots dont and you can play ranked where there arnt as much of bots playing in unranked lots of them are bots.",
+        "date": "2026-03-25T08:34:47.472Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "userName": "Asha Shekhawat",
+        "score": 5,
+        "text": "it is a good game overall but there is one thing that I have a ps4 and it is. free in that also but just imagine that you had wasted your money in a box and the games which you play in that most of them are available in mobile phone for free",
+        "date": "2026-05-02T05:55:56.764Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Charlie Mcgarrah",
+        "score": 5,
+        "text": "it runs really good on a phone they just do way to many updates on this game my phone can't keep up like update it every couple months like we used to I miss the og days",
+        "date": "2026-05-21T16:10:38.786Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Tebin Tahsin",
+        "score": 5,
+        "text": "the game is really really good overall but the developers need to add a bit more graphics settings for those that kinda laga like mine and it over heats when im playing i would be happy if epic added it even tho its my birthday too",
+        "date": "2026-05-14T21:11:14.459Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Landen Gosser",
+        "score": 5,
+        "text": "Just use the epic games store version, waste of time trying to get this one to work. yes I am another \"bad instalation files\" error reporter. epic games store version works perfectly fine for me *edit* few months later they fixed it, both work the same",
+        "date": "2026-04-30T08:12:48.699Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "userName": "Callistospiralz",
+        "score": 5,
+        "text": "S24FE user here, it works absolute wonders, doesn't stutter nearly as much as the epic games app version. Heck, the play store version rarely stutters at all, not sure what's caused it, but you should give this version a try!",
+        "date": "2026-03-21T10:45:50.815Z",
+        "thumbsUp": 9
+      },
+      {
+        "source": "google_play",
+        "userName": "Ilona vP",
+        "score": 5,
+        "text": "works way betterthan the one we had to download from the apic site for Android. still not as smooth as I hoped. ut way better for now. especially jn combination with a handheld controller to put your phone in.",
+        "date": "2026-04-01T08:23:18.965Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "userName": "Roman Pierry",
+        "score": 5,
+        "text": "The software is entertaining and the graphics are colourful. it is fun to play by oneself or with friends. The controllers are user friendly, and so it is the entire platform.",
+        "date": "2026-04-16T10:13:10.850Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "babu dodamani",
+        "score": 5,
+        "text": "I just love this game so much but the controls are a little complicated but u can figure it out well competing with pc players is hard 😭 but that makes it so interesting 😀😀😀😀",
+        "date": "2026-05-09T14:16:50.125Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Jaden Kriel",
+        "score": 5,
+        "text": "I've been playing this since it came out, and I love that it's back on the app store. Yes, I am still extremely upset the SA still doesn't have servers but still one of my favourite games. #WEpic",
+        "date": "2026-05-14T09:53:38.319Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Diego Rosado",
+        "score": 5,
+        "text": "fortnight is one of the most popular video games in the world today. Created by Epic Games and released in 2017, the game quickly became a global sensation among teenagers and adults. Fortnite is mainly known for its Battle Royale mode, where one hundred players compete against each other until only one player or team remains. However, Fortnite is more than just a game about winning. It has changed entertainment, social interaction, and even education in many ways.",
+        "date": "2026-05-15T23:55:42.545Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Arbiter Vildred",
+        "score": 5,
+        "text": "For the kids that complain for that 8gb additional download, it's your internet or phone writing speed issue, I'm on a Huawei Nova 14 and I download 500mb in roughly 20 seconds, and for the full pack to download I'd need about 5 minutes",
+        "date": "2026-05-12T07:20:14.527Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Harsh Yadav",
+        "score": 5,
+        "text": "I waited so long for this game to launch on mobile and finlly it is some people complain about bugs but I haven't seen any bug or issues in the game",
+        "date": "2026-05-12T17:51:59.277Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Aryan Ahmadzay",
+        "score": 5,
+        "text": "its actually good its just that its pretty hard but if u have a controller like a Playstation 4 or 5 controller and u connect it to ur phone u can play good",
+        "date": "2026-03-22T15:37:45.859Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Codie",
+        "score": 5,
+        "text": "You have been summoned. If you're here give it a download, you will be happy. Hook an emulator or Controller with Bluetooth, or keep it OG & let your phone do the stick talk👽 They really did a great job with the mobile version, well done.",
+        "date": "2026-03-06T03:50:57.998Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "userName": "Shaun Biju",
+        "score": 5,
+        "text": "Ammazing! the best battle royale game on mobile. But there is one problem I play this game on epic graphics but still the graphics is not well rendered and it's bit low resolutioned, so you guys should fix that.",
+        "date": "2026-03-26T20:43:14.679Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Yogesh Raj Nishad",
+        "score": 5,
+        "text": "GAMEPLAY AND GRAPHICS ARE OUTSTANDING ESPECIALLY ITS COLLABORATION WITH MARVEL AND DC STUDIOS . But the issue is it doesn't allow to login via epicgames id . it stuck on login page plz try to resolve the issue...",
+        "date": "2026-03-19T18:10:05.230Z",
+        "thumbsUp": 18
+      },
+      {
+        "source": "google_play",
+        "userName": "Carter",
+        "score": 5,
+        "text": "it's more fun with friends than by your self, but sometimes theirs some fun games you can play by yourself or use mic to make new freinds,also some people are try hards and make you wanna leave the game.",
+        "date": "2026-04-03T11:32:15.553Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Zero_Lil 0",
+        "score": 5,
+        "text": "when I downloaded Fortnite on the epic games app, I used to only get below 50 FPS(I have a snapdragon 8 gen 2) even on low settings but when I decided to switch over to the play store, it got to 120fps which is the max frame rate, which is INSANE, especially since it's on MAX graphics settings. 10/10 experience 🤯",
+        "date": "2026-03-22T00:27:13.152Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "Ali Mahar",
+        "score": 5,
+        "text": "Most people's problem is that their phone is lagging or hard to turn the camera but im on a Samsung s23 ultra and its a little lagging but its a game made for PC what do yall expect the skins, vbucks, and battle pass, and also the street fighter bundle are so good and also that the fact that they bring the og bundle back and also the og map me and my sister were so happy abt the og stuff we always play this game",
+        "date": "2026-04-01T10:27:28.334Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "Blanca Betzabe",
+        "score": 5,
+        "text": "it's a really fun game to play when bored and what I really enjoy about this game is that you can play with your friends and it's pretty simple stuff so I really like this game it doesn't make you leave the app for it to download it can tell you when it's downloaded which is really helpful but yeah I think this game is fun consider playing it 😁",
+        "date": "2026-03-30T16:51:56.633Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "userName": "Aravind Yaswanth",
+        "score": 5,
+        "text": "The game is really good, but it has to improve and optimize the graphics for mobile phones. So much lag, please consider for mobile gamers as well. Thank you.",
+        "date": "2026-04-16T10:29:16.946Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "bella bolova",
+        "score": 5,
+        "text": "Really good. I didn't used to play on Google Play. I reeeeally like the new skin. Also, the graphics are brilliant and also the visuals.",
+        "date": "2026-03-21T12:55:56.417Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Lachlan Mcgreggor",
+        "score": 5,
+        "text": "it's been I really good first experience on the mobile a bit of server lag here and there and pixelated but other than that it's been really fun I've shared fortnite mobile to my friends and family so they can enjoy playing on the go",
+        "date": "2026-04-01T14:50:51.619Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Nikunj Bidhuri",
+        "score": 5,
+        "text": "FORTNITE is an awesome game on mobile but I noticed one on the controller that I can customize my own controller to suit my gameplay then that problem is solved then game is greatest level on mobile and my aim fix. in the FORTNITE by console but in the mobile is very smooth i really did not any game in victory in Fortnite by console but my first game in mobile in its victory 🔥🔥🔥🔥🔥🔥🔥",
+        "date": "2026-03-30T08:27:52.981Z",
+        "thumbsUp": 19
+      },
+      {
+        "source": "google_play",
+        "userName": "Ahmad Zafran hamzi",
+        "score": 5,
+        "text": "This game is an absolute masterpiece in the world of online gaming. From its vibrant graphics to its fast-paced gameplay, it delivers an experience that’s both exciting and endlessly entertaining. The building mechanics add a unique strategic layer that sets it apart from other battle royale games, making every match feel fresh and challenging. One of the best things about Fortnite is its constant updates. New seasons, skins, events, and collaborations keep the game feeling alive and relevant",
+        "date": "2026-04-25T02:06:17.702Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Austin Rutledge",
+        "score": 5,
+        "text": "I originally thought this was going to be horrible on mobile but I enjoy it more on the go than my ps5 with me being gone so much definitely give it a try.and not hard to create or sign in",
+        "date": "2026-04-01T12:02:08.687Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "userName": "Raquelle D",
+        "score": 5,
+        "text": "It's so wild having the entire Fortnite experience on your phone. Runs really well and doesn't use a ridiculous amount of battery. Plug in a controller. So much fun!",
+        "date": "2026-03-23T01:08:29.741Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "userName": "Austin Scott",
+        "score": 4,
+        "text": "4.5 *s, much better than it was about a year ago back, it would automatically crash but it is very playable on OnePlus 12. high frame rate very optimized almost plays better than my switch 2. they still need to deal with the cheaters though and they need to make bot only Battle Royale because not all of us are 600 lb grease balls that play 24/7. The game is getting so we can't casually enjoy it without being instakilled in 5 seconds it's a super turn off and still occurs",
+        "date": "2026-05-20T23:46:41.889Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "GoliathFX Official",
+        "score": 4,
+        "text": "I love playing this game. I used to play often on my PC. I list my OC recently and started playing on my phone. I have a Samsung Galaxy S10 Plus, which has a Qualcomm Snapdragon 855 processer. it's super laggy in the main menu and in game. I hope that can be fixed, cus I really enjoy playing the game on my down time. The in-game touch ui is a bit odd in my opinion, bur I play with an external controller so that isn't an issue to me. I just hope the lag issue gets fixed soon.",
+        "date": "2026-04-24T16:58:06.586Z",
+        "thumbsUp": 9
+      },
+      {
+        "source": "google_play",
+        "userName": "Xander Jones",
+        "score": 4,
+        "text": "Fortnite is a fun game... Most of the time. The gameplay loop is addicting, that aspect they have nailed for years. The only things that puts me off of the game at times are the decisions made by epic games, the company who developed fortnite. A prime example of a bad change being the update to the price of the battle pass, vbucks and what you actually get from crew. Youre paying the same as before for less. Anyway, still have fun. Just take it from me, Ive been playing for nearly 9 years.",
+        "date": "2026-03-24T08:40:25.300Z",
+        "thumbsUp": 24
+      },
+      {
+        "source": "google_play",
+        "userName": "David Lai",
+        "score": 4,
+        "text": "my opinion very fun game nice details, alot of cool collabs. but I find there is some weird bug(especially in mobile) when you get hit you lag so much that well you usually die right after, and that sucks the lag can really make it annoying sometimes can make it almost impossible to make it to win sometimes. oh and massive skill different I'm still somewhat new. and I'm against s really good opponents I'm sure my phone is up to date and I hope you fix that good luck and have a nice day:3",
+        "date": "2026-05-08T15:22:57.784Z",
+        "thumbsUp": 27
+      },
+      {
+        "source": "google_play",
+        "userName": "Sloxerious Pufnimi",
+        "score": 4,
+        "text": "Great game tbh. Sux that you have to download the whole game just to play zero build BR mode it would be great if it would be separated launchers to avoid filling unecessary storage. even on low graphic it glitches a bit at the start but it's fine when you land and play. Lots of free cool accessories so I'm still playing because of them. Clan system would be a nice add to the game tho",
+        "date": "2026-04-21T09:36:04.489Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "userName": "Liam Jared",
+        "score": 4,
+        "text": "its a good game, and has a good size for the capacity of the game. One major problem is that the game is not optimized well. The customization and controls are nice, but the overall control of you're graphics is lackluster. would be a 5 star worthy game if this was an optimized game for mid to high end devices. Love you XOXO",
+        "date": "2026-04-12T11:38:43.871Z",
+        "thumbsUp": 13
+      },
+      {
+        "source": "google_play",
+        "userName": "Insomniac Hart",
+        "score": 4,
+        "text": "if you were wondering why the pistol in fortnite got turned into an automatic SMG and there are no more semi-autopistols in fortnite, it's because of this mobile game adaptation. apparently the mobile game players that are playing this game are also playing cross play with Xbox PlayStation Nintendo and PC. because of this reason it's hard to aim and open fire while being on a mobile screen so they turn the pistol into an automatic pistol to fix that. it's cool.",
+        "date": "2026-05-05T18:45:36.148Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "D “Unit”",
+        "score": 4,
+        "text": "The granularity of the display settings and touch control settings are genuinely impressive. The inly brutal issue is temperature. Though, that's on me for running it on a half decade old s23. works great, and I can buy vbucks with play points. Let me buy the dang ol crew pass using Google play and I'll be in Elysium~~",
+        "date": "2026-03-07T16:31:22.993Z",
+        "thumbsUp": 25
+      },
+      {
+        "source": "google_play",
+        "userName": "Jake Pierce",
+        "score": 4,
+        "text": "The Game is Really Solid on Mobile for the Most Part All I Can Say @EpicGames is please try to make the game less laggy and maybe make it easier to change the graphic settings. That would honestly bring in Tons of more players. Try to make it so people with budget friendly phones can play too",
+        "date": "2026-05-18T11:34:13.265Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "addicted aniX",
+        "score": 4,
+        "text": "Hi Epic Team, I'm experiencing an issue on mobile. My in-game settings show that 120 FPS is supported and selected, but the actual gameplay and in-game FPS counter are completely capped at 60 FPS. My device screen is set to 120Hz, and I've tried lowering the graphics quality, but it stays locked at 60. Please look into this! Device: [ poco x6 pro ]",
+        "date": "2026-03-30T15:35:28.282Z",
+        "thumbsUp": 16
+      },
+      {
+        "source": "google_play",
+        "userName": "Courtney Moriarty",
+        "score": 4,
+        "text": "This most recent update totally nerfed mobile players' reaction time and sensitivity to buttons. You press buttons and nothing happens bc the poor game is still catching up😒. If you can't make playing on all platforms work equally, do better. Was considering uninstalling before this, no real reason to keep it around at this point if this is the expected quality.",
+        "date": "2026-03-08T03:25:31.174Z",
+        "thumbsUp": 22
+      },
+      {
+        "source": "google_play",
+        "userName": "Theodore Joseph Barrios",
+        "score": 4,
+        "text": "this Fortnite mobile is so fun to play, specially with friends, I've played Fortnite in other devices like consoles playstations and other, but the problem is the downloads, cause it took so much time to finish, but after all it's really good.",
+        "date": "2026-05-14T13:11:04.630Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "app_store",
+        "userName": "ELBARTO2016",
+        "score": 5,
+        "text": "Dear epic,I’ve played this game for 8 years I love it but 1 thing can u clap with one piece and make the skins only 100 v bucks please or free but this game is amazing",
+        "date": "2026-05-26T19:11:22-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Clipz-Cole999",
+        "score": 5,
+        "text": "Fortnite has been so much fun for me and all my friends a great social game and tons of fun my favorite part is that there are so many games to play to keep you interested btw I’m not a bot👌👍",
+        "date": "2026-05-26T15:26:05-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Bad  app baaaaaadddd!!!!!!!!!!",
+        "score": 4,
+        "text": "One of the new games ever know I can play it on the go a little buggy on Phone but that’s expected, but I definitely recommend downloading. It",
+        "date": "2026-05-26T15:20:56-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Fan of k pop demon",
+        "score": 5,
+        "text": "I love your gamebso. Much it is so fun",
+        "date": "2026-05-26T12:43:13-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "I freaking love Fortnite",
+        "score": 5,
+        "text": "Hey Fortnite I would really love if you could give everyone Messi and these kicks the black shoe laces and then everything else is red except for the sides they are white so pls Fortnite I want new players to not have to spend money so I beg you pls do this.",
+        "date": "2026-05-26T09:13:48-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Soak e",
+        "score": 5,
+        "text": "I am obsessed\nI lOVE FORTNITE",
+        "date": "2026-05-26T09:03:11-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "ASHISme321",
+        "score": 5,
+        "text": "BRING MHA BACK",
+        "date": "2026-05-26T08:12:13-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "￼ pupilBaby5￼",
+        "score": 5,
+        "text": "10/10 STARZ!",
+        "date": "2026-05-25T23:28:05-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Dilly fan 4 ever",
+        "score": 5,
+        "text": "I have played Fortnite since I was 6 which was back in chapter 2 and ever since then I have loved this game. I am a small YouTuber and my name is ZEXSY and I make Fortnite content to get more people to play the game.",
+        "date": "2026-05-25T19:09:43-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Murder drone fan #1",
+        "score": 4,
+        "text": "WHY ARE V BUCK PRICES GOING UP?!? Lower the prices",
+        "date": "2026-05-25T17:27:08-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Fortnite is a massive W",
+        "score": 5,
+        "text": "Fortnite is such an addicting game i could not stop playing it for hours, It has lags but overall it is the best game ever. There is updates like every week or so super fun you should download it now.",
+        "date": "2026-05-25T12:31:28-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ryan6767has friends",
+        "score": 5,
+        "text": "This app is so tuff",
+        "date": "2026-05-25T12:29:54-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Crazy and don’t make sense",
+        "score": 5,
+        "text": "Yea I also play this on my pc but these dummies in the ratings think that this is new",
+        "date": "2026-05-25T11:51:38-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "AidenAshley193",
+        "score": 4,
+        "text": "4 stars",
+        "date": "2026-05-25T11:37:57-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Grjeirhoeudndodhdjdd",
+        "score": 4,
+        "text": "So they are rude to me and I report them but nothing happen and they keep cursing me out so yea and wish if you can make a free outfit I love the game keep it up",
+        "date": "2026-05-25T11:16:05-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hegdbshbe",
+        "score": 5,
+        "text": "W been waiting this for a while",
+        "date": "2026-05-25T10:15:23-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Fortnite biggest fan",
+        "score": 5,
+        "text": "I love this addiction game skins pricy  don’t recommend to buy 800 vbux bye love this game",
+        "date": "2026-05-25T00:04:00-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Boooo👎🏽👎🏽👎🏽👎🏽",
+        "score": 5,
+        "text": "I’m level 535 and I’m addicted every day I play 11 \nHrs",
+        "date": "2026-05-24T21:45:36-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "وليدان البارقي",
+        "score": 5,
+        "text": "تكفون ساعدوني كيف انا اقدر احملها لكن ما اقدر اشغلها أنا ايباد ٩",
+        "date": "2026-05-24T20:51:27-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Nowayjose4207",
+        "score": 5,
+        "text": "Playboi carti and tung add lucki tho",
+        "date": "2026-05-24T18:08:16-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "That girl Kenzie 72626",
+        "score": 5,
+        "text": "It’s entertaining it’s very fun. I love it. Fortnite is my best game I could ever play. I basically kinda play it every day like it’s so funny like what K-pop Demon hunters games on there. It’s like SpongeBob games on her every game that I love like what they are such is there a car games like oh my God I love it. Oh my soul.",
+        "date": "2026-05-24T18:07:20-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Lil Jim bob12345",
+        "score": 4,
+        "text": "WE are waiting for tung*3 sahur",
+        "date": "2026-05-24T16:44:19-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "No eh gas",
+        "score": 5,
+        "text": "EU’s envoy reduce feedstock cost this EU’s EU US dry U.S. shift tx do tx ch gd status EU ted",
+        "date": "2026-05-24T15:34:50-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "SamJ880",
+        "score": 4,
+        "text": "Shot have fun",
+        "date": "2026-05-24T14:34:48-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "🥎horror lover🐎",
+        "score": 4,
+        "text": "This is a good game. I have played on Xbox before. But, I don’t really like playing on Xbox. And I'm bad at the controls, which is why I downloaded this on my device. But… it says it doesn’t have the software requirements to play. And well, I deleted a bunch of games, and it didn’t work. And I see in ads that you can play on your phone and iPad and stuff, but nope. Didn’t work. I'm really confused. Please fix this, so I can play the best game in the world on a better device. Thanks! Have a great day/night!",
+        "date": "2026-05-24T14:11:53-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "gu¢¢im9ney",
+        "score": 5,
+        "text": "ME WHEN THE TRIPLE T AND CARTI ARE IN THE SAME GAME BOIII",
+        "date": "2026-05-24T14:09:12-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Bananasss:)",
+        "score": 5,
+        "text": "Omg this game is literally so fun and u can play every game it has on FORNITE like wow u can vc  and chat everything my fav game is mic up like is literally kinda fun and i have alots alots of game i love like literally but sometimes there’s toxic people but it’s okay still love FORNITE",
+        "date": "2026-05-24T10:37:09-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Efnhdudbjx",
+        "score": 5,
+        "text": "This game is so fun it has every right to be cool",
+        "date": "2026-05-24T09:54:26-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hevar Halsho",
+        "score": 5,
+        "text": "I rate 5 stars",
+        "date": "2026-05-24T02:51:21-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Stitchleo1536",
+        "score": 5,
+        "text": "I love love this game so so much",
+        "date": "2026-05-23T23:09:49-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Your game, the best one",
+        "score": 5,
+        "text": "Your game got 1 million people I like you your game your game the best one",
+        "date": "2026-05-23T18:06:46-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jose Souffle",
+        "score": 4,
+        "text": "I will give 4 stars cause i will like to have the optio to play on keyboard and mouse cause theres people that dont have a pc or a console",
+        "date": "2026-05-23T16:34:43-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "I hate PlayStation",
+        "score": 5,
+        "text": "I know this is not PlayStation but I wanted for someone to help me to get my PlayStation account back I cried because of the stuff that I had on Fortnite",
+        "date": "2026-05-23T16:31:06-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Please bring back chat chat",
+        "score": 5,
+        "text": "Let’s be honest Fortnite is better than Roblox. Actually, I love playing Fortnite. So much!!!! Yeah, so I love this game!!!!!!!!!!!!!!!!!",
+        "date": "2026-05-23T16:21:19-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hi haha he $$",
+        "score": 4,
+        "text": "I got Fortnite this morning and it’s taking forever to load from 2:21-6:45 and it’s still loading..😤😤😤😤😤😤😤😤😤😤",
+        "date": "2026-05-23T15:47:33-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Autopaste troll",
+        "score": 5,
+        "text": "I think it’s very fun with all the modes like br and reaload and main stage me and my friends play it with karaoke and overall I love Fortnite",
+        "date": "2026-05-23T13:08:08-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Slemsheidy",
+        "score": 5,
+        "text": "Can I please like I love this game, but I really need skin because I’m trash at the game. I need like an unreleased skin if you could do that I love you guys.\nPlease i’ll even get the rating five stars and if I can, I might, I might even like play it every day with my friends 😃😃😃😃😃😇😇😇😎😎😎😎",
+        "date": "2026-05-23T10:45:13-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "cօოҽօ ճɾíղց",
+        "score": 5,
+        "text": "It the best game ever. Like one time I got a super rare gun. The experience was so amazing and the best part is the blitz fast and pace.",
+        "date": "2026-05-23T08:53:17-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Rosario2610",
+        "score": 5,
+        "text": "Es muy fino pero creo que no puedes agregar la cuenta de él play",
+        "date": "2026-05-23T08:10:57-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "So pls add Lankybox back",
+        "score": 4,
+        "text": "I like playing Fortnite but the Mandalorian is a bit to much v bucks",
+        "date": "2026-05-23T07:26:19-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "P forIp this was",
+        "score": 5,
+        "text": "You need to get this game!",
+        "date": "2026-05-23T06:58:17-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ahh auto clicker",
+        "score": 5,
+        "text": "They are finally going to add typical gamer to Fortnite",
+        "date": "2026-05-23T06:42:17-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Fg better",
+        "score": 5,
+        "text": "Js would have been better if u could connect a controller somehow",
+        "date": "2026-05-23T03:44:21-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Джеймс ￼",
+        "score": 4,
+        "text": "Игра Крутая",
+        "date": "2026-05-22T23:42:49-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Bruh22233",
+        "score": 4,
+        "text": "I love Fortnite and I play on an iPad M4, but the lag and FPS drops make the game really hard to enjoy sometimes. Fortnite Mobile needs better performance settings or a real “Performance Mode” for mobile players. I don’t understand why this is happening on such a powerful device because older Fortnite Mobile used to run way smoother than this.\n\nThe biggest issue is during fights, especially in Zone Wars or fast endgames. Every time I fight someone, the FPS drops and the game starts lagging, which usually gets me eliminated instantly. It’s already difficult playing against PC and console players, and the lag just makes it worse. If the performance was stable, the game would actually feel fun and competitive again.\n\nI’ve already tried everything to fix it on my side, so I really hope Epic improves optimization for mobile devices. I genuinely love this game and just want Fortnite Mobile to feel smooth again like it used to.",
+        "date": "2026-05-22T23:40:44-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Tootsie ￼",
+        "score": 5,
+        "text": "I love it",
+        "date": "2026-05-22T19:40:34-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Fisch17Shiv",
+        "score": 5,
+        "text": "One of my favorite games to play and is very smooth",
+        "date": "2026-05-22T18:22:18-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "None of your business.m.f",
+        "score": 5,
+        "text": "Someone built the damn Statue of Liberty because I shot them and missed.",
+        "date": "2026-05-22T17:44:25-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "mavtias17🤔",
+        "score": 5,
+        "text": "Tung Tung Tung sahur 🔥👏🩸✌️👏👏👏👏",
+        "date": "2026-05-22T14:09:41-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Tk 1256",
+        "score": 4,
+        "text": "It’s not letting me get in, but other than that the game is good",
+        "date": "2026-05-22T12:44:22-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Camiku67",
+        "score": 5,
+        "text": "This is a really fun and great game. The updates are short,I give it 5 stars😀",
+        "date": "2026-05-22T11:04:40-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Gdddďffggf",
+        "score": 4,
+        "text": "When I was playing I could not shoot or build or move",
+        "date": "2026-05-22T10:48:49-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Fortnite opinion",
+        "score": 5,
+        "text": "Great game really enjoyed it I love to play it with my friends and family but it is pretty laggy but I still enjoy playing it really good game great five stars",
+        "date": "2026-05-22T10:08:25-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Shift Huguenot",
+        "score": 4,
+        "text": "Fortnite is breaking but it’s the lacking and loading. It’s really it takes like a really long process and it’s just annoying so I would help I would like want you to maybe work on that like I was downloading the new update and it wouldn’t move percentage. it took me forever, so please fix that.",
+        "date": "2026-05-22T07:57:02-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Kainearyangill",
+        "score": 5,
+        "text": "I love this game it never gets old! Plus it has some great gameplay and graphics even on mobile!",
+        "date": "2026-05-22T07:45:12-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Johnny v Nelson",
+        "score": 5,
+        "text": "This is my childhood",
+        "date": "2026-05-22T04:24:02-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Vonhhfttfdrdfhj",
+        "score": 5,
+        "text": "Best game I ever played better in Roblox",
+        "date": "2026-05-22T04:03:28-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "nycolette Spears",
+        "score": 5,
+        "text": "I want zoeyyyyy 🙏",
+        "date": "2026-05-21T21:23:53-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "CLIX KING",
+        "score": 5,
+        "text": "I love Fortnite my account name is masterjom and famcintron5",
+        "date": "2026-05-21T18:04:47-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Penguinthe1st",
+        "score": 5,
+        "text": "There is one problem though… if you played on console or pc, I wish you can scan a QR code on one of those screens so you can do a quick sign in on your phone. Since epic don’t let us view our passwords.",
+        "date": "2026-05-21T17:14:07-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ice king 2.4",
+        "score": 5,
+        "text": "This is the best game ever . You havvvvvvvvvvvvve to play this game just………..wow",
+        "date": "2026-05-21T16:45:57-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mangun50",
+        "score": 4,
+        "text": "I’m only playing this to stay in touch with my friend it takes a lot of storage and I barely have any storage left hope it’s good",
+        "date": "2026-05-21T16:35:01-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Sample sam67",
+        "score": 5,
+        "text": "Lil Timmy’s all the way",
+        "date": "2026-05-21T15:30:08-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "plutoxszn",
+        "score": 4,
+        "text": "The game is good. It’s fun to play with friends and family but the worst part is losing especially when you 2nd place :/",
+        "date": "2026-05-21T14:39:00-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "L2234,),,);$",
+        "score": 4,
+        "text": "I love the game but the only thing i don’t like is the bugs ( when you try to jump, but you can’t jump and when you try to shoot, you can’t shoot)",
+        "date": "2026-05-21T14:06:29-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "SUBSCRIBE☺️",
+        "score": 5,
+        "text": "Fortnite is very fun and is the best game i have played i had an old account with lots of stuff but i wanted to restart",
+        "date": "2026-05-21T14:06:19-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "ReaglEagle234",
+        "score": 5,
+        "text": "I love that there are skins I can get by doing quests for free. I play on Xbox to and it is one of the most fun games I’ve ever played and I hope that it will get better the more I play it",
+        "date": "2026-05-21T12:06:15-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "3L0N MU$K",
+        "score": 5,
+        "text": "I think Fortnite is just great, amazing multiplayer, between 10-11 age you can definitely play it, no gore stuff, nothing bad to say. Not as many hackers as Roblox, and it’s great.",
+        "date": "2026-05-21T10:39:58-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hxsain1",
+        "score": 5,
+        "text": "After seeing many people trying it out I decided to download it,this game is WAY better than any other one,if your thinking of getting it but you don’t know just look at this review and it will change your mind",
+        "date": "2026-05-21T10:38:02-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "sunnshinne",
+        "score": 5,
+        "text": "Super fun game and I have over 1800 hours on this game on my ps5 this is a great game five star",
+        "date": "2026-05-21T08:05:47-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "бвбвьаь",
+        "score": 5,
+        "text": "Fortnite best game ever- love❤️. The \"Fortnite OG\" mode is the most awesome of all the other modes.",
+        "date": "2026-05-20T22:00:14-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Princesselsaladybug2",
+        "score": 4,
+        "text": "This game is good but really... I would give it 5 whole stars if it could improve how much one outfit costs, i got one outfit that costs 400 v bucks!! That is crazy, maybe lower the pricings down but other than that it is a fantastic game to play!",
+        "date": "2026-05-20T21:13:25-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "líղҽɾ",
+        "score": 4,
+        "text": "I love this game. This is the best game that has creativity in maps that you can join so you don’t have to do more hard work like murder mystery one V one V one and peace control but one thing one day I was playing Fortnite and there was a boss and my mom earlier made me lose because I had to take my medicine so I went into another game and then I found the boss again but then I died because the boss was shooting faster than normal and then the next game there wasn’t a boss at all so the bosses you have to at least at least don’t make the bosses shoot fast and don’t make the boss shoot the special attack every like 10 shoots just make it easier epic do you really because I literally threw my Switch",
+        "date": "2026-05-20T18:40:42-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "ulxlhmb",
+        "score": 4,
+        "text": "overall, Fortnite is a really great game to play with your friends and to calm your mood. Takes up way way way too much storage. I’ve had to delete my whole life savings just to be able to play. My stepsister won’t let me delete it.",
+        "date": "2026-05-20T17:35:44-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Giovannie ultra",
+        "score": 5,
+        "text": "STISSUBURAJA PRODUCTION",
+        "date": "2026-05-20T17:32:56-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Cabghh",
+        "score": 5,
+        "text": "Go Fortnite Fortnite where do I start so good so talented so trash at times but in all I love you and can you please send me the Travis Scott skin please? I’m actually begging.",
+        "date": "2026-05-20T15:31:04-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "FPDZYg",
+        "score": 5,
+        "text": "This game is so good. They have so many mini games if you get bored of battle Royale and just the updates are consistent and the creators are goaded. That’s why I gave it a five star.",
+        "date": "2026-05-20T15:04:59-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jim=kd,kkdms",
+        "score": 5,
+        "text": "The Collabs can be bad but I love the game I love the live events. it’s just amazing.",
+        "date": "2026-05-20T14:39:31-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "-<\\!",
+        "score": 5,
+        "text": "Jjvcv",
+        "date": "2026-05-20T13:21:57-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "GunOliver01",
+        "score": 5,
+        "text": "Fortnite",
+        "date": "2026-05-20T13:06:46-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Good nice game 💜",
+        "score": 5,
+        "text": "Sadly doesn’t work but I love it I play on PS5 \nI’ve been playing for almost 8 years deserve 5 star",
+        "date": "2026-05-20T12:16:49-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Supercicada3149",
+        "score": 5,
+        "text": "Fortnite is an amazing fast action paste game with great graphics",
+        "date": "2026-05-20T12:09:24-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Toastt_gang",
+        "score": 5,
+        "text": "It’s works very well for mobile and runs very smooth just like the real one (even tho it is the real one) but one problem, I really wish I was able to play on big screen like apple computer or iPad, if that was possible this review would be 5 stars but if possible please try to make it easy to play on iPad, please try to make it run on iPad 3rd gen",
+        "date": "2026-05-20T12:03:36-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "hftmjytffjtyjytf",
+        "score": 5,
+        "text": "Honestly this game is better than all other games because of the action the guns all different types of guns and food and all the endless possibilities.",
+        "date": "2026-05-20T11:56:20-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Tyler Reid Hill",
+        "score": 5,
+        "text": "This game is really fun and exciting",
+        "date": "2026-05-20T11:00:20-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Does this happen to anyone",
+        "score": 5,
+        "text": "Well it is a great game but the new overwatch update every time I try to get in it doesn’t let me and I reset my game and still didn’t work but I get it like over watch doesn’t have that much players and your trying to help them but I think it is just me that it is happening to",
+        "date": "2026-05-20T09:38:15-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Good luck group",
+        "score": 5,
+        "text": "𝕤𝕠 𝕦 𝕝𝕠𝕒𝕕 𝕚𝕟 𝕥𝕠 𝕗𝕠𝕣𝕥𝕟𝕚𝕥𝕖 𝕔𝕙𝕠𝕠𝕤𝕖 𝕥𝕙𝕖 𝕘𝕒𝕞𝕖 𝕦 𝕨𝕒𝕟𝕥 𝕥𝕠 𝕡𝕝𝕒𝕪 𝕒𝕟𝕕 𝕒𝕟𝕕 𝕚𝕗 𝕦 𝕡𝕝𝕒𝕪 𝕤𝕠𝕞𝕖𝕥𝕙𝕚𝕟𝕘 𝕝𝕚𝕜𝕖 𝔹𝕒𝕥𝕥𝕝𝕖 𝕣𝕠𝕪𝕒𝕝 𝕪𝕠𝕦 𝕙𝕒𝕧𝕖 𝕥𝕠   𝕡𝕝𝕒𝕪 𝕓𝕪 𝕥𝕙𝕖 𝕛𝕠𝕪 𝕤𝕥𝕚𝕔𝕜 𝕠𝕟 𝕥𝕙𝕖 𝕡𝕙𝕠𝕟𝕖 𝕒𝕟𝕕 𝕥𝕙𝕖 𝕣𝕖𝕤𝕥 𝕪𝕠𝕦 𝕔𝕒𝕟 𝕘𝕠 𝕤𝕖𝕖 𝕗𝕠𝕣 𝕪𝕠𝕦𝕣𝕤𝕖𝕝𝕗.",
+        "date": "2026-05-20T08:52:12-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Karyme villanueva",
+        "score": 5,
+        "text": "YOU NO SLEEP I SLEEP",
+        "date": "2026-05-20T08:41:35-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Beans ._.",
+        "score": 5,
+        "text": "I don’t know what to write. Uhh good game 👍",
+        "date": "2026-05-20T05:56:31-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Yousef ere",
+        "score": 5,
+        "text": "Nice game",
+        "date": "2026-05-20T02:52:53-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Картофельные пельмени",
+        "score": 5,
+        "text": "Фортнайт на айфоне , на АЙФОНЕ !!!! Спасибо epic games!!",
+        "date": "2026-05-20T01:57:38-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "amyjane46212",
+        "score": 5,
+        "text": "This is the best game invented ever",
+        "date": "2026-05-19T23:34:08-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "AbstractFire1366",
+        "score": 5,
+        "text": "Please can we get full metal alchemist skins like rath Alphonse,Edward,winrey the flame alchemist.please Fortnite I know you have a lot of stuff your doing but I need these skins. Please bring back my hero academia skins back pls.",
+        "date": "2026-05-19T19:47:33-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Natalia.ELQ",
+        "score": 5,
+        "text": "por fin volvimos a la AppStore Señores esto es cine",
+        "date": "2026-05-19T19:29:06-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "😍😎😋😝😛",
+        "score": 5,
+        "text": "Soooooooooooooooo much fun I love Fortnite",
+        "date": "2026-05-19T18:37:42-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Don't ask me just ask GOD",
+        "score": 5,
+        "text": "i like pizza",
+        "date": "2026-05-19T18:23:53-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "POPE_CODY",
+        "score": 5,
+        "text": "Best game ever and when I connect my controller it’s like I’m playing on console again!!",
+        "date": "2026-05-19T18:18:13-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "My opinion ^^]£]<£",
+        "score": 5,
+        "text": "Whatch out for bugs bunny he us really good",
+        "date": "2026-05-19T17:38:28-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "FartBoy6677",
+        "score": 5,
+        "text": "I love fortnight so much I hope I win a tournament",
+        "date": "2026-05-19T17:21:11-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "SGM_Sassy 🍭🩰😝😏",
+        "score": 5,
+        "text": "Personally I Love fortnite so I made a poem : roses are red violets are blue. I love Fortnite and you should too. Anyways, bye thank you epic games! 😊🔥😜",
+        "date": "2026-05-19T17:08:29-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Clash royal is stupidity",
+        "score": 5,
+        "text": "This is the best free game I’ve ever played",
+        "date": "2026-05-19T17:02:14-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "addie we love you!",
+        "score": 5,
+        "text": "i love this game so much even when there’s so many different strangers that are really sweet and funny",
+        "date": "2026-05-19T16:41:18-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Roblox development team",
+        "score": 5,
+        "text": "Og players understand",
+        "date": "2026-05-19T16:25:36-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "hnnbbhhjoool",
+        "score": 5,
+        "text": "y’all fr gotta play this game  even if their are some sweat Fortnite is good as fuhhh",
+        "date": "2026-05-19T16:20:56-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "gomeziscool",
+        "score": 5,
+        "text": "Nutella",
+        "date": "2026-05-19T16:18:01-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "backercj",
+        "score": 5,
+        "text": "Best game ever no question",
+        "date": "2026-05-19T16:16:59-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Big Shir Shir",
+        "score": 5,
+        "text": "I love this game I play on my iPhone 16 and I’m really good at it I like playing on my phone then anything else",
+        "date": "2026-05-19T16:06:43-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Patwreck",
+        "score": 5,
+        "text": "Bring back ballistic game mode",
+        "date": "2026-05-19T15:57:54-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Nonononono789",
+        "score": 5,
+        "text": "No no no no no no no no no",
+        "date": "2026-05-19T15:50:49-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "𝓡𝔂𝓵𝓲",
+        "score": 5,
+        "text": "Fortnite is really fun. I would recommend recommend getting this game is super fun. There’s like zero eyes and you can play with your friends with your mic on but all you have to do is set an account. That’s the easiest part.",
+        "date": "2026-05-19T15:48:53-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "William2825",
+        "score": 5,
+        "text": "Best game",
+        "date": "2026-05-19T15:47:20-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ppoijgggff",
+        "score": 5,
+        "text": "this is onistly the best game ive ever played",
+        "date": "2026-05-19T15:43:10-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "itzandrxazz",
+        "score": 5,
+        "text": "best game ever",
+        "date": "2026-05-19T15:38:47-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "stupidliam14",
+        "score": 5,
+        "text": "Better than LeBron James which is crazy!",
+        "date": "2026-05-19T15:38:29-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Moniquebre___",
+        "score": 5,
+        "text": "MYYY FAVORITE GAMESSSSS EVAAAAAA #1 FAAANNN",
+        "date": "2026-05-19T15:36:59-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "damnowner",
+        "score": 5,
+        "text": "Welcome back to the App Store, Fortnite! Finally, we can play properly on mobile again and not just on PC.",
+        "date": "2026-05-19T15:29:00-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Good so good yea good so good",
+        "score": 5,
+        "text": "Fire🔥🔥🔥",
+        "date": "2026-05-19T15:28:02-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Gabe.,u",
+        "score": 5,
+        "text": "I love this game in over four days. I loved it so much. I love the creative maps in the battle Royale in the bullet Royale especially cause I want like 500 games of the Royale and I just I love it like four nights the best game history to me.",
+        "date": "2026-05-19T15:18:06-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "rgbmo",
+        "score": 5,
+        "text": "Recommend it to seven year-old because I think you’re-year-olds would have fun",
+        "date": "2026-05-19T14:53:53-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Bobby!,!,!",
+        "score": 5,
+        "text": "I love this game it’s so fun lots of different characters and things to do one of my favorite things to play is pillars",
+        "date": "2026-05-19T14:43:08-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mad 🥹🥹🥰😍🥰😌",
+        "score": 4,
+        "text": "I love this Fortnite  version  it is so much fun it's  just like playing on a switch , Xbox, or play station but I hate how much space it takes 😠",
+        "date": "2026-05-19T14:39:05-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "BBC lover 26",
+        "score": 5,
+        "text": "Fortnite is my vice",
+        "date": "2026-05-19T14:14:46-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "gwhite03",
+        "score": 5,
+        "text": "It’s a real good game overall but you got kids in reload that are real good kids and  some that aren’t the Best But if you put them in the same game then the people that aren’t good play against the people that are good you lose because the good players are hitting like 30 bombs every game so the bad people are not having a chance to win the game. Epic games can you please put the good people on one game and the bad  people in another game .that’s all and I love Fortnite",
+        "date": "2026-05-19T14:10:19-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "I am holiness",
+        "score": 5,
+        "text": "Get it get it get it!",
+        "date": "2026-05-19T14:08:42-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "DDFvr",
+        "score": 5,
+        "text": "There has been lots of Fortnite hate but just stay away from brainrot. The Battle Royale in this masterpiece is very easy, fun and engaging! Again MUST TRY’!!!!",
+        "date": "2026-05-19T14:02:48-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Twoggdhgffgjj",
+        "score": 5,
+        "text": "This is such an addicting game the skins are pricey, but that doesn’t matter there is so much different modes and games. I love how we get victory crowd wins, and more and collectible. This is the most addicting game I ever played and it’s so hard to get off of the game.",
+        "date": "2026-05-19T14:01:20-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "REEF_9899_21",
+        "score": 5,
+        "text": "مره حلوه اشكر فوت من كل قلبي \nو الليم بوت مره حلو شكرا 💗💗",
+        "date": "2026-05-19T13:47:49-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Thegoatnisga",
+        "score": 5,
+        "text": "A good game for you",
+        "date": "2026-05-19T13:10:41-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "😝😝😝🥹🥹🥹",
+        "score": 5,
+        "text": "THIS GAME IS SOOOOO SOOOOO GOOD I love it it’s honestly better than Roblox anyway it’s the best recommend for everyone!",
+        "date": "2026-05-19T12:58:09-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Gamermike3000",
+        "score": 5,
+        "text": "Fun game to play but get boring after a few hours",
+        "date": "2026-05-19T12:24:41-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Maya Mia 1233",
+        "score": 5,
+        "text": "Every single day when I’m done playing Fortnite, I go to bed and I have a good time I have so much V bucks five out of five I recommend and there’s no scary things it is perfectly safe for kids and again I couldn’t be happier with any other game. I love this game so much.",
+        "date": "2026-05-19T12:24:02-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Boca-16",
+        "score": 5,
+        "text": "I IOVE THE GAME!!!!!!!!!!!!",
+        "date": "2026-05-19T12:22:45-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Joelbbbb222",
+        "score": 5,
+        "text": "I started playing this game since 2017 and is been one of the best games I ever played I recommend to play it in till now is the best one.",
+        "date": "2026-05-19T11:19:28-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jess.S. Quantum_fizz90",
+        "score": 4,
+        "text": "I love the game!! There are a few glitches on there that need worked out but overalll great game. I love that the map and or story changes every few months with new things, but I hate that parents are letting their 4, 5, 6 yr old play on team mode because I MOSTLY get paired with a small child and I have to exit the game and retry for someone of age. There isn’t an option on reporting that says anything about being too young to play and I think that needs to be an option along with a section to leave a comments on your repot. If little bitty kids are going to play, they need to only play in solo mode, not in teams. It’s so aggravating.",
+        "date": "2026-05-19T10:35:01-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "tr457hteytiyu",
+        "score": 5,
+        "text": "Hi🤍\nFort it good for u🤍\nim playing from 2018 it was sooooo good\nPat in 2026🤯 sooooooooo goooooood u can play Indy plaes ine taim ine wear u can  play in ps and nitando and PlayStation 4&5 and naw in 2026 iPhone 😍🤍\nTy fort love ua🤍🤍",
+        "date": "2026-05-19T10:19:19-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "LokiofAsgard321",
+        "score": 5,
+        "text": "Such a good app, love rage baiting!!!",
+        "date": "2026-05-19T10:10:13-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "tero 88",
+        "score": 5,
+        "text": "الهشكله ان اللهبه ثقيله جدا لاق جدا و تحدثات لانيهاي",
+        "date": "2026-05-19T09:45:40-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "니엄터임?",
+        "score": 5,
+        "text": "버튼 레이아웃 설정을 너무 어렵게 하게 했어요. 쉽게 접근할 수 있도록 바꾸어주세요",
+        "date": "2026-05-22T21:26:50-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "ㅜㅜㅎㅎㅋ",
+        "score": 5,
+        "text": "로그인 할때 요구하는게 너무 많아서 게임 열기까지가 고통스럽고 그냥 게임안하고 끄고싶단 생각까지 했어요…",
+        "date": "2026-05-22T01:58:27-07:00",
+        "version": "40.40.1"
+      }
+    ],
+    "negative": [
+      {
+        "source": "google_play",
+        "userName": "prashant pbb",
+        "score": 1,
+        "text": "Even after 30 minutes of downloading, my game resources have only downloaded 20 MB. Even with a good internet connection, this game is totally trash.",
+        "date": "2026-05-27T08:49:04.902Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Cecil Rosta",
+        "score": 1,
+        "text": "i physically cant play the game because everytime i try to sign in it takes me back to the game and says sign in again ive been trying for 3 days already and everytime its the same result",
+        "date": "2026-05-27T08:14:08.114Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Keagan Timm",
+        "score": 1,
+        "text": "I can't anymore join today 24 June 2026",
+        "date": "2026-05-27T08:08:54.410Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ed Edwards",
+        "score": 1,
+        "text": "the game will not even load up",
+        "date": "2026-05-27T07:54:33.862Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Seela Hasso",
+        "score": 2,
+        "text": "it took a long time to let me play fortnight",
+        "date": "2026-05-27T07:19:01.570Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Danica (Dani)",
+        "score": 1,
+        "text": "very laggy I can't even play with out lagging the graphics are horrible I tried every way to fix the graphics in the settings I can't what so ever please fix it I would love to be able to play",
+        "date": "2026-05-27T05:45:47.766Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Samrat Patil",
+        "score": 1,
+        "text": "this is not fully optimised for phone i test it and I have nothing 3a",
+        "date": "2026-05-27T04:24:14.865Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ayomiposi Bosede",
+        "score": 1,
+        "text": "I had this game on my old phone, and it worked, but when I switched, it started lagging and stopping mid game, and now it doesn't update and has stopped working altogether. If ut starts working again, I will give it 5 stars.",
+        "date": "2026-05-27T03:33:47.334Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Skiler Holbert",
+        "score": 1,
+        "text": "it can't play on laptop",
+        "date": "2026-05-27T02:37:30.821Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Devyn Donadel",
+        "score": 1,
+        "text": "poopoo peepee",
+        "date": "2026-05-26T22:43:01.667Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Carter Sisk",
+        "score": 2,
+        "text": "when I try doing cups it doesn't let me play it and my friend and when it trys to loads a match it infinite loads and i half to restart my game 🥀",
+        "date": "2026-05-26T21:41:45.736Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "MikuYoshi Mitsu",
+        "score": 1,
+        "text": "great gameplay, but to much Lag and unfair match making",
+        "date": "2026-05-26T13:18:13.429Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Andrew Lin",
+        "score": 2,
+        "text": "fortnite is a great game especially if you can play on mobile but why the hell is creating an account so hard so that's why I'm giving it only two stars",
+        "date": "2026-05-26T11:41:31.196Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "リョウイチ",
+        "score": 1,
+        "text": "steam controller doesn't work at all. Stadia controller trigger button doesn't work.",
+        "date": "2026-05-26T05:46:50.278Z",
+        "thumbsUp": 9
+      },
+      {
+        "source": "google_play",
+        "userName": "Bianca Espinoza",
+        "score": 1,
+        "text": "it's a good game but the fact that it took my money to buy a bundle that had a free skin and a weapon and a back bling and it came with 800 v-bucks and it didn't give it to me is messed up for anybody not just me. so be careful what you purchase off of fortnite cuz they some of the items don't let you return it and that's the messed up part other than that they need to improve of giving people extra discounts and extra predictably.",
+        "date": "2026-05-26T03:27:54.682Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Brecklyn",
+        "score": 1,
+        "text": "garbage pro AI anti people company",
+        "date": "2026-05-25T22:15:43.415Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Jawshii",
+        "score": 1,
+        "text": "Generational fall-off in only one year.",
+        "date": "2026-05-25T21:33:25.940Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Jonathen Zuker",
+        "score": 1,
+        "text": "fortnite is dumb",
+        "date": "2026-05-25T21:03:46.832Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Disco",
+        "score": 1,
+        "text": "no keyboard mouse support",
+        "date": "2026-05-25T19:38:34.509Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Scott Felts",
+        "score": 1,
+        "text": "crashes repeatedly...as soon as I load into STB...it completely crashes...",
+        "date": "2026-05-25T19:11:23.422Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "N D",
+        "score": 1,
+        "text": "ded gem",
+        "date": "2026-05-25T16:35:41.364Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "redstrawberrypad",
+        "score": 1,
+        "text": "takes forever to load",
+        "date": "2026-05-25T11:49:01.580Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "James Michael del Mundo",
+        "score": 1,
+        "text": "bad and I don't know what am I supposed to do",
+        "date": "2026-05-25T08:40:03.767Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Bradost",
+        "score": 1,
+        "text": "I can't start the game",
+        "date": "2026-05-25T08:07:51.413Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Landon B",
+        "score": 1,
+        "text": "it's to glitchy ngl😅",
+        "date": "2026-05-25T00:47:20.888Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Autumn Brown",
+        "score": 1,
+        "text": "it doesn't even work i tried logging in and it said it didn't match! how stupid! this sucks!",
+        "date": "2026-05-25T00:13:24.307Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Robert Rafter",
+        "score": 1,
+        "text": "Can't play on my watch",
+        "date": "2026-05-24T23:44:52.672Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Everardo Fernandez",
+        "score": 1,
+        "text": "46°c not normal overheating temperatures are to hot. also steals information mid game it sends you to support. glitches are still allowed hackers roam free. movements errors101... invisible walls and movements bugged. rigged caused damage to property and my hands. gun doesn't even pull out on time or shoot properly. this is why people don't even bother with this game anymore its the same unfair repetitive glitches. same glitches over again",
+        "date": "2026-05-24T21:41:43.995Z",
+        "thumbsUp": 39
+      },
+      {
+        "source": "google_play",
+        "userName": "Mzwandileoscar@lulane Lulane",
+        "score": 1,
+        "text": "first of all I couldn't even play the game due to me not having an account so 1/10",
+        "date": "2026-05-24T21:12:21.140Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "BLIND._FX 777",
+        "score": 1,
+        "text": "appi game",
+        "date": "2026-05-24T19:21:26.324Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Elesh Guria",
+        "score": 1,
+        "text": "very laggy game. Even having 6 gb phone it is laggy. My phone runs other battle royale game very smoothly. pls fix the lag problem",
+        "date": "2026-05-24T19:07:16.958Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Joshua “Lupus Spiritus” Boggan",
+        "score": 1,
+        "text": "I love this game. I am a Founder. I have been playing Save the World since before the Battle Royale even came out. I am very very disappointed Save the World isn't available for mobile. AND I can't use my Gamepad controller (GameSir X5 Liter) because it uses USB debugging to run, it is an OTG plug and play that doesn't require Bluetooth and eat battery. I will go to a 5 star if I'm ever able to use my controller",
+        "date": "2026-05-18T02:47:48.758Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Kandis",
+        "score": 2,
+        "text": "Very very laggy. charater literally moves on it's own. I've lifted my thumbs off the phone and watched it do things without me touching the screen. suddenly it's hard to turn right when a enemy is near. so many bugs that they don't even bother to acknowledge. my internet is wonderful, my phone is current and updated. I have plenty of memory... so its fortnite, not my phone. was a fortnite crew subscriber but I canceled because I feel douped.",
+        "date": "2026-05-22T04:50:55.587Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Claire",
+        "score": 1,
+        "text": "I currently can't open the game. I try, it loads the logo then it shuts down. I restarted my phone and everything multiple times, but nothing changes. this has only occurred since the most recent update installation. when the game closes itself, my phone tells me there is a bug that needs fixing.",
+        "date": "2026-05-16T21:33:59.941Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "HannahBear9624",
+        "score": 1,
+        "text": "Fun game, but mobile playing is basically unwinnable. The lag is so bad when you get shot that it basically prevents you from retaliating and you just die instantly. Really frustrating as my friend who plays on PS5 has no issues like this, it seems to be a mobile issue. Not to mention the graphics are horribly pixelated and the low FPS is just...wow. Sucks.",
+        "date": "2026-03-30T02:12:32.459Z",
+        "thumbsUp": 21
+      },
+      {
+        "source": "google_play",
+        "userName": "Cailan Golden",
+        "score": 2,
+        "text": "A lot needs to change. Gamemodes need to be more fleshed out and worked on. Whatever doesn't work needs to be removed. More accessibility, like an FOV Slider and graphic settings for console for performance, is needed. The engine needs more fine-tuning. The art style needs to be more like the early chapters. Cosmetic rarities need to come back. The UI needs to look more like the old UI. FOMO needs to be gone, and old cosmetics need to be made available, with exclusive styles given to og owners",
+        "date": "2026-03-05T15:40:57.590Z",
+        "thumbsUp": 28
+      },
+      {
+        "source": "google_play",
+        "userName": "alexkeovipha",
+        "score": 2,
+        "text": "I'm happy they add lock aim for mobile but a problem. when I play this game with Mobile data, it detects that it thought I didn't download the full game and it eats my gigabytes a lot. when my WiFi shut down for a second and came back, the game is normal I can run and walk but I can't shoot, build or change any weapons.",
+        "date": "2026-05-05T04:07:01.353Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "steven compton",
+        "score": 2,
+        "text": "the gameplay is fun but the connection is terrible even on wifi. every time I get in a fight I lag out. it makes it worse playing against cross platform opponents that don't have lag. then you get the cheaters or bots that have perfect aim, see through walls, and move unnaturally good. it makes the game not nearly as fun. the lag dam near makes it unplayable.",
+        "date": "2026-03-24T07:19:53.527Z",
+        "thumbsUp": 18
+      },
+      {
+        "source": "google_play",
+        "userName": "Kholoud",
+        "score": 2,
+        "text": "overall a great game that have great collaborations...but the optimization for mobile is so bad I had the worst gaming experience on this even though I have a high end device that run games like COD and open-world games smoothly yet fortnite had the worst performance,so laggy,and strong fram drop, and bad graphics, it won't allow me to run higher settings,only low graphics and 20 fps,on top of all that it get my phone very hot unlike other games...come on you can do better for mobile!!!!!!!!!!!",
+        "date": "2026-05-15T16:45:37.890Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "MineFire Official",
+        "score": 1,
+        "text": "After spending a considerable amount of time downloading a hefty 10GB file, I found myself in a situation where I had nothing to play, as each individual game required a separate download process. This scenario could be significantly improved by implementing a more streamlined solution, such as the addition of an 'Add Download All' button. Such a feature would enable users to effortlessly queue all their desired game files for download at once, allowing us the freedom to manage our time better a",
+        "date": "2026-04-07T05:53:13.915Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "userName": "Ayush Kumar",
+        "score": 1,
+        "text": "I decided to try this game and downloaded it with interest. However, during the account creation process, I noticed something very concerning. The game asked for not only my email ID but also the actual password of my email account to create a login. This is a serious security risk. No legitimate game or platform should ever ask for your personal email password. Because of this, I did not feel safe continuing with the registration process. I was unable to log in, and due to these security conce",
+        "date": "2026-03-24T12:58:42.929Z",
+        "thumbsUp": 20
+      },
+      {
+        "source": "google_play",
+        "userName": "dante NH",
+        "score": 1,
+        "text": "From Bangladesh, in this game there is a download option for each mode, even though I'm getting high-fps drop, in low graphics too. If you are giving your users the option to choose 120fps, then we even barely get 60fps, then it drops down to 20/lower suddenly. I know that this game launched on Samsung phones long before, then I don't know what's going on with this game now.(I'm using pixel 8). Just optimize in the name of tony...",
+        "date": "2026-03-30T07:25:50.700Z",
+        "thumbsUp": 16
+      },
+      {
+        "source": "google_play",
+        "userName": "Amla Luyima",
+        "score": 1,
+        "text": "This game used to be in its prime, but it's now washed and isn't good dew to the high ping players' get and lack of servers in places like africa, etc. If the issue of high ping, lagging, and lack of servers in certain regions were resolved, i would see this game as a decent but not very nice game",
+        "date": "2026-04-10T11:50:30.749Z",
+        "thumbsUp": 14
+      },
+      {
+        "source": "google_play",
+        "userName": "Brandee Potter",
+        "score": 2,
+        "text": "Havent been playing that long, but long enough to get to level 8. When i logged in 2 days ago and thru today, my level.8 was reset to level 1. The same happened to my husband's account, as well as a friend that we play online with. I dont understand why it reset but i dont like it. My husband was a level 100 plus and had to start back over from one.",
+        "date": "2026-03-25T01:32:27.787Z",
+        "thumbsUp": 13
+      },
+      {
+        "source": "google_play",
+        "userName": "Akash Gogoi",
+        "score": 1,
+        "text": "I use OnePlus 15R, after downloading it asks to download around 7 gb internally,but guess what even though having good wifi it's downloading speed is less than ½mb per sec ,at this rate it will take forever to download.... I hope they look into this matter 😑",
+        "date": "2026-05-19T05:46:09.508Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Annie Cummings",
+        "score": 1,
+        "text": "Doesn't even deserve 1 star I keep getting kicked out of the whole app not just the game but the app I can't even play battle Royale I am going to throw my phone soon. I am going to retry for the 2nd time today oh and when I first got it I had to keep downloading battle Royale and it took ages. I just retired got into the game and then got kicked off. Epic fix this error.",
+        "date": "2026-03-29T08:24:44.856Z",
+        "thumbsUp": 14
+      },
+      {
+        "source": "google_play",
+        "userName": "Hector Barcena",
+        "score": 1,
+        "text": "the only reason I am giving it a 1 star is cause ever since the update the game keeps crashing it's been 3 days and they still haven't fixed the issue it works perfectly fine on iPhone but now on android the game crashes and closes the app as soon as you log into a map if they can fix this issue definitely will be a 5 star",
+        "date": "2026-04-05T21:12:24.595Z",
+        "thumbsUp": 15
+      },
+      {
+        "source": "app_store",
+        "userName": "OwenDez",
+        "score": 1,
+        "text": "Lower the skin prices and add more v-bucks to the v-buck packs, you guys are billionaires and make millions everyday I bet.  you guys are just greedy and want to find every way to pinch every extra buck out of my wallet",
+        "date": "2026-05-26T18:34:08-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Fort hater",
+        "score": 1,
+        "text": "All ppl do is spam and can’t even live for 30 seconds",
+        "date": "2026-05-26T17:05:03-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Survivor nerd",
+        "score": 1,
+        "text": "Fortnite says my device ant compatible",
+        "date": "2026-05-26T15:18:23-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Name_nickname123",
+        "score": 1,
+        "text": "The game lags and stutters every time that there’s any sort of effect I have an iPhone 17 Pro Max and it’s still stutters whenever there’s any sort of big effect and especially whenever the storm is close if you want a well optimized game get war thunder. This is the worst optimization for a game that I’ve ever seen. It can’t even hit 60 FPS on the most powerful iPhone.",
+        "date": "2026-05-26T12:15:24-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Side FX",
+        "score": 1,
+        "text": "Good thing about the game: it’s free.\nBad things:\n- Cheaters in all games you play. \n- it’s made for cheaters to cheat. \n- overpowered items like gold gloves, plasma guns ect.\n- Jump and you can avoid direct bullets, yes you can avoid hits by jumping, even if they hit you. \n- cheater get away with cheating.",
+        "date": "2026-05-26T04:03:04-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Nazimon200fps",
+        "score": 2,
+        "text": "So I downloaded it but it stayed this device doesn’t have the necessary hardware requirements and I deleted as much storage but still doesn’t work",
+        "date": "2026-05-26T03:27:29-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pigshair0",
+        "score": 1,
+        "text": "I play it on Nintendo, it’s good but it’s all not free. I was surprised it was on mobile i wanted to get it, after 1 hour of long loading constantly waiting while it was on. IT SAY YOU DO NOT MEET REQUIREMENTS , I was like this must be a glitch because it says my iPad can run Fortnite so I reinstalled it but it still DIDNT WORK. Great now I have to play Nintendo. It’s also so laggy. All my friends can run it HOW. I have the latest generation of",
+        "date": "2026-05-25T18:17:25-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Snapsworld13",
+        "score": 1,
+        "text": "I have an iPad 8th gen and I DOWNLOADED IT THINKING I COULD PLAY IT JS FOR IT TO SAY “Your device does not meet the minimum hardware requirements.” Even tho IT SAYS INTHE APPSTORE THAT IT WOULD WORK FIX TS",
+        "date": "2026-05-25T16:41:06-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "JoMiAn0511",
+        "score": 1,
+        "text": "Stop with your excuse “we can’t remove cheating websites because most countries don’t have bans on cheating in games.” Reporting players for “cheating and hacking” isn’t working anymore. I’m tired of being a victim of being put in lobbies with them as they’re literally overwhelming your game. I can’t even get through one match anymore without running into cheaters. You should listen to us and remove the websites players are getting the cheats from. Also if you truly want to encourage players to report cheaters and hackers you should start giving out a small amount of FREE V BUCKS doing so would make it worthwhile. I’ve reported at least 50 of them in this game and I think I should be rewarded",
+        "date": "2026-05-25T15:06:28-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "I don’t know why won’t work",
+        "score": 2,
+        "text": "I really love Fortnite but it won’t work to load I’ve tried to sign in a bunch of times and it just won’t work",
+        "date": "2026-05-25T13:50:46-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Osito2021.",
+        "score": 1,
+        "text": "I love Fortnite don’t get me wrong I love it but playing Fortnite on a console is so much better than playing on the mobile. Not only do the graphics look pixilated the movement in the game is so slow and laggy.",
+        "date": "2026-05-25T12:47:42-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "filetdamyon",
+        "score": 1,
+        "text": "ive been playing since original season so ive been through the mechs even the infinity blade but right now this game is just unplayable, the only way to have an ounce is just to plat zero build which u get bored after a while. i miss how fortnite used to be",
+        "date": "2026-05-25T11:10:17-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Vbzfgbagcdrv",
+        "score": 1,
+        "text": "Remove the cube splitters",
+        "date": "2026-05-25T09:01:15-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Errol McKenzie",
+        "score": 1,
+        "text": "1 star review",
+        "date": "2026-05-25T08:29:10-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "BringBackMobileFN",
+        "score": 1,
+        "text": "see title",
+        "date": "2026-05-24T23:38:28-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jay23477",
+        "score": 1,
+        "text": "We don’t have money to buy skin       Am hoping one day make vbucks free and the  game felling off",
+        "date": "2026-05-24T17:29:21-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Usshjdhs",
+        "score": 1,
+        "text": "Долгая загрузка игра норм",
+        "date": "2026-05-24T07:16:05-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Abu Anees",
+        "score": 1,
+        "text": "I tried to log in on my iPad 9th gen but it said that it doesn’t meet the requirements",
+        "date": "2026-05-24T06:54:58-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Kutdutdkudkut",
+        "score": 1,
+        "text": "Joined the game to find out how many mythic were added and that people can spawn in with them. It’s genuinely ruined the game, and it better be temporary otherwise Fortnite is completely ruined.",
+        "date": "2026-05-23T19:10:36-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "😞💀🫩",
+        "score": 2,
+        "text": "Takes too long to download bro",
+        "date": "2026-05-23T11:28:57-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jayce Jolivette",
+        "score": 1,
+        "text": "Not better than corm",
+        "date": "2026-05-23T09:49:17-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Scagel",
+        "score": 1,
+        "text": "Never again will I ever play such a poor game. Horrible Port.",
+        "date": "2026-05-23T08:04:53-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mean and bad",
+        "score": 2,
+        "text": "They said I needed requirements right when I went in the app it wouldn’t even let me sign up if you guys know how to change that tell me",
+        "date": "2026-05-23T06:32:35-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "animefan228",
+        "score": 1,
+        "text": "I’ve been a loyal Fortnite player for the last two years and have invested over $2,000 into this game because I genuinely enjoy the experience. However, after this latest update, the game has become almost unplayable for me.\nThe number of bugs in this current build is frustrating, but the most game-breaking issue is the weapon swapping bug. Multiple times mid-fight, I’ve found myself unable to switch weapons, which essentially ruins any chance of competing in a match. Between these technical failures and the general performance instability since the update, I can no longer justify the time or money I’ve put into this game.\nI really want to love this game again, but in its current state, it feels like the quality control has completely vanished. Please address these stability issues and the weapon swap bug. Until the game is fixed, I’ll be taking a break.",
+        "date": "2026-05-22T14:02:41-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Alex was super reporter",
+        "score": 1,
+        "text": "I just got banned for no reason",
+        "date": "2026-05-21T06:30:18-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mrguy95",
+        "score": 2,
+        "text": "When come to the come itself it’s fair but when they assist aim it not it should be player how it is",
+        "date": "2026-05-21T05:20:42-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Omar Khalil1234",
+        "score": 1,
+        "text": "This game is terrible",
+        "date": "2026-05-20T06:57:11-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Triple- T",
+        "score": 2,
+        "text": "Fortnite is a good game especially with friends but it feels a lot more like Roblox. The menu, the tycoon games, etc. This game lost its peak years ago and now it’s just collab, after collab, after collab. The sweats also make the game unbelievably UNBEARABLE. Can’t have fun like you used back in my opinion.",
+        "date": "2026-05-20T01:17:18-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "themobilebugs",
+        "score": 1,
+        "text": "it’s been a year basically since mobile’s release and their has been a lot of bugs and the biggest and most annoying one is the turbo build bug it’s been here since release it is very annoying and is mobile plays have been asking for it to get fixed for since release and we have had no hope this is a billion dollar game by the way.",
+        "date": "2026-05-19T22:08:18-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "The Worst number 1 app",
+        "score": 1,
+        "text": "I’m writing this review because Fortnite has became too busy. It’s not the original or the same as it was before when I first started playing I know they have a classic OG selection but even I know that’s not the same. It’s become too controversial and well let’s just say that every time I try to play, I’m always shot in less than five seconds which is not then fair way to play the game. I mean if these people want other people that start experiencing that way, they should have like a section of other players of how they want to experience it instead of like expert shooting fish in a barrel, which is kind of a dick move to put us in you know that’s not really fair for other players who are first experience this, but I mean I’m just saying cooperated by me writing this review if they’re gonna start putting sections of those who want to experience other players like levels, different levels of other players to do battle Royale, blitz Royale, OG where ever",
+        "date": "2026-05-19T20:08:29-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Bestgameeverin3rdinmyopinion",
+        "score": 1,
+        "text": "I have it one my dads Xbox but does it work on my iPad NAH I have enough room it’s downloaded but does it work NOPE",
+        "date": "2026-05-19T19:10:24-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "skydia101",
+        "score": 1,
+        "text": "Every time I try to play this game when it update it tells me I don’t have enough storage until I have only one app left, you need to fix this",
+        "date": "2026-05-19T17:06:59-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "big paul 82",
+        "score": 1,
+        "text": "worst thing ever",
+        "date": "2026-05-19T15:49:31-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jacob2fly22",
+        "score": 1,
+        "text": "This game is wrost than having diarrhoea 🤣",
+        "date": "2026-05-19T14:54:30-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Uegixgh",
+        "score": 1,
+        "text": "اتمنى يتعاملون مع حقين ديدوس انا وقفت العب و قفت ابني مابات من الديدوس يقطع الرزق نصحيه قبل تسوي اي شي تذكر حقين الديدوس الله لا يوفقهم",
+        "date": "2026-05-19T12:12:28-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "katie22310",
+        "score": 2,
+        "text": "This game takes up way too much space on the phone. Each update takes more space and it doesn’t delete the previous updates so I continue to have to delete more stuff fun but not worth it",
+        "date": "2026-05-19T12:04:37-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Dvgxc",
+        "score": 2,
+        "text": "There is no left handed mode cant play the game",
+        "date": "2026-05-19T10:49:42-07:00",
+        "version": "40.40.1"
+      }
+    ],
+    "neutral": [
+      {
+        "source": "google_play",
+        "userName": "Enis Vishka",
+        "score": 3,
+        "text": "not great if you have a mid range phone",
+        "date": "2026-05-26T21:24:24.100Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Krishnav Balkissoon",
+        "score": 3,
+        "text": "Fornite is good put I think u should create a Fornite mobile because it take to many GB",
+        "date": "2026-05-26T18:48:33.393Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bayra Bayra",
+        "score": 3,
+        "text": "kinda laggy",
+        "date": "2026-05-26T17:42:29.300Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Damian Worthing",
+        "score": 3,
+        "text": "why no keyboard support?",
+        "date": "2026-05-26T03:26:44.390Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "M Conkl",
+        "score": 3,
+        "text": "very laggy",
+        "date": "2026-05-24T19:30:33.941Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Liam Whalen",
+        "score": 3,
+        "text": "It's overall a great game and fun game that feels fresh and new with every chapter. For my mid-range device (Galaxy A50), it runs horribly, with very inconsistent fps with lots of stutter and hitching. Needs better optimization for older devices. For instance, I am using FXAA and 30% resolution and can barely hit 20 fps. Will rate higher when optimization is better.",
+        "date": "2026-05-22T15:03:29.880Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Lucas Esroc",
+        "score": 3,
+        "text": "Mostly playable, but it's a glitchy mess. Often get an \"unknown error\" trying to join matches and have to relaunch the game to fix it. It also crashes at the results screen at the end of every match. Once you're in a match it runs fine, but getting into and out of a match requires working around things breaking. Also, it looks like garbage no matter how powerful your phone is. Lazy devs clearly took the easy way out and only support potato phones instead of optimizing for different phones.",
+        "date": "2025-12-24T12:13:01.000Z",
+        "thumbsUp": 410
+      },
+      {
+        "source": "google_play",
+        "userName": "TenshiiLove",
+        "score": 3,
+        "text": "it's fun however, the graphic quality sucks even when I put it on the highest setting. I've played many games like Fortnite and never had to deal with such bad quality. I really hope that something can be done about this, it look a bit blurry..",
+        "date": "2026-05-20T15:28:25.967Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Jacob",
+        "score": 3,
+        "text": "I've played Fortnite on multiple consoles switch playstation 5 and pc.It was basically the same thing though the graphics aren't bad but it's not as good as other consoles and can sometimes be laggy.The loading speed is not great either the only reason why I sometimes play on phone is because of the quests that you can only do in the phone to get the free skin and for the auto shot though it is hard to use auto shoot with snipers.Overal it's ok but there are some things that can be improved on.",
+        "date": "2026-04-12T20:57:59.784Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "userName": "Collin",
+        "score": 3,
+        "text": "its a fun game, but the lagging from internet connection sucks.. you'll be fighting and skip or freeze constantly sometimes. i have an S26 so hardware not the issue. just bug city now. got to the point i don't wanna play. you send in a report but nothing.. no one cares",
+        "date": "2026-05-14T23:27:48.466Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Harvey Huihui",
+        "score": 3,
+        "text": "doesn't work on a Motorola 5g stylus is an abomination! this is a top of the line phone so why can't I play the game? once I'm in a match the game starts glitching and I can't even use my controls. I just wanted to play fortnite for once in my life but for other reasons being the game is glitchy af! there's no hope in playing the game. spent hours trying to download just for it to freeze and not let me control anything in game! so capped! this game is crashing out! I guess it's meant for no one",
+        "date": "2026-03-29T12:41:32.740Z",
+        "thumbsUp": 167
+      },
+      {
+        "source": "google_play",
+        "userName": "Tarun",
+        "score": 3,
+        "text": "The Game is great, but terrible optimization for mobile, please optimize the game for oneplus 15R as it can handle way more than the capped performance in-game. There are also many bugs ( for example: sometimes the match wouldn't start even though my internet is good , in-game bugs and a lot of issues. )",
+        "date": "2026-04-07T15:36:08.322Z",
+        "thumbsUp": 13
+      },
+      {
+        "source": "google_play",
+        "userName": "Patrick Herron",
+        "score": 3,
+        "text": "The amount of latency I experience trying to play. Makes the game, all but unplayable! I lag no matter what I try to do! I'm also experiencing some interference by my brothers child's mother whom is a Hoover, her inbred children, & whomever else The Corrupt Necrophilia committing Huntington, Indiana Police aided. I can literally hear them in the background as Im trying to game! Fix the third party interference. The forced closes by third parties who are eavesdropping & the game would be great!",
+        "date": "2026-04-24T02:36:40.706Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "app_store",
+        "userName": "The asteroid",
+        "score": 3,
+        "text": "I can’t play bc of my emailll!!!??!!?",
+        "date": "2026-05-26T15:16:06-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Waffle rule",
+        "score": 3,
+        "text": "Star war games are lagging",
+        "date": "2026-05-25T15:22:20-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Nathan🥶🥶🥶",
+        "score": 3,
+        "text": "Please make Fortnite take up less storage.i can’t play. Whenever there’s an update it takes up space every update. Btw graphics are terrible. I love Fortnite. Just, plz fix it",
+        "date": "2026-05-24T11:14:36-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Rayan gf",
+        "score": 3,
+        "text": "كويسه",
+        "date": "2026-05-24T01:55:27-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "TapeOil",
+        "score": 3,
+        "text": "The game is good but every time I hold my building button It doesn’t keep placing builds. It’s very annoying and unfair to play with this bug.",
+        "date": "2026-05-23T22:44:43-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Bufnfbdhfjkfkdkdjdj",
+        "score": 3,
+        "text": "Its a good game I been playing for years now but when I want to download it to my phone it says I can't that I don't meee the requirments epic you need to fix this I would still give 5 Stars but fix this epic games",
+        "date": "2026-05-23T18:17:03-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "drdrrtrrrrrr",
+        "score": 3,
+        "text": "You have to do so many different things on mobile but on console it is much easier so Fortnite just make it as easy and as lovable as console",
+        "date": "2026-05-22T18:45:31-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Rotisserie chicken37",
+        "score": 3,
+        "text": "Fortnite is a game that I have played for a few years, and when I finally got Fortnite mobile, I was slightly disappointed. First of all, it took FOREVER to download. Second of all, games take forever to download in Fortnite. Even with these problems, I still love Fortnite. I also recommend playing on a newer phone because from my experience with IPhone 13, it is almost unplayable. The only reason this rating isn’t lower is because it is probably meant for newer devices and not older ones. I hope this helps people decide if they want to download Fortnite or not.",
+        "date": "2026-05-22T17:40:24-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "RIPPED_PANDA",
+        "score": 3,
+        "text": "Fortnite is fun but the glitches are a killer (quite literally in some instances) Fortnite has bad glitches occasionally where u can’t move or something like that. It also takes up a STUPID amount of storage. This game is fun but they need to fix these problems.",
+        "date": "2026-05-22T10:57:01-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Fqiqp",
+        "score": 3,
+        "text": "‏عندما أحمل لعبة وادخل إليها لا تعمل لأنها تريد التحميل لكنه لا يحمل",
+        "date": "2026-05-22T05:18:50-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Positive little girl",
+        "score": 3,
+        "text": "I love this so much thanks to anyone who made it in phones it’s so easy now to kill in battle royal",
+        "date": "2026-05-22T03:30:51-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Urmomsucks my toes",
+        "score": 3,
+        "text": "It was ok playing on console is better tho",
+        "date": "2026-05-21T19:56:24-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ishaan Bagchi",
+        "score": 3,
+        "text": "15 gigs and it updates every week come on epic",
+        "date": "2026-05-21T15:20:21-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Clcococooco",
+        "score": 3,
+        "text": "Why??????",
+        "date": "2026-05-19T19:21:01-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "darling lion",
+        "score": 3,
+        "text": "I’m not saying it’s a bad game but it’s not letting me sign in for some reason. My account is automated so it won’t let me sign in on my Apple phone. Pls fix this pls",
+        "date": "2026-05-19T16:08:03-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "C0rb1n67",
+        "score": 3,
+        "text": "BIG download and graphics are about buggy (might just be my fault) but great game!!",
+        "date": "2026-05-19T12:40:36-07:00",
+        "version": "40.40.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "naruto x deku",
+        "score": 3,
+        "text": "It says it takes up 2.55 gb but when you truely look at how much storage it takes up it’s over 15gb no only 2.55 it would be better if it didn’t take up so much storage",
+        "date": "2026-05-19T11:08:39-07:00",
+        "version": "40.40.1"
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "com.roblox.client",
+      "title": "Roblox",
+      "developer": "Roblox Corporation",
+      "score": 4.1945963,
+      "icon": "https://play-lh.googleusercontent.com/7cIIPlWm4m7AGqVpEsIfyL-HW4cQla4ucXnfalMft1TMIYQIlf2vqgmthlZgbNAQoaQ"
+    },
+    {
+      "appId": "com.netease.newspike",
+      "title": "Blood Strike - FPS for all",
+      "developer": "NetEase Games",
+      "score": 4.289866,
+      "icon": "https://play-lh.googleusercontent.com/wnuFhhof2_N5DRoi0GsoHmJSMQ4XyrIKphz6BnN1wX_O2OD1QNPNg4_r0x7Gh4jFG61Fm1vYyKsVz-mU2JdlcVE"
+    },
+    {
+      "appId": "com.innersloth.spacemafia",
+      "title": "Among Us",
+      "developer": "Innersloth LLC",
+      "score": 3.9074774,
+      "icon": "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec"
+    },
+    {
+      "appId": "com.gp16.bombchip.challenge3d",
+      "title": "Hill Climb Adventure Simulator",
+      "developer": "Zaib Engineering",
+      "icon": "https://play-lh.googleusercontent.com/yuP7T_-k3YOn4XBAZ5704-jX-f0XLZ7OY_GtnMlPryL-JNCPEvCsJvYDZeNoeFQmDpH6UIJZlVeZltzRRaB8"
+    },
+    {
+      "appId": "com.studio27.MelonPlayground",
+      "title": "Melon Sandbox",
+      "developer": "playducky.com",
+      "score": 4.66884,
+      "icon": "https://play-lh.googleusercontent.com/9KgS1cF6vWMF9Fl25S36bKr8zDh0ddkTOeN7WpBcQAE-pKfahG2DjUxbQ8sespNoe3KW3qbcaVD8H6DfNys6"
+    },
+    {
+      "appId": "com.pm.am.a.hamster.simulator",
+      "title": "Off Road Camping Survival Game",
+      "developer": "Play Menu",
+      "icon": "https://play-lh.googleusercontent.com/1PyvxiboCyyGBhWTw7dXZjKkmJc8-ST-T_Kj6ZsJ2Vh5ivZMNM0NbxXB1iUrAEnh6NyKoDxRU2e_XlgKZj9OlWw"
+    },
+    {
+      "appId": "com.gt.snatchrun.memerotgame",
+      "title": "Steal a Brainrot",
+      "developer": "MASHAL SOFT STUDIO",
+      "icon": "https://play-lh.googleusercontent.com/RiOxqdBOXMcshxWmlFj7GeI6Z7-ZUhhTP9EIpriK5CXmcml5_x3SrPE4pNsYaELVFPl8coJJmhwqmvUXNeFjGA"
+    },
+    {
+      "appId": "air.com.ubisoft.brawl.halla.platform.fighting.action.pvp",
+      "title": "Brawlhalla",
+      "developer": "Ubisoft Entertainment",
+      "score": 4.4192986,
+      "icon": "https://play-lh.googleusercontent.com/np6vjq7-1UEN0rhoO2D5KFWD_u_2ve_od6YzlAUnq2Ty_lR6HBGB-Qsu_E5jS3VI-m5t"
+    },
+    {
+      "appId": "com.miraclegames.farlight84",
+      "title": "Farlight 84",
+      "developer": "FARLIGHT",
+      "score": 3.4062304,
+      "icon": "https://play-lh.googleusercontent.com/t1F-BjuuQoS-dSRA3Zboa1l46wntO0YlML42_-Fgk8xkPZcRA8R2fQtR0eaSnzKp8HkRmuTihOCqeOTJomLn"
+    },
+    {
+      "appId": "com.lockwoodpublishing.avakinlife",
+      "title": "Avakin Life - 3D Virtual World",
+      "developer": "Lockwood Publishing Ltd",
+      "score": 3.9088647,
+      "icon": "https://play-lh.googleusercontent.com/UBpCn5aNhexoCFyR4nnmhpWPrt6D68FtjQHVdtuaYX3n-jor9vAiHqD0RstOMBcTqQ"
+    }
+  ],
+  "developerApps": []
+}
