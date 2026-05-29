@@ -744,10 +744,12 @@ async function main() {
           }
           cursor.setDate(cursor.getDate() + 1);
         }
-        // 修正：當黑馬被保留時，除了更新主體的 currentRank，也必須同步更新 markets 陣列中對應主市場的排名
+        // 修正：保留黑馬時，掃描今天快照更新「所有市場」的排名，而非只更新主市場
         const updatedMarkets = (pastDh.markets || []).map(m => {
-          if (m.code === pastDh.market) {
-            return { ...m, rank: todayApp.rank };
+          const snap = loadSnapshot(today, m.code, pastDh.platform, pastDh.chartType);
+          if (snap && snap.data) {
+            const found = snap.data.find(a => a.appId === pastDh.appId);
+            if (found) return { ...m, rank: found.rank };
           }
           return m;
         });
