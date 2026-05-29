@@ -956,11 +956,12 @@ function renderDarkhorses() {
   }
 
   // 後處理：從快照補充市場國旗 + 排行資訊（掃描所有可用日期，Top 100 有出現就顯示國旗）
+  // 排名一律取「最新日期」的排名，而非歷史最佳排名
   {
     // 收集所有卡片的 appId
     const allCardIds = new Set();
     for (const card of filtered) allCardIds.add(card.appId);
-    // 掃描所有日期的快照，合併結果
+    // 掃描所有日期的快照，合併結果（按日期正序，後者覆蓋前者 = 最新排名）
     const allMarketResults = new Map();
     for (const snapDate of state.availableDates) {
       if (!state.snapshots[snapDate]) continue;
@@ -970,8 +971,13 @@ function renderDarkhorses() {
         const arr = allMarketResults.get(aid);
         for (const entry of entries) {
           const existing = arr.find(e => e.code === entry.code && e.platform === entry.platform && e.chartType === entry.chartType);
-          if (!existing) arr.push(entry);
-          else if (entry.rank && (!existing.rank || entry.rank < existing.rank)) existing.rank = entry.rank;
+          if (!existing) {
+            arr.push({ ...entry, _snapDate: snapDate });
+          } else if (snapDate >= (existing._snapDate || '')) {
+            // 用更新日期的排名覆蓋（即使新排名較差）
+            existing.rank = entry.rank;
+            existing._snapDate = snapDate;
+          }
         }
       }
     }
@@ -986,8 +992,8 @@ function renderDarkhorses() {
         const existingMarket = card.markets.find(m => m.code === entry.code);
         if (!existingMarket) {
           card.markets.push({ code: entry.code, flag: getFlag(entry.code), name: MARKETS.find(mk => mk.code === entry.code)?.name || entry.code, rank: entry.rank });
-        } else if (entry.rank && (!existingMarket.rank || entry.rank < existingMarket.rank)) {
-          existingMarket.rank = entry.rank; // 更新為更好的排名
+        } else if (entry.rank) {
+          existingMarket.rank = entry.rank; // 用最新日期的排名覆蓋
         }
         // 補充排行資訊（_chartRanks）— 同市場同榜同平台才算重複
         const chartLabel = entry.chartType === 'grossing' ? '營收' : '免費';
