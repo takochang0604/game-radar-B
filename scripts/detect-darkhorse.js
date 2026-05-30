@@ -655,7 +655,7 @@ async function main() {
         if (!dh._rankHistoryByMarket) dh._rankHistoryByMarket = {};
         if (!dh._rankHistoryByMarket[market.code]) {
           const hist = getRankHistory(dh.appId, market.code, dh.platform, dh.chartType, DARKHORSE_CONFIG.lookbackDays);
-          dh._rankHistoryByMarket[market.code] = hist.slice(-7).map(h => ({
+          dh._rankHistoryByMarket[market.code] = hist.slice(-30).map(h => ({
             ...h, platform: dh.platform, chartType: dh.chartType,
           }));
         }
@@ -666,16 +666,16 @@ async function main() {
     dh.markets = snapshotMarkets;
   }
 
-  // 精簡 rankHistory：走勢線只顯示 7 天，保留最近 7 筆即可
+  // 精簡 rankHistory：保留最近 30 天（前端支援 7/14/30 天切換）
   for (const [, dh] of mergedMap) {
-    if (dh.rankHistory && dh.rankHistory.length > 7) {
-      dh.rankHistory = dh.rankHistory.slice(-7);
+    if (dh.rankHistory && dh.rankHistory.length > 30) {
+      dh.rankHistory = dh.rankHistory.slice(-30);
     }
     if (dh._rankHistoryByMarket) {
       for (const mkt of Object.keys(dh._rankHistoryByMarket)) {
         const hist = dh._rankHistoryByMarket[mkt];
-        if (hist && hist.length > 7) {
-          dh._rankHistoryByMarket[mkt] = hist.slice(-7);
+        if (hist && hist.length > 30) {
+          dh._rankHistoryByMarket[mkt] = hist.slice(-30);
         }
       }
     }
