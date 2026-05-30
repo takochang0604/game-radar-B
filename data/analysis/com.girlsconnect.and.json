@@ -1,0 +1,41 @@
+{
+  "appId": "com.girlsconnect.and",
+  "name": "ルミナアビス：光と闇を紡ぐ少女たち",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Download now and get 777 consecutive gacha pulls!\n\nChoose from two options to obtain limited-edition black or white wedding dresses!\n\nInto the abyss of light and darkness—\nA story of destiny woven by beautiful girls with dual personalities.\n\nOver 100 beautiful girls, top-class in both combat ability and beauty, will fight for you!\n\n\n[Heart-pounding adventure × Beautiful girls with dual personalities]\nWelcome to the \"Irene Continent.\" Meet beautiful girls with dual personalities and weave your ow",
+    "released": "May 20, 2026",
+    "updated": 1779786375000,
+    "version": "1.0.21",
+    "installs": "10,000+",
+    "score": 3.9,
+    "ratings": 759,
+    "reviews": 57,
+    "developer": "9RING",
+    "genre": "Role Playing",
+    "recentChanges": "一部の機能を最適化"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:54:09.797Z"
+}

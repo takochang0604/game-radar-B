@@ -4,14 +4,14 @@
   "platform": "android",
   "market": "kr",
   "detail": {
-    "description": "\"🎒 Pack your backpack, build your power - Overgeared Hero is the pixel roguelike auto-battler where every item placement decides the fight.\n\nIn Overgeared Hero, you collect rare, epic, and legendary gear, merge duplicates into stronger versions, and arrange them in your backpack to unlock powerful synergies. Then your hero auto-battles based on the build you designed. Every run is different, every backpack tells a different story.\n\n💡 Pro tips before you start:\n- Item placement is everything. P",
+    "description": "🎒 Pack your backpack, build your power - Overgeared Hero is the pixel roguelike auto-battler where every item placement decides the fight.\n\nIn Overgeared Hero, you collect rare, epic, and legendary gear, merge duplicates into stronger versions, and arrange them in your backpack to unlock powerful synergies. Then your hero auto-battles based on the build you designed. Every run is different, every backpack tells a different story.\n\n💡 Pro tips before you start:\n- Item placement is everything. Pl",
     "released": "May 25, 2026",
-    "updated": 1779644233000,
+    "updated": 1779915435000,
     "version": "1.31.4",
-    "installs": "100,000+",
-    "score": 4.8,
-    "ratings": 10884,
-    "reviews": 93,
+    "installs": "500,000+",
+    "score": 4.7,
+    "ratings": 14624,
+    "reviews": 194,
     "developer": "5minlab Corp.",
     "developerWebsite": "http://overgearedhero.com",
     "genre": "Strategy"
@@ -19,43 +19,43 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 52,
-      "2": 12,
-      "3": 11,
-      "4": 27,
-      "5": 98
+      "1": 47,
+      "2": 15,
+      "3": 16,
+      "4": 20,
+      "5": 102
     },
-    "positiveRatio": 63,
-    "negativeRatio": 32,
+    "positiveRatio": 61,
+    "negativeRatio": 31,
     "eventMentions": [
       {
-        "text": "great fun so far will update later",
+        "text": "this game is great, gameplay wise. it's addicting and also very easy to play. but my main complaint ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "after an update price of 3 main items in the arena exchange increase by 1000% is just insane!!, is i",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "good game, simple mechanics so far, may update later if things are still as easy or get much harder.",
+        "text": "new app, same game? also gutted the price of epic keys in arena shop, it was already slow grind with",
         "keywords": [
-          "update"
+          "new"
         ]
       },
       {
-        "text": "so far it's rather fun and simple i feel like it will be great. i don't like that you need to use re",
+        "text": "the game is pretty cool taking mergers to a new level",
         "keywords": [
-          "limited"
+          "new"
         ]
       },
       {
-        "text": "omg this game soo good but stop making me buy useless stuff i rather pay 10$ on unlimited stamina th",
+        "text": "if i had a dollar every time i fun little mobile game was ruined by utterly vile money grubbing and ",
         "keywords": [
-          "limited"
-        ]
-      },
-      {
-        "text": "i thought it would be similar to smash legends not a merger style game. sadly they aren't doing upda",
-        "keywords": [
-          "update"
+          "new"
         ]
       }
     ]
@@ -64,7 +64,7 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 2 天，評分 4.8",
+      "detail": "上架 5 天，評分 4.7",
       "confidence": "high"
     },
     {
@@ -80,5 +80,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:08:34.316Z"
+  "analyzedAt": "2026-05-30T10:50:20.936Z"
 }

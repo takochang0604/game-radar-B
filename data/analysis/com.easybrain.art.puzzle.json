@@ -1,0 +1,79 @@
+{
+  "appId": "com.easybrain.art.puzzle",
+  "name": "Art Puzzle - Puzzle Games",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Welcome to Art Puzzle - a special type of art games that offers you the ultimate aesthetic experience. It is a unique puzzle game where relaxing coloring meets jigsaw puzzles. This picture puzzle game is designed to help players calm down and relax while exploring beautiful landscapes and admiring dreamy images. Try this refreshing reimagination of art games and jigsaw puzzles for free!\n\nIn Art Puzzle, you will enjoy attractive hidden pictures that come to life as you attempt to guess the silhou",
+    "released": "Nov 26, 2020",
+    "updated": 1779389247000,
+    "version": "4.10.0",
+    "installs": "100,000,000+",
+    "score": 4.7,
+    "ratings": 1791264,
+    "reviews": 1663,
+    "developer": "Easybrain",
+    "developerWebsite": "http://easybrain.com",
+    "genre": "Puzzle",
+    "recentChanges": "- Performance and stability improvements<br>We hope you enjoy playing Art Puzzle. We read all your reviews carefully to make the game even better for you. Please leave us some feedback to let us know why you love this game and what you&#39;d like us to improve in it.<br>Have fun with Art Puzzle!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 20,
+      "2": 10,
+      "3": 7,
+      "4": 17,
+      "5": 146
+    },
+    "positiveRatio": 82,
+    "negativeRatio": 15,
+    "eventMentions": [
+      {
+        "text": "please add a limited hints",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "this game started so strong and had so much potential. the first levels make you think you’ll be reb",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "good but new game step by step giving hands please work on this that give all steps one time that pe",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i'm giving this app 1 undeserved 🌟 only because it's required in order to write a review. this fals",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 82%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:31.614Z"
+}

@@ -10,8 +10,8 @@
     "version": "3.8",
     "installs": "100,000+",
     "score": 3.7,
-    "ratings": 2195,
-    "reviews": 1012,
+    "ratings": 2212,
+    "reviews": 1022,
     "developer": "LongE Play",
     "genre": "Action",
     "recentChanges": "河西大型資料片最終章：秦川4月30日更新！探索全新地圖，變成「風」感受秦川的四季！"
@@ -53,8 +53,8 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
-      "confidence": "high"
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
     },
     {
       "type": "event_driven",
@@ -69,5 +69,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-26T12:52:50.636Z"
+  "analyzedAt": "2026-05-30T10:57:08.017Z"
 }

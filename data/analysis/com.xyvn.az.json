@@ -1,0 +1,40 @@
+{
+  "appId": "com.xyvn.az",
+  "name": "Kiếm Chỉ Giang Hồ: Khai Thiên",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Decision approving the content of the online video game G1, number: 187/QD-PTTH&TTĐT, issued by the Ministry of Information and Communications on April 14, 2026\n\nPhong Van Giang Ho, Legends Begin with You!\nIt is said that when heaven and earth were first separated, yin and yang flowed throughout the world, from which the martial arts world was constantly in turmoil. Some drew their swords to protect a peaceful region, others stepped in to seize the destiny of heaven and earth. You will enter the",
+    "released": "May 12, 2026",
+    "updated": 1778579007000,
+    "version": "1.2.0",
+    "installs": "10,000+",
+    "score": 4.7,
+    "ratings": 695,
+    "reviews": 223,
+    "developer": "WEPLAY LTD",
+    "genre": "Role Playing"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 100,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 18 天，評分 4.7",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:53:31.555Z"
+}

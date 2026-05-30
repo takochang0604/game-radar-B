@@ -1,0 +1,50 @@
+{
+  "appId": "6762333081",
+  "name": "东煌纪",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "—灵兽契约 缘分邂逅\n蓬莱仙境辽阔无垠，每一片土地都栖息着独特的灵兽。手持仙葫，用心感应，与心仪的灵兽缔结契约，让它们成为你最忠实的战友与伙伴！\n—家园暖暖 灵兽相伴\n在蓬莱仙境的一隅，有一片属于你的小小天地。灵兽们不再只是战斗的伙伴，更是家园里的好帮手。闲暇时，拜访好友家园，为他们的精心布置点赞，或许还能收获一份暖心回馈。每一次互动，都是羁绊的延续；每一次收获，都是岁月的馈赠。\n—元素激荡 策略制胜\n冰霜冻结、烈焰焚天、雷霆万钧、流水无形……十余种元素之力相互交织，形成复杂而精妙的克制体系。唯有洞悉其规律，灵活调配阵容，方能在战斗中立于不败之地！\n—荣耀赛场 问鼎巅峰\n东煌联盟召集天下英豪，顶级赛事一触即发。无论你是谋定后动的战术大师，还是热血激进的战斗狂人，都能在多元竞技模式中找到属于自己的舞台，向至高荣耀发起冲击！",
+    "released": "2026-05-26T07:00:00Z",
+    "updated": "2026-05-26T08:27:38Z",
+    "version": "1.1",
+    "score": 4.8,
+    "reviews": 1362,
+    "developer": "HALE CHOU PTE. LTD.",
+    "developerUrl": "https://apps.apple.com/cn/developer/hale-chou-pte-ltd/id1769582889?uo=4",
+    "genres": [
+      "游戏",
+      "角色扮演",
+      "策略"
+    ],
+    "releaseNotes": "1.修复部分已知问题\n2.优化玩家操作体验"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 4 天，評分 4.8",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:52:54.698Z"
+}

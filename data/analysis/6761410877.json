@@ -1,0 +1,50 @@
+{
+  "appId": "6761410877",
+  "name": "Duck Survival",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "[Login Rewards] 777 draws, an exclusive Duck Soldier outfit, a Gatling gun, and 100,000 Banknotes!\n\nDucks vs. Zombies — fight your way through the apocalypse! \nAn easy-to-play Roguelike shooter combined with thrilling tower defense survival gameplay!  \n\n- Build by Day, Defend by Night!\nDaytime: Use your resources to upgrade your base, recruit soldiers, and deploy powerful defenses like Machine Gun Towers and EMP Towers to prepare for battle!  \nNighttime: Nearly a hundred mutated zombies and gian",
+    "released": "2026-05-28T07:00:00Z",
+    "updated": "2026-05-28T12:40:22Z",
+    "version": "1.4.1",
+    "score": 4.9,
+    "reviews": 202,
+    "developer": "Joy Net Games",
+    "developerUrl": "https://apps.apple.com/us/developer/joy-net-games/id1688367866?uo=4",
+    "genres": [
+      "Games",
+      "Roleplaying",
+      "Action"
+    ],
+    "releaseNotes": "1. Added new levels and gameplay content for fresh challenges!\n2. Optimized early combat experience and level difficulty pacing.\n3. Fixed known issues and improved overall game performance and stability."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 2 天，評分 4.9",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:55:04.662Z"
+}

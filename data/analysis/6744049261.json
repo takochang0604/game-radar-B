@@ -1,0 +1,44 @@
+{
+  "appId": "6744049261",
+  "name": "Block Color Mania, Puzzle Game",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "Match colors, smash blocks, and clear the wood board in NO TIMER Block Color Mania!\n\nEach vibrant block has its own shape and matching color gate. Your goal? Drag every piece to its color-coded exit. No filling rows - this is a challenging, precision-driven twist on the classic wood block puzzle, with no time limits and zero pressure. Relax and enjoy the challenge at your own pace!\n\nWith silky-smooth controls, bold visuals, and that oh-so-satisfying smash when a block hits its target, this game ",
+    "released": "2025-11-25T08:00:00Z",
+    "updated": "2026-03-30T20:17:33Z",
+    "version": "2.7.0",
+    "score": 4.7,
+    "reviews": 2440,
+    "developer": "Guru Future Holding Limited",
+    "developerUrl": "https://apps.apple.com/jp/developer/guru-future-holding-limited/id1693569117?uo=4",
+    "genres": [
+      "ゲーム",
+      "パズル",
+      "ボード"
+    ],
+    "releaseNotes": "Hello Block Color Mania Players,\nThis update includes performance improvements.\nNo timer, no stress, enjoy now!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:04.979Z"
+}

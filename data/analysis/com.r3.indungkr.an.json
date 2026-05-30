@@ -1,0 +1,46 @@
+{
+  "appId": "com.r3.indungkr.an",
+  "name": "인투더던전:리본",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "It's here! My dopamine…\n\nThe dungeon gates are open again! A new dungeon journey begins with Ribbon; this time, let's go all the way!\n\n300 pulls, 8,000 Blue Gems, the Korea-exclusive 'Cheerleader' costume, and 28 Witch weapons are all given away for free!\n\n▶ Awaken again with REBORN\n\n[Warrior, Hunter, Priest, Mage, Rogue], freely choose from five classes, each with a different concept and unique abilities!\n\nRaise the ultimate hero using various育成 systems tailored to your own play style!\n\n▶ Creat",
+    "released": "May 21, 2026",
+    "updated": 1779444454000,
+    "version": "1.0.3",
+    "installs": "10,000+",
+    "score": 4.9,
+    "ratings": 526,
+    "reviews": 168,
+    "developer": "GAME CRAFT",
+    "genre": "Adventure"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 9 天，評分 4.9",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:54:31.756Z"
+}

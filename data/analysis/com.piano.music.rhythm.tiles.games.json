@@ -7,27 +7,27 @@
     "description": "🚀 Step into the neon future of Rhythm Games and enjoy  cyber music piano！\nAre you ready to test your reflexes and become a true piano master? Welcome to Rhythm Tiles, the most immersive and visually stunning cyber music experience on mobile! If you are a fan of piano games, rhythm games, and high-octane music games, you’ve just found your next obsession.\nThis isn't just another casual piano game; it’s a high-speed journey through a digital universe where every tap creates a symphony. Whether yo",
     "released": "May 6, 2026",
     "updated": 1778319491000,
-    "version": "0.1.2",
+    "version": "0.1.4",
     "installs": "1,000,000+",
     "score": 4.2,
-    "ratings": 1232,
-    "reviews": 0,
+    "ratings": 1479,
+    "reviews": 6,
     "developer": "Agile Lion Games",
     "developerWebsite": "http://agileliongames.com",
     "genre": "Casual",
     "recentChanges": "Bug fixes<br>Performance optimization<br>Hot Songs Added"
   },
   "reviewAnalysis": {
-    "total": 54,
+    "total": 67,
     "starCounts": {
-      "1": 21,
+      "1": 25,
       "2": 2,
-      "3": 1,
-      "4": 1,
-      "5": 29
+      "3": 2,
+      "4": 5,
+      "5": 33
     },
-    "positiveRatio": 56,
-    "negativeRatio": 43,
+    "positiveRatio": 57,
+    "negativeRatio": 40,
     "eventMentions": [
       {
         "text": "that's music are feel me like a kid so you should add new adults music ok",
@@ -41,9 +41,9 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 21 天，評分 4.2",
+      "detail": "上架 24 天，評分 4.2",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-27T12:09:04.805Z"
+  "analyzedAt": "2026-05-30T10:54:02.501Z"
 }

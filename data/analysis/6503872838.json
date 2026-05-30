@@ -1,0 +1,45 @@
+{
+  "appId": "6503872838",
+  "name": "Epic Stickman: RPG Idle War",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Epic Stickman: Unleash Your Inner Legend in the Shadow Realm \n\nEpic Stickman: Idle RPG War is a thrilling idle RPG adventure where darkness reigns and your stickman hero fights even while you’re offline. In this AFK auto-battle game, your legend never sleeps — only grows stronger. The realm of shadows is calling. Are you ready to answer?\n\n◈ Idle RPG Action That Never Stops\nBattle through hordes of monsters and earn epic rewards — even when you're away. Enjoy seamless auto-battle mechanics that l",
+    "released": "2024-06-26T07:00:00Z",
+    "updated": "2026-05-28T16:52:03Z",
+    "version": "1.0.73",
+    "score": 4.9,
+    "reviews": 3934,
+    "developer": "Fansipan Limited",
+    "developerUrl": "https://apps.apple.com/vn/developer/fansipan-limited/id1501817933?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing",
+      "Entertainment",
+      "Adventure"
+    ],
+    "releaseNotes": "- UI/UX improvements\n- Bug fixes and performance optimizations"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:55:57.153Z"
+}

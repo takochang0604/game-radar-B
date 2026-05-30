@@ -8,54 +8,55 @@
     "released": "May 13, 2026",
     "updated": 1778675189000,
     "version": "1.0.0",
-    "installs": "500,000+",
-    "score": 4.8,
-    "ratings": 33810,
-    "reviews": 1398,
+    "installs": "1,000,000+",
+    "score": 4.7,
+    "ratings": 43834,
+    "reviews": 1695,
     "developer": "BOLTRAY GAMES",
     "genre": "Role Playing"
   },
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 22,
-      "2": 6,
-      "3": 11,
-      "4": 30,
-      "5": 131
+      "1": 23,
+      "2": 4,
+      "3": 13,
+      "4": 32,
+      "5": 128
     },
-    "positiveRatio": 81,
+    "positiveRatio": 80,
     "negativeRatio": 14,
     "eventMentions": [
       {
-        "text": "wasn't expecting much but its very fun and engaging, has idle mechanics but i think every new player",
+        "text": "very good game hope in colab we can get to play as the collab character in game until then 4 stars",
         "keywords": [
-          "new"
+          "collab"
         ]
       },
       {
-        "text": "after the beginning tutorial it has crashed twice, first time i was looking up something in-game and",
+        "text": "mostly f2p and i'm 270k power as a healer, so the game is approachable for the average person. reall",
         "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "originally 5/5 stars until i found out you can't just play and level up. your limited by attack rati",
-        "keywords": [
-          "event",
+          "update",
           "limited"
         ]
       },
       {
-        "text": "very fun game! i loved exploring the different adventures, leveling up, and meeting new characters! ",
+        "text": "so far the game is pretty fun, but i'm having so many scam bots message me asking me to add the \"lea",
         "keywords": [
-          "new"
+          "update"
         ]
       },
       {
-        "text": "the ad i saw for the game was a complete lie. if you can't advertise it right don't release the game",
+        "text": "casual game, friendly coop. if you want something relaxed that can have a small fun grind but not ov",
         "keywords": [
-          "update"
+          "event"
+        ]
+      },
+      {
+        "text": "its so laggy i can't even create a character as soon as i tried it booted me, needs bug fixes and ne",
+        "keywords": [
+          "update",
+          "new"
         ]
       }
     ]
@@ -64,14 +65,8 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 14 天，評分 4.8",
+      "detail": "上架 17 天，評分 4.7",
       "confidence": "high"
-    },
-    {
-      "type": "major_update",
-      "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 13 天前",
-      "confidence": "medium"
     },
     {
       "type": "event_driven",
@@ -82,9 +77,9 @@
     {
       "type": "word_of_mouth",
       "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 81%",
+      "detail": "4-5星評論佔 80%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:08:03.695Z"
+  "analyzedAt": "2026-05-30T10:55:27.097Z"
 }

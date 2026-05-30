@@ -9,9 +9,9 @@
     "updated": 1779269061000,
     "version": "1.0.2",
     "installs": "100,000+",
-    "score": 4.6,
-    "ratings": 17126,
-    "reviews": 927,
+    "score": 4.7,
+    "ratings": 20251,
+    "reviews": 1080,
     "developer": "SoftoVerse",
     "developerWebsite": "http://www.wwwsoft-overse.com",
     "genre": "Word",
@@ -20,35 +20,49 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 19,
-      "2": 2,
-      "3": 20,
-      "4": 21,
-      "5": 138
+      "1": 25,
+      "2": 7,
+      "3": 10,
+      "4": 19,
+      "5": 139
     },
-    "positiveRatio": 80,
-    "negativeRatio": 11,
-    "eventMentions": []
+    "positiveRatio": 79,
+    "negativeRatio": 16,
+    "eventMentions": [
+      {
+        "text": "in before few days this app is working very best and gives withdraw to everyone but when i complete ",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "newbie me",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
   },
   "inferredReasons": [
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 10 天，評分 4.6",
+      "detail": "上架 13 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 7 天前",
-      "confidence": "high"
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
     },
     {
-      "type": "word_of_mouth",
-      "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 80%",
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:08:45.803Z"
+  "analyzedAt": "2026-05-30T10:53:47.852Z"
 }

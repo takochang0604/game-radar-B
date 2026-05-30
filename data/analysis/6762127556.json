@@ -1,0 +1,43 @@
+{
+  "appId": "6762127556",
+  "name": "風と竜の歌",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "▼ゲームの特長▼\n\n【やり込み要素がたくさん】\n広大な世界観と無限の育成要素、どこまでも熱くなれる放置型MMORPG！\nかわいい衣装や装飾品も豊富に揃い、自由にカスタマイズ可能！\n友達を作って、みんなで一緒に大冒険。\nソロでも、仲間とでも、自分だけの遊び方で楽しめる。\n\n【初心者ボーナス満載！毎日100連ガチャもらえる】\nリリース記念として、限定衣装セットをプレゼント！\nさらに、毎日ログインするだけで100連ガチャがもらえる。最大2000連も可能！\nデイリーサインイン・レベル達成ボーナス・育成応援特典など、初心者でも簡単に成長できる仕組みが充実。\n\n【縦画面で片手操作も簡単！】\n放置でもキャラは成長し続けるので、忙しい日常でも無理なく育成可能！\nイベント報酬一括回収システム搭載、時間がなくてもサクッと回収できてストレスフリー！\n\n【バトルこそが冒険】\n個人対戦型PVP、ギルド団体戦、協力型ダンジョン、 サバイバー公平対戦型……\n多彩なイベントタイプが続々登場！\nお好みのイベントにぜひ参加してください。\n\n最低動作環境\niOS　11.0、RAM4GB以上\n\nお問い合わせ：support@",
+    "released": "2026-05-26T07:00:00Z",
+    "updated": "2026-05-26T07:00:00Z",
+    "version": "1.2",
+    "score": 3.7,
+    "reviews": 379,
+    "developer": "LH LEGAL CONSULTING COMPANY LIMITED",
+    "developerUrl": "https://apps.apple.com/jp/developer/lh-legal-consulting-company-limited/id1893034246?uo=4",
+    "genres": [
+      "ゲーム",
+      "ロールプレイング"
+    ],
+    "releaseNotes": "リリース特典の実装"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:54:00.099Z"
+}

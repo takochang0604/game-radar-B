@@ -1,0 +1,79 @@
+{
+  "appId": "com.farlightgames.igame.gp.vn",
+  "name": "AFK Journey- TRAVELLET VN",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Step into Esperia, a fantasy world full of magic - a lone seed of life meandering among the sea of stars. And on Esperia, it took root. As the river of time flowed, the once all-powerful gods fell. As the seed grew, each branch sprouted leaves, which became the races of Esperia.\n\nYou will play as the legendary mage Merlin and experience strategically tactical battles. It's time to dive into an unexplored world and embark on a journey to unlock a hidden mystery together with the heroes of Esperia",
+    "released": "Jul 24, 2024",
+    "updated": 1779242883000,
+    "version": "1.6.42",
+    "installs": "100,000+",
+    "score": 4.7,
+    "ratings": 14317,
+    "reviews": 5083,
+    "developer": "TRAVELLET-VN",
+    "genre": "Role Playing",
+    "recentChanges": "Minor bug fixes."
+  },
+  "reviewAnalysis": {
+    "total": 166,
+    "starCounts": {
+      "1": 28,
+      "2": 3,
+      "3": 11,
+      "4": 7,
+      "5": 117
+    },
+    "positiveRatio": 75,
+    "negativeRatio": 19,
+    "eventMentions": [
+      {
+        "text": "mình thấy game có đồ họa đẹp, cốt truyện tương đối thú vị và đội ngũ phát triển rất gần gũi; các tín",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "cannot run on pixel 10 with the new update.",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i love this game and wish the production team will make the past seasons in the game replayable.",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "chơi sau vào sau khó quá. newbie mới vào chơi thấy ngộp quá, ko đấu lại được . đổi sang tiếng việt v",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "trải nghiệm tệ hại, chỉ có ss1 mới hút đc chân ng chơi, phần 2 part sau cực kì chán. game cạn conten",
+        "keywords": [
+          "event"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:57:22.825Z"
+}

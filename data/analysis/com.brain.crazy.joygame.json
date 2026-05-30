@@ -2,7 +2,7 @@
   "appId": "com.brain.crazy.joygame",
   "name": "Brain Puzzle 3: Crazy Mind",
   "platform": "android",
-  "market": "jp",
+  "market": "us",
   "detail": {
     "description": "Warning: This game may cause intermittent frustration, sudden bursts of laughter, and a strong desire to show off to your friends!\n\nSay goodbye to boredom! The Brain Puzzle series is back with a brand-new sequel, Crazy Mind—and this time, it's for real! 💥 We've prepared countless mind-bending levels designed specifically to cure \"boredom\" and \"slow reflexes.\" Don't worry, this isn't an exam—it's a fun-filled mental adventure!\n\n💡 Think you're smart enough? That's because you haven't tried Crazy",
     "released": "Dec 3, 2025",
@@ -10,8 +10,8 @@
     "version": "1.0.7",
     "installs": "5,000,000+",
     "score": 4.6,
-    "ratings": 21422,
-    "reviews": 31,
+    "ratings": 22357,
+    "reviews": 156,
     "developer": "JoyGame Studio",
     "developerWebsite": "http://www.ezekielflores.com",
     "genre": "Puzzle",
@@ -20,14 +20,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 70,
-      "2": 18,
+      "1": 74,
+      "2": 17,
       "3": 13,
-      "4": 21,
-      "5": 78
+      "4": 22,
+      "5": 74
     },
-    "positiveRatio": 50,
-    "negativeRatio": 44,
+    "positiveRatio": 48,
+    "negativeRatio": 46,
     "eventMentions": [
       {
         "text": "do you like ads? well, then this is the game for you! do you also happen to like crashes, good news!",
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:10:44.349Z"
+  "analyzedAt": "2026-05-30T10:50:08.618Z"
 }

@@ -9,7 +9,7 @@
     "updated": "2026-05-21T19:28:04Z",
     "version": "2.0.1",
     "score": 4.5,
-    "reviews": 74559,
+    "reviews": 74692,
     "developer": "111%",
     "developerUrl": "https://apps.apple.com/kr/developer/111/id1060433596?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
-      "confidence": "high"
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:08:10.748Z"
+  "analyzedAt": "2026-05-30T10:52:06.933Z"
 }

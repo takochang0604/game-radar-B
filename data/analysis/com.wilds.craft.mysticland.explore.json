@@ -2,28 +2,28 @@
   "appId": "com.wilds.craft.mysticland.explore",
   "name": "Block Craft 3D: Realm Builder",
   "platform": "android",
-  "market": "ph",
+  "market": "th",
   "detail": {
     "description": "🧱 Block Craft 3D: Realm Builder is a creative sandbox game where you can explore a vast block world, craft resources, and build your own realm from the ground up.\n\n🌍 Start with a small land and turn it into a unique world. Place blocks freely, design buildings, shape terrain, and expand your realm without limits.\n\n⛏️ Collect materials, craft new blocks, and unlock more building options as you grow your realm. There are no strict rules – just pure creativity and freedom.\n\n🏰 Build houses, tower",
     "released": "Apr 2, 2025",
     "updated": 1778661651000,
     "version": "1.5.9",
     "installs": "10,000,000+",
-    "score": 3.6,
-    "ratings": 4578,
+    "score": 3.3,
+    "ratings": 4714,
     "reviews": 11,
     "developer": "Metagame.Ltd",
     "developerWebsite": "https://mtgamestudio.netlify.app/",
     "genre": "Simulation"
   },
   "reviewAnalysis": {
-    "total": 166,
+    "total": 172,
     "starCounts": {
-      "1": 54,
+      "1": 58,
       "2": 15,
       "3": 12,
-      "4": 14,
-      "5": 71
+      "4": 15,
+      "5": 72
     },
     "positiveRatio": 51,
     "negativeRatio": 42,
@@ -44,17 +44,11 @@
   },
   "inferredReasons": [
     {
-      "type": "major_update",
-      "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 14 天前",
-      "confidence": "medium"
-    },
-    {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
       "detail": "評論中 2 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:13:30.424Z"
+  "analyzedAt": "2026-05-30T10:51:40.131Z"
 }

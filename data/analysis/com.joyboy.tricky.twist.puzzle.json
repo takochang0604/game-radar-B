@@ -1,0 +1,82 @@
+{
+  "appId": "com.joyboy.tricky.twist.puzzle",
+  "name": "Tricky Twist Puzzle",
+  "platform": "android",
+  "market": "vn",
+  "detail": {
+    "description": "Ready to put your brain to the ultimate test? \"\"Tricky Twist Puzzle\"\" is not your ordinary puzzle game—it’s a hilarious, mind-bending challenge designed to frustrate, entertain, and keep you hooked 🥵\n\nEach level is a wild, unpredictable ride full of tricky questions, absurd solutions, and laugh-out-loud surprises. Think outside the box, around the box, and sometimes even destroy the box to solve these crazy puzzles!\n\n🎈 Features:\n\nUnique and ridiculously fun puzzles to solve\nLaugh-worthy soluti",
+    "released": "Dec 10, 2024",
+    "updated": 1779435844000,
+    "version": "4.5",
+    "installs": "10,000,000+",
+    "score": 4.6,
+    "ratings": 141350,
+    "reviews": 2835,
+    "developer": "ABI GAMES PTE. LTD.",
+    "developerWebsite": "https://www.abigames.com.vn/",
+    "genre": "Puzzle",
+    "recentChanges": "- Improve gameplay<br>- Update levels"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 55,
+      "2": 7,
+      "3": 7,
+      "4": 11,
+      "5": 120
+    },
+    "positiveRatio": 66,
+    "negativeRatio": 31,
+    "eventMentions": [
+      {
+        "text": "this game is good and all but it's very laggy and too many advertisements especially on level 3 i tr",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "1 star bc the new levels r too long to take",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "updated but no new levels are came..this game is dumb, just a wastage of storage. 3day i'll wait and",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "love this game and i'll play all levels please update new levels 😔🥺",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "please update new levels soon it's too longer",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:09.616Z"
+}

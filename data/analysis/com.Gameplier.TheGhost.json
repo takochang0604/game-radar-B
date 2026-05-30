@@ -9,26 +9,46 @@
     "updated": 1769179905000,
     "version": "1.85.10",
     "installs": "10,000,000+",
-    "score": 3.73,
-    "ratings": 149577,
-    "reviews": 169,
+    "score": 3.7,
+    "ratings": 150209,
+    "reviews": 172,
     "developer": "Gameplier",
     "developerWebsite": "https://theghostgame.com",
     "genre": "Action",
     "recentChanges": "- New Year event has ended<br>- Added quests with a chance to receive special perks and items<br>- Bug fixes and improvements"
   },
   "reviewAnalysis": {
-    "total": 100,
+    "total": 200,
     "starCounts": {
-      "1": 12,
-      "2": 5,
-      "3": 8,
-      "4": 14,
-      "5": 61
+      "1": 40,
+      "2": 9,
+      "3": 13,
+      "4": 21,
+      "5": 117
     },
-    "positiveRatio": 75,
-    "negativeRatio": 17,
+    "positiveRatio": 69,
+    "negativeRatio": 25,
     "eventMentions": [
+      {
+        "text": "it would be great if they updated the flashlight features and also make it so we can see each other'",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the game is absolutely amazing and incredibly entertaining, especially when playing with friends. th",
+        "keywords": [
+          "update",
+          "limited",
+          "new"
+        ]
+      },
+      {
+        "text": "game need improvement and sometimes game don't get escape in slaughter and opponent use pro player m",
+        "keywords": [
+          "new"
+        ]
+      },
       {
         "text": "i love this game,i play all the map and has finish all of them,i just want to commend just to sugges",
         "keywords": [
@@ -37,24 +57,6 @@
       },
       {
         "text": "this game is good.pls developer make more improvement this game and new feature like ghist hunting e",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "game is awesome. but add new map's.",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "i hope create new map's new ghost.",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "this game is great! but i hope there many rooms, and scary place, and another ghost! i really enjoy ",
         "keywords": [
           "new"
         ]
@@ -69,5 +71,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-09T15:03:17.512Z"
+  "analyzedAt": "2026-05-30T10:53:36.341Z"
 }

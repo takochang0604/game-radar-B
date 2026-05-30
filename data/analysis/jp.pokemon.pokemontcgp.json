@@ -2,60 +2,60 @@
   "appId": "jp.pokemon.pokemontcgp",
   "name": "Pokémon TCG Pocket",
   "platform": "android",
-  "market": "kr",
+  "market": "jp",
   "detail": {
     "description": "Pokémon Trading Card Game Pocket has players in 150 countries and regions around the world.\nUse your mobile devices to enjoy collecting and battling with Pokémon cards anytime, anywhere!\n\n■ Open packs every day to collect cards!\nPlayers can enjoy the experience of collecting, with two booster packs available to open every day at no cost. Collect different kinds of Pokémon cards, like those with nostalgic illustrations from the past, as well as completely new cards exclusive to this game!\n       ",
     "released": "Oct 22, 2024",
     "updated": 1774842731000,
     "version": "1.6.0",
     "installs": "50,000,000+",
-    "score": 4.574458,
-    "ratings": 1710622,
-    "reviews": 4499,
+    "score": 4.2,
+    "ratings": 1729981,
+    "reviews": 16346,
     "developer": "The Pokémon Company",
     "genre": "Card",
     "recentChanges": "● New Pulsing Aura booster packs are now available.<br>● Gold frames have been added to flair.<br>● A Claim All feature has been added for packs.<br>● Updates to the Obtain Items feature.<br>● A 2D pattern code feature has been added for friend requests.<br>● Revisions have been made to some features."
   },
   "reviewAnalysis": {
-    "total": 50,
+    "total": 200,
     "starCounts": {
-      "1": 23,
-      "2": 5,
-      "3": 8,
-      "4": 5,
-      "5": 9
+      "1": 59,
+      "2": 16,
+      "3": 16,
+      "4": 14,
+      "5": 95
     },
-    "positiveRatio": 28,
-    "negativeRatio": 56,
+    "positiveRatio": 55,
+    "negativeRatio": 38,
     "eventMentions": [
       {
-        "text": "reason im giving it a 3 is for the fact that their battle events arent in any way \"leveled\". what i ",
-        "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "the wonder picks after the most recent update makes them feel rigged. pokémon tcgp is quite nostalgi",
+        "text": "forget about those cardboard cards that you have to pay, this is even better! this game helps us to ",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "its ok for a card game but i am sick of seeing the red dot on every option telling me there is somet",
+        "text": "why is this game so insistent on wasting your time? long and unskippable animations, so many unneces",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "with this game, i love seeing the full arts already seeing alot of great new ones.",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "there is an event going on right now where you face an npc in battle, and the system is obviously an",
+        "text": "lucky ice pop ruined the game. skill never mattered much in this game, but this card reduced the gam",
         "keywords": [
-          "event"
+          "update",
+          "new"
         ]
       },
       {
-        "text": "new solo battle event surely harder everytime for f2p player, its unbalanced as f as the ai always p",
+        "text": "why are we letting lvl 60 players stay in the beginners matches? this game is fine if you just want ",
         "keywords": [
-          "event",
           "new"
         ]
       }
@@ -69,5 +69,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-04T20:36:21.399Z"
+  "analyzedAt": "2026-05-30T10:55:39.544Z"
 }

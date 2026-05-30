@@ -1,23 +1,23 @@
 {
   "appId": "6755586050",
-  "name": "權力遊戲：國王大道",
+  "name": "Game of Thrones Kingsroad",
   "platform": "ios",
-  "market": "tw",
+  "market": "th",
   "detail": {
-    "description": "權力遊戲：國王大道》是一款改編自HBO電視連續劇的ARPG遊戲，\n以史無前例的規模和驚人的細節生動呈現了維斯特洛的世界。 \n\n在這片同時存在冷酷陰謀與火烈戰爭的大地上，你將行走於榮譽與生存之間的危險邊緣。\n當塞外彼端的黑暗甦醒，王國的秩序崩解之時，你的選擇將成為維斯特洛的新歷史。\n\n■ 親身體驗權力遊戲的世界 \n探索以廣闊開放世界呈現的七大王國史詩。從君臨城的燦爛輝煌，到高達700英尺的塞外彼端黑城堡的冰冷空氣，維斯特洛所有象徵性地點皆以令人震撼的細節重現。穿越生機盎然的城鎮與神秘的荒野，親眼見證你渴望已久的世界真相。\n\n■ 一同享受權力遊戲\n在魚梁木的深邃陰影中，只有傳說才知曉的古老魔物甦醒了。面對無法單獨應對的巨大威脅，與其他領主團結共戰。\n剿滅傳說中的魔物所獲取的戰利品，將成為支撐家族的強大力量。以血汗鍛造的頂級裝備武裝自己，在即將來臨的凜冬戰爭中率先奪取勝利先機。\n\n■ 原作中的人物與事件，以及其背後隱藏的故事\n生於北境小家族的私生子，成為身陷悲劇之死與即將來臨的寒冬威脅中的主角，重振被踐踏的家族名號，開創屬於你自己的命運。\n在冷酷無情的權力鬥爭中鞏固政治地位，同時必須對抗塞外",
+    "description": "Game of Thrones: Kingsroad is an action RPG game based on HBO's TV series, bringing Westeros to life on an unprecedented scale with incredible detail. \n\nIn a land where ice-cold conspiracies and blazing wars coexist, you will walk the perilous line between honor and survival.\nAs darkness stirs beyond the Wall and the order of the kingdoms collapses, your choices will forge a new history for Westeros.\n\n■ Explore the world of Game of Thrones \nExplore the epic saga of the Seven Kingdoms, brought to",
     "released": "2026-05-20T07:00:00Z",
     "updated": "2026-05-27T02:01:18Z",
     "version": "1.0.14",
-    "score": 4.6,
-    "reviews": 623,
+    "score": 4.7,
+    "reviews": 1235,
     "developer": "Netmarble Corporation",
-    "developerUrl": "https://apps.apple.com/tw/developer/netmarble-corporation/id930364579?uo=4",
+    "developerUrl": "https://apps.apple.com/th/developer/netmarble-corporation/id930364579?uo=4",
     "genres": [
-      "遊戲",
-      "動作",
-      "冒險"
+      "Games",
+      "Action",
+      "Adventure"
     ],
-    "releaseNotes": "- 便利性提升及其他功能改善\n- 問題修正及改善"
+    "releaseNotes": "- Convenience & miscellaneous improvements\n- Bug fixes and improvements"
   },
   "reviewAnalysis": {
     "total": 0,
@@ -36,15 +36,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 7 天，評分 4.6",
+      "detail": "上架 10 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-27T12:07:49.301Z"
+  "analyzedAt": "2026-05-30T10:50:43.920Z"
 }

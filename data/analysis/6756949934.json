@@ -1,0 +1,50 @@
+{
+  "appId": "6756949934",
+  "name": "Immortal Destiny：Chosen Heirs",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Demons have torn through the world’s barrier, unleashing an endless tide of despair.\nThe legendary Magic Cube has surfaced once again—a divine artifact holding infinite power, the final glimmer of hope against the abyss!\nNow, the call of fate crosses oceans! Are you ready to become the long-awaited hero this world craves? Restore peace to a realm plunged into despair by demonic invasion, and embark on a legendary journey to rewrite destiny!\n\n——Game Features——\n\n▶ Next-Gen Combat Visuals, A Feast ",
+    "released": "2026-05-27T07:00:00Z",
+    "updated": "2026-05-27T07:00:00Z",
+    "version": "1.0",
+    "score": 4.6,
+    "reviews": 77,
+    "developer": "KEY YO HONG KONG LIMITED",
+    "developerUrl": "https://apps.apple.com/th/developer/key-yo-hong-kong-limited/id1848347519?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing",
+      "Action"
+    ],
+    "releaseNotes": ""
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 3 天，評分 4.6",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:22.104Z"
+}

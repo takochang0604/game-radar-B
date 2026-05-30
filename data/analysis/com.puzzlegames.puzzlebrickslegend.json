@@ -6,12 +6,12 @@
   "detail": {
     "description": "A fresh twist on the classic block puzzle game you already love. Relax, train your brain, and enjoy hours of addictive gameplay anytime, anywhere. Whether you have 2 minutes or 2 hours, Color Block: Combo Blast is the perfect companion.\n\nHow to Play?\n\nDrag & Drop the blocks into the board.\nMatch full lines vertically or horizontally to clear them.\nKeep the board clean to score higher.\nBlocks cannot be rotated – so think carefully!\nPlay without time limits at your own pace.\n\nWhy Choose Color Bloc",
     "released": "Apr 17, 2019",
-    "updated": 1779790911000,
-    "version": "5.3.8",
+    "updated": 1780052507000,
+    "version": "5.3.9",
     "installs": "10,000,000+",
-    "score": 4.5,
-    "ratings": 31338,
-    "reviews": 275,
+    "score": 4.2,
+    "ratings": 32398,
+    "reviews": 297,
     "developer": "Ivy",
     "developerWebsite": "http://www.ivymobilegame.com/",
     "genre": "Puzzle"
@@ -19,14 +19,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 28,
+      "1": 31,
       "2": 6,
       "3": 6,
-      "4": 7,
-      "5": 153
+      "4": 3,
+      "5": 154
     },
-    "positiveRatio": 80,
-    "negativeRatio": 17,
+    "positiveRatio": 79,
+    "negativeRatio": 19,
     "eventMentions": [
       {
         "text": "my high score is only 436 because every time there's spaces for blocks made out of up to three block",
@@ -51,12 +51,6 @@
         "keywords": [
           "new"
         ]
-      },
-      {
-        "text": "it is ok but you need to add more prizes and we can play with a friend in the same game but it is ve",
-        "keywords": [
-          "event"
-        ]
       }
     ]
   },
@@ -64,21 +58,15 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 0 天前",
       "confidence": "high"
     },
     {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
-      "detail": "評論中 5 次提及活動/事件",
-      "confidence": "medium"
-    },
-    {
-      "type": "word_of_mouth",
-      "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 80%",
+      "detail": "評論中 4 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:08:08.529Z"
+  "analyzedAt": "2026-05-30T10:50:13.588Z"
 }

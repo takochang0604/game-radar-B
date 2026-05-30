@@ -6,12 +6,12 @@
   "detail": {
     "description": "Log in right now to receive a 🔥package worth 100,000 KRW!\n\n100% guaranteed special title, 100 million silver coins 💰, and a growth package!\n\nOne Overlord!\n\nFierce ambition and love vying for a single throne\n\nAnd countless strategies and betrayals unfolding in a tense atmosphere\n\nWho will become the master of the Red Overlord Castle?\n\nTheir story, which shakes the world,\n\nbegins now.\n\nA special gift presented only to the Overlord who orders to 'embark in the Jianghu'!\n\n[Peak Overlord] The Peak ",
     "released": "May 13, 2026",
-    "updated": 1778676101000,
-    "version": "0.0.4",
-    "installs": "0+",
-    "score": 4.7,
-    "ratings": 18,
-    "reviews": 40,
+    "updated": 1779930983000,
+    "version": "0.0.5",
+    "installs": "50,000+",
+    "score": 4.6,
+    "ratings": 301,
+    "reviews": 175,
     "developer": "킹콩소프트",
     "developerWebsite": "https://star.kingkongsoft.kr",
     "genre": "Role Playing",
@@ -34,15 +34,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 14 天，評分 4.7",
+      "detail": "上架 17 天，評分 4.6",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 13 天前",
-      "confidence": "medium"
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-27T12:08:36.495Z"
+  "analyzedAt": "2026-05-30T10:51:23.428Z"
 }

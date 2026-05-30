@@ -1,0 +1,42 @@
+{
+  "appId": "com.sb.darkslayersd.android.google",
+  "name": "다크슬레이어 2 : 방치형 RPG",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "Darkslayer 2 is a collectible idle RPG set in the Joseon Dynasty, depicting the story of evil warriors who fight against goblins, plagues, and demons.\n\nBased on an idle system, it's accessible to everyone, yet offers a deep gameplay experience with strategic team formation and a variety of character collections.\n\nIt features the unique art style of SD characters and dynamic battle scenes, and an AI-powered community system enhances communication and cooperation among players.",
+    "released": "Apr 14, 2026",
+    "updated": 1779788953000,
+    "version": "1.1.005",
+    "installs": "10,000+",
+    "score": 4.5,
+    "ratings": 87,
+    "reviews": 57,
+    "developer": "studiobreeze",
+    "developerWebsite": "https://st-breeze.com/",
+    "genre": "Simulation",
+    "recentChanges": "1. 신규 영웅 추가 - 충무공·이순신<br>2. 반지 장비 및 반지 던전 추가<br>3. H등급 장비 추가 및 소환 레벨 상승<br>4. 무궁화 파밍 이벤트 추가<br>5. 길드 점령전 3구역 추가<br>6. 절전 모드 미니게임 추가<br>7. 신규서버 &quot;청룡&quot; 추가<br>8. 기타 오류 수정 및 편의성 개선"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:51:25.584Z"
+}

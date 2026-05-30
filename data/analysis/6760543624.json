@@ -1,0 +1,44 @@
+{
+  "appId": "6760543624",
+  "name": "攀爬动物",
+  "platform": "ios",
+  "market": "cn",
+  "detail": {
+    "description": "物理引擎，摇摇晃晃\n基于真实物理反馈，你需要精准掌握平衡，才能在这个世界里稳住脚跟。\n\n恶意满满，动态关卡\n忽隐忽现的平台、旋转的巨锤、突然出现的巨型蟑螂……每一层都充满“惊喜”，让你在尖叫和大笑中反复重开。\n\n一失万无，硬核惩罚\n掉下去，就意味着从头再来。正是这种绝望感，让每一次成功都无比珍贵，也让每一次翻车都充满节目效果！",
+    "released": "2026-04-09T07:00:00Z",
+    "updated": "2026-05-30T01:56:21Z",
+    "version": "7.0",
+    "score": 4.6,
+    "reviews": 1076,
+    "developer": "Dongguan Keyu Network",
+    "developerUrl": "https://apps.apple.com/cn/developer/dongguan-keyu-network/id1718404013?uo=4",
+    "genres": [
+      "游戏",
+      "竞速",
+      "休闲"
+    ],
+    "releaseNotes": "优化地图资源"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:52:02.002Z"
+}

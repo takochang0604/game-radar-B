@@ -9,7 +9,7 @@
     "updated": "2026-05-20T05:03:51Z",
     "version": "6.24.0",
     "score": 4.8,
-    "reviews": 793271,
+    "reviews": 793807,
     "developer": "Bandai Namco Entertainment Inc.",
     "developerUrl": "https://apps.apple.com/us/developer/bandai-namco-entertainment-inc/id352305770?uo=4",
     "genres": [
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 7 天前",
-      "confidence": "high"
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:08:15.191Z"
+  "analyzedAt": "2026-05-30T10:52:16.895Z"
 }

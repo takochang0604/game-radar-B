@@ -1,0 +1,48 @@
+{
+  "appId": "jp.yugi.bridgecrane.prod",
+  "name": "BRIDGE CRANE",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "\"The 'Bridge' setup is where the real skill is!\"\nFor true claw machine fans, we’ve created the ultimate experience. Welcome to BRIDGE CRANE, a game dedicated entirely to the art of the bridge-drop challenge.\n\nSlide it, roll it, and drop it through the bars.\nAre you ready to test your skills?\n\n【Key Features】\n\nUltra-Realistic Physics: Every detail, from the prize's shape and weight to the friction of the claws, is perfectly simulated.\n\nMaster Advanced Techniques: Use pro moves like the \"Side-fit,\"",
+    "released": "May 17, 2026",
+    "updated": 1779749696000,
+    "version": "1.0.4",
+    "installs": "5,000+",
+    "score": 4.3,
+    "ratings": 153,
+    "reviews": 16,
+    "developer": "Just Idea",
+    "developerWebsite": "https://yugigames.jp/",
+    "genre": "Simulation",
+    "recentChanges": "Fixing Defects"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 13 天，評分 4.3",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 4 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:41.363Z"
+}

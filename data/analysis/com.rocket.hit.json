@@ -1,0 +1,60 @@
+{
+  "appId": "com.rocket.hit",
+  "name": "Rocket Hit",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "The ultimate space-aim challenge has arrived!\n\nAre you ready to conquer the galaxy, one planet at a time? Rocket Hit takes the addictive \"hit the target\" mechanic to the stars. Your mission is simple but intense: launch your rockets into the rotating planet. Strike the core, avoid your own projectiles, and shatter the world to move to the next galaxy!\n\nCAN YOU BECOME THE ROCKET MASTER?\nIn this fast-paced physics puzzler, timing is everything. As the planets spin and change speed, you must find t",
+    "released": "Feb 20, 2026",
+    "updated": 1779023513000,
+    "version": "2.5",
+    "installs": "10,000+",
+    "score": 3.6,
+    "ratings": 814,
+    "reviews": 5,
+    "developer": "Gola Games",
+    "developerWebsite": "https://cashaut.com/",
+    "genre": "Casual"
+  },
+  "reviewAnalysis": {
+    "total": 144,
+    "starCounts": {
+      "1": 27,
+      "2": 3,
+      "3": 9,
+      "4": 15,
+      "5": 90
+    },
+    "positiveRatio": 73,
+    "negativeRatio": 21,
+    "eventMentions": [
+      {
+        "text": "\"bug after update: level is increasing but stars are frozen at level 321. please solve this.\"",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this app has unlimited ads and you can get a gem little every game even if you win or defeat ads wil",
+        "keywords": [
+          "limited"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:16.877Z"
+}

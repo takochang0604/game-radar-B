@@ -1,0 +1,44 @@
+{
+  "appId": "6753709030",
+  "name": "Path of Kings",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "Path of Kings - 第一人稱奇幻RPG \n踏入一個扭曲的奇幻世界陰影之中，危險潛伏在每個角落，唯有強者才能生存。\nPath of Kings 是一款節奏緊湊的第一人稱動作RPG，專為直向（豎屏）體驗打造。探索被詛咒的土地，對抗惡夢般的怪物，在一場場史詩戰鬥中不斷變強。\n\n 對抗恐怖怪物  迎戰一波波可怕的敵人。閃避、攻擊並釋放強力技能，在為行動裝置優化的即時戰鬥中掌控全局。\n\n 探索黑暗奇幻世界  穿越被詛咒的森林、廢墟城堡與熾熱地城。每個場景都精心設計，充滿祕密、敵人與戰利品。\n\n 自訂你的英雄  打造專屬流派：自由搭配武器與裝備。成為敏捷的刺客、狂暴的戰士，或是黑暗法師。\n\n 直向操作，沉浸體驗  專為直向設計，隨時進入戰鬥，無需等待。適合碎片時間，也能長時間暢玩。\n\n 核心特色：\n 第一人稱動作戰鬥\n 史詩級對戰\n 黑暗沉浸式世界\n 操作簡單易上手\n 持續更新新地圖與敵人\n\n你能在黑暗中生存，並成為最強的獵魔者嗎？  立即下載 Path of Kings，展開你的冒險之旅！",
+    "released": "2025-10-07T07:00:00Z",
+    "updated": "2026-05-29T22:14:11Z",
+    "version": "0.0.42",
+    "score": 4.7,
+    "reviews": 805,
+    "developer": "Voodoo",
+    "developerUrl": "https://apps.apple.com/tw/developer/voodoo/id714804730?uo=4",
+    "genres": [
+      "遊戲",
+      "角色扮演",
+      "策略"
+    ],
+    "releaseNotes": "小幅改進與錯誤修復"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:57:37.493Z"
+}

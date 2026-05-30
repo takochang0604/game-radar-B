@@ -1,0 +1,44 @@
+{
+  "appId": "6745761596",
+  "name": "Coin Master - Board Adventure",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "投擲、突襲，統治棋盤！\n\n歡迎來到《Coin Master: Board Adventure》，每一次投擲骰子都讓你離財富、復仇和無窮樂趣更近一步！收集硬幣，攻擊村莊，建立你的帝國，並探索充滿驚喜的瘋狂新棋盤。這不僅僅是一款棋盤遊戲，更是一場大膽的冒險！\n\n投擲骰子，行動開始\n每一次投擲都帶來新的機遇。落在硬幣格上累積財富，落在護盾格上保護你的村莊，或者落在突襲格上從你的《Coin Master》好友那裡竊取財寶！就像真正的棋盤遊戲一樣，你的策略——以及一點點運氣——將決定你的命運。\n\n打造通往巔峰之路\n使用你的戰利品來升級建築，完成主題村莊，並擴大你的收藏。從奇幻王國到熱帶度假勝地，你探索的每一個棋盤都會解鎖待征服的新世界。\n\n投擲與攻擊\n落在攻擊格了嗎？是時候出擊了！攻擊地圖上的村莊，突破防線，讓你的競爭對手回到起點。這是帶有額外獎勵的復仇。\n\n收集硬幣，突襲好友\n突襲好友的棋盤，挖掘巨額寶藏。想要更多？竊取硬幣，干擾他們的進度，並提升你的排名。在這款遊戲中，仁慈可不會讓你獲勝！\n\n收集卡片，完成套裝\n熱愛收集嗎？沉浸在稀有卡片遊戲中吧！在玩遊戲的過程中收集主題卡片，完成套裝並獲得",
+    "released": "2026-03-12T07:00:00Z",
+    "updated": "2026-05-26T14:05:29Z",
+    "version": "3.5.2540",
+    "score": 4.8,
+    "reviews": 1306,
+    "developer": "Moon Active",
+    "developerUrl": "https://apps.apple.com/tw/developer/moon-active/id470556954?uo=4",
+    "genres": [
+      "遊戲",
+      "休閒",
+      "桌遊"
+    ],
+    "releaseNotes": "歡迎來到《Coin Master: Board Adventure》，每一次擲骰都帶你一步步邁向財富、復仇與極致歡樂！收集金幣、攻擊村落、打造你的帝國，並探索瘋狂且充滿驚喜的全新棋盤。這不只是一款棋盤遊戲，更是一場大膽刺激的冒險！"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:34.097Z"
+}

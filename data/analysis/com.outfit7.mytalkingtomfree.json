@@ -6,32 +6,39 @@
   "detail": {
     "description": "Talking Tom is the cat making every day a fun adventure.\n\nPlayers adopt this virtual pet, keep him happy and help him explore his world.\n\n- Talking Tom can really talk \n- Fashion and furniture items to collect \n- Mini games add action, adventure and fun \n- Travel destinations are waiting to be explored \n- Photo albums to be filled with memories \n- And more \n\nFrom Outfit7, creators of My Talking Tom 2, My Talking Tom Friends, My Talking Angela 2 and My Talking Angela.\n\nThis app contains:\n- Promot",
     "released": "Nov 11, 2013",
-    "updated": 1776844278000,
-    "version": "26.2.2.8557",
+    "updated": 1778766618000,
+    "version": "26.3.0.8746",
     "installs": "1,000,000,000+",
-    "score": 4.3267303,
-    "ratings": 17477988,
-    "reviews": 188937,
+    "score": 4.3,
+    "ratings": 17450467,
+    "reviews": 188633,
     "developer": "Outfit7 Limited",
     "developerWebsite": "https://talkingtomandfriends.com/support/",
     "genre": "Casual",
-    "recentChanges": "Bug fixes and minor gameplay improvements."
+    "recentChanges": "TOM&#39;S GOT SOMETHING NEW<br>- Fresh in-game additions to explore<br>- Smoother gameplay and perfromance<br>- Extra goodies waiting for you<br>- Update now and jump in"
   },
   "reviewAnalysis": {
-    "total": 100,
+    "total": 200,
     "starCounts": {
-      "1": 15,
-      "2": 2,
-      "3": 5,
-      "4": 10,
-      "5": 68
+      "1": 21,
+      "2": 7,
+      "3": 11,
+      "4": 17,
+      "5": 144
     },
-    "positiveRatio": 78,
-    "negativeRatio": 17,
+    "positiveRatio": 81,
+    "negativeRatio": 14,
     "eventMentions": [
       {
-        "text": "why did you have to give the mtt1 tom the new outfit? at least with mtt2, you could choose if you wa",
+        "text": "the game is good but tom is too sleepy! unlimited money 🤑",
         "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "i really liked this game and some new updates. thanks outfit 7",
+        "keywords": [
+          "update",
           "new"
         ]
       }
@@ -39,11 +46,17 @@
   },
   "inferredReasons": [
     {
-      "type": "unknown",
-      "label": "🔍 待深入調查",
-      "detail": "未能自動推測原因，建議手動查看",
-      "confidence": "low"
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 81%",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-09T15:03:47.332Z"
+  "analyzedAt": "2026-05-30T10:55:44.485Z"
 }

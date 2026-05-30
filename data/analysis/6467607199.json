@@ -1,0 +1,43 @@
+{
+  "appId": "6467607199",
+  "name": "Hamster Jump: Cake Tower!",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Welcome to Hamster Jump: Cake Tower\n\nGet ready for one of the cutest and most satisfying stacking games you’ll ever play. Tap to make your adorable hamster jump, stack delicious cakes, and build the tallest sky-high tower you can imagine!\n\nJump & Stack Gameplay\nPlay with one hand using simple tap controls. Jump precisely and stack cakes to build the perfect tower.\n\nMultiple Game Modes\nExplore the hamster world and take on different challenges as you progress through the game.\n\nCute Outfits\nColle",
+    "released": "2023-12-05T08:00:00Z",
+    "updated": "2026-04-26T01:37:52Z",
+    "version": "2.9.2",
+    "score": 4.7,
+    "reviews": 19071,
+    "developer": "NOCTUA GAMES INTERNATIONAL PTE. LTD.",
+    "developerUrl": "https://apps.apple.com/vn/developer/noctua-games-international-pte-ltd/id1650775071?uo=4",
+    "genres": [
+      "Games",
+      "Casual"
+    ],
+    "releaseNotes": "Version 2.9.2: \n- Endless Adventure Mode Is Here!\n- New BGMs are added!\n- Performance Improvements"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:57:03.323Z"
+}

@@ -1,0 +1,79 @@
+{
+  "appId": "obby.minigames.fun",
+  "name": "Gugu Gaga Penguin: Mini Games",
+  "platform": "android",
+  "market": "th",
+  "detail": {
+    "description": "Welcome to the ultimate island of fun! Gugu Gaga Penguin: Parkour 3D isn’t just a game—it’s a massive tropical playground packed with endless activities, crazy challenges, and non-stop action!Explore a vibrant island where every corner holds a new adventure. Whether you want to master professional parkour, hide from seekers, or race through the jungle, this game has it all!Unleash the Fun with Awesome Mini-Games:Epic Parkour: Leap over obstacles, scale massive walls, and show off your agility on",
+    "released": "Jul 13, 2025",
+    "updated": 1779964948000,
+    "version": "9.7",
+    "installs": "1,000,000+",
+    "score": 4.1,
+    "ratings": 1947,
+    "reviews": 5,
+    "developer": "Kids Games LLC",
+    "developerWebsite": "https://www.kidsgames.top/",
+    "genre": "Casual",
+    "recentChanges": "New level "
+  },
+  "reviewAnalysis": {
+    "total": 78,
+    "starCounts": {
+      "1": 14,
+      "2": 5,
+      "3": 5,
+      "4": 7,
+      "5": 47
+    },
+    "positiveRatio": 69,
+    "negativeRatio": 24,
+    "eventMentions": [
+      {
+        "text": "as a steal a brainrot but on the update. lt negative my money. i can't buy anything. lost all my mon",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "good but needs updates",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "good game but can you update the steel a brainrod plz",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "please theco update",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i would like it to have more updates please and add a level 3 base and add more brain rot the game c",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:58.391Z"
+}

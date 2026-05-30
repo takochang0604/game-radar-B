@@ -8,8 +8,8 @@
     "released": "2026-05-23T07:00:00Z",
     "updated": "2026-05-23T07:00:00Z",
     "version": "1.0.4",
-    "score": 4.8,
-    "reviews": 1601,
+    "score": 4.7,
+    "reviews": 2092,
     "developer": "咪咕互动娱乐有限公司",
     "developerUrl": "https://apps.apple.com/cn/developer/%E5%92%AA%E5%92%95%E4%BA%92%E5%8A%A8%E5%A8%B1%E4%B9%90%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/id1039351793?uo=4",
     "genres": [
@@ -34,15 +34,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 4 天，評分 4.8",
+      "detail": "上架 7 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-27T12:09:18.817Z"
+  "analyzedAt": "2026-05-30T10:54:27.182Z"
 }

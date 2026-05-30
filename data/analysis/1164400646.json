@@ -1,0 +1,44 @@
+{
+  "appId": "1164400646",
+  "name": "#コンパス【戦闘摂理解析システム】",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "【NHN PlayArt x niconico】共同ゲームプロジェクト\n白熱のチームバトルゲーム！「#コンパス」へようこそ！\n\n■3分で運命が決まる！ スピーディな陣取りバトル■\n\n手軽に楽しめる3on3オンラインバトルの新体験。\n\n3Dフィールドを駆け回るヒーローを操り、\n仲間と共に勝利を目指せ！\n\nゲームに登場するヒーローやカードを成長させ、\n自分だけのデッキを構築しよう！\n\n■豪華クリエーター＆人気声優が参加■\n\nニコニコ動画で活躍する絵師・ボカロPが\nヒーローをプロデュース！\nさらに、人気声優がヒーローのボイスを担当。\n\n■バトルSNSの頂点を目指せ■\n\nゲームの舞台は\nバトルでコミュニケーションをとるSNS。\n\nバトルだけでなく、攻略情報を語り合ったり、\n初心者をみんなでサポートしたり、\nみんなで作り上げるコミュニティーが存在します。\n\n\n■価格■\nアプリ本体：無料 \n※一部有料アイテムがございます。 \n\nご利用前に「アプリケーション使用許諾契約」に \n表示されている利用規約を必ずご確認の上ご利用ください。\nhttps://www.apple.com/legal/intern",
+    "released": "2016-12-16T07:21:01Z",
+    "updated": "2026-05-27T02:14:19Z",
+    "version": "1.273.1",
+    "score": 4,
+    "reviews": 107722,
+    "developer": "NHN PlayArt 株式会社",
+    "developerUrl": "https://apps.apple.com/jp/developer/nhn-playart-%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/id1084628015?uo=4",
+    "genres": [
+      "ゲーム",
+      "アクション",
+      "ストラテジー"
+    ],
+    "releaseNotes": "■不具合への対応\n・軽微な不具合を修正"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:51:45.120Z"
+}

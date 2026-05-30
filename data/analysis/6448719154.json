@@ -1,0 +1,43 @@
+{
+  "appId": "6448719154",
+  "name": "레이븐2",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "▣ 업데이트 ▣\n\n# 특화 서버 ‘ZERO’ 오픈!\n\nMMORPG, 다시 ZERO에서 시작하라!\n파밍의 가치가 증명되는 최초의 특화 서버 ZERO 업데이트!\n필드 사냥으로 파밍 크리스탈을 획득하고, 부담 없이 빠르게 성장하라!\n장비 드랍률과 사냥 경험치 대폭 상향, 신화 등급 소환·각성 제외로 성장 격차까지 축소!\n무차별 PK 없이 즐기는 필드 사냥, 그리고 550회 소환과 매주 전설 획득 기회까지!\n\n# 2주년 대축제 개막!\n\n궁극의 재계약, 재합성권이 돌아왔다!\n스페셜부터 얼티밋까지, 출석만 해도 모두 획득 가능!\n전설 성의와 전설 사역마 획득 이벤트도 함께 진행 중!\n2주년을 기념한 풍성한 보상 대축제, 지금 바로 접속하고 모두 손에 넣어라!\n\n# 신규 클래스 ‘워로드’ 업데이트!\n\n전장을 지배하고 적을 굴복시키는 위대한 전투 사령관, 워로드 등장!\n워로드 업데이트 기념 클래스 변경 이벤트 진행 중!\n워로드 성장 지원 상자도 받고, 지금 새로운 전장의 선봉에 서라!\n\n▣ 게임 ",
+    "released": "2024-05-28T07:00:00Z",
+    "updated": "2026-05-26T23:04:20Z",
+    "version": "3.00.02",
+    "score": 3.6,
+    "reviews": 1187,
+    "developer": "Netmarble Corporation",
+    "developerUrl": "https://apps.apple.com/kr/developer/netmarble-corporation/id930364579?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉"
+    ],
+    "releaseNotes": "- 최초의 특화 서버 ZERO 오픈 \n- 2주년 대축제 이벤트 진행 \n- 신규 클래스 워로드 업데이트\n- 혼돈의 탑 확장"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:56.101Z"
+}

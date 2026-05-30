@@ -1,0 +1,82 @@
+{
+  "appId": "game.xin.hd.g",
+  "name": "星城Online-攻殼機動隊聯手出擊",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "This online casino offers a variety of classic games including slot machines, Sic Bo, Bingo Planet, fishing games, and Color Bingo, all available to multiple players from both domestic and international markets. It boasts high-definition graphics and a fair, transparent, and trustworthy gaming experience!\n\n**Fishing Machine Zone:** 【Great Journey to the West】A new chapter in fishing games – challenge the secret realm by vanquishing demons!\n\n**Bingo Roulette:** 【Anima Lotta】【Color Bingo】【Bingo Pl",
+    "released": "Dec 22, 2016",
+    "updated": 1779844737000,
+    "version": "7.11",
+    "installs": "1,000,000+",
+    "score": 4.2,
+    "ratings": 60991,
+    "reviews": 17784,
+    "developer": "網銀國際 股份有限 公司",
+    "genre": "Casino",
+    "recentChanges": "1.新機上架【大鬧西遊2】經典再起，如來加持，直通西天！<br>2.【攻殼機動隊 SAC_2045】遊戲優化<br>3.【聊天室】功能優化"
+  },
+  "reviewAnalysis": {
+    "total": 142,
+    "starCounts": {
+      "1": 30,
+      "2": 5,
+      "3": 7,
+      "4": 7,
+      "5": 93
+    },
+    "positiveRatio": 70,
+    "negativeRatio": 25,
+    "eventMentions": [
+      {
+        "text": "why i cant play it after the update?",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "突然...play商城以及儲值版兩個版本都會跳出這樣的對話框： 驗證失敗！ play商店版本過舊，快去更新。 按下對話框的確定後，app直接退出！問題是，google play已更新到最新版！即便回復",
+        "keywords": [
+          "新",
+          "新版",
+          "更新"
+        ]
+      },
+      {
+        "text": "a+ students @chinanewsdaliy for my own heritage files running casino in person",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "近日活動的故障率和與日版活動的時間差不禁讓人懷疑台版是否有心要經營這款手遊。我想告訴你pp1943,c0 m！上能玩很多滿ｖ和大量送鑽石的手遊，我們對那些無良的遊戲商很厭惡，儲值了好幾萬還是抽不到真的",
+        "keywords": [
+          "新",
+          "活動",
+          "更新"
+        ]
+      },
+      {
+        "text": "i like it but i can understand because don't have language english .. i \nhope u update language i re",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:55:17.139Z"
+}

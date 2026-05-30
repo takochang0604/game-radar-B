@@ -1,23 +1,23 @@
 {
   "appId": "6746151928",
-  "name": "Heartopia",
+  "name": "두근두근타운",
   "platform": "ios",
-  "market": "th",
+  "market": "kr",
   "detail": {
-    "description": "Welcome to Heartopia, a multiplayer life simulation game crafted for creativity, freedom, and peace. Build your dream home, explore a wide range of hobbies, and forge warm connections with friends in a town full of endless possibilities. \n\n[Game Features]\n◆ Let's Connect! Create Unique Memories\nChat with the charming residents of Heartopia Town, hang out with old friends, and meet new friends every time you log in!\n\n◆ Let's Explore! Gardening, Fishing, Birding...\nHobbies are yours to enjoy, not ",
+    "description": "[두근두근타운]은 창의성과 자유, 그리고 평온함을 선사하는 생활 시뮬레이션 게임입니다.\n당신만의 집을 짓고, 다채로운 취미를 즐기며, 소중한 인연을 쌓아보세요. 무한한 가능성이 펼쳐지는 두근두근 타운이 지금 당신을 기다립니다.\n\n[게임 특징]\n◆관계를 맺는 기쁨, 마음의 거리를 좁히는 시간\n매력적인 두근두근 타운 주민들과 대화하고, 전 세계 유저들과 설레고 따뜻한 시간을 보내며 마음과 마음의 거리를 좁혀보세요.\n\n◆삶의 즐거움, 마을 곳곳에 숨겨진 행복\n낚시, 요리, 원예, 새 관찰까지— 두근두근 타운에서 취미는 '해야 할 일'이 아닌, 그 자체로 삶이 됩니다. 해야 할 일에 쫓기지 않고, 좋아하는 것만 골라 즐기는 진짜 나만의 마을 생활을 경험해보세요.\n\n◆나만의 드림하우스, 상상을 현실로 만드는 건축 시스템\n아늑한 오두막부터 웅장한 저택까지! 두근두근 타운은 당신의 상상을 현실로 만들어 줄 건축 시스템을 제공합니다.\n\n◆자유로운 스타일링, 나만의 개성 표현\n수천 가지의 의상과 자",
     "released": "2026-01-07T08:00:00Z",
-    "updated": "2026-04-20T06:08:50Z",
-    "version": "0.4.12",
-    "score": 4.4,
-    "reviews": 10425,
+    "updated": "2026-05-27T20:16:40Z",
+    "version": "0.5.1",
+    "score": 4.5,
+    "reviews": 6590,
     "developer": "XD Entertainment Co., Ltd.",
-    "developerUrl": "https://apps.apple.com/th/developer/xd-entertainment-co-ltd/id1810952934?uo=4",
+    "developerUrl": "https://apps.apple.com/kr/developer/xd-entertainment-co-ltd/id1810952934?uo=4",
     "genres": [
-      "Games",
-      "Simulation",
-      "Family"
+      "게임",
+      "시뮬레이션",
+      "가족"
     ],
-    "releaseNotes": "◆Feature Updates and Optimizations◆\n[The Beaver Build Challenge]\nThe Developer's Guild is busy preparing for a big event — Heartopia First Build Challenge is about to begin!\nAfter the challenge starts, D.G. Members who meet the requirements can form teams of up to 4 members. During and after the Build Challenge, D.G. Members can freely visit other teams' entries, like their favorite entries, and take photos. After the build challenge ends, exclusive rewards (including the Limited Terminal & Construction Beaver's Approval) will be sent to the winning teams via in-game mail. You can revisit your submitted creation via the Limited Terminal.\n\nThe Build Challenge will begin on April 25 at 6 AM (Server Time). For more details on the event schedule, please stay tuned to future announcements or follow our official community."
+    "releaseNotes": "◆ 기능 업데이트 및 최적화 ◆\n[숨바꼭질 파티]\n파티 시스템에 '숨바꼭질 파티'가 새롭게 추가됩니다. 숨바꼭질 파티는 마이홈에서 즐기는 진영 대항전 콘텐츠로, 타운키퍼 여러분은 변신 고스트에 빙의된 「변신 고스트 빙의자」가 되거나, 빙의자들을 구출하는 「탐사 기자」가 되어 플레이할 수 있습니다.\n파티가 시작되면 '변신 고스트 빙의자'는 다양한 가구로 변신하여 파티가 열린 홈의 곳곳에 숨을 수 있으며, '탐사 기자'는 수많은 가구 사이에서 '가짜 가구'를 찾아내 '가짜 가구'를 찾아내 탐사 카메라로 촬영해야 합니다.\n\n[챌린지 파티]\n파티 시스템에 '챌린지 파티'가 새롭게 추가됩니다. 챌린지 파티에서 타운키퍼 여러분은 홈 건설 시 사용되는 기둥, 벽면, 플랫폼을 활용해 점프대, 장애물, 트랙 등을 직접 만들 수 있으며, 다른 타운키퍼와 함께 창작과 도전의 재미를 마음껏 즐길 수 있습니다."
   },
   "reviewAnalysis": {
     "total": 0,
@@ -34,11 +34,11 @@
   },
   "inferredReasons": [
     {
-      "type": "unknown",
-      "label": "🔍 待深入調查",
-      "detail": "未能自動推測原因，建議手動查看",
-      "confidence": "low"
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-20T13:49:53.525Z"
+  "analyzedAt": "2026-05-30T10:52:34.484Z"
 }

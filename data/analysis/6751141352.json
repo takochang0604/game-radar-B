@@ -1,0 +1,45 @@
+{
+  "appId": "6751141352",
+  "name": "Ball Sorting Master - Puzzle",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "As the most relaxing and interesting color ball sorting game, the color ball puzzle is designed to entertain and sharpen your mind at the same time. While sorting the colored balls to fill each tube with the same color, the relaxation it brings will relieve stress and distract you from your daily worries. \n\nThis classic color sorting game is pretty easy to learn, but hard to master. Just tap to take a colored ball from one tube and stack it into another tube, until all balls of the same color ar",
+    "released": "2025-08-21T07:00:00Z",
+    "updated": "2026-05-25T00:11:15Z",
+    "version": "V1.3.5_B21",
+    "score": 4.8,
+    "reviews": 728,
+    "developer": "OVIVO Games",
+    "developerUrl": "https://apps.apple.com/th/developer/ovivo-games/id1482405708?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Casual",
+      "Puzzle"
+    ],
+    "releaseNotes": "Bug fixes and performance improvements"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 5 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:55:11.862Z"
+}

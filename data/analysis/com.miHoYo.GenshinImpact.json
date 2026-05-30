@@ -10,7 +10,7 @@
     "version": "6.6.0_44318314_44476906",
     "installs": "100,000,000+",
     "score": 4,
-    "ratings": 5175583,
+    "ratings": 5177768,
     "reviews": 23449,
     "developer": "COGNOSPHERE PTE. LTD.",
     "developerWebsite": "https://genshin.hoyoverse.com/",
@@ -20,44 +20,44 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 155,
-      "2": 5,
-      "3": 7,
-      "4": 8,
-      "5": 25
+      "1": 135,
+      "2": 11,
+      "3": 6,
+      "4": 10,
+      "5": 38
     },
-    "positiveRatio": 17,
-    "negativeRatio": 80,
+    "positiveRatio": 24,
+    "negativeRatio": 73,
     "eventMentions": [
       {
-        "text": "👎🏻nlt enough pulls for each update",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "genuinely disappointed with character design releases lately. why are we normalizing female designs ",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "i stopped playing this game months ago and i am not going to be going back. with the lack of world e",
+        "text": "i would give genshin impact five stars however there is some issue in asia server because of which t",
         "keywords": [
           "update",
           "new"
         ]
       },
       {
-        "text": "we need more pulls!!! they keep pumping out new characters and not giving us enough primogems for em",
+        "text": "the storyline and the characters are great but there are many problems. recent characters need anoth",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "again, the developers of this game wont listen unless its the chinese community and thats the reason",
+        "text": "as a day one player with +6.1k hours (in-game) i couldn't recommend the game. unfortunately, after 6",
         "keywords": [
-          "update"
+          "event"
+        ]
+      },
+      {
+        "text": "genshin impact is giving too less awards. back in version 5.0 we used to get 150 pulls for free to p",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "fun game not until you realize rewards that you get in events are getting lower and lower each versi",
+        "keywords": [
+          "event"
         ]
       }
     ]
@@ -70,5 +70,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:07:36.731Z"
+  "analyzedAt": "2026-05-30T10:50:03.783Z"
 }

@@ -1,0 +1,42 @@
+{
+  "appId": "6503697761",
+  "name": "Playtest Pro by BestPlay",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Introducing Playtest Pro, the ideal platform for sharing your insights and shaping the products and services you use every day. Whether you're a dedicated feedback enthusiast or someone eager to make their voice heard, Playtest Pro offers an inclusive and interactive environment where your feedback truly matters.\n\nOur intuitive interface makes it simple to navigate a diverse range of topics across various industries. From technology and fashion to food and beyond, Playtest Pro ensures there's al",
+    "released": "2024-07-01T07:00:00Z",
+    "updated": "2026-04-13T10:16:15Z",
+    "version": "3.2.2",
+    "score": 4.7,
+    "reviews": 122542,
+    "developer": "Bestplay Systems",
+    "developerUrl": "https://apps.apple.com/us/developer/bestplay-systems/id1749973696?uo=4",
+    "genres": [
+      "Games"
+    ],
+    "releaseNotes": "Bug fixes and performance improvements."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:54:59.719Z"
+}

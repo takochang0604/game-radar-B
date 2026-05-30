@@ -1,0 +1,79 @@
+{
+  "appId": "com.kitchentogether",
+  "name": "Kitchen Together",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Get ready to stir up some fun in the ultimate cooking challenge! Join your friends in this engaging multiplayer game where teamwork meets culinary creativity. Choose your kitchen role, from chopping and frying to decorating and serving, as you race against the clock to prepare delicious dishes. Whether you're a beginner or a master chef, this game serves up a hearty mix of excitement and collaboration. So put on your chef's hat, team up with your friends, and cook your way to victory!",
+    "released": "May 15, 2024",
+    "updated": 1779208887000,
+    "version": "2.2.9",
+    "installs": "100,000+",
+    "score": 3,
+    "ratings": 711,
+    "reviews": 11,
+    "developer": "Vinpix",
+    "developerWebsite": "http://vinpixstudio.com",
+    "genre": "Casual",
+    "recentChanges": "Version 2.2.9 is here with exciting new features and improvements.<br>- New Game Mode<br>- Performance Improvements<br>- 90+ New Skills<br>- Achievement System<br>- Daily task <br>"
+  },
+  "reviewAnalysis": {
+    "total": 117,
+    "starCounts": {
+      "1": 27,
+      "2": 18,
+      "3": 15,
+      "4": 14,
+      "5": 43
+    },
+    "positiveRatio": 49,
+    "negativeRatio": 38,
+    "eventMentions": [
+      {
+        "text": "this game is super amazing and fun to play with friends. one suggestion please add more levels,new r",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "too many bugs, my friend and i can't play peacefully. there's always a bug every time a new round st",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i found another game same as cooking battle. i'm so happy to play with my siblings. eagerly waiting ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "after i updated i couldn't play online because it took so long to load.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "it has potential. the controls are easy. the only downside for me is that it's hard to be paired ran",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:55:09.401Z"
+}

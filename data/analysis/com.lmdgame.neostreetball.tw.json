@@ -1,0 +1,47 @@
+{
+  "appId": "com.lmdgame.neostreetball.tw",
+  "name": "超時空街球對決",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "\"My lord! I want to play basketball!\"\n\nYou read that right! Even military generals are teaming up for street basketball! *Time-Traveling Streetball Showdown* is the first ancient-style 3V3 street basketball competitive mobile game featuring the strongest military generals! The river of history flows steadily forward, but the unfinished business and regrets of heroes have created turbulent currents in what was once a calm river. Your \"Hengmingsi\" is the institution that handles these temporal ano",
+    "released": "May 25, 2026",
+    "updated": 1779069054000,
+    "version": "1.4",
+    "installs": "10,000+",
+    "score": 4.2,
+    "ratings": 567,
+    "reviews": 123,
+    "developer": "LMD Games",
+    "genre": "Sports",
+    "recentChanges": "首款最強武將3V3街籃競技手遊，5月27日即將正式上線！"
+  },
+  "reviewAnalysis": {
+    "total": 3,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 2
+    },
+    "positiveRatio": 67,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 5 天，評分 4.2",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 12 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:51:51.714Z"
+}

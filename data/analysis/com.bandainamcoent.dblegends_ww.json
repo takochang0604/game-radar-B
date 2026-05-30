@@ -2,16 +2,16 @@
   "appId": "com.bandainamcoent.dblegends_ww",
   "name": "DRAGON BALL LEGENDS",
   "platform": "android",
-  "market": "th",
+  "market": "us",
   "detail": {
     "description": "The ultimate anime action RPG is here! DRAGON BALL LEGENDS puts the power of your favorite DRAGON BALL heroes in your hands! Epic 3D visuals and animations bring your heroes to life: More than 400 fighters to find and train to make your ultimate team ready for battle. Goku, Vegeta, Trunks, Piccolo, Frieza, Broly, Majin Buu and many other heroes and villains are waiting for you! Discover a new original story based on the brand-new character designed by manga creator Akira Toriyama, the mysterious",
-    "released": "May 7, 2018",
+    "released": "May 17, 2018",
     "updated": 1779163856000,
     "version": "6.24.0",
     "installs": "50,000,000+",
-    "score": 4,
-    "ratings": 2134042,
-    "reviews": 20005,
+    "score": 4.4,
+    "ratings": 2134515,
+    "reviews": 237429,
     "developer": "Bandai Namco Entertainment Inc.",
     "developerWebsite": "https://www.bandainamcoent.co.jp/english/",
     "genre": "Action",
@@ -20,41 +20,42 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 59,
-      "2": 13,
-      "3": 10,
-      "4": 12,
-      "5": 106
+      "1": 35,
+      "2": 10,
+      "3": 17,
+      "4": 16,
+      "5": 122
     },
-    "positiveRatio": 59,
-    "negativeRatio": 36,
+    "positiveRatio": 69,
+    "negativeRatio": 23,
     "eventMentions": [
       {
-        "text": "this game is way to expensive it's impossible for free to play player to play this game do i reccome",
+        "text": "i really love this game but they lot of updates",
         "keywords": [
-          "new"
+          "update"
         ]
       },
       {
-        "text": "this is the worst game. i am not getting new ultra characters and legends characters for 2 long year",
+        "text": "good game overall luck rng for the bardock ln summons are kinda messed up but overall this game is g",
         "keywords": [
-          "new"
+          "update",
+          "anniversary"
         ]
       },
       {
-        "text": "stuck on errors (nco09999). the game is also quite p2w, i didn't play this for 6 months, and suddenl",
+        "text": "it is best dragon ball game but same time it is worst because if try to uninstall and update your ph",
         "keywords": [
-          "new"
+          "update"
         ]
       },
       {
-        "text": "nada que decir, en este nuevo evento no me aparece ninguno de los personajes nuevos, supongo me hici",
+        "text": "i like the game very much, it's fun and sometimes it's annoyingly tricky, but all in all great game,",
         "keywords": [
           "event"
         ]
       },
       {
-        "text": "it's way too hard to get new characters in summons for people that don't spend money on chrono cryst",
+        "text": "this is like an interactive comic. you read read read and then play for a few seconds and then back ",
         "keywords": [
           "new"
         ]
@@ -65,7 +66,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
+      "detail": "最近更新: 11 天前",
       "confidence": "medium"
     },
     {
@@ -75,5 +76,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:08:50.773Z"
+  "analyzedAt": "2026-05-30T10:50:28.589Z"
 }

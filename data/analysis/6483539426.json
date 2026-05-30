@@ -4,12 +4,12 @@
   "platform": "ios",
   "market": "jp",
   "detail": {
-    "description": "フォートナイトでフレンドと敵味方に分かれて戦おう。バトルロイヤル、ゼロビルド、Blitz、ORIGINで最後まで生き残り、ハイペースなリロードでスクワッドを勝利に導き、レゴ®フォートナイトで自分だけの冒険を組み立てて、Fortnite Festivalでコンサートの主役となろう。全てがここに揃っている。\n\nタイクーン、デスラン、ゾンビサバイバルなど数千に及ぶ無料のデベロッパー制作の島でフレンドと一緒にプレイしよう。\n\nフォートナイトは、iPhone 11以降、iPhone 11 Pro以降、iPhone 12 Mini以降、iPhone SE 3以降、iPad Pro 10.5インチ以降、iPad Air(第4世代)以降、iPad(第10世代)以降、iPad Mini(第6世代)以降でプレイできます。",
+    "description": "フォートナイトでフレンドと敵味方に分かれて戦おう。バトルロイヤル、ゼロビルド、Blitz、ORIGINで最後まで生き残り、ハイペースなリロードでスクワッドを勝利に導き、レゴ®フォートナイトで自分だけの冒険を組み立てて、Fortnite Festivalでコンサートの主役となろう。全てがここに揃っている。\n\nタイクーン、デスラン、ゾンビサバイバルなど数千に及ぶ無料のデベロッパー制作の島でフレンドと一緒にプレイしよう。\n\nフォートナイトは、iPhone 11以降、iPhone XS以降、iPhone 12 Mini以降、iPhone SE 3以降、iPad Pro 10.5インチ以降、iPad Air(第4世代)以降、iPad(第10世代)以降、iPad Mini(第6世代)以降でプレイできます。",
     "released": "2026-05-19T07:00:00Z",
-    "updated": "2026-05-19T07:00:00Z",
-    "version": "40.40.1",
+    "updated": "2026-05-28T08:11:46Z",
+    "version": "40.41",
     "score": 4.3,
-    "reviews": 534,
+    "reviews": 817,
     "developer": "Epic Games Inc.",
     "developerUrl": "https://apps.apple.com/jp/developer/epic-games-inc/id1738110841?uo=4",
     "genres": [
@@ -18,7 +18,7 @@
       "エンターテインメント",
       "アクション"
     ],
-    "releaseNotes": "不具合および安定性に関する全般的な修正"
+    "releaseNotes": "6月6日午前8時(日本時間)は、シーズン終幕ライブイベント「シャッタード」に飛び込もう。"
   },
   "reviewAnalysis": {
     "total": 0,
@@ -37,15 +37,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 8 天，評分 4.3",
+      "detail": "上架 11 天，評分 4.3",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
-      "confidence": "medium"
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-27T12:07:54.023Z"
+  "analyzedAt": "2026-05-30T10:50:46.365Z"
 }

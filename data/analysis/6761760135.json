@@ -1,0 +1,50 @@
+{
+  "appId": "6761760135",
+  "name": "Meowdoku!",
+  "platform": "ios",
+  "market": "us",
+  "detail": {
+    "description": "Looking for a game that soothes the soul but keeps your brain spinning? Welcome to Meowdoku — a pure logic puzzle game that flawlessly blends the rigorous reasoning of Sudoku with the thrilling deduction of Minesweeper.\nHere, you have only one mission: find the perfect \"exclusive territory\" for every aloof little cat!\nSimple Rules, Deep Strategy\nThe concept is elegant and intuitive, yet anything but simple:\n• Exclusive Territory: The board is divided into colored sections. You must place exactly",
+    "released": "2026-05-19T07:00:00Z",
+    "updated": "2026-05-28T23:45:24Z",
+    "version": "1.3.0",
+    "score": 4.9,
+    "reviews": 547,
+    "developer": "Oakever Games",
+    "developerUrl": "https://apps.apple.com/us/developer/oakever-games/id1658671470?uo=4",
+    "genres": [
+      "Games",
+      "Casual",
+      "Puzzle"
+    ],
+    "releaseNotes": "-Bug fixes and performance improvements."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 11 天，評分 4.9",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:50:31.060Z"
+}

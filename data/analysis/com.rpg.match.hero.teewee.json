@@ -1,0 +1,48 @@
+{
+  "appId": "com.rpg.match.hero.teewee",
+  "name": "Match Go! Heroes",
+  "platform": "android",
+  "market": "tw",
+  "detail": {
+    "description": "Match Go! Heroes is a fast-paced RPG that mixes addictive gem-matching puzzles with exciting turn-based combat. Build a team of unique heroes and unleash powerful match-3 combos to defeat every enemy in your way!\n\n[Effortless Matching, Explosive Battles]\nEnjoy the casual match-3 fun and deep tactical strategy. Clear boards with satisfying matches while planning every move like a true tactician. One smart combo can completely swing the fight—and with the right setup, even the fiercest bosses won’",
+    "released": "May 25, 2026",
+    "updated": 1779890422000,
+    "version": "1.102.251",
+    "installs": "10,000+",
+    "score": 4,
+    "ratings": 19,
+    "reviews": 8,
+    "developer": "TEEWEE LIMITED",
+    "developerWebsite": "http://www.teewee.games",
+    "genre": "Role Playing",
+    "recentChanges": "Tactical Match-3 RPG is LIVE!"
+  },
+  "reviewAnalysis": {
+    "total": 1,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0
+    },
+    "positiveRatio": 100,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 5 天，評分 4.0",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:53:57.698Z"
+}

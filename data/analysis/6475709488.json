@@ -6,10 +6,10 @@
   "detail": {
     "description": "Are you ready to join Carnival Tycoon?\n\nCarnival Tycoon - an idle simulation game  that you can play together with friends. In this idle game, you start with a small theme park where visitors can ride roller coasters and Ferris wheels. To build the most interesting theme park in the world, you unlock and upgrade more rides, strive to manage and expand the scale of the park. With hard work and dedication, you make it and become a true tycoon!\n\nFeatures:\nManage a theme park: Build more creatively ",
     "released": "2024-01-30T08:00:00Z",
-    "updated": "2026-04-24T16:18:08Z",
-    "version": "1.0.108",
-    "score": 4.86562,
-    "reviews": 11750,
+    "updated": "2026-05-21T23:14:51Z",
+    "version": "1.0.110",
+    "score": 4.9,
+    "reviews": 11939,
     "developer": "Wild Candle Spin LLC",
     "developerUrl": "https://apps.apple.com/th/developer/wild-candle-spin-llc/id1802530043?uo=4",
     "genres": [
@@ -20,39 +20,25 @@
     "releaseNotes": "Get ready for an enhanced experience with our latest update! Enjoy new features and improvements with this release. Update now and dive into the excitement!"
   },
   "reviewAnalysis": {
-    "total": 49,
+    "total": 0,
     "starCounts": {
-      "1": 15,
-      "2": 2,
-      "3": 8,
+      "1": 0,
+      "2": 0,
+      "3": 0,
       "4": 0,
-      "5": 24
+      "5": 0
     },
-    "positiveRatio": 49,
-    "negativeRatio": 35,
-    "eventMentions": [
-      {
-        "text": "extremely disappointed with the referral system. i invited a friend using my referral link and liter",
-        "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "i have been playing carnival tycoon: coin games as a free-to-play user, and overall, the experience ",
-        "keywords": [
-          "event",
-          "new"
-        ]
-      }
-    ]
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
   },
   "inferredReasons": [
     {
-      "type": "event_driven",
-      "label": "🎉 限時活動引流",
-      "detail": "評論中 2 次提及活動/事件",
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 8 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-12T11:43:28.302Z"
+  "analyzedAt": "2026-05-30T10:56:46.082Z"
 }

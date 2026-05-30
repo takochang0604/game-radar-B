@@ -1,0 +1,85 @@
+{
+  "appId": "com.highbrow.games.dvo",
+  "name": "Dragon Village 3",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "■ Endless joy of dragon collection and breeding\nA breeding system beyond imagination: Combine dragons to discover mysterious rare dragons born only from your unique choices.\nCuteness overload! Pixel dragon collection: Collect a vast array of dragons crafted with intricate retro pixel art and complete your very own dragon encyclopedia.\nAn infinitely expanding lineup: Thousands of dragons added through regular updates will fuel your collector's passion.\n\n■ Build your own Dragon Village\nA village t",
+    "released": "May 22, 2026",
+    "updated": 1779885970000,
+    "version": "1.0.2",
+    "installs": "100,000+",
+    "score": 4.7,
+    "ratings": 4195,
+    "reviews": 271,
+    "developer": "highbrow",
+    "developerWebsite": "https://www.highbrow.com",
+    "genre": "Role Playing",
+    "recentChanges": "Dragon Village 3 Grand Open"
+  },
+  "reviewAnalysis": {
+    "total": 121,
+    "starCounts": {
+      "1": 18,
+      "2": 5,
+      "3": 9,
+      "4": 16,
+      "5": 73
+    },
+    "positiveRatio": 74,
+    "negativeRatio": 19,
+    "eventMentions": [
+      {
+        "text": "so far the experience has been fun! though there are times the game kicks me out when entering battl",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "i want to give it a chance but the game kept freezing and closing at fight 0-2. then i checked and t",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "has the potential to be a decent game, but crashes every time i go into battle. will update review i",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this is my new favorite dragon game by far!!!",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "yet another dissapointment from highbrow damn man, pixel art overly saturated maps and sprites flash",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 8 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:50:54.733Z"
+}

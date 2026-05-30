@@ -8,25 +8,25 @@
     "released": "May 15, 2026",
     "updated": 1779467856000,
     "version": "2.10.02.13",
-    "installs": "100,000+",
-    "score": 4.4,
-    "ratings": 311,
-    "reviews": 87,
+    "installs": "500,000+",
+    "score": 3.8,
+    "ratings": 1378,
+    "reviews": 174,
     "developer": "NCV GAMES PTE. LTD.",
     "genre": "Role Playing",
     "recentChanges": "The Ultimate Lineage MMORPG is now officially live!<br>Join the Ultimate Blood Battle and begin your journey today.<br>Exclusive SEA-only skins, special launch events, and exciting rewards are waiting for you!"
   },
   "reviewAnalysis": {
-    "total": 9,
+    "total": 17,
     "starCounts": {
-      "1": 7,
-      "2": 0,
+      "1": 8,
+      "2": 1,
       "3": 0,
       "4": 0,
-      "5": 2
+      "5": 8
     },
-    "positiveRatio": 22,
-    "negativeRatio": 78,
+    "positiveRatio": 47,
+    "negativeRatio": 53,
     "eventMentions": [
       {
         "text": "it does not update just keeps getting errors what a goodway to start",
@@ -38,17 +38,11 @@
   },
   "inferredReasons": [
     {
-      "type": "new_release",
-      "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 12 天，評分 4.4",
-      "confidence": "high"
-    },
-    {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-27T12:08:20.098Z"
+  "analyzedAt": "2026-05-30T10:50:26.195Z"
 }

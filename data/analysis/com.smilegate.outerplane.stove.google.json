@@ -2,16 +2,16 @@
   "appId": "com.smilegate.outerplane.stove.google",
   "name": "OUTERPLANE - Strategy Anime",
   "platform": "android",
-  "market": "kr",
+  "market": "jp",
   "detail": {
     "description": "▶ Plenty of rewards await!\nClaim up to 100 Limited Recruitment Tickets!\n\n▮New Players Up to 1,000 Free Recruits!\n\nThe Action Anime, OUTERPLANE\n\n◎ The revenge saga of an Earthling summoned to another world commences! Summoned to \"Mirsha,\" Earthling \"K\" pledges vengeance against betrayers, setting forth on a journey with the automaton \"Eva\"... The riveting tale of intertwined destinies begins to unfold.\n\n▮ Dazzling Action ▮\nEndless Turn-Based strategic excellence with skill chains and burst system",
-    "released": "May 17, 2023",
+    "released": "May 6, 2024",
     "updated": 1778748851000,
     "version": "1.4.7",
     "installs": "1,000,000+",
-    "score": 4.7,
-    "ratings": 88941,
-    "reviews": 1413,
+    "score": 4.1,
+    "ratings": 89203,
+    "reviews": 1339,
     "developer": "Major9",
     "developerWebsite": "https://outerplane.vagames.kr",
     "genre": "Role Playing",
@@ -20,9 +20,9 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 60,
-      "2": 6,
-      "3": 14,
+      "1": 61,
+      "2": 4,
+      "3": 15,
       "4": 18,
       "5": 102
     },
@@ -64,17 +64,11 @@
   },
   "inferredReasons": [
     {
-      "type": "major_update",
-      "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 13 天前",
-      "confidence": "medium"
-    },
-    {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
       "detail": "評論中 5 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:07:44.306Z"
+  "analyzedAt": "2026-05-30T10:50:06.248Z"
 }

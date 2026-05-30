@@ -1,0 +1,44 @@
+{
+  "appId": "947258826",
+  "name": "마피아42",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "1000만 회원이 선택한 모바일 마피아게 임의 부동의 1위!!\n마피아42에서 실시간으로 대결해요!!\n\n■■■ 게임 특징 ■■■\n▶ 총 34개의 다양하고 재미있는 직업들!\n▶ 속고 속이는 심리전!\n▶ 숨겨진 미션을 찾아서 나만의 콜렉션 모으기!\n▶ 메신저 기능으로 이제는 친구와 함께!\n▶ 다양한 아이템으로 나만의 아이디 꾸미기!\n▶ 만렙이 되면 랭킹으로 최고의 마피아 도전!\n▶ 길드시스템을 통한 커뮤니티 형성과 길드랭킹 도전!!\n보다 자세한 게임 설명은 어플 내의 게임 설명을 참고해주세요~!!\n마피아42 공식 카페 : http://mafia42.com\n마피아42 공식 유튜브 : https://www.youtube.com/@mafia42official\n마피아42 공식 페이스북 : https://www.facebook.com/mafia42kr\n마피아42 공식 인스타그램 : https://www.instagram.com/mafia42.kr/\n\n개발자 연락처 :\n팀42 주식회사\n서울특별시 마",
+    "released": "2015-01-07T18:26:06Z",
+    "updated": "2026-05-29T19:02:18Z",
+    "version": "3.49.2",
+    "score": 3.4,
+    "reviews": 25847,
+    "developer": "TEAM42 CO., LTD.",
+    "developerUrl": "https://apps.apple.com/kr/developer/team42-co-ltd/id947258825?uo=4",
+    "genres": [
+      "게임",
+      "전략",
+      "보드"
+    ],
+    "releaseNotes": "이제는 희망조차 사치로 느껴진다.\n우리는 몸도, 마음도 영영 이 섬에 갇혀 버린 걸까?\n※ 스킨이 추가되었습니다."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:54:47.046Z"
+}

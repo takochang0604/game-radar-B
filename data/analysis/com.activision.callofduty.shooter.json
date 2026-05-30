@@ -1,0 +1,75 @@
+{
+  "appId": "com.activision.callofduty.shooter",
+  "name": "Call of Duty®: Mobile",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "DMZ: Recon introduces a new tactical extraction experience in Call of Duty: Mobile, launching with Serpent Island, a brand-new map, and Building 21, a returning favorite from the original DMZ on PC and console. Players will complete contracts, outsmart hostiles and enemy squads, and extract their loot to grow stronger with each run. \n\nCALL OF DUTY® like never before, bringing fast-paced FPS action to your fingertips.\n\nJump into intense Multiplayer battles with classic modes like Team Deathmatch,",
+    "released": "Sep 30, 2019",
+    "updated": 1776201489000,
+    "version": "1.0.55",
+    "installs": "100,000,000+",
+    "score": 4.3,
+    "ratings": 16504150,
+    "reviews": 809839,
+    "developer": "Activision Publishing, Inc.",
+    "developerWebsite": "http://www.activision.com",
+    "genre": "Action",
+    "recentChanges": "Season 5: Revenge is live! Enter The Boys collab featuring themed LTMs and play as Homelander, Starlight, or Black Noir starting June 5 UTC. Wield Mythic Kui Ji – Eternal Oathbearer, gear up with the new Battle Pass, and save with Double COD Points. Jump into new seasonal content and dominate the battlefield."
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 32,
+      "2": 8,
+      "3": 3,
+      "4": 16,
+      "5": 141
+    },
+    "positiveRatio": 79,
+    "negativeRatio": 20,
+    "eventMentions": [
+      {
+        "text": "yeah, i've been playing since 2020 and this is by far the worst update. the game can't even register",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "fix the new resurgence map please! it is lagging and stuttering for no reason. i play on an s22 ultr",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "gets more like farlight 84 with every new season.",
+        "keywords": [
+          "new",
+          "season"
+        ]
+      },
+      {
+        "text": "call of duty mobile is my fav and if they give me a a mythic skin and the new stuff in the game i wi",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the new season is fire🤟🤟",
+        "keywords": [
+          "new",
+          "season"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:55:47.098Z"
+}

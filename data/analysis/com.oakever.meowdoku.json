@@ -2,16 +2,16 @@
   "appId": "com.oakever.meowdoku",
   "name": "Meowdoku: Brain Puzzle Games",
   "platform": "android",
-  "market": "us",
+  "market": "jp",
   "detail": {
     "description": "Looking for a game that soothes the soul but keeps your brain spinning? Welcome to Meowdoku — a pure logic puzzle game that flawlessly blends the rigorous reasoning of Sudoku with the thrilling deduction of Minesweeper.\nHere, you have only one mission: find the perfect \"exclusive territory\" for every aloof little cat!\n💡 Simple Rules, Deep Strategy\nThe concept is elegant and intuitive, yet anything but simple:\n• Exclusive Territory: The board is divided into colored sections. You must place exac",
     "released": "Apr 24, 2026",
     "updated": 1779823077000,
     "version": "1.3.0",
     "installs": "100,000+",
-    "score": 4.5,
-    "ratings": 2320,
-    "reviews": 273,
+    "score": 4.2,
+    "ratings": 3590,
+    "reviews": 29,
     "developer": "Oakever Games",
     "developerWebsite": "https://oakevergames.com/",
     "genre": "Puzzle",
@@ -20,43 +20,43 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 44,
-      "2": 35,
-      "3": 45,
-      "4": 19,
-      "5": 57
+      "1": 47,
+      "2": 29,
+      "3": 40,
+      "4": 15,
+      "5": 69
     },
-    "positiveRatio": 38,
-    "negativeRatio": 40,
+    "positiveRatio": 42,
+    "negativeRatio": 38,
     "eventMentions": [
       {
-        "text": "fun game really enjoyed it but if you run out of lives(hearts)and watch ads for new lives you never ",
+        "text": "i do enjoy the game. there are way to many ads, but it's alright. but since the update, whenever i w",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "better than expected, but it has problems. it's far t6o eager to interpret something as a double cli",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "cute game. no ads at first, but eventually there was an ad per level. i'd pay a few bucks for ad-fre",
+        "text": "updated review: added a star. the bug of repeating levels has been fixed -- i'm over level 200 and i",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "ads are broken. terrible app eventually the ads will stop giving the intended reward. instead you wi",
         "keywords": [
           "event"
         ]
       },
       {
-        "text": "cute game. very enjoyable. unfortunately ran out of new levels pretty quickly.",
+        "text": "i enjoyed the game. i accept that there are ads. i refuse to play a game where the ads literally pre",
         "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "super fun to play, but there are alot of repeated levels. i had the same layout back to back, then a",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "after about level 100 or so, the games recycle, i'm playing the exact same 3 levels over and over. t",
-        "keywords": [
-          "new"
+          "event"
         ]
       }
     ]
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:09:30.274Z"
+  "analyzedAt": "2026-05-30T10:51:35.266Z"
 }

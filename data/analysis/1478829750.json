@@ -1,0 +1,43 @@
+{
+  "appId": "1478829750",
+  "name": "デュエル・マスターズ プレイス",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "■やっぱりデュエマ！\n切札クリーチャーでシールドブレイク！\nシールド・トリガーで大逆転！\n大興奮のデュエマが今、君の手に！\n\n■対戦で盛り上がろう！\n勝利を重ね目指せデュエルマスター！「ランクマッチ」！\n気軽にデュエマで対戦しよう！「カジュアルマッチ」！\n色々なバトルがあるプレイスだから、楽しみ方は君しだい！\n\n■ソロモードも大充実！\nストーリーを進めながらドキドキ対戦！「メインストーリー」！\nアイテムを集めながら気軽に対戦！「シティバトル」！\nプレイスの様々なキャラクターとバトルができるから、\n一人でもデュエマを遊び尽くせる！\n\n■主人公は君自身！\nプレイスでは君自身がプレーヤー！\nアバターをカスタマイズして自分だけのキャラクターを作成しよう！\n懐かしのデュエマキャラクター達になりきる事もできる！\n\n■変化するバトルＢＧＭ！\n戦況によって変化するＢＧＭで新しいカードゲームを体感しよう！\n\n【推奨OSバージョン】\niOS 14.3以上\n\n【公式HP】\nhttps://dmps.takaratomy.co.jp/\n\n【公式X(旧Twitter)】\nhttps://twitter.com/",
+    "released": "2019-12-15T08:00:00Z",
+    "updated": "2026-05-28T04:15:22Z",
+    "version": "4.6.0",
+    "score": 4.4,
+    "reviews": 208937,
+    "developer": "TOMY Company,Ltd.",
+    "developerUrl": "https://apps.apple.com/jp/developer/tomy-company-ltd/id507068982?uo=4",
+    "genres": [
+      "ゲーム",
+      "カード"
+    ],
+    "releaseNotes": "『極罠と聖剣 -DANGEROUS EXTRAP!!-』リリース！\n【正義はここに完成する！】\n\n【イベント】\nTVアニメ『葬送のフリーレン』コラボイベント『旅人たちの決闘』開催！\n\n【その他】\nクイック・ピック提示カード更新\n不具合修正\n※詳細は公式サイトのNEWSもしくはゲーム内のお知らせをご確認ください"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:53:24.458Z"
+}

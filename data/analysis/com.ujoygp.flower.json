@@ -9,8 +9,8 @@
     "updated": 1779201564000,
     "version": "1.0.1",
     "installs": "10,000+",
-    "score": 4.3,
-    "ratings": 102,
+    "score": 4.7,
+    "ratings": 133,
     "reviews": 123,
     "developer": "Ujoy Games",
     "developerWebsite": "https://flower.ujoygames.com/",
@@ -34,15 +34,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 8 天，評分 4.3",
+      "detail": "上架 11 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 7 天前",
-      "confidence": "high"
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:12:34.052Z"
+  "analyzedAt": "2026-05-30T10:56:07.198Z"
 }

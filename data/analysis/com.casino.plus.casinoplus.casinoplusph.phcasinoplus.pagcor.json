@@ -1,0 +1,71 @@
+{
+  "appId": "com.casino.plus.casinoplus.casinoplusph.phcasinoplus.pagcor",
+  "name": "Casino:Plus PH",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "CASINO PLUS PH – Enjoy smooth and fun spins.\nA pure entertainment experience designed for fun. The app provides a simple and easy-to-use game that you can play anytime.\nNo complicated features, no ostentatious decoration—just a clean and enjoyable experience. Whether you want to relax or unwind, Simple Slots is the perfect solution for simple and fun gaming.",
+    "released": "May 1, 2026",
+    "updated": 1777699027000,
+    "version": "1",
+    "installs": "50,000+",
+    "score": 4.7,
+    "ratings": 4396,
+    "reviews": 218,
+    "developer": "SAIDMAINT",
+    "genre": "Card"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 8,
+      "2": 6,
+      "3": 7,
+      "4": 11,
+      "5": 168
+    },
+    "positiveRatio": 90,
+    "negativeRatio": 7,
+    "eventMentions": [
+      {
+        "text": "can not update",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "why i cant update this app? whats the problem",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "update",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 29 天，評分 4.7",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 90%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:29.217Z"
+}

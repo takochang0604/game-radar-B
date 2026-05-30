@@ -1,0 +1,50 @@
+{
+  "appId": "6499562253",
+  "name": "드래곤빌리지3",
+  "platform": "ios",
+  "market": "kr",
+  "detail": {
+    "description": "■ 드래곤 수집과 교배의 끝없는 즐거움\n상상 그 이상의 '교배' 시스템: 드래곤들을 조합하여 오직 당신의 선택으로만 탄생하는 신비로운 희귀 드래곤을 발견하세요.\n귀여움 폭발! 도트 드래곤 수집: 레트로 감성으로 정교하게 구현된 수많은 드래곤을 수집하고 나만의 도감을 완성하는 재미를 느껴보세요.\n무한히 확장되는 라인업: 정기적인 업데이트를 통해 추가될 수천 종의 드래곤이 당신의 수집욕을 자극합니다.\n\n■ 나만의 드래곤 빌리지 꾸미기\n살아 숨 쉬는 마을: 건물을 짓고 서식지를 배치하여 드래곤들이 마음껏 뛰놀 수 있는 아름다운 빌리지를 건설하세요.\n따뜻한 교감과 힐링: 드래곤에게 먹이를 주고, 쓰다듬으며 소통하세요. 모닥불 앞에 모인 드래곤들의 일상을 지켜보는 것만으로도 힐링이 됩니다.\n\n■ 전략이 살아있는 실시간 PvP 아레나\n단순한 수집을 넘어선 지략 대결: 드래곤의 속성 상성과 스킬 조합, 배치를 통해 전 세계 테이머들과 실시간으로 승부를 겨루세요.\n당신의 전략이 증명되는 곳: 아레",
+    "released": "2026-05-27T07:00:00Z",
+    "updated": "2026-05-27T13:01:55Z",
+    "version": "1.0.2",
+    "score": 4.8,
+    "reviews": 670,
+    "developer": "Highbrow",
+    "developerUrl": "https://apps.apple.com/kr/developer/highbrow/id415443001?uo=4",
+    "genres": [
+      "게임",
+      "롤플레잉",
+      "전략"
+    ],
+    "releaseNotes": "Dragon Village 3 그랜드 오픈"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 3 天，評分 4.8",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:51:28.072Z"
+}

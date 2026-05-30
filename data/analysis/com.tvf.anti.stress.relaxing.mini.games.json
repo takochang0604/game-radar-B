@@ -1,0 +1,67 @@
+{
+  "appId": "com.tvf.anti.stress.relaxing.mini.games",
+  "name": "Mini Fidget Antistress Games",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": "Relax your mind!\n\nDesigned to soothe your mind and ease your stress, this anti-stress relaxing game offers a delightful collection of mini-games. Engage in a variety of calming activities, each carefully crafted to provide a sense of peace and joy. \n\nHave a break!\n\nRelax your mind, relieve your stress and enjoy challenging yet relaxing puzzles. The gameplay is designed to be non-competitive and stress-free, with no pressure to achieve perfection. Instead, the focus is on providing a peaceful env",
+    "released": "Oct 23, 2024",
+    "updated": 1779463644000,
+    "version": "0.2.3",
+    "installs": "10,000,000+",
+    "score": 4.5,
+    "ratings": 25843,
+    "reviews": 82,
+    "developer": "The Fashion Valley",
+    "developerWebsite": "http://thefashionvalleystudio.com",
+    "genre": "Casual",
+    "recentChanges": "New &amp; Exciting Themes added for knife hit game!<br>Improved Gameplay<br>Optimized Experience"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 59,
+      "2": 6,
+      "3": 10,
+      "4": 22,
+      "5": 103
+    },
+    "positiveRatio": 63,
+    "negativeRatio": 33,
+    "eventMentions": [
+      {
+        "text": "it takes too long until we get something new and there is too many ads and can we get something new ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "due to so many adds i decided to buy it as the child loved it but the app stopped working. absolute ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the best for new",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 7 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 3 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:57:25.246Z"
+}

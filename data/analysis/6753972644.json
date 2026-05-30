@@ -1,0 +1,43 @@
+{
+  "appId": "6753972644",
+  "name": "Kiem Hiep Tinh 1 Mobile",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Quyết định phát hành trò chơi điện tử G1 trên mạng số 879/QĐ-BTTTT do Cục Phát thanh, truyền hình và thông tin điện tử cấp ngày 30/05/2024.\n\nVẠN DẶM VÕ LÂM - CHUNG 1 CHỮ TÌNH\nCố nhân biền biệt, lời thề xưa có còn vương?\n\nHãy trở thành một phần của vùng đất Kiếm Hiệp Tình 1 Mobile (KHT1M): xưng bá võ lâm, kết tình bằng hữu, và viết tiếp giấc mộng giang hồ xưa cùng cố nhân. \n\nVẸN NGUYÊN \"KIẾM HIỆP TÌNH\"\nLà một sản phẩm game nhập vai võ lâm được đầu tư chỉnh chu đến từ nhà phát hành SaboGame, người",
+    "released": "2026-04-19T07:00:00Z",
+    "updated": "2026-05-28T02:08:06Z",
+    "version": "1.0.4",
+    "score": 4.7,
+    "reviews": 77,
+    "developer": "MEDIA BOX CO.,LTD",
+    "developerUrl": "https://apps.apple.com/vn/developer/media-box-co-ltd/id1846035172?uo=4",
+    "genres": [
+      "Games",
+      "Role-Playing"
+    ],
+    "releaseNotes": "Cập nhật thêm nhiều tính năng:\n- Cập nhật cân bằng môn phái\n- Hoạt động mới Chiến Trường Tống Kim Liên Server\n- Hoạt động mới Tùng Lâm - Quả Huy Hoàng Liên Server\n- Hoạt động mới Boss Tiểu Hoàng Kim\n- Hoạt động mới Phong Lăng Độ\n- Hoạt động mới Liên Đấu\n- Hoạt động mới Vượt Ải\n- Tính năng mới Ghép Mật Tịch\n- Tính năng mới Ghép Thú Cưỡi\n- Phúc lợi Tân Thủ mới"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:53:07.257Z"
+}

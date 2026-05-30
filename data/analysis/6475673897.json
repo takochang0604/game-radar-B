@@ -1,0 +1,45 @@
+{
+  "appId": "6475673897",
+  "name": "Colorwood Sort Puzzle Game",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "Dive into the enchanting world of Colorwood Sort! Immerse yourself in an engaging sorting experience that brings color to life through tactile vibrations. Tap and sort blocks with ease, relishing the satisfaction of matching and combining blocks of the same color across a range of exciting levels. Download Colorwood Sort for a uniquely dynamic and multisensory color-sorting game.\n\nEmbark on Your Colorful Journey:\n- Tap to feel the vibrations and sort blocks by color.\n- Strategically combine and ",
+    "released": "2024-01-29T08:00:00Z",
+    "updated": "2026-05-23T17:29:17Z",
+    "version": "5.8.25914",
+    "score": 4.7,
+    "reviews": 2681,
+    "developer": "Burny Games",
+    "developerUrl": "https://apps.apple.com/th/developer/burny-games/id1648482789?uo=4",
+    "genres": [
+      "Games",
+      "Entertainment",
+      "Puzzle",
+      "Family"
+    ],
+    "releaseNotes": "Hello Colorwood heroes!\n\nWe’ve been up all night, powered by dreams of perfect puzzles and a lot of coffee, to fix bugs and add shiny new features. Update now to enjoy! Your feedback keeps us going, so let us know what you think!\n\nHappy puzzling!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 6 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:24.676Z"
+}

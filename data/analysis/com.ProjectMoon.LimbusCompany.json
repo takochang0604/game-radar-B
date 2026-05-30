@@ -6,12 +6,12 @@
   "detail": {
     "description": "FACE THE SIN, SAVE THE E.G.O\n\nAs the Executive Manager of Limbus Company, lead your group of twelve Sinners,\nventure into the buried facilities of Lobotomy Corporation, and lay claim on the Golden Boughs.\n\n\n▶ A Combination of Turn-based RPG and Realtime Brawl\nEach turn results in a display of exhilarating action.\nIn the combat phase, units on both sides will act simultaneously.\nDuring the scramble, characters targeting each other may Clash.\nThe outcome of a Clash depends on the strength of their",
     "released": "Feb 26, 2023",
-    "updated": 1778488499000,
-    "version": "1.105.0",
+    "updated": 1779976794000,
+    "version": "1.106.1",
     "installs": "1,000,000+",
-    "score": 4.7,
-    "ratings": 69168,
-    "reviews": 9074,
+    "score": 4.6,
+    "ratings": 70588,
+    "reviews": 9230,
     "developer": "Project Moon",
     "developerWebsite": "https://limbuscompany.kr/",
     "genre": "Strategy"
@@ -19,46 +19,44 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 19,
-      "2": 4,
-      "3": 4,
-      "4": 6,
-      "5": 167
+      "1": 40,
+      "2": 11,
+      "3": 17,
+      "4": 15,
+      "5": 117
     },
-    "positiveRatio": 87,
-    "negativeRatio": 12,
+    "positiveRatio": 66,
+    "negativeRatio": 26,
     "eventMentions": [
       {
-        "text": "allllll haaaaiiilll limmmmbuuuusss compaaaannnyyyyy, we absolutely love the gameeee!!! genshin? hoyo",
+        "text": "this game is absolute work like the character development is beautiful and in my opinion the stroy i",
         "keywords": [
-          "update",
-          "new",
-          "season"
-        ]
-      },
-      {
-        "text": "w gambling game i am new and i can't get any good chrecter",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "limbus company has an extremely good story. the gacha system is f2p friendly as you don't require to",
-        "keywords": [
-          "event",
           "update"
         ]
       },
       {
-        "text": "probably the best gacha game i ever played. all of the characters here (especially the sinners) are ",
+        "text": "the new update makes the game borderline unplayable, the rail way is way too hard, and sometimes the",
         "keywords": [
-          "event"
+          "update",
+          "new"
         ]
       },
       {
-        "text": "genuinely just a great game overall, the gacha is basically unneeded unless a new character releases",
+        "text": "peak game, peak storytelling, peak lore. what's not peak is that it not working after the recent upd",
         "keywords": [
-          "new"
+          "update"
+        ]
+      },
+      {
+        "text": "the game is good but after the update i'm stuck on a black screen everytime i opened the game. the g",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "unity engine update broke everything.",
+        "keywords": [
+          "update"
         ]
       }
     ]
@@ -67,21 +65,15 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 9 天前",
-      "confidence": "medium"
+      "detail": "最近更新: 1 天前",
+      "confidence": "high"
     },
     {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
       "detail": "評論中 5 次提及活動/事件",
       "confidence": "medium"
-    },
-    {
-      "type": "word_of_mouth",
-      "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 87%",
-      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-20T13:51:51.308Z"
+  "analyzedAt": "2026-05-30T10:57:17.928Z"
 }

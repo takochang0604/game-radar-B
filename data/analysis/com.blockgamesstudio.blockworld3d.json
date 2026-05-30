@@ -10,8 +10,8 @@
     "version": "12.1.36",
     "installs": "10,000,000+",
     "score": 4.4,
-    "ratings": 61857,
-    "reviews": 269,
+    "ratings": 62456,
+    "reviews": 274,
     "developer": "Funburstgame LTD",
     "developerWebsite": "https://www.funburstgameltd.com",
     "genre": "Arcade",
@@ -20,14 +20,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 41,
-      "2": 8,
-      "3": 13,
-      "4": 28,
-      "5": 110
+      "1": 37,
+      "2": 7,
+      "3": 9,
+      "4": 26,
+      "5": 121
     },
-    "positiveRatio": 69,
-    "negativeRatio": 25,
+    "positiveRatio": 74,
+    "negativeRatio": 22,
     "eventMentions": [
       {
         "text": "it is helpfully because i don't know if it has ads but the game is good just like roblox new minecra",
@@ -41,9 +41,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-27T12:10:20.123Z"
+  "analyzedAt": "2026-05-30T10:54:04.857Z"
 }

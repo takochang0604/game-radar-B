@@ -1,0 +1,43 @@
+{
+  "appId": "1427414541",
+  "name": "FC Online M by EA SPORTS™",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "FC Online Việt Nam chính thức phát hành phiên bản mới dành cho điện thoại. Với những nâng cấp mới mẻ về giao diện cũng như trải nghiệm dành cho các huấn luyện viên online. \n\nFC Online sở hữu bản quyền của hơn 300 đối tác, hơn 19,000 cầu thủ, hơn 700 câu lạc bộ và 30 giải đấu khác nhau trên toàn thế giới. Việc trải nghiệm và xây dựng đội bóng trong mơ của các huấn luyện viên online giờ đây sẽ trở nên dễ dàng và chân thật hơn bao giờ hết.\n\nDữ liệu đội bóng trên FC Online điện thoại hoàn toàn đồng ",
+    "released": "2018-11-26T05:40:45Z",
+    "updated": "2026-04-24T04:59:28Z",
+    "version": "2.0.37",
+    "score": 3.4,
+    "reviews": 38124,
+    "developer": "Garena Mobile Private",
+    "developerUrl": "https://apps.apple.com/vn/developer/garena-mobile-private/id1047094789?uo=4",
+    "genres": [
+      "Games",
+      "Sports"
+    ],
+    "releaseNotes": "Cập nhật mùa Warriors of Glory\nCập nhật thêm cầu thủ mùa Prime\nSửa vài lỗi nhỏ"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:39.105Z"
+}

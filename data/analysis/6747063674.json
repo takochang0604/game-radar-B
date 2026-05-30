@@ -2,75 +2,44 @@
   "appId": "6747063674",
   "name": "Brain Puzzle 2: Logic Twist",
   "platform": "ios",
-  "market": "kr",
+  "market": "vn",
   "detail": {
     "description": "This time, we’re continuing the humorous storytelling and brain-teasing design of the first game, bringing you an even richer and more surprising puzzle-solving experience.\n\nIn this brand-new sequel, you'll follow quirky plot lines and make clever use of clues and interactive elements to crack a series of bizarre yet cleverly constructed levels.\n\nEach scene is packed with carefully designed puzzles, unconventional logic, and unexpected twists—making you think outside the box and enjoy a perfect ",
     "released": "2025-09-03T07:00:00Z",
-    "updated": "2026-04-09T17:52:30Z",
-    "version": "1.0.9",
-    "score": 4.55775,
-    "reviews": 1922,
+    "updated": "2026-05-12T19:33:53Z",
+    "version": "1.1.0",
+    "score": 4.6,
+    "reviews": 4420,
     "developer": "SmallStep Dev Team",
-    "developerUrl": "https://apps.apple.com/kr/developer/smallstep-dev-team/id1473677344?uo=4",
+    "developerUrl": "https://apps.apple.com/vn/developer/smallstep-dev-team/id1473677344?uo=4",
     "genres": [
-      "게임",
-      "퍼즐",
-      "엔터테인먼트",
-      "캐주얼"
+      "Games",
+      "Puzzle",
+      "Entertainment",
+      "Casual"
     ],
-    "releaseNotes": "fix bugs"
+    "releaseNotes": "Fix some bugs"
   },
   "reviewAnalysis": {
-    "total": 49,
+    "total": 0,
     "starCounts": {
-      "1": 7,
-      "2": 1,
-      "3": 3,
-      "4": 4,
-      "5": 34
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
     },
-    "positiveRatio": 78,
-    "negativeRatio": 16,
-    "eventMentions": [
-      {
-        "text": "매주 업데이트인데 왜\n안 나와..",
-        "keywords": [
-          "업데이트"
-        ]
-      },
-      {
-        "text": "중국어 더빙이 더 재밌어요 ㅠㅠㅠ 시즌 1때 느낌이 안나서 정이 안붙어요 제발 중국어 더빙 버전 만들어 주시면 안될까요 ㅜ ㅜ 흑흑 제발료",
-        "keywords": [
-          "시즌"
-        ]
-      },
-      {
-        "text": "업데이트",
-        "keywords": [
-          "업데이트"
-        ]
-      },
-      {
-        "text": "여러분 이거 게임 끝난 거 알죠?시즌 3출시 됐으니 빨리 깔아보세요!",
-        "keywords": [
-          "시즌"
-        ]
-      },
-      {
-        "text": "이 게임을 좋아하던 사람으로서 시즌 2가 나왔다는 소식을 듣고 바로 다운로드 받았는데요.. 세번째 게임에서 자물쇠 풀때 번호 적는건가 그런게 있던데 터치가않됨요.;; 버그인지 모르",
-        "keywords": [
-          "시즌"
-        ]
-      }
-    ]
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
   },
   "inferredReasons": [
     {
-      "type": "event_driven",
-      "label": "🎉 限時活動引流",
-      "detail": "評論中 5 次提及活動/事件",
-      "confidence": "medium"
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
     }
   ],
-  "analyzedAt": "2026-05-05T12:08:10.765Z"
+  "analyzedAt": "2026-05-30T10:57:15.356Z"
 }

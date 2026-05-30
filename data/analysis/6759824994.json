@@ -1,0 +1,49 @@
+{
+  "appId": "6759824994",
+  "name": "青丘世界：緣起",
+  "platform": "ios",
+  "market": "tw",
+  "detail": {
+    "description": "下一次遇見，在青丘世界。\n2026 年旗艦級 3D 仙俠大作《青丘世界：緣起》，以超高精度建模與動態光影系統，重構東方仙俠的浪漫與壯闊。\n你將化身守令一脈的末代弟子，執掌殘缺的御妖令。朱雀精魄蠢動，上古封印將破——斬妖除魔之外，更要揭開山氏一族世代守護的禁忌真相。諸神不臨，仙妖對峙，你的每一次選擇，都將改寫這場劫數的終局。\n踏入青丘，一草一木皆靈韻，一顰一笑盡風華，在仙霧縈繞的山海間，展開屬於你的緣起之旅。\n\n【四大職業・各具其風采】\n靈狐、劍仙、逐月、龍槍——四大職業各擁獨特的戰鬥美學。每個宗門皆配備專屬技能與覺醒造型，並可自由搭配祕法絕技，讓你創造屬於自己的仙俠風骨。\n\n【遇見青丘・尋覓大世界】\n這是一個兼具絕美風景與溫暖人情的開放仙界。你將與好友一同御劍乘風、踏雲尋蹤，一步一景，處處驚鴻，在湖邊共許願，在秘境中探險。告別單機式修仙，讓每一次相遇，都成為牽絆的開端。\n\n【靈韻天成 · 一顏一世界】\n高自由度捏臉系統，從眉眼輪廓、衣飾妝容皆由你親手定製。從清冷仙君到嬌萌靈狐，你所思念的模樣，從此躍然於指尖。一顏一鏡，照見獨一無二的你。\n\n【百妖通靈・掌馭由汝心】\n遊戲內藏匿著形形色色",
+    "released": "2026-05-27T07:00:00Z",
+    "updated": "2026-05-27T07:00:00Z",
+    "version": "1.5.0",
+    "score": 4.6,
+    "reviews": 1929,
+    "developer": "JOYSTAR GAME INFORMATION TECHNOLOGY CO.,LIMITED",
+    "developerUrl": "https://apps.apple.com/tw/developer/joystar-game-information-technology-co-limited/id1818294274?uo=4",
+    "genres": [
+      "遊戲",
+      "角色扮演"
+    ],
+    "releaseNotes": "1、優化遊戲性能，適配 iOS 26.5."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 3 天，評分 4.6",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:51:54.276Z"
+}

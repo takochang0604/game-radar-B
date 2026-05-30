@@ -2,20 +2,20 @@
   "appId": "6755183085",
   "name": "Yarn Loop: Knit Puzzle",
   "platform": "ios",
-  "market": "tw",
+  "market": "us",
   "detail": {
     "description": "Yarn Loop is a relaxing and satisfying puzzle game featuring colorful yarn bobbins and knitted patterns.\n\nBobbins move onto the conveyor and collect stitches of their own color. Each bobbin has a capacity value that decreases as stitches are picked up. When its capacity reaches zero, the bobbin disappears. If capacity remains, the bobbin is transferred to the rack and can be used again later.\n \nComplete each knitted pattern by using the right bobbins in the right order.\n\nGame Features\n► Simple O",
     "released": "2025-11-21T08:00:00Z",
-    "updated": "2026-05-18T21:41:00Z",
-    "version": "1.35.0",
-    "score": 4.6,
-    "reviews": 66,
+    "updated": "2026-05-23T02:08:29Z",
+    "version": "1.36.0",
+    "score": 4.8,
+    "reviews": 19072,
     "developer": "Combo Games",
-    "developerUrl": "https://apps.apple.com/tw/developer/combo-games/id1641699177?uo=4",
+    "developerUrl": "https://apps.apple.com/us/developer/combo-games/id1641699177?uo=4",
     "genres": [
-      "遊戲",
-      "解謎",
-      "休閒"
+      "Games",
+      "Puzzle",
+      "Casual"
     ],
     "releaseNotes": "Good news, players — the latest update is here! We’ve squashed bugs, boosted performance, and added fresh polish to keep the fun going strong."
   },
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 7 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-21T11:39:32.165Z"
+  "analyzedAt": "2026-05-30T10:54:44.555Z"
 }

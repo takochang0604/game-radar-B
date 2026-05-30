@@ -1,0 +1,42 @@
+{
+  "appId": "6771792437",
+  "name": "超越領域：アセンション・コード",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "亀裂を越えて、未知の異界大陸に足を踏み入れろ！\n英雄を集め、装備を鍛え、強敵に挑戦し、霧の森、竜骨遺跡、\n虚空王座などの神秘的な関所で冒険を探索し、希少資源を収集し、\n最強の陣容を作り、異界領主を打ち破る！\n・探索冒険：操舵役は異界地図の中を自由に移動し、敵に遭遇したら即戦闘\n・ヒーロー収集：多様なスタイルのヒーローを多数育成・強化できる\n・関所の挑戦：6大異界レプリカ、難易度が増加し、奨励金が豊富である\n・達成システム：各種冒険目標のロック解除の手厚い奨励を達成する",
+    "released": "2026-05-27T07:00:00Z",
+    "updated": "2026-05-27T07:00:00Z",
+    "version": "1.0.4",
+    "score": 3.3,
+    "reviews": 3,
+    "developer": "Tianjin Xuanyaru Technology Co., Ltd",
+    "developerUrl": "https://apps.apple.com/jp/developer/tianjin-xuanyaru-technology-co-ltd/id6771792439?uo=4",
+    "genres": [
+      "ゲーム"
+    ],
+    "releaseNotes": "いくつかの既知の問題が修正されました"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:52:09.501Z"
+}

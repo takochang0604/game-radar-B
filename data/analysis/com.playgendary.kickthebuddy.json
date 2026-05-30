@@ -10,8 +10,8 @@
     "version": "2.16.2",
     "installs": "500,000,000+",
     "score": 4.1,
-    "ratings": 3564686,
-    "reviews": 195387,
+    "ratings": 3564835,
+    "reviews": 195389,
     "developer": "Playgendary Limited",
     "developerWebsite": "https://newplg.dev/",
     "genre": "Action",
@@ -20,35 +20,35 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 54,
+      "1": 52,
       "2": 8,
-      "3": 9,
-      "4": 13,
-      "5": 116
+      "3": 6,
+      "4": 11,
+      "5": 123
     },
-    "positiveRatio": 65,
-    "negativeRatio": 31,
+    "positiveRatio": 67,
+    "negativeRatio": 30,
     "eventMentions": [
       {
+        "text": "i played this and i'm at top of the teeth event my name is deadplayer",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "the game is so cool and even new features",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i like the game now a lot but the new pass is a little weird. the people who has play pass cant watc",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
         "text": "too many ads. you can remove forced ads for 13 dollars. the new ui is bad, and you cant switch betwe",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "i don't like the new version of the game but i like the old version of the game so can you change th",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "scam pay weekly dangerous for kids. response from develop unsatisfactory the problem is not ads it's",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "you removed the og tools with the new ui you should release a kick the buddy classic which has all t",
         "keywords": [
           "new"
         ]
@@ -59,7 +59,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     },
     {
@@ -69,5 +69,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:07:46.758Z"
+  "analyzedAt": "2026-05-30T10:50:24.033Z"
 }

@@ -1,0 +1,44 @@
+{
+  "appId": "1561931423",
+  "name": "Merge Restaurant - Makeover",
+  "platform": "ios",
+  "market": "th",
+  "detail": {
+    "description": "In Merge Restaurant, Mina needs your help to reopen her mentor's former restaurant. With a history of love and betrayal, what will the restaurant reveal about its past?\n\nPull off the covers, wipe off the dust and replace the restaurant with all new furniture, decorations and menu just by combining items. Design and watch as it goes from an old unattended mess to a Michelin worthy restaurant. \n\nBegin your journey by reopening the first restaurant and move on to open more restaurants around the wo",
+    "released": "2022-02-04T08:00:00Z",
+    "updated": "2026-04-14T09:00:26Z",
+    "version": "2.40.13",
+    "score": 4.8,
+    "reviews": 1179,
+    "developer": "Potato Play Pte. Ltd.",
+    "developerUrl": "https://apps.apple.com/th/developer/potato-play-pte-ltd/id1467734917?uo=4",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Casual"
+    ],
+    "releaseNotes": "- Bug fixes and optimizations"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:19.436Z"
+}

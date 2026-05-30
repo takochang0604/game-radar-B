@@ -1,0 +1,81 @@
+{
+  "appId": "com.nhnpa.cps",
+  "name": "#コンパス【戦闘摂理解析システム】",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "A new experience where you can easily enjoy 3on3 online battles. \n\nControl a hero running around a 3D field, fight together with your friends, and aim for victory! \n\nGrow the heroes and cards that appear in the game, and\nbuild your own deck! \n\n■Gorgeous creators and popular voice actors participate■\n\n#Compass [Battle providence analysis system] is\nVocaloid P, an artist who is active in Nico Nico Douga\nProduce heroes! \nIn addition, a popular voice actor will be in charge of the hero's voice. \n\n■A",
+    "released": "Dec 15, 2016",
+    "updated": 1779189027000,
+    "version": "1.273.0",
+    "installs": "1,000,000+",
+    "score": 3.8,
+    "ratings": 55721,
+    "reviews": 25540,
+    "developer": "NHN PlayArt Corp.",
+    "developerWebsite": "http://app.nhn-playart.com/compass/",
+    "genre": "Action",
+    "recentChanges": "■不具合への対応<br>・軽微な不具合を修正"
+  },
+  "reviewAnalysis": {
+    "total": 77,
+    "starCounts": {
+      "1": 6,
+      "2": 4,
+      "3": 3,
+      "4": 10,
+      "5": 54
+    },
+    "positiveRatio": 83,
+    "negativeRatio": 13,
+    "eventMentions": [
+      {
+        "text": "truly a gem in the moba genre with unique feel of gameplay than traditional ones in the market. alre",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "been playing for 2 years. absolutely a p2w game that's less about skill and more about high levels. ",
+        "keywords": [
+          "collab",
+          "collaboration"
+        ]
+      },
+      {
+        "text": "honestly, the game is really fun, like i've been always playing the game for fun, the characters hav",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "三分間で五つのキーを奪い合うゲーム性、多様なカードの組み合わせ、ゲーム毎に変わるオリジナルのボカロ曲、交流を図れるsns、コンセプト自体は本当に面白いですし始めた頃はかなりハマりました。 しかし、それ",
+        "keywords": [
+          "イベント",
+          "新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 4 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 83%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:55:24.703Z"
+}

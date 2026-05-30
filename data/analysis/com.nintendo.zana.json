@@ -1,0 +1,84 @@
+{
+  "appId": "com.nintendo.zana",
+  "name": "Pictonico!",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "Turn your photos into minigames!\nSure, it's kind of silly... But there's no telling what will happen next!\n\n・ Here come your school's sports stars...strutting down the red carpet!\n・ Your boss is hungry and needs your help!\n・ Try to wash away those embarrassing high-school memories.\n・ Son won't quiet down? Zip his mouth!\n・ Two old friends reconnect while skydiving!\n・ Grandpa dressed like a ballerina? Can't miss this photo op.\n・ Mom's angry... But that nose hair must be plucked!\n・ Dad's making tha",
+    "released": "May 19, 2026",
+    "updated": 1779246632000,
+    "version": "1.0.0",
+    "installs": "500,000+",
+    "score": 4.5,
+    "ratings": 1724,
+    "reviews": 38,
+    "developer": "Nintendo Co., Ltd.",
+    "developerWebsite": "https://pictonico.nintendo.com/",
+    "genre": "Arcade"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 52,
+      "2": 11,
+      "3": 20,
+      "4": 24,
+      "5": 93
+    },
+    "positiveRatio": 59,
+    "negativeRatio": 32,
+    "eventMentions": [
+      {
+        "text": "new game but can not open it to play. it throws me out the whole time. so frustrating",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this game is sports in the news this is very clear game very new game bahut bahut bahut achcha bhai",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "this game is like ok-ok n funny lol i liked it and also the ai assistant guide us it's sweet and if ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "this game is pretty fun! you get to take a picture of yourself, and start playing with yourself! you",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "\"wow, a new free nintendo app!\" looks inside has to pay for the games",
+        "keywords": [
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "new_release",
+      "label": "🆕 新遊戲上線熱度",
+      "detail": "上架 11 天，評分 4.5",
+      "confidence": "high"
+    },
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:55:54.661Z"
+}

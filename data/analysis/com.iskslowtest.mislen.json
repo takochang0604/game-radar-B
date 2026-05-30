@@ -1,0 +1,81 @@
+{
+  "appId": "com.iskslowtest.mislen",
+  "name": "Isekai:Slow Life",
+  "platform": "android",
+  "market": "us",
+  "detail": {
+    "description": " What the-? Been transported to ISEKAI and turned into an adorable walking mushroom?! 😱 \n\nIn this wonderful new world, you will begin by managing and developing a small town while meeting and engaging with various types of beautiful and bizarre characters. Discover unknown lands with them as you wander at your leisure and enjoy the quiet life. \n\n🌳 [Make a family in another world and enjoy a relaxing life] \nExplore fateful encounters with many different races: A gentle vampire nurse, an artisti",
+    "released": "Aug 13, 2023",
+    "updated": 1780062759000,
+    "version": "1.7102",
+    "installs": "5,000,000+",
+    "score": 4.5,
+    "ratings": 84899,
+    "reviews": 5438,
+    "developer": "Mars-Games",
+    "developerWebsite": "https://isekai-slowlife.mars.games/",
+    "genre": "Role Playing",
+    "recentChanges": "1. Isekai: Slow Life × That Time I Got Reincarnated as a Slime Collaboration Event Is Open!<br>2. Take part in the event to get SSR Fellows Rimuru and Milim free of charge!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 51,
+      "2": 29,
+      "3": 25,
+      "4": 23,
+      "5": 72
+    },
+    "positiveRatio": 48,
+    "negativeRatio": 40,
+    "eventMentions": [
+      {
+        "text": "apothecary at potion nuture still not fixed ... its still bugged cant upgrade ... red system keep ap",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "i've been playing for a while. decided to hold off on the review until now. i would have given it 5 ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "terrible customer service laggy glitchy game. poorly optimized events ai slop everywhere fast to die",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "sometimes feels neither f2p friendly with some events nor even dolphins. you must be a whale for som",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "i tried out the game because of the slime isekai collab. i was genuinely having a decent time at fir",
+        "keywords": [
+          "event",
+          "collab"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:57:27.625Z"
+}

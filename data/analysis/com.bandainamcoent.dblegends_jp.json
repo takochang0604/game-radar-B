@@ -1,0 +1,87 @@
+{
+  "appId": "com.bandainamcoent.dblegends_jp",
+  "name": "ドラゴンボール レジェンズ",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "The highly anticipated Dragon Ball action game is now available on smartphones.\n\nThis action game features 3D graphics and full voice acting during battles, delivering a thrilling battle experience!\n\nEngage in spectacular battles with just one finger for the ultimate action game experience!\n\n\n- An intuitive action game that can be enjoyed with just one finger!\n- Unleash combos and special moves with a single tap!\n\n\n- A full-scale action game where you can battle players from all over the world i",
+    "released": "May 24, 2018",
+    "updated": 1779163662000,
+    "version": "6.24.0",
+    "installs": "1,000,000+",
+    "score": 4.2,
+    "ratings": 96950,
+    "reviews": 40077,
+    "developer": "Bandai Namco Entertainment Inc.",
+    "developerWebsite": "https://www.bandainamcoent.co.jp/",
+    "genre": "Action",
+    "recentChanges": "8周年に向けた大型アップデート！<br>・ミッションプランをリニューアル！<br>従来の各プランを統合し、新たなプレミアムプランが登場！<br>ミッションを達成して、刻の結晶などさまざまな報酬をGetしよう！<br>・その他、様々なUIを調整しました"
+  },
+  "reviewAnalysis": {
+    "total": 185,
+    "starCounts": {
+      "1": 18,
+      "2": 5,
+      "3": 13,
+      "4": 17,
+      "5": 132
+    },
+    "positiveRatio": 81,
+    "negativeRatio": 12,
+    "eventMentions": [
+      {
+        "text": "lately, the games quality has declined a ton. bad characters, insane powecreep, and the meta isn't a",
+        "keywords": [
+          "anniversary"
+        ]
+      },
+      {
+        "text": "have a good thing about the way i feel when you are so close and you are not the world i want you ha",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "give us some cc farm events. now that i have cleared the story and cc grant event, i need a new cc f",
+        "keywords": [
+          "event",
+          "new"
+        ]
+      },
+      {
+        "text": "absolutely disgusted with the new lf's, i mean dont get me wrong! i like them! but i just don't get ",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game is great and very enjoyable but a problem with this game is that pretty much every new char",
+        "keywords": [
+          "limited",
+          "new"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 81%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:57:10.759Z"
+}

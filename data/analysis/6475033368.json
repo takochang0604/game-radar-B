@@ -9,7 +9,7 @@
     "updated": "2026-05-15T02:51:28Z",
     "version": "3.3.2",
     "score": 4.7,
-    "reviews": 86202,
+    "reviews": 86332,
     "developer": "KURO GAMES",
     "developerUrl": "https://apps.apple.com/jp/developer/kuro-games/id1723145160?uo=4",
     "genres": [
@@ -34,11 +34,11 @@
   },
   "inferredReasons": [
     {
-      "type": "major_update",
-      "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 12 天前",
-      "confidence": "medium"
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
     }
   ],
-  "analyzedAt": "2026-05-27T12:08:27.258Z"
+  "analyzedAt": "2026-05-30T10:53:09.705Z"
 }

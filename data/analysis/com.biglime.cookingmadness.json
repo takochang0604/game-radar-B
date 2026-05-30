@@ -1,0 +1,68 @@
+{
+  "appId": "com.biglime.cookingmadness",
+  "name": "Cooking Madness: A Chef's Game",
+  "platform": "android",
+  "market": "ph",
+  "detail": {
+    "description": "Hey, psssst! You there...come over here, listen!\nYou are THE CHEF we’ve been looking for !\n\nHave you ever dreamed of cooking delicious dishes from all over the world and discovering exotic cultures? You can achieve those dreams in Cooking Madness! Come and try one of the most addictive FREE time-management cooking games of 2025!\n\nEXPLORE amazing restaurants and exotic foods along your worldwide journey \n- Favored by millions of global players, Cooking Madness proudly features more than 75 high-q",
+    "released": "Sep 30, 2017",
+    "updated": 1779171634000,
+    "version": "3.2.5",
+    "installs": "100,000,000+",
+    "score": 4.8,
+    "ratings": 3253091,
+    "reviews": 37896,
+    "developer": "ZenLife Games Ltd",
+    "developerWebsite": "https://www.zenlifegames.com/",
+    "genre": "Arcade",
+    "recentChanges": "A new update is available for Cooking Madness!<br><br>The Juicy Party event is coming back on May 23rd!<br>- Try our event restaurant with the conveyor belt gameplay!<br>- Dive into the Fruit Sort mini-game to win an exclusive avatar frame and other rewards!<br>- The Refreshing Juice Pass is here!<br>- Don&#39;t miss out on limited-time value packs!<br><br>A brand-new restaurant is opening in Serene Switzerland!<br>- Enjoy Fondue, Zopf, and other local favorites in a brand-new restaurant in the Alps!<br><br>Have fun cooking, Chefs!"
+  },
+  "reviewAnalysis": {
+    "total": 200,
+    "starCounts": {
+      "1": 14,
+      "2": 5,
+      "3": 9,
+      "4": 15,
+      "5": 157
+    },
+    "positiveRatio": 86,
+    "negativeRatio": 10,
+    "eventMentions": [
+      {
+        "text": "the game is really interesting and i love it but i've noticed there are events for different festiva",
+        "keywords": [
+          "event",
+          "season"
+        ]
+      },
+      {
+        "text": "i used to love this game, but the recent updates are frustrating! rewards are only given with the fo",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 86%",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:57:29.960Z"
+}

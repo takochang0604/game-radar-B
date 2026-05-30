@@ -6,10 +6,10 @@
   "detail": {
     "description": "Want to collect ALL The Fidgets In The World? Then, Fidget Trading 3D is just for you!\n\nTrade unique fidgets, play relaxing games. try out unique pop-its. Master reading the psychology of your opponent, Develop your trading techniques, Use notorious scam tactics or trade with honor! It all depends on you.\n\nMake profitable trades and become an expert of Fidget Toys. Play with a great number of fidgets. Are you ready to become the most relaxed fidget billionaire in the world?\n\n▸Features:\n-Unique f",
     "released": "2021-07-03T07:00:00Z",
-    "updated": "2026-04-07T08:38:31Z",
-    "version": "2.0.6",
-    "score": 4.5663,
-    "reviews": 168124,
+    "updated": "2026-05-20T13:00:45Z",
+    "version": "2.0.7",
+    "score": 4.6,
+    "reviews": 174456,
     "developer": "MagicLab",
     "developerUrl": "https://apps.apple.com/us/developer/magiclab/id901903273?uo=4",
     "genres": [
@@ -21,25 +21,25 @@
     "releaseNotes": "- New Fidgets added! \n- Scam your opponents. Try it out!\n- Finish the collection to get secret pop its!"
   },
   "reviewAnalysis": {
-    "total": 49,
+    "total": 0,
     "starCounts": {
-      "1": 11,
-      "2": 7,
-      "3": 7,
-      "4": 8,
-      "5": 16
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
     },
-    "positiveRatio": 49,
-    "negativeRatio": 37,
+    "positiveRatio": 0,
+    "negativeRatio": 0,
     "eventMentions": []
   },
   "inferredReasons": [
     {
-      "type": "unknown",
-      "label": "🔍 待深入調查",
-      "detail": "未能自動推測原因，建議手動查看",
-      "confidence": "low"
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 9 天前",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-12T11:43:47.826Z"
+  "analyzedAt": "2026-05-30T10:56:48.654Z"
 }

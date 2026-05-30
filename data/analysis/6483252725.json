@@ -9,7 +9,7 @@
     "updated": "2026-05-27T00:17:39Z",
     "version": "1.01.00",
     "score": 4.7,
-    "reviews": 5055,
+    "reviews": 5085,
     "developer": "Netmarble Corporation",
     "developerUrl": "https://apps.apple.com/kr/developer/netmarble-corporation/id930364579?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-27T12:11:58.393Z"
+  "analyzedAt": "2026-05-30T10:55:52.310Z"
 }

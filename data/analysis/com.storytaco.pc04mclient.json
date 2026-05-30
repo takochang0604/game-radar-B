@@ -1,0 +1,79 @@
+{
+  "appId": "com.storytaco.pc04mclient",
+  "name": "Five Hearts Under One Roof 2",
+  "platform": "android",
+  "market": "kr",
+  "detail": {
+    "description": "“I'm looking for someone to run the boarding house once again!”\n\nIn your everyday life, an unexpected love begins to unfold.\n\nThe FMV interactive romance simulation\n[Five Hearts Under One Roof] returns with Season 2.\n\nStep into the role of Yuman\nand live together in a lively boarding house with six beautiful heroines,\neach with their own charm and secrets.\n\nIn the same space, different emotions collide.\nThe closer you get, the more relationships begin to waver,\nand feelings grow deeper.\n\nOne cho",
+    "released": "May 13, 2026",
+    "updated": 1779958691000,
+    "version": "1.0.10",
+    "installs": "50,000+",
+    "score": 3.5,
+    "ratings": 374,
+    "reviews": 25,
+    "developer": "StoryTaco.Inc",
+    "developerWebsite": "http://storytaco.com/",
+    "genre": "Simulation",
+    "recentChanges": "- Bug fixes."
+  },
+  "reviewAnalysis": {
+    "total": 50,
+    "starCounts": {
+      "1": 5,
+      "2": 2,
+      "3": 6,
+      "4": 5,
+      "5": 32
+    },
+    "positiveRatio": 74,
+    "negativeRatio": 14,
+    "eventMentions": [
+      {
+        "text": "game level bugs fix new bugs oppo a18 phone full screen video not supposed fix",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game itself is really amazing — great story, gameplay, and overall experience 🎮✨. i genuinely e",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "pls make the season 3 because i enjoyed this game this game is make me happy",
+        "keywords": [
+          "season"
+        ]
+      },
+      {
+        "text": "really good game, enjoyed a lot, they have added new endings, which was fun to come across during pl",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i really enjoyed this game. the story and gameplay were great, and i can't wait for the next season",
+        "keywords": [
+          "season"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:56:43.550Z"
+}

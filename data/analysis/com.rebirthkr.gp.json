@@ -6,16 +6,16 @@
   "detail": {
     "description": "Pre-register for the 4949 Draw! Limited Skins! Various In-game Items!\n\nA terrifyingly lighthearted comic horror exploration RPG, Night Escape - 49 Days!\n\nLate at night on Seoul Subway Line 2, an alternate dimension encroaching upon reality, and endless ghost stories.\n\nWhile working overtime, you were chosen as the 'Guide'!\n\nHunt demons and rescue survivors within a 49-day loop to become the strongest 'Guide' in this alternate world!\n\nNight Escape - 49 Days, steal the creeps and escape with a thr",
     "released": "May 18, 2026",
-    "updated": 1779094331000,
-    "version": "19",
+    "updated": 1779963619000,
+    "version": "20",
     "installs": "50,000+",
     "score": 4.5,
-    "ratings": 6962,
-    "reviews": 752,
+    "ratings": 8791,
+    "reviews": 939,
     "developer": "MOREFUN（H.K.) LIMITED",
     "developerWebsite": "https://escape49.morefun-hk.com/",
     "genre": "Role Playing",
-    "recentChanges": "test-0514"
+    "recentChanges": "게임 경험 최적화"
   },
   "reviewAnalysis": {
     "total": 0,
@@ -34,15 +34,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 9 天，評分 4.5",
+      "detail": "上架 12 天，評分 4.5",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 9 天前",
-      "confidence": "medium"
+      "detail": "最近更新: 2 天前",
+      "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-27T12:09:21.019Z"
+  "analyzedAt": "2026-05-30T10:53:43.139Z"
 }

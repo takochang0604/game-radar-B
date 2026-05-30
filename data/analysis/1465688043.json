@@ -1,0 +1,43 @@
+{
+  "appId": "1465688043",
+  "name": "Call of Duty®: Mobile - Garena",
+  "platform": "ios",
+  "market": "ph",
+  "detail": {
+    "description": "Call of Duty: Mobile Season 4 2026: Eternal Prison\n\nLock in or get locked up in Call of Duty®: Mobile Season 4: Eternal Prison is here. Jump into Godzilla x Kong: The New Empire content, deploy into the first season of DMZ: Recon, and experience Rebirth Island in both DMZ: Recon and Battle Royale. \n\nLog in to the game and enjoy the new content after the update!\n\n[New DMZ: Recon Map - Rebirth Island]\nClassic returns, heart-pumping upgrades! The classic map Alcatraz will undergo a complete overhau",
+    "released": "2019-09-29T07:00:00Z",
+    "updated": "2026-04-17T03:28:11Z",
+    "version": "1.6.55",
+    "score": 4.1,
+    "reviews": 155725,
+    "developer": "Garena Mobile Private",
+    "developerUrl": "https://apps.apple.com/ph/developer/garena-mobile-private/id1047094789?uo=4",
+    "genres": [
+      "Games",
+      "Action"
+    ],
+    "releaseNotes": "● New DMZ: Recon Map - Rebirth Island; The classic map Alcatraz will undergo a complete overhaul and join the battlefield as the new map Rebirth Island.\n● New DMZ: Recon Feature - Crafting System; The classic map Alcatraz will undergo a complete overhaul and join the battlefield as the new map Rebirth Island.\n● New MP Ranked Mode - League Play; Once soldiers reach the \"Legendary\" rank in the Multiplayer Ranked, they will be able to select League Play from the mode selection menu to compete.\n● New Wildcard: Perk Booster; Scorestreaks will be replaced with an additional set of Passive Skills, which can be activated by spending score. \n● New BR Map - Rebirth Island; With infinite redeploys, contracts to complete, and cash to collect for Airdrops and brand-new Scorestreaks at the Buy Station, it's time to jump back into the fray!\n● New BR Feature - Killcam; This feature is still in the testing phase, and we welcome your feedback.\n● Themed Event - Project: Titan Frequency; Unleash Titans' power together, with even more themed rewards waiting for you!"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:50:51.508Z"
+}

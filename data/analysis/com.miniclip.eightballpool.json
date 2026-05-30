@@ -2,49 +2,47 @@
   "appId": "com.miniclip.eightballpool",
   "name": "8 Ball Pool",
   "platform": "android",
-  "market": "us",
+  "market": "th",
   "detail": {
     "description": "Do you want to play in the world of pool games? 8 Ball Pool is an addictive challenging game based on real 3D pool games, where you will challenge your friends online. Become a master of the pool!\n\nThe balls game is easy to win. You just have to select the table and get ready. Join us and challenge your friends to this ball game in PvP mode. Use your pool strategy with the cue wisely in this online multiplayer ball game as every round will be more difficult after each level. You can play in mult",
     "released": "Jan 23, 2013",
-    "updated": 1779713852000,
-    "version": "56.23.2",
+    "updated": 1780058332000,
+    "version": "56.24.0",
     "installs": "1,000,000,000+",
-    "score": 4.8,
-    "ratings": 31332454,
-    "reviews": 982872,
+    "score": 4.7,
+    "ratings": 31331593,
+    "reviews": 88867,
     "developer": "Miniclip.com",
     "developerWebsite": "https://www.miniclip.com/",
     "genre": "Sports",
-    "recentChanges": "INCREASE your Daily Streak<br>PLAY new Tournaments with Friends<br>EXPERIENCE smoother overall game performance<br><br>Upcoming Events:<br>May 20 - Space Colony Season<br>June 10 - Flashback Aliens Season<br>June 17 - 8 Ball Pool 15th Anniversary Season<br><br>Update 8 Ball Pool today and join the fun!"
+    "recentChanges": "SPECTATE games from Tournaments<br>INCREASE your Daily Streak<br>PLAY new Tournaments with Friends<br><br>Upcoming Events:<br>May 20 - Space Colony Season<br>June 10 - Flashback Aliens Season<br>June 17 - 8 Ball Pool 15th Anniversary Season"
   },
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 35,
-      "2": 8,
+      "1": 28,
+      "2": 3,
       "3": 6,
-      "4": 12,
-      "5": 139
+      "4": 8,
+      "5": 155
     },
-    "positiveRatio": 76,
-    "negativeRatio": 22,
+    "positiveRatio": 82,
+    "negativeRatio": 16,
     "eventMentions": [
       {
-        "text": "please do not play this game!! it is full of cheaters and hackers who use apks and tools to win game",
+        "text": "to many auto player hacker in game i lost more then 25billiojs coins in single day day by day i hate",
         "keywords": [
           "event"
         ]
       },
       {
-        "text": "to be fair, this is my favorite pool game. the physics are perfect, and i love the seasonal updates,",
+        "text": "this is very nice game and events are very cool",
         "keywords": [
-          "event",
-          "update",
-          "season"
+          "event"
         ]
       },
       {
-        "text": "white ball is rigged and game still full hacker cheaters! only reaaon people rating this game 5 star",
+        "text": "it kind of does what you want. i personally don't like it when games are asking for currency as soon",
         "keywords": [
           "new"
         ]
@@ -55,7 +53,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 0 天前",
       "confidence": "high"
     },
     {
@@ -63,7 +61,13 @@
       "label": "🎉 限時活動引流",
       "detail": "評論中 3 次提及活動/事件",
       "confidence": "medium"
+    },
+    {
+      "type": "word_of_mouth",
+      "label": "💬 口碑爆發",
+      "detail": "4-5星評論佔 82%",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-27T12:09:32.710Z"
+  "analyzedAt": "2026-05-30T10:52:49.635Z"
 }

@@ -1,0 +1,78 @@
+{
+  "appId": "com.game.tombbusters",
+  "name": "Tomb Busters",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "The first co-op horror extraction game on mobile, with full PC cross-play. Squad up, loot cursed ruins, escape alive — and try not to die laughing.\n\nCO-OP HORROR EXTRACTION — NOW ON MOBILE\nThe horror extraction genre finally comes to your phone, and it's finally fun for everyone. No hardcore grind. No steep learning curve. Just you, your friends, and a cursed ancient ruin full of things that want to eat you. Drop in with up to 4 players, loot cursed tombs, and extract before ancient horrors end ",
+    "released": "May 25, 2026",
+    "updated": 1780076238000,
+    "version": "1.29.20.006",
+    "installs": "100,000+",
+    "score": 3.1,
+    "ratings": 594,
+    "reviews": 46,
+    "developer": "Giant Game",
+    "genre": "Adventure",
+    "recentChanges": "We&#39;re happy to announce that Tomb Busters is officially launched!<br><br>Join the adventure in the first co-op comedy horror extraction game on mobile.<br>Gather your friends, loot ancient ruins, and escape alive — and try not to die laughing!"
+  },
+  "reviewAnalysis": {
+    "total": 133,
+    "starCounts": {
+      "1": 32,
+      "2": 13,
+      "3": 12,
+      "4": 13,
+      "5": 63
+    },
+    "positiveRatio": 57,
+    "negativeRatio": 34,
+    "eventMentions": [
+      {
+        "text": "finding new players is hard(low player count) gameplay loop.. is alright i guess. mix of dbd, lethal",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "the game could benefit from a larger tutorial (detailing the use of items) rather than one on moveme",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i like the game so far been playing it nonstop and have no complaints regarding gameplay but the exp",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i have to say great job! this is an outstanding and great game! i love the ark raiders & dungeon cra",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "a wonderful game overall and first rating and also pls update ur game every now and then",
+        "keywords": [
+          "update"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 0 天前",
+      "confidence": "high"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 5 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-30T10:51:14.002Z"
+}
