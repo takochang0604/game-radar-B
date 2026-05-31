@@ -720,52 +720,33 @@ function renderStats() {
     if (snapSubEl) snapSubEl.textContent = `共 ${dates.length} 天快照`;
   }
 
-  // 去重邏輯：模擬 renderDarkhorses 的合併邏輯（含名稱 + sibling 配對，不做傳遞性合併）
-  const getMergedCount = (dhList) => {
-    const entries = []; // [{nameKey, appId, siblings}]
-    for (const dh of dhList) {
-      if (!dh || !dh.name) continue;
-      const nameKey = getMergeKey(dh);
-      let found = false;
-      for (const entry of entries) {
-        const sameName = entry.nameKey === nameKey;
-        // 完全對齊 renderDarkhorses 的 isSibling 邏輯
-        const isSibling = (dh._siblingAppIds || []).includes(entry.appId) ||
-                           entry.siblings.includes(dh.appId);
-        if (sameName || isSibling) {
-          found = true;
-          break;
-        }
-      }
-      if (!found) {
-        entries.push({ nameKey, appId: dh.appId, siblings: dh._siblingAppIds || [] });
-      }
-    }
-    return entries.length;
-  };
+  // 黑馬統計：統一使用 state.mergedDarkhorses（由 renderDarkhorses 合併後設定）
+  // 這是唯一真實來源，避免重複實作合併邏輯導致數字不一致
+  const merged = state.mergedDarkhorses;
+  if (merged) {
+    const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
 
-  // 今日新黑馬（首次偵測日期 = 最新日期的遊戲，不是「今天有 new_entry trigger」）
-  const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
-  const newEntryList = state.darkhorses.filter(dh => {
-    const firstDetected = (dh.detectedAt || '').substring(0, 10);
-    return firstDetected === latestDate;
-  });
-  const statNewDhEl = document.getElementById('statNewDh');
-  if (statNewDhEl) statNewDhEl.textContent = getMergedCount(newEntryList);
+    // 今日新黑馬
+    const newEntryCount = merged.filter(dh => {
+      const firstDetected = (dh.detectedAt || '').substring(0, 10);
+      return firstDetected === latestDate;
+    }).length;
+    const statNewDhEl = document.getElementById('statNewDh');
+    if (statNewDhEl) statNewDhEl.textContent = newEntryCount;
 
-  // 已評測黑馬
-  const reportedList = state.darkhorses.filter(dh => !!findReport(dh.name, dh.appId));
-  const statAppsEl = document.getElementById('statApps');
-  const totalUnique = getMergedCount(state.darkhorses);
-  if (statAppsEl) statAppsEl.textContent = `${getMergedCount(reportedList)} / ${totalUnique}`;
+    // 已評測 / 總數
+    const totalUnique = merged.length;
+    const reportedCount = merged.filter(dh => !!findReport(dh.name, dh.appId)).length;
+    const statAppsEl = document.getElementById('statApps');
+    if (statAppsEl) statAppsEl.textContent = `${reportedCount} / ${totalUnique}`;
+
+    // dhCount（會在 renderDarkhorses 篩選後再被覆寫為篩選後數量）
+    const dhCountEl = document.getElementById('dhCount');
+    if (dhCountEl) dhCountEl.textContent = totalUnique;
+  }
+
   const statAppsSub = document.getElementById('statAppsSub');
   if (statAppsSub) statAppsSub.textContent = '匹已完成 AI 評測報告';
-
-
-
-  // dhCount 會在 renderDarkhorses 時被覆寫，這裡可以先給個預設值
-  const dhCountEl = document.getElementById('dhCount');
-  if (dhCountEl) dhCountEl.textContent = totalUnique;
 }
 
 function renderDarkhorses() {
@@ -1043,11 +1024,9 @@ function renderDarkhorses() {
   // 存合併後的完整清單供 renderTracked 直接使用（不受搜尋/市場篩選影響）
   state.mergedDarkhorses = filtered;
 
-  // 更新 header 統計數字（合併後的真實數量，含 sibling 配對）
-  const mergedTotal = filtered.length;
-  const mergedReported = filtered.filter(dh => !!findReport(dh.name, dh.appId)).length;
-  const statAppsEl2 = document.getElementById('statApps');
-  if (statAppsEl2) statAppsEl2.textContent = `${mergedReported} / ${mergedTotal}`;
+  // 統計數字由 renderStats() 統一從 state.mergedDarkhorses 計算（單一真實來源）
+  // 合併完成後觸發一次 renderStats() 刷新統計
+  renderStats();
 
   // ============ 搜尋 / 市場 / 狀態篩選（僅影響黑馬 tab 顯示）============
   filtered = filtered.filter(dh => {
