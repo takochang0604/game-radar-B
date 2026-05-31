@@ -9,7 +9,7 @@
     "updated": "2026-05-27T13:01:55Z",
     "version": "1.0.2",
     "score": 4.8,
-    "reviews": 670,
+    "reviews": 1003,
     "developer": "Highbrow",
     "developerUrl": "https://apps.apple.com/kr/developer/highbrow/id415443001?uo=4",
     "genres": [
@@ -36,15 +36,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 3 天，評分 4.8",
+      "detail": "上架 4 天，評分 4.8",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:51:28.072Z"
+  "analyzedAt": "2026-05-31T15:25:46.900Z"
 }

@@ -10,8 +10,8 @@
     "version": "1.3.0",
     "installs": "100,000+",
     "score": 4.2,
-    "ratings": 3590,
-    "reviews": 29,
+    "ratings": 4267,
+    "reviews": 34,
     "developer": "Oakever Games",
     "developerWebsite": "https://oakevergames.com/",
     "genre": "Puzzle",
@@ -20,15 +20,27 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 47,
-      "2": 29,
-      "3": 40,
-      "4": 15,
-      "5": 69
+      "1": 41,
+      "2": 24,
+      "3": 32,
+      "4": 16,
+      "5": 87
     },
-    "positiveRatio": 42,
-    "negativeRatio": 38,
+    "positiveRatio": 52,
+    "negativeRatio": 33,
     "eventMentions": [
+      {
+        "text": "2nd updated: porn ads. updated review: added a star. the bug of repeating levels has been fixed -- i",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "alright, but the first time i failed to complete a grid the renewal option went round and round, sho",
+        "keywords": [
+          "new"
+        ]
+      },
       {
         "text": "i do enjoy the game. there are way to many ads, but it's alright. but since the update, whenever i w",
         "keywords": [
@@ -42,19 +54,7 @@
         ]
       },
       {
-        "text": "updated review: added a star. the bug of repeating levels has been fixed -- i'm over level 200 and i",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
         "text": "ads are broken. terrible app eventually the ads will stop giving the intended reward. instead you wi",
-        "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "i enjoyed the game. i accept that there are ads. i refuse to play a game where the ads literally pre",
         "keywords": [
           "event"
         ]
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:51:35.266Z"
+  "analyzedAt": "2026-05-31T15:26:43.075Z"
 }

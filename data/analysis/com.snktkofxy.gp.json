@@ -10,8 +10,8 @@
     "version": "1.0.2",
     "installs": "10,000+",
     "score": 4.7,
-    "ratings": 2295,
-    "reviews": 308,
+    "ratings": 2413,
+    "reviews": 337,
     "developer": "LIGHTYEAR MATRIX LIMITED",
     "genre": "Role Playing",
     "recentChanges": "1. 優化網路<br>2. 修復已知BUG"
@@ -33,9 +33,9 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 18 天，評分 4.7",
+      "detail": "上架 19 天，評分 4.7",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:53:11.888Z"
+  "analyzedAt": "2026-05-31T15:28:44.712Z"
 }

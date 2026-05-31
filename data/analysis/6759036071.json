@@ -8,8 +8,8 @@
     "released": "2026-05-28T07:00:00Z",
     "updated": "2026-05-28T07:00:00Z",
     "version": "1.1",
-    "score": 1.9,
-    "reviews": 83,
+    "score": 1.8,
+    "reviews": 163,
     "developer": "CCR HOLDINGS Co., Ltd.",
     "developerUrl": "https://apps.apple.com/kr/developer/ccr-holdings-co-ltd/id1876476362?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:52:11.961Z"
+  "analyzedAt": "2026-05-31T15:27:50.383Z"
 }

@@ -1,0 +1,44 @@
+{
+  "appId": "6477413486",
+  "name": "Level Devil - NOT A Troll Game",
+  "platform": "ios",
+  "market": "jp",
+  "detail": {
+    "description": "BIG, BEAUTIFUL UPDATE\n- ~200 levels that will make you cry literal tears of joy\n- Updated graphics so intense your apple phone will esplode\n- Gameplay even more relaxing and safe for all\n- Added soft and cozy bullets and bombs alongside the adorable buzzsaws\n- \n- A real ending for all the delicate flowers that cried in their pillows about the original ending.\n- Now you can speed run by pushing the speed run button",
+    "released": "2024-02-11T08:00:00Z",
+    "updated": "2026-05-11T18:07:44Z",
+    "version": "1.1.3",
+    "score": 4.8,
+    "reviews": 11066,
+    "developer": "Poki B.V.",
+    "developerUrl": "https://apps.apple.com/jp/developer/poki-b-v/id917275544?uo=4",
+    "genres": [
+      "ゲーム",
+      "アドベンチャー",
+      "アクション"
+    ],
+    "releaseNotes": "Made Part 3 slightly more survivable. Emphasis on slightly."
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "unknown",
+      "label": "🔍 待深入調查",
+      "detail": "未能自動推測原因，建議手動查看",
+      "confidence": "low"
+    }
+  ],
+  "analyzedAt": "2026-05-31T15:30:40.632Z"
+}

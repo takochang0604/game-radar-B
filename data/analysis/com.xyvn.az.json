@@ -10,31 +10,31 @@
     "version": "1.2.0",
     "installs": "10,000+",
     "score": 4.7,
-    "ratings": 695,
-    "reviews": 223,
+    "ratings": 793,
+    "reviews": 236,
     "developer": "WEPLAY LTD",
     "genre": "Role Playing"
   },
   "reviewAnalysis": {
-    "total": 1,
+    "total": 4,
     "starCounts": {
       "1": 1,
       "2": 0,
       "3": 0,
       "4": 0,
-      "5": 0
+      "5": 3
     },
-    "positiveRatio": 0,
-    "negativeRatio": 100,
+    "positiveRatio": 75,
+    "negativeRatio": 25,
     "eventMentions": []
   },
   "inferredReasons": [
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 18 天，評分 4.7",
+      "detail": "上架 19 天，評分 4.7",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:53:31.555Z"
+  "analyzedAt": "2026-05-31T15:29:03.389Z"
 }

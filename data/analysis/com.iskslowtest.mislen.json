@@ -10,7 +10,7 @@
     "version": "1.7102",
     "installs": "5,000,000+",
     "score": 4.5,
-    "ratings": 84899,
+    "ratings": 84963,
     "reviews": 5438,
     "developer": "Mars-Games",
     "developerWebsite": "https://isekai-slowlife.mars.games/",
@@ -20,15 +20,27 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 51,
+      "1": 50,
       "2": 29,
-      "3": 25,
+      "3": 26,
       "4": 23,
       "5": 72
     },
     "positiveRatio": 48,
     "negativeRatio": 40,
     "eventMentions": [
+      {
+        "text": "for anyone joining for the slime event; there is no possible way to get all the tickets you need to ",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "this game does a lot of crossover events but is pay to win and a cash grab to the extreme. you will ",
+        "keywords": [
+          "event"
+        ]
+      },
       {
         "text": "apothecary at potion nuture still not fixed ... its still bugged cant upgrade ... red system keep ap",
         "keywords": [
@@ -47,19 +59,6 @@
         "keywords": [
           "event"
         ]
-      },
-      {
-        "text": "sometimes feels neither f2p friendly with some events nor even dolphins. you must be a whale for som",
-        "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "i tried out the game because of the slime isekai collab. i was genuinely having a decent time at fir",
-        "keywords": [
-          "event",
-          "collab"
-        ]
       }
     ]
   },
@@ -67,7 +66,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 2 天前",
       "confidence": "high"
     },
     {
@@ -77,5 +76,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:57:27.625Z"
+  "analyzedAt": "2026-05-31T15:31:41.661Z"
 }

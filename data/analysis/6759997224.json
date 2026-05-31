@@ -6,10 +6,10 @@
   "detail": {
     "description": "당신은 마을의 작은 파출소의 순경입니다.\n평소의 순찰부터 현장 수사까지!\n마을의 평화를 지키기 위해 일반인 속에 숨어든 범죄자를 체포하라!\n\n▼플레이 방법\n・마을을 순찰하세요\n・주민을 만나면 질문을 하세요\n・질문을 하면서 잘 관찰하여 체포할지 결정하세요\n・범죄자를 체포하면 그 자리에서 사라져 감옥으로!\n・가끔 발생하는 흉악한 사건도 현장에서 범인을 잡으세요!\n・범죄자를 많이 체포할수록 승진합니다!\n\n▼이런 분께 추천\n・추리 게임을 좋아하는 분\n・관찰력을 시험해보고 싶은 분\n・마을의 평화를 지키고 싶은 정의로운 분\n・가볍고 템포 빠르게 진행되는 게임을 좋아하는 분\n\n스테이지 추가 예정!",
     "released": "2026-04-30T07:00:00Z",
-    "updated": "2026-05-08T02:01:20Z",
-    "version": "1.0.4",
+    "updated": "2026-05-28T01:04:35Z",
+    "version": "1.0.5",
     "score": 4.2,
-    "reviews": 72,
+    "reviews": 190,
     "developer": "KARAAGE GAMES LLC",
     "developerUrl": "https://apps.apple.com/kr/developer/karaage-games-llc/id1779832563?uo=4",
     "genres": [
@@ -17,7 +17,7 @@
       "시뮬레이션",
       "캐주얼"
     ],
-    "releaseNotes": "Bug fixes."
+    "releaseNotes": "English language support added."
   },
   "reviewAnalysis": {
     "total": 0,
@@ -34,17 +34,11 @@
   },
   "inferredReasons": [
     {
-      "type": "new_release",
-      "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 18 天，評分 4.2",
-      "confidence": "high"
-    },
-    {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 10 天前",
-      "confidence": "medium"
+      "detail": "最近更新: 3 天前",
+      "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-18T11:38:24.130Z"
+  "analyzedAt": "2026-05-31T15:31:00.478Z"
 }

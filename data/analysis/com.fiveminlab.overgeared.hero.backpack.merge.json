@@ -9,9 +9,9 @@
     "updated": 1779915435000,
     "version": "1.31.4",
     "installs": "500,000+",
-    "score": 4.7,
-    "ratings": 14624,
-    "reviews": 194,
+    "score": 4.8,
+    "ratings": 15446,
+    "reviews": 202,
     "developer": "5minlab Corp.",
     "developerWebsite": "http://overgearedhero.com",
     "genre": "Strategy"
@@ -19,15 +19,27 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 47,
-      "2": 15,
-      "3": 16,
-      "4": 20,
-      "5": 102
+      "1": 45,
+      "2": 16,
+      "3": 18,
+      "4": 23,
+      "5": 98
     },
     "positiveRatio": 61,
     "negativeRatio": 31,
     "eventMentions": [
+      {
+        "text": "game has good esthetics. backpack grinders are nothing new, but this one at least tries to keep your",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "not really f2p although i do try to grind my way to get stuff. each chapter gets harder and the rewa",
+        "keywords": [
+          "event"
+        ]
+      },
       {
         "text": "this game is great, gameplay wise. it's addicting and also very easy to play. but my main complaint ",
         "keywords": [
@@ -45,18 +57,6 @@
         "keywords": [
           "new"
         ]
-      },
-      {
-        "text": "the game is pretty cool taking mergers to a new level",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "if i had a dollar every time i fun little mobile game was ruined by utterly vile money grubbing and ",
-        "keywords": [
-          "new"
-        ]
       }
     ]
   },
@@ -64,13 +64,13 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 5 天，評分 4.7",
+      "detail": "上架 6 天，評分 4.8",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     },
     {
@@ -80,5 +80,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:50:20.936Z"
+  "analyzedAt": "2026-05-31T15:25:25.094Z"
 }

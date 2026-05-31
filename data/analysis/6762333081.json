@@ -9,7 +9,7 @@
     "updated": "2026-05-26T08:27:38Z",
     "version": "1.1",
     "score": 4.8,
-    "reviews": 1362,
+    "reviews": 1244,
     "developer": "HALE CHOU PTE. LTD.",
     "developerUrl": "https://apps.apple.com/cn/developer/hale-chou-pte-ltd/id1769582889?uo=4",
     "genres": [
@@ -36,15 +36,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 4 天，評分 4.8",
+      "detail": "上架 5 天，評分 4.8",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:52:54.698Z"
+  "analyzedAt": "2026-05-31T15:28:37.508Z"
 }

@@ -9,8 +9,8 @@
     "updated": 1779262739000,
     "version": "1.3.7",
     "installs": "10,000+",
-    "score": 4.8,
-    "ratings": 114,
+    "score": 4.7,
+    "ratings": 134,
     "reviews": 7,
     "developer": "hortor games",
     "genre": "Casual",
@@ -33,15 +33,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 12 天，評分 4.8",
+      "detail": "上架 13 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 10 天前",
+      "detail": "最近更新: 11 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:54:29.559Z"
+  "analyzedAt": "2026-05-31T15:29:12.735Z"
 }

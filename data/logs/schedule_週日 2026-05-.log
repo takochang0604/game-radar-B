@@ -1,0 +1,1360 @@
+==================================== 
+ Game Rank Auto Update (Scheduled) 
+ Started: 週日 2026/05/31 22:30:02.07 
+==================================== 
+Working dir: c:\Users\User\Desktop\遊戲產品競爭力分析 
+ 
+[0/5] Git pull (sync data from other computer)... 
+From https://github.com/takochang0604/game-radar
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+ 
+[1/5] Fetching rankings... 
+
+> game-competitive-analysis@1.0.0 fetch
+> node scripts/fetch-rankings.js
+
+
+╔══════════════════════════════════════════════╗
+║  🎮 遊戲產品競爭力分析 — 排行榜快照採集     ║
+╚══════════════════════════════════════════════╝
+📅 日期: 2026-05-31
+📁 儲存: c:\Users\User\Desktop\遊戲產品競爭力分析\data\snapshots\2026-05-31
+📋 GP 子分類: 6 個（精簡模式）
+
+
+🌍 🇺🇸 美國 (US)
+────────────────────────────────────────
+[下午10:30:03]   📱 GP | US | GAME (主排名) | topfree
+[下午10:30:04]   ✅ 主排名取得 200 筆
+[下午10:30:06]   📱 GP | US | GAME_ACTION | topfree (補充)
+[下午10:30:08]   📱 GP | US | GAME_ROLE_PLAYING | topfree (補充)
+[下午10:30:10]   📱 GP | US | GAME_STRATEGY | topfree (補充)
+[下午10:30:13]   📱 GP | US | GAME_CASUAL | topfree (補充)
+[下午10:30:15]   📱 GP | US | GAME_SIMULATION | topfree (補充)
+[下午10:30:17]   📱 GP | US | GAME_ADVENTURE | topfree (補充)
+[下午10:30:19]   🔍 補充 Top 50 詳細資料 (android)
+[下午10:31:00]   📋 補充完成: 成功 50/50
+[下午10:31:00]   ✅ 已儲存 100 筆 → us_android_topfree.json
+[下午10:31:00]   🍎 iOS | US | topfree
+[下午10:31:03]   🔍 補充 Top 50 詳細資料 (ios)
+[下午10:31:40]   📋 補充完成: 成功 50/50
+[下午10:31:40]   ✅ 已儲存 94 筆 → us_ios_topfree.json
+[下午10:31:42]   📱 GP | US | GAME (主排名) | grossing
+[下午10:31:43]   ✅ 主排名取得 200 筆
+[下午10:31:45]   📱 GP | US | GAME_ACTION | grossing (補充)
+[下午10:31:47]   📱 GP | US | GAME_ROLE_PLAYING | grossing (補充)
+[下午10:31:49]   📱 GP | US | GAME_STRATEGY | grossing (補充)
+[下午10:31:52]   📱 GP | US | GAME_CASUAL | grossing (補充)
+[下午10:31:54]   📱 GP | US | GAME_SIMULATION | grossing (補充)
+[下午10:31:56]   📱 GP | US | GAME_ADVENTURE | grossing (補充)
+[下午10:31:58]   🔍 補充 Top 50 詳細資料 (android)
+[下午10:32:43]   📋 補充完成: 成功 50/50
+[下午10:32:43]   ✅ 已儲存 100 筆 → us_android_grossing.json
+[下午10:32:43]   🍎 iOS | US | grossing
+[下午10:32:46]   🔍 補充 Top 50 詳細資料 (ios)
+[下午10:33:21]   📋 補充完成: 成功 50/50
+[下午10:33:21]   ✅ 已儲存 83 筆 → us_ios_grossing.json
+
+🌍 🇯🇵 日本 (JP)
+────────────────────────────────────────
+[下午10:33:23]   📱 GP | JP | GAME (主排名) | topfree
+[下午10:33:23]   ✅ 主排名取得 200 筆
+[下午10:33:25]   📱 GP | JP | GAME_ACTION | topfree (補充)
+[下午10:33:27]   📱 GP | JP | GAME_ROLE_PLAYING | topfree (補充)
+[下午10:33:30]   📱 GP | JP | GAME_STRATEGY | topfree (補充)
+[下午10:33:32]   📱 GP | JP | GAME_CASUAL | topfree (補充)
+[下午10:33:34]   📱 GP | JP | GAME_SIMULATION | topfree (補充)
+[下午10:33:36]   📱 GP | JP | GAME_ADVENTURE | topfree (補充)
+[下午10:33:39]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #4 風と竜の歌: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #37 ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #44 [777Real]パチスロ 炎炎ノ消防隊: Cannot read properties of undefined (reading 'length')
+[下午10:34:17]   📋 補充完成: 成功 47/50 (失敗 3)
+[下午10:34:17]   ✅ 已儲存 100 筆 → jp_android_topfree.json
+[下午10:34:17]   🍎 iOS | JP | topfree
+[下午10:34:21]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #7 ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG: App not found: 6747736697
+    ⚠️ 補充失敗 #18 TopTop(トップトップ): サクッと遊んで、パッと友達: App not found: 6742122160
+    ⚠️ 補充失敗 #28 にゃんこ大戦争: App not found: 547145938
+    ⚠️ 補充失敗 #31 ルミナアビス：光と闇を紡ぐ少女たち: App not found: 6764547626
+    ⚠️ 補充失敗 #47 ドラゴンボール レジェンズ: App not found: 1358232022
+    ⚠️ 補充失敗 #48 うさぎのコイン落とし by クラシル: App not found: 6761601738
+[下午10:35:03]   📋 補充完成: 成功 44/50 (失敗 6)
+[下午10:35:03]   ✅ 已儲存 98 筆 → jp_ios_topfree.json
+[下午10:35:05]   📱 GP | JP | GAME (主排名) | grossing
+[下午10:35:05]   ✅ 主排名取得 200 筆
+[下午10:35:07]   📱 GP | JP | GAME_ACTION | grossing (補充)
+[下午10:35:10]   📱 GP | JP | GAME_ROLE_PLAYING | grossing (補充)
+[下午10:35:12]   📱 GP | JP | GAME_STRATEGY | grossing (補充)
+[下午10:35:14]   📱 GP | JP | GAME_CASUAL | grossing (補充)
+[下午10:35:16]   📱 GP | JP | GAME_SIMULATION | grossing (補充)
+[下午10:35:18]   📱 GP | JP | GAME_ADVENTURE | grossing (補充)
+[下午10:35:21]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #10 Genshin Impact: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #14 GODDESS OF VICTORY: NIKKE: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #15 Wuthering Waves - 2nd Anniv.: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #31 信長の野望 真戦: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #35 NTE: Neverness to Everness: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #39 放置少女 - 百花繚乱の萌姫たち: App not found (404)
+    ⚠️ 補充失敗 #41 ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG: Cannot read properties of undefined (reading 'length')
+[下午10:36:07]   📋 補充完成: 成功 43/50 (失敗 7)
+[下午10:36:07]   ✅ 已儲存 100 筆 → jp_android_grossing.json
+[下午10:36:07]   🍎 iOS | JP | grossing
+[下午10:36:10]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #1 SDガンダム ジージェネレーション エターナル: App not found: 6692611665
+    ⚠️ 補充失敗 #2 三國志 真戦: App not found: 1524742294
+    ⚠️ 補充失敗 #5 あんさんぶるスターズ！！Music: App not found: 1494428618
+    ⚠️ 補充失敗 #8 プロ野球スピリッツＡ: App not found: 940320341
+    ⚠️ 補充失敗 #10 モンスターストライク: App not found: 658511662
+    ⚠️ 補充失敗 #13 グランブルーファンタジー: App not found: 852882903
+    ⚠️ 補充失敗 #15 ドラゴンクエストウォーク 歩く楽しみが増える位置情報ゲーム: App not found: 1439417234
+    ⚠️ 補充失敗 #17 にゃんこ大戦争: App not found: 547145938
+    ⚠️ 補充失敗 #20 ウマ娘 プリティーダービー: App not found: 1325457827
+    ⚠️ 補充失敗 #21 LINE：ディズニー ツムツム: App not found: 724594093
+    ⚠️ 補充失敗 #22 ONE PIECE バウンティラッシュ - アクションゲーム: App not found: 1322310031
+    ⚠️ 補充失敗 #25 デュエル・マスターズ プレイス: App not found: 1478829750
+    ⚠️ 補充失敗 #26 ONE PIECE トレジャークルーズ: App not found: 824116884
+    ⚠️ 補充失敗 #27 ドラゴンボール レジェンズ: App not found: 1358232022
+    ⚠️ 補充失敗 #28 パズル＆ドラゴンズ: App not found: 493470467
+    ⚠️ 補充失敗 #29 LINE ポコポコ：3マッチパズルゲーム: App not found: 888615473
+    ⚠️ 補充失敗 #30 七つの大罪 光と闇の交戦 : グラクロ: App not found: 1268959718
+    ⚠️ 補充失敗 #31 学園アイドルマスター: App not found: 6446659989
+    ⚠️ 補充失敗 #33 ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG: App not found: 6747736697
+    ⚠️ 補充失敗 #35 プロジェクトセカイ カラフルステージ！ feat. 初音ミク: App not found: 1489932710
+    ⚠️ 補充失敗 #36 #コンパス【戦闘摂理解析システム】: App not found: 1164400646
+    ⚠️ 補充失敗 #38 恋と深空: App not found: 6443467980
+    ⚠️ 補充失敗 #40 呪術廻戦 ファントムパレード: App not found: 1551798277
+    ⚠️ 補充失敗 #41 Fate/Grand Order: App not found: 1015521325
+    ⚠️ 補充失敗 #48 ドラゴンボールZ ドッカンバトル: App not found: 951627670
+    ⚠️ 補充失敗 #49 ロマンシング サガ リ・ユニバース/戦略RPG: App not found: 1397702917
+[下午10:37:27]   📋 補充完成: 成功 24/50 (失敗 26)
+[下午10:37:27]   ✅ 已儲存 98 筆 → jp_ios_grossing.json
+
+🌍 🇰🇷 韓國 (KR)
+────────────────────────────────────────
+[下午10:37:29]   📱 GP | KR | GAME (主排名) | topfree
+[下午10:37:30]   ✅ 主排名取得 200 筆
+[下午10:37:32]   📱 GP | KR | GAME_ACTION | topfree (補充)
+[下午10:37:34]   📱 GP | KR | GAME_ROLE_PLAYING | topfree (補充)
+[下午10:37:36]   📱 GP | KR | GAME_STRATEGY | topfree (補充)
+[下午10:37:38]   📱 GP | KR | GAME_CASUAL | topfree (補充)
+[下午10:37:41]   📱 GP | KR | GAME_SIMULATION | topfree (補充)
+[下午10:37:43]   📱 GP | KR | GAME_ADVENTURE | topfree (補充)
+[下午10:37:45]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #3 패왕의별M:한국무협 IP 1억뷰기념 1억은자 지급: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #4 다크슬레이어 2 : 방치형 RPG: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #8 배고파용 키우기 : 방치형 RPG: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #11 밤탈출 - 49일: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #12 Sudoku: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #14 더 코지 플로리스트: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #23 인투더던전:리본: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #47 Game of Thrones Kingsroad: Cannot read properties of undefined (reading 'length')
+[下午10:38:32]   📋 補充完成: 成功 42/50 (失敗 8)
+[下午10:38:32]   ✅ 已儲存 100 筆 → kr_android_topfree.json
+[下午10:38:32]   🍎 iOS | KR | topfree
+[下午10:38:35]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #2 천년의 구미호 키우기: App not found: 6756037863
+    ⚠️ 補充失敗 #3 포트리스3 BLUE: App not found: 6759036071
+    ⚠️ 補充失敗 #4 패왕의별M:한국무협 IP 1억뷰기념 1억은자 지급: App not found: 6761399468
+    ⚠️ 補充失敗 #6 더 코지 플로리스트: App not found: 6760822948
+    ⚠️ 補充失敗 #16 오늘의 꽃 : 진짜 꽃을 키우는 게임: App not found: 6759822089
+    ⚠️ 補充失敗 #17 NBA Basketball World 2026: App not found: 6762259371
+    ⚠️ 補充失敗 #21 밤탈출 - 49일: App not found: 6760175759
+    ⚠️ 補充失敗 #28 TopTop: 게임, 채팅 & 친구들: App not found: 6760818996
+    ⚠️ 補充失敗 #32 배틀그라운드: App not found: 1366526331
+    ⚠️ 補充失敗 #34 EA SPORTS FC Online M: App not found: 1273957743
+    ⚠️ 補充失敗 #45 라스트 라이트: App not found: 6758203014
+[下午10:39:29]   📋 補充完成: 成功 39/50 (失敗 11)
+[下午10:39:29]   ✅ 已儲存 100 筆 → kr_ios_topfree.json
+[下午10:39:31]   📱 GP | KR | GAME (主排名) | grossing
+[下午10:39:31]   ✅ 主排名取得 200 筆
+[下午10:39:33]   📱 GP | KR | GAME_ACTION | grossing (補充)
+[下午10:39:36]   📱 GP | KR | GAME_ROLE_PLAYING | grossing (補充)
+[下午10:39:38]   📱 GP | KR | GAME_STRATEGY | grossing (補充)
+[下午10:39:40]   📱 GP | KR | GAME_CASUAL | grossing (補充)
+[下午10:39:42]   📱 GP | KR | GAME_SIMULATION | grossing (補充)
+[下午10:39:45]   📱 GP | KR | GAME_ADVENTURE | grossing (補充)
+[下午10:39:47]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #6 리니지M: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #10 GODDESS OF VICTORY: NIKKE: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #11 오딘: 발할라 라이징: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #15 Wuthering Waves - 2nd Anniv.: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #20 Seven Knights Re:BIRTH: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #25 Genshin Impact: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #27 I9: 인페르노 나인: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #29 MONGIL: STAR DIVE: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #31 AION2: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #38 뮤 모나크2: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #41 나이트 크로우: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #42 임진왜란: 조선의 반격: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #43 NTE: Neverness to Everness: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #50 Summoners War: Cannot read properties of undefined (reading 'length')
+[下午10:40:44]   📋 補充完成: 成功 36/50 (失敗 14)
+[下午10:40:44]   ✅ 已儲存 100 筆 → kr_android_grossing.json
+[下午10:40:44]   🍎 iOS | KR | grossing
+[下午10:40:47]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #7 삼국지 전략판: App not found: 1524791715
+    ⚠️ 補充失敗 #10 EA SPORTS FC Online M: App not found: 1273957743
+    ⚠️ 補充失敗 #11 리니지M: App not found: 1474589366
+    ⚠️ 補充失敗 #20 FC 모바일: App not found: 1478371252
+    ⚠️ 補充失敗 #23 배틀그라운드: App not found: 1366526331
+    ⚠️ 補充失敗 #29 마비노기 모바일: App not found: 1441742921
+    ⚠️ 補充失敗 #37 러브앤딥스페이스: App not found: 6443468110
+    ⚠️ 補充失敗 #42 냥코 대전쟁: App not found: 848091833
+    ⚠️ 補充失敗 #43 한게임 섯다&맞고: App not found: 1471942989
+    ⚠️ 補充失敗 #45 특급 주령의 위협: App not found: 6761156133
+    ⚠️ 補充失敗 #46 쿠키런: App not found: 608808713
+    ⚠️ 補充失敗 #47 리니지M(12): App not found: 1128255542
+[下午10:41:39]   📋 補充完成: 成功 38/50 (失敗 12)
+[下午10:41:39]   ✅ 已儲存 97 筆 → kr_ios_grossing.json
+
+🌍 🇨🇳 中國 (CN)
+────────────────────────────────────────
+[下午10:41:41]   🍎 iOS | CN | topfree
+[下午10:41:44]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #1 王者荣耀世界: App not found: 1612566389
+    ⚠️ 補充失敗 #2 三角洲行动: App not found: 1642894547
+    ⚠️ 補充失敗 #3 攀爬动物: App not found: 6760543624
+    ⚠️ 補充失敗 #4 王者荣耀: App not found: 989673964
+    ⚠️ 補充失敗 #5 无畏契约：源能行动: App not found: 6535673811
+    ⚠️ 補充失敗 #6 和平精英: App not found: 1321803705
+    ⚠️ 補充失敗 #7 卡厄思梦境: App not found: 6751272153
+    ⚠️ 補充失敗 #8 蛋仔派对: App not found: 1544884479
+    ⚠️ 補充失敗 #9 我的世界：移动版: App not found: 1243986797
+    ⚠️ 補充失敗 #11 宗师之上: App not found: 6755095931
+    ⚠️ 補充失敗 #12 洛克王国：世界: App not found: 6478654994
+    ⚠️ 補充失敗 #13 迷你世界: App not found: 1170455562
+    ⚠️ 補充失敗 #14 奇妙卡牌世界 - 纸牌字谜分类词语接龙: App not found: 6757834072
+    ⚠️ 補充失敗 #15 金铲铲之战: App not found: 1478101301
+    ⚠️ 補充失敗 #16 云·异环: App not found: 6767085511
+    ⚠️ 補充失敗 #17 超自然行动组: App not found: 6544797261
+    ⚠️ 補充失敗 #19 贪吃蛇大作战®: App not found: 1120536875
+    ⚠️ 補充失敗 #20 鹅鸭杀: App not found: 6740756173
+    ⚠️ 補充失敗 #21 腾讯欢乐斗地主: App not found: 446324234
+    ⚠️ 補充失敗 #22 地铁跑酷 -海底列车进站中: App not found: 995122577
+    ⚠️ 補充失敗 #24 火影忍者: App not found: 955396648
+    ⚠️ 補充失敗 #25 光·遇: App not found: 1344733855
+    ⚠️ 補充失敗 #26 东煌纪: App not found: 6762333081
+    ⚠️ 補充失敗 #28 植物大战僵尸2: App not found: 639516529
+    ⚠️ 補充失敗 #29 飞机大厨：空中烹饪: App not found: 6738345439
+    ⚠️ 補充失敗 #30 永远的蔚蓝星球-周杰伦代言: App not found: 6502348074
+    ⚠️ 補充失敗 #31 QQ飞车: App not found: 1235504705
+    ⚠️ 補充失敗 #33 燕云十六声: App not found: 6475668638
+    ⚠️ 補充失敗 #34 神庙逃亡2: App not found: 1014227673
+    ⚠️ 補充失敗 #35 疯狂水世界: App not found: 6757172630
+    ⚠️ 補充失敗 #36 心跳陷落: App not found: 6760686111
+    ⚠️ 補充失敗 #37 第五人格: App not found: 1330863325
+    ⚠️ 補充失敗 #38 穿越火线-枪战王者: App not found: 1042545880
+    ⚠️ 補充失敗 #39 暗区突围: App not found: 1505445106
+    ⚠️ 補充失敗 #40 七塔: App not found: 6756300629
+    ⚠️ 補充失敗 #41 英雄联盟手游: App not found: 1455054000
+    ⚠️ 補充失敗 #43 巅峰极速-趣游华夏: App not found: 1498874997
+    ⚠️ 補充失敗 #45 猫咪整理师 - 房间造景布置 整理收纳达人: App not found: 6752363458
+    ⚠️ 補充失敗 #46 欢乐麻将: App not found: 689180123
+    ⚠️ 補充失敗 #47 异环: App not found: 6514281568
+    ⚠️ 補充失敗 #48 梦想城镇 - Township: App not found: 1612426573
+    ⚠️ 補充失敗 #49 千万别点错: App not found: 6761234103
+[下午10:43:27]   📋 補充完成: 成功 8/50 (失敗 42)
+[下午10:43:27]   ✅ 已儲存 100 筆 → cn_ios_topfree.json
+[下午10:43:29]   🍎 iOS | CN | grossing
+[下午10:43:31]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #1 王者荣耀: App not found: 989673964
+    ⚠️ 補充失敗 #2 和平精英: App not found: 1321803705
+    ⚠️ 補充失敗 #3 无尽冬日: App not found: 6478492012
+    ⚠️ 補充失敗 #4 三角洲行动: App not found: 1642894547
+    ⚠️ 補充失敗 #5 无畏契约：源能行动: App not found: 6535673811
+    ⚠️ 補充失敗 #6 梦幻西游: App not found: 940547441
+    ⚠️ 補充失敗 #8 地下城与勇士：起源: App not found: 1529851592
+    ⚠️ 補充失敗 #9 蛋仔派对: App not found: 1544884479
+    ⚠️ 補充失敗 #10 宗师之上: App not found: 6755095931
+    ⚠️ 補充失敗 #11 恋与深空: App not found: 1618911882
+    ⚠️ 補充失敗 #12 金铲铲之战: App not found: 1478101301
+    ⚠️ 補充失敗 #13 捕鱼大作战-街机打鱼游戏王者: App not found: 1525863146
+    ⚠️ 補充失敗 #14 洛克王国：世界: App not found: 6478654994
+    ⚠️ 補充失敗 #15 英雄联盟手游: App not found: 1455054000
+    ⚠️ 補充失敗 #16 三国志·战略版: App not found: 1474572440
+    ⚠️ 補充失敗 #17 向僵尸开炮-尸潮来袭: App not found: 6474293468
+    ⚠️ 補充失敗 #18 光·遇: App not found: 1344733855
+    ⚠️ 補充失敗 #19 火影忍者: App not found: 955396648
+    ⚠️ 補充失敗 #20 穿越火线-枪战王者: App not found: 1042545880
+    ⚠️ 補充失敗 #21 超自然行动组: App not found: 6544797261
+    ⚠️ 補充失敗 #22 心动小镇: App not found: 1561903786
+    ⚠️ 補充失敗 #23 时尚百货城: App not found: 6752632961
+    ⚠️ 補充失敗 #24 腾讯欢乐斗地主: App not found: 446324234
+    ⚠️ 補充失敗 #25 我的花园世界: App not found: 6746321359
+    ⚠️ 補充失敗 #26 永远的蔚蓝星球-周杰伦代言: App not found: 6502348074
+    ⚠️ 補充失敗 #27 捕鱼大咖-畅爽3D街机捕鱼游戏: App not found: 1561105019
+    ⚠️ 補充失敗 #28 原神·空月之歌: App not found: 1467190251
+    ⚠️ 補充失敗 #29 奔奔王国: App not found: 6748527570
+    ⚠️ 補充失敗 #30 卡厄思梦境: App not found: 6751272153
+    ⚠️ 補充失敗 #31 逆水寒: App not found: 1541570980
+    ⚠️ 補充失敗 #32 王者荣耀世界: App not found: 1612566389
+    ⚠️ 補充失敗 #33 异环: App not found: 6514281568
+    ⚠️ 補充失敗 #34 阴阳师: App not found: 895670960
+    ⚠️ 補充失敗 #35 指尖四川麻将: App not found: 891616303
+    ⚠️ 補充失敗 #36 鱼乐达人-王者捕鱼电玩街机打鱼游戏: App not found: 1665337957
+    ⚠️ 補充失敗 #37 FC足球世界-Next: App not found: 1305599559
+    ⚠️ 補充失敗 #38 暗区突围: App not found: 1505445106
+    ⚠️ 補充失敗 #40 三国：谋定天下: App not found: 6466232155
+    ⚠️ 補充失敗 #41 使命召唤手游: App not found: 1488410151
+    ⚠️ 補充失敗 #42 途游休闲捕鱼-百万倍街机王者大作战: App not found: 1570790378
+    ⚠️ 補充失敗 #44 三国：冰河时代: App not found: 6503432459
+    ⚠️ 補充失敗 #45 率土之滨: App not found: 909211092
+    ⚠️ 補充失敗 #46 保卫向日葵: App not found: 6737974680
+    ⚠️ 補充失敗 #48 大话西游：归来: App not found: 6444670359
+    ⚠️ 補充失敗 #49 鹅鸭杀: App not found: 6740756173
+    ⚠️ 補充失敗 #50 崩坏：星穹铁道: App not found: 1523037824
+[下午10:45:15]   📋 補充完成: 成功 4/50 (失敗 46)
+[下午10:45:15]   ✅ 已儲存 100 筆 → cn_ios_grossing.json
+
+🌍 🇹🇼 台灣 (TW)
+────────────────────────────────────────
+[下午10:45:17]   📱 GP | TW | GAME (主排名) | topfree
+[下午10:45:17]   ✅ 主排名取得 200 筆
+[下午10:45:19]   📱 GP | TW | GAME_ACTION | topfree (補充)
+[下午10:45:21]   📱 GP | TW | GAME_ROLE_PLAYING | topfree (補充)
+[下午10:45:24]   📱 GP | TW | GAME_STRATEGY | topfree (補充)
+[下午10:45:26]   📱 GP | TW | GAME_CASUAL | topfree (補充)
+[下午10:45:28]   📱 GP | TW | GAME_SIMULATION | topfree (補充)
+[下午10:45:30]   📱 GP | TW | GAME_ADVENTURE | topfree (補充)
+[下午10:45:33]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #1 青丘世界：緣起: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #4 超時空街球對決: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #6 SNK：全明星覺醒: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #9 Match Go! Heroes: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #18 異環: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #20 無盡輪迴：鬼域摸金: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #32 Game of Thrones Kingsroad: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #36 新熱血江湖：世界: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #39 仙逆M-官方正版授權: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #48 挖你老墓: Cannot read properties of undefined (reading 'length')
+[下午10:46:22]   📋 補充完成: 成功 40/50 (失敗 10)
+[下午10:46:22]   ✅ 已儲存 100 筆 → tw_android_topfree.json
+[下午10:46:22]   🍎 iOS | TW | topfree
+[下午10:46:25]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #4 青丘世界：緣起: App not found: 6759824994
+    ⚠️ 補充失敗 #5 老爹熱炒店: App not found: 6444692469
+    ⚠️ 補充失敗 #6 車車屍搭普 - 阿西道長送你專屬豪禮: App not found: 6760377678
+    ⚠️ 補充失敗 #8 超時空街球對決: App not found: 6757519748
+    ⚠️ 補充失敗 #10 無盡輪迴：鬼域摸金: App not found: 6759596187
+    ⚠️ 補充失敗 #25 玩星派對: App not found: 6448721818
+    ⚠️ 補充失敗 #27 異環: App not found: 6751030003
+    ⚠️ 補充失敗 #28 SNK：全明星覺醒: App not found: 6758696885
+    ⚠️ 補充失敗 #30 Garena® 三角洲行動: App not found: 6670604287
+    ⚠️ 補充失敗 #31 最終曙光（Last Light）: App not found: 6754688265
+    ⚠️ 補充失敗 #36 這個男人叫小帥: App not found: 6755100023
+    ⚠️ 補充失敗 #39 Garena 傳說對決：進擊的巨人作戰開始！: App not found: 1089079153
+    ⚠️ 補充失敗 #44 超能戰爭: App not found: 6749109328
+[下午10:47:18]   📋 補充完成: 成功 37/50 (失敗 13)
+[下午10:47:18]   ✅ 已儲存 99 筆 → tw_ios_topfree.json
+[下午10:47:20]   📱 GP | TW | GAME (主排名) | grossing
+[下午10:47:21]   ✅ 主排名取得 200 筆
+[下午10:47:23]   📱 GP | TW | GAME_ACTION | grossing (補充)
+[下午10:47:25]   📱 GP | TW | GAME_ROLE_PLAYING | grossing (補充)
+[下午10:47:27]   📱 GP | TW | GAME_STRATEGY | grossing (補充)
+[下午10:47:30]   📱 GP | TW | GAME_CASUAL | grossing (補充)
+[下午10:47:32]   📱 GP | TW | GAME_SIMULATION | grossing (補充)
+[下午10:47:35]   📱 GP | TW | GAME_ADVENTURE | grossing (補充)
+[下午10:47:37]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #10 燕雲十六聲: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #12 RO仙境傳説：世界之旅: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #20 Wuthering Waves - 2nd Anniv.: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #21 青丘世界：緣起: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #23 老子有錢 - 曾國城 X 籃籃唯一推薦 大獎爆不停: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #24 仙逆M-官方正版授權: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #27 無盡輪迴：鬼域摸金: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #30 新熱血江湖：世界: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #33 SNK：全明星覺醒: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #35 Genshin Impact: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #36 豪神娛樂城-戰神賽特、麻將、捕魚、賓果、水果盤、拉霸、老虎機: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #38 勝利女神：妮姬: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #44 奧丁 : 神叛: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #49 超時空街球對決: Cannot read properties of undefined (reading 'length')
+[下午10:48:34]   📋 補充完成: 成功 36/50 (失敗 14)
+[下午10:48:34]   ✅ 已儲存 100 筆 → tw_android_grossing.json
+[下午10:48:34]   🍎 iOS | TW | grossing
+[下午10:48:37]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #1 三國志・戰略版: App not found: 1530758357
+    ⚠️ 補充失敗 #5 Garena 傳說對決：進擊的巨人作戰開始！: App not found: 1089079153
+    ⚠️ 補充失敗 #8 青丘世界：緣起: App not found: 6759824994
+    ⚠️ 補充失敗 #12 RO仙境傳説：世界之旅: App not found: 6749527002
+    ⚠️ 補充失敗 #13 超時空街球對決: App not found: 6757519748
+    ⚠️ 補充失敗 #14 戀與深空: App not found: 6443468077
+    ⚠️ 補充失敗 #20 PUBG MOBILE：絕地求生M: App not found: 1453363650
+    ⚠️ 補充失敗 #21 燕雲十六聲: App not found: 6744796128
+    ⚠️ 補充失敗 #23 無盡輪迴：鬼域摸金: App not found: 6759596187
+    ⚠️ 補充失敗 #24 決勝時刻: Mobile - Garena: App not found: 1465688043
+    ⚠️ 補充失敗 #27 杖劍傳說：坎斯汀之約: App not found: 6504542886
+    ⚠️ 補充失敗 #29 車車屍搭普 - 阿西道長送你專屬豪禮: App not found: 6760377678
+    ⚠️ 補充失敗 #34 逆水寒: App not found: 6474654939
+    ⚠️ 補充失敗 #36 Fate/Grand Order: App not found: 1225867328
+    ⚠️ 補充失敗 #39 天堂M: App not found: 1276508585
+    ⚠️ 補充失敗 #41 Garena® 三角洲行動: App not found: 6670604287
+    ⚠️ 補充失敗 #42 超能戰爭: App not found: 6749109328
+    ⚠️ 補充失敗 #49 新熱血江湖：世界: App not found: 6756000886
+    ⚠️ 補充失敗 #50 巔峰極速: App not found: 6450006659
+[下午10:49:38]   📋 補充完成: 成功 31/50 (失敗 19)
+[下午10:49:38]   ✅ 已儲存 88 筆 → tw_ios_grossing.json
+
+🌍 🇹🇭 泰國 (TH)
+────────────────────────────────────────
+[下午10:49:40]   📱 GP | TH | GAME (主排名) | topfree
+[下午10:49:41]   ✅ 主排名取得 200 筆
+[下午10:49:43]   📱 GP | TH | GAME_ACTION | topfree (補充)
+[下午10:49:45]   📱 GP | TH | GAME_ROLE_PLAYING | topfree (補充)
+[下午10:49:47]   📱 GP | TH | GAME_STRATEGY | topfree (補充)
+[下午10:49:49]   📱 GP | TH | GAME_CASUAL | topfree (補充)
+[下午10:49:52]   📱 GP | TH | GAME_SIMULATION | topfree (補充)
+[下午10:49:54]   📱 GP | TH | GAME_ADVENTURE | topfree (補充)
+[下午10:49:56]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #1 Lineage W: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #7 Mobile Legends: Bang Bang: App not found (404)
+    ⚠️ 補充失敗 #8 Garden Defense：พืช vs สไลม์: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #9 Total Football VNG: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #38 Game of Thrones Kingsroad: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #41 Immortal Destiny：Chosen Heirs: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #48 Grand Fun Club: Cannot read properties of undefined (reading 'length')
+[下午10:50:46]   📋 補充完成: 成功 43/50 (失敗 7)
+[下午10:50:46]   ✅ 已儲存 100 筆 → th_android_topfree.json
+[下午10:50:46]   🍎 iOS | TH | topfree
+[下午10:50:49]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #7 Garena RoV: Attack on Titan: App not found: 1150337432
+    ⚠️ 補充失敗 #8 Garden Defense：พืช vs สไลม์: App not found: 6759962815
+    ⚠️ 補充失敗 #23 Lineage W: App not found: 6755233247
+    ⚠️ 補充失敗 #24 Immortal Destiny：Chosen Heirs: App not found: 6756949934
+    ⚠️ 補充失敗 #26 Mobile Legends: Bang Bang: App not found: 1160056295
+    ⚠️ 補充失敗 #30 TopTop: Play,Chat&Make Friends: App not found: 6476080221
+    ⚠️ 補充失敗 #35 Total Football VNG: App not found: 6754236292
+    ⚠️ 補充失敗 #47 Garena® Delta Force: App not found: 6670604287
+[下午10:51:32]   📋 補充完成: 成功 42/50 (失敗 8)
+[下午10:51:32]   ✅ 已儲存 98 筆 → th_ios_topfree.json
+[下午10:51:34]   📱 GP | TH | GAME (主排名) | grossing
+[下午10:51:35]   ✅ 主排名取得 200 筆
+[下午10:51:37]   📱 GP | TH | GAME_ACTION | grossing (補充)
+[下午10:51:39]   📱 GP | TH | GAME_ROLE_PLAYING | grossing (補充)
+[下午10:51:41]   📱 GP | TH | GAME_STRATEGY | grossing (補充)
+[下午10:51:44]   📱 GP | TH | GAME_CASUAL | grossing (補充)
+[下午10:51:46]   📱 GP | TH | GAME_SIMULATION | grossing (補充)
+[下午10:51:48]   📱 GP | TH | GAME_ADVENTURE | grossing (補充)
+[下午10:51:50]   🔍 補充 Top 50 詳細資料 (android)
+^C^C==================================== 
+ Game Rank Auto Update (Scheduled) 
+ Started: 週日 2026/05/31 22:54:52.29 
+==================================== 
+Working dir: C:\Users\User\Desktop\遊戲產品競爭力分析 
+ 
+[0/5] Git pull (sync data from other computer)... 
+From https://github.com/takochang0604/game-radar
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+ 
+[1/5] Fetching rankings... 
+
+> game-competitive-analysis@1.0.0 fetch
+> node scripts/fetch-rankings.js
+
+
+╔══════════════════════════════════════════════╗
+║  🎮 遊戲產品競爭力分析 — 排行榜快照採集     ║
+╚══════════════════════════════════════════════╝
+📅 日期: 2026-05-31
+📁 儲存: C:\Users\User\Desktop\遊戲產品競爭力分析\data\snapshots\2026-05-31
+📋 GP 子分類: 6 個（精簡模式）
+
+
+🌍 🇺🇸 美國 (US)
+────────────────────────────────────────
+[下午10:54:53]   📱 GP | US | GAME (主排名) | topfree
+[下午10:54:53]   ✅ 主排名取得 200 筆
+[下午10:54:55]   📱 GP | US | GAME_ACTION | topfree (補充)
+[下午10:54:58]   📱 GP | US | GAME_ROLE_PLAYING | topfree (補充)
+[下午10:55:00]   📱 GP | US | GAME_STRATEGY | topfree (補充)
+[下午10:55:02]   📱 GP | US | GAME_CASUAL | topfree (補充)
+[下午10:55:04]   📱 GP | US | GAME_SIMULATION | topfree (補充)
+[下午10:55:06]   📱 GP | US | GAME_ADVENTURE | topfree (補充)
+[下午10:55:09]   🔍 補充 Top 50 詳細資料 (android)
+[下午10:55:43]   📋 補充完成: 成功 50/50
+[下午10:55:43]   ✅ 已儲存 100 筆 → us_android_topfree.json
+[下午10:55:43]   🍎 iOS | US | topfree
+[下午10:55:45]   🔍 補充 Top 50 詳細資料 (ios)
+[下午10:56:11]   📋 補充完成: 成功 50/50
+[下午10:56:11]   ✅ 已儲存 94 筆 → us_ios_topfree.json
+[下午10:56:13]   📱 GP | US | GAME (主排名) | grossing
+[下午10:56:13]   ✅ 主排名取得 200 筆
+[下午10:56:15]   📱 GP | US | GAME_ACTION | grossing (補充)
+[下午10:56:18]   📱 GP | US | GAME_ROLE_PLAYING | grossing (補充)
+[下午10:56:20]   📱 GP | US | GAME_STRATEGY | grossing (補充)
+[下午10:56:22]   📱 GP | US | GAME_CASUAL | grossing (補充)
+[下午10:56:24]   📱 GP | US | GAME_SIMULATION | grossing (補充)
+[下午10:56:27]   📱 GP | US | GAME_ADVENTURE | grossing (補充)
+[下午10:56:29]   🔍 補充 Top 50 詳細資料 (android)
+[下午10:57:06]   📋 補充完成: 成功 50/50
+[下午10:57:06]   ✅ 已儲存 100 筆 → us_android_grossing.json
+[下午10:57:06]   🍎 iOS | US | grossing
+[下午10:57:07]   🔍 補充 Top 50 詳細資料 (ios)
+[下午10:57:33]   📋 補充完成: 成功 50/50
+[下午10:57:33]   ✅ 已儲存 83 筆 → us_ios_grossing.json
+
+🌍 🇯🇵 日本 (JP)
+────────────────────────────────────────
+[下午10:57:35]   📱 GP | JP | GAME (主排名) | topfree
+[下午10:57:35]   ✅ 主排名取得 200 筆
+[下午10:57:37]   📱 GP | JP | GAME_ACTION | topfree (補充)
+[下午10:57:40]   📱 GP | JP | GAME_ROLE_PLAYING | topfree (補充)
+[下午10:57:42]   📱 GP | JP | GAME_STRATEGY | topfree (補充)
+[下午10:57:44]   📱 GP | JP | GAME_CASUAL | topfree (補充)
+[下午10:57:46]   📱 GP | JP | GAME_SIMULATION | topfree (補充)
+[下午10:57:49]   📱 GP | JP | GAME_ADVENTURE | topfree (補充)
+[下午10:57:51]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #4 風と竜の歌: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #37 ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #44 [777Real]パチスロ 炎炎ノ消防隊: Cannot read properties of undefined (reading 'length')
+[下午10:58:27]   📋 補充完成: 成功 47/50 (失敗 3)
+[下午10:58:27]   ✅ 已儲存 100 筆 → jp_android_topfree.json
+[下午10:58:27]   🍎 iOS | JP | topfree
+[下午10:58:30]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #7 ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG: App not found: 6747736697
+    ⚠️ 補充失敗 #18 TopTop(トップトップ): サクッと遊んで、パッと友達: App not found: 6742122160
+    ⚠️ 補充失敗 #28 にゃんこ大戦争: App not found: 547145938
+    ⚠️ 補充失敗 #31 ルミナアビス：光と闇を紡ぐ少女たち: App not found: 6764547626
+    ⚠️ 補充失敗 #47 ドラゴンボール レジェンズ: App not found: 1358232022
+    ⚠️ 補充失敗 #48 うさぎのコイン落とし by クラシル: App not found: 6761601738
+[下午10:59:05]   📋 補充完成: 成功 44/50 (失敗 6)
+[下午10:59:05]   ✅ 已儲存 98 筆 → jp_ios_topfree.json
+[下午10:59:07]   📱 GP | JP | GAME (主排名) | grossing
+[下午10:59:07]   ✅ 主排名取得 200 筆
+[下午10:59:10]   📱 GP | JP | GAME_ACTION | grossing (補充)
+[下午10:59:12]   📱 GP | JP | GAME_ROLE_PLAYING | grossing (補充)
+[下午10:59:14]   📱 GP | JP | GAME_STRATEGY | grossing (補充)
+[下午10:59:16]   📱 GP | JP | GAME_CASUAL | grossing (補充)
+[下午10:59:19]   📱 GP | JP | GAME_SIMULATION | grossing (補充)
+[下午10:59:21]   📱 GP | JP | GAME_ADVENTURE | grossing (補充)
+[下午10:59:23]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #10 Genshin Impact: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #14 GODDESS OF VICTORY: NIKKE: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #15 Wuthering Waves - 2nd Anniv.: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #31 信長の野望 真戦: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #35 NTE: Neverness to Everness: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #39 放置少女 - 百花繚乱の萌姫たち: App not found (404)
+    ⚠️ 補充失敗 #41 ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG: Cannot read properties of undefined (reading 'length')
+[下午11:00:08]   📋 補充完成: 成功 43/50 (失敗 7)
+[下午11:00:08]   ✅ 已儲存 100 筆 → jp_android_grossing.json
+[下午11:00:08]   🍎 iOS | JP | grossing
+[下午11:00:09]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #1 SDガンダム ジージェネレーション エターナル: App not found: 6692611665
+    ⚠️ 補充失敗 #2 三國志 真戦: App not found: 1524742294
+    ⚠️ 補充失敗 #5 あんさんぶるスターズ！！Music: App not found: 1494428618
+    ⚠️ 補充失敗 #8 プロ野球スピリッツＡ: App not found: 940320341
+    ⚠️ 補充失敗 #10 モンスターストライク: App not found: 658511662
+    ⚠️ 補充失敗 #13 グランブルーファンタジー: App not found: 852882903
+    ⚠️ 補充失敗 #15 ドラゴンクエストウォーク 歩く楽しみが増える位置情報ゲーム: App not found: 1439417234
+    ⚠️ 補充失敗 #17 にゃんこ大戦争: App not found: 547145938
+    ⚠️ 補充失敗 #20 ウマ娘 プリティーダービー: App not found: 1325457827
+    ⚠️ 補充失敗 #21 LINE：ディズニー ツムツム: App not found: 724594093
+    ⚠️ 補充失敗 #22 ONE PIECE バウンティラッシュ - アクションゲーム: App not found: 1322310031
+    ⚠️ 補充失敗 #25 デュエル・マスターズ プレイス: App not found: 1478829750
+    ⚠️ 補充失敗 #26 ONE PIECE トレジャークルーズ: App not found: 824116884
+    ⚠️ 補充失敗 #27 ドラゴンボール レジェンズ: App not found: 1358232022
+    ⚠️ 補充失敗 #28 パズル＆ドラゴンズ: App not found: 493470467
+    ⚠️ 補充失敗 #29 LINE ポコポコ：3マッチパズルゲーム: App not found: 888615473
+    ⚠️ 補充失敗 #30 七つの大罪 光と闇の交戦 : グラクロ: App not found: 1268959718
+    ⚠️ 補充失敗 #31 学園アイドルマスター: App not found: 6446659989
+    ⚠️ 補充失敗 #33 ドラゴンクエストスマッシュグロウ ドラクエローグライトRPG: App not found: 6747736697
+    ⚠️ 補充失敗 #35 プロジェクトセカイ カラフルステージ！ feat. 初音ミク: App not found: 1489932710
+    ⚠️ 補充失敗 #36 #コンパス【戦闘摂理解析システム】: App not found: 1164400646
+    ⚠️ 補充失敗 #38 恋と深空: App not found: 6443467980
+    ⚠️ 補充失敗 #40 呪術廻戦 ファントムパレード: App not found: 1551798277
+    ⚠️ 補充失敗 #41 Fate/Grand Order: App not found: 1015521325
+    ⚠️ 補充失敗 #48 ドラゴンボールZ ドッカンバトル: App not found: 951627670
+    ⚠️ 補充失敗 #49 ロマンシング サガ リ・ユニバース/戦略RPG: App not found: 1397702917
+[下午11:01:19]   📋 補充完成: 成功 24/50 (失敗 26)
+[下午11:01:19]   ✅ 已儲存 98 筆 → jp_ios_grossing.json
+
+🌍 🇰🇷 韓國 (KR)
+────────────────────────────────────────
+[下午11:01:21]   📱 GP | KR | GAME (主排名) | topfree
+[下午11:01:22]   ✅ 主排名取得 200 筆
+[下午11:01:24]   📱 GP | KR | GAME_ACTION | topfree (補充)
+[下午11:01:26]   📱 GP | KR | GAME_ROLE_PLAYING | topfree (補充)
+[下午11:01:28]   📱 GP | KR | GAME_STRATEGY | topfree (補充)
+[下午11:01:30]   📱 GP | KR | GAME_CASUAL | topfree (補充)
+[下午11:01:33]   📱 GP | KR | GAME_SIMULATION | topfree (補充)
+[下午11:01:35]   📱 GP | KR | GAME_ADVENTURE | topfree (補充)
+[下午11:01:37]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #3 패왕의별M:한국무협 IP 1억뷰기념 1억은자 지급: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #4 다크슬레이어 2 : 방치형 RPG: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #8 배고파용 키우기 : 방치형 RPG: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #11 밤탈출 - 49일: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #12 Sudoku: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #14 더 코지 플로리스트: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #23 인투더던전:리본: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #47 Game of Thrones Kingsroad: Cannot read properties of undefined (reading 'length')
+[下午11:02:22]   📋 補充完成: 成功 42/50 (失敗 8)
+[下午11:02:22]   ✅ 已儲存 100 筆 → kr_android_topfree.json
+[下午11:02:22]   🍎 iOS | KR | topfree
+[下午11:02:24]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #2 천년의 구미호 키우기: App not found: 6756037863
+    ⚠️ 補充失敗 #3 포트리스3 BLUE: App not found: 6759036071
+    ⚠️ 補充失敗 #4 패왕의별M:한국무협 IP 1억뷰기념 1억은자 지급: App not found: 6761399468
+    ⚠️ 補充失敗 #6 더 코지 플로리스트: App not found: 6760822948
+    ⚠️ 補充失敗 #16 오늘의 꽃 : 진짜 꽃을 키우는 게임: App not found: 6759822089
+    ⚠️ 補充失敗 #17 NBA Basketball World 2026: App not found: 6762259371
+    ⚠️ 補充失敗 #21 밤탈출 - 49일: App not found: 6760175759
+    ⚠️ 補充失敗 #28 TopTop: 게임, 채팅 & 친구들: App not found: 6760818996
+    ⚠️ 補充失敗 #32 배틀그라운드: App not found: 1366526331
+    ⚠️ 補充失敗 #34 EA SPORTS FC Online M: App not found: 1273957743
+    ⚠️ 補充失敗 #45 라스트 라이트: App not found: 6758203014
+[下午11:03:13]   📋 補充完成: 成功 39/50 (失敗 11)
+[下午11:03:13]   ✅ 已儲存 100 筆 → kr_ios_topfree.json
+[下午11:03:15]   📱 GP | KR | GAME (主排名) | grossing
+[下午11:03:15]   ✅ 主排名取得 200 筆
+[下午11:03:17]   📱 GP | KR | GAME_ACTION | grossing (補充)
+[下午11:03:19]   📱 GP | KR | GAME_ROLE_PLAYING | grossing (補充)
+[下午11:03:22]   📱 GP | KR | GAME_STRATEGY | grossing (補充)
+[下午11:03:24]   📱 GP | KR | GAME_CASUAL | grossing (補充)
+[下午11:03:26]   📱 GP | KR | GAME_SIMULATION | grossing (補充)
+[下午11:03:28]   📱 GP | KR | GAME_ADVENTURE | grossing (補充)
+[下午11:03:30]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #6 리니지M: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #10 GODDESS OF VICTORY: NIKKE: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #11 오딘: 발할라 라이징: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #15 Wuthering Waves - 2nd Anniv.: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #20 Seven Knights Re:BIRTH: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #25 Genshin Impact: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #27 I9: 인페르노 나인: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #29 MONGIL: STAR DIVE: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #31 AION2: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #38 뮤 모나크2: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #41 나이트 크로우: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #42 임진왜란: 조선의 반격: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #43 NTE: Neverness to Everness: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #50 Summoners War: Cannot read properties of undefined (reading 'length')
+[下午11:04:26]   📋 補充完成: 成功 36/50 (失敗 14)
+[下午11:04:26]   ✅ 已儲存 100 筆 → kr_android_grossing.json
+[下午11:04:26]   🍎 iOS | KR | grossing
+[下午11:04:27]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #7 삼국지 전략판: App not found: 1524791715
+    ⚠️ 補充失敗 #10 EA SPORTS FC Online M: App not found: 1273957743
+    ⚠️ 補充失敗 #11 리니지M: App not found: 1474589366
+    ⚠️ 補充失敗 #20 FC 모바일: App not found: 1478371252
+    ⚠️ 補充失敗 #23 배틀그라운드: App not found: 1366526331
+    ⚠️ 補充失敗 #29 마비노기 모바일: App not found: 1441742921
+    ⚠️ 補充失敗 #37 러브앤딥스페이스: App not found: 6443468110
+    ⚠️ 補充失敗 #42 냥코 대전쟁: App not found: 848091833
+    ⚠️ 補充失敗 #43 한게임 섯다&맞고: App not found: 1471942989
+    ⚠️ 補充失敗 #45 특급 주령의 위협: App not found: 6761156133
+    ⚠️ 補充失敗 #46 쿠키런: App not found: 608808713
+    ⚠️ 補充失敗 #47 리니지M(12): App not found: 1128255542
+[下午11:05:16]   📋 補充完成: 成功 38/50 (失敗 12)
+[下午11:05:16]   ✅ 已儲存 97 筆 → kr_ios_grossing.json
+
+🌍 🇨🇳 中國 (CN)
+────────────────────────────────────────
+[下午11:05:18]   🍎 iOS | CN | topfree
+[下午11:05:18]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #1 王者荣耀世界: App not found: 1612566389
+    ⚠️ 補充失敗 #2 三角洲行动: App not found: 1642894547
+    ⚠️ 補充失敗 #3 攀爬动物: App not found: 6760543624
+    ⚠️ 補充失敗 #4 王者荣耀: App not found: 989673964
+    ⚠️ 補充失敗 #5 无畏契约：源能行动: App not found: 6535673811
+    ⚠️ 補充失敗 #6 和平精英: App not found: 1321803705
+    ⚠️ 補充失敗 #7 卡厄思梦境: App not found: 6751272153
+    ⚠️ 補充失敗 #8 蛋仔派对: App not found: 1544884479
+    ⚠️ 補充失敗 #9 我的世界：移动版: App not found: 1243986797
+    ⚠️ 補充失敗 #11 宗师之上: App not found: 6755095931
+    ⚠️ 補充失敗 #12 洛克王国：世界: App not found: 6478654994
+    ⚠️ 補充失敗 #13 迷你世界: App not found: 1170455562
+    ⚠️ 補充失敗 #14 奇妙卡牌世界 - 纸牌字谜分类词语接龙: App not found: 6757834072
+    ⚠️ 補充失敗 #15 金铲铲之战: App not found: 1478101301
+    ⚠️ 補充失敗 #16 云·异环: App not found: 6767085511
+    ⚠️ 補充失敗 #17 超自然行动组: App not found: 6544797261
+    ⚠️ 補充失敗 #19 贪吃蛇大作战®: App not found: 1120536875
+    ⚠️ 補充失敗 #20 鹅鸭杀: App not found: 6740756173
+    ⚠️ 補充失敗 #21 腾讯欢乐斗地主: App not found: 446324234
+    ⚠️ 補充失敗 #22 地铁跑酷 -海底列车进站中: App not found: 995122577
+    ⚠️ 補充失敗 #24 火影忍者: App not found: 955396648
+    ⚠️ 補充失敗 #25 光·遇: App not found: 1344733855
+    ⚠️ 補充失敗 #26 东煌纪: App not found: 6762333081
+    ⚠️ 補充失敗 #28 植物大战僵尸2: App not found: 639516529
+    ⚠️ 補充失敗 #29 飞机大厨：空中烹饪: App not found: 6738345439
+    ⚠️ 補充失敗 #30 永远的蔚蓝星球-周杰伦代言: App not found: 6502348074
+    ⚠️ 補充失敗 #31 QQ飞车: App not found: 1235504705
+    ⚠️ 補充失敗 #33 燕云十六声: App not found: 6475668638
+    ⚠️ 補充失敗 #34 神庙逃亡2: App not found: 1014227673
+    ⚠️ 補充失敗 #35 疯狂水世界: App not found: 6757172630
+    ⚠️ 補充失敗 #36 心跳陷落: App not found: 6760686111
+    ⚠️ 補充失敗 #37 第五人格: App not found: 1330863325
+    ⚠️ 補充失敗 #38 穿越火线-枪战王者: App not found: 1042545880
+    ⚠️ 補充失敗 #39 暗区突围: App not found: 1505445106
+    ⚠️ 補充失敗 #40 七塔: App not found: 6756300629
+    ⚠️ 補充失敗 #41 英雄联盟手游: App not found: 1455054000
+    ⚠️ 補充失敗 #43 巅峰极速-趣游华夏: App not found: 1498874997
+    ⚠️ 補充失敗 #45 猫咪整理师 - 房间造景布置 整理收纳达人: App not found: 6752363458
+    ⚠️ 補充失敗 #46 欢乐麻将: App not found: 689180123
+    ⚠️ 補充失敗 #47 异环: App not found: 6514281568
+    ⚠️ 補充失敗 #48 梦想城镇 - Township: App not found: 1612426573
+    ⚠️ 補充失敗 #49 千万别点错: App not found: 6761234103
+[下午11:06:55]   📋 補充完成: 成功 8/50 (失敗 42)
+[下午11:06:55]   ✅ 已儲存 100 筆 → cn_ios_topfree.json
+[下午11:06:57]   🍎 iOS | CN | grossing
+[下午11:06:58]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #1 王者荣耀: App not found: 989673964
+    ⚠️ 補充失敗 #2 和平精英: App not found: 1321803705
+    ⚠️ 補充失敗 #3 无尽冬日: App not found: 6478492012
+    ⚠️ 補充失敗 #4 三角洲行动: App not found: 1642894547
+    ⚠️ 補充失敗 #5 无畏契约：源能行动: App not found: 6535673811
+    ⚠️ 補充失敗 #6 梦幻西游: App not found: 940547441
+    ⚠️ 補充失敗 #8 地下城与勇士：起源: App not found: 1529851592
+    ⚠️ 補充失敗 #9 蛋仔派对: App not found: 1544884479
+    ⚠️ 補充失敗 #10 宗师之上: App not found: 6755095931
+    ⚠️ 補充失敗 #11 恋与深空: App not found: 1618911882
+    ⚠️ 補充失敗 #12 金铲铲之战: App not found: 1478101301
+    ⚠️ 補充失敗 #13 捕鱼大作战-街机打鱼游戏王者: App not found: 1525863146
+    ⚠️ 補充失敗 #14 洛克王国：世界: App not found: 6478654994
+    ⚠️ 補充失敗 #15 英雄联盟手游: App not found: 1455054000
+    ⚠️ 補充失敗 #16 三国志·战略版: App not found: 1474572440
+    ⚠️ 補充失敗 #17 向僵尸开炮-尸潮来袭: App not found: 6474293468
+    ⚠️ 補充失敗 #18 光·遇: App not found: 1344733855
+    ⚠️ 補充失敗 #19 火影忍者: App not found: 955396648
+    ⚠️ 補充失敗 #20 穿越火线-枪战王者: App not found: 1042545880
+    ⚠️ 補充失敗 #21 超自然行动组: App not found: 6544797261
+    ⚠️ 補充失敗 #22 心动小镇: App not found: 1561903786
+    ⚠️ 補充失敗 #23 时尚百货城: App not found: 6752632961
+    ⚠️ 補充失敗 #24 腾讯欢乐斗地主: App not found: 446324234
+    ⚠️ 補充失敗 #25 我的花园世界: App not found: 6746321359
+    ⚠️ 補充失敗 #26 永远的蔚蓝星球-周杰伦代言: App not found: 6502348074
+    ⚠️ 補充失敗 #27 捕鱼大咖-畅爽3D街机捕鱼游戏: App not found: 1561105019
+    ⚠️ 補充失敗 #28 原神·空月之歌: App not found: 1467190251
+    ⚠️ 補充失敗 #29 奔奔王国: App not found: 6748527570
+    ⚠️ 補充失敗 #30 卡厄思梦境: App not found: 6751272153
+    ⚠️ 補充失敗 #31 逆水寒: App not found: 1541570980
+    ⚠️ 補充失敗 #32 王者荣耀世界: App not found: 1612566389
+    ⚠️ 補充失敗 #33 异环: App not found: 6514281568
+    ⚠️ 補充失敗 #34 阴阳师: App not found: 895670960
+    ⚠️ 補充失敗 #35 指尖四川麻将: App not found: 891616303
+    ⚠️ 補充失敗 #36 鱼乐达人-王者捕鱼电玩街机打鱼游戏: App not found: 1665337957
+    ⚠️ 補充失敗 #37 FC足球世界-Next: App not found: 1305599559
+    ⚠️ 補充失敗 #38 暗区突围: App not found: 1505445106
+    ⚠️ 補充失敗 #40 三国：谋定天下: App not found: 6466232155
+    ⚠️ 補充失敗 #41 使命召唤手游: App not found: 1488410151
+    ⚠️ 補充失敗 #42 途游休闲捕鱼-百万倍街机王者大作战: App not found: 1570790378
+    ⚠️ 補充失敗 #44 三国：冰河时代: App not found: 6503432459
+    ⚠️ 補充失敗 #45 率土之滨: App not found: 909211092
+    ⚠️ 補充失敗 #46 保卫向日葵: App not found: 6737974680
+    ⚠️ 補充失敗 #48 大话西游：归来: App not found: 6444670359
+    ⚠️ 補充失敗 #49 鹅鸭杀: App not found: 6740756173
+    ⚠️ 補充失敗 #50 崩坏：星穹铁道: App not found: 1523037824
+[下午11:08:39]   📋 補充完成: 成功 4/50 (失敗 46)
+[下午11:08:39]   ✅ 已儲存 100 筆 → cn_ios_grossing.json
+
+🌍 🇹🇼 台灣 (TW)
+────────────────────────────────────────
+[下午11:08:41]   📱 GP | TW | GAME (主排名) | topfree
+[下午11:08:42]   ✅ 主排名取得 200 筆
+[下午11:08:44]   📱 GP | TW | GAME_ACTION | topfree (補充)
+[下午11:08:46]   📱 GP | TW | GAME_ROLE_PLAYING | topfree (補充)
+[下午11:08:48]   📱 GP | TW | GAME_STRATEGY | topfree (補充)
+[下午11:08:50]   📱 GP | TW | GAME_CASUAL | topfree (補充)
+[下午11:08:52]   📱 GP | TW | GAME_SIMULATION | topfree (補充)
+[下午11:08:55]   📱 GP | TW | GAME_ADVENTURE | topfree (補充)
+[下午11:08:57]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #1 青丘世界：緣起: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #4 超時空街球對決: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #6 SNK：全明星覺醒: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #9 Match Go! Heroes: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #18 異環: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #20 無盡輪迴：鬼域摸金: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #32 Game of Thrones Kingsroad: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #36 新熱血江湖：世界: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #39 仙逆M-官方正版授權: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #49 挖你老墓: Cannot read properties of undefined (reading 'length')
+[下午11:09:46]   📋 補充完成: 成功 40/50 (失敗 10)
+[下午11:09:46]   ✅ 已儲存 100 筆 → tw_android_topfree.json
+[下午11:09:46]   🍎 iOS | TW | topfree
+[下午11:09:47]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #4 青丘世界：緣起: App not found: 6759824994
+    ⚠️ 補充失敗 #5 老爹熱炒店: App not found: 6444692469
+    ⚠️ 補充失敗 #6 車車屍搭普 - 阿西道長送你專屬豪禮: App not found: 6760377678
+    ⚠️ 補充失敗 #8 超時空街球對決: App not found: 6757519748
+    ⚠️ 補充失敗 #10 無盡輪迴：鬼域摸金: App not found: 6759596187
+    ⚠️ 補充失敗 #25 玩星派對: App not found: 6448721818
+    ⚠️ 補充失敗 #27 異環: App not found: 6751030003
+    ⚠️ 補充失敗 #28 SNK：全明星覺醒: App not found: 6758696885
+    ⚠️ 補充失敗 #30 Garena® 三角洲行動: App not found: 6670604287
+    ⚠️ 補充失敗 #31 最終曙光（Last Light）: App not found: 6754688265
+    ⚠️ 補充失敗 #36 這個男人叫小帥: App not found: 6755100023
+    ⚠️ 補充失敗 #39 Garena 傳說對決：進擊的巨人作戰開始！: App not found: 1089079153
+    ⚠️ 補充失敗 #44 超能戰爭: App not found: 6749109328
+[下午11:10:37]   📋 補充完成: 成功 37/50 (失敗 13)
+[下午11:10:37]   ✅ 已儲存 99 筆 → tw_ios_topfree.json
+[下午11:10:39]   📱 GP | TW | GAME (主排名) | grossing
+[下午11:10:39]   ✅ 主排名取得 200 筆
+[下午11:10:41]   📱 GP | TW | GAME_ACTION | grossing (補充)
+[下午11:10:44]   📱 GP | TW | GAME_ROLE_PLAYING | grossing (補充)
+[下午11:10:46]   📱 GP | TW | GAME_STRATEGY | grossing (補充)
+[下午11:10:48]   📱 GP | TW | GAME_CASUAL | grossing (補充)
+[下午11:10:50]   📱 GP | TW | GAME_SIMULATION | grossing (補充)
+[下午11:10:52]   📱 GP | TW | GAME_ADVENTURE | grossing (補充)
+[下午11:10:55]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #10 燕雲十六聲: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #12 RO仙境傳説：世界之旅: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #20 青丘世界：緣起: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #21 Wuthering Waves - 2nd Anniv.: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #23 老子有錢 - 曾國城 X 籃籃唯一推薦 大獎爆不停: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #24 仙逆M-官方正版授權: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #27 無盡輪迴：鬼域摸金: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #30 新熱血江湖：世界: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #33 SNK：全明星覺醒: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #35 Genshin Impact: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #36 豪神娛樂城-戰神賽特、麻將、捕魚、賓果、水果盤、拉霸、老虎機: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #38 勝利女神：妮姬: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #44 奧丁 : 神叛: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #49 超時空街球對決: Cannot read properties of undefined (reading 'length')
+[下午11:11:50]   📋 補充完成: 成功 36/50 (失敗 14)
+[下午11:11:50]   ✅ 已儲存 100 筆 → tw_android_grossing.json
+[下午11:11:50]   🍎 iOS | TW | grossing
+[下午11:11:51]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #1 三國志・戰略版: App not found: 1530758357
+    ⚠️ 補充失敗 #5 Garena 傳說對決：進擊的巨人作戰開始！: App not found: 1089079153
+    ⚠️ 補充失敗 #8 青丘世界：緣起: App not found: 6759824994
+    ⚠️ 補充失敗 #12 RO仙境傳説：世界之旅: App not found: 6749527002
+    ⚠️ 補充失敗 #13 超時空街球對決: App not found: 6757519748
+    ⚠️ 補充失敗 #14 戀與深空: App not found: 6443468077
+    ⚠️ 補充失敗 #20 PUBG MOBILE：絕地求生M: App not found: 1453363650
+    ⚠️ 補充失敗 #21 燕雲十六聲: App not found: 6744796128
+    ⚠️ 補充失敗 #23 無盡輪迴：鬼域摸金: App not found: 6759596187
+    ⚠️ 補充失敗 #24 決勝時刻: Mobile - Garena: App not found: 1465688043
+    ⚠️ 補充失敗 #27 杖劍傳說：坎斯汀之約: App not found: 6504542886
+    ⚠️ 補充失敗 #29 車車屍搭普 - 阿西道長送你專屬豪禮: App not found: 6760377678
+    ⚠️ 補充失敗 #34 逆水寒: App not found: 6474654939
+    ⚠️ 補充失敗 #36 Fate/Grand Order: App not found: 1225867328
+    ⚠️ 補充失敗 #39 天堂M: App not found: 1276508585
+    ⚠️ 補充失敗 #41 Garena® 三角洲行動: App not found: 6670604287
+    ⚠️ 補充失敗 #42 超能戰爭: App not found: 6749109328
+    ⚠️ 補充失敗 #49 新熱血江湖：世界: App not found: 6756000886
+    ⚠️ 補充失敗 #50 巔峰極速: App not found: 6450006659
+[下午11:12:50]   📋 補充完成: 成功 31/50 (失敗 19)
+[下午11:12:50]   ✅ 已儲存 88 筆 → tw_ios_grossing.json
+
+🌍 🇹🇭 泰國 (TH)
+────────────────────────────────────────
+[下午11:12:52]   📱 GP | TH | GAME (主排名) | topfree
+[下午11:12:53]   ✅ 主排名取得 200 筆
+[下午11:12:55]   📱 GP | TH | GAME_ACTION | topfree (補充)
+[下午11:12:57]   📱 GP | TH | GAME_ROLE_PLAYING | topfree (補充)
+[下午11:13:00]   📱 GP | TH | GAME_STRATEGY | topfree (補充)
+[下午11:13:02]   📱 GP | TH | GAME_CASUAL | topfree (補充)
+[下午11:13:04]   📱 GP | TH | GAME_SIMULATION | topfree (補充)
+[下午11:13:07]   📱 GP | TH | GAME_ADVENTURE | topfree (補充)
+[下午11:13:09]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #1 Lineage W: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #7 Mobile Legends: Bang Bang: App not found (404)
+    ⚠️ 補充失敗 #8 Garden Defense：พืช vs สไลม์: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #9 Total Football VNG: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #38 Game of Thrones Kingsroad: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #41 Immortal Destiny：Chosen Heirs: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #48 Grand Fun Club: Cannot read properties of undefined (reading 'length')
+[下午11:13:55]   📋 補充完成: 成功 43/50 (失敗 7)
+[下午11:13:55]   ✅ 已儲存 100 筆 → th_android_topfree.json
+[下午11:13:55]   🍎 iOS | TH | topfree
+[下午11:13:56]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #7 Garena RoV: Attack on Titan: App not found: 1150337432
+    ⚠️ 補充失敗 #8 Garden Defense：พืช vs สไลม์: App not found: 6759962815
+    ⚠️ 補充失敗 #23 Lineage W: App not found: 6755233247
+    ⚠️ 補充失敗 #24 Immortal Destiny：Chosen Heirs: App not found: 6756949934
+    ⚠️ 補充失敗 #26 Mobile Legends: Bang Bang: App not found: 1160056295
+    ⚠️ 補充失敗 #30 TopTop: Play,Chat&Make Friends: App not found: 6476080221
+    ⚠️ 補充失敗 #35 Total Football VNG: App not found: 6754236292
+    ⚠️ 補充失敗 #47 Garena® Delta Force: App not found: 6670604287
+[下午11:14:38]   📋 補充完成: 成功 42/50 (失敗 8)
+[下午11:14:38]   ✅ 已儲存 98 筆 → th_ios_topfree.json
+[下午11:14:40]   📱 GP | TH | GAME (主排名) | grossing
+[下午11:14:40]   ✅ 主排名取得 200 筆
+[下午11:14:42]   📱 GP | TH | GAME_ACTION | grossing (補充)
+[下午11:14:45]   📱 GP | TH | GAME_ROLE_PLAYING | grossing (補充)
+[下午11:14:47]   📱 GP | TH | GAME_STRATEGY | grossing (補充)
+[下午11:14:49]   📱 GP | TH | GAME_CASUAL | grossing (補充)
+[下午11:14:51]   📱 GP | TH | GAME_SIMULATION | grossing (補充)
+[下午11:14:54]   📱 GP | TH | GAME_ADVENTURE | grossing (補充)
+[下午11:14:56]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #16 Mobile Legends: Bang Bang: App not found (404)
+    ⚠️ 補充失敗 #17 Total Football VNG: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #20 Ragnarok Origin Classic: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #24 Seven Knights Re:BIRTH: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #26 Samkok: Blood Oath: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #32 Garden Defense：พืช vs สไลม์: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #43 ฮีโร่ล่าของ: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #46 Summoners War: Cannot read properties of undefined (reading 'length')
+[下午11:15:44]   📋 補充完成: 成功 42/50 (失敗 8)
+[下午11:15:44]   ✅ 已儲存 100 筆 → th_android_grossing.json
+[下午11:15:44]   🍎 iOS | TH | grossing
+[下午11:15:48]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #6 Garena RoV: Attack on Titan: App not found: 1150337432
+    ⚠️ 補充失敗 #16 Kuroko's Basketball: SR: App not found: 6755416367
+    ⚠️ 補充失敗 #18 ฮีโร่ล่าของ: App not found: 6757577016
+    ⚠️ 補充失敗 #23 Call of Duty®: Mobile - Garena: App not found: 1465688043
+    ⚠️ 補充失敗 #24 Yulgang:ยุทธภพสนุก: App not found: 6741752911
+    ⚠️ 補充失敗 #25 Total Football VNG: App not found: 6754236292
+    ⚠️ 補充失敗 #29 Garden Defense：พืช vs สไลม์: App not found: 6759962815
+    ⚠️ 補充失敗 #34 Neko Casion: App not found: 6449997725
+    ⚠️ 補充失敗 #35 Mobile Legends: Bang Bang: App not found: 1160056295
+    ⚠️ 補充失敗 #37 Ragnarok Origin Classic: App not found: 6754158504
+    ⚠️ 補充失敗 #38 Samkok: Blood Oath: App not found: 6760534336
+    ⚠️ 補充失敗 #44 สามก๊กแมว: App not found: 6758662915
+    ⚠️ 補充失敗 #50 Racing Master: App not found: 6736940411
+[下午11:16:37]   📋 補充完成: 成功 37/50 (失敗 13)
+[下午11:16:37]   ✅ 已儲存 96 筆 → th_ios_grossing.json
+
+🌍 🇻🇳 越南 (VN)
+────────────────────────────────────────
+[下午11:16:39]   📱 GP | VN | GAME (主排名) | topfree
+[下午11:16:40]   ✅ 主排名取得 200 筆
+[下午11:16:42]   📱 GP | VN | GAME_ACTION | topfree (補充)
+[下午11:16:44]   📱 GP | VN | GAME_ROLE_PLAYING | topfree (補充)
+[下午11:16:47]   📱 GP | VN | GAME_STRATEGY | topfree (補充)
+[下午11:16:49]   📱 GP | VN | GAME_CASUAL | topfree (補充)
+[下午11:16:51]   📱 GP | VN | GAME_SIMULATION | topfree (補充)
+[下午11:16:53]   📱 GP | VN | GAME_ADVENTURE | topfree (補充)
+[下午11:16:55]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #5 FC Mobile VN: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #30 TS Origin - VTC: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #35 Giác Ngộ Thuật Chú: Cannot read properties of undefined (reading 'length')
+[下午11:17:38]   📋 補充完成: 成功 47/50 (失敗 3)
+[下午11:17:38]   ✅ 已儲存 100 筆 → vn_android_topfree.json
+[下午11:17:38]   🍎 iOS | VN | topfree
+[下午11:17:41]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #1 Block Blast!: App not found: 6757412443
+    ⚠️ 補充失敗 #2 Roblox VN: App not found: 6474715805
+    ⚠️ 補充失敗 #4 Garena Liên Quân Mobile: App not found: 1150288115
+    ⚠️ 補充失敗 #5 FC Mobile VN: App not found: 6737226348
+    ⚠️ 補充失敗 #7 Play Together VNG: App not found: 1612175933
+    ⚠️ 補充失敗 #15 Thời Đại Anh Hùng: App not found: 6575363756
+    ⚠️ 補充失敗 #17 Chiến Tuyến Hướng Dương: App not found: 6745214880
+    ⚠️ 補充失敗 #18 PUBG Mobile VN: App not found: 1438396625
+    ⚠️ 補充失敗 #23 Thế Giới Hoa Viên Của Tôi: App not found: 6757736102
+    ⚠️ 補充失敗 #29 X-hero: App not found: 6445982244
+    ⚠️ 補充失敗 #35 Haunted Room: Ngôi Nhà Hắc Ám: App not found: 6757224416
+    ⚠️ 補充失敗 #37 FC Online M by EA SPORTS™: App not found: 1427414541
+    ⚠️ 補充失敗 #38 Hero Clash: App not found: 6480279388
+    ⚠️ 補充失敗 #40 Lineage W: App not found: 6754081597
+    ⚠️ 補充失敗 #42 Township – Thị trấn vui vẻ: App not found: 6759152250
+    ⚠️ 補充失敗 #44 Đấu Trường Chân Lý: App not found: 6451463643
+    ⚠️ 補充失敗 #48 Home Scapes – Ngôi nhà mơ ước: App not found: 6759152360
+    ⚠️ 補充失敗 #50 Bida Zingplay: App not found: 1570746506
+[下午11:18:43]   📋 補充完成: 成功 32/50 (失敗 18)
+[下午11:18:43]   ✅ 已儲存 100 筆 → vn_ios_topfree.json
+[下午11:18:45]   📱 GP | VN | GAME (主排名) | grossing
+[下午11:18:45]   ✅ 主排名取得 200 筆
+[下午11:18:47]   📱 GP | VN | GAME_ACTION | grossing (補充)
+[下午11:18:50]   📱 GP | VN | GAME_ROLE_PLAYING | grossing (補充)
+[下午11:18:52]   📱 GP | VN | GAME_STRATEGY | grossing (補充)
+[下午11:18:54]   📱 GP | VN | GAME_CASUAL | grossing (補充)
+[下午11:18:56]   📱 GP | VN | GAME_SIMULATION | grossing (補充)
+[下午11:18:58]   📱 GP | VN | GAME_ADVENTURE | grossing (補充)
+[下午11:19:00]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #8 FC Mobile VN: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #17 Cơ Giới Chiến: War Robots: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #19 Crossfire: Legends: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #23 Haunted Room: Ngôi Nhà Hắc Ám: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #24 Last Z: Survival Shooter: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #27 Kiếm Chỉ Giang Hồ: Khai Thiên: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #30 Total Football VNG: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #33 Cơ Giáp Vô Hạn - Gamota: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #34 Genshin Impact - Funtap: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #39 Vượt Tường Thép: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #41 Chiến Thần MINI: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #43 WARPATH: Huân Chương Chiến Hỏa: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #44 TS Origin - VTC: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #48 Be A Pro: Football: Cannot read properties of undefined (reading 'length')
+[下午11:19:55]   📋 補充完成: 成功 36/50 (失敗 14)
+[下午11:19:55]   ✅ 已儲存 100 筆 → vn_android_grossing.json
+[下午11:19:55]   🍎 iOS | VN | grossing
+[下午11:19:58]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #2 Three Kingdoms Tactics-TTH: App not found: 1616630100
+    ⚠️ 補充失敗 #3 Thời Đại Anh Hùng: App not found: 6575363756
+    ⚠️ 補充失敗 #5 Last War:Survival VN: App not found: 6736925794
+    ⚠️ 補充失敗 #7 GardenScapes Khu vườn huyền bí: App not found: 6759152358
+    ⚠️ 補充失敗 #8 Garena Liên Quân Mobile: App not found: 1150288115
+    ⚠️ 補充失敗 #10 Thế Giới Hoa Viên Của Tôi: App not found: 6757736102
+    ⚠️ 補充失敗 #11 FC Mobile VN: App not found: 6737226348
+    ⚠️ 補充失敗 #12 Rise of Kingdoms - Gamota: App not found: 1574489575
+    ⚠️ 補充失敗 #14 PUBG Mobile VN: App not found: 1438396625
+    ⚠️ 補充失敗 #15 Anh Hùng Cấm Địa - VTC Game: App not found: 6736819155
+    ⚠️ 補充失敗 #16 Crossfire: Legends: App not found: 6748588650
+    ⚠️ 補充失敗 #17 Dark War: Survival VN: App not found: 6747331870
+    ⚠️ 補充失敗 #19 Play Together VNG: App not found: 1612175933
+    ⚠️ 補充失敗 #20 Đấu Trường Chân Lý: App not found: 6451463643
+    ⚠️ 補充失敗 #21 OMG 3Q - Game Tam Quốc VNG: App not found: 1238026766
+    ⚠️ 補充失敗 #22 Roblox VN: App not found: 6474715805
+    ⚠️ 補充失敗 #23 MU: VĨNH HẰNG: App not found: 6754240145
+    ⚠️ 補充失敗 #24 Haunted Room: Ngôi Nhà Hắc Ám: App not found: 6757224416
+    ⚠️ 補充失敗 #25 LMHT: Tốc Chiến: App not found: 1531280382
+    ⚠️ 補充失敗 #26 Home Scapes – Ngôi nhà mơ ước: App not found: 6759152360
+    ⚠️ 補充失敗 #27 Arrow Feather Pursuit: App not found: 6756061474
+    ⚠️ 補充失敗 #28 Last Z: Survival Shooter VN: App not found: 6751490548
+    ⚠️ 補充失敗 #29 Township – Thị trấn vui vẻ: App not found: 6759152250
+    ⚠️ 補充失敗 #30 Thợ Săn Quỷ: Đại Chiến Dị Giới: App not found: 6751942351
+    ⚠️ 補充失敗 #31 Cơ Giới Chiến: War Robots: App not found: 6755964887
+    ⚠️ 補充失敗 #32 Legends Reborn-Funtap: App not found: 6759997109
+    ⚠️ 補充失敗 #33 Hero Clash: App not found: 6480279388
+    ⚠️ 補充失敗 #34 MU: Hồng Hoả Đao: App not found: 6749408395
+    ⚠️ 補充失敗 #35 Kiếm Chỉ Giang Hồ: Khai Thiên: App not found: 6761166974
+    ⚠️ 補充失敗 #36 Huyết Ảnh Song Sinh HD: App not found: 6639597563
+    ⚠️ 補充失敗 #38 Cơ Giáp Vô Hạn - Gamota: App not found: 6762171648
+    ⚠️ 補充失敗 #39 Nhất Niệm Tiêu Dao - Gzone: App not found: 1634154487
+    ⚠️ 補充失敗 #40 Total Football VNG: App not found: 6754236292
+    ⚠️ 補充失敗 #41 Ballistic Hero VNG: App not found: 6754264117
+    ⚠️ 補充失敗 #42 Binh Đoàn Z: App not found: 1464502423
+    ⚠️ 補充失敗 #43 Top War: Battle Game - Funtap: App not found: 1596859213
+    ⚠️ 補充失敗 #45 Ta Là Quan Lão Gia - TTH: App not found: 1448024270
+    ⚠️ 補充失敗 #46 Summoners War - Funtap: App not found: 1585602211
+    ⚠️ 補充失敗 #47 Honkai: Star Rail - 3T Online: App not found: 6451473600
+    ⚠️ 補充失敗 #48 Chúa Công Chạy Mau - 3Q: App not found: 6642673658
+    ⚠️ 補充失敗 #49 Ta Làm Tông Sư Trong Tiên Môn: App not found: 6749835889
+    ⚠️ 補充失敗 #50 Palmon: Cuộc Chiến Sinh Tồn: App not found: 6749760949
+[下午11:21:35]   📋 補充完成: 成功 8/50 (失敗 42)
+[下午11:21:35]   ✅ 已儲存 100 筆 → vn_ios_grossing.json
+
+🌍 🇵🇭 菲律賓 (PH)
+────────────────────────────────────────
+[下午11:21:37]   📱 GP | PH | GAME (主排名) | topfree
+[下午11:21:38]   ✅ 主排名取得 200 筆
+[下午11:21:40]   📱 GP | PH | GAME_ACTION | topfree (補充)
+[下午11:21:42]   📱 GP | PH | GAME_ROLE_PLAYING | topfree (補充)
+[下午11:21:44]   📱 GP | PH | GAME_STRATEGY | topfree (補充)
+[下午11:21:46]   📱 GP | PH | GAME_CASUAL | topfree (補充)
+[下午11:21:48]   📱 GP | PH | GAME_SIMULATION | topfree (補充)
+[下午11:21:50]   📱 GP | PH | GAME_ADVENTURE | topfree (補充)
+[下午11:21:53]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #1 Mobile Legends: Bang Bang: App not found (404)
+    ⚠️ 補充失敗 #20 Ferny Tap: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #25 Magic Chess: Go Go: App not found (404)
+    ⚠️ 補充失敗 #28 Casino:Plus PH: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #41 Lineage W: Cannot read properties of undefined (reading 'length')
+[下午11:22:39]   📋 補充完成: 成功 45/50 (失敗 5)
+[下午11:22:39]   ✅ 已儲存 100 筆 → ph_android_topfree.json
+[下午11:22:39]   🍎 iOS | PH | topfree
+[下午11:22:42]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #1 Mobile Legends: Bang Bang: App not found: 1160056295
+    ⚠️ 補充失敗 #4 Call of Duty®: Mobile - Garena: App not found: 1465688043
+    ⚠️ 補充失敗 #14 Magic Chess: Go Go: App not found: 6612014908
+[下午11:23:17]   📋 補充完成: 成功 47/50 (失敗 3)
+[下午11:23:17]   ✅ 已儲存 96 筆 → ph_ios_topfree.json
+[下午11:23:19]   📱 GP | PH | GAME (主排名) | grossing
+[下午11:23:21]   ✅ 主排名取得 200 筆
+[下午11:23:23]   📱 GP | PH | GAME_ACTION | grossing (補充)
+[下午11:23:25]   📱 GP | PH | GAME_ROLE_PLAYING | grossing (補充)
+[下午11:23:27]   📱 GP | PH | GAME_STRATEGY | grossing (補充)
+[下午11:23:29]   📱 GP | PH | GAME_CASUAL | grossing (補充)
+[下午11:23:31]   📱 GP | PH | GAME_SIMULATION | grossing (補充)
+[下午11:23:34]   📱 GP | PH | GAME_ADVENTURE | grossing (補充)
+[下午11:23:36]   🔍 補充 Top 50 詳細資料 (android)
+    ⚠️ 補充失敗 #3 Mobile Legends: Bang Bang: App not found (404)
+    ⚠️ 補充失敗 #7 Ragnarok Origin Classic: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #17 Genshin Impact: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #29 Wuthering Waves - 2nd Anniv.: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #31 Magic Chess: Go Go: App not found (404)
+    ⚠️ 補充失敗 #36 LORDNINE : Infinite Class: Cannot read properties of undefined (reading 'length')
+    ⚠️ 補充失敗 #37 Spirit Hunter: Rush: Cannot read properties of undefined (reading 'length')
+[下午11:24:19]   📋 補充完成: 成功 43/50 (失敗 7)
+[下午11:24:19]   ✅ 已儲存 100 筆 → ph_android_grossing.json
+[下午11:24:19]   🍎 iOS | PH | grossing
+[下午11:24:23]   🔍 補充 Top 50 詳細資料 (ios)
+    ⚠️ 補充失敗 #1 Call of Duty®: Mobile - Garena: App not found: 1465688043
+    ⚠️ 補充失敗 #2 Mobile Legends: Bang Bang: App not found: 1160056295
+    ⚠️ 補充失敗 #9 Ragnarok Origin Classic: App not found: 6754158504
+    ⚠️ 補充失敗 #29 MU Monarch SEA: App not found: 6480383223
+    ⚠️ 補充失敗 #32 Magic Chess: Go Go: App not found: 6612014908
+    ⚠️ 補充失敗 #43 X-Clash: App not found: 6745540063
+    ⚠️ 補充失敗 #44 Azure Tale: App not found: 6759997031
+[下午11:25:04]   📋 補充完成: 成功 43/50 (失敗 7)
+[下午11:25:04]   ✅ 已儲存 97 筆 → ph_ios_grossing.json
+
+════════════════════════════════════════
+🏁 完成！共儲存 30 個排行檔案
+📁 位置: C:\Users\User\Desktop\遊戲產品競爭力分析\data\snapshots\2026-05-31
+════════════════════════════════════════
+[下午11:25:06] 📝 已寫入 schedule.log: 2026/05/31 23:25:06 OK [fetch] saved=30/30
+[下午11:25:06] 📄 撈取摘要報告: C:\Users\User\Desktop\遊戲產品競爭力分析\data\fetch-report-2026-05-31.md
+ 
+[2/5] Detecting darkhorses... 
+
+> game-competitive-analysis@1.0.0 analyze
+> node scripts/detect-darkhorse.js
+
+
+╔══════════════════════════════════════════════╗
+║  🐴 黑馬偵測引擎                             ║
+╚══════════════════════════════════════════════╝
+📅 日期: 2026-05-31
+🔍 回溯: 60 天
+
+⚠️ ═══════════════════════════════════════════════
+⚠️  近 7 天有 1 天缺少 snapshot：
+⚠️    📁 2026-05-24 — 無資料
+⚠️  偵測門檻已自動提高，避免因資料斷層導致誤判
+⚠️ ═══════════════════════════════════════════════
+
+
+🧹 品質過濾: 移除 38 匹（評分 < 3 或信心 < 1.5）
+🔀 跨市場合併: 160 → 138（合併 22 筆重複）
+
+🔄 黑馬保留: 從過去 60 天保留 39 匹仍在 Top 100 的黑馬
+
+🔗 跨平台自動配對...
+🔗 自動配對 83 匹黑馬的跨平台 sibling
+
+🐴 偵測到 177 匹黑馬
+
+🏆 Top 10 黑馬:
+────────────────────────────────────────────────────────────
+  1. 🇺🇸🇯🇵🇰🇷🇹🇼🇹🇭🇵🇭 [ios] Pokémon TCG Pocket
+     排名 #3 | 🚀 排名急升 🚀 排名急升 🚀 排名急升 🚀 排名急升 📊 成長加速 📊 成長加速 📊 成長加速 📊 成長加速
+     排名從 #88 升至 #9（↑79 名） | 排名從 #79 升至 #17（↑62 名） | 排名從 #76 升至 #11（↑65 名） | 排名從 #93 升至 #31（↑62 名） | 成長倍率 14.6×（近 3 天平均 #1 vs 近 7 天平均 #15） | 成長倍率 2.8×（近 3 天平均 #10 vs 近 7 天平均 #28） | 成長倍率 4.8×（近 3 天平均 #11 vs 近 7 天平均 #53） | 成長倍率 3.2×（近 3 天平均 #18 vs 近 7 天平均 #56）
+  2. 🇯🇵🇰🇷🇹🇼 [android] OUTERPLANE - Strategy Anime
+     排名 #5 | 🆕 新進榜 🚀 排名急升 🆕 新進榜 📊 成長加速 🆕 新進榜
+     首次進入 Top 100，目前排名 #2 | 排名從 #71 升至 #3（↑68 名） | 首次進入 Top 100，目前排名 #2 | 成長倍率 15.7×（近 3 天平均 #2 vs 近 6 天平均 #37） | 首次進入 Top 100，目前排名 #18
+  3. 🇺🇸🇯🇵🇰🇷🇹🇼🇹🇭🇻🇳🇵🇭 [android] Brain Puzzle 3: Crazy Mind
+     排名 #39 | 🚀 排名急升 🚀 排名急升 🚀 排名急升 🚀 排名急升 📈 持續攀升 📈 持續攀升 🚀 排名急升
+     排名從 #87 升至 #34（↑53 名） | 排名從 #88 升至 #45（↑43 名） | 排名從 #89 升至 #50（↑39 名） | 排名從 #100 升至 #65（↑35 名） | 連續 5 天上升（#95 → #25） | 連續 5 天上升（#88 → #31） | 排名從 #89 升至 #51（↑38 名）
+  4. 🇺🇸🇯🇵🇰🇷🇹🇼🇹🇭🇵🇭 [android] Genshin Impact
+     排名 #10 | 🚀 排名急升 📈 持續攀升 📈 持續攀升 📈 持續攀升 📊 成長加速 🚀 排名急升 🚀 排名急升 🚀 排名急升 📊 成長加速 📊 成長加速 🚀 排名急升 📈 持續攀升 📈 持續攀升
+     排名從 #46 升至 #14（↑32 名） | 連續 5 天上升（#77 → #14） | 連續 5 天上升（#52 → #10） | 連續 5 天上升（#38 → #1） | 成長倍率 3.0×（近 3 天平均 #7 vs 近 7 天平均 #22） | 排名從 #70 升至 #35（↑35 名） | 排名從 #38 升至 #1（↑37 名） | 排名從 #49 升至 #11（↑38 名） | 成長倍率 2.7×（近 3 天平均 #11 vs 近 7 天平均 #30） | 成長倍率 4.1×（近 3 天平均 #11 vs 近 7 天平均 #44） | 排名從 #71 升至 #36（↑35 名） | 連續 7 天上升（#77 → #36） | 連續 5 天上升（#20 → #8）
+  5. 🇺🇸🇯🇵🇰🇷🇹🇼🇹🇭🇻🇳🇵🇭 [android] Mini Challenges: Calm Games
+     排名 #11 | 🚀 排名急升 📈 持續攀升 📊 成長加速 🆕 新進榜 🚀 排名急升 🆕 新進榜 🚀 排名急升 📊 成長加速 🆕 新進榜 📊 成長加速
+     排名從 #77 升至 #24（↑53 名） | 連續 5 天上升（#78 → #9） | 成長倍率 2.6×（近 3 天平均 #17 vs 近 7 天平均 #43） | 強勢衝進 Top 30，偵測當下排名 #25 | 排名從 #100 升至 #54（↑46 名） | 強勢衝進 Top 30，偵測當下排名 #26 | 排名從 #83 升至 #43（↑40 名） | 成長倍率 2.9×（近 3 天平均 #14 vs 近 7 天平均 #42） | 強勢衝進 Top 30，偵測當下排名 #25 | 成長倍率 3.3×（近 3 天平均 #15 vs 近 6 天平均 #50）
+  6. 🇺🇸🇯🇵🇰🇷🇹🇼🇹🇭🇻🇳🇵🇭 [android] Color Block: Combo Blast
+     排名 #15 | 🚀 排名急升 🚀 排名急升 📈 持續攀升 📈 持續攀升 🚀 排名急升 🆕 新進榜 📈 持續攀升 📈 持續攀升
+     排名從 #67 升至 #33（↑34 名） | 排名從 #76 升至 #28（↑48 名） | 連續 5 天上升（#48 → #25） | 連續 6 天上升（#44 → #28） | 排名從 #96 升至 #57（↑39 名） | 強勢衝進 Top 30，偵測當下排名 #27 | 連續 5 天上升（#96 → #27） | 連續 5 天上升（#40 → #17）
+  7. 🇰🇷🇹🇼 [android] Overgeared Hero: Merge RPG
+     排名 #2 | 🆕 新進榜 🚀 排名急升 🆕 新進榜
+     首次進入 Top 100，目前排名 #2 | 排名從 #49 升至 #16（↑33 名） | 強勢衝進 Top 30，偵測當下排名 #16
+  8. 🇺🇸🇯🇵 [ios] Meowdoku!
+     排名 #5 | 🚀 排名急升 🆕 新進榜 🚀 排名急升
+     排名從 #63 升至 #20（↑43 名） | 強勢衝進 Top 30，偵測當下排名 #20 | 排名從 #72 升至 #38（↑34 名）
+  9. 🇺🇸🇯🇵🇰🇷🇹🇼🇹🇭🇵🇭 [android] Wuthering Waves - 2nd Anniv.
+     排名 #15 | 📈 持續攀升 📈 持續攀升 🚀 排名急升 📊 成長加速 📊 成長加速 📈 持續攀升
+     連續 5 天上升（#26 → #2） | 連續 5 天上升（#18 → #6） | 排名從 #76 升至 #39（↑37 名） | 成長倍率 5.6×（近 3 天平均 #2 vs 近 7 天平均 #13） | 成長倍率 2.9×（近 3 天平均 #6 vs 近 7 天平均 #17） | 連續 5 天上升（#73 → #36）
+  10. 🇹🇭🇵🇭 [android] Lineage W
+     排名 #1 | 🚀 排名急升 🆕 新進榜 📊 成長加速 🚀 排名急升
+     排名從 #100 升至 #20（↑80 名） | 強勢衝進 Top 30，偵測當下排名 #20 | 成長倍率 3.2×（近 3 天平均 #10 vs 近 4 天平均 #33） | 排名從 #66 升至 #36（↑30 名）
+
+📁 結果已儲存: C:\Users\User\Desktop\遊戲產品競爭力分析\data\darkhorse\2026-05-31.json
+ 
+[3/5] Deep analysis... 
+
+> game-competitive-analysis@1.0.0 deep-analyze
+> node scripts/deep-analysis.js
+
+
+╔══════════════════════════════════════════════╗
+║  🔬 深度分析模組                             ║
+╚══════════════════════════════════════════════╝
+📅 日期: 2026-05-31
+🐴 黑馬數量: 177
+
+🔀 去重後: 168 款遊戲（原 177 筆）
+📋 待分析: 168 款（跳過 0 款已分析）
+
+[1/168] 分析: 🇯🇵 Pokémon TCG Pocket (ios)
+[2/168] 分析: 🇯🇵 OUTERPLANE - Strategy Anime (android)
+[3/168] 分析: 🇺🇸 Brain Puzzle 3: Crazy Mind (android)
+[4/168] 分析: 🇯🇵 Genshin Impact (android)
+[5/168] 分析: 🇵🇭 Mini Challenges: Calm Games (android)
+[6/168] 分析: 🇺🇸 Color Block: Combo Blast (android)
+[7/168] 分析: 🇰🇷 Overgeared Hero: Merge RPG (android)
+[8/168] 分析: 🇺🇸 Meowdoku! (ios)
+[9/168] 分析: 🇯🇵 Wuthering Waves - 2nd Anniv. (android)
+  ⚠️ 分析失敗 [Wuthering Waves - 2nd Anniv.]: Cannot read properties of undefined (reading 'length')
+[10/168] 分析: 🇹🇭 Lineage W (android)
+[11/168] 分析: 🇺🇸 Kick the Buddy－Fun Action Game (android)
+[12/168] 分析: 🇹🇼 靠裝勇者：背包合成RPG (ios)
+[13/168] 分析: 🇯🇵 Chaos Zero Nightmare (android)
+[14/168] 分析: 🇰🇷 앵그리버드 2 (Angry Birds 2) (ios)
+[15/168] 分析: 🇰🇷 Dragon Village 3 (android)
+[16/168] 分析: 🇯🇵 ドラゴンクエストウォーク (android)
+[17/168] 分析: 🇰🇷 드래곤빌리지3 (ios)
+[18/168] 分析: 🇹🇼 Game of Thrones Kingsroad (android)
+  ⚠️ 分析失敗 [Game of Thrones Kingsroad]: Cannot read properties of undefined (reading 'length')
+[19/168] 分析: 🇵🇭 Call of Duty®: Mobile - Garena (ios)
+[20/168] 分析: 🇺🇸 Color Block Jam (ios)
+[21/168] 分析: 🇹🇭 Game of Thrones Kingsroad (ios)
+[22/168] 分析: 🇯🇵 Snake Puzzle: Slither to Eat! (ios)
+[23/168] 分析: 🇯🇵 風と竜の歌 (android)
+[24/168] 分析: 🇯🇵 フォートナイト (ios)
+[25/168] 分析: 🇯🇵 ドラゴンクエストウォーク 歩く楽しみが増える位置情報ゲーム (ios)
+[26/168] 分析: 🇯🇵 Magic Sort! (android)
+[27/168] 分析: 🇯🇵 Brain Puzzle 3: Crazy Mind (ios)
+[28/168] 分析: 🇯🇵 超自然スクワッド (ios)
+[29/168] 分析: 🇨🇳 攀爬动物 (ios)
+[30/168] 分析: 🇯🇵 Zenless Zone Zero (android)
+[31/168] 分析: 🇹🇭 Clash of Critters (android)
+[32/168] 分析: 🇹🇭 Clash of Critters (ios)
+[33/168] 分析: 🇨🇳 宗师之上 (ios)
+[34/168] 分析: 🇰🇷 두근두근타운 (ios)
+[35/168] 分析: 🇰🇷 StarSavior (android)
+[36/168] 分析: 🇰🇷 패왕의별M:한국무협 IP 1억뷰기념 1억은자 지급 (android)
+[37/168] 分析: 🇰🇷 다크슬레이어 2 : 방치형 RPG (android)
+[38/168] 分析: 🇰🇷 천년의 구미호 키우기 (ios)
+[39/168] 分析: 🇰🇷 패왕의별M:한국무협 IP 1억뷰기념 1억은자 지급 (ios)
+[40/168] 分析: 🇹🇼 原神·空月之歌 (ios)
+[41/168] 分析: 🇯🇵 Meowdoku: Brain Puzzle Games (android)
+[42/168] 分析: 🇹🇭 Block Craft 3D: Realm Builder (android)
+[43/168] 分析: 🇻🇳 Brain Puzzle: Tricky Quest (ios)
+[44/168] 分析: 🇰🇷 삼국지 전략판 (ios)
+[45/168] 分析: 🇯🇵 Tomb Busters (android)
+[46/168] 分析: 🇯🇵 ルミナアビス：光と闇を紡ぐ少女たち (ios)
+[47/168] 分析: 🇯🇵 デュエル・マスターズ プレイス (ios)
+[48/168] 分析: 🇹🇼 青丘世界：緣起 (android)
+[49/168] 分析: 🇹🇼 車車屍搭普 (android)
+[50/168] 分析: 🇹🇼 超時空街球對決 (android)
+[51/168] 分析: 🇹🇼 青丘世界：緣起 (ios)
+[52/168] 分析: 🇹🇼 老爹熱炒店 (ios)
+[53/168] 分析: 🇵🇭 Party Fowl (ios)
+[54/168] 分析: 🇯🇵 Pokémon TCG Pocket (android)
+[55/168] 分析: 🇨🇳 卡厄思梦境 (ios)
+[56/168] 分析: 🇨🇳 王者荣耀世界 (ios)
+[57/168] 分析: 🇹🇼 The Ghost - Multiplayer Horror (android)
+[58/168] 分析: 🇨🇳 异环 (ios)
+[59/168] 分析: 🇺🇸 Level Devil - NOT A Troll Game (android)
+[60/168] 分析: 🇰🇷 NBA Basketball World 2026 (ios)
+[61/168] 分析: 🇯🇵 うさぎのコイン落とし by クラシル (android)
+[62/168] 分析: 🇯🇵 #コンパス【戦闘摂理解析システム】 (ios)
+[63/168] 分析: 🇹🇼 DRAGON BALL LEGENDS (android)
+[64/168] 分析: 🇨🇳 阴阳师 (ios)
+[65/168] 分析: 🇰🇷 배고파용 키우기 : 방치형 RPG (android)
+[66/168] 分析: 🇵🇭 Ferny Tap (android)
+[67/168] 分析: 🇰🇷 운빨존많겜 (ios)
+[68/168] 分析: 🇰🇷 Block Out! - Color Sort Puzzle (ios)
+[69/168] 分析: 🇰🇷 포트리스3 BLUE (ios)
+[70/168] 分析: 🇯🇵 ドラゴンクエストタクト (android)
+[71/168] 分析: 🇹🇭 8 Ball Pool (android)
+[72/168] 分析: 🇺🇸 DRAGON BALL LEGENDS (ios)
+[73/168] 分析: 🇨🇳 云·异环 (ios)
+[74/168] 分析: 🇯🇵 Block Color Mania, Puzzle Game (ios)
+[75/168] 分析: 🇹🇼 車車屍搭普 - 阿西道長送你專屬豪禮 (ios)
+[76/168] 分析: 🇹🇼 超時空街球對決 (ios)
+[77/168] 分析: 🇯🇵 Block Color Mania, Puzzle Game (android)
+[78/168] 分析: 🇰🇷 마피아42 (ios)
+[79/168] 分析: 🇹🇼 燕雲十六聲 (ios)
+[80/168] 分析: 🇻🇳 Three Kingdoms Tactics-TTH (ios)
+[81/168] 分析: 🇰🇷 스타세이비어 (ios)
+[82/168] 分析: 🇰🇷 파이널 블레이드 : 기억을 깨우다 (android)
+[83/168] 分析: 🇹🇼 H.I.D.E. - Hide or Seek Online (ios)
+[84/168] 分析: 🇯🇵 グランブルーファンタジー (ios)
+[85/168] 分析: 🇨🇳 心跳陷落 (ios)
+[86/168] 分析: 🇯🇵 七つの大罪 光と闇の交戦 : グラクロ (ios)
+[87/168] 分析: 🇹🇭 Bus Rush Fever! (android)
+[88/168] 分析: 🇨🇳 东煌纪 (ios)
+[89/168] 分析: 🇵🇭 Sudoku Blast! (ios)
+[90/168] 分析: 🇯🇵 鳴潮 - 2周年 (ios)
+[91/168] 分析: 🇹🇼 SNK：全明星覺醒 (android)
+[92/168] 分析: 🇯🇵 ONE PIECE バウンティラッシュ - アクションゲーム (ios)
+[93/168] 分析: 🇹🇼 Match Go! Heroes (android)
+[94/168] 分析: 🇯🇵 プロ野球スピリッツＡ (ios)
+[95/168] 分析: 🇯🇵 ルミナアビス：光と闇を紡ぐ少女たち (android)
+[96/168] 分析: 🇯🇵 Pokémon Sleep (android)
+[97/168] 分析: 🇹🇼 燕雲十六聲 (android)
+[98/168] 分析: 🇹🇼 Coin Master - Board Adventure (ios)
+[99/168] 分析: 🇻🇳 Kiếm Chỉ Giang Hồ: Khai Thiên (android)
+[100/168] 分析: 🇹🇼 Brain Puzzle 2: Logic Twist (android)
+[101/168] 分析: 🇰🇷 Pocket Sort: Coin Merge Puzzle (android)
+[102/168] 分析: 🇯🇵 SDガンダム ジージェネレーション エターナル (ios)
+[103/168] 分析: 🇹🇼 肥鵝美食街 (android)
+[104/168] 分析: 🇹🇭 Under My Roof: Love Stories (android)
+[105/168] 分析: 🇹🇼 Tower of Saviors (android)
+[106/168] 分析: 🇰🇷 밤탈출 - 49일 (android)
+[107/168] 分析: 🇯🇵 ブルーアーカイブ (android)
+[108/168] 分析: 🇵🇭 Wordraw (android)
+[109/168] 分析: 🇰🇷 인투더던전:리본 (android)
+[110/168] 分析: 🇹🇼 Kitchen Together 2 (ios)
+[111/168] 分析: 🇺🇸 Yarn Loop: Knit Puzzle (ios)
+[112/168] 分析: 🇯🇵 風と竜の歌 (ios)
+[113/168] 分析: 🇻🇳 Rhythm Tiles：Pop Songs (android)
+[114/168] 分析: 🇹🇭 Block World 3D: Craft & Build (android)
+[115/168] 分析: 🇯🇵 にゃんこ大戦争 (ios)
+[116/168] 分析: 🇺🇸 Playtest Pro by BestPlay (ios)
+[117/168] 分析: 🇹🇼 楓之谷M - 奇幻冒險MMORPG (ios)
+[118/168] 分析: 🇹🇼 跑跑卡丁車 Rush+ (ios)
+[119/168] 分析: 🇹🇭 Ball Sorting Master - Puzzle (ios)
+[120/168] 分析: 🇹🇭 Lineage W (ios)
+[121/168] 分析: 🇻🇳 Chiến Tuyến Hướng Dương (ios)
+[122/168] 分析: 🇹🇼 星城Online-攻殼機動隊聯手出擊 (android)
+[123/168] 分析: 🇵🇭 Plants vs. Zombies™ 3: Evolved (android)
+[124/168] 分析: 🇯🇵 #コンパス【戦闘摂理解析システム】 (android)
+[125/168] 分析: 🇺🇸 Sword x Staff (android)
+[126/168] 分析: 🇯🇵 恋と深空 (ios)
+[127/168] 分析: 🇨🇳 光·遇 (ios)
+[128/168] 分析: 🇻🇳 My Talking Tom (android)
+[129/168] 分析: 🇺🇸 Call of Duty®: Mobile (android)
+[130/168] 分析: 🇹🇼 逆水寒 (ios)
+[131/168] 分析: 🇯🇵 Pictonico! (android)
+[132/168] 分析: 🇯🇵 プロジェクトセカイ カラフルステージ！ feat. 初音ミク (ios)
+[133/168] 分析: 🇨🇳 使命召唤手游 (ios)
+[134/168] 分析: 🇰🇷 오늘의 꽃 (android)
+[135/168] 分析: 🇻🇳 TS Origin - VTC (ios)
+[136/168] 分析: 🇹🇼 SD鋼彈 G世代 永恆 (ios)
+[137/168] 分析: 🇻🇳 Tricky Twist Puzzle (android)
+[138/168] 分析: 🇹🇭 Crossmath® - Math Puzzle Games (android)
+[139/168] 分析: 🇯🇵 Level Devil - NOT A Troll Game (ios)
+[140/168] 分析: 🇹🇼 Rocket Hit (android)
+[141/168] 分析: 🇹🇭 Immortal Destiny：Chosen Heirs (ios)
+[142/168] 分析: 🇹🇭 Merge Restaurant - Makeover (ios)
+[143/168] 分析: 🇻🇳 TS Origin - VTC (android)
+[144/168] 分析: 🇻🇳 Space Frontier 2 (ios)
+[145/168] 分析: 🇵🇭 Casino:Plus PH (android)
+[146/168] 分析: 🇰🇷 MONGIL: STAR DIVE (android)
+  ⚠️ 分析失敗 [MONGIL: STAR DIVE]: Cannot read properties of undefined (reading 'length')
+[147/168] 分析: 🇯🇵 BRIDGE CRANE (android)
+[148/168] 分析: 🇰🇷 순찰중! 바로 체포! (ios)
+[149/168] 分析: 🇰🇷 Five Hearts Under One Roof 2 (android)
+[150/168] 分析: 🇹🇭 Carnival Tycoon: Coin Games (ios)
+[151/168] 分析: 🇨🇳 逆水寒 (ios)
+[152/168] 分析: 🇹🇼 Epic Stickman: RPG Idle War (ios)
+[153/168] 分析: 🇹🇭 Yulgang:ยุทธภพสนุก (ios)
+[154/168] 分析: 🇨🇳 雷霆战机：集结-三体联动 (ios)
+[155/168] 分析: 🇹🇭 Gugu Gaga Penguin: Mini Games (android)
+[156/168] 分析: 🇯🇵 Tile Moment (android)
+[157/168] 分析: 🇯🇵 デュエル・マスターズ プレイス (android)
+[158/168] 分析: 🇻🇳 Hamster Jump: Cake Tower! (ios)
+[159/168] 分析: 🇹🇭 Grand Fun Club (android)
+[160/168] 分析: 🇻🇳 Brain Puzzle 2: Logic Twist (ios)
+[161/168] 分析: 🇰🇷 Limbus Company (android)
+[162/168] 分析: 🇻🇳 AFK Journey- TRAVELLET VN (android)
+[163/168] 分析: 🇺🇸 Mini Fidget Antistress Games (android)
+[164/168] 分析: 🇺🇸 Travel Town - Merge Adventure (ios)
+[165/168] 分析: 🇺🇸 Isekai:Slow Life (android)
+[166/168] 分析: 🇵🇭 Cooking Madness: A Chef's Game (android)
+[167/168] 分析: 🇹🇼 奧丁 : 神叛 (android)
+  ⚠️ 分析失敗 [奧丁 : 神叛]: Cannot read properties of undefined (reading 'length')
+[168/168] 分析: 🇹🇼 Path of Kings (ios)
+
+✅ 完成！分析了 164 個黑馬
+📁 結果: C:\Users\User\Desktop\遊戲產品競爭力分析\data\analysis
+ 
+[4/5] Uploading to Firebase... 
+
+> game-competitive-analysis@1.0.0 upload
+> node scripts/upload-to-firebase.js
+
+
+╔══════════════════════════════════════════════╗
+║  🔥 上傳資料至 Firebase Firestore v2          ║
+╚══════════════════════════════════════════════╝
+📅 日期: 2026-04-30, 2026-05-01, 2026-05-02, 2026-05-03, 2026-05-04, 2026-05-05, 2026-05-06, 2026-05-07, 2026-05-08, 2026-05-09, 2026-05-10, 2026-05-11, 2026-05-12, 2026-05-13, 2026-05-14, 2026-05-15, 2026-05-16, 2026-05-17, 2026-05-18, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-25, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29, 2026-05-30, 2026-05-31
+
+📤 上傳中...
+  ✅ meta（31 天）
+  ✅ 快照（929 個檔案）
+  📏 黑馬文件大小: 635.0 KB（Firestore 限制 1024 KB）
+  ✅ 黑馬（177 匹，2026-05-31.json）
+  ✅ 黑馬歷史（2026-05-31）
+  ✅ 分析（164 筆，含子集合 164 筆）
+  ✅ 報告（7 份，含子集合 7 筆，含 meta）
+  ⏭️ 無追蹤遊戲，跳過
+
+✅ 全部上傳完成！
+📄 已更新 data.js（Firebase 模式標記）
+ 
+[5/5] Syncing to Git... 

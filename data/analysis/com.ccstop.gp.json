@@ -9,9 +9,9 @@
     "updated": 1779371872000,
     "version": "3.0",
     "installs": "10,000+",
-    "score": 4.7,
-    "ratings": 909,
-    "reviews": 103,
+    "score": 4.5,
+    "ratings": 1024,
+    "reviews": 123,
     "developer": "Higgs Technology Co., Limited",
     "developerWebsite": "https://www.carcarstop.com",
     "genre": "Strategy",
@@ -34,15 +34,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 6 天，評分 4.7",
+      "detail": "上架 7 天，評分 4.5",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
+      "detail": "最近更新: 10 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:51:49.528Z"
+  "analyzedAt": "2026-05-31T15:27:01.813Z"
 }

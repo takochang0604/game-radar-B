@@ -10,8 +10,8 @@
     "version": "1.106.1",
     "installs": "1,000,000+",
     "score": 4.6,
-    "ratings": 70588,
-    "reviews": 9230,
+    "ratings": 71013,
+    "reviews": 9259,
     "developer": "Project Moon",
     "developerWebsite": "https://limbuscompany.kr/",
     "genre": "Strategy"
@@ -19,42 +19,42 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 40,
-      "2": 11,
-      "3": 17,
-      "4": 15,
-      "5": 117
+      "1": 49,
+      "2": 16,
+      "3": 16,
+      "4": 17,
+      "5": 102
     },
-    "positiveRatio": 66,
-    "negativeRatio": 26,
+    "positiveRatio": 60,
+    "negativeRatio": 33,
     "eventMentions": [
       {
-        "text": "this game is absolute work like the character development is beautiful and in my opinion the stroy i",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "the new update makes the game borderline unplayable, the rail way is way too hard, and sometimes the",
+        "text": "the game itself is really good story, fighting mechanics and everything else but because of the new ",
         "keywords": [
           "update",
           "new"
         ]
       },
       {
-        "text": "peak game, peak storytelling, peak lore. what's not peak is that it not working after the recent upd",
+        "text": "this game is awesome!... until last update where they moved the engine and now it's unplayable on mo",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "the game is good but after the update i'm stuck on a black screen everytime i opened the game. the g",
+        "text": "plss fix the black screen issues on this update",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "unity engine update broke everything.",
+        "text": "i loved this game,can't even play it no more because of the update",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the game is currently unplayable due to the recent update. logging in and seeing the pm logo and the",
         "keywords": [
           "update"
         ]
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:57:17.928Z"
+  "analyzedAt": "2026-05-31T15:31:32.145Z"
 }

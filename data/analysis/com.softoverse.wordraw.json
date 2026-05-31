@@ -9,9 +9,9 @@
     "updated": 1779269061000,
     "version": "1.0.2",
     "installs": "100,000+",
-    "score": 4.7,
-    "ratings": 20251,
-    "reviews": 1080,
+    "score": 4.6,
+    "ratings": 21347,
+    "reviews": 1131,
     "developer": "SoftoVerse",
     "developerWebsite": "http://www.wwwsoft-overse.com",
     "genre": "Word",
@@ -20,25 +20,25 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 25,
-      "2": 7,
-      "3": 10,
-      "4": 19,
-      "5": 139
+      "1": 22,
+      "2": 13,
+      "3": 11,
+      "4": 24,
+      "5": 130
     },
-    "positiveRatio": 79,
-    "negativeRatio": 16,
+    "positiveRatio": 77,
+    "negativeRatio": 18,
     "eventMentions": [
+      {
+        "text": "this application slow withdraw approve plz update this application best earning but slow withdraw 🙁",
+        "keywords": [
+          "update"
+        ]
+      },
       {
         "text": "in before few days this app is working very best and gives withdraw to everyone but when i complete ",
         "keywords": [
           "update",
-          "new"
-        ]
-      },
-      {
-        "text": "newbie me",
-        "keywords": [
           "new"
         ]
       }
@@ -48,13 +48,13 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 13 天，評分 4.7",
+      "detail": "上架 14 天，評分 4.6",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 10 天前",
+      "detail": "最近更新: 11 天前",
       "confidence": "medium"
     },
     {
@@ -64,5 +64,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:53:47.852Z"
+  "analyzedAt": "2026-05-31T15:29:24.317Z"
 }

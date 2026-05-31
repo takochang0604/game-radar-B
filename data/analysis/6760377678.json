@@ -8,8 +8,8 @@
     "released": "2026-05-26T07:00:00Z",
     "updated": "2026-05-26T07:00:00Z",
     "version": "3.0",
-    "score": 3.6,
-    "reviews": 54,
+    "score": 3.5,
+    "reviews": 68,
     "developer": "HIGGS TECHNOLOGY CO., LIMITED",
     "developerUrl": "https://apps.apple.com/tw/developer/higgs-technology-co-limited/id1105222132?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:51:56.779Z"
+  "analyzedAt": "2026-05-31T15:28:05.107Z"
 }

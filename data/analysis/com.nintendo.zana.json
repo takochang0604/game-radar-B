@@ -10,7 +10,7 @@
     "version": "1.0.0",
     "installs": "500,000+",
     "score": 4.5,
-    "ratings": 1724,
+    "ratings": 2044,
     "reviews": 38,
     "developer": "Nintendo Co., Ltd.",
     "developerWebsite": "https://pictonico.nintendo.com/",
@@ -19,15 +19,33 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 52,
-      "2": 11,
-      "3": 20,
-      "4": 24,
-      "5": 93
+      "1": 58,
+      "2": 13,
+      "3": 18,
+      "4": 20,
+      "5": 91
     },
-    "positiveRatio": 59,
-    "negativeRatio": 32,
+    "positiveRatio": 56,
+    "negativeRatio": 36,
     "eventMentions": [
+      {
+        "text": "the game is very fun, but if you wanted us to pay for the game then you should've made us pay for it",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "really like this app! it has strong warioware vibes, and i'm all on board for that! looking forward ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "just a new strategy to get immediate access to your images.",
+        "keywords": [
+          "new"
+        ]
+      },
       {
         "text": "new game but can not open it to play. it throws me out the whole time. so frustrating",
         "keywords": [
@@ -39,24 +57,6 @@
         "keywords": [
           "new"
         ]
-      },
-      {
-        "text": "this game is like ok-ok n funny lol i liked it and also the ai assistant guide us it's sweet and if ",
-        "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "this game is pretty fun! you get to take a picture of yourself, and start playing with yourself! you",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "\"wow, a new free nintendo app!\" looks inside has to pay for the games",
-        "keywords": [
-          "new"
-        ]
       }
     ]
   },
@@ -64,13 +64,13 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 11 天，評分 4.5",
+      "detail": "上架 12 天，評分 4.5",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 10 天前",
+      "detail": "最近更新: 11 天前",
       "confidence": "medium"
     },
     {
@@ -80,5 +80,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:55:54.661Z"
+  "analyzedAt": "2026-05-31T15:30:20.973Z"
 }

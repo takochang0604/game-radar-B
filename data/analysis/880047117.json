@@ -9,7 +9,7 @@
     "updated": "2026-05-26T07:29:38Z",
     "version": "10.0.1",
     "score": 4.7,
-    "reviews": 70925,
+    "reviews": 70937,
     "developer": "Rovio Entertainment Oyj",
     "developerUrl": "https://apps.apple.com/kr/developer/rovio-entertainment-oyj/id298910979?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:50:35.910Z"
+  "analyzedAt": "2026-05-31T15:25:39.583Z"
 }

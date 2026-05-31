@@ -9,23 +9,23 @@
     "updated": 1779023513000,
     "version": "2.5",
     "installs": "10,000+",
-    "score": 3.6,
-    "ratings": 814,
+    "score": 3.7,
+    "ratings": 828,
     "reviews": 5,
     "developer": "Gola Games",
     "developerWebsite": "https://cashaut.com/",
     "genre": "Casual"
   },
   "reviewAnalysis": {
-    "total": 144,
+    "total": 147,
     "starCounts": {
       "1": 27,
-      "2": 3,
-      "3": 9,
+      "2": 4,
+      "3": 10,
       "4": 15,
-      "5": 90
+      "5": 91
     },
-    "positiveRatio": 73,
+    "positiveRatio": 72,
     "negativeRatio": 21,
     "eventMentions": [
       {
@@ -46,7 +46,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 12 天前",
+      "detail": "最近更新: 14 天前",
       "confidence": "medium"
     },
     {
@@ -56,5 +56,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:56:16.877Z"
+  "analyzedAt": "2026-05-31T15:30:42.935Z"
 }

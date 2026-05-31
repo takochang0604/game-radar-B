@@ -10,23 +10,42 @@
     "version": "1.0.288",
     "installs": "1,000,000+",
     "score": 4.2,
-    "ratings": 142565,
-    "reviews": 1761,
+    "ratings": 142692,
+    "reviews": 1764,
     "developer": "Smilegate, Inc.",
     "genre": "Role Playing"
   },
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 37,
-      "2": 12,
-      "3": 22,
-      "4": 21,
-      "5": 108
+      "1": 35,
+      "2": 16,
+      "3": 21,
+      "4": 23,
+      "5": 105
     },
-    "positiveRatio": 65,
-    "negativeRatio": 25,
+    "positiveRatio": 64,
+    "negativeRatio": 26,
     "eventMentions": [
+      {
+        "text": "the game is great. the devs continue to put out great updates to ease the process of creating decks.",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "sorry i love this game but the way i can't even update anymore due to the recent patch i cant get of",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "this game is peak! i regretted that i stopped for a while, i missed a limited character! hopefully s",
+        "keywords": [
+          "limited"
+        ]
+      },
       {
         "text": "greatest turn based rpg gacha game on the market. with unique deck building mechanic. the only downs",
         "keywords": [
@@ -38,25 +57,6 @@
         "keywords": [
           "new"
         ]
-      },
-      {
-        "text": "i was supposed to give this 5 star but because of this recent update, i was stuck on loading screen ",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "i'm not sure what happened,but after new patch release my account was reset..i didn't log out my acc",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "after the newest update my account is gone poof all of my hardwork is gone what a load of bs",
-        "keywords": [
-          "update",
-          "new"
-        ]
       }
     ]
   },
@@ -64,7 +64,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     },
     {
@@ -74,5 +74,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:50:33.410Z"
+  "analyzedAt": "2026-05-31T15:25:37.156Z"
 }

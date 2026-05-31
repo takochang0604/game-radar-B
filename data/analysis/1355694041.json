@@ -1,0 +1,45 @@
+{
+  "appId": "1355694041",
+  "name": "Space Frontier 2",
+  "platform": "ios",
+  "market": "vn",
+  "detail": {
+    "description": "Space adventure awaits! And this time, humanity has no limits!\n\nSpace Frontier 2 is the sequel to the insanely popular Space Frontier, a game that rose to the stratosphere with 25+ Million downloads. We listened to your feedback and came up with something beyond imaginable!\n\nYou now get:\n◉ 50 Solar Systems to conquer!\n◉ Hundreds of planets to colonize!\n◉ 50 Spaceship technologies!\n◉ Crazy Spaceship styles like Laika the Dog, Tisla Roadster, Pirate Ship!\n◉ Opportunity to Rule the Galaxy!\n\n\nSUBSCR",
+    "released": "2018-05-09T22:06:49Z",
+    "updated": "2026-05-20T16:04:25Z",
+    "version": "1.5.36",
+    "score": 4.8,
+    "reviews": 1332,
+    "developer": "Ketchapp",
+    "developerUrl": "https://apps.apple.com/vn/developer/ketchapp/id528065807?uo=4",
+    "genres": [
+      "Games",
+      "Action",
+      "Casual",
+      "Entertainment"
+    ],
+    "releaseNotes": "Minor bug fixes and improvements"
+  },
+  "reviewAnalysis": {
+    "total": 0,
+    "starCounts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "positiveRatio": 0,
+    "negativeRatio": 0,
+    "eventMentions": []
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 10 天前",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-31T15:30:53.083Z"
+}

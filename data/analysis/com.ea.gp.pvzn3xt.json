@@ -19,13 +19,13 @@
     "total": 200,
     "starCounts": {
       "1": 64,
-      "2": 23,
-      "3": 25,
+      "2": 22,
+      "3": 26,
       "4": 31,
       "5": 57
     },
     "positiveRatio": 44,
-    "negativeRatio": 44,
+    "negativeRatio": 43,
     "eventMentions": [
       {
         "text": "to have all my progress erased plus my paid plant pass items i paid for don't even get near how my p",
@@ -63,7 +63,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     },
     {
@@ -73,5 +73,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:55:19.789Z"
+  "analyzedAt": "2026-05-31T15:30:00.551Z"
 }

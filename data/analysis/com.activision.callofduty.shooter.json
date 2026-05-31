@@ -10,8 +10,8 @@
     "version": "1.0.55",
     "installs": "100,000,000+",
     "score": 4.3,
-    "ratings": 16504150,
-    "reviews": 809839,
+    "ratings": 16504453,
+    "reviews": 809824,
     "developer": "Activision Publishing, Inc.",
     "developerWebsite": "http://www.activision.com",
     "genre": "Action",
@@ -20,45 +20,44 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 32,
+      "1": 44,
       "2": 8,
-      "3": 3,
-      "4": 16,
-      "5": 141
+      "3": 7,
+      "4": 15,
+      "5": 126
     },
-    "positiveRatio": 79,
-    "negativeRatio": 20,
+    "positiveRatio": 71,
+    "negativeRatio": 26,
     "eventMentions": [
       {
-        "text": "yeah, i've been playing since 2020 and this is by far the worst update. the game can't even register",
+        "text": "this is not the call of duty i knew anymore.....its more like fortnite.....",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "updates are too huge, skins and maps take too much time and space to download and some abusive gamep",
         "keywords": [
           "update"
         ]
       },
       {
-        "text": "fix the new resurgence map please! it is lagging and stuttering for no reason. i play on an s22 ultr",
+        "text": "a quick login is all i'm asking for, why is it that every day there's something new to download, i j",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "gets more like farlight 84 with every new season.",
+        "text": "game optimization has significantly reduced since the past few updates and now the game struggles to",
         "keywords": [
-          "new",
-          "season"
+          "update"
         ]
       },
       {
-        "text": "call of duty mobile is my fav and if they give me a a mythic skin and the new stuff in the game i wi",
+        "text": "new update is full of bugs. fire button doesn't work randomly.",
         "keywords": [
+          "update",
           "new"
-        ]
-      },
-      {
-        "text": "the new season is fire🤟🤟",
-        "keywords": [
-          "new",
-          "season"
         ]
       }
     ]
@@ -71,5 +70,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:55:47.098Z"
+  "analyzedAt": "2026-05-31T15:30:16.107Z"
 }

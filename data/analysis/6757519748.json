@@ -9,7 +9,7 @@
     "updated": "2026-05-25T07:00:00Z",
     "version": "1.4.1707",
     "score": 4.6,
-    "reviews": 821,
+    "reviews": 1008,
     "developer": "LMD Games",
     "developerUrl": "https://apps.apple.com/tw/developer/lmd-games/id1614594055?uo=4",
     "genres": [
@@ -35,15 +35,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 5 天，評分 4.6",
+      "detail": "上架 6 天，評分 4.6",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 6 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:53:16.854Z"
+  "analyzedAt": "2026-05-31T15:28:07.569Z"
 }

@@ -10,23 +10,41 @@
     "version": "1.0.0",
     "installs": "1,000,000+",
     "score": 4.7,
-    "ratings": 43834,
-    "reviews": 1695,
+    "ratings": 46136,
+    "reviews": 1772,
     "developer": "BOLTRAY GAMES",
     "genre": "Role Playing"
   },
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 23,
-      "2": 4,
-      "3": 13,
-      "4": 32,
-      "5": 128
+      "1": 28,
+      "2": 8,
+      "3": 9,
+      "4": 22,
+      "5": 133
     },
-    "positiveRatio": 80,
-    "negativeRatio": 14,
+    "positiveRatio": 78,
+    "negativeRatio": 18,
     "eventMentions": [
+      {
+        "text": "the game is so good. i'm loving it the more i'm playing it. there are some issues in it like , it's ",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "ano el juego, todo esta bien hecho, las mecanicas son sorprendentes, y hasta los compañeros tienen h",
+        "keywords": [
+          "collab"
+        ]
+      },
+      {
+        "text": "love the game! normally i hate these types of games but this one i haven't stopped playing. i'll adm",
+        "keywords": [
+          "update"
+        ]
+      },
       {
         "text": "very good game hope in colab we can get to play as the collab character in game until then 4 stars",
         "keywords": [
@@ -39,25 +57,6 @@
           "update",
           "limited"
         ]
-      },
-      {
-        "text": "so far the game is pretty fun, but i'm having so many scam bots message me asking me to add the \"lea",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "casual game, friendly coop. if you want something relaxed that can have a small fun grind but not ov",
-        "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "its so laggy i can't even create a character as soon as i tried it booted me, needs bug fixes and ne",
-        "keywords": [
-          "update",
-          "new"
-        ]
       }
     ]
   },
@@ -65,7 +64,7 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 17 天，評分 4.7",
+      "detail": "上架 18 天，評分 4.7",
       "confidence": "high"
     },
     {
@@ -73,13 +72,7 @@
       "label": "🎉 限時活動引流",
       "detail": "評論中 5 次提及活動/事件",
       "confidence": "medium"
-    },
-    {
-      "type": "word_of_mouth",
-      "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 80%",
-      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:55:27.097Z"
+  "analyzedAt": "2026-05-31T15:30:06.294Z"
 }

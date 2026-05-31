@@ -6,27 +6,27 @@
   "detail": {
     "description": "💖 Your Dream Starts Here! 💖\n\n🏙️ From Rookie Landlord to Urban Tycoon: Write Your Own Legend! Step into the shoes of an aspiring landlord starting with a single modest apartment. Through savvy management and strategic investment, upgrade your facilities and optimize the environment to build your dream community. Master your finances, expand your business footprint, and achieve a double breakthrough in wealth and status amidst the city's tides.\nWith a deep growth system and diverse mission chal",
     "released": "May 13, 2026",
-    "updated": 1779779716000,
-    "version": "1.2.0511",
+    "updated": 1780060142000,
+    "version": "1.2.0529",
     "installs": "500,000+",
-    "score": 4.6,
-    "ratings": 2967,
-    "reviews": 68,
+    "score": 4.7,
+    "ratings": 3084,
+    "reviews": 67,
     "developer": "Wildfire Interactive",
     "developerWebsite": "https://bj.wildfiregames.net",
     "genre": "Simulation"
   },
   "reviewAnalysis": {
-    "total": 72,
+    "total": 76,
     "starCounts": {
-      "1": 32,
+      "1": 35,
       "2": 6,
-      "3": 6,
-      "4": 6,
-      "5": 22
+      "3": 5,
+      "4": 7,
+      "5": 23
     },
     "positiveRatio": 39,
-    "negativeRatio": 53,
+    "negativeRatio": 54,
     "eventMentions": [
       {
         "text": "another update and still no change.",
@@ -40,15 +40,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 17 天，評分 4.6",
+      "detail": "上架 18 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 2 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:53:38.547Z"
+  "analyzedAt": "2026-05-31T15:29:14.945Z"
 }

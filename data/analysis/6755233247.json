@@ -8,8 +8,8 @@
     "released": "2026-05-23T07:00:00Z",
     "updated": "2026-05-23T07:00:00Z",
     "version": "2.10.02",
-    "score": 3.3,
-    "reviews": 63,
+    "score": 3.1,
+    "reviews": 74,
     "developer": "NCV GAMES PTE. LTD.",
     "developerUrl": "https://apps.apple.com/th/developer/ncv-games-pte-ltd/id1785578031?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 7 天前",
-      "confidence": "high"
+      "detail": "最近更新: 8 天前",
+      "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:54:12.525Z"
+  "analyzedAt": "2026-05-31T15:29:53.299Z"
 }

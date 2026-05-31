@@ -1,0 +1,61 @@
+{
+  "appId": "jp.co.takaratomy.duelmastersplays",
+  "name": "デュエル・マスターズ プレイス",
+  "platform": "android",
+  "market": "jp",
+  "detail": {
+    "description": "\"Duel Masters\" is now available as an app!\nHave an exciting duel anytime, anywhere, with anyone!\nLet's start another duema!\n\n■Duema after all!\nShield break with trump creature!\nGreat reversal with shield trigger!\nThe exciting duema is now in your hands!\n\n■Let's have fun in battle!\nAim for victory over and over again, Duel Master! \"Rank match\"!\nFeel free to compete in Duema! \"Casual Match\"!\nIt's a place with various battles, so it's up to you how you enjoy it!\n\n■Solo mode is also great!\nExciting ",
+    "released": "Dec 15, 2019",
+    "updated": 1779258365000,
+    "version": "4.6.0",
+    "installs": "1,000,000+",
+    "score": 4.3,
+    "ratings": 30279,
+    "reviews": 11111,
+    "developer": "TOMY COMPANY,LTD.",
+    "developerWebsite": "https://dmps.takaratomy.co.jp/",
+    "genre": "Card",
+    "recentChanges": "『極罠と聖剣 -DANGEROUS EXTRAP!!-』リリース！<br>【正義はここに完成する！】<br><br>【イベント】<br>TVアニメ『葬送のフリーレン』コラボイベント『旅人たちの決闘』開催！<br><br>【その他】<br>クイック・ピック提示カード更新<br>不具合修正<br>※詳細は公式サイトのNEWSもしくはゲーム内のお知らせをご確認ください"
+  },
+  "reviewAnalysis": {
+    "total": 36,
+    "starCounts": {
+      "1": 8,
+      "2": 3,
+      "3": 3,
+      "4": 7,
+      "5": 15
+    },
+    "positiveRatio": 61,
+    "negativeRatio": 31,
+    "eventMentions": [
+      {
+        "text": "decent reward for the rockman event, but i feel like i get too little dm points when destroying card",
+        "keywords": [
+          "event"
+        ]
+      },
+      {
+        "text": "新パック追加お願いします、、、",
+        "keywords": [
+          "新"
+        ]
+      }
+    ]
+  },
+  "inferredReasons": [
+    {
+      "type": "major_update",
+      "label": "🔄 重大更新帶動",
+      "detail": "最近更新: 11 天前",
+      "confidence": "medium"
+    },
+    {
+      "type": "event_driven",
+      "label": "🎉 限時活動引流",
+      "detail": "評論中 2 次提及活動/事件",
+      "confidence": "medium"
+    }
+  ],
+  "analyzedAt": "2026-05-31T15:31:22.547Z"
+}

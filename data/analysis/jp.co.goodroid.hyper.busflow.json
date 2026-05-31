@@ -9,9 +9,9 @@
     "updated": 1779799963000,
     "version": "1.5.0",
     "installs": "1,000,000+",
-    "score": 4.7,
-    "ratings": 14434,
-    "reviews": 12,
+    "score": 4.8,
+    "ratings": 15267,
+    "reviews": 14,
     "developer": "GOODROID,Inc.",
     "developerWebsite": "https://goodroid.co.jp/",
     "genre": "Puzzle",
@@ -20,15 +20,27 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 110,
-      "2": 37,
+      "1": 103,
+      "2": 35,
       "3": 20,
-      "4": 10,
-      "5": 23
+      "4": 12,
+      "5": 30
     },
-    "positiveRatio": 17,
-    "negativeRatio": 74,
+    "positiveRatio": 21,
+    "negativeRatio": 69,
     "eventMentions": [
+      {
+        "text": "whenever i open the game, it asks for an update. but when i try to update it, the update doesn’t wor",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "the game so far with limited ad's.",
+        "keywords": [
+          "limited"
+        ]
+      },
       {
         "text": "after the first few levels (the braindead ones a snail could solve) this becomes a game of \"how many",
         "keywords": [
@@ -53,15 +65,15 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     },
     {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
-      "detail": "評論中 3 次提及活動/事件",
+      "detail": "評論中 5 次提及活動/事件",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:53:01.973Z"
+  "analyzedAt": "2026-05-31T15:28:35.059Z"
 }

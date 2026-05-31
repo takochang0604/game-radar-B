@@ -9,7 +9,7 @@
     "updated": "2026-05-21T09:31:46Z",
     "version": "1.0.10",
     "score": 4.9,
-    "reviews": 88,
+    "reviews": 95,
     "developer": "Hong Kong Qushang Technology Co., Limited",
     "developerUrl": "https://apps.apple.com/kr/developer/hong-kong-qushang-technology-co-limited/id1831926518?uo=4",
     "genres": [
@@ -36,15 +36,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 9 天，評分 4.9",
+      "detail": "上架 10 天，評分 4.9",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 9 天前",
+      "detail": "最近更新: 10 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:51:42.594Z"
+  "analyzedAt": "2026-05-31T15:27:29.044Z"
 }

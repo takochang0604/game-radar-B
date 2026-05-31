@@ -9,7 +9,7 @@
     "updated": "2026-05-29T18:45:34Z",
     "version": "1.0.7",
     "score": 4.5,
-    "reviews": 2178,
+    "reviews": 2213,
     "developer": "SmallStep Dev Team",
     "developerUrl": "https://apps.apple.com/jp/developer/smallstep-dev-team/id1473677344?uo=4",
     "genres": [
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:50:48.837Z"
+  "analyzedAt": "2026-05-31T15:26:09.144Z"
 }

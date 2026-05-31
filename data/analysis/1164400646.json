@@ -9,7 +9,7 @@
     "updated": "2026-05-27T02:14:19Z",
     "version": "1.273.1",
     "score": 4,
-    "reviews": 107722,
+    "reviews": 107730,
     "developer": "NHN PlayArt 株式会社",
     "developerUrl": "https://apps.apple.com/jp/developer/nhn-playart-%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/id1084628015?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:51:45.120Z"
+  "analyzedAt": "2026-05-31T15:27:33.740Z"
 }

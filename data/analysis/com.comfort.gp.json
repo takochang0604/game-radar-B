@@ -9,23 +9,23 @@
     "updated": 1779100098000,
     "version": "0.0.8",
     "installs": "100,000+",
-    "score": 4.3,
-    "ratings": 2874,
-    "reviews": 29,
+    "score": 4.2,
+    "ratings": 2948,
+    "reviews": 30,
     "developer": "WinPlus Games",
     "developerWebsite": "http://winplusfun.com",
     "genre": "Puzzle"
   },
   "reviewAnalysis": {
-    "total": 196,
+    "total": 200,
     "starCounts": {
       "1": 6,
       "2": 1,
       "3": 10,
       "4": 12,
-      "5": 167
+      "5": 171
     },
-    "positiveRatio": 91,
+    "positiveRatio": 92,
     "negativeRatio": 4,
     "eventMentions": [
       {
@@ -46,7 +46,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 12 天前",
+      "detail": "最近更新: 13 天前",
       "confidence": "medium"
     },
     {
@@ -58,9 +58,9 @@
     {
       "type": "word_of_mouth",
       "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 91%",
+      "detail": "4-5星評論佔 92%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:57:00.689Z"
+  "analyzedAt": "2026-05-31T15:31:19.811Z"
 }

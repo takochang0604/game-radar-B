@@ -6,28 +6,34 @@
   "detail": {
     "description": "The first co-op horror extraction game on mobile, with full PC cross-play. Squad up, loot cursed ruins, escape alive — and try not to die laughing.\n\nCO-OP HORROR EXTRACTION — NOW ON MOBILE\nThe horror extraction genre finally comes to your phone, and it's finally fun for everyone. No hardcore grind. No steep learning curve. Just you, your friends, and a cursed ancient ruin full of things that want to eat you. Drop in with up to 4 players, loot cursed tombs, and extract before ancient horrors end ",
     "released": "May 25, 2026",
-    "updated": 1780076238000,
-    "version": "1.29.20.006",
+    "updated": 1780151524000,
+    "version": "1.29.21.001",
     "installs": "100,000+",
-    "score": 3.1,
-    "ratings": 594,
-    "reviews": 46,
+    "score": 2.9,
+    "ratings": 663,
+    "reviews": 56,
     "developer": "Giant Game",
     "genre": "Adventure",
     "recentChanges": "We&#39;re happy to announce that Tomb Busters is officially launched!<br><br>Join the adventure in the first co-op comedy horror extraction game on mobile.<br>Gather your friends, loot ancient ruins, and escape alive — and try not to die laughing!"
   },
   "reviewAnalysis": {
-    "total": 133,
+    "total": 150,
     "starCounts": {
-      "1": 32,
+      "1": 38,
       "2": 13,
-      "3": 12,
-      "4": 13,
-      "5": 63
+      "3": 14,
+      "4": 16,
+      "5": 69
     },
     "positiveRatio": 57,
     "negativeRatio": 34,
     "eventMentions": [
+      {
+        "text": "hi it's a pretty new game and quite exciting to play but you have to always play with teammates if y",
+        "keywords": [
+          "new"
+        ]
+      },
       {
         "text": "finding new players is hard(low player count) gameplay loop.. is alright i guess. mix of dbd, lethal",
         "keywords": [
@@ -51,12 +57,6 @@
         "keywords": [
           "event"
         ]
-      },
-      {
-        "text": "a wonderful game overall and first rating and also pls update ur game every now and then",
-        "keywords": [
-          "update"
-        ]
       }
     ]
   },
@@ -64,7 +64,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
     },
     {
@@ -74,5 +74,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:51:14.002Z"
+  "analyzedAt": "2026-05-31T15:26:52.487Z"
 }

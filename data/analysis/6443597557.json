@@ -9,7 +9,7 @@
     "updated": "2026-05-28T01:06:28Z",
     "version": "2.2.0",
     "score": 3.2,
-    "reviews": 634,
+    "reviews": 636,
     "developer": "Studio B Side Co.ltd.,",
     "developerUrl": "https://apps.apple.com/kr/developer/studio-b-side-co-ltd/id1309394369?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:53:33.993Z"
+  "analyzedAt": "2026-05-31T15:28:19.987Z"
 }

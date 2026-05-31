@@ -2,21 +2,21 @@
   "appId": "6503872838",
   "name": "Epic Stickman: RPG Idle War",
   "platform": "ios",
-  "market": "vn",
+  "market": "tw",
   "detail": {
-    "description": "Epic Stickman: Unleash Your Inner Legend in the Shadow Realm \n\nEpic Stickman: Idle RPG War is a thrilling idle RPG adventure where darkness reigns and your stickman hero fights even while you’re offline. In this AFK auto-battle game, your legend never sleeps — only grows stronger. The realm of shadows is calling. Are you ready to answer?\n\n◈ Idle RPG Action That Never Stops\nBattle through hordes of monsters and earn epic rewards — even when you're away. Enjoy seamless auto-battle mechanics that l",
+    "description": "Epic Stickman：在暗影之境釋放你的內在傳奇 \n\nEpic Stickman: Idle RPG War 是一款刺激的放置 RPG 冒險遊戲，在黑暗籠罩的世界裡，你的火柴人英雄即使離線也會繼續戰鬥。在這款 AFK 自動戰鬥遊戲中，你的傳奇永不休眠 — 只會變得更強。暗影之境正在呼喚你，你準備好回應了嗎？\n\n◈ 無止盡的 Idle RPG 戰鬥\n與成群怪物戰鬥，即使離開遊戲也能獲得豐厚獎勵。享受流暢的自動戰鬥系統，讓你的 Stickman 自行成長。\n\n◈ 職業導向的 RPG 系統\n選擇你的道路：成為勇敢的戰士、陰影中的盜賊、神秘的法師或被遺忘生物的召喚師。每個職業都有獨特技能與升級路線。\n\n◈ 史詩升級與裝備\n收集強力武器、傳說級防具及稀有戰利品。升級你的英雄並解鎖毀滅性技能，稱霸 AFK 戰場。\n\n◈ 探索暗影王國\n深入充滿秘密、頭目與寶藏的黑暗幻想世界。擊退層出不窮的敵人，展開驚心動魄的冒險。\n\n◈ 自訂與進化\n自訂你的英雄外觀、戰鬥風格與裝備。打造夢想中的 Stickman 英雄，擊敗一切敵人。不論你喜愛放置 RPG、AFK 點擊或火柴人遊戲，這款遊戲應有盡有。是時候成",
     "released": "2024-06-26T07:00:00Z",
     "updated": "2026-05-28T16:52:03Z",
     "version": "1.0.73",
     "score": 4.9,
-    "reviews": 3934,
+    "reviews": 1804,
     "developer": "Fansipan Limited",
-    "developerUrl": "https://apps.apple.com/vn/developer/fansipan-limited/id1501817933?uo=4",
+    "developerUrl": "https://apps.apple.com/tw/developer/fansipan-limited/id1501817933?uo=4",
     "genres": [
-      "Games",
-      "Role-Playing",
-      "Entertainment",
-      "Adventure"
+      "遊戲",
+      "角色扮演",
+      "娛樂",
+      "冒險"
     ],
     "releaseNotes": "- UI/UX improvements\n- Bug fixes and performance optimizations"
   },
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 2 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:55:57.153Z"
+  "analyzedAt": "2026-05-31T15:31:10.119Z"
 }

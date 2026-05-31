@@ -2,16 +2,16 @@
   "appId": "com.bandainamcoent.dblegends_ww",
   "name": "DRAGON BALL LEGENDS",
   "platform": "android",
-  "market": "us",
+  "market": "tw",
   "detail": {
     "description": "The ultimate anime action RPG is here! DRAGON BALL LEGENDS puts the power of your favorite DRAGON BALL heroes in your hands! Epic 3D visuals and animations bring your heroes to life: More than 400 fighters to find and train to make your ultimate team ready for battle. Goku, Vegeta, Trunks, Piccolo, Frieza, Broly, Majin Buu and many other heroes and villains are waiting for you! Discover a new original story based on the brand-new character designed by manga creator Akira Toriyama, the mysterious",
-    "released": "May 17, 2018",
+    "released": "May 24, 2018",
     "updated": 1779163856000,
     "version": "6.24.0",
     "installs": "50,000,000+",
-    "score": 4.4,
-    "ratings": 2134515,
-    "reviews": 237429,
+    "score": 3.5,
+    "ratings": 2134878,
+    "reviews": 8358,
     "developer": "Bandai Namco Entertainment Inc.",
     "developerWebsite": "https://www.bandainamcoent.co.jp/english/",
     "genre": "Action",
@@ -20,44 +20,44 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 35,
+      "1": 43,
       "2": 10,
-      "3": 17,
-      "4": 16,
-      "5": 122
+      "3": 15,
+      "4": 9,
+      "5": 123
     },
-    "positiveRatio": 69,
-    "negativeRatio": 23,
+    "positiveRatio": 66,
+    "negativeRatio": 27,
     "eventMentions": [
       {
-        "text": "i really love this game but they lot of updates",
+        "text": "toshi, wherever you are, please come back. we need you at this time of p2w, please. i don't care wha",
         "keywords": [
-          "update"
+          "anniversary",
+          "new"
         ]
       },
       {
-        "text": "good game overall luck rng for the bardock ln summons are kinda messed up but overall this game is g",
+        "text": "trash game not f2p friendly. you can't pull new characters and if you don't have new characters you ",
         "keywords": [
-          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "worst anniversary ever",
+        "keywords": [
           "anniversary"
         ]
       },
       {
-        "text": "it is best dragon ball game but same time it is worst because if try to uninstall and update your ph",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "i like the game very much, it's fun and sometimes it's annoyingly tricky, but all in all great game,",
-        "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "this is like an interactive comic. you read read read and then play for a few seconds and then back ",
+        "text": "the game is super fun the animation are stunning and it's one of the best dragon ball games so far t",
         "keywords": [
           "new"
+        ]
+      },
+      {
+        "text": "update: bad decisions. gets 1 star.",
+        "keywords": [
+          "update"
         ]
       }
     ]
@@ -66,7 +66,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 11 天前",
+      "detail": "最近更新: 12 天前",
       "confidence": "medium"
     },
     {
@@ -76,5 +76,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:50:28.589Z"
+  "analyzedAt": "2026-05-31T15:27:36.104Z"
 }

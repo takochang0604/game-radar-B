@@ -10,8 +10,8 @@
     "version": "1.6.0",
     "installs": "50,000,000+",
     "score": 4.2,
-    "ratings": 1729981,
-    "reviews": 16346,
+    "ratings": 1730983,
+    "reviews": 16349,
     "developer": "The Pokémon Company",
     "genre": "Card",
     "recentChanges": "● New Pulsing Aura booster packs are now available.<br>● Gold frames have been added to flair.<br>● A Claim All feature has been added for packs.<br>● Updates to the Obtain Items feature.<br>● A 2D pattern code feature has been added for friend requests.<br>● Revisions have been made to some features."
@@ -19,44 +19,44 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 59,
-      "2": 16,
+      "1": 67,
+      "2": 13,
       "3": 16,
       "4": 14,
-      "5": 95
+      "5": 90
     },
-    "positiveRatio": 55,
-    "negativeRatio": 38,
+    "positiveRatio": 52,
+    "negativeRatio": 40,
     "eventMentions": [
       {
-        "text": "forget about those cardboard cards that you have to pay, this is even better! this game helps us to ",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "why is this game so insistent on wasting your time? long and unskippable animations, so many unneces",
-        "keywords": [
-          "update"
-        ]
-      },
-      {
-        "text": "with this game, i love seeing the full arts already seeing alot of great new ones.",
+        "text": "stay away for your own sanity. this game starts nice with many rewards and rare cards, but the more ",
         "keywords": [
           "new"
         ]
       },
       {
-        "text": "lucky ice pop ruined the game. skill never mattered much in this game, but this card reduced the gam",
+        "text": "coin flip odds is not 50/50 in most cases. player draw is handicapped against ai players. pack openi",
         "keywords": [
           "update",
           "new"
         ]
       },
       {
-        "text": "why are we letting lvl 60 players stay in the beginners matches? this game is fine if you just want ",
+        "text": "the game developer have actually no intention of giving out gifts to players as the expert modes are",
         "keywords": [
           "new"
+        ]
+      },
+      {
+        "text": "why does it not update.every time i successfully update it asks for another update.",
+        "keywords": [
+          "update"
+        ]
+      },
+      {
+        "text": "you can't create another account in pokémon tcg; please introduce an update for this. the game is to",
+        "keywords": [
+          "update"
         ]
       }
     ]
@@ -69,5 +69,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:55:39.544Z"
+  "analyzedAt": "2026-05-31T15:27:14.003Z"
 }

@@ -9,7 +9,7 @@
     "updated": "2026-05-25T00:11:15Z",
     "version": "V1.3.5_B21",
     "score": 4.8,
-    "reviews": 728,
+    "reviews": 786,
     "developer": "OVIVO Games",
     "developerUrl": "https://apps.apple.com/th/developer/ovivo-games/id1482405708?uo=4",
     "genres": [
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 6 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:55:11.862Z"
+  "analyzedAt": "2026-05-31T15:29:50.914Z"
 }

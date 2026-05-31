@@ -9,7 +9,7 @@
     "updated": "2026-05-29T06:55:37Z",
     "version": "2.31",
     "score": 4.4,
-    "reviews": 424,
+    "reviews": 426,
     "developer": "Superboost Soft Limited",
     "developerUrl": "https://apps.apple.com/jp/developer/superboost-soft-limited/id1879733249?uo=4",
     "genres": [
@@ -35,9 +35,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 1 天前",
+      "detail": "最近更新: 2 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:51:37.805Z"
+  "analyzedAt": "2026-05-31T15:25:57.172Z"
 }

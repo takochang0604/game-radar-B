@@ -10,25 +10,31 @@
     "version": "1.0.2",
     "installs": "100,000+",
     "score": 4.7,
-    "ratings": 4195,
-    "reviews": 271,
+    "ratings": 5265,
+    "reviews": 332,
     "developer": "highbrow",
     "developerWebsite": "https://www.highbrow.com",
     "genre": "Role Playing",
     "recentChanges": "Dragon Village 3 Grand Open"
   },
   "reviewAnalysis": {
-    "total": 121,
+    "total": 150,
     "starCounts": {
-      "1": 18,
-      "2": 5,
-      "3": 9,
-      "4": 16,
-      "5": 73
+      "1": 23,
+      "2": 6,
+      "3": 12,
+      "4": 17,
+      "5": 92
     },
-    "positiveRatio": 74,
+    "positiveRatio": 73,
     "negativeRatio": 19,
     "eventMentions": [
+      {
+        "text": "games is like dragon city but better because there is no builder. i love the animation and that the ",
+        "keywords": [
+          "new"
+        ]
+      },
       {
         "text": "so far the experience has been fun! though there are times the game kicks me out when entering battl",
         "keywords": [
@@ -52,12 +58,6 @@
         "keywords": [
           "new"
         ]
-      },
-      {
-        "text": "yet another dissapointment from highbrow damn man, pixel art overly saturated maps and sprites flash",
-        "keywords": [
-          "new"
-        ]
       }
     ]
   },
@@ -65,13 +65,13 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 8 天，評分 4.7",
+      "detail": "上架 9 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     },
     {
@@ -81,5 +81,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:50:54.733Z"
+  "analyzedAt": "2026-05-31T15:25:41.863Z"
 }

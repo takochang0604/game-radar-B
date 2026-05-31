@@ -8,10 +8,10 @@
     "released": "May 25, 2026",
     "updated": 1779069054000,
     "version": "1.4",
-    "installs": "10,000+",
+    "installs": "50,000+",
     "score": 4.2,
-    "ratings": 567,
-    "reviews": 123,
+    "ratings": 723,
+    "reviews": 152,
     "developer": "LMD Games",
     "genre": "Sports",
     "recentChanges": "首款最強武將3V3街籃競技手遊，5月27日即將正式上線！"
@@ -33,15 +33,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 5 天，評分 4.2",
+      "detail": "上架 6 天，評分 4.2",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 12 天前",
+      "detail": "最近更新: 13 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:51:51.714Z"
+  "analyzedAt": "2026-05-31T15:27:03.978Z"
 }

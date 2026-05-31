@@ -10,8 +10,8 @@
     "version": "2026.311",
     "installs": "10,000,000+",
     "score": 3.2,
-    "ratings": 925115,
-    "reviews": 152296,
+    "ratings": 925067,
+    "reviews": 152290,
     "developer": "Mad Head Limited",
     "developerWebsite": "https://towerofsaviors.com/",
     "genre": "Puzzle",
@@ -22,9 +22,9 @@
     "starCounts": {
       "1": 108,
       "2": 12,
-      "3": 19,
+      "3": 18,
       "4": 12,
-      "5": 49
+      "5": 50
     },
     "positiveRatio": 31,
     "negativeRatio": 60,
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:53:40.961Z"
+  "analyzedAt": "2026-05-31T15:29:17.300Z"
 }

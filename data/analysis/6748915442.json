@@ -8,8 +8,8 @@
     "released": "2025-07-22T07:00:00Z",
     "updated": "2026-05-20T20:44:25Z",
     "version": "2.2.9",
-    "score": 2.7,
-    "reviews": 24,
+    "score": 2.6,
+    "reviews": 36,
     "developer": "Kiet Le",
     "developerUrl": "https://apps.apple.com/tw/developer/kiet-le/id1529327989?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 9 天前",
+      "detail": "最近更新: 10 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:53:52.850Z"
+  "analyzedAt": "2026-05-31T15:29:28.949Z"
 }

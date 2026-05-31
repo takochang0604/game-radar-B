@@ -11,7 +11,7 @@
     "installs": "500,000+",
     "score": 4.3,
     "ratings": 18566,
-    "reviews": 476,
+    "reviews": 477,
     "developer": "(주) 넷플레버",
     "developerWebsite": "https://netflavor.co.kr/26",
     "genre": "Role Playing",
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 10 天前",
+      "detail": "最近更新: 11 天前",
       "confidence": "medium"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:52:39.022Z"
+  "analyzedAt": "2026-05-31T15:28:22.336Z"
 }

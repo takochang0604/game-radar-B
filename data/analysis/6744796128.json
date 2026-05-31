@@ -9,7 +9,7 @@
     "updated": "2026-05-25T02:38:30Z",
     "version": "1.0.15",
     "score": 4.2,
-    "reviews": 1603,
+    "reviews": 1613,
     "developer": "LongE Corporation",
     "developerUrl": "https://apps.apple.com/tw/developer/longe-corporation/id1005400991?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 5 天前",
+      "detail": "最近更新: 6 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:52:29.787Z"
+  "analyzedAt": "2026-05-31T15:28:14.993Z"
 }

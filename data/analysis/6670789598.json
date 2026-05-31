@@ -2,23 +2,23 @@
   "appId": "6670789598",
   "name": "Brain Puzzle: Tricky Quest",
   "platform": "ios",
-  "market": "kr",
+  "market": "vn",
   "detail": {
     "description": "Congratulations on discovering a highly funny story game that will take you on an imaginative and creative journey of exploration.\n\nIn the game, you'll need to follow the storyline, using various items and skills to achieve the level objectives. These uniquely designed levels may defy your common sense and logic, requiring you to think outside the box and use your creativity and intelligence to find the best solutions. Each level is full of surprises and challenges. Friendly reminder: the method",
     "released": "2024-09-16T07:00:00Z",
     "updated": "2026-05-29T16:43:56Z",
     "version": "1.4.1",
-    "score": 4.6,
-    "reviews": 5224,
+    "score": 4.5,
+    "reviews": 7602,
     "developer": "SmallStep Dev Team",
-    "developerUrl": "https://apps.apple.com/kr/developer/smallstep-dev-team/id1473677344?uo=4",
+    "developerUrl": "https://apps.apple.com/vn/developer/smallstep-dev-team/id1473677344?uo=4",
     "genres": [
-      "게임",
-      "퍼즐",
-      "캐주얼",
-      "엔터테인먼트"
+      "Games",
+      "Puzzle",
+      "Casual",
+      "Entertainment"
     ],
-    "releaseNotes": "• 버그를 수정했습니다\n• 일부 레벨의 오역을 수정했습니다"
+    "releaseNotes": "• Fixed bugs\n• Fixed incorrect translations in some levels"
   },
   "reviewAnalysis": {
     "total": 0,
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 1 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:54:36.747Z"
+  "analyzedAt": "2026-05-31T15:26:47.800Z"
 }

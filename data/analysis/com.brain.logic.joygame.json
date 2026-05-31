@@ -9,9 +9,9 @@
     "updated": 1779192947000,
     "version": "1.2.6",
     "installs": "10,000,000+",
-    "score": 4.7,
-    "ratings": 79175,
-    "reviews": 54,
+    "score": 4.6,
+    "ratings": 79646,
+    "reviews": 55,
     "developer": "JoyGame Studio",
     "developerWebsite": "http://www.ezekielflores.com",
     "genre": "Puzzle",
@@ -20,14 +20,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 66,
-      "2": 14,
-      "3": 16,
-      "4": 21,
-      "5": 83
+      "1": 61,
+      "2": 15,
+      "3": 17,
+      "4": 19,
+      "5": 88
     },
-    "positiveRatio": 52,
-    "negativeRatio": 40,
+    "positiveRatio": 54,
+    "negativeRatio": 38,
     "eventMentions": [
       {
         "text": "i love this better than the first one because it has more story-type puzzles and most are easy to so",
@@ -53,7 +53,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 10 天前",
+      "detail": "最近更新: 12 天前",
       "confidence": "medium"
     },
     {
@@ -63,5 +63,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:54:22.260Z"
+  "analyzedAt": "2026-05-31T15:29:05.767Z"
 }

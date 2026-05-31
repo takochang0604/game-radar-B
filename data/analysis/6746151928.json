@@ -9,7 +9,7 @@
     "updated": "2026-05-27T20:16:40Z",
     "version": "0.5.1",
     "score": 4.5,
-    "reviews": 6590,
+    "reviews": 6681,
     "developer": "XD Entertainment Co., Ltd.",
     "developerUrl": "https://apps.apple.com/kr/developer/xd-entertainment-co-ltd/id1810952934?uo=4",
     "genres": [
@@ -36,9 +36,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 2 天前",
+      "detail": "最近更新: 3 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:52:34.484Z"
+  "analyzedAt": "2026-05-31T15:26:26.513Z"
 }

@@ -9,9 +9,9 @@
     "updated": 1779444454000,
     "version": "1.0.3",
     "installs": "10,000+",
-    "score": 4.9,
-    "ratings": 526,
-    "reviews": 168,
+    "score": 4.8,
+    "ratings": 587,
+    "reviews": 179,
     "developer": "GAME CRAFT",
     "genre": "Adventure"
   },
@@ -32,15 +32,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 9 天，評分 4.9",
+      "detail": "上架 10 天，評分 4.8",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 8 天前",
+      "detail": "最近更新: 9 天前",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:54:31.756Z"
+  "analyzedAt": "2026-05-31T15:29:26.477Z"
 }

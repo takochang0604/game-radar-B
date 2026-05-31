@@ -10,8 +10,8 @@
     "version": "2.16.2",
     "installs": "500,000,000+",
     "score": 4.1,
-    "ratings": 3564835,
-    "reviews": 195389,
+    "ratings": 3564985,
+    "reviews": 195395,
     "developer": "Playgendary Limited",
     "developerWebsite": "https://newplg.dev/",
     "genre": "Action",
@@ -20,14 +20,14 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 52,
-      "2": 8,
-      "3": 6,
-      "4": 11,
-      "5": 123
+      "1": 45,
+      "2": 6,
+      "3": 8,
+      "4": 15,
+      "5": 126
     },
-    "positiveRatio": 67,
-    "negativeRatio": 30,
+    "positiveRatio": 71,
+    "negativeRatio": 26,
     "eventMentions": [
       {
         "text": "i played this and i'm at top of the teeth event my name is deadplayer",
@@ -59,7 +59,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     },
     {
@@ -69,5 +69,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:50:24.033Z"
+  "analyzedAt": "2026-05-31T15:25:32.271Z"
 }

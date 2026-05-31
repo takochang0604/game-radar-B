@@ -9,7 +9,7 @@
     "updated": "2026-05-27T07:00:00Z",
     "version": "1.5.0",
     "score": 4.6,
-    "reviews": 1929,
+    "reviews": 2597,
     "developer": "JOYSTAR GAME INFORMATION TECHNOLOGY CO.,LIMITED",
     "developerUrl": "https://apps.apple.com/tw/developer/joystar-game-information-technology-co-limited/id1818294274?uo=4",
     "genres": [
@@ -35,15 +35,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 3 天，評分 4.6",
+      "detail": "上架 4 天，評分 4.6",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 3 天前",
+      "detail": "最近更新: 4 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:51:54.276Z"
+  "analyzedAt": "2026-05-31T15:27:06.482Z"
 }

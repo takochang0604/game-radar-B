@@ -10,7 +10,7 @@
     "version": "1.4.7",
     "installs": "1,000,000+",
     "score": 4.1,
-    "ratings": 89203,
+    "ratings": 89279,
     "reviews": 1339,
     "developer": "Major9",
     "developerWebsite": "https://outerplane.vagames.kr",
@@ -20,15 +20,36 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 61,
+      "1": 57,
       "2": 4,
-      "3": 15,
-      "4": 18,
-      "5": 102
+      "3": 14,
+      "4": 19,
+      "5": 106
     },
-    "positiveRatio": 60,
-    "negativeRatio": 33,
+    "positiveRatio": 63,
+    "negativeRatio": 31,
     "eventMentions": [
+      {
+        "text": "i have to make a new review thanks to the support sending me code and doing a great job. i lost acco",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "i would give more stars but the character draw doesn't want to give the new updated characters i thi",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "it's a really good game and i enjoy the storyline very much.. though i just started playing..i'm loo",
+        "keywords": [
+          "event",
+          "limited",
+          "season"
+        ]
+      },
       {
         "text": "great game n very welcome to new player. thanks 🙏",
         "keywords": [
@@ -39,25 +60,6 @@
         "text": "something is wrong and my hard work is from the update, everything is gone, and don't know what to d",
         "keywords": [
           "update"
-        ]
-      },
-      {
-        "text": "insanely generous towards new player",
-        "keywords": [
-          "new"
-        ]
-      },
-      {
-        "text": "in addition to what i previously said, i know they will ignore this comment just like everyone else'",
-        "keywords": [
-          "update",
-          "new"
-        ]
-      },
-      {
-        "text": "i am a very... strict gacha player. i get bored easily. but this game is it. i love the music. the a",
-        "keywords": [
-          "season"
         ]
       }
     ]
@@ -70,5 +72,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:50:06.248Z"
+  "analyzedAt": "2026-05-31T15:25:13.119Z"
 }

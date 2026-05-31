@@ -10,7 +10,7 @@
     "version": "6.6.0_44318314_44476906",
     "installs": "100,000,000+",
     "score": 4,
-    "ratings": 5177768,
+    "ratings": 5178533,
     "reviews": 23449,
     "developer": "COGNOSPHERE PTE. LTD.",
     "developerWebsite": "https://genshin.hoyoverse.com/",
@@ -20,44 +20,45 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 135,
-      "2": 11,
-      "3": 6,
-      "4": 10,
-      "5": 38
+      "1": 137,
+      "2": 9,
+      "3": 4,
+      "4": 7,
+      "5": 43
     },
-    "positiveRatio": 24,
+    "positiveRatio": 25,
     "negativeRatio": 73,
     "eventMentions": [
       {
-        "text": "i would give genshin impact five stars however there is some issue in asia server because of which t",
+        "text": "been playing this game for 3 years now and has got to be one if the worst updates",
         "keywords": [
-          "update",
-          "new"
+          "update"
         ]
       },
       {
-        "text": "the storyline and the characters are great but there are many problems. recent characters need anoth",
+        "text": "played it since its second update and i couldn't be more and more disappointed with how its going.",
         "keywords": [
-          "new"
+          "update"
         ]
       },
       {
-        "text": "as a day one player with +6.1k hours (in-game) i couldn't recommend the game. unfortunately, after 6",
+        "text": "• terrible rewards, boring quests with storytelling getting worse and worse. • lazy devs, downgraded",
+        "keywords": [
+          "event",
+          "update"
+        ]
+      },
+      {
+        "text": "i've been playing genshin impact for a year and took a break, and honestly after i came back? i'm re",
         "keywords": [
           "event"
         ]
       },
       {
-        "text": "genshin impact is giving too less awards. back in version 5.0 we used to get 150 pulls for free to p",
+        "text": "this patch is incredibly disappointing. genshin impact keeps making billions of dollars, yet players",
         "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "fun game not until you realize rewards that you get in events are getting lower and lower each versi",
-        "keywords": [
-          "event"
+          "event",
+          "limited"
         ]
       }
     ]
@@ -70,5 +71,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:50:03.783Z"
+  "analyzedAt": "2026-05-31T15:25:17.955Z"
 }

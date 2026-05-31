@@ -10,8 +10,8 @@
     "version": "1.0.7",
     "installs": "5,000,000+",
     "score": 4.6,
-    "ratings": 22357,
-    "reviews": 156,
+    "ratings": 22742,
+    "reviews": 157,
     "developer": "JoyGame Studio",
     "developerWebsite": "http://www.ezekielflores.com",
     "genre": "Puzzle",
@@ -20,10 +20,10 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 74,
-      "2": 17,
+      "1": 77,
+      "2": 15,
       "3": 13,
-      "4": 22,
+      "4": 21,
       "5": 74
     },
     "positiveRatio": 48,
@@ -65,7 +65,7 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     },
     {
@@ -75,5 +75,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:50:08.618Z"
+  "analyzedAt": "2026-05-31T15:25:15.494Z"
 }

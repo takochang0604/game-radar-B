@@ -9,9 +9,9 @@
     "updated": 1779787685000,
     "version": "1.1.6",
     "installs": "100,000+",
-    "score": 4.4,
-    "ratings": 225,
-    "reviews": 176,
+    "score": 4.6,
+    "ratings": 260,
+    "reviews": 195,
     "developer": "3wave studio Co. Ltd.",
     "developerWebsite": "https://3wavestudio.blogspot.com",
     "genre": "Simulation"
@@ -33,15 +33,15 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 10 天，評分 4.4",
+      "detail": "上架 11 天，評分 4.6",
       "confidence": "high"
     },
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 4 天前",
+      "detail": "最近更新: 5 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:52:31.947Z"
+  "analyzedAt": "2026-05-31T15:27:40.736Z"
 }

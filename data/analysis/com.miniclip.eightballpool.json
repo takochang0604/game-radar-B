@@ -10,8 +10,8 @@
     "version": "56.24.0",
     "installs": "1,000,000,000+",
     "score": 4.7,
-    "ratings": 31331593,
-    "reviews": 88867,
+    "ratings": 31337041,
+    "reviews": 88874,
     "developer": "Miniclip.com",
     "developerWebsite": "https://www.miniclip.com/",
     "genre": "Sports",
@@ -20,29 +20,42 @@
   "reviewAnalysis": {
     "total": 200,
     "starCounts": {
-      "1": 28,
-      "2": 3,
-      "3": 6,
-      "4": 8,
+      "1": 30,
+      "2": 2,
+      "3": 3,
+      "4": 10,
       "5": 155
     },
-    "positiveRatio": 82,
+    "positiveRatio": 83,
     "negativeRatio": 16,
     "eventMentions": [
       {
-        "text": "to many auto player hacker in game i lost more then 25billiojs coins in single day day by day i hate",
+        "text": "i would likely to rate 1🙂‍↕️⭐. but unfortunately i'm really addicted to play this as far as, you'll",
+        "keywords": [
+          "limited"
+        ]
+      },
+      {
+        "text": "on the new update coming kurdish game or kurdish language 75%100 kurdish people play",
+        "keywords": [
+          "update",
+          "new"
+        ]
+      },
+      {
+        "text": "mic should be given and also chating option with other new frnd",
+        "keywords": [
+          "new"
+        ]
+      },
+      {
+        "text": "first, too many ads, i logged in and the game spammed me with ads not even letting me play, after 5 ",
         "keywords": [
           "event"
         ]
       },
       {
-        "text": "this is very nice game and events are very cool",
-        "keywords": [
-          "event"
-        ]
-      },
-      {
-        "text": "it kind of does what you want. i personally don't like it when games are asking for currency as soon",
+        "text": "recommend this game because you can play with new people everything you 1v1",
         "keywords": [
           "new"
         ]
@@ -53,21 +66,21 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 0 天前",
+      "detail": "最近更新: 2 天前",
       "confidence": "high"
     },
     {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
-      "detail": "評論中 3 次提及活動/事件",
+      "detail": "評論中 5 次提及活動/事件",
       "confidence": "medium"
     },
     {
       "type": "word_of_mouth",
       "label": "💬 口碑爆發",
-      "detail": "4-5星評論佔 82%",
+      "detail": "4-5星評論佔 83%",
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:52:49.635Z"
+  "analyzedAt": "2026-05-31T15:27:55.205Z"
 }

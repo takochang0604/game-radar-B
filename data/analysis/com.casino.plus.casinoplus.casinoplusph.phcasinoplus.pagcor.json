@@ -10,8 +10,8 @@
     "version": "1",
     "installs": "50,000+",
     "score": 4.7,
-    "ratings": 4396,
-    "reviews": 218,
+    "ratings": 4804,
+    "reviews": 232,
     "developer": "SAIDMAINT",
     "genre": "Card"
   },
@@ -21,8 +21,8 @@
       "1": 8,
       "2": 6,
       "3": 7,
-      "4": 11,
-      "5": 168
+      "4": 14,
+      "5": 165
     },
     "positiveRatio": 90,
     "negativeRatio": 7,
@@ -38,12 +38,6 @@
         "keywords": [
           "update"
         ]
-      },
-      {
-        "text": "update",
-        "keywords": [
-          "update"
-        ]
       }
     ]
   },
@@ -51,13 +45,13 @@
     {
       "type": "new_release",
       "label": "🆕 新遊戲上線熱度",
-      "detail": "上架 29 天，評分 4.7",
+      "detail": "上架 30 天，評分 4.7",
       "confidence": "high"
     },
     {
       "type": "event_driven",
       "label": "🎉 限時活動引流",
-      "detail": "評論中 3 次提及活動/事件",
+      "detail": "評論中 2 次提及活動/事件",
       "confidence": "medium"
     },
     {
@@ -67,5 +61,5 @@
       "confidence": "medium"
     }
   ],
-  "analyzedAt": "2026-05-30T10:56:29.217Z"
+  "analyzedAt": "2026-05-31T15:30:55.700Z"
 }

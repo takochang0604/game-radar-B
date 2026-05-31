@@ -6,10 +6,10 @@
   "detail": {
     "description": "Explore Travel Town, where you can combine everything into better and more useful items while you travel the world!\n\nReveal secrets as you discover yourself and help the friendly people of Travel Town!\n\n\nTRAVEL TOWN FEATURES:\n\n== Match Objects ==\n• Discover over 500 fantastic objects through hundreds of levels!\n• Freely drag objects around the beautiful world and match 2 of a kind evolve them into more superior items!\n• Fulfil the missions of the townsfolk to unlock more amazing items!\n\n== Meet ",
     "released": "2021-02-12T08:00:00Z",
-    "updated": "2026-05-24T08:53:24Z",
-    "version": "2.12.1581",
+    "updated": "2026-05-31T13:55:34Z",
+    "version": "2.12.1590",
     "score": 4.8,
-    "reviews": 174466,
+    "reviews": 174653,
     "developer": "Moon Active",
     "developerUrl": "https://apps.apple.com/us/developer/moon-active/id470556954?uo=4",
     "genres": [
@@ -37,9 +37,9 @@
     {
       "type": "major_update",
       "label": "🔄 重大更新帶動",
-      "detail": "最近更新: 6 天前",
+      "detail": "最近更新: 0 天前",
       "confidence": "high"
     }
   ],
-  "analyzedAt": "2026-05-30T10:56:02.482Z"
+  "analyzedAt": "2026-05-31T15:31:39.265Z"
 }
