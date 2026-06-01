@@ -2595,9 +2595,21 @@ function renderModalChart(dh, days, activeBtn) {
             });
             el.innerHTML = html;
             el.style.opacity = '1';
+            el.style.transform = 'none'; // reset for measurement
             const pos = context.chart.canvas.getBoundingClientRect();
-            el.style.left = pos.left + window.scrollX + tooltip.caretX + 'px';
-            el.style.top = pos.top + window.scrollY + tooltip.caretY + 'px';
+            let left = pos.left + window.scrollX + tooltip.caretX;
+            let top = pos.top + window.scrollY + tooltip.caretY;
+            // Measure tooltip size
+            const tw = el.offsetWidth;
+            const th = el.offsetHeight;
+            // Clamp horizontally: keep within viewport
+            const vw = window.innerWidth;
+            left = Math.max(8, Math.min(left - tw / 2, vw - tw - 8));
+            // Position above caret, fallback below if too high
+            top = top - th - 10;
+            if (top < window.scrollY + 4) top = pos.top + window.scrollY + tooltip.caretY + 10;
+            el.style.left = left + 'px';
+            el.style.top = top + 'px';
           },
         },
       },
