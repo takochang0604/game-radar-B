@@ -2569,8 +2569,7 @@ function renderModalChart(dh, days, activeBtn) {
       label: line.label,
       data: allDates.map(d => {
         const val = dataMap.get(d);
-        // null / undefined → null（Chart.js 斷線，不畫到底部）
-        return (val === null || val === undefined) ? null : val;
+        return (val === null || val === undefined) ? OFF_CHART_RANK : val;
       }),
       borderColor: line.color,
       backgroundColor: line.color + '18',
@@ -2582,7 +2581,7 @@ function renderModalChart(dh, days, activeBtn) {
       pointHoverRadius: 6,
       pointBackgroundColor: line.color,
       pointBorderColor: line.color,
-      spanGaps: false,
+      spanGaps: true,
     };
   });
 
@@ -2613,7 +2612,7 @@ function renderModalChart(dh, days, activeBtn) {
               const color = dp.dataset.borderColor;
               const style = Object.values(LINE_STYLES).find(s => s.color === color);
               const icon = style && style.platform === 'android' ? ICON_ANDROID : ICON_IOS;
-              const rankText = (rank === null || rank === OFF_CHART_RANK) ? '榜外' : `第 #${rank} 名`;
+              const rankText = rank === OFF_CHART_RANK ? '榜外' : `第 #${rank} 名`;
               html += `<div class="chart-tooltip-row"><span class="chart-legend-dot" style="background:${color}"></span>${icon} ${dp.dataset.label}: ${rankText}</div>`;
             });
             el.innerHTML = html;
