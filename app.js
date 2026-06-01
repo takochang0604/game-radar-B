@@ -1272,6 +1272,18 @@ function renderDarkhorses() {
   `;
   }).join('');
 
+  // 強制瀏覽器重繪 emoji 國旗（解決大量卡片渲染時 emoji 消失問題）
+  requestAnimationFrame(() => {
+    listEl.querySelectorAll('.dh-tag.market, .dh-rank-row').forEach(el => {
+      el.style.willChange = 'contents';
+    });
+    requestAnimationFrame(() => {
+      listEl.querySelectorAll('.dh-tag.market, .dh-rank-row').forEach(el => {
+        el.style.willChange = '';
+      });
+    });
+  });
+
   setTimeout(() => {
     const canvasMap = new Map();
     const observer = new IntersectionObserver((entries, obs) => {
