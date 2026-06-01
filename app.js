@@ -1011,7 +1011,8 @@ function renderDarkhorses() {
   {
     const latestSnapDate = state.availableDates?.[state.availableDates.length - 1] || '';
     if (latestSnapDate && state.snapshots[latestSnapDate]) {
-      const latestResults = findAppInAllMarkets(latestSnapDate, allCardIds);
+      const cardIds = new Set(filtered.map(c => c.appId));
+      const latestResults = findAppInAllMarkets(latestSnapDate, cardIds);
       for (const card of filtered) {
         if (!card._chartRanks || card._chartRanks.length === 0) continue;
         const latestEntries = latestResults.get(card.appId) || [];
