@@ -468,9 +468,16 @@ function initModal() {
   document.getElementById('analysisModal').onclick = (e) => {
     if (e.target === e.currentTarget) closeModal();
   };
-  // #8 ESC 鍵關閉 Modal（WCAG 無障礙標準）
+  // #8 ESC 鍵關閉 Modal / Pipeline Panel（WCAG 無障礙標準）
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeModal();
+    if (e.key === 'Escape') {
+      const pipelinePanel = document.getElementById('pipelinePanel');
+      if (pipelinePanel && pipelinePanel.classList.contains('open')) {
+        togglePipelinePanel();
+        return;
+      }
+      closeModal();
+    }
   });
 }
 function closeModal() { document.getElementById('analysisModal').classList.remove('active'); }
@@ -3085,11 +3092,11 @@ function renderReportsTab() {
                    || reportData.match(/\|\s*\*\*評測日期\*\*\s*\|\s*(\d{4}[-\/]\d{2}[-\/]\d{2})/);
     const reportDate = dateMatch ? dateMatch[1].replace(/\//g, '-') : '';
 
-    reportCards.push({ reportName, gameName, icon, developer, isDarkhorse, appId: appInfo?.appId, tags, reportDate });
+    reportCards.push({ reportName, gameName, icon, developer, isDarkhorse, appId: appInfo?.appId, tags, reportDate, _idx: reportCards.length });
   }
 
-  // 依評測日期排序（越新越前面）
-  reportCards.sort((a, b) => (b.reportDate || '').localeCompare(a.reportDate || ''));
+  // 依評測日期排序（越新越前面），同日期則後上傳的排前面
+  reportCards.sort((a, b) => (b.reportDate || '').localeCompare(a.reportDate || '') || b._idx - a._idx);
 
   // 渲染標籤雲 UI
   const tagsPills = document.getElementById('reportTagsPills');
@@ -3159,4 +3166,109 @@ function renderReportsTab() {
       </div>
     </div>`;
   }).join('');
+}
+
+// ============ Pipeline History Panel ============
+async function togglePipelinePanel() {
+  const panel = document.getElementById('pipelinePanel');
+  const overlay = document.getElementById('pipelineOverlay');
+  const isOpen = panel.classList.contains('open');
+
+  if (isOpen) {
+    panel.classList.remove('open');
+    overlay.classList.remove('open');
+    return;
+  }
+
+  panel.classList.add('open');
+  overlay.classList.add('open');
+
+  // 載入資料
+  const body = document.getElementById('pipelineBody');
+  body.innerHTML = '<div class="pipeline-loading">載入中...</div>';
+
+  try {
+    const { loadPipelineHistory } = await import('./firebase-data.js');
+    const history = await loadPipelineHistory();
+    renderPipelineHistory(body, history);
+  } catch (err) {
+    body.innerHTML = `<div class="pipeline-error">❗ 無法載入：${err.message}</div>`;
+  }
+}
+
+function renderPipelineHistory(container, history) {
+  if (!history || history.length === 0) {
+    container.innerHTML = '<div class="pipeline-empty">尚無抓取紀錄<br><small>等待每日排程執行後將自動記錄</small></div>';
+    return;
+  }
+
+  // 由新到舊排列
+  const sorted = [...history].reverse();
+
+  // 市場配置
+  const PL_MARKETS = [
+    { code: 'us', flag: '🇺🇸', name: '美國' },
+    { code: 'jp', flag: '🇯🇵', name: '日本' },
+    { code: 'kr', flag: '🇰🇷', name: '韓國' },
+    { code: 'cn', flag: '🇨🇳', name: '中國', noGP: true },
+    { code: 'tw', flag: '🇹🇼', name: '台灣' },
+    { code: 'th', flag: '🇹🇭', name: '泰國' },
+    { code: 'vn', flag: '🇻🇳', name: '越南' },
+    { code: 'ph', flag: '🇵🇭', name: '菲律賓' },
+  ];
+
+  let html = '';
+  for (const entry of sorted) {
+    const dateStr = entry.date;
+    const time = entry.completedAt ? new Date(entry.completedAt).toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit' }) : '';
+    const statusIcon = entry.success ? '✅' : '❌';
+    const statusText = entry.success
+      ? `${entry.totalSaved || 30}/${entry.totalExpected || 30}`
+      : (entry.error || '失敗');
+    const hasFailures = entry.failures && entry.failures.length > 0;
+
+    html += `<div class="pipeline-entry ${entry.success ? 'success' : 'fail'}">`;
+    html += `<div class="pipeline-entry-header" onclick="this.parentElement.classList.toggle('expanded')">`;
+    html += `<span class="pipeline-date">${dateStr}</span>`;
+    html += `<span class="pipeline-time">${time}</span>`;
+    html += `<span class="pipeline-status">${statusIcon} ${statusText}</span>`;
+    if (hasFailures || !entry.success) {
+      html += `<span class="pipeline-expand-icon">▶</span>`;
+    }
+    html += `</div>`;
+
+    // 展開明細：各市場狀態表格
+    if (hasFailures || !entry.success) {
+      html += `<div class="pipeline-detail">`;
+
+      if (entry.error) {
+        html += `<div class="pipeline-error-msg">❌ ${entry.error}</div>`;
+      }
+
+      if (hasFailures) {
+        html += `<table class="pipeline-table">`;
+        html += `<thead><tr><th>市場</th><th>平台</th><th>榜別</th><th>錯誤</th></tr></thead><tbody>`;
+        for (const f of entry.failures) {
+          const market = PL_MARKETS.find(m => m.code === f.market);
+          const flag = market ? market.flag : '';
+          const name = market ? market.name : f.market;
+          const platform = f.platform === 'android' ? '🤖' : '🍎';
+          const chart = f.chartType === 'topfree' ? '免費' : '營收';
+          html += `<tr><td>${flag} ${name}</td><td>${platform}</td><td>${chart}</td><td class="pipeline-err-text">${(f.error || '').substring(0, 30)}</td></tr>`;
+        }
+        html += `</tbody></table>`;
+      }
+
+      html += `</div>`;
+    } else {
+      // 全成功，點開可看全市場總覽
+      html += `<div class="pipeline-detail">`;
+      html += `<div class="pipeline-all-ok">全部 ${entry.totalSaved || 30} 個排行檔抓取成功</div>`;
+      html += `</div>`;
+    }
+
+    html += `</div>`;
+  }
+
+  container.innerHTML = html;
 }

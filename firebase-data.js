@@ -138,6 +138,14 @@ export async function loadPipelineStatus() {
 }
 
 /**
+ * #11 載入 Pipeline 抓取歷程（history 陣列）
+ */
+export async function loadPipelineHistory() {
+  const status = await loadPipelineStatus();
+  return status?.history || [];
+}
+
+/**
  * #15 載入追蹤遊戲資料（從 gameTracking 集合同步）
  */
 const TRACKING_COLLECTION = 'gameTracking';

@@ -365,12 +365,40 @@ async function uploadTrackedGames(dates) {
 }
 
 /**
- * #11 上傳 Pipeline 狀態
+ * #11 上傳 Pipeline 狀態 + 歷史紀錄
  */
 async function uploadPipelineStatus(success, details = {}) {
-  await db.collection(COLLECTION).doc('pipelineStatus').set({
+  const docRef = db.collection(COLLECTION).doc('pipelineStatus');
+
+  // 讀取現有歷史
+  let history = [];
+  try {
+    const existing = await docRef.get();
+    if (existing.exists() && existing.data().history) {
+      history = existing.data().history;
+    }
+  } catch {}
+
+  // 新增本次紀錄
+  const entry = {
+    date: details.date || new Date().toISOString().split('T')[0],
+    success,
+    totalSaved: details.totalSaved || 0,
+    totalExpected: details.totalExpected || 0,
+    darkhorseCount: details.darkhorseCount || 0,
+    failures: details.failures || [],
+    error: details.error || null,
+    completedAt: new Date().toISOString(),
+  };
+  history.push(entry);
+
+  // 只保留最近 30 筆
+  if (history.length > 30) history = history.slice(-30);
+
+  await docRef.set({
     success,
     ...details,
+    history,
     updatedAt: admin.firestore.FieldValue.serverTimestamp(),
   });
 }
@@ -410,11 +438,26 @@ async function main() {
     await uploadReports();
     await uploadTrackedGames(dates);
 
-    // #11 寫入成功狀態
+    // #11 寫入成功狀態（含詳細抓取結果）
+    let fetchDetails = {};
+    try {
+      const statusPath = path.resolve(ROOT, 'data', 'last-run-status.json');
+      if (fs.existsSync(statusPath)) {
+        const statusData = JSON.parse(fs.readFileSync(statusPath, 'utf-8'));
+        fetchDetails = {
+          totalSaved: statusData.totalSaved || 0,
+          totalExpected: statusData.totalExpected || 0,
+          failures: statusData.failures || [],
+        };
+      }
+    } catch (e) {
+      console.warn('⚠️ 無法讀取 last-run-status.json:', e.message);
+    }
     await uploadPipelineStatus(true, {
       date: dates[dates.length - 1] || '',
       totalDates: dates.length,
       darkhorseCount: dhResult?.darkhorses?.length || 0,
+      ...fetchDetails,
     });
 
     console.log('\n✅ 全部上傳完成！');
