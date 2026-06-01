@@ -2194,6 +2194,7 @@ function showAnalysis(appId, platform) {
       ` : ''}
 
       <div class="chart-container"><canvas id="modalChart"></canvas></div>
+      <div id="chartLegend" class="chart-legend"></div>
     </div>
 
     <!-- 其它分析細節 -->
@@ -2469,10 +2470,10 @@ function renderModalChart(dh, days, activeBtn) {
   }
 
   const LINE_STYLES = {
-    'ios_topfree':     { color: '#3b82f6', label: '🍎 iOS 免費' },
-    'ios_grossing':    { color: '#8b5cf6', label: '🍎 iOS 營收' },
-    'android_topfree': { color: '#10b981', label: '🤖 Android 免費' },
-    'android_grossing':{ color: '#f59e0b', label: '🤖 Android 營收' },
+    'ios_topfree':     { color: '#3b82f6', label: 'iOS 免費', platform: 'ios' },
+    'ios_grossing':    { color: '#8b5cf6', label: 'iOS 營收', platform: 'ios' },
+    'android_topfree': { color: '#10b981', label: 'Android 免費', platform: 'android' },
+    'android_grossing':{ color: '#f59e0b', label: 'Android 營收', platform: 'android' },
   };
 
   const historyByLine = dh._rankHistoryByLine;
@@ -2569,10 +2570,7 @@ function renderModalChart(dh, days, activeBtn) {
       responsive: true, maintainAspectRatio: false,
       plugins: {
         legend: {
-          display: datasets.length > 1,
-          position: 'top',
-          align: 'start',
-          labels: { color: '#94a3b8', usePointStyle: true, pointStyle: 'circle', padding: 12, font: { size: 11 } },
+          display: false,
         },
         tooltip: {
           callbacks: {
@@ -2608,6 +2606,19 @@ function renderModalChart(dh, days, activeBtn) {
       },
     },
   });
+
+  // 自訂 HTML Legend（使用 SVG icon 取代 emoji）
+  const legendEl = document.getElementById('chartLegend');
+  if (legendEl && datasets.length > 1) {
+    legendEl.innerHTML = datasets.map(ds => {
+      const style = Object.values(LINE_STYLES).find(s => s.label === ds.label);
+      const icon = style && style.platform === 'android' ? ICON_ANDROID : ICON_IOS;
+      return `<span class="chart-legend-item"><span class="chart-legend-dot" style="background:${ds.borderColor}"></span>${icon} ${ds.label}</span>`;
+    }).join('');
+    legendEl.style.display = 'flex';
+  } else if (legendEl) {
+    legendEl.style.display = 'none';
+  }
 }
 window.renderModalChart = renderModalChart;
 
