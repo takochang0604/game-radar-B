@@ -746,7 +746,7 @@ function renderStats() {
   }
 
   const statAppsSub = document.getElementById('statAppsSub');
-  if (statAppsSub) statAppsSub.textContent = '匹已完成 AI 評測報告';
+  if (statAppsSub) statAppsSub.textContent = '匹已完成評測報告';
 }
 
 function renderDarkhorses() {
@@ -1972,7 +1972,7 @@ function showAnalysis(appId, platform) {
   if (mainSummary) {
     aiSectionHtml = `
       <div class="analysis-section">
-        <h4>📋 AI 深度研判與摘要</h4>
+        <h4>📋 深度研判與摘要</h4>
         <div class="ai-conclusion-card">
           <div class="ai-conclusion-summary">
             ${mainSummary}
@@ -1983,7 +1983,7 @@ function showAnalysis(appId, platform) {
   } else {
     aiSectionHtml = `
       <div class="analysis-section">
-        <h4>📋 AI 深度研判與摘要</h4>
+        <h4>📋 深度研判與摘要</h4>
         <div class="ai-conclusion-card" style="border-left-color: var(--text-muted);">
           <p style="color:var(--text-muted); margin:0; font-size:13px;">尚未分析此遊戲。請在對話中輸入「分析 [遊戲名稱]」。</p>
         </div>
