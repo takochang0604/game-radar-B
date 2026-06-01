@@ -739,16 +739,9 @@ function renderStats() {
   // 這是唯一真實來源，避免重複實作合併邏輯導致數字不一致
   const merged = state.mergedDarkhorses;
   if (merged) {
-    // 用黑馬資料本身的最新偵測日期（非快照日期，因兩者可能不同步）
-    const dhLatestDate = merged.reduce((max, dh) => {
-      const d = (dh.detectedAt || '').substring(0, 10);
-      return d > max ? d : max;
-    }, '');
-
-    // 今日新黑馬
+    // 今日新黑馬（觸發策略含 new_entry 的數量）
     const newEntryCount = merged.filter(dh => {
-      const firstDetected = (dh.detectedAt || '').substring(0, 10);
-      return firstDetected === dhLatestDate;
+      return dh.triggers?.some(t => t.strategy === 'new_entry');
     }).length;
     const statNewDhEl = document.getElementById('statNewDh');
     if (statNewDhEl) statNewDhEl.textContent = newEntryCount;
@@ -1061,13 +1054,9 @@ function renderDarkhorses() {
     if (state.dhReportFilter === 'reported' && !findReport(dh.name, dh.appId)) return false;
     if (state.dhReportFilter === 'unreported' && findReport(dh.name, dh.appId)) return false;
     if (state.dhReportFilter === 'new_entry') {
-      // 用黑馬資料的最新偵測日期（與 updateStats 一致）
-      const dhLatestDate = state.mergedDarkhorses?.reduce((max, d) => {
-        const dt = (d.detectedAt || '').substring(0, 10);
-        return dt > max ? dt : max;
-      }, '') || '';
-      const firstDetected = (dh.detectedAt || '').substring(0, 10);
-      if (firstDetected !== dhLatestDate) return false;
+      // 篩選觸發策略含 new_entry 的黑馬（首次進入排行榜）
+      const hasNewEntryTrigger = dh.triggers?.some(t => t.strategy === 'new_entry');
+      if (!hasNewEntryTrigger) return false;
     }
     return true;
   });
