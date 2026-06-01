@@ -739,12 +739,16 @@ function renderStats() {
   // 這是唯一真實來源，避免重複實作合併邏輯導致數字不一致
   const merged = state.mergedDarkhorses;
   if (merged) {
-    const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
+    // 用黑馬資料本身的最新偵測日期（非快照日期，因兩者可能不同步）
+    const dhLatestDate = merged.reduce((max, dh) => {
+      const d = (dh.detectedAt || '').substring(0, 10);
+      return d > max ? d : max;
+    }, '');
 
     // 今日新黑馬
     const newEntryCount = merged.filter(dh => {
       const firstDetected = (dh.detectedAt || '').substring(0, 10);
-      return firstDetected === latestDate;
+      return firstDetected === dhLatestDate;
     }).length;
     const statNewDhEl = document.getElementById('statNewDh');
     if (statNewDhEl) statNewDhEl.textContent = newEntryCount;
@@ -1057,9 +1061,13 @@ function renderDarkhorses() {
     if (state.dhReportFilter === 'reported' && !findReport(dh.name, dh.appId)) return false;
     if (state.dhReportFilter === 'unreported' && findReport(dh.name, dh.appId)) return false;
     if (state.dhReportFilter === 'new_entry') {
-      const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
+      // 用黑馬資料的最新偵測日期（與 updateStats 一致）
+      const dhLatestDate = state.mergedDarkhorses?.reduce((max, d) => {
+        const dt = (d.detectedAt || '').substring(0, 10);
+        return dt > max ? dt : max;
+      }, '') || '';
       const firstDetected = (dh.detectedAt || '').substring(0, 10);
-      if (firstDetected !== latestDate) return false;
+      if (firstDetected !== dhLatestDate) return false;
     }
     return true;
   });
