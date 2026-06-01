@@ -739,9 +739,12 @@ function renderStats() {
   // 這是唯一真實來源，避免重複實作合併邏輯導致數字不一致
   const merged = state.mergedDarkhorses;
   if (merged) {
-    // 今日新黑馬（觸發策略含 new_entry 的數量）
+    const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
+
+    // 今日新黑馬
     const newEntryCount = merged.filter(dh => {
-      return dh.triggers?.some(t => t.strategy === 'new_entry');
+      const firstDetected = (dh.detectedAt || '').substring(0, 10);
+      return firstDetected === latestDate;
     }).length;
     const statNewDhEl = document.getElementById('statNewDh');
     if (statNewDhEl) statNewDhEl.textContent = newEntryCount;
@@ -1054,9 +1057,9 @@ function renderDarkhorses() {
     if (state.dhReportFilter === 'reported' && !findReport(dh.name, dh.appId)) return false;
     if (state.dhReportFilter === 'unreported' && findReport(dh.name, dh.appId)) return false;
     if (state.dhReportFilter === 'new_entry') {
-      // 篩選觸發策略含 new_entry 的黑馬（首次進入排行榜）
-      const hasNewEntryTrigger = dh.triggers?.some(t => t.strategy === 'new_entry');
-      if (!hasNewEntryTrigger) return false;
+      const latestDate = state.availableDates?.[state.availableDates.length - 1] || '';
+      const firstDetected = (dh.detectedAt || '').substring(0, 10);
+      if (firstDetected !== latestDate) return false;
     }
     return true;
   });
