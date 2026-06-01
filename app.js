@@ -1013,20 +1013,30 @@ function renderDarkhorses() {
       if (!line.data || line.data.length === 0) continue;
       const sorted = [...line.data].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
       const latestRank = sorted[sorted.length - 1]?.rank;
-      if (!latestRank) continue;
-      // 更新 markets
-      const mkt = card.markets.find(m => m.code === line.market);
-      if (mkt) mkt.rank = latestRank;
-      // 更新 _chartRanks（必須同時比對 marketFlag + chartLabel + platform，避免免費榜/營收榜排名互相汙染）
-      if (card._chartRanks) {
-        const mf = getFlag(line.market);
-        const chartLabelForLine = line.chartType === 'grossing' ? '營收' : '免費';
-        const cr = card._chartRanks.find(c =>
-          c.marketFlag === mf &&
-          c.chartLabel === chartLabelForLine &&
-          c.platform === line.platform
-        );
-        if (cr) cr.rank = latestRank;
+
+      if (latestRank) {
+        // 有排名 → 更新
+        const mkt = card.markets.find(m => m.code === line.market);
+        if (mkt) mkt.rank = latestRank;
+        if (card._chartRanks) {
+          const mf = getFlag(line.market);
+          const chartLabelForLine = line.chartType === 'grossing' ? '營收' : '免費';
+          const cr = card._chartRanks.find(c =>
+            c.marketFlag === mf &&
+            c.chartLabel === chartLabelForLine &&
+            c.platform === line.platform
+          );
+          if (cr) cr.rank = latestRank;
+        }
+      } else {
+        // 落榜 → 移除該筆 chartRank（卡片不再顯示過期排名）
+        if (card._chartRanks) {
+          const mf = getFlag(line.market);
+          const chartLabelForLine = line.chartType === 'grossing' ? '營收' : '免費';
+          card._chartRanks = card._chartRanks.filter(c =>
+            !(c.marketFlag === mf && c.chartLabel === chartLabelForLine && c.platform === line.platform)
+          );
+        }
       }
     }
   }
@@ -2559,7 +2569,8 @@ function renderModalChart(dh, days, activeBtn) {
       label: line.label,
       data: allDates.map(d => {
         const val = dataMap.get(d);
-        return (val === null || val === undefined) ? OFF_CHART_RANK : val;
+        // null / undefined → null（Chart.js 斷線，不畫到底部）
+        return (val === null || val === undefined) ? null : val;
       }),
       borderColor: line.color,
       backgroundColor: line.color + '18',
@@ -2571,7 +2582,7 @@ function renderModalChart(dh, days, activeBtn) {
       pointHoverRadius: 6,
       pointBackgroundColor: line.color,
       pointBorderColor: line.color,
-      spanGaps: true,
+      spanGaps: false,
     };
   });
 
@@ -2602,7 +2613,7 @@ function renderModalChart(dh, days, activeBtn) {
               const color = dp.dataset.borderColor;
               const style = Object.values(LINE_STYLES).find(s => s.color === color);
               const icon = style && style.platform === 'android' ? ICON_ANDROID : ICON_IOS;
-              const rankText = rank === OFF_CHART_RANK ? '榜外' : `第 #${rank} 名`;
+              const rankText = (rank === null || rank === OFF_CHART_RANK) ? '榜外' : `第 #${rank} 名`;
               html += `<div class="chart-tooltip-row"><span class="chart-legend-dot" style="background:${color}"></span>${icon} ${dp.dataset.label}: ${rankText}</div>`;
             });
             el.innerHTML = html;
