@@ -489,11 +489,13 @@ body::before {
     white-space: nowrap;
   }
   .header-brand .logo { font-size: 18px; }
+  .header-brand .brand-zh { display: none; }
   .header-status { font-size: 10px; gap: 4px; }
   #statusText {
     max-width: 100px;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
+  .platform-text { display: none; }
 
   /* --- Main Container --- */
   .main-container { padding: 0 10px 24px; }

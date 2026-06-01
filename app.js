@@ -562,13 +562,15 @@ function sanitizeDarkhorses() {
 async function loadData() {
   // Firebase 模式
   if (typeof FIREBASE_MODE !== 'undefined' && FIREBASE_MODE) {
+    const MAX_RETRIES = 2;
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
-      updateStatus('⏳ 正在從 Firebase 載入...');
+      updateStatus(attempt > 1 ? '🔄 重新連線中...' : '⏳ 正在從 Firebase 載入...');
       const { loadInitialData } = await import('./firebase-data.js');
 
-      // 加上 10 秒 timeout 保護，避免 Firestore 卡住時 loading 永遠不關閉
+      // 加上 20 秒 timeout 保護，避免 Firestore 卡住時 loading 永遠不關閉
       const timeoutPromise = new Promise((_, reject) =>
-        setTimeout(() => reject(new Error('Firebase 載入逾時（10秒）')), 10000)
+        setTimeout(() => reject(new Error('Firebase 載入逾時（20秒）')), 20000)
       );
       const data = await Promise.race([loadInitialData(), timeoutPromise]);
       state.availableDates = data.availableDates || [];
@@ -592,8 +594,14 @@ async function loadData() {
 
       return;
     } catch (err) {
-      console.error('Firebase 載入失敗，嘗試 data.js fallback:', err);
-      // Firebase 失敗時也要確保 loading 會被關閉（由 fallback 或此處處理）
+      console.error(`Firebase 載入失敗 (第${attempt}次):`, err);
+      if (attempt < MAX_RETRIES) {
+        await new Promise(r => setTimeout(r, 2000)); // 等 2 秒再重試
+        continue;
+      }
+      // 全部重試失敗，落入 data.js fallback
+    }
+    break; // 成功就跳出
     }
   }
 
@@ -1918,8 +1926,8 @@ function showAnalysis(appId, platform) {
     }
   }
   const platformDisplay = platformArr.length >= 2
-    ? `${ICON_IOS} ${ICON_ANDROID} iOS+Android`
-    : `${platformArr[0] === 'android' ? ICON_ANDROID : ICON_IOS} ${platformArr[0] === 'android' ? 'Android' : 'iOS'}`;
+    ? `${ICON_IOS} ${ICON_ANDROID} <span class="platform-text">iOS+Android</span>`
+    : `${platformArr[0] === 'android' ? ICON_ANDROID : ICON_IOS} <span class="platform-text">${platformArr[0] === 'android' ? 'Android' : 'iOS'}</span>`;
 
   // 首次偵測日期格式化
   const detectedAtStr = (() => {
@@ -2563,7 +2571,8 @@ function renderModalChart(dh, days, activeBtn) {
         legend: {
           display: datasets.length > 1,
           position: 'top',
-          labels: { color: '#94a3b8', usePointStyle: true, pointStyle: 'circle', padding: 16, font: { size: 11 } },
+          align: 'start',
+          labels: { color: '#94a3b8', usePointStyle: true, pointStyle: 'circle', padding: 12, font: { size: 11 } },
         },
         tooltip: {
           callbacks: {
