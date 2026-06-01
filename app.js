@@ -2611,7 +2611,7 @@ function renderModalChart(dh, days, activeBtn) {
   const legendEl = document.getElementById('chartLegend');
   if (legendEl && datasets.length > 1) {
     legendEl.innerHTML = datasets.map(ds => {
-      const style = Object.values(LINE_STYLES).find(s => s.label === ds.label);
+      const style = Object.values(LINE_STYLES).find(s => s.color === ds.borderColor);
       const icon = style && style.platform === 'android' ? ICON_ANDROID : ICON_IOS;
       return `<span class="chart-legend-item"><span class="chart-legend-dot" style="background:${ds.borderColor}"></span>${icon} ${ds.label}</span>`;
     }).join('');
