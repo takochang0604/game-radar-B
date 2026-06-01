@@ -481,16 +481,17 @@ body::before {
   /* --- Header --- */
   .header-inner {
     padding: 0 12px;
-    height: 52px;
+    height: 48px;
   }
   .header-brand {
-    font-size: 14px;
-    gap: 8px;
+    font-size: 13px;
+    gap: 6px;
+    white-space: nowrap;
   }
-  .header-brand .logo { font-size: 20px; }
-  .header-status { font-size: 11px; gap: 6px; }
+  .header-brand .logo { font-size: 18px; }
+  .header-status { font-size: 10px; gap: 4px; }
   #statusText {
-    max-width: 120px;
+    max-width: 100px;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
 
@@ -500,13 +501,14 @@ body::before {
   /* --- Stats Grid --- */
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-    margin-bottom: 16px;
+    gap: 6px;
+    margin-bottom: 10px;
   }
-  .stat-card { padding: 14px; }
+  .stat-card { padding: 10px 12px; }
   .stat-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
-  .stat-value { font-size: 22px; }
-  .stat-label { font-size: 10px; }
+  .stat-value { font-size: 20px; }
+  .stat-label { font-size: 9px; }
+  .stat-sub { font-size: 10px; }
 
   /* --- Tabs --- */
   .tabs {
@@ -514,10 +516,10 @@ body::before {
     -webkit-overflow-scrolling: touch;
     flex-wrap: nowrap;
     gap: 4px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
   .tab {
-    padding: 8px 10px;
+    padding: 7px 10px;
     font-size: 11px;
     flex: 0 0 auto;
     text-align: center;
@@ -529,18 +531,19 @@ body::before {
   .tab-filters {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
-    padding: 10px 12px;
+    gap: 6px;
+    padding: 8px 10px;
+    margin-bottom: 8px;
   }
   .filter-row {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 6px;
+    gap: 4px;
     width: 100%;
   }
   .filter-row label {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
     color: var(--text-muted);
     text-transform: uppercase;
@@ -551,13 +554,14 @@ body::before {
     flex-wrap: wrap;
     gap: 4px;
   }
-  .pill { padding: 5px 10px; font-size: 12px; }
+  .pill { padding: 4px 8px; font-size: 11px; }
 
   /* --- Section Header --- */
   .section-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 6px;
+    margin-bottom: 8px;
   }
   .section-actions { width: 100%; }
   .dh-search {
