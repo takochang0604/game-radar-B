@@ -139,6 +139,10 @@ async function uploadDarkhorses() {
     rankHistory: dh.rankHistory || [],
     // sibling 保留 appId 即可，前端用 appId 找回
     ...(dh.sibling ? { sibling: { appId: dh.sibling.appId, name: dh.sibling.name, platform: dh.sibling.platform } } : {}),
+    // 跨平台配對 appId
+    ...(dh._siblingAppIds ? { _siblingAppIds: dh._siblingAppIds } : {}),
+    // 今日快照實際排名（已按名次排序）
+    ...(dh._topRanks ? { _topRanks: dh._topRanks } : {}),
   }));
   
   const payload = {

@@ -915,6 +915,35 @@ async function main() {
     console.log(`🔗 自動配對 ${pairedCount} 匹黑馬的跨平台 sibling`);
   }
 
+  // ============ 計算 _topRanks（今日快照實際排名） ============
+  // 直接查今天的排行榜資料，找該遊戲在所有市場×平台的排名
+  for (const dh of mergedDarkhorses) {
+    const appIds = [dh.appId, ...(dh._siblingAppIds || [])];
+    const ranks = [];
+    for (const market of MARKETS) {
+      for (const scanPlatform of ['ios', 'android']) {
+        if (scanPlatform === 'android' && !market.hasGooglePlay) continue;
+        const snap = loadSnapshot(today, market.code, scanPlatform, dh.chartType);
+        if (!snap || !snap.data) continue;
+        for (const appId of appIds) {
+          const entry = snap.data.find(a => a.appId === appId);
+          if (entry && entry.rank <= 100) {
+            ranks.push({
+              marketCode: market.code,
+              marketFlag: market.flag,
+              platform: scanPlatform,
+              rank: entry.rank,
+              chartLabel: dh.chartType === 'grossing' ? '營收' : '免費',
+            });
+          }
+        }
+      }
+    }
+    // 按名次排序（小的排前面）
+    ranks.sort((a, b) => a.rank - b.rank);
+    dh._topRanks = ranks;
+  }
+
   // 儲存結果
   const outputFile = path.join(darkhorseDir, `${today}.json`);
   fs.writeFileSync(outputFile, JSON.stringify({

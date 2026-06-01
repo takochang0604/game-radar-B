@@ -854,6 +854,16 @@ function renderDarkhorses() {
           existing._chartRanks.push({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: mf, marketCode: m.code || '' });
         }
       });
+      // 合併 _topRanks（跨平台排名合併）
+      if (dh._topRanks && dh._topRanks.length > 0) {
+        if (!existing._topRanks) existing._topRanks = [];
+        dh._topRanks.forEach(r => {
+          if (!existing._topRanks.find(er => er.marketCode === r.marketCode && er.platform === r.platform)) {
+            existing._topRanks.push(r);
+          }
+        });
+        existing._topRanks.sort((a, b) => a.rank - b.rank);
+      }
       // 取較高信心分數
       if ((dh.confidenceScore || 0) > (existing.confidenceScore || 0)) {
         existing.confidenceScore = dh.confidenceScore;
@@ -1234,22 +1244,15 @@ function renderDarkhorses() {
     const rawReleased = state.analysis[dh.appId]?.detail?.released || '';
     const releasedDate = rawReleased ? (() => { try { const d = new Date(rawReleased); return isNaN(d) ? rawReleased : d.toISOString().split('T')[0]; } catch { return rawReleased; } })() : '';
     // === 排名計算（必須在國旗 HTML 之前） ===
-    // 排名顯示（合併後可能多排行）
-    let chartRanks = dh._chartRanks || [{ chartLabel: dh.chartType === 'grossing' ? '營收' : '免費', platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }];
-    
-    // 市場權重（同名次時優先顯示商業價值高的市場）
-    const RANK_MARKET_WEIGHTS = {
-      '🇯🇵': 1.6, '🇺🇸': 1.5, '🇰🇷': 1.4, '🇨🇳': 1.3,
-      '🇹🇼': 1.0, '🇹🇭': 1.0, '🇻🇳': 1.0, '🇵🇭': 0.9,
-    };
-
-    // 排序：加權排名（營收 ×0.5、免費 ×1.0）— 營收含金量較高
-    chartRanks.sort((a, b) => {
-      const wa = a.rank * (a.chartLabel === '營收' ? 0.5 : 1);
-      const wb = b.rank * (b.chartLabel === '營收' ? 0.5 : 1);
-      if (wa !== wb) return wa - wb;
-      return (RANK_MARKET_WEIGHTS[b.marketFlag] || 0.5) - (RANK_MARKET_WEIGHTS[a.marketFlag] || 0.5);
-    });
+    // 直接使用後端從今日快照算好的 _topRanks（已按名次排序）
+    let chartRanks;
+    if (dh._topRanks && dh._topRanks.length > 0) {
+      chartRanks = dh._topRanks;
+    } else if (dh._chartRanks && dh._chartRanks.length > 0) {
+      chartRanks = dh._chartRanks;
+    } else {
+      chartRanks = [{ chartLabel: dh.chartType === 'grossing' ? '營收' : '免費', platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }];
+    }
 
     const hasMultiMarkets = dh.markets && dh.markets.length > 1;
     const displayRanks = chartRanks.slice(0, 2);
