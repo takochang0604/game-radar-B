@@ -1,0 +1,64 @@
+# 每日自動排程：抓排行榜 → 偵測黑馬 → 上傳 Firebase
+# 台灣時間 11:00 (UTC 03:00) 執行
+#
+# 需要設定的 GitHub Secret：
+#   GOOGLE_CREDENTIALS_JSON — google-credentials.json 的完整 JSON 內容
+
+name: Daily Pipeline
+
+on:
+  schedule:
+    # UTC 03:00 = 台灣時間 11:00
+    - cron: '0 3 * * *'
+  workflow_dispatch: # 允許手動觸發
+
+jobs:
+  daily-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # 從 GitHub Secret 寫入 Firebase 憑證
+      - name: Write Firebase credentials
+        run: echo '${{ secrets.GOOGLE_CREDENTIALS_JSON }}' > google-credentials.json
+
+      # Step 1: 抓取排行榜快照
+      - name: Fetch rankings
+        run: node scripts/fetch-rankings.js
+
+      # Step 2: 偵測黑馬
+      - name: Detect darkhorses
+        run: node scripts/detect-darkhorse.js
+
+      # Step 3: 上傳到 Firebase
+      - name: Upload to Firebase
+        run: node scripts/upload-to-firebase.js
+
+      # 清除憑證檔（安全起見）
+      - name: Cleanup credentials
+        if: always()
+        run: rm -f google-credentials.json
+
+      # 將新資料 commit 回 repo（快照 + 黑馬資料）
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          # 如果沒有變更就跳過
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: daily data update $(date -u +%Y-%m-%d)"
+          git push
