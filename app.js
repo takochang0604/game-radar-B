@@ -538,6 +538,11 @@ function formatTriggerDetail(detail, latestRank) {
     }
   }
 
+  // 排名急升：舊資料沒有天數前綴，統一補上「7 天內」
+  if (/^排名從\s*#/.test(detail)) {
+    detail = '7 天內' + detail;
+  }
+
   // 方案 A：將「目前排名 #X」替換為「偵測當下排名 #X」，只保留觸發時當下的名次資訊
   return detail.replace(/目前排名\s*#/, '偵測當下排名 #');
 }
