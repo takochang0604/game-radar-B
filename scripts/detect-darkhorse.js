@@ -148,7 +148,7 @@ function detectRankJump(app, history, gapInfo) {
     return {
       strategy: 'rank_jump',
       label: '🚀 排名急升',
-      detail: `排名從 #${oldestRank} 升至 #${currentRank}（↑${jump} 名）${gapNote}`,
+      detail: `${validHistory.length} 天內排名從 #${oldestRank} 升至 #${currentRank}（↑${jump} 名）${gapNote}`,
       score: Math.min(jump / DARKHORSE_CONFIG.rankJumpThreshold, 3),
     };
   }
