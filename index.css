@@ -534,6 +534,7 @@ body::before {
   .header-inner {
     padding: 0 12px;
     height: 48px;
+    max-width: none;
   }
   .header-brand {
     font-size: 13px;
@@ -542,11 +543,11 @@ body::before {
   }
   .header-brand .logo { font-size: 18px; }
   .header-brand .brand-zh { display: none; }
-  .header-status { font-size: 10px; gap: 4px; }
+  .header-status { font-size: 10px; gap: 4px; margin-left: auto; }
   #statusText {
-    max-width: none;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
+  .status-days { display: none; }
   .platform-text { display: none; }
 
   /* --- Main Container --- */

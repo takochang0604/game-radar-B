@@ -694,7 +694,7 @@ function updateStatus(msg) {
   } else {
     const latest = state.availableDates[state.availableDates.length - 1];
     const mode = state.firebaseMode ? '🔥' : '📦';
-    el.textContent = `${mode} 最新: ${latest} | 已累積 ${days} 天`;
+    el.innerHTML = `${mode} 最新: ${latest} <span class="status-days">| 已累積 ${days} 天</span>`;
   }
 }
 
