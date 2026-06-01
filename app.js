@@ -1006,6 +1006,32 @@ function renderDarkhorses() {
     }
   }
 
+  // 後處理：移除已落榜的 _chartRanks
+  // 用最新快照比對，如果該市場+平台+榜有快照資料但 app 不在其中 → 落榜，移除
+  {
+    const latestSnapDate = state.availableDates?.[state.availableDates.length - 1] || '';
+    if (latestSnapDate && state.snapshots[latestSnapDate]) {
+      const latestResults = findAppInAllMarkets(latestSnapDate, allCardIds);
+      for (const card of filtered) {
+        if (!card._chartRanks || card._chartRanks.length === 0) continue;
+        const latestEntries = latestResults.get(card.appId) || [];
+        card._chartRanks = card._chartRanks.filter(cr => {
+          // 檢查最新快照是否有該市場+平台+榜的資料
+          const chartTypeKey = cr.chartLabel === '營收' ? 'grossing' : 'topfree';
+          const mktData = state.snapshots[latestSnapDate]?.[cr.marketCode];
+          const hasSnapshotData = mktData?.[cr.platform]?.[chartTypeKey]?.data?.length > 0;
+          if (!hasSnapshotData) return true; // 最新快照沒這個市場的資料 → 無法判斷，保留
+          // 最新快照有資料，檢查 app 是否仍在榜上
+          return latestEntries.some(e =>
+            e.code === cr.marketCode &&
+            e.platform === cr.platform &&
+            e.chartType === chartTypeKey
+          );
+        });
+      }
+    }
+  }
+
   // 後處理：用最新 rankHistory 更新 markets 排名（消除偵測時間差造成的矛盾）
   for (const card of filtered) {
     if (!card._rankHistoryByLine || !card.markets) continue;
