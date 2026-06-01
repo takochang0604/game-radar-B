@@ -1,5 +1,5 @@
 /**
- * 遊戲產品競爭力分析 — 前端應用邏輯
+ * Game Radar 遊戲雷達 — 前端應用邏輯
  * 從 data.js 中的 APP_DATA 全域變數讀取資料（不需伺服器）
  */
 
@@ -2807,7 +2807,7 @@ function downloadReportHTML(gameName) {
 <body>
 <div class="container">
 ${html}
-<div class="footer">遊戲產品競爭力分析工具 — 報告產出日期 ${new Date().toISOString().split('T')[0]}</div>
+<div class="footer">Game Radar 遊戲雷達 — 報告產出日期 ${new Date().toISOString().split('T')[0]}</div>
 </div>
 </body>
 </html>`;
