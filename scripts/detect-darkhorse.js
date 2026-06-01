@@ -34,7 +34,8 @@ function formatLocalDate(d) {
 }
 
 function getToday() {
-  return OVERRIDE_DATE || formatLocalDate(new Date());
+  if (OVERRIDE_DATE) return OVERRIDE_DATE;
+  return formatLocalDate(new Date());
 }
 
 function getDateStr(daysAgo) {

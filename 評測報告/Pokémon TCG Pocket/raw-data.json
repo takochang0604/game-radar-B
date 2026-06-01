@@ -1,0 +1,3937 @@
+{
+  "collectedAt": "2026-06-01T07:16:35.771Z",
+  "android": {
+    "appId": "jp.pokemon.pokemontcgp",
+    "title": "Pokémon TCG Pocket - Card Game",
+    "developer": "The Pokémon Company",
+    "developerId": "The+Pok%C3%A9mon+Company",
+    "genre": "Card",
+    "score": 4.5592117,
+    "ratings": 1731668,
+    "installs": "50,000,000+",
+    "maxInstalls": 64225439,
+    "free": true,
+    "released": "Oct 22, 2024",
+    "updated": 1774842731000,
+    "version": "1.6.0",
+    "contentRating": "Everyone",
+    "icon": "https://play-lh.googleusercontent.com/qdEdyVc19jfittS0bnDUnXLRM7jOPZzfHXEYoChPWOtzMrtwU6t3ZVm_FQ7wbeDYFlqLBuWCDK0Q6c1nEwYKTA",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/QweO90CMvQBISYOtSvlyI8pd0g4a5yEGfNpgISe6cSVKpTxDsnIT9h-EgGg0Gb0JX6XU1qC3uR8E0gnHk1UU",
+      "https://play-lh.googleusercontent.com/c4Ng4-q7RcgCtYPSvznKysWtVGEkZ7o2QLPRp6ImHa8OGZo0rRN1zASzEvZon_aG78wMkqKlOkjc-7z1S2tO",
+      "https://play-lh.googleusercontent.com/dm86P1auPQOYEc1N2yqCXBrHIEwgNQ9Yg8vyNWRvQZTJUUyXNX915ZQT91I8lfB3O4EHpBsCax6a-KuR7HGWzrk",
+      "https://play-lh.googleusercontent.com/A_4u3N4vgjoCCbURgU6mDAsNL8_-yS9k8NX8j0picWZhDUIVmwNrG8f0VvGIC6t9f_wwwTpTGsPVdlpuVxcfB48",
+      "https://play-lh.googleusercontent.com/-wky_ik0g2RvqBfHKgGvjKbV2Ni7IiwLtt60dvSFV6vtOFeZntZuE1pg5TiwNDeMFwHZF4foGOgk6jH4tUi3",
+      "https://play-lh.googleusercontent.com/cbujNn6YeC4MYWQMUDtuM1hVZ59pI4b0S9Xf7gcqLfjgBt4Cn_x0QbWLzu8CyY34N0KJbx16jyQOGsoIH3rm",
+      "https://play-lh.googleusercontent.com/OgouObDiiiO4wsRV9cuzkE6eg9Z7vj8I9kVQmtryihvcox6yw0pel-9kCKCbdCkw4oqUfLEXd7-9h0A7fMe4",
+      "https://play-lh.googleusercontent.com/2JSy6jqas5nZnwgEyKmRXfMTalcr1WcXri0SNf07BXHOj9xF-BrzvZIRPLwHG8R_Q0vHQS557ePjB1_4vAawdg",
+      "https://play-lh.googleusercontent.com/EOTNwNODsKC24fbqNJDLyRm4QYdw0jij2wvbJvEDmK3XqGzGX-b7iLd299nXbglHy-yOYwbwGiDMNVaq6Ww1wQ",
+      "https://play-lh.googleusercontent.com/O0my2y4l4AI8sRuQ_Cws77qgPITEqN3Xlqgtf-lBUe1qUOjzfOZrJu85gzdEYa-D6_AnvgK2G2F6i0jW_DH5IQ",
+      "https://play-lh.googleusercontent.com/YtTkPizqEEeI2b2UR2bZcnCdNm7kft91_RLM-ALxhgAN7xg5Hf9Nh4WfiSA-cx2Z434ssFOzyKnRH9Ju51udoQ",
+      "https://play-lh.googleusercontent.com/HDr7_xNHYFDsOjUE-HWg5GGXnd6ufh14TBlPoOcXFE2yAM9wAaqD5vjAam0NWBWamHzRByRDt9qdAxfZrQ9g80Q",
+      "https://play-lh.googleusercontent.com/Gg1-bCIaxRWrh3CwVXWVzfk7raLqOdoxRPCAqTK8EnmZq8Owmr_Xe3F4PBCdWiVBa2zuEom27fmAO9o0tR6W5J8",
+      "https://play-lh.googleusercontent.com/YR6fIC4ZyOY486qYCAwVBw77St39SCcPZ6i4YvR7FwdUHCgwnByfO9OyDYQM7lf6NugwrWQgQJgyQszz8pBk8g",
+      "https://play-lh.googleusercontent.com/vJ6vAhFcmRojB5TOUPbmLnkTCZN29sp7u1uvNdK-T-VGDTvTFKgRUVuUuv4pT4a5bn5U4s0Q1SwbiHJdxe1_UQ",
+      "https://play-lh.googleusercontent.com/ajrs6jlf46MjwpTOefupfgmGZyIGjlCvaIM13yj3w8J2MDqNSx6TpFlMCI2M4b1UusdK3RzmxHdp1hr0bOUMkvU",
+      "https://play-lh.googleusercontent.com/EOTNwNODsKC24fbqNJDLyRm4QYdw0jij2wvbJvEDmK3XqGzGX-b7iLd299nXbglHy-yOYwbwGiDMNVaq6Ww1wQ",
+      "https://play-lh.googleusercontent.com/O0my2y4l4AI8sRuQ_Cws77qgPITEqN3Xlqgtf-lBUe1qUOjzfOZrJu85gzdEYa-D6_AnvgK2G2F6i0jW_DH5IQ",
+      "https://play-lh.googleusercontent.com/YtTkPizqEEeI2b2UR2bZcnCdNm7kft91_RLM-ALxhgAN7xg5Hf9Nh4WfiSA-cx2Z434ssFOzyKnRH9Ju51udoQ",
+      "https://play-lh.googleusercontent.com/HDr7_xNHYFDsOjUE-HWg5GGXnd6ufh14TBlPoOcXFE2yAM9wAaqD5vjAam0NWBWamHzRByRDt9qdAxfZrQ9g80Q",
+      "https://play-lh.googleusercontent.com/Gg1-bCIaxRWrh3CwVXWVzfk7raLqOdoxRPCAqTK8EnmZq8Owmr_Xe3F4PBCdWiVBa2zuEom27fmAO9o0tR6W5J8",
+      "https://play-lh.googleusercontent.com/YR6fIC4ZyOY486qYCAwVBw77St39SCcPZ6i4YvR7FwdUHCgwnByfO9OyDYQM7lf6NugwrWQgQJgyQszz8pBk8g",
+      "https://play-lh.googleusercontent.com/vJ6vAhFcmRojB5TOUPbmLnkTCZN29sp7u1uvNdK-T-VGDTvTFKgRUVuUuv4pT4a5bn5U4s0Q1SwbiHJdxe1_UQ",
+      "https://play-lh.googleusercontent.com/ajrs6jlf46MjwpTOefupfgmGZyIGjlCvaIM13yj3w8J2MDqNSx6TpFlMCI2M4b1UusdK3RzmxHdp1hr0bOUMkvU"
+    ],
+    "video": "https://www.youtube.com/embed/un1XGPwHf8c?vq=large&rel=0&autohide=1&showinfo=0",
+    "summary": "In Pokémon TCG Pocket, you can open two booster packs at no cost each day.",
+    "description": "Pokémon Trading Card Game Pocket has players in 150 countries and regions around the world.\nUse your mobile devices to enjoy collecting and battling with Pokémon cards anytime, anywhere!\n\n■ Open packs every day to collect cards!\nPlayers can enjoy the experience of collecting, with two booster packs available to open every day at no cost. Collect different kinds of Pokémon cards, like those with nostalgic illustrations from the past, as well as completely new cards exclusive to this game!\n       \n■ Experience a new kind of Pokémon card!\nThe app features new immersive cards with illustrations that have a “3D feel.” Players can feel like they’ve leapt into the world of the card’s illustration!\n\n■ A new way to collect with the share feature!\nSharing has just been added.\nIt’s a feature that lets you give one 1-4-diamond rarity card to your in-game friends—and receive one in return!\n\n■ Trade cards with friends!\nUse the trade feature to collect even more cards!\nCertain cards can be traded with friends.\nYou can now trade cards from even the most recent booster packs. In addition, cards of 2-star rarity, Shiny 1, and Shiny 2 rarities can also be traded.\n       \n■ Show off your collection!\nDisplay your cards with binders or display boards, and showcase them to players around the world! Try building a collection that you’re proud to show off!\n       \n■ Enjoy casual battles!\nYou can enjoy quick and exciting battles with your cards!\nPlayers who want to test their skills even more can take on ranked matches.\n\nTerms of Use: https://www.apppokemon.com/tcgp/kiyaku/kiyaku001/rule/",
+    "recentChanges": "● New Pulsing Aura booster packs are now available.<br>● Gold frames have been added to flair.<br>● A Claim All feature has been added for packs.<br>● Updates to the Obtain Items feature.<br>● A 2D pattern code feature has been added for friend requests.<br>● Revisions have been made to some features."
+  },
+  "ios": {
+    "id": 6479970832,
+    "appId": "jp.pokemon.pokemontcgp",
+    "title": "Pokémon TCG Pocket",
+    "developer": "The Pokemon Company",
+    "score": 4.79237,
+    "reviews": 627755,
+    "free": true,
+    "released": "2024-10-30T07:00:00Z",
+    "updated": "2026-04-27T01:24:33Z",
+    "version": "1.6.0",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/12/78/541278bd-ccac-156d-b027-a46e1cd536bb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Casual",
+      "Card"
+    ],
+    "description": "Pokémon Trading Card Game Pocket has players in 150 countries and regions around the world.\nUse your mobile devices to enjoy collecting and battling with Pokémon cards anytime, anywhere!\n\n■ Open packs every day to collect cards!\nPlayers can enjoy the experience of collecting, with two booster packs available to open every day. Collect different kinds of Pokémon cards, like those with nostalgic illustrations from the past, as well as completely new cards exclusive to this game!\n\n■ Experience a new kind of Pokémon card!\nThe app features new immersive cards with illustrations that have a “3D feel.” Players can feel like they’ve leapt into the world of the card’s illustration!\n\n■ A new way to collect with the share feature!\nSharing has just been added.\nIt’s a feature that lets you give one 1-4-diamond rarity card to your in-game friends—and receive one in return!\n\n■ Trade cards with friends!\nUse the trade feature to collect even more cards!\nCertain cards can be traded with friends.\nYou can now trade cards from even the most recent booster packs. In addition, cards of 2-star rarity, Shiny 1, and Shiny 2 rarities can also be traded.\n\n■ Show off your collection!\nDisplay your cards with binders or display boards, and showcase them to players around the world! Try building a collection that you’re proud to show off!\n\n■ Enjoy casual battles!\nYou can enjoy quick and exciting battles with your cards!\nPlayers who want to test their skills even more can take on ranked matches.\n\nTerms of Use: https://www.apppokemon.com/tcgp/kiyaku/kiyaku001/rule/"
+  },
+  "reviews": {
+    "total": 473,
+    "googlePlay": 187,
+    "appStore": 286,
+    "distribution": {
+      "1": 122,
+      "2": 32,
+      "3": 39,
+      "4": 41,
+      "5": 239
+    },
+    "positive": [
+      {
+        "source": "google_play",
+        "userName": "Jovanny “Jovannyplaygames” Terrazas",
+        "score": 5,
+        "text": "I like Pokémon",
+        "date": "2026-05-31T06:48:05.542Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Naufal Rayyan",
+        "score": 5,
+        "text": "good game",
+        "date": "2026-05-31T05:23:43.257Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ular Cobra",
+        "score": 5,
+        "text": "great!!!",
+        "date": "2026-05-31T05:16:19.470Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sithi Ali",
+        "score": 5,
+        "text": "very good game",
+        "date": "2026-05-31T04:05:43.245Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jesie Pagcaliwagan",
+        "score": 4,
+        "text": "Im enjoying ,but still playing right now",
+        "date": "2026-05-31T03:31:37.381Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Prakash Yadav",
+        "score": 5,
+        "text": "super",
+        "date": "2026-05-31T03:16:12.470Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Michael",
+        "score": 5,
+        "text": "tbh. i thought it was really lame on the adds but its really fun",
+        "date": "2026-05-31T02:47:20.450Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Naruto Uzumaki#TR",
+        "score": 5,
+        "text": "pokémon's Tcg pocket is a it is very entertaining app playing with opening pokémon cards",
+        "date": "2026-05-31T02:26:56.184Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Luca",
+        "score": 5,
+        "text": "Amazing game",
+        "date": "2026-05-31T01:46:53.848Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Inteus Garza",
+        "score": 5,
+        "text": "its fun 😁 my best friend recommended this",
+        "date": "2026-05-31T01:36:57.666Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Althea Colleen Balancio",
+        "score": 5,
+        "text": "It's so satisfying and very cool it has all the cards and you can also trade there no payment just free",
+        "date": "2026-05-31T00:33:45.586Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Xavier Cornell",
+        "score": 4,
+        "text": "gambling but pokémon",
+        "date": "2026-05-30T21:23:09.962Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Miles Xavier Preble",
+        "score": 5,
+        "text": "pretty fun and if you claim all your goals progress is not that slow I'm saying this spending no money on the game",
+        "date": "2026-05-30T20:33:57.572Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Timber Estes",
+        "score": 5,
+        "text": "realy fun if you like pokemon its perfect",
+        "date": "2026-05-30T19:54:43.798Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Wharerata Paora",
+        "score": 5,
+        "text": "great",
+        "date": "2026-05-30T19:42:27.162Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sudhish Lilkunt",
+        "score": 5,
+        "text": "Perfect❣️",
+        "date": "2026-05-30T19:18:57.960Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "David Robinson",
+        "score": 5,
+        "text": "like if you like anything Pokémon",
+        "date": "2026-05-30T18:48:31.824Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "narsu sutar",
+        "score": 5,
+        "text": "it's very good as expected but the data demand in the start of 3 gb is too much ok",
+        "date": "2026-05-30T18:05:36.852Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Manur Isaaq",
+        "score": 4,
+        "text": "I don't like o.",
+        "date": "2026-05-30T18:01:36.329Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Doug Patterson",
+        "score": 4,
+        "text": "Very fun but has some opportunities. It's fun and honestly we like most aspects of it about as much as we can. The few things we'd like to see improved. Trading: I'm sure the trading dust is to keep people from getting multiple accounts and just trading themselves all the cards to 1 account, but the trade dust takes forever to accumulate. Also the trades could be easier to navigate with chat or counter trades available. I wish binders were bigger than 30 cards. All easy fixes that would help.",
+        "date": "2026-05-30T16:13:03.656Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "George Roach",
+        "score": 4,
+        "text": "It's really fun! My little brother got me into playing it! 🤣 and you can open as many packs as you want and whatever packs you want! It's super fun! I definitely recommend playing it or giving it a try!",
+        "date": "2026-05-30T15:24:13.269Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Isabel Hernandez",
+        "score": 5,
+        "text": "I like a lot",
+        "date": "2026-05-30T15:24:11.968Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Magdalena Fregoso",
+        "score": 5,
+        "text": "I play this game in another phone",
+        "date": "2026-05-30T15:19:09.875Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Michael Fain",
+        "score": 4,
+        "text": "the last 3 times I opened a 10 pack my app crashed and I lost my pack opening experience.",
+        "date": "2026-05-30T15:07:54.362Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kaila Frog",
+        "score": 5,
+        "text": "I stole someones luck I got like two immersive cards in 3 minutes",
+        "date": "2026-05-30T14:40:08.899Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Derean A",
+        "score": 5,
+        "text": "I'm a pokimon lover ❤️",
+        "date": "2026-05-30T14:16:05.579Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Oscar Matthews",
+        "score": 5,
+        "text": "fun nothing else to say...",
+        "date": "2026-05-30T13:37:54.164Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ummed Singh Gurjar",
+        "score": 5,
+        "text": "good app",
+        "date": "2026-05-30T10:49:54.296Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Anthony Vega",
+        "score": 5,
+        "text": "I'm having fun so far. I just started. I kind of want more stuff to be able to open more packs. I also think there could be more to the game. idk maybe I'm overthinking, but it's fun. gives me the nostalgia of when I used to collect these cards.",
+        "date": "2026-05-30T10:32:35.670Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Joseph Wilson",
+        "score": 5,
+        "text": "awesome app for any pokemon fan collecting cards!!",
+        "date": "2026-05-30T08:42:51.550Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "GImlee",
+        "score": 5,
+        "text": "Pokyman",
+        "date": "2026-05-30T07:04:39.760Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Suraj Sethi",
+        "score": 5,
+        "text": "Nice one",
+        "date": "2026-05-30T07:02:46.101Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Indu",
+        "score": 5,
+        "text": "this is the best game I don't need to describe more .",
+        "date": "2026-05-30T06:38:11.781Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jayden Buels",
+        "score": 5,
+        "text": "epicness",
+        "date": "2026-05-30T04:11:32.511Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kamarul Zarkasi",
+        "score": 5,
+        "text": "I like pokemon card.",
+        "date": "2026-05-30T01:20:30.314Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jakari",
+        "score": 5,
+        "text": "I like this",
+        "date": "2026-05-30T00:26:33.173Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ebrahim0_0",
+        "score": 5,
+        "text": "This is a addicting game love it",
+        "date": "2026-05-29T22:56:16.817Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ada Pineda",
+        "score": 5,
+        "text": "so good okay I love it I only like this game Pokémon tcgp is the best game ever I love this and I love Pokémon because t",
+        "date": "2026-05-29T20:48:23.125Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Aleks",
+        "score": 4,
+        "text": "good game but EVER FU***** ANIMATION TAKES FOREVER.",
+        "date": "2026-05-29T20:44:28.636Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Deegan Stocum",
+        "score": 5,
+        "text": "super fun had a blast",
+        "date": "2026-05-29T20:14:59.312Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Adhul",
+        "score": 5,
+        "text": "time is to boring but game os good",
+        "date": "2026-05-29T19:18:00.170Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jia",
+        "score": 5,
+        "text": "my gambling addiction is appeased",
+        "date": "2026-05-29T18:44:31.241Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Norberto Diaz",
+        "score": 4,
+        "text": "Server errors are making me unable to play the game 😭😭. Edit May 2026- server are stable now. The game could use Dark Mode tho...",
+        "date": "2026-05-29T18:00:31.592Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "GamerPro400",
+        "score": 5,
+        "text": "Awesome Game of Trading Cards... 😊😊😊❤️❤️😍😍😍😍",
+        "date": "2026-05-29T17:22:38.185Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Draue Ben",
+        "score": 5,
+        "text": "pretty cool",
+        "date": "2026-05-29T16:25:57.916Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mannkirat Singh",
+        "score": 5,
+        "text": "world best pokemon card game and we can play battle with any country person. this game have fun best pokemon card",
+        "date": "2026-05-29T15:17:35.915Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mohd Juzaili Jusdeh",
+        "score": 5,
+        "text": "maintenance card need to be fixed, it almost always draw the discarded cards",
+        "date": "2026-05-29T15:02:09.984Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "ElpavitoYT",
+        "score": 5,
+        "text": "it's fun and addicting",
+        "date": "2026-05-29T14:42:56.580Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Adora Mulvehill",
+        "score": 5,
+        "text": "u love this game but can you pls lower the time limit for the waiting for pack pls?",
+        "date": "2026-05-29T14:31:37.761Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "riley",
+        "score": 5,
+        "text": "Pretty fun game i like how i can pick and choose packs it's a really really fun game i would recomend trying it out!",
+        "date": "2026-05-29T11:06:18.800Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Amina Aliyu",
+        "score": 5,
+        "text": "Forget about those cardboard cards that you have to pay, this is even better! This game helps us to connect and interact and play with other people in the world while with those cardboard can only be played localy. One update I would like Pokémon to add is that the camera could scan the card(s) and card pack(s) and can bring the card or card pack you have into the game and you have that card registered in the pokédex or can open the card pack as scaned all for free, ya'know? GG Pokémon! :D",
+        "date": "2026-05-29T10:49:32.161Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "fabian Williams",
+        "score": 5,
+        "text": "5 for me bc it's so intense with the card openings bc you don't know what your going to get and I love the cards too 😁😁",
+        "date": "2026-05-29T10:16:06.220Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kyniska belle Setenta",
+        "score": 5,
+        "text": "its relaxing for me",
+        "date": "2026-05-29T08:22:17.915Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Wannem Wanglee Ronrang",
+        "score": 4,
+        "text": "this game is so much fun to play but how many Pokémon cart shall be like 1000 or 100",
+        "date": "2026-05-29T08:08:08.181Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Carlos Lozano",
+        "score": 5,
+        "text": "The closest thing I have to getting my hands on some Pokemon cards when stores are ALWAYS OUT OF STOCK.",
+        "date": "2026-05-29T06:09:46.406Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dracos Auron",
+        "score": 5,
+        "text": "This game just... \"Hits\" the right way, you know? If you want to just collect? you can. Like to battle? This makes it easy to learn (or relearn if you haven't played in forever) to battle. Yes there are micro transactions, but it's not needed in my opinion. The game is really chill. ... At least for now. Lol",
+        "date": "2024-11-11T18:51:22.972Z",
+        "thumbsUp": 1942
+      },
+      {
+        "source": "google_play",
+        "userName": "Madi S",
+        "score": 5,
+        "text": "A good variety of card art and pokemon. New packs come out pretty frequently, and the balance between how many packs you can open without premium feels fair and enjoyable. The casual-style battles are easy to learn, but still fun and short enough that you can maybe get a couple in on a work break. It would be cool if you could choose to go first or second if you win the coin flip when starting the battle.",
+        "date": "2025-07-16T09:49:26.380Z",
+        "thumbsUp": 3039
+      },
+      {
+        "source": "google_play",
+        "userName": "Karliah West",
+        "score": 5,
+        "text": "I loved it so much, loved the cards and and battled with other people. I have so much fun collecting and no complaints because there is no add another plus. but it takes a while when you first download it to get going, and you have to reach a certain level to do serten things like trading and binders for your cards. other than that, it is the best game I have ever played I my life.",
+        "date": "2025-05-30T12:56:03.641Z",
+        "thumbsUp": 2292
+      },
+      {
+        "source": "google_play",
+        "userName": "Dom Sumner",
+        "score": 5,
+        "text": "An amazing game, like the original card game from the 90s however,its lacking somewhat. The \"wonder pick\" feature, for want of a better word is a scam - never have i got a card i want after about 100 tries. The odds are 1 in 5 to get the card you want- thats 20%. The law of averages arnt appying here - Its a scam. The arena feature needs to be altered - a ranking/league system would be helpful in order to stop the beginners being constantly hammered by the biggies. Need more solo levels too plz!",
+        "date": "2025-01-13T16:48:03.451Z",
+        "thumbsUp": 238
+      },
+      {
+        "source": "google_play",
+        "userName": "Roselle Blume",
+        "score": 5,
+        "text": "Honestly having a wonderful time with this game. Deck building is a little slow unless you fork over real money, but it's still manageable enough to get you through the solo practice rounds as you build. I always just collected the cards as a kid and this has helped me discover how much fun actually playing the card game is!",
+        "date": "2024-12-29T19:17:21.215Z",
+        "thumbsUp": 33
+      },
+      {
+        "source": "google_play",
+        "userName": "Ellie Hoyt",
+        "score": 5,
+        "text": "So far so good! I love the battle feature and the instructions are very helpful as I haven't played the card game since I was a kid. I love the animations and art. I also like the waiting time; it's not too long or too short, and you can come back to the game to do other things such as battling whenever you want rather than focusing on the card timer.",
+        "date": "2024-10-30T15:16:28.635Z",
+        "thumbsUp": 32
+      },
+      {
+        "source": "google_play",
+        "userName": "Virginia Green",
+        "score": 5,
+        "text": "I absolutely love this game and have been playing it basically since it came out. A pack comes out every month, and the collection and battle process is so much fun! AND NO. ADS.Another thing I love is how they try not to alienate new players, with constant events giving out free cards for decks or pack hourglasses to open more packs. I personally have premium pass, but I don't think it's for everyone because I think it's a little pricey for the features it provides.",
+        "date": "2026-05-21T10:48:49.874Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "mariaa",
+        "score": 5,
+        "text": "The app is fun, and the cards are cool. After that, there isn't much else when battling during a coin toss (such as I battle I had when the opponent had a misty card). I was waiting for them to flip, and they never did after the 20-minute timer. BIG issue, even after I closed the app, it counted as a loss for me. Even though I wanted to continue the battle. Theres also issues with wonder pick and time between opening packs even with premium.",
+        "date": "2026-04-28T04:13:57.208Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "userName": "Zoe Schroeder",
+        "score": 5,
+        "text": "dude I really really like this it got me back into Pokemon and is just a really enjoyable experience! there is a long waiting time to open a pack but it's pretty easy to get items to speed it up so its not a huge deal just a little bit annoying sometimes to wait 11 hours just to get no new cards. ALSO for the developers I think it would be supperrr cool if you could sell extra cards that you have for gold or speed up things, like if I have 3 of the same basic I could sell them for one gold each",
+        "date": "2026-03-12T15:03:08.200Z",
+        "thumbsUp": 24
+      },
+      {
+        "source": "google_play",
+        "userName": "Tanmay Vakharia",
+        "score": 5,
+        "text": "The game is doing perfectly fine, it is so good. Only thing is that 20 deck size is too less with so many different cards. Please increase the deck size limit. Also, give more deck space, 25 isn't enough with all different decks. Also, pls make an option to stop the animation of cards in battle as it consumes our time, since the timer continues running while the animation plays.",
+        "date": "2026-03-25T19:13:00.380Z",
+        "thumbsUp": 23
+      },
+      {
+        "source": "google_play",
+        "userName": "brittany kristin",
+        "score": 5,
+        "text": "it was a little slow at 1st to really get into, but they have been great with getting new cards packs out, there's lots of events that go and stuff to keep you occupied a few mins a day. I enjoy that even the free version is still enjoyable and not ads every 2 seconds to do anything in the game. for what it is, it's fantastic.",
+        "date": "2026-03-10T11:35:27.175Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "userName": "Kendal Palmer",
+        "score": 5,
+        "text": "It's better than any pokemon game online right now. It's equivalent to the real-life game. You still have to earn the items to open packs, but it's not hard! Definitely recommend this game to others. ✨️✨️ **Edit** Just one suggestion though. If possible could you all add notifications for when someone starts a trade, so that we know when this happens. I honestly hate waiting for ever for someone to see my trade request because they don't know its happening, and im sure its the other way around.❤",
+        "date": "2026-05-04T18:06:44.899Z",
+        "thumbsUp": 30
+      },
+      {
+        "source": "google_play",
+        "userName": "Ivan Sanders",
+        "score": 5,
+        "text": "Day 1 verdict: Better long-term position, potentially higher enjoyment if they stuck with it, but many feel the game slowed down. New player verdict: Still very playable and fun. Focus on latest expansions (e.g., Pulsing Aura, Paradox Drive) and meta decks like certain EX archetypes. Catch-up is realistic for casual/medium play. Yes, I used Grok to break the analysis down. You're welcome.",
+        "date": "2026-05-25T17:17:40.188Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Diana",
+        "score": 5,
+        "text": "Really wish you could make more than 1 trade at a time. Unfortunately you have to wait until a trade has been finalized on both ends before you can trade again with anyone. However game is still really enjoyable to play. Does not cost to play either and love that there's no ads! My go-to game each day.",
+        "date": "2026-05-03T12:51:46.145Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "BrutalNightmares",
+        "score": 5,
+        "text": "Such a great little game full of so much content that is always being added to. The card effects are an awesome touch and you don't have to pay to play the game in its entirety, but if you want to enjoy a tad more on the rewards side, you can pay. The devs have done a wonderful job with the game! I even got my mum playing and enjoying it!",
+        "date": "2026-04-30T07:31:13.808Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "{Azra}",
+        "score": 5,
+        "text": "It's a very cool and relaxing game so far! I really love the cards, they're just so cute. I remember when I used to trade with my pokemon cards almost 6 years ago when they were popular. And using pokemon go on trips or vacation or simply when I was bored. I'm very happy 'cause I'm going to collect pokemon cards from the beginning again. I feel like more people should play this game and other games from this production, and collecting pokemon cards as well! ♡♡♡♡",
+        "date": "2026-05-21T16:50:57.250Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "F S",
+        "score": 5,
+        "text": "A great edition to Pokémon tcg, bundles of fun and always improving. As someone whos been playing since the genetic apex packs, I have to commend the team for listening to criticism and feedback and improving the app in so many ways both major and minor. No need to spend money, the premium option is very good value for money.",
+        "date": "2026-04-29T16:02:27.261Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Alex Simonsen",
+        "score": 5,
+        "text": "This game is very fun I love how their are so many events coming out. This game is getting so much attention from the developers. Granted in does get a bit frustaring when you don't get jack for weeks on end but it's very fun. Another thing I hear people complain about is how their is always new packs and metas coming out to soon which I can agree with. The only downside is when you reach level 45ish collecting Pack Hourglass is almost impossible unless you spend loads of money. great game anywy",
+        "date": "2026-05-02T05:17:06.502Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Christian Heaton",
+        "score": 5,
+        "text": "My favorite card game by far. This version makes the game easy to learn, play, and collect. With a competitive aspect still attached, this has to be one of my favorite apps period. All this and it's completely free, making it much easier to keep up with than the physical TCG. Also I would love to see pack points updated to where they carry over from set to set. It would just be an amazing quality of life feature for free to play.",
+        "date": "2026-05-23T04:36:53.946Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Daniel Boukensha (Delta)",
+        "score": 5,
+        "text": "I like this game and collecting cards is fun and addicting. What makes me annoyed is that it feels like a chore to open card packs and a subscription just feels like more work. The open packs animations should be more time efficient. I don't wanna spend all that time navigating and clicking buttons. Why don't you add an open all packs button? Why do you have an open 10 packs button and not an open as many as possible button. What annoys me the most is the open promopacks only gives you 1 card!!",
+        "date": "2026-05-02T11:57:55.201Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Sam A",
+        "score": 5,
+        "text": "I've been playing this game since launch, and I still enjoy it greatly. The ranked matches are always enjoyable, even when I lose. You can turn down the graphics settings to save battery life as well. I also enjoy the fan-run tournament scene, both playing and watching.",
+        "date": "2026-05-27T16:41:06.984Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Angel Bane",
+        "score": 5,
+        "text": "fun for collecting cards. the game is subject to a lot of RNG, so it can be frustrating. There are many games that will end because you can't get the cards you need. the collecting part is fun and the art is good as well. wish it had a dark mode!",
+        "date": "2026-05-01T16:37:34.478Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Marc Rodriguez",
+        "score": 5,
+        "text": "my one gripe and wish would be for a toggle to switch between coin flip, always going first, or always going second in solo battles. PVP should always be a coin flip of course, but in Solo, having coin flip as an option would allow for quicker testing with different strategies, or, if you are a casual player, not bother with time wasting battles (or being forced to concede immediately). it also REALLY sucks to try and go second and ONLY flip first 24 TIMES IN A ROW IN SOLO ARE YOU KIDDING ME?!!",
+        "date": "2026-05-04T17:22:54.547Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Thomas Powell",
+        "score": 5,
+        "text": "Overall Pocket provides a great experience for collecting virtual cards and battling other players. While regular matches are fun and challenging, the ranked matches are frustrating, mainly because everyone uses the same two or three OP decks. If the game forced players to use a variety of different decks, the ranked matches would be less predictable and way more enjoyable. Otherwise it's a great game for Pokemon fans!",
+        "date": "2026-04-26T21:21:43.411Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Trip",
+        "score": 5,
+        "text": "Despite being a \"gotcha\" and a very simple concept, it is pretty good at what it aims to do. With characters we all know, concepts we all understand, and near infinite customization for your play style, the biggest negative comes down to how you play. Either pvp, player vs easy ai, or player vs ai coded to cheese you asap. No gym battles, no story, no end game, but infinite replayability. Worth a try if you ever collected a pokemon in any way.",
+        "date": "2026-03-30T15:25:59.920Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "userName": "Safar Zin",
+        "score": 5,
+        "text": "So far the best TCG Pokémon app. But, when can you update the binder capacity? 15 binders is still not enough for me. just to throw it out here, maybe make a function of \"market\" for trade, like you can upload the card you want to trade/sell with people in bulk. and people can just view and pick any they want, and payment are with stardust. because I want to give a few cards to my friend and once a day share is too long of a wait. and trading one by one is too much hassle.",
+        "date": "2026-04-10T07:54:51.395Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Dane Welty",
+        "score": 5,
+        "text": "EDIT: After going through the support pathways my game does not crash. If you have a DNS the game may not download a necessary update. I loved this game when it came out and I've just redownloaded it and I can't get past the privacy policy and terms of use updates after linking my email. The game crashes and I cannot figure out what to do.",
+        "date": "2026-04-10T09:31:21.268Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Luis Rodriguez",
+        "score": 5,
+        "text": "The game is fun as its a proper collecting game. But the only thing i would like developers to change is...as a paying player of course... if a player closes the app, instead of a full minute of waitting for him or her to return, decrease to 30 seconds... waitting so long to win a sure match because some kid or child adult got salty and left the app is annoying. Update! finally the wait time for quitters have been lowered. no more waitting a minute to win! thank you!!!!",
+        "date": "2026-03-25T04:17:55.549Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "userName": "axash18",
+        "score": 5,
+        "text": "It's an amazing game for pokemon fans. required updates in. 1 sharing cards with others if already shared players go down on the list will help a lot and improve the experience. 2 in trading cards with players if it is shown which cards your friends don't have and you have will make it easy for players to know their requirements which are not liked .",
+        "date": "2026-03-18T16:23:39.912Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Daniel Mo",
+        "score": 5,
+        "text": "I've been playing from the beginning and this game is okay. but feel like its getting worse pull rates suck. I had to open 270 packs just to get a card I wanted. took months points are only for the specific pack. that is terrible because you cant collect enough points and by the time you get them 3 new packs come out. they want you to pay money to open more packs. the art it cool but I cant pull anything. im hoping they will update the game to make it more fun to collect",
+        "date": "2026-04-21T19:28:10.505Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Ethan Riemer",
+        "score": 5,
+        "text": "Edit 2: NEVERMIND WE'RE SO BACK! The new set is gorgeous, and I really hope they continue making new cards! Edit: I hoped the new Paldian set that reused old TCG art was a one-off thing but the newest set also mostly uses reused art, this really destroyed my favourite part about this game and if this is what the future of this game will be then I just can't play this anymore Love how the artwork looks! I hope the new backside of the cards that Pokémon Pocket is used in the real card game!",
+        "date": "2026-04-28T22:51:28.947Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Kali Robles",
+        "score": 5,
+        "text": "I really liked this game. I've seen so many cards, cool designs, and the battles are cool too. nothing bad I can think of but im not the biggest player either. if you like collecting cards and seeing cool, different designs for the same Pokémon, than I think you'll like this game!",
+        "date": "2026-04-12T23:36:32.590Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Van Bean",
+        "score": 5,
+        "text": "Classic and fun. With a lot of detail. Please add other pokemon legendaries as well. Or the birds of a feather themed. Would be great to have birds of prey Pokemon in the game too. Thank you developers for the time you put in this game.",
+        "date": "2026-05-20T09:56:38.456Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Aiden Bennett",
+        "score": 5,
+        "text": "love the game, been playing for quite a while! i have zero complaints just one suggestion!! i think yiu guys should add something resembling around the black bolt pokemon tcg packs. (zekrom and reshiram) i feel they would be a pretty nice addition to not only collecting but also battling as well! anyways thank you for making this game and creating such a fun pack opening experience without asking so much from us as players 🙏 i salute you🤙",
+        "date": "2026-05-14T17:55:06.389Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "T",
+        "score": 5,
+        "text": "Pokémon is the best! Please add a dark mode ASAP, drastically improve trading where it's like an auction to search for random people's specific cards to trade & change how Wonder Picks work. There's zero reason to have wonder picks with over 3 duplicates in them. Also it's a little weird that there's only a maximum of 2 attack moves for every Pokémon so I wish it was like the normal games more. The battles are also not too fun I guess & I mostly just play it to try to collect all the Pokémon.",
+        "date": "2026-05-24T14:52:33.430Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Naveen Dayag",
+        "score": 5,
+        "text": "This game is very decent. The game is a more fast paced version of pokemon tcg game, and unlike tcg live or the real tcg which is 60card deck. this game is only 20 deck format, which is really good for me, not much hassle. The game is not really pay-to-win, because each day you get a free pack *1-2* everyday, and the updates are consistent, and the game sometimes gives free hourglass, and other currencies in the game. Fun Fast-paced, pokemon tcg game!",
+        "date": "2026-05-09T15:49:27.910Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jayden Gilbert",
+        "score": 5,
+        "text": "Great game. You don't have to deal with (what I believe they are called) scalpers. You get 2 free packs daily without paying. But if you get premium, you get up to four storage. Not only that, the pokegold and pack hourglass (which you can get for free) let you open a pack without something called \"Pack stamina\", but how to get pokegold is hideous (well without paying of course). Great game. The Pokémon Company keep it up. Just make it where you can get pokegold easily for free.👍🏻👍🏻👍🏻👍🏻✨",
+        "date": "2026-04-05T02:41:42.531Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "fotis papoutes",
+        "score": 5,
+        "text": "I really like this game!! before this I had no Idea about tgc, But now I know how to play tgc and be competitive! It is an exceptional game with many things to do and you always find something new to do every month with the Monthly updates! Would really recommend this to everyone",
+        "date": "2026-04-28T06:19:04.888Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Chok Rayner",
+        "score": 5,
+        "text": "I’ve been really enjoying Pokémon TCG Pocket so far! The game makes collecting cards feel exciting and accessible, especially for new players. The pack opening animations are satisfying, and the card artwork looks amazing on mobile. I also like how the battles are faster and simpler compared to the physical Pokémon TCG, which makes it perfect for quick matches anytime. However, I do think the game could improve by adding more ways to earn packs without waiting. Overall, a good game!",
+        "date": "2026-02-26T09:42:50.770Z",
+        "thumbsUp": 25
+      },
+      {
+        "source": "google_play",
+        "userName": "Victoria",
+        "score": 5,
+        "text": "it's a lot of fun if you're into Pokémon cards, you can pull for cards with card packs, you can play against others, and you can also play solo. it includes trading, sharing, and showing off cards too.",
+        "date": "2026-04-20T00:18:06.203Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Colton VanSkiver",
+        "score": 5,
+        "text": "it's really fun at first it is kinda confusing because there's so many menus but it's so fun I started playing about a month ago and I already completed my first pack not counting the special cards I still need a few more but what I do think this app can approve on is making the quest menu easier it really hard to navigate but that's all really good app 😁",
+        "date": "2026-03-23T01:03:55.983Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Michael Adam",
+        "score": 5,
+        "text": "Probably the best f2p Mobile Card game ever made. No unnecessary pop ups, no annoying blinking icons, it limited P2W players per day, it gives constant free packs and rewards. The cards look amazing. If you play a mobile TCG. This is the one you have to play.",
+        "date": "2026-04-03T15:22:24.870Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "Charles Bidinger (CharlesIRL)",
+        "score": 5,
+        "text": "pros: Fun Game. It's virtual pokemon trading cards for collections and battles. cons: lvl 60s play in the beginner's battles, they'll concede and be poor sports as soon as they see you have them locked. beginner battles should be level capped. all players should get a set amount of concedes per hour or day.",
+        "date": "2026-04-20T15:42:34.184Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bloody Bandit112",
+        "score": 5,
+        "text": "I love the game I just wish they made the trade feature the same as the share, I wanna know what they haven't collected so I can trade it to them when I know I dont have what they need in the wishlist since you can only put 20 cards to a wishlist. Also When Are You Gonna Combine Pack Points So I can get cards I want and not have pack points that im never gonna use in the future because I have so few from the past.",
+        "date": "2026-03-15T04:15:15.865Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Nicholas Rondinone",
+        "score": 5,
+        "text": "the game is overall really good. It's a great game for people who like Pokémon and wanna start a collection of Pokémon cards without wanting to spend money on the in real life. and the battling system is really fun, in my opinion.",
+        "date": "2026-04-28T02:33:47.629Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Donald Point",
+        "score": 5,
+        "text": "I played it for like 9 months straight when it first came out. Then I got busy and had to take a break. Just came back to it and it's good to see it's still getting consistent updates. Can't wait to catch up on all the packs I missed out on.",
+        "date": "2026-03-09T15:12:38.696Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Gideon Hyzer",
+        "score": 5,
+        "text": "A great and MUCH cheaper alternative to playing Pokemon TCG and collecting Pokémon cards. It's a fun and simple way to play, without the hassle of rushing to get packs before scalpers, or the major price tag alongside it.",
+        "date": "2026-04-18T11:37:03.369Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Chayton Diringer",
+        "score": 5,
+        "text": "Honestly very fun, kinda addicting too. Rewards are easy to obtain from quests, battles, or even from the shop, and what im saying is only scratching the surface of what this game has to offer",
+        "date": "2026-03-10T22:22:04.120Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Natalee Gower",
+        "score": 5,
+        "text": "to people who wanna play this game! yes it requires a lot of storage but I don't regret this app I already have 6 legendary EX pokemons 100/100 anyways this game is kinda laggy but anyways you get to open card,trade with users,make friends,create a binder for your cards and you can also challenge people on fights and you can set the difficulty!",
+        "date": "2026-04-28T09:05:11.988Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Everly Romero",
+        "score": 5,
+        "text": "trying to beat my big brother with how much cards is so much fun and it's also so exciting to see what rare cards you can get in the game I love it so much that I agree with myself ( I don't know if that makes sense... ) but I give it a 5/5 I love Pokémon :)",
+        "date": "2026-05-22T16:57:01.976Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mahogany T. Jones",
+        "score": 4,
+        "text": "The go second advantage is not as significant as I initially thought. Even so, the turn order advantage could be flattened by releasing more cards that allow deck builds that want to go first. Then let the coin toss winner decide who goes first, and the turn order advantage problem goes away. It is impossible to read the Pokémon in the top left corner of a stage 1 or 2 card. It's difficult to click on a card during battle to read it. Otherwise, there is a lot to like.",
+        "date": "2024-11-22T00:22:29.812Z",
+        "thumbsUp": 951
+      },
+      {
+        "source": "google_play",
+        "userName": "Nathan Meizner",
+        "score": 4,
+        "text": "It's pretty fun, though I do think it takes way to long for the pack stamina to reload, having to wait 12 hours just to open ONE, but other then that, I have experienced no bugs, OR crashes, and I have a pretty trashy phone, and other people are saying it crashes a lot, so maybe it's just them, or my phone is too trashy to crash. The game has good art, good graphics, good battling system, overall, it's just really good. Good job Pokémon.",
+        "date": "2024-11-05T17:39:37.764Z",
+        "thumbsUp": 489
+      },
+      {
+        "source": "google_play",
+        "userName": "Ssabmud Garcia",
+        "score": 4,
+        "text": "Gameplay and Collecting is really fun. But there is too much navigating through the UI; Everytime I launch the app and claim my dailys, I legit spend 5 minutes between claiming my packs and picks and rewards for missions. (To the developers) There needs to be a claim all option for every category in missions. That way players can actually spend the time on the app playing, not just claiming.",
+        "date": "2026-05-26T15:19:29.650Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Zoey Hover",
+        "score": 4,
+        "text": "I think this app is fun and fantastic, and I've been hooked on it ever since I downloaded it. I can't say enough good things about the fun events and all the booster packs, but I do have some issues about the way the game allows interaction between players. Lately, I've had a person sending me a share every single day, but I don't want the cards and you can't reject shares without unfriending someone. I wish that would be fixed.",
+        "date": "2026-05-16T23:51:43.339Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "app_store",
+        "userName": "TRAĚ",
+        "score": 5,
+        "text": "everything is to nice the help and packs feel like you’re really getting an pokemon",
+        "date": "2026-05-30T17:26:06-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mason. M.",
+        "score": 5,
+        "text": "If you whant to add me on the game Im LeBron 67 and I’m a boy",
+        "date": "2026-05-30T17:14:08-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Artvisncrelscgs fx",
+        "score": 5,
+        "text": "I recommend this so much! It’s that I wish to get a sylveon but it’s okay! I recommend this if your a Pokemon card collector ! Love this game 🎀💕",
+        "date": "2026-05-30T15:58:09-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Gahdbjzjdbsbzhd",
+        "score": 5,
+        "text": "Thank you pokemon tcg your is the best game ever",
+        "date": "2026-05-30T15:25:20-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Coralcoll",
+        "score": 5,
+        "text": "Pokémon :] I love Pokémon :) pretty cards and pretty colors very good art very fun and easy to play",
+        "date": "2026-05-30T14:30:48-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Brwar13",
+        "score": 5,
+        "text": "Let me scan my it’ll cards to add to collection",
+        "date": "2026-05-30T14:30:39-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mrpancakes88",
+        "score": 5,
+        "text": "This game rocks! I can’t wait to catch them all!",
+        "date": "2026-05-30T14:05:20-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "OneGamerLifr25",
+        "score": 5,
+        "text": "I just started the game and I love it. It’s one of my favorite games. If you don’t have the game, I recommend getting it. I love opening the packs and getting rare cards. THE BEST GAME!!!",
+        "date": "2026-05-30T13:14:52-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pokémon tcg paradox drive",
+        "score": 5,
+        "text": "I really love that you guys give new booster packs every month",
+        "date": "2026-05-30T12:23:12-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Loliouyjuth",
+        "score": 5,
+        "text": "This is the best game ever",
+        "date": "2026-05-30T12:14:42-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "BlueMindYT",
+        "score": 5,
+        "text": "Bruh 5 god packs in one day plus infinite views on YouTube my day could not get any better",
+        "date": "2026-05-30T11:48:20-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Opposition)ty",
+        "score": 5,
+        "text": "I love the game but it takes me forever to get good stuff so can you give beginners more luck for the first 3 weeks of playing",
+        "date": "2026-05-30T11:27:48-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "MambaKid24",
+        "score": 5,
+        "text": "I love this game in need mega Gallade and rest of megas in pokemon also iron valiant and roaring moon should’ve been Ex",
+        "date": "2026-05-30T11:25:20-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Bingchiak",
+        "score": 5,
+        "text": "It is a very fun game opening all the packs",
+        "date": "2026-05-30T10:33:40-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Kevin 67goat",
+        "score": 5,
+        "text": "Its really fun and addicting  I love it",
+        "date": "2026-05-30T09:38:14-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "ferrit lover 2026",
+        "score": 5,
+        "text": "I don’t have to spend my money on pokemon cards now",
+        "date": "2026-05-30T09:25:21-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "JIBBY'S WAR",
+        "score": 5,
+        "text": "Just amazing game",
+        "date": "2026-05-30T07:50:34-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Uwirueorieiepruqo",
+        "score": 5,
+        "text": "Great game love to see it keep up the good work",
+        "date": "2026-05-30T05:51:49-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Good game more Pokémon",
+        "score": 5,
+        "text": "Like it but pls give me more good Pokémon pls I need to get stronger.",
+        "date": "2026-05-29T21:11:07-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ghost6661!",
+        "score": 4,
+        "text": "I’m more likely to find a physical pack out in the wild than pull something good",
+        "date": "2026-05-29T20:47:17-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Xaxonator",
+        "score": 5,
+        "text": "This game is really good and cool!The sensation of pulling a really good card makes you feel proud! Definitely 5 stars!",
+        "date": "2026-05-29T19:15:52-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jboogie919",
+        "score": 5,
+        "text": "The best game ever",
+        "date": "2026-05-29T18:47:58-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "W pack",
+        "score": 5,
+        "text": "(Mi hermana me sacó mega altaria shiny)🤑",
+        "date": "2026-05-29T18:29:11-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pokémon fan teko",
+        "score": 5,
+        "text": "This game is the reason I spend more money then taxes",
+        "date": "2026-05-29T17:36:28-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pro dinosaur",
+        "score": 5,
+        "text": "They definitely up the game",
+        "date": "2026-05-29T14:37:11-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "It’s good so far but still",
+        "score": 5,
+        "text": "It’s a cool game. I really love it opening all the cards getting some rare stuff. I can’t wait to trade it. I’m getting too happy. But we just really should do next is make them deliver to the house for like about like $20.05 or 50 delivered to everyone’s houses that would’ve been a great development and that would’ve been a new chapter for y’all so please reach out to me developer and maybe you could you know collapse with me and I can make my own cards.",
+        "date": "2026-05-29T13:39:42-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "ScariestDust",
+        "score": 5,
+        "text": "This is a perfect game for people who love Pokemon and can’t effort to buy packs and also to people that love to professionally battle",
+        "date": "2026-05-29T13:24:24-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Poke the",
+        "score": 5,
+        "text": "Peak game",
+        "date": "2026-05-29T12:49:19-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "I’ve ever played",
+        "score": 5,
+        "text": "I’ve ever played",
+        "date": "2026-05-29T12:01:10-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Todgishehshjwhwhwh",
+        "score": 5,
+        "text": "Goooooiiiid gggggggammmmne",
+        "date": "2026-05-29T09:30:33-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Yasqueen124",
+        "score": 5,
+        "text": "I keep getting good cards. This is the best game you can ever download I want getting good cards This is the best luck that I ever have That’s why its the best game",
+        "date": "2026-05-29T08:26:26-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jasper J M",
+        "score": 5,
+        "text": "You should play this game you can get really cool cards",
+        "date": "2026-05-28T22:35:19-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "The reviewer of 5 stars",
+        "score": 5,
+        "text": "It is a good game because of the animation with the cards maybe lower the time to open the packs",
+        "date": "2026-05-28T21:24:56-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "five god hambuger",
+        "score": 5,
+        "text": "I got a Rainbow in five packs from gen 9",
+        "date": "2026-05-28T19:06:48-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Opening packs￼",
+        "score": 5,
+        "text": "I love opening these bags and watching what I get when I’m bored I open a few and when I’m done look at my collection",
+        "date": "2026-05-28T19:01:51-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "🤘😝🤘🫵🫵",
+        "score": 5,
+        "text": "Even an as beginner this is overall a great app. I didn't need to make an account or pay for a subscription and it's really fun",
+        "date": "2026-05-28T18:54:24-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jaydenkkdkdk",
+        "score": 5,
+        "text": "I like it but it’s just a little laggy on my iPad and it takes up a lot of storage space like 5 gbs",
+        "date": "2026-05-28T18:26:18-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "-ANDY-🍳",
+        "score": 5,
+        "text": "Great game for rippers",
+        "date": "2026-05-28T14:18:39-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "PokémomLover ￼",
+        "score": 5,
+        "text": "It literally said I could open two and I literally opened six for free and I literally got a full art two full art",
+        "date": "2026-05-27T21:08:43-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "SJones393",
+        "score": 5,
+        "text": "Best game ever",
+        "date": "2026-05-27T20:19:26-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Uifcibfvjfvnufuigr",
+        "score": 5,
+        "text": "Fun but it takes so long to even go to the Home Screen .",
+        "date": "2026-05-27T18:43:53-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Need beetle juice",
+        "score": 5,
+        "text": "Really fun I suggest you play Pokémon TGC pocket",
+        "date": "2026-05-27T17:19:26-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pikachufan6",
+        "score": 5,
+        "text": "I put all my rare cards into my binders these past months I couldn’t so I put them in the only other thing I can do to put them in and then I ran out just please add more binder space or more binders in the future",
+        "date": "2026-05-27T16:09:58-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "wweaver89",
+        "score": 5,
+        "text": "5 stars\nI love this game many packs to open me and dad enjoy it please make lots of packs",
+        "date": "2026-05-27T15:32:14-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "E.I cool guy",
+        "score": 5,
+        "text": "Oh fun I got aGreat Pokémon   Card first try And then I got a battle",
+        "date": "2026-05-27T14:46:50-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Drippy Jordan",
+        "score": 5,
+        "text": "Entertainment open packs at home",
+        "date": "2026-05-27T12:51:36-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "GmoneyGod",
+        "score": 5,
+        "text": "I enjoy the wonder picks and all the cool varieties of packs you can get in this game😁😁",
+        "date": "2026-05-27T12:47:38-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Boxknoxthe1st",
+        "score": 5,
+        "text": "I have been looking for a Pokemon card game for a while and here one is",
+        "date": "2026-05-27T12:05:22-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "phonygoat",
+        "score": 4,
+        "text": "Just like IRL when you open packs it’s all random.\n\nWhen you battle people, you can have the perfect deck yet you’re drawing all support cards. It’s all random.\n\nThe best way to play this game is to do it for free, I haven’t spent money and I have over 9k cards. I get lucky at times and I also have a lot of duplicates.\n\nOnly reason why this game is hard at times or the difficulty matters is because each card the opponent draws is PERFECT. Even when you use the the red card to shuffle their deck it’s still perfect.\n\nJust play the game if you like Pokemon, if you’re in it for rank and competitive just be prepared to throw your device a few times a day",
+        "date": "2026-05-27T00:49:07-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mosakowski",
+        "score": 4,
+        "text": "Fun game! I’ve been playing since the launch. The trade and share updates are great. I’m holding out for dark mode. That would make this game 5 stars.",
+        "date": "2026-05-26T18:04:40-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ggiwinlol",
+        "score": 5,
+        "text": "The game is so good",
+        "date": "2026-05-26T16:58:03-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "aegislash&porygonz4eva",
+        "score": 4,
+        "text": "2 booster packs a day is atrocious.",
+        "date": "2026-05-26T16:44:51-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Chirpra",
+        "score": 5,
+        "text": "Opening the virtual packs is fun, the card game is great! Getting to play against other players is really something special",
+        "date": "2026-05-26T14:58:08-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Odedodee",
+        "score": 5,
+        "text": "W gam",
+        "date": "2026-05-26T14:04:49-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Taki🔹￼",
+        "score": 5,
+        "text": "The game is actually really fun that I thought",
+        "date": "2026-05-26T12:51:17-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Lulufox lover",
+        "score": 5,
+        "text": "The game is easy and nice not like games that are rigged this one isn’t because it’s not rigged and it is addles",
+        "date": "2026-05-26T04:56:21-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "guy2928",
+        "score": 5,
+        "text": "this is a great game, I love it. I think you guys should add gx, vmax, vstar, and gold cards. it would be cool to feature many more real-life cards and it would bring something new.",
+        "date": "2026-05-25T22:09:19-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "iDontWantaJob",
+        "score": 5,
+        "text": "It’s fun and I’m a big fan of Pokémon",
+        "date": "2026-05-25T18:33:24-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "𝓚𝓲𝓼𝓲𝓶",
+        "score": 5,
+        "text": "Sooooooooooo \ngooooooooood",
+        "date": "2026-05-25T16:49:51-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "LunarLuvsDW!!",
+        "score": 5,
+        "text": "Started playing and already got many hits!! I was so happy and when i kept playing I enjoyed it A TON!! recommend playing!! 💜🌙",
+        "date": "2026-05-25T16:41:00-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Dreamingsnorlax",
+        "score": 4,
+        "text": "The level of my enemies are WAY MORE THAN ME SOMETIMES IN THE 90 and I’m in level 26",
+        "date": "2026-05-25T16:26:17-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "ZB_boi",
+        "score": 4,
+        "text": "Very fun and entertaining",
+        "date": "2026-05-25T10:20:42-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "I DON”T NEED IT",
+        "score": 5,
+        "text": "It’s really fun try it!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "date": "2026-05-25T10:09:03-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Brady13king",
+        "score": 5,
+        "text": "Best game",
+        "date": "2026-05-25T04:27:46-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Alli-Cat the greatest",
+        "score": 5,
+        "text": "This is the best game I’ve ever played",
+        "date": "2026-05-24T19:15:17-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Full Pervitin",
+        "score": 4,
+        "text": "Kinda ridiculous when you start collecting your cards and people are still easily handling you with the moltres charizard y combo that everybody gets for free…",
+        "date": "2026-05-24T19:03:14-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pokémon  it",
+        "score": 5,
+        "text": "It is good good and great",
+        "date": "2026-05-24T17:31:18-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "AnonymousTown",
+        "score": 5,
+        "text": "Let us keep our shop coins when the new pack opens plz! I did so many missions and have about 100, I don’t want them taken away",
+        "date": "2026-05-24T17:31:00-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "N3b3k",
+        "score": 4,
+        "text": "When trading can we see how many qty of cards that the other person has? Should make the trading process better knowing if someone only has one of a card or 10",
+        "date": "2026-05-24T17:29:59-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Littledumdum01",
+        "score": 4,
+        "text": "It took sooooo looonnngg to download my data. And it restarted when it was at 90% just because my screen closed.",
+        "date": "2026-05-24T16:46:19-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Awesome game6767",
+        "score": 4,
+        "text": "Very fun on my first day but it takes a bit to log in with a account",
+        "date": "2026-05-24T16:36:26-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "EE-George",
+        "score": 5,
+        "text": "They should add a widget that shows where the hour glass timer is",
+        "date": "2026-05-24T16:32:57-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Haliberto2012",
+        "score": 5,
+        "text": "The game is really really fun and it’s not pay to play which is good. I’ve only had it for a day but i have almost 4 hours on it. Ranked is really good but I think that they need to give you rewards for winning games instead of just one big reward at the end of the season. I think that would make ranked more playable.",
+        "date": "2026-05-24T15:24:54-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Brain puzzle the best",
+        "score": 5,
+        "text": "Once again, if you love Pokémon games, download this one",
+        "date": "2026-05-24T14:55:46-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "AwSoMe GaMe 1234",
+        "score": 5,
+        "text": "Fun and easy to play very addicting and has a Pokémon collector myself. This was very fun.",
+        "date": "2026-05-24T14:34:28-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "asapxk1ng",
+        "score": 5,
+        "text": "It’s Lots Of Cool Different Types Of Cards & I Like Trying To Collect Them All But It’s Hard Trying To Organize Your Favorite Cards Into One Section & I Would Like If We Could Have More Slots For Binders Maybe Just 2 More I Think It’s On 12 Now & Also I Like Collecting The Different Language Ones As Well So Yeah Everything Else Is Cool 9.5/10 👍🏽",
+        "date": "2026-05-24T08:50:34-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "67 67 67 y267",
+        "score": 5,
+        "text": "I got a bunch of EXs amazing game. Keep it up",
+        "date": "2026-05-24T06:27:55-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jackofheartz777",
+        "score": 4,
+        "text": "Lots of fun but please make a dark mode :)",
+        "date": "2026-05-23T21:43:53-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Weyrenator",
+        "score": 4,
+        "text": "A dark mode would be nice, all the white menu screens hurt a bit. Some of the deck building ui is slightly unintuitive such as not being able to search cards you don’t own (instead shows no cards found). Would be nice to at least have the option to toggle on both of these minor issues. Also, having pack points remain unused on previous sets feels really bad free to play wise. Having to open 500 packs of one set to get 1 gold card seems a bit excessive as you only get 2 packs a day. you’d have to open the same pack 250 days in a row or just continually rip a potentially irrelevant set to get just one card you want. Just allow them to be converted is all.",
+        "date": "2026-05-23T21:19:41-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "gdmev",
+        "score": 5,
+        "text": "Very good game I like the graphics and how the pack openings are!",
+        "date": "2026-05-23T20:40:09-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ander Hingis",
+        "score": 5,
+        "text": "Best game ever I always play this in the car on long rides 10/10",
+        "date": "2026-05-23T18:33:50-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "K_enzo",
+        "score": 5,
+        "text": "So I love Pokémon a lot and this game has so much illustration and I love playing it. It’s really time consuming. It’s really good. You should play it. It’s really good for aging kids you really like playing and I have a lot of friends who actually played this game so that’s cool.",
+        "date": "2026-05-23T18:12:34-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "1st game I played",
+        "score": 5,
+        "text": "This is so cool and yall are the best",
+        "date": "2026-05-23T17:43:21-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "ℙ𝕚𝕖𝕣𝕣𝕠𝕥 𝕤𝕥𝕒𝕣𝕤",
+        "score": 5,
+        "text": "This taught me how to play Pokémon",
+        "date": "2026-05-23T16:51:52-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Iloveroblox toooomuchhhh",
+        "score": 4,
+        "text": "really good just that I can’t open more packs a day",
+        "date": "2026-05-23T16:30:25-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Lily’s backpack 🎒",
+        "score": 5,
+        "text": "Warning ⚠️ you have to be level 3 to play the game!!⚠️",
+        "date": "2026-05-23T15:39:34-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Tkggm",
+        "score": 5,
+        "text": "I Love Opening Pokémon Packs In Real Life And In TCG Pocket.",
+        "date": "2026-05-23T15:11:53-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "PokeMoM1025",
+        "score": 5,
+        "text": "Fun app for the whole family to enjoy together!",
+        "date": "2026-05-23T14:45:35-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ffcfruuftt",
+        "score": 5,
+        "text": "In a few packs you will get something good",
+        "date": "2026-05-23T14:34:36-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mattness55",
+        "score": 5,
+        "text": "Interesting",
+        "date": "2026-05-23T12:21:33-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "EEVEE￼ G",
+        "score": 5,
+        "text": "Good for Pokémon lover’s amazing",
+        "date": "2026-05-23T10:30:19-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "chewbaca476$",
+        "score": 5,
+        "text": "This game is great! My only suggestion is please more deck spaces. Preferably no limit on decks would be wonderful. As the game has progressed, so many cool decks have come out and I hate having to delete old ones for new ones",
+        "date": "2026-05-23T10:29:50-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "jegoppp",
+        "score": 5,
+        "text": "Coconut water",
+        "date": "2026-05-23T09:43:13-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "EODELREY",
+        "score": 5,
+        "text": "My son loves this game so much",
+        "date": "2026-05-23T08:47:55-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Maddie Bellinger",
+        "score": 5,
+        "text": "ʙᴇsɪᴅᴇs ʙᴇɪɴɢ ᴀ ᴘᴏᴋᴇᴍᴏɴ ᴄᴏʟᴇᴄᴛᴏʀ sɪɴᴄᴇ ɪ ᴡᴀs ᴇɪɢʜᴛ ɪ ʟᴏᴠᴇ ᴛʜɪs ɢᴀᴍᴇ ɪᴠᴇ ʙᴇᴇɴ ɪɴᴛᴏ ᴘᴏᴋᴇᴍᴏɴ ғᴏʀ ᴀ ᴡʜɪʟᴇ ʙᴇᴛᴡᴇᴇɴ ʀᴇᴀʟ ᴄᴀʀᴅs ᴠɪᴅᴇᴏ ɢᴀᴍᴇs ᴀɴᴅ ᴀᴘᴘs ɪ'ᴍ ᴏʙsᴇssᴇᴅ ᴛʜɪs ɢᴀᴍᴇ ɪs ᴘᴇʀғᴇᴄᴛ ғᴏʀ ᴇᴠᴇʀʏᴏɴᴇ ᴍʏ ᴄᴏᴜsɪɴ ᴛᴀᴜɢʜᴛ ᴍᴇ ᴀʙᴏᴜᴛ ᴛʜɪs ᴀ ᴄᴏᴜᴘʟᴇ ᴍᴏɴᴛʜs ʙᴀᴄᴋ ɴᴏᴡ ɪ ʜᴀᴠᴇ ᴀ ᴛᴏɴ ᴏғ ᴇxs ᴀ ʏᴏᴜɴɢᴇʀ ғᴀᴍɪʟʏ ғʀɪᴇɴᴅ ɪ ʜᴀᴠᴇ ʟᴏᴠᴇs ᴘᴏᴋᴇᴍᴏɴ ᴛᴏᴏ ᴀɴᴅ ᴛᴀᴋᴇs ᴍʏ ᴘʜᴏɴᴇ ᴛᴏ ᴘʟᴀʏ ɪᴛ ʜᴇ ʟᴏᴠᴇs ᴘᴏᴋᴇᴍᴏɴ ᴀʟsᴏ ʟᴏᴠᴇ ᴛʜɪs ɢᴀɴᴇ ғɪᴠᴇ sᴛᴀʀs!",
+        "date": "2026-05-23T07:06:36-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "I love umbreon!!!",
+        "score": 5,
+        "text": "Please add the og booster packs from like 20-30 years ago. I've never opened one since... Well one would cost you about... A million dollars now. I want that charziard!!! Please!",
+        "date": "2026-05-23T04:32:43-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "snorlax EX",
+        "score": 5,
+        "text": "pure peakness and joy",
+        "date": "2026-05-22T16:58:17-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Chris😁👍",
+        "score": 4,
+        "text": "It is fun but it gets boring fast",
+        "date": "2026-05-22T16:49:05-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Celnecinodcnidvnkdvknevin",
+        "score": 5,
+        "text": "Yo me iba a descargar este juego solo para probarlo y ya soy adicto a esta mierda",
+        "date": "2026-05-22T15:53:02-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Dipstirs",
+        "score": 5,
+        "text": "I got a aboliva ex and it’s only been 23 days since I got the app. The wonder packs are good too! You can get ex, Y ex, X ex, mega ex, mega Y ex (I think that’s a thing), mega X ex, Korean cards, American cards, ect… Even tho the cards could be bad at least you can still get at the first 30 days of playing card, shinedust, trade hourglasses, play mats, card folders, coins to see who goes first, and pack hourglasses.",
+        "date": "2026-05-22T15:28:01-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Michelle Pinedo",
+        "score": 5,
+        "text": "When I started I liked it sooo much",
+        "date": "2026-05-22T13:31:29-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "CriticalHit!",
+        "score": 5,
+        "text": "It’s great for collecting and it’s not boring plus I’ve collect mostly all Pokémon cards in the world in English",
+        "date": "2026-05-22T11:33:13-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ojuhhhy",
+        "score": 5,
+        "text": "This game is so fun, and no ads! I love collecting and battling. It is fun to get surprised by rare cards. Yay! I would definitely recommend. But can we please get the dulexe pack ex back? For a month or two? Pls? Thanks 4 making! 😍",
+        "date": "2026-05-22T05:55:04-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "NIGHTMARE cather",
+        "score": 5,
+        "text": "Make me happy",
+        "date": "2026-05-22T03:05:46-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Gloriaaaaass",
+        "score": 5,
+        "text": "I’m a big fan of Pokemon!!!",
+        "date": "2026-05-21T21:19:42-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "xyreu",
+        "score": 5,
+        "text": "This game is wonderful but please add a dark mode, it feels like I’m staring down the sun while I’m doing my midnight battling.",
+        "date": "2026-05-21T20:47:33-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Teagan Jenkins",
+        "score": 5,
+        "text": "When I first saw this on the internet I thought it was a joke and game to get money for unemployed bums but then I tried it and now i can’t stop playing it",
+        "date": "2026-05-21T18:12:43-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "The_Fare_Judjment",
+        "score": 5,
+        "text": "This game is fun for its many game modes and the community that uses it is ever fun, and ever growing. The only problem there is, probably affects a very little amount of others besides me. I only really wish there was a way to combine my two accounts because I have to devices but the information didn’t save so I had to start over, but now I have stuff on both accounts I don’t want to be rid of. Anyone agree or is it just me?",
+        "date": "2026-05-21T17:50:38-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hfxhgcgufhdhgd",
+        "score": 5,
+        "text": "This is the best",
+        "date": "2026-05-21T17:23:50-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Guns/\\/Puns",
+        "score": 4,
+        "text": "Okay so first of all I was going to play then I couldn’t get in I tried to clear cache didn’t work I have a LOT of progress I have a golden Pikachu you know Pikachu with a golden background but besides that pretty good please fix this ASAP",
+        "date": "2026-05-21T16:45:12-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Painrisk",
+        "score": 5,
+        "text": "Since release its been amazing and all i ask is please render in the original packs with artwork from ken sugimori and other acclaimed artistry such as “fat venusaur” and OG charizard you guys made my day when i got fat pikachu and og bubble squirtle cards, i hope you guys keep up the great work and create a open world card battling gym experience like the gameboy color game! 👍🏽",
+        "date": "2026-05-21T16:37:46-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Dager12",
+        "score": 5,
+        "text": "Soooooo fun open packs make sure to try this game",
+        "date": "2026-05-21T16:02:03-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "glz.z",
+        "score": 4,
+        "text": "The game is good, quite simple, but at the same time there is something to think about in a match - ideal for phones. But, with all due respect, the game has problems/bad experiences that shouldn't exist at all.: 1. Trades. One of the main mechanics for this kind of game. There is no chat with friends in the game, but you cannot choose the desired card from the person to whom you are trading. The most you can do is to drop your cards into the wishlist and put a mark on the \"whishlist only\" trade. This is real nonsense, it shouldn't be like this. Make it possible to view suitable trading cards from a friend to whom the trade itself was sent. This is exactly how it is done in any other game and in real life, no need to invent a wheel. 2. View maps. Why, when playing this game, I do not have the opportunity to view the map I am interested in in the general list (at least in gray). I understand that this is part of the \"unknown\" Pokemon, but this is nonsense (at least because the card art is shown in the general list of card chances and similar places in a small format, but you can't open the card completely and see the art). This is primarily a card game. The player should not access third-party resources just to view the content inside the game. 3. Animations after opening packs. Too much animation is created after opening the pack of cards, shorten at least 1/3 of this animation. After all, there is a feeling of being overloaded with unnecessary animations due to the similarity of these animations to each other. Players always want to skip them as soon as possible 4. Whishlist. Make it convenient and intuitive to manage your wish list immediately in your profile. Why the player needs to go to his cards first > select the one he needs > click the heart > go to profile > click on the whishlist > specify the selected card = this is a bad experience It should be: Profile > whishlist > choosing the right card in the search that opens = good gaming experience 5. Effect statuses on maps in battle. Why can't I click on a card under a control effect (like poison) during combat and see what the effect does? In the review, I indicated my main observations on this wonderful game. I really hope that you will see and consider my points, as I have noticed that other players have complained about this. With great respect to you and thank you!!!",
+        "date": "2026-05-21T15:51:11-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pokémon go catch them all true",
+        "score": 4,
+        "text": "It was very entertaining and there was so many Pokémon to explore and I’m so excited for you to try the game!!!!!!!!!",
+        "date": "2026-05-21T15:09:19-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Kaesonn",
+        "score": 5,
+        "text": "I got a very rare cards from from the Mewtwo pack",
+        "date": "2026-05-21T14:08:44-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ndjdjdjducdujsfjnfndnxcu",
+        "score": 5,
+        "text": "This game is so cool 5 stars",
+        "date": "2026-05-21T09:25:15-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Addy the pro 😎😎😎",
+        "score": 5,
+        "text": "It took a long time to figure out but at the end it was very fun.",
+        "date": "2026-05-21T08:36:32-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Skubidi slicer",
+        "score": 5,
+        "text": "I got mew illustration",
+        "date": "2026-05-21T05:34:47-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ararman",
+        "score": 5,
+        "text": "Great Game!! Just wish the events were slightly longer",
+        "date": "2026-05-20T20:59:01-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Darkk mode lover",
+        "score": 4,
+        "text": "My eye are burning from no dark mode ADD IT SOON PLZ\n(Note: my luck is rigged lol)",
+        "date": "2026-05-20T20:50:54-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Kubrick it built",
+        "score": 5,
+        "text": "Love it except my brother got two gold cards before me, but I got a guy back before him",
+        "date": "2026-05-20T19:50:05-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "bfdi fan2763",
+        "score": 5,
+        "text": "wish i could use it offline",
+        "date": "2026-05-20T19:49:43-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "RaichuGames",
+        "score": 5,
+        "text": "This app is a great game that runs smoothly on basically all devices. The collecting aspect really heightens the experience for fans of Pokemon because you feel the excitement and joy of pulling a card that you find cool in your own specific way. The ability to show off your cards to people who are interested in the same things as you is really what dragged me into this game. Also, you get to trade cards with people who you know, and you can put those cards in binders to show off to the world. Finally, the game has a battle system that is fast paced and fun to do on the go. While being fast, it has the same tactical works that have been carried on from the real TCG. All in all, this is a great game for all ages, and I highly\nrecommend this!",
+        "date": "2026-05-20T18:53:00-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "identification needed",
+        "score": 5,
+        "text": "There should be a little more time for each player’s turn in the online battles because there have been instances where I’ve had a lot of things I can do on my turn and have run out of time to do them all. This has kept me from winning a couple of times. Not too big of an issue because it’s rare, but it’s annoying when it does happen.",
+        "date": "2026-05-20T18:23:56-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pokemon2.2",
+        "score": 5,
+        "text": "Nice experience",
+        "date": "2026-05-20T17:14:15-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "파리지앙해적",
+        "score": 5,
+        "text": "네 재밌습니다",
+        "date": "2026-05-26T07:00:36-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "카레미역국",
+        "score": 4,
+        "text": "뽑기 아이스로 hp 100 회복하는건 좀 아닌거같아요\n뽑기 아이스로 hp 180 회복하는건 좀 아닌거같아요\n뽑기 아이스 삭제 기원\n게임 자체는 재밌습니다.",
+        "date": "2026-05-24T06:21:12-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "유치완",
+        "score": 5,
+        "text": "뽑기도 잘 되고 재밌고 좋다",
+        "date": "2026-05-14T22:14:56-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "£$¥₩&@",
+        "score": 5,
+        "text": "진짜 넘우 재밌어요. 제가 뽑지 못했던 포켓몬들도 많이 뽑을수 있어서 좋아요",
+        "date": "2026-05-12T22:27:32-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "빨리 처리 해주시면 감사하겠습니다",
+        "score": 5,
+        "text": "서버 인증 처리 요류 이거 뭔가요. 처음 해보는데 에러코드 뜨고. 아 그리고 저는 현재 베트남 해외로 나와있습니다. 그것때문에 그런건가요? 해외에 오고 나서부터 이런 일같은게 자주 발생했거든요. 제가 게임을 못하고 있는건 제 잘못이지만 시도조차 못해서 당황스러웠네요.",
+        "date": "2026-05-10T04:11:14-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "네모네모로로",
+        "score": 4,
+        "text": "재미있게 잘 플레이하고 있습니다. 혼자서 익스퍼트 배틀에서 선공이 많이 나온다거나 특정카드를 뽑을 확률을 낮게 한다거나 하는 확률 조작이 없길",
+        "date": "2026-05-09T12:18:50-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hino-guri",
+        "score": 5,
+        "text": "너무재밌네여",
+        "date": "2026-05-07T00:36:34-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "포켓몬사랑해",
+        "score": 5,
+        "text": "아니 왜 친구들은 다 뜨는데\n저만 안떠요ㅠ",
+        "date": "2026-05-06T21:47:47-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "부위가있잖아요",
+        "score": 5,
+        "text": "턴제 게임 좋아하는 사람입니다.\n제가 좋아하는 ip인 ‘포켓몬’\n근데 여기에 ’턴제 카드 게임‘?\n너무 제 스타일의 게임이라 생각해 기대했는데\n기대가 너무 컸던 것일까요.\n\n카드를 뽑는 그 느낌,\n각 카드에 실린 귀엽고 멋진\n포켓몬의 이미지,\n2D와 3D를 적절히 살리고,\n카드에 꾸미기 아이템을\n곁들여 밋밋할 수 있는 카드를\n더욱 화려하게 하는 그 시스템!\n\n이건 충분히 장점입니다.\n\n하지만, 게임의 밸런스가 너어어무\n안 좋습니다.\n\nA시리즈의 ‘개굴닌자’\n\nA시리즈의 ‘커다란망토‘,\n’울퉁불퉁멧‘, ’독바늘‘\n\nA시리즈의 ‘다크라이 ex’와\n‘기라티나 ex’를 넣은 덱,\n\nA시리즈의\n’파칙파칙 스타일 춤추새‘\n\nA시리즈의 ’스이쿤 ex’,\n\nB시리즈의 ’메가파비코리 ex’,\n‘메가앱솔 ex’\n\nB시리즈의 ‘뽑기아이스’\n(정말정말 제일 큰 문제)\n\nB시리즈의 ‘삼삼드래’\n\n카드를 출시할 때,\n밸런스를 예상하기에\n힘드신 건 충분히 이해합니다.\n\n근데 밸런스를 조정하겠다고\n계속 더 센 카드를 내는 건\n밸런스에 오히려 맹독임.\n\n그냥 아무 생각 없이 만든 카드도\n예전에 그저그랬던 카드와\n시너지를 내 밸런스 붕괴에 원인이\n됨.\n(특히 푸푸린과 다크라이)\n\n제발 난 이 게임 망하는 꼴 보기 싫으니까 노력 좀 해주세요.\n\n그리고 저만 이런 생각하는 것도 아닙니다.\n\n태홍과 초련은 솔직히 밸런스가 좋다고 생각합니다.\n이런 카드가 없었다면 오히려\n게임이 지루했을 것 같네요.",
+        "date": "2026-05-04T07:56:07-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "bonoch",
+        "score": 5,
+        "text": "어렸을때 모았던 포켓몬 카드, 여기에서 다시 볼 줄이야.....! 카드만 모았지 카드게임은 안했는데, 여기서 다시 눈 뜨네요. 예전에 모아서 친구들한테 자랑했을때 기분 엄청 좋았는데..... 오랜만 이네요^_^ 한가지 아쉬운 점이 있다면, 다운로드할때 발열이 심해서 폰이 녹는 줄...; 그래도 갓겜^_^",
+        "date": "2026-05-04T02:24:42-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Minami kun",
+        "score": 5,
+        "text": "최적화좀 해주세요 제발",
+        "date": "2026-05-04T01:25:27-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "없:)",
+        "score": 5,
+        "text": "너무 재밌고 도파민 쩔어요 !",
+        "date": "2026-05-03T04:12:26-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "호롱ㄹ로롱",
+        "score": 5,
+        "text": "재밌어요!",
+        "date": "2026-05-02T21:49:08-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "가꿍꿍",
+        "score": 5,
+        "text": "추억 ㅎㅎ",
+        "date": "2026-05-02T00:11:32-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "cat냐옹",
+        "score": 5,
+        "text": "이번 업데이트해서 선물 많이 줬는데 모래시개120개에 별2개등급3개,1개등급2개 들어있는 갓팩까지 뜨면서 무과금인데 하루에  다이아몬드4개 등급2장,별2개 등급 4장, 별1개 등급 3장,이로치 1장 떳음 역시 업데이트에는 꼭해야돼",
+        "date": "2026-04-29T01:18:52-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "레전더리갓",
+        "score": 5,
+        "text": "진짜 포켓몬프레젠트 에서 보고 예약해서 깔아서 계속 한 고인물 입니다. 진짜 재밌어요",
+        "date": "2026-04-27T22:57:26-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "wkstnr",
+        "score": 5,
+        "text": "퀄리티가 와……. 너무 잘만들었다",
+        "date": "2026-04-16T01:17:49-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "짜장짬뽕라면",
+        "score": 4,
+        "text": "게임은 잘 만들었는데 배틀에서 감정표현 같은걸 넣어주면 좋겠네요 배틀만 있으니까 좀 지루한거같아요",
+        "date": "2026-04-13T03:50:23-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "왘수",
+        "score": 5,
+        "text": "게임내에서 고지한대로 확률이 맞나요? 전혀 아닌거같은데요;",
+        "date": "2026-04-01T00:22:51-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "강아지 종류 다~ 좋아하는 사람",
+        "score": 5,
+        "text": "팔데아 원더 나온 건 만족 합니다.\n근데 허전한 부분! (코라이돈)(미라이돈)이 실종? 되어서 부탁 합니다 \n유치원 부터 약 먹드시 챙기던 포켓몬 인데…추가 해 주시면 감사 드립니다\n그리고 의견 반영 해 필드 추가 해 주셔 다시 감사 드립니다\n건강하세요",
+        "date": "2026-03-28T06:06:50-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "믿음보석",
+        "score": 5,
+        "text": "재밌어요 팩 좀 팍팍 까게 해주면 더 좋겠어",
+        "date": "2026-03-23T22:35:27-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "프롤레타리아17",
+        "score": 5,
+        "text": "트레이드 제안하거나 회신 하고 기다리는 시간이 너무 오래걸리는데 관련 푸시알림을 추가해주세요(팩오픈가능 알림 처럼)",
+        "date": "2026-03-19T00:13:33-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Sonicjunhee",
+        "score": 4,
+        "text": "이게 은근 재미있는데 만약에 폰에 따른 게임이 생기면 점점 안하게 됌\n또 가끔은 질려서 안 할때도 가끔 있음(하지만 나쁘진 않다)",
+        "date": "2026-03-03T04:49:34-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "A하나",
+        "score": 5,
+        "text": "진짜 재밌게 플레이중이에요! 메인계정은 배틀용계정으로쓰고 부계정은 카드수집 계정으로 사용중인데 로그아웃기능이\n없어 굉장히 불편해요ㅠㅠ 로그아웃 기능 만들어주세요!!",
+        "date": "2026-03-01T18:47:39-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "다음에봐",
+        "score": 5,
+        "text": "가볍게 하기 좋아요",
+        "date": "2026-02-23T03:55:01-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "대세는박군",
+        "score": 5,
+        "text": "어플 삭제 후 재설치 했는데 이전 데이터가 하나도 안남는데 찾을 수 있는 방법을 알려주시길 부탁드립니다. 결제도 하면서 이용하던 계정인데 구글 애들 다 정보가 없다고만 뜹니다.",
+        "date": "2026-02-20T01:44:13-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "bell_love 046",
+        "score": 5,
+        "text": "모래시계 하루에 10개 정도 주시면 안될까요? 포켓골드도 레벨업  할때\n2~3정도만 주세요. 한번에 10팩 뽑는것보다 나눠서 10팩 뽑는게 더 빨라요.\n글고 하루에 확장팩 2는 좀 적은것 같아요.3~4정도가 적당한것 같아요.\n겟챌린지에 친구가 뽑은 게 하루가 지나도 안나와요. 이런점은 고쳐주세용.글고 나눠주기도 2성 카드도 나눠주기 할수있게 해주세요.\n(드디어 인사 하네요😂)\n개발자님 앞으로도 재밌눈 게임\n많이 만 들어 주세요.👍",
+        "date": "2026-02-18T16:32:29-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "₩)@/&1)1",
+        "score": 5,
+        "text": "즐겜 유저인데 랭크 미션 참여했는데 보상을 못 받았는데 어디에다 말해야하나요?",
+        "date": "2026-02-10T23:24:46-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "지아이닌",
+        "score": 4,
+        "text": "에러코드 102-243-090",
+        "date": "2026-02-02T17:58:32-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "☘️🏡",
+        "score": 4,
+        "text": "본인이 질 것 같거나 특히 역전패 당할 것 같으면 자꾸 경기를 이탈해버리는 사람들이 많습니다. 지는걸 본인 눈으로 보고싶지 않은가봐요... 그럼 전 시간이 흘러야 경기를 끝낼 수 있는데 이 시간이 좀 짧아지면 좋겠습니다. 게임하다가 경기를 이탈할 일이 많지 않은데 주어진 시간이 긴 것 같습니다. 아무것도 안하고 화면만 보고있자니 지루하네요.",
+        "date": "2026-02-02T15:33:02-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "차르민",
+        "score": 5,
+        "text": "너무 재미있게 플레이하고 있는 유저입니다. 저는 뽑기운은 별로 없어서 트레이드로 카드를 모으고 있는데 항상 빛의 모래가 부족해요. 남는 카드들을 파는 형식이나 빛의 모래로 바꿀 수 있게 해주면 어떨까요?",
+        "date": "2026-02-01T06:26:17-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "아무개나라",
+        "score": 4,
+        "text": "상점에 모래시계 쿨타임을 왜 만든건지 이해가 안됨 퀘스트 다 깨고 하면 모래시계 받을 수 있는 루트가 그거 말고는 없는데 대체 이해를 할 수가 없음 제발 이건 좀 고쳤으면 좋겠음",
+        "date": "2026-01-28T22:56:54-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "귀요미 전서윤💮",
+        "score": 5,
+        "text": "이 게임을 추천합니다♥️",
+        "date": "2026-01-26T15:25:33-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "나 는 이뽀",
+        "score": 5,
+        "text": "아니 원래 카드를 자주 모아서 시작했는데 넘 재밌어서 지금도 해용\n새로운 카드팩도 자주 생기고\n이벤트도 해서 좋아요!!!!!!\n강추 함돠!!!!!!",
+        "date": "2026-01-24T04:23:08-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "제미미쓰",
+        "score": 5,
+        "text": "카트 뽀끼가 제미서",
+        "date": "2026-01-22T16:22:53-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "채팅의 달인",
+        "score": 5,
+        "text": "포켓몬 카드 팩을 뜯을때 쾌감이 들기도 하고 좋은 카드가 나올때는 기분이 좋아요😄옛날에 포켓몬 카드 뜯던 추억도 떠올라서 더 열심히 모으는것 같네요! 배틀도 재밌고요. 그런데 한가지 궁금한 점이 있어요. 원래 포켓몬 카드에는 V 같은 카드도 있는데 이 게임에서는 V카드가 없나요?",
+        "date": "2026-01-20T22:23:07-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "포캣카",
+        "score": 5,
+        "text": "충분히 재미있는 게임이고 무과금이여도 시간을 좀 더 들이면 할 수 있는 게임이지만 가챠게임의 경우에는 항상 천장 시스템이 있어요. 포캣카도 있다만 높은 등급의 카드를 천장으로 얻으려면 40-50만원정도 듭니다. 심지어는 이 천장 시스템은 통합이 아니라 팩마다 다르게 되어 있습니다. 제가 이 리뷰를 쓰는 이유는 1.팩 포인트를 합쳐 주세요. 2.천장을 낮춰 주세요\n이상입니다.",
+        "date": "2026-01-18T15:44:59-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "hk416풀모딩",
+        "score": 5,
+        "text": "재미는 있는데 카드펙 까는거나 게임 하는데 운빨 망겜임 스트레스 엄청 받음",
+        "date": "2026-01-13T15:20:38-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "???? 누구",
+        "score": 5,
+        "text": "진짜 너무 좋고 재밌어요",
+        "date": "2026-01-10T18:19:37-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "묘남",
+        "score": 4,
+        "text": "너무 재밌지만!!!!\n카드도 미라클교환처럼 무작위 교환있으면 더 재밌을 것 같습니다!!\n단순한 인터넷 친구와의 트레이드 보다 수요가 높을 것 같습니다!!\n반영해주신다면 너무 좋을것 같습니다!!!",
+        "date": "2026-01-08T06:59:10-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "포켓몬사랑해요",
+        "score": 5,
+        "text": "배틀 도중 자기가 질 것 같은 상황이 되면 배틀을 나가버려 약 1분 가량의 시간을 그냥 기다리게 하는 플레이어가 많습니다. 이는 명백한 비매너 행위이며 제재되어야 하는데 이를 제재할만한 방안이 없습니다. 방금 전 플레이한 상대 플레이어를 신고할 수 있는 기능이 필요할 것 같아요. 게임 너무 재밌게 하고 있습니다. 새로운 팩이 나오고 배틀을 하면 다양한 덱 쓰는 사람들 만나는 재미가 있어요.",
+        "date": "2026-01-05T18:33:50-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "잘핬개",
+        "score": 4,
+        "text": "이로치 아이디어 낸 ㅆㅃㄹ 넘아\n진심으로 곱게 가지마라",
+        "date": "2025-12-17T04:05:28-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "카푸히히힉",
+        "score": 4,
+        "text": "그냥 한번 꼭!해보세요!",
+        "date": "2025-12-12T15:09:40-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "무지무지 화난 사람",
+        "score": 5,
+        "text": "패말림 좀 적당히 나와라. 시작할 때 기본 카드를 무조건 두 개 이상은 나오게 해야죠 제작진분들아. 그리고 엑스퍼트 배틀 상대는 필요한 카드가 바로바로 뜨는데 너무한거 아니냐고요. 실력이 아니라 운빨겜임.",
+        "date": "2025-12-09T04:14:10-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "ㄷㅁ과ㅓ과ㅓㅗ",
+        "score": 5,
+        "text": "제가 열심히 몇 개월 째 하고 있는데, 뭐 재미는 있더라고요. 제가 바라는 점은 자신의 중복 카드를 팩파워로 바꿔주는 것 입니다. 그 파는 만큼요(예:서포트-1250)그럼 넘. 좋겠어요",
+        "date": "2025-12-05T14:53:52-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "아이나1031",
+        "score": 5,
+        "text": "이 게임은 너무 재밌는것 같아요 진짜 카드 팩과는 달리 매일 무료 2장 까지 깔 수 있구여 다른 게임들과는 달리 현질이 가능해도 현 질유도가 뜨질 않아요.이게 장점이고여(1000가지도 더 있는 데)\n제가 바라는점은 할로윈 크리스마스 같은 때에 며칠 한정 확장팩을 만들어 주셨으면 해요 업데이트 할때마다 기대하구 있는데 혹시 확장팩 양도 좀 늘려주실 수 있나요?\n감사하고여 넘 재밌어서 계속 플레이 하고 있어요\n10000점 주고 싶은데….\n감사합니다 제작자님!",
+        "date": "2025-12-02T00:20:08-07:00",
+        "version": "1.4.1"
+      }
+    ],
+    "negative": [
+      {
+        "source": "google_play",
+        "userName": "Bradley Matthew",
+        "score": 1,
+        "text": "Honestly, I'm sick and tired of saving 120+ hourglass for each pack drop, and most of the time, I end up getting nothing. The last 6 months have been consistently terrible pulls on my first 10. edit: they took away the first time hour glass rewards for solo battles. terrible move... Fyi: my first ten pulls are still terrible, like insanely bad.",
+        "date": "2026-05-30T23:43:10.848Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Diego Ledesma",
+        "score": 1,
+        "text": "Just uninstalled the game. It's crazy how rigged it is.",
+        "date": "2026-05-30T23:39:26.396Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Attacus",
+        "score": 1,
+        "text": "this entire game is tedious and draining the loading screens are long, the battles are 90% of the time decided by luck in the first turn, the event packs are absurdly frustrating it can only be opened 1 at time and you gift box will be filled with them and you have to sit through a long opening animation and an equally long loading screen for each one and still no dark mode in a game that is 99.99999999999% white my retinas will never recover",
+        "date": "2026-05-30T23:33:56.401Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "stop crying over nothing",
+        "score": 1,
+        "text": "games trash, just download literally any other pokemon game and you'll have 10x more fun",
+        "date": "2026-05-30T21:22:01.297Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jake Landry",
+        "score": 1,
+        "text": "Developers can't make a game that people want to continue to play so that make impossible challenges to keep player retention.",
+        "date": "2026-05-30T19:35:08.924Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ryn_Zero (ImNotRyn)",
+        "score": 1,
+        "text": "This game makes way too much money for the devs to be this lazy. Reusing artwork from the physical tcg and not even trying to hide it anymore. Game has lost its momentum.",
+        "date": "2026-05-30T19:25:44.677Z",
+        "thumbsUp": 23
+      },
+      {
+        "source": "google_play",
+        "userName": "Zeb Gillette",
+        "score": 1,
+        "text": "Unbalanced mess of a new set and season. Fun for opening packs and not much else. Updating that the cpu battles are just blatantly broken now. There is no value other than opening packs and pvp.",
+        "date": "2026-05-30T18:20:29.239Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Mark Castellano",
+        "score": 1,
+        "text": "it keeps loading even though it's 100% I almost wait for 30 minutes",
+        "date": "2026-05-30T16:26:41.400Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Noah Riggs",
+        "score": 1,
+        "text": "this game is garbage you battle on beginner and you verse level 60s which makes the game basically unplayable",
+        "date": "2026-05-30T14:32:44.118Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Valter Ruiz Junior",
+        "score": 1,
+        "text": "Stay away for your own sanity. This game starts nice with many rewards and rare cards, but the more you play the less you get. You can go an entire month taking only 3 diamond rare cards. Even if you pay the monthly fee you only get one more pack a day. Each new expansion they release. they change the drop rate. You can easily check this if you look at how many players are complaining about it.",
+        "date": "2026-05-30T12:48:17.519Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "comics & music",
+        "score": 1,
+        "text": "The time I was reincarnated as a Gardevoir and faced off against 1000 1000kg whales and their 1000s of gallons in P2W Smurfing : THE Card Game made by THE fun hating, kids licking EVIL Corp.",
+        "date": "2026-05-30T12:32:40.249Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "James Perry",
+        "score": 1,
+        "text": "don't spend any money on this game. app is programmed to make you get angry and want to spend money for special cards to help win games.",
+        "date": "2026-05-30T09:25:06.882Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lisa Britton",
+        "score": 2,
+        "text": "took ages to download data",
+        "date": "2026-05-30T08:52:33.662Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kyle Ernest",
+        "score": 1,
+        "text": "garbage cash grab. only gives duplicate rare cards. give it a useless staryu. screw theirs",
+        "date": "2026-05-30T07:54:28.469Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "HK Foo",
+        "score": 1,
+        "text": "Coin flip odds is not 50/50 in most cases. Player draw is handicapped against AI players. Pack opening odds out of 30 packs can yeild you not even a single ex card. Overall here to update new players against pumping money or invest time into the game.",
+        "date": "2026-05-30T07:22:01.996Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "kevin christian lin",
+        "score": 1,
+        "text": "nuh uh its the tutorial who plays the game not me, always the tutorial like BRO LET ME PLAYY BY MYSELF!!",
+        "date": "2026-05-30T06:48:49.855Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Pravin Mali",
+        "score": 1,
+        "text": "Game is not opening on my phone, it's just closes after it asks age, it doesn't even let me put age and choose country, my phone is xiaomi hyper os",
+        "date": "2026-05-30T04:26:08.880Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lip Ping Wong",
+        "score": 1,
+        "text": "The game developer have actually no intention of giving out gifts to players as the expert modes are meant to make you lose in multiple ways. Facing the bot you will encounter rogue AI with God pull as their deck and card play timing will 100% be peefect to ensure players loses. Hence, new players are not recommended to play this as you would be wasting plenty of time in it.",
+        "date": "2026-05-30T02:41:30.462Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jerrett",
+        "score": 1,
+        "text": "It installs but then hits 100% on the additional download and just stops, doesn't even freeze.",
+        "date": "2026-05-30T00:59:03.405Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tyrin Paul Alan Glover",
+        "score": 1,
+        "text": "why does it not update.every time i successfully update it asks for another update.",
+        "date": "2026-05-30T00:57:04.250Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ghilang Rama",
+        "score": 2,
+        "text": "terlalu banyak gimik animasi di saat buka pack,dari buka sampe udah dapet,awal awal keliatan menarik tapi lama lama risih juga,apalagi saat buka pack kartu yang banyak,iya sih ada tombol skip,tapi tetep aja ada 2 kali animasi saat mendapat kartu pokemon yang dimana harus klik 2 kali,tolong mungkin kasih fitur skip animasi mendapat kartu sepenuhnya",
+        "date": "2026-05-29T21:40:32.600Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Evileye",
+        "score": 1,
+        "text": "This app is a scam. I'd give this app zero stars if i could, awful.",
+        "date": "2026-05-29T19:30:34.784Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "iiHomesicKnC",
+        "score": 1,
+        "text": "expert ai is rigged to win. pvp is ok but ranked matches only available 2 weeks each month. bad combo.",
+        "date": "2026-05-29T19:18:42.147Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Frank Barretto",
+        "score": 1,
+        "text": "3gb of data to be downloaded and I'm on high speed internet but it has taken me literally 2 days to download 50% of it. Everytime I leave the app while it's downloading the data for even a second, it says 'Network error'. and then it restarts and then there goes your slow download speed, while I'm on high speed internet. I WISH THERE WAS A ZERO STAR REVIEW......... But no! disgrace to pokemon trade cards.",
+        "date": "2026-05-29T18:39:46.963Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alycia",
+        "score": 2,
+        "text": "it takes forever to load and 2 packs a day maybe add like at least 4 packs a day cause most of time it's trash",
+        "date": "2026-05-29T16:19:46.951Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "??????????",
+        "score": 1,
+        "text": "Only about half the cards are getting the supereffective attacks in PVE? Why?? It's not like it's not hard enough knowing the decks are stacked against you, you've made it impossible without getting supereffective attack bonuses. Fix it! While you're at it fix your support! Emails for support in this day & age is archaic!",
+        "date": "2026-05-29T15:49:53.901Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Keaton Scruggs",
+        "score": 1,
+        "text": "this is such a bad faith game. Want a card from wonderpick? there's 4 not in your collection? highly likely you won't get the card you need. it's predetermined. same with single packs, can pick any... it's already decided what's in it... the point system is archaic, in that your \"bad luck protection\" is specifically for that set.... so if you want an older card, you will have to pay for it. or get lucky opening 2 packs a day. DO NOT DOWNLOAD, DO NOT SPEND. would have a better time with scalpers",
+        "date": "2026-05-29T14:10:03.949Z",
+        "thumbsUp": 51
+      },
+      {
+        "source": "google_play",
+        "userName": "Afroz Ali",
+        "score": 1,
+        "text": "You can't create another account in Pokémon TCG; please introduce an update for this. The game is top-notch.",
+        "date": "2026-05-29T13:50:33.664Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Some Guy",
+        "score": 1,
+        "text": "The games is great, but the animations take way too long. Opening packs, adding them to Pokédex, claiming rewards, wonder picking, etc. I guarantee there are tons of people who'd play this but don't because they're spending most of their time having to watch animations. Please speed them up or give an option to skip.",
+        "date": "2026-05-29T13:24:13.994Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "L-Jhay Rabuya",
+        "score": 1,
+        "text": "132 packs in Fantastical Parade still no 2 stars, what's up with the pull rates men",
+        "date": "2026-05-29T12:01:25.838Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "吸折",
+        "score": 2,
+        "text": "Give u five stars,pls give me some good card😭🙏",
+        "date": "2026-05-29T09:50:11.690Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Devin Heiss",
+        "score": 2,
+        "text": "I was super into this game and just waiting for trading to get added, but the way it was implemented is so horrible and just greedy. You can't even trade rare cards! What's even the point? It's supposed to be a thing you can do with your friends, but the currency is a barrier to that too. It's no longer just a cool friend experience, it actively steers you away from using it and now it's just a way to make more money. Very disappointed. An anti-trading trading card game.",
+        "date": "2025-02-06T15:21:47.244Z",
+        "thumbsUp": 1906
+      },
+      {
+        "source": "google_play",
+        "userName": "Azzarg",
+        "score": 2,
+        "text": "Extremely simple, artwork-driven game with almost no content except for a thousand kinds of premium currency and heaps in-app purchases. This feels very much like a loot box cash-grab aimed at children. The battling feature is fine for the most part, but you can't attack or even attach energy on turn 1. If you go first, you will be a turn behind for the entire game, and will probably lose. Also the coin flips are really rigged to fail for some reason.",
+        "date": "2024-11-12T06:57:12.900Z",
+        "thumbsUp": 506
+      },
+      {
+        "source": "google_play",
+        "userName": "Justin Desper",
+        "score": 2,
+        "text": "I love this game, I really do, but some of the features are really frustring. Finally trading is introduced and it is a mess. You cannot trade for high rarity cards which defeats the purpose of trading. You can also not request certain cards, just make an offer to a friend and hope they know what you want in return. On top of that you need to spend cards to earn \"trade points\" to trade certain cards, which just creates an unnecessarily confusing process. And don't get me started on flair.",
+        "date": "2025-01-30T21:31:42.570Z",
+        "thumbsUp": 265
+      },
+      {
+        "source": "google_play",
+        "userName": "Brett Kruskie",
+        "score": 1,
+        "text": "Game is great. It would be better if you could earn hourglasses by playing duels. UI is awesome, would love a dark mode. I'll give it a 5 star soon as I get a reply. Not sure if its relevant, but I can't buy even packs at stores. Nothing but scalpers just buying everything up. The environment is just toxic when buying cards. I miss how accessible the game was in person.",
+        "date": "2026-05-27T02:08:40.238Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Elias Vrooman",
+        "score": 1,
+        "text": "I liked this game for its basic \"realism\" opening packs and seeing cards. However, since beging to be in mid-April 2026, I can open the app and then get notified I can open a booster pack, and suddenly, the app crashes. I have since closed the app, refreshed, and still have the same results. I hope there is a fix and / or resolution otherwise I will just delete the app.",
+        "date": "2026-04-12T16:09:34.683Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "userName": "Christopher Berry",
+        "score": 2,
+        "text": "It was alright at first, but now the game runs soooooo slow. Brand new iPhone and a brand new Galaxy and it runs slow on both. To add to the slowness, they've still not implemented any \"skip\" feature to unnecessary graphical \"flares\" that don't add to the game's function, just slows it down more. Then add in opening promo packs during events to get one card at a time, over... and over... and over... instead of being able to collect all rewards at the same time. It's been over a year...",
+        "date": "2026-03-18T13:02:43.241Z",
+        "thumbsUp": 18
+      },
+      {
+        "source": "google_play",
+        "userName": "Aliaksandr Chakhau",
+        "score": 1,
+        "text": "I initially gave this game a 5 star, because it is really fun game, but... it is unplayable. the game is freezing every other battle. it is super annoying when you trying to climb the ladder. literally half of my defeats are because I had to close the game, because it got stuck during the battle. you can restart the game and reconnect. you automatically lose the battle. stupid. reading online, this has been the issue for many people for MONTHS! they just released new big update and it got worse!",
+        "date": "2026-04-23T15:50:33.603Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "userName": "{'Matthew':' Software Developer'}",
+        "score": 1,
+        "text": "This game has huge issues. 1. in ranked games, players can intentionally leave. Then you have to wait for damn near 5 minutes, and if your internet goes out or if you load another app, you log back in, and you take the loss. this is terrible. 2. this is the biggest issue, loading times take forever!!! why must we restart the app every time. the developers need to be ashamed for coding such a broken system. it feels like nothing is async, and indie games have better loading systems. Fix these!",
+        "date": "2026-04-24T04:15:40.179Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "userName": "Kristina Pratt",
+        "score": 1,
+        "text": "Don't get into this game. The developers are ruining it. The luck was balanced well when the game first came out but they keep doing things to intentionally make it more difficult to complete sets, even with membership. The worst change is they used to release multiple packs for sets, so it was easier to target cards you wanted. Now they throw everything into 1 pack so when you do hit the low odds, you pull the same cards you already have rather than new ones. Its frustrating and not fun.",
+        "date": "2026-04-30T13:37:27.302Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "userName": "Syrenity S",
+        "score": 1,
+        "text": "I really liked this game when it first came out. However as it has continued getting hour glasses to open packs takes a HUGE amount of time. The time it takes would be more worth it if the cards were better. The game seems to add \"new packs\" but the only new thing about it is a few cards the rest of them are all practically the same. Plus it is SO hard to complete the decks, I opened the first deck of cards in a series and got a double. The game having this many flaws makes it annoying.",
+        "date": "2026-04-09T06:08:43.880Z",
+        "thumbsUp": 18
+      },
+      {
+        "source": "google_play",
+        "userName": "Billy Mott",
+        "score": 1,
+        "text": "It's okay. I never grew up with Pokémon and this is something my wife and I can play, but I find myself not wanting to play because unless I play Solo, the vast majority of the time I get put against levels between 30-60 when I was a level 12. People play the same cheap decks and all the fun gets drained out of the game. I don't want to play much anymore other than just collecting the cards. At least some cards look nice. The AI cheats too. It can get 9 heads in a row when I am lucky to get 1.",
+        "date": "2026-05-01T15:56:20.385Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "userName": "Echantra Fleenor",
+        "score": 1,
+        "text": "Fun to collect cards, build decks, and trade and battle with friends. There are a lot of lag issues, though. In the past month, I've had to delete and reinstall the app 3 times to fix issues customer support couldn't solve. Update: Reinstalling is no longer fixing it. I can not access the game at all. It's literally unplayable.",
+        "date": "2026-03-25T05:12:32.383Z",
+        "thumbsUp": 15
+      },
+      {
+        "source": "google_play",
+        "userName": "Éomer Éadig",
+        "score": 2,
+        "text": "I like PTCG Pocket, but it's insanely slow and buggy. I keep getting stuck on the \"Tap to Start\" screen forever. Clearing the cache only temporarily fixes it. Edit 4/18/26: still affected by this issue. every time the game downloads an update, I must clear the cache in order to get past the main screen. I stopped playing for a while because there was an update even clearing the cache couldn't fix. also, as a result the red \"!\" notifications for completed missions can't be dismissed at all.",
+        "date": "2026-04-18T22:41:22.834Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "userName": "Dustin Hamann",
+        "score": 1,
+        "text": "Honestly, the app is so slow compared to when it first came out that logging in and doing my daily stuff is more of a chore than anything else. editing to 1 star, as it keeps getting slower and slower. S21+ with only about a 1/3rd of my storage full. I constantly close apps that aren't being used. nothing helps....",
+        "date": "2026-05-17T19:41:17.255Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Lauren Johns",
+        "score": 1,
+        "text": "Wish I could give this zero stars. I started playing two weeks ago and signed up for the trial run for membership but since last week, I've had a start up error code on my game and have not been able to play it since. I cleared my cache as it suggested and uninstalled the game multiple times for the error code to still be there. I was having fun with it until this happened. Do Better!",
+        "date": "2026-03-11T16:35:28.483Z",
+        "thumbsUp": 22
+      },
+      {
+        "source": "google_play",
+        "userName": "Joshua Caraballo",
+        "score": 1,
+        "text": "was fun but they ruined it. they don't give you enough time to get enough cards you actually need to build usable decks unless you spend a lot of money. Just like any other gotcha game, it really does get to a point where it's pay to play. free to play is only temporary. they release cards too quickly and meta changes every few weeks. as soon as you think you got something good going, they immediately outdate it with every new set every month. and pack points are a joke.",
+        "date": "2026-05-21T14:24:30.948Z",
+        "thumbsUp": 14
+      },
+      {
+        "source": "google_play",
+        "userName": "Brian G (TAG 标签)",
+        "score": 1,
+        "text": "its coming up on 2 years and the game has only become more bloated. the devs have changed multiple in game systems since launch in less than pleasing ways. pack points are too low while card cost for pack points is too high. they still have not created a default pack feature, which in terms of collection doesn't even matter because every pack is the same handful of pokemon with different text and wildly different pull rates. the events are bad, focus on pvp isn't fun. safe to say I'm over it.",
+        "date": "2026-05-10T01:10:23.901Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "userName": "zach Hivner",
+        "score": 2,
+        "text": "I have actually had a lot of fun with this game except as time has gone on there has not been any actual gameplay updates. It's great getting new packs except they've made it more difficult and grindy with their update that changed how purple tokens are given out. where you used to get 120 some for just the step up battles now you have to do the first step up battle and beat the random battles way to many times to get less than before. it also feels like the store tokens are harder to come buy.",
+        "date": "2026-04-28T21:50:00.445Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "mr fox",
+        "score": 1,
+        "text": "It is so freaking slow. You want to see someone's stress level go up, I'll be happy to show you. Don't get me going on coin flips. im sure it is probability but you know what is not? Card packs and wonder picks. Not to mention, Dena has to cheat when it come to the expert difficulty. Got to make sure the AI had the cards they need. There is a difference between a fair challenge, and a unfair challenge. This game is definitely on the unfair challenge side.",
+        "date": "2026-03-25T23:24:40.703Z",
+        "thumbsUp": 18
+      },
+      {
+        "source": "google_play",
+        "userName": "Ricardo Gonzalez",
+        "score": 1,
+        "text": "It was ok for a while but the release of very stupid cards (starting with Misty, hydreigon, etc.) that make it so that if you don't get the exact cards you need by the first turn you lose the game make it feel like a complete waste of your time. One that isn't even enjoyable anymore. Stay away. absolutely not recommended.",
+        "date": "2026-04-16T14:40:52.446Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "userName": "Uziboy657",
+        "score": 2,
+        "text": "I enjoy the game but one thing that is absolutely infuriating is the high difficulty AI in solo battles. They always seem to have the best possible luck when you get left with pretty much nothing. They always get supports to help constantly which can lead to a match ending in one go like what happened to me. My Pokémon got hit once and the match ended the moment i lost that Pokémon. Something needs to change with the AI to make it fair and balanced instead of infuriating and unfair.",
+        "date": "2026-05-02T21:57:24.540Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "J Zip",
+        "score": 2,
+        "text": "I will give this app a 2 star rating when it could be a 5 star but I am not enjoying it as much after playing it for a couple months straight. The battling in this app will annoy you to a point where it sucks the fun out of the game. it feels rigged, it feels like it sets you up to lose. It is all and I mean ALL luck based on how your cards draw and your coins flip and the energy you need to attack. It is not really based on your skills. I lose way more than I win. collecting car is kinda fun.",
+        "date": "2026-05-27T10:18:02.608Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Anomaly",
+        "score": 2,
+        "text": "It's just kind of okay. you can play it casually to open packs once in a while, but if you want to do anything competitive it's very difficult to get all of the cards you need and after awhile it gets really boring. You can pay to get currency to get the cards you need, but I'd rather just pay for cards in real life or for in person tournaments at that point",
+        "date": "2026-05-19T20:38:33.500Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Daniel Moore",
+        "score": 1,
+        "text": "Overpriced, over played, over it. This is such a blatant cash grab it's pathetic. For $20 a month you can get ONE extra pack a day. It's simply not worth it. The \"random\" number generator is garbage. I can't tell you the last time I got tails in a coin flip to start a battle. I'm in the 1 in 100s range of probabilities now. The shine really wears off this fast. I've continued to play only because of a friend. However that might not be enough. Why is such a simple game so horribly slow?",
+        "date": "2026-04-12T07:27:49.565Z",
+        "thumbsUp": 19
+      },
+      {
+        "source": "google_play",
+        "userName": "Inuie Choi",
+        "score": 2,
+        "text": "Level 53, one year later: could be better. If you do their subscriptions, you'll likely hang. The cards are not from the physical game, but it's functional. I really implore the newcomers to set the expectations low. DeNA is a very staunch dev. Things like Dark Mode and Prebuilt Deck mode that the players have been asking for over a year now. A gacha game without pity is insane in 2026, but that's what you'll be getting into here. The catch up mechanic might as well be not there.",
+        "date": "2026-02-16T01:56:29.410Z",
+        "thumbsUp": 13
+      },
+      {
+        "source": "google_play",
+        "userName": "Josh Witte",
+        "score": 2,
+        "text": "The probabilities are misleading and that annoys me. This is generally a great game and it is not pay to play. But, It says you have a 1/5 chance of pulling a card under \"Wonder Picks\" but I've noticed (as a math guy) that the chances of pulling cards you don't already have are clearly lower. General pack opening also seems skewed. And if you're unable to get cards relevant to the Meta, it's really hard to play against other sweats online.",
+        "date": "2026-02-04T16:02:52.723Z",
+        "thumbsUp": 20
+      },
+      {
+        "source": "google_play",
+        "userName": "Jata The Traveler",
+        "score": 1,
+        "text": "I love the game and my favorite part was the solo battles and the challenges. Though Im extremely upset they changed the rewards for solo battles in this new update! Before each time you beat the solo deck for the first time you got hourglasses. Now it only counts for the first solo battle for beginner, intermediate, and expert. Like give us a break! we could use as many hourglasses as possible and I play for the extra pack for each day. No reason an online game should be this microtransaction.",
+        "date": "2026-01-30T03:24:43.153Z",
+        "thumbsUp": 29
+      },
+      {
+        "source": "google_play",
+        "userName": "OneintheCold óÓÒò",
+        "score": 1,
+        "text": "too many errors. the [tap to start] sometimes isn't even there/tapping doesn't register so you have to close out and redo. even if you do get it to register, you get a spinning wheel. THEN when you finally load into the game its like its the first time ever- laggy as hell for each tab or space you open. Still can't accept the mission rewards for a support card event 💀 and no, its not the wifi connection. everywhere its the same issue, even with data. FRICKEN pokego has better connection!",
+        "date": "2026-02-06T13:51:32.794Z",
+        "thumbsUp": 29
+      },
+      {
+        "source": "google_play",
+        "userName": "Thomas Light",
+        "score": 1,
+        "text": "Some changes from the TCG I like (an energy zone instead of having to draw/search for energy cards, and Prize Points instead of Prize Cards from your own deck, resulting in your key cards possibly being locked out of the match). However, going first NEEDS the option to attach energy, matching in PVP needs an overhaul, coin flips are rigged, and the computer cheats to no end. As a card collecter, it's fine. As a game, though, there's much to be desired. I'll raise the rating if fixed.",
+        "date": "2026-02-13T18:14:58.310Z",
+        "thumbsUp": 191
+      },
+      {
+        "source": "google_play",
+        "userName": "Á. Lübke.",
+        "score": 2,
+        "text": "Gotta love a game that doesn't care about you playing every day. The amount of nothing I get is amazing in itself. I had noticed it was getting harder and harder to get the cards, but with the latest expansion, after opening around 80 packs, I've gotten less than three EX cards. And I'm still missing many of the lower rarities, too. It's not just a thing of \"the rarer, the harder\". I have to wonder, why do I keep playing? They only care about money. F2P can't have any fun ever, really.",
+        "date": "2025-05-24T18:54:59.350Z",
+        "thumbsUp": 118
+      },
+      {
+        "source": "app_store",
+        "userName": "PastaPeng",
+        "score": 1,
+        "text": "Deleted all my data. Will not install again.",
+        "date": "2026-05-30T15:23:32-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jakpot🎰",
+        "score": 1,
+        "text": "Like many other TCG apps, such as Yu-Gi-Oh! Duel Links, this game feels heavily pay-to-win. While it’s possible to enjoy the game at first, reaching its full potential often requires spending significant amounts of money to obtain the right cards, and the pack odds are rarely in your favor.\n\nTCG Pocket is particularly deceptive in how it handles progression. Early on, players can earn plenty of hourglasses and open packs through solo missions, creating the impression that progression is generous. However, this quickly reaches a dead end. The difficulty spike between the beginner stages and the intermediate/advanced stages is steep and feels intentionally designed to frustrate players into spending money on additional packs.\n\nLike Duel Links, the game’s meta constantly shifts toward newly released cards. As a result, opening older packs often becomes a waste of resources, even if you personally prefer the cards they contain. The game effectively pressures players to keep chasing the latest releases in order to remain competitive.\n\nAt best, the game provides a few hours of enjoyment before players hit a paywall. Once that happens, progression slows to a crawl, and much of the fun disappears unless you’re willing to spend money.",
+        "date": "2026-05-30T13:25:31-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "ITSPRAGMA",
+        "score": 1,
+        "text": "please automate passing turn when we have exhausted all options, there’s no reason to have to press end turn. same w start of battles, if we place all basic pokemon on the field, just automate start button. and if a pokemon dies we don’t need to do a coin flip if it stays poisoned cmon! will delete this review if these changes are made, honestly a 10/10 and fav game besides this annoying oversight",
+        "date": "2026-05-30T08:34:59-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Cbecker94",
+        "score": 1,
+        "text": "Terrible after the first year",
+        "date": "2026-05-30T03:29:21-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jdfjgxjyugkcukxj",
+        "score": 1,
+        "text": "Haven’t pulled anything better than a 1 star in roughly 60 packs. It’s just the same 1 star spam over and over and over and over. Dena, I don’t need 30 glimmora 1 stars, please just give me a good hit for once. Absolutely no need to put sparkles or dings in packs that only have a 1 star (nobody cares about them, and theyre usually completely useless for decks).",
+        "date": "2026-05-30T00:08:09-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "X001X0100",
+        "score": 1,
+        "text": "Literal impossible odds by all mathematical means and yet time and time again pulling statistically impossible hands in terms of probability the second I stop giving you money. Good god this company is greedy. It doesn’t end there the coin tossed the pulls everything. The second you spend money you’re allowed to enjoy the game",
+        "date": "2026-05-29T20:48:07-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jaked1728",
+        "score": 1,
+        "text": "Not worth it. The new packs that are dropped suck. I swear i spent 30 days straight without pulling a single hit",
+        "date": "2026-05-29T20:16:20-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Izzydragonwhoo!",
+        "score": 2,
+        "text": "The way people can get a mega pokemon out in one turn is so frustrating, pull odds are so low it can take months to get one card even with the ‘pity’ system. I even lost a few of my absolute favorite promos (a super cool zoroark Full art and a few others) and the fact that you can only have your save data backed up with a Nintendo account is simply annoying. I lost my whole inventory of cards because I couldn’t sign into my Nintendo account",
+        "date": "2026-05-29T18:35:26-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Shadow Lance",
+        "score": 1,
+        "text": "Although it looks fun and a lot of people like it I tried to get but it kept glitching and wouldn’t let me download it but still a very good looking game,it wouldn’t let me sign in at all and it loaded forever in the beginning",
+        "date": "2026-05-29T14:30:37-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "allkokjjub",
+        "score": 1,
+        "text": "ランダムマッチの金持ちデッキはなんや？キモすぎるやろ",
+        "date": "2026-05-29T11:25:16-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "tothemoon 2021",
+        "score": 2,
+        "text": "The game has been out for over a year and they add packs every month but QOL updates are very rare. The game files keep getting bigger every update. They keep changing game mechanics to try to see how much they can squeeze out of people willing to pay.",
+        "date": "2026-05-29T10:54:48-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "ashleycristine",
+        "score": 2,
+        "text": "I’m so tired of spending money on gold and opening to packs just to get one IR and a normal ex. Getting to the point where I am going to cancel the premium and I uninstall.",
+        "date": "2026-05-29T10:02:00-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Secret Agent Santa",
+        "score": 1,
+        "text": "I used to love opening packs and building decks, but with each expansion, the game is becoming less and less playable. \n\nSimple things like getting a new card freeze up the game because of pointless animations loading. I don’t need to see every single card go into my collection. I know where they are.\n\nBattles should be fun but are extremely tedious. There is absolutely no reason players should be allowed entries minutes to play a card. This is a “pocket” version of the tcg. The whole battle should only last a few minutes at most.\n\nI’ve been playing since day one, but I’m afraid I’ll have to drop it entirely soon.",
+        "date": "2026-05-29T05:45:01-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "stonebred",
+        "score": 1,
+        "text": "It keeps restarting and eventually clears the cache and continues to restart. Uninstall, reinstall. Was just trying to play with my son, but it won’t work.",
+        "date": "2026-05-29T05:04:13-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "ATrueLegend717",
+        "score": 2,
+        "text": "Keeps giving me “authentication error” when I open the app. Seems like a fun card game but I can’t even get into the app.",
+        "date": "2026-05-28T21:43:39-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "GrumpyUnknown12",
+        "score": 2,
+        "text": "Great game just not fun anymore. Hit a slump and not been able to draw out any card I actually want. Idk if im just unlucky but so many 10 packs with nothing to celebrate. Takes too long to claim daily reward and even open packs. Navigation is excruciating. Please make it run faster. Probably gonna delete this game now. Also why do you guys make it so grindy to get more packs, should be alternative methods to get hourglasses. Use to be fun now its awful.",
+        "date": "2026-05-28T17:01:00-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Kizer reviews",
+        "score": 1,
+        "text": "Game just sucks every single time I get the worstbattle my opponent get the Best card while I get the worst cards, so please fix that",
+        "date": "2026-05-28T06:15:31-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "182B182",
+        "score": 1,
+        "text": "The Computer opponent always starts with a good hand and it’s coin flips have been studied extensively and have found they work >50% of the time. The same game mode also gives extra screens to play against to keep the player in the game longer to manipulate app usage time for the App Store. The pull rates on 3-4 diamond cards are way too low and should reduce 1-2 diamond cards rates to adjust. The new cards are Pokemon they copied from old Pokemon.",
+        "date": "2026-05-28T05:27:11-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Tatsbyz0",
+        "score": 1,
+        "text": "Game is out to get you I swear!!! Do not play this if you have low tolerance!! The game is so pay to win it’s insane!!!",
+        "date": "2026-05-28T02:42:46-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Deathmage20",
+        "score": 1,
+        "text": "I’m not changing the rating until they remove the win streak mission from random battles.",
+        "date": "2026-05-28T00:28:11-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "JohnnyRwilson",
+        "score": 1,
+        "text": "The hand you’re dealt is fixed. You’ll play 7 matches and get beat by the same deck from different players but if you rebuild the exact deck that keeps beating  you you’ll also lose. It doesn’t seem random. I’ve notice that I only get certain elements more when I play certain decks. Like if you play water decks you’ll only get electricity players. If you build fighting decks you’ll only get drakair garitina decks.. losing interest after playing for months and spending money",
+        "date": "2026-05-27T17:34:56-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Dylan_booty",
+        "score": 2,
+        "text": "The lucky ice pop has single handedly destroyed my love for the game. Turned from a strategy card game to a luck based coin flip sim.",
+        "date": "2026-05-27T11:37:41-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "CT20111",
+        "score": 1,
+        "text": "This has been going on for nearly 3-4 years, it feels like the dev team is too lazy to even fix this problem and always chooses more micro transactions than their own players.",
+        "date": "2026-05-27T10:07:16-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "N/A/N/AAAA",
+        "score": 1,
+        "text": "There’s no random or luck. This game is set up to ragebait people from battling, especially for battles to complete missions.",
+        "date": "2026-05-27T01:52:22-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Moon_light_96_",
+        "score": 2,
+        "text": "The reward system in this game is so bad! \nThe concept of the game is really good but the rewards not even near it. The keys should be easier to obtain. Nothing is consistent in this game it is crazy. \nAlso the pull rate in pulsing aura pack is insanely bad i hardly pull anything good even after 50+ packs.",
+        "date": "2026-05-26T21:23:21-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "RagingPorcupine",
+        "score": 1,
+        "text": "I actually like the overall game and would give it 5 stars. I just want my gripe to be heard loud and clear. I’m well over level 50. I’m grinding out the step up battle missions. Sometimes I bail or lose because I won’t meet the mission criteria. It is wildly infuriating to be met with yet another insult to injury page in the already too long “loser” flow. Get rid of the “you should try this deck” modal.",
+        "date": "2026-05-26T17:55:22-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Uhmwoah",
+        "score": 1,
+        "text": "They sound like they’re being held at gunpoint",
+        "date": "2026-05-26T11:51:59-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Clutch 😈",
+        "score": 1,
+        "text": "This game sucks!",
+        "date": "2026-05-25T11:18:39-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mylife1991",
+        "score": 1,
+        "text": "This game gives your appointment all the cars they need even if you have that exact same deck it’ll give you cards that I can’t even help you at the beginning of the game, but your appointment has everything they need to set up and you only get like one card that could help you the AI is more against you than anything that’s why I give this game at one star I’ve lost six games in a row against even play players that have the same deck as me, but the game gives them everything they need.",
+        "date": "2026-05-25T05:45:49-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "DarKNesSzPR",
+        "score": 1,
+        "text": "This game was good at the beginning and fair. Very cool that you can get hourglasses doing missions and just playing the game. But that last big update they made with PULSING AURA booster packs. ¡THEY RIGGED THE GAME! In order to get a simple and bad EX, you need to spend money. And im speaking not just 10 to 20 dollars, im speaking about ¡¡HUNDREDS!!… A GAME THAT IS MADE FOR KIDS.",
+        "date": "2026-05-24T22:46:19-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Do if arc HTC gggvu",
+        "score": 1,
+        "text": "Don’t let the reviews fool you, this game is incredibly unbalanced",
+        "date": "2026-05-24T18:23:31-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Arturo Vargas Carbajal",
+        "score": 1,
+        "text": "This game overall is very fun in both collecting cards & battling features. What I hate about this game is that the battling has become just coin flipping. What’s the point of battling when it all comes down to coin flipping. Battling has no longer become fun. The reason it has become this way is due to the way sleep works where you need to sleep a coin to wake up. Same goes for confusion, etc. it’s understandable for attacks to have that effect like magnezone but not for the rest. It’s makes it extremely disappointing for the rest.",
+        "date": "2026-05-24T16:16:42-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "HerbOfLife",
+        "score": 2,
+        "text": "I’m lvl 17 and it’s taken ages just to get this far, gotten barely any good cards because I don’t like spending money on games and when trying to play multiplayer always matched with people lvl45+",
+        "date": "2026-05-24T15:35:09-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "StoneSnoop",
+        "score": 1,
+        "text": "Horribly unfair game.\n\nNumerous attacks, abilities, and cards use ‘coin flips’ to determine if something happens. These are clearly not 50/50 chance outcomes so the ‘coin flip’ mechanic is misleading. Actual percentage chances should be given to reflect the true odds of the ‘heads’ or ‘tails’ outcome.\n\nRanked seasons are very short and the dates are not announced beforehand.\n\nAnimations in battle take too long and count against your turn time. Should be able to fast forward or skip the animations.",
+        "date": "2026-05-24T04:11:02-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Dhughes636",
+        "score": 1,
+        "text": "If you wanna get put up against OP Asian 9 year olds like you’re in competitive Fortnite over and over when in battles try this piece of trash out",
+        "date": "2026-05-24T02:11:54-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Tony Face",
+        "score": 2,
+        "text": "My eyes feel like they’re on fire every time I open this game",
+        "date": "2026-05-23T23:42:35-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Nolongerafan10",
+        "score": 1,
+        "text": "Game used to be fun with good drop rates. Now they’re absolutely trash. Time to stop spending money on this game. Buy a 10 pack of cards and get 2 new cards. That was the best rates I’ve gotten in two months. Ridiculous",
+        "date": "2026-05-23T21:50:48-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "100kmandan",
+        "score": 1,
+        "text": "This game gets you started with lots of hour glasses to rip packs but as they deplete, you will need to battle and challenge the AI to get more hour glass stamina to rip packs. This game literally cheats until you start paying for premium. Your coin flips will be tails so often and you will not get your evolved Pokémon cards until the AI has you beat. This game is absolute trash and not worth your time unless you want to dump loads of money into it. Do not waste your time if you are going into this for a free game.",
+        "date": "2026-05-23T18:24:23-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jscott3201",
+        "score": 1,
+        "text": "Waste of time, game is slow and buggy, they don’t care about PvP at all. It’s just a typical Pokémon IP shakedown for cash.",
+        "date": "2026-05-23T17:14:48-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Decklan007",
+        "score": 1,
+        "text": "This game is unplayable. The 10% of the time the game will actually allow you to log in and play its fun. 90% of the time the game will repeatedly cycle an unauthorized error and crash on the boot up screen. Don’t waste your money. Play a game that actually works.",
+        "date": "2026-05-22T20:51:20-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Rktodegrbglgo",
+        "score": 1,
+        "text": "Waste of time, definitely do not give this greedy corporation money. UI is a nightmare, animations bogging everything down to artificially increase app usage. AI battles get better rng to make up for poor execution from the devs. Pathetic excuse of an app",
+        "date": "2026-05-22T14:48:08-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pokemans!",
+        "score": 1,
+        "text": "This game was really awesome but lately it is going down.  It is impossible to get the cards you need for your collection.  Opened 100s of packs and always get the same cards.  Guess if I paid more money I would get the cards I need.  Also the odds of flipping heads is dang near impossible when you battle.",
+        "date": "2026-05-22T09:40:23-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Help your game pls",
+        "score": 2,
+        "text": "Fun game but so many errors such as the Authentication error it makes the game unplayable.",
+        "date": "2026-05-21T18:23:13-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hsrarebb",
+        "score": 1,
+        "text": "Every time I open the app it fails to load and I contacted them they did nothing \nHi",
+        "date": "2026-05-21T18:22:13-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Prohunter211",
+        "score": 2,
+        "text": "Opening packs and filling up your Pokédex is addicting. Unfortunately, this is the worst balanced card game I have ever played. Every time a new pack releases, the devs introduce further power crept cards that make the vast majority of decks completely unusable. Mega Blazikjn Ex is currently used in 50% of decks when you play online, which means you are railroaded into using decks that specifically counter that one. \n\nThe devs need to rebalance a load of cards, but they make their money off of people who spend thousands of dollars every time a pack drops by making an intentionally gamebreaking card every time, so this will never happen. Do not download this game if you want to battle.",
+        "date": "2026-05-21T11:55:57-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Disappointed ANJ",
+        "score": 1,
+        "text": "I, honestly, tried for two days to get this app to work. I researched fixes, changed settings, and have done every trick in the book to try to get this app to work and…nothing. Absolutely nothing. Cache? Deleted. Reinstalled, restarted, used Data, used WiFi, checked time settings. Over and over again Error 101-1113.",
+        "date": "2026-05-21T10:49:33-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mojang Studio.corp",
+        "score": 2,
+        "text": "If you love RNG based games that barely update enough to compensate the players, you’ll love this game!",
+        "date": "2026-05-21T09:34:33-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hungeryboah",
+        "score": 1,
+        "text": "This game has been wasting the past couple months with mega evolution cards and then has the audacity to do another scarlet violet pack. We have so many mews, charizards, and pikachus already and now we're getting force fed easily the worst generation of pokemon. Give us Ruby and Sapphire packs. Give us Black and White packs. Give us X and Y packs. Give us something of substance.",
+        "date": "2026-05-21T07:45:48-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Tz81389",
+        "score": 1,
+        "text": "Please fix",
+        "date": "2026-05-21T06:58:37-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "FL0WV",
+        "score": 1,
+        "text": "Everytime I open the app it tells me that it “Failed to authenticate” then tells me to restart the app. Everytime I restart the app it just continues to give me the same error message, I’ve uninstalled and reinstalled- updated the app, and it still refuses to let me play.",
+        "date": "2026-05-20T21:56:12-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "2 week old",
+        "score": 1,
+        "text": "Pokémon TCG Mobile is honestly one of the most frustrating “card games” I’ve ever played, and I say that as someone who actually enjoys the franchise.\n\nAt its core, it’s basically a slot machine with Pokémon art slapped on top. You can build a decent deck, think you’re finally getting somewhere, and then the game just says “nah” and hands you a 10-game losing streak like it’s a reward. Doesn’t matter how well you play—hand RNG decides you’re done.\n\nYou’ll open matches with zero energy, then the next game you’re flooded with nothing but energy and no Pokémon. Then there’s the coin flips that feel like they’re rigged by some ancient cursed algorithm that only exists to watch you suffer. Heads when it helps the opponent, tails when it matters for you. Every time.\n\nWhat makes it worse is the illusion that skill matters. It feels like you’re making decisions, but half the time the outcome is already decided before you even draw your first card. You’re just there for the ride while the game decides whether you’re allowed to win today or not.\n\nAnd the matchmaking? Somehow always perfectly tuned to pair you with decks that counter yours in the most annoying way possible, like it’s personal.\n\nHonestly, it’s a fun concept ruined by pure, unfiltered RNG hell. If you enjoy being emotionally tested by a digital coin flip simulator, then yeah, it’s great. Otherwise, prepare for the game to bless you with the sacred 10-loss streak experience over and over again.",
+        "date": "2026-05-20T18:24:52-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "포켓몬만좋아함",
+        "score": 1,
+        "text": "혼자서배틀도 엑스퍼트부터는 확률보정이 들어간건지 억지로 못깨개해서 플레이시간늘리려는것처럼보이고 이번에 추가된 연승미션도 왜넣었지? 라고 생각이들만큼 굳이 안넣어도 되는걸 자꾸 넣는거같아서 너무 안타까워요… 10연승 미션도 진짜 굳이 왜만든거지 싶네요 이 게임은 그냥 돈 안쓰고 가볍게 즐기는게 좋은거같아요!",
+        "date": "2026-05-27T23:26:56-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "내친구로이스",
+        "score": 1,
+        "text": "20판중에 카드 셔플 억까 때문에 2-3판만 이기는게 말이 되냐? 적당히 해야지 주작도 이런 주작이 없다",
+        "date": "2026-05-24T15:42:13-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "심심호랑이",
+        "score": 1,
+        "text": "UI is painfully slow.  Makes deck building a nightmare.  You’ll be forced to build decks because the meta constantly changes and they’re always surrounding the newest cards.  Pay to win app because if you don’t pull multiple key EX cards you’re losing constantly.  You get free packs but good luck getting what you need to follow the meta because by the time you get them….. meta has already changed.  If the UI wasn’t so slow and the game economy wasn’t so terrible I wouldn’t have bothered writing a review.",
+        "date": "2026-05-22T20:12:51-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "갸샥끠",
+        "score": 1,
+        "text": "스트레스 개받음ㅋㅋㅋㅋ 억까 ㅈ됨 실력? 걍 그런거 없고\n랭크 돌리면 다 똑같은 덱인데\n걍 운빨 싸움 ㅋㅋ 카드팩깡 도파민만 그럭저럭 있는데 이것마저ㅜ재화 ㅈㄴ 안줌 현질유도 ㄹㅈㄷ",
+        "date": "2026-05-21T01:10:31-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "최악이라 남김",
+        "score": 1,
+        "text": "겟 첼린지 열릴때마다 4장:1장 or 3장:2장 보여주곤 꼭 수량 적은 카드만 나오게 하는데 유쾌하지않고 진짜 불쾌하네요\n확률 안건든다는 헛소리 할려면 댓글 달지도마요",
+        "date": "2026-05-19T08:09:32-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "하 개",
+        "score": 1,
+        "text": "1.재화 드릅게 안줌 현질 유도 ㄹㅈㄷ임\n2.랭겜 상대는 패 ㅈㄴ 잘 풀려서 첫턴에 다 패에 내고 흉내로 하는데 난 아무것도 없음\n3.뽑기아이스 상대만 앞면 ㅈㄴ 나옴 이런일이 한번이면 참는데 계속 이럼 걍 이 게임 안 하는걸 추천\n4.하 ㅋㅋ 최종 진화체 나오면 이기는데 4장 남았는ㄷ 2장이 쳐 안 나와 ㅋㅋ 이게 몇번째냐 걍 쳐 접어줄게\n뭐 이딴 ㅈㅆㄹㄱ망겜이 다 있냐 ㅋㅋ 상대는 4장 남을때 난 12장 쳐 남아있네 개 ㅂㄱㅂㄱㅂㄱㄱㅈㄹㅈㅇㅌㄹㄴㅎ고러어남듸진겜",
+        "date": "2026-05-17T20:37:26-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "똥 겜",
+        "score": 1,
+        "text": "나오라는건 안 나오는게 말이 되냐!",
+        "date": "2026-05-14T02:11:02-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "…….ㅇㅇㅇㅇ",
+        "score": 1,
+        "text": "억까는 그대로인데… 카드뽑기 게임 특성상 이해는하는데 그정도를 벗어남… 어떻게 만들어놓은건지 진짜… 이 게임은 대전말고 카드만 뽑는게 정신건강에 좋은듯",
+        "date": "2026-05-13T10:23:01-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "드코리",
+        "score": 1,
+        "text": "아이폰12프로에서 포켓 사용하고나면 좌측 음량조절버튼이 먹통이 되고 미디어 소리설정이 특정 음량대로 고정돼 변경이 불가합니다.",
+        "date": "2026-05-08T17:45:37-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "딴게임처배끼고운영ㅈ같이못해서버그망겜롤체",
+        "score": 1,
+        "text": "초보자 스탠스에 레벨 제한을 두던 티어제한을 만들어놔야지 5레벨이 50렙 마스터 티어랑 처 만나는게 맞니? 뇌를 끼고 시스템을 만들어 무뇌 텅비드 같은 새ㄲ들아\n선공 이점좀 늘려 병tls 같은 시스템 진짜 선공 이점은 ㅈ도 없고 걍 처 맞고 져야하네 와 진짜 운이 너무 엄ㅅ어 개주작 확률겜 아니 제발 확률 주작좀 하지마 개좆노잼이니까 제발 그리고 뽀기 아이스 같은 개 ㅂㅅ템좀 삭제해",
+        "date": "2026-05-05T07:55:00-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "…………::…::::///……..",
+        "score": 1,
+        "text": "개병신같은 게임 망해라",
+        "date": "2026-05-03T10:09:35-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "902-",
+        "score": 1,
+        "text": "봇전 주작이 걍 역겨움\n뭔 동전 20개 던지면 19개씩 앞면나오고 말이 안됨",
+        "date": "2026-04-29T23:49:45-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "이딴거왜함",
+        "score": 1,
+        "text": "동전병신겜",
+        "date": "2026-04-24T17:11:33-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "aruarira",
+        "score": 1,
+        "text": "피지컬 뇌지컬 ㅈ도 안쓰이고 그저 운빨전투라서 전투빼고 다 재밌는 게임임 그냥\n전투 할때 확률이 병신같음 동전돌리기나 카드 뽑기운이나 다 개같음",
+        "date": "2026-04-22T09:35:18-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Wkshshehsudnejwiwyg",
+        "score": 1,
+        "text": "쓰레기 게임임",
+        "date": "2026-04-20T16:01:39-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Mnetgogo",
+        "score": 2,
+        "text": "게임은 재미가 있습니다.\n다만 들어가보니 2주간 사용 제한을 두는건 합리적이라고 보이지 않습니다.\n트레이드가 막혀 게임하는데 불편함이 매우 큽니다.",
+        "date": "2026-04-20T09:56:33-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "카톡이 미쳤나봐",
+        "score": 1,
+        "text": "카드게임이냐 코인던지기 운빨게임이냐?  카드가 섞이지도 않을때 많음 빡쳐서 언제까지 안 나오나 봤더니 맨 밑바닥에 있더라…영자야 좀 쳐맞자",
+        "date": "2026-04-17T23:39:22-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "아리어요오오유유오오어어나나나",
+        "score": 1,
+        "text": "이거 100프로 확율 조작 있음",
+        "date": "2026-04-13T09:32:59-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "므카비",
+        "score": 1,
+        "text": "덱만드는데 너무 오래 걸려요 필수급 카드들이 너무 안나와요",
+        "date": "2026-04-09T12:37:35-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "희ㅁㅇ",
+        "score": 1,
+        "text": "에미뒤진년들아 확률조작을 왜 쳐하세요? 에미뒤진 음흉한 원숭이들이라서 음습한문화를 게임에다가 넣음? 만화시장만봐도 알겠는데 음습하고 음흉한 더러운 원숭이들인게 그걸 게임안에다가도 할줄 몰랏다 뭔 극적인 전개를 이렇게 좋아해? 너네 일본 원숭이 조상들 유전자는 언제까지 이을거야? 제발 나가뒤져",
+        "date": "2026-03-21T10:43:46-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "덕원쫑빈1234",
+        "score": 1,
+        "text": "10판 연속 선공인데 이게 말이되나 1024분의 1인데? 선공 후공 시스템 좀 바꿔라",
+        "date": "2026-03-20T04:59:45-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "OppieJune",
+        "score": 1,
+        "text": "전략 이런 거 없고 그냥 패 잘 뜨면 이기고 안 뜨면 망하는 겜임. 글고 돈 쏟아부어도 카드 안 뜨는 ㅋㅋ 돈, 시간 아까움 하지마세요",
+        "date": "2026-03-18T02:16:41-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "이건모두부한모",
+        "score": 2,
+        "text": "뭐 대단한 것도 없는데 카드깔 때마다 렉 걸림\n요즘 게임들 최적화 보고 배우기를",
+        "date": "2026-03-02T17:11:59-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "보당보단",
+        "score": 1,
+        "text": "존니 ex는 하나도 안뜨고 롹률 개그지임\n돈 쳐발해도 안나오는 놈 안나옴 하지마셈",
+        "date": "2026-02-25T07:24:45-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "12?!!8",
+        "score": 1,
+        "text": "뽑기아이스를 삭제하세요 누구 대가리에서 나온카드인지 개 ㅈ같습니다 제발 없애주십쇼",
+        "date": "2026-02-21T08:34:55-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "쭌순",
+        "score": 1,
+        "text": "랭하다보면 연승하면 끊으려고 카드조작하는거 뻔히보임. 스트레스 받으려면 하지마셈. 메타도 10명중 8명은 똑같은거씀 ㅋㅋ",
+        "date": "2026-02-19T18:23:36-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "보아라인간들아",
+        "score": 1,
+        "text": "운 요소가 너무 심하고 카드 밸런스도 엉망임",
+        "date": "2026-02-17T20:14:47-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "싫어 이게임",
+        "score": 1,
+        "text": "일단 그냥 겁나 재미없고 카드하나 뽑는데 시간이 너무 많이들고 무과금은 하기 너무 어려워서 무과금으로 할거면 겁나게 비추천 하면 고혈압와서 죽음",
+        "date": "2026-01-30T15:29:12-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "금으로대박",
+        "score": 2,
+        "text": "라타오스 드롭 상급 좀 더 쉽게 해주세요.",
+        "date": "2026-01-24T03:45:47-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "ㅇㅎㅈㄱ",
+        "score": 1,
+        "text": "확률 조작게임 확률 공개 ㄱㄱ",
+        "date": "2026-01-24T00:55:43-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "후하흐히호할혈하",
+        "score": 1,
+        "text": "게임 질꺼같으니까 일부러 질질 끌어서 무승부만드느데 채팅도 못치고 시간만 떼우면 무승부인데 이런거는 안고침? 아님 배틀 시간을 5분으로 줄이던가",
+        "date": "2026-01-21T19:57:48-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "니똥내가먹음",
+        "score": 1,
+        "text": "처음 시작햇는데 카드도 안까지고 미션엔 느낌표떠서 눌러도 안들어가지거 그지같은겜",
+        "date": "2026-01-20T09:46:36-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "일본이그렇게좋냐",
+        "score": 1,
+        "text": "별 1개도 아까워 이쓰레기들아 걍 없어져라 ㅋ",
+        "date": "2026-01-15T01:43:45-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "fjjrdkqkak",
+        "score": 1,
+        "text": "내가 시발 호구도아니고 승급전 전일때만 내 동전은 다 뒷면이고, 승급전 전에만 카운터 덱 만나고 ㅈ같아서 걍 계정 날리고 손절함 ㅃ",
+        "date": "2026-01-10T19:27:37-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "끄지라제발",
+        "score": 1,
+        "text": "제발 주작질처하지마라 욕존나티나오네 컴퓨터는 잘풀리고항상 나는 억까 존나게심하게 한두번이여야지\n10판중에7-8판이 이지랄하면 할맛안난다",
+        "date": "2026-01-02T23:43:30-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "왜 함?",
+        "score": 1,
+        "text": "재미 없습니다",
+        "date": "2025-12-28T03:56:33-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "븅파",
+        "score": 1,
+        "text": "인증 처리 오류 뜨면서 안 들어가짐 캐시 삭제해도 안 됨",
+        "date": "2025-12-23T17:40:29-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "푸키몬마스터",
+        "score": 1,
+        "text": "과금구조가 악랄함\n카드팩마다 카드수가 2~3배 차이나는데 포인트가 따로모입니다. 뮤나 알세팩은 포인트를 모으려면 낮은등급 중복카드를 엄청 뽑아야함\n크라운카드 1장 천장이 약 56만원인데 터무니없네요",
+        "date": "2025-12-17T08:58:02-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Cifofodivf",
+        "score": 1,
+        "text": "계속 서버처리 문제 하고 뜨고 잘 안들어가져요",
+        "date": "2025-12-15T22:16:14-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "tlsl008",
+        "score": 1,
+        "text": "랜덤배틀할때 일정 레벨이상 차면 초보자 모드 못하게 해주세요.. 시작한지 얼마 안돼서 카드가 후달리는데 자꾸 고인물들이랑 매치 잡혀서 할 수가 없네요",
+        "date": "2025-12-06T03:40:59-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "johne24",
+        "score": 1,
+        "text": "포켓몬 좋아하시나요? 왜 좋아 하시나요? 이 게임이 있습니다!!",
+        "date": "2025-12-05T07:22:29-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "N0w4y_",
+        "score": 2,
+        "text": "마스터볼 승급 직전 구간 불쾌한 판 수 늘리기에 할 말을 잃었습니다 그냥 불쾌한 정도가 아니라 덱을 바꿔가면서 해도 상성 덱 잡히는건 그냥 게임을 하기 싫게 하네요\n그렇게 몇판 내리 지고 나서 보란 듯이 꽁승 떠먹여주는 것 까지가 불쾌함의 정점",
+        "date": "2025-12-01T04:18:42-07:00",
+        "version": "1.4.1"
+      }
+    ],
+    "neutral": [
+      {
+        "source": "google_play",
+        "userName": "Matthew Ortmann",
+        "score": 3,
+        "text": "your rng is so skewed its unbelievable",
+        "date": "2026-05-30T16:15:01.937Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "CollieAgility",
+        "score": 3,
+        "text": "its ok but its annoying getting the same cards all the time. 2 identical cards in a pack, just makes me realise buying actual Pokémon cards is a waste of time and money",
+        "date": "2026-05-30T09:11:38.840Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Henry Turrubiartes",
+        "score": 3,
+        "text": "Pull rates have been horrible lately.",
+        "date": "2026-05-30T04:40:42.163Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lily",
+        "score": 3,
+        "text": "I love the game don't get me wrong BUT I want Fennekin that's the only starter that I know your missing I need her (STILL NO FENNEKIN THIS IS MONTHS LATER)",
+        "date": "2026-05-29T16:51:19.401Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lindsay Dutton",
+        "score": 3,
+        "text": "This game has so much potential and would easily get 5 stars if it didn't become pay to play after the first 30 days. Initially you get a lot of rewards and packs to open and then it starts to become a grind, and now that the 30 days of rewards reset and I have to wait 74 days, it will be almost impossible. There needs to be more ways to get hourglasses and you need to add more step up matches, or add something new. The weekly events are a let down too. Also do not waste your money on premium.",
+        "date": "2026-04-13T15:05:53.330Z",
+        "thumbsUp": 17
+      },
+      {
+        "source": "google_play",
+        "userName": "Sirius Stamm",
+        "score": 3,
+        "text": "It's fine. I mean, I've been paying for the monthly membership since it started, but I'm getting tired of the same thing over and over and over. Honestly, I probably would have still given it at least 4 stars but I reached out to support about a possible bug (something in the current limited-time pack is inconsistent) and they not only dismissed me, they threatened to remove my access to contacting support? It just seemed extremely hostile as a response to a bug report and single clarification.",
+        "date": "2025-10-07T17:49:37.772Z",
+        "thumbsUp": 2047
+      },
+      {
+        "source": "google_play",
+        "userName": "Joe Mac",
+        "score": 3,
+        "text": "My biggest complaint are the animations are far too long and unskippable pick in a card can take up to 25 seconds. just because it's doing too much. also the pulls have been getting notably and significantly worse as they introduce more packs. on the bright side, this is one of the least pushy games I've seen in a while when it comes to paid extras",
+        "date": "2026-05-23T23:16:18.985Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Demi",
+        "score": 3,
+        "text": "At first the game was really fun and I love the artwork that I could collect. In the last three months straight: the pull rates have gotten significantly worse, wonderpicks are hardly even worth doing and I get the card I want WAY less than the 1/5 ratio it should be at, and completing sets have been practically impossible unless you spend a whole week trading. It's become repetitively disappointing and bland, you'll hardly pull a decent card for a month unless you spend money nowadays.",
+        "date": "2026-05-25T23:14:06.669Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jim Kendall",
+        "score": 3,
+        "text": "It's decent if you like the idea of card collecting but don't want to spend money. But they really want you to spend money. You can open a few packs a day, it's kind of boring once you finish all the solo matches (best way to get more packs). Trading is helpful, but (like many other aspects) it isn't balanced well. You can only trade with one person at a time, so you're sitting waiting for a response for 2 days unable to do any other trades. Online battles are pointless. App is also very laggy.",
+        "date": "2026-04-06T14:40:07.346Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Garrett Johnston",
+        "score": 3,
+        "text": "Love Pokémon, but this app is getting more frustrating unfortunately. Bigger sets with one pack make them hard to complete, and it's become hard to use the new decks before they get power crept. Trading partners are also difficult to find. Art is nice and I do mostly like battling it's just personally harder to keep interest nowadays (ESPECIALLY as free-to-play). Also wish there were more game modes / events for non-meta cards to be used more. Hoping for positive changes :)",
+        "date": "2026-05-07T22:45:32.258Z",
+        "thumbsUp": 52
+      },
+      {
+        "source": "google_play",
+        "userName": "Arin O'Brien",
+        "score": 3,
+        "text": "I absolutely love playing this game, but trying to do the battles absolutely suck when you're a lower level. There is no system to match levels, so me (level 21) get stuck playing someone who is level 56 and gets beaten every time. I really enjoy this game and all of the other mechanics, just please fix the one issue with the battles so I can rate this 5 stars",
+        "date": "2026-04-06T06:58:35.510Z",
+        "thumbsUp": 9
+      },
+      {
+        "source": "google_play",
+        "userName": "Baby Uwu",
+        "score": 3,
+        "text": "Title: Needs a \"Claim All\" button The game is fun and the card art is beautiful, but the reward system is very tedious. Right now, you have to click through multiple individual menus to collect rewards, and often those rewards trigger even more rewards that you have to go back in and claim separately. It slows the game down unnecessarily. Please add a \"Claim All\" button to make the experience more seamless!",
+        "date": "2026-04-15T21:40:01.882Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Asher Creato",
+        "score": 3,
+        "text": "The game is ok but there are a lot of flaws. These are just a couple of them There should be a way to sell or trade your extra cards (including rare ones) to the whole community. Also they should add sleeves coins etc to the shop so every one can access not just premium members (if the company is worried that nobody would buy anything without the pass they could just make them harder to get). Last thing, they should add a story mode or at way to get hour glasses quicker. Don't recommend",
+        "date": "2026-04-04T05:18:52.799Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "userName": "Aaron Boyd",
+        "score": 3,
+        "text": "The \"rewards\" system in this game is abysmal. If you attain a certain rank from the last season and weren't able to play ranked (or didnt want to) and didn't play a current ranked game in the most recent season you obtain no rewards whatsoever moving forward. There is no notification or warning for that. There are also no notifications when ranked will end for a particular season. if you enjoy 'gatcha\" games with poor pull rates, slow UI, and little-to-no consumer consideration; download now.",
+        "date": "2026-03-29T09:59:07.433Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "LargeFryingPan",
+        "score": 3,
+        "text": "Pretty fun, and MUCH simpler than the paper cards version. However, this game always needs to update, and when it does that, it takes a very long time. Also, it's always the worst possible times when it must update. On a plane with no WiFi? Game requires update. Overall though, pretty good.",
+        "date": "2026-04-10T08:21:07.174Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Cody",
+        "score": 3,
+        "text": "It's alright. It gives you that pack-ripping and card-collecting feeling, even just being digital. The art design on a lot of cards is cool. You can enjoy it without spending money, but of course, you'll be much more limited. Their desire is for you to spend money. It's Pokémon, of course they want your money. The battle system is ok. There's obvious skill in deck building, but it really comes down to the luck of the draws and coin flips during play. Which can feel rigged at times.",
+        "date": "2026-01-29T03:20:43.137Z",
+        "thumbsUp": 17
+      },
+      {
+        "source": "google_play",
+        "userName": "Lyla Arters (OreoCookie)",
+        "score": 3,
+        "text": "It's a great game! Though it is very quite annoying how I keep having to fight level 57 trainers, whilst im a level 7 trainer (at the time of me writing this) If there is a way you could fix that, it would be great, and im sure most people complain about this issue alot, so sorry if this is an annoying question ^^",
+        "date": "2026-03-02T23:04:41.636Z",
+        "thumbsUp": 25
+      },
+      {
+        "source": "app_store",
+        "userName": "T0kman",
+        "score": 3,
+        "text": "The core card battling lacks any depth but you can get the dopamine hit of opening a pack twice a day without dealing with grown men in crocs fighting for a pack of cardboard.",
+        "date": "2026-05-30T02:31:56-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "retardations",
+        "score": 3,
+        "text": "It’d be nice if they kept the RNG aspect in all levels of battles. Instead they just make sure you can’t continue unless you drop $500 on in app purchases. Also idk if it’s too much to ask for but we shouldn’t have to pay to trade in a TRADING GAME.",
+        "date": "2026-05-29T22:08:42-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "GeezierGamer",
+        "score": 3,
+        "text": "Game is fun, even if you don’t battle and just like to collect. Artwork can be amazing. But the extra, unnecessary steps forced by the developers make the game extremely tedious, at times",
+        "date": "2026-05-29T11:18:08-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Hyaoak",
+        "score": 3,
+        "text": "The game won’t load it just says “game can’t register restart game?” It’s annoying that I can’t play the game where I don’t have to go to the store and get a pack but these will not let me play I’ve got WiFi on and internet so it should work but it keeps resetting for no reason",
+        "date": "2026-05-29T06:18:25-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Azure_Dove",
+        "score": 3,
+        "text": "Each set we get a handful of playable cards, that everyone uses. It makes ranked and random matches unfun slop. By  turn 4 every meta card hits for 130+ making fun and niche decks almost unplayable. And that’s if you get to play, 60% of my matches players auto concede or just disconnect. Was fun in the beginning now it’s just for opening packs on my lunch break.",
+        "date": "2026-05-28T19:40:57-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "JJK lover…",
+        "score": 3,
+        "text": "I Want To Use The App But I Keep Getting A Error That Doesn’t Let Me Play Is Always Says Restarting The iPhone Then Does IT AGAIN So Please Help Me!",
+        "date": "2026-05-28T16:52:07-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Royal T-bone",
+        "score": 3,
+        "text": "The casual online has no skill-based matchmaking. This id very annoying because I just got the game and I am ranked beginner and the game keeps putting me up against high ranked people like great ball and ultra ball. It’s also annoying that you can’t trade until you’ve had the game for 14 days.",
+        "date": "2026-05-28T14:01:16-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "💨🔥💨",
+        "score": 3,
+        "text": "The game keeps popping up an error message and keeps restarting my game",
+        "date": "2026-05-26T05:53:32-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Xecutioner20",
+        "score": 3,
+        "text": "Great game but the battles are rigged. You’ll go 20 games of getting purely annihilated then your cards will fall in proper order. Meanwhile your opponents are jumping full levels on the same deck.",
+        "date": "2026-05-25T01:15:23-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Me15356",
+        "score": 3,
+        "text": "Collecting cards is great but the PvP system sucks even in Beginning casual everybody is just gonna use the best meta decks just started and was playing beginner  and ran into the same meta decks 6 times in a row",
+        "date": "2026-05-23T22:08:28-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "daydayswag1019",
+        "score": 3,
+        "text": "The only fun part of this game is collecting. Ranked mode is not fun. No matter what season it is there will be cheesey meta decks being used every game. It’s crazy how fast you can lose in this game now from power creep.",
+        "date": "2026-05-23T14:30:07-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Is good yet alot of ADS",
+        "score": 3,
+        "text": "Ay pocos anuncios pero si hay si lo aceptas",
+        "date": "2026-05-23T14:14:54-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "My bad daddy",
+        "score": 3,
+        "text": "This game is fun, but it also kind of Bowling",
+        "date": "2026-05-23T12:02:39-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Yellowcrash1973",
+        "score": 3,
+        "text": "It’s still a good game but the rng in this is some of the worst I’ve had to where I’ve lost 8 times in a row once because all the pokemon I need to evolve are at the bottom of my deck and my opponent evolves theirs easily cause they got lucky right off the bat",
+        "date": "2026-05-22T11:39:07-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "BigMangoIII",
+        "score": 3,
+        "text": "This is a great game that brings the beloved game of Pokémon anywhere you are. The cards and events are a great and the overall platform is very good. Fixes in gameplay must be made however, specifically coin flipping mechanics, match making, and attacks. The auto coin flipping mechanics are terrible. How is it possible I cannot flip a single heads in 10 separate tries, but my opponent can get 9 straight head coin flips in 1 single attempt. This is simply one example of the few but very apparent issues of this potentially amazing game.",
+        "date": "2026-05-21T23:52:15-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Kiki~lover",
+        "score": 3,
+        "text": "I keep getting good ones!!!!!",
+        "date": "2026-05-21T15:37:29-07:00",
+        "version": "1.6.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "무적용사다크",
+        "score": 3,
+        "text": "ui 반응 개느림 파이썬으로 코딩해도 이거보단 빠르겠네",
+        "date": "2026-03-31T02:18:51-07:00",
+        "version": "1.5.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "졸려--",
+        "score": 3,
+        "text": "보상 늘려즈세여",
+        "date": "2026-02-11T01:21:59-07:00",
+        "version": "1.5.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "habsjznx",
+        "score": 3,
+        "text": "win in ranks sometimes diesnt count lol",
+        "date": "2026-01-21T04:05:31-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "Itssnowingoutsidedude",
+        "score": 3,
+        "text": "게임 자체는 재밌고 카드도 은근 잘 모여서 무과금으로도 할만했어요. 근데 제가 몇개월 안하고 돌아와보니까 무슨 초보자 매칭에 초고렙들 밖에 매칭이 안돼서 진짜 게임할 맛이 안 나욬ㅋㅋㅋㅋㅋㅋ",
+        "date": "2026-01-11T22:26:54-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "데이지13",
+        "score": 3,
+        "text": "재미는 있는데 초보자 모드로 배틀 뜨는데 계속 50레벨 이상 사람들하고 매칭이 돼서 할 의욕이 사라져요..ㅠ ㅠ 저는 레벨 20이라 그런 사람들 못 이기는데 제발 해결해주세요…😭 해결해주시면 별 5점 드릴게요",
+        "date": "2025-12-25T20:42:15-07:00",
+        "version": "1.4.1"
+      },
+      {
+        "source": "app_store",
+        "userName": "ㅊㅊcx",
+        "score": 3,
+        "text": "4다이아는 확률좀 높여줘라",
+        "date": "2025-12-06T21:41:20-07:00",
+        "version": "1.4.1"
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "jp.pokemon.pokemonhome",
+      "title": "Pokémon HOME",
+      "developer": "The Pokémon Company",
+      "score": 3.7464406,
+      "icon": "https://play-lh.googleusercontent.com/mEQTKXkEJ7QwSCmec-cIe9b-GlAMCsG9efBAQV6yUDN6DZVtEuM25A4zfMi47KDUej8"
+    },
+    {
+      "appId": "jp.pokemon.pokemonunite",
+      "title": "Pokémon UNITE",
+      "developer": "The Pokémon Company",
+      "score": 4.396528,
+      "icon": "https://play-lh.googleusercontent.com/8X8DZXDJWAzSjdKYytPIYGiKX6bMPrv9QGEqj9nvH7-8rxCHFokt2ItspqezxiEo0yEgUC2y2GowJid4beyw"
+    },
+    {
+      "appId": "jp.pokemon.pokemonsleep",
+      "title": "Pokémon Sleep",
+      "developer": "The Pokémon Company",
+      "score": 4.345064,
+      "icon": "https://play-lh.googleusercontent.com/tg-BeEJO7UDjvfxWXWJ1u-PMLa-45twu0YhJkZfQu-PEjRJU_2l9Sb9xMR3YBha3mtLzdzU-016ZpWN5IUwrFwU"
+    },
+    {
+      "appId": "jp.pokemon.pokemoncafemix",
+      "title": "Pokémon Café ReMix",
+      "developer": "The Pokémon Company",
+      "score": 4.6610317,
+      "icon": "https://play-lh.googleusercontent.com/UtRqNNsRk7FH2WhnIpSSKx7K_M0eCicQpwUFac4_fqgfP49kyIqQ5c0skGm3oHKbY3preqglQVRDc43JTPF73us"
+    },
+    {
+      "appId": "jp.pokemon.pokemonquest",
+      "title": "Pokémon Quest",
+      "developer": "The Pokémon Company",
+      "score": 4.2251053,
+      "icon": "https://play-lh.googleusercontent.com/EgO34BOGEhnGGd0Yk4HRppcYAF8RNF7-WCe0Y2j6rzvn5CGQlrQj6BxaCRT5h7PdnA"
+    },
+    {
+      "appId": "jp.pokemon.poketoru",
+      "title": "Pokémon Shuffle Mobile",
+      "developer": "The Pokémon Company",
+      "score": 4.454507,
+      "icon": "https://play-lh.googleusercontent.com/m8770CwK8uwrwFTGSOlUslm23fSd6VOWvdt22fHAHwcU_bFzuXAqdG9F0cmQu1P6IQ"
+    },
+    {
+      "appId": "jp.pokemon.pokemonfriends",
+      "title": "Pokémon Friends",
+      "developer": "The Pokémon Company",
+      "score": 3.1683168,
+      "icon": "https://play-lh.googleusercontent.com/4jzjjO_4rd5VyYIHdl5TVwLDKl_-JS-w9yzB3tkBwEgCnRTiG92Rv8_rlzy6BU9pXGM"
+    },
+    {
+      "appId": "jp.pokemon.pokemonsmile",
+      "title": "Pokémon Smile",
+      "developer": "The Pokémon Company",
+      "score": 4.2618184,
+      "icon": "https://play-lh.googleusercontent.com/Hf-sWc7UwKSIqNGb31_HGOUFXYgb3TW0DRgr3yuLFcHW4gps5uU8x--YyPF_jpA6ad0e"
+    },
+    {
+      "appId": "jp.pokemon.koiking",
+      "title": "Pokémon: Magikarp Jump",
+      "developer": "The Pokémon Company",
+      "score": 4.6819406,
+      "icon": "https://play-lh.googleusercontent.com/_Z8WUojQln5NzmP-kh5dapatupW-QRmQh-QiZiSTF_HCh7DO6iLClYiBpjBm-kS2FAg"
+    }
+  ],
+  "developerApps": []
+}

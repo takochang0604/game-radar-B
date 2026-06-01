@@ -3024,8 +3024,16 @@ function renderReportsTab() {
     const developer = appInfo?.developer || '';
     const isDarkhorse = state.darkhorses.some(d => findReport(d.name, d.appId) === reportData);
 
-    reportCards.push({ reportName, gameName, icon, developer, isDarkhorse, appId: appInfo?.appId, tags });
+    // 萃取評測日期
+    const dateMatch = reportData.match(/評測日期.*?(\d{4}[-\/]\d{2}[-\/]\d{2})/)
+                   || reportData.match(/\|\s*\*\*評測日期\*\*\s*\|\s*(\d{4}[-\/]\d{2}[-\/]\d{2})/);
+    const reportDate = dateMatch ? dateMatch[1].replace(/\//g, '-') : '';
+
+    reportCards.push({ reportName, gameName, icon, developer, isDarkhorse, appId: appInfo?.appId, tags, reportDate });
   }
+
+  // 依評測日期排序（越新越前面）
+  reportCards.sort((a, b) => (b.reportDate || '').localeCompare(a.reportDate || ''));
 
   // 渲染標籤雲 UI
   const tagsPills = document.getElementById('reportTagsPills');
@@ -3088,6 +3096,7 @@ function renderReportsTab() {
         ${r.tags.map(t => `<span class="dh-tag" style="background:rgba(255,255,255,0.05);color:var(--text-secondary)">${t}</span>`).join('')}
       </div>
       <div class="dh-card-footer" style="margin-top:auto">
+        ${r.reportDate ? `<div class="dh-released">評測 ${r.reportDate}</div>` : '<div></div>'}
         <div class="dh-signals">
           <span class="dh-signal-pill" style="background:rgba(59,130,246,0.12);border-color:rgba(59,130,246,0.25);color:var(--accent-blue)">點擊查看報告</span>
         </div>
