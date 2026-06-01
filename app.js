@@ -2573,20 +2573,32 @@ function renderModalChart(dh, days, activeBtn) {
           display: false,
         },
         tooltip: {
-          callbacks: {
-            title: (items) => `📅 ${allDates[items[0].dataIndex] || items[0].label}`,
-            label: (item) => {
-              const rank = item.raw;
-              if (rank === OFF_CHART_RANK) return `${item.dataset.label}: 榜外 (未入榜)`;
-              return `${item.dataset.label}: 第 #${rank} 名`;
-            },
+          enabled: false,
+          external: function(context) {
+            let el = document.getElementById('chartTooltip');
+            if (!el) {
+              el = document.createElement('div');
+              el.id = 'chartTooltip';
+              el.className = 'chart-tooltip';
+              document.body.appendChild(el);
+            }
+            const tooltip = context.tooltip;
+            if (tooltip.opacity === 0) { el.style.opacity = '0'; return; }
+            let html = `<div class="chart-tooltip-title">📅 ${allDates[tooltip.dataPoints?.[0]?.dataIndex] || ''}</div>`;
+            tooltip.dataPoints?.forEach(dp => {
+              const rank = dp.raw;
+              const color = dp.dataset.borderColor;
+              const style = Object.values(LINE_STYLES).find(s => s.color === color);
+              const icon = style && style.platform === 'android' ? ICON_ANDROID : ICON_IOS;
+              const rankText = rank === OFF_CHART_RANK ? '榜外' : `第 #${rank} 名`;
+              html += `<div class="chart-tooltip-row"><span class="chart-legend-dot" style="background:${color}"></span>${icon} ${dp.dataset.label}: ${rankText}</div>`;
+            });
+            el.innerHTML = html;
+            el.style.opacity = '1';
+            const pos = context.chart.canvas.getBoundingClientRect();
+            el.style.left = pos.left + window.scrollX + tooltip.caretX + 'px';
+            el.style.top = pos.top + window.scrollY + tooltip.caretY + 'px';
           },
-          backgroundColor: 'rgba(15,23,42,0.92)',
-          borderColor: 'rgba(255,255,255,0.1)',
-          borderWidth: 1,
-          titleColor: '#94a3b8',
-          bodyColor: '#e2e8f0',
-          padding: 10,
         },
       },
       scales: {

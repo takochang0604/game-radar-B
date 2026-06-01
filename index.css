@@ -403,6 +403,35 @@ body::before {
   flex-shrink: 0;
 }
 
+/* Custom Chart Tooltip */
+.chart-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(15, 23, 42, 0.92);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 12px;
+  color: #e2e8f0;
+  z-index: 9999;
+  transition: opacity 0.15s ease;
+  transform: translate(-50%, -110%);
+  white-space: nowrap;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+.chart-tooltip-title {
+  color: #94a3b8;
+  margin-bottom: 6px;
+  font-size: 11px;
+}
+.chart-tooltip-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 0;
+}
+.chart-tooltip-row svg { fill: #999; }
 
 /* ============ Empty State ============ */
 .empty-state {
