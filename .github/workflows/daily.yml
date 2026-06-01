@@ -1,5 +1,5 @@
 # 每日自動排程：抓排行榜 → 偵測黑馬 → 上傳 Firebase
-# 台灣時間 11:00 (UTC 03:00) 執行
+# 台灣時間 19:10 (UTC 11:10) 執行
 #
 # 需要設定的 GitHub Secret：
 #   GOOGLE_CREDENTIALS_JSON — google-credentials.json 的完整 JSON 內容
@@ -8,8 +8,8 @@ name: Daily Pipeline
 
 on:
   schedule:
-    # UTC 03:00 = 台灣時間 11:00
-    - cron: '0 3 * * *'
+    # UTC 11:10 = 台灣時間 19:10
+    - cron: '10 11 * * *'
   workflow_dispatch: # 允許手動觸發
 
 jobs:
