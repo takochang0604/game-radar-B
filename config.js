@@ -76,57 +76,18 @@ export const DARKHORSE_CONFIG = {
   minConfidence: 1.5,        // 最低信心分數（低於此分的不列為黑馬）
   maxCurrentRank: 100,       // 擴大監測到 Top 100（Mid-Chart 偵測）
 
-  // [未實作] #1 回歸型黑馬（跌出後回升）
-  bounceBackMinDrop: 50,     // 曾跌出 Top N（或消失）才算「跌出」
-  bounceBackMaxReturn: 20,   // 回歸時必須進入 Top N 以內
-  bounceBackWindowDays: 7,   // 在 N 天內發生跌出→回歸
-
-  // [未實作] #2 免費+營收交叉訊號
-  crossChartBonus: 1.5,      // 同時在 topfree + grossing 出現的加權倍數
-
-  // [未實作] #4 跨平台一致性加分
-  crossPlatformBonus: 1.3,   // 同時在 iOS + Android 竄升的加權倍數
-
-  // [未實作] #5 週末效應調整
-  weekendAdjustment: 1.2,    // 週一判定時 rankJumpThreshold 乘以此係數（提高門檻）
-
   // #6 黑馬保留期
-  retentionDays: 60,         // 曾被偵測為黑馬的遊戲，在 N 天內只要仍在榜上就繼續保留
+  retentionDays: 14,         // 曾被偵測為黑馬的遊戲，在 N 天內只要仍在榜上就繼續保留
 
   // #7 Growth Multiplier（成長倍率）
   growthMultiplierThreshold: 2.5,  // 近期排名/長期排名 >= 此值 → 黑馬信號
   growthShortWindow: 3,            // 短期窗口（天）
   growthLongWindow: 7,             // 長期窗口（天）
-
-  // [未實作] #8 排名鋸齒偵測（買榜信號）
-  sawtoothSwingThreshold: 30,      // 排名波動 >= N 名算一次「大幅震盪」
-  sawtoothMinSwings: 2,            // 短時間內 >= N 次大幅震盪 → 疑似買榜
 };
 
-// ============ 市場權重（按排行類型區分）============
-// #3 營收排行和免費下載的市場重要性不同
-export const MARKET_WEIGHTS = {
-  topfree: {
-    us: 1.5,  // 美國下載量最大
-    jp: 1.2,
-    cn: 1.3,  // 中國下載體量大
-    kr: 1.1,
-    tw: 1.0,
-    th: 1.0,
-    vn: 1.0,
-    ph: 1.0,
-  },
-  grossing: {
-    us: 1.4,
-    jp: 1.6,  // 日本 ARPU 全球最高
-    cn: 1.3,
-    kr: 1.4,  // 韓國重度手遊市場
-    tw: 1.0,
-    th: 0.9,
-    vn: 0.9,
-    ph: 0.8,
-  },
-};
+// ============ 已確立遊戲排除門檻 ============
+// 若遊戲在近 window 天內有 days 天以上排名在 Top maxRank，視為已確立遊戲，不列為黑馬
+export const ESTABLISHED_THRESHOLD = { days: 10, window: 14, maxRank: 20 };
 
 // ============ 自家遊戲追蹤（#15）============
 // 填入自家遊戲的 appId，系統會自動追蹤排名變化並標記附近的競爭威脅

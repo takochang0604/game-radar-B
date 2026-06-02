@@ -78,110 +78,14 @@ function toggleTrack() {}
 function renderTracked() {}
 
 /**
- * 統一處理新版與舊版 Schema 的相容性轉換
- */
-function sanitizeGameItem(g) {
-  if (!g) return;
-  if (!g.name && g.gameName) g.name = g.gameName;
-  if (!g.appId && g.gameId) g.appId = g.gameId;
-  if (!g.market && g.country) g.market = g.country;
-  if (!g.marketFlag && g.countryFlag) g.marketFlag = g.countryFlag;
-  if (!g.marketName && g.countryName) g.marketName = g.countryName;
-  if (!g.detectedAt && g.detectedDate) g.detectedAt = g.detectedDate;
-  if (!g.rankHistory && g.trendData) g.rankHistory = g.trendData;
-  if (g.confidenceScore === undefined && g.score !== undefined) {
-    g.confidenceScore = g.score;
-  }
-  if (g.triggers) {
-    g.triggers.forEach(t => {
-      if (!t.market && t.country) t.market = t.country;
-      if (!t.marketFlag && t.countryFlag) t.marketFlag = t.countryFlag;
-      if (!t.marketName && t.countryName) t.marketName = t.countryName;
-    });
-  }
-}
-
-/**
  * 取得同款遊戲合併與去重比對的模糊 Key
+ * 透過名稱正規化實現跨平台/跨語言合併（不依賴硬編碼對照表）
  */
-// 跨區域同遊戲名稱對照表（不同地區商店名稱 → 統一 key）
-const GAME_ALIASES = {
-  '原神': 'genshinimpact',
-  'genshinimpact': 'genshinimpact',
-  '原神空月の歌': 'genshinimpact',
-  '原神空月之歌': 'genshinimpact',
-  '崩壊スターレイル': 'honkaistarrail',
-  '崩壞星穹鐵道': 'honkaistarrail',
-  'honkaistarrail': 'honkaistarrail',
-  '崩壊3rd': 'honkaiimpact3rd',
-  '崩壞3rd': 'honkaiimpact3rd',
-  'honkaiimpact3rd': 'honkaiimpact3rd',
-  'nikke': 'nikke',
-  '勝利女神nikke': 'nikke',
-  'goddessofvictorynikke': 'nikke',
-  'メガニケ': 'nikke',
-  'ゼンレスゾーンゼロ': 'zenlesszonezero',
-  '絕區零': 'zenlesszonezero',
-  'zenlesszonezero': 'zenlesszonezero',
-  'brainpuzzle3': 'brainpuzzle',
-  'brainpuzzle': 'brainpuzzle',
-  'pastale': 'pastale',
-  '粉彩世界': 'pastale',
-  // Game of Thrones: Kingsroad — 跨語言名稱合併
-  'gameofthroneskingsroad': 'got_kingsroad',
-  '왕좌의게임': 'got_kingsroad',
-  'gameofthrones': 'got_kingsroad',
-  // 七つの大罪 — 跨語言
-  '七つの大罪': 'sevendeadlysins',
-  '일곱개의대죄': 'sevendeadlysins',
-  // パズル＆ドラゴンズ — 名稱差異
-  'パズルドラゴンズ': 'puzzleanddragons',
-  'puzzledragons': 'puzzleanddragons',
-  'パズルドラゴンズpuzzledragons': 'puzzleanddragons',
-  // モンスターストライク — 跨語言
-  'モンスターストライク': 'monsterstrike',
-  '怪物彈珠': 'monsterstrike',
-  // Paranoize / パラノイズ
-  'paranoize': 'paranoize',
-  'パラノイズ': 'paranoize',
-  // UFL — 名稱差異
-  'ufl': 'ufl',
-  // DRAGON BALL LEGENDS — 跨語言
-  'dragonballlegends': 'dblegends',
-  'ドラゴンボールレジェンズ': 'dblegends',
-  // ONE PIECE Bounty Rush — 跨語言
-  'onepiecebountyrush': 'opbountyrush',
-  'onepieceバウンティラッシュ': 'opbountyrush',
-  // Lucky Defense — 跨語言
-  'luckydefense': 'luckydefense',
-  '운빨존많겜': 'luckydefense',
-  // ドラゴンクエストタクト — 名稱差異
-  'ドラゴンクエストタクト': 'dqtact',
-  'ドラゴンクエストタクトドラクエのタクティクスrpg': 'dqtact',
-  // Snake Puzzle — 名稱差異
-  'snakepuzzle': 'snakepuzzle',
-  // 呪術廻戦 ファントムパレード — 名稱差異
-  '呪術廻戦ファントムパレード': 'jjkphantomparade',
-  '呪術廻戦ファントムパレードファンパレ': 'jjkphantomparade',
-  // 밤탈출 49일 — 跨平台
-  '밤탈출': 'nightescape49',
-  // 오늘의 꽃 — 名稱差異
-  '오늘의꽃': 'todaysflower',
-  // 배고파용 키우기 — 跨平台
-  '배고파용키우기': 'hungrydragon',
-  // 멀티 키우기 — 跨平台
-  '멀티키우기': 'multigrowing',
-  // 咲庭 — 跨平台
-  '咲庭': 'sakitei',
-};
-
 function getMergeKey(dh) {
   if (!dh || !dh.name) return '';
   // 取冒號/破折號前的主標題，避免雙平台副標題不同導致無法合併
   const coreName = dh.name.split(/\s*[:\uff1a\-\u2014\u2013\|]\s*/)[0];
-  const normalized = coreName.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 30);
-  // 查對照表：若有匹配，使用統一 key
-  return GAME_ALIASES[normalized] || normalized;
+  return coreName.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/g, '').substring(0, 30);
 }
 
 /**
@@ -232,49 +136,7 @@ function findAppInAllMarkets(date, appIds) {
   return result;
 }
 
-/**
- * 起始同步：從 Firestore 拉取追蹤清單，與本機 localStorage 合併
- */
-async function initTrackedSync() {
-  if (!state.firebaseMode) return;
-  try {
-    const { loadTrackedGames } = await import('./firebase-data.js');
-    const remoteList = await loadTrackedGames(true); // forceRefresh
-    const localList = getTrackedList();
 
-    // 兼容處理：新版名稱與欄位轉換
-    remoteList.forEach(sanitizeGameItem);
-    localList.forEach(sanitizeGameItem);
-
-    // 合併：以 appId 去重，遠端優先
-    const merged = new Map();
-    localList.forEach(g => merged.set(g.appId, g));
-    remoteList.forEach(g => merged.set(g.appId, g)); // 遠端覆蓋本機
-    const mergedList = Array.from(merged.values());
-
-    saveTrackedListLocal(mergedList);
-    _trackedReady = true;
-
-    // 如果合併後有差異，回寫 Firestore
-    if (mergedList.length !== remoteList.length) {
-      const { saveTrackedGames } = await import('./firebase-data.js');
-      await saveTrackedGames(mergedList);
-    }
-
-    renderTracked();
-  } catch (err) {
-    console.warn('追蹤同步失敗，使用 localStorage:', err);
-    _trackedReady = true;
-  }
-}
-
-/** Firestore 非同步儲存（火忘即發，UI 不等待） */
-function saveTrackedToFirestore(list) {
-  if (!state.firebaseMode) return;
-  import('./firebase-data.js').then(({ saveTrackedGames }) => {
-    saveTrackedGames(list).catch(err => console.warn('Firestore 儲存失敗:', err));
-  });
-}
 
 // ============ 初始化 ============
 document.addEventListener('DOMContentLoaded', () => {
@@ -435,25 +297,24 @@ function initScoreInfo() {
       <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border-glass);border-radius:var(--radius-md);padding:16px;margin-bottom:16px">
         <h4 style="font-size:14px;font-weight:700;color:var(--accent-yellow);margin-bottom:10px">信心分數 ⚡ 是什麼？</h4>
         <p style="font-size:13px;color:var(--text-secondary);margin-bottom:10px">
-          每張卡片上的 <strong style="color:var(--accent-yellow)">⚡ 數字</strong> 代表這款黑馬遊戲的**威脅度與關注價值**：
+          每張卡片上的 <strong style="color:var(--accent-yellow)">⚡ 數字</strong> 代表這款黑馬遊戲的**威脅度與關注價值**，採 1-10 分制：
         </p>
         <div style="display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--text-secondary);padding-left:4px">
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 觸發越多核心條件、名次爬升越劇烈 → 基礎分數越高</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 🏆 **名次頂端加成**：名次越頂尖（特別是空降 Top 5 / Top 3）獲得大幅加分</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 🌍 **大市場權重**：在商業價值高的大市場（如日、美、韓）出現，加權分越高</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 🌍 **多市場同步**：同款遊戲在越多市場被偵測為黑馬，每個額外市場貢獻其分數的 **30% 加成**，3 市場以上另有一致性乘數加持</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-cyan)">▸</span> 👀 **黑馬保留期**：一經判定，只要仍維持在 **Top 20**，信心分數會隨時間衰減（每天 −15%），分數降至門檻以下才會移出</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--text-muted)">▸</span> <strong>1-3 輕微異動</strong>：排名有變動但幅度不大，持續觀察即可</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-green)">▸</span> <strong>4-6 值得留意</strong>：明確的上升訊號，建議關注後續走勢</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-yellow)">▸</span> <strong>7-9 強烈訊號</strong>：多重觸發條件命中，高度值得深入研究</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-red)">▸</span> <strong>10 爆發級</strong>：極端異常竄升，立即關注</div>
         </div>
       </div>
 
       <div style="display:flex;gap:12px;justify-content:center;padding:10px 0 0">
         <div style="display:flex;align-items:center;gap:6px;padding:6px 14px;border-radius:20px;background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.2)">
           <span style="font-size:14px">📌</span>
-          <span style="font-size:12px;font-weight:600;color:var(--accent-green)">≥ 3.0 值得留意</span>
+          <span style="font-size:12px;font-weight:600;color:var(--accent-green)">4-6 值得留意</span>
         </div>
         <div style="display:flex;align-items:center;gap:6px;padding:6px 14px;border-radius:20px;background:rgba(234,179,8,0.1);border:1px solid rgba(234,179,8,0.2)">
           <span style="font-size:14px">🔥</span>
-          <span style="font-size:12px;font-weight:600;color:var(--accent-yellow)">≥ 5.0 建議深入</span>
+          <span style="font-size:12px;font-weight:600;color:var(--accent-yellow)">7+ 強烈訊號</span>
         </div>
       </div>
     `;
@@ -556,18 +417,10 @@ function populateDateSelector() {
   }).join('');
 }
 
-// ============ 全域淨化黑馬資料（同步最新排行） ============
+// ============ 全域淨化黑馬資料 ============
 function sanitizeDarkhorses() {
-  if (!state.darkhorses) return;
-  state.darkhorses.forEach(dh => {
-    // 兼容處理：統一使用 sanitizeGameItem 處理新舊 Schema 差異
-    sanitizeGameItem(dh);
-
-    // 注意：不可修改 dh.markets 或 dh.currentRank，原始數據在偵測時已經是正確的
-
-    // 備註：不再於此處就地（in-place）覆寫 triggers[].detail 的排名文字，
-    // 以便保留首偵當下的起點排名，改由 formatTriggerDetail 在渲染時動態對比並呈現軌跡。
-  });
+  // 目前後端 Schema 已統一，此函式保留空殼供 loadData 呼叫
+  // 未來若有資料清理需求可在此擴充
 }
 
 // ============ 載入資料（Firebase 優先，data.js fallback）============
@@ -662,33 +515,11 @@ async function ensureSnapshotLoaded(date, market) {
 async function preloadAllMarketSnapshots(date) {
   const promises = MARKETS.map(m => ensureSnapshotLoaded(date, m.code).catch(() => {}));
   await Promise.all(promises);
-  enrichDarkhorseMarketsFromSnapshots(date); // 從快照補齊黑馬的市場國旗
   renderStats(); // 全部載完後刷新統計數字
   renderDarkhorses(); // 重新渲染黑馬卡片（國旗 + 排行可能有更新）
-
 }
 
-/**
- * 從快照資料補齊黑馬的 markets 陣列
- * 掃描所有市場的最新快照，找出每個黑馬遊戲在哪些市場的 Top 100 內有上榜
- * 只要有上榜就補上該市場的國旗（只增不減）
- */
-function enrichDarkhorseMarketsFromSnapshots(date) {
-  if (!state.darkhorses || !state.snapshots[date]) return;
-  const allIds = new Set(state.darkhorses.map(d => d.appId));
-  const appMarketMap = findAppInAllMarkets(date, allIds);
 
-  for (const dh of state.darkhorses) {
-    const found = appMarketMap.get(dh.appId);
-    if (!found || found.length === 0) continue;
-    if (!dh.markets) dh.markets = [];
-    for (const entry of found) {
-      if (!dh.markets.find(m => m.code === entry.code)) {
-        dh.markets.push({ code: entry.code, flag: getFlag(entry.code), name: MARKETS.find(mk => mk.code === entry.code)?.name || entry.code, rank: entry.rank });
-      }
-    }
-  }
-}
 
 function hideLoadingOverlay() {
   const overlay = document.getElementById('loadingOverlay');
@@ -845,15 +676,7 @@ function renderDarkhorses() {
         else if (!existing.markets.find(em => em.code === dh.market)) existing.markets.push({ code: dh.market, flag: getFlag(dh.market), name: dh.marketName, rank: dh.currentRank });
       }
 
-      // 合併排行資訊 (將 dh.markets 的所有排名都加入 _chartRanks)
-      const chartLabel = dh.chartType === 'grossing' ? '營收' : '免費';
-      const sourceMarkets = dh.markets || [{ code: dh.market, flag: getFlag(dh.market), rank: dh.currentRank }];
-      sourceMarkets.forEach(m => {
-        const mf = getFlag(m.code) || m.flag || '';
-        if (!existing._chartRanks.find(cr => cr.chartLabel === chartLabel && cr.platform === dh.platform && cr.marketFlag === mf)) {
-          existing._chartRanks.push({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: mf, marketCode: m.code || '' });
-        }
-      });
+      // 合併排行資訊 _chartRanks 已移除 — 改用 _topRanks 作為唯一排名來源
       // 合併 _topRanks（跨平台排名合併）
       if (dh._topRanks && dh._topRanks.length > 0) {
         if (!existing._topRanks) existing._topRanks = [];
@@ -927,9 +750,6 @@ function renderDarkhorses() {
         markets: initialMarkets,
         triggers: taggedTriggers,
         _platforms: [dh.platform],
-        _chartRanks: initialMarkets.length > 0
-          ? initialMarkets.map(m => ({ chartLabel, platform: dh.platform, rank: m.rank || dh.currentRank, marketFlag: getFlag(m.code) || m.flag || '', marketCode: m.code || '' }))
-          : [{ chartLabel, platform: dh.platform, rank: dh.currentRank, marketFlag: getFlag(dh.market) || dh.marketFlag || '', marketCode: dh.market || '' }],
         _rankHistoryByLine: (() => {
           const lines = {};
           // 優先用後端提供的 _rankHistoryByMarket（各市場獨立歷史）
@@ -966,134 +786,21 @@ function renderDarkhorses() {
     });
   }
 
-  // 後處理：從快照補充市場國旗 + 排行資訊（掃描所有可用日期，Top 100 有出現就顯示國旗）
-  // 排名一律取「最新日期」的排名，而非歷史最佳排名
-  {
-    // 收集所有卡片的 appId
-    const allCardIds = new Set();
-    for (const card of filtered) allCardIds.add(card.appId);
-    // 掃描所有日期的快照，合併結果（按日期正序，後者覆蓋前者 = 最新排名）
-    const allMarketResults = new Map();
-    for (const snapDate of state.availableDates) {
-      if (!state.snapshots[snapDate]) continue;
-      const dayResults = findAppInAllMarkets(snapDate, allCardIds);
-      for (const [aid, entries] of dayResults) {
-        if (!allMarketResults.has(aid)) allMarketResults.set(aid, []);
-        const arr = allMarketResults.get(aid);
-        for (const entry of entries) {
-          const existing = arr.find(e => e.code === entry.code && e.platform === entry.platform && e.chartType === entry.chartType);
-          if (!existing) {
-            arr.push({ ...entry, _snapDate: snapDate });
-          } else if (snapDate >= (existing._snapDate || '')) {
-            // 用更新日期的排名覆蓋（即使新排名較差）
-            existing.rank = entry.rank;
-            existing._snapDate = snapDate;
-          }
-        }
-      }
-    }
-
-    for (const card of filtered) {
-      if (!card.markets) card.markets = [];
-      if (!card._chartRanks) card._chartRanks = [];
-      const found = allMarketResults.get(card.appId);
-      if (!found) continue;
-      for (const entry of found) {
-        // 補充市場國旗
-        const existingMarket = card.markets.find(m => m.code === entry.code);
-        if (!existingMarket) {
-          card.markets.push({ code: entry.code, flag: getFlag(entry.code), name: MARKETS.find(mk => mk.code === entry.code)?.name || entry.code, rank: entry.rank });
-        } else if (entry.rank) {
-          existingMarket.rank = entry.rank; // 用最新日期的排名覆蓋
-        }
-        // 補充排行資訊（_chartRanks）— 同市場同榜同平台才算重複
-        const chartLabel = entry.chartType === 'grossing' ? '營收' : '免費';
-        const mf = getFlag(entry.code);
-        if (!card._chartRanks.find(cr => cr.chartLabel === chartLabel && cr.platform === entry.platform && cr.marketFlag === mf)) {
-          card._chartRanks.push({ chartLabel, platform: entry.platform, rank: entry.rank, marketFlag: mf, marketCode: entry.code || '' });
-        }
-      }
-    }
-
-    // 補充：將 _topRanks 裡有但 markets 沒有的市場加進去
-    // （例如奧丁在韓國 iOS 有排名，但偵測時只在台灣觸發，韓國只進了 _topRanks 沒進 markets）
-    for (const card of filtered) {
-      if (!card._topRanks || card._topRanks.length === 0) continue;
-      if (!card.markets) card.markets = [];
-      for (const tr of card._topRanks) {
-        const existing = card.markets.find(m => m.code === tr.marketCode);
-        if (!existing) {
-          card.markets.push({
-            code: tr.marketCode,
-            flag: tr.marketFlag || getFlag(tr.marketCode),
-            name: MARKETS.find(mk => mk.code === tr.marketCode)?.name || tr.marketCode,
-            rank: tr.rank
-          });
-        } else if (tr.rank && !existing.rank) {
-          existing.rank = tr.rank;
-        }
-      }
-    }
-  }
-
-  // 後處理：移除已落榜的 _chartRanks
-  // 用最新快照比對，如果該市場+平台+榜有快照資料但 app 不在其中 → 落榜，移除
-  {
-    const latestSnapDate = state.availableDates?.[state.availableDates.length - 1] || '';
-    if (latestSnapDate && state.snapshots[latestSnapDate]) {
-      const cardIds = new Set(filtered.map(c => c.appId));
-      const latestResults = findAppInAllMarkets(latestSnapDate, cardIds);
-      for (const card of filtered) {
-        if (!card._chartRanks || card._chartRanks.length === 0) continue;
-        const latestEntries = latestResults.get(card.appId) || [];
-        card._chartRanks = card._chartRanks.filter(cr => {
-          // 檢查最新快照是否有該市場+平台+榜的資料
-          const chartTypeKey = cr.chartLabel === '營收' ? 'grossing' : 'topfree';
-          const mktData = state.snapshots[latestSnapDate]?.[cr.marketCode];
-          const hasSnapshotData = mktData?.[cr.platform]?.[chartTypeKey]?.data?.length > 0;
-          if (!hasSnapshotData) return true; // 最新快照沒這個市場的資料 → 無法判斷，保留
-          // 最新快照有資料，檢查 app 是否仍在榜上
-          return latestEntries.some(e =>
-            e.code === cr.marketCode &&
-            e.platform === cr.platform &&
-            e.chartType === chartTypeKey
-          );
-        });
-      }
-    }
-  }
-
-  // 後處理：用最新 rankHistory 更新 markets 排名（消除偵測時間差造成的矛盾）
+  // 後處理：將 _topRanks 裡有但 markets 沒有的市場加進去
   for (const card of filtered) {
-    if (!card._rankHistoryByLine || !card.markets) continue;
-    for (const line of Object.values(card._rankHistoryByLine)) {
-      if (!line.data || line.data.length === 0) continue;
-      const sorted = [...line.data].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
-      const latestRank = sorted[sorted.length - 1]?.rank;
-
-      if (latestRank) {
-        // 有排名 → 更新
-        const mkt = card.markets.find(m => m.code === line.market);
-        if (mkt) mkt.rank = latestRank;
-        if (card._chartRanks) {
-          const mf = getFlag(line.market);
-          const chartLabelForLine = line.chartType === 'grossing' ? '營收' : '免費';
-          const cr = card._chartRanks.find(c =>
-            c.marketFlag === mf &&
-            c.chartLabel === chartLabelForLine &&
-            c.platform === line.platform
-          );
-          if (cr) cr.rank = latestRank;
-        }
-      } else {
-        // 落榜 → 移除該筆 chartRank（卡片不再顯示過期排名）
-        if (card._chartRanks) {
-          const mf = getFlag(line.market);
-          const chartLabelForLine = line.chartType === 'grossing' ? '營收' : '免費';
-          card._chartRanks = card._chartRanks.filter(c =>
-            !(c.marketFlag === mf && c.chartLabel === chartLabelForLine && c.platform === line.platform)
-          );
-        }
+    if (!card._topRanks || card._topRanks.length === 0) continue;
+    if (!card.markets) card.markets = [];
+    for (const tr of card._topRanks) {
+      const existing = card.markets.find(m => m.code === tr.marketCode);
+      if (!existing) {
+        card.markets.push({
+          code: tr.marketCode,
+          flag: tr.marketFlag || getFlag(tr.marketCode),
+          name: MARKETS.find(mk => mk.code === tr.marketCode)?.name || tr.marketCode,
+          rank: tr.rank
+        });
+      } else if (tr.rank && !existing.rank) {
+        existing.rank = tr.rank;
       }
     }
   }
@@ -1265,14 +972,7 @@ function renderDarkhorses() {
     const releasedDate = rawReleased ? (() => { try { const d = new Date(rawReleased); return isNaN(d) ? rawReleased : d.toISOString().split('T')[0]; } catch { return rawReleased; } })() : '';
     // === 排名計算（必須在國旗 HTML 之前） ===
     // 直接使用後端從今日快照算好的 _topRanks（已按名次排序）
-    let chartRanks;
-    if (dh._topRanks && dh._topRanks.length > 0) {
-      chartRanks = dh._topRanks;
-    } else if (dh._chartRanks && dh._chartRanks.length > 0) {
-      chartRanks = dh._chartRanks;
-    } else {
-      chartRanks = [{ chartLabel: dh.chartType === 'grossing' ? '營收' : '免費', platform: dh.platform, rank: dh.currentRank, marketFlag: dh.marketFlag || '' }];
-    }
+    const chartRanks = (dh._topRanks && dh._topRanks.length > 0) ? dh._topRanks : [];
 
     const hasMultiMarkets = dh.markets && dh.markets.length > 1;
     const displayRanks = chartRanks.slice(0, 2);
@@ -1354,11 +1054,11 @@ function renderDarkhorses() {
 
   // 強制瀏覽器重繪 emoji 國旗（解決大量卡片渲染時 emoji 消失問題）
   requestAnimationFrame(() => {
-    listEl.querySelectorAll('.dh-tag.market, .dh-rank-row').forEach(el => {
+    grid.querySelectorAll('.dh-tag.market, .dh-rank-row').forEach(el => {
       el.style.willChange = 'contents';
     });
     requestAnimationFrame(() => {
-      listEl.querySelectorAll('.dh-tag.market, .dh-rank-row').forEach(el => {
+      grid.querySelectorAll('.dh-tag.market, .dh-rank-row').forEach(el => {
         el.style.willChange = '';
       });
     });
@@ -1766,11 +1466,11 @@ function showAnalysis(appId, platform) {
 
   const allAppIds = Array.from(new Set(allDh.map(d => d.appId).concat([appId])));
   let dh = allDh.find(d => d.appId === appId && d.platform === platform) || allDh.find(d => allAppIds.includes(d.appId)) || allDh[0];
-  // 優先使用合併後的 dh（state.mergedDarkhorses），因為它才有完整的 _chartRanks 資料
-  // 原始 state.darkhorses 的 dh 沒有經過合併與快照補充，排序資訊不完整
+  // 優先使用合併後的 dh（state.mergedDarkhorses），因為它才有完整的合併資料
+  // 原始 state.darkhorses 的 dh 沒有經過合併，資訊不完整
   if (state.mergedDarkhorses) {
     const mergedDh = state.mergedDarkhorses.find(d => d.appId === appId) || state.mergedDarkhorses.find(d => allAppIds.includes(d.appId));
-    if (mergedDh && mergedDh._chartRanks && mergedDh._chartRanks.length > 0) {
+    if (mergedDh) {
       dh = mergedDh;
     }
   }
@@ -1807,7 +1507,7 @@ function showAnalysis(appId, platform) {
     }
   }
 
-  // 找出該遊戲所有上榜的市場（dh.markets 已由 enrichDarkhorseMarketsFromSnapshots 統一補齊）
+  // 找出該遊戲所有上榜的市場
   const uniqueMarketsMap = new Map();
 
   // 從所有相關 darkhorse 條目收集市場
@@ -1883,31 +1583,11 @@ function showAnalysis(appId, platform) {
       name: marketObj.name
     });
   }
-  // 按卡片外層相同的加權排序邏輯排列（直接重算，不依賴 _sortedMarketOrder）
-  // 與卡片渲染 L1172-1198 完全相同的邏輯
-  const MODAL_RANK_MARKET_WEIGHTS = {
-    '🇯🇵': 1.6, '🇺🇸': 1.5, '🇰🇷': 1.4, '🇨🇳': 1.3,
-    '🇹🇼': 1.0, '🇹🇭': 1.0, '🇻🇳': 1.0, '🇵🇭': 0.9,
-  };
-  // 從 _chartRanks 計算每個國家的最佳加權分數
-  const chartRanks = dh._chartRanks || [];
-  const marketBestScore = {}; // code -> best weighted score
-  chartRanks.forEach(cr => {
-    const code = cr.marketCode || '';
-    if (!code) return;
-    const weighted = cr.rank * (cr.chartLabel === '營收' ? 0.5 : 1);
-    if (marketBestScore[code] === undefined || weighted < marketBestScore[code]) {
-      marketBestScore[code] = weighted;
-    }
-  });
+  // 簡化排序：直接按排名昇序
   modalMarkets.sort((a, b) => {
-    const sa = marketBestScore[a.code] ?? 9999;
-    const sb = marketBestScore[b.code] ?? 9999;
-    if (sa !== sb) return sa - sb;
-    // 同分時按市場權重排
-    const flagA = getFlag(a.code) || '';
-    const flagB = getFlag(b.code) || '';
-    return (MODAL_RANK_MARKET_WEIGHTS[flagB] || 0.5) - (MODAL_RANK_MARKET_WEIGHTS[flagA] || 0.5);
+    const ra = a.rank ?? 9999;
+    const rb = b.rank ?? 9999;
+    return ra - rb;
   });
 
   // 決定初始市場：取排名最好的市場（與外層卡片排序一致）
@@ -2355,27 +2035,11 @@ function showAnalysis(appId, platform) {
           }
 
           const newModalMarkets = Array.from(refreshedMarkets.values());
-          const refreshChartRanks = dh._chartRanks || [];
-          const refreshBestScore = {};
-          refreshChartRanks.forEach(cr => {
-            const code = cr.marketCode || '';
-            if (!code) return;
-            const weighted = cr.rank * (cr.chartLabel === '營收' ? 0.5 : 1);
-            if (refreshBestScore[code] === undefined || weighted < refreshBestScore[code]) {
-              refreshBestScore[code] = weighted;
-            }
-          });
-          const REFRESH_MARKET_WEIGHTS = {
-            '🇯🇵': 1.6, '🇺🇸': 1.5, '🇰🇷': 1.4, '🇨🇳': 1.3,
-            '🇹🇼': 1.0, '🇹🇭': 1.0, '🇻🇳': 1.0, '🇵🇭': 0.9,
-          };
+          // 簡化排序：直接按排名昇序
           newModalMarkets.sort((a, b) => {
-            const sa = refreshBestScore[a.code] ?? 9999;
-            const sb = refreshBestScore[b.code] ?? 9999;
-            if (sa !== sb) return sa - sb;
-            const flagA = getFlag(a.code) || '';
-            const flagB = getFlag(b.code) || '';
-            return (REFRESH_MARKET_WEIGHTS[flagB] || 0.5) - (REFRESH_MARKET_WEIGHTS[flagA] || 0.5);
+            const ra = a.rank ?? 9999;
+            const rb = b.rank ?? 9999;
+            return ra - rb;
           });
 
           // 更新市場標籤按鈕

@@ -12,7 +12,7 @@ import {
   MARKETS,
   CHART_TYPES,
   DARKHORSE_CONFIG,
-  MARKET_WEIGHTS,
+  ESTABLISHED_THRESHOLD,
   SNAPSHOTS_DIR,
   DARKHORSE_DIR,
 } from '../config.js';
@@ -121,7 +121,7 @@ function getSnapshotGapInfo(history, recentDays = 7) {
 
 /**
  * 偵測策略 1: 排名急升
- * 7 天內排名上升 ≥ 30 名
+ * 7 天內排名上升 ≥ 30 名，且起始排名必須 ≥ 40（排除原本就在前段的遊戲）
  * gapInfo: snapshot 斷層資訊，有斷層時提高門檻避免誤判
  */
 function detectRankJump(app, history, gapInfo) {
@@ -136,6 +136,9 @@ function detectRankJump(app, history, gapInfo) {
 
   if (oldestRank === null || currentRank === null) return null;
 
+  // 起始排名必須 ≥ 40，已在 Top 39 的遊戲不算黑馬急升
+  if (oldestRank < 40) return null;
+
   // 有 snapshot 斷層時提高門檻（斷層可能導致中間的漸進式變化被忽略）
   let threshold = DARKHORSE_CONFIG.rankJumpThreshold;
   if (gapInfo && gapInfo.hasSignificantGap) {
@@ -145,11 +148,16 @@ function detectRankJump(app, history, gapInfo) {
   const jump = oldestRank - currentRank;
   if (jump >= threshold) {
     const gapNote = (gapInfo && gapInfo.hasSignificantGap) ? '（⚠️ 有快照斷層，門檻已提高）' : '';
+    // 分段計分：jump 30-50 → 3, 50-70 → 5, 70+ → 7
+    let score;
+    if (jump >= 70) score = 7;
+    else if (jump >= 50) score = 5;
+    else score = 3;
     return {
       strategy: 'rank_jump',
       label: '🚀 排名急升',
       detail: `${validHistory.length} 天內排名從 #${oldestRank} 升至 #${currentRank}（↑${jump} 名）${gapNote}`,
-      score: Math.min(jump / DARKHORSE_CONFIG.rankJumpThreshold, 3),
+      score,
     };
   }
   return null;
@@ -174,6 +182,16 @@ function detectNewEntry(app, history, gapInfo) {
 
   const maxRank = DARKHORSE_CONFIG.newEntryMaxRank;
 
+  // 分段計分
+  function getNewEntryScore(rank) {
+    if (rank <= 5) return 7;
+    if (rank <= 10) return 6;
+    if (rank <= 20) return 5;
+    if (rank <= 30) return 4;
+    if (rank <= 50) return 3;
+    return 2;
+  }
+
   // 情況 B（優先）：首次衝入 Top N（之前在榜但一直在 Top N 外）
   // 例如：grossing 從 #71 衝到 #25，雖然已在 Top 100 但首次進入 Top 30
   if (validHistory.length >= 2 && validHistory.length <= DARKHORSE_CONFIG.newEntryDays) {
@@ -184,7 +202,7 @@ function detectNewEntry(app, history, gapInfo) {
         strategy: 'new_entry',
         label: '🆕 新進榜',
         detail: `強勢衝進 Top ${maxRank}，偵測當下排名 #${currentRank}`,
-        score: currentRank <= 10 ? 3.0 : currentRank <= 20 ? 2.5 : 2.0,
+        score: getNewEntryScore(currentRank),
       };
     }
   }
@@ -205,7 +223,7 @@ function detectNewEntry(app, history, gapInfo) {
       strategy: 'new_entry',
       label: '🆕 新進榜',
       detail: `首次進入 Top 100，目前排名 #${currentRank}${gapNote}`,
-      score: currentRank <= 10 ? 3 : currentRank <= 20 ? 2.5 : 2,
+      score: getNewEntryScore(currentRank),
     };
   }
 
@@ -215,7 +233,7 @@ function detectNewEntry(app, history, gapInfo) {
 
 /**
  * 偵測策略 3: 持續攀升
- * 連續 N 天排名上升
+ * 連續 N 天排名上升，且起始排名必須 ≥ 30（排除原本就在前段的遊戲）
  */
 function detectConsecutiveRise(app, history) {
   const validHistory = history.filter(h => h.rank !== null);
@@ -233,11 +251,21 @@ function detectConsecutiveRise(app, history) {
   if (consecutiveRise >= DARKHORSE_CONFIG.consecutiveRiseDays) {
     const firstRank = validHistory[validHistory.length - consecutiveRise - 1].rank;
     const currentRank = validHistory[validHistory.length - 1].rank;
+
+    // 起始排名必須 ≥ 30，從 #5→#4→#3→#2→#1 不算黑馬
+    if (firstRank < 30) return null;
+
+    // 分段計分：5-7 天 → 3, 8-10 天 → 5, 10+ 天 → 7
+    let score;
+    if (consecutiveRise > 10) score = 7;
+    else if (consecutiveRise >= 8) score = 5;
+    else score = 3;
+
     return {
       strategy: 'consecutive_rise',
       label: '📈 持續攀升',
       detail: `連續 ${consecutiveRise} 天上升（#${firstRank} → #${currentRank}）`,
-      score: Math.min(consecutiveRise / DARKHORSE_CONFIG.consecutiveRiseDays, 2),
+      score,
     };
   }
   return null;
@@ -271,33 +299,43 @@ function detectGrowthMultiplier(app, history, gapInfo) {
   if (recentAvg <= 0 || longAvg <= 0) return null;
   const multiplier = longAvg / recentAvg;
 
+  // 近 3 天平均排名必須 ≤ 50（遊戲必須已爬進前半段）
+  if (recentAvg > 50) return null;
+
   const threshold = DARKHORSE_CONFIG.growthMultiplierThreshold || 2.5;
   if (multiplier >= threshold) {
     const gapNote = (gapInfo && gapInfo.hasSignificantGap) ? '（⚠️ 有快照斷層）' : '';
+    // 分段計分：multiplier 2.5-3.5 → 3, 3.5-5.0 → 5, 5.0+ → 7
+    let score;
+    if (multiplier >= 5.0) score = 7;
+    else if (multiplier >= 3.5) score = 5;
+    else score = 3;
     return {
       strategy: 'growth_multiplier',
       label: '📊 成長加速',
       detail: `成長倍率 ${multiplier.toFixed(1)}×（近 ${shortWindow} 天平均 #${Math.round(recentAvg)} vs 近 ${longWindow} 天平均 #${Math.round(longAvg)}）${gapNote}`,
-      score: Math.min(multiplier / threshold, 2.5),
+      score,
     };
   }
   return null;
 }
 
 /**
- * 排名權重：排名越高（數字越小）越重要
- * 擴展到 Top 100 支援
+ * 檢查遊戲是否為「已確立遊戲」（established）
+ * 在近 window 天內有 days 天以上排名在 Top maxRank → 排除
  */
-function getRankWeight(rank) {
-  if (rank <= 5)  return 2.0;
-  if (rank <= 10) return 1.5;
-  if (rank <= 20) return 1.2;
-  if (rank <= 50) return 1.0;
-  if (rank <= 100) return 0.7;
-  return 0.5;
+function isEstablishedGame(appId, marketCode, platform, chartTypeId) {
+  const { days, window, maxRank } = ESTABLISHED_THRESHOLD;
+  let topDays = 0;
+  for (let i = 0; i < window; i++) {
+    const dateStr = getDateStr(i);
+    const snapshot = loadSnapshot(dateStr, marketCode, platform, chartTypeId);
+    if (!snapshot || !snapshot.data) continue;
+    const found = snapshot.data.find(a => a.appId === appId);
+    if (found && found.rank <= maxRank) topDays++;
+  }
+  return topDays >= days;
 }
-
-// 市場權重已從 config.js 匯入（按榜類型區分：topfree / grossing）
 
 /**
  * 主偵測邏輯
@@ -374,8 +412,6 @@ async function main() {
       continue;
     }
 
-    // 按榜類型查詢市場權重（config.js 中定義了 topfree / grossing 各自的權重表）
-
     for (const chartType of CHART_TYPES) {
       const marketPlatforms = market.hasGooglePlay ? platforms : ['ios'];
 
@@ -443,6 +479,9 @@ async function main() {
             if (typeof app.score === 'number' && app.score < DARKHORSE_CONFIG.minScore) continue;
             if (app.rank > DARKHORSE_CONFIG.maxCurrentRank) continue;
 
+            // 已確立遊戲排除：在近 14 天有 10+ 天排名在 Top 20 → 不是黑馬
+            if (isEstablishedGame(app.appId, market.code, platform, chartType.id)) continue;
+
             // 整合歷史偵測觸發器與首次偵測日期鎖定
             const yesterdayKey = app.appId + '|' + platform + '|' + chartType.id;
             const yesterdayDh = yesterdayDhMap.get(yesterdayKey);
@@ -480,11 +519,12 @@ async function main() {
               mergedTriggers = triggers;
             }
 
-            // 使用合併後的所有觸發器計算信心分數，避免隔天因新觸發策略變少而分數暴跌
-            const baseScore = mergedTriggers.reduce((sum, t) => sum + (t.score || 0), 0);
-            const rankWeight = getRankWeight(app.rank);
-            const marketWeight = (MARKET_WEIGHTS[chartType.id] || {})[market.code] || 1.0;
-            const finalScore = baseScore * rankWeight * marketWeight;
+            // 簡化信心分數：最高觸發分 + 額外觸發數 × 1（上限 3），封頂 10
+            const triggerScores = mergedTriggers.map(t => t.score || 0);
+            const baseScore = Math.max(...triggerScores);
+            const bonus = Math.min(triggerScores.length - 1, 3);
+            const finalScore = Math.min(baseScore + bonus, 10);
+
             allDarkhorses.push({
               market: market.code,
               marketName: market.name,
@@ -514,23 +554,8 @@ async function main() {
   // 按信心分數排序
   allDarkhorses.sort((a, b) => b.confidenceScore - a.confidenceScore);
 
-  // 信心分數過濾：低於門檻的不列為黑馬
-  // 但加入「關聯保留」：同一 appId 若已在其他 chartType 通過門檻，則此筆也保留
-  // 例如：免費榜高分黑馬的營收榜表現，即使 grossing 信心分數低也應保留
-  const highConfidenceAppIds = new Set(
-    allDarkhorses.filter(d => d.confidenceScore >= DARKHORSE_CONFIG.minConfidence).map(d => d.appId)
-  );
-  const beforeFilter = allDarkhorses.length;
-  const filtered = allDarkhorses.filter(d => {
-    if (d.confidenceScore >= DARKHORSE_CONFIG.minConfidence) return true;
-    // 關聯保留：同遊戲在其他排行已是黑馬 → 保留此筆
-    if (highConfidenceAppIds.has(d.appId)) return true;
-    return false;
-  });
-  const removedCount = beforeFilter - filtered.length;
-  if (removedCount > 0) {
-    console.log(`\n🧹 品質過濾: 移除 ${removedCount} 匹（評分 < ${DARKHORSE_CONFIG.minScore} 或信心 < ${DARKHORSE_CONFIG.minConfidence}）`);
-  }
+  // 不再按 minConfidence 過濾 — 只要觸發器觸發，就是黑馬
+  const filtered = allDarkhorses;
 
   // ============ 跨市場合併 ============
   // 同一款遊戲（同 appId + 同平台）在多個市場出現時，合併為一張卡片
@@ -575,34 +600,6 @@ async function main() {
   }
 
 
-  // ============ 多市場加分 ============
-  // 同一遊戲在越多市場被偵測為黑馬，信心分數越高
-  // 加分公式：基礎分（單市場最高分）+ 額外市場數 × 加分係數
-  // 加分係數按市場權重加權，大市場（日/美/韓）貢獻更高
-  for (const [, dh] of mergedMap) {
-    if (dh.markets.length <= 1) continue;
-
-    // 所有市場分數按高到低排序
-    const sortedScores = dh.markets.map(m => m.score).sort((a, b) => b - a);
-    const baseScore = sortedScores[0]; // 已經是最高分
-
-    // 額外市場加分：每個額外市場貢獻其分數的 30%
-    let multiMarketBonus = 0;
-    for (let i = 1; i < sortedScores.length; i++) {
-      multiMarketBonus += sortedScores[i] * 0.3;
-    }
-
-    // 多市場一致性加成：出現在 3+ 市場 = 1.15×，5+ 市場 = 1.3×
-    let consistencyMultiplier = 1.0;
-    if (dh.markets.length >= 5) {
-      consistencyMultiplier = 1.3;
-    } else if (dh.markets.length >= 3) {
-      consistencyMultiplier = 1.15;
-    }
-
-    const newScore = (baseScore + multiMarketBonus) * consistencyMultiplier;
-    dh.confidenceScore = Math.round(newScore * 100) / 100;
-  }
 
   // ============ 市場國旗與排名顯示 ============
   // 規則：所有歷史快照中有撈到（Top 100 以內）就顯示該市場國旗
@@ -691,12 +688,10 @@ async function main() {
   }
 
   // ============ 黑馬保留機制 ============
-  // 過去 N 天曾被偵測為黑馬的遊戲，如果今天仍在榜上且排名夠高，就繼續保留
-  // 衰減公式：信心分數 * 0.85^(天數)，越久衰減越多
-  const retentionDays = DARKHORSE_CONFIG.retentionDays || 30;
-  const retentionMinRank = DARKHORSE_CONFIG.maxCurrentRank || 100;  // 仍在 Top 100 就保留（與偵測範圍一致）
-  const retentionMinScore = 3.0;   // 衰減後信心分數需 >= 3.0
-  const decayRate = 0.85;          // 每天衰減 15%
+  // 過去 14 天曾被偵測為黑馬的遊戲，如果今天仍在 Top 100，保留原始信心分數（不衰減）
+  // 超過 14 天：完全移除
+  const retentionDays = DARKHORSE_CONFIG.retentionDays || 14;
+  const retentionMinRank = DARKHORSE_CONFIG.maxCurrentRank || 100;
   const existingIds = new Set(mergedDarkhorses.map(d => d.appId));
   let retainedCount = 0;
 
@@ -714,9 +709,6 @@ async function main() {
         if (!todaySnap || !todaySnap.data) continue;
         const todayApp = todaySnap.data.find(a => a.appId === pastDh.appId);
         if (!todayApp || todayApp.rank > retentionMinRank) continue;
-        // 時間衰減
-        const decayedScore = pastDh.confidenceScore * Math.pow(decayRate, daysAgo);
-        if (decayedScore < retentionMinScore) continue;
         // 補齊 rankHistory：從上次已知日期到今天
         const existingHistory = pastDh.rankHistory || [];
         const lastKnownDate = existingHistory.length > 0
@@ -745,7 +737,7 @@ async function main() {
           }
           cursor.setDate(cursor.getDate() + 1);
         }
-        // 修正：保留黑馬時，掃描今天快照更新「所有市場」的排名，而非只更新主市場
+        // 保留黑馬時，掃描今天快照更新「所有市場」的排名
         const updatedMarkets = (pastDh.markets || []).map(m => {
           const snap = loadSnapshot(today, m.code, pastDh.platform, pastDh.chartType);
           if (snap && snap.data) {
@@ -755,10 +747,11 @@ async function main() {
           return m;
         });
 
+        // 保留原始信心分數，不衰減（限制在 1-10 範圍，兼容舊算法的高分）
         const retained = {
           ...pastDh,
           currentRank: todayApp.rank,
-          confidenceScore: Math.round(decayedScore * 100) / 100,
+          confidenceScore: Math.min(pastDh.confidenceScore, 10),
           rankHistory: extendedHistory,
           _retained: true,
           _retainedFrom: pastDate,
@@ -776,6 +769,13 @@ async function main() {
     mergedDarkhorses.sort((a, b) => b.confidenceScore - a.confidenceScore);
   }
 
+  // 總數上限（避免超過 Firestore 1MB 文件限制）
+  const MAX_DARKHORSES = 300;
+  if (mergedDarkhorses.length > MAX_DARKHORSES) {
+    const trimmed = mergedDarkhorses.length - MAX_DARKHORSES;
+    mergedDarkhorses.length = MAX_DARKHORSES;
+    console.log(`✂️ 黑馬總數限制: 保留前 ${MAX_DARKHORSES} 匹（移除 ${trimmed} 匹低分黑馬）`);
+  }
 
   // ============ 跨平台自動配對 ============
   // 用開發商名稱從快照中找到同款遊戲在另一平台的 appId

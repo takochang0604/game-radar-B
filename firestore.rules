@@ -73,5 +73,17 @@ service cloud.firestore {
       allow write: if false;
     }
 
+    // ============================================================
+    // 遊戲競爭力分析 — 測試版（dev 分支用，同正式版權限）
+    // ============================================================
+    match /gameAnalysis-dev/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /gameAnalysis-dev/{docId}/{sub=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+
   }
 }
