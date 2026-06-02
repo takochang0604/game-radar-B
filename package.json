@@ -18,6 +18,7 @@
   "dependencies": {
     "@perttu/app-store-scraper": "^2.0.0",
     "firebase-admin": "^13.8.0",
-    "google-play-scraper": "^9.1.1"
+    "google-play-scraper": "^9.1.1",
+    "googleapis": "^173.0.0"
   }
 }
