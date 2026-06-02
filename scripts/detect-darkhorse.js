@@ -918,35 +918,53 @@ async function main() {
 
   // ============ 計算 _topRanks（今日快照實際排名） ============
   // 直接查今天的排行榜資料，找該遊戲在所有市場×平台的排名
+  function normNameForMatch(n) { return (n || '').toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af\u0e00-\u0e7f]/g, ''); }
+
   for (const dh of mergedDarkhorses) {
     const appIds = new Set([dh.appId, ...(dh._siblingAppIds || [])]);
     const ranks = [];
-    const foundMarketPlatform = new Set(); // 避免同市場同平台重複
+    const foundMarketPlatform = new Set();
+    const dhNorm = normNameForMatch(dh.name);
+
     for (const market of MARKETS) {
       for (const scanPlatform of ['ios', 'android']) {
         if (scanPlatform === 'android' && !market.hasGooglePlay) continue;
         const snap = loadSnapshot(today, market.code, scanPlatform, dh.chartType);
         if (!snap || !snap.data) continue;
         const dedupKey = `${market.code}_${scanPlatform}`;
-        // 先用 appId 比對
         let matched = null;
+
+        // 1. appId 精確比對
         for (const appId of appIds) {
           const entry = snap.data.find(a => a.appId === appId);
           if (entry && entry.rank <= 100) { matched = entry; break; }
         }
-        // appId 找不到時，用名稱正規化比對（處理跨語言同款，如奧丁TW vs 오딘KR）
-        if (!matched && dh.name) {
-          const dhKey = dh.name.toLowerCase().replace(/[^\w\u4e00-\u9fff\uac00-\ud7ff]/g, '').substring(0, 6);
-          if (dhKey.length >= 2) {
-            matched = snap.data.find(a => {
-              if (!a.name || !a.rank || a.rank > 100) return false;
-              const aKey = a.name.toLowerCase().replace(/[^\w\u4e00-\u9fff\uac00-\ud7ff]/g, '').substring(0, 6);
-              return aKey === dhKey;
-            });
-            // 將找到的跨語言 appId 加入 appIds 集合供後續使用
-            if (matched) appIds.add(matched.appId);
+
+        // 2. 名稱完全一致（正規化後）→ 不需開發商比對
+        //    處理同名跨平台（如 Yulgang iOS 開發商 HK Amusement vs Android 開發商 Star Entertainment）
+        if (!matched && dhNorm.length >= 3) {
+          matched = snap.data.find(a => a.rank && a.rank <= 100 && normNameForMatch(a.name) === dhNorm);
+          if (matched) appIds.add(matched.appId);
+        }
+
+        // 3. 開發商匹配 + 名稱相似度（處理跨語言版本，如奧丁TW vs 오딘KR）
+        if (!matched && dh.name && dh.developer) {
+          const dhDev = normNameForMatch(dh.developer);
+          for (const a of snap.data) {
+            if (!a.name || !a.rank || a.rank > 100 || !a.developer) continue;
+            const aDev = normNameForMatch(a.developer);
+            if (dhDev.length >= 3 && aDev.length >= 3 && (dhDev.includes(aDev) || aDev.includes(dhDev))) {
+              const aN = normNameForMatch(a.name);
+              if (aN.length >= 3 && dhNorm.length >= 3) {
+                const shorter = dhNorm.length < aN.length ? dhNorm : aN;
+                const longer = dhNorm.length >= aN.length ? dhNorm : aN;
+                const common = [...shorter].filter(c => longer.includes(c)).length;
+                if (common / shorter.length >= 0.5) { matched = a; appIds.add(a.appId); break; }
+              }
+            }
           }
         }
+
         if (matched && !foundMarketPlatform.has(dedupKey)) {
           foundMarketPlatform.add(dedupKey);
           ranks.push({
@@ -955,7 +973,7 @@ async function main() {
             platform: scanPlatform,
             rank: matched.rank,
             chartLabel: dh.chartType === 'grossing' ? '營收' : '免費',
-            appId: matched.appId, // 存入實際 appId 供前端掃歷史用
+            appId: matched.appId,
           });
         }
       }
