@@ -1,15 +1,15 @@
-# 每日自動排程：抓排行榜 → 偵測黑馬 → 上傳 Firebase
-# 台灣時間 19:10 (UTC 11:10) 執行
+# B 版（測試版）每日自動排程：抓排行榜 → 新算法偵測黑馬 → 上傳 Firebase (gameAnalysis-dev)
+# 台灣時間 19:20 (UTC 11:20) 執行，比 A 版晚 10 分鐘
 #
 # 需要設定的 GitHub Secret：
 #   GOOGLE_CREDENTIALS_JSON — google-credentials.json 的完整 JSON 內容
 
-name: Daily Pipeline
+name: Daily Pipeline (B版)
 
 on:
   schedule:
-    # UTC 11:10 = 台灣時間 19:10
-    - cron: '10 11 * * *'
+    # UTC 11:20 = 台灣時間 19:20（比 A 版晚 10 分鐘）
+    - cron: '20 11 * * *'
   workflow_dispatch: # 允許手動觸發
 
 permissions:
@@ -40,26 +40,25 @@ jobs:
       - name: Fetch rankings
         run: node scripts/fetch-rankings.js
 
-      # Step 2: 偵測黑馬
+      # Step 2: 用新算法偵測黑馬
       - name: Detect darkhorses
         run: node scripts/detect-darkhorse.js
 
-      # Step 3: 上傳到 Firebase
+      # Step 3: 上傳到 Firebase (gameAnalysis-dev)
       - name: Upload to Firebase
         run: node scripts/upload-to-firebase.js
 
-      # 將新資料 commit 回 repo（快照 + 黑馬資料）
+      # 將新資料 commit 回 repo
       - name: Commit and push data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          # 如果沒有變更就跳過
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore: daily data update $(date -u +%Y-%m-%d)"
           git push
 
-      # 清除憑證檔（安全起見，放在最後）
+      # 清除憑證檔
       - name: Cleanup credentials
         if: always()
         run: rm -f google-credentials.json
