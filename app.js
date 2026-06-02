@@ -1014,6 +1014,26 @@ function renderDarkhorses() {
         }
       }
     }
+
+    // 補充：將 _topRanks 裡有但 markets 沒有的市場加進去
+    // （例如奧丁在韓國 iOS 有排名，但偵測時只在台灣觸發，韓國只進了 _topRanks 沒進 markets）
+    for (const card of filtered) {
+      if (!card._topRanks || card._topRanks.length === 0) continue;
+      if (!card.markets) card.markets = [];
+      for (const tr of card._topRanks) {
+        const existing = card.markets.find(m => m.code === tr.marketCode);
+        if (!existing) {
+          card.markets.push({
+            code: tr.marketCode,
+            flag: tr.marketFlag || getFlag(tr.marketCode),
+            name: MARKETS.find(mk => mk.code === tr.marketCode)?.name || tr.marketCode,
+            rank: tr.rank
+          });
+        } else if (tr.rank && !existing.rank) {
+          existing.rank = tr.rank;
+        }
+      }
+    }
   }
 
   // 後處理：移除已落榜的 _chartRanks
@@ -1839,6 +1859,21 @@ function showAnalysis(appId, platform) {
     }
   }
 
+  // 補充：從 _topRanks 加入 uniqueMarketsMap（後端已掃描今日快照，最可靠的來源）
+  allDh.forEach(d => {
+    (d._topRanks || []).forEach(tr => {
+      if (tr.marketCode && !uniqueMarketsMap.has(tr.marketCode)) {
+        const marketObj = MARKETS.find(x => x.code === tr.marketCode);
+        uniqueMarketsMap.set(tr.marketCode, {
+          code: tr.marketCode,
+          flag: tr.marketFlag || getFlag(tr.marketCode) || '',
+          name: marketObj?.name || tr.marketCode,
+          rank: tr.rank
+        });
+      }
+    });
+  });
+
   const modalMarkets = Array.from(uniqueMarketsMap.values());
   if (modalMarkets.length === 0) {
     const marketObj = MARKETS.find(x => x.code === state.rankMarket) || { flag: '', name: state.rankMarket };
@@ -2389,6 +2424,15 @@ function showAnalysis(appId, platform) {
 function rebuildModalRankHistory(dh, allDh, marketCode) {
   dh._rankHistoryByLine = {};
 
+  // 0. 優先使用後端提供的 _rankHistoryByMarket（已含完整歷史排名）
+  if (dh._rankHistoryByMarket && dh._rankHistoryByMarket[marketCode]) {
+    const hist = dh._rankHistoryByMarket[marketCode];
+    if (Array.isArray(hist) && hist.length > 0) {
+      const lineKey = `${dh.platform}_${dh.chartType}`;
+      dh._rankHistoryByLine[lineKey] = { platform: dh.platform, chartType: dh.chartType, data: [...hist] };
+    }
+  }
+
   // 1. From allDh, find any existing rank history for this market
   allDh.forEach(d => {
     const dMarket = d.market || d.marketCode;
@@ -2404,7 +2448,11 @@ function rebuildModalRankHistory(dh, allDh, marketCode) {
   // 永遠掃描 iOS + Android 雙平台（即使黑馬只有單平台偵測到）
   const platformsToScan = ['ios', 'android'];
   const allAppIds = new Set(allDh.map(d => d.appId).concat([dh.appId]));
-  
+  // 補充：從 _topRanks 加入對應市場的實際 appId（後端名稱比對找到的跨語言版本）
+  (dh._topRanks || []).forEach(tr => {
+    if (tr.marketCode === marketCode && tr.appId) allAppIds.add(tr.appId);
+  });
+
   // 從快照中用名稱匹配找出跨平台的 appId（例如 Android 版叫 Genshin Impact，iOS 版叫原神）
   const mergeKey = typeof getMergeKey === 'function' ? getMergeKey(dh) : '';
   if (mergeKey) {
@@ -2485,7 +2533,7 @@ function switchModalMarket(marketCode) {
 
   // 5. Asynchronously lazyload snapshots for the selected market
   if (state.firebaseMode) {
-    const datesToLoad = [...state.availableDates].slice(-14);
+    const datesToLoad = [...state.availableDates]; // 載入全部日期，確保歷史資料（如超過14天前）也能顯示
     (async () => {
       let loadedNew = false;
       for (const date of datesToLoad) {
@@ -2538,22 +2586,51 @@ function renderModalChart(dh, days, activeBtn) {
       lines.push({ key, label: style.label, color: style.color, data: sortedData });
     });
   } else if (dh.rankHistory && dh.rankHistory.length > 0) {
-    const grouped = {};
-    dh.rankHistory.forEach(h => {
-      const k = `${h.platform || dh.platform}_${h.chartType || dh.chartType}`;
-      if (!grouped[k]) grouped[k] = [];
-      grouped[k].push(h);
-    });
-    Object.entries(grouped).forEach(([key, data]) => {
-      const style = LINE_STYLES[key] || { color: '#3b82f6', label: '排名' };
-      const sortedData = [...data].sort((a, b) => a.date.localeCompare(b.date));
-      lines.push({ key, label: style.label, color: style.color, data: sortedData });
-    });
+    // fallback 只在 rankHistory 的市場與當前選中市場一致時才使用
+    // 避免切到菲律賓時誤顯示韓國的資料
+    const rhMarket = dh.market || dh.marketCode || '';
+    const currentMarket = state.modalActiveMarket || '';
+    if (!currentMarket || rhMarket === currentMarket) {
+      const grouped = {};
+      dh.rankHistory.forEach(h => {
+        const k = `${h.platform || dh.platform}_${h.chartType || dh.chartType}`;
+        if (!grouped[k]) grouped[k] = [];
+        grouped[k].push(h);
+      });
+      Object.entries(grouped).forEach(([key, data]) => {
+        const style = LINE_STYLES[key] || { color: '#3b82f6', label: '排名' };
+        const sortedData = [...data].sort((a, b) => a.date.localeCompare(b.date));
+        lines.push({ key, label: style.label, color: style.color, data: sortedData });
+      });
+    }
   }
 
   const chartSection = canvas.closest('.analysis-section');
+  if (chartSection) chartSection.style.display = '';
+  // 清除舊的空狀態提示
+  const existingHint = canvas.parentElement.querySelector('.chart-empty-hint');
+  if (existingHint) existingHint.remove();
+  canvas.style.display = '';
+
   if (lines.length === 0) {
-    if (chartSection) chartSection.style.display = 'none';
+    // 無資料時仍渲染空圖表框架（有 Y 軸 1-100、X 軸日期），讓使用者可切換時間範圍
+    let endIdx = state.availableDates.indexOf(state.selectedDate);
+    if (endIdx === -1) endIdx = state.availableDates.length - 1;
+    let emptyDates = state.availableDates.slice(0, endIdx + 1);
+    if (days && emptyDates.length > days) emptyDates = emptyDates.slice(-days);
+    const emptyLabels = emptyDates.map(d => d.substring(5));
+    modalChart = new Chart(canvas.getContext('2d'), {
+      type: 'line',
+      data: { labels: emptyLabels, datasets: [] },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: 'rgba(255,255,255,0.5)', font: { size: 11 } }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { reverse: true, min: 1, max: 100, ticks: { color: 'rgba(255,255,255,0.5)', font: { size: 11 }, stepSize: 10 }, grid: { color: 'rgba(255,255,255,0.05)' } }
+        }
+      }
+    });
     return;
   }
 

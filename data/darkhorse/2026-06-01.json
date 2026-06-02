@@ -1663,42 +1663,96 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 6,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6479970832"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 15,
+          "chartLabel": "營收",
+          "appId": "com.nianticlabs.pokemongo"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 17,
+          "chartLabel": "營收",
+          "appId": "com.nianticlabs.pokemongo"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 25,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6479970832"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 29,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6479970832"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 34,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6479970832"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 46,
+          "chartLabel": "營收",
+          "appId": "com.nianticlabs.pokemongo"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 55,
+          "chartLabel": "營收",
+          "appId": "com.nianticlabs.pokemongo"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 59,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6479970832"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 61,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6479970832"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 68,
+          "chartLabel": "營收",
+          "appId": "com.nianticlabs.pokemongo"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 79,
+          "chartLabel": "營收",
+          "appId": "com.nianticlabs.pokemongo"
         }
       ]
     },
@@ -2650,7 +2704,8 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 4,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.smilegate.outerplane.stove.google"
         }
       ]
     },
@@ -3252,42 +3307,72 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 13,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.miHoYo.GenshinImpact"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 18,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.miHoYo.GenshinImpact"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 31,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.miHoYo.GenshinImpact"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 37,
+          "chartLabel": "營收",
+          "appId": "com.miHoYo.GenshinImpact.vn"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 50,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.miHoYo.GenshinImpact"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 55,
+          "chartLabel": "營收",
+          "appId": "6451477469"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 66,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.miHoYo.GenshinImpact"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 88,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1299582178"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 89,
+          "chartLabel": "營收",
+          "appId": "1517783697"
         }
       ]
     },
@@ -4013,28 +4098,32 @@
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 3,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6761760135"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 3,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.oakever.meowdoku"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 25,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.oakever.meowdoku"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 40,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6761760135"
         }
       ]
     },
@@ -5676,70 +5765,80 @@
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 4,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6746151928"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 10,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.xd.xdtglobal.gp"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 10,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6746151928"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 10,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.xd.xdtglobal.gp"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 15,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6746151928"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 20,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.xd.xdtglobal.gp"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 21,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6746151928"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 37,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6746151928"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 43,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.xd.xdtglobal.gp"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 79,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.xd.xdtglobal.gp"
         }
       ]
     },
@@ -7637,49 +7736,56 @@
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 3,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.u1.relax.minigame3"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 6,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.u1.relax.minigame3"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 14,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.u1.relax.minigame3"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 22,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.u1.relax.minigame3"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 23,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.u1.relax.minigame3"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 33,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.u1.relax.minigame3"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 56,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.u1.relax.minigame3"
         }
       ]
     },
@@ -9534,49 +9640,104 @@
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 4,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 4,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 6,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 7,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 9,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 12,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 14,
+          "chartLabel": "免費",
+          "appId": "6504332779"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 18,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 36,
+          "chartLabel": "免費",
+          "appId": "6504332779"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 37,
+          "chartLabel": "免費",
+          "appId": "6504332779"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 39,
+          "chartLabel": "免費",
+          "appId": "6504332779"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 73,
+          "chartLabel": "免費",
+          "appId": "6504332779"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 94,
+          "chartLabel": "免費",
+          "appId": "6504332779"
         }
       ]
     },
@@ -10289,14 +10450,16 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 5,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.fiveminlab.overgeared.hero.backpack.merge"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 11,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.fiveminlab.overgeared.hero.backpack.merge"
         }
       ]
     },
@@ -12140,46 +12303,108 @@
       },
       "_topRanks": [
         {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 6,
+          "chartLabel": "免費",
+          "appId": "6756482832"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 10,
+          "chartLabel": "免費",
+          "appId": "6756482832"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 20,
+          "chartLabel": "免費",
+          "appId": "6756482832"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 24,
+          "chartLabel": "免費",
+          "appId": "6756482832"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 27,
+          "chartLabel": "免費",
+          "appId": "6756482832"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 28,
+          "chartLabel": "免費",
+          "appId": "com.fun.brain.game"
+        },
+        {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 41,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 43,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 48,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 67,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 70,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 75,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 78,
+          "chartLabel": "免費",
+          "appId": "6756482832"
         }
       ]
     },
@@ -13330,14 +13555,16 @@
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 13,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6755585789"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 30,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6755585789"
         }
       ]
     },
@@ -13869,63 +14096,72 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 19,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.kurogame.wutheringwaves.global"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 21,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.kurogame.wutheringwaves.global"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 28,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.kurogame.wutheringwaves.global"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 31,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6475033368"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 31,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.kurogame.wutheringwaves.global"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 45,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6475033368"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 46,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6475033368"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 60,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6475033368"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 70,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.kurogame.wutheringwaves.global"
         }
       ]
     },
@@ -14660,14 +14896,32 @@
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 7,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.ncvgames.lineagewsa"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 18,
+          "chartLabel": "免費",
+          "appId": "com.vng.lineagewvn"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 37,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6755233247"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 52,
+          "chartLabel": "免費",
+          "appId": "6754081597"
         }
       ]
     },
@@ -15164,21 +15418,32 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 1,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6499562253"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 2,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.highbrow.games.dvo"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 50,
+          "chartLabel": "免費",
+          "appId": "561941526"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 89,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6499562253"
         }
       ]
     },
@@ -15665,14 +15930,16 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 1,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.square_enix.android_googleplay.dqwalkj"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 29,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1439417234"
         }
       ]
     },
@@ -16170,35 +16437,40 @@
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 57,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.playgendary.kickthebuddy"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 64,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.playgendary.kickthebuddy"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 67,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.playgendary.kickthebuddy"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 75,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.playgendary.kickthebuddy"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 81,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1057889290"
         }
       ]
     },
@@ -17813,46 +18085,108 @@
       },
       "_topRanks": [
         {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 4,
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 4,
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 6,
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 7,
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 9,
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 12,
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
+        },
+        {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 14,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6504332779"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 18,
+          "chartLabel": "免費",
+          "appId": "com.puzzlegames.puzzlebrickslegend"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 36,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6504332779"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 37,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6504332779"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 39,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6504332779"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 73,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6504332779"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 94,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6504332779"
         }
       ]
     },
@@ -19032,35 +19366,72 @@
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 23,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1358222641"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 26,
+          "chartLabel": "營收",
+          "appId": "com.highbrow.games.dvo"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 27,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.bandainamcoent.dblegends_ww"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 48,
+          "chartLabel": "營收",
+          "appId": "com.gametree.lhlr.vi.gp"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 58,
+          "chartLabel": "營收",
+          "appId": "6743824718"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 62,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.bandainamcoent.dblegends_ww"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 66,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1358222641"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 79,
+          "chartLabel": "營收",
+          "appId": "6754156373"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 85,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1358222641"
         }
       ]
     },
@@ -20688,42 +21059,48 @@
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 10,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "880047117"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 17,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "880047117"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 19,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "880047117"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 26,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "880047117"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 52,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "880047117"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 55,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "880047117"
         }
       ]
     },
@@ -21658,42 +22035,88 @@
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 1,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1465688043"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 1,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.garena.game.codm"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 14,
+          "chartLabel": "營收",
+          "appId": "com.activision.callofduty.shooter"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 20,
+          "chartLabel": "營收",
+          "appId": "1287282214"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 21,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.garena.game.codm"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 26,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1465688043"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 28,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1465688043"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 46,
+          "chartLabel": "營收",
+          "appId": "com.farlightgames.samo.gp.vn"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 65,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.garena.game.codm"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 66,
+          "chartLabel": "營收",
+          "appId": "1287282214"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 71,
+          "chartLabel": "營收",
+          "appId": "6449674450"
         }
       ]
     },
@@ -22419,28 +22842,40 @@
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 3,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.oakever.meowdoku"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 25,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.oakever.meowdoku"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 40,
+          "chartLabel": "免費",
+          "appId": "6761760135"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 44,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1660171117"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 93,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1660171117"
         }
       ]
     },
@@ -24039,42 +24474,104 @@
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 10,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6670789598"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 28,
+          "chartLabel": "免費",
+          "appId": "com.fun.brain.game"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 30,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6670789598"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 34,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6670789598"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 41,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 43,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 44,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6670789598"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 48,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 54,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6670789598"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 67,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 70,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 72,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6670789598"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 75,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
         }
       ]
     },
@@ -24568,7 +25065,16 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 7,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.qvsone.gpjp"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 83,
+          "chartLabel": "免費",
+          "appId": "6762127556"
         }
       ]
     },
@@ -24882,21 +25388,24 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 88,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.netmarble.gotasia"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 90,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6755586050"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 99,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.netmarble.gotasia"
         }
       ]
     },
@@ -25599,14 +26108,16 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 19,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6755951087"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 39,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6755951087"
         }
       ]
     },
@@ -26534,25 +27045,76 @@
       },
       "_topRanks": [
         {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 5,
+          "chartLabel": "免費",
+          "appId": "com.cliffs.pro.cell.building.crazy.clever.craft"
+        },
+        {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 6,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "block.color.game.jam.blocks.sort.puzzle.games.slide.free"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 13,
+          "chartLabel": "免費",
+          "appId": "com.cliffs.pro.cell.building.crazy.clever.craft"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 31,
+          "chartLabel": "免費",
+          "appId": "6744049261"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 37,
+          "chartLabel": "免費",
+          "appId": "981633844"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 54,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "block.color.game.jam.blocks.sort.puzzle.games.slide.free"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 84,
+          "chartLabel": "免費",
+          "appId": "com.wood.block.sudoku.puzzle.bm"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 84,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "block.color.game.jam.blocks.sort.puzzle.games.slide.free"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 96,
+          "chartLabel": "免費",
+          "appId": "com.wood.block.sudoku.puzzle.bm"
         }
       ]
     },
@@ -27026,7 +27588,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 4,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6760543624"
         }
       ]
     },
@@ -27483,21 +28046,24 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 88,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.netmarble.gotasia"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 90,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6755586050"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 99,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.netmarble.gotasia"
         }
       ]
     },
@@ -27931,42 +28497,48 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 1,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6483539426"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 20,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6483539426"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 36,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6483539426"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 45,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.epicgames.fortnite"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 50,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.epicgames.fortnite"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 68,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6483539426"
         }
       ]
     },
@@ -28453,14 +29025,16 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 8,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "547145938"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 28,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.co.ponos.battlecats"
         }
       ]
     },
@@ -28956,14 +29530,16 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 1,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.square_enix.android_googleplay.dqwalkj"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 29,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1439417234"
         }
       ]
     },
@@ -30355,77 +30931,88 @@
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 1,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6499209744"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 5,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.grandgames.magicsort"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 6,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6499209744"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 8,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6499209744"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 12,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.grandgames.magicsort"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 18,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.grandgames.magicsort"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 21,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6499209744"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 26,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6499209744"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 28,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.grandgames.magicsort"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 37,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6499209744"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 83,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.grandgames.magicsort"
         }
       ]
     },
@@ -32279,42 +32866,104 @@
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 6,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6756482832"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 10,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6756482832"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 20,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6756482832"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 24,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6756482832"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 27,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6756482832"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 28,
+          "chartLabel": "免費",
+          "appId": "com.fun.brain.game"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 41,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 43,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 48,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 67,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 70,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 75,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 78,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6756482832"
         }
       ]
     },
@@ -33694,28 +34343,32 @@
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 42,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6755585789"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 51,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6755585789"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 78,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6755585789"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 93,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6755585789"
         }
       ]
     },
@@ -34670,42 +35323,72 @@
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 14,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6741567125"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 21,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6741567125"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 25,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.farlightgames.pgame.gp"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 26,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.farlightgames.pgame.gp"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 39,
+          "chartLabel": "營收",
+          "appId": "529479190"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 49,
+          "chartLabel": "營收",
+          "appId": "529479190"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 65,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6741567125"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 67,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.farlightgames.pgame.gp"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 87,
+          "chartLabel": "營收",
+          "appId": "529479190"
         }
       ]
     },
@@ -34949,7 +35632,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.437Z",
+      "detectedAt": "2026-06-02T13:11:42.013Z",
       "markets": [
         {
           "code": "kr",
@@ -35179,7 +35862,16 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 1,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "kr.aos.com.ccrholdings.fortress3blue"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 3,
+          "chartLabel": "免費",
+          "appId": "6759036071"
         }
       ]
     },
@@ -35653,7 +36345,8 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 3,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.sb.darkslayersd.android.google"
         }
       ]
     },
@@ -36125,9 +36818,18 @@
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 4,
+          "chartLabel": "免費",
+          "appId": "6761399468"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 4,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.kingkongsoft.bwzx.g"
         }
       ]
     },
@@ -36823,21 +37525,24 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 1,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6499562253"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 2,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.highbrow.games.dvo"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 89,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6499562253"
         }
       ]
     },
@@ -37311,7 +38016,8 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 2,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6756037863"
         }
       ]
     },
@@ -37785,7 +38491,16 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 4,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6761399468"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 4,
+          "chartLabel": "免費",
+          "appId": "com.kingkongsoft.bwzx.g"
         }
       ]
     },
@@ -39374,28 +40089,40 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 46,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.Nap"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 68,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.Nap"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 78,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.Nap"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 90,
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.NapVn"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 95,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.Nap"
         }
       ]
     },
@@ -40323,25 +41050,76 @@
       },
       "_topRanks": [
         {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 6,
+          "chartLabel": "免費",
+          "appId": "block.color.game.jam.blocks.sort.puzzle.games.slide.free"
+        },
+        {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 25,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.wilds.craft.mysticland.explore"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 28,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.wilds.craft.mysticland.explore"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 31,
+          "chartLabel": "免費",
+          "appId": "6744049261"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 37,
+          "chartLabel": "免費",
+          "appId": "981633844"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 78,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.wilds.craft.mysticland.explore"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 84,
+          "chartLabel": "免費",
+          "appId": "com.wood.block.sudoku.puzzle.bm"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 84,
+          "chartLabel": "免費",
+          "appId": "block.color.game.jam.blocks.sort.puzzle.games.slide.free"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 96,
+          "chartLabel": "免費",
+          "appId": "com.wood.block.sudoku.puzzle.bm"
         }
       ]
     },
@@ -40595,7 +41373,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.672Z",
+      "detectedAt": "2026-06-02T13:11:42.769Z",
       "markets": [
         {
           "code": "ph",
@@ -40825,7 +41603,8 @@
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 8,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6767834940"
         }
       ]
     },
@@ -41099,7 +41878,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.479Z",
+      "detectedAt": "2026-06-02T13:11:42.144Z",
       "markets": [
         {
           "code": "us",
@@ -42424,42 +43203,48 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 1,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1599719154"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 4,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1599719154"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 7,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1599719154"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 9,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1599719154"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 11,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1599719154"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 20,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1599719154"
         }
       ]
     },
@@ -42713,7 +43498,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.527Z",
+      "detectedAt": "2026-06-02T13:11:42.307Z",
       "markets": [
         {
           "code": "tw",
@@ -42943,7 +43728,8 @@
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 12,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6670792878"
         }
       ]
     },
@@ -43267,42 +44053,72 @@
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 14,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6741567125"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 21,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6741567125"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 25,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.farlightgames.pgame.gp"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 26,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.farlightgames.pgame.gp"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 39,
+          "chartLabel": "營收",
+          "appId": "529479190"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 49,
+          "chartLabel": "營收",
+          "appId": "529479190"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 65,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6741567125"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 67,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.farlightgames.pgame.gp"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 87,
+          "chartLabel": "營收",
+          "appId": "529479190"
         }
       ]
     },
@@ -43497,14 +44313,16 @@
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 10,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.zjcs.android.us"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 76,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6751270546"
         }
       ]
     },
@@ -43991,14 +44809,16 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 20,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.co.takaratomy.duelmastersplays"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 38,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1478829750"
         }
       ]
     },
@@ -44475,14 +45295,16 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 1,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.fox.jstwgp"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 6,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6759824994"
         }
       ]
     },
@@ -44959,14 +45781,16 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 2,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.ccstop.gp"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 7,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6760377678"
         }
       ]
     },
@@ -45443,14 +46267,16 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 5,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.lmdgame.neostreetball.tw"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 8,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6757519748"
         }
       ]
     },
@@ -45924,7 +46750,8 @@
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 4,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6444692469"
         }
       ]
     },
@@ -47503,42 +48330,96 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 10,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.pokemon.pokemontcgp"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 15,
+          "chartLabel": "營收",
+          "appId": "1094591345"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 16,
+          "chartLabel": "營收",
+          "appId": "1094591345"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 20,
+          "chartLabel": "營收",
+          "appId": "1094591345"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 22,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.pokemon.pokemontcgp"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 27,
+          "chartLabel": "營收",
+          "appId": "1094591345"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 32,
+          "chartLabel": "營收",
+          "appId": "1094591345"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 37,
+          "chartLabel": "營收",
+          "appId": "1094591345"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 42,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.pokemon.pokemontcgp"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 61,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.pokemon.pokemontcgp"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 94,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.pokemon.pokemontcgp"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 100,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.pokemon.pokemontcgp"
         }
       ]
     },
@@ -48025,14 +48906,16 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 14,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6499562253"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 26,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.highbrow.games.dvo"
         }
       ]
     },
@@ -48235,7 +49118,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 13,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6755095931"
         }
       ]
     },
@@ -48719,7 +49603,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 3,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1612566389"
         }
       ]
     },
@@ -49216,14 +50101,16 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 6,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.Gameplier.TheGhost"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 9,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1557035248"
         }
       ]
     },
@@ -49796,35 +50683,48 @@
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 25,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1517783697"
+        },
+        {
+          "marketCode": "cn",
+          "marketFlag": "🇨🇳",
+          "platform": "ios",
+          "rank": 32,
+          "chartLabel": "營收",
+          "appId": "1467190251"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 44,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1517783697"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 61,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1517783697"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 76,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1517783697"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 89,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1517783697"
         }
       ]
     },
@@ -50308,7 +51208,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 44,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6514281568"
         }
       ]
     },
@@ -51226,25 +52127,36 @@
       },
       "_topRanks": [
         {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 28,
+          "chartLabel": "免費",
+          "appId": "6477413486"
+        },
+        {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 37,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.unept.leveldevil"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 69,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.unept.leveldevil"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 70,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.unept.leveldevil"
         }
       ]
     },
@@ -52846,42 +53758,48 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 52,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.smilegate.chaoszero.stove.google"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 62,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.smilegate.chaoszero.stove.google"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 72,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6483053853"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 73,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.smilegate.chaoszero.stove.google"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 79,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.smilegate.chaoszero.stove.google"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 99,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.smilegate.chaoszero.stove.google"
         }
       ]
     },
@@ -53367,14 +54285,16 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 27,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1524791715"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 90,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.qookkagame.sgzzlb.gp.kr"
         }
       ]
     },
@@ -53862,9 +54782,18 @@
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 16,
+          "chartLabel": "免費",
+          "appId": "com.girlsconnect.and"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 39,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6764547626"
         }
       ]
     },
@@ -54357,7 +55286,8 @@
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 32,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1622065672"
         }
       ]
     },
@@ -54841,7 +55771,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 36,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "895670960"
         }
       ]
     },
@@ -55547,21 +56478,24 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 13,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.studiobside.starMain"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 18,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6443597557"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 77,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.studiobside.starMain"
         }
       ]
     },
@@ -56045,7 +56979,8 @@
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 16,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.hgdri.fernytap"
         }
       ]
     },
@@ -56532,14 +57467,16 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 8,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.fox.jstwgp"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 9,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6759824994"
         }
       ]
     },
@@ -57013,7 +57950,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 12,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6751272153"
         }
       ]
     },
@@ -57256,7 +58194,8 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 11,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6762259371"
         }
       ]
     },
@@ -57752,14 +58691,16 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 42,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6761601738"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 53,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.kurashiru.coin.drop"
         }
       ]
     },
@@ -58257,9 +59198,18 @@
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 41,
+          "chartLabel": "營收",
+          "appId": "com.nhnpa.cps"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 42,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1164400646"
         }
       ]
     },
@@ -58741,9 +59691,74 @@
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 6,
+          "chartLabel": "免費",
+          "appId": "block.color.game.jam.blocks.sort.puzzle.games.slide.free"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 31,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6744049261"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 37,
+          "chartLabel": "免費",
+          "appId": "981633844"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 40,
+          "chartLabel": "免費",
+          "appId": "com.fungames.blockcraft"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 48,
+          "chartLabel": "免費",
+          "appId": "com.fungames.blockcraft"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 73,
+          "chartLabel": "免費",
+          "appId": "com.fungames.blockcraft"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 84,
+          "chartLabel": "免費",
+          "appId": "com.wood.block.sudoku.puzzle.bm"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 84,
+          "chartLabel": "免費",
+          "appId": "block.color.game.jam.blocks.sort.puzzle.games.slide.free"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 96,
+          "chartLabel": "免費",
+          "appId": "com.wood.block.sudoku.puzzle.bm"
         }
       ]
     },
@@ -58997,7 +60012,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.468Z",
+      "detectedAt": "2026-06-02T13:11:42.103Z",
       "markets": [
         {
           "code": "kr",
@@ -59446,14 +60461,16 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 23,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.netmarble.raven2"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 68,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.netmarble.raven2"
         }
       ]
     },
@@ -59930,14 +60947,16 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 1,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.fox.jstwgp"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 6,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6759824994"
         }
       ]
     },
@@ -60414,14 +61433,16 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 2,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.ccstop.gp"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 7,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6760377678"
         }
       ]
     },
@@ -60898,14 +61919,16 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 5,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.lmdgame.neostreetball.tw"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 8,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6757519748"
         }
       ]
     },
@@ -61382,14 +62405,16 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 8,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.fox.jstwgp"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 9,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6759824994"
         }
       ]
     },
@@ -61873,7 +62898,32 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 28,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6477413486"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 37,
+          "chartLabel": "免費",
+          "appId": "com.unept.leveldevil"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 69,
+          "chartLabel": "免費",
+          "appId": "com.unept.leveldevil"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 70,
+          "chartLabel": "免費",
+          "appId": "com.unept.leveldevil"
         }
       ]
     },
@@ -62795,21 +63845,24 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 22,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.nintendo.zana"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 34,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.nintendo.zana"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 57,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.nintendo.zana"
         }
       ]
     },
@@ -64613,46 +65666,108 @@
       },
       "_topRanks": [
         {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 6,
+          "chartLabel": "免費",
+          "appId": "6756482832"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 10,
+          "chartLabel": "免費",
+          "appId": "6756482832"
+        },
+        {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 14,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.logic.joygame"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 20,
+          "chartLabel": "免費",
+          "appId": "6756482832"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 24,
+          "chartLabel": "免費",
+          "appId": "6756482832"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 27,
+          "chartLabel": "免費",
+          "appId": "6756482832"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 37,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.logic.joygame"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 63,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.logic.joygame"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 67,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.logic.joygame"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 70,
+          "chartLabel": "免費",
+          "appId": "com.brain.crazy.joygame"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 78,
+          "chartLabel": "免費",
+          "appId": "6756482832"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 89,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.logic.joygame"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 91,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.brain.logic.joygame"
         }
       ]
     },
@@ -65135,7 +66250,8 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 57,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.c3wavestudio.yumyumdragon"
         }
       ]
     },
@@ -65622,14 +66738,16 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 30,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "947258826"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 87,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.sopt.mafia42.client"
         }
       ]
     },
@@ -65883,7 +67001,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.515Z",
+      "detectedAt": "2026-06-02T13:11:42.268Z",
       "markets": [
         {
           "code": "tw",
@@ -66109,11 +67227,92 @@
       },
       "_topRanks": [
         {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 8,
+          "chartLabel": "免費",
+          "appId": "com.fty.trickmean2game"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 11,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 12,
+          "chartLabel": "免費",
+          "appId": "com.joyboy.tricky.twist.puzzle"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 16,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 21,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.hwyk.tricky2"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 47,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 49,
+          "chartLabel": "免費",
+          "appId": "com.fty.trickmean2game"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 57,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 87,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 90,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 98,
+          "chartLabel": "免費",
+          "appId": "com.brain.twist.tricky.story"
         }
       ]
     },
@@ -66465,28 +67664,32 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 8,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6482291732"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 11,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.percent.aos.luckydefense"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 21,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6482291732"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 79,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.percent.aos.luckydefense"
         }
       ]
     },
@@ -66659,9 +67862,18 @@
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 1,
+          "chartLabel": "免費",
+          "appId": "kr.aos.com.ccrholdings.fortress3blue"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 3,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6759036071"
         }
       ]
     },
@@ -67157,14 +68369,16 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 31,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.square_enix.android_googleplay.dqtactj"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 67,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1516559313"
         }
       ]
     },
@@ -68337,42 +69551,48 @@
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 14,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "543186831"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 20,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.miniclip.eightballpool"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 23,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "543186831"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 46,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "543186831"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 66,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.miniclip.eightballpool"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 82,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.miniclip.eightballpool"
         }
       ]
     },
@@ -68816,35 +70036,72 @@
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 23,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1358222641"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 26,
+          "chartLabel": "營收",
+          "appId": "com.highbrow.games.dvo"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 27,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.bandainamcoent.dblegends_ww"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 48,
+          "chartLabel": "營收",
+          "appId": "com.gametree.lhlr.vi.gp"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 58,
+          "chartLabel": "營收",
+          "appId": "6743824718"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 62,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.bandainamcoent.dblegends_ww"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 66,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1358222641"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 79,
+          "chartLabel": "營收",
+          "appId": "6754156373"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 85,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1358222641"
         }
       ]
     },
@@ -69088,7 +70345,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.501Z",
+      "detectedAt": "2026-06-02T13:11:42.226Z",
       "markets": [
         {
           "code": "cn",
@@ -69318,7 +70575,16 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 4,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1454663939"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 38,
+          "chartLabel": "營收",
+          "appId": "tw.txwy.and.arknights"
         }
       ]
     },
@@ -69792,7 +71058,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 23,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6767085511"
         }
       ]
     },
@@ -71374,63 +72641,72 @@
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 4,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6752672568"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 5,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.grandgames.magicsort"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 12,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.grandgames.magicsort"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 18,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.grandgames.magicsort"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 28,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.grandgames.magicsort"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 38,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6752672568"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 67,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6752672568"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 83,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.grandgames.magicsort"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 91,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6752672568"
         }
       ]
     },
@@ -72143,14 +73419,24 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 3,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6751537447"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 42,
+          "chartLabel": "免費",
+          "appId": "puzzle.snakes.puzzle.slithereat.gaming"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 51,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6751537447"
         }
       ]
     },
@@ -72386,14 +73672,32 @@
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 7,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.ncvgames.lineagewsa"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 18,
+          "chartLabel": "免費",
+          "appId": "com.vng.lineagewvn"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 37,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6755233247"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 52,
+          "chartLabel": "免費",
+          "appId": "6754081597"
         }
       ]
     },
@@ -73324,25 +74628,68 @@
       ],
       "_topRanks": [
         {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 2,
+          "chartLabel": "營收",
+          "appId": "6739616715"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 2,
+          "chartLabel": "營收",
+          "appId": "com.nexon.ma"
+        },
+        {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 25,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1290086677"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 48,
+          "chartLabel": "營收",
+          "appId": "com.nexon.ma"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 55,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1290086677"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 59,
+          "chartLabel": "營收",
+          "appId": "com.nexon.ma"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 73,
+          "chartLabel": "營收",
+          "appId": "6739616715"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 75,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.nexon.maplem.global"
         }
       ]
     },
@@ -73816,7 +75163,16 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 16,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.girlsconnect.and"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 39,
+          "chartLabel": "免費",
+          "appId": "6764547626"
         }
       ]
     },
@@ -74293,14 +75649,16 @@
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 18,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6757519748"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 41,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.lmdgame.neostreetball.tw"
         }
       ]
     },
@@ -74784,7 +76142,16 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 9,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.netease.yyslshmt"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 23,
+          "chartLabel": "營收",
+          "appId": "6744796128"
         }
       ]
     },
@@ -75275,9 +76642,18 @@
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 9,
+          "chartLabel": "營收",
+          "appId": "com.netease.yyslshmt"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 23,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6744796128"
         }
       ]
     },
@@ -75777,7 +77153,8 @@
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 66,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1436151665"
         }
       ]
     },
@@ -76254,14 +77631,16 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 5,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6692611665"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 5,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.bandainamcoent.gget_JP"
         }
       ]
     },
@@ -76751,7 +78130,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 42,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6760686111"
         }
       ]
     },
@@ -76935,18 +78315,36 @@
       "_retainedFrom": "2026-05-29",
       "_topRanks": [
         {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 7,
+          "chartLabel": "免費",
+          "appId": "com.ncvgames.lineagewsa"
+        },
+        {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 18,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.vng.lineagewvn"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 37,
+          "chartLabel": "免費",
+          "appId": "6755233247"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 52,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6754081597"
         }
       ]
     },
@@ -77155,14 +78553,16 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 24,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1268959718"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 57,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.netmarble.nanatsunotaizai"
         }
       ]
     },
@@ -77636,7 +79036,8 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 32,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "852882903"
         }
       ]
     },
@@ -78131,77 +79532,88 @@
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 14,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "jp.co.goodroid.hyper.busflow"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 15,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6759763476"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 36,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "jp.co.goodroid.hyper.busflow"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 38,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "jp.co.goodroid.hyper.busflow"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 39,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "jp.co.goodroid.hyper.busflow"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 46,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6759763476"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 52,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6759763476"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 62,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6759763476"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 68,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "jp.co.goodroid.hyper.busflow"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 72,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6759763476"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 78,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6759763476"
         }
       ]
     },
@@ -78684,7 +80096,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 39,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6762333081"
         }
       ]
     },
@@ -79161,21 +80574,24 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 13,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.studiobside.starMain"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 18,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6443597557"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 77,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.studiobside.starMain"
         }
       ]
     },
@@ -79907,49 +81323,80 @@
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 9,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.block.juggle"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 9,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.block.juggle"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 10,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.block.juggle"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 11,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.block.juggle"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 14,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.block.juggle"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 17,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.block.juggle"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 33,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1618041797"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 47,
+          "chartLabel": "免費",
+          "appId": "1193508329"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 60,
+          "chartLabel": "免費",
+          "appId": "1193508329"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 94,
+          "chartLabel": "免費",
+          "appId": "1193508329"
         }
       ]
     },
@@ -80335,63 +81782,72 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 19,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.kurogame.wutheringwaves.global"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 21,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.kurogame.wutheringwaves.global"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 28,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.kurogame.wutheringwaves.global"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 31,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6475033368"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 31,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.kurogame.wutheringwaves.global"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 45,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6475033368"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 46,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6475033368"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 60,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6475033368"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 70,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.kurogame.wutheringwaves.global"
         }
       ]
     },
@@ -80884,14 +82340,16 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 12,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.snktkofxy.gp"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 26,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6758696885"
         }
       ]
     },
@@ -81107,14 +82565,32 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 14,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1322310031"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 59,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.bandainamcoent.opbrjp"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 69,
+          "chartLabel": "營收",
+          "appId": "com.bandainamcoent.opbrww"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 86,
+          "chartLabel": "營收",
+          "appId": "1343688545"
         }
       ]
     },
@@ -81358,7 +82834,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.423Z",
+      "detectedAt": "2026-06-02T13:11:41.967Z",
       "markets": [
         {
           "code": "jp",
@@ -81591,14 +83067,16 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 4,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1312031248"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 36,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.netease.newspike"
         }
       ]
     },
@@ -82091,14 +83569,16 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 12,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "940320341"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 35,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.konami.prospia"
         }
       ]
     },
@@ -82575,14 +84055,16 @@
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 6,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1616630100"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 35,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.vntth.sgzzlb.gp.vn"
         }
       ]
     },
@@ -82906,35 +84388,48 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 26,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.pocket.sort.coin.puzzle.game"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 29,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.pocket.sort.coin.puzzle.game"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 67,
+          "chartLabel": "免費",
+          "appId": "1542776143"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 70,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.pocket.sort.coin.puzzle.game"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 76,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.pocket.sort.coin.puzzle.game"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 87,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6755425214"
         }
       ]
     },
@@ -83423,11 +84918,100 @@
       "_retainedFrom": "2026-05-31",
       "_topRanks": [
         {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 15,
+          "chartLabel": "營收",
+          "appId": "1094591345"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 16,
+          "chartLabel": "營收",
+          "appId": "1094591345"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 17,
+          "chartLabel": "營收",
+          "appId": "com.nianticlabs.pokemongo"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 20,
+          "chartLabel": "營收",
+          "appId": "1094591345"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 27,
+          "chartLabel": "營收",
+          "appId": "1094591345"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 32,
+          "chartLabel": "營收",
+          "appId": "1094591345"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 37,
+          "chartLabel": "營收",
+          "appId": "1094591345"
+        },
+        {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 45,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.pokemon.pokemonsleep"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 46,
+          "chartLabel": "營收",
+          "appId": "com.nianticlabs.pokemongo"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 55,
+          "chartLabel": "營收",
+          "appId": "com.nianticlabs.pokemongo"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 68,
+          "chartLabel": "營收",
+          "appId": "com.nianticlabs.pokemongo"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 79,
+          "chartLabel": "營收",
+          "appId": "com.nianticlabs.pokemongo"
         }
       ]
     },
@@ -83940,14 +85524,16 @@
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 30,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.xyvn.az"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 65,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6739976923"
         }
       ]
     },
@@ -84191,7 +85777,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.326Z",
+      "detectedAt": "2026-06-02T13:11:41.664Z",
       "markets": [
         {
           "code": "us",
@@ -84421,7 +86007,8 @@
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 27,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.gimica.mixblox"
         }
       ]
     },
@@ -84665,7 +86252,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.340Z",
+      "detectedAt": "2026-06-02T13:11:41.704Z",
       "markets": [
         {
           "code": "us",
@@ -84895,7 +86482,8 @@
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 27,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1450306065"
         }
       ]
     },
@@ -85369,7 +86957,8 @@
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 15,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.rpg.match.hero.teewee"
         }
       ]
     },
@@ -85613,7 +87202,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.562Z",
+      "detectedAt": "2026-06-02T13:11:42.416Z",
       "markets": [
         {
           "code": "th",
@@ -85843,7 +87432,16 @@
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 14,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.ponesea.gp"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 32,
+          "chartLabel": "免費",
+          "appId": "6756949934"
         }
       ]
     },
@@ -86087,7 +87685,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.562Z",
+      "detectedAt": "2026-06-02T13:11:42.416Z",
       "markets": [
         {
           "code": "th",
@@ -86317,7 +87915,16 @@
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 18,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.sinyee.babybus.village"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 44,
+          "chartLabel": "免費",
+          "appId": "com.sinyee.babybus.cat"
         }
       ]
     },
@@ -86791,7 +88398,16 @@
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 17,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6751141352"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 67,
+          "chartLabel": "免費",
+          "appId": "ball.sort.puzzle.color.sorting.bubble.games"
         }
       ]
     },
@@ -87265,7 +88881,8 @@
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 17,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6745214880"
         }
       ]
     },
@@ -87739,7 +89356,16 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 41,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.nhnpa.cps"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 42,
+          "chartLabel": "營收",
+          "appId": "1164400646"
         }
       ]
     },
@@ -87983,7 +89609,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.468Z",
+      "detectedAt": "2026-06-02T13:11:42.104Z",
       "markets": [
         {
           "code": "kr",
@@ -88216,14 +89842,80 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 14,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6499562253"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 23,
+          "chartLabel": "營收",
+          "appId": "1358222641"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 26,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.highbrow.games.dvo"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 27,
+          "chartLabel": "營收",
+          "appId": "com.bandainamcoent.dblegends_ww"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 48,
+          "chartLabel": "營收",
+          "appId": "com.gametree.lhlr.vi.gp"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 58,
+          "chartLabel": "營收",
+          "appId": "6743824718"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 62,
+          "chartLabel": "營收",
+          "appId": "com.bandainamcoent.dblegends_ww"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 66,
+          "chartLabel": "營收",
+          "appId": "1358222641"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 79,
+          "chartLabel": "營收",
+          "appId": "6754156373"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 85,
+          "chartLabel": "營收",
+          "appId": "1358222641"
         }
       ]
     },
@@ -89148,35 +90840,48 @@
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 22,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6745761596"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 24,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.moonactive.cmboard"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 40,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6745761596"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 54,
+          "chartLabel": "免費",
+          "appId": "406889139"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 58,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.moonactive.cmboard"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 83,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6745761596"
         }
       ]
     },
@@ -89663,14 +91368,16 @@
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 21,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6757032233"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 27,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.vtcmobile.gz06"
         }
       ]
     },
@@ -89914,7 +91621,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.501Z",
+      "detectedAt": "2026-06-02T13:11:42.226Z",
       "markets": [
         {
           "code": "cn",
@@ -90144,7 +91851,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 7,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1523037824"
         }
       ]
     },
@@ -90614,11 +92322,92 @@
       },
       "_topRanks": [
         {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 8,
+          "chartLabel": "免費",
+          "appId": "com.fty.trickmean2game"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 11,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 12,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.joyboy.tricky.twist.puzzle"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 16,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 21,
+          "chartLabel": "免費",
+          "appId": "com.hwyk.tricky2"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 47,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 49,
+          "chartLabel": "免費",
+          "appId": "com.fty.trickmean2game"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 57,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 87,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 90,
+          "chartLabel": "免費",
+          "appId": "6757844491"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 98,
+          "chartLabel": "免費",
+          "appId": "com.brain.twist.tricky.story"
         }
       ]
     },
@@ -90872,7 +92661,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.468Z",
+      "detectedAt": "2026-06-02T13:11:42.104Z",
       "markets": [
         {
           "code": "kr",
@@ -91324,28 +93113,32 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 19,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6503702666"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 20,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6503702666"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 25,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.percent.aos.cooptd"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 49,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.percent.aos.cooptd"
         }
       ]
     },
@@ -91818,18 +93611,44 @@
       ],
       "_topRanks": [
         {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 4,
+          "chartLabel": "免費",
+          "appId": "1465688043"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 7,
+          "chartLabel": "免費",
+          "appId": "com.garena.game.codm"
+        },
+        {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 31,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1287282214"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 38,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.activision.callofduty.shooter"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 51,
+          "chartLabel": "免費",
+          "appId": "1465688043"
         }
       ]
     },
@@ -92083,7 +93902,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.661Z",
+      "detectedAt": "2026-06-02T13:11:42.730Z",
       "markets": [
         {
           "code": "us",
@@ -92968,30 +94787,82 @@
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 11,
+          "chartLabel": "免費",
+          "appId": "6448104157"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 26,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.media720.games2020"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 34,
+          "chartLabel": "免費",
+          "appId": "6448104157"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 43,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.media720.games2020"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 44,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.media720.games2020"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 70,
+          "chartLabel": "免費",
+          "appId": "6448104157"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 70,
+          "chartLabel": "免費",
+          "appId": "6448104157"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 71,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.media720.games2020"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 81,
+          "chartLabel": "免費",
+          "appId": "6448104157"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 81,
+          "chartLabel": "免費",
+          "appId": "6448104157"
         }
       ]
     },
@@ -93465,7 +95336,24 @@
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 32,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6474654939"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 33,
+          "chartLabel": "營收",
+          "appId": "com.netease.nshmhmt"
+        },
+        {
+          "marketCode": "cn",
+          "marketFlag": "🇨🇳",
+          "platform": "ios",
+          "rank": 35,
+          "chartLabel": "營收",
+          "appId": "1541570980"
         }
       ]
     },
@@ -93709,7 +95597,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.645Z",
+      "detectedAt": "2026-06-02T13:11:42.692Z",
       "markets": [
         {
           "code": "vn",
@@ -93935,11 +95823,116 @@
       },
       "_topRanks": [
         {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 1,
+          "chartLabel": "營收",
+          "appId": "1599719154"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 4,
+          "chartLabel": "營收",
+          "appId": "1599719154"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 7,
+          "chartLabel": "營收",
+          "appId": "1599719154"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 8,
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.hkrpgoversea"
+        },
+        {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 9,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6451473600"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 9,
+          "chartLabel": "營收",
+          "appId": "1599719154"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 11,
+          "chartLabel": "營收",
+          "appId": "1599719154"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 20,
+          "chartLabel": "營收",
+          "appId": "1599719154"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 20,
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.hkrpgoversea"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 24,
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.hkrpgoversea"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 37,
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.hkrpgoversea"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 39,
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.hkrpgvn"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 49,
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.hkrpgoversea"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 71,
+          "chartLabel": "營收",
+          "appId": "com.HoYoverse.hkrpgoversea"
         }
       ]
     },
@@ -94413,7 +96406,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 31,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1344733855"
         }
       ]
     },
@@ -94887,7 +96881,8 @@
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 49,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.iskslowtest.mislen"
         }
       ]
     },
@@ -95141,7 +97136,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.563Z",
+      "detectedAt": "2026-06-02T13:11:42.417Z",
       "markets": [
         {
           "code": "th",
@@ -95590,14 +97585,16 @@
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 32,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.momoklucky.goconvenstorrasd"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 44,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.momoklucky.goconvenstorrasd"
         }
       ]
     },
@@ -95851,7 +97848,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.681Z",
+      "detectedAt": "2026-06-02T13:11:42.807Z",
       "markets": [
         {
           "code": "tw",
@@ -96522,42 +98519,88 @@
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 1,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1465688043"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 1,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.garena.game.codm"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 14,
+          "chartLabel": "營收",
+          "appId": "com.activision.callofduty.shooter"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 20,
+          "chartLabel": "營收",
+          "appId": "1287282214"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 21,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.garena.game.codm"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 26,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1465688043"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 28,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1465688043"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 46,
+          "chartLabel": "營收",
+          "appId": "com.farlightgames.samo.gp.vn"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 65,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.garena.game.codm"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 66,
+          "chartLabel": "營收",
+          "appId": "1287282214"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "ios",
+          "rank": 71,
+          "chartLabel": "營收",
+          "appId": "6449674450"
         }
       ]
     },
@@ -96801,7 +98844,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.480Z",
+      "detectedAt": "2026-06-02T13:11:42.146Z",
       "markets": [
         {
           "code": "kr",
@@ -97034,14 +99077,16 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 25,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "848091833"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 65,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.co.ponos.battlecatskr"
         }
       ]
     },
@@ -97285,7 +99330,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.481Z",
+      "detectedAt": "2026-06-02T13:11:42.147Z",
       "markets": [
         {
           "code": "kr",
@@ -97515,7 +99560,8 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 45,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6467117398"
         }
       ]
     },
@@ -97989,7 +100035,8 @@
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 30,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1561931423"
         }
       ]
     },
@@ -98233,7 +100280,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.501Z",
+      "detectedAt": "2026-06-02T13:11:42.227Z",
       "markets": [
         {
           "code": "cn",
@@ -98463,7 +100510,8 @@
           "marketFlag": "🇨🇳",
           "platform": "ios",
           "rank": 13,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6740756173"
         }
       ]
     },
@@ -99378,14 +101426,16 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 30,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.netmarble.monster2"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 69,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6483252725"
         }
       ]
     },
@@ -99639,7 +101689,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.368Z",
+      "detectedAt": "2026-06-02T13:11:41.795Z",
       "markets": [
         {
           "code": "us",
@@ -100310,35 +102360,40 @@
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 44,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6443467666"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 48,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6443467666"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 49,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.papegames.lysk.en"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 60,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6443467666"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 91,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.papegames.lysk.en"
         }
       ]
     },
@@ -100582,7 +102637,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.469Z",
+      "detectedAt": "2026-06-02T13:11:42.105Z",
       "markets": [
         {
           "code": "kr",
@@ -100812,7 +102867,8 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 47,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.riotgames.league.teamfighttactics"
         }
       ]
     },
@@ -101724,7 +103780,8 @@
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 25,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6475709488"
         }
       ]
     },
@@ -101968,7 +104025,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.424Z",
+      "detectedAt": "2026-06-02T13:11:41.968Z",
       "markets": [
         {
           "code": "jp",
@@ -102201,14 +104258,16 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 27,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1032346221"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 71,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.Level5.YWP"
         }
       ]
     },
@@ -102680,9 +104739,18 @@
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 20,
+          "chartLabel": "營收",
+          "appId": "com.swordbh.gp"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 29,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6741752911"
         }
       ]
     },
@@ -103159,14 +105227,16 @@
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 21,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6757032233"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "android",
           "rank": 27,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.vtcmobile.gz06"
         }
       ]
     },
@@ -103410,7 +105480,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.516Z",
+      "detectedAt": "2026-06-02T13:11:42.269Z",
       "markets": [
         {
           "code": "us",
@@ -103862,21 +105932,24 @@
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 38,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6532601126"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 43,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6532601126"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 46,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.game.thatsmyseat"
         }
       ]
     },
@@ -104120,7 +106193,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.382Z",
+      "detectedAt": "2026-06-02T13:11:41.840Z",
       "markets": [
         {
           "code": "us",
@@ -104569,7 +106642,8 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 38,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.rescue.agent"
         }
       ]
     },
@@ -105043,7 +107117,8 @@
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 34,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.comfort.gp"
         }
       ]
     },
@@ -105287,7 +107362,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.467Z",
+      "detectedAt": "2026-06-02T13:11:42.102Z",
       "markets": [
         {
           "code": "kr",
@@ -105736,14 +107811,24 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 16,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.netmarble.tskgb"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 22,
+          "chartLabel": "營收",
+          "appId": "6479595079"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 22,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.netmarble.tskgb"
         }
       ]
     },
@@ -106874,21 +108959,24 @@
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 12,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6692615881"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 56,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6692615881"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 82,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6692615881"
         }
       ]
     },
@@ -107132,7 +109220,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.411Z",
+      "detectedAt": "2026-06-02T13:11:41.927Z",
       "markets": [
         {
           "code": "jp",
@@ -107365,14 +109453,16 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 15,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1494428618"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 33,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.co.happyelements.boysm"
         }
       ]
     },
@@ -107616,7 +109706,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.412Z",
+      "detectedAt": "2026-06-02T13:11:41.928Z",
       "markets": [
         {
           "code": "jp",
@@ -107849,14 +109939,16 @@
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 36,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1619722298"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 50,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "jp.co.koeitecmo.Power"
         }
       ]
     },
@@ -108768,7 +110860,8 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 38,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.ProjectMoon.LimbusCompany"
         }
       ]
     },
@@ -110340,35 +112433,40 @@
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 24,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.moonactive.cmboard"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 28,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1521236603"
         },
         {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 30,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1521236603"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 58,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.moonactive.cmboard"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 59,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "1521236603"
         }
       ]
     },
@@ -110612,7 +112710,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.468Z",
+      "detectedAt": "2026-06-02T13:11:42.104Z",
       "markets": [
         {
           "code": "kr",
@@ -111061,14 +113159,16 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 32,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.netmarble.rfnext"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 98,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.netmarble.rfnext"
         }
       ]
     },
@@ -111545,14 +113645,16 @@
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 34,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "1520354659"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 44,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.kakaogames.twodin"
         }
       ]
     },
@@ -111796,7 +113898,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.646Z",
+      "detectedAt": "2026-06-02T13:11:42.693Z",
       "markets": [
         {
           "code": "vn",
@@ -112241,11 +114343,52 @@
       },
       "_topRanks": [
         {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 19,
+          "chartLabel": "營收",
+          "appId": "6748295875"
+        },
+        {
           "marketCode": "vn",
           "marketFlag": "🇻🇳",
           "platform": "ios",
           "rank": 32,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6473259128"
+        },
+        {
+          "marketCode": "vn",
+          "marketFlag": "🇻🇳",
+          "platform": "android",
+          "rank": 64,
+          "chartLabel": "營收",
+          "appId": "com.Knight.MagnumQuest.VN"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 67,
+          "chartLabel": "營收",
+          "appId": "com.billionairegames.serares"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "android",
+          "rank": 82,
+          "chartLabel": "營收",
+          "appId": "com.duige.hzw.multilingual"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "android",
+          "rank": 84,
+          "chartLabel": "營收",
+          "appId": "com.billionairegames.serares"
         }
       ]
     },
@@ -112489,7 +114632,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.541Z",
+      "detectedAt": "2026-06-02T13:11:42.341Z",
       "markets": [
         {
           "code": "jp",
@@ -113598,70 +115741,80 @@
           "marketFlag": "🇹🇭",
           "platform": "ios",
           "rank": 4,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6746151928"
         },
         {
           "marketCode": "th",
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 10,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.xd.xdtglobal.gp"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "ios",
           "rank": 10,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6746151928"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 10,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.xd.xdtglobal.gp"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 15,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6746151928"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 20,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.xd.xdtglobal.gp"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 21,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6746151928"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 37,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "6746151928"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 43,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.xd.xdtglobal.gp"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 79,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.xd.xdtglobal.gp"
         }
       ]
     },
@@ -114576,14 +116729,16 @@
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 36,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6753709030"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 64,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "com.TornadoBear.WayofKings"
         }
       ]
     },
@@ -114827,7 +116982,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.395Z",
+      "detectedAt": "2026-06-02T13:11:41.883Z",
       "markets": [
         {
           "code": "us",
@@ -116148,32 +118303,76 @@
       },
       "_topRanks": [
         {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "android",
+          "rank": 32,
+          "chartLabel": "免費",
+          "appId": "jp.pokemon.pokemontcgp"
+        },
+        {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "ios",
           "rank": 32,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6479970832"
         },
         {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "ios",
           "rank": 36,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6479970832"
+        },
+        {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "android",
+          "rank": 65,
+          "chartLabel": "免費",
+          "appId": "jp.pokemon.pokemontcgp"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "ios",
           "rank": 67,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6479970832"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "ios",
           "rank": 72,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "6479970832"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "android",
+          "rank": 76,
+          "chartLabel": "免費",
+          "appId": "jp.pokemon.pokemontcgp"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "android",
+          "rank": 81,
+          "chartLabel": "免費",
+          "appId": "jp.pokemon.pokemontcgp"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 94,
+          "chartLabel": "免費",
+          "appId": "1094591345"
         }
       ]
     },
@@ -116417,7 +118616,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.586Z",
+      "detectedAt": "2026-06-02T13:11:42.494Z",
       "markets": [
         {
           "code": "th",
@@ -116866,14 +119065,32 @@
           "marketFlag": "🇹🇭",
           "platform": "android",
           "rank": 31,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.ponesea.gp"
         },
         {
           "marketCode": "ph",
           "marketFlag": "🇵🇭",
           "platform": "android",
           "rank": 58,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.ponesea.gp"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 63,
+          "chartLabel": "營收",
+          "appId": "6756949934"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 65,
+          "chartLabel": "營收",
+          "appId": "6756949934"
         }
       ]
     },
@@ -117117,7 +119334,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.469Z",
+      "detectedAt": "2026-06-02T13:11:42.106Z",
       "markets": [
         {
           "code": "kr",
@@ -118004,14 +120221,32 @@
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 56,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.fiveminlab.overgeared.hero.backpack.merge"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 61,
-          "chartLabel": "營收"
+          "chartLabel": "營收",
+          "appId": "com.fiveminlab.overgeared.hero.backpack.merge"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 78,
+          "chartLabel": "營收",
+          "appId": "6755585789"
+        },
+        {
+          "marketCode": "ph",
+          "marketFlag": "🇵🇭",
+          "platform": "ios",
+          "rank": 93,
+          "chartLabel": "營收",
+          "appId": "6755585789"
         }
       ]
     },
@@ -118255,7 +120490,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-01T21:44:28.440Z",
+      "detectedAt": "2026-06-02T13:11:42.017Z",
       "markets": [
         {
           "code": "us",
@@ -119138,32 +121373,76 @@
       },
       "_topRanks": [
         {
+          "marketCode": "kr",
+          "marketFlag": "🇰🇷",
+          "platform": "ios",
+          "rank": 15,
+          "chartLabel": "免費",
+          "appId": "1094591345"
+        },
+        {
+          "marketCode": "jp",
+          "marketFlag": "🇯🇵",
+          "platform": "ios",
+          "rank": 25,
+          "chartLabel": "免費",
+          "appId": "1094591345"
+        },
+        {
           "marketCode": "jp",
           "marketFlag": "🇯🇵",
           "platform": "android",
           "rank": 32,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "jp.pokemon.pokemontcgp"
+        },
+        {
+          "marketCode": "us",
+          "marketFlag": "🇺🇸",
+          "platform": "ios",
+          "rank": 56,
+          "chartLabel": "免費",
+          "appId": "1094591345"
         },
         {
           "marketCode": "kr",
           "marketFlag": "🇰🇷",
           "platform": "android",
           "rank": 65,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "jp.pokemon.pokemontcgp"
+        },
+        {
+          "marketCode": "tw",
+          "marketFlag": "🇹🇼",
+          "platform": "ios",
+          "rank": 68,
+          "chartLabel": "免費",
+          "appId": "1094591345"
         },
         {
           "marketCode": "us",
           "marketFlag": "🇺🇸",
           "platform": "android",
           "rank": 76,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "jp.pokemon.pokemontcgp"
         },
         {
           "marketCode": "tw",
           "marketFlag": "🇹🇼",
           "platform": "android",
           "rank": 81,
-          "chartLabel": "免費"
+          "chartLabel": "免費",
+          "appId": "jp.pokemon.pokemontcgp"
+        },
+        {
+          "marketCode": "th",
+          "marketFlag": "🇹🇭",
+          "platform": "ios",
+          "rank": 94,
+          "chartLabel": "免費",
+          "appId": "1094591345"
         }
       ]
     }

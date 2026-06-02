@@ -776,6 +776,7 @@ async function main() {
     mergedDarkhorses.sort((a, b) => b.confidenceScore - a.confidenceScore);
   }
 
+
   // ============ 跨平台自動配對 ============
   // 用開發商名稱從快照中找到同款遊戲在另一平台的 appId
   // 解決 iOS/Android 不同名稱（如「原神」vs「Genshin Impact」）無法自動合併的問題
@@ -918,24 +919,44 @@ async function main() {
   // ============ 計算 _topRanks（今日快照實際排名） ============
   // 直接查今天的排行榜資料，找該遊戲在所有市場×平台的排名
   for (const dh of mergedDarkhorses) {
-    const appIds = [dh.appId, ...(dh._siblingAppIds || [])];
+    const appIds = new Set([dh.appId, ...(dh._siblingAppIds || [])]);
     const ranks = [];
+    const foundMarketPlatform = new Set(); // 避免同市場同平台重複
     for (const market of MARKETS) {
       for (const scanPlatform of ['ios', 'android']) {
         if (scanPlatform === 'android' && !market.hasGooglePlay) continue;
         const snap = loadSnapshot(today, market.code, scanPlatform, dh.chartType);
         if (!snap || !snap.data) continue;
+        const dedupKey = `${market.code}_${scanPlatform}`;
+        // 先用 appId 比對
+        let matched = null;
         for (const appId of appIds) {
           const entry = snap.data.find(a => a.appId === appId);
-          if (entry && entry.rank <= 100) {
-            ranks.push({
-              marketCode: market.code,
-              marketFlag: market.flag,
-              platform: scanPlatform,
-              rank: entry.rank,
-              chartLabel: dh.chartType === 'grossing' ? '營收' : '免費',
+          if (entry && entry.rank <= 100) { matched = entry; break; }
+        }
+        // appId 找不到時，用名稱正規化比對（處理跨語言同款，如奧丁TW vs 오딘KR）
+        if (!matched && dh.name) {
+          const dhKey = dh.name.toLowerCase().replace(/[^\w\u4e00-\u9fff\uac00-\ud7ff]/g, '').substring(0, 6);
+          if (dhKey.length >= 2) {
+            matched = snap.data.find(a => {
+              if (!a.name || !a.rank || a.rank > 100) return false;
+              const aKey = a.name.toLowerCase().replace(/[^\w\u4e00-\u9fff\uac00-\ud7ff]/g, '').substring(0, 6);
+              return aKey === dhKey;
             });
+            // 將找到的跨語言 appId 加入 appIds 集合供後續使用
+            if (matched) appIds.add(matched.appId);
           }
+        }
+        if (matched && !foundMarketPlatform.has(dedupKey)) {
+          foundMarketPlatform.add(dedupKey);
+          ranks.push({
+            marketCode: market.code,
+            marketFlag: market.flag,
+            platform: scanPlatform,
+            rank: matched.rank,
+            chartLabel: dh.chartType === 'grossing' ? '營收' : '免費',
+            appId: matched.appId, // 存入實際 appId 供前端掃歷史用
+          });
         }
       }
     }
