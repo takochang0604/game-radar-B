@@ -29,7 +29,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-const COLLECTION = 'gameAnalysis';
+const COLLECTION = 'gameAnalysis-dev';  // dev 分支用獨立 collection，不影響正式版
 
 // ============ 快取 ============
 const cache = {

@@ -42,7 +42,7 @@ const db = admin.firestore();
 db.settings({ ignoreUndefinedProperties: true });
 
 // 頂層集合
-const COLLECTION = 'gameAnalysis';
+const COLLECTION = 'gameAnalysis-dev';  // dev 分支用獨立 collection，不影響正式版
 
 function resolveDir(dir) {
   return path.resolve(ROOT, dir);
