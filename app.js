@@ -832,8 +832,9 @@ function renderDarkhorses() {
                 name: MARKETS.find(mk => mk.code === entry.code)?.name || entry.code,
                 rank: entry.rank
               });
-            } else if (entry.rank && (!existingMarket.rank || entry.rank < existingMarket.rank)) {
-              existingMarket.rank = entry.rank;
+            } else if (entry.rank) {
+              // 永遠用今日快照的最新排名（取該市場所有榜別中最好的名次）
+              existingMarket.rank = Math.min(entry.rank, existingMarket.rank || 9999);
             }
 
             // 補充 _topRanks
@@ -849,6 +850,9 @@ function renderDarkhorses() {
                 rank: entry.rank,
                 chartLabel: entry.chartType === 'grossing' ? '營收' : '免費',
               });
+            } else {
+              // 用今日快照的最新排名更新
+              existingRank.rank = entry.rank;
             }
           }
         }
