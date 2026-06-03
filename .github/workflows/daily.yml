@@ -1,5 +1,5 @@
 # B 版（測試版）每日自動排程：抓排行榜 → 新算法偵測黑馬 → 上傳 Firebase (gameAnalysis-dev)
-# 台灣時間 19:20 (UTC 11:20) 執行，比 A 版晚 10 分鐘
+# 台灣時間 19:47 (UTC 11:47) 執行，與 A 版間隔 10 分鐘
 #
 # 需要設定的 GitHub Secret：
 #   GOOGLE_CREDENTIALS_JSON — google-credentials.json 的完整 JSON 內容
@@ -8,8 +8,8 @@ name: Daily Pipeline (B版)
 
 on:
   schedule:
-    # UTC 11:20 = 台灣時間 19:20（比 A 版晚 10 分鐘）
-    - cron: '20 11 * * *'
+    # UTC 11:47 = 台灣時間 19:47（與 A 版間隔 10 分鐘）
+    - cron: '47 11 * * *'
   workflow_dispatch: # 允許手動觸發
 
 permissions:
