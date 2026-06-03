@@ -812,8 +812,7 @@ function renderDarkhorses() {
     }
   }
 
-  // 後處理：從今日快照掃描所有市場×平台×榜別，補充 markets 和 _topRanks
-  // （後端 _topRanks 只掃同一 chartType，可能遺漏其他市場）
+  // 後處理：從今日快照補充 markets（國旗）和 _topRanks（排名）
   if (state.availableDates && state.availableDates.length > 0) {
     const latestDate = state.selectedDate || state.availableDates[state.availableDates.length - 1];
     if (state.snapshots[latestDate]) {
@@ -822,23 +821,21 @@ function renderDarkhorses() {
         const found = findAppInAllMarkets(latestDate, appIds);
         for (const [, entries] of found) {
           for (const entry of entries) {
-            // 補充 markets
+            // 補充 markets（國旗）
             if (!card.markets) card.markets = [];
-            const existingMarket = card.markets.find(m => m.code === entry.code);
-            if (!existingMarket) {
+            const existing = card.markets.find(m => m.code === entry.code);
+            if (!existing) {
               card.markets.push({
                 code: entry.code,
                 flag: getFlag(entry.code),
                 name: MARKETS.find(mk => mk.code === entry.code)?.name || entry.code,
                 rank: entry.rank
               });
-            } else if (entry.rank) {
-              // markets.rank 僅用於國旗排序（排名好的排前面），不用於顯示
-              // 實際排名數字由 _topRanks 提供（含正確的 chartLabel）
-              existingMarket.rank = Math.min(entry.rank, existingMarket.rank || 9999);
+            } else if (entry.rank && (!existing.rank || entry.rank < existing.rank)) {
+              existing.rank = entry.rank;
             }
 
-            // 補充 _topRanks
+            // 補充 _topRanks（卡片右上角排名）
             if (!card._topRanks) card._topRanks = [];
             const existingRank = card._topRanks.find(
               tr => tr.marketCode === entry.code && tr.platform === entry.platform && tr.chartLabel === (entry.chartType === 'grossing' ? '營收' : '免費')
@@ -851,13 +848,10 @@ function renderDarkhorses() {
                 rank: entry.rank,
                 chartLabel: entry.chartType === 'grossing' ? '營收' : '免費',
               });
-            } else {
-              // 用今日快照的最新排名更新
-              existingRank.rank = entry.rank;
             }
           }
         }
-        // 重新排序 _topRanks
+        // 排序 _topRanks
         if (card._topRanks && card._topRanks.length > 1) {
           card._topRanks.sort((a, b) => a.rank - b.rank);
         }
@@ -2166,6 +2160,8 @@ function rebuildModalRankHistory(dh, allDh, marketCode) {
   // 永遠掃描 iOS + Android 雙平台（即使黑馬只有單平台偵測到）
   const platformsToScan = ['ios', 'android'];
   const allAppIds = new Set(allDh.map(d => d.appId).concat([dh.appId]));
+  // 加入 _siblingAppIds（跨平台版本，例如 Android 版 appId）
+  (dh._siblingAppIds || []).forEach(id => allAppIds.add(id));
   // 補充：從 _topRanks 加入對應市場的實際 appId（後端名稱比對找到的跨語言版本）
   (dh._topRanks || []).forEach(tr => {
     if (tr.marketCode === marketCode && tr.appId) allAppIds.add(tr.appId);
