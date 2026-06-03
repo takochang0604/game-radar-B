@@ -1099,7 +1099,11 @@ function renderDarkhorses() {
     }).join('');
 
     if (hiddenRanks.length > 0) {
-      const tooltipText = hiddenRanks.map(cr => `${cr.marketFlag || ''} ${cr.chartLabel} #${cr.rank}`).join('&#10;');
+      // tooltip 只能用純文字，不能放 <img> 標籤
+      const tooltipText = hiddenRanks.map(cr => {
+        const mName = MARKETS.find(mk => mk.code === cr.marketCode)?.flag || cr.marketCode || '';
+        return `${mName} ${cr.chartLabel} #${cr.rank}`;
+      }).join('&#10;');
       rankHtml += `<div class="dh-rank-row" style="justify-content:flex-end;opacity:0.6;font-size:10px;cursor:help;margin-top:2px" title="${tooltipText}">+${hiddenRanks.length} 個排行</div>`;
     }
 
