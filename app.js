@@ -43,9 +43,16 @@ const MARKETS = [
   { code: 'ph', name: '菲律賓', flag: '🇵🇭', hasGooglePlay: true },
 ];
 
-// 統一國旗查找：永遠從 MARKETS 常數取 emoji，不依賴資料欄位
-const _flagMap = Object.fromEntries(MARKETS.map(m => [m.code, m.flag]));
-function getFlag(code) { return _flagMap[code] || ''; }
+// 統一國旗查找：回傳 <img> 標籤（使用 CDN SVG 國旗），徹底解決 Windows emoji 國旗不顯示問題
+const _FLAG_CDN = 'https://flagcdn.com';
+const _flagCodeMap = { us: 'us', jp: 'jp', kr: 'kr', cn: 'cn', tw: 'tw', th: 'th', vn: 'vn', ph: 'ph' };
+function getFlag(code) {
+  const cc = _flagCodeMap[code];
+  if (!cc) return '';
+  return `<img class="flag-icon" src="${_FLAG_CDN}/w40/${cc}.png" alt="${code}" loading="lazy">`;
+}
+// 全域圖示（用於「全部」按鈕）
+const FLAG_GLOBE = `<img class="flag-icon flag-globe" src="${_FLAG_CDN}/w40/xx.png" alt="globe" onerror="this.outerHTML='🌍'" loading="lazy">`;
 
 // ============ 狀態 ============
 let state = {
@@ -193,7 +200,7 @@ function buildMarketPills(containerId, hasAll, onChange) {
     const btn = document.createElement('button');
     btn.className = 'pill';
     btn.dataset.market = m.code;
-    btn.innerHTML = `<span class="flag">${m.flag}</span>${m.name}`;
+    btn.innerHTML = `${getFlag(m.code)}${m.name}`;
     btn.onclick = () => { pillSelect(container, btn); onChange(m.code); };
     container.appendChild(btn);
   });
@@ -780,8 +787,8 @@ function renderDarkhorses() {
     const flag = card.marketFlag || '';
     if (!flag) continue;
     card.triggers = card.triggers.map(t => {
-      // 已經有國旗 emoji 開頭的跳過
-      if (/^[\u{1F1E0}-\u{1F1FF}]/u.test(t._src || '')) return t;
+      // 已經有國旗（emoji 或 <img>）開頭的跳過
+      if (/^[\u{1F1E0}-\u{1F1FF}]/u.test(t._src || '') || /^<img/i.test(t._src || '')) return t;
       return { ...t, _src: `${flag} ${t._src || ''}`.trim() };
     });
   }
@@ -1017,7 +1024,7 @@ function renderDarkhorses() {
     let rankHtml = displayRanks.map(cr => {
       const pIcon = cr.platform === 'android' ? ICON_ANDROID : ICON_IOS;
       const rtCls = cr.chartLabel === '營收' ? 'rt-grossing' : 'rt-free';
-      const mFlag = cr.marketFlag ? `<span style="font-size:11px;margin-right:2px">${cr.marketFlag}</span>` : '';
+      const mFlag = cr.marketFlag ? (cr.marketFlag.startsWith('<img') ? cr.marketFlag : `<span style="font-size:11px;margin-right:2px">${cr.marketFlag}</span>`) : '';
       return `<div class="dh-rank-row">${mFlag}<span class="dh-rank-type ${rtCls}">${cr.chartLabel}</span>${pIcon}<span class="dh-rank-num">#${cr.rank}</span></div>`;
     }).join('');
 
@@ -1052,17 +1059,7 @@ function renderDarkhorses() {
   `;
   }).join('');
 
-  // 強制瀏覽器重繪 emoji 國旗（解決大量卡片渲染時 emoji 消失問題）
-  requestAnimationFrame(() => {
-    grid.querySelectorAll('.dh-tag.market, .dh-rank-row').forEach(el => {
-      el.style.willChange = 'contents';
-    });
-    requestAnimationFrame(() => {
-      grid.querySelectorAll('.dh-tag.market, .dh-rank-row').forEach(el => {
-        el.style.willChange = '';
-      });
-    });
-  });
+  // 國旗已改用 CDN 圖片，不再需要 emoji 重繪 hack
 
   setTimeout(() => {
     const canvasMap = new Map();
@@ -1497,7 +1494,7 @@ function showAnalysis(appId, platform) {
     // 建立一個偽 dh 物件，讓後面的渲染邏輯通用
     dh = {
       appId, platform, name: app.name, developer: app.developer, icon: app.icon,
-      marketFlag: MARKETS.find(m => m.code === state.rankMarket)?.flag || '',
+      marketFlag: getFlag(state.rankMarket),
       marketName: MARKETS.find(m => m.code === state.rankMarket)?.name || state.rankMarket,
       triggers: [], rankHistory: [],
     };
@@ -1579,7 +1576,7 @@ function showAnalysis(appId, platform) {
     const marketObj = MARKETS.find(x => x.code === state.rankMarket) || { flag: '', name: state.rankMarket };
     modalMarkets.push({
       code: state.rankMarket,
-      flag: marketObj.flag,
+      flag: getFlag(state.rankMarket),
       name: marketObj.name
     });
   }
@@ -1953,7 +1950,7 @@ function showAnalysis(appId, platform) {
                 onclick="switchModalMarket('${m.code}')" 
                 data-market="${m.code}"
               >
-                ${m.flag} ${m.name}
+                ${getFlag(m.code)} ${m.name}
               </button>
             `;
           }).join('')}
@@ -2048,7 +2045,7 @@ function showAnalysis(appId, platform) {
             selectorEl.innerHTML = newModalMarkets.map(m => `
               <button class="market-tab-btn${m.code === state.modalActiveMarket ? ' active' : ''}" 
                 onclick="switchModalMarket('${m.code}')" data-market="${m.code}">
-                ${m.flag} ${m.name}
+                ${getFlag(m.code)} ${m.name}
               </button>`).join('');
           } else if (!selectorEl && newModalMarkets.length > 1) {
             // 原本沒有 selector（因為只有1個市場），現在有多個了，插入
@@ -2060,7 +2057,7 @@ function showAnalysis(appId, platform) {
               newSelector.innerHTML = newModalMarkets.map(m => `
                 <button class="market-tab-btn${m.code === state.modalActiveMarket ? ' active' : ''}" 
                   onclick="switchModalMarket('${m.code}')" data-market="${m.code}">
-                  ${m.flag} ${m.name}
+                  ${getFlag(m.code)} ${m.name}
                 </button>`).join('');
               chartHeader.after(newSelector);
             }
@@ -2176,7 +2173,7 @@ function switchModalMarket(marketCode) {
   const activeMarket = MARKETS.find(m => m.code === marketCode) || { flag: '', name: marketCode };
   const labelEl = document.getElementById('modalChartMarketLabel');
   if (labelEl) {
-    labelEl.innerHTML = `(${activeMarket.flag} ${activeMarket.name}市場)`;
+    labelEl.innerHTML = `(${getFlag(marketCode)} ${activeMarket.name}市場)`;
   }
 
   // 2. Update active tab style
@@ -3036,7 +3033,7 @@ function renderPipelineHistory(container, history) {
         html += `<thead><tr><th>市場</th><th>平台</th><th>榜別</th><th>錯誤</th></tr></thead><tbody>`;
         for (const f of entry.failures) {
           const market = PL_MARKETS.find(m => m.code === f.market);
-          const flag = market ? market.flag : '';
+          const flag = market ? getFlag(market.code) : '';
           const name = market ? market.name : f.market;
           const platform = f.platform === 'android' ? '🤖' : '🍎';
           const chart = f.chartType === 'topfree' ? '免費' : '營收';
