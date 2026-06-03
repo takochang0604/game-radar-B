@@ -276,28 +276,27 @@ function initScoreInfo() {
         <div style="display:flex;flex-direction:column;gap:10px">
           <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
             <span style="font-size:15px;flex-shrink:0">🚀</span>
-            <div><strong style="color:var(--text-primary)">排名急升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 7 天內排名急速上升 30 名以上。</div>
+            <div><strong style="color:var(--text-primary)">排名急升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 排名急速上升 <strong>30 名</strong>以上，且起始排名須在 40 名之外。</div>
           </div>
           <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
             <span style="font-size:15px;flex-shrink:0">🆕</span>
-            <div><strong style="color:var(--text-primary)">新進強襲</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 之前不在榜上，首偵以強大爆發力**直接空降衝進 Top 30**。</div>
+            <div><strong style="color:var(--text-primary)">新進強襲</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 之前不在榜上（至少 4 天確認不在 Top 100），首度<strong>空降衝進 Top 30</strong>。</div>
           </div>
           <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
             <span style="font-size:15px;flex-shrink:0">📈</span>
-            <div><strong style="color:var(--text-primary)">持續攀升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 連續 5 天以上排名維持上升，無下跌現象。</div>
+            <div><strong style="color:var(--text-primary)">持續攀升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 連續 <strong>5 天</strong>以上排名持續上升，且起始排名須在 30 名之外。</div>
           </div>
           <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
             <span style="font-size:15px;flex-shrink:0">📊</span>
-            <div><strong style="color:var(--text-primary)">成長加速</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 近 3 天平均名次相比近 7 天平均排名，**成長高達 2.5 倍**以上。</div>
+            <div><strong style="color:var(--text-primary)">成長加速</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 近 3 天平均名次相比近 7 天平均排名，<strong>成長達 2.5 倍</strong>以上，且近 3 天均排在 Top 50 以內。</div>
           </div>
         </div>
 
-        <h4 style="font-size:13px;font-weight:700;color:var(--accent-purple);margin:14px 0 8px">進階與防噪規則</h4>
+        <h4 style="font-size:13px;font-weight:700;color:var(--accent-purple);margin:14px 0 8px">過濾與排除規則</h4>
         <div style="display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--text-muted);padding-left:4px">
-          <div><strong style="color:var(--text-secondary)">↩️ 回歸型黑馬</strong>：曾跌出 Top 50 之外，但在 7 天內重新強勢衝回 Top 20。</div>
-          <div><strong style="color:var(--text-secondary)">⚠️ 買榜警示 (鋸齒波動)</strong>：短時間內名次暴起暴落（幅度 >= 30 名）達 2 次以上，警示為非自然買量。</div>
-          <div><strong style="color:var(--text-secondary)">🛡️ 博弈排除</strong>：全面過濾排除博弈類遊戲 (GAME_CASINO)，維持競爭力分析純度。</div>
-          <div><strong style="color:var(--text-secondary)">🛡️ 品質篩選</strong>：商店評分低於 3.5 的遊戲將自動被系統剔除。</div>
+          <div><strong style="color:var(--text-secondary)">🛡️ 已確立遊戲排除</strong>：近 14 天內有 10 天以上排名穩定在 Top 20 的遊戲，不列為黑馬。</div>
+          <div><strong style="color:var(--text-secondary)">🛡️ 品質篩選</strong>：商店評分低於 3.0 的遊戲將自動被系統剔除。</div>
+          <div><strong style="color:var(--text-secondary)">⚠️ 快照斷層</strong>：當偵測到資料斷層時，急升與新進榜的觸發門檻自動提高 1.5 倍，降低誤判。</div>
         </div>
       </div>
 
@@ -305,6 +304,9 @@ function initScoreInfo() {
         <h4 style="font-size:14px;font-weight:700;color:var(--accent-yellow);margin-bottom:10px">信心分數 ⚡ 是什麼？</h4>
         <p style="font-size:13px;color:var(--text-secondary);margin-bottom:10px">
           每張卡片上的 <strong style="color:var(--accent-yellow)">⚡ 數字</strong> 代表這款黑馬遊戲的**威脅度與關注價值**，採 1-10 分制：
+        </p>
+        <p style="font-size:12px;color:var(--text-muted);margin-bottom:10px">
+          計算方式：取<strong>最高觸發策略分數</strong>為基礎分，每多觸發一個策略加 1 分（最多加 3），封頂 10 分。
         </p>
         <div style="display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--text-secondary);padding-left:4px">
           <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--text-muted)">▸</span> <strong>1-3 輕微異動</strong>：排名有變動但幅度不大，持續觀察即可</div>
@@ -818,6 +820,8 @@ function renderDarkhorses() {
     if (state.snapshots[latestDate]) {
       for (const card of filtered) {
         const appIds = new Set([card.appId, ...(card._siblingAppIds || [])]);
+        // 加入 _topRanks 裡的 appId（後端透過名稱比對找到的跨平台版本）
+        (card._topRanks || []).forEach(tr => { if (tr.appId) appIds.add(tr.appId); });
         const found = findAppInAllMarkets(latestDate, appIds);
         for (const [, entries] of found) {
           for (const entry of entries) {
@@ -1631,12 +1635,18 @@ function showAnalysis(appId, platform) {
       name: marketObj.name
     });
   }
-  // 簡化排序：直接按排名昇序
-  modalMarkets.sort((a, b) => {
-    const ra = a.rank ?? 9999;
-    const rb = b.rank ?? 9999;
-    return ra - rb;
-  });
+  // 排序：優先使用卡片已排好的順序（_sortedMarketOrder），確保卡片與 modal 一致
+  if (dh._sortedMarketOrder && dh._sortedMarketOrder.length > 0) {
+    const order = dh._sortedMarketOrder;
+    modalMarkets.sort((a, b) => {
+      const idxA = order.indexOf(a.code);
+      const idxB = order.indexOf(b.code);
+      return (idxA >= 0 ? idxA : 9999) - (idxB >= 0 ? idxB : 9999);
+    });
+  } else {
+    // fallback：按排名昇序
+    modalMarkets.sort((a, b) => (a.rank ?? 9999) - (b.rank ?? 9999));
+  }
 
   // 決定初始市場：取排名最好的市場（與外層卡片排序一致）
   let initialMarketCode = modalMarkets.length > 0 ? modalMarkets[0].code : (dh.market || dh.marketCode || state.rankMarket);
@@ -2083,12 +2093,16 @@ function showAnalysis(appId, platform) {
           }
 
           const newModalMarkets = Array.from(refreshedMarkets.values());
-          // 簡化排序：直接按排名昇序
-          newModalMarkets.sort((a, b) => {
-            const ra = a.rank ?? 9999;
-            const rb = b.rank ?? 9999;
-            return ra - rb;
-          });
+          if (dh._sortedMarketOrder && dh._sortedMarketOrder.length > 0) {
+            const order = dh._sortedMarketOrder;
+            newModalMarkets.sort((a, b) => {
+              const idxA = order.indexOf(a.code);
+              const idxB = order.indexOf(b.code);
+              return (idxA >= 0 ? idxA : 9999) - (idxB >= 0 ? idxB : 9999);
+            });
+          } else {
+            newModalMarkets.sort((a, b) => (a.rank ?? 9999) - (b.rank ?? 9999));
+          }
 
           // 更新市場標籤按鈕
           const selectorEl = document.getElementById('modalMarketSelector');
