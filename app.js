@@ -833,7 +833,8 @@ function renderDarkhorses() {
                 rank: entry.rank
               });
             } else if (entry.rank) {
-              // 永遠用今日快照的最新排名（取該市場所有榜別中最好的名次）
+              // markets.rank 僅用於國旗排序（排名好的排前面），不用於顯示
+              // 實際排名數字由 _topRanks 提供（含正確的 chartLabel）
               existingMarket.rank = Math.min(entry.rank, existingMarket.rank || 9999);
             }
 
@@ -1030,30 +1031,8 @@ function renderDarkhorses() {
     const rawReleased = state.analysis[dh.appId]?.detail?.released || '';
     const releasedDate = rawReleased ? (() => { try { const d = new Date(rawReleased); return isNaN(d) ? rawReleased : d.toISOString().split('T')[0]; } catch { return rawReleased; } })() : '';
     // === 排名計算（必須在國旗 HTML 之前） ===
-    // 直接使用後端從今日快照算好的 _topRanks（已按名次排序）
-    let chartRanks = (dh._topRanks && dh._topRanks.length > 0) ? [...dh._topRanks] : [];
-
-    // 補充：dh.markets 可能有 _topRanks 沒有覆蓋到的市場排名
-    // （後端 _topRanks 只掃同一 chartType，但 markets 來自全快照掃描）
-    if (dh.markets && dh.markets.length > 0) {
-      for (const m of dh.markets) {
-        if (!m.rank || m.rank > 100) continue;
-        // 檢查 _topRanks 裡有沒有同市場的排名（不限平台）
-        const alreadyHas = chartRanks.some(cr => cr.marketCode === m.code);
-        if (!alreadyHas) {
-          // 從 markets 補充（platform/chartLabel 取卡片主體的值）
-          chartRanks.push({
-            marketCode: m.code,
-            marketFlag: getFlag(m.code),
-            platform: dh.platform || 'ios',
-            rank: m.rank,
-            chartLabel: dh.chartType === 'grossing' ? '營收' : '免費',
-          });
-        }
-      }
-      // 重新按名次排序
-      chartRanks.sort((a, b) => a.rank - b.rank);
-    }
+    // 使用 _topRanks（後端 + 前端快照掃描已補充完整，含正確的 chartLabel）
+    const chartRanks = (dh._topRanks && dh._topRanks.length > 0) ? [...dh._topRanks] : [];
 
     const hasMultiMarkets = dh.markets && dh.markets.length > 1;
     const displayRanks = chartRanks.slice(0, 2);
