@@ -812,6 +812,54 @@ function renderDarkhorses() {
     }
   }
 
+  // 後處理：從今日快照掃描所有市場×平台×榜別，補充 markets 和 _topRanks
+  // （後端 _topRanks 只掃同一 chartType，可能遺漏其他市場）
+  if (state.availableDates && state.availableDates.length > 0) {
+    const latestDate = state.selectedDate || state.availableDates[state.availableDates.length - 1];
+    if (state.snapshots[latestDate]) {
+      for (const card of filtered) {
+        const appIds = new Set([card.appId, ...(card._siblingAppIds || [])]);
+        const found = findAppInAllMarkets(latestDate, appIds);
+        for (const [, entries] of found) {
+          for (const entry of entries) {
+            // 補充 markets
+            if (!card.markets) card.markets = [];
+            const existingMarket = card.markets.find(m => m.code === entry.code);
+            if (!existingMarket) {
+              card.markets.push({
+                code: entry.code,
+                flag: getFlag(entry.code),
+                name: MARKETS.find(mk => mk.code === entry.code)?.name || entry.code,
+                rank: entry.rank
+              });
+            } else if (entry.rank && (!existingMarket.rank || entry.rank < existingMarket.rank)) {
+              existingMarket.rank = entry.rank;
+            }
+
+            // 補充 _topRanks
+            if (!card._topRanks) card._topRanks = [];
+            const existingRank = card._topRanks.find(
+              tr => tr.marketCode === entry.code && tr.platform === entry.platform && tr.chartLabel === (entry.chartType === 'grossing' ? '營收' : '免費')
+            );
+            if (!existingRank) {
+              card._topRanks.push({
+                marketCode: entry.code,
+                marketFlag: getFlag(entry.code),
+                platform: entry.platform,
+                rank: entry.rank,
+                chartLabel: entry.chartType === 'grossing' ? '營收' : '免費',
+              });
+            }
+          }
+        }
+        // 重新排序 _topRanks
+        if (card._topRanks && card._topRanks.length > 1) {
+          card._topRanks.sort((a, b) => a.rank - b.rank);
+        }
+      }
+    }
+  }
+
   // 後處理：國旗排序 — 排名最好的市場排前面（第一個會亮起 active）
   for (const card of filtered) {
     if (card.markets && card.markets.length > 1) {
