@@ -74,10 +74,11 @@ export const DARKHORSE_CONFIG = {
   minHistoryDays: 4,         // 該市場至少要有 N 天快照才進行偵測
   minScore: 3.0,             // 最低評分門檻（低於此分的遊戲直接排除）
   minConfidence: 1.5,        // 最低信心分數（低於此分的不列為黑馬）
-  maxCurrentRank: 100,       // 擴大監測到 Top 100（Mid-Chart 偵測）
+  maxCurrentRank: 50,        // 偵測門檻：只有目前在 Top 50 以內的遊戲才列為黑馬
 
   // #6 黑馬保留期
   retentionDays: 14,         // 曾被偵測為黑馬的遊戲，在 N 天內只要仍在榜上就繼續保留
+  retentionMaxRank: 100,     // 保留期門檻：保留中的黑馬只要還在 Top 100 就不移除
 
   // #7 Growth Multiplier（成長倍率）
   growthMultiplierThreshold: 2.5,  // 近期排名/長期排名 >= 此值 → 黑馬信號

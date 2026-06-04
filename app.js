@@ -267,7 +267,7 @@ function initScoreInfo() {
       <h3 style="font-size:17px;margin-bottom:16px;display:flex;align-items:center;gap:8px">🐴 什麼是黑馬遊戲？</h3>
 
       <p style="font-size:13px;line-height:1.7;color:var(--text-secondary);margin-bottom:20px">
-        系統每天自動追蹤 <strong style="color:var(--text-primary)">8 個市場</strong>（美、日、韓、中、台、泰、越、菲）的 iOS 與 Android 遊戲排行榜（免費下載＋營收），從各市場 Top 100 中，找出近 14 天內<strong style="color:var(--text-primary)">排名異常竄升</strong>的遊戲。
+        系統每天自動追蹤 <strong style="color:var(--text-primary)">8 個市場</strong>（美、日、韓、中、台、泰、越、菲）的 iOS 與 Android 遊戲排行榜（免費下載＋營收），從各市場 Top 50 中，找出近 14 天內<strong style="color:var(--text-primary)">排名異常竄升</strong>的遊戲。
       </p>
 
       <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border-glass);border-radius:var(--radius-md);padding:16px;margin-bottom:16px">
@@ -276,11 +276,11 @@ function initScoreInfo() {
         <div style="display:flex;flex-direction:column;gap:10px">
           <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
             <span style="font-size:15px;flex-shrink:0">🚀</span>
-            <div><strong style="color:var(--text-primary)">排名急升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 排名急速上升 <strong>30 名</strong>以上，且起始排名須在 40 名之外。</div>
+            <div><strong style="color:var(--text-primary)">排名急升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 排名急速上升 <strong>30 名</strong>以上，且起始排名須在 40 名之外，目前排名須在 <strong>Top 50</strong> 以內。</div>
           </div>
           <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
             <span style="font-size:15px;flex-shrink:0">🆕</span>
-            <div><strong style="color:var(--text-primary)">新進強襲</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 之前不在榜上（至少 4 天確認不在 Top 100），首度<strong>空降衝進 Top 30</strong>。</div>
+            <div><strong style="color:var(--text-primary)">新進強襲</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 之前不在榜上（至少 4 天確認不在 Top 100），首度<strong>空降衝進 Top 30</strong>，且目前排名在 Top 50 以內。</div>
           </div>
           <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
             <span style="font-size:15px;flex-shrink:0">📈</span>
@@ -388,7 +388,7 @@ function formatTriggerDetail(detail, latestRank) {
   if (!detail) return '';
   
   // 針對「新進榜」的描述進行強勢修飾優化，提升黑馬的空降震撼力與合理度
-  if (detail.includes('首次進入 Top 100')) {
+  if (detail.includes('首次進入 Top 100') || detail.includes('首次進入 Top 50')) {
     const match = detail.match(/#(\d+)/);
     if (match) {
       const rank = parseInt(match[1]);
@@ -403,7 +403,7 @@ function formatTriggerDetail(detail, latestRank) {
       } else if (rank <= 30) {
         return `✨ 強勢衝進 Top 30，偵測當下排名 #${rank}`;
       } else {
-        return `首次進入 Top 100，偵測當下排名 #${rank}`;
+        return `首次進入 Top 50，偵測當下排名 #${rank}`;
       }
     }
   }

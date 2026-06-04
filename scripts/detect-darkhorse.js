@@ -691,7 +691,7 @@ async function main() {
   // 過去 14 天曾被偵測為黑馬的遊戲，如果今天仍在 Top 100，保留原始信心分數（不衰減）
   // 超過 14 天：完全移除
   const retentionDays = DARKHORSE_CONFIG.retentionDays || 14;
-  const retentionMinRank = DARKHORSE_CONFIG.maxCurrentRank || 100;
+  const retentionMinRank = DARKHORSE_CONFIG.retentionMaxRank || DARKHORSE_CONFIG.maxCurrentRank || 100;
   const existingIds = new Set(mergedDarkhorses.map(d => d.appId));
   let retainedCount = 0;
 
