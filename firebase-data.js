@@ -65,7 +65,21 @@ export async function loadDarkhorses() {
   if (cache.darkhorses) return cache.darkhorses;
   const snap = await getDoc(doc(db, COLLECTION, 'darkhorses'));
   if (snap.exists()) {
-    cache.darkhorses = snap.data();
+    const data = snap.data();
+    // 如果資料被分片，從子集合載入剩餘 chunks
+    if (data._chunked && data._totalChunks > 1) {
+      const chunksSnap = await getDocs(collection(db, COLLECTION, 'darkhorses', 'chunks'));
+      const extraDarkhorses = [];
+      chunksSnap.forEach(chunkDoc => {
+        const chunkData = chunkDoc.data();
+        if (chunkData.darkhorses) {
+          extraDarkhorses.push(...chunkData.darkhorses);
+        }
+      });
+      data.darkhorses = [...(data.darkhorses || []), ...extraDarkhorses];
+      console.log(`📦 黑馬分片載入完成：${data.darkhorses.length} 匹（${data._totalChunks} chunks）`);
+    }
+    cache.darkhorses = data;
     return cache.darkhorses;
   }
   return { darkhorses: [], date: null };

@@ -159,11 +159,41 @@ async function uploadDarkhorses() {
   };
   const payloadSize = Buffer.byteLength(JSON.stringify(payload), 'utf-8');
   console.log(`  📏 黑馬文件大小: ${(payloadSize / 1024).toFixed(1)} KB（Firestore 限制 1024 KB）`);
-  if (payloadSize > 950 * 1024) {
-    console.warn(`  ⚠️ 黑馬文件接近 1MB 限制，考慮進一步精簡`);
+
+  if (payloadSize > 900 * 1024) {
+    // 超過 900KB → 拆分成多個 chunk
+    console.log(`  ⚠️ 文件過大，啟動分片上傳...`);
+    const CHUNK_SIZE = 50; // 每個 chunk 最多 50 匹
+    const chunks = [];
+    for (let i = 0; i < slimDarkhorses.length; i += CHUNK_SIZE) {
+      chunks.push(slimDarkhorses.slice(i, i + CHUNK_SIZE));
+    }
+
+    // 主文件只放第一個 chunk + metadata
+    const mainPayload = {
+      date,
+      count: slimDarkhorses.length,
+      config: dhData.config || {},
+      darkhorses: chunks[0],
+      _chunked: true,
+      _totalChunks: chunks.length,
+    };
+    await db.collection(COLLECTION).doc('darkhorses').set(mainPayload);
+    console.log(`  ✅ 黑馬主文件（chunk 1/${chunks.length}，${chunks[0].length} 匹）`);
+
+    // 其餘 chunk 寫入子集合
+    for (let i = 1; i < chunks.length; i++) {
+      await db.collection(COLLECTION).doc('darkhorses').collection('chunks').doc(`chunk_${i}`).set({
+        index: i,
+        darkhorses: chunks[i],
+      });
+      console.log(`  ✅ 黑馬 chunk ${i + 1}/${chunks.length}（${chunks[i].length} 匹）`);
+    }
+  } else {
+    payload._chunked = false;
+    await db.collection(COLLECTION).doc('darkhorses').set(payload);
+    console.log(`  ✅ 黑馬（${slimDarkhorses.length} 匹，${latestDH}）`);
   }
-  await db.collection(COLLECTION).doc('darkhorses').set(payload);
-  console.log(`  ✅ 黑馬（${slimDarkhorses.length} 匹，${latestDH}）`);
 
   // #8 黑馬歷史：額外保留每天的黑馬到子集合（最多保留 60 天）
   await db.collection(COLLECTION).doc('darkhorseHistory').collection('items').doc(date).set({
