@@ -800,9 +800,16 @@ async function main() {
     return false;
   }
   // 名稱中提取拉丁字母 token（用於跨語言名稱比對）
+  // 過濾通用詞，避免「puzzle / game」這類字讓不同遊戲被誤配
+  // 例：'Meowdoku: Brain Puzzle Games' → ['meowdoku']（而非 ['meowdoku','brain','puzzle','games']）
+  const GENERIC_TOKENS = new Set([
+    'game','games','puzzle','puzzles','brain','casual','idle','tycoon',
+    'simulator','sim','adventure','quest','online','mobile','free',
+    'the','for','and',
+  ]);
   function extractLatinTokens(name) {
     if (!name) return [];
-    return name.toLowerCase().match(/[a-z]{3,}/g) || [];
+    return (name.toLowerCase().match(/[a-z]{3,}/g) || []).filter(t => !GENERIC_TOKENS.has(t));
   }
 
   const devGameMap = new Map(); // normalized_dev → [{appId, platform, name, developer}]
@@ -850,10 +857,32 @@ async function main() {
 
     if (candidates.length === 0) continue;
 
+    // 逆向驗證：避免「同開發商但不同款遊戲」被錯誤合併
+    // 通過條件（必須同時）：
+    //   1. 開發商正規化後完全相等或互含
+    //   2. 核心名稱（過濾通用字後）至少有 1 個 latin token 共通，
+    //      或 CJK 字元交集 ≥ 2
+    // 不同款遊戲的命名通常無法同時通過這兩條
+    const pairVerify = (c) => {
+      const dhDev2 = normalizeDev(dh.developer);
+      const cDev = normalizeDev(c.developer);
+      if (!dhDev2 || !cDev) return false;
+      if (dhDev2 !== cDev && !(dhDev2.includes(cDev) || cDev.includes(dhDev2))) return false;
+      const dhT = extractLatinTokens(dh.name);
+      const cT = extractLatinTokens(c.name);
+      if (dhT.some(t => cT.includes(t))) return true;
+      const dhCJK2 = (dh.name.match(/[一-鿿぀-ヿ가-힯]/g) || []).join('');
+      const cCJK2 = (c.name.match(/[一-鿿぀-ヿ가-힯]/g) || []).join('');
+      const cjkCommon = [...dhCJK2].filter(ch => cCJK2.includes(ch)).length;
+      return cjkCommon >= 2;
+    };
+
     if (candidates.length === 1) {
-      // 同開發商在另一平台只有一款遊戲 → 直接配對
-      dh._siblingAppIds = [candidates[0].appId];
-      pairedCount++;
+      // 同開發商在另一平台只有一款遊戲 → 仍需驗證才能配對
+      if (pairVerify(candidates[0])) {
+        dh._siblingAppIds = [candidates[0].appId];
+        pairedCount++;
+      }
     } else {
       // 同開發商有多款遊戲 → 多重策略篩選
 
@@ -885,7 +914,7 @@ async function main() {
         }
       }
 
-      if (bestMatch && bestScore >= 1) {
+      if (bestMatch && bestScore >= 1 && pairVerify(bestMatch)) {
         dh._siblingAppIds = [bestMatch.appId];
         pairedCount++;
       } else {
@@ -900,11 +929,11 @@ async function main() {
             if (!app.developer) continue;
             const appDevKey = normalizeDev(app.developer);
             if (devMatch(dhDevKey, appDevKey) && !chartTypeCandidates.find(c => c.appId === app.appId)) {
-              chartTypeCandidates.push({ appId: app.appId, name: app.name });
+              chartTypeCandidates.push({ appId: app.appId, name: app.name, developer: app.developer });
             }
           }
         }
-        if (chartTypeCandidates.length === 1) {
+        if (chartTypeCandidates.length === 1 && pairVerify(chartTypeCandidates[0])) {
           dh._siblingAppIds = [chartTypeCandidates[0].appId];
           pairedCount++;
         }
@@ -940,26 +969,40 @@ async function main() {
           if (entry && entry.rank <= 100) { matched = entry; break; }
         }
 
-        // 2. 名稱完全一致（正規化後）→ 不需開發商比對
-        //    處理同名跨平台（如 Yulgang iOS 開發商 HK Amusement vs Android 開發商 Star Entertainment）
-        if (!matched && dhNorm.length >= 3) {
-          matched = snap.data.find(a => a.rank && a.rank <= 100 && normNameForMatch(a.name) === dhNorm);
+        // 2. 名稱完全一致（正規化後）+ 開發商可辨識為同一家
+        //    例：同款遊戲在 iOS 與 Android 由不同代理商發行，名稱完全一致時仍允許配對
+        //    但要求開發商正規化後相等或互含，避免「Brain Out」這類通用名被別家遊戲誤配
+        if (!matched && dhNorm.length >= 3 && dh.developer) {
+          const dhDev2 = normNameForMatch(dh.developer);
+          matched = snap.data.find(a => {
+            if (!a.rank || a.rank > 100 || !a.developer) return false;
+            if (normNameForMatch(a.name) !== dhNorm) return false;
+            const aDev2 = normNameForMatch(a.developer);
+            return dhDev2.length >= 3 && aDev2.length >= 3 &&
+                   (dhDev2 === aDev2 || dhDev2.includes(aDev2) || aDev2.includes(dhDev2));
+          });
           if (matched) appIds.add(matched.appId);
         }
 
-        // 3. 開發商匹配 + 名稱相似度（處理跨語言版本，如奧丁TW vs 오딘KR）
+        // 3. 開發商匹配 + 核心名稱完全相等（處理同款遊戲在不同地區的副標題差異）
+        //    核心名稱 = 去掉 game / puzzle / brain / ... 等通用字後的剩餘字元
+        //    例：Meowdoku! 與 Meowdoku: Brain Puzzle Games 都得到核心 'meowdoku'
+        //    舊版用「字元集合 50% 重疊」太鬆，同開發商的 Arrows GO! 會被誤配到 Meowdoku
+        //    若同款遊戲跨地區用完全不同名（如奧丁TW vs 오딘KR），需另開 manual-pairs.json 處理
         if (!matched && dh.name && dh.developer) {
+          const GENERIC_WORDS_RE = /\b(game|games|puzzle|puzzles|brain|casual|idle|tycoon|simulator|sim|adventure|quest|online|mobile|free|the|of|and|for)\b/gi;
+          const coreNameForMatch = (n) => (n || '').toLowerCase()
+            .replace(GENERIC_WORDS_RE, '')
+            .replace(/[^a-z0-9一-鿿぀-ヿ가-힯฀-๿]/g, '');
           const dhDev = normNameForMatch(dh.developer);
-          for (const a of snap.data) {
-            if (!a.name || !a.rank || a.rank > 100 || !a.developer) continue;
-            const aDev = normNameForMatch(a.developer);
-            if (dhDev.length >= 3 && aDev.length >= 3 && (dhDev.includes(aDev) || aDev.includes(dhDev))) {
-              const aN = normNameForMatch(a.name);
-              if (aN.length >= 3 && dhNorm.length >= 3) {
-                const shorter = dhNorm.length < aN.length ? dhNorm : aN;
-                const longer = dhNorm.length >= aN.length ? dhNorm : aN;
-                const common = [...shorter].filter(c => longer.includes(c)).length;
-                if (common / shorter.length >= 0.5) { matched = a; appIds.add(a.appId); break; }
+          const dhCore = coreNameForMatch(dh.name);
+          if (dhCore.length >= 3) {
+            for (const a of snap.data) {
+              if (!a.name || !a.rank || a.rank > 100 || !a.developer) continue;
+              const aDev = normNameForMatch(a.developer);
+              if (dhDev.length >= 3 && aDev.length >= 3 && (dhDev.includes(aDev) || aDev.includes(dhDev))) {
+                const aCore = coreNameForMatch(a.name);
+                if (aCore === dhCore) { matched = a; appIds.add(a.appId); break; }
               }
             }
           }

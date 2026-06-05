@@ -10,6 +10,10 @@ google-credentials.json
 # Gemini AI 設定
 .agents/
 
+# Claude Code 設定
+.claude/
+CLAUDE.md
+
 # 本機啟動腳本
 start-server.bat
 
@@ -17,3 +21,6 @@ start-server.bat
 scratch-*.js
 test-*.js
 *.bak
+
+# repair-topranks.cjs 產生的備份
+data/darkhorse/*.json.backup-*
