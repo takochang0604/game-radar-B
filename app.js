@@ -516,25 +516,28 @@ function _mergeEscape(s) {
 }
 
 function injectMergeUI(dh) {
-  const body = document.getElementById('modalBody');
-  if (!body) return;
-  body.querySelector('.merge-toolbar')?.remove();
-  const toolbar = document.createElement('div');
-  toolbar.className = 'merge-toolbar';
+  const modalContent = document.querySelector('#analysisModal .modal-content');
+  if (!modalContent) return;
+  modalContent.querySelector('.merge-icon-btn')?.remove();
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'merge-icon-btn';
   if (dh._manualGroupId) {
     const memberCount = (dh._manualGroupMemberAppIds || []).length;
     const title = dh._manualGroupTitle || '(未命名)';
-    toolbar.innerHTML = `
-      <span class="merge-status">📌 已合併：${_mergeEscape(title)}(${memberCount} 張卡)</span>
-      <button class="merge-btn merge-btn-secondary" data-merge-unlink="${_mergeEscape(dh._manualGroupId)}" type="button">解除合併</button>
-    `;
+    btn.classList.add('merged');
+    btn.title = '已合併:' + title + '(' + memberCount + ' 張卡) — 點擊查看 / 解除';
+    btn.setAttribute('aria-label', '已合併:' + title + ',點擊查看群組');
+    btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v8"/><circle cx="12" cy="14" r="3"/><path d="M9 17l-2 5"/><path d="M15 17l2 5"/></svg>';
+    btn.dataset.mergeUnlink = dh._manualGroupId;
   } else {
-    toolbar.innerHTML = `
-      <button class="merge-btn" data-merge-open="${_mergeEscape(dh.appId)}" data-merge-platform="${_mergeEscape(dh.platform)}" type="button">🔗 合併卡片</button>
-      <span class="merge-hint">把其他確定是同款的卡片合進來</span>
-    `;
+    btn.title = '合併卡片 — 把分散在不同國家/平台的同款遊戲合成一張';
+    btn.setAttribute('aria-label', '合併卡片');
+    btn.innerHTML = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17H7A5 5 0 0 1 7 7h2"/><path d="M15 7h2a5 5 0 1 1 0 10h-2"/><line x1="8" y1="12" x2="16" y2="12"/></svg>';
+    btn.dataset.mergeOpen = dh.appId;
+    btn.dataset.mergePlatform = dh.platform;
   }
-  body.prepend(toolbar);
+  modalContent.appendChild(btn);
 }
 
 document.addEventListener('click', (e) => {
@@ -545,7 +548,7 @@ document.addEventListener('click', (e) => {
   }
   const unlinkBtn = e.target.closest('[data-merge-unlink]');
   if (unlinkBtn) {
-    removeMergeGroup(unlinkBtn.dataset.mergeUnlink);
+    openMergeGroupInfo(unlinkBtn.dataset.mergeUnlink);
   }
 });
 
@@ -664,6 +667,61 @@ function openMergePicker(currentAppId, currentPlatform) {
 
   renderSelected();
   renderCandidates();
+}
+
+function openMergeGroupInfo(groupId) {
+  const group = (state.manualPairs || []).find(g => g.id === groupId);
+  if (!group) return;
+  const members = (group.appIds || []).map(appId => {
+    const found = (state.darkhorses_raw || []).find(d => d.appId === appId);
+    return found || { appId, name: '(找不到資料)', developer: '', platform: '', markets: [] };
+  });
+  const overlay = document.createElement('div');
+  overlay.className = 'merge-overlay';
+  const memberRows = members.map(m => {
+    const platformIcon = m.platform === 'ios' ? '🍎 iOS' : (m.platform === 'android' ? '🤖 Android' : '');
+    const flags = (m.markets || []).map(x => x.flag).slice(0, 6).join('');
+    return '<div class="merge-member">' +
+      '<div class="merge-member-platform">' + platformIcon + '</div>' +
+      '<div class="merge-member-info">' +
+        '<div class="merge-member-name">' + _mergeEscape(m.name || '(無名)') + '</div>' +
+        '<div class="merge-member-meta">' +
+          _mergeEscape(m.developer || '') +
+          ' · <code>' + _mergeEscape(m.appId) + '</code>' +
+        '</div>' +
+      '</div>' +
+      '<div class="merge-member-flags">' + flags + '</div>' +
+    '</div>';
+  }).join('');
+  overlay.innerHTML =
+    '<div class="merge-picker">' +
+      '<div class="merge-picker-header">' +
+        '<h3>📌 已合併的卡片</h3>' +
+        '<button class="merge-picker-close" type="button">&times;</button>' +
+      '</div>' +
+      '<div class="merge-picker-body">' +
+        '<div class="merge-current">' +
+          '<span class="merge-current-label">群組名稱:</span>' +
+          '<strong>' + _mergeEscape(group.title || '(未命名)') + '</strong>' +
+          '<span class="merge-meta">' + members.length + ' 張卡</span>' +
+        '</div>' +
+        '<div class="merge-group-members">' + memberRows + '</div>' +
+        '<div class="merge-unmerge-hint">確定不是同款遊戲嗎?解除後這些卡會分開顯示</div>' +
+      '</div>' +
+      '<div class="merge-picker-footer">' +
+        '<button class="merge-btn merge-btn-secondary merge-cancel" type="button">關閉</button>' +
+        '<button class="merge-btn merge-btn-danger merge-unmerge" type="button">解除合併</button>' +
+      '</div>' +
+    '</div>';
+  document.body.appendChild(overlay);
+  overlay.querySelector('.merge-picker-close').onclick = () => overlay.remove();
+  overlay.querySelector('.merge-cancel').onclick = () => overlay.remove();
+  overlay.querySelector('.merge-unmerge').onclick = async () => {
+    overlay.remove();
+    state.manualPairs = (state.manualPairs || []).filter(g => g.id !== groupId);
+    closeModal();
+    await _persistAndReapply();
+  };
 }
 
 async function removeMergeGroup(groupId) {
