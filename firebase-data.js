@@ -191,6 +191,26 @@ export async function saveTrackedGames(list) {
 }
 
 /**
+ * 手動合併群組（讓使用者把自動配對找不到的跨語言/跨平台同款遊戲手動合併）
+ * 結構：{ groups: [{ id, title, appIds: [...], updatedAt }] }
+ * 沿用 gameTracking collection 既有的公開讀寫規則，不需動 firestore.rules
+ */
+const MANUAL_PAIRS_DOC = 'manualPairs';
+
+export async function loadManualPairs() {
+  const snap = await getDoc(doc(db, TRACKING_COLLECTION, MANUAL_PAIRS_DOC));
+  if (snap.exists()) {
+    const data = snap.data();
+    return Array.isArray(data.groups) ? data.groups : [];
+  }
+  return [];
+}
+
+export async function saveManualPairs(groups) {
+  await setDoc(doc(db, TRACKING_COLLECTION, MANUAL_PAIRS_DOC), { groups });
+}
+
+/**
  * 載入特定快照（按需載入，切換市場/日期時呼叫）
  * @param {string} date - 日期 YYYY-MM-DD
  * @param {string} market - 市場代碼
@@ -239,13 +259,14 @@ export async function loadMarketSnapshots(date, market, platforms, chartTypes) {
  * 平行載入所有必要資料
  */
 export async function loadInitialData() {
-  const [meta, dhData, analysis, reports, pipelineStatus, tracked] = await Promise.all([
+  const [meta, dhData, analysis, reports, pipelineStatus, tracked, manualPairs] = await Promise.all([
     loadMeta(),
     loadDarkhorses(),
     loadAnalysis(),
     loadReports(),
     loadPipelineStatus(),
     loadTrackedGames(),
+    loadManualPairs(),
   ]);
 
   return {
@@ -255,5 +276,6 @@ export async function loadInitialData() {
     reports,
     pipelineStatus,
     tracked,
+    manualPairs,
   };
 }

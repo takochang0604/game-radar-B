@@ -432,6 +432,262 @@ function sanitizeDarkhorses() {
   // 未來若有資料清理需求可在此擴充
 }
 
+/**
+ * 套用手動合併群組（自動配對解不掉的跨語言/跨平台案例由人工指定）
+ * 同 group 同 chartType 的卡片合併成一張：取分數最高當主卡，合併 _topRanks / markets /
+ * _rankHistoryByMarket / triggers / _siblingAppIds，並打上 _manualGroupId 標記
+ * 不同 chartType（免費 vs 營收）即使同 group 也不合，避免維度混淆
+ * 來源：state.manualPairs（由 firebase-data.js 從 gameTracking/manualPairs doc 載入）
+ */
+function applyManualPairs(darkhorses, groups) {
+  if (!Array.isArray(groups) || groups.length === 0) return darkhorses;
+  let result = [...darkhorses];
+  for (const group of groups) {
+    if (!group || !Array.isArray(group.appIds) || group.appIds.length < 2) continue;
+    const appIdSet = new Set(group.appIds);
+    const members = result.filter(dh => appIdSet.has(dh.appId));
+    if (members.length < 2) continue;
+    // 同 chartType 內合併
+    const byChartType = new Map();
+    for (const m of members) {
+      const k = m.chartType || 'topfree';
+      if (!byChartType.has(k)) byChartType.set(k, []);
+      byChartType.get(k).push(m);
+    }
+    for (const [, sameChart] of byChartType) {
+      if (sameChart.length < 2) continue;
+      sameChart.sort((a, b) => (b.confidenceScore || 0) - (a.confidenceScore || 0));
+      const main = sameChart[0];
+      const others = sameChart.slice(1);
+      const seenMP = new Set((main._topRanks || []).map(r => r.marketCode + '_' + r.platform));
+      for (const other of others) {
+        for (const r of (other._topRanks || [])) {
+          const key = r.marketCode + '_' + r.platform;
+          if (!seenMP.has(key)) {
+            seenMP.add(key);
+            if (!main._topRanks) main._topRanks = [];
+            main._topRanks.push(r);
+          }
+        }
+      }
+      if (main._topRanks) main._topRanks.sort((a, b) => (a.rank || 999) - (b.rank || 999));
+      const seenMarket = new Set((main.markets || []).map(m => m.code));
+      for (const other of others) {
+        for (const m of (other.markets || [])) {
+          if (!seenMarket.has(m.code)) {
+            seenMarket.add(m.code);
+            if (!main.markets) main.markets = [];
+            main.markets.push(m);
+          }
+        }
+      }
+      if (!main._rankHistoryByMarket) main._rankHistoryByMarket = {};
+      for (const other of others) {
+        for (const [mkt, hist] of Object.entries(other._rankHistoryByMarket || {})) {
+          if (!main._rankHistoryByMarket[mkt]) main._rankHistoryByMarket[mkt] = hist;
+        }
+      }
+      const seenT = new Set((main.triggers || []).map(t => (t.strategy || '') + '|' + (t.market || '')));
+      for (const other of others) {
+        for (const t of (other.triggers || [])) {
+          const k = (t.strategy || '') + '|' + (t.market || '');
+          if (!seenT.has(k)) {
+            seenT.add(k);
+            if (!main.triggers) main.triggers = [];
+            main.triggers.push(t);
+          }
+        }
+      }
+      const siblings = new Set([...(main._siblingAppIds || []), ...group.appIds.filter(id => id !== main.appId)]);
+      main._siblingAppIds = [...siblings];
+      main._manualGroupId = group.id;
+      main._manualGroupTitle = group.title || '';
+      main._manualGroupMemberAppIds = [...appIdSet];
+      const removeKeys = new Set(others.map(o => o.appId + '|' + o.platform + '|' + (o.chartType || '')));
+      result = result.filter(dh => !removeKeys.has(dh.appId + '|' + dh.platform + '|' + (dh.chartType || '')));
+    }
+  }
+  return result;
+}
+
+// =============== 手動合併 UI ===============
+function _mergeEscape(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function injectMergeUI(dh) {
+  const body = document.getElementById('modalBody');
+  if (!body) return;
+  body.querySelector('.merge-toolbar')?.remove();
+  const toolbar = document.createElement('div');
+  toolbar.className = 'merge-toolbar';
+  if (dh._manualGroupId) {
+    const memberCount = (dh._manualGroupMemberAppIds || []).length;
+    const title = dh._manualGroupTitle || '(未命名)';
+    toolbar.innerHTML = `
+      <span class="merge-status">📌 已合併：${_mergeEscape(title)}(${memberCount} 張卡)</span>
+      <button class="merge-btn merge-btn-secondary" data-merge-unlink="${_mergeEscape(dh._manualGroupId)}" type="button">解除合併</button>
+    `;
+  } else {
+    toolbar.innerHTML = `
+      <button class="merge-btn" data-merge-open="${_mergeEscape(dh.appId)}" data-merge-platform="${_mergeEscape(dh.platform)}" type="button">🔗 合併卡片</button>
+      <span class="merge-hint">把其他確定是同款的卡片合進來</span>
+    `;
+  }
+  body.prepend(toolbar);
+}
+
+document.addEventListener('click', (e) => {
+  const openBtn = e.target.closest('[data-merge-open]');
+  if (openBtn) {
+    openMergePicker(openBtn.dataset.mergeOpen, openBtn.dataset.mergePlatform);
+    return;
+  }
+  const unlinkBtn = e.target.closest('[data-merge-unlink]');
+  if (unlinkBtn) {
+    removeMergeGroup(unlinkBtn.dataset.mergeUnlink);
+  }
+});
+
+function openMergePicker(currentAppId, currentPlatform) {
+  const currentDh = state.darkhorses.find(d => d.appId === currentAppId && d.platform === currentPlatform)
+    || state.darkhorses.find(d => d.appId === currentAppId);
+  if (!currentDh) return;
+  let selected = [];
+  const allCandidates = state.darkhorses
+    .filter(d => d.appId !== currentDh.appId
+            && (d.chartType || 'topfree') === (currentDh.chartType || 'topfree')
+            && !d._manualGroupId);
+
+  const overlay = document.createElement('div');
+  overlay.className = 'merge-overlay';
+  overlay.innerHTML = `
+    <div class="merge-picker">
+      <div class="merge-picker-header">
+        <h3>合併卡片</h3>
+        <button class="merge-picker-close" type="button">&times;</button>
+      </div>
+      <div class="merge-picker-body">
+        <div class="merge-current">
+          <span class="merge-current-label">主卡:</span>
+          <strong>${_mergeEscape(currentDh.name)}</strong>
+          <span class="merge-meta">${currentDh.platform === 'ios' ? '🍎 iOS' : '🤖 Android'} · ${currentDh.chartType === 'grossing' ? '營收' : '免費'}</span>
+        </div>
+        <label class="merge-field">
+          <span>群組名稱(可不填)</span>
+          <input type="text" class="merge-title-input" placeholder="${_mergeEscape(currentDh.name)}" />
+        </label>
+        <label class="merge-field">
+          <span>搜尋要合併的卡片(同 chartType)</span>
+          <input type="search" class="merge-search-input" placeholder="輸入遊戲名稱或開發商..." autofocus />
+        </label>
+        <div class="merge-selected"></div>
+        <div class="merge-candidates"></div>
+      </div>
+      <div class="merge-picker-footer">
+        <button class="merge-btn merge-btn-secondary merge-cancel" type="button">取消</button>
+        <button class="merge-btn merge-confirm" type="button" disabled>確認合併</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  const candidatesEl = overlay.querySelector('.merge-candidates');
+  const selectedEl = overlay.querySelector('.merge-selected');
+  const searchEl = overlay.querySelector('.merge-search-input');
+  const titleEl = overlay.querySelector('.merge-title-input');
+  const confirmBtn = overlay.querySelector('.merge-confirm');
+
+  function renderCandidates() {
+    const q = searchEl.value.trim().toLowerCase();
+    const filtered = allCandidates.filter(d => {
+      if (selected.includes(d.appId)) return false;
+      if (!q) return true;
+      return (d.name || '').toLowerCase().includes(q) || (d.developer || '').toLowerCase().includes(q);
+    }).slice(0, 30);
+    candidatesEl.innerHTML = filtered.length === 0
+      ? '<div class="merge-empty">沒有符合條件的卡片</div>'
+      : filtered.map(d => `
+        <button class="merge-candidate" data-app-id="${_mergeEscape(d.appId)}" type="button">
+          <span class="merge-candidate-icon">${d.platform === 'ios' ? '🍎' : '🤖'}</span>
+          <span class="merge-candidate-info">
+            <span class="merge-candidate-name">${_mergeEscape(d.name || '(無名)')}</span>
+            <span class="merge-candidate-dev">${_mergeEscape(d.developer || '')}</span>
+          </span>
+          <span class="merge-candidate-markets">${(d.markets || []).map(m => m.flag).slice(0,5).join('')}</span>
+        </button>
+      `).join('');
+  }
+
+  function renderSelected() {
+    selectedEl.innerHTML = selected.length === 0
+      ? '<div class="merge-hint">在下方候選清單點選要合併的卡(可多選)</div>'
+      : selected.map(id => {
+          const d = allCandidates.find(c => c.appId === id);
+          if (!d) return '';
+          return `<span class="merge-chip">${_mergeEscape(d.name)} <button data-remove="${_mergeEscape(id)}" type="button">×</button></span>`;
+        }).join('');
+    confirmBtn.disabled = selected.length === 0;
+  }
+
+  searchEl.addEventListener('input', renderCandidates);
+  candidatesEl.addEventListener('click', e => {
+    const btn = e.target.closest('.merge-candidate');
+    if (!btn) return;
+    selected.push(btn.dataset.appId);
+    renderSelected();
+    renderCandidates();
+  });
+  selectedEl.addEventListener('click', e => {
+    const btn = e.target.closest('[data-remove]');
+    if (!btn) return;
+    selected = selected.filter(id => id !== btn.dataset.remove);
+    renderSelected();
+    renderCandidates();
+  });
+  overlay.querySelector('.merge-picker-close').onclick = () => overlay.remove();
+  overlay.querySelector('.merge-cancel').onclick = () => overlay.remove();
+  confirmBtn.onclick = async () => {
+    const title = titleEl.value.trim() || currentDh.name;
+    const groupId = 'g_' + Date.now();
+    const newGroup = {
+      id: groupId,
+      title,
+      appIds: [currentDh.appId, ...selected],
+      updatedAt: new Date().toISOString(),
+    };
+    state.manualPairs = [...(state.manualPairs || []), newGroup];
+    overlay.remove();
+    closeModal();
+    await _persistAndReapply();
+  };
+
+  renderSelected();
+  renderCandidates();
+}
+
+async function removeMergeGroup(groupId) {
+  if (!confirm('要解除這個合併嗎?解除後卡片會分開顯示')) return;
+  state.manualPairs = (state.manualPairs || []).filter(g => g.id !== groupId);
+  closeModal();
+  await _persistAndReapply();
+}
+
+async function _persistAndReapply() {
+  try {
+    const { saveManualPairs } = await import('./firebase-data.js');
+    await saveManualPairs(state.manualPairs);
+  } catch (err) {
+    console.error('儲存 manualPairs 失敗:', err);
+    alert('儲存失敗:' + (err?.message || err));
+    return;
+  }
+  if (state.darkhorses_raw) {
+    state.darkhorses = applyManualPairs(JSON.parse(JSON.stringify(state.darkhorses_raw)), state.manualPairs);
+  }
+  renderAll();
+}
+
 // ============ 載入資料（Firebase 優先，data.js fallback）============
 async function loadData() {
   // Firebase 模式
@@ -451,6 +707,10 @@ async function loadData() {
       state.snapshots = {}; // 快照按需載入
       state.darkhorses = data.darkhorses || [];
       sanitizeDarkhorses(); // 執行全域黑馬數據修正
+      state.manualPairs = data.manualPairs || [];
+      // 保留原始 darkhorses 供解除合併時還原（applyManualPairs 會修改 main dh 物件）
+      state.darkhorses_raw = JSON.parse(JSON.stringify(state.darkhorses));
+      state.darkhorses = applyManualPairs(JSON.parse(JSON.stringify(state.darkhorses_raw)), state.manualPairs);
       state.analysis = data.analysis || {};
       state.reports = data.reports || {};
       state.firebaseMode = true;
@@ -2037,6 +2297,7 @@ function showAnalysis(appId, platform) {
   `;
 
   document.getElementById('analysisModal').classList.add('active');
+  injectMergeUI(dh);
 
   setTimeout(() => {
     // 儲存當前 dh 供 preset 按鈕使用
