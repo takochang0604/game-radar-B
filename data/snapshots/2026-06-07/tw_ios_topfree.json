@@ -5,7 +5,7 @@
   "chartType": "topfree",
   "chartName": "免費下載排行",
   "count": 99,
-  "fetchedAt": "2026-06-07T11:48:42.862Z",
+  "fetchedAt": "2026-06-07T13:25:08.213Z",
   "data": [
     {
       "rank": 1,
@@ -711,7 +711,7 @@
       "free": true,
       "platform": "ios",
       "summary": "Path of Kings - 第一人稱奇幻RPG \n踏入一個扭曲的奇幻世界陰影之中，危險潛伏在每個角落，唯有強者才能生存。\nPath of Kings 是一款節奏緊湊的第一人稱動作RPG，專為直向（豎屏）體驗打造。探索被詛咒的土地，對抗惡夢般的怪物，在一場場史詩戰鬥中不斷變強。\n\n 對抗恐怖怪物  迎戰一波波可怕的敵人。閃避、攻擊並釋放強力技能，在為行動裝置優化的即時戰鬥中掌控全局。\n\n 探索黑",
-      "updated": "2026-06-05",
+      "updated": "2026-06-06",
       "released": "2025-10-07",
       "contentRating": "9+"
     },

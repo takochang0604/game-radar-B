@@ -5,7 +5,7 @@
   "chartType": "topfree",
   "chartName": "免費下載排行",
   "count": 91,
-  "fetchedAt": "2026-06-07T11:34:20.907Z",
+  "fetchedAt": "2026-06-07T13:10:57.123Z",
   "data": [
     {
       "rank": 1,
@@ -147,7 +147,7 @@
       "free": true,
       "platform": "ios",
       "summary": "Vita Mahjong是一款專為老年人打造的紙牌益智遊戲。我們很高興推出這款將創新與經典玩法相結合的配對遊戲。它提供大麻將牌和用戶友好、護眼的介面，相容所有平板電腦和手機我們的目標是提供一種輕鬆而又引人入勝的遊戲體驗，特別是針對老年人。\n\n在 Vita Studio，我們一直致力於製作為老年人設計的手機遊戲，讓他們找回放鬆、樂趣和歡樂。 我們的曲目包括 Vita Solitaire、Vita C",
-      "updated": "2026-05-30",
+      "updated": "2026-06-06",
       "released": "2023-12-01",
       "contentRating": "4+"
     },
