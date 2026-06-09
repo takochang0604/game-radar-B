@@ -1026,6 +1026,78 @@ async function main() {
     dh._topRanks = ranks;
   }
 
+  // ============ Step 9: 計算 healthRatio + displayScore (過渡補丁) ============
+  // 目的: 反映「當下排名健康度」,讓首爆後衰退的卡片分數實際下降
+  // 設計: 連續函數 marketFactor / snapshotMissing 區分快照缺失 / 觀察期 3 天保護 /
+  //       retained 獨立下限 / confidenceScore 永遠保留原值,新增 healthRatio + displayScore
+  // 詳見: DISCUSSION-healthRatio.md (原案) + 本實作為 workflow 評估後的改良版
+  // ⚠️ 這是過渡方案;長期 roadmap 是直接重寫 confidenceScore 公式 (詳見討論記錄)
+
+  // 連續函數: rank=1 → 0.95, rank=10 → ~0.74, rank=20 → 0.5, rank=50 → ~0.20, rank=100 → ~0.08
+  // 取代原案五階梯,消除邊界跳動
+  function marketFactor(rank) {
+    if (rank == null || rank <= 0) return 0.1;
+    return 1 / (1 + Math.pow(rank / 20, 1.5));
+  }
+
+  for (const dh of mergedDarkhorses) {
+    // 觀察期保護: 偵測 < 3 天的新黑馬不修正
+    const detectedDate = (dh.detectedAt || '').substring(0, 10);
+    const daysSinceDetected = detectedDate
+      ? Math.floor((new Date(today) - new Date(detectedDate)) / 86400000)
+      : 999;
+    if (daysSinceDetected < 3) {
+      dh.healthRatio = 1.0;
+      dh.displayScore = dh.confidenceScore;
+      continue;
+    }
+
+    // 收集每個觸發市場的當前排名 (從 _topRanks 取,該天該市場最佳排名)
+    const currentRanks = {};
+    if (dh._topRanks) {
+      dh._topRanks.forEach(r => {
+        if (!currentRanks[r.marketCode] || r.rank < currentRanks[r.marketCode]) {
+          currentRanks[r.marketCode] = r.rank;
+        }
+      });
+    }
+
+    let origSum = 0, weightedSum = 0;
+    for (const t of (dh.triggers || [])) {
+      const s = t.score || 0;
+      origSum += s;
+      // 舊資料相容: trigger 無 market 欄位 → fallback 1.0
+      if (!t.market) { weightedSum += s; continue; }
+      // snapshotMissing 區分: 該市場該天快照不存在 → fallback 1.0 (不懲罰)
+      const todaySnap = loadSnapshot(today, t.market, dh.platform, dh.chartType);
+      if (!todaySnap || !todaySnap.data) {
+        weightedSum += s;
+        continue;
+      }
+      // 真實掉榜或低排名 → 套用 marketFactor
+      const curRank = currentRanks[t.market];
+      weightedSum += s * marketFactor(curRank);
+    }
+
+    if (origSum <= 0) {
+      dh.healthRatio = 1.0;
+      dh.displayScore = dh.confidenceScore;
+      continue;
+    }
+
+    // retained 走獨立下限 (0.5),非 retained 用 0.4
+    const floor = dh._retained ? 0.5 : 0.4;
+    const ratio = Math.max(weightedSum / origSum, floor);
+
+    dh.healthRatio = Math.round(ratio * 100) / 100;
+    dh.displayScore = Math.round(dh.confidenceScore * ratio * 100) / 100;
+  }
+
+  // 用 displayScore 重新排序 (不動 confidenceScore 原值)
+  mergedDarkhorses.sort((a, b) =>
+    (b.displayScore ?? b.confidenceScore) - (a.displayScore ?? a.confidenceScore)
+  );
+
   // 儲存結果
   const outputFile = path.join(darkhorseDir, `${today}.json`);
   fs.writeFileSync(outputFile, JSON.stringify({
