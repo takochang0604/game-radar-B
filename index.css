@@ -278,15 +278,21 @@ body::before {
 /* 健康度 badge — 緊跟在分數後面,只在 health < 0.85 才顯示 */
 .dh-health {
   font-size: 10px; font-weight: 700;
-  padding: 2px 6px; border-radius: 10px;
+  padding: 2px 7px; border-radius: 10px;
   margin-left: 4px; cursor: help;
   display: inline-flex; align-items: center; gap: 2px;
+  border: 1px solid;
 }
-.dh-health.healthy { color: #34d399; background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.3); }
-.dh-health.warn { color: #fbbf24; background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.35); }
+/* Dark mode (default) — 半透明色塊 + 亮文字 */
+.dh-health.healthy { color: #34d399; background: rgba(16,185,129,0.18); border-color: rgba(16,185,129,0.45); }
+.dh-health.warn    { color: #fcd34d; background: rgba(245,158,11,0.22); border-color: rgba(245,158,11,0.55); }
 .dh-health.warn::before { content: '⚠️ '; }
-.dh-health.weak { color: #fca5a5; background: rgba(239,68,68,0.15); border: 1px solid rgba(239,68,68,0.35); }
+.dh-health.weak    { color: #fca5a5; background: rgba(239,68,68,0.22); border-color: rgba(239,68,68,0.55); }
 .dh-health.weak::before { content: '📉 '; }
+/* Light mode — 深色文字 + 較飽和背景,白底也看得清 */
+[data-theme="light"] .dh-health.healthy { color: #047857; background: rgba(16,185,129,0.20); border-color: rgba(16,185,129,0.55); }
+[data-theme="light"] .dh-health.warn    { color: #92400e; background: rgba(245,158,11,0.28); border-color: rgba(245,158,11,0.65); }
+[data-theme="light"] .dh-health.weak    { color: #991b1b; background: rgba(239,68,68,0.22); border-color: rgba(239,68,68,0.65); }
 
 .dh-card.has-analysis { border-color: rgba(16,185,129,0.25); }
 .dh-card.has-analysis::before { background: linear-gradient(90deg, var(--accent-green), var(--accent-cyan)); }
