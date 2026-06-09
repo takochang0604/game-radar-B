@@ -1106,7 +1106,8 @@ function renderDarkhorses() {
   }
 
   filtered = Array.from(mergedMap.values());
-  filtered.sort((a, b) => (b.confidenceScore || 0) - (a.confidenceScore || 0));
+  // 排序用 displayScore (已依 healthRatio 加權的現況分),fallback 到 confidenceScore
+  filtered.sort((a, b) => (b.displayScore ?? b.confidenceScore ?? 0) - (a.displayScore ?? a.confidenceScore ?? 0));
 
 
   // 後處理：多國卡片的 trigger 若沒有國旗，補上主市場旗幟
@@ -1246,8 +1247,19 @@ function renderDarkhorses() {
     const reportBadge = hasReport
       ? '<span class="dh-tag report-ready" title="已有評測報告">已評測</span>'
       : '';
-    const scoreBadge = dh.confidenceScore
-      ? `<span class="dh-confidence" title="綜合信心分數：依據所有上榜市場的排名、躍升幅度、上榜天數等綜合計算">⭐ ${dh.confidenceScore.toFixed(1)} 分</span>`
+    // 主分顯示 displayScore (已依當前各市場排名加權衰退)
+    // healthRatio < 0.85 才顯示健康度 badge,讓「過氣中」一眼可辨
+    const _score = dh.displayScore ?? dh.confidenceScore;
+    const _health = dh.healthRatio ?? 1.0;
+    const _healthCls = _health >= 0.85 ? 'healthy' : (_health >= 0.6 ? 'warn' : 'weak');
+    const _healthBadge = (_health < 0.85)
+      ? `<span class="dh-health ${_healthCls}" title="健康度 ${(_health*100).toFixed(0)}% — 依當前各市場排名加權,越低代表越衰退">${(_health*100).toFixed(0)}%</span>`
+      : '';
+    const _scoreTip = dh.healthRatio != null && dh.confidenceScore != null
+      ? `顯示分(現況):${_score?.toFixed(1)}\n首爆分(歷史最高):${dh.confidenceScore.toFixed(1)}\n健康度:${(_health*100).toFixed(0)}%`
+      : '綜合信心分數';
+    const scoreBadge = _score
+      ? `<span class="dh-confidence" title="${_scoreTip}">⭐ ${_score.toFixed(1)} 分</span>${_healthBadge}`
       : '';
 
     // === 確定 primaryMarket（首次偵測市場，穩定不跳動）===
