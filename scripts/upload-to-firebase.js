@@ -149,6 +149,11 @@ async function uploadDarkhorses() {
         Object.entries(dh._rankHistoryByMarket).map(([mkt, hist]) => [mkt, (hist || []).slice(-14)])
       )
     } : {}),
+    // healthRatio + displayScore — 反映「當前排名健康度」,前端據此顯示衰退 badge
+    ...(dh.healthRatio != null ? { healthRatio: dh.healthRatio } : {}),
+    ...(dh.displayScore != null ? { displayScore: dh.displayScore } : {}),
+    // _retained 標記也帶上,前端 / debug 用
+    ...(dh._retained ? { _retained: dh._retained, _retainedFrom: dh._retainedFrom } : {}),
   }));
   
   const payload = {
