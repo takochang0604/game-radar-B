@@ -1248,18 +1248,18 @@ function renderDarkhorses() {
       ? '<span class="dh-tag report-ready" title="已有評測報告">已評測</span>'
       : '';
     // 主分顯示 displayScore (已依當前各市場排名加權衰退)
-    // healthRatio < 0.85 才顯示健康度 badge,讓「過氣中」一眼可辨
+    // 健康度濃縮為分數 chip 右上角的小圓點 (CSS ::after 渲染),不佔 flex 寬度
+    // <0.6 朱紅 / 0.6-0.85 琥珀 / ≥0.85 不顯示 — 詳細百分比靠 title 屬性
     const _score = dh.displayScore ?? dh.confidenceScore;
     const _health = dh.healthRatio ?? 1.0;
-    const _healthCls = _health >= 0.85 ? 'healthy' : (_health >= 0.6 ? 'warn' : 'weak');
-    const _healthBadge = (_health < 0.85)
-      ? `<span class="dh-health ${_healthCls}" title="健康度 ${(_health*100).toFixed(0)}% — 依當前各市場排名加權,越低代表越衰退">${(_health*100).toFixed(0)}%</span>`
+    const _healthAttr = (_health < 0.6) ? ' data-health="weak"'
+      : (_health < 0.85) ? ' data-health="warn"'
       : '';
     const _scoreTip = dh.healthRatio != null && dh.confidenceScore != null
-      ? `顯示分(現況):${_score?.toFixed(1)}\n首爆分(歷史最高):${dh.confidenceScore.toFixed(1)}\n健康度:${(_health*100).toFixed(0)}%`
+      ? `顯示分(現況):${_score?.toFixed(1)} / 首爆分(歷史最高):${dh.confidenceScore.toFixed(1)} / 健康度:${(_health*100).toFixed(0)}%`
       : '綜合信心分數';
     const scoreBadge = _score
-      ? `<span class="dh-confidence" title="${_scoreTip}">⭐ ${_score.toFixed(1)} 分</span>${_healthBadge}`
+      ? `<span class="dh-confidence"${_healthAttr} title="${_scoreTip}">⭐ ${_score.toFixed(1)} 分</span>`
       : '';
 
     // === 確定 primaryMarket（首次偵測市場，穩定不跳動）===
