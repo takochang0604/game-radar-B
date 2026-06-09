@@ -274,31 +274,8 @@ body::before {
 .dh-confidence {
   font-size: 11px; font-weight: 700; color: var(--accent-yellow);
   background: rgba(234,179,8,0.12); padding: 3px 8px; border-radius: 10px;
-  display: inline-block; position: relative;  /* ::after dot 定位錨點 */
 }
-/* 健康度小圓點 — 不佔寬度,附在分數 chip 右上角
- * 健康 (≥85%) 不顯示 / warn (60-85%) 琥珀 / weak (<60%) 朱紅
- * 詳細百分比靠 .dh-confidence 的 title 屬性 (hover) 取得
- */
-.dh-confidence[data-health="warn"]::after,
-.dh-confidence[data-health="weak"]::after {
-  content: '';
-  position: absolute;
-  top: -3px;
-  right: -3px;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 2px var(--bg-secondary, #111827);  /* 描邊隔開周圍 */
-  pointer-events: none;
-}
-.dh-confidence[data-health="warn"]::after { background: #f59e0b; }
-.dh-confidence[data-health="weak"]::after { background: #ef4444; }
-/* Light mode 描邊改用白色,跟亮底融合 */
-[data-theme="light"] .dh-confidence[data-health="warn"]::after,
-[data-theme="light"] .dh-confidence[data-health="weak"]::after {
-  box-shadow: 0 0 0 2px #ffffff;
-}
+/* 健康度資訊只靠 title 屬性 (hover tooltip),不另加視覺元素,避免畫面擁擠 */
 
 .dh-card.has-analysis { border-color: rgba(16,185,129,0.25); }
 .dh-card.has-analysis::before { background: linear-gradient(90deg, var(--accent-green), var(--accent-cyan)); }
