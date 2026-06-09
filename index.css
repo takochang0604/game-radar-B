@@ -1447,6 +1447,13 @@ body::before {
   vertical-align: middle;
   margin: 0 1px;
 }
+/* 卡片右上 _topRanks 列的小國旗 */
+.dh-rank-row .flag-icon {
+  width: 14px;
+  height: 10px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
 /* 報告表格中的 emoji 國旗（如 🇯🇵 白底圓圈）加陰影避免被背景吃色 */
 .report-content td,
 .report-content th,

@@ -500,6 +500,14 @@ function applyManualPairs(darkhorses, groups) {
       }
       const siblings = new Set([...(main._siblingAppIds || []), ...group.appIds.filter(id => id !== main.appId)]);
       main._siblingAppIds = [...siblings];
+      // 依合併後的 triggers 重算 confidenceScore (公式同 detect-darkhorse.js)
+      // 否則主卡會保留原本分數,沒吃到另一張卡帶過來的觸發加分
+      const mergedScores = (main.triggers || []).map(t => t.score || 0);
+      if (mergedScores.length > 0) {
+        const baseScore = Math.max(...mergedScores);
+        const bonus = Math.min(mergedScores.length - 1, 3);
+        main.confidenceScore = Math.round(Math.min(baseScore + bonus, 10) * 100) / 100;
+      }
       main._manualGroupId = group.id;
       main._manualGroupTitle = group.title || '';
       main._manualGroupMemberAppIds = [...appIdSet];
@@ -1393,7 +1401,14 @@ function renderDarkhorses() {
     let rankHtml = displayRanks.map(cr => {
       const pIcon = cr.platform === 'android' ? ICON_ANDROID : ICON_IOS;
       const rtCls = cr.chartLabel === '營收' ? 'rt-grossing' : 'rt-free';
-      const mFlag = cr.marketFlag ? (cr.marketFlag.startsWith('<img') ? cr.marketFlag : `<span style="font-size:11px;margin-right:2px">${cr.marketFlag}</span>`) : '';
+      // 直接呼叫 polyfill 的 flagToImg(同步取得 img html),不依賴 MutationObserver
+      // 避免 Windows 字型 fallback 把 emoji 顯示成 "US"/"KR" 兩字母
+      let mFlag = '';
+      if (cr.marketFlag) {
+        if (cr.marketFlag.startsWith('<img')) mFlag = cr.marketFlag;
+        else if (typeof window.flagToImg === 'function') mFlag = window.flagToImg(cr.marketFlag);
+        else mFlag = `<span style="font-size:11px;margin-right:2px">${cr.marketFlag}</span>`;
+      }
       return `<div class="dh-rank-row">${mFlag}<span class="dh-rank-type ${rtCls}">${cr.chartLabel}</span>${pIcon}<span class="dh-rank-num">#${cr.rank}</span></div>`;
     }).join('');
 
