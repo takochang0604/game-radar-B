@@ -1,22 +1,13 @@
 /**
- * repair-healthratio.cjs
+ * repair-healthratio.cjs (v3 — 加 marketWeight + breadth + decay-aware + timeDecay)
  *
- * 對指定日期的 darkhorse json 計算 healthRatio + displayScore 兩個新欄位,
- * confidenceScore 維持原值不動。自動備份原檔到 .json.backup-pre-healthratio。
+ * 對指定日期的 darkhorse json 重算 healthRatio + breadthFactor + timeDecay + displayScore,
+ * confidenceScore 維持原值不動。自動備份。
  *
- * 用途: detect-darkhorse.js 改完之後,在等 Actions 自動跑之前先把今日 json patch 過。
+ * 邏輯與 scripts/detect-darkhorse.js Step 9 完全一致。
  *
- * 符合 GUIDELINES.md 第 2.2 節安全 patch 規範:
- *   - 用 commonjs (.cjs)
- *   - 不 require / import 任何專案腳本
- *   - 不動 detectedAt / triggers / confidenceScore 等核心欄位
- *   - 自動備份且驗證 newEntry 數量一致
- *
- * 用法:
- *   node scripts/repair-healthratio.cjs 2026-06-08
- *
- * 回滾:
- *   把 2026-06-08.json.backup-pre-healthratio 改回 2026-06-08.json
+ * 用法: node scripts/repair-healthratio.cjs 2026-06-09
+ * 回滾: 把 2026-06-09.json.backup-pre-healthratio 改回原檔名
  */
 const fs = require('fs');
 const path = require('path');
@@ -36,19 +27,56 @@ if (!fs.existsSync(DARKHORSE_FILE)) {
   process.exit(1);
 }
 
-// 快照存在檢查 (用於 snapshotMissing 判別)
+const MARKET_WEIGHT = {
+  us: 1.0, jp: 1.0, kr: 0.9, cn: 0.9,
+  tw: 0.7,
+  th: 0.5, vn: 0.5, ph: 0.5,
+};
+const getMarketWeight = (mkt) => (mkt && MARKET_WEIGHT[mkt] != null) ? MARKET_WEIGHT[mkt] : 0.5;
+
 function snapshotExists(market, platform, chartType) {
   const f = path.join(SNAPSHOTS_DIR, DATE, `${market}_${platform}_${chartType}.json`);
   return fs.existsSync(f);
 }
 
-// 連續函數 marketFactor (同 detect-darkhorse.js)
-function marketFactor(rank) {
-  if (rank == null || rank <= 0) return 0.1;
-  return 1 / (1 + Math.pow(rank / 20, 1.5));
+function parseTriggerRank(t) {
+  if (typeof t.triggerRank === 'number') return t.triggerRank;
+  const d = t.detail || '';
+  let m = d.match(/升至 #(\d+)/);                   if (m) return parseInt(m[1]);
+  m = d.match(/排名 #(\d+)/);                       if (m) return parseInt(m[1]);
+  m = d.match(/→ #(\d+)/);                          if (m) return parseInt(m[1]);
+  m = d.match(/平均 #(\d+) vs/);                    if (m) return parseInt(m[1]);
+  return null;
 }
 
-// 載入 + 備份
+function rankDecay(triggerRank, todayRank) {
+  if (todayRank == null || todayRank <= 0) return 0.1;
+  if (triggerRank == null) return 1 / (1 + Math.pow(todayRank / 20, 1.5));
+  if (todayRank <= triggerRank) return 1.0;
+  return Math.max(triggerRank / todayRank, 0.4);
+}
+
+function breadthFactor(dh) {
+  const seen = new Set();
+  let total = 0;
+  for (const r of (dh._topRanks || [])) {
+    if (!seen.has(r.marketCode)) {
+      seen.add(r.marketCode);
+      total += getMarketWeight(r.marketCode);
+    }
+  }
+  if (total <= 0) return 1.0;
+  return 1 + Math.min(Math.log2(total) * 0.15, 0.3);
+}
+
+function timeDecay(detectedAt) {
+  if (!detectedAt) return 1.0;
+  const days = Math.floor((new Date(DATE) - new Date(detectedAt.substring(0, 10))) / 86400000);
+  if (days < 3) return 1.0;
+  return 1 / (1 + (days - 3) / 30);
+}
+
+// ============ 主流程 ============
 const json = JSON.parse(fs.readFileSync(DARKHORSE_FILE, 'utf-8'));
 const dhs = json.darkhorses || [];
 console.log(`Loaded ${dhs.length} darkhorses from ${DATE}.json`);
@@ -64,10 +92,8 @@ if (!fs.existsSync(backupFile)) {
   console.log(`Backup already exists: ${path.basename(backupFile)} (not overwritten)`);
 }
 
-// 對每張卡計算 healthRatio + displayScore
 let modified = 0, observationPeriod = 0, retainedAdjusted = 0;
 for (const dh of dhs) {
-  // 觀察期保護: 偵測 < 3 天
   const detectedDate = (dh.detectedAt || '').substring(0, 10);
   const daysSinceDetected = detectedDate
     ? Math.floor((new Date(DATE) - new Date(detectedDate)) / 86400000)
@@ -75,56 +101,51 @@ for (const dh of dhs) {
   if (daysSinceDetected < 3) {
     dh.healthRatio = 1.0;
     dh.displayScore = dh.confidenceScore;
+    delete dh.breadthFactor;
+    delete dh.timeDecay;
     observationPeriod++;
     continue;
   }
 
-  // 收集每個市場的當前排名 (從 _topRanks)
   const currentRanks = {};
-  if (dh._topRanks) {
-    dh._topRanks.forEach(r => {
-      if (!currentRanks[r.marketCode] || r.rank < currentRanks[r.marketCode]) {
-        currentRanks[r.marketCode] = r.rank;
-      }
-    });
-  }
-
-  let origSum = 0, weightedSum = 0;
-  for (const t of (dh.triggers || [])) {
-    const s = t.score || 0;
-    origSum += s;
-    if (!t.market) { weightedSum += s; continue; }
-    // snapshotMissing 區分
-    if (!snapshotExists(t.market, dh.platform, dh.chartType)) {
-      weightedSum += s;
-      continue;
+  for (const r of (dh._topRanks || [])) {
+    if (!currentRanks[r.marketCode] || r.rank < currentRanks[r.marketCode]) {
+      currentRanks[r.marketCode] = r.rank;
     }
-    const curRank = currentRanks[t.market];
-    weightedSum += s * marketFactor(curRank);
   }
 
-  if (origSum <= 0) {
-    dh.healthRatio = 1.0;
-    dh.displayScore = dh.confidenceScore;
-    continue;
+  let totalWeight = 0, decayedWeight = 0;
+  for (const t of (dh.triggers || [])) {
+    const mw = getMarketWeight(t.market);
+    const sw = (t.score || 0) * mw;
+    totalWeight += sw;
+    if (!t.market) { decayedWeight += sw; continue; }
+    if (!snapshotExists(t.market, dh.platform, dh.chartType)) { decayedWeight += sw; continue; }
+    const tRank = parseTriggerRank(t);
+    const todayRank = currentRanks[t.market];
+    decayedWeight += sw * rankDecay(tRank, todayRank);
   }
 
+  const rawHealth = totalWeight > 0 ? decayedWeight / totalWeight : 1.0;
   const floor = dh._retained ? 0.5 : 0.4;
-  const ratio = Math.max(weightedSum / origSum, floor);
+  const health = Math.max(rawHealth, floor);
 
-  dh.healthRatio = Math.round(ratio * 100) / 100;
-  dh.displayScore = Math.round(dh.confidenceScore * ratio * 100) / 100;
+  const breadth = breadthFactor(dh);
+  const decay = timeDecay(dh.detectedAt);
+
+  dh.healthRatio = Math.round(health * 100) / 100;
+  dh.breadthFactor = Math.round(breadth * 100) / 100;
+  dh.timeDecay = Math.round(decay * 100) / 100;
+  dh.displayScore = Math.round(Math.min(dh.confidenceScore * health * breadth * decay, 10) * 100) / 100;
 
   if (dh._retained) retainedAdjusted++;
   if (Math.abs(dh.displayScore - dh.confidenceScore) > 0.01) modified++;
 }
 
-// 用 displayScore 重新排序
 dhs.sort((a, b) =>
   (b.displayScore ?? b.confidenceScore) - (a.displayScore ?? a.confidenceScore)
 );
 
-// 驗證 newEntry 數量沒變
 const newEntryAfter = dhs.filter(x => (x.detectedAt || '').substring(0, 10) === DATE).length;
 console.log(`newEntry (detectedAt=${DATE}) after: ${newEntryAfter}`);
 if (newEntryBefore !== newEntryAfter) {
@@ -132,7 +153,6 @@ if (newEntryBefore !== newEntryAfter) {
   process.exit(1);
 }
 
-// 寫回
 fs.writeFileSync(DARKHORSE_FILE, JSON.stringify(json, null, 2), 'utf-8');
 console.log(`✅ Wrote ${DARKHORSE_FILE}`);
 console.log('');

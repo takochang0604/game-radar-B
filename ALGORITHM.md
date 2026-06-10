@@ -1,6 +1,6 @@
 # 黑馬偵測 & 信心分數算法 — 現行版本記錄
 
-> 最後更新:2026-06-09(commit `c6972ce` 之後)
+> 最後更新:2026-06-09 v3(加入 marketWeight + breadth + decay-aware + timeDecay)
 > 此文件記錄目前運作中的算法,供日後決定是否要再改良時參考。
 
 ---
@@ -37,49 +37,104 @@ finalScore = min(baseScore + bonus, 10)   ← 封頂 10
 
 ---
 
-## 三、健康度 + 顯示分(healthRatio / displayScore)— 反映現況
+## 三、顯示分(displayScore)— 反映現況的綜合分
 
-> 加入時間:2026-06-09,作為「過渡補丁」處理 confidenceScore 鎖死問題。
-> 多視角 workflow 評估後採用的改良版,長期 roadmap 是重寫 confidenceScore 公式。
+> 2026-06-09 v3 升級:加入 marketWeight、breadth、decay-aware、timeDecay 四項業界元素。
+> 之後想再改的話,長期 roadmap 是重寫底層 confidenceScore 公式或拆三軸打分。
 
-### healthRatio 公式
-
-```
-healthRatio = Σ(trigger.score × marketFactor) / Σ(trigger.score)
-```
-
-**marketFactor(連續函數,無階梯跳動)**:
+### 公式
 
 ```
-marketFactor(rank) = 1 / (1 + (rank/20)^1.5)
+displayScore = min(confidenceScore × healthRatio × breadthFactor × timeDecay, 10)
 ```
 
-各排名對應的 factor:
-- #1 → ≈ 0.95
-- #10 → ≈ 0.74
-- #20 → 0.5
-- #50 → ≈ 0.20
-- #100 → ≈ 0.08
-- 不在榜 → 0.1
+寫入 json 的欄位:`confidenceScore`(原值不動)+ `healthRatio` + `breadthFactor` + `timeDecay` + `displayScore`。
 
-**邊界處理**:
-1. **觀察期保護**:偵測日期 < 3 天的新黑馬,`healthRatio = 1.0`(不修正)
-2. **舊資料相容**:`trigger.market` 欄位不存在 → 該觸發 factor = 1.0
-3. **snapshotMissing 區分**:該市場該天快照檔不存在 → factor = 1.0(視為資料缺失,不懲罰)
-4. **下限保護**:
-   - 新黑馬:`max(healthRatio, 0.4)`
-   - retained 黑馬:`max(healthRatio, 0.5)`(避免雙重懲罰)
-5. **Σ(trigger.score) ≤ 0** → 直接設 healthRatio = 1.0
-
-### displayScore
+### 1. healthRatio — 衰退判別,帶市場權重
 
 ```
-displayScore = round(confidenceScore × healthRatio, 2)
+healthRatio = Σ(trigger.score × marketWeight × rankDecay) / Σ(trigger.score × marketWeight)
 ```
 
-寫入 json:`confidenceScore`(原值,不動)+ `healthRatio` + `displayScore`。
+**marketWeight 分層表**(可日後微調):
+```
+us, jp           → 1.0   (主市場)
+kr, cn           → 0.9
+tw               → 0.7
+th, vn, ph       → 0.5
+```
 
-程式碼:`scripts/detect-darkhorse.js` 行 1029-1106
+**rankDecay(triggerRank, todayRank)** — 判別「真衰退」vs 「擴張新市場」:
+```
+今天比觸發當天更好 (todayRank ≤ triggerRank) → 1.0  (沒衰退)
+今天比觸發當天差   → max(triggerRank / todayRank, 0.4)
+完全掉榜 (todayRank == null)                 → 0.1
+無 triggerRank fallback → marketFactor(todayRank) = 1 / (1 + (rank/20)^1.5)
+```
+
+**triggerRank 來源**:
+- v3 後的新觸發直接在 trigger 物件記錄
+- 舊資料用 `parseTriggerRank(t.detail)` 從字串解析(`升至 #N`、`排名 #N`、`→ #N`、`平均 #N vs`)
+
+**下限保護**:
+- 觀察期 < 3 天 → healthRatio = 1.0
+- 新黑馬:`max(rawHealth, 0.4)`
+- retained 黑馬:`max(rawHealth, 0.5)`
+- snapshotMissing(快照漏抓)→ trigger 視為 1.0(不誤判)
+
+### 2. breadthFactor — 廣度加成
+
+```
+weightedMarketCount = Σ(marketWeight for each unique market in _topRanks)
+breadthFactor = 1 + min(log2(weightedMarketCount) × 0.15, 0.3)
+```
+
+- 1 個市場(weight 0.5)→ ≈ 0.85,fallback 1.0
+- 2 個主市場(weight 2.0)→ 1.15
+- 4 個主市場(weight 4.0)→ 1.30(上限)
+- 上限 +30% 乘數,不會無限放大
+
+意義:多市場上榜的真正全球熱潮拿到加成,單市場黑馬只拿基本分。
+
+### 3. timeDecay — 老黑馬自然淡出
+
+```
+days = floor((today - detectedAt) / day_ms)
+days < 3        → 1.0  (觀察期)
+否則 → 1 / (1 + (days - 3) / 30)
+```
+
+半衰期 **30 天**(從 detected 後第 3 天起算):
+- 3 天: 1.00
+- 7 天: 0.88
+- 14 天: 0.73
+- 21 天: 0.62
+- 30 天: 0.52
+- 60 天: 0.36
+
+避免老黑馬霸榜,讓新黑馬有機會排到前面。
+
+### 4. 合成範例
+
+**Meowdoku iOS(8 國上榜,主市場 Top 1-3,7 天前偵測)**:
+```
+confidenceScore = 10
+healthRatio    = 1.00  (所有市場今天 ≤ 觸發排名)
+breadthFactor  = 1.29  (8 國,weight 加總 4.5)
+timeDecay      = 0.88  (7 天)
+displayScore   = min(10 × 1.0 × 1.29 × 0.88, 10) = 10  (封頂)
+```
+
+**Dragon Village 3 iOS(2 國上榜,TW 從 #1 掉到 #3,7 天前)**:
+```
+confidenceScore = 10
+healthRatio    = 0.68  (TW triggers 觸發衰退判別)
+breadthFactor  = 1.10  (僅 KR+TW)
+timeDecay      = 0.88
+displayScore   = min(10 × 0.68 × 1.10 × 0.88, 10) = 6.58
+```
+
+程式碼:`scripts/detect-darkhorse.js` Step 9(行 1029+)
 
 ---
 
@@ -173,32 +228,34 @@ isEstablishedGame()        → 排除(已穩定的大作不算黑馬)
 
 ---
 
-## 九、已知弱點(workflow 評估點出的)
+## 九、v3 解了什麼 / 還剩什麼
 
-優先級由高到低:
+### v3(2026-06-09)解了
+1. ✅ **市場分層** — marketWeight 表,US/JP=1.0 vs TH/VN/PH=0.5
+2. ✅ **廣度加成** — breadthFactor 讓 8 國上榜的全球熱潮拿 +30% 乘數
+3. ✅ **衰退判別** — rankDecay 區分「真衰退」(觸發後排名變差) 與「擴張新市場」(本就排在後段)
+4. ✅ **時間衰減** — timeDecay 30 天半衰期,老黑馬自然淡出讓新黑馬上位
 
-1. **底層公式太容易頂到 10 分** ⚠️
+### 還剩的弱點
+
+1. **底層 confidenceScore 公式太容易頂到 10 分** ⚠️
    - 觸發 1 個 7 分策略 + 任 4 個策略觸發 → 7 + 3 = 10
-   - 真正的全球大爆款跟「普通 4 國黑馬」分數分不出來
-   - healthRatio 只能往下拉,**無法拉開頂端區分力**
+   - displayScore 在乘上 breadth + decay 後仍會 cap 在 10
+   - 真正的全球大爆款跟「普通 4 國黑馬」在 9-10 區間區分力仍弱
 
-2. **市場分層沒做**
-   - 美國 #1 = 越南 #1 在計算上同分
-   - 沒有 `marketWeight` 概念
-   - 分析師最在乎的痛點
+2. **免費 / 營收 一視同仁**
+   - 營收 #1 的商業意義 ≠ 免費 #1,但分數沒區分
 
-3. **免費 / 營收 一視同仁**
-   - 營收 #1 的商業意義 ≠ 免費 #1
+3. **Modal 內 triggers 描述是過時的**
+   - displayScore 反映現況,但 modal 內 trigger 描述仍是首爆當天的字串
 
-4. **Modal 內 triggers 描述是過時的**
-   - displayScore 反映現況,但 modal 內 trigger 描述仍是首爆當天
-
-5. **參數沒實證校準**
-   - 觀察期 3 天 / 下限 0.4 / 健康度閾值都是憑直覺
+4. **參數沒實證校準**
+   - marketWeight 表、timeDecay 半衰期 30 天、健康度閾值都是憑直覺
    - 應該「平行跑 2 週用實測資料校準」
 
-6. **Cohort 比較沒做**
-   - 沒跟同 category 同期間遊戲比相對表現
+5. **Cohort 比較沒做**
+   - 沒跟同 category 同期間遊戲比相對表現(workflow 點出的)
+   - 一款拼圖遊戲在「拼圖類普遍掉」的時候上升,比在拼圖類普遍上升時上升更黑馬
 
 ---
 

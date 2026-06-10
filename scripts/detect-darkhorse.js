@@ -158,6 +158,7 @@ function detectRankJump(app, history, gapInfo) {
       label: '🚀 排名急升',
       detail: `${validHistory.length} 天內排名從 #${oldestRank} 升至 #${currentRank}（↑${jump} 名）${gapNote}`,
       score,
+      triggerRank: currentRank,
     };
   }
   return null;
@@ -203,6 +204,7 @@ function detectNewEntry(app, history, gapInfo) {
         label: '🆕 新進榜',
         detail: `強勢衝進 Top ${maxRank}，偵測當下排名 #${currentRank}`,
         score: getNewEntryScore(currentRank),
+        triggerRank: currentRank,
       };
     }
   }
@@ -224,6 +226,7 @@ function detectNewEntry(app, history, gapInfo) {
       label: '🆕 新進榜',
       detail: `首次進入 Top 100，目前排名 #${currentRank}${gapNote}`,
       score: getNewEntryScore(currentRank),
+      triggerRank: currentRank,
     };
   }
 
@@ -266,6 +269,7 @@ function detectConsecutiveRise(app, history) {
       label: '📈 持續攀升',
       detail: `連續 ${consecutiveRise} 天上升（#${firstRank} → #${currentRank}）`,
       score,
+      triggerRank: currentRank,
     };
   }
   return null;
@@ -315,6 +319,7 @@ function detectGrowthMultiplier(app, history, gapInfo) {
       label: '📊 成長加速',
       detail: `成長倍率 ${multiplier.toFixed(1)}×（近 ${shortWindow} 天平均 #${Math.round(recentAvg)} vs 近 ${longWindow} 天平均 #${Math.round(longAvg)}）${gapNote}`,
       score,
+      triggerRank: currentRank,
     };
   }
   return null;
@@ -1026,18 +1031,66 @@ async function main() {
     dh._topRanks = ranks;
   }
 
-  // ============ Step 9: 計算 healthRatio + displayScore (過渡補丁) ============
-  // 目的: 反映「當下排名健康度」,讓首爆後衰退的卡片分數實際下降
-  // 設計: 連續函數 marketFactor / snapshotMissing 區分快照缺失 / 觀察期 3 天保護 /
-  //       retained 獨立下限 / confidenceScore 永遠保留原值,新增 healthRatio + displayScore
-  // 詳見: DISCUSSION-healthRatio.md (原案) + 本實作為 workflow 評估後的改良版
-  // ⚠️ 這是過渡方案;長期 roadmap 是直接重寫 confidenceScore 公式 (詳見討論記錄)
+  // ============ Step 9: 計算 displayScore (v3 — marketWeight + breadth + decay-aware + timeDecay) ============
+  // 目的: 反映「當下實際強度」,讓:
+  //   - 多市場高排名 → 高分 (廣度加成)
+  //   - 大市場 (US/JP) 比次要市場 (TH/VN) 權重高
+  //   - 真正衰退 (今天排名比觸發當天差) → 扣分;新擴張到的市場低排名 → 不扣
+  //   - 老黑馬隨時間自然淡出 (time decay,半衰期 60 天)
+  // confidenceScore 永遠保留原值,新公式只影響 displayScore + 排序
 
-  // 連續函數: rank=1 → 0.95, rank=10 → ~0.74, rank=20 → 0.5, rank=50 → ~0.20, rank=100 → ~0.08
-  // 取代原案五階梯,消除邊界跳動
-  function marketFactor(rank) {
-    if (rank == null || rank <= 0) return 0.1;
-    return 1 / (1 + Math.pow(rank / 20, 1.5));
+  // 市場分層權重 (可日後微調)
+  const MARKET_WEIGHT = {
+    us: 1.0, jp: 1.0, kr: 0.9, cn: 0.9,
+    tw: 0.7,
+    th: 0.5, vn: 0.5, ph: 0.5,
+  };
+  const getMarketWeight = (mkt) => (mkt && MARKET_WEIGHT[mkt] != null) ? MARKET_WEIGHT[mkt] : 0.5;
+
+  // 從 trigger 解析 triggerRank (新觸發直接有,舊資料從 detail 字串抽)
+  function parseTriggerRank(t) {
+    if (typeof t.triggerRank === 'number') return t.triggerRank;
+    const d = t.detail || '';
+    let m = d.match(/升至 #(\d+)/);                   if (m) return parseInt(m[1]);
+    m = d.match(/排名 #(\d+)/);                       if (m) return parseInt(m[1]);
+    m = d.match(/→ #(\d+)/);                          if (m) return parseInt(m[1]);
+    m = d.match(/平均 #(\d+) vs/);                    if (m) return parseInt(m[1]);
+    return null;
+  }
+
+  // 衰退判別: 今天排名 vs 觸發當天排名
+  //   今天比觸發時更好 → 1.0 (沒衰退)
+  //   今天比觸發時差 → triggerRank/todayRank,下限 0.4
+  //   完全掉榜 → 0.1
+  //   無法解析觸發排名 → fallback 用絕對排名 marketFactor (避免無 fallback 時 NaN)
+  function rankDecay(triggerRank, todayRank) {
+    if (todayRank == null || todayRank <= 0) return 0.1;
+    if (triggerRank == null) return 1 / (1 + Math.pow(todayRank / 20, 1.5));
+    if (todayRank <= triggerRank) return 1.0;
+    return Math.max(triggerRank / todayRank, 0.4);
+  }
+
+  // 廣度加成 — 取上榜市場的 weight 加總,做 log2 化,上限 +30% 乘數
+  function breadthFactor(dh) {
+    const seen = new Set();
+    let total = 0;
+    for (const r of (dh._topRanks || [])) {
+      if (!seen.has(r.marketCode)) {
+        seen.add(r.marketCode);
+        total += getMarketWeight(r.marketCode);
+      }
+    }
+    if (total <= 0) return 1.0;
+    return 1 + Math.min(Math.log2(total) * 0.15, 0.3);
+  }
+
+  // 時間衰減 — 半衰期 60 天的連續曲線,3 天內觀察期不衰減
+  // 1.0 (3 天) → 0.9 (8 天) → 0.83 (14 天) → 0.67 (30 天) → 0.5 (60 天) → 0.33 (120 天)
+  function timeDecay(detectedAt) {
+    if (!detectedAt) return 1.0;
+    const days = Math.floor((new Date(today) - new Date(detectedAt.substring(0, 10))) / 86400000);
+    if (days < 3) return 1.0;
+    return 1 / (1 + (days - 3) / 30);
   }
 
   for (const dh of mergedDarkhorses) {
@@ -1052,45 +1105,43 @@ async function main() {
       continue;
     }
 
-    // 收集每個觸發市場的當前排名 (從 _topRanks 取,該天該市場最佳排名)
+    // 收集每個市場的當前最佳排名 (從 _topRanks 取)
     const currentRanks = {};
-    if (dh._topRanks) {
-      dh._topRanks.forEach(r => {
-        if (!currentRanks[r.marketCode] || r.rank < currentRanks[r.marketCode]) {
-          currentRanks[r.marketCode] = r.rank;
-        }
-      });
-    }
-
-    let origSum = 0, weightedSum = 0;
-    for (const t of (dh.triggers || [])) {
-      const s = t.score || 0;
-      origSum += s;
-      // 舊資料相容: trigger 無 market 欄位 → fallback 1.0
-      if (!t.market) { weightedSum += s; continue; }
-      // snapshotMissing 區分: 該市場該天快照不存在 → fallback 1.0 (不懲罰)
-      const todaySnap = loadSnapshot(today, t.market, dh.platform, dh.chartType);
-      if (!todaySnap || !todaySnap.data) {
-        weightedSum += s;
-        continue;
+    for (const r of (dh._topRanks || [])) {
+      if (!currentRanks[r.marketCode] || r.rank < currentRanks[r.marketCode]) {
+        currentRanks[r.marketCode] = r.rank;
       }
-      // 真實掉榜或低排名 → 套用 marketFactor
-      const curRank = currentRanks[t.market];
-      weightedSum += s * marketFactor(curRank);
     }
 
-    if (origSum <= 0) {
-      dh.healthRatio = 1.0;
-      dh.displayScore = dh.confidenceScore;
-      continue;
+    // healthRatio: marketWeight × decay 加權
+    let totalWeight = 0, decayedWeight = 0;
+    for (const t of (dh.triggers || [])) {
+      const mw = getMarketWeight(t.market);
+      const sw = (t.score || 0) * mw;  // 該 trigger 的權重 = score × market weight
+      totalWeight += sw;
+      if (!t.market) { decayedWeight += sw; continue; }
+      // snapshotMissing: 快照不存在 → 不懲罰
+      const snap = loadSnapshot(today, t.market, dh.platform, dh.chartType);
+      if (!snap || !snap.data) { decayedWeight += sw; continue; }
+      const tRank = parseTriggerRank(t);
+      const todayRank = currentRanks[t.market];
+      decayedWeight += sw * rankDecay(tRank, todayRank);
     }
 
-    // retained 走獨立下限 (0.5),非 retained 用 0.4
+    const rawHealth = totalWeight > 0 ? decayedWeight / totalWeight : 1.0;
+    // 下限保護: retained 0.5 / 新黑馬 0.4
     const floor = dh._retained ? 0.5 : 0.4;
-    const ratio = Math.max(weightedSum / origSum, floor);
+    const health = Math.max(rawHealth, floor);
 
-    dh.healthRatio = Math.round(ratio * 100) / 100;
-    dh.displayScore = Math.round(dh.confidenceScore * ratio * 100) / 100;
+    // 廣度與時間衰減
+    const breadth = breadthFactor(dh);
+    const decay = timeDecay(dh.detectedAt);
+
+    dh.healthRatio = Math.round(health * 100) / 100;
+    dh.breadthFactor = Math.round(breadth * 100) / 100;
+    dh.timeDecay = Math.round(decay * 100) / 100;
+    // 顯示分公式: confidenceScore × health × breadth × timeDecay,封頂 10
+    dh.displayScore = Math.round(Math.min(dh.confidenceScore * health * breadth * decay, 10) * 100) / 100;
   }
 
   // 用 displayScore 重新排序 (不動 confidenceScore 原值)
