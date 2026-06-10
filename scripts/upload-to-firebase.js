@@ -149,8 +149,11 @@ async function uploadDarkhorses() {
         Object.entries(dh._rankHistoryByMarket).map(([mkt, hist]) => [mkt, (hist || []).slice(-14)])
       )
     } : {}),
-    // healthRatio + displayScore — 反映「當前排名健康度」,前端據此顯示衰退 badge
+    // v3 評分系統四欄位 — confidence × health × breadth × decay = displayScore
+    // 前端只用 displayScore 顯示,其他三個給 debug / tooltip 用
     ...(dh.healthRatio != null ? { healthRatio: dh.healthRatio } : {}),
+    ...(dh.breadthFactor != null ? { breadthFactor: dh.breadthFactor } : {}),
+    ...(dh.timeDecay != null ? { timeDecay: dh.timeDecay } : {}),
     ...(dh.displayScore != null ? { displayScore: dh.displayScore } : {}),
     // _retained 標記也帶上,前端 / debug 用
     ...(dh._retained ? { _retained: dh._retained, _retainedFrom: dh._retainedFrom } : {}),

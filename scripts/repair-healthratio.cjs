@@ -66,7 +66,7 @@ function breadthFactor(dh) {
     }
   }
   if (total <= 0) return 1.0;
-  return 1 + Math.min(Math.log2(total) * 0.15, 0.3);
+  return 1 + Math.max(Math.min(Math.log2(total) * 0.15, 0.3), 0);
 }
 
 function timeDecay(detectedAt) {

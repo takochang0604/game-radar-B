@@ -1081,7 +1081,7 @@ async function main() {
       }
     }
     if (total <= 0) return 1.0;
-    return 1 + Math.min(Math.log2(total) * 0.15, 0.3);
+    return 1 + Math.max(Math.min(Math.log2(total) * 0.15, 0.3), 0);
   }
 
   // 時間衰減 — 半衰期 60 天的連續曲線,3 天內觀察期不衰減
