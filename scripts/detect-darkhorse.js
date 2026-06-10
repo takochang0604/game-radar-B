@@ -289,6 +289,10 @@ function detectGrowthMultiplier(app, history, gapInfo) {
   const minRequired = (gapInfo && gapInfo.hasSignificantGap) ? 6 : 4;
   if (validHistory.length < minRequired) return null;
 
+  // 觸發當下的排名（最新一筆有效排名，供 triggerRank 與 detail 使用）
+  const currentRank = validHistory[validHistory.length - 1].rank;
+  if (currentRank == null) return null;
+
   const shortWindow = Math.min(DARKHORSE_CONFIG.growthShortWindow || 3, validHistory.length);
   const longWindow = Math.min(DARKHORSE_CONFIG.growthLongWindow || 7, validHistory.length);
   if (shortWindow >= longWindow) return null;
