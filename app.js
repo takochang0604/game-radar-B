@@ -301,19 +301,27 @@ function initScoreInfo() {
       </div>
 
       <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border-glass);border-radius:var(--radius-md);padding:16px;margin-bottom:16px">
-        <h4 style="font-size:14px;font-weight:700;color:var(--accent-yellow);margin-bottom:10px">信心分數 ⚡ 是什麼？</h4>
+        <h4 style="font-size:14px;font-weight:700;color:var(--accent-yellow);margin-bottom:10px">顯示分 ⭐ 是什麼？</h4>
         <p style="font-size:13px;color:var(--text-secondary);margin-bottom:10px">
-          每張卡片上的 <strong style="color:var(--accent-yellow)">⚡ 數字</strong> 代表這款黑馬遊戲的**威脅度與關注價值**，採 1-10 分制：
+          卡片上的 <strong style="color:var(--accent-yellow)">⭐ 數字</strong> 是這款黑馬今天的<strong>當下強度</strong>，1-10 分。它由四項相乘：
         </p>
-        <p style="font-size:12px;color:var(--text-muted);margin-bottom:10px">
-          計算方式：取<strong>最高觸發策略分數</strong>為基礎分，每多觸發一個策略加 1 分（最多加 3），封頂 10 分。
-        </p>
-        <div style="display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--text-secondary);padding-left:4px">
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--text-muted)">▸</span> <strong>1-3 輕微異動</strong>：排名有變動但幅度不大，持續觀察即可</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-green)">▸</span> <strong>4-6 值得留意</strong>：明確的上升訊號，建議關注後續走勢</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-yellow)">▸</span> <strong>7-9 強烈訊號</strong>：多重觸發條件命中，高度值得深入研究</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-red)">▸</span> <strong>10 爆發級</strong>：極端異常竄升，立即關注</div>
+        <div style="font-size:12px;color:var(--text-muted);margin-bottom:10px;padding:8px 10px;background:rgba(0,0,0,0.2);border-radius:8px;font-family:ui-monospace,monospace">
+          ⭐ 顯示分 = 觸發強度 × 健康度 × 廣度加成 × 時間衰減
         </div>
+        <div style="display:flex;flex-direction:column;gap:7px;font-size:12px;color:var(--text-secondary);padding-left:4px;margin-bottom:12px">
+          <div><strong style="color:var(--text-primary)">觸發強度</strong>：四個偵測策略各自的分數,取最高 + 觸發數加成 (max 10)</div>
+          <div><strong style="color:var(--text-primary)">健康度</strong>：今天排名是否仍維持觸發當下水準;明顯衰退會扣分</div>
+          <div><strong style="color:var(--text-primary)">廣度加成</strong>：在多少個主市場上榜 (US/JP 權重最高;7+ 國上榜可達 +30%)</div>
+          <div><strong style="color:var(--text-primary)">時間衰減</strong>：首爆 30 天後分數減半,讓老黑馬自然往後排</div>
+        </div>
+        <p style="font-size:12px;color:var(--text-muted);margin-bottom:10px">分數區間：</p>
+        <div style="display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--text-secondary);padding-left:4px">
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--text-muted)">▸</span> <strong>1-3 輕微異動</strong>：訊號弱或已衰退,持續觀察</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-green)">▸</span> <strong>4-6 值得留意</strong>：明確的上升訊號,建議追蹤</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-yellow)">▸</span> <strong>7-9 強烈訊號</strong>：多觸發 + 健康 + 多市場,高度關注</div>
+          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-red)">▸</span> <strong>10 全球熱潮</strong>：罕見等級 — 多國同時 Top 1-3 + 健康度滿</div>
+        </div>
+        <p style="font-size:11px;color:var(--text-muted);margin-top:10px;font-style:italic">💡 hover 卡片的分數可看到「顯示分 / 首爆分(歷史最高) / 健康度」三個對照數字</p>
       </div>
 
       <div style="display:flex;gap:12px;justify-content:center;padding:10px 0 0">
