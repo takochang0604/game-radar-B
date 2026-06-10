@@ -5,7 +5,7 @@
   "chartType": "grossing",
   "chartName": "營收排行",
   "count": 94,
-  "fetchedAt": "2026-06-10T13:27:48.805Z",
+  "fetchedAt": "2026-06-10T14:43:19.315Z",
   "data": [
     {
       "rank": 1,
@@ -1112,7 +1112,7 @@
       "appId": "459035295",
       "name": "Top Eleven Be Football Manager",
       "developer": "Nordeus",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/fc/a0/e4fca010-04dd-a0b0-900a-0a348e5ca764/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/06/b2/de06b28f-0f9a-3313-4324-60d8d8328829/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "score": 4.78146,
       "ratings": 0,
       "category": "Games",
@@ -1252,7 +1252,7 @@
       "appId": "1462911602",
       "name": "Dream League Soccer 2026",
       "developer": "First Touch Games Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/3e/b2/a33eb20f-8c18-9791-1a52-3cd06b85cad0/AppIcon-Default-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/97/24/4c972420-2010-63c6-c1e3-a41c7fc56e0b/AppIcon-Default-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "score": 4.61714,
       "ratings": 0,
       "category": "Games",
