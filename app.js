@@ -305,7 +305,7 @@ function initScoreInfo() {
         <p style="font-size:13px;color:var(--text-secondary);margin-bottom:10px">
           卡片上的 <strong style="color:var(--accent-yellow)">⭐ 數字</strong> 是這款黑馬今天的<strong>當下強度</strong>，1-10 分。它由四項相乘：
         </p>
-        <div style="font-size:13px;color:var(--text-primary);margin-bottom:14px;padding:12px 16px;background:linear-gradient(135deg,rgba(234,179,8,0.18),rgba(245,158,11,0.10));border:1px solid rgba(234,179,8,0.5);border-radius:10px;font-family:ui-monospace,SF Mono,Consolas,monospace;font-weight:700;letter-spacing:0.3px;box-shadow:0 1px 3px rgba(0,0,0,0.08);white-space:nowrap;overflow-x:auto">
+        <div style="font-size:13px;color:var(--text-primary);margin-bottom:14px;padding:12px 16px;background:linear-gradient(135deg,rgba(234,179,8,0.18),rgba(245,158,11,0.10));border:1px solid rgba(234,179,8,0.5);border-radius:10px;font-family:ui-monospace,SF Mono,Consolas,monospace;font-weight:700;letter-spacing:0.3px;box-shadow:0 1px 3px rgba(0,0,0,0.08);white-space:nowrap">
           ⭐ 顯示分 = 觸發強度 × 健康度 × 廣度加成 × 時間衰減
         </div>
         <div style="display:flex;flex-direction:column;gap:7px;font-size:12px;color:var(--text-secondary);padding-left:4px;margin-bottom:12px">
