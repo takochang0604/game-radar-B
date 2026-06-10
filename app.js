@@ -264,76 +264,122 @@ function initScoreInfo() {
     popup.className = 'score-info-popup';
     popup.innerHTML = `
       <button class="close-btn" onclick="this.parentElement.remove();document.querySelector('.score-overlay')?.remove()">&times;</button>
-      <h3 style="font-size:17px;margin-bottom:16px;display:flex;align-items:center;gap:8px">🐴 什麼是黑馬遊戲？</h3>
 
-      <p style="font-size:13px;line-height:1.7;color:var(--text-secondary);margin-bottom:20px">
-        系統每天自動追蹤 <strong style="color:var(--text-primary)">8 個市場</strong>（美、日、韓、中、台、泰、越、菲）的 iOS 與 Android 遊戲排行榜（免費下載＋營收），從各市場 Top 50 中，找出近 14 天內<strong style="color:var(--text-primary)">排名異常竄升</strong>的遊戲。
-      </p>
+      <!-- ── Hero 標題區 ── -->
+      <div style="text-align:center;margin-bottom:20px">
+        <div style="font-size:36px;margin-bottom:6px">🐴</div>
+        <h3 style="font-size:18px;font-weight:800;margin:0 0 6px;letter-spacing:0.5px">什麼是黑馬遊戲？</h3>
+        <p style="font-size:12px;color:var(--text-muted);margin:0">每日追蹤 8 市場雙平台榜單，找出快速竄升的黑馬遊戲</p>
+      </div>
 
-      <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border-glass);border-radius:var(--radius-md);padding:16px;margin-bottom:16px">
-        <h4 style="font-size:14px;font-weight:700;color:var(--accent-cyan);margin-bottom:10px">怎樣算黑馬？（觸發條件）</h4>
-        <p style="font-size:12px;color:var(--text-muted);margin-bottom:10px">符合以下<strong>任一核心條件</strong>即判定為黑馬：</p>
-        <div style="display:flex;flex-direction:column;gap:10px">
-          <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
-            <span style="font-size:15px;flex-shrink:0">🚀</span>
-            <div><strong style="color:var(--text-primary)">排名急升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 排名急速上升 <strong>30 名</strong>以上，且起始排名須在 40 名之外，目前排名須在 <strong>Top 50</strong> 以內。</div>
-          </div>
-          <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
-            <span style="font-size:15px;flex-shrink:0">🆕</span>
-            <div><strong style="color:var(--text-primary)">新進強襲</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 之前不在榜上（至少 4 天確認不在 Top 100），首度<strong>空降衝進 Top 30</strong>，且目前排名在 Top 50 以內。</div>
-          </div>
-          <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
-            <span style="font-size:15px;flex-shrink:0">📈</span>
-            <div><strong style="color:var(--text-primary)">持續攀升</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 連續 <strong>5 天</strong>以上排名持續上升，且起始排名須在 30 名之外。</div>
-          </div>
-          <div style="display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)">
-            <span style="font-size:15px;flex-shrink:0">📊</span>
-            <div><strong style="color:var(--text-primary)">成長加速</strong><span style="color:var(--text-muted);margin-left:4px">—</span> 近 3 天平均名次相比近 7 天平均排名，<strong>成長達 2.5 倍</strong>以上，且近 3 天均排在 Top 50 以內。</div>
-          </div>
+      <!-- ── 觸發條件 ── -->
+      <div style="margin-bottom:18px">
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:12px">
+          <div style="width:3px;height:16px;border-radius:2px;background:var(--accent-cyan)"></div>
+          <h4 style="font-size:13px;font-weight:700;color:var(--accent-cyan);margin:0">觸發條件</h4>
+          <span style="font-size:11px;color:var(--text-muted);margin-left:2px">符合任一即判定</span>
         </div>
-
-        <h4 style="font-size:13px;font-weight:700;color:var(--accent-purple);margin:14px 0 8px">過濾與排除規則</h4>
-        <div style="display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--text-muted);padding-left:4px">
-          <div><strong style="color:var(--text-secondary)">🛡️ 已確立遊戲排除</strong>：近 14 天內有 10 天以上排名穩定在 Top 20 的遊戲，不列為黑馬。</div>
-          <div><strong style="color:var(--text-secondary)">🛡️ 品質篩選</strong>：商店評分低於 3.0 的遊戲將自動被系統剔除。</div>
-          <div><strong style="color:var(--text-secondary)">⚠️ 快照斷層</strong>：當偵測到資料斷層時，急升與新進榜的觸發門檻自動提高 1.5 倍，降低誤判。</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+          <div style="padding:10px 12px;border-radius:10px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06)">
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">
+              <span style="font-size:14px">🚀</span>
+              <strong style="font-size:12px;color:var(--text-primary)">排名急升</strong>
+            </div>
+            <p style="font-size:11px;color:var(--text-muted);margin:0;line-height:1.5">7 天內上升 30+ 名<br>起始 > #40，目前 Top 50</p>
+          </div>
+          <div style="padding:10px 12px;border-radius:10px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06)">
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">
+              <span style="font-size:14px">🆕</span>
+              <strong style="font-size:12px;color:var(--text-primary)">新進強襲</strong>
+            </div>
+            <p style="font-size:11px;color:var(--text-muted);margin:0;line-height:1.5">4 天不在 Top 100<br>首度空降 Top 30</p>
+          </div>
+          <div style="padding:10px 12px;border-radius:10px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06)">
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">
+              <span style="font-size:14px">📈</span>
+              <strong style="font-size:12px;color:var(--text-primary)">持續攀升</strong>
+            </div>
+            <p style="font-size:11px;color:var(--text-muted);margin:0;line-height:1.5">連續 5+ 天排名上升<br>起始排名 > #30</p>
+          </div>
+          <div style="padding:10px 12px;border-radius:10px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06)">
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">
+              <span style="font-size:14px">📊</span>
+              <strong style="font-size:12px;color:var(--text-primary)">成長加速</strong>
+            </div>
+            <p style="font-size:11px;color:var(--text-muted);margin:0;line-height:1.5">近 3 天 vs 近 7 天<br>名次成長 2.5 倍以上</p>
+          </div>
         </div>
       </div>
 
-      <div style="background:rgba(255,255,255,0.03);border:1px solid var(--border-glass);border-radius:var(--radius-md);padding:16px;margin-bottom:16px">
-        <h4 style="font-size:14px;font-weight:700;color:var(--accent-yellow);margin-bottom:10px">顯示分 ⭐ 是什麼？</h4>
-        <p style="font-size:13px;color:var(--text-secondary);margin-bottom:10px">
-          卡片上的 <strong style="color:var(--accent-yellow)">⭐ 數字</strong> 是這款黑馬今天的<strong>當下強度</strong>，1-10 分。它由四項相乘：
+      <!-- ── 過濾規則 ── -->
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px;padding:10px 12px;border-radius:10px;background:rgba(139,92,246,0.06);border:1px solid rgba(139,92,246,0.12)">
+        <span style="font-size:11px;color:var(--text-muted);width:100%;margin-bottom:2px;font-weight:600">過濾與排除</span>
+        <span style="font-size:11px;padding:3px 8px;border-radius:6px;background:rgba(255,255,255,0.05);color:var(--text-secondary)">🛡 穩定 Top20 排除</span>
+        <span style="font-size:11px;padding:3px 8px;border-radius:6px;background:rgba(255,255,255,0.05);color:var(--text-secondary)">🛡 評分 &lt; 3.0 剔除</span>
+        <span style="font-size:11px;padding:3px 8px;border-radius:6px;background:rgba(255,255,255,0.05);color:var(--text-secondary)">⚠️ 斷層門檻 ×1.5</span>
+      </div>
+
+      <!-- ── 分隔線 ── -->
+      <div style="height:1px;background:linear-gradient(90deg,transparent,var(--border-glass),transparent);margin-bottom:18px"></div>
+
+      <!-- ── 顯示分說明 ── -->
+      <div style="margin-bottom:18px">
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:12px">
+          <div style="width:3px;height:16px;border-radius:2px;background:var(--accent-yellow)"></div>
+          <h4 style="font-size:13px;font-weight:700;color:var(--accent-yellow);margin:0">顯示分 ⭐ 是什麼？</h4>
+        </div>
+        <p style="font-size:12px;color:var(--text-secondary);margin:0 0 10px;line-height:1.6">
+          卡片上的 <strong style="color:var(--accent-yellow)">⭐ 數字</strong> 是黑馬的<strong style="color:var(--text-primary)">即時強度</strong>（1-10 分），由四項指標相乘：
         </p>
-        <div style="font-size:13px;color:var(--text-primary);margin-bottom:14px;padding:12px 16px;background:linear-gradient(135deg,rgba(234,179,8,0.18),rgba(245,158,11,0.10));border:1px solid rgba(234,179,8,0.5);border-radius:10px;font-family:ui-monospace,SF Mono,Consolas,monospace;font-weight:700;letter-spacing:0.3px;box-shadow:0 1px 3px rgba(0,0,0,0.08);white-space:nowrap">
-          ⭐ 顯示分 = 觸發強度 × 健康度 × 廣度加成 × 時間衰減
+        <div style="position:relative;margin-bottom:14px;padding:10px 12px;background:#fef3c7;border:1px solid #f59e0b;border-radius:10px;box-shadow:0 2px 8px rgba(217,119,6,0.06);text-align:center">
+          <span style="font-size:11.5px;font-family:ui-monospace,'SF Mono',Consolas,monospace;font-weight:700;letter-spacing:-0.2px;color:#451a03">⭐ 顯示分 = 觸發強度 × 健康度 × 廣度加成 × 時間衰減</span>
         </div>
-        <div style="display:flex;flex-direction:column;gap:7px;font-size:12px;color:var(--text-secondary);padding-left:4px;margin-bottom:12px">
-          <div><strong style="color:var(--text-primary)">觸發強度</strong>：四個偵測策略各自的分數,取最高 + 觸發數加成 (max 10)</div>
-          <div><strong style="color:var(--text-primary)">健康度</strong>：今天排名是否仍維持觸發當下水準;明顯衰退會扣分</div>
-          <div><strong style="color:var(--text-primary)">廣度加成</strong>：在多少個主市場上榜 (US/JP 權重最高;7+ 國上榜可達 +30%)</div>
-          <div><strong style="color:var(--text-primary)">時間衰減</strong>：首爆 30 天後分數減半,讓老黑馬自然往後排</div>
+
+        <!-- 四項指標 grid -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px">
+          <div style="padding:8px 10px;border-radius:8px;border-left:3px solid var(--accent-cyan);background:rgba(255,255,255,0.02)">
+            <div style="font-size:11px;font-weight:700;color:var(--accent-cyan);margin-bottom:2px">觸發強度</div>
+            <div style="font-size:11px;color:var(--text-muted);line-height:1.4">策略最高分 + 觸發數加成<br>上限 10 分</div>
+          </div>
+          <div style="padding:8px 10px;border-radius:8px;border-left:3px solid var(--accent-green);background:rgba(255,255,255,0.02)">
+            <div style="font-size:11px;font-weight:700;color:var(--accent-green);margin-bottom:2px">健康度</div>
+            <div style="font-size:11px;color:var(--text-muted);line-height:1.4">今天排名 vs 觸發排名<br>衰退會扣分</div>
+          </div>
+          <div style="padding:8px 10px;border-radius:8px;border-left:3px solid var(--accent-purple);background:rgba(255,255,255,0.02)">
+            <div style="font-size:11px;font-weight:700;color:var(--accent-purple);margin-bottom:2px">廣度加成</div>
+            <div style="font-size:11px;color:var(--text-muted);line-height:1.4">上榜市場數量加權<br>最高 +30%</div>
+          </div>
+          <div style="padding:8px 10px;border-radius:8px;border-left:3px solid var(--accent-red);background:rgba(255,255,255,0.02)">
+            <div style="font-size:11px;font-weight:700;color:var(--accent-red);margin-bottom:2px">時間衰減</div>
+            <div style="font-size:11px;color:var(--text-muted);line-height:1.4">首爆 30 天半衰期<br>老黑馬自然淡出</div>
+          </div>
         </div>
-        <p style="font-size:12px;color:var(--text-muted);margin-bottom:10px">分數區間：</p>
-        <div style="display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--text-secondary);padding-left:4px">
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--text-muted)">▸</span> <strong>1-3 輕微異動</strong>：訊號弱或已衰退,持續觀察</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-green)">▸</span> <strong>4-6 值得留意</strong>：明確的上升訊號,建議追蹤</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-yellow)">▸</span> <strong>7-9 強烈訊號</strong>：多觸發 + 健康 + 多市場,高度關注</div>
-          <div style="display:flex;align-items:center;gap:6px"><span style="color:var(--accent-red)">▸</span> <strong>10 全球熱潮</strong>：罕見等級 — 多國同時 Top 1-3 + 健康度滿</div>
-        </div>
-        <p style="font-size:11px;color:var(--text-muted);margin-top:10px;font-style:italic">💡 hover 卡片的分數可看到「顯示分 / 首爆分(歷史最高) / 健康度」三個對照數字</p>
       </div>
 
-      <div style="display:flex;gap:12px;justify-content:center;padding:10px 0 0">
-        <div style="display:flex;align-items:center;gap:6px;padding:6px 14px;border-radius:20px;background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.2)">
-          <span style="font-size:14px">📌</span>
-          <span style="font-size:12px;font-weight:600;color:var(--accent-green)">4-6 值得留意</span>
+      <!-- ── 分數區間 ── -->
+      <div style="display:flex;gap:6px;margin-bottom:14px">
+        <div style="flex:1;padding:8px 0;text-align:center;border-radius:8px;background:rgba(148,163,184,0.08);border:1px solid rgba(148,163,184,0.15)">
+          <div style="font-size:14px;font-weight:800;color:var(--text-muted)">1-3</div>
+          <div style="font-size:10px;color:var(--text-muted);margin-top:2px">輕微異動</div>
         </div>
-        <div style="display:flex;align-items:center;gap:6px;padding:6px 14px;border-radius:20px;background:rgba(234,179,8,0.1);border:1px solid rgba(234,179,8,0.2)">
-          <span style="font-size:14px">🔥</span>
-          <span style="font-size:12px;font-weight:600;color:var(--accent-yellow)">7+ 強烈訊號</span>
+        <div style="flex:1;padding:8px 0;text-align:center;border-radius:8px;background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.18)">
+          <div style="font-size:14px;font-weight:800;color:var(--accent-green)">4-6</div>
+          <div style="font-size:10px;color:var(--accent-green);margin-top:2px">值得留意</div>
+        </div>
+        <div style="flex:1;padding:8px 0;text-align:center;border-radius:8px;background:rgba(234,179,8,0.08);border:1px solid rgba(234,179,8,0.18)">
+          <div style="font-size:14px;font-weight:800;color:var(--accent-yellow)">7-9</div>
+          <div style="font-size:10px;color:var(--accent-yellow);margin-top:2px">強烈訊號</div>
+        </div>
+        <div style="flex:1;padding:8px 0;text-align:center;border-radius:8px;background:rgba(239,68,68,0.08);border:1px solid rgba(239,68,68,0.18)">
+          <div style="font-size:14px;font-weight:800;color:var(--accent-red)">10</div>
+          <div style="font-size:10px;color:var(--accent-red);margin-top:2px">全球熱潮</div>
         </div>
       </div>
+
+      <!-- ── 提示 ── -->
+      <p style="font-size:11px;color:var(--text-muted);text-align:center;margin:0;font-style:italic">
+        💡 hover 卡片分數可看到「顯示分 / 首爆分 / 健康度」對照數字
+      </p>
     `;
     document.body.appendChild(overlay);
     document.body.appendChild(popup);
