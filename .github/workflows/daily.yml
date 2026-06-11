@@ -1,9 +1,10 @@
 # B 版（測試版）每日自動排程：抓排行榜 → 新算法偵測黑馬 → 上傳 Firebase (gameAnalysis-dev)
-# 台灣時間 19:00 (UTC 11:00) 執行
 #
-# 注意：GitHub Actions 的 scheduled cron 不保證準時，
-#       美洲晚高峰時段 (UTC 11:00-15:00) 延遲常見 1-2 小時。
-#       若希望結果「準時 19:00 出現」，把這個 cron 改早 (例如 UTC 8:00 = 台灣 16:00)。
+# 觸發架構（雙層）：
+#   主力   — cron-job.org 每天台灣 19:00 準時打 workflow_dispatch API（不經 GitHub 排程隊列，準時）
+#   備援   — 下面的 schedule cron（UTC 12:23 = 台灣 20:23，避開整點高峰）
+#            GitHub 的 schedule 是 best-effort：高峰延遲 1-2 小時常見，甚至直接丟棄，
+#            所以只當 fallback 用。若主力已跑完，備援會被 guard 跳過。
 #
 # 需要設定的 GitHub Secret：
 #   GOOGLE_CREDENTIALS_JSON — google-credentials.json 的完整 JSON 內容
@@ -12,9 +13,9 @@ name: Daily Pipeline (B版)
 
 on:
   schedule:
-    # UTC 11:00 = 台灣時間 19:00
-    - cron: '0 11 * * *'
-  workflow_dispatch: # 允許手動觸發
+    # 備援排程：UTC 12:23 = 台灣 20:23（冷門分鐘數，減少排隊延遲）
+    - cron: '23 12 * * *'
+  workflow_dispatch: # cron-job.org 主力觸發 + 手動觸發都走這裡
 
 permissions:
   contents: write
@@ -33,24 +34,42 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v5
 
+      # 防重複 guard：「排程觸發」時若今天已有產出就整批跳過。
+      # 只擋 schedule —— workflow_dispatch（cron-job.org / 手動）永遠強制執行。
+      - name: Check if today already processed
+        id: guard
+        run: |
+          TODAY=$(date -u +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/darkhorse/$TODAY.json" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "✅ 今日 ($TODAY) 資料已存在（主力觸發已跑過），備援排程跳過"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Setup Node.js
+        if: steps.guard.outputs.skip != 'true'
         uses: actions/setup-node@v5
         with:
           node-version: '22'
 
       - name: Install dependencies
+        if: steps.guard.outputs.skip != 'true'
         run: npm ci
 
       # 從 GitHub Secret 寫入 Firebase 憑證
       - name: Write Firebase credentials
+        if: steps.guard.outputs.skip != 'true'
         run: echo '${{ secrets.GOOGLE_CREDENTIALS_JSON }}' > google-credentials.json
 
       # Step 1: 抓取排行榜快照
       - name: Fetch rankings
+        if: steps.guard.outputs.skip != 'true'
         run: node scripts/fetch-rankings.js
 
       # Step 1.5: 快照先 commit — 偵測/上傳失敗時，30 分鐘的抓取成果不陪葬
       - name: Commit and push snapshots
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -61,14 +80,17 @@ jobs:
 
       # Step 2: 用新算法偵測黑馬
       - name: Detect darkhorses
+        if: steps.guard.outputs.skip != 'true'
         run: node scripts/detect-darkhorse.js
 
       # Step 3: 上傳到 Firebase (gameAnalysis-dev)
       - name: Upload to Firebase
+        if: steps.guard.outputs.skip != 'true'
         run: node scripts/upload-to-firebase.js
 
       # 將偵測結果 commit 回 repo
       - name: Commit and push data
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
