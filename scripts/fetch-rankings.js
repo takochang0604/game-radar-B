@@ -258,7 +258,7 @@ function parseToYMD(raw) {
   } catch { return ''; }
 }
 
-async function enrichTopApps(apps, platform) {
+async function enrichTopApps(apps, platform, marketCode) {
   const top = apps.slice(0, ENRICH_TOP_N);
   log(`  🔍 補充 Top ${top.length} 詳細資料 (${platform})`);
   let successCount = 0;
@@ -270,14 +270,15 @@ async function enrichTopApps(apps, platform) {
 
     while (retries >= 0 && !success) {
       try {
+        // country 必須帶該市場的商店代碼:區域限定 app 用預設(us)查會 404
         if (platform === 'android') {
-          const detail = await gplay.app({ appId: app.appId, lang: 'zh-TW' });
+          const detail = await gplay.app({ appId: app.appId, lang: 'zh-TW', country: marketCode });
           app.summary = (detail.summary || detail.description || '').substring(0, 200);
           app.updated = parseToYMD(detail.updated);
           app.released = parseToYMD(detail.released);
           app.contentRating = detail.contentRating || '';
         } else {
-          const detail = await appStore.app({ id: Number(app.appId), lang: 'zh-tw' });
+          const detail = await appStore.app({ id: Number(app.appId), lang: 'zh-tw', country: marketCode });
           app.summary = (detail.description || '').substring(0, 200);
           app.updated = detail.currentVersionReleaseDate
             ? parseToYMD(detail.currentVersionReleaseDate)
@@ -347,7 +348,7 @@ async function main() {
             }
           }
 
-          await enrichTopApps(gpData, 'android');
+          await enrichTopApps(gpData, 'android', market.code);
           fs.writeFileSync(gpFile, JSON.stringify({
             date: today,
             market: market.code,
@@ -385,7 +386,7 @@ async function main() {
           }
         }
 
-        await enrichTopApps(iosData, 'ios');
+        await enrichTopApps(iosData, 'ios', market.code);
         fs.writeFileSync(iosFile, JSON.stringify({
           date: today,
           market: market.code,

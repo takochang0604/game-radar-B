@@ -1,0 +1,66 @@
+# CI 防護網:擋住「推上去才發現會炸」的管線錯誤
+# 起因:2026-06-10 detect-darkhorse.js 的 currentRank ReferenceError
+#       讓每日排程整個失敗,這類錯誤 lint + dry-run 都能在 push 當下抓到。
+#
+# ⚠️ 此 workflow 絕不 commit / push 任何東西。
+#    dry-run 產生的 json 只存在於 CI 的暫時 workspace,跑完即丟,
+#    不會覆蓋 repo 裡 Actions 排程產出的正式資料(見 data-pipeline-safety 規範)。
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'config.js'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'eslint.config.js'
+      - '.github/workflows/**'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # 1. 語法層:抓 parse error
+      - name: Syntax check (node --check)
+        run: |
+          for f in scripts/*.js scripts/*.cjs; do
+            [ -e "$f" ] || continue
+            node --check "$f"
+          done
+          echo "✅ all scripts parse OK"
+
+      # 2. 靜態分析:抓 no-undef 等 runtime 必炸錯誤
+      - name: ESLint (runtime-crash rules only)
+        run: npx eslint scripts/
+
+      # 3. 實跑層:用 repo 裡最後一個已 commit 的快照日 dry-run 偵測
+      #    走過完整偵測流程(含四策略、合併、Step 9 算分),
+      #    任何 ReferenceError / TypeError 都會在這裡爆出來。
+      - name: Detect darkhorses dry-run
+        run: |
+          LATEST=$(ls data/snapshots | sort | tail -1)
+          echo "dry-run date: $LATEST"
+          node scripts/detect-darkhorse.js "$LATEST"
+          echo "✅ detect dry-run OK (產出僅存在 CI workspace,不會 commit)"
