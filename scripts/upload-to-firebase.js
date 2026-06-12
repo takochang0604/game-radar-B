@@ -12,6 +12,7 @@
  */
 
 import admin from 'firebase-admin';
+import gplay from 'google-play-scraper';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -297,6 +298,76 @@ async function uploadAnalysis(currentDhAppIds) {
 }
 
 /**
+ * 刷新報告中的 Google Play 圖片 URL(play-lh.googleusercontent.com 會輪替失效)
+ * 每次上傳時向 GP 重新取得 icon / 截圖的新鮮 URL,positional 置換報告中的舊 URL。
+ * 因為每日排程都會跑 upload,等於圖片連結每天自動保鮮。
+ * 失敗時保留原 URL,不影響上傳。
+ *
+ * 回傳: { md, freshIcon, replaced }
+ */
+async function refreshReportImages(md, raw) {
+  const result = { md, freshIcon: null, replaced: 0 };
+  if (!raw?.android?.appId) return result;
+  let fresh;
+  try {
+    fresh = await gplay.app({ appId: raw.android.appId, lang: 'en' });
+  } catch {
+    return result; // 抓不到(下架/網路)就保留原 URL
+  }
+  result.freshIcon = fresh.icon || null;
+
+  // icon:報告中 =sNNN 結尾的 play-lh URL → 換成新 icon base
+  const freshIconBase = (fresh.icon || '').split('=')[0];
+  if (freshIconBase) {
+    result.md = result.md.replace(
+      /https:\/\/play-lh\.googleusercontent\.com\/[^"'\s=)]+(?==s\d)/g,
+      () => { result.replaced++; return freshIconBase; }
+    );
+  }
+  // 截圖:=wNNN-hNNN 結尾的依出現順序換成新截圖序列
+  const freshShots = (fresh.screenshots || []).map(u => u.split('=')[0]);
+  if (freshShots.length) {
+    let i = 0;
+    result.md = result.md.replace(
+      /https:\/\/play-lh\.googleusercontent\.com\/[^"'\s=)]+(?==w\d+-h\d+)/g,
+      (m) => {
+        if (i < freshShots.length) { result.replaced++; return freshShots[i++]; }
+        return m;
+      }
+    );
+  }
+  return result;
+}
+
+/**
+ * 從報告 Markdown 解析結構化 metadata(評測日期 / 一句話 / POWERSCORE 等第)
+ * 供前端報告列表顯示與排序,不必載入整份 Markdown 解析
+ */
+function parseReportMd(content) {
+  const meta = {};
+  let m = content.match(/\|\s*\*\*評測日期\*\*\s*\|\s*(\d{4}-\d{2}-\d{2})/);
+  if (m) meta.reportDate = m[1];
+  m = content.match(/\*\*一句話[:：]\*\*\s*(.+)/);
+  if (m) meta.tagline = m[1].trim().substring(0, 120);
+  // POWERSCORE 六維等第
+  const psSection = content.split(/##\s*📊\s*綜合評測/)[1];
+  if (psSection) {
+    const grades = {};
+    const dims = [
+      ['core', 'Core Game'], ['meta', 'Meta Game'],
+      ['monetization', '變現健康度'], ['momentum', '市場動量'],
+      ['longevity', '長線潛力'], ['satisfaction', '用戶滿意度'],
+    ];
+    for (const [key, label] of dims) {
+      const gm = psSection.match(new RegExp(label + '\\s*\\|\\s*\\*{0,2}([A-F][+\\-]?)\\*{0,2}\\s*\\|'));
+      if (gm) grades[key] = gm[1];
+    }
+    if (Object.keys(grades).length) meta.grades = grades;
+  }
+  return meta;
+}
+
+/**
  * #12 上傳評測報告 — 改為子集合 reports/items/{gameName}
  */
 async function uploadReports() {
@@ -304,7 +375,7 @@ async function uploadReports() {
   if (!fs.existsSync(reportsRoot)) return;
 
   const reports = {};
-  const reportMeta = {};  // gameName → { appIds, aliases }
+  const reportMeta = {};  // gameName → { appIds, aliases, reportDate, tagline, grades, icon }
   const dirs = fs.readdirSync(reportsRoot, { withFileTypes: true })
     .filter(d => d.isDirectory());
 
@@ -313,24 +384,41 @@ async function uploadReports() {
     const mdFiles = fs.readdirSync(dirPath).filter(f => f.endsWith('.md'));
     if (mdFiles.length > 0) {
       try {
-        const content = fs.readFileSync(path.join(dirPath, mdFiles[0]), 'utf-8');
-        reports[dir.name] = content;
+        let content = fs.readFileSync(path.join(dirPath, mdFiles[0]), 'utf-8');
+
+        // 從 Markdown 解析結構化 metadata
+        reportMeta[dir.name] = { aliases: [dir.name], ...parseReportMd(content) };
 
         // 讀取 raw-data.json 提取 appId 和別名（用於跨語言名稱匹配）
         const rawPath = path.join(dirPath, 'raw-data.json');
+        let raw = null;
         if (fs.existsSync(rawPath)) {
           try {
-            const raw = JSON.parse(fs.readFileSync(rawPath, 'utf-8'));
+            raw = JSON.parse(fs.readFileSync(rawPath, 'utf-8'));
             const appIds = [];
-            const aliases = [dir.name]; // 資料夾名作為主別名
+            const aliases = reportMeta[dir.name].aliases;
             if (raw.android?.appId) appIds.push(raw.android.appId);
             if (raw.ios?.id) appIds.push(String(raw.ios.id));
             if (raw.ios?.appId) appIds.push(raw.ios.appId);
             if (raw.android?.title && !aliases.includes(raw.android.title)) aliases.push(raw.android.title);
             if (raw.ios?.title && !aliases.includes(raw.ios.title)) aliases.push(raw.ios.title);
-            reportMeta[dir.name] = { appIds, aliases };
+            reportMeta[dir.name].appIds = appIds;
+            const icon = raw.android?.icon || raw.ios?.icon;
+            if (icon) reportMeta[dir.name].icon = icon;
           } catch {}
         }
+
+        // 刷新 GP 圖片 URL(play-lh 連結會輪替失效,每次上傳自動保鮮)
+        try {
+          const refreshed = await refreshReportImages(content, raw);
+          content = refreshed.md;
+          if (refreshed.freshIcon) reportMeta[dir.name].icon = refreshed.freshIcon;
+          if (refreshed.replaced > 0) {
+            console.log(`  🖼️ ${dir.name}: 刷新 ${refreshed.replaced} 個圖片 URL`);
+          }
+        } catch {}
+
+        reports[dir.name] = content;
       } catch {}
     }
   }

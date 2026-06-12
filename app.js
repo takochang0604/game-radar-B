@@ -2237,38 +2237,106 @@ function showAnalysis(appId, platform) {
       return b.localeCompare(a);
     });
 
+    // 里程碑摘要:首爆 / 新市場 / 新策略 / 最新 永遠顯示,中間的重複偵測日折疊成一行
+    const ascDates = [...sortedDates].reverse(); // 舊 → 新
+    const seenMarkets = new Set();
+    const seenStrategies = new Set();
+    const milestoneReasons = {}; // date → ['首爆','新市場',...]
+    ascDates.forEach((date, i) => {
+      const reasons = [];
+      if (date === '歷史偵測') {
+        milestoneReasons[date] = ['歷史'];
+        return;
+      }
+      if (i === 0) reasons.push('首爆');
+      let hasNewMkt = false, hasNewStrat = false;
+      for (const t of timelineGroups[date]) {
+        if (t.market && !seenMarkets.has(t.market)) hasNewMkt = true;
+        if (t.strategy && !seenStrategies.has(t.strategy)) hasNewStrat = true;
+      }
+      for (const t of timelineGroups[date]) {
+        if (t.market) seenMarkets.add(t.market);
+        if (t.strategy) seenStrategies.add(t.strategy);
+      }
+      if (i > 0 && hasNewMkt) reasons.push('新市場');
+      if (i > 0 && hasNewStrat) reasons.push('新策略');
+      milestoneReasons[date] = reasons;
+    });
+
+    const TAG_STYLE = {
+      '首爆':   'background:rgba(234,179,8,0.15);color:var(--accent-yellow);border:1px solid rgba(234,179,8,0.3)',
+      '新市場': 'background:rgba(16,185,129,0.12);color:var(--accent-green);border:1px solid rgba(16,185,129,0.25)',
+      '新策略': 'background:rgba(139,92,246,0.12);color:var(--accent-purple);border:1px solid rgba(139,92,246,0.25)',
+      '最新':   'background:rgba(59,130,246,0.12);color:var(--accent-cyan);border:1px solid rgba(59,130,246,0.25)',
+      '歷史':   'background:rgba(148,163,184,0.1);color:var(--text-muted);border:1px solid rgba(148,163,184,0.2)',
+    };
+    const tagChip = (r) => `<span style="font-size:9px;font-weight:700;padding:1px 6px;border-radius:6px;${TAG_STYLE[r] || ''}">${r}</span>`;
+
+    const renderDay = (date, collapsed, reasons = []) => {
+      const triggersInDate = timelineGroups[date];
+      return `
+        <div class="timeline-item${collapsed ? ' collapsed' : ''}">
+          <div class="timeline-badge"></div>
+          <div class="timeline-date timeline-toggle" onclick="this.parentElement.classList.toggle('collapsed')" style="cursor:pointer;user-select:none;display:flex;align-items:center;gap:6px">
+            ${date}
+            ${reasons.map(tagChip).join('')}
+            <span style="font-size:10px;opacity:0.5" class="toggle-arrow">▼</span>
+            <span style="font-size:10px;opacity:0.4;margin-left:auto">${triggersInDate.length} 筆</span>
+          </div>
+          <div class="timeline-content" style="gap: 4px;">
+            ${triggersInDate.map(t => {
+              const srcCls = t._src?.includes('營收') ? 'src-grossing' : t._src === '雙榜' ? 'src-dual' : t._src === '雙平台' ? 'src-cross' : 'src-free';
+              const srcTag = `<span class="trigger-src ${srcCls}">${t._src}</span>`;
+              const formattedDetail = formatTriggerDetail(t.detail, t._latestRank || dh.currentRank);
+              return `
+                <div class="timeline-row">
+                  <div class="timeline-row-title">${srcTag} <strong>${t.label}</strong></div>
+                  <div class="timeline-row-detail">${formattedDetail}</div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+    };
+
+    let timelineInner = '';
+    let foldBuffer = [];
+    const flushFold = () => {
+      if (!foldBuffer.length) return;
+      const total = foldBuffer.reduce((s, d) => s + timelineGroups[d].length, 0);
+      timelineInner += `
+        <div class="timeline-fold collapsed">
+          <div class="timeline-badge" style="opacity:0.3;background:var(--text-muted);box-shadow:none"></div>
+          <div class="timeline-date timeline-toggle" onclick="this.parentElement.classList.toggle('collapsed')" style="cursor:pointer;user-select:none;display:flex;align-items:center;gap:6px;color:var(--text-muted)">
+            ⋯ 更早的歷程 ${foldBuffer.length} 天(${total} 筆觸發)
+            <span style="font-size:10px;opacity:0.5" class="toggle-arrow">▼</span>
+          </div>
+          <div class="timeline-fold-days">
+            ${foldBuffer.map(d => renderDay(d, true, milestoneReasons[d] || [])).join('')}
+          </div>
+        </div>`;
+      foldBuffer = [];
+    };
+
+    // 只顯示最近 3 天(最新一天展開),更早的全部收進一個折疊區
+    sortedDates.forEach((date, dateIdx) => {
+      const isLatest = dateIdx === 0 && date !== '歷史偵測';
+      const reasons = [...(milestoneReasons[date] || [])];
+      if (isLatest && !reasons.includes('首爆')) reasons.unshift('最新');
+      if (dateIdx < 3) {
+        timelineInner += renderDay(date, !isLatest, reasons);
+      } else {
+        foldBuffer.push(date);
+      }
+    });
+    flushFold();
+
     triggersTimelineHtml = `
     <div class="analysis-section">
       <h4>📅 歷史偵測生命軌跡時間軸</h4>
       <div class="timeline">
-        ${sortedDates.map((date, dateIdx) => {
-          const triggersInDate = timelineGroups[date];
-          const isLatest = dateIdx === 0;
-          const collapsed = !isLatest;
-          return `
-            <div class="timeline-item${collapsed ? ' collapsed' : ''}">
-              <div class="timeline-badge"></div>
-              <div class="timeline-date timeline-toggle" onclick="this.parentElement.classList.toggle('collapsed')" style="cursor:pointer;user-select:none;display:flex;align-items:center;gap:6px">
-                ${date}
-                <span style="font-size:10px;opacity:0.5" class="toggle-arrow">▼</span>
-                <span style="font-size:10px;opacity:0.4;margin-left:auto">${triggersInDate.length} 筆</span>
-              </div>
-              <div class="timeline-content" style="gap: 4px;">
-                ${triggersInDate.map(t => {
-                  const srcCls = t._src?.includes('營收') ? 'src-grossing' : t._src === '雙榜' ? 'src-dual' : t._src === '雙平台' ? 'src-cross' : 'src-free';
-                  const srcTag = `<span class="trigger-src ${srcCls}">${t._src}</span>`;
-                  const formattedDetail = formatTriggerDetail(t.detail, t._latestRank || dh.currentRank);
-                  return `
-                    <div class="timeline-row">
-                      <div class="timeline-row-title">${srcTag} <strong>${t.label}</strong></div>
-                      <div class="timeline-row-detail">${formattedDetail}</div>
-                    </div>
-                  `;
-                }).join('')}
-              </div>
-            </div>
-          `;
-        }).join('')}
+        ${timelineInner}
       </div>
     </div>`;
   }
@@ -3039,14 +3107,78 @@ function showReport(gameName, appId, platform) {
       const cols = firstRow.querySelectorAll('th, td').length;
       if (cols >= 4) {
         table.classList.add('wide-table');
+        // 包一層橫向捲動容器,避免寬表格在手機/窄幅撐爆 modal
+        const wrap = document.createElement('div');
+        wrap.className = 'table-scroll';
+        table.parentNode.insertBefore(wrap, table);
+        wrap.appendChild(table);
       }
     });
+
+    // ★ 現況對比條:報告是評測當下的快照,注入「今天」的即時狀態供對照
+    injectReportStatusBar(body, md);
   } else {
     // fallback：以 <pre> 顯示原始 markdown
     body.innerHTML = `<div class="report-content"><pre style="white-space:pre-wrap;font-size:13px;line-height:1.8;color:var(--text-secondary)">${md.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre></div>`;
   }
 
   document.getElementById('analysisModal').classList.add('active');
+}
+
+/**
+ * ★ 現況對比條:報告內容凍結在評測日,這條顯示「今天」的即時狀態
+ *   讓讀者判斷報告的動量章節是否仍可信(真實性/時效性聲明)
+ */
+function injectReportStatusBar(body, md) {
+  try {
+    const dateMatch = md.match(/\|\s*\*\*評測日期\*\*\s*\|\s*(\d{4}-\d{2}-\d{2})/);
+    const reportDate = dateMatch ? dateMatch[1] : null;
+    if (!reportDate) return;
+    const today = state.availableDates?.[state.availableDates.length - 1]
+      || new Date().toISOString().substring(0, 10);
+    const daysAgo = Math.max(0, Math.floor((new Date(today) - new Date(reportDate)) / 86400000));
+
+    // 反向比對:這份報告對應的現役黑馬
+    const dh = (state.darkhorses || []).find(d => findReport(d.name, d.appId) === md);
+
+    let inner;
+    if (dh) {
+      const score = dh.displayScore ?? dh.confidenceScore;
+      const health = dh.healthRatio != null ? Math.round(dh.healthRatio * 100) : null;
+      const best = (dh._topRanks || [])[0];
+      let flagHtml = '';
+      if (best?.marketFlag) {
+        flagHtml = best.marketFlag.startsWith('<img') ? best.marketFlag
+          : (typeof window.flagToImg === 'function' ? window.flagToImg(best.marketFlag) : best.marketFlag);
+      }
+      const bestTxt = best
+        ? `${flagHtml} ${best.platform === 'ios' ? 'iOS' : 'Android'} #${best.rank}`
+        : (dh.currentRank ? `#${dh.currentRank}` : '—');
+      const decayed = dh.healthRatio != null && dh.healthRatio < 0.7;
+      inner = `
+        <span>📌 評測於 <strong>${reportDate}</strong>(${daysAgo} 天前)</span>
+        <span class="rsb-sep"></span>
+        <span>今日顯示分 <strong>${typeof score === 'number' ? score.toFixed(1) : score}</strong></span>
+        ${health != null ? `<span class="rsb-sep"></span><span>健康度 <strong>${health}%</strong></span>` : ''}
+        <span class="rsb-sep"></span>
+        <span>最佳排名 <strong>${bestTxt}</strong></span>
+        ${decayed ? `<span class="rsb-sep"></span><span style="color:var(--accent-yellow)">⚠️ 較觸發時已明顯衰退,動量章節請以本列現況為準</span>` : ''}
+      `;
+    } else {
+      inner = `
+        <span>📌 評測於 <strong>${reportDate}</strong>(${daysAgo} 天前)</span>
+        <span class="rsb-sep"></span>
+        <span style="color:var(--accent-yellow)">⚠️ 已退出黑馬追蹤名單 — 報告中的排名與動量為當時快照,非現況</span>
+      `;
+    }
+
+    const bar = document.createElement('div');
+    bar.className = 'report-status-bar';
+    bar.innerHTML = inner;
+    const hero = body.querySelector('.report-header-hero');
+    if (hero?.parentNode) hero.parentNode.insertBefore(bar, hero.nextSibling);
+    else body.querySelector('.report-content')?.prepend(bar);
+  } catch (e) { /* 注入失敗不影響報告本體顯示 */ }
 }
 
 /**
@@ -3328,17 +3460,20 @@ function renderReportsTab() {
       if (dh) appInfo = { appId: dh.appId, name: dh.name, icon: dh.icon || '', developer: dh.developer || '' };
     }
 
+    // 上傳時解析的結構化 metadata(等第/一句話/icon),舊報告可能缺欄位
+    const meta = (state.reports?.['_meta'] || {})[reportName] || {};
+
     const gameName = appInfo?.name || reportName;
-    const icon = appInfo?.icon || '';
+    const icon = appInfo?.icon || meta.icon || '';
     const developer = appInfo?.developer || '';
     const isDarkhorse = state.darkhorses.some(d => findReport(d.name, d.appId) === reportData);
 
-    // 萃取評測日期
+    // 萃取評測日期(優先用 _meta,fallback 解析 Markdown)
     const dateMatch = reportData.match(/評測日期.*?(\d{4}[-\/]\d{2}[-\/]\d{2})/)
                    || reportData.match(/\|\s*\*\*評測日期\*\*\s*\|\s*(\d{4}[-\/]\d{2}[-\/]\d{2})/);
-    const reportDate = dateMatch ? dateMatch[1].replace(/\//g, '-') : '';
+    const reportDate = meta.reportDate || (dateMatch ? dateMatch[1].replace(/\//g, '-') : '');
 
-    reportCards.push({ reportName, gameName, icon, developer, isDarkhorse, appId: appInfo?.appId, tags, reportDate, _idx: reportCards.length });
+    reportCards.push({ reportName, gameName, icon, developer, isDarkhorse, appId: appInfo?.appId, tags, reportDate, tagline: meta.tagline || '', grades: meta.grades || null, _idx: reportCards.length });
   }
 
   // 依評測日期排序（越新越前面），同日期則後上傳的排前面
@@ -3382,6 +3517,12 @@ function renderReportsTab() {
     return;
   }
 
+  const GRADE_LABELS = { core: '核心', meta: '養成', monetization: '變現', momentum: '動量', longevity: '長線', satisfaction: '口碑' };
+  const gradeColor = g =>
+    g.startsWith('A') ? 'var(--accent-green)' :
+    g.startsWith('B') ? 'var(--accent-cyan)' :
+    g.startsWith('C') ? 'var(--accent-yellow)' : 'var(--accent-red)';
+
   grid.innerHTML = filtered.map(r => {
     const safeName = r.gameName.replace(/'/g, "\\'");
     const iconHtml = r.icon
@@ -3390,6 +3531,16 @@ function renderReportsTab() {
     const sourceTag = r.isDarkhorse
       ? '<span class="dh-tag trigger">黑馬</span>'
       : '<span class="dh-tag benchmark">市場基準</span>';
+
+    // POWERSCORE 六維等第徽章(舊報告沒等第則不顯示)
+    const gradesHtml = r.grades
+      ? `<div class="report-grades">${Object.entries(r.grades).map(([k, g]) =>
+          `<span class="report-grade-chip"><i>${GRADE_LABELS[k] || k}</i><b style="color:${gradeColor(g)}">${g}</b></span>`
+        ).join('')}</div>`
+      : '';
+    const taglineHtml = r.tagline
+      ? `<div class="report-tagline">${r.tagline}</div>`
+      : '';
 
     return `
     <div class="dh-card has-report" onclick="showReport('${safeName}')" style="cursor:pointer">
@@ -3400,10 +3551,12 @@ function renderReportsTab() {
           <div class="dh-developer">${r.developer || '未知開發商'}</div>
         </div>
       </div>
+      ${taglineHtml}
       <div class="dh-meta">
         ${sourceTag}
         ${r.tags.map(t => `<span class="dh-tag" style="background:rgba(255,255,255,0.05);color:var(--text-secondary)">${t}</span>`).join('')}
       </div>
+      ${gradesHtml}
       <div class="dh-card-footer" style="margin-top:auto">
         ${r.reportDate ? `<div class="dh-released">評測 ${r.reportDate}</div>` : '<div></div>'}
         <div class="dh-signals">

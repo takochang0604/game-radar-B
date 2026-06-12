@@ -1,0 +1,2323 @@
+{
+  "collectedAt": "2026-06-12T13:55:17.900Z",
+  "collectVersion": 3,
+  "android": null,
+  "ios": {
+    "id": 6752672568,
+    "appId": "com.grandgames.catblockjam",
+    "title": "Block Out! - Color Sort Puzzle",
+    "developer": "Grand Games A.Ş.",
+    "score": 4.739,
+    "reviews": 75034,
+    "free": true,
+    "released": "2025-10-31T07:00:00Z",
+    "updated": "2026-06-08T07:05:44Z",
+    "version": "588",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/6e/b7/0f6eb75e-0707-e5a1-7051-01faceb35cea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Casual"
+    ],
+    "description": "Get ready for Block Out!, a block puzzle game where every level feels alive. Slide colorful blocks, match them with their targets while experiencing the unique twist of moving elevators and block generators. Each puzzle feels fresh with ever-changing layouts. Plan your moves, think quickly, and enjoy the satisfaction of perfect clears as you progress through a colorful and evolving puzzle adventure. Block Out! offers a puzzle experience that keeps you coming back for more. Accept the challenge and start your journey! \n\nQuick Play Guide\n- Start Simple: Slide the blocks to the matching doors and create satisfying clears.\n- Plan Ahead: Position blocks carefully, manage space, and keep up with dynamic challenges. \n- Think Fast: Move faster to complete levels and unlock new challenges.\n\nCool Features\n- Offline Play: Enjoy anywhere, anytime—no wi-fi required.\n- Strategic Gameplay: Start simple, think twice. Plan your moves and experience the satisfaction of clearing each puzzle.\n- Dynamic Obstacles:  Block generators, moving elevators, and other elements bring variety and spice to every level.\n- Colorful Visuals: Bright and gorgeous design makes every puzzle a joy to solve.\n\nBlock Out! is designed for puzzle lovers who enjoy both strategy and action. Download Block Out! now and explore the dynamic world of colorful puzzles."
+  },
+  "facts": {
+    "source": "2026-06-12.json",
+    "detectedAt": "2026-06-02T20:26:54.318Z",
+    "category": "遊戲",
+    "confidenceScore": 8,
+    "displayScore": 8.43,
+    "healthRatio": 1,
+    "entries": [
+      {
+        "appId": "6752672568",
+        "platform": "ios",
+        "chartType": "topfree"
+      }
+    ],
+    "chartedMarkets": [
+      "us",
+      "ph",
+      "jp",
+      "kr",
+      "th",
+      "tw"
+    ],
+    "currentMarkets": [
+      {
+        "market": "us",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 3
+      },
+      {
+        "market": "ph",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 8
+      },
+      {
+        "market": "jp",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 14
+      },
+      {
+        "market": "kr",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 17
+      },
+      {
+        "market": "th",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 27
+      },
+      {
+        "market": "tw",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 46
+      }
+    ],
+    "triggerTimeline": [
+      {
+        "date": "2026-06-02",
+        "market": "kr",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "7 天內排名從 #94 升至 #34（↑60 名）"
+      },
+      {
+        "date": "2026-06-06",
+        "market": "jp",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "7 天內排名從 #52 升至 #20（↑32 名）"
+      },
+      {
+        "date": "2026-06-06",
+        "market": "ph",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "7 天內排名從 #79 升至 #49（↑30 名）"
+      },
+      {
+        "date": "2026-06-11",
+        "market": "th",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "2 天內排名從 #86 升至 #36（↑50 名）"
+      },
+      {
+        "date": "2026-06-12",
+        "market": "tw",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "5 天內排名從 #78 升至 #46（↑32 名）"
+      }
+    ],
+    "marketExpansionOrder": [
+      {
+        "market": "kr",
+        "firstTriggerDate": "2026-06-02"
+      },
+      {
+        "market": "jp",
+        "firstTriggerDate": "2026-06-06"
+      },
+      {
+        "market": "ph",
+        "firstTriggerDate": "2026-06-06"
+      },
+      {
+        "market": "th",
+        "firstTriggerDate": "2026-06-11"
+      },
+      {
+        "market": "tw",
+        "firstTriggerDate": "2026-06-12"
+      }
+    ],
+    "rankHistory14d": {
+      "us_ios_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": 4
+        },
+        {
+          "date": "2026-05-31",
+          "rank": 3
+        },
+        {
+          "date": "2026-06-01",
+          "rank": 4
+        },
+        {
+          "date": "2026-06-02",
+          "rank": 3
+        },
+        {
+          "date": "2026-06-03",
+          "rank": 3
+        },
+        {
+          "date": "2026-06-04",
+          "rank": 3
+        },
+        {
+          "date": "2026-06-05",
+          "rank": 3
+        },
+        {
+          "date": "2026-06-06",
+          "rank": 4
+        },
+        {
+          "date": "2026-06-07",
+          "rank": 3
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 3
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 3
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 3
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 3
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 3
+        }
+      ],
+      "ph_ios_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": 68
+        },
+        {
+          "date": "2026-05-31",
+          "rank": 79
+        },
+        {
+          "date": "2026-06-01",
+          "rank": 91
+        },
+        {
+          "date": "2026-06-02",
+          "rank": 95
+        },
+        {
+          "date": "2026-06-03",
+          "rank": 92
+        },
+        {
+          "date": "2026-06-04",
+          "rank": 77
+        },
+        {
+          "date": "2026-06-05",
+          "rank": 80
+        },
+        {
+          "date": "2026-06-06",
+          "rank": 49
+        },
+        {
+          "date": "2026-06-07",
+          "rank": 39
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 47
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 79
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 90
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 49
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 8
+        }
+      ],
+      "jp_ios_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": 32
+        },
+        {
+          "date": "2026-05-31",
+          "rank": 52
+        },
+        {
+          "date": "2026-06-01",
+          "rank": 67
+        },
+        {
+          "date": "2026-06-02",
+          "rank": 74
+        },
+        {
+          "date": "2026-06-03",
+          "rank": 67
+        },
+        {
+          "date": "2026-06-04",
+          "rank": 17
+        },
+        {
+          "date": "2026-06-05",
+          "rank": 21
+        },
+        {
+          "date": "2026-06-06",
+          "rank": 20
+        },
+        {
+          "date": "2026-06-07",
+          "rank": 21
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 15
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 16
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 20
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 15
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 14
+        }
+      ],
+      "kr_ios_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": 35
+        },
+        {
+          "date": "2026-05-31",
+          "rank": 44
+        },
+        {
+          "date": "2026-06-01",
+          "rank": 38
+        },
+        {
+          "date": "2026-06-02",
+          "rank": 34
+        },
+        {
+          "date": "2026-06-03",
+          "rank": 33
+        },
+        {
+          "date": "2026-06-04",
+          "rank": 28
+        },
+        {
+          "date": "2026-06-05",
+          "rank": 37
+        },
+        {
+          "date": "2026-06-06",
+          "rank": 43
+        },
+        {
+          "date": "2026-06-07",
+          "rank": 32
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 17
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 20
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 24
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 20
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 17
+        }
+      ],
+      "th_ios_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": 79
+        },
+        {
+          "date": "2026-05-31",
+          "rank": null
+        },
+        {
+          "date": "2026-06-01",
+          "rank": null
+        },
+        {
+          "date": "2026-06-02",
+          "rank": null
+        },
+        {
+          "date": "2026-06-03",
+          "rank": 86
+        },
+        {
+          "date": "2026-06-04",
+          "rank": 91
+        },
+        {
+          "date": "2026-06-05",
+          "rank": null
+        },
+        {
+          "date": "2026-06-06",
+          "rank": 86
+        },
+        {
+          "date": "2026-06-07",
+          "rank": null
+        },
+        {
+          "date": "2026-06-08",
+          "rank": null
+        },
+        {
+          "date": "2026-06-09",
+          "rank": null
+        },
+        {
+          "date": "2026-06-10",
+          "rank": null
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 36
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 27
+        }
+      ],
+      "tw_ios_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": null
+        },
+        {
+          "date": "2026-05-31",
+          "rank": null
+        },
+        {
+          "date": "2026-06-01",
+          "rank": null
+        },
+        {
+          "date": "2026-06-02",
+          "rank": null
+        },
+        {
+          "date": "2026-06-03",
+          "rank": null
+        },
+        {
+          "date": "2026-06-04",
+          "rank": null
+        },
+        {
+          "date": "2026-06-05",
+          "rank": null
+        },
+        {
+          "date": "2026-06-06",
+          "rank": null
+        },
+        {
+          "date": "2026-06-07",
+          "rank": null
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 78
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 75
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 92
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 98
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 46
+        }
+      ]
+    }
+  },
+  "cohortBaseline": {
+    "category": "遊戲",
+    "windowDays": 11,
+    "cohortSize": 46,
+    "avgMarketCount": 1.8,
+    "medianLifespanDays": 4,
+    "top10Share": 43,
+    "thisGame": {
+      "lifespanDays": 11,
+      "maxMarkets": 6,
+      "bestRank": 3
+    }
+  },
+  "reviews": {
+    "total": 182,
+    "googlePlay": 0,
+    "appStore": 182,
+    "sampling": {
+      "markets": [
+        "us",
+        "ph",
+        "jp",
+        "kr",
+        "th",
+        "tw"
+      ],
+      "gpLanguages": [
+        "en",
+        "ja",
+        "ko",
+        "th",
+        "zh-TW"
+      ],
+      "iosCountries": [
+        "us",
+        "ph",
+        "jp",
+        "kr",
+        "th",
+        "tw"
+      ],
+      "byLang": {
+        "en": 0,
+        "ja": 0,
+        "ko": 0,
+        "th": 0,
+        "zh-TW": 0
+      },
+      "byCountry": {
+        "us": 144,
+        "ph": 0,
+        "jp": 31,
+        "kr": 3,
+        "th": 4,
+        "tw": 0
+      }
+    },
+    "distribution": {
+      "1": 34,
+      "2": 22,
+      "3": 30,
+      "4": 23,
+      "5": 73
+    },
+    "positive": [
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "SASMOS",
+        "score": 5,
+        "text": "Fun game with no adds. Love it",
+        "date": "2026-06-10T16:40:33-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Angeleyes1915",
+        "score": 5,
+        "text": "Plays just like the sample game.",
+        "date": "2026-06-10T12:41:54-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "GOAT quel",
+        "score": 5,
+        "text": "This is my first review and I’m never played such a fun game So fun and you can go as fast as you want plus no adds",
+        "date": "2026-06-10T11:26:51-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Troog#",
+        "score": 5,
+        "text": "Very challenging",
+        "date": "2026-06-10T11:06:40-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "WINGS_OF_FIRE003",
+        "score": 5,
+        "text": "The best no adds and ADDICTING",
+        "date": "2026-06-10T10:33:35-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Abi4537",
+        "score": 4,
+        "text": "I saw this game on an ad and now I am addicted! All puzzles are possible, but hard with the limited time. And you have to pay to get coins. I would enjoy if there was an ad option to get some extra coins. Also sometimes the lives are annoying! If you lose you can run out of lives and have to wait 3-20 minutes!!!! I would recommend downloading this game it is very fun.",
+        "date": "2026-06-09T12:17:52-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Tumblr45",
+        "score": 4,
+        "text": "This game challenges you but is also very easy I am in middle school and almost on level 50 and started it yesterday… ALSO NO ADD!!!!",
+        "date": "2026-06-08T17:00:14-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Jesusforver",
+        "score": 5,
+        "text": "No ads",
+        "date": "2026-06-08T11:21:16-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "hater girl and cool girl",
+        "score": 5,
+        "text": "I love this game",
+        "date": "2026-06-08T10:39:20-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Tkgndiwncneifnv",
+        "score": 4,
+        "text": "It is like other block puzzle games and it’s fun but not that fun",
+        "date": "2026-06-08T09:34:10-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "HellyJae",
+        "score": 5,
+        "text": "I finished the game now I’m sad",
+        "date": "2026-06-08T00:06:12-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "beautifullyrated",
+        "score": 5,
+        "text": "I really like this game. Normal I get bored with games real quick & delete them but not this one. I find myself trying to beat the clock & etc. So I give this game at least an 8 ☺️☺️",
+        "date": "2026-06-07T23:54:31-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Yrekzdhkwhshdjs",
+        "score": 5,
+        "text": "One of the levels is glitched and you can’t do it whatever you do",
+        "date": "2026-06-07T13:46:03-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "🥮moon",
+        "score": 4,
+        "text": "Look it is fun but I would like it you made be able to make our profiles bye  using our photos that was all I had to say😀🥮",
+        "date": "2026-06-07T13:45:03-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Healsdjs",
+        "score": 5,
+        "text": "This game is one of the best out of every game I’ve haved played it keeps me entertained I never get bored in this game and it’s so fun",
+        "date": "2026-06-07T12:52:18-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "retante",
+        "score": 5,
+        "text": "Bueno para la ansiedad",
+        "date": "2026-06-07T12:04:54-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Marilyn👍",
+        "score": 5,
+        "text": "I absolutly love this game it is so fun and challanging and keeps me distracted for hours",
+        "date": "2026-06-07T11:16:32-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "greysonboi",
+        "score": 5,
+        "text": "I’m on level 60 and have not gotten one ad. There are multiple features added as you progress that make the game more fun and harder. Amazing game to play when bored.",
+        "date": "2026-06-07T09:18:25-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "jamie payne",
+        "score": 5,
+        "text": "Great game; love not having to watch an ad after each level or at all👌🏾",
+        "date": "2026-06-07T01:03:28-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "wrong:",
+        "score": 5,
+        "text": "A game with no ads!",
+        "date": "2026-06-06T21:54:09-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "covjq",
+        "score": 5,
+        "text": "got no ads during the game whatsoever and it genuinely is addictive",
+        "date": "2026-06-06T21:32:11-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Camilla Hutchinson10",
+        "score": 5,
+        "text": "Shadow",
+        "date": "2026-06-06T19:33:44-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Sloanie8",
+        "score": 5,
+        "text": "This is a very nice app. Helps get your mind off of your daily stress. But for older people who are in the beginning stages of dementia it would be wonderful if you didn’t have some of the stages timed. Or the option of it not being timed. If you would consider putting out something like that, I think you’d have even more people downloading app.",
+        "date": "2026-06-06T19:10:30-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lily home realaxer",
+        "score": 5,
+        "text": "This is a game for the brains, Depression, anxiety,and sadness",
+        "date": "2026-06-06T15:11:36-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Bcorchea",
+        "score": 5,
+        "text": "The best game ever  .❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷",
+        "date": "2026-06-06T15:06:06-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "‘breee",
+        "score": 5,
+        "text": "This game is very enjoyable and fun to play. It keeps players entertained with exciting challenges, interesting gameplay, and plenty of opportunities to improve skills. The graphics and overall design make the experience even better. Whether playing alone or with friends, the game provides hours of entertainment and is easy to recommend to others.",
+        "date": "2026-06-06T13:11:52-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kitty cat💛💚🩵",
+        "score": 5,
+        "text": "Very interesting",
+        "date": "2026-06-06T08:43:59-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "BEheehee",
+        "score": 5,
+        "text": "Great game. Very challenging.",
+        "date": "2026-06-06T08:33:19-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Rayacoco123",
+        "score": 5,
+        "text": "This game is so fun and with no ads and plus it is just a relaxing game and I will definitely use it for vacation for long car ride.",
+        "date": "2026-06-06T00:01:57-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Susan Gilliam",
+        "score": 4,
+        "text": "Fun game. I don’t like that it times you. I may delete it because of that.",
+        "date": "2026-06-05T21:49:13-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Katebear608",
+        "score": 5,
+        "text": "So fun, yet challenging",
+        "date": "2026-06-05T20:10:08-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "elliana.2015–!!$$$@",
+        "score": 5,
+        "text": "this is a fabulous game and it has been keeping my mind going for the past hour!",
+        "date": "2026-06-05T20:05:39-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Love ❤️ opening up ⬆️",
+        "score": 5,
+        "text": "5 stars no ads and free and….. kinda like the ads show",
+        "date": "2026-06-05T12:46:27-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Momofmitchellclan",
+        "score": 4,
+        "text": "I enjoy this game, but was honestly looking for something a little more chill. Each level is timed, which provides a challenge. That’s great if that’s the game you’re looking for. I just want to solve puzzles, without pressure.",
+        "date": "2026-06-05T06:00:12-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "The Head Wife",
+        "score": 5,
+        "text": "I have another block clearing game I like a lot so I was skeptical about another one. This one approaches puzzles in its own way. Glad I downloaded it",
+        "date": "2026-06-04T21:11:57-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "suo1972",
+        "score": 4,
+        "text": "Hello this is a good game but can you make better character designs? It would be amazing if you did",
+        "date": "2026-06-04T18:11:44-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Struan10025",
+        "score": 5,
+        "text": "This game is so satisfying. Simple to learn but complex enough to play to keep it from becoming boring. Highly recommend",
+        "date": "2026-06-04T16:35:42-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "MAGAEXPLR",
+        "score": 4,
+        "text": "No ads!",
+        "date": "2026-06-04T08:05:59-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Rams293",
+        "score": 4,
+        "text": "It’s like they try too hard? Like the puzzles themselves are enough. I wasn’t thinking that it was going to have all these rankings and things. It’s annoying but I love the puzzles so I keep it.",
+        "date": "2026-06-03T20:03:53-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Zayonnit",
+        "score": 4,
+        "text": "The game is quite fun and relaxing. My only problem with it is the overwhelming amount of pop ups when all i’m trying to do is play. But other than that its cool.",
+        "date": "2026-06-03T15:03:11-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "I am CheriF",
+        "score": 5,
+        "text": "To many ads, and the pieces will not move freely  like it’s fighting against a wind",
+        "date": "2026-06-03T10:11:08-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "american airline girl",
+        "score": 4,
+        "text": "I have been playing for a while now and against my better judgment I have spent quite some money reloading coins because I'm addicted, but I'm sick of repeating the same levels over and over. Please add new ones!",
+        "date": "2026-06-03T03:39:12-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "AngeloAyyy",
+        "score": 5,
+        "text": "This is the best game there’s no ads\n👍",
+        "date": "2026-06-02T18:08:22-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "acleve4567",
+        "score": 5,
+        "text": "There’s actually no ads and the game is as advertised. 10/10 experience.",
+        "date": "2026-06-02T11:21:36-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Coconut1374",
+        "score": 4,
+        "text": "The game is fun and addicting, but it’s frustrating with the time limits being a bit aggressive.  In order for you to beat certain levels, you need to use some of the “tools”, but you only get so many of those unless you pay for more.  There should be more options to get them for free either through easier challenges, daily rewards, or watching ads.",
+        "date": "2026-06-02T08:38:12-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Bjsjsidbhxidj",
+        "score": 5,
+        "text": "This game is just like the ads. I play it all the time! I love this game so much!",
+        "date": "2026-06-01T14:34:04-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "roxy_cece",
+        "score": 4,
+        "text": "I really love this game, but it’s impossible to pass certain levels without spending my money out of my pocket on upgrades or extra coins, etc. There’s no option to watch any ads to get help or get extra coins to finish levels. I deleted this app because I didn’t want to spend any more money out of pocket to just pass a level. It’s a waste of money because you run into the exact same problem again in another few levels.",
+        "date": "2026-06-01T10:03:45-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "J0V1[2023]",
+        "score": 4,
+        "text": "It’s perfectly \nAnd hard and fun",
+        "date": "2026-06-01T08:09:23-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "DaddySpankum",
+        "score": 5,
+        "text": "Great game",
+        "date": "2026-05-31T15:12:19-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Muzzleer",
+        "score": 5,
+        "text": "I like the timed challenge of the “super hard” puzzles. 🦅",
+        "date": "2026-05-31T14:23:08-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "h8 bezos",
+        "score": 5,
+        "text": "Great for my mental health!",
+        "date": "2026-05-31T11:20:30-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Trainery",
+        "score": 5,
+        "text": "It’s a nice app and so far I haven’t gotten any adds. It’s hard and fun at the same time. I enjoy this game a lot and find no problems with it :D",
+        "date": "2026-05-31T11:04:01-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Shepherd’s Hope Farms",
+        "score": 5,
+        "text": "It’s nice to not have a bunch of ads",
+        "date": "2026-05-31T10:22:32-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Moana9 is here",
+        "score": 5,
+        "text": "This game has NO ADS like hellooooo and it’s fun and it’s addicting",
+        "date": "2026-05-31T03:00:00-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "𝓓𝓪𝓷𝓲𝓮𝓵𝓵𝓮𝔂♡",
+        "score": 5,
+        "text": "THIS GAME IS 10/10 NO ADS ( so far) YOU JUST KEEP GOING AND GOING- It’s really fun ngl. I like it- my new favorite game now! Rip my screen time",
+        "date": "2026-05-31T00:15:42-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Sladewilson06",
+        "score": 5,
+        "text": "Playing this game is soothing",
+        "date": "2026-05-30T22:46:12-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Partyhard5",
+        "score": 5,
+        "text": "This game is absolutely fun and challenging so if you like  fun and challenging game this game is for you!!!! The only thing is that you better be ready an no Brecksville because it has a time crunch.",
+        "date": "2026-05-30T20:27:23-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Mynice review",
+        "score": 5,
+        "text": "It is so fun to play",
+        "date": "2026-05-30T18:05:37-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Imfany black",
+        "score": 5,
+        "text": "I LOVE THIS GAME",
+        "date": "2026-05-30T07:39:56-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Michael_missy19",
+        "score": 5,
+        "text": "I think u should get it because it can help with anxiety. Also this game is very fun and sometimes makes your brain sweet",
+        "date": "2026-05-30T05:16:41-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Snooface147",
+        "score": 5,
+        "text": "I have become obsessed with this game, but I am switching to an android phone soon.  Can you please make this for android please?  It’s the only game that I play.  I get bored easily.  But not with this game.  Please please please!!!",
+        "date": "2026-05-29T18:51:22-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Laila123$$$",
+        "score": 5,
+        "text": "This is one of the best games I have played. I am addicted to this game. I have played 50 round in not even an hour. This is a really relaxing and amazing game.",
+        "date": "2026-05-29T18:06:12-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Micah Parker1000",
+        "score": 4,
+        "text": "Saw this on a ad and looked at the reviews. Everyone was saying there were no ads and the comments were right. I had this game for a long while now and I haven’t seen a single ad. It’s really fun and addictive to play. It’s how it describes and it how it looks in the ads. I really enjoy it. I just wish there were a little more to do but it is what it is. It’s really good for a mobile game🔥",
+        "date": "2026-05-29T12:00:46-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Tanknkano",
+        "score": 5,
+        "text": "It’s so great idk if it my tism or if its just that good!",
+        "date": "2026-05-29T11:21:16-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "GrndmaJoan",
+        "score": 5,
+        "text": "Challenging and doable.",
+        "date": "2026-05-28T14:20:34-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Best foe Eva",
+        "score": 5,
+        "text": "Yeeeeeeeeeeeeeeeeeeeeeeeeees",
+        "date": "2026-05-28T12:55:01-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "surfer fl girlie",
+        "score": 5,
+        "text": "Great puzzle game",
+        "date": "2026-05-27T22:24:49-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Local...review",
+        "score": 5,
+        "text": "I love this game it is so relaxing and it helps my ADHD",
+        "date": "2026-05-27T13:05:18-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Dr.Knob",
+        "score": 5,
+        "text": "Can you guys make it so we have clans/groups. People can give hearts between members?",
+        "date": "2026-05-27T08:57:44-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "BVldzz",
+        "score": 4,
+        "text": "The game is fun and addicting! I enjoy it so much because there were also no ads. Until this last update. Now I’m considering uninstalling",
+        "date": "2026-05-27T05:30:34-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "ドラえもん1956",
+        "score": 5,
+        "text": "適度な難しさで頭の体操になります☺️",
+        "date": "2026-06-07T13:35:05-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "ぶん1981",
+        "score": 4,
+        "text": "やりごたえあって楽しいです♪",
+        "date": "2026-06-03T03:27:17-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "soshun1986",
+        "score": 5,
+        "text": "来ました。今のところ広告全くなくて快適☆",
+        "date": "2026-06-02T21:30:27-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "ねごじぇ",
+        "score": 5,
+        "text": "この手のゲームって最初だけ広告無し→ある程度ゲームを進めるとステージごとに広告…というパターンが多いですが、このゲームは本当に広告が無い！\n良いんですか？と思ってしまう。\nゲーム自体も楽しくてつい長時間遊んでしまう。\n最初は簡単なステージだけど、だんだん難易度が上がって何回も失敗する面も。でも何度かチャレンジするとクリアできるのでちょうど良い難易度だと思います。\n操作性も良いです。出口の前までブロックを持っていくと吸い込んでくれるので、「目の前で時間切れ」みたいなストレスもないです。\n同様のゲームはいっぱいありますが、良心的だしイラストも可愛いのでダウンロードしてよかったです！",
+        "date": "2026-06-01T09:43:53-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "うさま",
+        "score": 5,
+        "text": "クリアできない所が何回も続く場合。アイテムが欲しい。\nもしくは、時間制限長くしてほしいです。",
+        "date": "2026-05-27T20:59:14-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "ままめごま",
+        "score": 4,
+        "text": "ラウンド47が攻略不可能なので改善してほしい",
+        "date": "2026-05-24T09:14:54-07:00",
+        "version": "560"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "フリー0088",
+        "score": 5,
+        "text": "時間内に終わらせる事を意識しながら考えていると脳が活性化されて楽しい",
+        "date": "2026-05-23T02:13:23-07:00",
+        "version": "560"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "ちゅすけすけ",
+        "score": 4,
+        "text": "めちゃくちゃ楽しかったですが、星とブロックは集合恐怖症には無理でした。悲しい……",
+        "date": "2026-05-21T04:29:42-07:00",
+        "version": "560"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "kanami0114",
+        "score": 5,
+        "text": "広告が全く出ずストレスがないです😄入れたばかりだけどずっとやってます",
+        "date": "2026-05-17T02:21:32-07:00",
+        "version": "560"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "twdjP.d",
+        "score": 5,
+        "text": "本当に広告がない！黙々とやれるパズルゲームです♪",
+        "date": "2026-05-15T23:34:31-07:00",
+        "version": "560"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": ":DD:DD:D",
+        "score": 4,
+        "text": "I love it! Because it doesn’t have ADS!!!",
+        "date": "2026-05-14T21:59:46-07:00",
+        "version": "560"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "べっきーーー",
+        "score": 5,
+        "text": "この手のゲームって広告ないとか宣伝しておいて、クリアするごとに広告入るやつとかあるけど、これは本当に広告なくていいゲームだわ。",
+        "date": "2026-05-10T08:32:21-07:00",
+        "version": "547"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "まこちゃん、まじてんし！",
+        "score": 4,
+        "text": "広告がなくサクサク進んでいく！",
+        "date": "2026-05-08T02:23:28-07:00",
+        "version": "547"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "chukirin",
+        "score": 4,
+        "text": "パズル自体は楽しいです。\n広告のストレスもなくてよいです。\n難易度も程よくて楽しめます。\nタイマーがあるのでのんびり考える余裕はなく、それがかえってサクサク進められる一因になっているかもしれません。\n脳トレにも向いているのではないでしょうか。\nただ、じっくり考えて解きたい方にとってはタイマーがあると急かされる感じがするかもしれません。たまに気分転換程度に遊ぶのが自分にはあっていると感じました。",
+        "date": "2026-05-07T11:27:52-07:00",
+        "version": "547"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "fk3710",
+        "score": 4,
+        "text": "毎回コインしか当たりません。ずっとピンクを選び続けてたのでピンクはコインしか出ないのかと思い別の色を選ぶようになったら私が選ぶ箱全てがコインになります。コインは使えるので別にいいんですが、アイテムも出るよーみたいな顔しといてコインしか出されないと腹たちます",
+        "date": "2026-05-07T03:52:20-07:00",
+        "version": "547"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "豊かな夢見月",
+        "score": 5,
+        "text": "いいですねー楽しいしすご〜く面白いです。",
+        "date": "2026-05-05T23:56:33-07:00",
+        "version": "547"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "桃夕口ス",
+        "score": 5,
+        "text": "広告が流れて来ないのが良いですね。パズルもサクサク進むのでハマっています。",
+        "date": "2026-05-03T14:41:18-07:00",
+        "version": "547"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "オーバークック楽しい",
+        "score": 5,
+        "text": "この手のパズルゲームが好きな人ならサクサク簡単な方だと思う。広告もずっと無いし、コインも2万超えた。詰んだりしないし、課金しなくても楽しめる。",
+        "date": "2026-05-01T07:21:44-07:00",
+        "version": "525"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "naru515",
+        "score": 5,
+        "text": "他のゲームではワンステージごとにCMを見なければ進めないのが多いが、これは続けて出来るのが軽快です良い。",
+        "date": "2026-05-01T05:19:51-07:00",
+        "version": "525"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "madame625",
+        "score": 5,
+        "text": "広告無しで楽しく遊べています。\nアイテムのプレゼントもたくさんあって、本当に良いです。とても楽しいのでお礼も兼ねて少し課金しています。",
+        "date": "2026-04-30T17:38:37-07:00",
+        "version": "525"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "ウニの中身はオレンジ",
+        "score": 5,
+        "text": "別の海外ゲームあるあるの、ステージクリア後の広告がなくて最高です！",
+        "date": "2026-04-19T20:43:00-07:00",
+        "version": "465"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "とっとと625",
+        "score": 5,
+        "text": "CMがまったくない！本当にストレス解放されて最高！",
+        "date": "2026-04-19T16:49:11-07:00",
+        "version": "465"
+      },
+      {
+        "source": "app_store",
+        "country": "kr",
+        "userName": "유가♡",
+        "score": 5,
+        "text": "아이폰에서 하고있는데 아이패드에서도 하고싶은데 계정연동 기능이 없는거 같은데\n계정연동은 어떻게하나요?",
+        "date": "2026-05-22T20:36:31-07:00",
+        "version": "560"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "เเคร์หน่อย",
+        "score": 5,
+        "text": "ชอบไม่มีโฆษณา",
+        "date": "2026-05-29T17:20:29-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "BBookkkkkkkkkkkkkkkkkkkkkkkk",
+        "score": 5,
+        "text": "Super fun and no ad",
+        "date": "2026-05-28T06:32:39-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ppppppppppaaai",
+        "score": 5,
+        "text": "The coins used for reviving (900 coins) is too much compared to the reward (20 coins for normal stage). If you could fix this it would be great!",
+        "date": "2026-05-20T01:01:46-07:00",
+        "version": "560"
+      }
+    ],
+    "negative": [
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Donut1006.44:75:5:&5:&5:$5:5:",
+        "score": 1,
+        "text": "This game is just a money grabbing app and is a virus so not play",
+        "date": "2026-06-10T15:41:26-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "FedUpStopItAlready",
+        "score": 1,
+        "text": "I get stuck in them and have to wait for several minutes to get out",
+        "date": "2026-06-10T15:26:37-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "ah7896",
+        "score": 1,
+        "text": "I downloaded this bc I love magic sort but timer on the hard levels makes it hard to enjoy. I wish there was a skip option.",
+        "date": "2026-06-10T14:33:03-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "anitaolvera75",
+        "score": 2,
+        "text": "It takes you forever to build up coins but if you want an extra 30 seconds it takes 900 of your coins. Give us more coins",
+        "date": "2026-06-10T12:40:29-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Sugofst",
+        "score": 2,
+        "text": "This game is so fun but there are way too many ads and only a monthly payment option to get rid of them .  Too bad, Its not worth playing.  I’m deleting my game .",
+        "date": "2026-06-09T16:56:37-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Cody Henricksen",
+        "score": 2,
+        "text": "If you’re looking for a fun and chill game this is NOT the game for that. Every level has a timer and 9/10 times the timer is barely long enough to complete the level so you’re stressing out to try solve the level so you don’t lose your whopping 5 lives immediately. Hard to enjoy the game and participate in the events because it’s extremely hard to even pass the normal levels most of the time.",
+        "date": "2026-06-09T09:44:04-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "tozerfan",
+        "score": 1,
+        "text": "It WAS fun… not by level 44. Spend coins to finish it unless your fingers are blazing fast. I just want a game that’s challenging sure, but not that forces you to watch ads to compete. Hard Pass. Deleting.",
+        "date": "2026-06-09T08:16:31-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lil Empror D",
+        "score": 2,
+        "text": "Saw this game on an advertisement or another game, boasted that there were no time constraints so I downloaded this game, but it came with time constraints, I so dislike games that falsely advertise like this",
+        "date": "2026-06-09T06:19:58-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "surça",
+        "score": 1,
+        "text": "I don’t play Time Games, but I liked this game and I will play for a while.",
+        "date": "2026-06-08T22:47:47-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "gamer74626",
+        "score": 2,
+        "text": "I love this game but the timer makes it extremely frustrating. I can’t think through the puzzle if I know I’m running out of time, and most of the “hard” levels are only hard because there isn’t enough time to think through them. I wish you could turn the timer function off. It’s great that there are no ads though!",
+        "date": "2026-06-08T16:15:56-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "tina12036205",
+        "score": 1,
+        "text": "Some of the levels are very frustrating and make me not want to play the game",
+        "date": "2026-06-08T15:12:07-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "asntuihasrukcb",
+        "score": 1,
+        "text": "The ads for this all claim “no timer” and that it’s relaxed. This is not the case. Every single level has a timer that gets shorter as you progress to more difficult levels.",
+        "date": "2026-06-08T13:28:59-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "And that's what it's worth",
+        "score": 1,
+        "text": "I was watching a video to be able to finish my game when the ad for this pos locked my system and lost my game",
+        "date": "2026-06-08T12:41:06-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "BigStrongtv",
+        "score": 2,
+        "text": "Needs a login session, so therefore I can retrieve my progress from another device. It’s a great game. I love it but having to start over is completely insane.",
+        "date": "2026-06-08T09:15:54-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Jessicamoo1023",
+        "score": 1,
+        "text": "This game pushes so hard on making you buy power ups in order to beat a level. I just wanted a simple game to play when winding down. This isn’t it. It’s frustrating and you can’t pass the levels after like 49 or whatever I was on. Don’t care. Uninstalled.",
+        "date": "2026-06-07T22:17:34-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Gutvyc",
+        "score": 1,
+        "text": "I enjoyed this TIMED game for awhile, but then it got ridiculously hard, (even the so-called easier ones) I found myself shelving out money to get past that round just to end the game because it was getting monotonous and boring. My suggestion is don’t play this game, and keep your money.",
+        "date": "2026-06-07T19:55:32-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Tygarks",
+        "score": 1,
+        "text": "This game is NOT ad free",
+        "date": "2026-06-07T18:36:06-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "drpepper08",
+        "score": 1,
+        "text": "I downloaded this after seeing the ad on a different game about this one having no ads, i looked at the reviews and they said no ads. i download it, everytime i finish a level, mid level, or i fail a level, i got unprompted ads. change the ads that tell us about no ads bc this is literally bs.",
+        "date": "2026-06-06T21:13:10-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Momb5",
+        "score": 2,
+        "text": "Was enjoying the games, but then the ads started at about level 37.  Every time you win a level, or lose, you have to watch ads. I hate that. I will stick with games like Lily’s garden and dragon scapes- there are no ads unless you opt to watch one to receive an extra life, or rewards",
+        "date": "2026-06-06T20:24:38-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Ilovetohatereviews",
+        "score": 1,
+        "text": "False advertising",
+        "date": "2026-06-06T13:55:03-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Sdickins",
+        "score": 1,
+        "text": "Don’t like times!!!!!",
+        "date": "2026-06-06T07:21:40-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "1121jess",
+        "score": 1,
+        "text": "Not enough on levels, please provide more time. We don’t have money to constantly spend on in game coins.",
+        "date": "2026-06-06T00:46:59-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "mvarnell127",
+        "score": 1,
+        "text": "I want to solve the puzzle. That would be fun. Having to fight the clock is NO fun.",
+        "date": "2026-06-05T22:40:26-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Hgfdvjkoute",
+        "score": 1,
+        "text": "This game does not bit stress you out with the timer and difficulty of the blocks I had a horrible experience with this game",
+        "date": "2026-06-05T13:15:18-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "bsmatit",
+        "score": 2,
+        "text": "Don’t like be timed",
+        "date": "2026-06-05T11:32:03-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Rporty",
+        "score": 1,
+        "text": "Barely any time to finish levels. Can’t take more than 5 seconds during a level to look at it and think. By the time you figure out the puzzle you have seconds left to remove the excess blocks. This game has taken all of happiness from my day. There is not physically enough time to slide all the block into the right places on some levels. Whoever made this game needs to strongly consider a career change because they have managed to make something so simple and fun one of the most aggravating and frustrating things.",
+        "date": "2026-06-05T08:23:49-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Old Man Munkis",
+        "score": 1,
+        "text": "It’s all well & good that there are no ads. But they set timers for the puzzles, which are purposely too short to solve some of them, meaning you need to purchase aids to complete puzzles in time and progress. That’s how they make the money, by setting the difficulty too high.",
+        "date": "2026-06-04T23:35:40-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "KSully1972",
+        "score": 1,
+        "text": "You make it where it’s not fun when you have to buy coins to get over a hard or extremely hard level.",
+        "date": "2026-06-04T11:26:05-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Qb#",
+        "score": 2,
+        "text": "I don’t like the fact that it has a timer on it I don’t want to stress to beat a level I want to relax and play the game. Will be deleting it.",
+        "date": "2026-06-04T06:58:22-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "hale yes!",
+        "score": 2,
+        "text": "After I downloaded this app I played a few levels and boom the advertisements just kept coming. \nWHAT A DISAPPOINTMENT!!!\nI liked playing but I don’t like all the advertisements so I’M DELETING IT NOW.",
+        "date": "2026-06-03T12:35:30-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Mystery3458",
+        "score": 1,
+        "text": "Anxiety ridden game gives no time to solve the puzzle",
+        "date": "2026-06-03T11:45:01-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Hammondtab",
+        "score": 1,
+        "text": "It cost to play.. there’s no way to complete the task without buying more time, etc",
+        "date": "2026-06-02T19:29:28-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Dorloes encanto",
+        "score": 2,
+        "text": "This game is fun. Is what I would say if it didn't get harder and harder for each and every hard\\super hard level I get! Also something else that bothers me is that you can't even watch an ad for a second chance at the level, nor being able to at least watch an ad or 2 to get some in game coins instead of just buying them\\getting them daily after 24 hours of waiting, or mostly seen as 23:59:59.",
+        "date": "2026-06-02T17:16:57-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Bulletbeltbrian",
+        "score": 1,
+        "text": "This game has ads. It’s advertised as having no ads. Once you pass level 20, it makes you download a separate game, and once you pass level 25 there’s mandatory ads. Wish I could give 0 stars for false advertising. Also every time you pass a level there’s an ad.",
+        "date": "2026-06-02T12:41:18-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "OGVZ123",
+        "score": 1,
+        "text": "I will rack up a ton of coins and then the game pops up with a prompt to spend 900 coins on 30 seconds of time where it would usually be a try again button, so you mistakenly hit it and waste everything you have.\n\nAlso there are buttons on the bottom that make you waste your coins by purchasing things when you don’t want to. The layout is terrible.",
+        "date": "2026-06-02T11:04:40-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "IamSnek",
+        "score": 1,
+        "text": "Supposedly “relaxing” Games are getting ruined left and right with timers and this is one of the best games to get ruined :( Remove the timer or make one without it \nP L E A S E.  It makes me so anxious I literally cannot play the game.",
+        "date": "2026-06-01T22:25:28-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Mayleedghhrxvutd",
+        "score": 1,
+        "text": "Timer absolutely ruins this game",
+        "date": "2026-06-01T20:50:05-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Anonymous76901",
+        "score": 1,
+        "text": "Need more time on levels extremely fun game but need more time at least 6 minutes",
+        "date": "2026-06-01T16:47:47-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Pacergirl-1961",
+        "score": 1,
+        "text": "You say your not timed , but you are timed .",
+        "date": "2026-06-01T16:40:48-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Yes Jess!",
+        "score": 1,
+        "text": "I saw the ad for this game multiple times in another game that I play. Every time this AD pops up, it does not close out properly.",
+        "date": "2026-05-31T09:08:20-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "UziGoddess",
+        "score": 1,
+        "text": "the game was great until you clear the blocks and instead of more blocks appearing the time keeps ticking, just leaving you to wait until the game decides to put more blocks on the screen so you can complete the level, that’s if the time hasn’t ran out by the time more blocks appear.",
+        "date": "2026-05-31T06:24:08-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "AndriodsAreBetter",
+        "score": 2,
+        "text": "once you get up to a certain level, the ads do come AND they place timers so its no longer a relaxing game. Disappointed and Uninstalling. It was good while it lasted.",
+        "date": "2026-05-31T05:09:56-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kristi1003",
+        "score": 2,
+        "text": "Give better rewards for passing levels. This game is very stingy compared to others. It takes a lot of wins to get a coins or prizes.",
+        "date": "2026-05-31T02:26:57-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "More_Diversity_2025",
+        "score": 2,
+        "text": "The game itself has been fun, but having to watch players name themselves derogatory names have not been. If I were able to add a picture, I would definitely do so. To allow someone to name themselves the n word with hard er is very disheartening. I will have to delete the game and find another way to pass time.",
+        "date": "2026-05-30T20:21:06-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Never forget￼ how hard it is",
+        "score": 1,
+        "text": "I used to not look away from the game, but now it’s just rage baiting for me and I hate when the game is just being so annoying",
+        "date": "2026-05-30T19:12:59-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "amym1blue",
+        "score": 2,
+        "text": "Timer takes the fun out of it for me. Not relaxing.",
+        "date": "2026-05-30T18:12:31-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "over it at this point.!",
+        "score": 2,
+        "text": "Love the game but I just purchased the 1.99 bundle and I haven’t received anything. Money was deducted from my account. It literally takes a second for me to receive what I’ve paid for with in game purchases and I want my money back.",
+        "date": "2026-05-29T18:24:42-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Seagal8986",
+        "score": 2,
+        "text": "Asking for review a when I have only played a few minutes is not very helpful to anyone.",
+        "date": "2026-05-27T14:50:25-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "No no-",
+        "score": 2,
+        "text": "This game only sucks because that time limit",
+        "date": "2026-05-27T13:25:18-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "C from tsc",
+        "score": 2,
+        "text": "It was fun until I reached a level that was impossible to pass. I watched 2 walkthrough videos that showed the pieces moving at lightening speed while the timer seemed to lag.  I’m done. Challenging is fun. Impossible is not.",
+        "date": "2026-05-26T18:29:31-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "たけしぃぃいぃい",
+        "score": 2,
+        "text": "アップデートが遅くて難しいレベルのステージばかりのステージに案内される。ストレス。",
+        "date": "2026-06-05T16:53:23-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "野良猫の母",
+        "score": 2,
+        "text": "時間の縛りがキツすぎて\nもうストレスMAX。\nアイテム使うタイミングも掴めないので\nおさらばにゃー",
+        "date": "2026-06-01T21:45:34-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "あおいちゃん♫",
+        "score": 2,
+        "text": "時間制限が短過ぎて考える時間はないし\n何回もやって覚えてクリアするしかない。\n\n難易度的にはおもしろいが\nライフも少なく、課金しそうになる\n課金も高いしアンインストールします\n\nせっかくおもしろいのに。\nこれならCMあっていいからライフ復活させてほしい",
+        "date": "2026-05-16T20:49:38-07:00",
+        "version": "560"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "サムサム136",
+        "score": 1,
+        "text": "レベルが上がれば上がるほどイライラで疲れる。",
+        "date": "2026-05-02T20:39:01-07:00",
+        "version": "547"
+      },
+      {
+        "source": "app_store",
+        "country": "kr",
+        "userName": "장미나무",
+        "score": 1,
+        "text": "업데이트 했더니 하트가 5개로 줄었네요 황당 …",
+        "date": "2026-05-25T01:07:20-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "kixihitizipo",
+        "score": 1,
+        "text": "อุบาท",
+        "date": "2026-06-02T05:32:07-07:00",
+        "version": "573"
+      }
+    ],
+    "neutral": [
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "jaon4wheels",
+        "score": 3,
+        "text": "Turn off the timer This is a thing game, not a race.",
+        "date": "2026-06-10T03:41:12-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "None1234#",
+        "score": 3,
+        "text": "I would like an option to skip the super hard levels. I would try them but don’t want to wait days to earn the help needed to get through them.",
+        "date": "2026-06-09T08:35:46-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "ldt5350",
+        "score": 3,
+        "text": "Well I was quite looking forward to playing this game and was having fun in the beginning until…I had to take a break to do something else!! Oops my bad I should’ve read through the whole thing I didn’t know I was on a timer!?!? Or that I’d probably be forced to buy more time?!\nFor me personally games are something I do like everyone else, to exercise my brain. But also to relax and enjoy!!\nFor me feeling like I’m under the gun so to speak is not my idea of fun, enjoyment or relaxation!!\nSo I deleted “Block Out” pretty quickly to make room for another game that’s more to my liking! \nI’m a bit disappointed because the main premise of the game and the visuals I really did like! Just not being pressured by the Clock or to buy more coins to continue playing!!\n\nSo I bid farewell to “Block Out” to let people that enjoy timers and having to get more coins to buy more time to just continue to play it!! Just not my cup of tea!!",
+        "date": "2026-06-08T01:29:37-07:00",
+        "version": "588"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "[LJ)",
+        "score": 3,
+        "text": "It’s a fun game but players are barely given sufficient time to solve levels.  Boosts are overpriced and as a result coins end up being wasted because you can’t finish the level on time.",
+        "date": "2026-06-07T13:45:46-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "VSGLF",
+        "score": 3,
+        "text": "I thought there wasn’t a timer. It is no fun for older lady to work with a timer. Plus some blocks are placed to require using a tool to move big blocks, that means you are specifically requiring a buy to move the block to win \nNo fun anymore when forced to buy a tool to win a game \nNo option to skip a level as well\nI will need to remove your game bc I don’t want to buy a tool to remove a block. I am only at a very \nlow level",
+        "date": "2026-06-07T10:55:20-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Carmela Puerto Rico",
+        "score": 3,
+        "text": "Nivel 15 ensoroso",
+        "date": "2026-06-06T16:30:30-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "midoriTX",
+        "score": 3,
+        "text": "The game concept is great but almost every level’s timer is too short to be able to complete the puzzle in one go. You either have to buy 30 more seconds at 900 coins at a time or lose a life and start over.  I’m looking to have a brain challenge but not with this game. I’ll be deleting this one and going with a similar puzzle game without a timer.",
+        "date": "2026-06-06T12:59:34-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "shastasue",
+        "score": 3,
+        "text": "Not a big fan of the timer",
+        "date": "2026-06-06T12:20:09-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "abscott",
+        "score": 3,
+        "text": "This game is fine and a great way too spend time when waiting for stuff, but to be honest there are some things I would change, for example there are way too many pop ups not adds pop up’s that make you go into a contest you probably don’t even wanna be in and the super hard levels only get like 1 minute which isn’t enough and it’s AI generated art just take sometime to make the art yourself instead of killing polar bears but anyway yea this game is fine.",
+        "date": "2026-06-06T11:08:34-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "mocalla82",
+        "score": 3,
+        "text": "It a good game, but it be more fun without a timer",
+        "date": "2026-06-05T23:13:02-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "GmandanS",
+        "score": 3,
+        "text": "Don’t like it",
+        "date": "2026-06-05T09:05:02-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Sarah:2002",
+        "score": 3,
+        "text": "Why do I have adds yet my friends don’t? I thought this was an add free game?",
+        "date": "2026-06-04T05:32:51-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Old lady playerxxxxx",
+        "score": 3,
+        "text": "I really enjoyed this app. However, I am elderly and am not very fast, so many of the puzzles require less time that I can finish.",
+        "date": "2026-06-03T14:41:44-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lorrainek1219",
+        "score": 3,
+        "text": "Fun game but I got to level 99 and couldn’t pass it because it’s too hard and they don’t give you enough time to complete the levels. For power ups they expect you to pay. So I deleted the app.",
+        "date": "2026-06-03T11:14:06-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Downeastaa",
+        "score": 3,
+        "text": "I like it but it advertises no ads and there are. I hate that if it’s a difficult level you can blow through all the lives and have to wait for more or buy them. That’s annoying.",
+        "date": "2026-06-02T10:17:21-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Oprion",
+        "score": 3,
+        "text": "Nice mechanics, but the time limit is unnerving. There should be an option of a chill, contemplative gameplay. You get to either vex me with the ads, or the counter. Not both.",
+        "date": "2026-06-01T19:24:32-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Sierra#⌛️TheWalkingDead🔫",
+        "score": 3,
+        "text": "I love the graphics. I love the vibes. I wish there was a no timer option limit option because I like the challenge but not the anxiety surrounding a minute and 30 seconds of a super challenging puzzle. And with all of the things you guys integrate— the block cages and the blocks coming out from a door once one area is solved—it’s already super challenging. Please think about this in future updates because I cannot afford the buying of assists. Lol",
+        "date": "2026-05-31T08:00:17-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Abs44",
+        "score": 3,
+        "text": "The time limit makes it harder to just enjoy without having to buy coins or advantages.",
+        "date": "2026-05-30T15:26:49-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "tjraj",
+        "score": 3,
+        "text": "I don’t like having a timer if you could shut it off for us older folks it would be a great game",
+        "date": "2026-05-30T14:30:09-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Jenkisad123",
+        "score": 3,
+        "text": "It’s a good game and it’s really fun but I can’t get past level 29",
+        "date": "2026-05-30T09:56:05-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "KarinaPouquet",
+        "score": 3,
+        "text": "It’s easy but still fun. I’m just starting so hoping it gets more challenging.",
+        "date": "2026-05-29T15:31:12-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Khghchcugxuf",
+        "score": 3,
+        "text": "The game is very fun but the rewards you earn are TINY compared to what it costs to use them. It basically forces you to buy more",
+        "date": "2026-05-28T18:30:09-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Bahsivrusisjevbrisvs",
+        "score": 3,
+        "text": "I love this game but really the time stresses me out I hate that it has a time like really? I love the game but if it had no time",
+        "date": "2026-05-28T09:02:40-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Alexislove606",
+        "score": 3,
+        "text": "advertisement doesn't mention the levels being timed.",
+        "date": "2026-05-27T14:41:58-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "MMNBVCXZZ",
+        "score": 3,
+        "text": "ゲームの内容が広告と微妙に違う。\nゲーム自体はよくあるプロック消しですね。\n普通に面白いけど広告見ながらやる気があるかですね。",
+        "date": "2026-06-06T20:55:36-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "ゲームは無課金派",
+        "score": 3,
+        "text": "ないのは最初だけ。すぐに出てくるようになります。\n色々ツールももらえますが、どう使えるかの説明ないです。\nパズルですので、私は使う気は無いので構わないですが。",
+        "date": "2026-06-06T17:27:16-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "めーめ。",
+        "score": 3,
+        "text": "ゲームは面白いです。\nただ途中からアイテムありきの難易度で、連続クリアが難しくなってくるのがツラいです。",
+        "date": "2026-06-01T07:43:32-07:00",
+        "version": "573"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "(･Д･)」",
+        "score": 3,
+        "text": "広告がないのはとってもいい！\nでもLv500以降のブロックリーグはもうあの時間内でクリアさせるには無課金じゃ絶対無理だろコースのでセカセカする、、ゲーム自体はすごく良い◎ 時間制限もう少しだけあると助かる笑",
+        "date": "2026-05-20T10:16:14-07:00",
+        "version": "560"
+      },
+      {
+        "source": "app_store",
+        "country": "jp",
+        "userName": "あひるgagaga",
+        "score": 3,
+        "text": "楽しく毎日やっていたのに342になったとたんどうやってもクリアできなくなって進まなくなった",
+        "date": "2026-05-10T14:00:08-07:00",
+        "version": "547"
+      },
+      {
+        "source": "app_store",
+        "country": "kr",
+        "userName": "그럼 별명을 뭘로하라는거임? ;;;;",
+        "score": 3,
+        "text": "광고 보고 코인 얻기 넣으세요 제발;;;;;;;;;;;;;;;;",
+        "date": "2026-05-23T10:44:58-07:00",
+        "version": "560"
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "6499209744",
+      "title": "Magic Sort!",
+      "developer": "Grand Games A.Ş.",
+      "score": 4.7303,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/01/ee/3501ee75-8c2d-b234-1bf9-d4126928c0bc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6504421808",
+      "title": "Car Match - Traffic Puzzle",
+      "developer": "Grand Games A.Ş.",
+      "score": 4.74597,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/c0/c9/14c0c98c-b0fd-f6bb-2976-e7f075ab48b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6759798927",
+      "title": "Pixel Pop! - Color Crush",
+      "developer": "Grand Games A.Ş.",
+      "score": 4.64179,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/48/64/7d486481-1af2-8fff-e9a4-470fc6213feb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6747201329",
+      "title": "Block Star: Puzzle Adventure",
+      "developer": "Grand Games A.Ş.",
+      "score": 4.73366,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/b1/31/fdb1312a-46c4-c9ca-3f6a-001179676b14/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6762192889",
+      "title": "Arrow Jam! - Tap Puzzle",
+      "developer": "Grand Games A.Ş.",
+      "score": 4.44285,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/d9/b3/d3d9b32f-6c01-2054-48a8-0db36ed82e84/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6749222433",
+      "title": "Color Block Run - Puzzle Game",
+      "developer": "PLAY2EVER GAMES LIMITED",
+      "score": 4.79603,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/26/6a/50266a2e-ceab-bac7-ddf3-0508589e2913/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6743530351",
+      "title": "Screw Block Escape",
+      "developer": "IEC GAMES AUSTRALIA PTY LTD",
+      "score": 4.49066,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/45/09/47450948-1f93-17c6-0a02-f060e169a505/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6749456493",
+      "title": "Brilliant Sort™ Diamond Puzzle",
+      "developer": "Samfinaco LLC",
+      "score": 4.64233,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/60/23/cf602333-03b4-80d0-f3d3-6051473de4fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6744049261",
+      "title": "Block Color Mania, Puzzle Game",
+      "developer": "Guru Future Holding Limited",
+      "score": 4.91491,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/1f/76/521f76e8-4f3d-5678-9ea1-7269bba66a86/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6648791704",
+      "title": "Drop Away: Color Puzzle",
+      "developer": "Rollic Games",
+      "score": 4.64954,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/67/b8/5067b8bb-46ab-25b0-ace8-9f607e92ff76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    }
+  ],
+  "developerApps": [
+    {
+      "appId": "6499209744",
+      "title": "Magic Sort!",
+      "score": 4.7303,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/01/ee/3501ee75-8c2d-b234-1bf9-d4126928c0bc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6752672568",
+      "title": "Block Out! - Color Sort Puzzle",
+      "score": 4.739,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/6e/b7/0f6eb75e-0707-e5a1-7051-01faceb35cea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6504421808",
+      "title": "Car Match - Traffic Puzzle",
+      "score": 4.74597,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/c0/c9/14c0c98c-b0fd-f6bb-2976-e7f075ab48b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6759798927",
+      "title": "Pixel Pop! - Color Crush",
+      "score": 4.64179,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/48/64/7d486481-1af2-8fff-e9a4-470fc6213feb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6747201329",
+      "title": "Block Star: Puzzle Adventure",
+      "score": 4.73366,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/b1/31/fdb1312a-46c4-c9ca-3f6a-001179676b14/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6762192889",
+      "title": "Arrow Jam! - Tap Puzzle",
+      "score": 4.44285,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/d9/b3/d3d9b32f-6c01-2054-48a8-0db36ed82e84/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    }
+  ]
+}

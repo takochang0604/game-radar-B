@@ -879,7 +879,12 @@ async function main() {
       if (dhDev2 !== cDev && !(dhDev2.includes(cDev) || cDev.includes(dhDev2))) return false;
       const dhT = extractLatinTokens(dh.name);
       const cT = extractLatinTokens(c.name);
-      if (dhT.some(t => cT.includes(t))) return true;
+      // token 規則 v2:單一共通 token 不夠(品類詞如 sort/block 會讓同廠不同款誤配,
+      // 例:Block Out Color "Sort" ↔ Magic "Sort")。
+      // 通過條件:共通 token ≥ 2,或其中一方名稱本身只有 1 個 token 且完全命中(如 Fortnite ↔ Fortnite)
+      const common = dhT.filter(t => cT.includes(t));
+      if (common.length >= 2) return true;
+      if (common.length === 1 && (dhT.length === 1 || cT.length === 1)) return true;
       const dhCJK2 = (dh.name.match(/[一-鿿぀-ヿ가-힯]/g) || []).join('');
       const cCJK2 = (c.name.match(/[一-鿿぀-ヿ가-힯]/g) || []).join('');
       const cjkCommon = [...dhCJK2].filter(ch => cCJK2.includes(ch)).length;

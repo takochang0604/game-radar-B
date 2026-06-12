@@ -1,0 +1,3813 @@
+{
+  "collectedAt": "2026-06-12T13:06:34.484Z",
+  "collectVersion": 3,
+  "android": {
+    "appId": "com.luwukmeliana.profileperfect",
+    "title": "Profile Perfect",
+    "developer": "Lion Studios Plus",
+    "developerId": "6957694463935118175",
+    "genre": "Puzzle",
+    "score": 4.5839415,
+    "ratings": 6090,
+    "installs": "500,000+",
+    "maxInstalls": 756067,
+    "free": true,
+    "released": "Aug 15, 2025",
+    "updated": 1781194538000,
+    "version": "0.8.1",
+    "contentRating": "Everyone",
+    "icon": "https://play-lh.googleusercontent.com/fOCJHPbzplwDRQ1TlRq01tRkTMF25KsjYlI5BOiEklQJJYPbCm8fzOR4LQPy2mR1OJysnAdizmxLoCDRoUl8Dg",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/88IacSxzNHH7Gj6jr6NEGIHP2nN2s_DfMLW4z11wwdN6OIiw24VCmicf__ms2zwKMm25q-CEk7v0QR6JJmoBSQ",
+      "https://play-lh.googleusercontent.com/JbYHAhNhLOjDguyksyR4_lxcKTcuT39NY4RL_GPz4RMW_sLp0kFdCV6a_3YV3AQVbIvbmRfqOt3YHWxYAQd7GA",
+      "https://play-lh.googleusercontent.com/oDZ-nrjQulPFvF4EPShuyxbEWLXa5AR-WM_xy4Gg_82Yk5iiWkpzlaI1RMvc4KMqeORQ41_vFRKcyH2SSRAt4w",
+      "https://play-lh.googleusercontent.com/iz0JgFMNUv7vtig-mQ_JrIA05X1wzvNEKQpuHa3vLVSOUaK3nCx2YRhQDFCDkgtHCBX200PNVIP8P6vfh16W",
+      "https://play-lh.googleusercontent.com/YV9vm9gA5cKqXO09N9ouNn23oYTmXZRRQJSaFetch1YeiVl-jrvkJ-yFxXHOIiPCeCFgbVhPtyEO02Sd2TxS_hc",
+      "https://play-lh.googleusercontent.com/e3Mu83YeTa4m0ke0nMd9TrRYYNqX7Qd4MBTMrfA8mkYxOJvjWRQ2odeeHSCiciRc1iSMs1IqWqKHyqxkGnI2aA",
+      "https://play-lh.googleusercontent.com/1DBRGRLsDt6YVWtVbNFY-irxL9rieAfgBEloZxwpGKxpdPMlXzvuBgs6wZgsOIIh1H7zDv1iFif-gs9ViEMwzw",
+      "https://play-lh.googleusercontent.com/-bli7vf8hvzClFWcP0KZHQhDDwiZDWkQ2N9j9w-Ny-2-li-_ZeUJeu5tCh1f6pU4va3yWiG0CVm9cBrZLeiXfG4",
+      "https://play-lh.googleusercontent.com/YEcBmcoyYXiaDHxnZZUbJsXzjpjiDxui8POS29dS6o-2DWf9K-iXnqR7tu4G8uHwCpTo7b3wujPVeHIm4srFJg",
+      "https://play-lh.googleusercontent.com/rHJQTn39bWLAyZ7pshjDyhTHk_-hk4v-Yq9Bb7jxoH1Cc03MJoPBygdKdOV5KfQPtNtcTcyZWOUoDLidci9_CYI",
+      "https://play-lh.googleusercontent.com/HDiB18jtOCqGKPEHPXMHfgSWLwJvg7Q9Jd8LqGDwnrNN7WuZqZGSIehxUWoGRGqplHEhk0V-9-8L2WnnLgOeEQ",
+      "https://play-lh.googleusercontent.com/siwA8eCA05FSf-cVgBoz5LDJ8W3henarrVrXhoTF5OE5HBQW1TQVVOiOsBtYNTYVGlluGKipNnPq5SS2JjPotQ",
+      "https://play-lh.googleusercontent.com/JRBqJ7RQbf4MqODv7e0uc62gpJPqtWt0Ei2QUtBII_Fmsbnqqs27oJXQld5oz7lEDGjccUj8_gq2UpXMUnfCoA",
+      "https://play-lh.googleusercontent.com/gqdof1ba2U2REkKgd8cOCpersARqcgZaxiVSOb4j-GWYAnCO4hBk0hf9c23daowNMUEjXUd4jrhYs3HiTUtc-g",
+      "https://play-lh.googleusercontent.com/0gNGgSYmmcWVTlkAXXSCEtRTUi4D9urgfuCk9u098iu7XJEaNpO_mpRHnXTlgcadtzBMGkRjyA7u4DY-t6m_SS4",
+      "https://play-lh.googleusercontent.com/lN73mMecTS8XG83246xfV1SBbMhz7cNubMt_eiL3lGCWvT0Kaqa4QCEZ-RmeuwvEo3nf2PUOLQLjxORhwjeD",
+      "https://play-lh.googleusercontent.com/ZXOy-9-bNZfoYn_g5_zY2ufQkHzqKzCenpNuIbMWflCAm3c8S4K5Tw-UaNZLmbPOBn4oWiCkMIuTNnyaVnZxWA",
+      "https://play-lh.googleusercontent.com/VHNG8lkEAMRlqxPq0khqNugQeATz28SHZrEhZks3Z70_Iv0cDSIMsh0Y38qNm0HOe7Env3_zRJzeLyUVKLTu2A"
+    ],
+    "video": null,
+    "summary": "Discover hidden clues as you master logic grids in this clever brain challenge.",
+    "description": "This game is a clever and immersive investigation puzzle where every clue matters, designed for fans of brain and iq challenges. Your goal is simple: discover the truth behind every file, find the hidden secrets, and master the art of the digital search in this fun game.\n\nGuess the identity of the person behind the screen and uncover the story through social media deep-dives and digital sleuthing. Tap through profiles, identify suspicious activity, and find the perfect cross-reference as you solve each crime using pure logic and sharp observation. Smooth mechanics and asmr-inspired interactions make every investigation feel precise and satisfying.\n\nWith easy-to-learn mechanics and gradually increasing difficulty, this game stands among the best brain games for sharpening your detective skills. Each level works like a digital crossword of information, pushing you to recognize patterns and discover what’s hidden in plain sight. Whether you are looking for a missing cat or solving a high-stakes mystery, this free game offers a unique merge of investigative logic and storytelling.\n\nGame Features\n• Investigation-based logic puzzles that are fun and easy to learn\n• Relaxing yet challenging iq training experience\n• Thoughtful level design that blends crossword logic with detective mechanics\n• Offline-friendly play with no wifi games for free\n• Precision controls and a clever strategy for every digital file\n\nThis game blends brain games, mystery stories, and smart interaction into a polished puzzle experience that rewards patience and sharp thinking.\n\nCan you find out who is lying — or will the truth stay hidden in the file?\n\nVisit https://lionstudios.cc/contact-us/ if you have any feedback, need help beating a level, or have any awesome ideas you would like to see in the game!\n\nFrom the studio that brought you Wordle!, Match 3D, Happy Glass, Hexa Sort, and many, many more!\n\nFollow us to get news and updates on our other award-winning titles:\nhttps://lionstudios.cc/\nFacebook.com/LionStudios.cc\nInstagram.com/LionStudioscc\nTwitter.com/LionStudiosCC\nYoutube.com/c/LionStudiosCC",
+    "recentChanges": "- New Levels<br>- Performance Optimizations<br>- Bug Fixes",
+    "developerWebsite": "https://lionstudios.cc"
+  },
+  "ios": {
+    "id": 6759077038,
+    "appId": "com.regulusstudio.profileperfect",
+    "title": "Profile Perfect",
+    "developer": "Lion Studios Plus",
+    "score": 4.83007,
+    "reviews": 3425,
+    "free": true,
+    "released": "2026-03-16T07:00:00Z",
+    "updated": "2026-05-24T21:49:33Z",
+    "version": "0.8.1",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/39/18/b53918e5-96d8-f860-4279-57b3c2b21207/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Puzzle",
+      "Entertainment",
+      "Word"
+    ],
+    "description": "This game is a clever and immersive investigation puzzle where every clue matters, designed for fans of brain and IQ challenges. Your goal is simple: discover the truth behind every file, find the hidden secrets, and master the art of the digital search in this fun game.\n\nGuess the identity of the person behind the screen and uncover the story through social media deep-dives and digital sleuthing. Tap through profiles, identify suspicious activity, and find the perfect cross-reference as you solve each crime using pure logic and sharp observation. Smooth mechanics and ASMR-inspired interactions make every investigation feel precise and satisfying.\n\nWith easy-to-learn mechanics and gradually increasing difficulty, this game stands among the best brain games for sharpening your detective skills. Each level works like a digital crossword of information, pushing you to recognize patterns and discover what’s hidden in plain sight. Whether you are looking for a missing cat or solving a high-stakes mystery, this free game offers a unique merge of investigative logic and storytelling.\n\nGame Features\n• Investigation-based logic puzzles that are fun and easy to learn\n• Relaxing yet challenging IQ training experience\n• Thoughtful level design that blends crossword logic with detective mechanics\n• Offline-friendly play with no wifi games for free\n• Precision controls and a clever strategy for every digital file\n\nThis game blends brain games, mystery stories, and smart interaction into a polished puzzle experience that rewards patience and sharp thinking.\n\nCan you find out who is lying — or will the truth stay hidden in the file?\n\nVisit https://lionstudios.cc/contact-us/ if you have any feedback, need help beating a level, or have any awesome ideas you would like to see in the game!\n\nFrom the studio that brought you Wordle!, Match 3D, Happy Glass, Hexa Sort, and many, many more!\n\nFollow us to get news and updates on our other award-winning titles:\nhttps://lionstudios.cc/\nFacebook.com/LionStudios.cc\nInstagram.com/LionStudioscc\nTwitter.com/LionStudiosCC\nYoutube.com/c/LionStudiosCC"
+  },
+  "facts": {
+    "source": "2026-06-12.json",
+    "detectedAt": "2026-06-04T14:50:26.020Z",
+    "category": "Games",
+    "confidenceScore": 8,
+    "displayScore": 7.33,
+    "healthRatio": 0.84,
+    "entries": [
+      {
+        "appId": "6759077038",
+        "platform": "ios",
+        "chartType": "topfree"
+      },
+      {
+        "appId": "com.luwukmeliana.profileperfect",
+        "platform": "android",
+        "chartType": "topfree"
+      }
+    ],
+    "chartedMarkets": [
+      "us",
+      "th",
+      "ph",
+      "kr",
+      "tw"
+    ],
+    "currentMarkets": [
+      {
+        "market": "us",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 8
+      },
+      {
+        "market": "us",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 8
+      },
+      {
+        "market": "us",
+        "platform": "android",
+        "chart": "免費",
+        "rank": 12
+      },
+      {
+        "market": "us",
+        "platform": "android",
+        "chart": "免費",
+        "rank": 12
+      },
+      {
+        "market": "th",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 33
+      },
+      {
+        "market": "th",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 33
+      },
+      {
+        "market": "ph",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 63
+      },
+      {
+        "market": "ph",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 63
+      },
+      {
+        "market": "kr",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 69
+      },
+      {
+        "market": "kr",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 69
+      },
+      {
+        "market": "kr",
+        "platform": "android",
+        "chart": "免費",
+        "rank": 85
+      },
+      {
+        "market": "kr",
+        "platform": "android",
+        "chart": "免費",
+        "rank": 85
+      },
+      {
+        "market": "tw",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 87
+      },
+      {
+        "market": "tw",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 87
+      }
+    ],
+    "triggerTimeline": [
+      {
+        "date": "2026-06-04",
+        "market": "us",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "6 天內排名從 #78 升至 #32（↑46 名）"
+      },
+      {
+        "date": "2026-06-04",
+        "market": "us",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "consecutive_rise",
+        "label": "📈 持續攀升",
+        "detail": "連續 5 天上升（#78 → #32）"
+      },
+      {
+        "date": "2026-06-04",
+        "market": "us",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "4 天內排名從 #63 升至 #30（↑33 名）"
+      },
+      {
+        "date": "2026-06-04",
+        "market": "us",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "new_entry",
+        "label": "🆕 新進榜",
+        "detail": "強勢衝進 Top 30，偵測當下排名 #30"
+      },
+      {
+        "date": "2026-06-05",
+        "market": "us",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "new_entry",
+        "label": "🆕 新進榜",
+        "detail": "強勢衝進 Top 30，偵測當下排名 #18"
+      },
+      {
+        "date": "2026-06-07",
+        "market": "us",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "growth_multiplier",
+        "label": "📊 成長加速",
+        "detail": "成長倍率 3.2×（近 3 天平均 #11 vs 近 7 天平均 #35）"
+      },
+      {
+        "date": "2026-06-07",
+        "market": "us",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "consecutive_rise",
+        "label": "📈 持續攀升",
+        "detail": "連續 5 天上升（#64 → #9）"
+      },
+      {
+        "date": "2026-06-07",
+        "market": "us",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "growth_multiplier",
+        "label": "📊 成長加速",
+        "detail": "成長倍率 2.8×（近 3 天平均 #13 vs 近 7 天平均 #37）"
+      },
+      {
+        "date": "2026-06-08",
+        "market": "kr",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "new_entry",
+        "label": "🆕 新進榜",
+        "detail": "強勢衝進 Top 30，偵測當下排名 #30"
+      },
+      {
+        "date": "2026-06-08",
+        "market": "tw",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "3 天內排名從 #80 升至 #45（↑35 名）"
+      },
+      {
+        "date": "2026-06-08",
+        "market": "th",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "3 天內排名從 #66 升至 #26（↑40 名）"
+      },
+      {
+        "date": "2026-06-08",
+        "market": "th",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "new_entry",
+        "label": "🆕 新進榜",
+        "detail": "強勢衝進 Top 30，偵測當下排名 #26"
+      },
+      {
+        "date": "2026-06-09",
+        "market": "kr",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "4 天內排名從 #93 升至 #45（↑48 名）"
+      }
+    ],
+    "marketExpansionOrder": [
+      {
+        "market": "us",
+        "firstTriggerDate": "2026-06-04"
+      },
+      {
+        "market": "kr",
+        "firstTriggerDate": "2026-06-08"
+      },
+      {
+        "market": "tw",
+        "firstTriggerDate": "2026-06-08"
+      },
+      {
+        "market": "th",
+        "firstTriggerDate": "2026-06-08"
+      }
+    ],
+    "rankHistory14d": {
+      "us_ios_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": 78
+        },
+        {
+          "date": "2026-05-31",
+          "rank": 72
+        },
+        {
+          "date": "2026-06-01",
+          "rank": 65
+        },
+        {
+          "date": "2026-06-02",
+          "rank": 62
+        },
+        {
+          "date": "2026-06-03",
+          "rank": 52
+        },
+        {
+          "date": "2026-06-04",
+          "rank": 32
+        },
+        {
+          "date": "2026-06-05",
+          "rank": 18
+        },
+        {
+          "date": "2026-06-06",
+          "rank": 9
+        },
+        {
+          "date": "2026-06-07",
+          "rank": 6
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 5
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 5
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 6
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 8
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 8
+        }
+      ],
+      "us_android_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": null
+        },
+        {
+          "date": "2026-05-31",
+          "rank": null
+        },
+        {
+          "date": "2026-06-01",
+          "rank": 63
+        },
+        {
+          "date": "2026-06-02",
+          "rank": 64
+        },
+        {
+          "date": "2026-06-03",
+          "rank": 61
+        },
+        {
+          "date": "2026-06-04",
+          "rank": 30
+        },
+        {
+          "date": "2026-06-05",
+          "rank": 18
+        },
+        {
+          "date": "2026-06-06",
+          "rank": 12
+        },
+        {
+          "date": "2026-06-07",
+          "rank": 9
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 7
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 6
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 6
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 7
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 12
+        }
+      ],
+      "th_ios_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": null
+        },
+        {
+          "date": "2026-05-31",
+          "rank": null
+        },
+        {
+          "date": "2026-06-01",
+          "rank": null
+        },
+        {
+          "date": "2026-06-02",
+          "rank": null
+        },
+        {
+          "date": "2026-06-03",
+          "rank": null
+        },
+        {
+          "date": "2026-06-04",
+          "rank": null
+        },
+        {
+          "date": "2026-06-05",
+          "rank": null
+        },
+        {
+          "date": "2026-06-06",
+          "rank": 66
+        },
+        {
+          "date": "2026-06-07",
+          "rank": 37
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 26
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 24
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 32
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 27
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 33
+        }
+      ],
+      "ph_ios_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": null
+        },
+        {
+          "date": "2026-05-31",
+          "rank": null
+        },
+        {
+          "date": "2026-06-01",
+          "rank": null
+        },
+        {
+          "date": "2026-06-02",
+          "rank": null
+        },
+        {
+          "date": "2026-06-03",
+          "rank": null
+        },
+        {
+          "date": "2026-06-04",
+          "rank": null
+        },
+        {
+          "date": "2026-06-05",
+          "rank": null
+        },
+        {
+          "date": "2026-06-06",
+          "rank": null
+        },
+        {
+          "date": "2026-06-07",
+          "rank": 89
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 57
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 63
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 68
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 56
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 63
+        }
+      ],
+      "kr_ios_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": null
+        },
+        {
+          "date": "2026-05-31",
+          "rank": null
+        },
+        {
+          "date": "2026-06-01",
+          "rank": null
+        },
+        {
+          "date": "2026-06-02",
+          "rank": null
+        },
+        {
+          "date": "2026-06-03",
+          "rank": null
+        },
+        {
+          "date": "2026-06-04",
+          "rank": null
+        },
+        {
+          "date": "2026-06-05",
+          "rank": null
+        },
+        {
+          "date": "2026-06-06",
+          "rank": 54
+        },
+        {
+          "date": "2026-06-07",
+          "rank": 35
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 30
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 32
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 44
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 48
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 69
+        }
+      ],
+      "kr_android_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": null
+        },
+        {
+          "date": "2026-05-31",
+          "rank": null
+        },
+        {
+          "date": "2026-06-01",
+          "rank": null
+        },
+        {
+          "date": "2026-06-02",
+          "rank": null
+        },
+        {
+          "date": "2026-06-03",
+          "rank": null
+        },
+        {
+          "date": "2026-06-04",
+          "rank": null
+        },
+        {
+          "date": "2026-06-05",
+          "rank": null
+        },
+        {
+          "date": "2026-06-06",
+          "rank": 93
+        },
+        {
+          "date": "2026-06-07",
+          "rank": 63
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 51
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 45
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 48
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 54
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 85
+        }
+      ],
+      "tw_ios_topfree": [
+        {
+          "date": "2026-05-30",
+          "rank": null
+        },
+        {
+          "date": "2026-05-31",
+          "rank": null
+        },
+        {
+          "date": "2026-06-01",
+          "rank": null
+        },
+        {
+          "date": "2026-06-02",
+          "rank": null
+        },
+        {
+          "date": "2026-06-03",
+          "rank": null
+        },
+        {
+          "date": "2026-06-04",
+          "rank": null
+        },
+        {
+          "date": "2026-06-05",
+          "rank": null
+        },
+        {
+          "date": "2026-06-06",
+          "rank": 80
+        },
+        {
+          "date": "2026-06-07",
+          "rank": 64
+        },
+        {
+          "date": "2026-06-08",
+          "rank": 45
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 43
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 52
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 51
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 87
+        }
+      ]
+    }
+  },
+  "cohortBaseline": {
+    "category": "Games",
+    "windowDays": 11,
+    "cohortSize": 115,
+    "avgMarketCount": 2.5,
+    "medianLifespanDays": 4,
+    "top10Share": 31,
+    "thisGame": {
+      "lifespanDays": 9,
+      "maxMarkets": 5,
+      "bestRank": 5
+    }
+  },
+  "reviews": {
+    "total": 321,
+    "googlePlay": 202,
+    "appStore": 119,
+    "sampling": {
+      "markets": [
+        "us",
+        "th",
+        "ph",
+        "kr",
+        "tw"
+      ],
+      "gpLanguages": [
+        "en",
+        "th",
+        "ko",
+        "zh-TW"
+      ],
+      "iosCountries": [
+        "us",
+        "th",
+        "ph",
+        "kr",
+        "tw"
+      ],
+      "byLang": {
+        "en": 117,
+        "th": 24,
+        "ko": 44,
+        "zh-TW": 17
+      },
+      "byCountry": {
+        "us": 96,
+        "th": 3,
+        "ph": 1,
+        "kr": 8,
+        "tw": 11
+      }
+    },
+    "distribution": {
+      "1": 40,
+      "2": 27,
+      "3": 38,
+      "4": 63,
+      "5": 153
+    },
+    "positive": [
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jessica H",
+        "score": 5,
+        "text": "fun game but please make it so the hint and erase buttons stop bouncing and glinting it makes me nauseous",
+        "date": "2026-06-11T13:06:22.311Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Joan Rebucas",
+        "score": 5,
+        "text": "This game is excellent. It’s not only entertaining but also a great mental exercise. It improves logical thinking, sharpens problem-solving skills, and helps train the brain to think faster and make better decisions. A fun way to challenge your mind while enjoying the game. 🩷🩷🩷🩷🩷",
+        "date": "2026-06-11T12:48:48.236Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Amy Scott (Rin_Versailles)",
+        "score": 5,
+        "text": "Fun, but with only two lives, it can be frustrating",
+        "date": "2026-06-11T11:56:46.545Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jessica Hand (Jessie)",
+        "score": 5,
+        "text": "This is the best profile game I've come across. The puzzles are logical, the clues are tricky and the win is way more satisfying",
+        "date": "2026-06-11T11:07:42.194Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Louan Werndlij",
+        "score": 5,
+        "text": "it's good to train my dyslexic brain to read.",
+        "date": "2026-06-11T09:44:29.995Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Cari Fisher",
+        "score": 4,
+        "text": "Would love a dark mode. Pretty pricey Ad free mode ($8), haven't purchased yet. Just started, but so far ads haven't overwhelmed me, time will tell. I think for $8 though I would rather just not play the game than pay for no ads. we'll see. I do appreciate the ability to purchase a lifetime no ads however, I refuse to buy those \"subscription\" type ones!",
+        "date": "2026-06-11T09:11:09.744Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Henry Young",
+        "score": 5,
+        "text": "Love!",
+        "date": "2026-06-11T09:06:51.267Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Umaina Hosman",
+        "score": 5,
+        "text": "very adorable",
+        "date": "2026-06-11T07:28:14.460Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "syafiq sidek",
+        "score": 5,
+        "text": "Really fun game, challenging.",
+        "date": "2026-06-11T07:22:45.100Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Montanna Fletcher",
+        "score": 5,
+        "text": "it's so fun and i actually have to use my brain for this",
+        "date": "2026-06-11T06:11:06.216Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Iyank Ika",
+        "score": 5,
+        "text": "One of the best zebra puzzle games I've ever played. The details in the arts add more into the puzzle solution.",
+        "date": "2026-06-11T06:07:05.550Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Hope",
+        "score": 4,
+        "text": "my favorite logic game. most of the levels are too easy but the dailies are great. however, sometimes the clues are incredibly misleading. like one of the levels you have to guess Android's partner. and the clue literally says \"now separated, Android was together with Marie\". so that tells me Marie is NO LONGER is partner... but the game wants me to put her AS HIS PARTNER???? Doesn't make sense. that happens from time to time but overall it's fun",
+        "date": "2026-06-11T05:54:56.400Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "NUANSA",
+        "score": 5,
+        "text": "it fun",
+        "date": "2026-06-11T05:00:07.960Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Garrett Krauter",
+        "score": 4,
+        "text": "The game needs better accessibility settings, then it will be 5 stars. The clues/words are far too small (I had to use Android's magnifying feature), the logic puzzles cannot be zoomed in on enough, and there are no options for those with color blindness (which distinguishing between colors is necessary for some puzzles). Other than those nitpicks, it's a solid logic game.",
+        "date": "2026-06-11T04:15:16.563Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Erin Nash",
+        "score": 4,
+        "text": "I guess I beat it? Puzzles start repeating around level 400+. Fun game but the ads every time you beat a level, some of which take seconds, is a bit much.",
+        "date": "2026-06-11T04:12:47.586Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Marianne",
+        "score": 5,
+        "text": "Awesome game! Fun, interesting, great graphics, and most importantly, NO ADS AT ALL!",
+        "date": "2026-06-11T03:23:44.985Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Alya Mazzeda",
+        "score": 5,
+        "text": "This game is fun, actually really, making my mind working to solve the profiles with given hint.",
+        "date": "2026-06-11T02:59:34.742Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Michael Cheesbro",
+        "score": 5,
+        "text": "Fun and challenging while not being frustrating, I highly recommend!",
+        "date": "2026-06-11T02:26:58.976Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Emily Saltzgiber",
+        "score": 5,
+        "text": "Great time killer!",
+        "date": "2026-06-11T01:12:57.121Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Joseph Campbell",
+        "score": 5,
+        "text": "Great Time killer that makes you think before acting",
+        "date": "2026-06-10T23:10:59.326Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Royce Michna",
+        "score": 5,
+        "text": "This little game is fun. the story ones are a little hard to do until you know what you're looking at and get better at doing them.",
+        "date": "2026-06-10T22:06:41.232Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Shannon Byrd",
+        "score": 5,
+        "text": "very enjoyable and no forced ads right out of the gate",
+        "date": "2026-06-10T21:21:38.755Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "IRIS HERRERA ACEVEDO",
+        "score": 4,
+        "text": "I enjoy it very much... you can improve the picture but I like k e it",
+        "date": "2026-06-10T20:22:25.885Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Anna Cielava",
+        "score": 5,
+        "text": "first time rating literally any app, but this game is honestly sooo amazing. I'm suuper picky about games and get bored very easily, yet I've been absolutely loving this game so far. Def recommend :))",
+        "date": "2026-06-10T20:14:47.312Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Lynne Balvin",
+        "score": 5,
+        "text": "FUN!!!",
+        "date": "2026-06-10T18:32:20.645Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Azera",
+        "score": 5,
+        "text": "NO ANNOYING ADS GUYS",
+        "date": "2026-06-10T17:36:59.438Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Yu Ni",
+        "score": 5,
+        "text": "this game is so fun",
+        "date": "2026-06-10T16:11:12.535Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Tea C",
+        "score": 5,
+        "text": "it hard but challenges my brain",
+        "date": "2026-06-10T15:53:37.761Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Sayrami Nyay",
+        "score": 4,
+        "text": "....So far I do like it, yet that can change.",
+        "date": "2026-06-10T12:16:29.535Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Adrian",
+        "score": 5,
+        "text": "good game, sometimes tricky. i dont like the revive option for 900coins",
+        "date": "2026-06-10T11:29:46.951Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mabel Jones",
+        "score": 4,
+        "text": "gameplay is excellent but it crashes every 5 or so minutes and says \"please ensure you have the latest version of the app or reinstall the app\" I reinstalled but it made no difference. Please fix this!!!",
+        "date": "2026-06-10T10:47:16.172Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "JF 21_Skylar",
+        "score": 5,
+        "text": "No annoying ads, simple gameplay but not too simple it was boring but also challenging enough to keep the fun up!",
+        "date": "2026-06-10T06:32:25.238Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Micheala Neverson",
+        "score": 5,
+        "text": "addicted if you like clue games",
+        "date": "2026-06-10T05:59:56.540Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Anwar Rao",
+        "score": 5,
+        "text": "Maine Profile Perfect khela, its logic grids kaam ki cheez hai, smoothly chalti hai",
+        "date": "2026-06-10T05:25:04.568Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ian Radford",
+        "score": 5,
+        "text": "Great fun! Hard enough to challenge you, easy enough to win and keep you interested. Enjoy!",
+        "date": "2026-06-10T03:51:29.645Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Stephen Gauci",
+        "score": 5,
+        "text": "Very good game because always is challange in it",
+        "date": "2026-06-10T03:43:38.763Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Aviendha Rounds",
+        "score": 5,
+        "text": "genuinely really fun to see the pictures evolve as i solve clues and so far no push ads!",
+        "date": "2026-06-10T02:29:48.365Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Guillermo Monterroso",
+        "score": 5,
+        "text": "fun puzzles",
+        "date": "2026-06-10T01:20:24.899Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Allison Lebbink",
+        "score": 5,
+        "text": "Great game!! I love how things are accurate to real world situations",
+        "date": "2026-06-10T00:57:37.358Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Bethany Demaree",
+        "score": 5,
+        "text": "I really love this game. I've played games similar to this but this one is much more well done. Gets your brain thinking which a lot of us can use more of these days",
+        "date": "2026-06-10T00:45:42.576Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ashlyn Peters",
+        "score": 5,
+        "text": "There is no annoying ads. Which is perfect",
+        "date": "2026-06-10T00:08:21.721Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Joe D",
+        "score": 4,
+        "text": "it's pretty fun and it has barely any adds but it's a tiny bit hard.",
+        "date": "2026-06-09T23:01:51.918Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Abigail Renee",
+        "score": 5,
+        "text": "good hints and very cute art! The levels are simple but not toddler easy. I've been playing for a while and haven't seen a single add yet which is surprising these days. They have ways to get hints by playing but dont do that super annoying thing where they force you to use the abilities to get a feel for it. Isn't up in your face with subscriptions but has ways you can spend your money on the game if you really want to. Overall really good quality game for a free mobile and keeps me busy enough",
+        "date": "2026-06-09T22:03:24.926Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Raylene O'Connor",
+        "score": 4,
+        "text": "Great game so far. only just started so will see soon how bad ads are. probably will start after this review",
+        "date": "2026-06-09T21:48:11.102Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Penny",
+        "score": 4,
+        "text": "it's overall a great game, but there is a long pause in between The levels. I like that there's no adds so I can play more levels. this is a fun game that I can play wherever, whenever. the story part of the game is hard, but I love that it challenges my brain. if you're going to buy this, I say that you should. I love this game a lot.",
+        "date": "2026-06-09T21:20:34.786Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Annabel Croft",
+        "score": 5,
+        "text": "no ads unless you want an extra heart and its really fun",
+        "date": "2026-06-09T20:24:07.229Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ryan Johnston",
+        "score": 5,
+        "text": "Tastes like pizza :D",
+        "date": "2026-06-09T19:32:22.390Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jenny Haynes",
+        "score": 4,
+        "text": "Only way it could be better would be 3 lives on the harder levels. Otherwise you're constantly watching adverts to retry.",
+        "date": "2026-06-09T19:14:12.249Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mark Hill (zaretsiancountryball)",
+        "score": 5,
+        "text": "best game ever",
+        "date": "2026-06-09T18:09:54.756Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "[EPSF-BUC] [Yousef Hany]",
+        "score": 5,
+        "text": "The game is pretty addictive and I didn't find many ads so far, I quite like it actually. Great time killer!",
+        "date": "2026-06-09T17:45:44.296Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jxkerz Demxn",
+        "score": 5,
+        "text": "It really fun and challenging and i really love it",
+        "date": "2026-06-09T16:42:06.483Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Dan Rel (Pika Pichu)",
+        "score": 4,
+        "text": "Sometimes I wish these apps had a skip to level 30 or 40 button to skip the god awful easy puzzles. Being said, I am enjoying the app and I love these type of logic puzzles. So far I haven't left the really easy puzzles, I'm hoping that the difficulty does eventually increase down the road. I also dislike the hand that comes on the screen that points at slots if it's easy to figure out what it is.",
+        "date": "2026-05-06T15:48:18.750Z",
+        "thumbsUp": 14
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Dustin Bumgarner",
+        "score": 4,
+        "text": "This is a great logic style game using process of elimination to solve each puzzle. The only issue I've found for the last several updates is that sometimes when I would watch an ad for rewards, the ad would say \"reward granted\", but when I would tap the X to close the ad to get the extra, the reward sometimes isn't received, so for example, if it was for an extra life after losing the 2 main lives, if it doesn't work, I'd have to forfeit the puzzle and use up one of my tickets, a bummer.",
+        "date": "2026-05-23T15:22:51.597Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Dominique Santora",
+        "score": 4,
+        "text": "I love logic puzzles and these are great and cute. Ads are very reasonable in length and frequency. I'm over 200 levels in but getting annoyed. You begin to have to guess after a while, with only 2 total lives. Clues can sometimes be contradictory or confusing or not following the same rules as other puzzles. The locks on cells are pointless and frustrating and no way of taking notes begins to get annoying for complex puzzles. I would really love to keep playing if these things are improved.",
+        "date": "2026-06-02T10:24:22.507Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "R Thompson",
+        "score": 5,
+        "text": "The levels are interesting without being impossible, I'm 42 levels in and haven't had a single forced ad. It has multiple language options, so I've actually been playing in a language in learning, but I can switch mid level if I can't figure it out. it has cute graphics, and I'm really enjoying it. My only complaint is that you can't exclude wrong answers, you just have to keep up with them, but it hasn't been too hard.",
+        "date": "2026-05-28T19:22:41.359Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Chelsea Roston",
+        "score": 4,
+        "text": "Enjoying the game but the rewards for levels are maddening. It costs 900 coins to get two more lives. and then you earn like 60 coins as a reward. And to do the DAILY challenge they want 900 coins too. HOWEVER, I am enjoying the logic and puzzles and that it makes you draw on your own knowledge like \"iron oxide planet\" instead of just the information presented. For some puzzles I thought there weren't enough clues, but I was incorrect and needed to re-apply what I gleaned from the clues.",
+        "date": "2026-06-04T14:03:44.834Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mackinzi Anderson",
+        "score": 4,
+        "text": "I ran out of levels and I've grown bored of repeating puzzles over and over trying to see if there will ever be new ones. I'm level 425 right now and I've been doing the dailies for a couple of months and at some point those started repeating too :( I loved the levels and the stories and I had great fun but now I feel like it's just over, not quick enough with the new levels I guess",
+        "date": "2026-06-06T00:59:16.977Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Laura Beaird",
+        "score": 5,
+        "text": "love the way this game does logic puzzles. the art is a cute touch, and the story mode has been fun. feels like you can earn coins fast enough to not HAVE to buy the in-app coins, but I have bought some occasionally. but, I also went ahead and paid to not have ads, so I may be having a great time because of that 😅",
+        "date": "2026-05-23T06:59:10.675Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Penti Menti",
+        "score": 5,
+        "text": "so far I have not been forced to watch ads. If I want something extra I have the option to, which is what I prefer. I'm hoping that remains true. I love these type of puzzles and these are really well done. The clues sometimes are worded a little differently then I would have done it but rereading it takes care of confusion.",
+        "date": "2026-05-28T06:00:26.751Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jack Humid",
+        "score": 5,
+        "text": "Sort of rolled my eyes and downloaded this after being served like 50 ads for it, but it's actually really good! The art is cute and nice to look at. The puzzles are actually good and gradually increase in difficulty. Reminds me of when I was a kid and would whip out a book of this type of puzzle instead of listening in class! 😂 I haven't had a problem with ad frequency so far; there are some but it feels reasonable. Maybe I'll change my mind later. Definitely a top 5 game for me!",
+        "date": "2026-05-19T18:30:11.194Z",
+        "thumbsUp": 9
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jonathon Polk",
+        "score": 4,
+        "text": "The stages are often fun and challenging, though occasionally poorly worded in a way that trips you up if you dont read carefully. But that's part of the challenge I suppose. My only gripe are the TIME LOCKED panels. It adds nothing and makes things arbitrarily difficult because you cant input clues even when you know the answer, forcing you to waste brain space to remember things that you already solved. It's more annoying than game breaking, but I wish there was a way to remove the feature.",
+        "date": "2026-05-31T23:35:41.905Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Onyx",
+        "score": 4,
+        "text": "I just finished level 202, and I've completed the first 3 stories (looking forward to more of those.) My only complaint is sometimes the wording can be a little weird, or vague, or that the inferences it wants you to make before you get new clues can feel more like guesses than inference. But that's few and far between and I've been really enjoying the game",
+        "date": "2026-05-24T05:08:07.362Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Dawn F",
+        "score": 4,
+        "text": "firstly I really like this game. I do think though that each clue should be able to be solved, rather than a guess. some clues are incorrect. it's also very hard to earn coin for play ons so in a way it forces you to buy or wait 24hrs for refills. Nice graphics, and I like how at the end of a level it draws them altogether in colour!",
+        "date": "2026-05-28T17:04:21.279Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Noah Martineau",
+        "score": 4,
+        "text": "Super cute game with cute drawings, but the puzzles are really easy to solve at first. Only later onthey gradually get more challenging. At first I had no ads, but at some point I started getting mandatory ads, which is annoying. However, I enjoy the game and the different themes of the puzzles.",
+        "date": "2026-05-29T19:28:41.875Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Laura C",
+        "score": 4,
+        "text": "The game itself is pretty great, some of the clues you can tell weren't originally written in English, but are easy enough to correct in your head. Forced ads show up around LVL 40 after you complete each level which isn't horrible. the worst part of this game is the hint buttons start jumping about 10 seconds into a level and will not stop. I wish there was an option to turn that off, I have to keep my thumb in front of the hint buttons to even make it playable.",
+        "date": "2026-06-05T21:07:41.526Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Eimear Grant",
+        "score": 5,
+        "text": "Love this game. Some levels are challenging, but can be completed with some thought. The clues are fantastic. When you place a clue correctly, you unlock that wee detail in the image and I think that's a really cute wee addition. Have played daily now since downloading. There's a couple of ads, but not aggressive and I think they're fair for a game that's this good for free (ads do NOT pop up mid game, only occasionally after completing a level). Really enjoyable game!!!",
+        "date": "2026-05-25T15:19:49.466Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Vi Ta",
+        "score": 4,
+        "text": "Love the game itself, so paid Ad Free. Disappointed tho that daily challenges (really gets you thinking) are technically under pay-wall. Yes, if you log in every day you unlock that day. want to play other day = 900 coins. (1 standart game gives you 30 coins). if you fail daily lvl, to do it again - 900 coins. Or buy/unlock full 1 month with real money.",
+        "date": "2026-05-22T15:36:58.605Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Olivia Hopkinson",
+        "score": 4,
+        "text": "I really enjoy this app, but I've passed level 100 and most of the puzzles are still really easy. Also I find that the daily challenge puzzles repeat themselves, I've done the same ones a few times now. It doesn't ruin the experience, but when I'm looking for a harder puzzle it sucks to end up doing one I have already done.",
+        "date": "2026-06-01T07:44:45.650Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Amethyst Diamond",
+        "score": 4,
+        "text": "While I really enjoy the game play and varying difficulties, I wish there was more content. After a while, the levels start over. I'm over level 400 so I've replayed all of the puzzles multiple times. I don't mind replaying them, but some fresh content would be great!",
+        "date": "2026-04-03T06:37:11.426Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "varin varit",
+        "score": 5,
+        "text": "สนุกม๊ากกกก",
+        "date": "2026-06-10T18:30:52.563Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Ji So",
+        "score": 5,
+        "text": "so funny.",
+        "date": "2026-06-09T21:15:29.510Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "lixin tee",
+        "score": 4,
+        "text": "ชอบภาพนะ น่ารักดี ช่วยเรื่องภาษาอังกฤษได้ด้วย",
+        "date": "2026-06-09T14:56:11.562Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Issariyaporn Mahapuntri",
+        "score": 5,
+        "text": "This detective-like information puzzle game is so much fun to play! For those who likes to use their brain skills, of course (But really, anyone can play if they interested).",
+        "date": "2026-06-08T16:06:24.872Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "feifoei samsam",
+        "score": 5,
+        "text": "โคตรรรรรสนุกกกกกกกกกกกกกกก",
+        "date": "2026-06-08T08:59:39.594Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "laksika",
+        "score": 5,
+        "text": "สามารถฝึกฝนภาษาอังกฤษได้ และยังสนุกอีก",
+        "date": "2026-06-07T18:48:08.198Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ลูกปลา ประภาศรี ศรีญาติ",
+        "score": 5,
+        "text": "เป็นเกมที่ได้ฝึกสมองได้ดี",
+        "date": "2026-06-07T02:56:11.240Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "pa za",
+        "score": 5,
+        "text": "เกมส์ดี ฝึกภาษา ฝึกอ่าน มันทำให้จำคำศัพท์ได้มากขึ้น และได้ฝึกวิเคราะห์ด้วย เล่นเพลิน",
+        "date": "2026-06-07T01:10:10.667Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Trp sq",
+        "score": 5,
+        "text": "เกมสนุกมากค่ะ พอเล่นไปเรื่อย ๆ จะมีแบบเนื้อเรื่องให้เล่น ชาเล้นสุด ๆ และที่สำคัญเกมนาน ๆ ทีจะมีโฆษณา ดีมากเลยค่ะ 🫶",
+        "date": "2026-06-06T22:46:56.256Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Siri Siriyakorn",
+        "score": 5,
+        "text": "เริ่ด",
+        "date": "2026-06-06T16:08:29.907Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "BaseBaLL BS",
+        "score": 5,
+        "text": "สนุกมาก เล่นแก้เครียด",
+        "date": "2026-06-06T15:31:19.504Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Tanawat Kongthai",
+        "score": 5,
+        "text": "ฝึกสมองดี",
+        "date": "2026-06-06T15:06:59.413Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Sweety chu",
+        "score": 5,
+        "text": "so fun",
+        "date": "2026-06-06T15:03:22.859Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ศิวปรียา มาลัยขวัญ",
+        "score": 5,
+        "text": "ดีมากๆเลยค่ะ โฆษณาไม่เยอะ อยู่ที่ว่าเราจะกดดูไหม",
+        "date": "2026-06-05T16:11:52.885Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "August August",
+        "score": 4,
+        "text": "ได้ฝึกภาษาดีค่ะ ไม่ยากเกิน",
+        "date": "2026-06-04T16:59:53.786Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Altasia S. (Akane)",
+        "score": 5,
+        "text": "It's really a good game. Hope for more story-mode in upcoming update.",
+        "date": "2026-06-02T12:54:36.663Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "natnapha upt.",
+        "score": 5,
+        "text": "It's good 👍🏼",
+        "date": "2026-06-01T15:49:08.765Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "เหมันต์",
+        "score": 5,
+        "text": "Nice and fun puzzle game",
+        "date": "2026-05-30T11:07:21.134Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "สส รร",
+        "score": 4,
+        "text": "Game good 👍 No ADS",
+        "date": "2026-05-28T02:08:58.821Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Natcha Wong.",
+        "score": 5,
+        "text": "สนุก ได้ใช้ความคิด",
+        "date": "2026-05-25T09:50:57.395Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Pa. J",
+        "score": 5,
+        "text": "ฝึกภาษาได้ดี",
+        "date": "2026-05-22T05:40:44.947Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "นันทกาต์ จินา",
+        "score": 5,
+        "text": "หัดภาษาอังกฤษ เล่นแล้วเครียดชอบมาก",
+        "date": "2026-05-20T08:54:21.297Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "M K",
+        "score": 4,
+        "text": "สนุกมาก สนุกเกิน แต่ด่านยากบางทีก็ยากเกิน แล้วด่านประจำวันคือทำมาให้ใครเล่น หัวใจแค่2ดวงคือพอเลย ยอมแพ้ ที่ยกให้เลยคือโหมดสตอรี่กับเล่นเป็นด่านๆไปนี่แหละ เพลินๆ",
+        "date": "2026-05-12T09:09:48.608Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "วิรญา บุญเอนก",
+        "score": 5,
+        "text": "ตรงปก ไม่มีโฆษณา เซฟความคืบหน้าเกมให้อัตโนมัติ (น่าจะลิงค์กับ Google play, ลองลบโหลดใหม่ก็ยังด่านเดิมจากที่เคยเล่น) ระดับความยากเหมาะสมกับแต่ละด่าน มีให้ความรู้นิดหน่อยด้วย",
+        "date": "2026-05-11T13:43:43.113Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "유서영",
+        "score": 5,
+        "text": "머리 쓰게 되고 중간에 모르는 것도 있긴한데 그래도 흥미진진하고 재밌습니당",
+        "date": "2026-06-10T16:43:17.874Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "lians",
+        "score": 4,
+        "text": "게임 자체는 흥미롭고 재밌음. 번역만 좀 더 잘 다듬어져 있었더라면 별점 만점 다 줄 수 있었겠으나 중간중간에 번역되지 않은 영어와, 의미가 전혀 전달되지 않는 번역체가 몰입도를 떨어뜨림.",
+        "date": "2026-06-10T14:38:29.333Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "이지훈",
+        "score": 4,
+        "text": "광고제거 구매했는데 광고제거가 안됨...",
+        "date": "2026-06-09T15:06:30.160Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "유르치",
+        "score": 5,
+        "text": "차근차근 해보는중 재밌어요. 레벨20 번역이 안되어있어요.",
+        "date": "2026-06-09T03:30:21.562Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "Olive (Polarbear)",
+        "score": 5,
+        "text": "넘넘 재밌게 플레이하고있어요!! 스토리모드 더 추가해주세요ㅎㅎ",
+        "date": "2026-06-08T18:16:03.966Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "clair k",
+        "score": 5,
+        "text": "영어공부되고 좋아요",
+        "date": "2026-06-07T14:26:46.182Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "ᄌᄋᄆ",
+        "score": 5,
+        "text": "광고조금만 나오고 재미 있습니다 가끔 번역오류 있으니 파파고 사용하면서 하시면 도움이 됩니다",
+        "date": "2026-06-07T13:12:04.655Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "김민정",
+        "score": 5,
+        "text": "재밌어요! 근데 레벨34에 힌트 하나가 이상한 타이밍에 제공되네요.",
+        "date": "2026-06-07T06:16:53.760Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "송크리스탈",
+        "score": 5,
+        "text": "하나씩 맞출때마다 그림이 완성되는게 귀여워요",
+        "date": "2026-06-06T11:25:26.852Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "Lesser_panda",
+        "score": 5,
+        "text": "문제가 안풀리면 영어로 바꿔서 풀어보세요... 대부분은 번역오류입니다. 특히 일일과제랑 스토리",
+        "date": "2026-06-06T09:42:45.705Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "김명지",
+        "score": 4,
+        "text": "다른게임들은 광고안보고 다음단계 넘기기해도 광고나오는데 이게임은 56까지는 안나오고 그 이후에도 간간히 나오네여 굿굿",
+        "date": "2026-06-06T09:05:31.603Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "SM LEE",
+        "score": 5,
+        "text": "너무너무 재밌어요 번역이 아직 완벽하지는 않지만 이 게임 만든사람 진짜 완전 천재같음",
+        "date": "2026-06-05T09:25:18.384Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "또온",
+        "score": 4,
+        "text": "게임은 재밋는거같은데 번역안된거라던지 번역잘못된것때문에 풀수가읍음.. 캡쳐해서 번역돌려가며 하는중..",
+        "date": "2026-06-05T09:01:47.104Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "wen nus",
+        "score": 4,
+        "text": "번역만 좀 제대로 했으면",
+        "date": "2026-06-05T05:49:04.485Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "정수리",
+        "score": 5,
+        "text": "언어설정을 영어로 하고 했을 때 단어들이 어려운 단어가 없어서 영어 공부로 하기 좋아요",
+        "date": "2026-06-04T04:32:05.550Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "뚜뚜",
+        "score": 5,
+        "text": "진짜 재밌어요! 스토리 모드가 개꿀잼인데 업데이트 많이 해주세요! 그림이 변하는게 킥임",
+        "date": "2026-06-04T03:27:28.632Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "꼬고",
+        "score": 4,
+        "text": "해석이 중요한 게임이라 번역이 좀 더 잘 되면 좋겠습니다",
+        "date": "2026-06-03T16:34:41.582Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "Anon -",
+        "score": 5,
+        "text": "재밌어요. 스토리모드도 반전같은 점도 재밌고요. 언어를 바로 바꿔서 볼수도 있는 점이 언어공부에도 좋은 것 같아요",
+        "date": "2026-06-03T07:15:25.542Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "화난고양이",
+        "score": 5,
+        "text": "재밌어요 귀엽고 어렵지 않으면서 약간의 생각은 곁들여야하는 킬링타임에 제격입니다.",
+        "date": "2026-06-03T04:02:56.605Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "윤혜영",
+        "score": 4,
+        "text": "번역이 되다 말음",
+        "date": "2026-06-02T15:15:23.526Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "깡감자",
+        "score": 5,
+        "text": "재미있는데 지금 748레벨 동안 같은 문제 2번씩 풀고 있어요 새로운 알고리즘.. 업데이트.. 부탁드려요",
+        "date": "2026-06-02T01:57:51.774Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "infpinfj enfj",
+        "score": 5,
+        "text": "논리퍼즐 한참 찾았는데 이렇게 재밌고 쉽고 창의적 ux/ui에 그래픽 아기자기 귀여운 겜은 처음. 단서 하나씩 해결할 때마다 그 단서에 맞게 그림 바뀌는 게 참신하고 보는 재미가 있다.",
+        "date": "2026-06-01T12:07:04.631Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "이공주",
+        "score": 5,
+        "text": "레벨 몇까지 있나요? 몇부터 반복이에요?",
+        "date": "2026-06-01T07:11:36.582Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "꿀꿀이",
+        "score": 5,
+        "text": "억지스런 해석이 있고 번역 안된곳도 여럿 있으나 할만함",
+        "date": "2026-05-28T20:22:36.860Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "이주은",
+        "score": 5,
+        "text": "정말 재밌는 논리퍼즐 게임. 그림도 너무 귀엽고 표 채울 때마다 그림 변하는 거 보는 맛이 있습니다. 힌트를 꼭 써야만 한다는 리뷰가 보이는데, 지금까지 183레벨, 스토리, 일일퍼즐 다 밀면서 힌트 필요 없었습니다. 논리적으로 생각해보면 다 풀리게 만들어놨습니다. 레벨을 하나하나 다 잘 만들어놔서 감동적이었어요. 번역 오류가 좀 있긴 한데 영어로 바꿔서 보면 문제 없습니다. 요즘 이 겜 플레이하면서 정말 즐겁습니다ㅎㅎ 추천합니다!!",
+        "date": "2026-05-26T14:23:53.310Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "Hy un",
+        "score": 5,
+        "text": "역시 게임이 게임이다 보니 스토리 모드를 풀때 그 게임성이 진가를 발휘하네요 추리소설 보는 느낌도 있고 재미있어요!! 제가 해본 퍼즐 게임들중 소재가 되게 독특한것 같아요 스토리모드의 스토리가 조금 더 추가됐으면 좋겠어요 ㅎㅎ",
+        "date": "2026-05-25T18:23:48.151Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "김보라",
+        "score": 4,
+        "text": "문제 풀기는 어렵지만, 재밌습니다.",
+        "date": "2026-05-21T12:07:04.690Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "나무",
+        "score": 5,
+        "text": "정말 재밌어요. 스토리. 일일 퀘스트도 있어요",
+        "date": "2026-05-21T12:06:53.860Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "김봉숙",
+        "score": 5,
+        "text": "번역이 잘 되어있엇으면 좋겠어요. 영어가 섞이네요",
+        "date": "2026-05-21T02:05:29.800Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "Angie Han",
+        "score": 4,
+        "text": "Great game, purchased the ad removal because I loved it. However, from levels around 330 and beyond, I'm getting puzzles that I already solved earlier. If there aren't available puzzles, you should say that instead of putting them in repeat or cycle.",
+        "date": "2026-05-13T17:24:09.234Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "라리엘타",
+        "score": 5,
+        "text": "게임방식은 흥미로유나 번역문제가 있음. 단서를 클릭했을 때 영어 원문이 나왔으면 더 좋겠다고 생각함.",
+        "date": "2026-05-12T11:34:03.679Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "박준수",
+        "score": 4,
+        "text": "번역이 잘 안된 것이 있네요 ㅎㅎ '{ 0 } 브랜드의 모자는 { 0 } 사이즈로 판매되지 않는다' 인데.. 이게 리스트에 0번째 인덱스같긴합니다만... 영어로 했을때는 그림이 제대로 출력이 되는데 한글로 플레이하면 저렇게 나오네요... 그 외에 몇몇 단서가 번역이 안되어 영어로 보이는데 그 외에는 재밌게 하고있습니다. 전에 플레이하던 게임이 뭔 열쇠시스템을 도입해서 블록맞추기게임으로 변질되서 게임을 바꿨는데.. 덕분에(?) 이런 재밌는 게임을 만났네요 ㅎ",
+        "date": "2026-05-11T05:35:32.611Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "하백조의 드링크제",
+        "score": 4,
+        "text": "이전 레벨도 다시 플레이할 수 있었으면 좋겠어요 그리고 일일레벨 이전날꺼 플레이한번 할때마다 900골드는 좀 아닌거 깉아요.. 가격을 낮추거나 다른 방법을 추가하거나 했음 좋겠어요",
+        "date": "2026-05-06T00:36:31.895Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "陳孟瑄",
+        "score": 5,
+        "text": "動腦的小遊戲，很好玩",
+        "date": "2026-06-10T10:24:03.593Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "Aries Chen",
+        "score": 5,
+        "text": "語言選英語可以練英文👍",
+        "date": "2026-06-10T08:44:39.864Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "張修愷",
+        "score": 4,
+        "text": "廣告的頻率有點剛好讓我覺得快要太多。就是還可以接受的程度。",
+        "date": "2026-06-07T23:21:02.508Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "馡翎",
+        "score": 5,
+        "text": "上面的圖案會隨下面的選項變化，好可愛～",
+        "date": "2026-06-04T06:28:41.567Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "MENG-YAN LIN",
+        "score": 4,
+        "text": "中文還翻的不好",
+        "date": "2026-05-26T09:43:14.782Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "Zona Sue",
+        "score": 5,
+        "text": "中文有些語意怪怪的，但是大致上都對，蠻好玩的。",
+        "date": "2026-05-24T05:48:47.654Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "Kertious K",
+        "score": 5,
+        "text": "玩的時候無廣這點就很好",
+        "date": "2026-05-21T10:41:48.588Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "綠茶無糖",
+        "score": 5,
+        "text": "圖案很可愛的小遊戲 而且不會一直彈出廣告 適合殺時間",
+        "date": "2026-05-14T09:05:25.414Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "簡恩馨（NC）",
+        "score": 5,
+        "text": "非常好玩！想請問$330元的「挑戰通行證套組」的「5月通過］卡，是可以玩全部5月的，還是全部跳過？",
+        "date": "2026-05-10T12:55:10.842Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Riddler ￼",
+        "score": 5,
+        "text": "It’s a good game",
+        "date": "2026-06-10T13:43:44-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "willwill3",
+        "score": 5,
+        "text": "This is a very fun game to play, no forced ads, fun concept, and just fun looking!",
+        "date": "2026-06-10T13:42:34-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Jee720",
+        "score": 5,
+        "text": "I’ve played quite a few of the logic grid games and this is by far my favorite. I especially love the picture you build as you solve the puzzles",
+        "date": "2026-06-10T10:58:44-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Random person😉 123",
+        "score": 4,
+        "text": "Super fun you should totally get this game but in some of the later levels it gets really really hard and especially in story mode. It just makes you really think but like I said GET THIS GAME.So fun🤩😀",
+        "date": "2026-06-10T10:40:23-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "hsbdhdbjsjdsubsshj",
+        "score": 5,
+        "text": "I love this game, downloaded it from an ad and was not disappointed! Really fun, levels get more challenging, and there’s not too many ads which is great!! They don’t pop up after every level or every time you tap something, I highly recommend this game:)⭐️⭐️⭐️⭐️⭐️",
+        "date": "2026-06-10T10:20:58-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Pizzcattouca",
+        "score": 5,
+        "text": "I download the game to just try it out and I fell in love with them. Yes, some of the levels are really challenging that just give it the fun in it. I would like it even more id they weren’t so many ads but other than that, it’s such a good game.",
+        "date": "2026-06-10T08:45:59-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Dolphincorn246",
+        "score": 5,
+        "text": "I love things that make me think like detective because I like solving puzzles and putting pieces together 🫶🏼 I found this yesterday and I fell in love with it! It’s really good and makes your brain healthy and strong 💪",
+        "date": "2026-06-10T08:27:38-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Cipa21",
+        "score": 5,
+        "text": "I am searching for this type of games all the time. No regrets about this game so far! Stories are great!",
+        "date": "2026-06-10T06:13:44-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Elalalelalalelalea",
+        "score": 5,
+        "text": "You guys made my school grade go up because I have used my brain to make sure to not lose a heart",
+        "date": "2026-06-09T22:18:54-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "True pink",
+        "score": 5,
+        "text": "Please more stories!!",
+        "date": "2026-06-09T22:10:13-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Jinx the therian",
+        "score": 5,
+        "text": "It got my brain working in the morning, I'm obsessed with this game. Recommended if you love easy but challenging games.",
+        "date": "2026-06-09T19:50:56-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "TauRCool",
+        "score": 4,
+        "text": "Decently entertaining especially the stories",
+        "date": "2026-06-09T16:17:35-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "M2R13",
+        "score": 4,
+        "text": "I really am enjoying this game but am wondering when more stories will be available!",
+        "date": "2026-06-09T11:38:57-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Criiotix",
+        "score": 5,
+        "text": "I literally got this game and expected to never play it cuz I thought it’d be an ad spam 😭😭 the only one I remember getting is when I pressed a button to get one (and it works on airplane mode so I can play it on the plane!!)",
+        "date": "2026-06-09T11:03:30-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "sydneysaad",
+        "score": 5,
+        "text": "very fun & brain stimulating. have the option to use hints / spend money but not necessary. great game",
+        "date": "2026-06-09T00:49:29-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "ItsMe8888",
+        "score": 4,
+        "text": "Some of the clues aren’t as clear as they could be. \n\nThe one I remember clearly i was between two different statue choices person and dog and the clue was the statue in column _ gets a lot of praise. The statue was the human one. \n\nThis is a very fun game though and it makes you stop and think which I enjoy a lot.",
+        "date": "2026-06-09T00:38:49-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "CitrineBee",
+        "score": 4,
+        "text": "It’s very fun and addictive, but it’s also frustrating because the clues are too vague or leave you to guess. Like, I don’t need it to be spelled out for me, but a little more detail would be nice",
+        "date": "2026-06-08T22:55:38-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "henshjs achakdb",
+        "score": 5,
+        "text": "NO ADSSSS",
+        "date": "2026-06-08T19:03:41-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Dalabengbaa",
+        "score": 4,
+        "text": "This is a really good game however, anytime I take a moment to think the 2 clue buttons immediately start trying to get my attention and it’s really annoying. I know this is minor but it just bothers me and probably others alot.",
+        "date": "2026-06-08T18:41:43-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "AHHH IM ON FIRE HELP ME",
+        "score": 5,
+        "text": "I like it. I normally don’t like puzzle games but I like this one",
+        "date": "2026-06-08T16:04:37-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "G for great game!!!🥳🥳🥳",
+        "score": 5,
+        "text": "I love Profile Perfect! It’s the perfect game, and there’s barely any adds! It helps me work my brain and keeps me active! Thank you to whoever made this game, because it’s awesome!👏",
+        "date": "2026-06-08T13:28:45-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Idontneedadumbahhnickname >:(",
+        "score": 5,
+        "text": "This app game is so fun and the fact that it has no ads is the best thank u to whoever made this U DAH BEST APP GAME ON MI PHONEEEE this game is not trashy and is clean this game can also be fun for anyone thanks for reading my review BAI YALLLLLLL 🫰🫰🫰🫰:3",
+        "date": "2026-06-08T12:34:08-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "April duck 67🦆",
+        "score": 4,
+        "text": "It's a great game but I want there to be 3 lives not 2 because then it would be way to easy to fail.",
+        "date": "2026-06-08T12:09:46-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Me3663",
+        "score": 4,
+        "text": "It was working fine. I loved it. Until today’s update that is. Version 0.8.1 that was updated today. Now it keeps crashing in the middle of gameplay. I can’t even finish a level. I have an iPhone 6s Plus, but it was working fine until today. 😢 UPDATE: I can actually play it now after I offloaded the app and downloaded it again. But it does freeze A LOT and will eventually kick me out of the app.",
+        "date": "2026-06-07T14:06:03-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "the ghost of charmander",
+        "score": 5,
+        "text": "This game is sooo fun i play it all the time. i always loved logic puzzles but i really do think this is exceptional. i play it every single day for at least half an hour and it is the best fame i ever played!",
+        "date": "2026-06-07T12:51:22-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "JB86357",
+        "score": 5,
+        "text": "Love the logic puzzles, great little brain teasers. And story mode! Love the idea of a continuous puzzle that tells a story. But The Last Waltz, I mean the title probably should’ve clued me in, but I was NOT prepared. So 5 stars for making me unexpectedly cry I guess???",
+        "date": "2026-06-07T11:44:15-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Hollow1810",
+        "score": 5,
+        "text": "There were no ads unless you choose to do something with an ad such as get an extra life, play past daily puzzles, or getting more coins. The puzzles are fun as are the stories I just wish there were more. One thing I was a bit confused about is how some hints are worded, some seemed as though the wrong thing was in the spot of the clue.",
+        "date": "2026-06-07T10:58:48-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Big ol bucket",
+        "score": 5,
+        "text": "I’m in heaven 🥹",
+        "date": "2026-06-07T00:45:27-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Fizzle Jelly",
+        "score": 4,
+        "text": "it’s Actually Ad-free and you can do ads but only for rewards if you don’t do the ads it’s ad-free I’m not Joking it’s actually quite fun and relaxing",
+        "date": "2026-06-06T21:06:24-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "So much fun app",
+        "score": 5,
+        "text": "AWESOME APP!!! So much fun, no ads, and no internet so if you are on a long plane flight, or a delay, just play this game. It really makes time go by fast! I really love these kinds of games, and if you do too, get this app! Please!",
+        "date": "2026-06-06T10:02:35-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Abi &gal",
+        "score": 5,
+        "text": "Nothing bad about it just perfect",
+        "date": "2026-06-06T09:10:10-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "lyssluvsGod",
+        "score": 5,
+        "text": "this app is very fun and calming to do when you are bored and want something challenging but not too challenging to do- good in the morning to wake your brain up.",
+        "date": "2026-06-06T06:01:37-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Katseye-Arilover",
+        "score": 5,
+        "text": "You guys need to check out this game I downloaded it just a little while ago and it is so addicting and fun and you get to figure out what stuff is which and you can do stories as well so if you guys are bored you should give this game a try!",
+        "date": "2026-06-05T21:07:38-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Ry&RyDad",
+        "score": 5,
+        "text": "Amazing game very addictive helps my brain stay on task… good to keep your brain occupied",
+        "date": "2026-06-05T14:04:00-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "SaraSidewinder",
+        "score": 5,
+        "text": "I love these type of logic puzzles and this is the best one of its kind I’ve played. Love the art and the way the selections work so much",
+        "date": "2026-06-05T13:52:51-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Dontwanttowroteareview",
+        "score": 5,
+        "text": "I absolutely love this game! The aesthetic is adorable, and the levels are the perfect difficulty! Overall a very fun game!",
+        "date": "2026-06-05T11:40:55-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "High Freaky Bear",
+        "score": 4,
+        "text": "Too many ads",
+        "date": "2026-06-05T08:34:47-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Frappy😜💜",
+        "score": 5,
+        "text": "This game is fun and addictive",
+        "date": "2026-06-05T08:13:11-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "NxnkEa",
+        "score": 4,
+        "text": "it’s fun but it’s saying it’s wrong when it’s right and i’m losing lives for no reason",
+        "date": "2026-06-04T15:43:56-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "i.tried_my_best",
+        "score": 4,
+        "text": "I adore this game! I only have one problem. The pictures in story mode look a little AI generated, (if they aren’t then I apologize, 5 star game!), and I have mixed feelings about AI generated content. If they are then I would gladly make new images for story mode for free! I have references and images if you do take me up on my offer!",
+        "date": "2026-06-03T20:37:45-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kikifeo",
+        "score": 5,
+        "text": "Adds are very little unless you choose and it’s very good graphics make it amazing. I would mention it says stuff like “drugs” and “murder” but in general it’s not that inappropriate.",
+        "date": "2026-06-03T19:46:25-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "AnaaMari3",
+        "score": 5,
+        "text": "Game is perfect, not too many ads and has you coming back for more",
+        "date": "2026-06-02T16:20:29-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "fletchy05",
+        "score": 5,
+        "text": "Fun way to kill time. The story mode is my favorite and I hope they add new stories soon. Haven’t run in to too many ads other than reward multipliers which are optional anyway.",
+        "date": "2026-06-01T13:40:20-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Harpy 9",
+        "score": 5,
+        "text": "This game is so good I mean if you want a game that actually works your mind into thinking this is the game. I will say there are some ads but not that bad. It’s actually what is on the ad.",
+        "date": "2026-06-01T10:18:27-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Minimimi68",
+        "score": 5,
+        "text": "Puzzles are interesting in a way that makes them doable yet challenging as well!",
+        "date": "2026-06-01T09:59:57-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "SweetLilFlower",
+        "score": 5,
+        "text": "I have always enjoyed these types of puzzles! I hope they get more difficult at some point.",
+        "date": "2026-05-30T18:35:32-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lovethisgame bdhxnc",
+        "score": 5,
+        "text": "If I had to play for da rest of my life I would",
+        "date": "2026-05-30T14:35:25-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Feet￼ licker",
+        "score": 5,
+        "text": "Barely any ads is really addicting and I love how they add the best things into it",
+        "date": "2026-05-30T12:54:12-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Krissyblack",
+        "score": 5,
+        "text": "great game",
+        "date": "2026-05-30T12:38:28-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Profile perfect is a good game",
+        "score": 5,
+        "text": "Very very good game",
+        "date": "2026-05-29T11:44:34-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "jfudyeufjv",
+        "score": 5,
+        "text": "Profile Perfect is a dumb name for a great game that really makes you think. It’s especially awesome for Seniors wanting to keep their brain sharp, & isn’t that all of us? I highly recommend actually buying this, to ditch annoying ads, & I don’t say that lightly because I’m a senior on a limited income. But this game is great for the youn too, teaching the power of thinking, logic & process of elimination using clues. Try it!",
+        "date": "2026-05-27T19:16:59-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kristi2130",
+        "score": 5,
+        "text": "I love love love this game!!",
+        "date": "2026-05-24T22:50:28-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "R.j33",
+        "score": 4,
+        "text": "Great game…. Few notes: the last waltz’s was unnecessarily depressing, bring bro back. Also some of the lvls like over 50% rely far too much on luck and guessing over clues. The clues either need to be easier or each lvl needs a few more clues to them.\n\nPros: \n-We need more stories!!!!\n-Love the real time changes that the puzzle has as you solve it. Love how people grow features, and buildings get decor and etc. the game is super fun and addicting\n\nSuggestions:\n-I think it’d be cool to have a hard mode exclusively. \n-No matter the lvl difficulty you have 2 hearts, i don’t know if that makes sense. Either easy or hard should have a different number of hearts? I wanna say harder gets more, especially because of the luck involved in some of the puzzles\n-I think it’d be cool if we could play by themes, like have a section where we can choose to play a bunch of fantasy themed puzzles or something. Have a bunch of unique puzzles in this play by themes section. \n-definitely have more murder mystery stories",
+        "date": "2026-05-24T22:22:58-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "ShatteredxOblivion",
+        "score": 4,
+        "text": "I love the way the puzzle changes and gets colors and items added as you work through it. I just don’t understand why sometimes it GIVES you an answer in a clue yet that space is locked until you get more of the puzzle going… and not just for a bit, it seems like you have to complete almost the whole thing until it unlocks.\n\nAlso, a lot of puzzles have a contradiction of left and right. For example, the puzzle for may 23. I don’t like it when puzzles go something is to “the right of” go back-and-forth between the person in the puzzles perspective. Pick one.",
+        "date": "2026-05-24T13:31:55-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Jenja886",
+        "score": 5,
+        "text": "I love this game! Please add more story levels!!",
+        "date": "2026-05-23T22:36:43-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Mindyminwu",
+        "score": 4,
+        "text": "Some of your clues are vague to the point of inaccuracy. Maybe I am misunderstanding it, it’s almost like the clues are being translated from something or it’s AI generated",
+        "date": "2026-05-23T15:40:43-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "I_Dunno_Dude",
+        "score": 4,
+        "text": "I really enjoyed the game until I realized at a certain point I was just doing the same puzzles over again. I mean I’m over level 400 so I’m still playing and enjoy it, however I did just finish a level having only read one clue because I’ve gotten the same one about three times before.",
+        "date": "2026-05-22T23:56:43-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "kh 1968",
+        "score": 5,
+        "text": "This is a challenging new game.  YOU MAY THINK YOU HAVE THE SOLUTION SEWN UP… BUT THIS GAME CAN PLAY TRICKS ON YOU.\nI HAVE TO BE MORE CAREFUL IN THOSE CLUES.\nKenneth Huang 5/22/26.",
+        "date": "2026-05-22T02:50:47-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Loving me tee",
+        "score": 4,
+        "text": "I love the game LOVE!!!! it but I did alot of the puzzles  like twice already it’s getting better now that it updated so we we’ll see how it goes",
+        "date": "2026-05-21T14:51:20-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Avalon W.",
+        "score": 4,
+        "text": "Sometimes the wording of the clues doesn’t make sense, and it definitely needs more hearts. I do love that in the end you get a cute little setup though. Pretty good overall!",
+        "date": "2026-05-21T06:18:46-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "PancakeDuJour",
+        "score": 5,
+        "text": "I love this game. I’ve always been a fan of logic puzzles and this is by far the best game I’ve found. The puzzles are challenging, but not impossible. I like that there aren’t a million different “quests” or side games… it’s JUST logic puzzles. There aren’t overwhelming ads and the ad rewards are offered and appropriate. I also love that the little images update as you choose the correct options - it’s a cute touch and keeps it fun! I genuinely can’t think of any negatives to say, I just recommend it!",
+        "date": "2026-05-21T05:50:16-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "CandySparkles26",
+        "score": 5,
+        "text": "I love this game! It really challenges me sometimes, and I LOVE the daily puzzles. It’s the first thing I do as soon as I get my daughter on her bus! 😂",
+        "date": "2026-05-21T05:01:38-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Ladyexlibris",
+        "score": 5,
+        "text": "I really love this game. I just wish it didn't cost so many coins to play previous daily levels.",
+        "date": "2026-05-20T21:27:48-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "KDestroyer33",
+        "score": 4,
+        "text": "My only advice is that there needs to be a way to eliminate options if I know it can’t be that one",
+        "date": "2026-05-20T19:13:54-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lunessia",
+        "score": 5,
+        "text": "First time ever left a review but I love the game and play it all the time. I’m happy that they added new levels, also I get new level everyday from the daily ones to despite they’re pretty hard. It’s kind of confusing on the hint sometimes but I hope you can keep up the good work.",
+        "date": "2026-05-19T13:35:05-07:00",
+        "version": "0.7.2"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Marvel’s Avengers",
+        "score": 5,
+        "text": "I never gave any app five star without note until now it’s sooo good I accidentally pulled a all nigjter with how addicting this is it’s super fun no note",
+        "date": "2026-05-22T07:58:47-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "I hate ads😕",
+        "score": 4,
+        "text": "Good game, but too many ads after a few games.",
+        "date": "2026-05-21T23:21:54-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "MSagittarius",
+        "score": 5,
+        "text": "สนุกจร้า",
+        "date": "2026-05-21T04:15:59-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "ph",
+        "userName": "ren 🍏",
+        "score": 5,
+        "text": "this game is so relaxing yet challenging at the same time! i love the art style and how there are no ads at all in this game :) i wish there would be more story content in future updates",
+        "date": "2026-06-07T04:24:53-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "kr",
+        "userName": "너도우",
+        "score": 5,
+        "text": "추가생명받기 기다리는 시간 아까워요 건너뛰기 버튼이나 거절 버튼 만들어주세요 그리고 한국어 번역 좀 신경 써주세요",
+        "date": "2026-06-09T23:42:49-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "kr",
+        "userName": "별피에오",
+        "score": 5,
+        "text": "광고도 이지선다도 어떻게든 참았는데 발열이 심한게 너무 커요.. 광고가 계속 나와서 그런지 모르겠는데 10분 이후부턴 그냥 폰이 타오르는 수준이에요",
+        "date": "2026-06-05T11:51:10-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "kr",
+        "userName": "별명이뭐길래진짜",
+        "score": 5,
+        "text": "답안 선택할 때마다 그림 바뀌는 것도 깜찍하고 그냥 게임이 왤케 귀엽죠? 진짜 이런 게임을 찾고 있었다우 너무 귀하다 예뻐죽겠네ㅋㅋ 근데 번역이 잘 안 된게 있긴함(어렵진x)",
+        "date": "2026-06-04T08:52:07-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "tw",
+        "userName": "RNA序列",
+        "score": 5,
+        "text": "設計得相當有意思的遊戲。",
+        "date": "2026-06-09T08:30:53-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "tw",
+        "userName": "沒讓我那麼氣的app",
+        "score": 5,
+        "text": "很好玩～又不會一直要看廣告😝",
+        "date": "2026-06-09T05:11:43-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "tw",
+        "userName": "Hey_Zhen",
+        "score": 5,
+        "text": "玩過好幾款類似的益智遊戲，這款的美術真的是最好看，搭配的圖示會隨著解鎖出來的線索一點一點顯示，除了可愛之外也更有成就感，比廣告呈現的ai圖好太多，唯二的缺點就是每日關卡太難了（比一般關卡的困難還難上很多）以及廣告做太爛（忠實呈現還比較好）",
+        "date": "2026-06-09T03:43:48-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "tw",
+        "userName": "Ederzx",
+        "score": 4,
+        "text": "不錯玩，但手機都會變很燙。",
+        "date": "2026-06-08T06:11:40-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "tw",
+        "userName": "嘻嘻呵H",
+        "score": 5,
+        "text": "畫風可愛，遊戲好玩！\n目前前面的關卡都超簡單，快速刷過不會像一堆其他遊戲剛開始就被廣告卡。\n很多主題有實質意義，例如建築場所，很用心。\n有故事模式增加挑戰性。",
+        "date": "2026-06-06T23:13:49-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "tw",
+        "userName": "新玩家16",
+        "score": 5,
+        "text": "關卡跟關卡中間的不會一直有廣告，而且還有故事模式可以玩",
+        "date": "2026-05-29T06:52:50-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "tw",
+        "userName": "好玩的烹飪遊戲",
+        "score": 5,
+        "text": "發明這遊戲的人是天才，太好玩了👍🏻👍🏻👍🏻\n雖然有些中文不太順，但不影響解謎。",
+        "date": "2026-05-23T23:55:30-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "tw",
+        "userName": "sgqibdl",
+        "score": 5,
+        "text": "故事都解完了，求快出新故事❤️❤️",
+        "date": "2026-05-20T22:53:35-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "tw",
+        "userName": "社恐海星",
+        "score": 4,
+        "text": "真的很好玩 只是玩到後面 關卡好像都是重複的了",
+        "date": "2026-05-09T02:23:13-07:00",
+        "version": "0.7.2"
+      }
+    ],
+    "negative": [
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Benjamin Wall",
+        "score": 1,
+        "text": "decent at first, but after a few levels, you get unskippable poppups after every single level. Bit pricey to remove them for what it is, so cannot recommend this predatory model.",
+        "date": "2026-06-11T08:23:32.490Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Glynne",
+        "score": 1,
+        "text": "Fun game. Way too many ads. Ads in between rounds. Ads at the bottom of the screen. Ads just for switching between menu screens. They'd probably put an ad on this review if they could.",
+        "date": "2026-06-11T07:42:31.963Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Bryan Greene",
+        "score": 1,
+        "text": "ads are awful.",
+        "date": "2026-06-11T06:15:12.627Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Karissa Hartenstine",
+        "score": 1,
+        "text": "The daily puzzle is almost impossible for 6/11/26 to finish with just two hearts. One clue says that there are 3 purple cap wearers but there's only 2. Another clue says there are multiple building covers with black but all building covers are only one color and none are the same color. I got mad and uninstalled after using my two hearts, paying the 900 coins to get them again, and also watching ads for 3 more hearts. I uninstalled because I won't spend on a game when the clues are so incorrect.",
+        "date": "2026-06-11T04:52:42.416Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "tiffany Whitney",
+        "score": 1,
+        "text": "it made my phone restart 2 times.",
+        "date": "2026-06-11T00:19:06.642Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Rose",
+        "score": 1,
+        "text": "I'm on level 49. The clues make it obvious that store C has 2 customers. when I enter that, it's wrong. so finally I watched an ad for a clue. The clue even says that store c has 2 customers, but it still loses a life when I select it. I was having fun with this game, but I guess I'm done now. BTW, I have screen shots proving that the clue says what I've written. I guess this is goodbye.",
+        "date": "2026-06-10T19:07:33.221Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Brihanna",
+        "score": 1,
+        "text": "At first the game was fun but as I went along I noticed the wording in the clues made no sense sometimes or often weren't enough to figure out what needed to be done. This often resulted in wrong answers or right but no new hints and I'm stuck with nothing to work with and forced to watch ads to progress.",
+        "date": "2026-06-10T17:31:21.805Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jasmin covert",
+        "score": 1,
+        "text": "useless because i cant use it in landscape mode or in pop up view",
+        "date": "2026-06-10T11:19:07.722Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Dima Sikorski",
+        "score": 1,
+        "text": "Changing my initial review. The game is a Catfish. Levels make sense and are possible up until 30s or 40s, after that THE GAME WILL NOT GIVE YOU ENOUGH CLUES TO SOLVE PUZZLE WITHOUT FAIL. And on your failing you must watch ads. Absolutely pathetic",
+        "date": "2026-06-10T10:39:40.464Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "CS Haley",
+        "score": 2,
+        "text": "I like the visualizations that other logic puzzle apps don't have. However, the clues are often poorly worded in ways that affect the puzzles' solvability and often lead to losing hearts. For example, a clue might say \"the X thing is Y\" (notice the \"the\") even when there are multiple of X thing, one of which is not Y. Or sometimes a clue will refer to multiple X things when there are not, in fact, multiple of it. I suspect the author of these puzzles might not be fluent enough in English.",
+        "date": "2026-06-10T06:08:24.263Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Nathan Weber",
+        "score": 1,
+        "text": "This is a posh logic game. If done correctly it should be solvable through logic alone. This game relies heavily on you using up lives guess answers. You watch ads to get lives back. I understand putting ads in your game. But this game has broken the cardinal rule of posh logic by forcing the player to guess and check answers.",
+        "date": "2026-06-10T05:13:14.716Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mike",
+        "score": 2,
+        "text": "Too many clues that are ambiguous or cause the user to make assumptions that aren't a given. \"On the right\" can mean directly to the right of or any of the items in the right, but it \"usually\" means directly to the right in this game. \"Two columns away from\" can mean two columns in between or two columns over, with one between. In this game it seems like we get both. \"The highest score\", when given a \"?\" option. How do I know the \"?\" mark isn't higher, just because 10 is an option, 11 isn't?",
+        "date": "2026-06-10T03:59:23.491Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Amy Gordon",
+        "score": 1,
+        "text": "App's banner ads auto-open browser webpage stating that an \"android vulnerability has been detected\"",
+        "date": "2026-06-10T01:53:56.628Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Timothy Beres",
+        "score": 1,
+        "text": "the art is AI slop, and I assume the clues are too because every 10th clue is phrased extremely poorly.",
+        "date": "2026-06-10T01:20:03.500Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "No Ty",
+        "score": 1,
+        "text": "25 years doing logic puzzles, uninstalled this false misleading bait ppl into ads as clues do not use logic but expect you to guess forces ads.. Zero ads watched. played to lv 28 did daily & it was rigged...",
+        "date": "2026-06-09T23:29:45.902Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Lyra",
+        "score": 2,
+        "text": "The app was easy to navigate and great for times when I had nothing better to do. That's until I started getting random texts and calls that were designed to steal my personal data. I can only link it back to the ads from this game, and nothing else. Download at your own risk.",
+        "date": "2026-06-09T22:13:35.302Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Chad Davis",
+        "score": 2,
+        "text": "cute little logic game for first few minutes, then starts forcing you to watch super long ads just to get the basic clues you need in order to solve the puzzles, which I find ridiculous. imagine playing a coloring game where you had to watch an ad to get access to specific color needed to finish task.",
+        "date": "2026-06-09T21:19:58.564Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Marathon Thegamer",
+        "score": 2,
+        "text": "hints are horrible and require guessing to pass. this is not logic.",
+        "date": "2026-06-09T20:02:14.845Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Pineapple",
+        "score": 1,
+        "text": "it forces you too watch an ad too get another clue too carry on. uninstalled",
+        "date": "2026-06-09T19:10:42.512Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Hugo Happens",
+        "score": 1,
+        "text": "good game but theres a bug that prevents ads from playing when you click on anything, like extra lives or challenge",
+        "date": "2026-06-09T18:42:55.776Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Intro Introduction",
+        "score": 1,
+        "text": "Updated: I want to love this game. I bought the ad free pack, but unfortunately it crashes like crazy. For such a simple looking game, it's insane how often it crashes. I just had one on the daily challenge and it counted as a loss, so I have to pay in game money to retry.",
+        "date": "2026-06-09T17:26:53.353Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Dan Miller",
+        "score": 2,
+        "text": "Fun at first. Now I get to puzzles and there are not enough clues to solve it. I have to guess between two options. I saw another review saying clues go away too fast. That might be the case here. Also, puzzles should provide all context to solve. You should never need outside knowledge. Saw one clue talk about Entomology and another Bug Lover. I know what that means but not because of the puzzle. Don't do that.",
+        "date": "2026-05-05T12:52:18.253Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Katrina Chapman",
+        "score": 2,
+        "text": "It was fun at first, but some of the clues in the stories and daily challenges are horribly translated. It makes it confusing and convoluted. Some clues are just outright wrong and it makes solving the puzzles incredibly frustrating. Prime example, I had a clue tell me that the number of people in a specific room was more than half of the privacy rating for said room. There were 2 people and the answer ended up being 5. 2 is not more than half of 5.",
+        "date": "2026-06-02T18:03:16.307Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Myla'Sha Williams",
+        "score": 1,
+        "text": "I like the concept of this game and had fun for a little while (got up to level 200) but unfortunately I will be uninstalling. There's multiple issues with this game, the main reason I'm uninstalling is due to the fact it continues to crash, seemed worse the higher my level was and troubleshooting did not help. Also, some of the clues are either too vague or just plain wrong. It'll say something like \"medium difficulty is furthest from the elevator\" but it won't be accurate. Fix the issues.",
+        "date": "2026-06-06T13:36:04.465Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Krystan Chaney",
+        "score": 1,
+        "text": "I installed this, but after selecting my Google account to start, it said \"Access Blocked: Authorization Error\" so I wasn't able to play. I'd been getting constant ads for this game for ages and when I finally break down and try it, I get that error. It makes me think the app is sketchy or something, so I guess I'm deleting it.",
+        "date": "2026-06-06T06:08:13.630Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Darth Squirrels",
+        "score": 2,
+        "text": "loved the game at first because it was fun and had virtually no ads, but after playing the game for 1 day, all the sudden it swarms you with ads. I think the game specifically avoids giving you ads for the first day just to trick you into liking it, before shoving them down your throat. changed my review from 5 stars to 2. uninstalled.",
+        "date": "2026-06-07T02:59:25.200Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Usagi BunBun",
+        "score": 2,
+        "text": "This game was very fun and I've gotten 200+ levels in, but they recently updated it so that you can't watch an ad to get 1 heart back if you failed the puzzle and now only give you the option to spend A LOT your coins for 2 hearts or to give up and start over and that especially of ruined the experience since some puzzles take A WHILE to get through",
+        "date": "2026-02-21T19:28:09.913Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Toni Galvan",
+        "score": 1,
+        "text": "the game was actually really fun. and as I got further out actually got more challenging. Then I got to level 30. only level 30 and it started recycling the puzzles. I played to level 60 hoping that it was just a one off, and it started again. The solutions weren't even different.",
+        "date": "2025-08-20T10:04:39.928Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Nina Noe",
+        "score": 2,
+        "text": "It's cute, however, the clues are often ambiguous and sometimes refer to attributes not in the grid. Once the clue that assignes auch an attribute is removed from the list, it's impossible to see what it was, if you don't remember it, you lose. An example are the 'Princess' and the 'Teacher' in the first puzzle of the first story. And finally, apparently sometimes you won't get all clues for free, you must watch an ad to complete the challenge.",
+        "date": "2026-05-16T12:17:13.337Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ashley Massaro",
+        "score": 2,
+        "text": "Bad translation gets in the way of clues making sense. You often need to guess what the answer is because the clues aren't specific and you cannot use any sort of logic to determine the answer. This causes you to fail, leading you to need to watch more ads. I made it to about level 100. There were several times the clues were incorrect. The daily puzzles are nearly impossible because you HAVE to guess what the answers are.",
+        "date": "2026-05-31T21:25:38.397Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "George Torres",
+        "score": 1,
+        "text": "I liked clue master, when I installed this I purchased remove ads right away, since same dev. But then I noticed that the clues they give is dumb and redundant to other clues, to ensure you'll be wrong and purchase coins, this is especially for the dailies, clue master used to be like that but they updated it and I can tolerate it more than the vague clues this one throws. Just like any other apps where it'd want you to keep spending or burn your time on ads.",
+        "date": "2026-05-16T17:37:26.675Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Kristie Bahus",
+        "score": 2,
+        "text": "Some of the puzzles literally force you to have to guess for multiple puzzle pieces. Its not fun when there isn't enough context and your chance of success depends on luck. and being forced to watch ads because of this sucks because they crash the game.",
+        "date": "2026-06-06T10:09:33.210Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Envy Hiltunen",
+        "score": 1,
+        "text": "On the harder puzzles, the game frequently and purposely does not give you enough information to make a deduction without guessing. So your options are often to either guess a bunch of 50/50 options or watch ads to get extra clues. It's a really slimy thing to do.",
+        "date": "2026-06-05T13:04:10.886Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "Victor Song",
+        "score": 2,
+        "text": "레벨 39까지는 광고가 완전히 선택식이라 마음에 듭니다. 레벨 40부터 중간 광고가 뜨고, 번역 문제로 단서가 반대로 적힌 경우나 뉘앙스가 애매한 경우가 가끔 있습니다. 힌트기능 없이 단서만으로는 유추할 수 없는 경우도 아직 1~2번 밖에 경험하지 못했습니다. 업데이트 - 점점 단서만으로 유추할 수 없이 찍어야하는 경우가 잦아지더니, 181 레벨에 와서는 아직 빈 칸이 많은데도 새 단서를 주지 않아 남은 단서가 0개인 상황이 벌어졌습니다. 또한 제가 가장 싫어하는 방식인 \"광고를 재생하지 않기 위해 추가 보상을 포기하는 버튼을 눌러도 스킵시간이 다를 뿐 광고를 재생\"하는 방식이 쓰여 대폭 감점합니다. 게임 규칙 자체는 재미있고 그점은 변하지 않았으므로 1점까지 내려갈 만큼은 아니라고 생각됩니다.",
+        "date": "2026-06-08T19:45:06.273Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "우성호",
+        "score": 1,
+        "text": "번역이 완전 개썩었음. 영어랑 돌려본다 하더라도 제대로 된 추론이 불가능할 정도이며, 맞는 선택지임에도 틀렸다며 하트 깎아먹음.",
+        "date": "2026-06-08T12:47:12.728Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "K사과나무",
+        "score": 1,
+        "text": "다시는 안함",
+        "date": "2026-06-06T08:56:21.315Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "한정남",
+        "score": 2,
+        "text": "번역오류, 데일리는 힌트없음구간 일부 존제, 잘못된 힌트 있을 수 있음 기준언어 : 영어",
+        "date": "2026-06-06T01:37:18.679Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "유네즈",
+        "score": 2,
+        "text": "재미는 있는데 번역이 별로에요 중간중간 힌트가 영어로 나와서 뜻을 잘 이해 못하겠어요",
+        "date": "2026-06-05T03:31:36.224Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "김혜연",
+        "score": 1,
+        "text": "귀여운 그림체가 끝인 게임. 보통 광고는 게임 내 아이템이나 생명력같은 부가적인 부분에 선택적으로 들어가는데, 이 게임은 광고 제거를 사지 않으면 다음 단계로 넘어갈 때마다 광고를 봐야되는 편임. 게다가 번역은 한 10년전 번역기 돌린 수준임.",
+        "date": "2026-06-03T11:25:15.959Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "Jaehong Lim",
+        "score": 2,
+        "text": "일일 챌린지는 한번에 풀기 의한 힌트가 부족합니다. 광고로 힌트를 추가하거나 이지선다 상태를 운 좋게 찍어서 넘어가야 합니다.",
+        "date": "2026-06-03T01:29:48.266Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "Ko Ko",
+        "score": 1,
+        "text": "번역이 엉망이라 문제를 틀릴 때가 많아서 불편하다",
+        "date": "2026-06-01T06:25:08.640Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "문혬",
+        "score": 1,
+        "text": "별점 반 개는 왜 없나요 논리 퍼즐이면 단서만으로 유일한 해답이 나와야 하는데 일부 스테이지는 경우의 수가 남아서 결국 찍어야 합니다. 광고 제거까지 구매했는데도 힌트 유도 느낌이 강해서 아쉽네요.",
+        "date": "2026-05-27T06:41:23.190Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "SUBIN KIM",
+        "score": 2,
+        "text": "초반엔 재밌는데 점점 난이도가 한번에 깰 수 없을 정도로 어려워지고, 힌트 없이는 절대 깰수가 없는 구조로 만들어졌네요.. 그리고 번역 중간에 오류가 너무 많이 나서 그 부분은 빨리 고쳐주시는 게 좋을 거 같아요.",
+        "date": "2026-05-19T16:12:13.642Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "Mi Mi",
+        "score": 1,
+        "text": "千萬別買免廣告。買了拿獎勵還是要看。還有心心沒了本來看廣告可以再玩。買了後就強逼只能用金幣再進。幾次就沒金幣了。詐騙",
+        "date": "2026-06-10T11:00:09.157Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "TheWay Chang",
+        "score": 2,
+        "text": "遊戲很好玩，故事模式的題目設計得很嚴謹。相對的每日挑戰就許多漏洞，資訊不充分或者提示描述錯誤，廣告多到不付錢會受不了。",
+        "date": "2026-06-08T15:43:06.785Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "兔三歲",
+        "score": 2,
+        "text": "中文翻譯很常有病句/翻譯不正確/線索和表格上的名稱不相同/線索和實際答案不同/在已經填完正確答案後才出相關線索, 導致每日關卡很容易填錯",
+        "date": "2026-05-13T17:05:44.590Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Junsteroni4546",
+        "score": 2,
+        "text": "It's fun for some time but the ads get progressively worse and the game uses some AI generated graphics. I understand that it's a free game but it's tacky and unnecessary.",
+        "date": "2026-06-09T19:40:06-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Ajmamajamma",
+        "score": 1,
+        "text": "how am i supposed to play a level if random ads keep popping up, literally in the middle of playing. I've never had this issue before with any other game. Usually ads pop up after completing a level in a game, but this is a whole other level of annoying.",
+        "date": "2026-06-09T17:57:35-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "grosskidbleh",
+        "score": 1,
+        "text": "Would be fun if you cared abt players, deleting after review. Hope your micro transactions were worth it",
+        "date": "2026-06-09T02:19:22-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "llew2003",
+        "score": 1,
+        "text": "Now, while I find ads annoying, I don’t mind having to put up with them when the game is free or while I’m trying to decide if it’s worth paying for. However, the way ads just start to pop up in the middle of levels at intervals of literally 2 to 5 seconds apart, makes the game unplayable and is a practice that actually encouraged me to remove the game rather than pay for it. I really wish I were exaggerating the frequency with which the ads have begun popping up. Ads aside, the game is lovely. Have I played other logic puzzle games that were more challenging or consistent? Yes. But this one is solid and quite cute. If it weren’t for the issue with the ads the game would be a solid 4 or 5 star game",
+        "date": "2026-06-08T22:29:01-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "A………..@",
+        "score": 1,
+        "text": "Game is fun but the ads are just to much. I understand having ads between games and even the banner ads at the bottom but when I’m actively trying to figure out a puzzle a ad pops up on the screen and I have to keep swiping it away. It makes the game unplayable",
+        "date": "2026-06-08T17:17:41-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "d.oo.dlebug",
+        "score": 1,
+        "text": "Purchasing the ad free version takes away the option to watch ads to do daily challenge puzzles, so you have to play more easy levels in between to earn the coins instead of just watching the ad. I was able to do as many daily challenges as I wanted and retry them if I failed before spending money for ad free, which seems like I’m being punished for giving them money. There’s a monthly pass that can be purchased but why would I spend $10 for that when I could just watch a short ad before? Otherwise the game is super fun, but that seems like a scam to milk out more money.",
+        "date": "2026-06-08T15:59:26-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "user374958273",
+        "score": 1,
+        "text": "The game doesn’t give you enough information to solve the puzzle forcing you to guess, and with only 2 lives you have to watch forced ads.",
+        "date": "2026-06-06T11:32:26-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Rxymd",
+        "score": 1,
+        "text": "Downloaded this after seeing one of the regular ads with gameplay, deleted after seeing the ad with an AI girl doing nothing appealing. looked ugly, wasted water, wasted time. If you’re gonna copy a game many have made, try standing out for good reasons, like your cute art and such, instead of standing out for bad reasons: using AI that steals others art to make an ugly boring video.",
+        "date": "2026-06-06T04:41:15-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "AnnaEmmet",
+        "score": 1,
+        "text": "I loved this game when I downloaded it. However, I’m at the point where the puzzle cannot be solved with the clues given. Either you have to guess and use one of your two precious lives or the clues are contradictory and impossible to satisfy. This is no longer anything I want to waste time or money on.",
+        "date": "2026-06-04T13:47:32-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "thedemogorgon",
+        "score": 2,
+        "text": "No point in continuing to play, every level gives you an unskippable popup ad. And the monthly levels repeat because they’re too lazy to make a new puzzle lol. Not worth your time tbh just do any other logic puzzle app.",
+        "date": "2026-06-03T06:05:50-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Hofyoycpy",
+        "score": 2,
+        "text": "Some of the clues are just straight up wrong. Other times they are inconsistent, especially if the clue is something about distance between columns. Ads become unbearable, and it takes to long for ticks to refill",
+        "date": "2026-05-31T07:51:33-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Fhdtgvdwhkkfwrgv",
+        "score": 1,
+        "text": "Every time we lose we have to watch an ad even when we don’t want an extra life and 50% of the time we watch an ad even when we don’t want 2 time reward",
+        "date": "2026-05-30T17:47:26-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Libbymahone517",
+        "score": 2,
+        "text": "I was enjoying the game until out of nowhere like 200 levels in video ads started every 5 or so seconds. You didn’t even have to start playing and the ads would start. Paying for the no ads didn’t get rid of them.",
+        "date": "2026-05-29T19:05:07-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "JmjRp",
+        "score": 1,
+        "text": "I really want to like this game but it’s not making sense to me. You only get (2) lives. Why so few? I’ve never played a game where you only get (2) lives. But…Ok. The game seems to be so much fun, so I purchased “no more ads”,  a bunch of coins AND a package with an hour of unlimited lives. Unfortunately, I didn’t get an hour of unlimited lives. Twice, the game froze, and upon reopening, all of my answers were gone and I had to try to remember what I had already answered. So…you took my money AND my lives. Well, you get no more if my money. In fact, if you could return what I’ve already spent, maybe I’ll up my rating to two stars. I REALLY REALLY wanted to like this game. For me? It’s been an awful experience. I do not recommend this game.",
+        "date": "2026-05-25T22:02:06-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "disappointed playee",
+        "score": 2,
+        "text": "Some clues are inaccurate and lead to losing a heart because you put the “wrong” answer in the box. For example a clue said a planet that looked like the 5th planet from the Sun (which is Jupiter) was the answer, but only accepted the one that looked like Saturn as the “correct” answer. Dev team\nneeds to do better at making sure their clues are factual. I’ve had to restart multiple levels because the real life answer didn’t match the game answer.",
+        "date": "2026-05-25T01:15:43-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Little Rissa Roo",
+        "score": 1,
+        "text": "I was having a fine time playing this game. I got to level 280 and all of a sudden the ads are not at the end of a game. The ads are every time it gives you a new clue. Which is very jarring. And I hate when a game puts ads in the middle of a game. It takes me out of the game. So I guess I’m done with this game.",
+        "date": "2026-05-24T12:47:56-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Ade:l",
+        "score": 1,
+        "text": "Too many ads, not enough tickets nor lives. Statements don’t make sense sometimes.",
+        "date": "2026-05-16T21:13:53-07:00",
+        "version": "0.7.2"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Npaverico",
+        "score": 2,
+        "text": "This game was super fun until I realized that all your daily challenges puzzle cycle every month. That isn’t fun!",
+        "date": "2026-05-10T10:04:18-07:00",
+        "version": "0.7.2"
+      },
+      {
+        "source": "app_store",
+        "country": "kr",
+        "userName": "느그들다뒤짐",
+        "score": 2,
+        "text": "게임자체는 재밌고 좋은데 단서들이 가끔 너무 주관적이에요\n추가로 하프마라톤 풀마라톤 네이버에만 쳐도 나오는 거리를 틀리는 건 뭐;;",
+        "date": "2026-06-08T14:00:29-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "kr",
+        "userName": "오렌지리뷰어",
+        "score": 2,
+        "text": "번역이 이상해서 틀리는 경우가 많아요,,",
+        "date": "2026-06-05T10:42:50-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "tw",
+        "userName": "我靴子裡有蛇",
+        "score": 1,
+        "text": "不只是翻譯問題 題目也有問題 三十關之後很多都要猜有兩個才能玩",
+        "date": "2026-06-08T05:38:17-07:00",
+        "version": "0.8.1"
+      }
+    ],
+    "neutral": [
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Sally Collins",
+        "score": 3,
+        "text": "it was fun at first but quickly became annoying, this is due to the clues. most of the time they make no sense or give no clues that help which leaves me having to guess which is frustrating especially when I am having to either watch adds or wait a few hours for the tickets to fill back up the story ones are the most frustrating ones in one it gives a clue that makes no sense because you haven't gotten that far and theirs no clue to help you along its a constant guessing game which is stressful",
+        "date": "2026-06-11T09:06:04.438Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "M. Slater",
+        "score": 3,
+        "text": "Okay until it started showing adverts after every level from Level 17 onwards.",
+        "date": "2026-06-10T11:10:12.255Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Kevin Javier",
+        "score": 3,
+        "text": "Fun game, but the ads are just mad annoying. Even when giving up it shows ads. Google Play should really regulate game with ads fest like this. Christ. I really hope another devs pickup this genre but with less ads.",
+        "date": "2026-06-10T07:35:25.243Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Michelle Kee",
+        "score": 3,
+        "text": "Not enough good clues for free playing players.",
+        "date": "2026-06-10T01:53:04.470Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Amorah Freeman",
+        "score": 3,
+        "text": "I wish the ticket system was quicker to give tickets or gave you more tickets. Either that or give a three hearts system. It's kind of easy to lose lives and tickets, especially with how vague or incorrect the clues can be, it's quite frustrating. Great game otherwise! No forced ads and it actually lets you play the game.",
+        "date": "2026-06-09T21:55:46.630Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Yareth Lara",
+        "score": 3,
+        "text": "It looks interesting, but when I downloaded it I noticed the font was too tiny for me to be able to read. I wanted to change it but I couldn't find any option to do it. That's the only thing I would change about this game. Please make an option to make the font larger.",
+        "date": "2026-06-09T21:17:52.274Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Loran Burrell",
+        "score": 3,
+        "text": "Great game, makes you think critically and challenges you, but there often aren't enough clues to decipher an answer, or the clues are contradictory/incorrect. You only get 5 extra clues per day (after watching an ad per clue) and only get 2 lives per level - then have to spend 900 coins for more if you fail, which is excessive. You can watch ads for more but it's very slow to build. Fun but limited unless you spend money.",
+        "date": "2026-05-22T04:31:31.773Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Thomas Hudson",
+        "score": 3,
+        "text": "Standard Einstein puzzles with great artwork but poorly written clues. I was playing through the first story mode involving the soldier. The third or fourth level has you planning an attack on the enemy but it constantly refers to close and far targets, but there's nothing to mark those so you don't really know where they're located. Clues are too ambiguous. I've played a lot of these games and so far, this is the first where you really do have to just guess and hope you're right.",
+        "date": "2026-06-06T06:54:04.140Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "J. Ro",
+        "score": 3,
+        "text": "You earn 30 gold per level, so asking 900 gold for a simple continue or retry is ridiculous. At first they let you continue by watching an ad, but then with no warning, that abruptly changes to demanding 900g - a laughable ask. The game itself is good. It is mindboggling that a design team capable of constructing LOGIC puzzles came up with this pricing scheme, though. You'd get more revenue by stepping it down to requiring an ad instead. I'm sure you like revenue, so, I'll let you figure it out.",
+        "date": "2026-06-06T13:36:23.811Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Korren 1125",
+        "score": 3,
+        "text": "Sometimes the puzzles feel like you HAVE to make a guess just so it can make you watch an ad to try again. Even worse the daily challenges are only challenging my patience because I literally expent every resource and still couldn't do one because of how often I HAD to guess. Guessing is NOT a puzzle. Also an ad after EVERY level is way too much since some are so short. And it's WAY too pricey to remove ads since they don't even remove optional ones as well.",
+        "date": "2026-05-30T11:05:31.512Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Kaitlin S",
+        "score": 3,
+        "text": "Really enjoy this game; I wish there was a way to reset my progress. The ticket system and watching ads so you don't lose your place, but only getting one of two hearts, gets old pretty quickly. Especially when a lot of the puzzles require you to guess between 2 or more things, or use an ad-obtained boost. The worst ads are the scammy ones that suddenly whisk you away during active gameplay to a sketchy browser saying there's a virus or something. Overall would recommend 👍🏻",
+        "date": "2026-05-15T03:34:49.638Z",
+        "thumbsUp": 18
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Heather Heaton",
+        "score": 3,
+        "text": "Cool game but I'm giving 3 stars because of the restart (ticket) limit. Why not want to keep people in the game longer? Just to force long ads to continue? Mine have been minutes long. Beyond that the game is really fun, the puzzles are satisfying to solve. Lots of levels, some interesting stories to unlock, an daily puzzles",
+        "date": "2026-03-29T04:36:47.587Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jarissa Venters",
+        "score": 3,
+        "text": "Level 207 is broken. Starting clue says \"Room for (2 people) is not next to the (6 people)\". But if you put (8 people) capacity next to the 2, it is marked wrong and you lose a heart. I have beaten all levels including the dailies, and looped back through same puzzles as when I first installed. Thank you for a fun couple of weeks playing!",
+        "date": "2026-05-14T08:44:18.255Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Akira",
+        "score": 3,
+        "text": "It's good, but could be better. It's inconsistent, one level it will say two columns apart and there will be two columns between them and another it'll just be one, or it will consistently say between item a and item b and each item will be in order then suddenly a after a few puzzles doing it that way they change it. Some clues don't help at all at some points in the puzzles so you're left guessing.",
+        "date": "2026-05-25T16:39:02.857Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "PansArtHovel “PanOtterPus”",
+        "score": 3,
+        "text": "It's a fun game, with some easy/ some challenging puzzles, but a few of them have mistakes so you end up selecting the wrong thing. Plus, once you get far enough, the puzzles just start to repeat? The daily and story puzzles are fun, but wish there was more to the main ones.",
+        "date": "2026-05-17T14:06:23.229Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ko",
+        "userName": "리게이머",
+        "score": 3,
+        "text": "재미있긴한데 어려워서 죽는거보다 번역 이슈로 죽는게 더 많네요. 의미가 반대로 해석 된다거나 문장 자체가 이상한다거나. 그리고 의도인지 번역 문제인지 모르겠지만 어떤 문제는 힌트없으면 아예 퓰수가 없어요",
+        "date": "2026-05-22T12:04:19.836Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "Kantsume (Kantsume)",
+        "score": 3,
+        "text": "喜歡遊戲的推理玩法。主線有各種主題，很有意思。故事關卡也很有創意。翻譯不全，但大致上沒遊玩問題。不喜歡很多關卡不使用道具或看廣告開線索就必須二猜一用生命去賭的設計。也不喜歡關卡間的強制廣告。雖然可以買去廣告或是直接關網路玩。",
+        "date": "2026-06-11T03:21:06.709Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "天空一點鈴",
+        "score": 3,
+        "text": "雖然好玩，但也不知是不是我的錯覺，提示給的文字規則，意思很不統一，中文和英文都是° 譬如前一關的“A或B”，意思是其中之一；結果下一關“A或B”就變成了兩者都有° 又或是兩個格子要塞入“A、B和C”，答案是“AB”&“C”，結果下一關同樣的提示，答案居然變成了“A”&“BC”，而且當下也沒有其他提示，根本是三選一猜猜樂° 答錯就準備出局唄，根本強制看廣告",
+        "date": "2026-06-08T08:23:55.470Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "0606 Sen",
+        "score": 3,
+        "text": "好玩但是發現了有些每日關卡是重複出現的",
+        "date": "2026-05-22T04:15:41.310Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "將敻義",
+        "score": 3,
+        "text": "大約在第310關左右開始重複過去的，有些翻譯意思怪怪的！不然蠻不錯玩的",
+        "date": "2026-05-16T18:50:05.861Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "遊行蜥蜴",
+        "score": 3,
+        "text": "每日任務的訊息是不是有錯誤啊？我有些選項明明是按照提示點的，結果還是錯誤。",
+        "date": "2026-05-06T07:46:29.140Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Nariiraq",
+        "score": 3,
+        "text": "I like the game I like it a lot like the first day I played it. I got all the way up to level 32 but I started noticing something, but I didn’t really pay enough attention to it until I actually like I used the little thing the reveal and it took a point when I just did it myself and I had three hearts so it took one so now I have to",
+        "date": "2026-06-10T09:12:16-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Willow.4",
+        "score": 3,
+        "text": "I love this game, but it has a couple important issues. first is it heats my phone up very badly and drains my battery quickly. second is sometimes it will play 3-4 ads in a row in the middle of a level with 2 seconds of time to play in between",
+        "date": "2026-06-07T15:24:53-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "jeevze",
+        "score": 3,
+        "text": "There often isn’t enough clues to figure out the puzzles. I’ll guess something and then the clue for that move will pop up",
+        "date": "2026-06-05T16:33:52-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "brown_eyes5",
+        "score": 3,
+        "text": "Downloaded the app today, it’s addicting but it has frozen 3 times now. Twice I had to restart a level over because the app froze or crashed on its own",
+        "date": "2026-06-05T14:01:16-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Dancedaniedance",
+        "score": 3,
+        "text": "At first this game was great, and the ads were manageable, like after a puzzle was completed. But after getting into levels above 60, I can’t even complete a puzzle because ads keep popping up. I’m sad but I’m going to have to delete this game. It’s not even usable anymore.",
+        "date": "2026-06-03T12:34:13-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "RENegade013",
+        "score": 3,
+        "text": "Pros:\nGreat visuals for a game this simple. The images update as you figure out the clues and piece it all together.\n\nCons:\nA hundred or so levels in you have to rely much harder on having to make guesses because of the lack of useful clues and if you want to unlock another clue you have to watch an ad. Another thing that gets annoying in later levels is there can be a slot you know the answer to because of the clues but it will be blocked behind a lock that will only unlock after filling in a certain number of other ones. So what little clues you do have are for ones it won’t even let you fill out yet. Also I assume English is not the game developers first language as some of the wording is incorrect or outright doesn’t make sense. Either there is a language barrier or it is made with AI. I can forgive a language barrier but not AI used without someone even bothering to review it for mistakes.",
+        "date": "2026-05-30T13:56:18-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Laurie258",
+        "score": 3,
+        "text": "Super fun game but the daily levels repeat after a short time. And the ads get worse to the point of popping up multiple times during a level. Needs more story levels as well",
+        "date": "2026-05-30T09:03:45-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "HRodriguez84",
+        "score": 3,
+        "text": "I’m on level 413 and they are all repeat levels now. I love playing this game but I don’t want to play levels I’ve already done. Even the hard and extra hard levels aren’t a challenge anymore. Would love some new content and challenges to keep playing.",
+        "date": "2026-05-27T18:08:59-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "B1llyBoB_355",
+        "score": 3,
+        "text": "This game is okay at first, fun even. But after a while the amount of ads definitely increase and even mid level you just a ad pop-up and the app will ask if you want to buy like a 6 dollar monthly subscription which is kind of stupid and if you say no you get more ads. There's also a ticket syst that runs out quick and if you even try just skipping the ads by reopening the app, the game takes a ticket away so beaware that this game isn't as good as people say",
+        "date": "2026-05-25T16:27:19-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "LetterLadyZ",
+        "score": 3,
+        "text": "Finally quit after one level said it wanted the “NOT so sweet” item between a banana and a pear. Sorry—what?? \n\nAnother time I was expected to know the color of a chemical compound to find the answer…\n\nI’ll be looking for a better app.",
+        "date": "2026-05-24T22:54:47-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "JeanneTesar",
+        "score": 3,
+        "text": "The game is great, a play style I’ve been looking for. But it gets quickly to a point where you can only either guess or watch ads for an additional clue. And just about the time I was getting annoyed by that, a forced ad popped up and took over my screen. App deleted.",
+        "date": "2026-05-24T14:22:57-07:00",
+        "version": "0.8.0"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "SHANANAGINS12",
+        "score": 3,
+        "text": "I love this game! However, when you reach certain level, there is NO new levels at all! All you do is replay past levels ! Please update and add new levels",
+        "date": "2026-05-18T16:40:28-07:00",
+        "version": "0.7.2"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "jajajahaahja",
+        "score": 3,
+        "text": "This is a fun game and I like that some levels actually make you think but i’m starting to noticing (I’m on level 194) that the puzzles are the same from past levels.",
+        "date": "2026-05-11T19:32:25-07:00",
+        "version": "0.7.2"
+      },
+      {
+        "source": "app_store",
+        "country": "kr",
+        "userName": "우오아아ㅏ아아아아아아",
+        "score": 3,
+        "text": "너무 재밌어서 100렙까지 하는 중인데\n한두판 하면 발열이 미친듯이 나면서 폰이 느려져요 왜 이럴까여...",
+        "date": "2026-06-07T21:47:36-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "kr",
+        "userName": "차트차트",
+        "score": 3,
+        "text": "발열 진짜 심함 배터리도 순삭됨 간단한 게임인데 발열이 왜이렇게 심한가요? 무거운 게임 돌려도 이정도로 발열없는데 역대급 심함 그리고 번역이 허접해서 중간중간 영어로 바꿔서 읽을 때도 있어 좀 아쉬워요",
+        "date": "2026-06-06T01:47:08-07:00",
+        "version": "0.8.1"
+      },
+      {
+        "source": "app_store",
+        "country": "kr",
+        "userName": "광고극극극혐혐혐",
+        "score": 3,
+        "text": "제대로 좀 해주세요ㅜㅜ",
+        "date": "2026-05-18T16:36:25-07:00",
+        "version": "0.7.2"
+      },
+      {
+        "source": "app_store",
+        "country": "tw",
+        "userName": "無課玩家代表發言",
+        "score": 3,
+        "text": "好幾關翻譯都不對，導致無法正常遊玩就會一直卡關，甚至拿去請ai解題，它也看不出來答案是什麼，麻煩翻譯請加油一點好嗎？巨蟹座翻成癌症也是沒誰了。",
+        "date": "2026-05-13T04:28:28-07:00",
+        "version": "0.7.2"
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "com.AppFore.BubbleWordJam",
+      "title": "Bubble Word Jam",
+      "developer": "Lion Studios Plus",
+      "score": 4.6142,
+      "icon": "https://play-lh.googleusercontent.com/fdcTtmp3L4Z9fNbcWyjD3X7BZpzfpsxvQAMqBk3lM1y8yHoax5oIFUmVbwKToeSB-KWoB9htq2r-INGq7nQMKg"
+    },
+    {
+      "appId": "com.arrow.out",
+      "title": "Arrow Out",
+      "developer": "Lion Studios Plus",
+      "score": 4.6290364,
+      "icon": "https://play-lh.googleusercontent.com/lY-IKzG8bhPfrpUBTlmx6WRI4R4MM_vUFwUDvKmxBfAZtuVDtUfo3-XOKNG5sXmMx6x2Rgoo4qc-OUYjHrP0hA"
+    },
+    {
+      "appId": "com.luwukmeliana.profileperfect",
+      "title": "Profile Perfect",
+      "developer": "Lion Studios Plus",
+      "score": 4.5839415,
+      "icon": "https://play-lh.googleusercontent.com/fOCJHPbzplwDRQ1TlRq01tRkTMF25KsjYlI5BOiEklQJJYPbCm8fzOR4LQPy2mR1OJysnAdizmxLoCDRoUl8Dg"
+    },
+    {
+      "appId": "com.meemeegames.categorysort",
+      "title": "Category Sort",
+      "developer": "Lion Studios Plus",
+      "score": 4.4394903,
+      "icon": "https://play-lh.googleusercontent.com/4seLYWK7qcq4uYSERidx9llgPDx0nObtjGgoDnS1w8t2WviDbpAaHnpCk5uey4CKq8Cjzs61QubQDp6qpoV3"
+    },
+    {
+      "appId": "com.vottzapps.wordle",
+      "title": "Wordle!",
+      "developer": "Lion Studios Plus",
+      "score": 4.27318,
+      "icon": "https://play-lh.googleusercontent.com/_B32rGd7Hz6brMpVBOXqtNCbMpl1SA0nCHJdcXsomylGi0vUaPYmmWMrNtzQOWBmow"
+    },
+    {
+      "appId": "com.block.away",
+      "title": "Block Buster - No Timer",
+      "developer": "Lion Studios Plus",
+      "score": 4.4337077,
+      "icon": "https://play-lh.googleusercontent.com/ztnJpMoxzpRBWVeUSEQk2ZyREJ09yjKIcY7Cr4ewh6u9RvnOd9EzRvjCzho9qv-FicPQnWUTVwEsBvCEseBeFw"
+    },
+    {
+      "appId": "com.wa.cult.empire.tycoon.idle.game",
+      "title": "Idle Cult Empire - Evil Tycoon",
+      "developer": "Lion Studios Plus",
+      "score": 4.428571,
+      "icon": "https://play-lh.googleusercontent.com/CK0GNRQT1e4M8SRjgyTs9qpai83A2oco1E7Iw2ijm3pT4ue7j2YS064cEvA0EzeveA"
+    },
+    {
+      "appId": "com.gamebrain.hexasort",
+      "title": "Hexa Sort",
+      "developer": "Lion Studios Plus",
+      "score": 4.528439,
+      "icon": "https://play-lh.googleusercontent.com/Fb6LOiEok5OKRnkUqk_AO1fTi7oznCPeftYhZk7bnRwucG91oUWeZ5RoXGx7i5V1CA"
+    },
+    {
+      "appId": "com.MoodGames.CoinSort",
+      "title": "Coin Sort",
+      "developer": "Lion Studios Plus",
+      "score": 4.3811784,
+      "icon": "https://play-lh.googleusercontent.com/tnspkg4iLJYqTFWw3sjUKJnbmE7_N8PCpvmJt-IoH1vDYLopakNNi-JyfHK8oItQmsdPzyQo7Z22IVkWjUsehw"
+    },
+    {
+      "appId": "com.luwukmeliana.familytree",
+      "title": "Family Tree! - Logic Puzzles",
+      "developer": "Lion Studios Plus",
+      "score": 4.175824,
+      "icon": "https://play-lh.googleusercontent.com/nyw5mI7T8K0u10_iClTJJZoD6oRGkjUp0nyPSg41YCzG2QwtGqm6j4aOd_7S8ut_384"
+    }
+  ],
+  "developerApps": [
+    {
+      "appId": "com.AppFore.BubbleWordJam",
+      "title": "Bubble Word Jam",
+      "score": 4.6142,
+      "icon": "https://play-lh.googleusercontent.com/fdcTtmp3L4Z9fNbcWyjD3X7BZpzfpsxvQAMqBk3lM1y8yHoax5oIFUmVbwKToeSB-KWoB9htq2r-INGq7nQMKg"
+    },
+    {
+      "appId": "com.arrow.out",
+      "title": "Arrow Out",
+      "score": 4.6290364,
+      "icon": "https://play-lh.googleusercontent.com/lY-IKzG8bhPfrpUBTlmx6WRI4R4MM_vUFwUDvKmxBfAZtuVDtUfo3-XOKNG5sXmMx6x2Rgoo4qc-OUYjHrP0hA"
+    },
+    {
+      "appId": "com.luwukmeliana.profileperfect",
+      "title": "Profile Perfect",
+      "score": 4.5839415,
+      "icon": "https://play-lh.googleusercontent.com/fOCJHPbzplwDRQ1TlRq01tRkTMF25KsjYlI5BOiEklQJJYPbCm8fzOR4LQPy2mR1OJysnAdizmxLoCDRoUl8Dg"
+    },
+    {
+      "appId": "com.meemeegames.categorysort",
+      "title": "Category Sort",
+      "score": 4.4394903,
+      "icon": "https://play-lh.googleusercontent.com/4seLYWK7qcq4uYSERidx9llgPDx0nObtjGgoDnS1w8t2WviDbpAaHnpCk5uey4CKq8Cjzs61QubQDp6qpoV3"
+    },
+    {
+      "appId": "com.vottzapps.wordle",
+      "title": "Wordle!",
+      "score": 4.27318,
+      "icon": "https://play-lh.googleusercontent.com/_B32rGd7Hz6brMpVBOXqtNCbMpl1SA0nCHJdcXsomylGi0vUaPYmmWMrNtzQOWBmow"
+    },
+    {
+      "appId": "com.block.away",
+      "title": "Block Buster - No Timer",
+      "score": 4.434389,
+      "icon": "https://play-lh.googleusercontent.com/ztnJpMoxzpRBWVeUSEQk2ZyREJ09yjKIcY7Cr4ewh6u9RvnOd9EzRvjCzho9qv-FicPQnWUTVwEsBvCEseBeFw"
+    },
+    {
+      "appId": "com.wa.cult.empire.tycoon.idle.game",
+      "title": "Idle Cult Empire - Evil Tycoon",
+      "score": 4.428571,
+      "icon": "https://play-lh.googleusercontent.com/CK0GNRQT1e4M8SRjgyTs9qpai83A2oco1E7Iw2ijm3pT4ue7j2YS064cEvA0EzeveA"
+    },
+    {
+      "appId": "com.gamebrain.hexasort",
+      "title": "Hexa Sort",
+      "score": 4.528439,
+      "icon": "https://play-lh.googleusercontent.com/Fb6LOiEok5OKRnkUqk_AO1fTi7oznCPeftYhZk7bnRwucG91oUWeZ5RoXGx7i5V1CA"
+    },
+    {
+      "appId": "com.MoodGames.CoinSort",
+      "title": "Coin Sort",
+      "score": 4.3811784,
+      "icon": "https://play-lh.googleusercontent.com/tnspkg4iLJYqTFWw3sjUKJnbmE7_N8PCpvmJt-IoH1vDYLopakNNi-JyfHK8oItQmsdPzyQo7Z22IVkWjUsehw"
+    },
+    {
+      "appId": "com.luwukmeliana.familytree",
+      "title": "Family Tree! - Logic Puzzles",
+      "score": 4.175824,
+      "icon": "https://play-lh.googleusercontent.com/nyw5mI7T8K0u10_iClTJJZoD6oRGkjUp0nyPSg41YCzG2QwtGqm6j4aOd_7S8ut_384"
+    }
+  ]
+}
