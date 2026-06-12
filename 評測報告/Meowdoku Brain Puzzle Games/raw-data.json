@@ -1,0 +1,2138 @@
+{
+  "collectedAt": "2026-06-05T09:26:38.671Z",
+  "android": {
+    "appId": "com.oakever.meowdoku",
+    "title": "Meowdoku: Brain Puzzle Games",
+    "developer": "Oakever Games",
+    "developerId": "9154199097976797965",
+    "genre": "Puzzle",
+    "score": 4.661442,
+    "ratings": 8839,
+    "installs": "500,000+",
+    "maxInstalls": 674862,
+    "free": true,
+    "released": "Apr 24, 2026",
+    "updated": 1780325089000,
+    "version": "1.3.1",
+    "contentRating": "Everyone",
+    "icon": "https://play-lh.googleusercontent.com/1vD3Jl37OTth18x__EkbpMZRAmDlGB5mlqKvveWumothf52-1HZXhAy5HGkGLzW_HYoz-rj2q0HBaxu5_8kyVQ",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/qsGiOZrr0qmnA9hPmwRv79Qq_xnta6onx8aaf_RGat7b-8sQK269EyS4CIkFbisjEQpfIxmfBXnPYOm5t87uSA",
+      "https://play-lh.googleusercontent.com/bKQjRJdjGdwaiL_tF_xnUbyGi_w0thsZG45RUyJY_iSjc2MJkSaJGb7NV1mn6s8Uceexz3S9gAEUzBAOTuFstg",
+      "https://play-lh.googleusercontent.com/ApW9J6y0UMpag1eFibn5sbQXp5127WxUmHXZYjgZjaF2K78aXi1jAe7BV0WVTtbF80_38NJfiXIwIXWC_mpuGg",
+      "https://play-lh.googleusercontent.com/jz48q7RTiUGSboW00F6iSeCE7mA4p42boUg7aTt4KFueFSnxvPEfFNIrlczqNlU1fmk2B0K2Jg8iMBEHL8DJDg",
+      "https://play-lh.googleusercontent.com/KMQLucHh_7OCBKgOWcZpJbbrY6YrukP2JTFISaYloebHj5tkLZ_-vYoGXUpZaWJX1fHNfr-k-rBlbkNLgSAeSg",
+      "https://play-lh.googleusercontent.com/R-P5VP-6DOwW8dZN9lZHWtT53CpC067JDb3BOXaxbziqWSuxDyWJbsblM0yZQ5dZqnldwxXbxM1wPL6rbtwbbg",
+      "https://play-lh.googleusercontent.com/SFudc0BGAu1-6nFAjqOD_ppS83ehnq_JR8Q8RqogITrr1jclrFmwQhpQlTu1e4WHLthg9bdhKreqOJ8JGLimmg",
+      "https://play-lh.googleusercontent.com/o0A_TLnm2bhm9kUTo4duLvcA7rpX9F8B6ltygSw9NFcA_uFLZoQLv45d_YWJrve1Pdjt6Qk499r23_RLWCtFQaw",
+      "https://play-lh.googleusercontent.com/bKQjRJdjGdwaiL_tF_xnUbyGi_w0thsZG45RUyJY_iSjc2MJkSaJGb7NV1mn6s8Uceexz3S9gAEUzBAOTuFstg",
+      "https://play-lh.googleusercontent.com/ApW9J6y0UMpag1eFibn5sbQXp5127WxUmHXZYjgZjaF2K78aXi1jAe7BV0WVTtbF80_38NJfiXIwIXWC_mpuGg",
+      "https://play-lh.googleusercontent.com/jz48q7RTiUGSboW00F6iSeCE7mA4p42boUg7aTt4KFueFSnxvPEfFNIrlczqNlU1fmk2B0K2Jg8iMBEHL8DJDg",
+      "https://play-lh.googleusercontent.com/KMQLucHh_7OCBKgOWcZpJbbrY6YrukP2JTFISaYloebHj5tkLZ_-vYoGXUpZaWJX1fHNfr-k-rBlbkNLgSAeSg",
+      "https://play-lh.googleusercontent.com/R-P5VP-6DOwW8dZN9lZHWtT53CpC067JDb3BOXaxbziqWSuxDyWJbsblM0yZQ5dZqnldwxXbxM1wPL6rbtwbbg",
+      "https://play-lh.googleusercontent.com/_mHz3IwNA-yIx7-yXGDSgYDKci--8uolklUZjXGdRGgZe1eygB8Gy4BH8XfFM-fXFu37YNqTrCnDWmAMXfOgVMc",
+      "https://play-lh.googleusercontent.com/bKQjRJdjGdwaiL_tF_xnUbyGi_w0thsZG45RUyJY_iSjc2MJkSaJGb7NV1mn6s8Uceexz3S9gAEUzBAOTuFstg",
+      "https://play-lh.googleusercontent.com/ApW9J6y0UMpag1eFibn5sbQXp5127WxUmHXZYjgZjaF2K78aXi1jAe7BV0WVTtbF80_38NJfiXIwIXWC_mpuGg",
+      "https://play-lh.googleusercontent.com/jz48q7RTiUGSboW00F6iSeCE7mA4p42boUg7aTt4KFueFSnxvPEfFNIrlczqNlU1fmk2B0K2Jg8iMBEHL8DJDg",
+      "https://play-lh.googleusercontent.com/KMQLucHh_7OCBKgOWcZpJbbrY6YrukP2JTFISaYloebHj5tkLZ_-vYoGXUpZaWJX1fHNfr-k-rBlbkNLgSAeSg",
+      "https://play-lh.googleusercontent.com/R-P5VP-6DOwW8dZN9lZHWtT53CpC067JDb3BOXaxbziqWSuxDyWJbsblM0yZQ5dZqnldwxXbxM1wPL6rbtwbbg",
+      "https://play-lh.googleusercontent.com/_mHz3IwNA-yIx7-yXGDSgYDKci--8uolklUZjXGdRGgZe1eygB8Gy4BH8XfFM-fXFu37YNqTrCnDWmAMXfOgVMc"
+    ],
+    "video": null,
+    "summary": "A pure logic puzzle blending Sudoku &amp; Minesweeper! Find every cat&#39;s territory.",
+    "description": "Looking for a game that soothes the soul but keeps your brain spinning? Welcome to Meowdoku — a pure logic puzzle game that flawlessly blends the rigorous reasoning of Sudoku with the thrilling deduction of Minesweeper.\nHere, you have only one mission: find the perfect \"exclusive territory\" for every aloof little cat!\n💡 Simple Rules, Deep Strategy\nThe concept is elegant and intuitive, yet anything but simple:\n• Exclusive Territory: The board is divided into colored sections. You must place exactly one cat in each section.\n• The Aloof Rule: Cats need absolute personal space! They absolutely cannot share the same row, column, or touch each other—not even diagonally.\n• Risk & Reward: Double-tap a tile to place a cat. You only have 3 chances to make a mistake (hearts). Guess right, and you're rewarded with pure puzzle-solving satisfaction; guess wrong, and you lose a heart. Guessing won't save you; every single move must be carefully calculated!\n✨ Key Features\n🐾 Pure & Immersive Experience\n- Non-Intrusive Ads: Zero interruptions to your gameplay, letting you fully enjoy a completely focused, Zen-like flow state.\n- Play Offline Anytime: No internet required. Perfectly fills up the puzzle-shaped hole in your daily commute, time spent waiting in line, or your morning coffee break.\n- Privacy Focused: We never track your data. We only care that you enjoy the game safely and securely.\n📅 Daily Brain Teasers\n- Wake up your mind with brand-new \"Daily Puzzles\" every single day.\n- Push your limits and see if you can break your fastest completion times on the global leaderboards.\n❤️ Why Meowdoku Will Stay on Your Phone\nMeowdoku won't hijack your attention with tedious social mechanics or endless daily grinds—it earns your love through pure gameplay quality. With its minimalist aesthetic and satisfying tactile feedback, it takes just seconds to learn. Yet, long after you put your phone down, its elegant logic loop will keep lingering in your mind.\nReady for a brain-teasing puzzle adventure filled with adorable felines?\nDownload Meowdoku now, put your logic to the test, and become the ultimate feline puzzle master!",
+    "recentChanges": "-Bug fixes and performance improvements.",
+    "developerWebsite": "https://oakevergames.com/"
+  },
+  "ios": {
+    "id": 6761760135,
+    "appId": "com.oakever.meowdoku",
+    "title": "Meowdoku!",
+    "developer": "Oakever Games",
+    "score": 4.82326,
+    "reviews": 5047,
+    "free": true,
+    "released": "2026-05-19T07:00:00Z",
+    "updated": "2026-06-04T13:59:39Z",
+    "version": "1.3.1",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/89/90/a18990d3-5c0f-db8d-e7ab-b381fc7693b7/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Casual",
+      "Puzzle"
+    ],
+    "description": "Looking for a game that soothes the soul but keeps your brain spinning? Welcome to Meowdoku — a pure logic puzzle game that flawlessly blends the rigorous reasoning of Sudoku with the thrilling deduction of Minesweeper.\nHere, you have only one mission: find the perfect \"exclusive territory\" for every aloof little cat!\nSimple Rules, Deep Strategy\nThe concept is elegant and intuitive, yet anything but simple:\n• Exclusive Territory: The board is divided into colored sections. You must place exactly one cat in each section.\n• The Aloof Rule: Cats need absolute personal space! They absolutely cannot share the same row, column, or touch each other—not even diagonally.\n• Risk & Reward: Double-tap a tile to place a cat. You only have 3 chances to make a mistake (hearts). Guess right, and you're rewarded with pure puzzle-solving satisfaction; guess wrong, and you lose a heart. Guessing won't save you; every single move must be carefully calculated!\nKey Features\nPure & Immersive Experience\n\nNon-Intrusive Ads: Zero interruptions to your gameplay, letting you fully enjoy a completely focused, Zen-like flow state.\nPlay Offline Anytime: No internet required. Perfectly fills up the puzzle-shaped hole in your daily commute, time spent waiting in line, or your morning coffee break.\nPrivacy Focused: We never track your data. We only care that you enjoy the game safely and securely. Daily Brain Teasers\nWake up your mind with brand-new \"Daily Puzzles\" every single day.\nPush your limits and see if you can break your fastest completion times on the global leaderboards. Why Meowdoku Will Stay on Your Phone Meowdoku won't hijack your attention with tedious social mechanics or endless daily grinds—it earns your love through pure gameplay quality. With its minimalist aesthetic and satisfying tactile feedback, it takes just seconds to learn. Yet, long after you put your phone down, its elegant logic loop will keep lingering in your mind. Ready for a brain-teasing puzzle adventure filled with adorable felines? Download Meowdoku now, put your logic to the test, and become the ultimate feline puzzle master!"
+  },
+  "reviews": {
+    "total": 240,
+    "googlePlay": 191,
+    "appStore": 49,
+    "distribution": {
+      "1": 34,
+      "2": 38,
+      "3": 40,
+      "4": 22,
+      "5": 106
+    },
+    "positive": [
+      {
+        "source": "google_play",
+        "userName": "deepak baranwal",
+        "score": 5,
+        "text": "very good n logical game, i love this game",
+        "date": "2026-06-04T08:48:35.122Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Abbey Hair",
+        "score": 5,
+        "text": "this has me and my mum hooked",
+        "date": "2026-06-04T07:27:31.389Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kayla B",
+        "score": 5,
+        "text": "love the game just wish there was an option to get rid of ads",
+        "date": "2026-06-04T07:01:32.126Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "John Dormeus",
+        "score": 5,
+        "text": "great game",
+        "date": "2026-06-04T05:59:57.570Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Rachelle Spoon",
+        "score": 4,
+        "text": "i really do enjoy this game but after level like 15 you get an ad after every level and you can't pay for ad free. wish it had 0 ad and id play more the ads are also pretty long before you can close them out",
+        "date": "2026-06-04T04:33:16.157Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dani",
+        "score": 5,
+        "text": "very good game.It make me smart",
+        "date": "2026-06-04T04:33:13.507Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Brigith Benitez",
+        "score": 5,
+        "text": "its really fun! I love how there is basically no ads bothering me.",
+        "date": "2026-06-04T04:16:20.774Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "オロチベッドマン（Sousuke）",
+        "score": 5,
+        "text": "Way too addicting. Only con is that I wish it had a dark theme mode so I can play even longer. Otherwise a purrrrfect addiction",
+        "date": "2026-06-04T04:00:35.266Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dee Waller",
+        "score": 5,
+        "text": "Really didn't think I would like this but the ads kept coming up. I was wrong. It is tougher than I thought. Enjoying very much right now.",
+        "date": "2026-06-04T03:59:07.248Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "K Cairo",
+        "score": 4,
+        "text": "Great Game! Very fun and addictive. The only reason it is four stars is because there is no option to get rid of ads.",
+        "date": "2026-06-04T03:50:29.820Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lori Krzemien",
+        "score": 5,
+        "text": "I love the game and I love cats.",
+        "date": "2026-06-04T03:46:42.842Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Peg Sue Brockman",
+        "score": 5,
+        "text": "not bad so far",
+        "date": "2026-06-04T03:35:58.252Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mel Linda Helmick",
+        "score": 4,
+        "text": "So far it's a good game makes you use logic",
+        "date": "2026-06-04T03:11:41.586Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "R Novak",
+        "score": 5,
+        "text": "Pretty decent game and I can see it progressively getting tougher the further along you go. I can see that it could become quite challenging, which is what makes for a good game.",
+        "date": "2026-06-04T03:03:16.565Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Judy Poore",
+        "score": 5,
+        "text": "fun, quick game",
+        "date": "2026-06-04T01:38:08.232Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Rachel Lee",
+        "score": 4,
+        "text": "This is actually a pretty fun game. It will definitely make you sleepy! The ads are helpful in getting more chances without spending money, so that's nice. Unfortunately, after playing for a while, I'm over level 100, I have noticed the screen moves up to where the grid is all the way on top of the phone screen that makes it uncomfortable. I have to completely restart the game for it to go back to normal. maybe the makers could fix this issue?",
+        "date": "2026-06-04T01:36:19.732Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bray McAlpin",
+        "score": 5,
+        "text": "oddly enjoyable",
+        "date": "2026-06-04T01:33:43.595Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jennifer",
+        "score": 5,
+        "text": "thank you for the new update.it seems to have fixed the repeating puzzle problem.im up to 517 and I haven't noticed any repeating patterns yet.",
+        "date": "2026-06-04T01:29:57.465Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Elizabeth Denise Sellers",
+        "score": 4,
+        "text": "Pure Logic Puzzle. I like it but wish they'd have some music. I turned the horn sound off; its loud",
+        "date": "2026-06-04T01:22:04.746Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "thomas pinnick",
+        "score": 5,
+        "text": "like simplicity but it makes you think.",
+        "date": "2026-06-04T01:10:15.453Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Casey Luke",
+        "score": 4,
+        "text": "Edit...spoke too soon on the no ads. Would love to see an option to pay for no ads. My only complaint is that when I'm x-ing out a row I've eliminated, it often claims I double tapped a box to put a cat there when I didn't, and I lose a life. There's no way to undo it. Love that so far there is no ads.",
+        "date": "2026-06-03T23:11:52.346Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kevin Elliott",
+        "score": 5,
+        "text": "This game is a bit challenging, but it's fun.",
+        "date": "2026-06-03T23:06:41.472Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alan Beausoleil",
+        "score": 5,
+        "text": "Love this twist on sudoku",
+        "date": "2026-06-03T22:58:11.330Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Luis Lopez",
+        "score": 4,
+        "text": "I like how there is no adds ^⁠_⁠^",
+        "date": "2026-06-03T22:48:15.347Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Angela Preston",
+        "score": 5,
+        "text": "awesome I love cats and how they are so cute and it's a fun game but you do have to pay attention and use your brain a little bit",
+        "date": "2026-06-03T22:41:18.879Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "tricia voss",
+        "score": 5,
+        "text": "I like tuxedo cats so that is why I got this one",
+        "date": "2026-06-03T22:31:08.160Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Perrie Dunnett",
+        "score": 5,
+        "text": "This is such a great little game, super calming and cute!",
+        "date": "2026-06-03T21:59:41.133Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "lindsay watson",
+        "score": 4,
+        "text": "a really good game but a Tiny flaw. there are levels where there are various options which will work but only one solution is deemed correct",
+        "date": "2026-06-03T20:41:24.710Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Fiona Bunce",
+        "score": 5,
+        "text": "Great fun, love it",
+        "date": "2026-06-03T20:09:17.114Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sai Wong",
+        "score": 4,
+        "text": "good, but sometimes has bug where I completed the puzzle and all squares are marked but level doesn't complete. please fix this bug, thanks",
+        "date": "2026-06-03T19:34:30.901Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alan Beausoleil",
+        "score": 5,
+        "text": "a lot of fun, great if you like sudoku",
+        "date": "2026-06-03T19:18:09.277Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ruth Hanson",
+        "score": 4,
+        "text": "makes you think,but not too much.",
+        "date": "2026-06-03T18:48:23.309Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Amanda Buteau",
+        "score": 5,
+        "text": "Love this game! It's not too challenging but you do have to be mindful of the board. There aren't too many rules to memorize which makes this perfect for people with limited time and working memory.",
+        "date": "2026-06-03T18:41:50.821Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nichole Bonham",
+        "score": 5,
+        "text": "simple logic without the intimidation of numbers",
+        "date": "2026-06-03T18:40:43.547Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Christina McIntosh",
+        "score": 5,
+        "text": "love so far",
+        "date": "2026-06-03T18:10:45.631Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Merlin Estrada",
+        "score": 5,
+        "text": "so good, it's really addictive and you actually have to use your brain",
+        "date": "2026-06-03T17:53:25.996Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dave Pearson",
+        "score": 5,
+        "text": "Challenging logic game!",
+        "date": "2026-06-03T15:57:33.422Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Christiane O'Kelly",
+        "score": 4,
+        "text": "like it so much but please allow a few more moments to read the quotes. they fly by. as for the game, I love it, it's cute and addictive.",
+        "date": "2026-06-03T14:48:11.704Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Boomers Mom",
+        "score": 5,
+        "text": "so freaking cute.",
+        "date": "2026-06-03T14:06:56.666Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Susan Glenn",
+        "score": 5,
+        "text": "It's challenging yet enjoyable!",
+        "date": "2026-06-03T14:01:16.804Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Margaret Ellis",
+        "score": 5,
+        "text": "great little game",
+        "date": "2026-06-03T13:01:19.673Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kevin Leineweber",
+        "score": 5,
+        "text": "so far so good",
+        "date": "2026-06-03T12:23:44.147Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Thecla Geraghty",
+        "score": 5,
+        "text": "Good logic game with silly fun cats so two things to like",
+        "date": "2026-06-03T12:07:43.333Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Debbie Fletcher",
+        "score": 5,
+        "text": "fun and relaxing",
+        "date": "2026-06-03T11:50:20.196Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Paul F",
+        "score": 4,
+        "text": "great visuals and great idea but by level ten I found a few levels that, unlike sudoku, had no clear answer. when you could have swapped positions of the correct answer it becomes a guessing game. a game like this shouldn't involve guessing .",
+        "date": "2026-06-03T11:39:47.730Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sai",
+        "score": 5,
+        "text": "cute so far, I like that it's animated. the only things rn are that I wish that marking the boxes were paw prints instead of X's and that there were more cats, like different breeds and colors. also the \"only [percentage] of players passed this level\" thing is actually horrific because if you find it easy then it's just depressing and if you're part of the people who failed then you just feel like a failure—there's really no good reason for it. it actually depressed me so much that I'm uninstalg",
+        "date": "2026-06-01T00:07:13.109Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "James Wakeley (Sac2uneak)",
+        "score": 5,
+        "text": "SO fast and SO addicting! Reacts exactly how you'd expect it to. On a blank box, press and hold them slide your finger will mark boxes with an \"X\" quickly, but doesn't erase existing \"X'd\" boxes. If you want to remove them just as quickly, press and hold a box with an \"X\" in it then slide your finger to erase any of them you're touching. These puzzles are ABSOLUTELY solvable. it's all about process of elimination. nice work!",
+        "date": "2026-05-25T03:43:39.714Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Kathryn Webb",
+        "score": 5,
+        "text": "Enjoy the game. Like the graphics and color combinations. Have played for less than a week and have gotten the same puzzles over and over (5+ times). I'm playing from memory, not strategy. The game needs more puzzles added. Dev fixed issue with repetitive puzzles. Upgraded rating from 3 stars to 5 stars.",
+        "date": "2026-05-27T17:49:02.854Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Mo Sipila",
+        "score": 5,
+        "text": "If you want to play this game, know that the percentages they show you of players who completed puzzles on the first try are randomized. The number of retries they say you have left are also randomized. You have infinite retries and there are no consequences for failing. There are no scores to keep up with. You don't need power ups at all. If you start getting ads you can just reinstall.",
+        "date": "2026-05-30T05:29:56.881Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jacob Martin",
+        "score": 5,
+        "text": "Great game! It would be cool if there were an option to \"flag\" a square as a possible cat, as in Minesweeper with possible mines. Currently it seems that you can only guess a square as a cat or mark it as not having a cat. Very fun and makes the concept of Sudoku more fun for a non-number-oriented person like me",
+        "date": "2026-06-01T03:30:16.655Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bobbie Edge",
+        "score": 5,
+        "text": "I apologise for my earlier review, I realise I had missed one of the rules - no cats in adjacent squares! This is great, quite challenging, super addictive, and no ads!! I have gone through the first 50 levels in one afternoon and I think it may become one of my regulars!! Thank you 😀",
+        "date": "2026-05-30T10:01:58.895Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Hunter Eichmann",
+        "score": 5,
+        "text": "I loved this game the second I started to play it. I haven't gotten a single ad so far. it's easy and challenging at the same time. The only thing is to be careful when tapping for the x because sometimes you accidentally double tap when you don't mean to. but over all it's amazing",
+        "date": "2026-05-31T15:24:54.509Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Liz Stanton",
+        "score": 5,
+        "text": "it's a fun game and gameplay works as advertised. So far I have been able to complete to level 40 without using hints, just deductive logic. As others have noted, there are ads between levels - it would be good to have an option to pay and remove these.",
+        "date": "2026-05-25T20:56:50.129Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Rebecca Kaminski",
+        "score": 5,
+        "text": "I was really enjoying the game until in the early 100s levels they start to repeat fairly frequently. EDIT: Developers fixed this issue. while I would still love to have an option to remove ads, I still feel this game now deserves 5 stars and have adjusted my rating accordingly.",
+        "date": "2026-05-27T16:27:02.770Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Monica Peralto",
+        "score": 5,
+        "text": "Good game! Simple. The hints teach you to play better than other games of the same genre I've played. You can place x's without penalty which is helpful to figuring out the more complicated possibilities.",
+        "date": "2026-05-21T03:51:18.497Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Kharisma Sommers",
+        "score": 5,
+        "text": "challenging and addicting. I played 65 levels the first time opening this game. however, after I closed the game. the ads are bombarding me after every level which is dampening the experience 🫪 is there a way to remove ads?",
+        "date": "2026-05-31T05:57:03.970Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "David Barker",
+        "score": 5,
+        "text": "really enjoyable game, similar to sudoku but a little easier to play, there is a small glitch that after each level the play area creeps up the screen so eventually you have to close it because you can't see the full grid then reload",
+        "date": "2026-06-01T02:45:40.212Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mary Ann Latimer",
+        "score": 5,
+        "text": "Fun! Great logic puzzle! I cannot play at night as a bright screen is needed (to differentiate some of the colors) and that makes it too bright for my sleeping hubby laying next to me.",
+        "date": "2026-05-27T06:49:55.293Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lynda Marcella",
+        "score": 5,
+        "text": "The game itself is excellent. There was a bug where the HINT options were not working. I reported it and the developers fixed it immediately. Great support as well as a great game.",
+        "date": "2026-06-02T00:38:26.780Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Laci white",
+        "score": 5,
+        "text": "this game is amazing 👏 and there's no adds. But the only bad thing is that the lvls get really hard, really fast 😕 but I would get this game if I was you. and I'm a really picky person at picking games 🎮 🙃",
+        "date": "2026-05-28T02:23:47.482Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Gage Sterling",
+        "score": 5,
+        "text": "saw the game on tiktok, thought it looked fun, it is fun little ads which is nice. I also like the little cat with a trumpet that plays after every level I finish.",
+        "date": "2026-06-02T15:18:37.470Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lora Allen",
+        "score": 5,
+        "text": "So cute and so fun! Easy gameplay and engaging use of logic. Ads aren't annoying, and I totally want the victory screen for my alarm on my phone. ❤️",
+        "date": "2026-05-30T20:50:43.806Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Skylar Reed",
+        "score": 5,
+        "text": "Right off the bat it was really easy to learn. And it reminds me of Sudoku just with cats and not numbers. So I think it's a really fun game.",
+        "date": "2026-05-29T19:17:57.274Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Remington Wood",
+        "score": 5,
+        "text": "this is a fun brain teaser. fairly easy and bright, but enough to keep you wanting more. I give 5 stars because I couldnt put it down. Great review.",
+        "date": "2026-05-31T20:43:15.893Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tara Gould",
+        "score": 5,
+        "text": "Cute game to play to pass time and doesn't cause stress. I mean I am still in the beginning stages but like how it plays so far.",
+        "date": "2026-05-26T18:18:54.145Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Ken Harrison",
+        "score": 5,
+        "text": "some colors are hard to distinguish. for instance there are two pinks that look almost alike and there's another color which I can't remember.",
+        "date": "2026-05-11T15:32:28.363Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Mrs C",
+        "score": 5,
+        "text": "I had to delete it bc I spent all day playing it! Fun and after you pass level 19, you have to really think.",
+        "date": "2026-05-26T20:05:00.607Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Carol Lowe",
+        "score": 5,
+        "text": "It's absolutely purrfect so far. I am only on level 10 but haven't been bothered by a single ad yet. see",
+        "date": "2026-05-21T13:12:55.615Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alyssa Gowin",
+        "score": 5,
+        "text": "I love this game, and now that it's fixed, I can give it 5 stars!",
+        "date": "2026-06-03T11:15:40.252Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kathy Moger",
+        "score": 5,
+        "text": "Only just started this and enjoying it so far. It's starting to get more difficult. A logic puzzle with cats... what's not to love?",
+        "date": "2026-05-23T11:59:56.980Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "A Google user",
+        "score": 5,
+        "text": "Cute and fun, a very interesting take on the mechanics of Sudoku. I like the cats too.",
+        "date": "2026-06-01T09:04:41.991Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kayla Bell",
+        "score": 5,
+        "text": "exactly what the ad showed, 0 ads seen this far. edit: got an ad after I played 10 levels, so the ads are VERY minimal",
+        "date": "2026-05-19T10:47:31.528Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Brook Gibson",
+        "score": 5,
+        "text": "Well i just started. I like it so far. Its not made me watch a commercial yet. The cats are super adorable.",
+        "date": "2026-05-26T01:00:20.600Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Richard Cherny",
+        "score": 5,
+        "text": "gets insanely hard. first 60ish levels don't require hints, but then it gets insane. lvl 68hint... 4 colors in 4 rows... absolutely devious lol",
+        "date": "2026-05-28T20:17:51.436Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Louise Olver",
+        "score": 5,
+        "text": "Super addictive! Similar to Numguin (the one with the penguins) only this time with cats! Highly engaging, smooth gameplay and not a single ad in sight so far in-between levels (though I dare say, if you run out of hints, you might have to watch ads then to regain them but that's the price of free, use them wisely). I can see myself being addicted to this for some time to come",
+        "date": "2026-05-18T17:06:56.601Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Kate Cullifer",
+        "score": 5,
+        "text": "Pretty fun game. Good to help you slow down and look, not just jump ahead.",
+        "date": "2026-05-23T01:46:34.936Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ian Bigelow",
+        "score": 5,
+        "text": "Reminds me of minesweeper. Great game. no ads so far, which is a bonus.",
+        "date": "2026-06-01T05:07:51.966Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alex Peake",
+        "score": 5,
+        "text": "9 levels or so in, and so far its been fun with a nice helping of cute. Will update when I go further in.",
+        "date": "2026-06-02T04:00:03.522Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Judith Klima",
+        "score": 5,
+        "text": "I am really enjoying the game. I like how it starts off easy and then gets harder. And so far, no ads.",
+        "date": "2026-05-27T01:41:19.793Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lord Subziro",
+        "score": 5,
+        "text": "I like combining two of my favorite things: cats and sudoku (actually I like killer sudoku). I have to say meowdos to the designer of this game!",
+        "date": "2026-05-26T01:10:20.327Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "April Walker-Bambury",
+        "score": 5,
+        "text": "This is a challenging game even from the early levels which makes it enjoyable.",
+        "date": "2026-06-02T01:03:18.162Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sarah Brown",
+        "score": 5,
+        "text": "It makes me think to my heart's content and it's really fun, relaxing and I'm able to sleep more.",
+        "date": "2026-06-01T23:25:34.605Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jenn Madewell",
+        "score": 5,
+        "text": "Cute game, so far no ads but they usually start after they get their reviews.",
+        "date": "2026-06-01T13:11:51.400Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nicolas Martin",
+        "score": 5,
+        "text": "although the game looks like Ai slop it is quite fun and it is what the ad says it is so that is something",
+        "date": "2026-05-30T07:13:20.273Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jonathan Mahelona",
+        "score": 5,
+        "text": "It is similar to another game, I can't remember the name, but both are fun & simple all the same.",
+        "date": "2026-05-31T16:59:22.525Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Samantha Epstein",
+        "score": 5,
+        "text": "Game play is exactly like the ads. Its a fun and silly twist on sudoku with cats",
+        "date": "2026-05-28T17:08:46.428Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jessie Hodges",
+        "score": 5,
+        "text": "it's a nice simple way to finally understand how sudoku works. I never could understand with all the numbers on the pages so this works great 👍",
+        "date": "2026-05-22T16:53:17.440Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sean Beebe",
+        "score": 5,
+        "text": "It has cute graphics and sound effects and is an interesting game.",
+        "date": "2026-06-02T21:32:15.205Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Colleen Keller",
+        "score": 5,
+        "text": "just starting but I love it. graphics are good and I enjoy logic games.",
+        "date": "2026-05-24T21:12:46.329Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Paul Lin",
+        "score": 5,
+        "text": "easy, fun, cute, and no annoying ads that makes people remember never to buy from whoever interrupted the game",
+        "date": "2026-05-06T14:12:25.832Z",
+        "thumbsUp": 9
+      },
+      {
+        "source": "google_play",
+        "userName": "Edy VanOrden",
+        "score": 5,
+        "text": "Easy to learn. Fun to play. Reminds me of minesweeper.",
+        "date": "2026-06-03T02:40:41.683Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Amelia Watkins",
+        "score": 5,
+        "text": "Finally! A game that is EXACTLY how it is in the ads! This game is addicting and fun.",
+        "date": "2026-05-30T11:02:58.493Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Amber Benefield",
+        "score": 5,
+        "text": "seems easy enough and chill with a bit of brain power needed to aid distraction",
+        "date": "2026-05-26T01:35:46.633Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Taylor Anderson",
+        "score": 5,
+        "text": ".I like the game. its fun. I'm hoping for more challenging levels.",
+        "date": "2026-05-15T00:32:11.898Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Nikolelayne Shriner",
+        "score": 5,
+        "text": "pretty fun, relatively easy, no ads yet, makes you use your brain",
+        "date": "2026-06-01T00:32:10.515Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Joan Houck",
+        "score": 4,
+        "text": "I really enjoy Meowduko, but the hint system is frustrating. The only way to get a hint is by watching an ad, and each ad gives only one hint. It would be nice to earn hints through gameplay, in-game currency, or multiple hints per ad. I rely on hints to explain what I'm missing and help me improve. Sometimes I get frustrated and wonder if it's worth watching another ad or just leaving the game.",
+        "date": "2026-06-02T21:21:55.768Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "paddypods",
+        "score": 4,
+        "text": "I'm really enjoying this game. I've played 35 levels so far, and the puzzles vary from easy to challenging. (The daily challenges have definitely tested my logic skills!) And the chorus of cat meows at the completion of of each puzzle still makes me giggle. This is a 5-star game but for one deficiency: it does not offer an ad-free option!",
+        "date": "2026-05-25T18:03:37.700Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Elaina Myers",
+        "score": 4,
+        "text": "Changing my rating from 5 to 4 stars. The game itself is great! But several times recently, when an ad starts, my browser will open on its own to a cloudfront website recommending a scan of my phone due to some supposed issue. I have security apps already installed, and there is no issue. So I'm assuming these are scam and / or phishing attempts. Sadly, uninstalling Meowdoku.",
+        "date": "2026-05-24T22:16:26.394Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Mikaela Matney",
+        "score": 4,
+        "text": "I love this game BUT So I've been playing over the last few days. super fun. but I'm hitting levels in the 120s and it's reposting identical levels. And not just from 50-100 levels ago, but ones like 5-10 levels back are already being repeated. Recent enough I can just click on solely the kitten squares without marking out any. otherwise super great game. I would pay to remove ads if available.",
+        "date": "2026-05-22T16:21:03.122Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "app_store",
+        "userName": "Carter Reese",
+        "score": 4,
+        "text": "I love this game, I downloaded it and I've been playing it for an hour straight. The graphics are pretty, the sound effects are cute, and the overall game is simple and relaxing. The constant ads are driving me insane. I would much prefer to just pay a one time fee to never see the ads again. I'm at the point where I'm going to delete the app because the ads are annoying me.",
+        "date": "2026-06-03T21:01:20-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "O. Marie",
+        "score": 4,
+        "text": "If you are used to playing Sudoku, then this is easy and fun. It is also like MineCraft.",
+        "date": "2026-06-03T20:10:12-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Alexisg0120",
+        "score": 5,
+        "text": "I saw this game on TikTok and I tried it I have not been able to stop playing it and it’s really fun to play and very interesting",
+        "date": "2026-06-03T19:41:33-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "JayseKB",
+        "score": 5,
+        "text": "I’m 20 and I play this while high it’s the best",
+        "date": "2026-06-03T19:14:25-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Dog lover1212",
+        "score": 5,
+        "text": "I found myself playing for hours and it helps anxiety and my ADHD",
+        "date": "2026-06-03T18:34:07-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Wolfmander",
+        "score": 5,
+        "text": "Love cats and logic puzzles? This game is for you!",
+        "date": "2026-06-03T17:31:25-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "MinecraftBurgerMaster12",
+        "score": 5,
+        "text": "Its good too many adds tho",
+        "date": "2026-06-03T15:28:00-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Sh3l1y17",
+        "score": 5,
+        "text": "Very fun to play on when you need to calm down or just need to get of social media! There’s no ads and gets your brain going! Would recommend 😼🔥",
+        "date": "2026-06-03T15:20:46-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Clockard13",
+        "score": 4,
+        "text": "I enjoy the game but wish there was a paid version to avoid the ads. Would be 5 stars if there was",
+        "date": "2026-06-03T13:50:48-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Rea(pronunciación ray)",
+        "score": 5,
+        "text": "I love it so fun happy sunshine kitty cat reighnbow",
+        "date": "2026-06-03T13:32:54-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "EL TEXMEX",
+        "score": 5,
+        "text": "It’s lokey so fun I thought it was gonna be sooo boring but it’s oddly addicting",
+        "date": "2026-06-03T13:32:45-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Sudokuplayed",
+        "score": 5,
+        "text": "This game gets you hooked so fast, plus there is barely any adds and this game is just so fun and yeah bye",
+        "date": "2026-06-03T13:04:50-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "𝕋𝕖𝕒𝕕",
+        "score": 5,
+        "text": "This game is fun and you actually have to think which makes it better",
+        "date": "2026-06-03T09:31:48-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Gerako Lavac",
+        "score": 5,
+        "text": "Meowdoku is a really fun puzzle game that mixes classic Sudoku with adorable cats. The game is easy to learn but can get challenging as you progress, making it great for both beginners and experienced puzzle fans. The cat-themed design is cute and relaxing, and the music helps create a calm atmosphere while you play.\n\nOne thing I like most is how satisfying it feels to complete a puzzle. The controls are simple, the interface is clean, and there are plenty of puzzles to keep you busy. It’s a great game to play when you have a few minutes to spare or when you want to relax after a long day.\n\nOverall, Meowdoku is a charming and enjoyable puzzle game with cute visuals, fun gameplay, and lots of content. If you like Sudoku, cats, or brain-teasing games, Meowdoku is definitely worth trying!",
+        "date": "2026-06-03T08:52:40-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Igogxigix",
+        "score": 5,
+        "text": "This is way too fun and Intertaning",
+        "date": "2026-06-03T07:58:51-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Gem573",
+        "score": 5,
+        "text": "Makes you think. Challenging",
+        "date": "2026-06-03T06:45:04-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "GamingSRQ",
+        "score": 4,
+        "text": "Need a color blind friendly version. I can’t tell some of the colors apart. I am red and green color blind.",
+        "date": "2026-06-03T05:49:07-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Bachii82",
+        "score": 5,
+        "text": "downloaded on accident and i dont regret it at all, lowk love this game",
+        "date": "2026-06-03T04:17:37-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "sardiin",
+        "score": 5,
+        "text": "can i please pay for no ads? i’d like to keep playing but it’s too many",
+        "date": "2026-06-02T23:41:13-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "charesa56",
+        "score": 5,
+        "text": "It’s interesting",
+        "date": "2026-06-02T21:05:17-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jena toles",
+        "score": 5,
+        "text": "NO ADS ITS AMASING AND FUN",
+        "date": "2026-06-02T20:33:33-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Jnisoo_",
+        "score": 4,
+        "text": "I love this game so much! I am not sure if it’s just me or everyone but my game stopped working after level 118…",
+        "date": "2026-06-02T19:41:00-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Den🇺🇦🇺🇸",
+        "score": 5,
+        "text": "This game was very fun because like it’s also confusing and easy and I love cats",
+        "date": "2026-06-02T18:52:40-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "blandico",
+        "score": 5,
+        "text": "No time limit. If you make a mistake, they just corrected for you. It’s one of those nice relaxing games.The little kitty with a comforter so cute.",
+        "date": "2026-06-02T18:38:55-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "abcsev",
+        "score": 4,
+        "text": "Did i miss the rule on thst.",
+        "date": "2026-06-02T17:53:21-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "jack1237@25",
+        "score": 5,
+        "text": "Really simple game I’m a really huge fan. I’ll definitely be playing. I’m addicted.",
+        "date": "2026-06-02T15:08:40-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "lae'rae",
+        "score": 5,
+        "text": "The meowdoku helps with strategy and was a game changer for me, and it’s a awesome resource game.",
+        "date": "2026-06-02T12:23:41-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Put Victoria",
+        "score": 5,
+        "text": "I read the reviews and they said there was adds I’ve been playing for 20 minutes and have not gotten an add yet so if you want a funny stress relief game this is your app.",
+        "date": "2026-06-02T12:09:56-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Doku meow",
+        "score": 5,
+        "text": "Meowdoku is so fun it keeps me busy for hours",
+        "date": "2026-06-02T08:48:32-07:00",
+        "version": "1.3.0"
+      }
+    ],
+    "negative": [
+      {
+        "source": "google_play",
+        "userName": "Jef N",
+        "score": 2,
+        "text": "it's fun at first. but eventually it turns into a guessing game instead of a logic game. you have to guess in order to proceed, and if you make the wrong guess then you end up having to watch a lot of ads in order to finish the game. this gets quite tedious very fast, and makes me lose interest.",
+        "date": "2026-06-04T09:14:05.580Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Sonja Bellew",
+        "score": 1,
+        "text": "rubbish. would have been good if it worked as it should.",
+        "date": "2026-06-04T09:05:19.122Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Joe Dan",
+        "score": 2,
+        "text": "Bright, needs dark mode. Great game otherwise.",
+        "date": "2026-06-04T07:44:30.848Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "fanman",
+        "score": 2,
+        "text": "fun at first but turned into a boring guessing game",
+        "date": "2026-06-04T06:31:51.374Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dan Barber",
+        "score": 1,
+        "text": "Adds!!! This game was great till it wasn't.",
+        "date": "2026-06-04T05:06:27.136Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lewis E",
+        "score": 1,
+        "text": "Horrible game ai every nanosecond, repetitive levels with ai and if I had to choose to be playing this game or being stranded on an island for 658 days 2hrs and 53 minutes while the navy is hunting me down, and sharks trying to eat my guts I'd choose the island",
+        "date": "2026-06-04T05:01:36.114Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Zentrino",
+        "score": 2,
+        "text": "game is fun, but too many ads. I really wish there was an option to pay to get rid of the ads. you must watch one are every single round. some are upwards to a minute long before you can skip it. Just becomes unplayable after awhile. some of the ads force loud sound too even when you have the sound turned off. very annoying",
+        "date": "2026-06-04T04:23:40.291Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Braden Noble",
+        "score": 2,
+        "text": "The game itself is not bad. Pretty enjoyable, if you will. I'm at level 72. However, after level 20 or so, it makes you watch an ad to continue between levels. But not a normal ad. They will continue to forcibly open the play store in interactive ads, bypassing permissions on both the app and Google Play itself. No way to stop it. even while trying to swipe up for my navigation controls to go home or open another app, it forcibly opens my browser to some scam-ish website. Hate it. Almost 1 star.",
+        "date": "2026-06-04T03:59:39.908Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "morgan obrien",
+        "score": 2,
+        "text": "fun game, but once you get past the first few levels, there is an ad after every level. deleting. too many ads",
+        "date": "2026-06-04T03:13:20.650Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lisa Church",
+        "score": 1,
+        "text": "Ads are constantly running at the bottom of the screen. What the heck do I need to watch an ad after every level for? No thanks, I'm done.",
+        "date": "2026-06-04T02:22:21.910Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Diana Antlitz",
+        "score": 2,
+        "text": "This was fun at first but the number and length of ads is ridiculous and no way to buy out of them. You also start getting puzzles where there's no choice but to guess - logic alone won't get you there. Then if you use up all the lives, MORE ADS to get playing again. I've decided I'm not playing anymore. The ads ruin this game.",
+        "date": "2026-06-04T01:56:01.366Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Kevin Fox",
+        "score": 1,
+        "text": "Too many ads -- Game has potential, but getting ads what feels like every 5 seconds completely ruins it. Uninstalled after a few levels of it.",
+        "date": "2026-06-04T01:49:11.574Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Marjorie Poux",
+        "score": 1,
+        "text": "I CLEARLY place my piece where I want it to go, THE SYSTEM COUNTERS MY MOVR",
+        "date": "2026-06-04T01:46:15.960Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Stan Sieler",
+        "score": 1,
+        "text": "I was enjoying it until about level 25 or so, or it started doing an ad after every darn game. worse, it wasn't obvious how to get out of the ad (Wait a bit until the Google Play store logo appears in upper left, tap it, wait a moment tap the action upper right). but far worse is the inability to say here's some money, get rid of the darn ads. note The app description is quite misleading with respect to ads. (Yes, it is.) unless the developer replies and provides a way to disable ads, delete.",
+        "date": "2026-06-04T01:24:59.352Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Timothy Schnooberger",
+        "score": 1,
+        "text": "after level 20 there is an ad every level",
+        "date": "2026-06-04T01:07:16.106Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nathan Egnew",
+        "score": 2,
+        "text": "Gameplay is acceptable. Forced advertisements began after level 11.",
+        "date": "2026-06-04T00:05:54.410Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Ben Ferguson",
+        "score": 1,
+        "text": "Forced ads.",
+        "date": "2026-06-03T23:27:38.793Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Giyoung An",
+        "score": 2,
+        "text": "game itself is fine, but you have to watch an ad after every single level. And it doesn't even have the \" no ads\" option that you can purchase. I want to uninstall just because of this. I don't want to keep watching ads every time I pass 1 level. There should be an \"no-ads\" purchasing option.",
+        "date": "2026-06-03T23:20:28.689Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Michael Mitchell",
+        "score": 1,
+        "text": "this could be a fun game, but ads in the middle of levels as well as between? you waste more time with ads than you actually play the game. Uninstalling.",
+        "date": "2026-06-03T23:14:39.420Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Makayla Mizell",
+        "score": 2,
+        "text": "I enjoyed the game until the levels started repeating after about level 70, the puzzles began to repeat. Sometimes you will ge the exact same puzzle for 2 levels in a row, they repeat every other level or every few. The game unfortunately stopped being fun because I was just having to redo puzzles I'd already solved. Also there is an ad after every single level. So depending on your speed, you end up watching ads most of the time you have the app open.",
+        "date": "2026-06-03T22:58:36.549Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Devin Taylor",
+        "score": 1,
+        "text": "After several levels the game becomes endless unexitable ads.",
+        "date": "2026-06-03T22:46:45.381Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Clinton Riddle",
+        "score": 1,
+        "text": "to much adds and just like one of the reviews it is just based on guessing no logic at all. please make it logical and make it have no adds",
+        "date": "2026-06-03T22:44:51.280Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Buster Beachside",
+        "score": 1,
+        "text": "The game is fun, but has forced ads between levels. Only the worst of the worst games do that. Furthermore, it attempts to trick users into thinking it doesn't have these by turning off banner and forced ads on your first session, only to ramp them back up once you've played once. This practice is scummy and shouldn't be accepted. I would gladly give 5 stars and play daily if Rewarded and Banner ads were the only ones.",
+        "date": "2026-06-03T22:40:12.996Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "John Swann",
+        "score": 1,
+        "text": "Stop using AI for your ads. Hire real people to make them.",
+        "date": "2026-06-03T21:24:04.500Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alley Kat",
+        "score": 1,
+        "text": "Cute game and all, but I don't need forced 30second (or longer) ads after every level. Levels aren't that long so I'm stuck with ads almost as much as I am getting to play.",
+        "date": "2026-06-03T20:37:47.259Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Dale Last",
+        "score": 1,
+        "text": "game itself is mildly entertaining, but excessive and overly lengthy ads far offset the entertainment value.",
+        "date": "2026-06-03T19:29:24.160Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jane Doherty",
+        "score": 2,
+        "text": "cute game but you can get x'd out despite the block being able to insert a cat without any interference. Sometimes a cat can be on one line or another without complicating the strategy. This game makes people be psychic to figure out which way must be played when both could be successful. I thought this would be like real soduku but lost interest",
+        "date": "2026-06-03T19:02:01.860Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Inaki Irisarri",
+        "score": 1,
+        "text": "it starts off great, puzzles require thought... until it becomes irritating when after every level you get an ad. sad",
+        "date": "2026-06-03T18:49:26.582Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Traci F",
+        "score": 2,
+        "text": "can't figure out how to add a cat only the x. doubled tapping doesn't work and holding down the square doesn't work. might have been a fun game but too complicated with no explanation.",
+        "date": "2026-06-03T16:53:37.540Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Kaitlin Joplin",
+        "score": 1,
+        "text": "The game itself is awesome - it's super addicting! It's a really great game where you have to use some logic to get the right results. However, there are entirely too many ads, and they are way too long. There's an ad between each level, and some of them are several minutes long. I would rather pay a small fee to get rid of ads, but thay doesn't appear to be an option. That option either needs to be added, or the ads need to be shorter/less frequent before I'd be willing to install this again.",
+        "date": "2026-06-03T15:57:37.939Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Linda McAteer",
+        "score": 2,
+        "text": "the instructions are too vague. best guesses aren't much fun.",
+        "date": "2026-06-03T13:10:40.534Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Attila Ambrozai",
+        "score": 2,
+        "text": "The game feels like a poor excuse for showing ads. After level 20 there is an ad after every single level.",
+        "date": "2026-06-03T11:53:33.861Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Tori Bustamante",
+        "score": 2,
+        "text": "got to around level 195 then it became aggressively monetized with constant ads. immediately uninstalled. it \"gives you a choice to watch one or not\" it will just play one anyways. was decent while it lasted.",
+        "date": "2026-06-03T11:38:05.541Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "James Waldroup",
+        "score": 1,
+        "text": "can't mark cats only x",
+        "date": "2026-06-03T11:24:56.665Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Amy B.",
+        "score": 2,
+        "text": "In a nutshell: ads ruined it. The puzzle is engaging, not too hard or too easy, and the animations are cute, so the game gets one extra star for that, buuuut it got to a point I got an ad every single puzzle. In one case it was an unskippable ad for 2+ minutes. If there was a way to pay to remove the ads I might have considered it, but there's not. So, no thank you. The idea isn't so unique I can't find a similar app, or just a different puzzle game entirely.",
+        "date": "2026-05-23T16:53:51.383Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "Elijah H",
+        "score": 2,
+        "text": "Fun game. I like the rules, and love playing Sudoku, so I gave it a try. I played (and enjoyed) the first 25 levels yesterday completely ad free, and actually got my hopes up that I wouldn't be seeing many ads... Was I wrong... after level 25 today, I have had an ad after every round. even when it shows an 'X' to exit the ad, it sends you to the play store instead. annoying as hell. deleting the game. not putting up with this just to play.",
+        "date": "2026-05-28T20:39:04.636Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Trish Zapata",
+        "score": 2,
+        "text": "repetitive and too many ads. the levels repeat themselves every 4 or so levels and that's annoying. the ads are sooooo much! after almost every level. sometimes every level if I take too long. and there's not even an option to buy the ad free version. add more different levels and no repeating. Will delete and add again later when I'm thinking about it. Hopefully these issues will be fixed. wouldn't even mind the ads if I didn't remember where all the cats go. smh.",
+        "date": "2026-05-24T17:09:35.259Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Sharon Shircliff",
+        "score": 1,
+        "text": "So far the colors in the new palette are MUCH easier for me to tell apart. Thanks! I SPOKE TOO SOON—THE COLOR CONTRAST IS BAD AGAIN! I do have another minor issue with the game, one that doesn't affect game play. It's just that the quotes that appear as the app is loading usually vanish quicker than I can read them. And I'm a speedy reader!",
+        "date": "2026-06-01T06:20:57.791Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Suzanne LaCour",
+        "score": 2,
+        "text": "I love cats, so I really wanted to like this game. The problem is, the moment you get past the first few levels there could potentially be multiple solutions. The only way to find out where the cat belongs is to pick a square, not based on logic, just sheer dumb luck. You can only make 3 mistakes and when the puzzle board is large, and you're simply guessing, mistakes are likely. I just don't have time for a mess like this. I have better uses for my psychic skills. Uninstalling.",
+        "date": "2026-05-23T04:05:39.680Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Elise Haynes",
+        "score": 1,
+        "text": "Some of the levels you literally have to finish by guessing. you'll have every other cat marked off, no repeat colors, no touching, no sharing a row or column, and then theres a color that still has 3+ blocks on it and theres no way of knowing which one is correct without using an item or guessing. if youre making a logic game, make it solved by logic, not a random guess that ruins the level. No ads, which is nice..But very clearly used AI for photos.",
+        "date": "2026-05-29T16:10:02.152Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Sara S",
+        "score": 2,
+        "text": "The first time playing there were absolutely no ads and I played straight through level 115 without needing to use a hint (long-time sudoku player), although once I got into the hundreds, I had to start going through if/else scenarios on paper. But the next time I opened the app, it played an ad after the daily level, and the next regular level I played, 115, was like playing on hell difficulty, to the point I could only figure out where to put a single X. So their plan is pretty clear now.",
+        "date": "2026-05-17T20:32:36.372Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Duane Couchot-Vore",
+        "score": 2,
+        "text": "Better than expected, but it has problems. It's far t6o eager to interpret something as a double click when you didn't intend one. This especially happens when you're X-ing out a row and, because the squares are much smaller than your finger, happen to hit one twice. \"Oops! You goofed! There's no cat there!\" No, game. You goofed. I knew there was no cat there. Instead of a double click they need a long press to indicate a cat. Uninstalling out of frustration, at least until it's fixed.",
+        "date": "2026-05-28T18:01:36.364Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "William Crismon",
+        "score": 1,
+        "text": "You cheeky A'holes! The first time you play is ad free forever? (I played to level 49 before going to bed and got no ads.) This is why the reviews don't mention ads. The next time I played I get an ad after each level, the ad is longer than it took me to do the level. Where is the option to remove the **** ads!?!? They take forever and like 7 Xs per ad! Over 1 minute per ad, per level. more ad than game! Also after like level 50 every levels start is just random clicks.",
+        "date": "2026-06-02T06:17:51.602Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Steve Kupiszewski (Rip-Wire)",
+        "score": 1,
+        "text": "fun game until level 35 when the ads start. Ad at bottom while playing and ad every time you finish a level. I thought this was supposed to be an AD free game. went from 5 stars to 2... maybe 1 if I get too annoyed by the ads. 1 star now. in-game bottom bar ad pushes the board up which now covers the cat and life counter. REMOVE IT! this is what happens when good games get greedy and shove ads in your face. I'll probably delete this now ad filled garbage game and no longer recommend it.",
+        "date": "2026-05-30T03:42:23.258Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Danielle Mink",
+        "score": 1,
+        "text": "I have enjoyed this game, but as others have noted, there are few ads to start, and then once you hit a certain level, it's an ad/level and any additional hints etc. also - something within this app is getting flagged as a security risk, so I'm periodically alerted to a potential risk of bank data being compromised. so that's concerning. quite unfortunate because i was enjoying the challenge of this game.",
+        "date": "2026-05-17T18:00:08.965Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Daniel Good",
+        "score": 2,
+        "text": "It's fun but as you progress you realize they just start repeating levels you already beat. After level 115 I think every level was a repeat of a previous one. deleted app somewhere in the 140s-150s after many levels in a row of previous levels I already beat. Also, No ads at first but ads after every puzzle as you progress. To replay to your response.... Still not fixed. Still just repeating levels. Also, watching videos to revive or get hints doesn't always work but still makes you watch.",
+        "date": "2026-05-28T01:11:56.125Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Lisa Shelton",
+        "score": 1,
+        "text": "I would give this game a 5 star rating - if it weren't for the frustrating glitches! Whenever I watch an ad to obtain a booster, it doesn't grant the promised reward. I've repeatedly clicked the booster button and watched as many as three separate ads, yet still no reward was granted. Please fix this issue!",
+        "date": "2026-05-23T16:28:25.473Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Dana",
+        "score": 2,
+        "text": "Cute concept, good looking, & simple game. Ads started between every level abt 10 minutes in, when I got to level 11. First was a 2 minute or more non-skippable ad. Almost uninstalled. Gave it a 2nd and 3rd chance, but between ads between every level & the banner ads at the bottom of the game screen I'm uninstalling at Level 14. Disappointed. I'd rather pay a few bucks for a good game with no ads, but you're not going to have the chance to drip drip drip my money away from me. Bye bye. Too bad.",
+        "date": "2026-05-30T22:51:33.477Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "killerwolfwitch Ash",
+        "score": 2,
+        "text": "too many ads, I was really really enjoying this game. played probably 25 levels in one night And then I go to play today, did the daily challenge. got an ad, not worried about that. I played probably six or seven more levels today and after every single one there was an ad. I can understand having an ad like every three levels or so but not after every single level. especially with how quickly I beat the levels sometimes.",
+        "date": "2026-05-31T23:45:55.354Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alicen Kootz",
+        "score": 1,
+        "text": "it is as poorly constructed as it is poorly named. this is closer to nonogram games than sudoku, but the issue is you are often left with multiple options of where the cat can be placed, and if you don't guess right, you lose a life. I like nonograms and sudoku equally, but I do not like poorly constructed puzzle games that require guessing. that's not how puzzles are supposed to work.",
+        "date": "2026-06-02T12:23:16.546Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Joanna Nicole Wang",
+        "score": 2,
+        "text": "I am beyond Level 160 already and the ads are very frequent (almost after every level), which is annoying. Aside from that, there are repetitive levels, ones that I have played already in the earlier levels and appeared again later in the game at higher levels and more than once too (I know because I recognized the pattern). I hope the developers can do something about it. I hate playing the same levels again and again.",
+        "date": "2026-05-19T06:31:16.238Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Amanda Warr",
+        "score": 2,
+        "text": "Initially this was fun, I like this kind of puzzle, and the cats are cute. After a while the ads become relentless and the puzzles repeat themselves, I can solve them from memory. I also found that the \"watch ads for rewards\" function was broken (possibly intentionally?). I'd watch an ad to revive or get a hint, finish the ad, and not get the reward, watch again, still not get the reward. Also when you fail a puzzle whether you tap revive or restart it is going to show you an ad anyway. Annoying",
+        "date": "2026-05-27T09:31:34.912Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "userName": "Deann Ladow",
+        "score": 2,
+        "text": "babe was fun until you item it the 2nd time then you get bogged down waiting for ads to finish after each level. It's overwhelming and not something I'm willing to deal with. There's not even an option to pay to go add free. I'm deleting after I post this review. it's too bad, I enjoyed it without the ads.",
+        "date": "2026-05-31T04:16:10.640Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Tyler Blayne",
+        "score": 2,
+        "text": "I enjoyed the first 100 levels then the ads started coming every level. its extremely annoying to play a level that lasts 30 seconds to then wait another 30 to 60 seconds between each level due to ads. the game itself is great! but hate the consistent ads. also there are repeat levels, should be able to report levels cause dont wanna do the same puzzle over and over...",
+        "date": "2026-05-20T23:20:40.598Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Dannie",
+        "score": 1,
+        "text": "I absolutely love this game, however I wish it had the option to purchase for no ads. Ads appear after every level which only takes a minute or two max to complete - excessive. Ads also contain sound which stops the podcast I listen to so each level I have to go back into my postcast and hit play after the Ads. Less Ads or the ability to pay for no ads would be appreciated. I'll play for a bit longer but unfortunately this game will be uninstalled soon due to the ads ☹️",
+        "date": "2026-06-03T03:35:59.644Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Beth Bartholomew",
+        "score": 1,
+        "text": "I absolutely loved this game! However - big HOWEVER - for three days straight now I get \"AD is not ready\" when I try to get a hint. Also, if I leave an incomplete game, when I come back to it, it is erased. This is all so disappointing. Back to the hunt for a new favorite.",
+        "date": "2026-06-02T20:55:06.877Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Bill Billings",
+        "score": 1,
+        "text": "was fun until the point it started having an ad for everything you did. couldnt even finish a level because one popped up, then had to restart the level and guess what... an ad popped up again. the game itself was nice and a good brain workout,when you can play",
+        "date": "2026-06-02T16:57:00.517Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Rod V",
+        "score": 1,
+        "text": "DO NOT INSTALL! The ads are beyond ridiculous. Most ads open up other apps without your permission. Half the ads have no way to exit, so you have to shut down the app, then watch another ad to get back to the game. The hint button makes you watch ads for several minutes, then gives you nothing or shuts down the app. This also causes my phone to give unsafe warnings. Uninstalling then I need to restore my phone to remove the Spyware this app will put on your phone. I will also report this to Goo",
+        "date": "2026-06-01T00:21:57.678Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Crystal Brendel",
+        "score": 2,
+        "text": "This game seemed to be just like the ads, that was until it was all ads. the first day it played with not ads at all, not even on the lower bar where you typically find them. Get into the game this morning and BOOM all ads. Try and play a round, ads in lower bar. Try to switch apps to check something, cant continue without an ad. Win or lose a round, yup ads like a sorority girl with the itch. The cat theme was damn cute, but the ads turned to crabs...",
+        "date": "2026-05-13T02:07:49.157Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "Robert Meikle",
+        "score": 1,
+        "text": "Really fun at first but there are now unskippable ads after every single level for games and you have to play them for a bit before it let's you proceed. It's actually quicker to close the app and open it again after each level instead. Which I won't be doing. Fun game with the enjoyment sucked out of it by ads.",
+        "date": "2026-06-01T19:00:29.744Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "app_store",
+        "userName": "Cbc123",
+        "score": 1,
+        "text": "Adds started popping up as I was playing the game after I got to level 50. It wasn’t just Ads in between levels. But adds that interfere with the level that you’re on. It’s so annoying I won’t continue to play.",
+        "date": "2026-06-03T20:11:33-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Net.zzzzzz",
+        "score": 2,
+        "text": "After like 7 levels it becomes more of a guessing game because it is impossible to do with the puzzles rules only. For example it will leave you will two of one color left and you can’t solve it with the cats you have unless you guess. Im guessing this is so you think your close so you watch the ad to revive.",
+        "date": "2026-06-03T17:48:22-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "soon_former_user",
+        "score": 2,
+        "text": "After every level there’s an ad that ends the game until you kill the app and restart. No little x, only buttons are to install another app.",
+        "date": "2026-06-03T16:58:29-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "phleebag",
+        "score": 2,
+        "text": "This is a challenging puzzle game, but after the first ten levels you start getting an ad after each and 3very level!  And they aren’t short ads, they go on and on and on. Won’t be playing this one very often.",
+        "date": "2026-06-03T16:52:13-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Spring foot",
+        "score": 2,
+        "text": "The game is the same as LinkedIn’s Queens game, which is the same as an old game called Star Battle. \n\nThe problem is the interface needs work. There should be an Undo button if you accidentally drag out X’s while marking them on a small phone screen. It’s happened to me and the only option is to clear the entire board. \n\nAlso the X’s should make the cells darker and grayed out. Right now the color scheme is light pastel tones, and the X’s are light, so at a glance the open cells aren’t that obvious. \n\nLastly the game should have some additional settings for color scheme choices. Dark scheme, more saturated colors, options for colorblind players, etc.",
+        "date": "2026-06-03T10:47:27-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Dos Gatos Diablos",
+        "score": 2,
+        "text": "I like this cute game but when I keep getting gross out ads with infected toes I have to delete.",
+        "date": "2026-06-03T10:32:18-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "not very good!!!!",
+        "score": 2,
+        "text": "not that good",
+        "date": "2026-06-03T04:37:14-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "GamerGirlClare",
+        "score": 2,
+        "text": "Fun game, similar to mine sweeper. But I would happily pay to stop the ads, frustrating, will have to quit.",
+        "date": "2026-06-03T01:24:10-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "BRT929",
+        "score": 1,
+        "text": "This game forces you to watch numerous ads during a single game.  Had o delete.",
+        "date": "2026-06-03T01:02:10-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "JDawg1310",
+        "score": 2,
+        "text": "Hate the fact that I can’t get rid add all the stupid ads, they hit me before every level I would gladly pay a dollar out two to get rid of the ads!!!",
+        "date": "2026-06-02T23:01:52-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Double0kevin",
+        "score": 1,
+        "text": "The game itself is fun, but after you beat a few levels you’ll start to notice that it just starts repeating the same levels over and over again. And not the same designer but different cat placement, the exact same levels. Cats in the same place and everything. They don’t even bother changing the color of the boxes. \n\nAlso, there is no option to pay to remove ads and it will make you watch one between every level.\n\nI want to love this one and play it often, but between the ads and the repeated levels, it’s gonna be a quick delete for me.",
+        "date": "2026-06-02T18:16:09-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "PCR-WA",
+        "score": 2,
+        "text": "Fun game; after level 25,  ads after every. Single. Game. I would have paid to remove the ads but that’s not an option. Uninstalling now.",
+        "date": "2026-06-02T13:18:20-07:00",
+        "version": "1.3.0"
+      }
+    ],
+    "neutral": [
+      {
+        "source": "google_play",
+        "userName": "Inju",
+        "score": 3,
+        "text": "Fun enough gameplay, ads usually after every level, but that's normal for these types of games. My main issue is that it keeps heating up my phone; I play many more intensive games (Genshin, LADS, etc) and have no issues with my Pixel 10 Pro heating up, but this game manages it. It's either poorly optimised, or it's messing with things it shouldn't.",
+        "date": "2026-06-04T07:26:54.698Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mona F.",
+        "score": 3,
+        "text": "It's fun.",
+        "date": "2026-06-04T06:51:49.488Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jim Nolan",
+        "score": 3,
+        "text": "Good game. Minus one star for unremovable ads. Minus 1 star for those ads being extremely annoying to close.",
+        "date": "2026-06-04T06:15:42.465Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "E W",
+        "score": 3,
+        "text": "Why Ads after every level",
+        "date": "2026-06-04T03:34:13.910Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Juliet",
+        "score": 3,
+        "text": "The game itself is very fun but there are ads between almost every game and many of them are vety long and repetitive.",
+        "date": "2026-06-04T02:04:27.539Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Freeman Family",
+        "score": 3,
+        "text": "well it is really easy",
+        "date": "2026-06-04T01:50:35.734Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Susan Baker",
+        "score": 3,
+        "text": "Fun but so many ads. Im on level 57 and after every single level completion, I get an ad. It takes me maybe 3-5 minutes to complete a level. Most of the ads last just as long and there's no way to skip them. I understand wanting to increase revenue with them, but it's happening far too often. Especially since you don't offer an ad free option.",
+        "date": "2026-06-04T01:41:32.227Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Meow 219",
+        "score": 3,
+        "text": "what about settings for colorblind people",
+        "date": "2026-06-04T00:48:57.479Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Nicole Bennett",
+        "score": 3,
+        "text": "Fun game. I like that the hints actually explain (or try to explain) things instead of just telling you something is an X and not saying why. However, sometimes when you stop in the middle of a game and come back later, you have to start all over. That's quite frustrating. This doesn't affect game play, but the quotes in the beginning aren't up long enough to read them.",
+        "date": "2026-06-03T19:09:53.694Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Rita Kiraly",
+        "score": 3,
+        "text": "Fun game but very unbalanced. Up to lvl100 they were all rather easy like 1-2 minutes, then after 100 they became so difficult that I'm sitting over a level for a literal hour. No notes in the squares like in real sudoku games which is a big downside. And the game doesn't save progress in unfinished level so if you close it, you'll have to restart. The daily challenges are great and reasonable difficulties but you can't go back to previous days sadly so only 1 a day.",
+        "date": "2026-06-03T19:01:11.534Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Melissa Woods",
+        "score": 3,
+        "text": "Installed this yesterday and loved it. Made it to about level 65 and hardly any ads unless I wanted a hint or something. Today, however, I'm suddenly getting an ad at every single level, after every single try. It's rediculous, especially after hardly having any ads on the first day. I wish you had a paid version. Or at least, not so many constant ads. It breaks my concentration. I really liked this game a lot, but I may uninstall and look for something else.",
+        "date": "2026-06-03T17:52:26.884Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Lynnetta Miller",
+        "score": 3,
+        "text": "As with so many other games, the amount of ads made me stop playing. I enjoyed the game play, but after 20 or so levels, I started getting an ad after every level. No thanks.",
+        "date": "2026-06-03T17:35:24.785Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Alli Roncaglia",
+        "score": 3,
+        "text": "I love the game. it's smart, fun, and the kind of phone game you want. but I'm uninstalling it until there's an ad-free version. I can't stand the ads after each level, especially the easy ones that you can fly through. I don't want to waste my time spending more time watching ads than playing a game. would give 5 stars otherwise.",
+        "date": "2026-06-03T15:56:27.338Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "R W",
+        "score": 3,
+        "text": "I would give this 5 stars despite the ads that interrupt game play because it's a fun game with cats, but it's a greedy cheating scam. It is designed to deliberately withhold clues so you have to watch an ad to figure out where the cats are or you can guess. At first, I kept wondering what I did wrong that I didn't have enough squares blocked out so I started over, but then the very next game started with the need for an ad to get a clue. That's neither strategic nor fun. I will be deleting.",
+        "date": "2026-06-03T14:57:27.572Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Anthony Glueck",
+        "score": 3,
+        "text": "fun, but not colorblind friendly. I wish there was a way to change the colors when there is a clash. currently, I have to ask my wife to point out two different colors when I detect that I am missing one or I can't solve the puzzle.",
+        "date": "2026-06-03T14:56:38.116Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "James Love",
+        "score": 3,
+        "text": "Fun game, but jeez the ads... I'd be willing to pay a flat fee for the game and not be inundated by not only ads on the game screen, but unskippable 30s ads between levels.",
+        "date": "2026-06-03T13:53:16.381Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Deborah Drury",
+        "score": 3,
+        "text": "seems simple enough .",
+        "date": "2026-06-03T12:56:33.684Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Mary Ciffarelli",
+        "score": 3,
+        "text": "Enjoyable game, and very relaxing since there's no timer to stress out over. But sometime after the 12 or 13 level there are ads after each level. No option available to buy out of ads, or else I would give 5 stars. Even after getting the Daily Challenge at level 21, still no buy out option. PLEASE consider adding something, or at least ads every 4-5 levels. Just a thought.",
+        "date": "2026-05-29T16:55:05.880Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Audrie Grimes",
+        "score": 3,
+        "text": "The concept is really fun and challenging enough to hold my interest. Unfortunately, the ads are not only frequent but long in duration. When you finally get the option to click an arrow or an X, it not only closes the ad but the entire game. I will usually tolerate the interruption of ads, but I don't want to be kicked out just because I didn't install their suggestion.",
+        "date": "2026-05-26T14:29:59.409Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Mary Haupt",
+        "score": 3,
+        "text": "I would give this 5 stars if a couple issues are addressed. It's a fun, challenging puzzle game with cute graphics. The issues that need to be addressed are first, more distinct color variations. The greens are hard to distinguish, and also the pinks.Next, saving progress. Once you leave the game, you have to start all over. Lastly, sometimes I don't apply a clue because I want to study the board without the dark overlay. If I don't apply it then, I have to watch a commercial to study it again.",
+        "date": "2026-05-19T15:39:07.467Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "Jamie Stockdale",
+        "score": 3,
+        "text": "I really enjoy this game! The sound effects are cute, and it's a nice challenge. I figured out that you get ads after closing the game and opening it back up, regardless of how much time has or hasn't passed. Very strange... If there were a way to purchase to remove ads, I would! This is very cute and promising!",
+        "date": "2026-05-18T03:38:01.676Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "userName": "Erika Bickford",
+        "score": 3,
+        "text": "The game started off well. I played over a hundred levels with no ads unless I opted to use them for hints and such. Then all of a sudden, ads after every level. And most of the time, when clicking for a hint or to revive, the full ad would play, but the reward (hint, etc) was not received. I'll be uninstalling.",
+        "date": "2026-06-01T15:38:31.918Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "userName": "Jasmine Wilson",
+        "score": 3,
+        "text": "Fun game, but the ads are ridiculous. For the first 30 or so levels, there were no ads. Then you hit a certain level, and then you get an ad after every level you complete. It's annoying. Residual when the ad is ridiculously long and makes you watch the whole thing. I wish I could pay to remove the ads and buy more hints. I don't use them often, but I eventually ran out and hit the plus sign for more, and it made me watch a long ad just for ONE hint! Fix that!!!",
+        "date": "2026-05-18T06:20:52.865Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "userName": "Audra Leslie",
+        "score": 3,
+        "text": "I really like the game. Great difficulty increases and the format is so cute. My problem is that the pinks and oranges and yellows are so close together in color that I can't tell them apart. I wish they chose more contrasting colors, or offered a high contrast option, if other players like the current color pallete.",
+        "date": "2026-05-23T21:29:42.120Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Dana Knox",
+        "score": 3,
+        "text": "I love a lot of things about this game. the cat graphics are cute, and the game is a nice mix of logical, challenging, doable and relaxing. It feels like a mix of nonograms and sudoku. Two frustrations--a couple of the pinks are virtually indistinguishable, and become completely so with Samsung comfort filter. And after about level 65 a lot of the levels repeat.",
+        "date": "2026-05-19T16:12:11.534Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "userName": "BirdsNest Studio (ShalHeira)",
+        "score": 3,
+        "text": "I enjoy the game but after about 40 level I noticed they just started to repeat. this shouldn't happen considering the vast number of combinations. It should be total randomization so that no 2 levels are the same. Also, when I watch the ad to get a hint, it doesn't actually populate the hint until I've tried multiple times.",
+        "date": "2026-05-28T19:32:30.581Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "userName": "Brittany Sapienza",
+        "score": 3,
+        "text": "Started off great, good brain stretch, but after you hit level 100 or so, the levels start repeating which is boring and annoying. The clue advertisements are also faulty, as if you ask for a clue it shows an ad but you never get the clue. Good concept, but need refining and more work before it'll be a 5 star game.",
+        "date": "2026-05-25T18:51:21.531Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Arianna Brady",
+        "score": 3,
+        "text": "This game is fun and makes you think. The ads are what's making me uninstall it. There's an ad after you finish a level and an ad to get one of two boosters. You don't always get the booster after the ad plays so you have to watch another ad. Also, there's no customer service to reach out to for problems like not receiving a booster after watching 2 ads.",
+        "date": "2026-05-24T21:20:54.663Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Kiara Pyrenei",
+        "score": 3,
+        "text": "great visual design and a fun game idea, but unfortunately the levels start repeating really fast, already seeing repeats at level 73. Also, while the ads aren't bad at all, I wish there was an option to pay for an ad free version like some other games. it's a pretty new game, so If they add that option and more levels it would be 5 star I hope they improve in the future",
+        "date": "2026-05-21T04:32:37.483Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Jessica Fogle",
+        "score": 3,
+        "text": "Fun, at first. The game does start without ads (unless you need extra hints). You get invested and then the ads start around level 35. They are in between every single puzzle. It's overbearing. They clearly do that so newer players will say there are no ads when they write their reviews before they realize the ads actually start later. Also, two different pink shades are almost indistinguishable.",
+        "date": "2026-05-13T23:51:32.223Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "userName": "Daryl Usher",
+        "score": 3,
+        "text": "this is a great idea and I really like the game play of it, but the difficulty ramped up significantly each and every level. I had to stop at level 10 cuz it was getting too much. also there needs to be some different options for color blindness, because we can't see the difference between certain shades of colors.",
+        "date": "2026-05-25T10:21:40.370Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "userName": "Marc Bloom",
+        "score": 3,
+        "text": "Game is okay. Actually fun and kind of addicting at first. What ruins it is that the deeper you get the more it becomes a guessing game at the very beginning. You literally just have to guess where the first one is because every color has 7 spaces. Takes the strategy out of it.",
+        "date": "2026-06-02T23:27:37.221Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "app_store",
+        "userName": "Robb327",
+        "score": 3,
+        "text": "The game itself is enjoyable, entertaining and challenging, but running an ad after EVERY puzzle is excessive.",
+        "date": "2026-06-03T12:51:19-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "B_D11",
+        "score": 3,
+        "text": "Too many ads, drains the battery so fast.",
+        "date": "2026-06-03T09:56:57-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Kevnsheri",
+        "score": 3,
+        "text": "Ads are very explicit! The game is fine, but the ads are 18+. Three stars since it is not age appropriate for my son.",
+        "date": "2026-06-03T09:19:44-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "svenjacobs3",
+        "score": 3,
+        "text": "Enjoy the game but hate the amount of ads. I’ll pay a few bucks to just not deal with it",
+        "date": "2026-06-02T23:11:02-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "forehead",
+        "score": 3,
+        "text": "Deducted two stars because of the absolutely ridiculous ad frequency.\n\nGive me a way to pay for it, please, because the level of frustration with ads is reaching “delete from my phone” levels. \n\nIf I pay for it they’re better not be any ad of any sort for any reason. No banner ads at the bottom. No ads between every flipping level.",
+        "date": "2026-06-02T22:44:59-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Oszs",
+        "score": 3,
+        "text": "was really enjoying the game but i needed to restart it and when i did it had forced ads with no option to buy ad-free package. what a shame. uninstalling bc i hate forced ads. otherwise would have been 5 stars.",
+        "date": "2026-06-02T21:45:27-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Pup Rocket",
+        "score": 3,
+        "text": "Hopefully it becomes more challenging. On level 8 and it’s super easy",
+        "date": "2026-06-02T20:58:56-07:00",
+        "version": "1.3.0"
+      },
+      {
+        "source": "app_store",
+        "userName": "Ben Dover Jr the 4th",
+        "score": 3,
+        "text": "For the pro’s its really fun, no fees, And has a cool mechanic with the colors and things. The game mostly being about cats and their animations are adorable. But unfortunately, the cons are that it has too much ads and would be better with less or even a fee to remove them, (I recommend to just turn on airplane mode while playing for no ads) also, its missing some more things, it would be better if there would be more modes and gimmicks. It would be great with more options or like modes.",
+        "date": "2026-06-02T18:27:06-07:00",
+        "version": "1.3.0"
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "com.oakever.meowdoku",
+      "title": "Meowdoku: Brain Puzzle Games",
+      "developer": "Oakever Games",
+      "score": 4.661442,
+      "icon": "https://play-lh.googleusercontent.com/1vD3Jl37OTth18x__EkbpMZRAmDlGB5mlqKvveWumothf52-1HZXhAy5HGkGLzW_HYoz-rj2q0HBaxu5_8kyVQ"
+    },
+    {
+      "appId": "com.oakever.arrows",
+      "title": "Arrows GO!",
+      "developer": "Oakever Games",
+      "score": 4.5784316,
+      "icon": "https://play-lh.googleusercontent.com/zWEc5_IxvR2HnOLWkqa7Vszuvzg8G3OZXH1hvZy-S-ne6HsJRHOoi1y4w4_0JemVsaCE"
+    },
+    {
+      "appId": "kidultlovin.word.zen",
+      "title": "Zen Word® - Relax Puzzle Game",
+      "developer": "Oakever Games",
+      "score": 4.8194795,
+      "icon": "https://play-lh.googleusercontent.com/B1vB5FicSMSGxmWvb92jDVIh_5VGq0mFSKQ4TBc0Nl1X5XtoANsuarU8hNilV8z4pxA68UpcJkwlLupENp3A"
+    },
+    {
+      "appId": "com.oakever.jigsawcard",
+      "title": "Jigsawcard Solitaire Puzzle",
+      "developer": "Oakever Games",
+      "score": 4.6564064,
+      "icon": "https://play-lh.googleusercontent.com/fU6WokYn-tj78D0Wy4mdvbT7KOXsWAnZL_VKhc8Swa8E-4YCw9qpp4sVqsTQkxUmcQ"
+    },
+    {
+      "appId": "com.oakever.tiletrip",
+      "title": "Tile Explorer - Triple Match",
+      "developer": "Oakever Games",
+      "score": 4.8629885,
+      "icon": "https://play-lh.googleusercontent.com/kwa0XzNS0QNIWthk_gQ5Jrzc0myF56RNXuehCN5YSMKjNeFesOnvkvXEBYi5zIAtC6aM"
+    },
+    {
+      "appId": "jigsaw.puzzle.game.banana",
+      "title": "Jigsawscapes® - Jigsaw Puzzles",
+      "developer": "Oakever Games",
+      "score": 4.503182,
+      "icon": "https://play-lh.googleusercontent.com/UC8OHlfFEavjaUCyLFkJNkdqLGt12Gk8u18Ax2S_wTANHwseqNUVUt0-R1V7t0wmhQ"
+    },
+    {
+      "appId": "com.oakever.zencolor",
+      "title": "Zen Color - Color By Number",
+      "developer": "Oakever Games",
+      "score": 4.6712327,
+      "icon": "https://play-lh.googleusercontent.com/j_tm9DNbpZj3i5MrWSauB2xITNpSPE7tbN5rVSEoNdMzQiqHwrTicb3CAGJqda2FxJTR1A4V2yCbBrKoZCiuhQ"
+    },
+    {
+      "appId": "easy.sudoku.puzzle.solver.free",
+      "title": "Sudoku - Classic Sudoku Puzzle",
+      "developer": "Oakever Games",
+      "score": 4.745638,
+      "icon": "https://play-lh.googleusercontent.com/hYLElG0RAgn60XE6cfgsPPW_JB63PEVWvDtvhipAGvTpxBX5YgLGt3UXvnJ_kRwKhnE"
+    },
+    {
+      "appId": "com.oakever.paintbynumber",
+      "title": "Paint by Number: Coloring Game",
+      "developer": "Oakever Games",
+      "score": 4.712871,
+      "icon": "https://play-lh.googleusercontent.com/tOVyDT-cCiOBcayEhavFWx8mVR6aTKWIdDRM1fKoBX_yDhRWtplxJ7IQUdAn1E2N8kDD_qVbyGSkGgN-_YR2cA"
+    },
+    {
+      "appId": "beetles.puzzle.solitaire",
+      "title": "Solitaire - Classic Card Games",
+      "developer": "Oakever Games",
+      "score": 4.6466036,
+      "icon": "https://play-lh.googleusercontent.com/7V-EDQGeSMIqKbCucuT16ObKsLTSJdyJE4z12pZ0X3AarLyho1l7x9x8ZJxy8f9gyzqhxzO2GWNjhDoZ6CV1"
+    }
+  ],
+  "developerApps": [
+    {
+      "appId": "com.oakever.meowdoku",
+      "title": "Meowdoku: Brain Puzzle Games",
+      "score": 4.6620765,
+      "icon": "https://play-lh.googleusercontent.com/1vD3Jl37OTth18x__EkbpMZRAmDlGB5mlqKvveWumothf52-1HZXhAy5HGkGLzW_HYoz-rj2q0HBaxu5_8kyVQ"
+    },
+    {
+      "appId": "com.oakever.arrows",
+      "title": "Arrows GO!",
+      "score": 4.5784316,
+      "icon": "https://play-lh.googleusercontent.com/zWEc5_IxvR2HnOLWkqa7Vszuvzg8G3OZXH1hvZy-S-ne6HsJRHOoi1y4w4_0JemVsaCE"
+    },
+    {
+      "appId": "kidultlovin.word.zen",
+      "title": "Zen Word® - Relax Puzzle Game",
+      "score": 4.8194795,
+      "icon": "https://play-lh.googleusercontent.com/B1vB5FicSMSGxmWvb92jDVIh_5VGq0mFSKQ4TBc0Nl1X5XtoANsuarU8hNilV8z4pxA68UpcJkwlLupENp3A"
+    },
+    {
+      "appId": "com.oakever.jigsawcard",
+      "title": "Jigsawcard Solitaire Puzzle",
+      "score": 4.6564064,
+      "icon": "https://play-lh.googleusercontent.com/fU6WokYn-tj78D0Wy4mdvbT7KOXsWAnZL_VKhc8Swa8E-4YCw9qpp4sVqsTQkxUmcQ"
+    },
+    {
+      "appId": "com.oakever.tiletrip",
+      "title": "Tile Explorer - Triple Match",
+      "score": 4.8629937,
+      "icon": "https://play-lh.googleusercontent.com/kwa0XzNS0QNIWthk_gQ5Jrzc0myF56RNXuehCN5YSMKjNeFesOnvkvXEBYi5zIAtC6aM"
+    },
+    {
+      "appId": "jigsaw.puzzle.game.banana",
+      "title": "Jigsawscapes® - Jigsaw Puzzles",
+      "score": 4.503182,
+      "icon": "https://play-lh.googleusercontent.com/UC8OHlfFEavjaUCyLFkJNkdqLGt12Gk8u18Ax2S_wTANHwseqNUVUt0-R1V7t0wmhQ"
+    },
+    {
+      "appId": "com.oakever.zencolor",
+      "title": "Zen Color - Color By Number",
+      "score": 4.6712327,
+      "icon": "https://play-lh.googleusercontent.com/j_tm9DNbpZj3i5MrWSauB2xITNpSPE7tbN5rVSEoNdMzQiqHwrTicb3CAGJqda2FxJTR1A4V2yCbBrKoZCiuhQ"
+    },
+    {
+      "appId": "easy.sudoku.puzzle.solver.free",
+      "title": "Sudoku - Classic Sudoku Puzzle",
+      "score": 4.745638,
+      "icon": "https://play-lh.googleusercontent.com/hYLElG0RAgn60XE6cfgsPPW_JB63PEVWvDtvhipAGvTpxBX5YgLGt3UXvnJ_kRwKhnE"
+    },
+    {
+      "appId": "com.oakever.paintbynumber",
+      "title": "Paint by Number: Coloring Game",
+      "score": 4.712871,
+      "icon": "https://play-lh.googleusercontent.com/tOVyDT-cCiOBcayEhavFWx8mVR6aTKWIdDRM1fKoBX_yDhRWtplxJ7IQUdAn1E2N8kDD_qVbyGSkGgN-_YR2cA"
+    },
+    {
+      "appId": "beetles.puzzle.solitaire",
+      "title": "Solitaire - Classic Card Games",
+      "score": 4.6466036,
+      "icon": "https://play-lh.googleusercontent.com/7V-EDQGeSMIqKbCucuT16ObKsLTSJdyJE4z12pZ0X3AarLyho1l7x9x8ZJxy8f9gyzqhxzO2GWNjhDoZ6CV1"
+    }
+  ]
+}
