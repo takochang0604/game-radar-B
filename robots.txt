@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://takochang0604.github.io/game-radar-B/sitemap.xml
