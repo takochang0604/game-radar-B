@@ -3551,11 +3551,11 @@ function renderReportsTab() {
           <div class="dh-developer">${r.developer || '未知開發商'}</div>
         </div>
       </div>
-      ${taglineHtml}
       <div class="dh-meta">
         ${sourceTag}
         ${r.tags.map(t => `<span class="dh-tag" style="background:rgba(255,255,255,0.05);color:var(--text-secondary)">${t}</span>`).join('')}
       </div>
+      ${taglineHtml}
       ${gradesHtml}
       <div class="dh-card-footer" style="margin-top:auto">
         ${r.reportDate ? `<div class="dh-released">評測 ${r.reportDate}</div>` : '<div></div>'}
