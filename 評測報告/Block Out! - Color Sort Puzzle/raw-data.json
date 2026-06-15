@@ -19,7 +19,25 @@
       "Puzzle",
       "Casual"
     ],
-    "description": "Get ready for Block Out!, a block puzzle game where every level feels alive. Slide colorful blocks, match them with their targets while experiencing the unique twist of moving elevators and block generators. Each puzzle feels fresh with ever-changing layouts. Plan your moves, think quickly, and enjoy the satisfaction of perfect clears as you progress through a colorful and evolving puzzle adventure. Block Out! offers a puzzle experience that keeps you coming back for more. Accept the challenge and start your journey! \n\nQuick Play Guide\n- Start Simple: Slide the blocks to the matching doors and create satisfying clears.\n- Plan Ahead: Position blocks carefully, manage space, and keep up with dynamic challenges. \n- Think Fast: Move faster to complete levels and unlock new challenges.\n\nCool Features\n- Offline Play: Enjoy anywhere, anytime—no wi-fi required.\n- Strategic Gameplay: Start simple, think twice. Plan your moves and experience the satisfaction of clearing each puzzle.\n- Dynamic Obstacles:  Block generators, moving elevators, and other elements bring variety and spice to every level.\n- Colorful Visuals: Bright and gorgeous design makes every puzzle a joy to solve.\n\nBlock Out! is designed for puzzle lovers who enjoy both strategy and action. Download Block Out! now and explore the dynamic world of colorful puzzles."
+    "description": "Get ready for Block Out!, a block puzzle game where every level feels alive. Slide colorful blocks, match them with their targets while experiencing the unique twist of moving elevators and block generators. Each puzzle feels fresh with ever-changing layouts. Plan your moves, think quickly, and enjoy the satisfaction of perfect clears as you progress through a colorful and evolving puzzle adventure. Block Out! offers a puzzle experience that keeps you coming back for more. Accept the challenge and start your journey! \n\nQuick Play Guide\n- Start Simple: Slide the blocks to the matching doors and create satisfying clears.\n- Plan Ahead: Position blocks carefully, manage space, and keep up with dynamic challenges. \n- Think Fast: Move faster to complete levels and unlock new challenges.\n\nCool Features\n- Offline Play: Enjoy anywhere, anytime—no wi-fi required.\n- Strategic Gameplay: Start simple, think twice. Plan your moves and experience the satisfaction of clearing each puzzle.\n- Dynamic Obstacles:  Block generators, moving elevators, and other elements bring variety and spice to every level.\n- Colorful Visuals: Bright and gorgeous design makes every puzzle a joy to solve.\n\nBlock Out! is designed for puzzle lovers who enjoy both strategy and action. Download Block Out! now and explore the dynamic world of colorful puzzles.",
+    "screenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/c7/a5/f2c7a569-d38b-41ef-bd67-7c8c0d4c827d/CLEARTHEBOARD.jpg/1242x2688bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/76/e9/fc76e962-cbca-3e9f-830c-513be8b1250a/CHALLENGEYOURSELF.jpg/1242x2688bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/87/93/6087935a-5b0a-f9b2-eeb0-a9b6719877a6/ACTIVATEBOOSTERS.jpg/1242x2688bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/08/07/8c080772-8388-18ff-49b6-90b0fe3d6c82/UNIQUEOBSTACLES.jpg/1242x2688bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/6d/90/7e6d90b5-87fe-5c3e-2556-2d7e5a51fe21/BEATTHECLOCK.jpg/1242x2688bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/ae/6f/39ae6fcb-3b6e-847d-e200-7f0d59cd03b9/ss.5size1.png/1242x2688bb.jpg"
+    ],
+    "ipadScreenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/c4/18/fbc418ae-77a9-f8ed-eb37-5f170d8235a9/CLEARTHEBOARD.jpg/2064x2752bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/07/99/ad/0799ad1a-7abe-101e-ae38-9bd49b4f0a06/CHALLENGEYOURSELF.jpg/2064x2752bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/26/42/0d/26420d05-48e0-e2a2-5583-23de677a4bc7/ACTIVATEBOOSTERS.jpg/2064x2752bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/16/b5/b7/16b5b7f1-971e-6b6e-7eee-7adf70ca9c18/UNIQUEOBSTACLES.jpg/2064x2752bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2f/33/e2/2f33e26d-834b-8844-1b82-b977db07fbd9/BEATTHECLOCK.jpg/2064x2752bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/17/b2/1517b234-070f-84fc-a34a-02882d08facc/ss.5size2.png/2064x2752bb.jpg"
+    ],
+    "video": "https://www.youtube.com/watch?v=QJDAu15vVM0",
+    "_screenshotSource": "appstore-web (scraper/lookup API 回傳空,改抓網頁 serialized-server-data)"
   },
   "facts": {
     "source": "2026-06-12.json",

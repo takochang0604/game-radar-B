@@ -78,6 +78,44 @@ async function iosReviews(id, page, country) {
   }));
 }
 
+/**
+ * App Store 截圖 fallback：@perttu/app-store-scraper 的 app() 與 iTunes Lookup API
+ * 對許多 app（尤其 iOS 獨佔遊戲）的 screenshots 都回傳空陣列。此函式改抓 App Store
+ * 網頁內嵌的 serialized-server-data JSON，從中取出 iPhone / iPad 截圖的真實 URL。
+ * 回傳 { phone: [url...], ipad: [url...] }，失敗時回傳空陣列。
+ */
+async function fetchIosScreenshotsFromWeb(id, country = 'us') {
+  const numericId = parseInt(String(id).replace(/\D/g, ''), 10);
+  const url = `https://apps.apple.com/${country}/app/id${numericId}`;
+  const resolve = it => {
+    const s = it.screenshot;
+    if (!s?.template) return null;
+    return s.template
+      .replace('{w}', s.width).replace('{h}', s.height)
+      .replace('{c}', 'bb').replace('{f}', 'jpg');
+  };
+  try {
+    const r = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36',
+        'Accept-Language': 'en-US,en;q=0.9',
+      },
+    });
+    if (!r.ok) return { phone: [], ipad: [] };
+    const html = await r.text();
+    const m = html.match(/<script type="application\/json" id="serialized-server-data">([\s\S]*?)<\/script>/);
+    if (!m) return { phone: [], ipad: [] };
+    const data = JSON.parse(m[1]);
+    const shelf = data?.data?.[0]?.data?.shelfMapping || {};
+    const phone = (shelf.product_media_phone_?.items || []).map(resolve).filter(Boolean);
+    const ipad  = (shelf.product_media_pad_?.items   || []).map(resolve).filter(Boolean);
+    return { phone, ipad };
+  } catch (e) {
+    console.warn(`   ⚠️ App Store 網頁截圖 fallback 失敗（${e.message?.slice(0, 50)}）`);
+    return { phone: [], ipad: [] };
+  }
+}
+
 function latestDarkhorseFile() {
   const files = fs.readdirSync(DARKHORSE_DIR)
     .filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort();
@@ -320,6 +358,18 @@ async function main() {
     process.exit(1);
   }
 
+  // iOS 截圖 fallback：scraper / Lookup API 常回傳空陣列(尤其 iOS 獨佔遊戲),
+  // 改抓 App Store 網頁。Android 為主的報告通常用 GP 截圖,此處只補 iOS 真的缺圖時。
+  let iosScreenshots = iosApp?.screenshots || [];
+  let iosIpadScreenshots = iosApp?.ipadScreenshots || [];
+  if (iosApp && iosScreenshots.length === 0) {
+    console.log('   ↩️ App Store screenshots 為空,改抓網頁 serialized-server-data...');
+    const web = await fetchIosScreenshotsFromWeb(targetIosAppId, 'us');
+    iosScreenshots = web.phone;
+    iosIpadScreenshots = web.ipad;
+    console.log(`   📸 網頁取得 iPhone ${web.phone.length} 張 / iPad ${web.ipad.length} 張`);
+  }
+
   // [3/7] 系統觀測事實(觸發時間線 / 市場擴散 / 14 天走勢)
   console.log('🧾 [3/7] 系統觀測事實(darkhorse + snapshots)...');
   const appIdSet = new Set();
@@ -430,8 +480,8 @@ async function main() {
       developer: iosApp.developer, score: iosApp.score, reviews: iosApp.reviews,
       free: iosApp.free, released: iosApp.released, updated: iosApp.updated,
       version: iosApp.version, icon: iosApp.icon, genres: iosApp.genres,
-      screenshots: iosApp.screenshots || [],
-      ipadScreenshots: iosApp.ipadScreenshots || [],
+      screenshots: iosScreenshots,
+      ipadScreenshots: iosIpadScreenshots,
       description: iosApp.description,
     } : null,
 
