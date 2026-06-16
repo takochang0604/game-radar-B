@@ -57,8 +57,14 @@ service cloud.firestore {
     // ============================================================
     // 遊戲競爭力分析 — 追蹤清單（跨裝置同步，公開讀寫）
     // ============================================================
+    // 注意：Firestore 規則是「任一條 allow 為真即放行」，無法用更精確的 deny 覆蓋，
+    //   因此必須在 wildcard 規則本身排除 manualPairs，不能另開一條 deny。
     match /gameTracking/{docId} {
-      allow read, write: if true;
+      allow read: if true;
+      // 合併設定（manualPairs）改由本機 Admin SDK 腳本（scripts/manage-merges.js）管理，
+      //   禁止任何前端寫入 → 防止公開網址被他人惡意亂合併/解除（只有持有 service account 的擁有者能改）。
+      //   其餘文件（追蹤清單等）維持公開讀寫，供跨裝置同步。
+      allow write: if docId != 'manualPairs';
     }
 
     // ============================================================

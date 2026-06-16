@@ -581,6 +581,11 @@ function injectMergeUI(dh) {
   const modalContent = document.querySelector('#analysisModal .modal-content');
   if (!modalContent) return;
   modalContent.querySelector('.merge-icon-btn')?.remove();
+  // 合併功能改為「擁有者限定」：manualPairs 已在 Firestore 規則鎖為唯讀（前端禁寫），
+  //   合併/解除一律改由本機 Admin SDK 腳本 scripts/manage-merges.js 管理。
+  //   這裡不再注入合併按鈕（按了也會被規則擋下而報錯），避免公開站誤導訪客。
+  //   既有合併仍會正常顯示（applyManualPairs 在載入時套用，唯讀不受影響）。
+  return;
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'merge-icon-btn';
@@ -2476,7 +2481,7 @@ function showAnalysis(appId, platform) {
           ${detectedAtStr ? `<div style="font-size:11px;color:var(--text-muted);margin-top:4px">${isRetainedModal ? '👀 首次偵測' : '🆕 偵測日期'}：${detectedAtStr}${isRetainedModal ? ' · 持續觀察中' : ''}</div>` : ''}
         </div>
         ${findReport(dh.name, dh.appId) ? `
-          <button class="report-btn-sleek" style="align-self: flex-start; margin-top: 4px;" onclick="event.stopPropagation();showReport('${dh.name.replace(/'/g, "\\'")}','${dh.appId}','${dh.platform}')">
+          <button class="report-btn-sleek" style="align-self: flex-start; margin-top: 28px;" onclick="event.stopPropagation();showReport('${dh.name.replace(/'/g, "\\'")}','${dh.appId}','${dh.platform}')">
             📄 查看完整報告
           </button>
         ` : ''}
