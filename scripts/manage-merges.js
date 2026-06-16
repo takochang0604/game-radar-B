@@ -44,25 +44,32 @@ async function saveGroups(groups) {
   await ref.set({ groups });
 }
 
-// 從最新一份本機黑馬偵測結果建立 appId → 名稱 對照，讓 list 易讀
-function loadNameMap() {
-  const map = {};
+// 讀取最新一份本機黑馬偵測結果（供 search / list 使用）
+function loadLatestDarkhorses() {
   try {
     const dir = path.resolve(ROOT, 'data', 'darkhorse');
     const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).sort();
     if (files.length) {
       const data = JSON.parse(fs.readFileSync(path.join(dir, files[files.length - 1]), 'utf-8'));
-      for (const dh of (data.darkhorses || [])) {
-        if (dh.appId && !map[dh.appId]) map[dh.appId] = `${dh.name} (${dh.platform}/${dh.chartType})`;
-      }
+      return Array.isArray(data.darkhorses) ? data.darkhorses : [];
     }
-  } catch { /* 對照表是加分項，失敗就略過 */ }
+  } catch { /* 失敗就回空陣列 */ }
+  return [];
+}
+
+// 從最新黑馬資料建立 appId → 名稱 對照，讓 list 易讀
+function loadNameMap() {
+  const map = {};
+  for (const dh of loadLatestDarkhorses()) {
+    if (dh.appId && !map[dh.appId]) map[dh.appId] = `${dh.name} (${dh.platform}/${dh.chartType})`;
+  }
   return map;
 }
 
 function usage() {
   console.error('用法：');
-  console.error('  node scripts/manage-merges.js list');
+  console.error('  node scripts/manage-merges.js search <遊戲名關鍵字>          # 用名字查 appId');
+  console.error('  node scripts/manage-merges.js list                          # 列出目前合併群組');
   console.error('  node scripts/manage-merges.js add "群組名稱" <appId1> <appId2> [<appId3> ...]');
   console.error('  node scripts/manage-merges.js remove <groupId>');
 }
@@ -80,6 +87,30 @@ async function main() {
       (g.appIds || []).forEach(id => console.log(`     - ${id}${names[id] ? '  → ' + names[id] : ''}`));
       console.log('');
     });
+    return;
+  }
+
+  if (cmd === 'search') {
+    const kw = (args[0] || '').toLowerCase();
+    if (!kw) { console.error('❌ search 需要關鍵字\n'); usage(); process.exit(1); }
+    const byApp = new Map();
+    for (const dh of loadLatestDarkhorses()) {
+      const name = dh.name || '', dev = dh.developer || '';
+      if (!name.toLowerCase().includes(kw) && !dev.toLowerCase().includes(kw)) continue;
+      if (!byApp.has(dh.appId)) byApp.set(dh.appId, { appId: dh.appId, name, dev, variants: new Set(), markets: new Set() });
+      const e = byApp.get(dh.appId);
+      e.variants.add(`${dh.platform}/${dh.chartType}`);
+      (dh.markets || []).forEach(m => m.code && e.markets.add(m.code));
+    }
+    if (!byApp.size) { console.log(`找不到名稱/開發商含「${args[0]}」的黑馬遊戲（資料來源：最新一份 data/darkhorse）`); return; }
+    console.log(`符合「${args[0]}」的遊戲（${byApp.size} 個 appId）：\n`);
+    for (const e of byApp.values()) {
+      console.log(`  ${e.name}  —  ${e.dev}`);
+      console.log(`    appId : ${e.appId}`);
+      console.log(`    榜別  : ${[...e.variants].join(', ')}    市場: ${[...e.markets].join(',') || '—'}`);
+      console.log('');
+    }
+    console.log('合併用法: node scripts/manage-merges.js add "群組名稱" <appId1> <appId2> ...');
     return;
   }
 
