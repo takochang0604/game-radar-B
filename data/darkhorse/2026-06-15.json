@@ -324,6 +324,13 @@
           "flag": "🇹🇭",
           "rank": 4,
           "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 93,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -1621,6 +1628,13 @@
           "name": "菲律賓",
           "flag": "🇵🇭",
           "rank": 4,
+          "score": 0
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 80,
           "score": 0
         }
       ],
@@ -8127,7 +8141,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.279Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "kr",
@@ -12281,6 +12295,13 @@
           "flag": "🇵🇭",
           "rank": 46,
           "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 78,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -14234,6 +14255,13 @@
           "flag": "🇹🇭",
           "rank": 30,
           "score": 7
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 45,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -15679,6 +15707,13 @@
           "flag": "🇵🇭",
           "rank": 63,
           "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 73,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -16601,7 +16636,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.242Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "jp",
@@ -18050,7 +18085,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.370Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "kr",
@@ -23905,6 +23940,13 @@
           "flag": "🇹🇭",
           "rank": 13,
           "score": 0
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 69,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -25914,6 +25956,41 @@
           "flag": "🇵🇭",
           "rank": 43,
           "score": 6
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 5,
+          "score": 0
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 7,
+          "score": 0
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 16,
+          "score": 0
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 11,
+          "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 6,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -30354,7 +30431,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.024Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "us",
@@ -32229,7 +32306,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.184Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "jp",
@@ -35103,7 +35180,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.479Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "tw",
@@ -37964,6 +38041,13 @@
           "flag": "🇯🇵",
           "rank": 10,
           "score": 6
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 34,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -41260,6 +41344,20 @@
           "flag": "🇵🇭",
           "rank": 8,
           "score": 9
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 58,
+          "score": 0
+        },
+        {
+          "code": "vn",
+          "name": "越南",
+          "flag": "🇻🇳",
+          "rank": 90,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -52202,6 +52300,20 @@
           "flag": "🇵🇭",
           "rank": 16,
           "score": 4
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 77,
+          "score": 0
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 88,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -53416,6 +53528,41 @@
           "flag": "🇹🇭",
           "rank": 35,
           "score": 6
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 16,
+          "score": 0
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 20,
+          "score": 0
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 12,
+          "score": 0
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 19,
+          "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 40,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -53965,6 +54112,13 @@
           "name": "菲律賓",
           "flag": "🇵🇭",
           "rank": 88,
+          "score": 0
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 93,
           "score": 0
         }
       ],
@@ -55412,6 +55566,20 @@
           "name": "台灣",
           "flag": "🇹🇼",
           "rank": 77,
+          "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 76,
+          "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 83,
           "score": 0
         }
       ],
@@ -58022,7 +58190,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.027Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "us",
@@ -60554,7 +60722,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.060Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "us",
@@ -61510,7 +61678,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.243Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "jp",
@@ -64439,7 +64607,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.482Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "us",
@@ -66787,7 +66955,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.764Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "ph",
@@ -67265,7 +67433,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.845Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "ph",
@@ -69266,6 +69434,13 @@
           "name": "菲律賓",
           "flag": "🇵🇭",
           "rank": 34,
+          "score": 0
+        },
+        {
+          "code": "vn",
+          "name": "越南",
+          "flag": "🇻🇳",
+          "rank": 30,
           "score": 0
         }
       ],
@@ -78834,6 +79009,20 @@
           "flag": "🇹🇭",
           "rank": 87,
           "score": 0
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 62,
+          "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 22,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -80561,6 +80750,27 @@
           "flag": "🇹🇼",
           "rank": 65,
           "score": 9
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 83,
+          "score": 0
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 76,
+          "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 74,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -88091,6 +88301,34 @@
           "flag": "🇹🇼",
           "rank": 30,
           "score": 5
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 83,
+          "score": 0
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 76,
+          "score": 0
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 53,
+          "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 74,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -96226,6 +96464,20 @@
           "flag": "🇹🇼",
           "rank": 16,
           "score": 10
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 93,
+          "score": 0
+        },
+        {
+          "code": "vn",
+          "name": "越南",
+          "flag": "🇻🇳",
+          "rank": 97,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -105199,6 +105451,20 @@
           "flag": "🇵🇭",
           "rank": 48,
           "score": 0
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 24,
+          "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 14,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -107538,6 +107804,27 @@
           "name": "泰國",
           "flag": "🇹🇭",
           "rank": 22,
+          "score": 0
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 94,
+          "score": 0
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 25,
+          "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 93,
           "score": 0
         }
       ],
@@ -111205,7 +111492,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.586Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "th",
@@ -113121,7 +113408,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.693Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "vn",
@@ -114101,7 +114388,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.844Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "ph",
@@ -115650,6 +115937,13 @@
           "name": "菲律賓",
           "flag": "🇵🇭",
           "rank": 54,
+          "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 53,
           "score": 0
         }
       ],
@@ -118542,6 +118836,27 @@
           "flag": "🇯🇵",
           "rank": 30,
           "score": 8
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 54,
+          "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 100,
+          "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 73,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -121129,6 +121444,13 @@
           "flag": "🇯🇵",
           "rank": 29,
           "score": 4
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 81,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -128274,6 +128596,13 @@
           "flag": "🇹🇼",
           "rank": 8,
           "score": 9
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 93,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -131786,6 +132115,27 @@
           "flag": "🇯🇵",
           "rank": 35,
           "score": 5
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 89,
+          "score": 0
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 95,
+          "score": 0
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 86,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -136593,6 +136943,20 @@
           "flag": "🇹🇼",
           "rank": 36,
           "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 86,
+          "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 95,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -140513,6 +140877,13 @@
           "flag": "🇹🇭",
           "rank": 54,
           "score": 4
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 19,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -149576,6 +149947,13 @@
           "name": "台灣",
           "flag": "🇹🇼",
           "rank": 98,
+          "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 82,
           "score": 0
         }
       ],
@@ -161818,6 +162196,13 @@
           "flag": "🇹🇭",
           "rank": 9,
           "score": 4
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 87,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -172464,6 +172849,13 @@
           "flag": "🇻🇳",
           "rank": 27,
           "score": 4
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 100,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -174375,6 +174767,20 @@
           "flag": "🇹🇼",
           "rank": 96,
           "score": 0
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 53,
+          "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 56,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -175173,6 +175579,13 @@
           "flag": "🇵🇭",
           "rank": 47,
           "score": 4
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 81,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -175666,6 +176079,13 @@
           "flag": "🇺🇸",
           "rank": 34,
           "score": 3
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 10,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -176147,7 +176567,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.062Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "us",
@@ -176161,6 +176581,34 @@
           "name": "台灣",
           "flag": "🇹🇼",
           "rank": 96,
+          "score": 0
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 37,
+          "score": 0
+        },
+        {
+          "code": "kr",
+          "name": "韓國",
+          "flag": "🇰🇷",
+          "rank": 36,
+          "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 65,
+          "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 94,
           "score": 0
         }
       ],
@@ -177384,7 +177832,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.188Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "jp",
@@ -178089,7 +178537,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.188Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "jp",
@@ -179016,7 +179464,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.211Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "jp",
@@ -179505,7 +179953,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.212Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "jp",
@@ -180989,6 +181437,13 @@
           "name": "菲律賓",
           "flag": "🇵🇭",
           "rank": 100,
+          "score": 0
+        },
+        {
+          "code": "th",
+          "name": "泰國",
+          "flag": "🇹🇭",
+          "rank": 90,
           "score": 0
         }
       ],
@@ -182644,7 +183099,7 @@
           "chartType": "grossing"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.243Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "jp",
@@ -183133,7 +183588,7 @@
           "chartType": "topfree"
         }
       ],
-      "detectedAt": "2026-06-15T11:25:15.282Z",
+      "detectedAt": "2026-06-15T00:00:00.000Z",
       "markets": [
         {
           "code": "kr",
@@ -183630,6 +184085,13 @@
           "flag": "🇰🇷",
           "rank": 46,
           "score": 3
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 91,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -184204,6 +184666,20 @@
           "name": "菲律賓",
           "flag": "🇵🇭",
           "rank": 4,
+          "score": 0
+        },
+        {
+          "code": "jp",
+          "name": "日本",
+          "flag": "🇯🇵",
+          "rank": 94,
+          "score": 0
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 98,
           "score": 0
         }
       ],
@@ -191297,6 +191773,13 @@
           "flag": "🇹🇼",
           "rank": 81,
           "score": 5
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 83,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -193165,6 +193648,20 @@
           "flag": "🇰🇷",
           "rank": 63,
           "score": 4
+        },
+        {
+          "code": "tw",
+          "name": "台灣",
+          "flag": "🇹🇼",
+          "rank": 22,
+          "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 58,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -213820,6 +214317,13 @@
           "flag": "🇯🇵",
           "rank": 62,
           "score": 6
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 50,
+          "score": 0
         }
       ],
       "_rankHistoryByMarket": {
@@ -231913,6 +232417,20 @@
           "name": "泰國",
           "flag": "🇹🇭",
           "rank": 55,
+          "score": 0
+        },
+        {
+          "code": "us",
+          "name": "美國",
+          "flag": "🇺🇸",
+          "rank": 52,
+          "score": 0
+        },
+        {
+          "code": "ph",
+          "name": "菲律賓",
+          "flag": "🇵🇭",
+          "rank": 61,
           "score": 0
         }
       ],

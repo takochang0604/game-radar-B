@@ -620,7 +620,24 @@ const FIREBASE_MODE = true;
   process.exit(0);
 }
 
-main().catch(err => {
-  console.error('❌ 上傳失敗:', err);
-  process.exit(1);
-});
+// ============ CLI 模式分派 ============
+//   node scripts/upload-to-firebase.js                 → 完整上傳（每日標準流程）
+//   node scripts/upload-to-firebase.js darkhorses-only → 只更新 darkhorses doc（含 darkhorseHistory），
+//                                                        用於只改動偵測結果、不需重傳 snapshots/analysis 的情況
+const CLI_MODE = process.argv[2];
+if (CLI_MODE === 'darkhorses-only') {
+  (async () => {
+    console.log('🔥 只上傳黑馬資料（darkhorses doc + darkhorseHistory）...');
+    const r = await uploadDarkhorses();
+    console.log(r ? `✅ 完成：${r.darkhorses.length} 匹黑馬（${r.date}）` : '⚠️ 無黑馬資料可上傳');
+    process.exit(0);
+  })().catch(err => {
+    console.error('❌ 上傳失敗:', err);
+    process.exit(1);
+  });
+} else {
+  main().catch(err => {
+    console.error('❌ 上傳失敗:', err);
+    process.exit(1);
+  });
+}

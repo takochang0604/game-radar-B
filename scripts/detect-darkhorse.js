@@ -496,7 +496,11 @@ async function main() {
             const yesterdayDh = yesterdayDhMap.get(yesterdayKey);
 
             let mergedTriggers = [];
-            let originalDetectedAt = new Date().toISOString();
+            // detectedAt 用「邏輯今天」today（getToday()，會尊重命令列 OVERRIDE_DATE），
+            // 不可用 new Date()（系統時鐘）：否則用 `node detect-darkhorse.js <過去日期>` 重跑時，
+            // 新黑馬的 detectedAt 會被蓋成「實際執行當天」→ 前端「今日新黑馬 / 新進榜」依
+            // detectedAt===最新日 判斷，會全部對不上而消失。time 補 00:00:00Z，前端只取 substring(0,10)。
+            let originalDetectedAt = `${today}T00:00:00.000Z`;
 
             if (yesterdayDh) {
               originalDetectedAt = yesterdayDh.detectedAt || yesterdayDh._retainedFrom || yesterdayDateStr || originalDetectedAt;
@@ -1151,6 +1155,52 @@ async function main() {
     dh.timeDecay = Math.round(decay * 100) / 100;
     // 顯示分公式: confidenceScore × health × breadth × timeDecay,封頂 10
     dh.displayScore = Math.round(Math.min(dh.confidenceScore * health * breadth * decay, 10) * 100) / 100;
+  }
+
+  // ============ 補齊 markets（國旗）：納入最近 14 天「任一平台 / 任一榜型」上榜的市場 ============
+  // 背景：上方第 626-674 行的 markets 掃描只用 dh.appId × dh.platform × dh.chartType 精確比對，
+  //       會漏掉「同款遊戲在某市場用不同 appId、或在不同平台/榜型上榜」「只在非最新日上榜」的市場
+  //       （例：EA SPORTS FC 在菲律賓榜的版本）。前端 modal 的 findAppInAllMarkets 會掃所有
+  //       平台 × 榜型 × 含名稱比對的 appId 集合，因此 modal 顯示得到、外層卡片卻顯示不到 → 兩邊不一致。
+  // 作法：沿用 _topRanks 已比對出的完整 appId 集合（本體 + sibling + 名稱比對版本），
+  //       往前掃最近 14 天 × 所有市場 × 雙平台 × 雙榜型，把上榜過的市場國旗補進 dh.markets。
+  // 範圍：只補 markets（國旗），不動 _topRanks（當前榜排名 chip）與 displayScore / healthRatio
+  //       —— 計分只吃 _topRanks（見 breadthFactor / currentRanks），不吃 markets，故補國旗不影響計分。
+  // 窗口：14 天對齊前端 modal 的 slice(-14) 與 preloadAllMarketSnapshots，確保卡片與 modal 一致。
+  {
+    const FLAG_LOOKBACK = 14;
+    const SCAN_CHART_IDS = CHART_TYPES.map(c => c.id);
+    for (const dh of mergedDarkhorses) {
+      // 完整 appId 集合：本體 + sibling + _topRanks 名稱比對到的跨平台版本
+      const appIds = new Set([dh.appId, ...(dh._siblingAppIds || [])]);
+      for (const r of (dh._topRanks || [])) { if (r.appId) appIds.add(r.appId); }
+
+      if (!dh.markets) dh.markets = [];
+      const present = new Set(dh.markets.map(m => m.code));
+
+      for (const market of MARKETS) {
+        if (present.has(market.code)) continue; // 既有市場不動（rank 由前面掃描決定）
+        let hitRank = null;
+        // 由近至遠掃，取「最近一天」的排名作為國旗 hover 排名
+        for (let daysAgo = 0; daysAgo <= FLAG_LOOKBACK && hitRank == null; daysAgo++) {
+          const dateStr = getDateStr(daysAgo);
+          for (const scanPlatform of ['ios', 'android']) {
+            if (scanPlatform === 'android' && !market.hasGooglePlay) continue;
+            for (const ct of SCAN_CHART_IDS) {
+              const snap = loadSnapshot(dateStr, market.code, scanPlatform, ct);
+              if (!snap || !snap.data) continue;
+              const entry = snap.data.find(a => a.appId && appIds.has(a.appId) && a.rank && a.rank <= 100);
+              if (entry) { hitRank = entry.rank; break; }
+            }
+            if (hitRank != null) break;
+          }
+        }
+        if (hitRank != null) {
+          dh.markets.push({ code: market.code, name: market.name, flag: market.flag, rank: hitRank, score: 0 });
+          present.add(market.code);
+        }
+      }
+    }
   }
 
   // 用 displayScore 重新排序 (不動 confidenceScore 原值)

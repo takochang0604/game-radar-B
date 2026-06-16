@@ -902,9 +902,13 @@ async function ensureSnapshotLoaded(date, market) {
  * 背景預載所有市場快照（用於 Firebase 模式，讓「今日更新」統計盡快顯示）
  */
 async function preloadAllMarketSnapshots(date) {
+  // 載「最新一天」全市場 → 盡快刷新「今日更新」統計與卡片。
+  // 註：歷史上榜過的市場國旗已由後端偵測直接寫入 darkhorse.markets
+  //     （detect-darkhorse.js 的「補齊 markets」步驟掃最近 14 天 × 雙平台 × 雙榜型），
+  //     前端不需再背景掃最近 N 天快照來補國旗 → 開頁更輕、國旗第一眼即正確、無 pop-in。
   const promises = MARKETS.map(m => ensureSnapshotLoaded(date, m.code).catch(() => {}));
   await Promise.all(promises);
-  renderStats(); // 全部載完後刷新統計數字
+  renderStats(); // 刷新統計數字
   renderDarkhorses(); // 重新渲染黑馬卡片（國旗 + 排行可能有更新）
 }
 
@@ -1195,19 +1199,43 @@ function renderDarkhorses() {
     }
   }
 
-  // 後處理：從今日快照補充 markets（國旗）和 _topRanks（排名）
+  // 後處理：從快照補充 markets（國旗）和 _topRanks（排名）
+  // 國旗：掃描「所有已載入」快照（與詳情 modal 的國旗蒐集邏輯一致；未載入的日期會被略過），
+  //       避免遊戲只在非最新日上榜某市場時，外層卡片漏掉該國國旗（點進 modal 才補上）。
+  //       對應的 14 天快照由 preloadAllMarketSnapshots 在背景補載。
+  // 排名 chip（_topRanks）：僅取「最新一天」，維持「當前榜」語意，不被歷史排名汙染。
+  // 效能：每個日期只呼叫一次 findAppInAllMarkets（傳入全部卡片的 appId 聯集），
+  //       再用反查表分派，避免 N 天 × N 張卡片的重複掃描。
   if (state.availableDates && state.availableDates.length > 0) {
-    const latestDate = state.selectedDate || state.availableDates[state.availableDates.length - 1];
-    if (state.snapshots[latestDate]) {
-      for (const card of filtered) {
-        const appIds = new Set([card.appId, ...(card._siblingAppIds || [])]);
-        // 加入 _topRanks 裡的 appId（後端透過名稱比對找到的跨平台版本）
-        (card._topRanks || []).forEach(tr => { if (tr.appId) appIds.add(tr.appId); });
-        const found = findAppInAllMarkets(latestDate, appIds);
-        for (const [, entries] of found) {
+    // 注意：黑馬卡片必須用「真正的最新日」，不可用 state.selectedDate
+    //   （state.selectedDate 是排行榜 tab 的日期選擇器狀態）。
+    //   否則使用者在排行榜選了較舊日期後，黑馬卡片的排名 chip（_topRanks）會被該舊日期的
+    //   排名汙染 → 黑馬卡片不應受排行榜日期選擇影響。
+    const latestDate = state.availableDates[state.availableDates.length - 1];
+
+    // 建立 appId → cards 反查表（含 sibling 與 _topRanks 帶出的跨平台 appId）
+    const appIdToCards = new Map();
+    for (const card of filtered) {
+      if (!card.markets) card.markets = [];
+      const ids = new Set([card.appId, ...(card._siblingAppIds || [])]);
+      (card._topRanks || []).forEach(tr => { if (tr.appId) ids.add(tr.appId); });
+      for (const id of ids) {
+        if (!appIdToCards.has(id)) appIdToCards.set(id, []);
+        appIdToCards.get(id).push(card);
+      }
+    }
+    const allScanIds = new Set(appIdToCards.keys());
+
+    for (const scanDate of state.availableDates) {
+      if (!state.snapshots[scanDate]) continue;
+      const isLatest = scanDate === latestDate;
+      const found = findAppInAllMarkets(scanDate, allScanIds);
+      for (const [foundId, entries] of found) {
+        const cards = appIdToCards.get(foundId);
+        if (!cards) continue;
+        for (const card of cards) {
           for (const entry of entries) {
-            // 補充 markets（國旗）
-            if (!card.markets) card.markets = [];
+            // 補充 markets（國旗）— 已載入快照內出現過即顯示，與 modal 一致
             const existing = card.markets.find(m => m.code === entry.code);
             if (!existing) {
               card.markets.push({
@@ -1220,26 +1248,31 @@ function renderDarkhorses() {
               existing.rank = entry.rank;
             }
 
-            // 補充 _topRanks（卡片右上角排名）
-            if (!card._topRanks) card._topRanks = [];
-            const existingRank = card._topRanks.find(
-              tr => tr.marketCode === entry.code && tr.platform === entry.platform && tr.chartLabel === (entry.chartType === 'grossing' ? '營收' : '免費')
-            );
-            if (!existingRank) {
-              card._topRanks.push({
-                marketCode: entry.code,
-                marketFlag: getFlag(entry.code),
-                platform: entry.platform,
-                rank: entry.rank,
-                chartLabel: entry.chartType === 'grossing' ? '營收' : '免費',
-              });
+            // 補充 _topRanks（卡片右上角排名 chip）— 僅最新一天，維持當前榜語意
+            if (isLatest) {
+              if (!card._topRanks) card._topRanks = [];
+              const existingRank = card._topRanks.find(
+                tr => tr.marketCode === entry.code && tr.platform === entry.platform && tr.chartLabel === (entry.chartType === 'grossing' ? '營收' : '免費')
+              );
+              if (!existingRank) {
+                card._topRanks.push({
+                  marketCode: entry.code,
+                  marketFlag: getFlag(entry.code),
+                  platform: entry.platform,
+                  rank: entry.rank,
+                  chartLabel: entry.chartType === 'grossing' ? '營收' : '免費',
+                });
+              }
             }
           }
         }
-        // 排序 _topRanks
-        if (card._topRanks && card._topRanks.length > 1) {
-          card._topRanks.sort((a, b) => a.rank - b.rank);
-        }
+      }
+    }
+
+    // 排序 _topRanks
+    for (const card of filtered) {
+      if (card._topRanks && card._topRanks.length > 1) {
+        card._topRanks.sort((a, b) => a.rank - b.rank);
       }
     }
   }
@@ -1885,10 +1918,13 @@ function showAnalysis(appId, platform) {
   // 修正：動態同步 allDh 的 currentRank 及其 triggers 的名次為最新排名，解決彈窗黑馬觸發條件名次過期的問題
   // ⚠️ 重要：不可直接修改原始 dh 物件（它是 state.darkhorses 的 reference），否則會汙染卡片渲染的排名
   allDh.forEach(dh => {
-    // 優先從當日排行榜快照獲取最新排名，以確保最新最準確
+    // 從「真正的最新日」快照取最新排名，以確保最新最準確。
+    // 不可用 state.selectedDate（那是排行榜 tab 的日期選擇器狀態）：
+    //   否則使用者在排行榜選了舊日期後，黑馬 modal 顯示的觸發名次會變成該舊日期的
+    //   → 黑馬不應受排行榜日期選擇影響。找不到該日快照時下方會 fallback 到 dh.currentRank（最新偵測值）。
     let latestRank = null;
     const targetMarket = dh.market || dh.marketCode || state.rankMarket;
-    const date = state.selectedDate;
+    const date = state.availableDates[state.availableDates.length - 1];
     if (date && state.snapshots[date] && state.snapshots[date][targetMarket]) {
       const md = state.snapshots[date][targetMarket];
       const plat = dh.platform;
@@ -2344,7 +2380,8 @@ function showAnalysis(appId, platform) {
   // 3. 基礎 4 項數據縮小為底部橫條
   let detail = analysis?.detail || {};
   if (!detail.released) {
-    const date = state.selectedDate;
+    // 用真正最新日，不可用 state.selectedDate（排行榜日期選擇器狀態）→ 黑馬 modal 不應受排行榜日期影響
+    const date = state.availableDates[state.availableDates.length - 1];
     if (date && state.snapshots[date] && state.snapshots[date][state.rankMarket]) {
       const md = state.snapshots[date][state.rankMarket];
       for (const p of ['ios', 'android']) {
@@ -2374,7 +2411,8 @@ function showAnalysis(appId, platform) {
 
   // 4. 其它區塊 (遊戲簡介, 相關報導, 評分分布, 觀察方向, AppMagic Links 等)
   const summary = analysis?.detail?.summary || (() => {
-    const date = state.selectedDate;
+    // 用真正最新日，不可用 state.selectedDate（排行榜日期選擇器狀態）→ 黑馬 modal 不應受排行榜日期影響
+    const date = state.availableDates[state.availableDates.length - 1];
     if (date && state.snapshots[date] && state.snapshots[date][state.rankMarket]) {
       const md = state.snapshots[date][state.rankMarket];
       for (const p of ['ios', 'android']) {
@@ -2806,8 +2844,8 @@ function renderModalChart(dh, days, activeBtn) {
 
   if (lines.length === 0) {
     // 無資料時仍渲染空圖表框架（有 Y 軸 1-100、X 軸日期），讓使用者可切換時間範圍
-    let endIdx = state.availableDates.indexOf(state.selectedDate);
-    if (endIdx === -1) endIdx = state.availableDates.length - 1;
+    // X 軸固定到「真正的最新日」，不可用 state.selectedDate（排行榜日期選擇器狀態）→ 黑馬圖表不應受排行榜日期影響
+    let endIdx = state.availableDates.length - 1;
     let emptyDates = state.availableDates.slice(0, endIdx + 1);
     if (days && emptyDates.length > days) emptyDates = emptyDates.slice(-days);
     const emptyLabels = emptyDates.map(d => d.substring(5));
@@ -2827,8 +2865,8 @@ function renderModalChart(dh, days, activeBtn) {
   }
 
   // 統一 X 軸日期 (基於系統可用日期序列以確保各市場的時間線起點與長度一致)，並按 days 篩選最後 N 天
-  let endIdx = state.availableDates.indexOf(state.selectedDate);
-  if (endIdx === -1) endIdx = state.availableDates.length - 1;
+  // X 軸固定到「真正的最新日」，不可用 state.selectedDate（排行榜日期選擇器狀態）→ 黑馬圖表不應受排行榜日期影響
+  let endIdx = state.availableDates.length - 1;
   let allDates = state.availableDates.slice(0, endIdx + 1);
   const totalDays = allDates.length;
 
