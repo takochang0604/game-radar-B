@@ -2082,6 +2082,64 @@ th .flag-icon {
 }
 .merge-icon-btn svg { display: block; pointer-events: none; }
 
+/* ============ 擁有者登入按鈕 + 帳號資訊面板 ============ */
+.owner-login-btn.signed-in {
+  color: var(--accent-green, #10b981);
+  border-color: rgba(16, 185, 129, 0.5);
+  background: rgba(16, 185, 129, 0.12);
+}
+.owner-panel-overlay {
+  position: fixed; inset: 0; z-index: 11000;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+}
+.owner-panel {
+  width: 100%; max-width: 360px;
+  background: var(--bg-secondary, #161b26);
+  border: 1px solid var(--border-glass, rgba(255,255,255,0.1));
+  border-radius: var(--radius-lg, 16px);
+  padding: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+.owner-panel-title {
+  font-size: 15px; font-weight: 700; margin-bottom: 14px;
+  color: var(--text-primary, #e8edf5);
+}
+.owner-row {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 13px; margin-bottom: 10px;
+  color: var(--text-muted, #94a3b8);
+}
+.owner-row > span { min-width: 48px; }
+.owner-row code {
+  flex: 1; word-break: break-all;
+  background: rgba(255,255,255,0.05);
+  padding: 4px 8px; border-radius: 6px;
+  color: var(--text-primary, #e8edf5); font-size: 12px;
+}
+.owner-uid { cursor: pointer; }
+.owner-uid:hover { background: rgba(59,130,246,0.18); }
+.owner-note {
+  font-size: 12px; line-height: 1.6;
+  color: var(--text-secondary, #cbd5e1);
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px; padding: 10px 12px; margin: 12px 0 16px;
+}
+.owner-signout {
+  width: 100%; padding: 9px 16px;
+  border-radius: 8px; cursor: pointer;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: var(--text-primary, #e8edf5); font-size: 13px;
+  transition: var(--transition, all 0.2s);
+}
+.owner-signout:hover {
+  background: rgba(239, 68, 68, 0.18);
+  border-color: rgba(239, 68, 68, 0.4);
+  color: #ff8080;
+}
+
 /* picker / group-info 內仍會用到的小 button */
 .merge-btn {
   padding: 8px 16px;

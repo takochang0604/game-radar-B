@@ -14,6 +14,9 @@ import {
   getFirestore, collection, doc, getDoc, getDocs, setDoc, deleteField,
   query, orderBy, limit,
 } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
+import {
+  getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged,
+} from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
 
 // ============ Firebase 初始化 ============
 const firebaseConfig = {
@@ -28,8 +31,17 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
+const auth = getAuth(app);
 
 const COLLECTION = 'gameAnalysis-dev';  // dev 分支用獨立 collection，不影響正式版
+
+// ============ 擁有者登入（合併功能限定）============
+// 合併設定 gameTracking/manualPairs 在 Firestore 規則限定「指定 UID 登入後才可寫」，
+// 這裡提供 Google 登入 / 登出 / 狀態監聽給前端用。真正的權限判斷在規則層，前端只是 UX。
+export function onOwnerAuthChange(cb) { return onAuthStateChanged(auth, cb); }
+export async function ownerSignIn() { return signInWithPopup(auth, new GoogleAuthProvider()); }
+export async function ownerSignOut() { return signOut(auth); }
+export function getOwnerUser() { return auth.currentUser; }
 
 // ============ 快取 ============
 const cache = {

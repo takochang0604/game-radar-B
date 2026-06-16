@@ -72,6 +72,7 @@ let state = {
   trendPreset: 'top10',
   dhReportFilter: 'all',
   activeTab: 'darkhorse',
+  ownerUser: null,       // 已登入的擁有者（Firebase Auth）— 合併功能限定
   rankPage: 1,
   rankPageSize: 50,
 };
@@ -152,6 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initModal();
   initDateSelector();
   initScoreInfo();
+  initOwnerAuth();
   loadData();
 });
 
@@ -572,6 +574,101 @@ function applyManualPairs(darkhorses, groups) {
   return result;
 }
 
+// =============== 擁有者登入（合併功能限定）===============
+// ⚠️ 登入一次後，把畫面右上角「帳號資訊」顯示的 UID 填進這裡。
+//   這只是前端 UX（決定要不要顯示合併按鈕）；真正的權限在 Firestore 規則
+//   （gameTracking/manualPairs 只允許這個 UID 寫入），別人改前端也繞不過。
+const OWNER_UID = 'khamEshsP8S8mrKYeW9TgyemncQ2';  // 擁有者 Google 帳號 UID（合併功能限定）
+
+function isOwner() {
+  const u = state.ownerUser;
+  return !!(u && OWNER_UID && u.uid === OWNER_UID);
+}
+
+let _ownerAuthApi = null;
+async function initOwnerAuth() {
+  try {
+    _ownerAuthApi = await import('./firebase-data.js');
+  } catch (e) { return; }
+  if (!_ownerAuthApi || typeof _ownerAuthApi.onOwnerAuthChange !== 'function') return;
+
+  const btn = document.getElementById('ownerLoginBtn');
+  if (btn) {
+    btn.style.display = '';
+    btn.onclick = ownerAuthClick;
+  }
+  _ownerAuthApi.onOwnerAuthChange(user => {
+    state.ownerUser = user || null;
+    updateOwnerUI();
+    // 登入狀態改變時，若分析 Modal 正開著，重新注入合併按鈕（顯示/隱藏）
+    if (window._currentDh && document.getElementById('analysisModal')?.classList.contains('active')) {
+      injectMergeUI(window._currentDh);
+    }
+  });
+}
+
+async function ownerAuthClick() {
+  if (!_ownerAuthApi) return;
+  if (state.ownerUser) {
+    showOwnerPanel();                 // 已登入 → 顯示帳號資訊 + 登出
+  } else {
+    try {
+      await _ownerAuthApi.ownerSignIn();
+    } catch (e) {
+      alert('登入失敗：' + (e?.message || e));
+    }
+  }
+}
+
+function updateOwnerUI() {
+  const btn = document.getElementById('ownerLoginBtn');
+  if (!btn) return;
+  if (state.ownerUser) {
+    btn.classList.add('signed-in');
+    btn.title = isOwner() ? '管理員已登入（可合併）— 點擊查看 / 登出'
+                          : '已登入：' + (state.ownerUser.email || '') + '（點擊查看 / 登出）';
+  } else {
+    btn.classList.remove('signed-in');
+    btn.title = '登入（管理員）';
+  }
+}
+
+function showOwnerPanel() {
+  const u = state.ownerUser;
+  if (!u) return;
+  document.querySelector('.owner-panel-overlay')?.remove();
+  const overlay = document.createElement('div');
+  overlay.className = 'owner-panel-overlay';
+  overlay.onclick = (e) => { if (e.target === overlay) overlay.remove(); };
+  const status = OWNER_UID
+    ? (isOwner() ? '✅ 你是管理員，合併按鈕已啟用'
+                 : '⚠️ 此帳號不是設定的管理員 UID，無法合併')
+    : '🛠️ 尚未設定管理員 UID — 請把下方 UID 提供給設定者，設定後合併按鈕才會出現';
+  overlay.innerHTML =
+    '<div class="owner-panel">' +
+      '<div class="owner-panel-title">帳號資訊</div>' +
+      '<div class="owner-row"><span>Email</span><code>' + _mergeEscape(u.email || '—') + '</code></div>' +
+      '<div class="owner-row"><span>UID</span><code class="owner-uid" title="點擊複製">' + _mergeEscape(u.uid) + '</code></div>' +
+      '<div class="owner-note">' + status + '</div>' +
+      '<button class="owner-signout" type="button">登出</button>' +
+    '</div>';
+  document.body.appendChild(overlay);
+  overlay.querySelector('.owner-uid').onclick = () => {
+    navigator.clipboard?.writeText(u.uid).then(() => {
+      const el = overlay.querySelector('.owner-uid');
+      const old = el.textContent;
+      el.textContent = '已複製！';
+      setTimeout(() => { el.textContent = old; }, 1200);
+    });
+  };
+  overlay.querySelector('.owner-signout').onclick = async () => {
+    try { await _ownerAuthApi.ownerSignOut(); } catch { /* ignore */ }
+    overlay.remove();
+  };
+}
+
+window.ownerAuthClick = ownerAuthClick;
+
 // =============== 手動合併 UI ===============
 function _mergeEscape(s) {
   return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -581,11 +678,10 @@ function injectMergeUI(dh) {
   const modalContent = document.querySelector('#analysisModal .modal-content');
   if (!modalContent) return;
   modalContent.querySelector('.merge-icon-btn')?.remove();
-  // 合併功能改為「擁有者限定」：manualPairs 已在 Firestore 規則鎖為唯讀（前端禁寫），
-  //   合併/解除一律改由本機 Admin SDK 腳本 scripts/manage-merges.js 管理。
-  //   這裡不再注入合併按鈕（按了也會被規則擋下而報錯），避免公開站誤導訪客。
-  //   既有合併仍會正常顯示（applyManualPairs 在載入時套用，唯讀不受影響）。
-  return;
+  // 合併功能限管理員：只有「登入且為指定 OWNER_UID」時才注入合併按鈕。
+  //   真正的權限在 Firestore 規則（gameTracking/manualPairs 只允許 OWNER_UID 寫入），
+  //   一般訪客看不到按鈕、就算改前端也寫不進去。既有合併仍由 applyManualPairs 正常顯示。
+  if (!isOwner()) return;
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'merge-icon-btn';

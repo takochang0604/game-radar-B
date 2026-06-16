@@ -61,10 +61,11 @@ service cloud.firestore {
     //   因此必須在 wildcard 規則本身排除 manualPairs，不能另開一條 deny。
     match /gameTracking/{docId} {
       allow read: if true;
-      // 合併設定（manualPairs）改由本機 Admin SDK 腳本（scripts/manage-merges.js）管理，
-      //   禁止任何前端寫入 → 防止公開網址被他人惡意亂合併/解除（只有持有 service account 的擁有者能改）。
+      // 合併設定（manualPairs）只允許「指定管理員 UID 登入後」寫入（前端用 Firebase Auth Google 登入）。
+      //   防止公開網址被他人惡意亂合併/解除。擁有者亦可用本機 Admin SDK 腳本 scripts/manage-merges.js 管理。
       //   其餘文件（追蹤清單等）維持公開讀寫，供跨裝置同步。
-      allow write: if docId != 'manualPairs';
+      allow write: if docId != 'manualPairs'
+                   || (request.auth != null && request.auth.uid == 'khamEshsP8S8mrKYeW9TgyemncQ2');
     }
 
     // ============================================================
