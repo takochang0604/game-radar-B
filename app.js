@@ -3672,9 +3672,11 @@ function renderReportsTab() {
       : '<span class="dh-tag benchmark">市場基準</span>';
 
     // POWERSCORE 六維等第徽章(舊報告沒等第則不顯示)
+    // 固定順序渲染（核心→養成→變現→動量→長線→口碑），不跟隨解析時的文件順序，
+    // 否則每份報告 POWERSCORE 表格順序略有差異會導致卡片徽章順序不一致。
     const gradesHtml = r.grades
-      ? `<div class="report-grades">${Object.entries(r.grades).map(([k, g]) =>
-          `<span class="report-grade-chip"><i>${GRADE_LABELS[k] || k}</i><b style="color:${gradeColor(g)}">${g}</b></span>`
+      ? `<div class="report-grades">${Object.keys(GRADE_LABELS).filter(k => r.grades[k]).map(k =>
+          `<span class="report-grade-chip"><i>${GRADE_LABELS[k]}</i><b style="color:${gradeColor(r.grades[k])}">${r.grades[k]}</b></span>`
         ).join('')}</div>`
       : '';
     const taglineHtml = r.tagline
