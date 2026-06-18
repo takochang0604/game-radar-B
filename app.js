@@ -3254,6 +3254,44 @@ function showReport(gameName, appId, platform) {
       }
     });
 
+    // 商店截圖:把連續的截圖圖片包成橫向畫廊(filmstrip),避免直式手機截圖
+    // 各自滿版直疊、佔據大量垂直空間。排除 icon(align)與影片縮圖(包在 <a> 內)。
+    const isShot = el => el && el.nodeType === 1 && el.tagName === 'IMG'
+      && !el.classList.contains('flag-icon')
+      && !el.hasAttribute('align')
+      && !el.closest('a');
+    body.querySelectorAll('.report-content img').forEach(img => {
+      if (!isShot(img) || img.closest('.report-gallery')) return;
+      // 收集同層連續的截圖(中間僅允許空白文字或 <br>)
+      const run = [img];
+      let node = img.nextSibling;
+      while (node) {
+        if (node.nodeType === 3 && !node.textContent.trim()) { node = node.nextSibling; continue; }
+        if (node.nodeType === 1 && node.tagName === 'BR') { node = node.nextSibling; continue; }
+        if (isShot(node)) { run.push(node); node = node.nextSibling; continue; }
+        break;
+      }
+      if (run.length >= 2) {
+        const gallery = document.createElement('div');
+        gallery.className = 'report-gallery';
+        const parent = img.parentNode;
+        // 若圖片被 marked 包進「只含圖片」的 <p>,用 gallery 取代該 <p>,
+        // 避免 <div> 直接放進 <p> 造成無效 HTML 被瀏覽器拆段。
+        const pOnlyImgs = parent.tagName === 'P' &&
+          Array.from(parent.childNodes).every(n =>
+            (n.nodeType === 3 && !n.textContent.trim()) ||
+            (n.nodeType === 1 && (n.tagName === 'BR' || isShot(n))));
+        if (pOnlyImgs) {
+          parent.parentNode.insertBefore(gallery, parent);
+          run.forEach(n => gallery.appendChild(n));
+          parent.remove();
+        } else {
+          parent.insertBefore(gallery, img);
+          run.forEach(n => gallery.appendChild(n));
+        }
+      }
+    });
+
     // ★ 現況對比條:報告是評測當下的快照,注入「今天」的即時狀態供對照
     injectReportStatusBar(body, md);
   } else {

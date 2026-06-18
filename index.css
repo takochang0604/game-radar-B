@@ -903,7 +903,7 @@ body::before {
 /* ============ Report Markdown Content ============ */
 .report-content {
   font-size: 14px; line-height: 1.8;
-  color: var(--text-secondary);
+  color: #cbd5e1;
 }
 .report-content h1 {
   font-size: 22px; font-weight: 800; color: var(--text-primary);
@@ -1058,6 +1058,25 @@ body::before {
   box-shadow: 0 4px 16px rgba(0,0,0,0.3);
   margin: 12px 0;
   display: block;
+}
+
+/* 商店截圖橫向畫廊（filmstrip）：直式手機截圖並排、超出可橫向捲動 */
+.report-content .report-gallery {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  margin: 14px 0;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+.report-content .report-gallery img:not(.flag-icon) {
+  height: 300px;
+  width: auto;
+  max-width: none;
+  flex: 0 0 auto;
+  margin: 0;
+  border-radius: 10px;
 }
 
 /* ============ Report RWD 補充 ============ */
@@ -1882,6 +1901,9 @@ th .flag-icon {
 }
 
 /* --- Report content --- */
+[data-theme="light"] .report-content {
+  color: #334155;
+}
 [data-theme="light"] .report-content th {
   background: rgba(0, 0, 0, 0.03);
   border-bottom-color: rgba(0, 0, 0, 0.08);
