@@ -1,0 +1,1126 @@
+{
+  "collectedAt": "2026-06-22T06:47:11.674Z",
+  "collectVersion": 3,
+  "android": null,
+  "ios": {
+    "id": 6748084174,
+    "appId": "com.flow.cannon-ball",
+    "title": "Smash Fest!",
+    "developer": "Flow Games Bilisim Yazilim ve Pazarlama Anonim Sirketi",
+    "score": 4.74291,
+    "reviews": 13544,
+    "free": true,
+    "released": "2025-12-16T08:00:00Z",
+    "updated": "2026-06-21T14:53:22Z",
+    "version": "491",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/82/e3/5982e328-5501-a20a-943e-fb891b0812f6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games"
+    ],
+    "screenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/fe/a6/3bfea604-e220-151c-477f-7f5a67b2c7b0/knock.jpg/1242x2688bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/ad/ba/7eadba4f-3acc-d244-2ad3-9e097d839e78/smash.jpg/1242x2688bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/e0/c1/b1e0c1a4-c430-4373-0dd6-a906bb7e6049/enjoy.jpg/1242x2688bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/b7/d1/00b7d1dd-047f-d295-0192-11b348c7790a/challenge.jpg/1242x2688bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/de/e1/afdee19c-8d50-cb43-dacd-1a31531f54af/clear.jpg/1242x2688bb.jpg"
+    ],
+    "ipadScreenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/99/a4/ee99a41b-b1bc-c11b-e2ce-3a1f2c5488dc/knock_ipad.png/2064x2752bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/cc/50/87cc5037-1afc-e31b-871f-5bcb253c1ea6/smash_ipad.png/2064x2752bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/07/ee/a807eea6-747b-6455-a894-5cd2c26e42e4/enjoy_ipad.png/2064x2752bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/43/10/d743103a-7102-33e4-b2e9-ff002b0c1f29/challenge_ipad.png/2064x2752bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/2c/35/3e2c35d4-eca1-4a76-d236-b95006a278ef/clear_ipad.png/2064x2752bb.jpg"
+    ],
+    "description": "Welcome to Smash Fest!\nGet ready for the most explosive festival in town! Step into a colorful arena where every shot counts — fire your cannon, smash through fragile jars, break apart heavy stones, and watch the chaos unfold in the most satisfying way.\nEach level is a brand-new challenge. Adjust your angle, power, and timing to create the perfect launch. One clean shot can trigger a chain of destruction that feels like pure magic. Easy to play from the first minute, but full of skill and precision for players who love mastering mechanics.\nFrom lively festival scenes to dynamic destruction effects, Smash Fest brings the ultimate aim – shoot – smash experience!\nKey Features\n- Stunning high-quality 3D visuals\n- Satisfying destruction: shattering jars & crumbling stones\n- Skill-based shot mechanics that reward perfect accuracy\n- Colorful festival environments with animated scenes\n- Simple controls, endlessly fun progression\nThe festival is ready!\nFire the cannon and let the show begin!"
+  },
+  "facts": {
+    "source": "2026-06-21.json",
+    "detectedAt": "2026-06-12T11:25:32.636Z",
+    "category": "게임",
+    "confidenceScore": 9,
+    "displayScore": 9.7,
+    "healthRatio": 1,
+    "entries": [
+      {
+        "appId": "6748084174",
+        "platform": "ios",
+        "chartType": "topfree"
+      }
+    ],
+    "chartedMarkets": [
+      "us",
+      "jp",
+      "tw",
+      "th",
+      "kr",
+      "ph"
+    ],
+    "currentMarkets": [
+      {
+        "market": "us",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 4
+      },
+      {
+        "market": "jp",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 6
+      },
+      {
+        "market": "tw",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 17
+      },
+      {
+        "market": "th",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 22
+      },
+      {
+        "market": "kr",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 44
+      },
+      {
+        "market": "ph",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 54
+      }
+    ],
+    "triggerTimeline": [
+      {
+        "date": "2026-06-12",
+        "market": "us",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "7 天內排名從 #75 升至 #15（↑60 名）"
+      },
+      {
+        "date": "2026-06-12",
+        "market": "us",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "new_entry",
+        "label": "🆕 新進榜",
+        "detail": "強勢衝進 Top 30，偵測當下排名 #15"
+      },
+      {
+        "date": "2026-06-14",
+        "market": "us",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "growth_multiplier",
+        "label": "📊 成長加速",
+        "detail": "成長倍率 2.6×（近 3 天平均 #18 vs 近 7 天平均 #46）"
+      },
+      {
+        "date": "2026-06-16",
+        "market": "jp",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "new_entry",
+        "label": "🆕 新進榜",
+        "detail": "首次進入 Top 100，目前排名 #6"
+      },
+      {
+        "date": "2026-06-17",
+        "market": "kr",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "3 天內排名從 #85 升至 #46（↑39 名）"
+      },
+      {
+        "date": "2026-06-17",
+        "market": "th",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "5 天內排名從 #76 升至 #23（↑53 名）"
+      },
+      {
+        "date": "2026-06-19",
+        "market": "tw",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "7 天內排名從 #54 升至 #16（↑38 名）"
+      }
+    ],
+    "marketExpansionOrder": [
+      {
+        "market": "us",
+        "firstTriggerDate": "2026-06-12"
+      },
+      {
+        "market": "jp",
+        "firstTriggerDate": "2026-06-16"
+      },
+      {
+        "market": "kr",
+        "firstTriggerDate": "2026-06-17"
+      },
+      {
+        "market": "th",
+        "firstTriggerDate": "2026-06-17"
+      },
+      {
+        "market": "tw",
+        "firstTriggerDate": "2026-06-19"
+      }
+    ],
+    "rankHistory14d": {
+      "us_ios_topfree": [
+        {
+          "date": "2026-06-08",
+          "rank": 88
+        },
+        {
+          "date": "2026-06-09",
+          "rank": 76
+        },
+        {
+          "date": "2026-06-10",
+          "rank": 54
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 53
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 15
+        },
+        {
+          "date": "2026-06-13",
+          "rank": 18
+        },
+        {
+          "date": "2026-06-14",
+          "rank": 21
+        },
+        {
+          "date": "2026-06-15",
+          "rank": 6
+        },
+        {
+          "date": "2026-06-16",
+          "rank": 4
+        },
+        {
+          "date": "2026-06-17",
+          "rank": 5
+        },
+        {
+          "date": "2026-06-18",
+          "rank": 6
+        },
+        {
+          "date": "2026-06-19",
+          "rank": 6
+        },
+        {
+          "date": "2026-06-20",
+          "rank": 4
+        },
+        {
+          "date": "2026-06-21",
+          "rank": 4
+        }
+      ],
+      "jp_ios_topfree": [
+        {
+          "date": "2026-06-08",
+          "rank": null
+        },
+        {
+          "date": "2026-06-09",
+          "rank": null
+        },
+        {
+          "date": "2026-06-10",
+          "rank": null
+        },
+        {
+          "date": "2026-06-11",
+          "rank": null
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 23
+        },
+        {
+          "date": "2026-06-13",
+          "rank": 26
+        },
+        {
+          "date": "2026-06-14",
+          "rank": 38
+        },
+        {
+          "date": "2026-06-15",
+          "rank": 9
+        },
+        {
+          "date": "2026-06-16",
+          "rank": 6
+        },
+        {
+          "date": "2026-06-17",
+          "rank": 7
+        },
+        {
+          "date": "2026-06-18",
+          "rank": 9
+        },
+        {
+          "date": "2026-06-19",
+          "rank": 9
+        },
+        {
+          "date": "2026-06-20",
+          "rank": 5
+        },
+        {
+          "date": "2026-06-21",
+          "rank": 6
+        }
+      ],
+      "tw_ios_topfree": [
+        {
+          "date": "2026-06-08",
+          "rank": null
+        },
+        {
+          "date": "2026-06-09",
+          "rank": null
+        },
+        {
+          "date": "2026-06-10",
+          "rank": null
+        },
+        {
+          "date": "2026-06-11",
+          "rank": null
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 47
+        },
+        {
+          "date": "2026-06-13",
+          "rank": 54
+        },
+        {
+          "date": "2026-06-14",
+          "rank": 75
+        },
+        {
+          "date": "2026-06-15",
+          "rank": 26
+        },
+        {
+          "date": "2026-06-16",
+          "rank": 10
+        },
+        {
+          "date": "2026-06-17",
+          "rank": 14
+        },
+        {
+          "date": "2026-06-18",
+          "rank": 13
+        },
+        {
+          "date": "2026-06-19",
+          "rank": 16
+        },
+        {
+          "date": "2026-06-20",
+          "rank": 12
+        },
+        {
+          "date": "2026-06-21",
+          "rank": 17
+        }
+      ],
+      "th_ios_topfree": [
+        {
+          "date": "2026-06-08",
+          "rank": null
+        },
+        {
+          "date": "2026-06-09",
+          "rank": null
+        },
+        {
+          "date": "2026-06-10",
+          "rank": null
+        },
+        {
+          "date": "2026-06-11",
+          "rank": null
+        },
+        {
+          "date": "2026-06-12",
+          "rank": 76
+        },
+        {
+          "date": "2026-06-13",
+          "rank": 83
+        },
+        {
+          "date": "2026-06-14",
+          "rank": null
+        },
+        {
+          "date": "2026-06-15",
+          "rank": 55
+        },
+        {
+          "date": "2026-06-16",
+          "rank": 23
+        },
+        {
+          "date": "2026-06-17",
+          "rank": 23
+        },
+        {
+          "date": "2026-06-18",
+          "rank": 32
+        },
+        {
+          "date": "2026-06-19",
+          "rank": 27
+        },
+        {
+          "date": "2026-06-20",
+          "rank": 19
+        },
+        {
+          "date": "2026-06-21",
+          "rank": 22
+        }
+      ],
+      "kr_ios_topfree": [
+        {
+          "date": "2026-06-08",
+          "rank": null
+        },
+        {
+          "date": "2026-06-09",
+          "rank": null
+        },
+        {
+          "date": "2026-06-10",
+          "rank": null
+        },
+        {
+          "date": "2026-06-11",
+          "rank": null
+        },
+        {
+          "date": "2026-06-12",
+          "rank": null
+        },
+        {
+          "date": "2026-06-13",
+          "rank": null
+        },
+        {
+          "date": "2026-06-14",
+          "rank": null
+        },
+        {
+          "date": "2026-06-15",
+          "rank": 85
+        },
+        {
+          "date": "2026-06-16",
+          "rank": 49
+        },
+        {
+          "date": "2026-06-17",
+          "rank": 46
+        },
+        {
+          "date": "2026-06-18",
+          "rank": 54
+        },
+        {
+          "date": "2026-06-19",
+          "rank": 37
+        },
+        {
+          "date": "2026-06-20",
+          "rank": 33
+        },
+        {
+          "date": "2026-06-21",
+          "rank": 44
+        }
+      ],
+      "ph_ios_topfree": [
+        {
+          "date": "2026-06-08",
+          "rank": null
+        },
+        {
+          "date": "2026-06-09",
+          "rank": null
+        },
+        {
+          "date": "2026-06-10",
+          "rank": null
+        },
+        {
+          "date": "2026-06-11",
+          "rank": null
+        },
+        {
+          "date": "2026-06-12",
+          "rank": null
+        },
+        {
+          "date": "2026-06-13",
+          "rank": null
+        },
+        {
+          "date": "2026-06-14",
+          "rank": null
+        },
+        {
+          "date": "2026-06-15",
+          "rank": null
+        },
+        {
+          "date": "2026-06-16",
+          "rank": 57
+        },
+        {
+          "date": "2026-06-17",
+          "rank": 64
+        },
+        {
+          "date": "2026-06-18",
+          "rank": null
+        },
+        {
+          "date": "2026-06-19",
+          "rank": null
+        },
+        {
+          "date": "2026-06-20",
+          "rank": 66
+        },
+        {
+          "date": "2026-06-21",
+          "rank": 54
+        }
+      ]
+    }
+  },
+  "cohortBaseline": {
+    "category": "게임",
+    "windowDays": 20,
+    "cohortSize": 67,
+    "avgMarketCount": 2.1,
+    "medianLifespanDays": 6,
+    "top10Share": 46,
+    "thisGame": {
+      "lifespanDays": 10,
+      "maxMarkets": 6,
+      "bestRank": 4
+    }
+  },
+  "reviews": {
+    "total": 49,
+    "googlePlay": 0,
+    "appStore": 49,
+    "sampling": {
+      "markets": [
+        "us",
+        "jp",
+        "tw",
+        "th",
+        "kr",
+        "ph"
+      ],
+      "gpLanguages": [
+        "en",
+        "ja",
+        "zh-TW",
+        "th",
+        "ko"
+      ],
+      "iosCountries": [
+        "us",
+        "jp",
+        "tw",
+        "th",
+        "kr",
+        "ph"
+      ],
+      "byLang": {
+        "en": 0,
+        "ja": 0,
+        "zh-TW": 0,
+        "th": 0,
+        "ko": 0
+      },
+      "byCountry": {
+        "us": 49,
+        "jp": 0,
+        "tw": 0,
+        "th": 0,
+        "kr": 0,
+        "ph": 0
+      }
+    },
+    "distribution": {
+      "1": 10,
+      "2": 10,
+      "3": 5,
+      "4": 8,
+      "5": 16
+    },
+    "positive": [
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "ijoke4u",
+        "score": 5,
+        "text": "Love this game",
+        "date": "2026-06-18T14:45:58-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kimmi078",
+        "score": 5,
+        "text": "I play this game everyday. It’s so addictive, and not to bad with the ads.",
+        "date": "2026-06-18T12:45:39-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "hedda hoppa",
+        "score": 5,
+        "text": "Love this game find it challenging and fun and the levels are varied and require strategy to get through each round wish you could win or earn boosters as you progress successfully through the levels but appreciate that you can earn more lives by watching videos when you need to try again and are out of lives give it a try you will get addicted like me",
+        "date": "2026-06-18T12:21:23-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "SteveAlaska",
+        "score": 5,
+        "text": "This is probably my favorite game to date. Very addictive. Thank you to everyone involved with the production of this game! 5 ⭐️’s!",
+        "date": "2026-06-18T10:02:27-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Burrinne",
+        "score": 5,
+        "text": "Thought I’d not like it but try it three times and your hooked. Great algorithms!",
+        "date": "2026-06-18T06:56:05-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "aprilgator",
+        "score": 5,
+        "text": "I've never written a review for a game before. This was instantly addictive and extraordinarily satisfying! :)",
+        "date": "2026-06-17T17:12:45-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Mami Luz",
+        "score": 5,
+        "text": "Awesome game!!!",
+        "date": "2026-06-17T12:56:57-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "ned bar brat",
+        "score": 5,
+        "text": "Great way to get your frustrations out, employ and some skill and make a mess without having to do any cleanup!",
+        "date": "2026-06-17T12:54:43-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "gmcquain77",
+        "score": 4,
+        "text": "Not seeing any ads so far. Great!!",
+        "date": "2026-06-17T09:29:11-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Captain Black (retired)",
+        "score": 4,
+        "text": "Good game. Good challenges. Not too many ads and their brief.",
+        "date": "2026-06-17T08:57:07-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Gotta pay",
+        "score": 5,
+        "text": "Great… until around level 10 where it becomes purely pay to play",
+        "date": "2026-06-17T00:14:22-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "DSpurling71",
+        "score": 5,
+        "text": "Love the game, but, unfortunately had to delete it due to pop up ads. No where on the download page did it say that the game contains ads, just in app purchases.",
+        "date": "2026-06-16T07:12:19-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Gojirarocks",
+        "score": 4,
+        "text": "Does anyone know how you increase the power of the shot? To knock down heavy objects.  Thanks",
+        "date": "2026-06-15T11:20:24-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Plimsollmark",
+        "score": 5,
+        "text": "This is definitely a 10 star game….A matter of balance between each Target..Some targets are heavier than others, therefore making targets of unequal balance..Center, Left and Right of each Target…A Daily game that doesn’t get boring at all. Thanks",
+        "date": "2026-06-14T13:40:02-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Captain1328",
+        "score": 4,
+        "text": "I’m not sure what all the hate is for this game. I guess it could seem boring and repetitive to most, but it’s a great idle game to take up some time. I personally don’t think any of the levels are too difficult. I do wish they did power ups, maybe some new types of balls (steel diamond, etc. whatever.) and maybe some new types of blocks. But I do enjoy. playing it several times a day. \nAlso, unlike other games, at least you only get an ad every three or four levels and they’re very short ads. Just removing one star hoping they update to add some new features.",
+        "date": "2026-06-14T07:14:04-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Techiegee",
+        "score": 4,
+        "text": "Can you add more, things to assist you , change up the game some , you have a good thing here but how can we win more prizes. Give other things to shoot at .",
+        "date": "2026-06-13T18:58:16-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "KristenRasco",
+        "score": 4,
+        "text": "The gameplay is fun and addictive. One small but super helpful feature request: Could you add a tally/counter at the start of each level showing the total number of blocks to smash, and then have it dynamically update (e.g., ‘12/45 blocks smashed’ or ‘33 left’) as you break them? It would make it easier to track progress through the level and give that satisfying sense of completion as the number drops. Keep up the great work!",
+        "date": "2026-06-11T09:07:17-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Mima394",
+        "score": 4,
+        "text": "The game is fun but the game field size is small. Too bad they don’t make it full screen!",
+        "date": "2026-06-06T13:26:12-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Allday49erss",
+        "score": 5,
+        "text": "Hundreds of levels no commercials.",
+        "date": "2026-06-03T20:15:54-07:00",
+        "version": "449"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Hecate2u",
+        "score": 5,
+        "text": "I honestly love this game. Some of the levels are difficult. But, it's all about finding where to hit blocks. I love that there's not an ad after every level.",
+        "date": "2026-05-24T21:23:39-07:00",
+        "version": "386"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "tau5end",
+        "score": 5,
+        "text": "the best experience for a stressful day. i want to break all the levels",
+        "date": "2026-05-08T09:03:26-07:00",
+        "version": "386"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "ShaSha0405",
+        "score": 5,
+        "text": "Game is fun and I just started playing.  Very relaxing and great game to play especially if you have anxiety.",
+        "date": "2026-04-15T17:19:50-07:00",
+        "version": "365"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Cyndi Lynn Haltom",
+        "score": 5,
+        "text": "There’s a lot more to this game than I first thought, because when I began playing it, I thought there was just 10 or 15 levels that repeat over and over, not so, things change. I really like this game.!!!",
+        "date": "2026-03-12T16:26:49-07:00",
+        "version": "343"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Mainepete",
+        "score": 4,
+        "text": "I really enjoy playing this game. It would be nice if new levels were added.",
+        "date": "2026-02-11T10:39:02-07:00",
+        "version": "229"
+      }
+    ],
+    "negative": [
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Sheevakai",
+        "score": 2,
+        "text": "If you like 7 million ads, then play this game",
+        "date": "2026-06-18T13:55:44-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Hopeksh",
+        "score": 1,
+        "text": "I have sent 3 emails without a reply. I paid to have ads removed, included my receipt on one of the emails and am still getting ads. The game is ok….will delete though because of the ad problem",
+        "date": "2026-06-18T09:24:43-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Piapaper",
+        "score": 1,
+        "text": "Doesn’t mater number r how fast? Only 20 pts? Chit",
+        "date": "2026-06-18T05:55:56-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "xzyiah",
+        "score": 1,
+        "text": "You make levels hard and then don’t give enough cannon balls to even try to win! no way to earn coins other then the little amount you get after beating a level ! no way to watch an ad for additional hits. i’m not keeping this game lol",
+        "date": "2026-06-17T07:54:05-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "atc5b7",
+        "score": 2,
+        "text": "Levels are fun to a point and then you get ads you can’t get rid of",
+        "date": "2026-06-16T23:56:25-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Gbrown88",
+        "score": 1,
+        "text": "Waste of a download!",
+        "date": "2026-06-16T20:44:58-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Saracurra",
+        "score": 1,
+        "text": "It seems like the majority of these puzzle games are created by the same developers who want you to watch tons of ads and make he game hard enough to where you have no choice but to watch ads to keep playing. Save your time and pass this one up.",
+        "date": "2026-06-15T18:33:30-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Fast Eddie 702",
+        "score": 1,
+        "text": "ADsADsADsADsADsADsADsADsADsADs",
+        "date": "2026-06-14T19:14:20-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Dive-boss",
+        "score": 1,
+        "text": "All about the $$",
+        "date": "2026-06-14T07:36:40-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "JEmlay",
+        "score": 1,
+        "text": "In one update they gave us rockets then in the very next update they took them away.  Boooo!!!!!\n\nAlso, after a while the game just keeps repeating old levels.",
+        "date": "2026-06-12T17:07:40-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "None Yobizniz",
+        "score": 1,
+        "text": "The game looks fun. It gets harder real fast then have to use up all your coins to keep playing. Then you run out of lives then the game puts you on hold for a certain amount of time! Who thinks this is fun.",
+        "date": "2026-06-12T15:26:49-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "gaimeegirl",
+        "score": 2,
+        "text": "This was a great game for about 250 rounds. Then you have to start playing each round 2 or 3 times because of the impossible way they stack the obstacles. The blocks are 3 deep so they take 5 hits to move them. Then it stops being fun. Plus, 900 coins to add 5 moves when you get only minimal coins for winning rounds? No way.",
+        "date": "2026-06-10T21:29:45-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "BexAnders",
+        "score": 2,
+        "text": "The new update overrides the app settings and phone settings so you have to have haptics. So annoying.",
+        "date": "2026-06-03T15:35:01-07:00",
+        "version": "449"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Bunnylong",
+        "score": 2,
+        "text": "It will not toggle the vibration mode off. That’s why I give 2 stars.",
+        "date": "2026-06-03T01:47:41-07:00",
+        "version": "449"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "LoveBiwling",
+        "score": 2,
+        "text": "Great time waster. $10 to remove ads WAY to much. Repetitive levels - no teams - no way to upgrade.",
+        "date": "2026-05-28T19:05:45-07:00",
+        "version": "386"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Baldude863xx",
+        "score": 2,
+        "text": "Got to level 54, ran out of “lives”. Challenging game and fun but if I’m watching ads between every level, I don’t expect to run out of “lives”. Now I’m not watching ANY of your ads, funny how that works..",
+        "date": "2026-05-28T18:46:01-07:00",
+        "version": "386"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Misspeller70",
+        "score": 2,
+        "text": "This game would be a lot more fun of there there power ups to earn. Like if there were bombs you could use now and then.",
+        "date": "2026-05-16T05:56:49-07:00",
+        "version": "386"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Zoeshelby",
+        "score": 2,
+        "text": "They recently added annoying ads even while mid- level. Unacceptable. Deleted.",
+        "date": "2026-05-09T22:13:40-07:00",
+        "version": "386"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Delyon0508",
+        "score": 1,
+        "text": "This game used to be super fun and relaxing. Now it is no fun. Ads,      And levels you can’t beat.",
+        "date": "2026-05-09T14:42:33-07:00",
+        "version": "386"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "camerontdy",
+        "score": 2,
+        "text": "Well, used to not have ads and it was great. The latest update they have ads every 2-3 levels and no way to get rid of them. Looks like I’m deleting it. Sold out. I’m out!  Correction. You can pay $9.99 to get rid of the ads. No thanks.",
+        "date": "2026-04-03T10:07:58-07:00",
+        "version": "365"
+      }
+    ],
+    "neutral": [
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "TabiGar",
+        "score": 3,
+        "text": "It would be cool to have the unused balls from the previous levels rollover into the current level.",
+        "date": "2026-06-17T09:12:40-07:00",
+        "version": "488"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "laursco",
+        "score": 3,
+        "text": "Fun enough, but after a point all it does is repeat the same 15-20 levels over and over",
+        "date": "2026-06-14T19:11:43-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Gynotai",
+        "score": 3,
+        "text": "What’s up with the rockets?  They have ZERO efffect on the game.  A useless addition.  Want to add something useful?  Create a “shot bank” and add one shot into it for every 10 shots you have left over at the end of each round.  If you’re a good shot, you’ll have saved shots to use when you need them.  TURN WIFI OFF BEFORE LOADING = NO ADS.",
+        "date": "2026-06-05T18:33:39-07:00",
+        "version": "463"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kac33590",
+        "score": 3,
+        "text": "I hate that the screen is not as wide as the iPad screen",
+        "date": "2026-05-21T14:20:20-07:00",
+        "version": "386"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Areuapirate?",
+        "score": 3,
+        "text": "It’s therapeutic but it’s really like the same 10 or so levels repeating so idk about the hundreds of levels boast in the description. There are more levels of it in the toon blast mini game version. Why not adopt them into this version?",
+        "date": "2026-02-20T15:18:58-07:00",
+        "version": "229"
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "1404715677",
+      "title": "3D Bubble Shoot - ASMR Game",
+      "developer": "Ta Ta Game Technology Limited",
+      "score": 4.91417,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/fc/e1/34fce1a0-0cde-1dae-d325-f7e67e79f858/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6763011499",
+      "title": "Grass Master – Cutting Game",
+      "developer": "SayGames LTD",
+      "score": 4.6928,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/98/c6/0d98c647-fdb3-38cd-29b6-80dd520cb6f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6741755675",
+      "title": "Mini Golf Club PvP Multiplayer",
+      "developer": "BoomBit, Inc.",
+      "score": 4.72072,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/9a/a0/5a9aa025-2d30-44e4-77be-45a53b485418/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6748054540",
+      "title": "Bounce Blast 3D",
+      "developer": "Voodoo",
+      "score": 4.75771,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/a7/18/fca718cc-f68e-5f38-7281-11550022b8f5/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6747028173",
+      "title": "Hole Stars: Puzzle Game",
+      "developer": "Moon Active",
+      "score": 4.83295,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/40/76/764076e6-446e-3707-0f16-58806ce1b116/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6754558455",
+      "title": "Marble Sort!",
+      "developer": "Voodoo",
+      "score": 4.67157,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/fd/25/2efd2521-8962-58c7-a3f1-8a5c3f207ca6/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6743109451",
+      "title": "Eat All: Hole Game",
+      "developer": "Perry Games",
+      "score": 4.92513,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/e7/b8/dce7b81f-ca94-116b-c10c-0af6b3844973/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6742146628",
+      "title": "Tiles In Hole: Black Hole",
+      "developer": "LIHUHU PTE. LTD.",
+      "score": 4.68454,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/f5/f7/4df5f7c5-5609-be94-02ca-3012b7c917cb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6744381227",
+      "title": "Black Hole - Eat Everything",
+      "developer": "Leapjoy Games Limited",
+      "score": 4.7341,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/59/15/a5591560-645d-37f9-b3f8-801558ee5037/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6752929382",
+      "title": "CozySort: Coins",
+      "developer": "UniRise Studio",
+      "score": 4.8558,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/80/00/f7800021-2128-32e0-c603-ef7159b50b0f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    }
+  ],
+  "developerApps": [
+    {
+      "appId": "6748084174",
+      "title": "Smash Fest!",
+      "score": 4.74291,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/82/e3/5982e328-5501-a20a-943e-fb891b0812f6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    }
+  ]
+}
