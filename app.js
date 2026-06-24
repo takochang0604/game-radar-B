@@ -1645,55 +1645,68 @@ function renderDarkhorses() {
 
   // 國旗已改用 CDN 圖片，不再需要 emoji 重繪 hack
 
-  setTimeout(() => {
+  setTimeout(async () => {
+    // 先預載最近 7 天、卡片涉及市場的快照，讓 buildSparklineFromSnapshots 能取到
+    // 「排名第一市場的最近真實走勢」（snapshots 為延遲載入，開頁時只有最新一天）。
+    try {
+      const markets = new Set();
+      filtered.forEach(dh => { if (dh._topRanks && dh._topRanks[0] && dh._topRanks[0].marketCode) markets.add(dh._topRanks[0].marketCode); });
+      const recent = (state.availableDates || []).slice(-7);
+      await Promise.all([...markets].flatMap(m => recent.map(d => ensureSnapshotLoaded(d, m).catch(() => {}))));
+    } catch (e) { /* 載入失敗則走勢線回退到既有歷史線 */ }
+
     const canvasMap = new Map();
+
+    // 渲染單一卡片的迷你走勢線：IntersectionObserver（進視窗即時）與背景兜底共用此函式。
+    // 畫前檢查 Chart.getChart 與 isConnected，避免重複渲染或對已被取代的 canvas 操作。
+    const renderSparkline = (canvas, dh) => {
+      if (!canvas || !dh || !canvas.isConnected) return;
+      if (typeof Chart !== 'undefined' && Chart.getChart && Chart.getChart(canvas)) return;
+      // 迷你圖選線。第一優先：從 snapshots 即時掃描「排名第一市場（_topRanks[0]）+平台+榜別」
+      // 最近 7 天的真實排名——與詳情頁「排名歷史」同源，確保卡片走勢＝該遊戲目前最佳市場的最新
+      // 走勢，而非偵測時就停住的舊歷史（上傳的 _rankHistoryByMarket 可能停在兩週前）。
+      const validCount = arr => Array.isArray(arr) ? arr.filter(h => h && h.rank != null).length : 0;
+      let miniHistory = buildSparklineFromSnapshots(dh);
+      if (validCount(miniHistory) < 3) {
+        // 回退：snapshots 取不到足夠資料時，沿用上傳的歷史線（含最近排名者優先）
+        const recent7 = new Set((state.availableDates || []).slice(-7));
+        const isFresh = arr => Array.isArray(arr) && arr.some(h => h && h.rank != null && recent7.has(h.date));
+        const topLines = (dh._topRanks && dh._rankHistoryByLine)
+          ? dh._topRanks.map(tr => dh._rankHistoryByLine[`${tr.marketCode}_${tr.platform}_${tr.chartLabel === '營收' ? 'grossing' : 'topfree'}`]).filter(Boolean)
+          : [];
+        miniHistory = [];
+        for (const line of topLines) { if (validCount(line.data) >= 3 && isFresh(line.data)) { miniHistory = line.data; break; } }
+        if (miniHistory.length === 0 && isFresh(dh.rankHistory)) miniHistory = dh.rankHistory;
+        if (miniHistory.length === 0) { for (const line of topLines) { if (validCount(line.data) >= 3) { miniHistory = line.data; break; } } }
+        if (miniHistory.length === 0) miniHistory = (dh._trendHistory && dh._trendHistory.length > 0) ? dh._trendHistory : [];
+        if (miniHistory.length === 0) miniHistory = dh.rankHistory || [];
+        if (validCount(miniHistory) < 3 && dh._rankHistoryByLine) {
+          let best = null;
+          for (const line of Object.values(dh._rankHistoryByLine)) {
+            if (validCount(line.data) > validCount(best && best.data)) best = line;
+          }
+          if (best && validCount(best.data) >= 3) miniHistory = best.data;
+        }
+      }
+      if (validCount(miniHistory) < 3) {
+        canvas.style.display = 'none';
+        canvas.parentElement.innerHTML = `
+          <div style="height:50px;display:flex;align-items:center;justify-content:center;border:1px dashed rgba(255,255,255,0.08);border-radius:var(--radius-sm);background:rgba(255,255,255,0.01);color:var(--text-secondary);opacity:0.7;font-size:11px;gap:6px;letter-spacing:0.3px;width:100%">
+            新進榜首日，正累積歷史軌跡
+          </div>
+        `;
+      } else {
+        // 只取「有排名」的點並依日期排序，取最後 7 筆（避免線尾端是 null 而畫不出）
+        const sortedMini = miniHistory.filter(h => h && h.rank != null).sort((a, b) => a.date.localeCompare(b.date));
+        renderMiniChart(canvas, sortedMini.slice(-7));
+      }
+    };
+
     const observer = new IntersectionObserver((entries, obs) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          const canvas = entry.target;
-          const dh = canvasMap.get(canvas);
-          if (dh) {
-            // 迷你圖：優先用右上角排名第一名的國家資料（與國旗順序一致）
-            let miniHistory = [];
-            const primaryMkt = dh._primaryDisplayMarket;
-            if (primaryMkt && dh._rankHistoryByLine) {
-              // 在該國的所有線中取資料最長的
-              let bestLine = null;
-              for (const line of Object.values(dh._rankHistoryByLine)) {
-                if (line.market === primaryMkt && line.data && line.data.length > 0) {
-                  if (!bestLine || line.data.length > bestLine.data.length) bestLine = line;
-                }
-              }
-              if (bestLine) miniHistory = bestLine.data;
-            }
-            // fallback 1：用 _trendHistory 或 rankHistory（注意空陣列是 truthy）
-            if (miniHistory.length === 0) {
-              miniHistory = (dh._trendHistory && dh._trendHistory.length > 0) ? dh._trendHistory : [];
-            }
-            if (miniHistory.length === 0) {
-              miniHistory = dh.rankHistory || [];
-            }
-            // fallback 2：_rankHistoryByLine 取任意最長線
-            if (miniHistory.length === 0 && dh._rankHistoryByLine) {
-              let bestLine = null;
-              for (const line of Object.values(dh._rankHistoryByLine)) {
-                if (line.data && line.data.length > 0 && (!bestLine || line.data.length > bestLine.data.length)) bestLine = line;
-              }
-              if (bestLine) miniHistory = bestLine.data;
-            }
-            if (miniHistory.length < 3) {
-              canvas.style.display = 'none';
-              canvas.parentElement.innerHTML = `
-                <div style="height:50px;display:flex;align-items:center;justify-content:center;border:1px dashed rgba(255,255,255,0.08);border-radius:var(--radius-sm);background:rgba(255,255,255,0.01);color:var(--text-secondary);opacity:0.7;font-size:11px;gap:6px;letter-spacing:0.3px;width:100%">
-                  新進榜首日，正累積歷史軌跡
-                </div>
-              `;
-            } else {
-              const sortedMini = [...miniHistory].sort((a, b) => a.date.localeCompare(b.date));
-              renderMiniChart(canvas, sortedMini.slice(-7));
-            }
-          }
-          obs.unobserve(canvas);
+          renderSparkline(entry.target, canvasMap.get(entry.target));
+          obs.unobserve(entry.target);
         }
       });
     }, { rootMargin: '100px' });
@@ -1705,30 +1718,88 @@ function renderDarkhorses() {
         canvasMap.set(canvas, dh);
         observer.observe(canvas);
       }
-
     });
+
+    // 背景兜底：漸進補畫所有尚未渲染的走勢線，確保視窗外、未捲到的卡片也會畫上線。
+    // 分批用 requestIdleCallback（不支援則退回 setTimeout），避免一次建立數百個圖表卡頓。
+    const pending = [...canvasMap.keys()];
+    const drain = (deadline) => {
+      while (pending.length && (!deadline || deadline.timeRemaining() > 4)) {
+        const canvas = pending.shift();
+        renderSparkline(canvas, canvasMap.get(canvas));
+      }
+      if (pending.length) schedule();
+    };
+    const schedule = () => {
+      if (typeof requestIdleCallback === 'function') requestIdleCallback(drain, { timeout: 500 });
+      else setTimeout(() => drain(null), 60);
+    };
+    schedule();
   }, 100);
 }
 
 
 
+// 從 state.snapshots 即時掃描「排名第一市場（_topRanks[0]）+平台+榜別」最近 7 天的真實排名，
+// 供卡片迷你走勢線使用，與詳情頁「排名歷史」同源（詳情頁見 rebuildModalRankHistory 的快照掃描）。
+// 這樣卡片畫的就是「該遊戲目前最佳市場的最新走勢」，不受偵測時就停住的舊歷史影響。
+function buildSparklineFromSnapshots(dh) {
+  if (!dh || !dh._topRanks || !dh._topRanks.length || !state.snapshots) return [];
+  const top = dh._topRanks[0];
+  const market = top.marketCode;
+  const platform = top.platform;
+  const chartType = top.chartLabel === '營收' ? 'grossing' : 'topfree';
+  if (!market || !platform) return [];
+  // 該遊戲在此市場可能的 appId（含跨平台 sibling 與 _topRanks 提供的對應 appId）
+  const appIds = new Set([dh.appId]);
+  (dh._siblingAppIds || []).forEach(id => appIds.add(id));
+  (dh._topRanks || []).forEach(tr => { if (tr.marketCode === market && tr.appId) appIds.add(tr.appId); });
+  // 跨語言/跨平台版本榜上 appId 可能不同（如日文名 vs 英文名），備用名稱比對
+  const mergeKey = typeof getMergeKey === 'function' ? getMergeKey(dh) : '';
+  const recent = (state.availableDates || []).slice(-7);
+  const series = [];
+  for (const date of recent) {
+    const snap = state.snapshots[date];
+    const arr = snap && snap[market] && snap[market][platform] && snap[market][platform][chartType]
+      ? snap[market][platform][chartType].data : null;
+    let rank = null;
+    if (Array.isArray(arr)) {
+      let found = arr.find(a => appIds.has(a.appId));
+      if (!found && mergeKey && typeof getMergeKey === 'function') {
+        found = arr.find(a => getMergeKey({ name: a.name }) === mergeKey);
+        if (found) appIds.add(found.appId); // 命中後快取 appId，後續日期直接比對
+      }
+      if (found) rank = found.rank;
+    }
+    series.push({ date, rank });
+  }
+  return series;
+}
+
 function renderMiniChart(canvas, history) {
   const ctx = canvas.getContext('2d');
   
-  // 強制對齊全域最近 7 天，營造「未入榜時從底部衝上來」的視覺
-  const recent7Dates = state.availableDates.slice(-7);
-  
+  // 預設對齊全域最近 7 天，營造「未入榜時從底部衝上來」的視覺
+  let axisDates = state.availableDates.slice(-7);
+
   let actualMaxRank = 0;
   history.forEach(h => {
-    if (h.rank > actualMaxRank) actualMaxRank = h.rank;
+    if (h && h.rank > actualMaxRank) actualMaxRank = h.rank;
   });
   const chartMax = Math.max(100, Math.ceil(actualMaxRank / 10) * 10);
   const OFF_CHART_RANK = chartMax + 10;
 
-  const dataMap = new Map(history.map(h => [h.date, h.rank]));
-  
-  const labels = recent7Dates.map(d => d.substring(5));
-  const rawRanks = recent7Dates.map(d => {
+  const dataMap = new Map((history || []).filter(h => h).map(h => [h.date, h.rank]));
+
+  // 若這條線的資料不落在全域最近 7 天內（對應市場歷史線停在偵測當時），改用該線自己
+  // 最後 7 筆「有排名」的日期當 X 軸，確保走勢仍畫得出來（X 軸本就隱藏，只看走勢形狀）。
+  if (!axisDates.some(d => dataMap.get(d) != null)) {
+    const validDates = (history || []).filter(h => h && h.rank != null).map(h => h.date);
+    if (validDates.length) axisDates = validDates.slice(-7);
+  }
+
+  const labels = axisDates.map(d => d.substring(5));
+  const rawRanks = axisDates.map(d => {
     const val = dataMap.get(d);
     return (val === null || val === undefined) ? null : val;
   });
