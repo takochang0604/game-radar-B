@@ -196,8 +196,11 @@
         <div class="tab-filters" style="margin-bottom:24px;border-bottom:none;padding-bottom:0">
           <div class="filter-row" style="align-items:flex-start">
             <label style="margin-top:6px">標籤</label>
-            <div class="pill-group" id="reportTagsPills" style="flex-wrap:wrap">
-              <!-- 動態產生 -->
+            <div class="tags-pills-wrap">
+              <div class="pill-group collapsed" id="reportTagsPills" style="flex-wrap:wrap">
+                <!-- 動態產生 -->
+              </div>
+              <button id="reportTagsToggle" class="tags-toggle" style="display:none" onclick="toggleReportTags()">展開更多 ▾</button>
             </div>
           </div>
         </div>

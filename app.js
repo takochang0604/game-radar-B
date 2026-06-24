@@ -3563,6 +3563,16 @@ window.setReportFilterTag = function(tag) {
   state.reportFilterTag = tag;
   renderReportsTab();
 };
+// 標籤雲展開/收合（不重渲染，純切換高度）
+window.toggleReportTags = function() {
+  state.reportTagsExpanded = !state.reportTagsExpanded;
+  const pills = document.getElementById('reportTagsPills');
+  const btn = document.getElementById('reportTagsToggle');
+  if (!pills || !btn) return;
+  const expanded = state.reportTagsExpanded;
+  pills.classList.toggle('collapsed', !expanded);
+  btn.textContent = expanded ? '收合 ▴' : '展開更多 ▾';
+};
 window.renderReportsTab = renderReportsTab;
 
 function renderReportsTab() {
@@ -3619,8 +3629,8 @@ function renderReportsTab() {
     if (['角色扮演', 'rpg', 'mmorpg', 'role playing', '冒險rpg', '卡牌rpg', '放置rpg'].some(k => tLower.includes(k))) {
       return '角色扮演 (RPG)';
     }
-    // 6. 策略模擬
-    if (['策略', 'strategy', '模擬', 'simulation', '經營', '經營模擬', 'tycoon', '塔防', 'tower defense', 'moba', 'slg'].some(k => tLower.includes(k))) {
+    // 6. 策略模擬（含回合制對戰、沙盒建造類，收斂進此分類避免標籤過度發散）
+    if (['策略', 'strategy', '模擬', 'simulation', '經營', '經營模擬', 'tycoon', '塔防', 'tower defense', 'moba', 'slg', '回合制', '沙盒'].some(k => tLower.includes(k))) {
       return '策略模擬';
     }
     // 7. 動作射擊
@@ -3639,7 +3649,13 @@ function renderReportsTab() {
     if (['博弈', 'casino', 'slots', '老虎機', '拉霸'].some(k => tLower.includes(k))) {
       return '博弈';
     }
-    return t;
+    // 最後防線：未對應到標準分類者，去除殘留的英文/數字，標籤盡量只保留中文
+    const zhOnly = t.replace(/[（(][^）)]*[）)]/g, '')
+                    .replace(/[A-Za-z0-9][A-Za-z0-9\s\-]*/g, '')
+                    .replace(/[×·•|/]+/g, ' ')
+                    .replace(/\s+/g, ' ')
+                    .trim();
+    return zhOnly || t;
   };
 
   const PREFERRED_ORDER = [
@@ -3659,7 +3675,9 @@ function renderReportsTab() {
     if (reportName === '_meta' || typeof reportData !== 'string') continue; // 跳過 meta 欄位
     // 萃取 Markdown 中的類型標籤
     const genreMatch = reportData.match(/\|\s*\|\s*\*\*(?:遊戲)?類型\*\*\s*\|\s*(.+?)\s*\|/) || reportData.match(/\|\s*\*\*(?:遊戲)?類型\*\*\s*\|\s*(.+?)\s*\|/);
-    const rawTags = genreMatch ? genreMatch[1].split(/[,\/、]/).map(t => t.trim()).filter(Boolean) : [];
+    // 先移除括號內的英文/補充說明（如「（Competitive Monster-Battler）」「（Hybrid-casual / Satisfying Destruction）」），標籤盡量保留中文
+    const cleanGenre = genreMatch ? genreMatch[1].replace(/[（(][^）)]*[）)]/g, '') : '';
+    const rawTags = cleanGenre.split(/[,\/、]/).map(t => t.trim()).filter(Boolean);
     
     const tagsSet = new Set();
     rawTags.forEach(t => {
@@ -3742,6 +3760,18 @@ function renderReportsTab() {
       pillsHtml += `<button class="pill ${isActive ? 'active' : ''}" onclick="setReportFilterTag('${tag}')">${tag}</button>`;
     });
     tagsPills.innerHTML = pillsHtml;
+
+    // 標籤雲限高 2 行＋展開/收合：依內容是否超過 2 行決定切換鈕顯示
+    const toggleBtn = document.getElementById('reportTagsToggle');
+    if (toggleBtn) {
+      const expanded = !!state.reportTagsExpanded;
+      tagsPills.classList.toggle('collapsed', !expanded);
+      const COLLAPSE_H = window.innerWidth <= 768 ? 58 : 72; // 與 CSS collapsed max-height 對齊
+      const overflowing = tagsPills.scrollHeight > COLLAPSE_H + 4;
+      if (!overflowing) { state.reportTagsExpanded = false; tagsPills.classList.add('collapsed'); }
+      toggleBtn.style.display = overflowing ? '' : 'none';
+      toggleBtn.textContent = state.reportTagsExpanded ? '收合 ▴' : '展開更多 ▾';
+    }
   }
 
   // 搜尋與標籤篩選
