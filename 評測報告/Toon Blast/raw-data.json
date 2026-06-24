@@ -1,0 +1,2623 @@
+{
+  "collectedAt": "2026-06-24T09:16:04.053Z",
+  "collectVersion": 3,
+  "android": {
+    "appId": "net.peakgames.toonblast",
+    "title": "Toon Blast",
+    "developer": "Peak",
+    "developerId": "7348725256760208886",
+    "genre": "Puzzle",
+    "score": 4.634882,
+    "ratings": 4597925,
+    "installs": "100,000,000+",
+    "maxInstalls": 130372442,
+    "free": true,
+    "released": "Aug 25, 2017",
+    "updated": 1781875298000,
+    "version": "22872",
+    "contentRating": "Everyone",
+    "icon": "https://play-lh.googleusercontent.com/j3O3Pyk08XAv4iA4p-Irerfos8g-tLxQ3r42zlScMRsjjgnyQGeE1mqcH3aSY9wA2k6l8fBqpqEaIQfIG2gLLQ",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/-27S5k4d6GGZYSJudemCX1B5n8w6ZbKCCkYo2uCeMwGozggn9mcsAybu1zjsKgzgs1YXz2gXQzb8snYjuoqL1Lw",
+      "https://play-lh.googleusercontent.com/MTquim-dT2HDAwxqzk7i2fqlzAt9QpwCgPZhhz2Rc8bc99AdIx7twtHSRWTvuNTo6htC6Xgdva3OU3-PJ4-WVQ",
+      "https://play-lh.googleusercontent.com/XUShi312Uva64M6TlmrgouAULKTCqaajr6cMzkQByUqqwNS0Apx8OiYEx7sIxSiFK_uTr4bisuUSSTfWvUGueNU",
+      "https://play-lh.googleusercontent.com/59uvqctjbNmosr54ogEIPPxNx_11gGWEIAV3U-ACH4FZduHgixQvBdY449SFfMt818GI8imFKaNGEzCpGfrs",
+      "https://play-lh.googleusercontent.com/10iA446H5y8GIO3Ipt6HTvpcKw8Vgl_ykQ5Hi_FS-yi7XLWOFOLvP0304mUSFlVshSaA1Y2aVZv9f6e5HyD4ADU",
+      "https://play-lh.googleusercontent.com/Ts9ZBxWAiT7Buh54zaCwFIzg5wGWSmDWkWCM8U2M7hKcjYMn9aBos0ZFQ2gLifMQ5SreV18vbxRPO2kLy25kUg",
+      "https://play-lh.googleusercontent.com/D-HDpnHC7ETfZC45Ge7eG7mBSal0xQodF9bwcbihsu1C1oNcrBXYwOfOtXmY0NRxEnfjXTgJZlyAWgvoezuWbxI",
+      "https://play-lh.googleusercontent.com/Ag1uWGcKrM0uf_lUywyiBVce4HnDsNTkT8IlbBMsEEDHTEgx_EMK0q3xc0pFIckUBeN2QUlrv7jW4DJOydvJVz4",
+      "https://play-lh.googleusercontent.com/-27S5k4d6GGZYSJudemCX1B5n8w6ZbKCCkYo2uCeMwGozggn9mcsAybu1zjsKgzgs1YXz2gXQzb8snYjuoqL1Lw",
+      "https://play-lh.googleusercontent.com/MTquim-dT2HDAwxqzk7i2fqlzAt9QpwCgPZhhz2Rc8bc99AdIx7twtHSRWTvuNTo6htC6Xgdva3OU3-PJ4-WVQ",
+      "https://play-lh.googleusercontent.com/XUShi312Uva64M6TlmrgouAULKTCqaajr6cMzkQByUqqwNS0Apx8OiYEx7sIxSiFK_uTr4bisuUSSTfWvUGueNU",
+      "https://play-lh.googleusercontent.com/59uvqctjbNmosr54ogEIPPxNx_11gGWEIAV3U-ACH4FZduHgixQvBdY449SFfMt818GI8imFKaNGEzCpGfrs",
+      "https://play-lh.googleusercontent.com/10iA446H5y8GIO3Ipt6HTvpcKw8Vgl_ykQ5Hi_FS-yi7XLWOFOLvP0304mUSFlVshSaA1Y2aVZv9f6e5HyD4ADU",
+      "https://play-lh.googleusercontent.com/Ts9ZBxWAiT7Buh54zaCwFIzg5wGWSmDWkWCM8U2M7hKcjYMn9aBos0ZFQ2gLifMQ5SreV18vbxRPO2kLy25kUg",
+      "https://play-lh.googleusercontent.com/D-HDpnHC7ETfZC45Ge7eG7mBSal0xQodF9bwcbihsu1C1oNcrBXYwOfOtXmY0NRxEnfjXTgJZlyAWgvoezuWbxI",
+      "https://play-lh.googleusercontent.com/Ag1uWGcKrM0uf_lUywyiBVce4HnDsNTkT8IlbBMsEEDHTEgx_EMK0q3xc0pFIckUBeN2QUlrv7jW4DJOydvJVz4",
+      "https://play-lh.googleusercontent.com/-27S5k4d6GGZYSJudemCX1B5n8w6ZbKCCkYo2uCeMwGozggn9mcsAybu1zjsKgzgs1YXz2gXQzb8snYjuoqL1Lw",
+      "https://play-lh.googleusercontent.com/MTquim-dT2HDAwxqzk7i2fqlzAt9QpwCgPZhhz2Rc8bc99AdIx7twtHSRWTvuNTo6htC6Xgdva3OU3-PJ4-WVQ",
+      "https://play-lh.googleusercontent.com/XUShi312Uva64M6TlmrgouAULKTCqaajr6cMzkQByUqqwNS0Apx8OiYEx7sIxSiFK_uTr4bisuUSSTfWvUGueNU",
+      "https://play-lh.googleusercontent.com/59uvqctjbNmosr54ogEIPPxNx_11gGWEIAV3U-ACH4FZduHgixQvBdY449SFfMt818GI8imFKaNGEzCpGfrs",
+      "https://play-lh.googleusercontent.com/10iA446H5y8GIO3Ipt6HTvpcKw8Vgl_ykQ5Hi_FS-yi7XLWOFOLvP0304mUSFlVshSaA1Y2aVZv9f6e5HyD4ADU",
+      "https://play-lh.googleusercontent.com/Ts9ZBxWAiT7Buh54zaCwFIzg5wGWSmDWkWCM8U2M7hKcjYMn9aBos0ZFQ2gLifMQ5SreV18vbxRPO2kLy25kUg",
+      "https://play-lh.googleusercontent.com/D-HDpnHC7ETfZC45Ge7eG7mBSal0xQodF9bwcbihsu1C1oNcrBXYwOfOtXmY0NRxEnfjXTgJZlyAWgvoezuWbxI",
+      "https://play-lh.googleusercontent.com/Ag1uWGcKrM0uf_lUywyiBVce4HnDsNTkT8IlbBMsEEDHTEgx_EMK0q3xc0pFIckUBeN2QUlrv7jW4DJOydvJVz4"
+    ],
+    "video": "https://www.youtube.com/embed/iWWmM-HWm00?vq=large&rel=0&autohide=1&showinfo=0",
+    "summary": "Welcome to the funniest cartoon puzzle adventure!",
+    "description": "From the creators of Toy Blast comes the ultimate puzzle game with unique gameplay and endless fun!\n\nEnter the crazy cartoon world starring Cooper Cat, Wally Wolf, Bruno Bear and enjoy loads of whacky and challenging levels! Blast cubes and create powerful combos to pass levels. Solve puzzles to help the Toon gang as they travel around magical worlds! \n\nJoin the wildest adventure of your life and have a BLAST!\n\nFEATURES:\n\n● Complete tons of challenging levels and unlock new episodes!\n● Play with unique game objectives and dozens of entertaining obstacles!\n● Unlock whacky boosters to blast your way to the next level!\n● Collect stars by completing levels to win awesome rewards!\n● Create your own team & compete with others to rule the puzzle world! \n● Receive lives from your teammates to keep on playing! \n● Sync your game easily between your phone and tablet!\n● Easy and fun to play yet challenging to master!",
+    "recentChanges": "PLAY 50 NEW LEVELS!<br>Toon Blast introduces the Splash Time! episode with 50 new levels!<br>Be sure to update to the current version of Toon Blast for the newest content.<br>Come and join the fun!",
+    "developerWebsite": "https://peak.com/support/toonblast"
+  },
+  "ios": {
+    "id": 1176027022,
+    "appId": "net.peakgames.toonblast",
+    "title": "Toon Blast",
+    "developer": "Peak Games",
+    "score": 4.7182,
+    "reviews": 2757554,
+    "free": true,
+    "released": "2017-08-15T08:15:03Z",
+    "updated": "2026-06-22T08:01:26Z",
+    "version": "22872",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/e6/49/7fe649cf-138a-a955-2cc7-562b57868077/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Casual",
+      "Puzzle"
+    ],
+    "screenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/bc/e2/d7bce2b4-43ab-aa25-b678-55416e6fe1f3/toonappstore-ingamebanner-07-1242x2208_en.png/392x696bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/3f/16/3a3f1669-9dc4-678a-51f3-cd63aa2b8d86/superbruno-1242x2208.png/392x696bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/6a/6c/c36a6cf8-cd5a-989a-153b-51d182843852/57f3c774-13fb-44e6-b2d7-45864b7c3485_skypirates-org-1242x2208.png/392x696bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/59/2e/70592e5b-5152-1e4e-1bc4-f0c3b4e39ec5/903fc2c6-1eab-4be2-80c8-4ed97097b252_toon-appstore-01-1242x2208.png/392x696bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/74/e8/f374e860-91ac-55c1-644f-3a109c935ace/c149d256-1913-463e-9dbf-123713b59373_toon-appstore-02-1242x2208.png/392x696bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/a0/96/d0a096cd-e213-c3c0-709d-e64ea6ac8af1/pr_source.png/392x696bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/bc/76/d7bc76b8-6f9c-11ac-a37c-0c41faab3486/bf10d513-3777-4410-b0d8-1aadc3e0b6e6_toon-appstore-04-1242x2208.png/392x696bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/0e/2b/f20e2bd6-a2a6-b53f-dcdd-c882a35cc7d0/pr_source.png/392x696bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b9/f1/2b/b9f12b65-4271-f4e3-e94b-47fc3a93e61a/toon-appstore-06-1242x2208-en.png/392x696bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/45/42/8b454248-2a7e-13be-2a80-1e4cacf2f3c5/a418965d-5ccb-4023-8f6a-a393352013b4_splashfix-1242x2208__U00281_U0029.png/392x696bb.png"
+    ],
+    "ipadScreenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/7f/67/e17f67a7-e63c-afdf-4f56-488f596925bc/toonappstore-ingamebanner-07-2048x2732_en.png/576x768bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/1a/2e/301a2e5f-ee17-68ce-3ad4-fb13294e103b/superbruno-2048x2732.png/576x768bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/46/22/d2/4622d291-9f7d-eb16-a0cc-81c6eb2b0262/35af0b85-0731-4c2b-8f54-b7cda192ccb2_skypirates-org-2048x2732.png/576x768bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/b7/f4/ccb7f45d-5803-4bf9-f6b9-b956e616cfad/96e7ec9c-67a6-4db2-8681-273f7cae16ef_toon-appstore-01-2048x2732.png/576x768bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/30/6f/1b306fa3-c644-a712-7b42-b5f22b5ec17b/f73cec86-9e3b-48c1-9a03-7c9f2ed053ad_toon-appstore-02-2048x2732.png/576x768bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/19/79/711979ed-5ebd-1a36-154a-2c208c1bdb1b/pr_source.png/576x768bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/d4/b4/83d4b4e4-e8d6-f7a4-2a82-aa7b72324564/b0b4d7cd-c921-419f-9b2d-ab2cdd97bf01_toon-appstore-04-2048x2732.png/576x768bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/5f/d2/275fd2a1-4fd5-40d1-da54-12c747368ef6/pr_source.png/576x768bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/0b/f2/000bf2e9-b64e-522e-ec67-29ce37987f13/toon-appstore-06-2048x2732-en.png/576x768bb.png",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/49/da/4549dad8-402a-77d7-1ac2-0d2a2479cd12/7b4eaee5-f4fa-43e1-b229-1281e182133b_splashfix-2048x2732__U00281_U0029.png/576x768bb.png"
+    ],
+    "description": "Welcome to “Toon Blast,” a free match-3 adventure that combines fun and strategy. Join Bruno Bear, Cooper Cat, and Wally Wolf in blasting cubes and solving puzzles without Wi-Fi. This calming game is packed with addictive mini-games and challenges. Each level is a unique puzzle experience, offering a blend of fun and strategic gameplay. Immerse yourself in this captivating world, enjoy relaxing puzzle-solving, and embark on an unforgettable adventure. “Toon Blast” is more than a game; it’s a journey of joy and relaxation, free for all to enjoy.\n\nIn “Toon Blast,” you’ll find a lot of levels and new episodes. Each level has different goals and fun obstacles. Use special boosters to move up levels, and earn stars for rewards. Make a team, compete, and stay in the game with help from teammates. The game is easy to start but gets challenging, and you can play it on your phone or tablet."
+  },
+  "facts": {
+    "source": "2026-06-23.json",
+    "detectedAt": "2026-06-22T00:00:00.000Z",
+    "category": "GAME",
+    "confidenceScore": 8,
+    "displayScore": 8,
+    "healthRatio": 1,
+    "entries": [
+      {
+        "appId": "net.peakgames.toonblast",
+        "platform": "android",
+        "chartType": "topfree"
+      }
+    ],
+    "chartedMarkets": [
+      "jp"
+    ],
+    "currentMarkets": [
+      {
+        "market": "jp",
+        "platform": "android",
+        "chart": "免費",
+        "rank": 6
+      }
+    ],
+    "triggerTimeline": [
+      {
+        "date": "2026-06-22",
+        "market": "jp",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "7 天內排名從 #95 升至 #18（↑77 名）"
+      },
+      {
+        "date": "2026-06-23",
+        "market": "jp",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "growth_multiplier",
+        "label": "📊 成長加速",
+        "detail": "成長倍率 2.6×（近 3 天平均 #25 vs 近 7 天平均 #64）"
+      }
+    ],
+    "marketExpansionOrder": [
+      {
+        "market": "jp",
+        "firstTriggerDate": "2026-06-22"
+      }
+    ],
+    "rankHistory14d": {
+      "jp_android_topfree": [
+        {
+          "date": "2026-06-10",
+          "rank": 78
+        },
+        {
+          "date": "2026-06-11",
+          "rank": 91
+        },
+        {
+          "date": "2026-06-12",
+          "rank": null
+        },
+        {
+          "date": "2026-06-13",
+          "rank": null
+        },
+        {
+          "date": "2026-06-14",
+          "rank": null
+        },
+        {
+          "date": "2026-06-15",
+          "rank": null
+        },
+        {
+          "date": "2026-06-16",
+          "rank": 95
+        },
+        {
+          "date": "2026-06-17",
+          "rank": 88
+        },
+        {
+          "date": "2026-06-18",
+          "rank": 92
+        },
+        {
+          "date": "2026-06-19",
+          "rank": 94
+        },
+        {
+          "date": "2026-06-20",
+          "rank": 100
+        },
+        {
+          "date": "2026-06-21",
+          "rank": 51
+        },
+        {
+          "date": "2026-06-22",
+          "rank": 18
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 6
+        }
+      ]
+    }
+  },
+  "cohortBaseline": {
+    "category": "GAME",
+    "windowDays": 22,
+    "cohortSize": 360,
+    "avgMarketCount": 2.3,
+    "medianLifespanDays": 7,
+    "top10Share": 34,
+    "thisGame": {
+      "lifespanDays": 2,
+      "maxMarkets": 1,
+      "bestRank": 6
+    }
+  },
+  "reviews": {
+    "total": 255,
+    "googlePlay": 206,
+    "appStore": 49,
+    "sampling": {
+      "markets": [
+        "jp"
+      ],
+      "gpLanguages": [
+        "ja",
+        "en"
+      ],
+      "iosCountries": [
+        "jp",
+        "us"
+      ],
+      "byLang": {
+        "ja": 98,
+        "en": 108
+      },
+      "byCountry": {
+        "jp": 0,
+        "us": 49
+      }
+    },
+    "distribution": {
+      "1": 87,
+      "2": 35,
+      "3": 28,
+      "4": 27,
+      "5": 78
+    },
+    "positive": [
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "かわむらゆきこ",
+        "score": 5,
+        "text": "信じらない！ レベルが急上昇！",
+        "date": "2026-06-22T10:22:28.980Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "友",
+        "score": 5,
+        "text": "とてもハマっています、気付いたら1日中しています。 楽しいです。広告もなくお勧めです。ゲームはこれで十分満足です。",
+        "date": "2026-06-18T20:49:40.636Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "河村卓郎",
+        "score": 5,
+        "text": "詐欺アプリなので消費者庁に通報した 詐欺にもほどがある いい加減にしろて マジで 今からやってみようと思う人は絶対インストールしないほうが いい。 マジの最悪アプリ やってるユーザーはアンインストールしましょう。 ホントに最悪アプリ みんなアンインストールしましょう こんな詐欺アプリやめましょう",
+        "date": "2026-06-15T10:20:37.650Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "鈴木悠人",
+        "score": 5,
+        "text": "おもしろいよね",
+        "date": "2026-06-14T02:20:25.236Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "高舘喜則",
+        "score": 5,
+        "text": "楽しい頑張ります",
+        "date": "2026-06-08T22:19:54.428Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "わんにゃー",
+        "score": 4,
+        "text": "レベル上げが面白いがチャンピオンシップになると難しくなり、ためてたものが全て使わされるので面白くなくなる。",
+        "date": "2026-06-08T21:30:07.739Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "鈴木忠",
+        "score": 4,
+        "text": "ゴールデンパスを購入したのに反映されない。返金もない。",
+        "date": "2026-06-08T13:28:32.809Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "竹本一治",
+        "score": 5,
+        "text": "一回やめたけど２年ぶりに戻ったらマジックディスコってのがメッチャ使えるからまたハマってます。無課金でもチャンピオンリーグで優勝出来てるし（笑）エクストラムーブも最近では♥1＋２＋２の出現が多いからメッチャ助かる。ってか課金してない分いつ出るのか分からないのでは無く、しょっちゅう出現したら広告視聴率上がると思う（笑） 　　低評価の人の言い分メッチャ分かるけど、ステージの色は青で難やスーパー難の色やで😊チャンピオンズリーグって通常ステージの青が普通で難やスーパー難は更にその上やからコインやアイテムをどれだけ保有してるか、その使い方、ステージの消し方諸々を如何に頭を使うかってのが面白いんやで😊",
+        "date": "2026-06-08T11:51:28.938Z",
+        "thumbsUp": 19
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "加持嘉子",
+        "score": 4,
+        "text": "なかなか面白いです。",
+        "date": "2026-06-07T14:32:56.707Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "腕の喜三郎",
+        "score": 5,
+        "text": "ほかのゲームをやっていて、チョイチョイ流れる宣伝が気になったのでやってみたら、結構面白いですね！",
+        "date": "2026-06-07T10:57:23.947Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "Teppei O",
+        "score": 5,
+        "text": "素晴らしい",
+        "date": "2026-06-04T12:10:22.858Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "竹内武雄",
+        "score": 5,
+        "text": "ユニークでとても面白いゲームです。楽しめます。",
+        "date": "2026-06-02T07:04:42.570Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "Googleさん",
+        "score": 4,
+        "text": "広告も無く楽しいアプリですが、イベントでパートナーが全く協力しない場合、パートナーを変更出来るようにしてほしい。協力申請をしておきながら、その後1ポイントも取らない人がいるのでイライラするし、自分の報酬も受け取れなくなる。",
+        "date": "2026-06-01T05:03:23.880Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "michiko M.T",
+        "score": 5,
+        "text": "またわからないけど、面白いかも",
+        "date": "2026-05-29T23:46:21.442Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "sakuma susumu",
+        "score": 4,
+        "text": "広告が無い！",
+        "date": "2026-05-27T11:26:30.110Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "冴え葉“クワトロ涼”龍司",
+        "score": 4,
+        "text": "気持ちが、晴れやかでいい感じです",
+        "date": "2026-05-27T01:02:07.602Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "こじしん",
+        "score": 4,
+        "text": "無料なのにかなり遊べる。運ゲー要素が強いが最後数手の詰めで閃いて解けたときはうれしい。",
+        "date": "2026-05-26T19:12:33.180Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "S T",
+        "score": 4,
+        "text": "2021.10月頃からチートナ賞金１０００から半分になったのは残念。でも余分な広告も一切なく、それで無料でここまで遊べたら十分！ 脳トレに役立ってます。 このシステムを作ってくれたことを思うと課金してもいいなと思うようになりお得な時に課金してアイテムやコイン集めてます。",
+        "date": "2026-05-25T15:11:10.320Z",
+        "thumbsUp": 60
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "大岳松本",
+        "score": 5,
+        "text": "すごく楽しいです",
+        "date": "2026-05-25T13:14:53.551Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "藤野悦子",
+        "score": 5,
+        "text": "飽きることなく楽しく遊んでいます。",
+        "date": "2026-05-25T10:15:55.702Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "関水芳子",
+        "score": 4,
+        "text": "めっちゃ面白いです♥",
+        "date": "2026-05-19T13:33:15.427Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "やきとり雅",
+        "score": 5,
+        "text": "マジで面白いけどだんだん難しくなるから止められない。",
+        "date": "2026-05-19T12:47:12.590Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "小林保彦",
+        "score": 5,
+        "text": "楽しい♥️",
+        "date": "2026-05-16T11:45:17.112Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "マルヤ（マルヤ）",
+        "score": 5,
+        "text": "もう5年やってます。 普通にゲームしていれば無課金でもそれなりにアイテムもお金も貯まるし、イベントも毎日なにかしらやってるので、飽きずに報酬もらえます。次々色んなアイテムや遊び方を提供してくるので楽しい。マジックディスコは無双すぎてやばい時あるけど。 時々何をどうしてもクリア出来ない時があり、そういうときは1〜2日ゲームも開かず置いとくとすんなりクリア出来たりします。ゲーム内のお金を使うのもクリアしやすくなったりする。あとはキリのいい数字の前後は詰まりやすい印象。（例えば39〜41とか） クリア出来ない時はパズルの組み合わせ？配置が不利で絶対的に無理なところがちょっと意地悪。難易度の設定も変でスーパーハードとかよりも普通のステージのが全くクリア出来ない時がある。あとは明らかに広告見てくれって時ある。あと2回ムーブできればクリアできるのに！というときに広告見るとムーブ追加できるとか。まあ追加できるのはありがたいんで使わせてもらってますが。 コレクションカードはかなりやりこんでも全部揃わない。課金しないと無理。今まで1回しか揃わなかった。地下鉄や電車でも結構やってる人見かけます。",
+        "date": "2026-03-30T10:48:24.180Z",
+        "thumbsUp": 167
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "sawa comachi",
+        "score": 5,
+        "text": "無課金の古参です。以前と仕様が変わり、難易度も上がりました。でもマジックディスコが発動するとほぼノンストップで🏆リーグに到達します。困るのは「ストリーク」は続くのにマジックディスコが時々0になること。(10回程度のプレイで再発動します。)自分の体験をレビューしているだけなので他のプレイヤーのことはわかりません。自分がストレスを感じないのは「連続クリアが楽しい」「チームに入ってない」「ターン延長にCMを使わない」「🏆リーグは、のんびり参加する」から…かと。(試しに🏆リーグに真剣に参加してみました。2回連続で1位になりましたがアイテム数は一桁に…🤣。労力を考えると2位以下ではペイしません…やはり自分にはユルい参加が合うようです。)",
+        "date": "2026-04-30T06:32:35.110Z",
+        "thumbsUp": 2355
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "ゆんゆん",
+        "score": 5,
+        "text": "完全無課金ですが、最高レベル到達してます！アイテムも貯めにためてそれぞれ99個ちかくあります！無課金でも、コツコツやればぜったいクリアできますし、ちょっとしたミニゲームもあり、私はもはや続けて何年経ったかな…というくらい続いてるゲームです！ あと少しでクリアできる…というときに広告を自ら見てターン増やすか、見ずに1からやるか選ぶスタイル！時間あるときには見たり、ささっとやりたいときは見るの諦めたり…このくらいがちょうどいいです！",
+        "date": "2026-03-30T12:16:44.894Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "W Y",
+        "score": 5,
+        "text": "無料。広告なし。個人的には神アプリです。ほかのソシャゲは途中で飽きるけどこれだけは何年もやり続けてます。 そしてこのゲーム運ゲーと言われますがクリアするためのコツがあります。チャンピオンシップに行く前はYouTubeでクリア動画を見てコツを学びました。ざっくり言うとまずは「狙って爆弾+ロケット、虹玉を作れるようにする」これが出来るようになるとだいぶクリア出来るようになります。「虹玉+虹玉」が出来るようになれば初心者脱出です。しかしそれでもそのうち壁が来て「虹玉+爆弾orロケットを狙って作れるようになる」が出てきます。このどれかを適切に出来るようになるとほとんどのコースがクリア出来るようになります。",
+        "date": "2026-05-12T08:36:42.592Z",
+        "thumbsUp": 490
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "椎名焦げ茶んねる",
+        "score": 5,
+        "text": "全消しした時の爽快感。もちろん他のアプリのように課金案内は出るものの強制CMなどは出ないので、近年まれに見る良心的アプリ。まぁ昔からあってサ終していないのはそういう事だと思うし、逆に課金しても良いかな、と思わせる。有利に進めたい人は課金してねー位で課金無しでも楽しめる。",
+        "date": "2026-04-28T05:24:32.956Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "E. S.",
+        "score": 5,
+        "text": "評価あげます。無課金勢です。仕様がよく変わるゲームで、ここ暫くはダイヤを費してターン延長する以外は為す術のないゲームになっていました。 5万あったダイヤが無くなったら引退するしかないと思っていたところ、BEAMの導入と広告救済の復活でバランスが改善しました。 BEAMはハマると爽快です。そしてなんか可愛い。ターンに余裕があって「スカイミッション」や「キューブ泥棒」のポイント稼ぎをしたい時にも一気に終わってしまうことがありますが、まあそういうものとして不満はないです。 簡単すぎず無理ゲー過ぎず、続けられるいいバランスだと思います。私はパズルが得意な自負がありますが、無課金でもテンプルガーディアンズとコレクションの1周目はコンプリートします。そしてテンプルガーディアンズの週に気合いをいれることで、時たまチャンピオンリーグも優勝します。 最新のアプデで無課金勢にも優しくなりました。普段はコツコツアイテムを貯めて、今回はこれを取りに行くとか緩急をつければガチにならなくとも楽しめると思います。",
+        "date": "2026-03-07T00:09:49.980Z",
+        "thumbsUp": 44
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "Akiko",
+        "score": 5,
+        "text": "課金を促すような仕様は仕方ないと思う。文句言ってる人は課金する人がいるから自分が無料で楽しめてることを知ったほうがいい。時間のあるときは課金してじっくり楽しんでいます。 同じステージを繰り返してるとだんだん難易度が下がり始めていつかは必ずクリアできる仕様なので無料でも十分楽しめると思う。 ただ最近はマジックディスコ（10勝すると付与されるチートアイテム）ありきでゲームが組まれすぎてると思う 逆を言えば課金すれば必ずクリアできるのでゲームとしての面白さ、クリアしたカタルシスを得られなくなってきたなと感じます。",
+        "date": "2026-03-02T10:46:57.681Z",
+        "thumbsUp": 23
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Rafe Lopez",
+        "score": 5,
+        "text": "I love playing this game!",
+        "date": "2026-06-23T04:38:10.924Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Kristie Dorado",
+        "score": 4,
+        "text": "for whatever reason my game will not work at home since last update but works in public. plz fix it",
+        "date": "2026-06-22T23:01:02.950Z",
+        "thumbsUp": 41
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "naruzero2385",
+        "score": 5,
+        "text": "pretty good so far 👌",
+        "date": "2026-06-22T22:21:18.594Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jasona E Pratt",
+        "score": 5,
+        "text": "d best of all Arcade games. love it",
+        "date": "2026-06-22T21:56:09.790Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Marci Unruh",
+        "score": 5,
+        "text": "Love this game!",
+        "date": "2026-06-22T20:39:43.120Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Deisy Ruth Green",
+        "score": 5,
+        "text": "nice and fun",
+        "date": "2026-06-22T19:38:36.340Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Sammy Gold",
+        "score": 5,
+        "text": "addicted",
+        "date": "2026-06-22T19:00:01.137Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Deanna Mainelli",
+        "score": 4,
+        "text": "easy to catch on to",
+        "date": "2026-06-22T18:12:54.692Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Maria Smith",
+        "score": 5,
+        "text": "fantasric",
+        "date": "2026-06-22T17:57:04.660Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Catrice Green",
+        "score": 5,
+        "text": "Fun, Exciting and Addictive",
+        "date": "2026-06-22T16:03:47.532Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "smalloni",
+        "score": 5,
+        "text": "fun to play",
+        "date": "2026-06-22T16:00:37.314Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Dana Curley",
+        "score": 5,
+        "text": "Well animated Tetris game with a kick. Great way to keep the minds distracted.",
+        "date": "2026-06-22T15:31:38.607Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Antoinette Rau",
+        "score": 4,
+        "text": "I like it, it's fun and pretty easy for now",
+        "date": "2026-06-22T14:46:12.698Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jessie Reed",
+        "score": 5,
+        "text": "cute and fun",
+        "date": "2026-06-22T14:43:50.824Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Meng Huey Lim",
+        "score": 4,
+        "text": "Enjoyable games for me for many years!",
+        "date": "2026-06-22T13:47:03.921Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Amber May",
+        "score": 4,
+        "text": "so far good",
+        "date": "2026-06-22T13:43:57.364Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Nichole Griswold",
+        "score": 5,
+        "text": "easy fun",
+        "date": "2026-06-22T13:28:01.122Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "maralee aguirre",
+        "score": 5,
+        "text": "This game took me by surprise and turned out to be a lot of fun. I feel a little bit of satisfaction as the levels are cleared and bombs start blasting blocks away. I feel like I could turn this game on to my boyfriend and there is a good chance he could get into it!",
+        "date": "2026-06-22T13:11:02.454Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Missy",
+        "score": 5,
+        "text": "fun game to keep your mind sharp.",
+        "date": "2026-06-22T13:03:22.697Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Lilybeth Hernandez",
+        "score": 4,
+        "text": "it's okay but I dont really understand why the moves are limited",
+        "date": "2026-06-22T12:17:40.111Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Vijay Gautam",
+        "score": 5,
+        "text": "good game full timepass",
+        "date": "2026-06-22T10:25:57.971Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "William Arsenault",
+        "score": 5,
+        "text": "awesome app",
+        "date": "2026-06-22T10:16:48.446Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Sharon Bates",
+        "score": 4,
+        "text": "did a software update on my phone yesterday and now all I get is a black screen ☹️",
+        "date": "2026-06-22T09:42:04.883Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mina R",
+        "score": 5,
+        "text": "the best game for ever,",
+        "date": "2026-06-22T09:13:59.859Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Kathleen Anlage",
+        "score": 4,
+        "text": "the animations take too long. I just want to play the game. give me a skip button at the end of the round, I'm begging you! edited because the update did in fact give me the skip I needed. thank you for listening",
+        "date": "2026-06-22T08:06:20.781Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "TheQuinnDruRocks Hard",
+        "score": 5,
+        "text": "absolute cinema 🖐 👤🖐",
+        "date": "2026-06-22T05:24:36.602Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "shirley walls",
+        "score": 5,
+        "text": "I love this game",
+        "date": "2026-06-22T01:20:22.446Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Bob",
+        "score": 5,
+        "text": "wow soooo good",
+        "date": "2026-06-22T01:17:19.438Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Justine Laplante",
+        "score": 5,
+        "text": "addicted to this game. need another one just like it.",
+        "date": "2026-06-21T23:50:55.116Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "chris johnson",
+        "score": 5,
+        "text": "I love it",
+        "date": "2026-06-21T23:27:35.952Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Carter",
+        "score": 5,
+        "text": "this is the best game ever because it is entertaining and is the only three match game I like and don't be bored of I love this game I love how there is so many levels yay one thousand stars",
+        "date": "2026-06-21T19:14:09.182Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Allan Lawes",
+        "score": 5,
+        "text": "great game",
+        "date": "2026-06-21T14:52:11.539Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Liaqat Bashir (Loverman)",
+        "score": 5,
+        "text": "thanks for you game",
+        "date": "2026-06-21T12:38:01.142Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Yarn Ramas",
+        "score": 5,
+        "text": "Nice Game, Relaxing Game.",
+        "date": "2026-06-21T12:07:12.103Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Luke T",
+        "score": 4,
+        "text": "very very fun",
+        "date": "2026-06-21T08:51:13.530Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Kaleb Fuqua",
+        "score": 4,
+        "text": "This games pretty fun, if your use to the pther style of match games it will take a sec to reiterate. But, overall it's fun.",
+        "date": "2026-06-21T05:23:44.296Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Annette Ramos Erkan",
+        "score": 5,
+        "text": "This game is easy to learn and play. I enjoy playing this game.",
+        "date": "2026-06-21T03:38:11.505Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Tracey Dewey",
+        "score": 5,
+        "text": "love this game wish this was one of games the ones you can play for money.... so relaxing",
+        "date": "2026-06-21T02:25:14.202Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Kayinga Richard",
+        "score": 5,
+        "text": "fantastic game",
+        "date": "2026-06-20T20:56:00.556Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mr Big",
+        "score": 5,
+        "text": "good 👍",
+        "date": "2026-06-20T20:23:00.698Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Lynn Sharpe",
+        "score": 5,
+        "text": "I love this game!",
+        "date": "2026-06-20T17:29:14.326Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Rekha Kshtrya",
+        "score": 5,
+        "text": "secand best game i have ever seen",
+        "date": "2026-06-20T16:37:00.182Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Daphne Ritchie",
+        "score": 4,
+        "text": "I love this game a whole bunch, there's just one thing I want changed. I've been stuck on a level and had to repeat it constantly because there's no actual way of beating it other than using power-ups or the game currency buying you another few moves, it's extremely frustrating because I can't make a different move or choice other than the same moves that do absolutely nothing to help me progress. other than that, I absolutely love the app, it's primarily offline and gets my brain going.",
+        "date": "2026-06-03T20:23:37.447Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Emily Sandstrom",
+        "score": 5,
+        "text": "I'm in champions League. Haven't spent any money on this game. All levels can be passed without spending money. Can be played offline as well. I love how this game does NOT make you watch an advertisement after every single level. I do love the option to watch advertisements to get a few more moves. it is possible to get all the cards....but it takes a lot of playing. great game.",
+        "date": "2026-03-30T16:40:26.877Z",
+        "thumbsUp": 29
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Karima Hasson",
+        "score": 5,
+        "text": "ive been playing for over a year now. I even transferred from other cells when I got a new cell. I enjoy every minute. Keeps my brain busy. Every board is interesting. No issues or complaints. But I would like for it to be easier to search for people to play with. I had an issue putting a name in and the person I was searching plays the same game. otherwise I'm addicted to this game I'm on board 2027 something.",
+        "date": "2026-05-06T04:24:48.435Z",
+        "thumbsUp": 18
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Nakeita Williams",
+        "score": 4,
+        "text": "edit _ Once you get to high levels everything cost more and they intentionally make the boards unbeatable so you will buy coins. Think I will give this game a rest for awhile. This game is awesome!!!! The different boards, the races, and I, like how they keep adding new things. The magic disc ball is the best. The red bombs were so cool how they were able to reach further than normal. Overall, it's a fantastic game!",
+        "date": "2026-03-11T07:50:20.730Z",
+        "thumbsUp": 32
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mary Palma",
+        "score": 4,
+        "text": "My only complaint about this game, this is maybe kind of niche... When you play the game a bunch and win a lot of levels in a row, you start the levels with a bunch of power ups. But they're kind of useless because they all combine into one big bomb, which usually isn't very helpful at the beginning of a level. It also annoys me how if you have more than one bomb and also an arrow, it just turns into a big bomb, which usually isn't as useful as if it was the big arrow in a lot of situations.",
+        "date": "2026-01-31T19:50:51.333Z",
+        "thumbsUp": 121
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jena Courtier",
+        "score": 5,
+        "text": "I love this game. However, there are faults. Like the card system, you have to beat so many levels just to get maybe two cards you actually need? it's utterly ridiculous to me. And coins, if you aren't winning constantly, you don't get any. And the coin packs are seriously outrageously priced. it's ridiculous. However, the game is seriously so much fun. And completing those really hard levels is super fulfilling. I recommend the game but won't lie to you either ya know? Enjoy playing.",
+        "date": "2026-03-07T15:21:09.446Z",
+        "thumbsUp": 23
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "I_am_joug",
+        "score": 4,
+        "text": "Game was load on accident. Now I play everyday. Only flaw is once you get up in levels the watch add for extra lives stop.",
+        "date": "2026-06-22T20:11:50-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "mc legomom",
+        "score": 5,
+        "text": "Game requirements easily understood \nPass the time and enjoy new and more difficult challenges",
+        "date": "2026-06-22T19:47:25-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "SaraR0312",
+        "score": 5,
+        "text": "Love this game!! If only the updates can be quicker.",
+        "date": "2026-06-22T19:40:32-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Huarclisms",
+        "score": 5,
+        "text": "Have been playing this game for years.  Only game I never gave up on.",
+        "date": "2026-06-22T16:03:28-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Amanda795",
+        "score": 5,
+        "text": "Playing this game since 2017. Have a great team and really enjoy challenges of the game. They have a lot of fun adds to beat the boards. Lot of mini games that keeps things interesting. Love the fun graphics and skins. Has gone through some ups and downs with development over the years but usually works its way out.",
+        "date": "2026-06-22T15:36:48-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "ادم ادم العقابي",
+        "score": 5,
+        "text": "نريد دعم اكثر انا العب بهذه اللعبة اكثر من 10 سنوات \nعشرة سنوات",
+        "date": "2026-06-22T12:25:47-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "PaulaPearle",
+        "score": 5,
+        "text": "Takes my mind off stress, makes me fell like I’m on a team, relaxing for a moment is a good.",
+        "date": "2026-06-22T12:03:01-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "BLESST777",
+        "score": 4,
+        "text": "Addictive game!! Amazing team!! Frustrated that algorithms set up unfair high levels teams against low level teams if played soon after weekly tournaments start Friday Mornings making it almost impossible to place in the top 3 teams!!",
+        "date": "2026-06-22T10:40:34-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "guess/again",
+        "score": 5,
+        "text": "But HARD to pay for extra coins.",
+        "date": "2026-06-22T09:08:21-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Juliiiissss",
+        "score": 5,
+        "text": "I’m obsessed with this game is my own therapy",
+        "date": "2026-06-22T09:03:29-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "15Twist",
+        "score": 4,
+        "text": "Too many promises of “rewards” that are misleading or not delivered.  Takes a lot of the fun out of playing.",
+        "date": "2026-06-22T05:37:36-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Loya#69",
+        "score": 5,
+        "text": "Super exciting",
+        "date": "2026-06-22T00:02:51-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Glmgreatly",
+        "score": 5,
+        "text": "Temporarily offload it for storage.",
+        "date": "2026-06-21T18:18:03-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Namaste Ray",
+        "score": 4,
+        "text": "This is a fun and engaging game.",
+        "date": "2026-06-21T03:47:22-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Cabbage 🥬 patch",
+        "score": 5,
+        "text": "I always enjoy playing and seeing how far I can get good luck 🍀 every ☝️",
+        "date": "2026-06-20T20:34:17-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "biggolfer50",
+        "score": 5,
+        "text": "Fun game.",
+        "date": "2026-06-20T18:23:09-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "KP914",
+        "score": 5,
+        "text": "Love this game, I’ve been playing for years, on over 11,000 thousands level. But recently you can’t win games unless you keep buying a “pkg” so I feel like recently the games are harder to get you to buy more “pkgs”, and this takes the joy out of the games and I feel like they just want your money.",
+        "date": "2026-06-20T15:27:30-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "jennyphamrrick",
+        "score": 5,
+        "text": "What a waste! The last thing I want to select is a card that has no use for me in the game. When my daily prize is a card, I just exit the game.",
+        "date": "2026-06-20T14:07:39-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "aosbosmq d",
+        "score": 5,
+        "text": "Greatest game of all time ‼️",
+        "date": "2026-06-19T09:54:50-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Rizzo 1975",
+        "score": 5,
+        "text": "Love it fun",
+        "date": "2026-06-18T22:52:51-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "purrplekatt",
+        "score": 5,
+        "text": "I’ve had this game for years now and really like it.  I’ve recently downloaded a few other games and the amount of ads I have to watch to play is outrageous.  No ads on this unless you want more moves.",
+        "date": "2026-06-18T13:11:22-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Deeznuts 101",
+        "score": 4,
+        "text": "Great game",
+        "date": "2026-06-18T12:08:46-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lynchoaks",
+        "score": 5,
+        "text": "I gave it 5 stars so it wouldn’t get buried! Really 2.5 stars. I have played this game for nearly 10 years. I’ve been in the Champions League for several of them. I would just tell new players that they should enjoy lower levels, and do not spend $, because if you do, you will lose the use of ads for additional moves. Champions League has impossible levels, unless you have the Magic Disco Ball and use boosters. I have contacted support, but they insisted that every level is passable…if that’s true I would like to see those levels passed on either Reddit or YT. Prove it.",
+        "date": "2026-06-18T06:12:50-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lucas Rickey",
+        "score": 5,
+        "text": "This game is really fun and I like the cartoony style about it",
+        "date": "2026-06-17T11:38:01-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "AC-VC",
+        "score": 5,
+        "text": "Very entertaining, love the challenges",
+        "date": "2026-06-17T08:40:28-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Macknik dolce",
+        "score": 5,
+        "text": "The Best Thing",
+        "date": "2026-06-16T13:56:41-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "seaj2020",
+        "score": 5,
+        "text": "I've been playing over five years and look forward everyday to the challenge",
+        "date": "2026-06-16T12:22:49-07:00",
+        "version": "22640"
+      }
+    ],
+    "negative": [
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "なまら",
+        "score": 1,
+        "text": "チャンピオンリーグで不可能と思われたラウンドも100回くらい挑戦したらクリア出来たりします。最近ではこれはイケるな、無理だなってのが瞬時に分かる様になりました。 テンプルカーディアンとか言う息してないプレイヤーに当たったら地獄イベだけはおもんないからやめろ!",
+        "date": "2026-06-23T07:20:06.577Z",
+        "thumbsUp": 31
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "miyu吉",
+        "score": 1,
+        "text": "チャンピョンリーグは要らない‼️ 期間が長いし、課金しないなら50回程チャレンジしないとクリアが難しいし楽しくないので、この期間は起動する回数が減った！ “ワザとか💢”って位、悪意を感じる配列だったり、あと1手って時にカボチャが邪魔だったり課金へ誘導してるかの様な仕様を感じる‼️ 最初は楽しめても徐々に…更新毎に“動画を見て5手をゲット”もなくなる！ 50人居たチームも10数人になり、今では2,3人しかプレイしておらずアンインしてる！ アンインしても名前だけ残る なので、“チームで力を合わせて…”なんて無理‼️ ライフ5個もすぐなくなるし、ライフ送ると1コインもらえるが、チーム50人が同じテンションでライフ送信し合うのであれば49コインゲット出来るが、皆そんなに暇じゃないので、次々辞めていく！ ダウンロードはお勧めしない！",
+        "date": "2026-06-22T16:55:50.708Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "たんたん",
+        "score": 1,
+        "text": "更に課金しないとクリアできない仕様になってますね もう引退します",
+        "date": "2026-06-22T04:24:37.590Z",
+        "thumbsUp": 50
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "中本博章",
+        "score": 1,
+        "text": "つまんない。",
+        "date": "2026-06-22T04:11:03.351Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "masa jo",
+        "score": 1,
+        "text": "Meowdokuの広告が出ると何度もリセットされてしまう。これでアイテムを使ってクリア寸前でリセットされるので、無駄にアイテムを使わされてしまった。至急この広告入れないで！",
+        "date": "2026-06-20T21:33:56.400Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "HAL",
+        "score": 2,
+        "text": "広告が出てくることないのは高評価。 ただ、脳トレと言うよりは運ゲーの類のゲームに感じる。プレイしてみて何回か絶対にクリアできないところが出てくる。何回か失敗を繰り返すことでクリアできるようにはなるが。。。この手のゲームで運ゲーってダメでしょ、、、",
+        "date": "2026-06-20T11:30:36.742Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "小林誠",
+        "score": 1,
+        "text": "課金させようというクリアが出来ないレベルが要所要所で出てくるのでストレスが溜まるだけのゲーム、もう辞めました",
+        "date": "2026-06-17T10:27:50.400Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "horrry jojo",
+        "score": 1,
+        "text": "以前までは楽しくプレイしてましたが、チャンピオンリーグにが難しすぎて全然楽しくありません。 しかも強制的にチャンピオンリーグをプレイさせられて、あと七日間も通常ステージをプレイできないと思うとげんなりします。 ステージ200が無理ゲーすぎる！！！",
+        "date": "2026-06-14T19:43:51.290Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "Maki Tanamoto",
+        "score": 1,
+        "text": "最近、クリアできない。作為を感じる。",
+        "date": "2026-06-14T03:34:12.940Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "まつひろ",
+        "score": 2,
+        "text": "ゲーム自体はいいが、インチキ広告のせいでコインを使うハメになる。勝手に強制終了され大迷惑！最初からやり直す事に😠😠詐欺広告もいいところだ💢💢",
+        "date": "2026-06-13T13:47:47.701Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "ごまちゃん",
+        "score": 2,
+        "text": "最近開けなくて困ってます",
+        "date": "2026-06-13T02:44:39.688Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "ごんざぶろう",
+        "score": 1,
+        "text": "cmのゲームはいつできるのかな？",
+        "date": "2026-06-11T16:24:35.193Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "しゅう",
+        "score": 1,
+        "text": "ゲームの進行が止まり、困っていてヘルプセンターに連絡をしたら、少し待ってと言われて何日も返信がないまま。何回もヘルプセンターに問い合わせても一向に返信は無くゲームを辞めようと考えてます。今までずっと集めたのが無駄になるのも腹が立ちます。改善して下さい。",
+        "date": "2026-06-10T14:28:59.933Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "増田智美",
+        "score": 1,
+        "text": "ゲームの説明がなく分からないまま続けている。つまらない。",
+        "date": "2026-06-10T08:52:05.666Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "りんごおいしい（もじゃもじゃ）",
+        "score": 1,
+        "text": "広告と全く違うゲーム！騙された！",
+        "date": "2026-06-10T02:19:50.781Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "風前さん",
+        "score": 1,
+        "text": "あまりにも妨害ステージ多過ぎて7000継続してたマジッ苦ディスコ消したわ。 もう二度とすることはないな。",
+        "date": "2026-06-09T19:25:06.761Z",
+        "thumbsUp": 9
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "中村隆弘",
+        "score": 1,
+        "text": "すぐ画面が変わるゲームが出来ない最悪もう３週間位なる",
+        "date": "2026-06-08T20:19:48.496Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "LaLa you",
+        "score": 1,
+        "text": "課金させたくてあの手この手で悪質。絶対やってはならない",
+        "date": "2026-06-07T11:57:17.337Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "Raw",
+        "score": 1,
+        "text": "これはパズルゲームではありません。人間の忍耐力を鍛えるものです。全く面白くありません。",
+        "date": "2026-06-06T10:04:55.464Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "Googleユーザー",
+        "score": 2,
+        "text": "強制終了でゲームがシャットダウンします。再度開いたら、連続クリアやミッションが失敗になってます。早急な対応お願いいたします。",
+        "date": "2026-06-02T05:13:12.189Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "YUKI shiroi (Korokoro)",
+        "score": 1,
+        "text": "突然、プレー中に中断されたり。ゲーム開いた途端画面が切れたりと、いろいろ調べて、やっても全然改善しない為、イベント中に切れたりするので、今はプレーしていません。普通に出来てたのに。 他のゲームは、普通にプレー出来ます。 アインストールするか迷ってます。 せっかく、このゲームは課金しなくても全然遊べて、レベル千以上になってるけど…勿体ないけど。開くたんびプレー中に切れたりしてイライラします。",
+        "date": "2026-06-02T01:30:40.258Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "やまもとかおる",
+        "score": 1,
+        "text": "本当につまらない 最初の落ちてくるブロックで積むときがあり、コンテニュー前提のステージが多すぎる。",
+        "date": "2026-06-01T12:41:19.806Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "斎藤とし子",
+        "score": 1,
+        "text": "データ引き継ぎが上手くいかずサポートに連絡取るも1週間経っても返信来ず。Facebookからのプレイも駄目ザンスよ。一からやり直し辛いよね〜😭チャンピオン🏆️リーグなんてターン数キツイし今では課金しまくりのホームラン王だ!!",
+        "date": "2026-06-01T02:28:02.699Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "宮",
+        "score": 1,
+        "text": "とにかく課金誘導がヤバい",
+        "date": "2026-05-31T11:52:37.648Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "小1不登校児",
+        "score": 1,
+        "text": "最低最悪です テンプルガーディアンズが画面から消えて出来なくなりました。最悪てす。お仲間さんに迷惑かけるし頑張ってるのに。クリアしたとかも分からずです。このゲーム最悪すぎます。",
+        "date": "2026-05-30T16:57:38.123Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "right",
+        "score": 1,
+        "text": "広告ないのは良いが、ゲーム展開はイライラする場面が多い。 ポイ活には不向き、基本的には隙間時間のプレイ、タイミングによっては長時間の張り付きが必要になる",
+        "date": "2026-05-29T05:04:02.300Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "よこしま",
+        "score": 2,
+        "text": "パズルとして「デフォルトの状態で解方がない」面は論外。課金前提面が出てきた時点でダメ。多少ならまだ許せるが、さすがに限界が来ている。 もう少し努力してほしい。",
+        "date": "2026-05-29T02:22:11.121Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "やさすぃオカピ",
+        "score": 2,
+        "text": "個人で楽しむにはいいが進めていく中でグループに入りたくなる、そしてそこで嫌な目に遭う",
+        "date": "2026-05-27T15:29:31.740Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "チビィ",
+        "score": 2,
+        "text": "数週間前の更新後、強制終了の連続です。まともにゲームが出来ません。それ以前にまともに立ち上がりません。他にも同様のレビューが複数ありますね。何とかして下さい。",
+        "date": "2026-05-27T00:13:48.702Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "瀬在丸裕紀",
+        "score": 2,
+        "text": "だんだんおもしろくなくなってきました。特にやっと特典がついたと思った瞬間に絶対にクリアできないターンが来たり、広告見て特典もらおうと思ってもないことにされたりします。特典もすごく小さいものになってきて、課金しないと遊べないんだと感じてます。なんとなく惰性で続けてる感じです。",
+        "date": "2026-05-26T11:18:46.837Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "内林哲治",
+        "score": 1,
+        "text": "全然進まない。飽きてきた。",
+        "date": "2026-05-26T03:33:37.532Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "高橋桂一",
+        "score": 1,
+        "text": "アップデートしたらゲーム中によくダウンする。",
+        "date": "2026-05-25T12:53:22.148Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "さぁ仔",
+        "score": 2,
+        "text": "最近、お助け広告微妙。 必要な時に出ないで、課金させようとするし…。 アイテム続かないし…。 あと少しでクリアのイベントもアイテム出ずらくなった。 他の方が言うように無課金なので、暇潰しに楽しんでいます。",
+        "date": "2026-05-25T11:01:45.984Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "くまおふう",
+        "score": 1,
+        "text": "押しミスでコインを回復に使ってしまう事があるので、改善して欲しい",
+        "date": "2026-05-24T09:49:46.337Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "ワールドシャウラ",
+        "score": 1,
+        "text": "最初は楽しいけど、無課金だと何十回とやりなおさないとクリア出来ない事が多々ある。ブロックを消さない配置で無駄に回数を消費する事が多々ある。ムカつくけど、もうどうでも良くなったから暇つぶしゲーとしてはいいかも",
+        "date": "2026-05-22T05:33:07.861Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "Duke N",
+        "score": 1,
+        "text": "面白いが広告が多すぎる。特にLLビーンの広告は最低で、次から次へと開かされて、あげくに開始時点に戻されることご多い。広告が必要なのは理解できるが、こういう広告は出ないようにするべきではないか。",
+        "date": "2026-05-21T10:22:46.664Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "池田秀昭",
+        "score": 1,
+        "text": "一生懸命に、クリアさせないとキューブが落ちて来る、ヘドが出る、それと、トーナメントあれは、実在しない相手と戦ってる、やらせだね!皆んな経験有るはず、ほぼ逆転無いと確信、数十分後逆転、２位とか３位あり得ない、其処までやる必要有る！",
+        "date": "2026-05-20T10:16:10.763Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "A.A.A hana (karen)",
+        "score": 1,
+        "text": "機種変更にて。Facebookを介して進行状況を移行しましす。 ■まず、新しい方の機種でトゥーンブラストをインストールしました。 ■開くと、いきなり1ステージのゲームが強制的にはじまります。⚠️トップページにはなりません。行けません。戻れません。 ■仕方なくクリアし、ようやくトップページになります。 ■が！続いて新機種でFacebookにサインインすると、あら不思議。新機種に移行されてきたのはまさかのコインだけ。チャンピオンズリーグだったレベルは引き継がれることなく、何故か新機種で強制的にリアしたステージ1の状態のままで引き継がれています。意味不明です。 グループのリーダーにもなり、時に課金もして何年もかけてようやくここまでにしたのに、問い合わせにもなしのつぶて。 エラーはこちらのせいではありません。とにかく酷い。最低です。",
+        "date": "2026-05-18T06:43:23.854Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "ぬこヤマさん",
+        "score": 2,
+        "text": "報酬のナーフがあからさまに酷いので☆―1です。",
+        "date": "2026-05-16T07:36:47.610Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "A. A.",
+        "score": 1,
+        "text": "操作回数復活でCM見せるけどCMサイトに飛ばして強制リセットして進行妨害する運ゲー、忍耐力があれば楽しいかも？ 最近は回数復活CMも準備中って言って回復妨害しているし、CMからサイトに飛ばされて、戻ったら強制的にタイトルからロビーに戻され連鎖記録がリセットされる事が多いです。",
+        "date": "2026-05-15T23:18:28.326Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "あかかこ2",
+        "score": 2,
+        "text": "iPhoneからAndroid(Pixel10a)に機種変更しました。 今までiPhoneでCMを見たら5ターン追加できていたのに、Pixel10aにしたところ突然できなくなりました。 再起動やアプリのインストールなどしても全くできません。 あと1,2回のムーブでクリア出来るっていうときに便利だったのに残念です。",
+        "date": "2026-05-14T22:41:53.789Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "18空挺師団曹長惣流",
+        "score": 1,
+        "text": "レビュー投稿しても返信なしの運営にがっかり、余計なデータ量増やしてサーバーの改善はせずにフリーズ多発の状況にもサポートからはUpdateして下さいの回答。こまめに毎回アップデートしていますが…（笑）さらには課金重視の最近の状況には残念です。 昔のままが一番良かったのに残念ですね。 こんなアプリはインストールしないに限ります★が4.2もある訳ないのに堂々と嘘を晒してる運営企業なんだと捉えても過言ではないですよね。 最近は特にフリーズ多いのでせっかくクリアしても、また1からやり直しなんてのありますから注意して下さい。チャンピオンリーグの上位プレイヤーより😅敢えて言うなら無理ゲーです本当に…lol",
+        "date": "2026-04-13T13:35:33.602Z",
+        "thumbsUp": 71
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "久留里",
+        "score": 1,
+        "text": "楽しくプレイさせていただきありがとうございます。最近気づき『何故？』と感じている部分があります。友達の場合プレイ追加の広告表示かあり最大５回（羨ましい） 私の場合はプレイ追加広告表示が無くユーザー対応になれば評価変更いたします。もう一つはバックアップ先をFacebookだけではなくGoogleさんへの選択希望します。",
+        "date": "2026-04-02T01:18:56.335Z",
+        "thumbsUp": 15
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "秦 重義",
+        "score": 2,
+        "text": "レベルが上がるほど難易度が上がる。 クリヤー出来ないとCMを見てターンが増えることになってるがCM後に☓マークで戻ろうとするとゲームが初期化されることが多い。この状況は全く改善されないのでストレスがたまる。 無課金で初期段階のみ楽しむだけのゲームと納得しているが、接続エラーが頻繁に出てゲームイベントが進行しない。 ゲーム内容は★4つの価値はあるが運営システムが欠陥だらけでマイナス★２つ。",
+        "date": "2026-04-30T05:19:48.814Z",
+        "thumbsUp": 82
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "藤本大生",
+        "score": 1,
+        "text": "強制終了が頻回に起こる。 ゲームの読込みに時間を要し、タイムアタックでは充分にゲームをこなせない。 １位を目指そうにも、読込み時間の差で不利を感じる。 意見を出そうと、チャット形式のサポート窓口に打ち込む途中でも、強制終了するので、もう諦めました。",
+        "date": "2026-05-02T05:29:27.891Z",
+        "thumbsUp": 14
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "mac akiim",
+        "score": 1,
+        "text": "ゲーム自体は面白いが物理的にアイテムやターン延長を使わなければ攻略不可能な組み合わせでしかブロックが出てこないことがある　アイテムを使わせるのはいいがそもそも通常のクリアができなければゲームとして成立していないのではないかなと疑問に思うこともある 追記：改めて書きますが明らかにアイテム使うかコイン消費しなければクリア不可能なステージが多すぎです　上記しましたがそもそもクリアできないのならゲームとして成立しているとは言えません。もう少しゲームのシステムを調整する必要があると思います 追追記 レベル1万を超えて上のランクに上がりましたが相変わらず明らかに不可能なステージが増えた　1つのステージをクリアするのに20ライフくらい消費するのもザラです　正直時間の無駄です　ゲームにするならせめて難しくても攻略できるものにしないとゲームにならない",
+        "date": "2026-05-09T13:14:36.791Z",
+        "thumbsUp": 24
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "えさ",
+        "score": 2,
+        "text": "最近のチャンピオンリーグはターンが少なく、コイン(課金)使用しないとクリア出来ないステージが多いです。以前のチャンピオンリーグはコイン使用が少なくステージ進めたので楽しかったのですが今は面白くありません。現在所持のコインが無くなったらアンインストールします。",
+        "date": "2026-04-11T23:21:35.613Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "Kazuya",
+        "score": 2,
+        "text": "ポイ活でやってみた。30日間でレベル1000クリアすると約1800ポイント(約1800円)付与となる案件。普段から時間と労力がかかってもポイント付与額の高い案件(城ゲーなど)をこなしてきたが、あまり得意分野ではないこの手のゲームに挑戦してみた。無課金でレベル450辺りまできたが、それ以降は1日1〜3ステージしかクリア出来なくなった。この時点でポイ活の残り日数は約2週間をきった。残り550〜600ステージは厳しい状況と思い、我を見失ってToonパスに課金(1500円)して色々なアイテムを取得してレベル520辺りまでは到達したが、もはや詰み状態。アイテムもほぼほぼなくなり、数日間1ステージさえもクリア出来ない日々が続いている。ポイ活期日も残り10日間くらいになり、残りの500ステージクリアは無理だ、詰んだ！1500円の赤字確定だ。一応無理とは分かっているが残り期日まではチマチマやっていくつもりだが、残り10日間で残り500ステージは無理だろう...こんなんやる暇あったらハナから得意分野の城ゲー案件をやってればよかった、後悔だ...いゃ無念だ。",
+        "date": "2026-04-01T02:33:11.646Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "Victory Carp",
+        "score": 1,
+        "text": "チャンピオンズリーグのステージ100に近づくと絶対にクリアできないターン数になっている。絶対に課金しない。そうすると絶対にクリアできない。運営側は標準ターン数でクリアする解答を示すべき。ストレスが溜まるだけの不毛なゲーム。",
+        "date": "2026-04-26T07:16:57.104Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "がおりん",
+        "score": 1,
+        "text": "このゲームは悪意があります。途中から明らかにアイテムが無いとクリア出来ない難易度。デイリークエストもいつの間にか無くなりました。そして極めつけはスペックはたりてるのにフリーズ。失敗扱いになりマジックディスコは0。やる気も失せた。",
+        "date": "2026-04-28T01:59:51.898Z",
+        "thumbsUp": 15
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "kamo kuro",
+        "score": 2,
+        "text": "スマホとタブレット２台で遊んでいます。　どちら共に最高ランクですがアカウント？で難易度が全然違いミニゲームなどの有無もあります。驚くほど差があります。",
+        "date": "2026-05-11T13:38:07.397Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "ぽんぽん",
+        "score": 1,
+        "text": "強制終了されて　アイテムやらずっと続けてた連続もなくなっていてどういうことですか？サポートとにメール送っても全く返信無しで 非常に強制終了の多いアプリです。今では全く出来ますん",
+        "date": "2026-05-09T01:37:16.874Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "たかさん（たか）",
+        "score": 1,
+        "text": "ロケットが確実に当たってるのにペンギンや樽が消えない、反応しない等が多数、残り1ターンで終わるはずがその反応のせいで失敗になるのがめちゃくちゃある、わざと異常なほどバラバラで落ちてくるブロックはもはや課金させる為の仕様なのだろうけど、少なくともギミックなんかは正直にやれよ。ステージスタートした時に無駄に配られる爆弾とロケットもまじで要らん、せめてオンオフできるようにしてくれ、そうじゃなくてもステージはスタートしないとわかんないのに邪魔にしかならんものをさも連続クリアの特典みたいに押し付けられても邪魔でしかない、同時に時間限定でプラスされる爆誕やらロケットもまじで要らん。",
+        "date": "2026-05-02T09:40:42.320Z",
+        "thumbsUp": 9
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "Ku ma",
+        "score": 1,
+        "text": "現在レベル10000までいきました。無課金です。レベルが上がるにつれてかなり難しくなってきますし、アイテムほぼ必須なところもあります。悪い点→物体(風船や貝、輪投げ等)がある方向にはロケットが向きにくい性質にあります。それも極端に。 昔よりブロックが揃いにくく降りてくるようになり、ミラーボールが作りづらいです。",
+        "date": "2026-01-17T07:45:04.370Z",
+        "thumbsUp": 467
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "かわのえつこ",
+        "score": 1,
+        "text": "無課金でやっていました。このゲーム面白く、長く遊べるゲームだと思い課金をしてみました。マジックディスコで、かなりのステージをクリアしていたのですが、突然、アプリが開かずゲームが出来ない状態に。課金したばかり、しかも2000コイン以上あるのに。返金して欲しいよ。本当、残念なゲームです。ゲームが出来る様になっても二度と課金はしません。というより、サヨウナラかな。",
+        "date": "2026-01-15T19:07:53.925Z",
+        "thumbsUp": 35
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "来栖",
+        "score": 1,
+        "text": "ちょっと前まで広告見ればステージクリア出来たからコイン足りなくても前に進めたけど最近は「あと1ムーブあればクリア出来たのに…！」って所でクリア出来ず、広告のコンテニューで出てこづコインのみでコンテニュー選ばされライフとコインだけ減り何回もその状況…。パズルの配色仕組まれてる？そして引き継ぎ出来ないから機種変したら一からやり直しだし。5〜6年前は引き継ぎ出来なくても遊ぶのには丁度良くて課金なんてする必要なかったのに今は課金ばっか勧めてくるし課金するほどの魅力感じません。残念な方向に進んでます。楽しいから辞めませんけどファンが居ることを忘れないで下さい。",
+        "date": "2026-01-14T01:26:01.835Z",
+        "thumbsUp": 31
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "moss moss",
+        "score": 1,
+        "text": "入手アニメーションが終わらないと次ステージタップができない報酬が増やされたり、ステージクリア後にイベントのお知らせがはさまって次ステージタップができなかったり、他プレイヤーと強制的に絡ませようとするイベントが増えたり、自分のタイミングでステージ進めたいのにできないアップデートが増え、最近では面倒臭いと思いながら惰性でプレイしていたので星1で。 それとアップデートで直るっぽいもののここ数ヶ月でちょっとした不具合が何度か起きたのも難点。",
+        "date": "2026-02-14T14:26:28.332Z",
+        "thumbsUp": 19
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "h tosh",
+        "score": 1,
+        "text": "このゲームは「無課金」でプレイされている方が多いと思います 魔が差して一度100円でも課金すると、広告視聴によるエクストラプレイの道が突然表示されなくなりました その後は課金無しではほぼ進行困難となります あまりの変貌ぶりに驚愕しました 進行困難による課金誘導が激しく、ストレスが溜まるばかりなので、他のゲームを探してます",
+        "date": "2026-02-15T23:36:23.702Z",
+        "thumbsUp": 76
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Huw Richard Owen",
+        "score": 1,
+        "text": "You have turned what was a really good game by the previous owners into nothing more than a rip off money grabbing dollar making con, made it impossible to pass through levels without spending money, cut the amount of rewards we are getting to the bare minimum, added far to many in game games with hardly any rewords, added a collection card game which is impossible to complete as your hardly giving gold cards to complete it, your not more than a typical greedy money grabbing Amarican compny",
+        "date": "2026-06-23T06:49:11.425Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Cass R",
+        "score": 1,
+        "text": "it's nothing like the ad that was advertised, ew.",
+        "date": "2026-06-23T05:27:12.799Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Rashid keah",
+        "score": 2,
+        "text": "I wanted to rate a five star but their is a problem with the login Facebook account,I tried like multiple times still It didn't let continue my progress where I left of .So I'd likely please fix this issue .",
+        "date": "2026-06-23T00:37:48.282Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "t d",
+        "score": 1,
+        "text": "I would like to be able to claim my weekly tournament/contest awards! This is the 3rd week I've not been able to claim them. It just keeps saying connection error! It really seems that you could have this issue fixed!",
+        "date": "2026-06-22T21:32:00.380Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Vanessa Jefferson",
+        "score": 2,
+        "text": "it's not what the ad showed but I guess it's OK to pass the time while sitting in the bathroom",
+        "date": "2026-06-22T20:15:17.532Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Teresa Alverson",
+        "score": 1,
+        "text": "the services sucks, no refunds, no information about the game, like getting kicked off a team by not doing anything wrong, not letting chat with team, i am sure i got kick out by mistake. the items not received from a new team. use coins on, did not count because you lock on the old team. I like the game, but since there are no refunds on the mistakes of the game. I haven't spent a dime since.",
+        "date": "2026-06-22T15:50:32.304Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Maureen Swenson",
+        "score": 1,
+        "text": "once you accidentally tap the purchase button you cannot get back the free with optional ads version and will forever be spending real money to get past unwinnable levels. used to love this game. now it's a frustrating money suck.",
+        "date": "2026-06-22T14:46:58.169Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Deandra Cunningham",
+        "score": 1,
+        "text": "I am still trying to figure it out but its missing some 🎬 somewhere in here the game reminds me of all the other game like this one right now its a no for me",
+        "date": "2026-06-22T13:38:43.389Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Sama Salhab",
+        "score": 1,
+        "text": "they definitely cheat you . they just want you to pay more and more money .I dont care but I am not paying for a \"free game\"",
+        "date": "2026-06-22T12:49:16.128Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Daryl Cobbs",
+        "score": 2,
+        "text": "Too many hard levels, you can play for days but if you can't contribute to any wins then you can't share in team bonus",
+        "date": "2026-06-22T10:26:16.181Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "ǺĹĚẌ ĤǺŘĎČÕŘĚ",
+        "score": 1,
+        "text": "Сделайте возможность менять имя команды и эмблему 🥺 и куда делись дополнительные ходы за рекламу? 😡🤬😡 очень жадная игра, ничего невозможно накопить... ☹️",
+        "date": "2026-06-22T08:48:39.329Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "karthik t",
+        "score": 2,
+        "text": "regular game not much worth",
+        "date": "2026-06-22T06:24:14.768Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Darel Reed",
+        "score": 1,
+        "text": "Just started and already becoming impossible",
+        "date": "2026-06-22T01:53:14.243Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Michael Hamblen",
+        "score": 1,
+        "text": "yet another game that level 30 is the point where the game stops allowing easy wins and begins trying to frustrate the player into spending money. shame on greedy developers. deleting now...",
+        "date": "2026-06-21T23:53:25.654Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ron Elkins",
+        "score": 1,
+        "text": "game keeps crashing. can't contact support shuts down before I can ask for help",
+        "date": "2026-06-21T18:05:22.660Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Doug Ervin",
+        "score": 1,
+        "text": "Levels have gotten ridiculously difficult. You aren't able to complete them without using the coins which you can conveniently purchase.",
+        "date": "2026-06-21T18:03:34.702Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Raymond Patterson",
+        "score": 2,
+        "text": "II can no longer play the game. for the past couple of weeks whenII play the game, after a couple of turned, the screen goes black.II can hear the game, I can touch the controller and hear them, but can't see the game. I've cleared cookies, cache etc. uninstalled and reinstalled, but after the prior update...no good. what a shame. ni loved this game too.",
+        "date": "2026-06-21T17:36:36.749Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Lucy Arnold",
+        "score": 1,
+        "text": "have played this game for years. But now it is unplayable because it shuts down all the time. I clear the cache etc but nothing works. have no issues with other games I play.very disappointed",
+        "date": "2026-06-21T12:28:04.279Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Stephenie Lim",
+        "score": 1,
+        "text": "blank ...cant see anything",
+        "date": "2026-06-21T06:39:45.183Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Anna Challoob",
+        "score": 1,
+        "text": "is bored is not like the video you show, is different",
+        "date": "2026-06-21T06:18:06.328Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jaco van Staden",
+        "score": 2,
+        "text": "You are making it too hard to enjoy. Everything is getting harder and harder. From the levels requiring 10 to 15 additional moves to be bought. Space miner boards are getting bigger making it harder to complete. In canon fest I now need 300 balls where 200 was enough before. The card packs is also harder with a lot more lower star duplicate cards. You are doing this to get people to spend more and more money. As someone who has played this game for years, I will quit if this trend continues 😡",
+        "date": "2026-06-20T22:21:11.480Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Pam Williamson",
+        "score": 1,
+        "text": "game is fun to play but now it wont open so I can play. I've did everything I was told to and it wont open. Im not happy with it at this time.",
+        "date": "2026-06-20T17:39:49.946Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Wendie Love",
+        "score": 1,
+        "text": "Since the last update I had to uninstall the game because nothing was showing up as far as my team and the tournament goes. I cleared the cache then had to uninstall it. Once I installed it again it won't let me upload my progress through Facebook even though I had just saved it. I try clicking on support but it just goes back to the main screen. Please help before my team gets rid of me.",
+        "date": "2026-06-20T16:20:34.283Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Candi Moonbeam",
+        "score": 2,
+        "text": "not as asceerized different gamè.",
+        "date": "2026-06-20T11:26:47.188Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Craig Stroud",
+        "score": 1,
+        "text": "The game is fun, but they definitely cheat you. You earn coins to get more prizes/features, based on certain moves. It seems like when you make moves that will earn you a high number of coins, they don't count them for that game. Update: they've made improvements, but only to get you to buy in more. A game is supposed to be random, but this is clearly programmed to get you to purchase. Once my current purchase runs out, I've got to get rid of this thirst trap of a game.",
+        "date": "2026-04-11T11:44:13.208Z",
+        "thumbsUp": 24
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Marie Giarniero",
+        "score": 2,
+        "text": "Once again having connection errors. Tried to reload game. Back to the beginning. The support for this game is terrible. Connection errors happening again. This game was fun. Recently, I lost all my bonuses, and I continually get a connection error so I don't get added to daily races. All my coins are gone. I rarely get the choice to watch an ad to get extra moves. I am about to uninstall it",
+        "date": "2026-03-10T11:21:25.885Z",
+        "thumbsUp": 50
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Andrew Beardsley",
+        "score": 1,
+        "text": "I have been playing for years. I don't have Facebook so I have had to reset every time I get a new phone. I have ran up to the highest level at least 5 times. But now it is impossible. I have gotten to champions league. And now it costs several hundred coins a day to play. Absolutely impossible to pass levels. I used to have 25k coins saved but am now down to 3k just trying to keep the disco ball...it's impossible to win levels without the disco ball anymore. Probably gonna delete the game soon",
+        "date": "2025-02-05T01:13:01.930Z",
+        "thumbsUp": 755
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mike Humphrey",
+        "score": 2,
+        "text": "The tier they put our team on guarantees we lose every week without even coming close to rewards with 20 plus players. The levels become ridiculously difficult for days and drain you of every resource. It's like they set you up to fail for days hoping you'll give in and pay to play. Used to love this game, but not so much any more. Would just like to say, the game just keeps getting worse. It was fun at first, but not so much any more. enjoy it for awhile.",
+        "date": "2026-06-01T00:05:33.555Z",
+        "thumbsUp": 9
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Arthur Yellin",
+        "score": 2,
+        "text": "The game is NOT like the ad. BEWARE - I believe the company changed their creation algorithm such that the allotted number of moves IS NOT ADEQUATE; you must pay to maintain a streak and other benefits. Yes, they should make money, but not by abuse of customers! I am at a high level and expect challenge. I do not expect IMPOSSIBLE without spending money. Almost no way to earn points without buying them!",
+        "date": "2026-06-14T15:02:06.230Z",
+        "thumbsUp": 18
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Misty Taylor",
+        "score": 2,
+        "text": "I love this game HOWEVER over the 2 years I've been playing it, it has become basically unplayable. Like they are trying to force you to pay to play!!! 😡😡😡 This game used to be so fun, now it's just frustrating! You can't hardly progress unless you pay, such a shame! Also, don't let the pictures fool you, I've never seen that in the game. Plus, some reviews say you can watch ads to get extra moves....untrue!!!",
+        "date": "2026-05-22T15:52:06.346Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "W. L.",
+        "score": 1,
+        "text": "I've reviewed this game a few times. getting more boosters has been better, but they completely took away ads to get more moves. utterly ridiculous and unenjoyable The toon cards are awful and a waste of time. I play A LOT and can not get all the toon cards, always fall short of a few. and the rewards for playing are so stingy given the amount of play needed. Things keep changing. The only enjoyable part is the cannon fest, but now they put more impediments so its harder to complete the levels.",
+        "date": "2026-03-30T22:07:03.997Z",
+        "thumbsUp": 53
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "DJ Kleist",
+        "score": 1,
+        "text": "I have played this game for YEARS! In fact I downloaded it when it had 10K downloads. Currently I was at level 11801 (50 new levels just released), but for the past year the game keeps resetting my progress with incentives, in game money disappears, and when I reach out to customer support I get told to completely close one devise before playing on another. which is great advice, but I only play on one device. I am just frustrated with it, so I un-installed it.",
+        "date": "2026-04-28T17:53:02.505Z",
+        "thumbsUp": 13
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Keith Mann",
+        "score": 1,
+        "text": "We admit that some of the levels may seem really challenging, but it is always possible to complete them without the use of extra lives, coins, or boosters. We assure you that we never interfere with a player's gameplay. This is what you tell me but why is it before you get to a stage it tell you the level you fixin to go to is hard and offers you to buy coins and boost 🤔 your computer algorithm is set to make the house win not the player just like a casino house always win. It's not enjoyable.",
+        "date": "2026-05-18T15:02:28.623Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Sondra Wright",
+        "score": 1,
+        "text": "I've played this game for years but recently it has repeatedly crashed on ads & I lose all progress. Support keeps saying they've forwarded it to fix it & give me 1 magic disco ball to compensate, which it doesn't. I'm thinking I'll have to quit if this isn't handled in a better and more timely manner. I'd give 0 stars here if I could I'm so frustrated!",
+        "date": "2026-05-30T22:06:52.483Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Evan D'Orazio",
+        "score": 1,
+        "text": "After level 1000 you will fail each level 30-60 times, and only pass with the disco ball and plenty of coins and power ups. It's not even fun at this point. They make it obvious they could really, REALLY use your in-game purchases. Uninstalled. Stay away from Toy blast, it's even more predatory. Company name should be Peak Trash!",
+        "date": "2026-05-08T18:01:52.741Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Claudia G",
+        "score": 1,
+        "text": "I used to enjoy playing this game for many years. Not anymore since it has become impossible to advance without purchasing more moves or other things. Too much $$$. It causes more stress than enjoyment. Will be deleting as I can't win a super hard level after a ridiculous number of attempts and I refuse to pay to play.",
+        "date": "2026-04-07T00:25:30.200Z",
+        "thumbsUp": 13
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Bunny Sparks",
+        "score": 2,
+        "text": "it's a fun game when you first download. Easy game play, moves along pretty quickly. but then it gets harder and harder. levels eventually become near impossible to pass without boosters or paying. Compared to other \"match 3\" games...Toon Blast is EXPENSIVE!!! 100 coins? $1.99. Packages are so expensive it's wild and completely unaffordable for players who want to play but don't want to be paying out the nose for so little.",
+        "date": "2026-01-26T00:19:06.428Z",
+        "thumbsUp": 26
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Teri Walter",
+        "score": 1,
+        "text": "After 8 years of playing off and on, I'm tired of the way everything is geared to get players to buy coins, etc. Once you hit the championship levels, it gets frustrating because if you aren't careful, you will lose all the coins you earned, plus some. It defeats the purpose of trying to enjoy the game. I would rather use my time to play games I love, not ones that drain me as I play them. Yes, you can play without buying, but if you do, your coins melt away like snow on a 70 degree day :D.",
+        "date": "2026-01-24T06:29:52.412Z",
+        "thumbsUp": 35
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ryan Fernung",
+        "score": 1,
+        "text": "It was actually very fun until levels passed 200. The game will then just give you blocks you can't use and drain your coins swiftly as you progress, in hopes you'll buy some more. It then gets to the point, level 280 is a great example, in which you'll fail, lose the disco ball bonus, and 100% force you to buy coins to continue. It's not that it's even difficult, it's designed to fail. What a shame.",
+        "date": "2026-01-15T04:49:16.151Z",
+        "thumbsUp": 70
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Thomas Bleichner",
+        "score": 2,
+        "text": "I've been playing for years. I found the game fairly easy and very relaxing. Then I hit champions league (10k+ levels). Harder but made it fun. NOW 2026. I have 15 moves to work from the bottom, up! Purchased 500 cn bundl for $5.99 to keep dbl disco balls and started dragons treasure. each level took one item, or 100 coins to complete. like putting a quarter in and getting a gumball. 2 years ago, I'd have gotten 100 levels or more.. now I'm lucky to get 10 levels for $6. Yes, very disappointing.",
+        "date": "2026-01-30T23:00:50.460Z",
+        "thumbsUp": 33
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Heather Schaefer",
+        "score": 2,
+        "text": "The game is fun but once you start purchasing, the app can crash and you lose everything you earned (and in many cases, paid to keep those boosters.) Customer service just does not reply in a timely manner. For me, this most recent time, it has been days and I've sent 4 messages requesting acknowledgement that they've received my ticket and are working on my issue. Still no response. Horrible customer service is the reason for the low rating.",
+        "date": "2026-03-03T22:50:03.611Z",
+        "thumbsUp": 16
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Gerard Van Der Graff",
+        "score": 1,
+        "text": "I had this rated at 5 stars and now 1. I loved this game but it's turned into a steaming pile of garbage. The random freezes, crashes and restarts are horrific and extremely annoying. And don't watch an ad or it will freeze or crash at least 80% of the time. And if the ads don't crash the game you often won't get credit for watching the damned thing. Please fix it. It was a great game.",
+        "date": "2026-01-29T08:07:30.882Z",
+        "thumbsUp": 31
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Sunshine Rivera",
+        "score": 2,
+        "text": "I started out enjoying your game but when I reached around level 300 it started to get too hard to win on the first try. Then I had to start spending lots of money to buy things to win the level. Spent over $20 in 10 minutes trying to win the levels. That's too much for me! Levels are way too hard to win on the first try which is where you get the bonuses. Too bad cause I really liked it up til then. But, no more. Will be uninstalling it.",
+        "date": "2026-01-30T03:29:15.285Z",
+        "thumbsUp": 29
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Nancy Mills",
+        "score": 1,
+        "text": "Loved this game when I downloaded it; not anymore. It is a rip off. Once you start making purchases, it's over. I am in the 10,000 levels now and foolishly bought the diamond ticket thinking I could advance more quickly. Limited moves, several different goals in each game make it near impossible to get. After this month, I'm deleting it.",
+        "date": "2026-02-06T21:18:15.901Z",
+        "thumbsUp": 35
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ryan Wilms",
+        "score": 1,
+        "text": "This game used to be fun, now it is just a money grab game. You can have all kinds of power ups and never be able to clear boards until you use/buy coins. They even make it obvious when you get a disco ball with 5 colors in a row and all of them go the same way, which is away from the one block you need to clear on your last move. The money grab is horrible and after being in the champions league and top of my teams leader boards, I'm done with this game. Way to make a fun game and get greedy.",
+        "date": "2026-01-16T10:09:34.978Z",
+        "thumbsUp": 34
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Lauren Green",
+        "score": 1,
+        "text": "This game is not fun anymore. The levels are impossible and becoming too difficult. You get less and less ads for bonus plays. It shouldn't take two days to pass ONE level. They want you to buy coins. That's never happening. edit: made one app purchase and now I'm not getting any ads for bonus plays. total BS.",
+        "date": "2026-01-23T16:21:23.753Z",
+        "thumbsUp": 31
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "darius love slayer",
+        "score": 2,
+        "text": "It doesn’t give enough points! Very selfish with points for as hard as you have to try to win",
+        "date": "2026-06-22T13:52:56-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "eCopy99",
+        "score": 2,
+        "text": "The challenge league depletes your rewards",
+        "date": "2026-06-22T11:44:03-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "jdliteyear",
+        "score": 1,
+        "text": "This used to be a fun game, I have played for 8 years, over time they have given less rewards.  Also when you reach the top level, you have to wait 2 weeks for new levels.    During this 2 weeks they hit you with all the hardest levels making it super hard to earn and save coins.",
+        "date": "2026-06-22T09:15:20-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "blahhhhgahhhh",
+        "score": 2,
+        "text": "It will literally have you on the same level for a very long time. You’ll have literally one move left to beat it. That’s how they try to get you to buy tokens or whatever. Then you can’t do your task or anything. All they want you to do is spend money on it. It’s not fun at all anymore. I used to love it, but I will never spend a cent again on this game.",
+        "date": "2026-06-22T09:09:14-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Biggest Mak54",
+        "score": 1,
+        "text": "2nd review. Last I wrote, was level 7901. Now at over 12000. After today, not 1 dime will I send. Retired on fixed income, costs have exploded. Too many times I see rockets fly over to no effect. Random arrows are not random, imo. Don’t need the frustration.",
+        "date": "2026-06-22T08:55:05-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "almohab85",
+        "score": 2,
+        "text": "Getting stuck always harder than harder",
+        "date": "2026-06-22T07:04:14-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Prince1321",
+        "score": 1,
+        "text": "This game is so rigged it’s not even funny. Don’t bother unless you want to spend money to beat the levels. You can play daily and still not get anywhere. There are much better games to play that won’t try to make you buy to advance.",
+        "date": "2026-06-22T02:55:28-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Yippersj",
+        "score": 1,
+        "text": "I’ve beaten over 50,000 levels and they’ve completely ruined this game. There are levels that are quite literally not mathematically possible to beat without spending coins. Different people get different amounts of moves for the same level. Some people are able to watch an ad for more moves, some are not. It’s completely absurd.",
+        "date": "2026-06-20T19:20:56-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "mugsy0316",
+        "score": 1,
+        "text": "Seems rigged, alway seems to miss clearing a level by just one move and of course you can buy your win.  A lot of wasted time.\nWhy give 60 min of free play in your not going to let anyone win waste of my and everyone time 👍",
+        "date": "2026-06-20T14:24:10-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "youne us them",
+        "score": 1,
+        "text": "It does not give you credit when you finish a task on a game. Not worth your time.",
+        "date": "2026-06-20T11:35:57-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Shaybutter7989",
+        "score": 2,
+        "text": "I’ve been enjoying this game more than I should. I was offered a free package, which will give coins and game boosters if I downloaded another one of their games and reached a certain level which I did. Their AI assistant is not very helpful on helping me retrieve my package. I don’t think it’s fair or right offer something that is not going to be available just so you can download another one of your games that I’m not even interested in",
+        "date": "2026-06-20T11:21:26-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "brensonbrensonbrenson",
+        "score": 1,
+        "text": "Game knows how to influence you to spend money. You can not just thoroughly play and enjoy the game. It’s rigged",
+        "date": "2026-06-20T07:42:11-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Bodhi3344!",
+        "score": 1,
+        "text": "The game throttles your wins when you’re successful. The most money-grubbing game ever.",
+        "date": "2026-06-20T04:47:18-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "EPA student",
+        "score": 1,
+        "text": "This game was fun to me when I first started playing it . Then I found myself having to buy coins one time to not lose my progress . What a mistake that was . Now it’s like every board I have to pay for five more move or use in app purchases for boosters . I had 2000 coins left and several different kinds of boosters and decided to just delete this game from my phone , losing my progress and coins because I’m so fed up with the game forcing me to use boosters and coins just to make it to the next board .stat away from this game it will start getting mo ey out of you guaranteed.",
+        "date": "2026-06-17T13:59:18-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Deleted. It’s gone.",
+        "score": 1,
+        "text": "Deleted. After achieving exceptionally high level, It became impossible to win more without spending gobs of $$$, which I refuse to do. The frustration finally outweighed the fun.",
+        "date": "2026-06-17T09:27:07-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "hehdhdidkcockfkd",
+        "score": 1,
+        "text": "This game cheats like severely cheats, first off they change the number of moves they give you, you can literally go on YouTube and search up the level your own and see that they have more moves than u do now, also this game is coin dependent but gives out zero coins, this is game is so cheat and money hungry it takes out the fun, never download this game it’s absolutely AWFUL",
+        "date": "2026-06-17T09:19:10-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": ".Miss B16",
+        "score": 1,
+        "text": "This game can be quite fun especially since there are no ads\nBUT after a while, a player is unable to move from a level unless they spend money. When a player has coins it cost one hundred to move on. Not as much fun as it begins",
+        "date": "2026-06-17T07:55:39-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Phodjdf",
+        "score": 1,
+        "text": "It used to be fun, now they just try to get money from you!",
+        "date": "2026-06-15T21:26:51-07:00",
+        "version": "22640"
+      }
+    ],
+    "neutral": [
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "恵子",
+        "score": 3,
+        "text": "最近のはみんな広告出てウザいけど、これは広告なくて良かったんだけど。。。 レベル12000超えたらムーブ回数足りなくてほぼほぼ運か課金ありきになってきてる。 アイテム使ったりコイン使ったりでクリア出来ないのでちょっとやる気が失せてきた。 ずっとやってたけど残念。",
+        "date": "2026-06-20T15:37:38.979Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "久保田満",
+        "score": 3,
+        "text": "良いです。",
+        "date": "2026-06-09T14:09:26.399Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "ma-ma-ma",
+        "score": 3,
+        "text": "是非ターンの",
+        "date": "2026-06-09T13:21:53.256Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "鈴木みえ子",
+        "score": 3,
+        "text": "ロイヤルキングより面白さがないです。ルールが逆なのが面白さを減らしてしまっていると",
+        "date": "2026-06-02T06:10:08.501Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "Sakura",
+        "score": 3,
+        "text": "ポイ活案件としては優秀だけど、毎度反映が遅いのがねえ",
+        "date": "2026-06-02T02:35:33.519Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "金城貞次郎",
+        "score": 3,
+        "text": "ストーリーとかミッションとか無駄が多すぎとパズルが意図的かってくらいバラバラになるし欲しいパズルが出てこない",
+        "date": "2026-05-21T10:58:33.721Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "やす",
+        "score": 3,
+        "text": "最近CMバグ多くないですか？ 改善、お願いします",
+        "date": "2026-05-18T12:35:15.594Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "山本由起子",
+        "score": 3,
+        "text": "急にスマホが壊れたせいで機種変更で引き継げなかった…ゲーム自体は課金しなくても十分楽しめて良いですが結構先に進んでたのでまた一からでとてもショック…",
+        "date": "2026-05-14T20:29:57.570Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "M Yue",
+        "score": 3,
+        "text": "パズルゲームとして遊ぼうとすると､全く面白くないゲームです。他の方が公式チートと評価していらっしゃるアイテム(マジックディスコ)でのゴリ押しか､降ってくるピースの上振れを試行回数を稼いで狙うか､そんな感じのゲームです。工夫や思考でどうこうできるゲームではありません。これをわざわざ課金までしてクリアして何が楽しいのか､私には全くわからなかったです。 ポイ活で来てる方にはおすすめします。私は1000ステクリアの案件で来ましたが､1週間前後集中してやればなんとかなります。チームに入って､イベントに積極的に参加しておけば､ある程度アイテムやコインを貰えます。それでも足りないので､節約は必要になります。頑張ってください。",
+        "date": "2026-04-07T04:02:16.499Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "lang": "ja",
+        "userName": "破天紅",
+        "score": 3,
+        "text": "ポイ活としてプレイを開始しました。レベル5000ぐらいまでは、普通に進めましたが、それ以降は潰しステージ(アイテムなど課金アイテムがないとクリアできないステージ)が頻繁に現れ課金アイテムなしには、まともに進める事もできません。バグも酷く、ロケットを使っても爆弾に変わって発動したりで、あの手この手で妨害してきます。無課金でも一応進めることは出来ますが、ストレス全開です。ただボイ活としては、過去最高クラスで稼げているので、星3です。レベル5000ぐらいまでは、ひたすらアイテムを貯めていかないと、その後はストレスしかないかもしれません。稼ぐことはできますが、ゲームとしては正直微妙です。ストレス感じるゲームは楽しくないよね。だから星3です。",
+        "date": "2026-04-24T12:41:57.684Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Rhonda Rudsell",
+        "score": 3,
+        "text": "having fun in game app",
+        "date": "2026-06-22T15:22:13.894Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Kevyn Cornyn",
+        "score": 3,
+        "text": "It's game is good",
+        "date": "2026-06-21T18:05:36.869Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Zackth3ripp3r A",
+        "score": 3,
+        "text": "not too bad",
+        "date": "2026-06-21T14:54:34.570Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Tamar Bradshaw-Mellado",
+        "score": 3,
+        "text": "I played for quite a while, made it past level 200, and finally got so annoyed I have to uninstall this game. Half the time I would be kicked out of a level and given my life back because there were no more moves possible. It could be a fun, cute game if a few things were tweaked, but when I play a game I want to be challenged, not frustrated the entire time. The mini games were more enjoyable than the actual game. Sorry, not for me.",
+        "date": "2026-04-01T22:57:23.751Z",
+        "thumbsUp": 19
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Tanika Coleman",
+        "score": 3,
+        "text": "Interactive game that's fun. I've been playing this game for a few years now. Upon doing so I have noticed a few changes that could have stayed the same. One being after you complete so many levels you used to earn a free play on if you didn't get through a board. That has been taking away. You don't earn ad many free prizes(as in moves) like before neither. Lastly the further up you get on boards you are only given 15 moves for items that take 30 hits to remove. 20 moves would be better.",
+        "date": "2026-03-31T00:09:04.922Z",
+        "thumbsUp": 16
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Michelle Davis",
+        "score": 3,
+        "text": "I have played this game for probably 10+ yrs. I never had problems until this year. They've basically made it pay-to-play. I never put $ on this game and had an enjoyable experience for many years but now every new update makes it harder to pass levels to the point that I have actually made purchases. Big regrets ! They've set it so that no matter how far ahead you get, you are quickly set back all over again with unpassable levels, or making you play dozens of times to pass. Total scam.",
+        "date": "2026-05-20T13:49:24.790Z",
+        "thumbsUp": 11
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Rena Harris",
+        "score": 3,
+        "text": "I've been playing this game for years, and it's been fun. The (new) changes are challenging and not in a fun way. the mini games start out fun until you win too much, then the rules change. They increase the requirements needed to win ridiculously. For instance, on the deep sea treasure mini game, I'd have to win 120 games on the 1st try. 120! The championship league is not fun, and you have to use power-ups to even win a game after the 14th level. I stop playing after 50. The League isn't fun.",
+        "date": "2026-04-28T19:19:36.494Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "S. Spates",
+        "score": 3,
+        "text": "I have been playing this game for years and recently purchased a 0.99 cents bundle for the first time mainly to get a wild card a week ago. Now the game is forcing me to use my coins if I want extra turns and the weekly challenges and games have been intentionally harder to get me to spend more money. This really takes the fun out of the game and I regret spending money on it.",
+        "date": "2026-04-10T14:08:14.251Z",
+        "thumbsUp": 15
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Timothy B",
+        "score": 3,
+        "text": "When I first started playing, it was really fun, great time spent. As you progress into the later game, it starts to push for micro transactions. I get money is a thing, but ads also do that for the devs too. So, I'm confused why the passive aggressive money grab on this game gets more intense the further they go. I got to the Champion League days ago and I'm barely winning any level unless I luck out. And the watch ads for extra moves disappears after a bit, further pushing for pay to win. 👎",
+        "date": "2026-02-10T10:30:18.602Z",
+        "thumbsUp": 29
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "M. Couch",
+        "score": 3,
+        "text": "Game starts off a lot of fun. The higher you go though the harder the levels become, & you can find yourself very frustrated because it may take days to pass a level unless you buy a package with extra coins, boosters, & moves, etc. Sometimes passing levels is important if you join a team, but other teams just play for fun. Many options in this game.",
+        "date": "2026-03-01T19:11:36.953Z",
+        "thumbsUp": 215
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Eric Kistler",
+        "score": 3,
+        "text": "Fun and addicting. After playing for a number of years, it's become obvious that the bonuses are now set up in a way where you'll eventually have to spend money to advance or stay in the game. I used to have everything maxed out but after the update it all went away. Slowly and systematically. Started buying coins but stopped after realizing you can build your bank up a little but it won't last. Foolish spending money on this game. Like I said, addicting.",
+        "date": "2026-01-31T04:26:54.355Z",
+        "thumbsUp": 21
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "A Hazy Nebula",
+        "score": 3,
+        "text": "The game is good. but one of my gripes is the fake races. The Dragon's Treasure and the Easter Bunny races already have predetermined outcomes. So. no matter how hard you try, and especially how FAST you play, you will always be set in the predetermined \"winners bracket.\" It's not real, and it only exists to get you to play fast, possibly making mistakes so that you'd have to pay coins for power ups. Smart move for the dev. But it's BS.",
+        "date": "2026-01-06T10:18:53.759Z",
+        "thumbsUp": 31
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Nechesa Dean",
+        "score": 3,
+        "text": "Fun game to play. Some levels do not have enough moves available to complete level without using your gold coins. Also, the images above that are supposedly this game I've never seen in the game and I've been playing it for well over a year. That's the only reason I'm updating from 4 stars to 3. Make the levels with enough moves this could be 5 star game.",
+        "date": "2026-02-21T15:08:19.944Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Spunjo McDohl",
+        "score": 3,
+        "text": "053026 : Playwell brought me here : That being typed i ran into what seems to be the problem with this game sort of bottoming out players as if something was skewing the odds like what goes on with solitare grand harvest as well... like they turn on the AI or something and it becomes not RNG but skewed and the only way out is to use cash buyable items to win. It was however a good game to play to figure out what games make for good pay for plays and this is ok at it. Just dont expect to be #1. $",
+        "date": "2026-05-30T20:22:13.330Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "nonchulant52",
+        "score": 3,
+        "text": "Fun game. Bought coins and they overcharged.",
+        "date": "2026-06-22T18:13:20-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Marisaidso",
+        "score": 3,
+        "text": "Better rewards for those who play regularly is a must that lacks at the moment. You will have fun, but winning levels becomes time (and money) expensive without being able to earn much in way of rewards (coins, hammers, etc). The in app purchase “deals” could also be more appealing for the price. The value for the purchase is not fantastic.",
+        "date": "2026-06-22T06:55:43-07:00",
+        "version": "22872"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Extra moves 2026",
+        "score": 3,
+        "text": "What happened to watch a video to get extra moves? They higher the levels the fewer moves you get",
+        "date": "2026-06-21T09:44:59-07:00",
+        "version": "22640"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Phil4369",
+        "score": 3,
+        "text": "I used to think this was a good game now I can’t watch adds to get more moves and some have to find a new one game of the levels I need that mi",
+        "date": "2026-06-15T21:43:27-07:00",
+        "version": "22640"
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "net.peakgames.match",
+      "title": "Match Factory!",
+      "developer": "Peak",
+      "score": 4.6666074,
+      "icon": "https://play-lh.googleusercontent.com/TfYptHuK821z2ugqfa7JUomzdoWWV1jBuO1hNraCb0TNAD-zplUWditdZPndKzN50fqzdWBEUp81vMi-s0B4"
+    },
+    {
+      "appId": "net.peakgames.toonblast",
+      "title": "Toon Blast",
+      "developer": "Peak",
+      "score": 4.6348777,
+      "icon": "https://play-lh.googleusercontent.com/j3O3Pyk08XAv4iA4p-Irerfos8g-tLxQ3r42zlScMRsjjgnyQGeE1mqcH3aSY9wA2k6l8fBqpqEaIQfIG2gLLQ"
+    },
+    {
+      "appId": "net.peakgames.amy",
+      "title": "Toy Blast",
+      "developer": "Peak",
+      "score": 4.6507273,
+      "icon": "https://play-lh.googleusercontent.com/bJIPmnpZodfFL2mZKmEzx1o4aoSoIB1F10T7eCtq8Nm5WjBiEAeaJy7xJ9Y6G8_y_fCpsXQfZoe1VelBn-GJZw"
+    },
+    {
+      "appId": "net.peakgames.lostjewels",
+      "title": "Lost Jewels - Match 3 Puzzle",
+      "developer": "Peak",
+      "score": 4.646608,
+      "icon": "https://play-lh.googleusercontent.com/hIMIhpPsv6c6zKuu6vbqvmgsfNyMYf5mJ9Iir_fl_rAtojvbfSR7Su-i7MLYJMWByseiz0c8HuxPLWieNf8_htg"
+    },
+    {
+      "appId": "net.peakgames.lostbubble",
+      "title": "Lost Bubble - Bubble Shooter",
+      "developer": "Peak",
+      "score": 4.5497236,
+      "icon": "https://play-lh.googleusercontent.com/s805bnJMyvlwPIO_QCTzt3ZxmThKNjp3Stp0UFMIP_wpsOGr32gxAt_mii3kp7JPcbAy6E558-0LJKhKa9q9zA"
+    }
+  ],
+  "developerApps": [
+    {
+      "appId": "net.peakgames.match",
+      "title": "Match Factory!",
+      "score": 4.6666074,
+      "icon": "https://play-lh.googleusercontent.com/TfYptHuK821z2ugqfa7JUomzdoWWV1jBuO1hNraCb0TNAD-zplUWditdZPndKzN50fqzdWBEUp81vMi-s0B4"
+    },
+    {
+      "appId": "net.peakgames.toonblast",
+      "title": "Toon Blast",
+      "score": 4.634882,
+      "icon": "https://play-lh.googleusercontent.com/j3O3Pyk08XAv4iA4p-Irerfos8g-tLxQ3r42zlScMRsjjgnyQGeE1mqcH3aSY9wA2k6l8fBqpqEaIQfIG2gLLQ"
+    },
+    {
+      "appId": "net.peakgames.amy",
+      "title": "Toy Blast",
+      "score": 4.6507273,
+      "icon": "https://play-lh.googleusercontent.com/bJIPmnpZodfFL2mZKmEzx1o4aoSoIB1F10T7eCtq8Nm5WjBiEAeaJy7xJ9Y6G8_y_fCpsXQfZoe1VelBn-GJZw"
+    },
+    {
+      "appId": "net.peakgames.lostjewels",
+      "title": "Lost Jewels - Match 3 Puzzle",
+      "score": 4.646608,
+      "icon": "https://play-lh.googleusercontent.com/hIMIhpPsv6c6zKuu6vbqvmgsfNyMYf5mJ9Iir_fl_rAtojvbfSR7Su-i7MLYJMWByseiz0c8HuxPLWieNf8_htg"
+    },
+    {
+      "appId": "net.peakgames.lostbubble",
+      "title": "Lost Bubble - Bubble Shooter",
+      "score": 4.5497236,
+      "icon": "https://play-lh.googleusercontent.com/s805bnJMyvlwPIO_QCTzt3ZxmThKNjp3Stp0UFMIP_wpsOGr32gxAt_mii3kp7JPcbAy6E558-0LJKhKa9q9zA"
+    }
+  ]
+}
