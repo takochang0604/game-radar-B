@@ -16,6 +16,7 @@ import gplay from 'google-play-scraper';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { execFileSync } from 'child_process';
 import {
   MARKETS,
   TRACKED_GAMES,
@@ -368,6 +369,39 @@ function parseReportMd(content) {
 }
 
 /**
+ * 計算報告「製作時間」createdAt(ISO 字串)，供前端同日期排序用(晚製作的排前面)
+ * 來源優先序：報告內嵌 generatedAt 註解 > git 首次加入時間 > 檔案 mtime > 評測日期
+ */
+function computeReportCreatedAt(mdFilePath, content, reportDate) {
+  // 1. 報告內嵌 <!-- generatedAt: ISO -->（未來報告產生時可寫入，最權威）
+  const m = content.match(/<!--\s*generatedAt:\s*([0-9T:.+\-Z ]+?)\s*-->/i);
+  if (m) {
+    const d = new Date(m[1].trim());
+    if (!isNaN(d.getTime())) return d.toISOString();
+  }
+  // 2. git 首次加入時間（最舊一筆 A 記錄；不受 git 同步改動本機 mtime 影響）
+  try {
+    const rel = path.relative(ROOT, mdFilePath);
+    const out = execFileSync(
+      'git', ['log', '--diff-filter=A', '--follow', '--format=%aI', '--', rel],
+      { cwd: ROOT, encoding: 'utf-8', stdio: ['ignore', 'pipe', 'ignore'] }
+    ).trim();
+    if (out) {
+      const lines = out.split('\n').filter(Boolean);
+      const first = lines[lines.length - 1]; // git log 由新到舊，最後一筆=首次加入
+      const d = new Date(first);
+      if (!isNaN(d.getTime())) return d.toISOString();
+    }
+  } catch { /* 非 git 環境或未提交 → 落到下一層 */ }
+  // 3. 檔案 mtime
+  try {
+    return fs.statSync(mdFilePath).mtime.toISOString();
+  } catch { /* ignore */ }
+  // 4. 評測日期（僅到日，date-only fallback）
+  return reportDate ? new Date(reportDate + 'T00:00:00+08:00').toISOString() : '';
+}
+
+/**
  * #12 上傳評測報告 — 改為子集合 reports/items/{gameName}
  */
 async function uploadReports() {
@@ -384,10 +418,13 @@ async function uploadReports() {
     const mdFiles = fs.readdirSync(dirPath).filter(f => f.endsWith('.md'));
     if (mdFiles.length > 0) {
       try {
-        let content = fs.readFileSync(path.join(dirPath, mdFiles[0]), 'utf-8');
+        const mdFilePath = path.join(dirPath, mdFiles[0]);
+        let content = fs.readFileSync(mdFilePath, 'utf-8');
 
         // 從 Markdown 解析結構化 metadata
         reportMeta[dir.name] = { aliases: [dir.name], ...parseReportMd(content) };
+        // 製作時間（同評測日期時，晚製作的前端排前面）
+        reportMeta[dir.name].createdAt = computeReportCreatedAt(mdFilePath, content, reportMeta[dir.name].reportDate);
 
         // 讀取 raw-data.json 提取 appId 和別名（用於跨語言名稱匹配）
         const rawPath = path.join(dirPath, 'raw-data.json');
@@ -630,6 +667,17 @@ if (CLI_MODE === 'darkhorses-only') {
     console.log('🔥 只上傳黑馬資料（darkhorses doc + darkhorseHistory）...');
     const r = await uploadDarkhorses();
     console.log(r ? `✅ 完成：${r.darkhorses.length} 匹黑馬（${r.date}）` : '⚠️ 無黑馬資料可上傳');
+    process.exit(0);
+  })().catch(err => {
+    console.error('❌ 上傳失敗:', err);
+    process.exit(1);
+  });
+} else if (CLI_MODE === 'reports-only') {
+  // 只重傳評測報告（reports doc + 子集合，含 createdAt metadata），不動 snapshots/darkhorses/analysis
+  (async () => {
+    console.log('🔥 只上傳評測報告（reports doc + 子集合，含 createdAt）...');
+    await uploadReports();
+    console.log('✅ 完成');
     process.exit(0);
   })().catch(err => {
     console.error('❌ 上傳失敗:', err);

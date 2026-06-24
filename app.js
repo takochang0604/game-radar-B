@@ -3739,11 +3739,15 @@ function renderReportsTab() {
                    || reportData.match(/\|\s*\*\*評測日期\*\*\s*\|\s*(\d{4}[-\/]\d{2}[-\/]\d{2})/);
     const reportDate = meta.reportDate || (dateMatch ? dateMatch[1].replace(/\//g, '-') : '');
 
-    reportCards.push({ reportName, gameName, icon, developer, isDarkhorse, appId: appInfo?.appId, tags, reportDate, tagline: meta.tagline || '', grades: meta.grades || null, _idx: reportCards.length });
+    reportCards.push({ reportName, gameName, icon, developer, isDarkhorse, appId: appInfo?.appId, tags, reportDate, createdAt: meta.createdAt || '', tagline: meta.tagline || '', grades: meta.grades || null, _idx: reportCards.length });
   }
 
   // 依評測日期排序（越新越前面），同日期則後上傳的排前面
-  reportCards.sort((a, b) => (b.reportDate || '').localeCompare(a.reportDate || '') || b._idx - a._idx);
+  // 排序：評測日期新→舊；同日期改用製作時間 createdAt（晚製作的在前）；皆相同才退回插入序
+  reportCards.sort((a, b) =>
+    (b.reportDate || '').localeCompare(a.reportDate || '')
+    || (b.createdAt || '').localeCompare(a.createdAt || '')
+    || b._idx - a._idx);
 
   // 渲染標籤雲 UI
   const tagsPills = document.getElementById('reportTagsPills');
