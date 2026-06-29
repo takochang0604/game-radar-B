@@ -100,13 +100,29 @@ function getMergeKey(dh) {
  * 找出某遊戲所有相關的 darkhorse 條目
  * 統一邏輯：appId 相同 或 getMergeKey 相同 或 siblingAppIds 匹配 即視為同款遊戲
  */
+// 完整名稱正規化（保留 CJK），用於精確判斷是否真同款
+function fullNameKey(dh) {
+  if (!dh || !dh.name) return '';
+  return dh.name.toLowerCase().replace(/[^a-z0-9一-鿿぀-ヿ가-힯]/g, '');
+}
+// 兩款是否同一遊戲：完整名稱相等，或一方為另一方前綴（解決「標題」vs「標題：副標」雙平台同款）。
+// 「CookieRun: OvenBreak」與「CookieRun: OvenSmash」互不為前綴 → 視為不同作品，不誤併。
+function isSameGameByName(a, b) {
+  const x = fullNameKey(a), y = fullNameKey(b);
+  if (!x || !y) return false;
+  if (x === y) return true;
+  const shorter = x.length <= y.length ? x : y;
+  const longer = x.length <= y.length ? y : x;
+  return shorter.length >= 5 && longer.startsWith(shorter);
+}
 function findRelatedDarkhorses(appId) {
   const targetDh = state.darkhorses.find(x => x.appId === appId);
   const targetMergeKey = targetDh ? getMergeKey(targetDh) : '';
   const targetSiblings = targetDh?._siblingAppIds || [];
   return state.darkhorses.filter(d => {
     if (d.appId === appId) return true;
-    if (targetMergeKey && getMergeKey(d) === targetMergeKey) return true;
+    // getMergeKey 為快速預篩，再用完整名稱精確確認，避免同系列不同作品（如 CookieRun 家族）被誤併
+    if (targetMergeKey && getMergeKey(d) === targetMergeKey && isSameGameByName(targetDh, d)) return true;
     // sibling 配對
     if (targetSiblings.includes(d.appId)) return true;
     if ((d._siblingAppIds || []).includes(appId)) return true;
