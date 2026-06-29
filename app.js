@@ -3211,7 +3211,10 @@ function findReport(gameName, appId) {
       if (m.aliases) {
         for (const alias of m.aliases) {
           const aliasNorm = normalize(alias);
-          if (aliasNorm && nameNorm && (aliasNorm === nameNorm || aliasNorm.includes(nameNorm) || nameNorm.includes(aliasNorm))) {
+          // 子字串比對需 ≥4 字，避免短名（如「uno」）誤命中較長 key（cookierun"oven"break 含 uno）
+          if (aliasNorm && nameNorm && (aliasNorm === nameNorm
+              || (nameNorm.length >= 4 && aliasNorm.includes(nameNorm))
+              || (aliasNorm.length >= 4 && nameNorm.includes(aliasNorm)))) {
             return state.reports[key] || null;
           }
           const aliasLatin = latinOnly(alias);
@@ -3236,7 +3239,9 @@ function findReport(gameName, appId) {
     const keyNorm = normalize(key);
     if (!keyNorm) continue; // 報告 key 同樣保護
     // 完整正規化比較
-    if (keyNorm === nameNorm || keyNorm.includes(nameNorm) || nameNorm.includes(keyNorm)) {
+    if (keyNorm === nameNorm
+        || (nameNorm.length >= 4 && keyNorm.includes(nameNorm))
+        || (keyNorm.length >= 4 && nameNorm.includes(keyNorm))) {
       return state.reports[key];
     }
     // 跨語言比較：只比拉丁字母部分（解決同款遊戲不同語言名稱的問題）
