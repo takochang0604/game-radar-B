@@ -1,0 +1,2972 @@
+{
+  "collectedAt": "2026-06-29T14:04:53.124Z",
+  "collectVersion": 3,
+  "android": null,
+  "ios": {
+    "id": 963067330,
+    "appId": "com.devsisters.gb",
+    "title": "CookieRun: OvenBreak",
+    "developer": "Devsisters",
+    "score": 4.73365,
+    "reviews": 68255,
+    "free": true,
+    "released": "2016-10-26T15:06:12Z",
+    "updated": "2026-06-29T04:26:59Z",
+    "version": "14.011",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/87/f7/6987f705-b31b-6fad-6131-a8656ce1bb9e/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+    "genres": [
+      "Games",
+      "Racing",
+      "Adventure"
+    ],
+    "screenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/27/0d/5e270d64-e384-5f65-bc4a-939d7f1134d4/63993cc6-1a5a-4eab-bc61-a41463d02a77_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2208x1242_02_en.jpg/406x228bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/ba/12/72ba1284-0ac9-1895-573c-6f80e17fa5df/4059cef5-b369-4b1d-b1c3-e4cc5bc8d5e5_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2208x1242_03_en.jpg/406x228bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/dc/cd/50dccd81-1655-a731-dac4-0e66d0103b87/ec6509f1-2b93-45b0-a6bd-e5c80f5d6617_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2208x1242_04_en.jpg/406x228bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/c5/43/cfc54369-1403-14cb-99b8-ae526c309c64/f29c6a16-b9f6-4a2a-9186-fbad58f76bb2_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2208x1242_05_en.jpg/406x228bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/4b/8d/cb4b8d9c-74d2-e341-2df7-2b304bd8c2a1/0adb5d29-e57d-4461-9f4a-911fa6023009_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2208x1242_06_en.jpg/406x228bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/79/3b/67793b0b-8d27-a5c3-78ba-3b7414ea00fe/c9fa219a-3e98-46fc-b6c5-05c695fb676e_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2208x1242_07_en.jpg/406x228bb.jpg"
+    ],
+    "ipadScreenshots": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/bc/2a/d3bc2a71-bc67-7aed-3687-c0220d17e8c2/cce059c3-7102-4335-9ba6-7e3443a1b7c2_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2732x2048_02_en.jpg/552x414bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/db/fc/67dbfc20-fd84-160b-4f5e-5d0ed26cc7ce/a291b155-9243-4973-b467-6c3f4d25afee_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2732x2048_03_en.jpg/552x414bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/af/6e/28af6e2b-51ba-5759-2040-ebd49a7e12ea/5f7b681c-f6d1-43a5-bf94-c37b84407b0c_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2732x2048_04_en.jpg/552x414bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/d1/19/c6d11975-f2de-2469-ecc3-9a4f51e6318f/cd081166-e82e-46c6-8b1f-2dae124f20ee_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2732x2048_05_en.jpg/552x414bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/6d/ce/0d6dcee0-e55a-89c1-7f18-0a510c178f6c/e4c37317-dcae-42c6-998a-bcbfb18aba14_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2732x2048_06_en.jpg/552x414bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/0b/63/8e0b6396-c606-c9c4-0656-80b47563f4d6/d4a879a0-27e8-4639-92ef-4831dcbe3421_20240913_CRO__U1109_U1173_U1110_U1169_U110b_U1165__U1109_U1173_U110f_U1173_U1105_U1175_U11ab_U1109_U1163_U11ba_2732x2048_07_en.jpg/552x414bb.jpg"
+    ],
+    "description": "Run, jump, slide, collect, and bake no prisoners! CookieRun is the endless runner game with deliciously challenging levels, tons of fun, heart racing running modes, and big rewards!\n\nRace through dynamic side scroller levels for as long as your energy can last! Take on exciting endless runner challenges, unlock Cookie characters and collect cute Pets as you dash to the finish line.\n\nRun through platformer stages with challenging missions and compete in real-time trophy races forthe top spot! Race to the top of the leaderboard while helping GingerBrave and his Cookie friends break out of the Witch's oven!\n\nThis free cookie game keeps the characters coming and the side scroller levels hot! Collect characters with unique powers and build a collection of Pets to pair with your Cookie characters for an even more exciting time!\n\nSpeed run through challenges and compete for a top spot on the leaderboard. This endless runneris filled with competition, especially when you’re racing online against players from around the world!\n\nThink you’re a tough cookie? Try not to crumble!\n\nRun through the magical lands of the tasty Cookie World in this exciting, endless game! Download CookieRun today!\n\nENDLESS RUNNER\n# Race through side scroller levels, from sweet and sugary to perilous and thrilling stages!\n# Dash across platformer obstacles and challenges!\n# Jump and Slide to avoid obstacles and eat delicious treats\n\nUNIQUE RUNNING GAME MODES\n# Breakout Mode: Long relay run with several Cookies\n# Trophy Race: Compete with players from around the world\n# Cookie Trials: Upgrade each Cookie to full potential and reach high scores\n# Champions League: A league only for the toughest\n# Island of Memories: Discover Cookies' background stories\n\nONLINE RUNNER GAME\n# New exciting events with awesome rewards every month!\n# Race online against other players!\n# RPG-style level up system\n\nCOLLECT CHARACTERS & PETS\n# Collect over 200 Cookies & Pets\n# New Cookie & Pets come fresh out of the oven every month\n# Upgrade Cookies, Pets, and Treasures to achieve high scores\n\nFREE COOKIE GAME WITH ENDLESS ADVENTURES\n# Story games take you through a sweet adventure with Cookies on the run!\n# Collect Cookie characters and get to know them\n\nTerms of Service:\nhttps://policy.devsisters.com/en/terms-of-service/\n\nPrivacy Policy:\nhttps://policy.devsisters.com/en/privacy/\n\nParental Guide:\nhttps://policy.devsisters.com/en/parental-guide/\n\nHelp and Support:\nhttps://cs.devsisters.com/cookierun-ovenbreak\nor contact us from the game by going to Settings, Help and Support\n\nOfficial X (Formerly Twitter)\nhttps://x.com/CookieRun\n\nOfficial Facebook\nhttps://www.facebook.com/cookierun\n\nOfficial Youtube\nhttps://www.youtube.com/cookierunglobal\n\nOfficial Discord\ndiscord.gg/Cn5crQw\n\nThe Royal Club Membership is a monthly subscription service that provides double the amount of Gold Tickets, an Affection Booster, and 10% more coins. In addition, you will receive a special monthly gift in your mailbox. You can subscribe to the Royal Club for a monthly subscription of $3.49 (USD) or equivalent amount required in your default currency after conversion. Purchases and renewal of subscriptions will be billed to your account.\n\nAuto-renewal of the membership happens in a period of 24 hours before the exact expiration moment. Please cancel the membership 24 hours prior to the expiration moment to prevent the next auto-renewal from being billed.\n\nAt any time, auto-renewal can be canceled via your user settings. After billing, the current subscription cannot be canceled until expiration.\n\n[Optional Permissions]\n- Photos: To save and share screenshots of certain parts of the game.\n*Opting out of the optional permissions will not affect any game functions outside of those mentioned above.\n\nCHANGING PERMISSIONS\nSettings > Apps > CookieRun: OvenBreak > Select the permissions you would like to change and toggle it on or off."
+  },
+  "facts": {
+    "source": "2026-06-29.json",
+    "detectedAt": "2026-06-26T00:00:00.000Z",
+    "category": "Games",
+    "confidenceScore": 8,
+    "displayScore": 8,
+    "healthRatio": 1,
+    "entries": [
+      {
+        "appId": "963067330",
+        "platform": "ios",
+        "chartType": "topfree"
+      }
+    ],
+    "chartedMarkets": [
+      "th"
+    ],
+    "currentMarkets": [
+      {
+        "market": "th",
+        "platform": "ios",
+        "chart": "免費",
+        "rank": 6
+      }
+    ],
+    "triggerTimeline": [
+      {
+        "date": "2026-06-26",
+        "market": "th",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "6 天內排名從 #90 升至 #14（↑76 名）"
+      },
+      {
+        "date": "2026-06-28",
+        "market": "th",
+        "platform": "ios",
+        "chartType": "topfree",
+        "strategy": "growth_multiplier",
+        "label": "📊 成長加速",
+        "detail": "成長倍率 3.3×（近 3 天平均 #13 vs 近 7 天平均 #43）"
+      }
+    ],
+    "marketExpansionOrder": [
+      {
+        "market": "th",
+        "firstTriggerDate": "2026-06-26"
+      }
+    ],
+    "rankHistory14d": {
+      "th_ios_topfree": [
+        {
+          "date": "2026-06-16",
+          "rank": 95
+        },
+        {
+          "date": "2026-06-17",
+          "rank": 81
+        },
+        {
+          "date": "2026-06-18",
+          "rank": 89
+        },
+        {
+          "date": "2026-06-19",
+          "rank": 87
+        },
+        {
+          "date": "2026-06-20",
+          "rank": 90
+        },
+        {
+          "date": "2026-06-21",
+          "rank": null
+        },
+        {
+          "date": "2026-06-22",
+          "rank": 90
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 73
+        },
+        {
+          "date": "2026-06-24",
+          "rank": 54
+        },
+        {
+          "date": "2026-06-25",
+          "rank": 44
+        },
+        {
+          "date": "2026-06-26",
+          "rank": 14
+        },
+        {
+          "date": "2026-06-27",
+          "rank": 14
+        },
+        {
+          "date": "2026-06-28",
+          "rank": 11
+        },
+        {
+          "date": "2026-06-29",
+          "rank": 6
+        }
+      ]
+    }
+  },
+  "cohortBaseline": {
+    "category": "Games",
+    "windowDays": 28,
+    "cohortSize": 177,
+    "avgMarketCount": 2.3,
+    "medianLifespanDays": 6,
+    "top10Share": 33,
+    "thisGame": {
+      "lifespanDays": 4,
+      "maxMarkets": 2,
+      "bestRank": 6
+    }
+  },
+  "reviews": {
+    "total": 292,
+    "googlePlay": 0,
+    "appStore": 292,
+    "sampling": {
+      "markets": [
+        "th"
+      ],
+      "gpLanguages": [
+        "th",
+        "en"
+      ],
+      "iosCountries": [
+        "th",
+        "us"
+      ],
+      "byLang": {
+        "th": 0,
+        "en": 0
+      },
+      "byCountry": {
+        "th": 146,
+        "us": 146
+      }
+    },
+    "distribution": {
+      "1": 67,
+      "2": 19,
+      "3": 27,
+      "4": 29,
+      "5": 150
+    },
+    "positive": [
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "งืมมมมมๆๆ",
+        "score": 5,
+        "text": "ช่วยเพิ่มภาษาไทยให้หน่อย",
+        "date": "2026-06-27T06:11:49-07:00",
+        "version": "14.001"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ทัตทัต",
+        "score": 5,
+        "text": "สนุกมาก เล่นมาเป็น10ปีละ",
+        "date": "2026-06-25T22:43:41-07:00",
+        "version": "14.001"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "กรปากซอย",
+        "score": 5,
+        "text": "จากกรปากซอย",
+        "date": "2026-06-25T02:44:15-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "นว้องเส้น",
+        "score": 5,
+        "text": "สนุกมากเล่นตั้งแต่เ็ดทุกวันนี้ก็ยังเล่นอยู่ สายฟรีเกมนี้แฮปปี้มาก เสียอย่างเดียว สุ่มรางวัลเกลือจนท้อ😂",
+        "date": "2026-05-28T09:05:33-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "วาล์ววา",
+        "score": 5,
+        "text": "น้องหมีเยลลี่คือน่ารักมาก แบบน่ารักโคตรๆแถมพ่อชวนเล่นแล้วมันเล่นง่ายขึ้นไปอีกกกเอาน้องหงส์น้ำตาลดำมาให้หนูค่ะ🥰",
+        "date": "2026-05-28T07:16:18-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Nut2548",
+        "score": 5,
+        "text": "Goodddd",
+        "date": "2026-05-28T02:43:53-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Chot Pintarduang",
+        "score": 5,
+        "text": "เกมเล่นได้เรื่อยๆ ไม่เคยเติมเลย เกมชิวๆเล่นเอาสนุกครับ",
+        "date": "2026-05-27T20:09:23-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ยอดเยี่ยมเวรี่กฟุ้ด",
+        "score": 5,
+        "text": "รักมากไม่นอกใจ",
+        "date": "2026-05-27T19:48:55-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "แก้เหอะแก้สักที",
+        "score": 5,
+        "text": "อัพตัวละครแล้ว แต่พอไปเล่นในด้านของตัวละคร ยังค้างที่เวลเดิม",
+        "date": "2026-05-16T18:01:04-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "น้องแอมจะเล่นคุกกี้รัน",
+        "score": 5,
+        "text": "ตอนแรกคิดว่าเป็นที่เครื่องเรา แต่พอมาอ่านคอมเมนต์ก็ไม่ได้มีแค่เราที่เป็น 6ปีที่แล้วเด้ง ปัจจุบันตอนนี้ก็ยังเด้งค่ะ บางทีเล่นโหมดล้านๆ มันมีรอบจำกัด เราเสียรอบไปฟรีๆเลยทั้งสามรอบ โดยที่ไม่ได้ทำอะไร รบกวนปรับแก้หน่อยนะคะ🙇🏻‍♀️🙇🏻‍♀️",
+        "date": "2026-05-09T23:27:09-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "kyslilck🪽",
+        "score": 4,
+        "text": "ชั้นรักเกมนี้ว่ะ😳",
+        "date": "2026-05-08T09:11:26-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Gunn Thippila",
+        "score": 5,
+        "text": "เล่นมานาน…",
+        "date": "2026-04-29T22:39:20-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "9Nati_a",
+        "score": 5,
+        "text": "วิ่งไปเจ้าคุกกี้รัน",
+        "date": "2026-04-19T06:34:25-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Ainthira_Ai",
+        "score": 5,
+        "text": "เล่นมาตั้งแต่เริ่ม ใหม่ๆจนทุกวันนี้ คลายเครีนด เบื่อ",
+        "date": "2026-03-31T00:15:05-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ichijoin",
+        "score": 5,
+        "text": "เกมสนุกมากค่ะ ต้องใช้เวลาเข้าใจนิดหน่อย เข้าที่ตอนช่วง 7-8 เดือนหลัง ดีไซน์ตัวละครสวยมากค่ะ",
+        "date": "2026-03-30T23:10:34-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Pungpungco",
+        "score": 5,
+        "text": "เดฟเก่งกันมาก เล่นตั้งแต่เปิดยันปัจจุบัน มีอัพเดทใหม่ตลอด",
+        "date": "2026-03-30T22:10:02-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "นีกานต์",
+        "score": 5,
+        "text": "เล่นมาหลายปีเกิน อยากหยุดเล่น หยุดไม่ได้ ทำยังไงดี",
+        "date": "2026-03-30T20:43:35-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "สัยฤทม",
+        "score": 4,
+        "text": "เล่นอยู่ดีๆเด้งออก",
+        "date": "2026-03-12T09:06:24-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "bewbei",
+        "score": 5,
+        "text": "เล่นทุกวันนนนน ติดใจจจจ",
+        "date": "2026-02-27T02:21:40-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Gsitzo plays",
+        "score": 5,
+        "text": "Can you add special super cookies, to cookie run tower of adventure of",
+        "date": "2026-02-25T20:45:53-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "bbebee.",
+        "score": 5,
+        "text": "เคยลบๆโหลดๆใหม่หลายครั้ง แต่ครั้งนี้เล่นนานมาก และสนุกมากเลยค่ะ เป็นกำลังใจอัปเดทแพลตสนุกๆมาให้เล่นกันต่อไปนะคะ เลิฟๆ",
+        "date": "2026-02-17T02:04:17-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "YN ZL",
+        "score": 5,
+        "text": "เราเล่นแบบมั่วมาก แต่ก็ยังสนุก มีคุกกี้ใหม่ๆให้ลองเล่น ปี2026แล้ว เกมยังอัพเดตอะไรใหม่ๆอยู่ตลอดเลย",
+        "date": "2026-01-29T09:51:56-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "xcherzz",
+        "score": 5,
+        "text": "ตอนแรกก็คิดว่าเป็นเกมธรรมดา เฉยๆ ไม่ติด แต่มานั่งดูดีๆ ก็เล่นมาตั้งแต่ภาคไลน์เปิดแรกๆ จนภาคนี้มาเปิดวันแรก จนตอนนี้ก็ยังเล่นอยู่ เกมดีเหมือนเดิม ถึงจะคิดถึงบางระบบก็ตาม กราฟฟิคดี เกมใส่ใจมาก",
+        "date": "2026-01-27T21:52:27-07:00",
+        "version": "13.501"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Bigsave007",
+        "score": 5,
+        "text": "เล่นแล้วอยากกินคุกกี่เลย เล่นเพลินๆสนุก",
+        "date": "2026-01-24T06:15:30-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "manapatwin",
+        "score": 5,
+        "text": "อยากให้นำเวอร์ชั่นไลน์กลับมาครับ ผมยังรอเสมอ หรืออัปเดตใหม่ให้เหมือนของเกาหลีหน่อยครับ คิดถึง",
+        "date": "2026-01-06T07:18:19-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "mudaero",
+        "score": 4,
+        "text": "อัปเดตแล้วเด้งออกตลอด เบื่อ",
+        "date": "2026-01-04T20:59:00-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ราชครู",
+        "score": 5,
+        "text": "เข้าเกมส์เบรคเอ้าท์ตัวที่ 2 เล่นแล้วเกมหลุดตลอดเลย แก้ไขได้มั้ย",
+        "date": "2026-01-03T05:28:13-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ออนเซน🥋🥋🥋",
+        "score": 5,
+        "text": "ชอบและดีมากๆ เล่นเพลินสนุกดีค่ะ",
+        "date": "2025-12-30T06:33:12-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Alohell",
+        "score": 5,
+        "text": "กิจกรรมเยอะมากกกก เล่นเยอะแล้วอยู่ดีๆก้เด้งออก แต่รวมๆแล้วสนุกแล้วก้ดี <3",
+        "date": "2025-12-29T21:39:34-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": ".—-.ท",
+        "score": 5,
+        "text": "ระบบจัดการ account ห่วยแตกที่สุดทั้งๆที่ตัวเกมส์มันไม่ได้ซับซ้อนอะไรแบบนั้น มีหลายครั้งที่ account หายเสียดายไอดีเดิม Dav ล็อคอิน อันเดิมแต่ก็ไม่มีข้อมูลตัวเกมเดิมเลยไม่รู้ว่าระบบล็อคกับอะไรกันแน่",
+        "date": "2025-12-29T18:54:42-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Mmominim",
+        "score": 4,
+        "text": "เสียงเกมหายค่ะหลังจากอัพเดท😭",
+        "date": "2025-12-01T00:58:41-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ไฟท์โลนวูฟ",
+        "score": 5,
+        "text": "เกมดีนะครับ แต่ควรปรับให้มันสามารถรีเกมได้ เพราะการอัพตัวสอนแค่ต้น ๆ คนเล่นใหม่อย่างผม ไม่รู้ต้องใช้เพชรไปทำไรมั้ง",
+        "date": "2025-11-17T17:20:36-07:00",
+        "version": "13.211"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Bugutae",
+        "score": 5,
+        "text": "อยากเล่นแบบเดิมที่ไม่ต้องมีโหมดเยอะอ่ะค่ะ เอาแค่คุ้กกี้ เพท สมบัติ แล้วอัพไปเรื่อยๆอ่ะค่ะ เพลินกว่าค่ะ",
+        "date": "2025-11-08T21:58:33-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "MNL2U",
+        "score": 5,
+        "text": "สนุกดี ชอบเล่น ภาพน่ารัก แต่ได้คุกกี้ยากกว่าเดิม ยอมเพราะมันน่ารัก",
+        "date": "2025-10-30T21:17:49-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "เอยคับ🦢🥇เป็นเด้กหสง์",
+        "score": 5,
+        "text": "เล่นดีมากค่ะ",
+        "date": "2025-10-27T20:44:37-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ferndunkaddoi",
+        "score": 5,
+        "text": "เป็นเกมที่เล่นมาตั้งแต่ตอนตัวเล็กๆ แบบเล่นในโทรศัพท์พ่อ พอกลับมาเล่น2ปีที่แล้วรู้สึกว่าพัฒนาขึ้นมากเลย แทบจะจำไม่ได้ไอบ้าเอ๊ยยย อยากให้มีโมตที่เล่นกับเพื่อนได้เยอะๆอะ พอเล่นคนเดียวละมันเหงามาก ไอโมตไอนั้นอะ อะไรแล้ว friendly run? ใช่แหละมันสนุกมาก อยากเล่นอีก หวังว่านะ",
+        "date": "2025-10-27T01:13:29-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "pcrkmm",
+        "score": 5,
+        "text": "ข้อมูลเกมของฉันหาย เป็นไปได้อย่างไร ทั้งที่ก็บัญชีเดิม ฆ่ากันเถอะ",
+        "date": "2025-10-25T15:54:06-07:00",
+        "version": "13.111"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "satinee1999",
+        "score": 5,
+        "text": "อัพเดทรอบนี้ เกมไม่เด้งแล้วนะคะ  iPhone 15",
+        "date": "2025-09-29T20:54:33-07:00",
+        "version": "13.101"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "FIGIGA",
+        "score": 5,
+        "text": "เป็นเกมที่เล่นเพลิน ๆ ยามว่าง ไม่มีโฆษณา\nชอบมากๆ ค่ะ",
+        "date": "2025-09-25T08:01:51-07:00",
+        "version": "13.101"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "อั๊บแอ๊",
+        "score": 5,
+        "text": "I love cookie run",
+        "date": "2025-09-25T01:16:03-07:00",
+        "version": "13.101"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "แระแต่",
+        "score": 5,
+        "text": "สนุกมากก ตัวละครคุกกี้มีแต่สวยๆ",
+        "date": "2025-09-24T21:18:38-07:00",
+        "version": "13.101"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Lamuii11",
+        "score": 5,
+        "text": "I love cookie run so much but when i play on my ipad my eyes hurt so bad it's only on 30fps i wish cookie run could have 120fps !!!",
+        "date": "2025-09-21T08:51:53-07:00",
+        "version": "13.001"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "แบล็คแบ๊ด",
+        "score": 5,
+        "text": "อัปเดตใหม่เล่นไม่ได้ครับ",
+        "date": "2025-08-27T21:38:30-07:00",
+        "version": "13.001"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "นักรีวิวปริศนา",
+        "score": 5,
+        "text": "รอคอลแลปอนิเมะสักวันครับ",
+        "date": "2025-08-05T00:46:12-07:00",
+        "version": "12.911"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ออ อา ยอ🐻",
+        "score": 5,
+        "text": "เล่นมาหลายเดือนแล้ว หยุดเล่นไม่ได้ สนุกมากกกกกกก เพชรไม่ได้หายากขนาดนั้นเวลก็ขึ้นแบบไม่ง่ายไม่ยากเกินใครกลัวเล่นไม่ได้ ลองดู ติดงอมแงม",
+        "date": "2025-07-27T20:15:58-07:00",
+        "version": "12.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ซอยยิบ",
+        "score": 5,
+        "text": "เล่นมา10ปี+++",
+        "date": "2025-07-27T19:59:20-07:00",
+        "version": "12.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "มมมมาาา",
+        "score": 5,
+        "text": "ทำหน้าล็อกอินทีเถอะ ถ้าย้ายข้อมือได้แค่รอบเดียว",
+        "date": "2025-07-03T05:48:31-07:00",
+        "version": "12.811"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "MaZEyaV",
+        "score": 5,
+        "text": "เกมดีค่ะเล่นฆ่าเวลาสนุกดีหลุดนิดเดียวแต่ฟาร์มของแอบอยากไปนิดน่ะค่ะ",
+        "date": "2025-07-01T05:02:32-07:00",
+        "version": "12.811"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "แตตตพะ",
+        "score": 5,
+        "text": "ไม่เคยเด้งเลยดีมาก",
+        "date": "2025-06-27T04:28:34-07:00",
+        "version": "12.811"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Help me pls dev",
+        "score": 5,
+        "text": "Goodgame",
+        "date": "2025-06-27T04:02:55-07:00",
+        "version": "12.811"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "บัคน่าเกลียด",
+        "score": 5,
+        "text": "ไม่รู้ความคิดเห็นจะถึงหูทีมงานด้านคาแรคเตอร์ดีไซน์มั้ยแต่เราชอบมากๆเลยค่ะ มันดีมากอยากรู้มากว่าคิดกันได้ไง เป็รเกมที่ดีมากๆเลยค่ะ",
+        "date": "2025-06-26T23:08:47-07:00",
+        "version": "12.811"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "EMERROL",
+        "score": 5,
+        "text": "เกมดี สนุก แต่เติมแพงไปหน่อย สายเล่นฟรีก็เอนจอยเรื่อยๆได้ แต่ถ้าอยากชนะตลอด หรือคะแนนสูงๆเกมนี้ก็ยังเป็น เพย์ทูวินอยู่ดีตามสไตล์",
+        "date": "2025-06-26T18:35:12-07:00",
+        "version": "12.811"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Jfjx_10",
+        "score": 5,
+        "text": "หลายๆคนบอกชอบเด้งสำหรับเรามันอยู่ที่โทรศัพท์ด้วยค่ะบางคนมันก็หนักเกินจะหลับไหวแต่ก็ยังจะเล่นแล้วมาลงที่เกม อยากให้รู้รุ่นโทรศัพท์ด้วยค่ะถ้าโหลดเล่นได้ก็ไม่ใช่ว่าจะเล่นลื่น",
+        "date": "2025-06-13T19:29:17-07:00",
+        "version": "12.711"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "pwrsn_f",
+        "score": 4,
+        "text": "เกมหลุดบ่อยมาก คิดว่าเกมไม่ได้มีรายละเอียดเยอะขนาดนั้น ขยันหลุดสุดๆ รบกวนช่วยแก้ปัญหาสักทีจะได้ อัพเดทมาแต่ละที หลุดบ่อยสุดๆ",
+        "date": "2025-06-10T09:23:12-07:00",
+        "version": "12.711"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ตัดต่อรูปภาพได้ดี",
+        "score": 5,
+        "text": "พึ่งกลับมาเล่นหลังไม่ได้เล่นมาหลายปีตั้งแต่ line cookie run ถึงเมนูจะเปลี่ยนไปมากแต่ยังชอบมากค่ะ พัฒนาต่อไปนะคะ♥️",
+        "date": "2025-05-29T08:15:20-07:00",
+        "version": "12.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Jdjsjsjsjfnfjfhfj",
+        "score": 4,
+        "text": "speed",
+        "date": "2025-05-29T06:00:44-07:00",
+        "version": "12.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Onyourmeow",
+        "score": 4,
+        "text": "เกมดีเลยสนุกด้วย แต่ใดๆคือขอหักดาวนึง แบบปุ่มjumpมันชอบtapไม่ติดอะ ไม่รู้เป็นแค่เครื่องเรามั้ย ยิ่งเวลาอยู่ในโหมดแข่งแล้วกดjumpไม่ติดคือเตรียมเสียถ้วย😭",
+        "date": "2025-05-29T01:26:57-07:00",
+        "version": "12.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ยุ้ยเองนะเทอ",
+        "score": 5,
+        "text": "สนใจ หาเพื่อนเล่นด้วยกันนะคะ   หนุกๆกันค่ะ",
+        "date": "2025-05-28T22:56:14-07:00",
+        "version": "12.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "บิงโกที่วัง",
+        "score": 5,
+        "text": "เยี่ยมม",
+        "date": "2025-05-20T19:26:15-07:00",
+        "version": "12.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Fangg555",
+        "score": 4,
+        "text": "ฉันจำไอดีเก่าไม่ได้ ฉันได้เปลี่ยนเครื่องจากแอนดรอยด์มาใช้iOSค่ะ พอจะทำอะไรได้ไหมคะ ที่จะได้กลับไปใช้ไอดีเดิมค่ะ",
+        "date": "2025-05-15T15:41:54-07:00",
+        "version": "12.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "bhghome",
+        "score": 5,
+        "text": "Soooo cute",
+        "date": "2025-05-02T18:11:11-07:00",
+        "version": "12.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Nnnmsskio",
+        "score": 5,
+        "text": "It was very fun 🩷🩷🩷🩷love it I want it to be better than before a little",
+        "date": "2025-04-30T00:28:17-07:00",
+        "version": "12.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Nisakron",
+        "score": 4,
+        "text": "เชิญมาค่ะ MGKXL8460",
+        "date": "2025-04-10T05:52:37-07:00",
+        "version": "12.511"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "มะะมุมิ",
+        "score": 5,
+        "text": "อยากให้มีการลอคอินแบบcookie run kingdom มากๆ เพราะการสลับแอคเค้าค่อนข้างเสี่ยงรหัสหายมากๆ นี่หาย2รหัสแล้วกำลังปั้นใหม่ ซึ่ง🥹🥹",
+        "date": "2025-03-31T22:03:07-07:00",
+        "version": "12.511"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "AMAZING GAME \\(^o^)/",
+        "score": 5,
+        "text": "I play this game since 2021, and it has been the first Cookie Run game i've ever played. It has very various game modes, and the cookie's designs are unique!! I really recommend it if you want to start somewhere easy!!",
+        "date": "2026-06-26T06:42:27-07:00",
+        "version": "14.001"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "AnanasDragon#1Fan",
+        "score": 5,
+        "text": "The game's beautiful and the story is engaging. I love the characters, and the gameplay is entertaining. My only complaint is that it's very hard to keep up the longer you don't play. Not being a P2W new player is hard.",
+        "date": "2026-06-26T05:44:58-07:00",
+        "version": "14.001"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Bluocean~~",
+        "score": 4,
+        "text": "So I really enjoy the recent update…uh…but whenever I go to play any of the new cookies it crashes on me and it only for the new cookies?",
+        "date": "2026-06-24T12:10:17-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Aubrey the 25th",
+        "score": 5,
+        "text": "Perfect",
+        "date": "2026-06-22T07:49:40-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "🗿👍😎💀👨‍🍳☠️🤟🏽🦾",
+        "score": 5,
+        "text": "👍👍👍",
+        "date": "2026-06-21T18:55:15-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "GamerCorgi697",
+        "score": 5,
+        "text": "I love cookie run and DEVSISTERS game’s cookie run ovenbreak is no different. This game includes the most DELICIOUS COOKIES I have EVER seen (I would even eat the inedible cookies). And is HORRIBLY addictive and fun. I love cookie run ovenbreak and I can’t even explain it! Plsjustmakeacookiegacha BYEEEEE!",
+        "date": "2026-06-19T07:40:01-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Notjustnit",
+        "score": 5,
+        "text": "This game is very fun! I love the gameplay a lot and the cookie’s designs are AMAZING. This game is also pretty f2p friendly which is good for many players here! I love the stories with a burning passion and the updates are always so exciting to me! Ovenbreak is definitely worth playing.",
+        "date": "2026-06-18T12:32:43-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Chibi-Chan & Fei",
+        "score": 5,
+        "text": "I managed to finish Taurus Trial getting the rainbow but it only gives me a hard ruby for some reason, can you fix it?",
+        "date": "2026-06-15T10:13:17-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "J@zy16",
+        "score": 5,
+        "text": "I used to play this game when I was 7 and it’s been 9 yrs since then. I recently downloaded it on my IPad and I STILL LOVE THE GAME!! My fave cookies are Sea Fairy Cookie, Millennial Tree Cookie, and Wind Archer Cookie!",
+        "date": "2026-06-12T11:33:42-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "𝚎𝚌𝚔522",
+        "score": 5,
+        "text": "I’m scared of the 5 star reviews",
+        "date": "2026-06-12T04:59:25-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Absolutely A",
+        "score": 5,
+        "text": "This game is so fun to play. I literally cannot get enough of it. However, the only problem is, for me, it takes a while to download and load in once I moved overseas. Otherwise,amazing !",
+        "date": "2026-06-09T16:28:40-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Gibson4eva",
+        "score": 4,
+        "text": "It takes up all my storage just for 1 single update but the game is still good though! I rate this a 4/5 stars",
+        "date": "2026-06-08T14:08:59-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "AuguthaAmazing🐈🍪",
+        "score": 5,
+        "text": "This game is AMAZING, the character designs are very cute and cool! But there’s one problem, it’s hard to get legendary cookies and it is kinda confusing in a way I can’t understand(my opinion)\nCookie run: ovenbreak is a really good game I could play it all day! But it’s hard to obtain legendary cookies. But despite all of that, good game!🍪",
+        "date": "2026-06-06T20:36:02-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "boltplyn",
+        "score": 5,
+        "text": "So im making a auto run map and when i test it while building the map it will go perfectly ✨✨✨✨ once i finished it now im doing the registration test it will go bad and if i fix my map to go perfectly another problem happens now i fix it again it passes but when i play it while its trying to make it public the ability goes of and ruins everything so i haft to do this whole problem and I can’t finish it overall its a pretty great game",
+        "date": "2026-06-02T11:53:43-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Great Game Awards",
+        "score": 5,
+        "text": "Im A iPad And iPhone Player (i don’t have ovenbreak on iPhone), But i Do Like This Game! I started April 27, I Love This Game, I Am Planning On A Video Game Company In 2032, But i Will Have Charatchers From The Games In My Games, I Respect Ovenbreak, Its 5stars, Perfection.",
+        "date": "2026-05-31T05:32:40-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "WinWein168",
+        "score": 4,
+        "text": "re-add geode smash rewards afternoon tea event is stingy and no jelly shapes. also legendaries are so expensive ads should give more rainbow cube and gems",
+        "date": "2026-05-30T17:56:38-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lehcars_reveiws",
+        "score": 4,
+        "text": "Gotta start off with the music I mean hands down I cannot play this game without it especially without headphones. I mean it’s so good if you play this game you will be guaranteed to be bouncing to the beat. Now for those Rainbow Cubes. I played this game every day for just about 4 years and I only have 16k RC and I spend once a blue moon. I mean it’s next to impossible to get cubes. As a f2p player I’m 99.8% toast if I don’t got cash on me, say goodbye to your hopes and dreams on getting that costume for your favorite cookie!",
+        "date": "2026-05-28T14:49:20-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "I’m dying of cuteness",
+        "score": 5,
+        "text": "I am dying of cuteness BECAUSE ALL THE COOKIES WELCOMED ME BACK!I am a returning player in crob and look-JUST LOOK HOW CUTE THESE COOKIES ARE IT-IM GONNA DIE OF CUTENESS",
+        "date": "2026-05-28T13:52:08-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Blue bird39183371",
+        "score": 5,
+        "text": "Genuinely, one of my favorite games. I’m not great, but I LOVE IT. I love collecting the cookies, leveling them up, getting their costumes, and running with them. I especially love the edition of Nibbles, he’s really silly.",
+        "date": "2026-05-28T10:50:14-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Candycheesestick",
+        "score": 5,
+        "text": "1 hour left before update ends with limited stuff I was js about to buy when the game literally starts its update on servers not allowing me to get the items",
+        "date": "2026-05-28T04:21:38-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "RayAppsBlows",
+        "score": 5,
+        "text": "When ever I start a run in boss fights it crashes it never happened before tho so devisisters PLS FIX IT",
+        "date": "2026-05-27T19:57:43-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Nerd_birdy126",
+        "score": 5,
+        "text": "I’ve been playing this came for more than a decade consistently and the story plus the game play always keeps me coming back cause there’s always something to do. I hope this game continues for the foreseeable future",
+        "date": "2026-05-27T18:45:16-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "megz 🫧",
+        "score": 5,
+        "text": "I found this game all the way back in 2018 through ‘Blackpink House 1-1’ due to one of the members playing it in the episode. The game is a healthy mix of skill and comfort, and can be enjoyed whether you want a more challenging game or a comforting game. I adore the game so much nowadays and it’s easily in my ‘Anxiety’ rotation for games.",
+        "date": "2026-05-27T18:06:32-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "CandyxValerie",
+        "score": 4,
+        "text": "Love the gameplay, modes, etc, but why is it so hard to get to normal diamond, hard rainbow, and legend l on breakout and cookie trials, I have lvl 1 on almost all legendary cookies, but I have millennial tree cookie lvl 7 and stevia nova cookie lvl 2, why is it like a burden that it’s hard to level up legendaries,and then it increases, and why is it always that we get too many super epic, legendary, and epic costumes every single update, much tiring like dandy’s world being a skin grinding simulator, still a good game",
+        "date": "2026-05-27T17:51:08-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kurumi_Xi",
+        "score": 4,
+        "text": "Hey I like this game so far my fav is Kumiho Cookie but I would really love if Shadow Milk Cookie could be added soon he’s my favorite cookie and since Cookie Run Kingdom hasn’t been working as much for me I’d really like if he can appear here next thank you Devsisters!",
+        "date": "2026-05-27T07:17:44-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Pinkie _ 12345",
+        "score": 5,
+        "text": "Firstly I want to say, what a great game! But when I was signing in as a newbie it keep logging in so slowly like 1………..2…………..3…………4…….  and on and on it took like 1 hour to log me in and waisted my time (no offense) but I checked my Wi-Fi triple -liple times!!! So is the game broken or is my iPad broken?",
+        "date": "2026-05-26T01:25:07-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Bun gilet fagot",
+        "score": 5,
+        "text": "I’m just biased, I love the art and play styles of this game. They’re simple, yet complex when need be.",
+        "date": "2026-05-22T16:00:17-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Norioan",
+        "score": 5,
+        "text": "You don’t have to depend on your wallet to play the game, and the gameplay isn’t bad (as someone who isn’t into these types of games) Story is interesting, events are a little hard but it’s a skill issue for me",
+        "date": "2026-05-20T22:00:02-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Baileyfunnyvids",
+        "score": 5,
+        "text": "I only put 5 stars so you can see so the loading screen is not letting me start the game",
+        "date": "2026-05-18T17:57:05-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Turron cookie",
+        "score": 5,
+        "text": "Hello devs! I really, I mean REALLY love your game, I got so excited when the newest dragon update came out!! AND IM SO HAPPY RED VELVET IS FINALLY ADDED!!!! THANK YOU SO MUCH I FLIPPED WHEN HE WAS PLAYABLE AND I IMMEDIATELY MAXED HIM OUT",
+        "date": "2026-05-17T15:32:50-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Jekiiit",
+        "score": 5,
+        "text": "I’m an iPad player. The game is good, but I’m writing a complaint because every so often, if I try to run in a specific gamemode (this time it seems to be breakout), my game crashes. Entirely. I cannot play the game whatsoever. I have a phone and when I try to play on my phone, it works just fine. Is this just a me issue ? Or a bug with iPads?",
+        "date": "2026-05-14T14:52:55-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kittykittymeowmeowimgay",
+        "score": 5,
+        "text": "Crob, ilysm. I love the stories and the more engaging gameplay. The Cookie’s designs are majestic asf. Pls don’t change.",
+        "date": "2026-05-14T03:05:46-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kazoueta",
+        "score": 5,
+        "text": "I love the game, but since the update it seems to be more buggy. The jumping is still delayed, as in i jump, but it jumps about 1.5 seconds later. A few times, i was in the middle of a cookie trial, and it crashed. Then a few trophy races, the game crashes. I try doing an event, and it crashes. Or i get lucky and it doesn’t. Can you guys please look into it? 😐",
+        "date": "2026-05-10T01:14:10-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Violet Faith Salinas",
+        "score": 5,
+        "text": "ITS SO FUNNN MAKE MOREE PLSSS OMG YAYY!!",
+        "date": "2026-05-02T15:12:29-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "diyarhajan",
+        "score": 5,
+        "text": "I love this game so much and I’m glad",
+        "date": "2026-05-02T09:26:46-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Brutus3!",
+        "score": 5,
+        "text": "I love it",
+        "date": "2026-04-30T02:39:57-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "FishOfTheYear",
+        "score": 5,
+        "text": "I’ve been playing this since June of 2023, there are so many cookie options, many maps, and events to play in the game! Also f2p on top",
+        "date": "2026-04-25T08:28:03-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Sigmajjjjj",
+        "score": 4,
+        "text": "I miss the old gameplay I hate how you can just by the characters you want”.can yall please change it back to were you open a chest and its a suprise",
+        "date": "2026-04-21T18:31:18-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "^^Dinokid^^",
+        "score": 5,
+        "text": "EXCUSE ME? WHY DO WE NOT HAVE ALL THESE COOKIES IN CRK? Dude I can’t tell if this is better than crk or not it’s just- *inhale* I’d eat blue whale cookie that’s all I’m saying",
+        "date": "2026-04-20T16:03:27-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "How do I get new cookies",
+        "score": 5,
+        "text": "“OUR game still has dark entchress cookie!” ..",
+        "date": "2026-04-17T16:39:04-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Turgid thjtdkt",
+        "score": 5,
+        "text": "This game is so tuff 😋",
+        "date": "2026-04-12T11:11:03-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Cat12345777",
+        "score": 5,
+        "text": "This game is super fun since I’m on mobile I can’t play crk but this game replaces it for me since all my friends play crk. All the cookies are super detailed and I love the updates.",
+        "date": "2026-04-04T18:31:58-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "URL0C4LG1G1",
+        "score": 4,
+        "text": "I like the game and the cookies! It’s really cute! However I know none of the storyline, as I find it really hard to reach diamond ranking. I need to reach it a few more times in order to unlock a LOT of things, including the main story, and due to me being unable to do that, it kind of just ruined the game for me.",
+        "date": "2026-04-01T18:30:33-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Chacharzar",
+        "score": 5,
+        "text": "It says “OUR game still have dark enchantress cookie. Come check it out now!” 5 stars.",
+        "date": "2026-04-01T13:46:48-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Great! :3",
+        "score": 5,
+        "text": "So hiya me here this gane has been incredible the charecters the updates the upgrades abd its super friendly to people who don't pay for the stuff! 5 out of 5 tottally reccomend:3",
+        "date": "2026-04-01T11:03:01-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "From Angie ;3",
+        "score": 5,
+        "text": "I Love The Game So Much And Reduce My Anxiety And Stress And I Especially LOVE The Stories! I Might Be Young But I Hope I Would Be Helping You Games Voice Act Because I Can Do A A lot Of Voices Thanks Devs!!!",
+        "date": "2026-03-31T14:55:39-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "SummerBubbles1",
+        "score": 5,
+        "text": "When I play a character based game, I always look for summer themed characters. The balance of everyone let's me pick my favourite characters with no drawbacks. I joined because of lotus dragon cookie an the luxury of getting 10 THEMED cookies on a team is chefs kiss. So fun and cozy",
+        "date": "2026-03-31T08:20:46-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "ILOVEBURNINGSPICE",
+        "score": 5,
+        "text": "Gooiiodddddd really good amazing game dude✨",
+        "date": "2026-03-31T07:17:39-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kingsley 2442",
+        "score": 5,
+        "text": "It’s so peak but add shadow milk",
+        "date": "2026-03-31T07:02:04-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Slyfoxstox",
+        "score": 5,
+        "text": "W Description",
+        "date": "2026-03-31T04:17:20-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "A huge fan of bfb",
+        "score": 5,
+        "text": "No one compares to this game \n from my phone.",
+        "date": "2026-03-30T20:27:52-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Chokers_👁️👄👁️😜✨",
+        "score": 5,
+        "text": "Ok ✅ i love this game so much 🫵👁️💋👁️. Right now I’m trying to get the great passér battle 👺. But anyway it’s a good game! I recommend it but don’t rage quit on tutorial 😧😜.also can’t wait for agar agar cookie🧫. Bŷę ğůýś! ( silly letters 😂)",
+        "date": "2026-03-28T08:04:36-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "funn1estt",
+        "score": 5,
+        "text": "i’ve spent $100 trying to get timekeeper cookie’s timeless love just to get dreamweaver cookie’s white day costume 10 times and barely any new costumes i cant do ts bro",
+        "date": "2026-03-27T17:36:04-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lillian D..",
+        "score": 5,
+        "text": "Been awhile since I last played but the fact that this game still gets updated is amazing. Very fun but does get boring after awhile (probably cause of my CRK rotted brain)",
+        "date": "2026-03-25T22:16:32-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Song good yes",
+        "score": 5,
+        "text": "This game is fun and I can see future cookies that will be added to crk",
+        "date": "2026-03-22T09:38:23-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "仲大福",
+        "score": 5,
+        "text": "特效特别好看感觉很用心皮肤非常可爱支持",
+        "date": "2026-03-21T22:37:30-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "🌸カトリナ🌸",
+        "score": 5,
+        "text": "I’ve been playing for years, F2P friendly and never gets old. There are so many updates theres always stuff to do, not bombarded by ads and no energy limits or anything. There are raids, co-op events, crossovers, ranked, map builders and more please join us 🫡",
+        "date": "2026-03-17T04:15:22-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "PastellaVstar",
+        "score": 5,
+        "text": "I love this game it’s so cute and the gameplay is really fun! I have been playing it for almost 2 months 😅 but is still amazing. I would love it if you could make more crossovers like Kingdom Hearts and Pokemon. Plz.",
+        "date": "2026-03-14T18:09:45-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Ley ley💖💞💞💞💞",
+        "score": 5,
+        "text": "I like 4-5 years old I SAW THE POWERPUFFGIRLS ON OVENBREAK POWERPUFFGIRLS WAS MY FAVORITE SHOW EVER AND I LOVE COOKIERUN!💖",
+        "date": "2026-03-01T12:47:46-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Tmkatie",
+        "score": 5,
+        "text": "This is a fantastic game",
+        "date": "2026-02-27T21:21:43-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kasen Morimoto",
+        "score": 4,
+        "text": "It is laggy but still fun✌︎˶╹ꇴ╹˶✌︎",
+        "date": "2026-02-27T19:40:41-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "UrLocalLazyJanitor",
+        "score": 5,
+        "text": "This is such a good game it’s not too easy but not too hard sometimes it can be but it’s very fun and cool ive played THOS game for a long time now it’s it’s just really fun I like it!",
+        "date": "2026-02-27T17:07:18-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "bogobeater",
+        "score": 4,
+        "text": "this game is VERY fun! many things you can do, many things you can get, its amazing! but one problem, you can barely keep up with legendaries and getting coins, gems and rainbow cubes can get difficult",
+        "date": "2026-02-27T08:00:44-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "reluctant werewolf",
+        "score": 4,
+        "text": "I have honestly been playing this game since it first came out. Even though I get bored of it (only so many times I can play an endless runner and see the same courses), I always come back in time for some new event bringing something new to the table. And now that they have  incentives for returning players, which may include cookie upgrades, it’s much easier for me to stick to it even if it’s only one day a week. I do wish that some more cookies were viable in trophy races though. I want to use a greater variety of combinations.",
+        "date": "2026-02-27T00:23:51-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "variegatus",
+        "score": 5,
+        "text": "I started playing this game like 8 years ago, and I’m super impressed with how it’s grown. Super f2p friendly, and it feels rewarding whether you want to grind or be super casual.",
+        "date": "2026-02-26T19:43:51-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "darkfonduelover99",
+        "score": 5,
+        "text": "please",
+        "date": "2026-02-26T18:16:25-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Diddy12343",
+        "score": 5,
+        "text": "The game is fun but can you get rid of the tutorial that nibbles makes you do and also can you give me random challenge tickets please",
+        "date": "2026-02-25T04:16:57-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "the.real.blue.eminem",
+        "score": 5,
+        "text": "I’ve been playing this game for about 5 years and made it my whole personality. Not just this game but the whole franchise in general has amazing characters and stories! The game modes are very entertaining as well!",
+        "date": "2026-02-24T21:16:33-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Bad7*2",
+        "score": 5,
+        "text": "I’m sure it’s good but it’s taking long to download so idk",
+        "date": "2026-02-22T11:07:26-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Legoacha",
+        "score": 5,
+        "text": "If you guys are getting sick of what’s happening with the stories being darker and the game being a bit boring even when the fifth anniversary is still going on then you guys must branch out out of cookie run Kingdom and play this game because it’s not underrated. it had their moment back then like 10 years ago but it’s more lighthearted has more songs and more cookies and all of the legendary so if you guys truly want to branch out, I don’t want to be experiencing a dark hatred betray story then play oven break",
+        "date": "2026-02-22T08:26:35-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Int3rnetV4mpire",
+        "score": 5,
+        "text": "Dear Devsisters, there is a problem with the Team Fight: Hustle and Tussle, as you know you added this feature so that people who leave would get suspended, the more they do it the more longer the suspension is..but there’s a problem, it also suspends people who’s devices crash, my device has been crashing and getting me suspended. I would like for you to fix this bug by making it so that if a crash si detected, the person is not suspended and doesn’t lose trophies, this bothers me and I need to play that game for an event. Fix this before the event is over, thank you, from a big cookie run fan.",
+        "date": "2026-02-14T11:47:51-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "billciphercookieiscanon",
+        "score": 5,
+        "text": "add bill cipher cookie",
+        "date": "2026-02-13T09:08:48-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Chocolate cats_456",
+        "score": 5,
+        "text": "Since I can’t play crk I play this game all the time! But I think beast and ancients should be in this game too!",
+        "date": "2026-02-10T12:51:56-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "-w- ~silly goob lover~",
+        "score": 5,
+        "text": "the chars are really cute and awesome -w- and the gameplay is top notch! and its pretty good for a \"cookie\" game!",
+        "date": "2026-02-04T11:08:17-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "XxMoonRosexX",
+        "score": 5,
+        "text": "I had this game for a few years and love playing it every time! Why such a good game? Story, characters, and gameplay is what makes this game fun! My fav updates are the dessert paradise and the holiday exam updates! Fav cookies are stollen cookie and strawberry Cream cookie! (They make such a cute couple! ) in the future pls add matching costumes for stollen and strawberry cream!  And also make more stories with them, high stakes and romance pls!! Maybe also make a story that Strawberry cream cookie is the main character and we see things in his perspective, and how he has feelings for Stollen cookie!! Pls do more with them!!Thats all for now so byeee!",
+        "date": "2026-02-01T11:45:44-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Mtmoon.face",
+        "score": 4,
+        "text": "I love this game. I play it every day. But there are small tweaks that can be made that will make it absolutely perfect. I play the game in English and when I type in the search bar for a cookie, it will autocorrect to something else and then I’d have to type it all over again. Another small annoyance is that when I’m scrolling through the cookie trials to look for one if I tap the wrong cookie and go back to the cookie trial page, it will take me all the way to the top of the page and I have to scroll again. I have over 100 cookies. Very annoying. Last thing: the filter for cookie trials should be able to stay at a certain setting, not just revert back to whatever the first filter is. I see you guys only take feedback on discord and that’s a lot. So I’m hoping you read your Apple reviews.",
+        "date": "2026-02-01T11:00:25-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Cualsualy",
+        "score": 5,
+        "text": "It is insanely good might be better than cookie run kingdom and I love every game in the cookie run fandom",
+        "date": "2026-01-31T05:51:18-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lunar ninja",
+        "score": 5,
+        "text": "The modes that have the rewind feature enabled stutter the whole run after the first 20 to 30 seconds please fix this it’s really annoying to look at and makes the game harder.",
+        "date": "2026-01-29T22:08:27-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "StxtchesAnimation",
+        "score": 5,
+        "text": "You should make a \"Caramel Chocolate Cookie\". Female with drippy chocolate and caramel hair, orange eyes, and light brown skin-Outfit kinda like a chef but covered in caramel and chocolate. Love the game overall just need more creativity.",
+        "date": "2026-01-28T18:15:16-07:00",
+        "version": "13.501"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lavender eats pancakes",
+        "score": 4,
+        "text": "I love this game so much it’s just a bit hard to figure out how to do certain stuff",
+        "date": "2026-01-28T17:02:26-07:00",
+        "version": "13.501"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "I. Love. Cr",
+        "score": 5,
+        "text": "I. Love. Cr",
+        "date": "2026-01-28T14:31:39-07:00",
+        "version": "13.501"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "bamboobladecookielover",
+        "score": 5,
+        "text": "I love bamboo blade cookie, he’s just so pretty and gorgeous and handsome and amazing and smart and kind and wise and thoughtful and caring and beautiful and tall and radiant and exquisite and charming and good looking and gallant and fair and elegant and graceful and silly and cute and sweet and valiant and strong and alluring and stunning and gorgeous and majestic and dreamlike and transcendent and otherworldly 10/10 design and story \n\nalso the game’s pretty good",
+        "date": "2026-01-27T17:55:32-07:00",
+        "version": "13.501"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Di4mante",
+        "score": 5,
+        "text": "I Play this because i saw jisoo play this🤣 and turns out it hooked me even more.",
+        "date": "2026-01-27T17:37:07-07:00",
+        "version": "13.501"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Pawn white",
+        "score": 5,
+        "text": "I absolutely LOVE this game!! Not only do I prefer it over kingdom, I feel like it has more lore and crystals are waayyy more easier to get. Title events are also a good way to play and get rewards, and to also read more lore with the cookies!!!",
+        "date": "2026-01-27T17:03:41-07:00",
+        "version": "13.501"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kaaaarrrrlll",
+        "score": 5,
+        "text": "There was an issue of cookies getting deleted but the devs fixed next it the next day. Thank you devsis!",
+        "date": "2026-01-23T12:55:33-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Nail yetrmd",
+        "score": 5,
+        "text": "I like this game I have gotten almost all cookies from beginning to now I luv all of its game modes and the  costumes  that’s is all ty",
+        "date": "2026-01-23T03:33:07-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "👾🖤𝖀𝖟𝖎 𝔇𝔬𝔬𝔯𝔪𝔞𝔫",
+        "score": 5,
+        "text": "This game is super good, dude. I would rate it 10 stars if I could.",
+        "date": "2026-01-17T16:25:21-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "𝓐𝓾𝓰𝓾𝓼𝓽𝓲𝓷𝓮 𝓠𝓾𝓮𝓮𝓷",
+        "score": 5,
+        "text": "This game is really really fun and relaxing! But for the people who don't like the game, why did you even download it in the first place when you were gonna talk trash about it?",
+        "date": "2026-01-13T17:57:53-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "sunny 👍😄👉🏼☀️",
+        "score": 5,
+        "text": "this hasn’t happened before but yesterday and today im not able to open cream soda cookie’s trial which was weird because i was able to get it open for a second. and now, i can’t open the trophy race. pls devsis i hope you can see this and fix the glitch, thank youu :)",
+        "date": "2026-01-13T13:44:17-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Unirootytoo",
+        "score": 4,
+        "text": "I started on Cookie run: kingdom, then worked my way to this game. I like how the style is oddly hilarious with how bad it is. If you like a humor game, I recommend this game. If you like story type, I also suggest Cookie run: Kingdom.",
+        "date": "2026-01-13T09:06:31-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "maryidv",
+        "score": 4,
+        "text": "i used to play this game everyday for a couple years, but ever since the ppg update i havent been able to log in at all",
+        "date": "2026-01-12T08:01:53-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "keuqi!! ⏤͟͟͞͞☆",
+        "score": 5,
+        "text": "The game is peak which means really good!  but when i try to play onion cookie, My game crashes :c its kewl but can u fix onion cookie? :0",
+        "date": "2026-01-05T15:58:14-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "MochiYayyyyy",
+        "score": 5,
+        "text": "I like this game you can download it for free and you can get ovenbreak cookies for free if you want it you don’t have to play it if it’s boring",
+        "date": "2026-01-03T19:17:54-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Cub thank.Naomi",
+        "score": 5,
+        "text": "Best game ever made",
+        "date": "2026-01-02T12:57:31-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "kittyfluffyOwO",
+        "score": 5,
+        "text": "It’s really good f2p friendly for the most part and amazing writing and stories also character design are amazing",
+        "date": "2026-01-01T12:57:39-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Sweet_Foxy_44",
+        "score": 5,
+        "text": "This game is really fun. The graphics are amazing and the cookie designs are top notch. And there is never a shortage of things to do, with all the game modes. The collabs are also really fun. And I love the devsis crossovers, between crk, toa, and crob. It makes all three games such fun. It is worth downloading. Enjoy!",
+        "date": "2025-12-31T13:55:47-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Rylee.z",
+        "score": 5,
+        "text": "Hello cookie run, I was playing with onion cookies in a run but for some reason she kept crashing my game. I used other cookies they don’t have this issue, but only she does. Can you please look into it?",
+        "date": "2025-12-30T19:43:36-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "𝓘 𝓵𝓸𝓿𝓮 𝓼𝓵𝓮𝓮𝓹 💤",
+        "score": 5,
+        "text": "𝓣𝓱𝓲𝓼 𝓲𝓼 𝓰𝓪𝓶𝓮 𝓲𝓼 𝓬𝓸𝓸𝓵 𝓘'𝓶 𝓰𝓮𝓽𝓽𝓲𝓷𝓰 𝓵𝓸𝓽𝓼 𝓸𝓯 𝓬𝓸𝓸𝓴𝓲𝓮𝓼. 𝓣𝓱𝓲𝓼 𝓰𝓪𝓶𝓮 𝔀𝓪𝓼 𝓪 𝓖𝓻𝓮𝓪𝓽 𝓲𝓭𝓮𝓪 𝓱𝓮𝓱𝓮 𝓴𝓮𝓮𝓹 𝓾𝓹 𝓽𝓱𝓮 𝓰𝓸𝓸𝓭 𝔀𝓸𝓻𝓴 🪷 ( 𝓫𝓪𝓼𝓼𝓲𝓮 𝓸𝓾𝓽)",
+        "date": "2025-12-30T19:06:36-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Damien....😔",
+        "score": 5,
+        "text": "I Love This Game Please Make More Updates",
+        "date": "2025-12-30T08:58:05-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "FlameScorch5043_",
+        "score": 5,
+        "text": "Even though I haven’t played it for a while, this is still one of the best games I have ever played! The design are amazing and match the character pretty well and the story is A M A Z I N G!!!! I hope this gets a lot of updates because this might be one of the most interesting and exciting games that lots of people should play.",
+        "date": "2025-12-30T08:39:36-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "sath2080",
+        "score": 5,
+        "text": "Electric Eel Cookie my beloved <3",
+        "date": "2025-12-30T05:28:58-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "RXFFYིྀ☘",
+        "score": 5,
+        "text": "this is peak at 2009 and today",
+        "date": "2025-12-30T02:39:09-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Chemburn",
+        "score": 4,
+        "text": "Very fun game but legendary cookies are sooo hard to level up. When I found out the newly released cookie was a legendary, it kinda made me less excited to play since for the next few weeks this cookie is gonna be important to score higher in multiple areas of the game. And it’s not particularly fun grinding just to level up one cookie.",
+        "date": "2025-12-30T00:37:13-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Steve ovenbreak",
+        "score": 5,
+        "text": "The cookies run from the oven and break it, fun game.",
+        "date": "2025-12-30T00:18:13-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "tigr dihs",
+        "score": 4,
+        "text": "game is very fun and i like that but i think with all the clicks and pop ups it gets very overwhelming and theres to many things to do and it gets confusing FAST.",
+        "date": "2025-12-29T19:17:13-07:00",
+        "version": "13.401"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "♡♥︎ᴘᴜʀᴇ ᴠᴀɴɪʟʟᴀ♥︎♡",
+        "score": 5,
+        "text": "So I have been playing this game and I love it now my favorite game I love the character designs",
+        "date": "2025-12-29T15:04:41-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "carritlina",
+        "score": 4,
+        "text": "Been playing this game for over 4+ years now. Started playing after watching a Lankybox video and this game has been my favorite since then. Love the game but there were times when updates were questionable but nonetheless I love collecting the cookies.",
+        "date": "2025-12-26T18:36:42-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Allywoah",
+        "score": 5,
+        "text": "Worked fine last night! But today I downloaded it on my iPad and logged in through there too, but the music wasn’t playing? I tried it on my phone instead but the music wasn’t playing either :( hopefully it’s just a quick bug! No music or sound effects play at all",
+        "date": "2025-12-11T11:32:46-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Kary131416",
+        "score": 5,
+        "text": "Girls",
+        "date": "2025-11-29T22:10:17-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "jelly___",
+        "score": 4,
+        "text": "I join crob in the voyage of dreams update and it was rlly fun, it’s just that it’s hard for newer players like me to get into it. still though, I could play this game for like 3 hours and not be bored of it. \n\nunlike in  crk where if you’re far enough in there’s nothing to do until to next update. \n\nso yeah, it’s fun, try it out!! (took up so much storage for me lol)",
+        "date": "2025-11-29T17:51:09-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Cocoluvchip",
+        "score": 4,
+        "text": "Ok so my first complaint is rainbow cubes, they seem really hard to get if ur f2p (free to play) and it can get boring if played to long, but it can be very entertaining as well\nI think this game is very good with SOME problems however I highly recommend downloading it",
+        "date": "2025-11-28T21:39:47-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Big fan of blackpink",
+        "score": 5,
+        "text": "I love how you can do so much and the new powerpuffgirls collab is awesome! I find this game fun and entertaining when I’m bored",
+        "date": "2025-11-28T21:17:41-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Smcandpvclover",
+        "score": 5,
+        "text": "I love CRK",
+        "date": "2025-11-28T15:58:31-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Sunshinehead678",
+        "score": 5,
+        "text": "This is my very favorite games. It’s fun and cute. Love this game so much!!",
+        "date": "2025-11-28T11:40:53-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "EkoSkye",
+        "score": 5,
+        "text": "nice game but it takes lots of storage, but i still like it very much",
+        "date": "2025-11-28T11:06:10-07:00",
+        "version": "13.301"
+      }
+    ],
+    "negative": [
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "กานุรัน",
+        "score": 1,
+        "text": "เกมหัวฆวยเล่นก็ไม่ได้เด้งออกตลอด",
+        "date": "2026-06-20T10:33:43-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "น้ำตกหมูคนละครึ่ง",
+        "score": 1,
+        "text": "I have Devplay ID that linked with my Kingdom and Ovenbreak (Android phone) but cannot connect my account on iOS. 🥹",
+        "date": "2026-06-17T21:41:42-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Nmmon_",
+        "score": 1,
+        "text": "เข้าเกมแล้วบอกว่ายินดีต้อนรับการกลับมาแต่เชื่อมการเล่นครั้งสุดไม่ได้อะ เวล 1 มีคุกกี้ตัวเดียว งง",
+        "date": "2026-06-16T03:07:53-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "มรด",
+        "score": 2,
+        "text": "เราเล่นในไอแพด แต่ไม่มีเสียงเพลง เปิดดนตรีแล้ว เปลี่ยนดนตรีแล้วก็ไม่ขึ้นเสียงเพลง ไม่รู้เป็นอะไร รำคาญ",
+        "date": "2026-06-13T00:20:57-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "เบ้บบบบบบบบบบ",
+        "score": 2,
+        "text": "เกมส์เด้งออกเองบ่อยมาก เล่นไม่ได้เลย ทำภารกิจไม่ได้สักอย่าง เล่นได้แค่บางอัน",
+        "date": "2026-06-08T04:59:49-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "..5uper9ast..",
+        "score": 1,
+        "text": "เกมทำมาให้จ่ายเงิน",
+        "date": "2026-06-02T20:22:57-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Kunpkkkkkkkkk",
+        "score": 1,
+        "text": "กดเริ่มเกมส์แล้วเด้งออกตลอด วิ่งไม่ได้เลย ขนาดจะเปิดกล่องบางทียังเด้งออก ปกติเล่นเกมส์นี้ตลอดตอนนี้ไม่ได้เล่นเลย แก้ไขด่วนค่ะ",
+        "date": "2026-05-27T06:53:43-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "เตเต้001",
+        "score": 1,
+        "text": "สุ่มสมบัติตรงไหนอ่ะหาไม่เจอ",
+        "date": "2026-05-15T00:35:39-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ไนนดนตำนำนดน",
+        "score": 1,
+        "text": "จะให้ดูเด้งเข้าแต่linemanกดออกก็ไม่ได้",
+        "date": "2026-05-10T12:04:23-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ย้ายภาพ",
+        "score": 2,
+        "text": "เป็นคนเล่นเก่าแล้วกลับมาเล่นแทนที่จะให้เล่นปกติแล้วเอาคะแนนจชตามที่กำหนด แต่่เอากระดดดยากๆมาให้เล่น ปรับเถอะ",
+        "date": "2026-05-09T00:08:17-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Bunlung$",
+        "score": 2,
+        "text": "ของหายาก แคนดี้เลเจนด์เล่นฟรีคืออัพยากมากถ้าจะให้มันตัน เรทกาชาห่วยแตกแม่งไม่เคยจะแก้ซะที ยิ่งล่าสุดอีเว้นท์บังคับใช้เลเจนด์ถึงผ่านคืออะไรเดฟยิ่งอัพยิ่งหิวตังค์",
+        "date": "2026-05-05T00:18:23-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "พอแล้วไม่เอาเเล้ว",
+        "score": 1,
+        "text": "ตั้งแต่อัพเดทเกมเด้งตลอดเลย",
+        "date": "2026-05-04T20:32:19-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "โอเชนาวัา",
+        "score": 1,
+        "text": "เล่นไม่ได้เลยตั้งแต่อัพเดท\nขอวิธีแก้ไขด้วย",
+        "date": "2026-05-02T01:17:56-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "unicorncandyy",
+        "score": 1,
+        "text": "ล็อกอินไอดีเก่าที่เชื่อมกัน gmail ไม่ได้ ถ้าอยากเบ่นต้องเริ่มใหม่หมด แย่มากกกกก",
+        "date": "2026-05-01T17:04:11-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "แซลมอนอร่อยที่สุดดด",
+        "score": 1,
+        "text": "เกมเด้งออกทุกครั้งเวลากดเริ่มเกม ทำให้เสียตั๋ววิ่งไปฟรีๆ เลยค่ะ อุตส่าห์โหลดกลับมาเล่นใหม่เพราะคิดถึง รบกวนแก้ไขให้หน่อยนะคะ หากปัญหายังอยู่ คงต้องลบเกมทิ้งค่ะ",
+        "date": "2026-05-01T14:55:32-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "freezzzzed",
+        "score": 2,
+        "text": "เล่น 1 Trilion เกมส์เด้งสองรอบ เสียรอบวิ่งไป 2 รอบเฉย.",
+        "date": "2026-04-24T09:11:58-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Nfff24",
+        "score": 2,
+        "text": "After the latest update, when I select play mode, I can't play and the game always closes automatically. Please fix this as soon as possible.",
+        "date": "2026-04-23T21:44:00-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "เหง่ย",
+        "score": 1,
+        "text": "1-2วันนี้เล่นโหมดเบรคเอาท์อยู่ดีๆ ไม่ทันเล่นไม้หนึ่งจบ เกมเด้งออกตลอด เด้งออกที่เดิมด้วยตรงด่านน้ำทะเลสีส้มๆ รบกวนแก้ไขด่วน",
+        "date": "2026-04-11T13:46:42-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ฟีฟ่าเกมกกาก",
+        "score": 1,
+        "text": "เกมล็อคชิปหายพึ่งเริ่มต้นล็อคให้เล่นยาวไม่ได้น้ำยาชีวิตอยู่ตรงหน้าอยู่ๆตายเฉยเกมโครตก่ำเลย",
+        "date": "2026-04-10T08:31:40-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Momay amy",
+        "score": 1,
+        "text": "เด้งออกบ่อยมาก จนรำคาญ แก้ไขด่วน",
+        "date": "2026-04-09T06:36:29-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "AkumaPEJ",
+        "score": 1,
+        "text": "เด้งหลุดตลอดเลย เข้าฟีเจอร์ไหนก็เด้งออก",
+        "date": "2026-04-06T05:30:10-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "khzfsfg",
+        "score": 1,
+        "text": "อัฟเดตใหม่พอเริ่มเล่นเกมแล้วเด้งหลุดตลอดแก้ไขด่วนค่ะ",
+        "date": "2026-03-31T17:04:26-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "cholnateeee",
+        "score": 2,
+        "text": "แค่ตัวแอป3.3gbเลยหรอแล้วไหนจะต้องไปโหลดไฟล์เกมอีก💀",
+        "date": "2026-03-30T05:50:51-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Jonk76",
+        "score": 1,
+        "text": "โหมดอื่นสนุกดี แต่โหมดนี้คนทำเกมสนุกใช่ไหมที่ทำให้คนเล่นหัวร้อน ด่านสุ่มนี้เอาออกไปเถอะ ดวงล้วนๆ ไม่ได้ใช้ทักษะการเล่นเลย เล่นมาตั้งแต่เกมเปิด ขอทีเถอะ เอาไป 1 ดาวละกัน ค่าทำให้หัวร้อน ที่ทนเล่นเพราะมีของให้แลกหรอก ความสนุกเป็น 0",
+        "date": "2026-03-29T04:46:36-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ไม่ชอบคุกกี้รัน",
+        "score": 1,
+        "text": "พยายามจะเล่นเพื่อผ่านด่านเบรคเอ้าท์ เเต่พอเล่นได้แปบๆ เด้งออกๆๆตลอดเลย ลบโหลดใหม่ก็ยังเป็น ขอไม่เล่นอีกเลยโมโห อยากให้0ดาว",
+        "date": "2026-03-29T02:07:20-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "nawaporn zom",
+        "score": 1,
+        "text": "แย่มาก",
+        "date": "2026-03-27T04:43:27-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Psisiwuuw",
+        "score": 1,
+        "text": "อีเว้นท์รีไซเคิลเยอะมาก หลัง ๆ แจกของน้อยมาก \nอีกอย่างนึงตัว legendary แคนดี้ lv5 แทบเป็นไปไม่ได้เลย รวมถึงตัวใหม่ ๆ ออกมาถี่เกิน ควร เว้นช่วง rework ตัวเก่า ๆ บ้าง",
+        "date": "2026-02-22T19:48:20-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "พ่องเมิงบ่",
+        "score": 1,
+        "text": "คือเมิงจะออกแบบตัวคุกกี้ให้มันเล่นยากหาพ่องหาแม่งเมิงบ่บักขวยไอ่สันตีนหน้าสันควานฮีเอ้ยย คุกกี้พ่องเมิงบ่อกผโดดเสียจังหวะการเล่นบักคว่ายไอ่บือกบักไอ่ควยแท้ไอ่หน้าฮี",
+        "date": "2026-01-18T03:29:36-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Mjmjmjmjmjmjmjnjjmjjkjgsjdiss",
+        "score": 2,
+        "text": "อยู่ๆก็เด้งออกหนักมาก",
+        "date": "2025-12-29T01:12:54-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "realllikelalalaaaa",
+        "score": 1,
+        "text": "ทำไมเล่น powerpuff girl ไม่ได้",
+        "date": "2025-12-18T18:41:11-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "น่าเบื่อเซง",
+        "score": 1,
+        "text": "อัพเดทบ่อยมาก",
+        "date": "2025-12-04T03:52:29-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "No.Name🤬",
+        "score": 1,
+        "text": "ใครมันเป็นคนออกไอเดียโหมด ใบอนุญาตช่างเทคนิค ขึ้นมา ถามจริงว่าใช้สมองส่วนไหนคิด เป็นโหมดที่น่ารำคาญมาก แถมสิ่งที่สอนก็ใช่ว่าทุกคนจะใช้ มีทำไมเยอะแยะ",
+        "date": "2025-11-19T10:39:53-07:00",
+        "version": "13.211"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Boonnakorn",
+        "score": 1,
+        "text": "ล็อกอินบัญชีเดิมไม่ได้ หรือว่าให้เริ่มเล่นใหม่เลนหรอคะ",
+        "date": "2025-11-18T05:51:39-07:00",
+        "version": "13.211"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Juyapur",
+        "score": 1,
+        "text": "อัปเดตตลอดน่าเบื่อควรปรับปรุงให้ตัวละครใหม่ขึ้นมาอัตโนมัติไม่ต้องอัปเดตใหม่ตลอด  แล้วอัปเดตอยากมาก",
+        "date": "2025-11-14T04:43:11-07:00",
+        "version": "13.211"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "biggerler",
+        "score": 1,
+        "text": "เล่นมา 5 ปีได้ จะเลิกเล่นละ\nเดี๋ยวนี้เล่นไม่สนุกเหมือนเมื่อก่อนแล้ว เอะอะก็ต้องใช้ทริคหมด เสียเวลามานั่งดูยูทูป มีทริคเล่นยัง บอกตรงๆ หลายครั้งก็อารมณ์เสีย จะต้องใช้ทริคไปหมด\nโหมดเกมชาเลนส์สุ่มโคตรแย่ สุ่มมาให้แต่ตัวแย่ๆ บัพแย่ๆ ไม่เข้ากันสักอย่าง ยิ่งอันล่าสุด คือแย่สุดตั้งแต่เคยมี อาทิตย์นึงเล่นสองรอบ ไม่มีเจออะไรดีเลย พัก\nโหมดสตอรี่ก็น่าเบื่อมาก ไม่สนุกแบบเมื่อก่อน\nยิ่งทำยิ่งแย่ ยิ่งทำยิ่งห่วย ใครจะมาเล่นถ้าไม่รักเกมจริงๆ อย่ามาเล่นเลยเถอะ",
+        "date": "2025-11-11T15:16:59-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "estrix.",
+        "score": 1,
+        "text": "แบบเก่าดีกว่า แบบใหม่งง กดเยอะแยะไปหมดจนไม่น่าเล่น",
+        "date": "2025-11-08T20:06:37-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "บันนี่นนนนน",
+        "score": 2,
+        "text": "กดอะไรไม่ไปเลย",
+        "date": "2025-11-04T11:20:56-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "อ้วนs",
+        "score": 1,
+        "text": "แอดเพื่อนไม่ได้ปุ่มหายไปไหนหมด",
+        "date": "2025-11-02T21:52:18-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "SMCAndSunday’sBIGGESTfan",
+        "score": 1,
+        "text": "เกมหัวคx",
+        "date": "2025-11-01T18:53:09-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ธาราา",
+        "score": 1,
+        "text": "เพชรกับเงินตามหายาก เควสบางทีก็เวอร์ยากเกิน ของขวัญไม่เยอะเหมือนก่อน",
+        "date": "2025-10-31T01:38:34-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "วอนโปรดเห็นใจ",
+        "score": 2,
+        "text": "สร้างกิลด์เอง แค่ไม่ออนสักพักก็โอนให้คนอื่นอัตโนมัติ ยุติธรรมแล้วหรอ😾",
+        "date": "2025-10-27T19:57:15-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "7for",
+        "score": 1,
+        "text": "up ios แล้วเปิดไม่ได้เลยค่ะ",
+        "date": "2025-10-03T07:18:39-07:00",
+        "version": "13.111"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ปลสปอด",
+        "score": 2,
+        "text": "ชอบเด้งตอนเล่นชาเล่นสุ่ม หงุดหงิดมากและมันไม่ควรจะเกิดขึ้น ถ้าแก้ไขแล้วจะเพิ่มดาวให้ และสนับสนุน",
+        "date": "2025-09-28T11:11:50-07:00",
+        "version": "13.101"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ช่วยแก้ไขเกมหน่อย",
+        "score": 1,
+        "text": "เกมเด้งออกอีกละนะ วอนผู้พัฒนาช่วยแก้ไขหน่อยค่ะ เน็ตเราก็ดีนะ เล่นในไอแพดด้วย ทำไมเกมยิ่งอัพเดตยิ่งแย่ลง? เราเล่นชาเลนท์สุ่มแพทช์ใหม่อยู่ดีๆ ก็เด้งออก 3 ครั้ง ทั้งๆที่ยังไม่จบเกม แล้วแต้มที่เสียไปล่ะ? มันเซ็งนะเว้ย มันน่าเบื่ออ่ะ เด้งแม่งทุกแพทช์ มันหมดอารมณ์เล่นว่ะ",
+        "date": "2025-09-26T02:32:40-07:00",
+        "version": "13.101"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "tatoonnn",
+        "score": 1,
+        "text": "เคยมีไอดีเก่า ไอดีเก่าก็หายเชื่อมต่อไม่ได้ โกรธมากค่ะ มาโหลดเล่นใหม่เกมหายหมดเลย มาเวลใหม่หมด เติมก็เคยเดิมเครื่องเก่าก็โหลดไม่ได้",
+        "date": "2025-09-24T03:01:48-07:00",
+        "version": "13.001"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "The Cutest player",
+        "score": 1,
+        "text": "12 round 30th @-@ ffff y",
+        "date": "2025-09-05T00:31:21-07:00",
+        "version": "13.001"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "รักเกมเศรษฐี",
+        "score": 1,
+        "text": "ดูโฆษณาแล้วจอดำเสียเวลาชิบหาย",
+        "date": "2025-09-01T09:41:23-07:00",
+        "version": "13.001"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "onlylatterj",
+        "score": 2,
+        "text": "ไม่หนุกเหมือนเดิมเลยอะ เซ็ง",
+        "date": "2025-08-25T09:00:44-07:00",
+        "version": "12.911"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "เล่นมานานละจ้า",
+        "score": 1,
+        "text": "เมื่อไหร่จะแก้ปัญหาที่เล่นอยู่ๆแล้วเด้งออก",
+        "date": "2025-08-19T08:01:51-07:00",
+        "version": "12.911"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Por mueg",
+        "score": 1,
+        "text": "Game gak sud",
+        "date": "2025-08-16T08:56:29-07:00",
+        "version": "12.911"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "กานดา แก้ม",
+        "score": 1,
+        "text": "โหลดช้ามากกกกกกกกกก",
+        "date": "2025-08-14T20:21:35-07:00",
+        "version": "12.911"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "VSJNQY",
+        "score": 1,
+        "text": "เล่นอยู่เด้งออกจนไม่อยากจะเล่นเลยอ่าา เกมสนุกนะเสียดาย",
+        "date": "2025-08-01T16:11:50-07:00",
+        "version": "12.911"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Mooklytena",
+        "score": 1,
+        "text": "ช่วงนี้ตัวเกมเด้งออกบ่อยมากทั้งที่เล่นมาตั้งนานไม่เคยเด้งออกเลย หรือนานๆทีจะเด้งออก เดี๋ยวนี้อัปเดตมาใหม่เด้งออกบ่อยมากขึ้น ซึ่งเหมือนยิ่งอับเดตใหม่เรื่อยๆยิ่งเพิ่มการเด้งออกบ่อยขึ้นช่วยปรับปรุงตรงนี้ด้วย จากใจคนเล่นมานาน",
+        "date": "2025-07-26T11:49:12-07:00",
+        "version": "12.811"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ากคดาพ",
+        "score": 1,
+        "text": "เบรคเอ้าท์เล่นแทบไม่ได้เลย เด้งออกอยู่นั่นแหละ เริ่มเบื่อและเด้อ กากเกิ๊นนน เล่นเบรคเอ้าท์ เด้งออกเกมทุกผลัดเลย เมื่อไหร่จะแก้ ลบทิ้งซะบ้อ",
+        "date": "2025-07-24T19:39:54-07:00",
+        "version": "12.811"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Pojouu",
+        "score": 1,
+        "text": "อัปเดตนี้หลุดบ่อยนะ กดโดดก็ไม่ค่อยติด อย่าทำเกมพัง",
+        "date": "2025-07-18T09:38:54-07:00",
+        "version": "12.811"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "num272727",
+        "score": 2,
+        "text": "The new update is screw me basically I have noticed that it may not over 10 time fail to upgrade the maximum level of treasure and I’m willing to do that but now is turning to around 30 times? I guess. Why I have to pouring my money with this kind of things please? Please increase the success rate to more accurate",
+        "date": "2025-06-16T11:56:04-07:00",
+        "version": "12.711"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "เทพซ่า77722",
+        "score": 2,
+        "text": "เข้าเกมยากมาก กดแล้วขึ้นจอขาว ต้องกดเข้าๆออกๆหลายรอบมากถึงจะเข้าได้ บางครั้งเข้าไม่ได้ทั้งวันเลยก็มี เป็นเพราะอะไรคะ แก้หน่อยค่ะ",
+        "date": "2025-06-04T11:03:22-07:00",
+        "version": "12.711"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "นิ้ง29",
+        "score": 1,
+        "text": "กระโดดยากมาก จะล็อกให้เป๊ะอะไรขนาดนั้น ทำยังไงก็ไม่ผ่านสักที เล่นแล้วเครียด ด่านมีแต่ยากๆ \nคิดถึงตอนที่เคยเป็นระบบล็อกอินไลน์ถึงได้กลับมาโหลดมาเล่น เติมไป325 เพื่อรับเพชร ไม่มีแถมอะไรเลย ทุกอย่างต้องซื้อไปหมด ละโคตรแพง ช่วยพัฒนาให้กลับมาเป็นเหมือนเดิมที่เกมเคยเปิดตัวในไลน์เถอะ",
+        "date": "2025-05-28T19:28:53-07:00",
+        "version": "12.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "P***cha***",
+        "score": 2,
+        "text": "เกมสนุกนะ สนุกมาก แต่กดโดดไม่ค่อยจะติด เซ็ง",
+        "date": "2025-05-16T00:12:25-07:00",
+        "version": "12.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "chcake__",
+        "score": 1,
+        "text": "งงกับการพัฒนาเกมนี้มาก ยิ่งอัพเดตก็ยิ่งไม่เหลือความเป็นโอเวนเบรค ทั้งหน้าตาUX/UI ทั้งหน้าตาตัวละคร แทบจะเป็นคิงดอมแล้ว อัพเดตแต่ละทีคือไม่อยากเล่นต่อแล้วเกมนี้ถ้าจะทำให้โอเวนเบรคเป็นคิงดอมก็ลบเกมนี้ทิ้งไปเลย แล้วเหลือไว้แต่คิงดอม จากชอบโอเวนเบรคมากกกกกกก จนตอนนี้ไม่อยากเข้าเกมแล้ว นักพัฒนาช่วยมาอ่านด้วย อยากให้โอเวนเบรคเป็นโอเวนเบรค ไม่ใช้คิงดอม save Ovenbreak as Ovenbreak",
+        "date": "2025-04-29T18:27:48-07:00",
+        "version": "12.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Aeypornwimonna",
+        "score": 1,
+        "text": "ลูกอีช่างอัพเดต",
+        "date": "2025-04-29T06:35:01-07:00",
+        "version": "12.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "NAMO.DIO",
+        "score": 1,
+        "text": "คือผลโหลดมาในไอแพด เจน 9 แล้วตัวเกมพอเปิดมาอยู่16:9แบบโทรศัพท์ ขอสอบถามวิธีแก้ครับ",
+        "date": "2025-04-09T07:12:47-07:00",
+        "version": "12.511"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "LachimilalA",
+        "score": 1,
+        "text": "ซื้อสกินไปสองแต่ได้มาแค่หนึ่ง โคตรน่าเกลียด รีเกมใหม่ก็เหมือนเดิม หลายรอบละอิเกมนี่ หงุดหงิด เอาผิดกับใครก็ไม่ได้",
+        "date": "2025-04-08T07:09:38-07:00",
+        "version": "12.511"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "สุ่มส",
+        "score": 1,
+        "text": "จะกดเล่นชาเลนจ์สุ่มทีไรให้อัพเดตตลอดเป็นไรวะ",
+        "date": "2025-04-05T08:56:09-07:00",
+        "version": "12.511"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Noppakorn1",
+        "score": 1,
+        "text": "เรียกนานมาก",
+        "date": "2025-04-01T15:57:37-07:00",
+        "version": "12.511"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ธิติชัย",
+        "score": 1,
+        "text": "ผมส่งเคื่องรางอยู่ แล้วใช้แต้มที่สุ่มเครื่องราง จนเต็ม แล้ว เกมส์หลุดไป \nเพรชก็หาย แต้มก็หาย แต่เครื่องราง ไม่เต็ม มีวิธีแก้ไขไหมครับ",
+        "date": "2025-03-30T22:36:33-07:00",
+        "version": "12.511"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "kevin randodmcm",
+        "score": 2,
+        "text": "Ive been playing ever since beet cookie came out so i was like 8 or 9 years old chile.. anyways over the years i was a frequent player up until scorpion cookie was added and the ui was different idk something about it just made me not enjoy the game anymore and i quit. I then came back on and off over the years and so much has changed im just gonna say that the game should be more simpler and should choose quality over quantity.. i dont like the system where you have to open chests to get stars? to unlock cookies i think thats so lame cause i literally have to open like a bazillion chests, i also hate the meta to be honest i like the old cookies but you literally cant play them because they haven’t got buffed in a bazillion years. Everytime i come back its some new cookie that isnt even that original and a new meta. I miss the old storyline like what even is this storyline bro the devs are just adding the most random cookies i got lost after dragons were added to the storyline cause whatt.. the problem with games like this is you keep adding new stuff that nobody really cares about it just feels like the old ones rebranded. Some suggestions i think is.. idk i wish the game was more social sometimes or bring back old events or things like that, listen to feedback cause i really used to enjoy this game",
+        "date": "2026-06-08T01:31:32-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "xXseleverXx",
+        "score": 1,
+        "text": "So trash i cant even click anything i delete this game and 1 star. FIX YO GAME DEVSISTERS",
+        "date": "2026-06-01T03:28:41-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Naenae002",
+        "score": 1,
+        "text": "The game keeps crashing. I can’t get past the intro. I can’t even get far enough to contact support from within the game.",
+        "date": "2026-05-25T00:36:14-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "sʜᴀᴅᴏᴡᴍɪʟᴋ",
+        "score": 1,
+        "text": "the title is explanatory enough. change this devsis.",
+        "date": "2026-04-23T14:51:34-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Tie Guy2",
+        "score": 2,
+        "text": "Although the is running part of the game is fun you can access the story unlike kingdom which you can start the story once you open the app . And the way that you get to unlock the game is a  hard because of weekly round 1 up where you need to get  ruby five  then you will do weekly round up 2 and get ruby or higher there just to finally unlock story mode and if your characters don’t have a high enough level get to ruby five then it will be near impossible which some new players might quit because of this.",
+        "date": "2026-04-18T20:19:12-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "放屁紫火",
+        "score": 1,
+        "text": "今年愚人節活動不可以養Micmac我要養Micmac",
+        "date": "2026-03-31T19:46:03-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "mizuki akiyama\\\\\\",
+        "score": 1,
+        "text": "don't bother playing this piece of trash it might be cool for newer players but once u get to a certain point there's no fun anymore they're always releasing legendary treasures right after u spent 3 months leveling up the OTHER one and same w legendary cookies except they're impossible to fully upgrade (lvl 15 pet, candy AND cookie) as a f2p cuz u can only get 1 ingredient per WEEK like dude all people use in the minigmaes u can play in are those cookies",
+        "date": "2026-03-30T18:38:39-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Abby cat lover",
+        "score": 2,
+        "text": "I was so sad there was noooo eternal sugar cookie I was very depressed.",
+        "date": "2026-03-22T08:55:39-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "difficulty coconut fish",
+        "score": 1,
+        "text": "I weigh 500 pounds and was looking at ginger brave and got very hungry so I ate my phone whole",
+        "date": "2026-02-08T09:27:25-07:00",
+        "version": "13.521"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Bigballshaver67",
+        "score": 1,
+        "text": "It’s no cookies am an asta leuhuego yk what I’m saying I’m not happy with you",
+        "date": "2026-01-28T11:02:15-07:00",
+        "version": "13.501"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Mochamotive",
+        "score": 1,
+        "text": "This is nothing like the original. The upgrades are lame and excessive. I miss the original and was ecstatic to play it again. Why can’t we have an app as the original and if you want all the crease there’s a separate version for it. Very upsetting deleted extremely fast.",
+        "date": "2026-01-22T09:42:53-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Alyssa sandin",
+        "score": 1,
+        "text": "Today, I tried logging back in, but it didn't load at all. I tried to reset it, but it asked me something that I totally forgot. Now, it kicks me out.",
+        "date": "2026-01-20T18:43:48-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "dook dooki",
+        "score": 2,
+        "text": "The greed they talk about in the Bible 🥀",
+        "date": "2025-12-25T12:28:55-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "CQ Cumber",
+        "score": 1,
+        "text": "Pay to win. Change this Devsis.",
+        "date": "2025-12-13T19:36:24-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "RBethW",
+        "score": 1,
+        "text": "This recent update is complete and utter nonsense. They only gave us a month to level up 3 cookies and pets, and now they give us half the time to also get three costumes that are 6k candies each?! The events don’t give nearly enough the amount needed for that. You would have to spend over $70+ to get them. F2P is the backbone of your game whether you like it or not, Devsisters.",
+        "date": "2025-12-12T00:56:27-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Can’t make acc new player",
+        "score": 1,
+        "text": "Never played this game until now, it’s giving me a random users account…I don’t wanna use this persons account but the game doesn’t allow me to make my own account",
+        "date": "2025-12-08T14:13:13-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "rossolon",
+        "score": 1,
+        "text": "This game has a tutorial that never seems to end and I did everything i think it is bugged",
+        "date": "2025-12-02T11:55:35-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Ginger",
+        "score": 1,
+        "text": "I was able to play yesterday but the app won’t even load. Says failure to load. I don’t understand why. Very annoying.",
+        "date": "2025-11-29T19:43:48-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "你去444",
+        "score": 1,
+        "text": "淦！那麼卡，玩的時候一直一直撞到把我的iPad 弄的超卡。我都已經三百等了⋯⋯",
+        "date": "2025-11-28T23:58:08-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "elly 🌀",
+        "score": 1,
+        "text": "i can’t leave the tutorial. it makes me level up cream ferret, which would be fine, except i don’t have him. and the way to get him? pretty much crk soulstones. i try to get some. won’t let me because i’m still in the tutorial. now, i can’t get anything from the collab because the shop is locked all because i don’t have gd cream ferret.",
+        "date": "2025-11-28T09:50:39-07:00",
+        "version": "13.301"
+      }
+    ],
+    "neutral": [
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Apisara01",
+        "score": 3,
+        "text": "โหลดนานแล้วยังอัปเดตบ่อยอีก",
+        "date": "2026-06-25T16:28:43-07:00",
+        "version": "14.001"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Evauehqovjwqicjuieahco",
+        "score": 3,
+        "text": "แนะนำเยอะเกินค่ะอยากเล่นอย่างเดียวค่ะไม่ชอบๆๆๆๆๆๆๆๆๆๆ",
+        "date": "2026-06-16T19:31:07-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "สิ่งเล็กๆมี่เรียกว่ารัก",
+        "score": 3,
+        "text": "คือฉันเล่นโหมดแข่ง แค่ฉันได้เล่นแต่ ด้าน 1-2 ฉันสุ่มไม่ได้ด้าน3 เลย ฉันเล่นเป็น 20 กว่าตาแล้ว ปรับใหม่เป็นการเลือกด้านได้ไหม ฉันท้อกับการสุ่ม",
+        "date": "2026-05-12T07:52:16-07:00",
+        "version": "13.821"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Quentin Falicon",
+        "score": 3,
+        "text": "มีหัวใจมาให้แค่สามดวง มันเหมือนกับว่าบังคับให้ต้องเล่นให้ได้ที่หนึ่งสองรอบติด แล้วรอบต่อๆไปไม่มีสิทธิ์ทำได้น้อยเลยทั้งที่การแข่งขันก็มีแต่คนเก่งเก่ง ระบบคืนชีพ และระบบกองเชียร์เพื่อได้รับหัวหัวใจเพิ่มก็เอาออกไป มันกดดันเกินไปมาก มันไม่ยุติธรรมไปหน่อยหรือเปล่า ทำให้การเล่นเกมไม่สนุกเลย รักเกมนี้มาตลอด แต่ถ้าแกรนด์แชมเปียนส์ลีกยากเกินไปขนาดนี้คือ ไม่ยุติธรรมจริง ๆ",
+        "date": "2026-04-02T20:07:55-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Rottonmaidaipenarai",
+        "score": 3,
+        "text": "เป็นอีกเสียงครับที่ชอบแบบภาคเก่ามากกว่า แต่เกมทุกเกมก็ต้องมีการพัฒนา แค่เกมนี้มันเปลี่ยนเยอะไปหน่อย",
+        "date": "2026-02-26T19:04:38-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "เอวาลิน อยู่บุญ",
+        "score": 3,
+        "text": "พอจะโหลดมาอีกรอบมันขึ้น 1วันกับอีก 25 นาทีอันนี้ปกติป้ะคะ แต่เกมสนุกดีถึงจะหลุดบ้าง",
+        "date": "2025-12-07T05:53:41-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Cakecakeky",
+        "score": 3,
+        "text": "I faced problem for not having enough storage almost every single time there is an update. So could you please do something 😔",
+        "date": "2025-11-28T08:00:23-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ณฐาภัค",
+        "score": 3,
+        "text": "เกมเชื่อมต่อบัญชีเฟสบุคแล้วเชื่อมบัญชีappleกับgoogle ไม่ได้ ต้องทำยังไงครับ ใน kingdom มันเชื่อมได้ทั้ง3ช่องทางเลย แต่over break ทำไม่ได้ ช่วยแก้ไขให้สามารถเปลี่ยนสลับบัญชีง่ายๆหน่อย หาปุ่มล็อกเอาท์ไม่มีเลย เกมอื่นเค้าล็อกอินล็อกเอาท์ง่ายมาก",
+        "date": "2025-10-31T09:39:18-07:00",
+        "version": "13.201"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ffairyfhaa",
+        "score": 3,
+        "text": "โหมดสนามแข่งอยากให้วิ่งเวล 15 เหมือนเดิมค่ะรู้สึกวิ่งที่ 11 มันไม่ค่อยฟินเลยค่าาา",
+        "date": "2025-09-24T21:58:07-07:00",
+        "version": "13.101"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "อารีญาค่ะ",
+        "score": 3,
+        "text": "โทรศัพท์ iphone 11 ได้มีการอัพเดทเป็น ios 26แล้ว ปรากฏว่าหน้าจอค้างก่อนการเข้าเกมส์ นานมาก",
+        "date": "2025-09-22T04:21:27-07:00",
+        "version": "13.001"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "มีนกิมจิ",
+        "score": 3,
+        "text": "อยากให้มีความสมดุลในการจับคู่แข่ง",
+        "date": "2025-07-28T09:44:17-07:00",
+        "version": "12.901"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "ใครอ่านเป็นเกตัวจริง",
+        "score": 3,
+        "text": "อยากให้ตัวละครมีตัวที่สำคัญเหมือนในคุกกี้รัน Kingdom อยากให้มีเสียงภาพมันเหมือนว่าไม่ค่อยได้สนใจเกมนี้เลย",
+        "date": "2025-06-27T03:33:02-07:00",
+        "version": "12.811"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "โยระ",
+        "score": 3,
+        "text": "ดีๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+        "date": "2025-06-08T02:07:49-07:00",
+        "version": "12.711"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "chynnnnnn",
+        "score": 3,
+        "text": "ตั้งแต่อัพเดทเวอร์ชั่นล่าสุด แอพเด้งบ่อยมาก",
+        "date": "2025-05-31T07:27:04-07:00",
+        "version": "12.711"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "Ling gang",
+        "score": 3,
+        "text": "คิดถึงระบบสุ่มแบบเก่าๆ พูดง่ายๆเป็นอีกหนึ่งเสน่ของเกมนี้เลยพอมันเป็นระบบดาวปลดล๊อกแล้วมันไม่สนุกแล้ว คิดถึงช่วงที่ร้านค้าขายพวกกุณแจสุ่มตอนนั้นเหมาทุกแพ๊ก พอหลังๆมันขายคุกกี้เลยแล้วมันไม่ลุ้นเหมือนเมื่อก่อน อยากได้ระบบสุ่มคืนมา",
+        "date": "2025-05-01T00:38:12-07:00",
+        "version": "12.601"
+      },
+      {
+        "source": "app_store",
+        "country": "th",
+        "userName": "piyaphad",
+        "score": 3,
+        "text": "เล่นๆอยู่มีบางครั้งที่กด Jump แล้วมันไม่ค่อยกระโดดให้ ทำให้ตายเร็วกว่าที่ควรจะเป็น แล้วก็ตอนเล่นวิ่งปราบบอสอยู่ แล้วอยู่ดีๆมันก็เด้งออก อีกอย่างคือ เล่นทีมไฟต์ เหมือนรวมคะแนนไม่ถูกเลย หลายรอบแล้ว จริงๆควรได้ที่ดีกว่านี้ แต่แพ้เพราะรวมคะแนนผิดพลาด",
+        "date": "2025-04-28T01:20:55-07:00",
+        "version": "12.511"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Game crashed it is so annoying",
+        "score": 3,
+        "text": "When ever I’m doing a run the game crashes  and it is soo annoying so I hope you fix it or I will give you a 1⭐️ review!",
+        "date": "2026-06-13T11:01:30-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "snowman47",
+        "score": 3,
+        "text": "Everytime there’s an update the game does nothing but crash every 3 minutes. The game gets repetitive and there’s just to much going on, leveling up anybody takes FOREVER. This game is ok",
+        "date": "2026-06-03T11:16:48-07:00",
+        "version": "13.901"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Fiercehotdog",
+        "score": 3,
+        "text": "Please bring back cookie gacha I’m begging you, I’m a new player and it’s a little difficult to get the new cookies\nBring back cookie gacha!!!!",
+        "date": "2026-04-08T03:12:34-07:00",
+        "version": "13.701"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "CheeZeBurgerCat",
+        "score": 3,
+        "text": "Hi. I’m a very old player who just came back recently and wanted to reset my progress. The new tutorial and the requirement of having to do nothing but breakout, races, and cookie trials just so I can play the main story mode, is really stupid and very annoying.",
+        "date": "2026-03-18T14:18:56-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "cvfefe",
+        "score": 3,
+        "text": "17 pro max",
+        "date": "2026-03-16T06:21:31-07:00",
+        "version": "13.601"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "YAAASSS QUEEN U GO GURL💖",
+        "score": 3,
+        "text": "Fire, ABSOLUTE CINEMA 😭😭😭 TEN OUT OF TEN, 5 STARS,GUYS THEY COOKED UP WITH THIS, CHEFS KISS,WONDERFUL, HEAVENLY, hater’s can JUMP OFF A FLIPPING BRIDGE I Ben playing for 2 years YALLLL I WOULD TRADE My MAMA FOR dis .",
+        "date": "2026-01-28T16:03:29-07:00",
+        "version": "13.501"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Lulusplotches00",
+        "score": 3,
+        "text": "This game is annoying because if you are loading in you have to wait like 1 hour to get in and the game always crashes when I am loading in but over all the game is really fun and I love the characters and the pets",
+        "date": "2026-01-02T09:08:26-07:00",
+        "version": "13.411"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "betterwaffles82",
+        "score": 3,
+        "text": "I don’t ever really care about writing reviews, but this is literally the only game I play on my phone and have played since it came out and I was SO excited for the Powerpuff Girls update, but it’s just not possible to level them all up without paying. I’ve been playing like crazy and doing everything for the sugar candies, but it’s still not enough. I don’t even care about the costumes, I just want to level all 3 of them up. Please fix this somehow, I love this game so much 🙏🏼",
+        "date": "2025-12-27T10:12:47-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Sigma5336",
+        "score": 3,
+        "text": "Pls add the millennial tree jelly set to the shop so I can finish my millennial tree they are the last thing I need but  the only way to get them is the break out shop but I can not find that shop anywhere \n\n Pretty pls 😔",
+        "date": "2025-12-26T04:53:31-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "Ananaslover!!",
+        "score": 3,
+        "text": "I love the game, mango. Lilac, and angel are my fav, but did you HAVE to make the costumes 140 USD or 230 USD if they choose to buy it with event currency? Unless you change this I ain’t buying them and just ignoring their existence you SNOBS (ps it’s 4 am I might not be bright)",
+        "date": "2025-12-12T04:08:01-07:00",
+        "version": "13.301"
+      },
+      {
+        "source": "app_store",
+        "country": "us",
+        "userName": "CDEL….",
+        "score": 3,
+        "text": "I’ve been playing this game since 2017 and i can say that it is a very well polished and fun game. \nHowever, recently i found that when playing random breakout and trying to reroll a combi by watching an ad, some of the ads take so long to finish that once it’s done, the request time is over and refuses any further actions, even when you turn off the game and log back in.\n\nStill good game but this ad bug makes the game impossible to even log in to",
+        "date": "2025-11-30T07:25:14-07:00",
+        "version": "13.301"
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "1509450845",
+      "title": "CookieRun: Kingdom",
+      "developer": "Devsisters",
+      "score": 4.67243,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/45/9a/1c459af6-0997-df14-3a44-d9a8a1e430de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6449445178",
+      "title": "CookieRun: Tower of Adventures",
+      "developer": "Devsisters",
+      "score": 4.81385,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/0f/e3/2e0fe398-3c5d-c091-546a-26f41e27d962/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "1147622827",
+      "title": "Tape it Up!",
+      "developer": "Devsisters",
+      "score": 4.76401,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/95/7e/c3/957ec351-a2c6-586b-a2c7-8653ea9e8e09/AppIcon-1x_U007emarketing-85-220-9.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6759596824",
+      "title": "CookieRun Classic",
+      "developer": "Devsisters",
+      "score": 4.81032,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/0c/a5/fb0ca570-9e3e-9c22-57b3-ae88c1659c3c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6550902247",
+      "title": "CookieRun: OvenSmash",
+      "developer": "Devsisters",
+      "score": 4.73419,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/69/a0/ca69a082-ee5c-5ce7-f2aa-8b33f2184b93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "1589914368",
+      "title": "CookieRun:Witch’s Castle Blast",
+      "developer": "Devsisters",
+      "score": 4.78544,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/5e/e9/9e5ee940-9a95-c3fa-1e37-dae1bab59eb9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "1434784802",
+      "title": "Cookie Run: Puzzle World",
+      "developer": "Devsisters",
+      "score": 4.64625,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/05/df/13/05df13a4-819e-99a2-0176-5051668d3563/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg"
+    },
+    {
+      "appId": "1153389718",
+      "title": "Solitaire: Decked Out",
+      "developer": "Devsisters",
+      "score": 4.60831,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/23/7e/b4/237eb40f-a9c4-0d93-1003-2a03e7d08fa3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6749251466",
+      "title": "CookieRun: Crumble - Idle RPG",
+      "developer": "Devsisters",
+      "score": 0,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/e2/fe/69e2fee2-4f7b-2baa-afaf-134e775b706b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "1466736988",
+      "title": "KartRider Rush+",
+      "developer": "NEXON Company",
+      "score": 4.51481,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/87/5b/7c875b65-85f0-939d-3b29-43632d684219/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg"
+    }
+  ],
+  "developerApps": [
+    {
+      "appId": "1509450845",
+      "title": "CookieRun: Kingdom",
+      "score": 4.67243,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/45/9a/1c459af6-0997-df14-3a44-d9a8a1e430de/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "963067330",
+      "title": "CookieRun: OvenBreak",
+      "score": 4.73365,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/87/f7/6987f705-b31b-6fad-6131-a8656ce1bb9e/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6449445178",
+      "title": "CookieRun: Tower of Adventures",
+      "score": 4.81385,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/0f/e3/2e0fe398-3c5d-c091-546a-26f41e27d962/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "1147622827",
+      "title": "Tape it Up!",
+      "score": 4.76401,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/95/7e/c3/957ec351-a2c6-586b-a2c7-8653ea9e8e09/AppIcon-1x_U007emarketing-85-220-9.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6759596824",
+      "title": "CookieRun Classic",
+      "score": 4.81032,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/0c/a5/fb0ca570-9e3e-9c22-57b3-ae88c1659c3c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6550902247",
+      "title": "CookieRun: OvenSmash",
+      "score": 4.73419,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/69/a0/ca69a082-ee5c-5ce7-f2aa-8b33f2184b93/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "1589914368",
+      "title": "CookieRun:Witch’s Castle Blast",
+      "score": 4.78544,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/5e/e9/9e5ee940-9a95-c3fa-1e37-dae1bab59eb9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "appId": "1434784802",
+      "title": "Cookie Run: Puzzle World",
+      "score": 4.64625,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/05/df/13/05df13a4-819e-99a2-0176-5051668d3563/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg"
+    },
+    {
+      "appId": "1153389718",
+      "title": "Solitaire: Decked Out",
+      "score": 4.60831,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/23/7e/b4/237eb40f-a9c4-0d93-1003-2a03e7d08fa3/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg"
+    },
+    {
+      "appId": "1192243486",
+      "title": "DevPlay Courier",
+      "score": 5,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/e9/cb/23/e9cb2330-dca1-867b-f819-650fcc81b363/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg"
+    },
+    {
+      "appId": "6749251466",
+      "title": "CookieRun: Crumble - Idle RPG",
+      "score": 0,
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/e2/fe/69e2fee2-4f7b-2baa-afaf-134e775b706b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    }
+  ]
+}
