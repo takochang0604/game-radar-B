@@ -584,8 +584,8 @@ async function main() {
   console.log('║  🔥 上傳資料至 Firebase Firestore v2          ║');
   console.log('╚══════════════════════════════════════════════╝');
 
-  // 掃描可用日期（最多保留 60 天）
-  const MAX_DAYS = 60;
+  // 掃描可用日期（最多保留 365 天）
+  const MAX_DAYS = 365;
   const snapshotsRoot = resolveDir(SNAPSHOTS_DIR);
   let allDates = [];
   if (fs.existsSync(snapshotsRoot)) {
