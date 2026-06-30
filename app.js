@@ -54,6 +54,9 @@ function getFlag(code) {
 // 全域圖示（用於「全部」按鈕）
 const FLAG_GLOBE = `<img class="flag-icon flag-globe" src="${_FLAG_CDN}/w40/xx.png" alt="globe" onerror="this.outerHTML='🌍'" loading="lazy">`;
 
+// 「老作翻紅」判定門檻：上架已滿此天數的老遊戲，若僅於單一市場衝量則視為老作翻紅（非新品爆發）
+const RESURGENCE_AGE_DAYS = 365;
+
 // ============ 狀態 ============
 let state = {
   dhMarket: 'all',       // 黑馬 Tab 專用市場
@@ -1563,9 +1566,41 @@ function renderDarkhorses() {
             : '';
       }
     }
-    // 上架日期
-    const rawReleased = state.analysis[dh.appId]?.detail?.released || '';
+    // 上架日期：優先取深度分析的 released；未深度分析的黑馬則從最新快照 fallback（純讀取、找不到維持空字串）
+    let rawReleased = state.analysis[dh.appId]?.detail?.released || '';
+    if (!rawReleased) {
+      try {
+        const latestDate = state.availableDates[state.availableDates.length - 1];
+        const fbMarket = dh._topRanks?.[0]?.marketCode || dh.market || '';
+        const fbPlatform = dh.platform || '';
+        const snapDay = latestDate && state.snapshots ? state.snapshots[latestDate] : null;
+        const md = snapDay && fbMarket ? snapDay[fbMarket] : null;
+        if (md && fbPlatform && md[fbPlatform]) {
+          for (const ct of ['topfree', 'grossing']) {
+            const arr = md[fbPlatform][ct]?.data;
+            if (Array.isArray(arr)) {
+              const found = arr.find(a => a.appId === dh.appId);
+              if (found && found.released) { rawReleased = found.released; break; }
+            }
+          }
+        }
+      } catch { /* 快照尚未載入或結構缺漏：維持空字串，不報錯 */ }
+    }
     const releasedDate = rawReleased ? (() => { try { const d = new Date(rawReleased); return isNaN(d) ? rawReleased : d.toISOString().split('T')[0]; } catch { return rawReleased; } })() : '';
+    // 「老作翻紅」旗標：單一市場（用 _topRanks 去重，非 dh.markets）且上架已滿一年的老遊戲
+    const _uniqueMarketCodes = [...new Set((dh._topRanks || []).map(r => r.marketCode).filter(Boolean))];
+    const singleMarket = _uniqueMarketCodes.length === 1;
+    let isOldGame = false;
+    if (releasedDate) {
+      const _relTime = new Date(releasedDate).getTime();
+      if (!isNaN(_relTime)) {
+        isOldGame = (Date.now() - _relTime) / 86400000 >= RESURGENCE_AGE_DAYS;
+      }
+    }
+    const isLocalResurgence = singleMarket && isOldGame;
+    const resurgenceBadge = isLocalResurgence
+      ? '<span class="dh-resurgence" title="上架已久的老遊戲，近期於單一市場衝量（非新品爆發）">♻️ 老作翻紅</span>'
+      : '';
     // === 排名計算（必須在國旗 HTML 之前） ===
     // 使用 _topRanks（後端 + 前端快照掃描已補充完整，含正確的 chartLabel）
     const chartRanks = (dh._topRanks && dh._topRanks.length > 0) ? [...dh._topRanks] : [];
@@ -1654,7 +1689,7 @@ function renderDarkhorses() {
         ${detectBuyChart(dh, state.analysis[dh.appId], dh)}
       </div>
       <div class="dh-chart-mini"><canvas id="mini-${cardId}"></canvas></div>
-      <div class="dh-card-footer">${releasedDate ? `<div class="dh-released">上架 ${releasedDate}</div>` : '<div></div>'}${reportBadge}</div>
+      <div class="dh-card-footer"><div class="dh-footer-left">${resurgenceBadge}${releasedDate ? `<div class="dh-released">上架 ${releasedDate}</div>` : ''}</div>${reportBadge}</div>
     </div>
   `;
   }).join('');
