@@ -3838,7 +3838,9 @@ function renderReportsTab() {
     g.startsWith('C') ? 'var(--accent-yellow)' : 'var(--accent-red)';
 
   grid.innerHTML = filtered.map(r => {
-    const safeName = r.gameName.replace(/'/g, "\\'");
+    // 卡片顯示名稱可能來自快照的地區名稱；開啟時必須使用報告本身的 key，
+    // 避免再做一次名稱模糊配對而找不到或開錯報告。
+    const safeReportName = r.reportName.replace(/'/g, "\\'");
     const iconHtml = r.icon
       ? `<img class="dh-icon" src="${r.icon}" alt="" onerror="this.style.display='none'">`
       : `<div style="width:56px;height:56px;border-radius:14px;background:rgba(59,130,246,0.08);display:flex;align-items:center;justify-content:center;font-size:24px;border:2px solid var(--border-glass)">📄</div>`;
@@ -3859,7 +3861,7 @@ function renderReportsTab() {
       : '';
 
     return `
-    <div class="dh-card has-report" onclick="showReport('${safeName}')" style="cursor:pointer">
+    <div class="dh-card has-report" onclick="showReport('${safeReportName}')" style="cursor:pointer">
       <div class="dh-header">
         ${iconHtml}
         <div class="dh-info">
