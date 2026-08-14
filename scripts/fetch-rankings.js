@@ -191,20 +191,7 @@ async function fetchIOSRankings(country, chartType) {
       num: FETCH_CONFIG.topN,
     });
 
-    // 過濾掉博弈類（檢查 genres 中是否有 Casino 關鍵字）
-    const casinoKeywords = ['casino', 'gambling', 'slot', '博弈', 'カジノ', '카지노'];
-    const filtered = results.filter(app => {
-      const genres = (app.genres || []).map(g => (typeof g === 'string' ? g : g.name || '').toLowerCase());
-      const title = (app.title || '').toLowerCase();
-      const desc = (app.description || '').toLowerCase().substring(0, 200);
-      
-      return !casinoKeywords.some(kw => 
-        genres.some(g => g.includes(kw)) || 
-        title.includes(kw)
-      );
-    });
-
-    return filtered.map((app, index) => ({
+    return results.map((app, index) => ({
       rank: index + 1,
       appId: String(app.id),
       name: app.title,

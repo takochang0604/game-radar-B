@@ -3213,6 +3213,10 @@ function findReport(gameName, appId) {
 
   // ---- 1. appId 直接比對（最準確）----
   const meta = state.reports?.['_meta'];
+  const hasConflictingAppId = (key) => {
+    const reportAppIds = meta?.[key]?.appIds;
+    return !!(appId && Array.isArray(reportAppIds) && reportAppIds.length && !reportAppIds.includes(appId));
+  };
   if (appId && meta) {
     for (const [key, m] of Object.entries(meta)) {
       if (m.appIds && m.appIds.includes(appId)) {
@@ -3227,9 +3231,13 @@ function findReport(gameName, appId) {
       if (m.aliases) {
         for (const alias of m.aliases) {
           const aliasNorm = normalize(alias);
+          // 名稱完全相同時仍允許跨平台不同 appId；只有模糊命中才受 appId 衝突保護。
+          if (aliasNorm && nameNorm && aliasNorm === nameNorm) {
+            return state.reports[key] || null;
+          }
+          if (hasConflictingAppId(key)) continue;
           // 子字串比對需 ≥4 字，避免短名（如「uno」）誤命中較長 key（cookierun"oven"break 含 uno）
-          if (aliasNorm && nameNorm && (aliasNorm === nameNorm
-              || (nameNorm.length >= 4 && aliasNorm.includes(nameNorm))
+          if (aliasNorm && nameNorm && ((nameNorm.length >= 4 && aliasNorm.includes(nameNorm))
               || (aliasNorm.length >= 4 && nameNorm.includes(aliasNorm)))) {
             return state.reports[key] || null;
           }
@@ -3255,8 +3263,11 @@ function findReport(gameName, appId) {
     const keyNorm = normalize(key);
     if (!keyNorm) continue; // 報告 key 同樣保護
     // 完整正規化比較
-    if (keyNorm === nameNorm
-        || (nameNorm.length >= 4 && keyNorm.includes(nameNorm))
+    if (keyNorm === nameNorm) {
+      return state.reports[key];
+    }
+    if (hasConflictingAppId(key)) continue;
+    if ((nameNorm.length >= 4 && keyNorm.includes(nameNorm))
         || (keyNorm.length >= 4 && nameNorm.includes(keyNorm))) {
       return state.reports[key];
     }
@@ -3726,7 +3737,7 @@ function renderReportsTab() {
           if (appInfo) break;
           for (const chart of Object.values(platform)) {
             if (appInfo) break;
-            const found = (chart.data || []).find(a => findReport(a.name) === reportData);
+            const found = (chart.data || []).find(a => findReport(a.name, a.appId) === reportData);
             if (found) appInfo = found;
           }
         }
@@ -3735,7 +3746,7 @@ function renderReportsTab() {
     // 從 analysis 中找
     if (!appInfo) {
       for (const [aid, aData] of Object.entries(state.analysis || {})) {
-        if (aData?.detail?.name && findReport(aData.detail.name) === reportData) {
+        if (aData?.detail?.name && findReport(aData.detail.name, aid) === reportData) {
           appInfo = { appId: aid, name: aData.detail.name, icon: aData.detail.icon || '', developer: aData.detail.developer || '' };
           break;
         }

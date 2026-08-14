@@ -14,7 +14,7 @@ export const MARKETS = [
   { code: 'ph', name: '菲律賓', flag: '🇵🇭', hasGooglePlay: true },
 ];
 
-// ============ 遊戲分類（排除博弈類 GAME_CASINO）============
+// ============ 遊戲分類 ============
 // Google Play 全子分類（用於完整掃描，目前保留但日常不使用）
 export const GP_GAME_CATEGORIES = [
   'GAME_ACTION',
@@ -22,7 +22,7 @@ export const GP_GAME_CATEGORIES = [
   'GAME_ARCADE',
   'GAME_BOARD',
   'GAME_CARD',
-  // 'GAME_CASINO',  ← 排除博弈類
+  'GAME_CASINO',
   'GAME_CASUAL',
   'GAME_EDUCATIONAL',
   'GAME_MUSIC',
@@ -36,12 +36,13 @@ export const GP_GAME_CATEGORIES = [
   'GAME_WORD',
 ];
 
-// #13 精簡子分類：日常抓取只掃主要遊戲類型（從 15 個減為 6 個，節省 ~60% API 呼叫）
+// #13 精簡子分類：日常抓取只掃主要遊戲類型（包含博弈）
 export const GP_PRIORITY_CATEGORIES = [
   'GAME_ACTION',
   'GAME_ROLE_PLAYING',
   'GAME_STRATEGY',
   'GAME_CASUAL',
+  'GAME_CASINO',
   'GAME_SIMULATION',
   'GAME_ADVENTURE',
 ];

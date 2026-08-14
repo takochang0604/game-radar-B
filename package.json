@@ -1,7 +1,7 @@
 {
   "name": "game-competitive-analysis",
   "version": "1.0.0",
-  "description": "非博弈類手機遊戲產品競爭力分析工具",
+  "description": "手機遊戲產品競爭力分析工具",
   "type": "module",
   "scripts": {
     "fetch": "node scripts/fetch-rankings.js",
