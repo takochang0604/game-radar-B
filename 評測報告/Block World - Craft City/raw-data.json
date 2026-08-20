@@ -1,0 +1,2419 @@
+{
+  "collectedAt": "2026-08-20T14:17:54.602Z",
+  "collectVersion": 3,
+  "android": {
+    "appId": "com.diamond.city.house.best.building.craft.vip",
+    "title": "Block World - Craft City",
+    "developer": "Patane Global",
+    "developerId": "5417153798455763867",
+    "genre": "Simulation",
+    "score": 4.1782947,
+    "ratings": 30233,
+    "installs": "10,000,000+",
+    "maxInstalls": 10086097,
+    "free": true,
+    "released": "Oct 3, 2025",
+    "updated": 1784996496000,
+    "version": "9107",
+    "contentRating": "Everyone",
+    "icon": "https://play-lh.googleusercontent.com/vjxg1if5mbAXfmhEhQHnDpPSVz4LSgfmeGv9OH6rb0xpI4nLcy4pEmEIfWSbCugsXo-f9NncfrmV002VmiJQRw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/oQUwstgCozUYFip6wZCVVVbbY-o7RryZvbL_rChnGClzg85m_s4ktIbcuBPNsJw0ZmuApWnwbvH57Rrbov4DXlk",
+      "https://play-lh.googleusercontent.com/_hjw6M051FuNC68ozvUDVDd-GDaaPgeveIRdM8J6sqjhyq1jNCP4I9mqkYFLAGzv4UusEbtR-vnWydrdges7yA",
+      "https://play-lh.googleusercontent.com/KmpyxUgAbQl0zcf45df57K6FJB6_1Bw9smUxUOGPYC4xjNACC9rpRGMLSlNVhSvC_XIX9XBy-ElAPZ2NB4Oe",
+      "https://play-lh.googleusercontent.com/BcSj6dyJNbCMu16UR_EIl6M1hDFO0DIFMHsDKupmaLSxNNyXv3yQyqS6SN_DAKfuv5Z-zPabATu5sRa4glOT9w",
+      "https://play-lh.googleusercontent.com/dFTD2XUay7oYkNbgfPeCO7nKV_gVGSWfXjBpnV3BfwE_Fy4qQY8BZDlBoyhqb3bYVeiNEddKD5ipYLskGAjDPgw",
+      "https://play-lh.googleusercontent.com/oQUwstgCozUYFip6wZCVVVbbY-o7RryZvbL_rChnGClzg85m_s4ktIbcuBPNsJw0ZmuApWnwbvH57Rrbov4DXlk",
+      "https://play-lh.googleusercontent.com/_hjw6M051FuNC68ozvUDVDd-GDaaPgeveIRdM8J6sqjhyq1jNCP4I9mqkYFLAGzv4UusEbtR-vnWydrdges7yA",
+      "https://play-lh.googleusercontent.com/KmpyxUgAbQl0zcf45df57K6FJB6_1Bw9smUxUOGPYC4xjNACC9rpRGMLSlNVhSvC_XIX9XBy-ElAPZ2NB4Oe",
+      "https://play-lh.googleusercontent.com/BcSj6dyJNbCMu16UR_EIl6M1hDFO0DIFMHsDKupmaLSxNNyXv3yQyqS6SN_DAKfuv5Z-zPabATu5sRa4glOT9w",
+      "https://play-lh.googleusercontent.com/dFTD2XUay7oYkNbgfPeCO7nKV_gVGSWfXjBpnV3BfwE_Fy4qQY8BZDlBoyhqb3bYVeiNEddKD5ipYLskGAjDPgw"
+    ],
+    "video": null,
+    "summary": "Block World – Unleash your imagination and build the ultimate block world!",
+    "description": "Block World - Craft City – Unleash your imagination and build the ultimate block world!\nEnter an open-world sandbox where you can craft, build, and explore endless adventures. Design epic structures, create your dream city, and discover vast biomes in a fully customizable 3D environment.\n\nKey Features:\n🛠️ Build & Create Anything\nConstruct houses, castles, farms, skyscrapers, and entire cities with limitless blocks.\n\n🌍 Massive Open World\nExplore forests, mountains, rivers, and hidden areas while gathering resources.\n\n🔨 Craft & Mine Resources\nCollect wood, stone, ores, and more to craft tools, decorations, and building blocks.\n\n🎮 Immersive Gameplay\nSmooth controls and realistic building simulation for players of all ages.\n\n🎨 Customize Your World\nShape terrains, add decorations, and design your city exactly how you want.\n\n👾 Survival & Creative Modes\nPlay in Survival Mode to gather, mine, and fight—or switch to Creative Mode for unlimited building freedom.\n\n🌟 Multiplayer Fun\nTeam up with friends, build together, and share your creations online.\n\nWhy Play Block World - Craft City?\n🏡 Endless Creativity: Bring your ideas to life without limits.\n🎮 Fun for Everyone: Easy to play, perfect for kids and adults alike.\n🌍 Infinite Adventures: Explore, survive, and craft your dream city in one massive world.\n\n👉 Download Block World - Craft City now and start building your perfect world today!",
+    "developerWebsite": "https://patane-global.blogspot.com/"
+  },
+  "ios": null,
+  "facts": {
+    "source": "2026-08-20.json",
+    "detectedAt": "2026-08-17T00:00:00.000Z",
+    "category": "GAME",
+    "confidenceScore": 8,
+    "displayScore": 9.72,
+    "healthRatio": 1,
+    "entries": [
+      {
+        "appId": "com.diamond.city.house.best.building.craft.vip",
+        "platform": "android",
+        "chartType": "topfree"
+      }
+    ],
+    "chartedMarkets": [
+      "ph",
+      "th",
+      "us",
+      "tw"
+    ],
+    "currentMarkets": [
+      {
+        "market": "ph",
+        "platform": "android",
+        "chart": "免費",
+        "rank": 5
+      },
+      {
+        "market": "th",
+        "platform": "android",
+        "chart": "免費",
+        "rank": 13
+      },
+      {
+        "market": "us",
+        "platform": "android",
+        "chart": "免費",
+        "rank": 80
+      },
+      {
+        "market": "tw",
+        "platform": "android",
+        "chart": "免費",
+        "rank": 98
+      }
+    ],
+    "triggerTimeline": [
+      {
+        "date": "2026-08-17",
+        "market": "ph",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "4 天內排名從 #47 升至 #6（↑41 名）"
+      },
+      {
+        "date": "2026-08-17",
+        "market": "ph",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "growth_multiplier",
+        "label": "📊 成長加速",
+        "detail": "成長倍率 3.9×（近 3 天平均 #14 vs 近 7 天平均 #56）"
+      },
+      {
+        "date": "2026-08-17",
+        "market": "th",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "rank_jump",
+        "label": "🚀 排名急升",
+        "detail": "4 天內排名從 #62 升至 #14（↑48 名）"
+      },
+      {
+        "date": "2026-08-18",
+        "market": "th",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "consecutive_rise",
+        "label": "📈 持續攀升",
+        "detail": "連續 5 天上升（#100 → #13）"
+      },
+      {
+        "date": "2026-08-18",
+        "market": "th",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "growth_multiplier",
+        "label": "📊 成長加速",
+        "detail": "成長倍率 3.0×（近 3 天平均 #15 vs 近 7 天平均 #45）"
+      },
+      {
+        "date": "2026-08-18",
+        "market": "ph",
+        "platform": "android",
+        "chartType": "topfree",
+        "strategy": "consecutive_rise",
+        "label": "📈 持續攀升",
+        "detail": "連續 5 天上升（#100 → #5）"
+      }
+    ],
+    "marketExpansionOrder": [
+      {
+        "market": "ph",
+        "firstTriggerDate": "2026-08-17"
+      },
+      {
+        "market": "th",
+        "firstTriggerDate": "2026-08-17"
+      }
+    ],
+    "rankHistory14d": {
+      "ph_android_topfree": [
+        {
+          "date": "2026-08-07",
+          "rank": null
+        },
+        {
+          "date": "2026-08-08",
+          "rank": null
+        },
+        {
+          "date": "2026-08-09",
+          "rank": null
+        },
+        {
+          "date": "2026-08-10",
+          "rank": null
+        },
+        {
+          "date": "2026-08-11",
+          "rank": null
+        },
+        {
+          "date": "2026-08-12",
+          "rank": null
+        },
+        {
+          "date": "2026-08-13",
+          "rank": null
+        },
+        {
+          "date": "2026-08-14",
+          "rank": 47
+        },
+        {
+          "date": "2026-08-15",
+          "rank": 30
+        },
+        {
+          "date": "2026-08-16",
+          "rank": 7
+        },
+        {
+          "date": "2026-08-17",
+          "rank": 6
+        },
+        {
+          "date": "2026-08-18",
+          "rank": 5
+        },
+        {
+          "date": "2026-08-19",
+          "rank": 6
+        },
+        {
+          "date": "2026-08-20",
+          "rank": 5
+        }
+      ],
+      "th_android_topfree": [
+        {
+          "date": "2026-08-07",
+          "rank": null
+        },
+        {
+          "date": "2026-08-08",
+          "rank": null
+        },
+        {
+          "date": "2026-08-09",
+          "rank": null
+        },
+        {
+          "date": "2026-08-10",
+          "rank": null
+        },
+        {
+          "date": "2026-08-11",
+          "rank": null
+        },
+        {
+          "date": "2026-08-12",
+          "rank": null
+        },
+        {
+          "date": "2026-08-13",
+          "rank": null
+        },
+        {
+          "date": "2026-08-14",
+          "rank": 62
+        },
+        {
+          "date": "2026-08-15",
+          "rank": 40
+        },
+        {
+          "date": "2026-08-16",
+          "rank": 19
+        },
+        {
+          "date": "2026-08-17",
+          "rank": 14
+        },
+        {
+          "date": "2026-08-18",
+          "rank": 13
+        },
+        {
+          "date": "2026-08-19",
+          "rank": 12
+        },
+        {
+          "date": "2026-08-20",
+          "rank": 13
+        }
+      ],
+      "us_android_topfree": [
+        {
+          "date": "2026-08-07",
+          "rank": null
+        },
+        {
+          "date": "2026-08-08",
+          "rank": null
+        },
+        {
+          "date": "2026-08-09",
+          "rank": null
+        },
+        {
+          "date": "2026-08-10",
+          "rank": null
+        },
+        {
+          "date": "2026-08-11",
+          "rank": null
+        },
+        {
+          "date": "2026-08-12",
+          "rank": null
+        },
+        {
+          "date": "2026-08-13",
+          "rank": null
+        },
+        {
+          "date": "2026-08-14",
+          "rank": null
+        },
+        {
+          "date": "2026-08-15",
+          "rank": null
+        },
+        {
+          "date": "2026-08-16",
+          "rank": null
+        },
+        {
+          "date": "2026-08-17",
+          "rank": 75
+        },
+        {
+          "date": "2026-08-18",
+          "rank": 69
+        },
+        {
+          "date": "2026-08-19",
+          "rank": 71
+        },
+        {
+          "date": "2026-08-20",
+          "rank": 80
+        }
+      ],
+      "tw_android_topfree": [
+        {
+          "date": "2026-08-07",
+          "rank": null
+        },
+        {
+          "date": "2026-08-08",
+          "rank": null
+        },
+        {
+          "date": "2026-08-09",
+          "rank": null
+        },
+        {
+          "date": "2026-08-10",
+          "rank": null
+        },
+        {
+          "date": "2026-08-11",
+          "rank": null
+        },
+        {
+          "date": "2026-08-12",
+          "rank": null
+        },
+        {
+          "date": "2026-08-13",
+          "rank": null
+        },
+        {
+          "date": "2026-08-14",
+          "rank": null
+        },
+        {
+          "date": "2026-08-15",
+          "rank": null
+        },
+        {
+          "date": "2026-08-16",
+          "rank": null
+        },
+        {
+          "date": "2026-08-17",
+          "rank": null
+        },
+        {
+          "date": "2026-08-18",
+          "rank": 97
+        },
+        {
+          "date": "2026-08-19",
+          "rank": null
+        },
+        {
+          "date": "2026-08-20",
+          "rank": 98
+        }
+      ]
+    }
+  },
+  "cohortBaseline": {
+    "category": "GAME",
+    "windowDays": 80,
+    "cohortSize": 754,
+    "avgMarketCount": 2.1,
+    "medianLifespanDays": 14,
+    "top10Share": 41,
+    "thisGame": {
+      "lifespanDays": 4,
+      "maxMarkets": 4,
+      "bestRank": 5
+    }
+  },
+  "reviews": {
+    "total": 215,
+    "googlePlay": 215,
+    "appStore": 0,
+    "sampling": {
+      "markets": [
+        "ph",
+        "th",
+        "us",
+        "tw"
+      ],
+      "gpLanguages": [
+        "en",
+        "th",
+        "zh-TW"
+      ],
+      "iosCountries": [],
+      "byLang": {
+        "en": 115,
+        "th": 85,
+        "zh-TW": 15
+      },
+      "byCountry": {
+        "ph": 0,
+        "th": 0,
+        "us": 0,
+        "tw": 0
+      }
+    },
+    "distribution": {
+      "1": 45,
+      "2": 7,
+      "3": 17,
+      "4": 18,
+      "5": 128
+    },
+    "positive": [
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ticky Tocko",
+        "score": 4,
+        "text": "because of too many ads",
+        "date": "2026-08-19T14:04:23.622Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jason Keenan",
+        "score": 5,
+        "text": "calming",
+        "date": "2026-08-19T13:58:59.478Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ullash Islam",
+        "score": 4,
+        "text": "It's to much good",
+        "date": "2026-08-19T13:42:40.570Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ruvini Liyanage",
+        "score": 5,
+        "text": "The owner of this game should be famous thank you for making us this game😊😊😊😊😊",
+        "date": "2026-08-19T12:23:55.277Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Viji Vijayaraj",
+        "score": 5,
+        "text": "super game",
+        "date": "2026-08-19T11:24:20.199Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ahmad Ali",
+        "score": 5,
+        "text": "this is a good game",
+        "date": "2026-08-19T11:21:10.298Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Hezekiah Thomas",
+        "score": 4,
+        "text": "it was good for a modile game but to Manny ads",
+        "date": "2026-08-19T09:38:14.252Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Branson Gitau",
+        "score": 4,
+        "text": "it is fun 😊",
+        "date": "2026-08-19T09:14:48.422Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Lilian Francis",
+        "score": 5,
+        "text": "stop showing ads but good",
+        "date": "2026-08-19T08:49:51.437Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mohammed Abdullah",
+        "score": 5,
+        "text": "very good 👍",
+        "date": "2026-08-19T08:26:41.413Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Scary horror",
+        "score": 5,
+        "text": "Game funn",
+        "date": "2026-08-19T08:05:21.960Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "VIKASH BHARGAV",
+        "score": 5,
+        "text": "THIS GAME VERY SATISFIED FOR ME",
+        "date": "2026-08-19T06:19:18.940Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Eenkh Tuvshin",
+        "score": 5,
+        "text": "not bad",
+        "date": "2026-08-19T05:42:37.775Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ronald Viaje",
+        "score": 5,
+        "text": "so good",
+        "date": "2026-08-19T02:06:23.513Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Karma Ahmed",
+        "score": 4,
+        "text": "i love it bro yo can play all the time if you want no ads you can close your WiFi and i like Minecraft now and byeeee",
+        "date": "2026-08-18T20:45:07.361Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ian mwenda",
+        "score": 5,
+        "text": "👍👍👍🥰🥰🥰🥰",
+        "date": "2026-08-18T16:03:34.830Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mahmoud Oudi",
+        "score": 5,
+        "text": "this good game",
+        "date": "2026-08-18T16:02:18.428Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Chrystaliz Huertas",
+        "score": 5,
+        "text": "it's kinda. glitchy but. it's. like. Minecraft",
+        "date": "2026-08-18T15:48:39.546Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Shibam Sarkar",
+        "score": 5,
+        "text": "game achcha hai pixel art hai isliye aur bhi jyada maja a Raha Hai veri good 😊😊💯💯💯",
+        "date": "2026-08-18T14:48:39.547Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Alishy Siziba",
+        "score": 5,
+        "text": "very good man so fannnnnnnnnnn",
+        "date": "2026-08-18T14:38:41.300Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Geeta Shewale",
+        "score": 5,
+        "text": "injusticia",
+        "date": "2026-08-18T14:36:25.902Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "CHRISTIAN Molina",
+        "score": 5,
+        "text": "this game is 5 stars but please add some mod to make your game enjoyment",
+        "date": "2026-08-18T14:06:08.889Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "kodandaramaiah konduru",
+        "score": 5,
+        "text": "nice game",
+        "date": "2026-08-18T13:45:17.332Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Alen Anoop",
+        "score": 5,
+        "text": "it's fun not that much thing to do but when I turn on hotspot to connect the TV it will show many ads 😔",
+        "date": "2026-08-18T12:55:52.278Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Bashiran Bibi",
+        "score": 5,
+        "text": "Haider And The Other side of the building is not working...",
+        "date": "2026-08-18T12:27:24.265Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Neelam Negi",
+        "score": 5,
+        "text": "very good game",
+        "date": "2026-08-18T11:57:14.186Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Zeynep Barrera",
+        "score": 5,
+        "text": "hmm i play this game about 2 years now but still dont have spear andmace but i still love this game i give this 5 star im sorry on 2 years im not rating",
+        "date": "2026-08-18T11:23:44.866Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Kitione Ratuva bulai",
+        "score": 5,
+        "text": "well the game is very good,but like could you add more armour like: red stone armour,and can we dye our leather armour.. please I promise this game will blow up if you add this and some more details...and you get a 5star rate",
+        "date": "2026-08-18T11:03:27.667Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Rita Mensah",
+        "score": 4,
+        "text": "I wanted no ads",
+        "date": "2026-08-18T10:21:48.306Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Nibha Rai",
+        "score": 5,
+        "text": "it's such a nice game the only problem is the ad but if you turn off your mobile data add will not come overall this game is very fun",
+        "date": "2026-08-18T09:01:35.179Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Narendra Kumar",
+        "score": 5,
+        "text": "very good game I am enjoying to building",
+        "date": "2026-08-18T08:17:41.981Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Gershom Arita",
+        "score": 4,
+        "text": "I like it but it's terrible there is ads but still good and am a kid and I will show my friends 🤣🤣",
+        "date": "2026-08-18T08:15:43.556Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Neeyati Savant",
+        "score": 5,
+        "text": "very good",
+        "date": "2026-08-18T05:35:20.980Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Aarish Shaikh",
+        "score": 5,
+        "text": "good. game",
+        "date": "2026-08-18T05:29:36.659Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Sreevatsav K",
+        "score": 5,
+        "text": "sooooooooooooooo nice game",
+        "date": "2026-08-18T02:17:41.347Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ffdahh",
+        "score": 5,
+        "text": "Good game",
+        "date": "2026-08-17T16:35:37.233Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Antany Perera",
+        "score": 5,
+        "text": "This game is grate",
+        "date": "2026-08-17T16:07:31.193Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Swati Singh",
+        "score": 5,
+        "text": "this is very good game 😎😎😎😎😎",
+        "date": "2026-08-17T15:05:26.201Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Meena Devi",
+        "score": 5,
+        "text": "sooooo nice 👍",
+        "date": "2026-08-17T14:44:18.153Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Sunita Upadhyay",
+        "score": 4,
+        "text": "w game and gralhics but need to work on ads",
+        "date": "2026-08-17T14:41:42.382Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Eric Owusu",
+        "score": 5,
+        "text": "is good and my friends and me are do change",
+        "date": "2026-08-17T14:33:18.124Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Anas Khan",
+        "score": 5,
+        "text": "excellent",
+        "date": "2026-08-17T14:22:03.996Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Rahmatb",
+        "score": 5,
+        "text": "വെരി നൈസ് ഗെയിം",
+        "date": "2026-08-17T14:14:52.523Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Housseini",
+        "score": 5,
+        "text": "not bad game thanks for it but adds is the most common things and I detest It",
+        "date": "2026-08-17T13:48:21.178Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ritu Parate",
+        "score": 5,
+        "text": "very good game but the graphics is very loo",
+        "date": "2026-08-17T12:51:43.908Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Vikram Vikram",
+        "score": 5,
+        "text": "Bharat mein graphics bahut acche Hain",
+        "date": "2026-08-17T12:38:24.767Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Martin Mercado",
+        "score": 5,
+        "text": "i want to play",
+        "date": "2026-08-17T10:55:29.442Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Runu Thakuria",
+        "score": 5,
+        "text": "I like this game but I don't know connect with my friends but this can is very very much better and other games thank ❤️😄",
+        "date": "2026-08-17T10:19:00.733Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Angelo Uddon",
+        "score": 5,
+        "text": "this is so fun",
+        "date": "2026-08-17T09:51:25.691Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mahi Meswaniya",
+        "score": 5,
+        "text": "I love this game a lot, I have worlds too and I kept playing this game and building. I love how this has the new things as well. but one thing bothering me is that my worlds disappeared! I checked my storage too, external and application, I tried 100times to change the storage but it doesn't work. I really made progress in my worlds and I really dont wanna lose it...can u please help me?",
+        "date": "2026-08-08T11:06:37.569Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Rahul Thakur",
+        "score": 5,
+        "text": "This game is very fun and good I just play of a fun but sometime is be my best game ever and it has creative mode and survival mode",
+        "date": "2026-08-10T13:42:27.207Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Bong Dugay",
+        "score": 5,
+        "text": "best Minecraft app ever it's very realistic to real Minecraft a lot of people are complaining about the adds basic before y'all play it turn of your wifi basic and yeah it's good",
+        "date": "2026-08-14T07:59:23.176Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Bojana Tomić",
+        "score": 4,
+        "text": "This game is so good like 100000/5 turn off wifi or data to don't have ads, but my worlds randomly got deleted and I'm trying to update the game",
+        "date": "2026-07-25T13:02:36.542Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Patrick Yeboah",
+        "score": 5,
+        "text": "Well it is nice but can you add things like sulfur cubes copper armour and tools mounts and mayhem if you add all these things I will make the best video I PROMISE",
+        "date": "2026-08-04T12:04:58.194Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Nick Allen De Jesus",
+        "score": 5,
+        "text": "When i update game it suddenly removed my worlds and shaders are gone and replace with permanent one and my worlds gone my work. Pls fix the new update bug and issues thanks.",
+        "date": "2026-08-01T12:12:54.809Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Md Milon",
+        "score": 4,
+        "text": "game cool and free version but the llama is need to fix due to the pink black text and no white color, can fix that bug and my all world is gone:/",
+        "date": "2026-07-21T11:06:04.193Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Aarohi Thapa",
+        "score": 5,
+        "text": "hello friend's This game was very good 👍🏼 I love this game But one this we can't Change players please any one tell me How to change players",
+        "date": "2026-08-14T13:59:35.870Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "lamia boustani",
+        "score": 5,
+        "text": "The app is amazing for those who said to many ads like just turn off your wifi is that to hard to do?!",
+        "date": "2026-08-10T18:39:59.425Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Bernadette Hill",
+        "score": 5,
+        "text": "if you put on airplane mode it would be so good no ads at all totally worth it downloading 100%",
+        "date": "2026-07-28T20:23:52.795Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Adrian David mariyaselvam",
+        "score": 5,
+        "text": "if you are in airplane mode there is no ads 100% good & super creative game",
+        "date": "2026-08-08T10:22:25.338Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ceazar Agni",
+        "score": 5,
+        "text": "it's mostly ads but my kid loves it!",
+        "date": "2026-08-16T01:28:24.580Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Kaushilya Dubey",
+        "score": 5,
+        "text": "I really enjoy playing Block Craft because it is a fun and creative game. I love building houses, cities, and different structures. The game is easy to play and has many interesting features. I would like to see more blocks, decorations, animals, and new building options in future updates. Overall, Block Craft is a great game for creative players. Keep improving the game and adding new features!",
+        "date": "2026-07-19T11:24:01.665Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Tarinee Dewangan",
+        "score": 5,
+        "text": "This game is minecraft but free. The version is 1.17 or 1.18. The textures are better than minecraft because it is 16x16. I've seen many people complain about ads but all I want to say is that we can simply turn off the data. Even when joining a friend's world, we need data only till we join then we can turn it off. I don't know about the realms but as far as I've played the game, it deserves 5 stars.",
+        "date": "2026-06-02T05:48:17.477Z",
+        "thumbsUp": 21
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Sujaya B",
+        "score": 5,
+        "text": "great ,but when i update the game i lost my old world",
+        "date": "2026-07-25T12:17:12.159Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Eliana",
+        "score": 4,
+        "text": "i like it but it has a lot of ads",
+        "date": "2026-08-14T06:47:36.587Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Fkwe Uskss",
+        "score": 5,
+        "text": "แต่ผมไม่เคยเล่นแต่ผมโหลดดูกันจะเป็นยังไง",
+        "date": "2026-08-19T12:16:43.531Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Jiranan",
+        "score": 5,
+        "text": "เล่นเพลินมากเลยแต่ขยับผมไม่ได้",
+        "date": "2026-08-19T10:59:01.389Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "พีรดา จุลพันธ์",
+        "score": 5,
+        "text": "ฉันไม่ชอบโฆษณา",
+        "date": "2026-08-19T10:28:30.394Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ธัญ ญ่า",
+        "score": 5,
+        "text": "โทรศัพท์โหลดไม่ได้ไม่รู้เป็นไรแต่จะให้ 5 ดาวเหมือนเดิม",
+        "date": "2026-08-19T06:04:06.544Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "พร้อมพงศ์",
+        "score": 5,
+        "text": "เก่งดืมาก",
+        "date": "2026-08-18T06:50:41.951Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "สุกัญญา ศรีมุกข์",
+        "score": 5,
+        "text": "ดีมากมากคับ ๑๐๐",
+        "date": "2026-08-18T01:51:36.715Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "จินตนา บรูภาพิทักษ์",
+        "score": 4,
+        "text": "ทำไมเกมมันคัดลอกมาจาก block cazyหมดเลยอ่ะให้ 4 ดาว",
+        "date": "2026-08-16T04:11:19.246Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Por Pat",
+        "score": 5,
+        "text": "สร้างห้องยังไง",
+        "date": "2026-08-16T02:02:40.257Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Kankanit Loklinlai",
+        "score": 5,
+        "text": "ดีแต่มี โฆษณา",
+        "date": "2026-08-15T09:38:50.345Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Win win Winwin",
+        "score": 5,
+        "text": "เล่นแต่เด็กจนโตไม่ได้เล่นนานกับมาเล่นเพราะหาเกมไปเจอคิดถึงมากสนุกพึ่งจะเลยกับมาเล่นหาเท่าไหร่ไม่เจออยู่ดีๆเจอเลย🥰",
+        "date": "2026-08-15T04:54:44.957Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "สุพัตร ชูรอด",
+        "score": 5,
+        "text": "เล่นสนุก",
+        "date": "2026-08-15T01:35:44.555Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "NotMe",
+        "score": 4,
+        "text": "เล่นสนุกมากกก! แต่.... โฆษณาเยอะถึงแม้จะรู้ว่าถ้าไม่มีโฆษณาเกมจะไม่ฟรี",
+        "date": "2026-08-14T23:49:01.775Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Kuy Kub",
+        "score": 5,
+        "text": "ไม่ชอบตรงที่พอเข้าแล้วกดเริ่มเกมมันคราฟของไม่ได้พอกดคราฟมันค้างแล้วมันก็เด้งออก เป็นงี้14รอบ เลยลบออก😞",
+        "date": "2026-08-14T14:44:28.400Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Ph Phone",
+        "score": 5,
+        "text": "ชอบมากเลยครับเพราะมันสนุกมากเลยครับ",
+        "date": "2026-08-14T13:00:49.313Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ศักดิ์ชัย โกมิตร",
+        "score": 5,
+        "text": "สนุกมากครับสำหรับผมชอบแบบมีผี",
+        "date": "2026-08-14T11:03:40.830Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "วริศรา",
+        "score": 5,
+        "text": "ดีค่ะเล่นสนุกมากค่ะ",
+        "date": "2026-08-14T10:25:33.320Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ผู้ใช้ Google",
+        "score": 5,
+        "text": "สนุกมากเลยครับเล่นกับเพื่อนได้ครับ",
+        "date": "2026-08-13T11:24:47.528Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "วิเชียร นาดี",
+        "score": 5,
+        "text": "สนุกจัดบอกเลยนะ คนที่ชอบเล่นอะไรแบบแบบอยากเป็นแบบอยากก่อสร้างอ่ะ เหมาะเลย",
+        "date": "2026-08-13T09:14:57.410Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Phone Tap",
+        "score": 5,
+        "text": "แบบนี้ดีมาก",
+        "date": "2026-08-12T16:53:40.351Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "รัชนีกรณ์ พิมพิเสน",
+        "score": 5,
+        "text": "ดีมากเลยแต่โฆษณาเยอะไปหน่อยแจกเกม minecraft อันนี้อย่างดีเลยครับเล่นสนุกเล่นเพลินจนจะนอน 20:30 น เป็น 21:30 น เลยครับ",
+        "date": "2026-08-12T09:13:29.488Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Wilai Buddeesuk",
+        "score": 5,
+        "text": "สนุกมาก",
+        "date": "2026-08-11T07:33:05.420Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Bk Bk",
+        "score": 4,
+        "text": "Sanook",
+        "date": "2026-08-10T06:43:06.677Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Hasameen",
+        "score": 5,
+        "text": "สนุกมากเลยแถมยังเล่นกับเพื่อนได้ลายคน ชอบที่สุด",
+        "date": "2026-08-08T09:25:40.587Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Tc Tb",
+        "score": 5,
+        "text": "สนุกสุดๆ",
+        "date": "2026-08-06T06:51:48.124Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Vt Vt",
+        "score": 5,
+        "text": "ถ้าเขาเอาออกโฆษณาเล่นสนุก",
+        "date": "2026-07-30T01:14:56.814Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "จรูญศักดิ์",
+        "score": 5,
+        "text": "เสียกคับ",
+        "date": "2026-07-29T04:29:50.260Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Infinix",
+        "score": 5,
+        "text": "ดีมากนอกจากการเชื่อมต่ออินเทอร์เน็ต",
+        "date": "2026-07-25T08:17:12.819Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ฐิติวัสส์",
+        "score": 5,
+        "text": "ดีมากเลย",
+        "date": "2026-07-25T03:54:15.600Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "phumisit Dissakul",
+        "score": 5,
+        "text": "เกมดีมีคุณธรรม",
+        "date": "2026-07-25T02:46:48.561Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Orawan Lerdwirangrong",
+        "score": 5,
+        "text": "very nice game 🎮 I have played",
+        "date": "2026-07-21T11:30:21.268Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Nathamon",
+        "score": 5,
+        "text": "เข้าช้า",
+        "date": "2026-07-20T11:56:37.441Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "สุมลฑา จันทร์พุด",
+        "score": 5,
+        "text": "เกมดีที่สุดในชีวิตของผมเองครับ",
+        "date": "2026-07-18T10:29:29.799Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Talipong Center",
+        "score": 5,
+        "text": "ดีมากกก",
+        "date": "2026-07-18T07:41:58.419Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "วิเชียร พายุพัด",
+        "score": 5,
+        "text": "สนุกมากสำหรับเกมนี้ให้ 5คะแนนไม่เอา 5 ดีกว่าเอา 100 เต็ม 5 ไปเลยสนุกมากผมเล่นตั้งแต่เด็กๆแล้วผมก็สนุกกับเกมนี้จนและผมก็รู้ว่าเกมนี้มันสนุกแค่ไหนผมขอให้เกมนี้ 100 คะแนนเต็ม",
+        "date": "2026-07-17T09:19:55.331Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "P Pv",
+        "score": 5,
+        "text": "เกมดีมากค่ะ",
+        "date": "2026-07-13T17:01:04.329Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "วัลลภ สิทธิการ",
+        "score": 5,
+        "text": "🫍💙💙💙",
+        "date": "2026-07-11T04:20:05.930Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Vn Vn4",
+        "score": 5,
+        "text": "โฆษณาเยอะเกินไป",
+        "date": "2026-07-11T03:49:34.628Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "พัดชา กรดสุวรรณ",
+        "score": 5,
+        "text": "เคยเล่นอยู่เมื่อก่อนอะ (ส่วนตัว)ถ้าอยากเล่นกับเพื่อนต้องใช้เน็ตเดียวกันแค่เปิดฮอตสปอตแต่ปิดเน็ต",
+        "date": "2026-07-07T13:43:12.143Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Redmi",
+        "score": 5,
+        "text": "สนุกมากกกกกกกเลย",
+        "date": "2026-07-07T13:32:33.720Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Sombjt Cjkhd",
+        "score": 5,
+        "text": "ดีมากเลีย",
+        "date": "2026-07-07T06:54:17.714Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ก้องกิดากร ผลาเลิศ",
+        "score": 5,
+        "text": "ดีมากครับ",
+        "date": "2026-07-07T00:25:09.540Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ธนกฤต นามวัฒ",
+        "score": 5,
+        "text": "ใส่modก็ได้ดีดีดี",
+        "date": "2026-07-05T13:03:28.110Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Somchai Tanukig",
+        "score": 5,
+        "text": "สนุกมากก",
+        "date": "2026-07-03T02:28:14.325Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Sabay Subson",
+        "score": 5,
+        "text": "มันก็สนุกดีครับเเต่ไม่เหมือนมายคราฟครับ",
+        "date": "2026-07-01T11:31:02.688Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ไน รอบโลก",
+        "score": 5,
+        "text": "ตอนเด็กๆชอบมากเลยก็เลยอยากเล่นอีกไม่อยากให้มีโฆษณาเลย",
+        "date": "2026-06-30T14:08:25.570Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "เอ็ม&เอ็ม",
+        "score": 5,
+        "text": "สนุกมากๆเลย",
+        "date": "2026-06-30T13:22:09.943Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Manatchaya Dangdech",
+        "score": 5,
+        "text": "สนุดมาด",
+        "date": "2026-06-30T10:22:44.370Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Tong",
+        "score": 5,
+        "text": "ทำได้ดีมาก",
+        "date": "2026-06-29T10:06:23.244Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ธันวา",
+        "score": 5,
+        "text": "ดีโดครับ",
+        "date": "2026-06-28T14:46:43.955Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "สันติ รัตนพันธุ์",
+        "score": 5,
+        "text": "ดี โฆษณาเยอะเกินไป",
+        "date": "2026-06-28T12:27:47.483Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "นรง ดีไชยสง",
+        "score": 5,
+        "text": "สนุกมากกๆ",
+        "date": "2026-06-28T12:10:34.216Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Rasamee Theandang",
+        "score": 5,
+        "text": "ปิดเน็ดสนุกมาค่ะ",
+        "date": "2026-06-27T12:10:37.262Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Mobile",
+        "score": 5,
+        "text": "น่าสนุกจริงๆครับมันมีแต่ความสนุกมันให้อะไรบ้างมีอะไรเต็มเลยจริงๆ",
+        "date": "2026-06-27T11:04:06.710Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Gdhd Vhd",
+        "score": 5,
+        "text": "เกมนี้สนุกมากๆเล่นกับเพื่อนได้แต่ถ้าเอาโฆษณาออกได้ก็จะสนุกกว่านี้แต่เเค่นี้ก็สนุกแล้วเหมือนได้เป็นอมตะเลยแกล้งเพื่อนสนุกมาก555",
+        "date": "2026-06-27T01:47:32.637Z",
+        "thumbsUp": 14
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "big one",
+        "score": 4,
+        "text": "ຄ້າຍຄືຂອງແທ້ເລີຍ ແຕ່ຮູບບໍ່ສົມຈິງຄືໂຄສະນາ",
+        "date": "2026-06-26T06:59:59.451Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Pa Pkk",
+        "score": 5,
+        "text": "👍👍👍👍",
+        "date": "2026-06-26T02:47:11.811Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ชอรากร",
+        "score": 5,
+        "text": "ลงมอดได้ด้วย",
+        "date": "2026-06-21T14:38:11.120Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ณัฐชา พันธ์เหล็ก",
+        "score": 5,
+        "text": "เค้าไม่เล่นเกมนะ",
+        "date": "2026-06-21T03:43:55.764Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Realme Indy",
+        "score": 5,
+        "text": "สนุกเเน่นอ",
+        "date": "2026-06-20T11:22:06.782Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "KLKP TAFGH",
+        "score": 5,
+        "text": "เล่นดีมากค่ะ",
+        "date": "2026-06-20T06:39:17.919Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Bkm Bkm",
+        "score": 5,
+        "text": "สนุกดี",
+        "date": "2026-06-08T08:02:12.330Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Tanarat",
+        "score": 5,
+        "text": "เกมดี",
+        "date": "2026-06-02T05:59:10.432Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Pattaraphon Thamanol",
+        "score": 5,
+        "text": "อันนี้เล่นดีมากครับเพราะว่าผมชอบเล่นและอีกอย่างเวลาปิดเน็ตมันก็จะไม่มีโฆษณาอันนี้เล่นดีมากครับแต่เวลาจะมีตัวละครหลายตัวตัวมันก็จะแหลกมากๆ",
+        "date": "2026-05-23T01:48:11.325Z",
+        "thumbsUp": 25
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Fook Ghost",
+        "score": 5,
+        "text": "ความสนุกมากมากๆเลยแบบมาเล่นแบบสนุกมากๆแต่ผมอยากเล่นแบบเป็นร้อยๆครั้งอ่ะเป็นเกมที่เสมือนจริงมากแบบแบบผมพูดไม่ออกเลยอ่ะดีมากเลยผมอยากเล่นอีกอยากเล่นตลกค้างแบบสนุกที่สุดคืนนี้ขอให้เป็นสนุกสุดๆให้หน่อยจุ๊บเดียวก็เล่นได้อ่ะดีมากแบบดีที่สุดแบบดีๆๆอ่ะติดตั้งติดผมให้ 1 และคะแนนหลังแบบปีหน้าแบบดีๆบ้างมันดีเกินอ่ะแบบดีที่สุดอ่ะผมอยากเล่นอีกแล้วก็อยากเล่นเป็นวันเป็นพันล้านน่ะ",
+        "date": "2026-05-30T11:56:12.966Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Chonnakan Nillabool",
+        "score": 5,
+        "text": "เกมสนุกดีครับแต่เสียดายโฆษณาเยอะไปหน่อยครับ",
+        "date": "2026-04-11T03:27:14.938Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "กนกลดา มะโนเชื้อ",
+        "score": 5,
+        "text": "สนุกมากกถึงจะเป็นของปลอมสนุกมากสัตว์แต่ละตัสน่ารักมากกกก",
+        "date": "2026-04-11T16:54:07.242Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "อรภัทร์ชา พิมพ์เนาว์",
+        "score": 4,
+        "text": "สนุกมากค่ะ แต่อยากให้แก้ตรงโฆษณา เพราะมาถี่เกินน",
+        "date": "2026-04-23T07:27:10.744Z",
+        "thumbsUp": 14
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "06ธนยศ ใจกล้า",
+        "score": 5,
+        "text": "สนุกมากกกฉันอยากเล่นแมปสนุกหรือเกมมายคราฟที่สนุกแบบนี้มานานแล้วและฉันรอโหลดเพื่อมาเล่นเกมมายคราฟที่สุกมาก",
+        "date": "2026-01-23T14:40:06.555Z",
+        "thumbsUp": 24
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "สุรพล กลับประทุม",
+        "score": 5,
+        "text": "ดีที่มีบล็อกที่ไม่จำกัดเพื่อสร้างสรรค์",
+        "date": "2026-01-01T07:01:48.395Z",
+        "thumbsUp": 16
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "หมีพู หนองโสม",
+        "score": 4,
+        "text": "โฆษณามาเยอะเกิน แต่ก็สนุกดีน่ะ",
+        "date": "2026-05-16T16:19:03.274Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Namcha Prapawarin",
+        "score": 4,
+        "text": "สนุกเเต่อยู่ดีๆมันก่บินไม่ได้คือไรเเล้วเดินช้าด้วย",
+        "date": "2026-05-17T05:10:43.613Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Khamken Lodthaisong",
+        "score": 5,
+        "text": "โฆษณามาถี่เกินแต่โดยรวมดี",
+        "date": "2026-04-10T10:05:41.498Z",
+        "thumbsUp": 13
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "Chun Hei Yip",
+        "score": 5,
+        "text": "不開網絡就不會有廣告出現，十分好玩更正版差不多",
+        "date": "2026-08-15T14:10:43.569Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "廖煌",
+        "score": 5,
+        "text": "這很好玩,但是不太正常",
+        "date": "2026-08-09T02:26:11.862Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "簡慧萍",
+        "score": 5,
+        "text": "好玩，但是不要超過",
+        "date": "2026-07-06T15:11:33.499Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "石娘娘",
+        "score": 5,
+        "text": "版本超級新超級好玩建議把盔甲武器的建模做好這樣就更好玩了",
+        "date": "2026-06-29T20:49:08.566Z",
+        "thumbsUp": 9
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "周曄曄",
+        "score": 5,
+        "text": "手機的Minecraft遊戲有廣告就不好玩了啦手機的Minecraft遊戲有廣告就不好玩了",
+        "date": "2026-06-15T15:37:18.201Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "蔡政杰",
+        "score": 5,
+        "text": "我想要玩這個",
+        "date": "2026-05-17T04:14:31.531Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "李浡睿",
+        "score": 5,
+        "text": "最好玩的遊戲",
+        "date": "2026-04-09T11:59:15.497Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "毅",
+        "score": 5,
+        "text": "可以做自己想要做的事",
+        "date": "2025-12-28T04:48:28.408Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "陳建銘",
+        "score": 5,
+        "text": "有很多人物很有趣",
+        "date": "2025-12-27T07:09:05.620Z",
+        "thumbsUp": 9
+      }
+    ],
+    "negative": [
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Samuel Antonio Licaros",
+        "score": 1,
+        "text": "just. no.",
+        "date": "2026-08-19T13:20:12.900Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Juveriya Chogale",
+        "score": 1,
+        "text": "the game is good but ad is coming in every time ad end but I can't skip the ad",
+        "date": "2026-08-19T12:29:46.726Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ismael Bisa ismael",
+        "score": 1,
+        "text": "to much ads but is good game but the ads broo",
+        "date": "2026-08-19T09:57:02.619Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mamta Dwivedi",
+        "score": 1,
+        "text": "ekdum bekaar game hai infact game is okey but the ads are too much",
+        "date": "2026-08-19T09:55:23.239Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Andrea Magano",
+        "score": 2,
+        "text": "im not playing it",
+        "date": "2026-08-19T07:48:13.843Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Felcita Smiju",
+        "score": 1,
+        "text": "its just filled with ads",
+        "date": "2026-08-19T04:55:10.469Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Joaquin Inigo Bustamante Valdez",
+        "score": 1,
+        "text": "Some free games don't spam advertisements but this? this is just a advertisement spam trap I can even play 1 second with my cousin without seeing an ad disrupting our game play, worst Minecraft rip off, and every advertisement is inescapable, delete this horrid game it does not deserve to be in play store",
+        "date": "2026-08-19T03:33:58.221Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Michael Tapota",
+        "score": 1,
+        "text": "worst game ever, many ads, and glitches I",
+        "date": "2026-08-19T03:28:31.212Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Renalyn Camposano",
+        "score": 1,
+        "text": "I literally set it to creative but when i joined. SURVIVAL.Im deleting this dumb app.",
+        "date": "2026-08-19T01:39:41.876Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Felicia Freeman",
+        "score": 1,
+        "text": "too much ads",
+        "date": "2026-08-18T16:20:11.435Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Trevor kyle Santos",
+        "score": 1,
+        "text": "terrible ads all up in my face non-stop and I can't even get rid of them unless I close the game and come back because it forces a random thing on my screen that I can't do anything about and that gets in the way of the x button so I can't get rid off it",
+        "date": "2026-08-18T14:48:05.982Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "cute Vaishnavi Alok sharma",
+        "score": 1,
+        "text": "functions are very bad 🤮🤮",
+        "date": "2026-08-18T12:38:28.556Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "AAYAN ASAD DOGAR",
+        "score": 1,
+        "text": "Because I can'nt skip ad",
+        "date": "2026-08-18T11:05:12.695Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mamta Singh",
+        "score": 1,
+        "text": "Yeh, ek number ka Ganda game hai.\\nIsmein mob se kimein unka samna nikat pata",
+        "date": "2026-08-18T10:38:41.505Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Yuriy Matskovych",
+        "score": 1,
+        "text": "dislike",
+        "date": "2026-08-18T10:09:35.280Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Yash Gupta",
+        "score": 1,
+        "text": "game hi start nahi ho raha 😑😏😒😮‍💨🙄😤😤😤😤",
+        "date": "2026-08-18T08:05:14.924Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Lexx",
+        "score": 1,
+        "text": "Adds , every time I try to play the game",
+        "date": "2026-08-18T01:32:33.926Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "David Storring",
+        "score": 1,
+        "text": "the amount of ads makes the game unplayable. you get about 1 minute then 2 intrusive ads that take up the whole screen. you can skip after 5 seconds but the frequency makes the game unplayable. they need take it easy on the ads. not wasting my time on this.",
+        "date": "2026-08-17T22:52:58.550Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Tara Howell",
+        "score": 1,
+        "text": "the ads was just too much and everytime I play it it logs me out fix it",
+        "date": "2026-08-17T20:52:18.383Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Tracy Mclean",
+        "score": 1,
+        "text": "Too many ads every 2 seconds. I could barely play the game",
+        "date": "2026-08-17T20:02:16.280Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Ro Ha",
+        "score": 1,
+        "text": "I will give it five stars if you update the game",
+        "date": "2026-08-17T18:29:15.515Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Maribeth Mondares",
+        "score": 2,
+        "text": "its good,but one time i play the game it gave me an ad and it crash when i reopen it when its still loading it make a weird sound like so loud i got scared and delete it please wth is that",
+        "date": "2026-08-17T12:58:07.783Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "HamzaAli",
+        "score": 1,
+        "text": "Ap ne caise banah hkt igju jhu game khjus ganda ha",
+        "date": "2026-08-17T12:35:14.650Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jasmine",
+        "score": 2,
+        "text": "WAYYYY too many ads. It's really high quality and in general well-made, but the amount of ads makes it unplayable. The MOMENT I entered the app, there was an ad. I decided to keep trying to play instead of judging off one ad, but as soon as I created my first world, there was another ad. This one didn't let me exit out and I had to completely close and reopen the app and spawn back into my world to try and play. About 2 and a half minutes into playing, there was another uncloseable ad.",
+        "date": "2026-05-16T10:51:39.347Z",
+        "thumbsUp": 27
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Aldrin regalado",
+        "score": 1,
+        "text": "the game is load of ads bro, like I got 8 iron and the freaking ads pop up, there where like 5 zombies chasing me and when I'm back I died on the game, now after I go back to the same coordinate where my items drop they despawn.",
+        "date": "2026-08-13T05:45:33.297Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Robecca Paone",
+        "score": 1,
+        "text": "every time I open the app it hits me with an ad and when I try to play with my cousin it kicks me out causing my cousin to not be able to join in the multiplayer. and sometimes the x is too small to close the ads 😕",
+        "date": "2026-08-11T19:10:37.561Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Dimitra Soldatou",
+        "score": 1,
+        "text": "after the update I lost all my worlds I don't know what happened but I've been playing for so long and all my hard work was in vain. Also Some villagers are all black and purple. Please fix it!",
+        "date": "2026-08-14T11:45:49.964Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "eon",
+        "score": 1,
+        "text": "Every time I open the app it hits me with an ad sometimes the x to come out the ad does not appear and when I tried to join my friends it just kicks me out every time the ad appears and please take out all the ads",
+        "date": "2026-08-11T19:00:15.935Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Seth Stewart",
+        "score": 2,
+        "text": "I played this game because it is the only one pa will play with me and then we worked so hard making are one castle on a world I may never see again an update wiped all the data 😡👎",
+        "date": "2026-07-26T08:45:02.357Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Danielle Smith",
+        "score": 1,
+        "text": "absolute waste of time. i can't even start playing without an ad locking me out..",
+        "date": "2026-08-16T19:32:47.863Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Richa Sinha",
+        "score": 1,
+        "text": "too many ads I hate ads if there were no ads the game was good and add mace and spear and wind charge",
+        "date": "2026-08-11T12:18:56.177Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Nestor Rodriguez",
+        "score": 1,
+        "text": "when playing the game there was so many ads and it glitches alot.",
+        "date": "2026-08-17T00:27:57.830Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Whitnee Davis",
+        "score": 1,
+        "text": "any ads in the ads are impossible to quick like this game sucks I would give it a zero",
+        "date": "2026-08-12T04:45:39.294Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Nandani kumari Nandani kumari",
+        "score": 1,
+        "text": "The air button position Is not good If you are the developer of this game please Correct it",
+        "date": "2026-08-08T12:45:43.147Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Achi Wilondja",
+        "score": 2,
+        "text": "it's fun but I keep getting add when I got the tiktok one I could not close. it",
+        "date": "2026-08-13T23:50:59.220Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Sarah Snyder",
+        "score": 1,
+        "text": "I got ads every second is is so bad it sucks im gust going to pay for the real on do no download this game I star",
+        "date": "2026-08-13T21:24:49.641Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Bob",
+        "score": 1,
+        "text": "3 commercials already. I haven't even created a profile. instant uninstall.",
+        "date": "2026-07-21T00:14:40.164Z",
+        "thumbsUp": 8
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "christian constantine",
+        "score": 1,
+        "text": "this game is good but i spent alot of time building modern house that got deleted wow such a nice app i would give it zero starsT_T x_x",
+        "date": "2026-07-22T00:11:46.279Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Adwoa",
+        "score": 1,
+        "text": "too much ads I can barely place items down its horrible",
+        "date": "2026-08-12T21:27:39.706Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Vishnu Solanki",
+        "score": 1,
+        "text": "this is very bad, i made my world my dream home after so many efforts of 7 months .but the game creator had deleted my world. now i have to restart",
+        "date": "2026-08-01T04:32:34.811Z",
+        "thumbsUp": 10
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "วิษณุ ไชยชมภู",
+        "score": 2,
+        "text": "มีโฆษณาเยอะ",
+        "date": "2026-08-15T05:30:52.290Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "รพีภัทร มูลฉวี",
+        "score": 1,
+        "text": "เกมมีโฆษณาที่ไม่มีปุ่มข้ามหรือออกเลย",
+        "date": "2026-07-18T04:42:53.954Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Jandee Janda",
+        "score": 2,
+        "text": "โฆษณาโคตรเยอะ",
+        "date": "2026-07-18T03:16:29.336Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Baiboon SR",
+        "score": 1,
+        "text": "they won't let me play they kick me out of the game",
+        "date": "2026-07-05T00:43:25.360Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Night Pitakpong",
+        "score": 1,
+        "text": "อยากให้เอาโฆษณาออกครับ",
+        "date": "2026-07-04T05:50:39.815Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "นวินดา เดชรัตน์",
+        "score": 1,
+        "text": "ไม่ตรงกับสิ่งที่เห็นเลย",
+        "date": "2026-06-02T00:37:20.670Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ภานุพงษ์ แซ่จึง",
+        "score": 1,
+        "text": "กว่ามันเข้าจะมีเเต่โฆษณาเเล้วก็กว่าจะมันมีเเต่หน้าเดี่ยวเอง",
+        "date": "2026-05-13T15:50:32.759Z",
+        "thumbsUp": 12
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "黎萘",
+        "score": 1,
+        "text": "广告多的要死，不过，他还挺像正版的^_^¦¦¦",
+        "date": "2026-08-18T14:28:40.292Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "Frank Chiou",
+        "score": 1,
+        "text": "不應該更新",
+        "date": "2026-07-22T12:07:39.468Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "陳恩偉",
+        "score": 1,
+        "text": "一直出現廣告害別人來不及反應按到退出超級爛的一直出現廣告過沒幾分鐘要出現害別人中途突然怎樣都不知道發生什麼事",
+        "date": "2026-07-22T06:24:55.571Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "加.",
+        "score": 1,
+        "text": "广告永远按不到也是垃圾",
+        "date": "2026-07-16T11:19:58.651Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "Olivia Mimi",
+        "score": 1,
+        "text": "总是来广告差评！",
+        "date": "2026-06-02T05:46:41.670Z",
+        "thumbsUp": 7
+      }
+    ],
+    "neutral": [
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "POONAM ANAND",
+        "score": 3,
+        "text": "very very similar to real Minecraft but you really need to update it because they are so many things that real Minecraft has but not this one, I know it's a duplicate version of Minecraft but adding new things that real Minecraft has boosts it.",
+        "date": "2026-08-19T11:57:42.886Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Tufan Sarder",
+        "score": 3,
+        "text": "এটা অনেক খারাপ গেম এটার জন্য তিন স্টার",
+        "date": "2026-08-18T16:37:38.950Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Lolita Castro",
+        "score": 3,
+        "text": "so.much fun",
+        "date": "2026-08-18T01:34:16.277Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "SoTired",
+        "score": 3,
+        "text": "I usually just turn my data off so there's no ads, BUT I would recommend a few things. Please update it to 1.18, Caves and Cliffs pt.2. And, if you could, please update the llama, horse, and certain Villagers textures. Other than that, it's great.",
+        "date": "2026-07-26T20:13:08.968Z",
+        "thumbsUp": 7
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Jesse Baker",
+        "score": 3,
+        "text": "It's a good game but there are way too many ads. On top of that, sometimes there are ads I can't exit out of.",
+        "date": "2026-08-15T05:53:11.910Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Arlene Joy Pavia",
+        "score": 3,
+        "text": "since I can't download Minecraft, I downloaded this instead. There's so many ads, its like every 30 seconds. I can't use Command block either, it's always error. At first I found it very fun to play but after a long time I grew tired of being alone. I can't change my appearance either, or maybe I just don't know where to change it. So if you want to download this app, I recommend that you turn off the internet or data before playing, to avoid so many ads. And I hope to find a playmate here!",
+        "date": "2026-08-03T07:01:32.728Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Mark Virgil M. Victorio",
+        "score": 3,
+        "text": "idk it's fun but a bit quiet and it's good not very original to Minecraft",
+        "date": "2026-08-15T05:07:40.426Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Prince Tomo",
+        "score": 3,
+        "text": "It has ads and I hate ads really really hate it I give it three star",
+        "date": "2026-08-16T08:01:40.597Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Aaliyan Ahmed",
+        "score": 3,
+        "text": "ok decent game but way to many ads its giving me a hard time to build",
+        "date": "2026-08-14T15:44:17.911Z",
+        "thumbsUp": 1
+      },
+      {
+        "source": "google_play",
+        "lang": "en",
+        "userName": "Analia Roche",
+        "score": 3,
+        "text": "It worked really well for a while but one day I opened it and all my worlds are gone",
+        "date": "2026-07-21T19:43:37.841Z",
+        "thumbsUp": 3
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "กรภัทร์",
+        "score": 3,
+        "text": "ถ้าเอาโฆษณาออก สนุกมาก",
+        "date": "2026-08-12T12:47:24.366Z",
+        "thumbsUp": 0
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "Totozaa Zaa",
+        "score": 3,
+        "text": "จริงๆมันก็สนุกแต่ไม่มีเบาะรองนั่งที่อัพเดทเข้ามาใหม่ในMinecraft ของจริง",
+        "date": "2026-08-08T04:50:37.957Z",
+        "thumbsUp": 2
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "ณัฐพงศ์ กะการดี",
+        "score": 3,
+        "text": "เล่นเกมได้สร้างบ้านไม่มีโฆษณา",
+        "date": "2026-06-21T10:31:38.633Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "phloenjai p",
+        "score": 3,
+        "text": "เราไม่ค่อยชอบเพราะมันมีโคสนาต้อนที่เปิดเน็ต (ความคิดส่วนตัว) :/",
+        "date": "2026-06-03T13:08:17.339Z",
+        "thumbsUp": 4
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "อาซีซะ ลาเต๊ะ",
+        "score": 3,
+        "text": "ดีมากกแต่โฆษณาเยอะอยากให้ปรับลงโฆษณานอยย",
+        "date": "2026-04-11T04:37:01.507Z",
+        "thumbsUp": 5
+      },
+      {
+        "source": "google_play",
+        "lang": "th",
+        "userName": "พัชรพล เขียวหวาน",
+        "score": 3,
+        "text": "ใช้ได้ไม่แย่แต่ติดที่โฆษณาเยอะไปหน่อยแต่ก้เล่นได้สนุก",
+        "date": "2026-04-09T05:28:49.731Z",
+        "thumbsUp": 6
+      },
+      {
+        "source": "google_play",
+        "lang": "zh-TW",
+        "userName": "阿仁",
+        "score": 3,
+        "text": "沒有重鎚就不好玩了",
+        "date": "2026-07-11T03:04:16.869Z",
+        "thumbsUp": 3
+      }
+    ]
+  },
+  "similarApps": [
+    {
+      "appId": "com.diamond.city.house.best.building.craft.vip",
+      "title": "Block World - Craft City",
+      "developer": "Patane Global",
+      "score": 4.1782947,
+      "icon": "https://play-lh.googleusercontent.com/vjxg1if5mbAXfmhEhQHnDpPSVz4LSgfmeGv9OH6rb0xpI4nLcy4pEmEIfWSbCugsXo-f9NncfrmV002VmiJQRw"
+    },
+    {
+      "appId": "com.good.boy.education.craft.best.building.sun",
+      "title": "Craft World Block Building 3D",
+      "developer": "Patane Global",
+      "score": 4.1302934,
+      "icon": "https://play-lh.googleusercontent.com/NJCoEeYrHp90AKzIlZcWlShflXdHYEkX5f2T0qu7bBwHiqYZR7QDJWRpG8xMDJps8i3FSRZ3fbbDt7Tjw-vMQH4"
+    },
+    {
+      "appId": "com.monster.world.craft.building.box.diamond.tree",
+      "title": "Block Craft - Building World",
+      "developer": "Patane Global",
+      "score": 4.13,
+      "icon": "https://play-lh.googleusercontent.com/IdvT5_Z6aQ-7PnBTsO0pzZbn5nLMAQO5Mr5ZCVC76so62O5gW_argUQCC4fTXs-Y1cgyrUmfWsGDDnDOjlEckg"
+    }
+  ],
+  "developerApps": [
+    {
+      "appId": "com.diamond.city.house.best.building.craft.vip",
+      "title": "Block World - Craft City",
+      "score": 4.1782947,
+      "icon": "https://play-lh.googleusercontent.com/vjxg1if5mbAXfmhEhQHnDpPSVz4LSgfmeGv9OH6rb0xpI4nLcy4pEmEIfWSbCugsXo-f9NncfrmV002VmiJQRw"
+    },
+    {
+      "appId": "com.good.boy.education.craft.best.building.sun",
+      "title": "Craft World Block Building 3D",
+      "score": 4.1302934,
+      "icon": "https://play-lh.googleusercontent.com/NJCoEeYrHp90AKzIlZcWlShflXdHYEkX5f2T0qu7bBwHiqYZR7QDJWRpG8xMDJps8i3FSRZ3fbbDt7Tjw-vMQH4"
+    },
+    {
+      "appId": "com.monster.world.craft.building.box.diamond.tree",
+      "title": "Block Craft - Building World",
+      "score": 4.13,
+      "icon": "https://play-lh.googleusercontent.com/IdvT5_Z6aQ-7PnBTsO0pzZbn5nLMAQO5Mr5ZCVC76so62O5gW_argUQCC4fTXs-Y1cgyrUmfWsGDDnDOjlEckg"
+    }
+  ]
+}
