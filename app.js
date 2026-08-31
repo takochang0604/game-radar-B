@@ -2683,7 +2683,7 @@ function showAnalysis(appId, platform) {
         <h4 style="margin:0;white-space:nowrap">📈 排名歷史 <span id="modalChartMarketLabel" style="font-weight:500; font-size:13px; color:var(--accent-cyan); margin-left:6px;">(${MARKETS.find(m => m.code === state.modalActiveMarket)?.flag || ''} ${MARKETS.find(m => m.code === state.modalActiveMarket)?.name || state.modalActiveMarket}市場)</span></h4>
         <div id="chartRangePresets" class="chart-range-presets">
           ${[7,14,30].map(d => `<button
-            onclick="renderModalChart(window._currentDh, ${d}, this)"
+            onclick="setChartRange(${d}, this)"
             data-days="${d}"
             class="chart-range-btn${d===7?' active':''}"
           >${d}天</button>`).join('')}
@@ -2973,6 +2973,43 @@ function switchModalMarket(marketCode) {
   }
 }
 window.switchModalMarket = switchModalMarket;
+
+// ============ 圖表天數切換（7/14/30 天 preset 按鈕）============
+// 開 modal 時只預載最近 14 天快照（見 showAnalysis 的 slice(-14)），
+// 選 30 天時需補載當前市場更早的快照，否則前半段永遠是空的。
+function setChartRange(days, btn) {
+  const dh = window._currentDh;
+  if (!dh) return;
+
+  // 先用手上既有資料立即重繪（不讓使用者等載入）
+  renderModalChart(dh, days, btn);
+
+  // 範圍超出開頁預載的 14 天 → 背景補載當前市場的舊快照，載到新資料再重建重繪
+  if (!state.firebaseMode || days <= 14) return;
+  const marketCode = state.modalActiveMarket;
+  const datesToLoad = state.availableDates.slice(-days);
+  (async () => {
+    let loadedNew = false;
+    for (const date of datesToLoad) {
+      if (!state.snapshots[date] || !state.snapshots[date][marketCode]) {
+        try {
+          await ensureSnapshotLoaded(date, marketCode);
+          loadedNew = true;
+        } catch (e) { /* ignore */ }
+      }
+    }
+
+    // 載入期間使用者可能已關 modal / 換遊戲 / 換市場 / 換天數 → 以當下狀態為準
+    if (loadedNew && window._currentDh && window._currentDh.appId === dh.appId && state.modalActiveMarket === marketCode) {
+      const allDh = findRelatedDarkhorses(dh.appId);
+      rebuildModalRankHistory(dh, allDh, marketCode);
+      const activeBtn = document.querySelector('#chartRangePresets button.chart-range-btn.active');
+      const currentDays = activeBtn ? parseInt(activeBtn.getAttribute('data-days')) : days;
+      renderModalChart(dh, currentDays, activeBtn);
+    }
+  })();
+}
+window.setChartRange = setChartRange;
 
 // ============ Modal 圖表渲染（支援日期區間篩選）============
 function renderModalChart(dh, days, activeBtn) {
