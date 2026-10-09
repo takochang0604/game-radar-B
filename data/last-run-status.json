@@ -1,9 +1,28 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "step": "fetch",
-  "success": true,
-  "totalSaved": 30,
-  "totalExpected": 30,
-  "failures": [],
-  "completedAt": "2026-10-08T11:24:54.807Z"
+  "success": false,
+  "totalSaved": 24,
+  "totalExpected": 27,
+  "failures": [
+    {
+      "market": "us",
+      "platform": "android",
+      "chartType": "grossing",
+      "error": "資料品質異常（與前日重疊率過低）"
+    },
+    {
+      "market": "jp",
+      "platform": "android",
+      "chartType": "grossing",
+      "error": "資料品質異常（與前日重疊率過低）"
+    },
+    {
+      "market": "ph",
+      "platform": "android",
+      "chartType": "grossing",
+      "error": "資料品質異常（與前日重疊率過低）"
+    }
+  ],
+  "completedAt": "2026-10-09T11:33:37.415Z"
 }
